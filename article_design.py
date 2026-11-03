@@ -1,5 +1,6 @@
 """Render the same article map in the atlas and on its original site."""
 from html import escape
+from reading_map import edge_markup
 
 BASE = "https://dakleyer.github.io/perspective-beyond/"
 
@@ -14,7 +15,7 @@ def field_diagram():
 <g fill="#a9c5b3"><circle cx="40" cy="32" r="4"/><circle cx="23" cy="63" r="4"/><circle cx="23" cy="93" r="4"/><circle cx="40" cy="125" r="4"/><circle cx="240" cy="32" r="4"/><circle cx="257" cy="63" r="4"/><circle cx="257" cy="93" r="4"/><circle cx="240" cy="125" r="4"/></g>
 </svg>"""
 
-def article_map(source, title, concepts, neighbors, *, key, opened=False, conceptual=False):
+def article_map(source, title, concepts, neighbors, *, key, opened=False, conceptual=False, question=None, language="en"):
     def list_items(rows, label):
         cards = []
         for i, row in enumerate(rows, 1):
@@ -26,16 +27,26 @@ def article_map(source, title, concepts, neighbors, *, key, opened=False, concep
     branch_label = "Conceptual connections" if conceptual else "Closest readings"
     summary_label = "Map of ideas and connections" if conceptual else "Map of ideas and readings"
     count_label = "4 ideas · 4 connections" if conceptual else "4 concepts · 4 readings"
-    return f'''<aside class="pbx" id="{key}" data-pbx-source="{source}" aria-labelledby="{key}-title">
+    context = f'<p class="pbx-lens"><span>Reading lens</span> {escape(concepts[0]["title"])}</p>'
+    branch = list_items(neighbors, branch_label)
+    enhanced = ""
+    if question:
+        spanish = language == "es"
+        prompt = "Pregunta de lectura" if spanish else "Reading question"
+        branch_label = "Cómo se conectan las ideas" if spanish else "How the ideas connect"
+        context = f'<p class="pb2-question"><span>{prompt}</span>{escape(question)}</p>'
+        branch = f'<section class="pbx-branch" aria-label="{branch_label}"><h3>{branch_label}</h3><ul>{edge_markup(neighbors, concepts, language)}</ul></section>'
+        enhanced = f' data-pb2="{source}"'
+    return f'''<aside class="pbx" id="{key}" data-pbx-source="{source}" aria-labelledby="{key}-title"{enhanced}>
 <div class="pbx-cover">
 <div class="pbx-copy">
 <p class="pbx-kicker"><span aria-hidden="true">◇</span> Perspective Beyond <span class="pbx-separator">/</span> Article concept map</p>
 <h2 id="{key}-title">{escape(title)}</h2>
-<p class="pbx-lens"><span>Reading lens</span> {escape(concepts[0]["title"])}</p>
+{context}
 <a class="pbx-atlas" href="{focus_url(source)}">Explore this article in the central atlas <span aria-hidden="true">↗</span></a>
 </div><div class="pbx-art">{field_diagram()}</div>
 </div>
 <details class="pbx-details"{opened_attr}>
 <summary><span>{summary_label}</span><span class="pbx-count">{count_label}</span><span class="pbx-toggle" aria-hidden="true"></span></summary>
-<div class="pbx-branches">{list_items(concepts, "Concepts and methods")}{list_items(neighbors, branch_label)}</div>
+<div class="pbx-branches">{list_items(concepts, "Concepts and methods")}{branch}</div>
 </details></aside>'''

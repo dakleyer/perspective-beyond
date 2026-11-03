@@ -1,0 +1,63 @@
+.pbx[data-pb2] .pb2-question {
+  display:block;
+  max-width:44ch;
+  margin:.85rem 0 1rem!important;
+  color:#e5eee6!important;
+  font:500 clamp(.9rem,1.6vw,1.06rem)/1.55 system-ui,sans-serif!important;
+  text-align:left!important;
+  overflow-wrap:anywhere;
+}
+.pbx[data-pb2] .pb2-question span {
+  display:block;
+  margin-bottom:.24rem;
+  color:#f2cd98;
+  font:700 .64rem/1.4 system-ui,sans-serif;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+.pbx[data-pb2] .pb2-edge {
+  display:grid;
+  grid-template-columns:minmax(0,1fr);
+  gap:.32rem;
+  padding:.75rem .82rem;
+}
+.pbx[data-pb2] .pb2-trace {
+  display:flex;
+  align-items:center;
+  gap:.45rem;
+  min-width:0;
+  color:#50635b;
+  font:650 .75rem/1.25 system-ui,sans-serif;
+  overflow-wrap:anywhere;
+}
+.pbx[data-pb2] .pb2-trace::before {
+  content:"";
+  width:.44rem;
+  height:.44rem;
+  flex:none;
+  border:1px solid #88734d;
+  border-radius:50%;
+}
+.pbx[data-pb2] .pb2-direction {
+  display:flex;
+  align-items:center;
+  gap:.2rem;
+  min-width:0;
+  color:#856333;
+  font-size:1rem;
+}
+.pbx[data-pb2] .pb2-direction::before {
+  content:"";
+  width:clamp(.5rem,3vw,1.5rem);
+  height:1px;
+  flex:none;
+  background:#bd9d66;
+}
+.pbx[data-pb2] .pb2-edge .pbx-type {
+  margin:0;
+  font-size:.62rem;
+}
+.pbx[data-pb2] .pb2-edge .pbx-reading {
+  font-size:.83rem;
+  line-height:1.46;
+}

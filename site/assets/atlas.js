@@ -63,6 +63,7 @@ async function launch() {
     );
     const article = articleMaps.get(id);
     if (article) {
+      if (article.question) side.append(make("p", article.question, "atlas-question"));
       const mapLink = link(id, "Open the article map →");
       mapLink.href += "#article-map";
       const mapRow = make("p");

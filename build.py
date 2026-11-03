@@ -32,6 +32,7 @@ source_by_url = {r["url"].rstrip("/"): r["id"] for r in sources}
 atlas_version = sha256((ROOT / "site" / "assets" / "atlas.js").read_bytes()).hexdigest()[:12]
 style_version = sha256((ROOT / "site" / "assets" / "atlas.css").read_bytes()).hexdigest()[:12]
 article_style_version = sha256((ROOT / "site" / "assets" / "article-design.css").read_bytes()).hexdigest()[:12]
+reading_style_version = sha256((ROOT / "site" / "assets" / "article-reading.css").read_bytes()).hexdigest()[:12]
 experience_version = sha256((ROOT / "site" / "assets" / "atlas-experience.css").read_bytes()).hexdigest()[:12]
 
 MAPS = {
@@ -78,6 +79,8 @@ def page(path, title, description, body, graph=False, term=None, has_article_map
         schema["inDefinedTermSet"] = BASE + "concepts/"
     scripts = (f'<script defer src="{prefix}assets/cytoscape-3.33.1.min.js"></script><script defer src="{prefix}assets/atlas.js?v={atlas_version}"></script>') if graph else ""
     map_styles = f'<link rel="stylesheet" href="{prefix}assets/article-design.css?v={article_style_version}">' if has_article_map else ""
+    if has_article_map:
+        map_styles += f'<link rel="stylesheet" href="{prefix}assets/article-reading.css?v={reading_style_version}">'
     graph_styles = f'<link rel="stylesheet" href="{prefix}assets/atlas-experience.css?v={experience_version}">' if graph else ""
     full_title = title if not path else title + " · Perspective Beyond"
     target = OUT / path / "index.html"
@@ -223,7 +226,8 @@ def article_map(entry):
                 for item in items]
     return render_article_map(entry["source"], records[entry["source"]]["title"], nodes(entry["concepts"]),
                               nodes(entry["neighbors"]), key="article-map", opened=True,
-                              conceptual=entry.get("conceptual", False))
+                              conceptual=entry.get("conceptual", False), question=entry.get("question"),
+                              language=entry.get("language", "en"))
 
 def map_index():
     lead = "Open a compact map for an article or case to see its main ideas and follow their relationships across the corpus."
