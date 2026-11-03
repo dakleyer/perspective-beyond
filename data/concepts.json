@@ -1,0 +1,3503 @@
+[
+  {
+    "id": "C01",
+    "label": "Feasibility precomputation",
+    "definition": "Prepare admissible combinations before evaluating the live state.",
+    "boundary": "Recheck candidates against current demand and hard constraints.",
+    "family": "Computation & modelling",
+    "group": "architecture",
+    "original_label": "Precomputación de factibilidad",
+    "sources": [
+      "N1801",
+      "U1312"
+    ],
+    "layer": "concept inventory",
+    "slug": "feasibility-precomputation"
+  },
+  {
+    "id": "C02",
+    "label": "Shift constraints",
+    "definition": "A staffing assignment must respect availability, rest, coverage and work rules.",
+    "boundary": "Distinguish legal or contractual limits from preferences.",
+    "family": "Computation & modelling",
+    "group": "architecture",
+    "original_label": "Restricciones de turnos",
+    "sources": [
+      "U1312",
+      "N1801",
+      "T1415",
+      "E1563",
+      "GH038"
+    ],
+    "layer": "concept inventory",
+    "slug": "shift-constraints"
+  },
+  {
+    "id": "C03",
+    "label": "Bounded repair",
+    "definition": "Revise the commitments affected by a disruption while preserving those still valid.",
+    "boundary": "Expand the repair boundary if dependencies propagate the impact.",
+    "family": "Computation & modelling",
+    "group": "architecture",
+    "original_label": "Reparación acotada",
+    "sources": [
+      "N1833",
+      "N2082",
+      "T1427",
+      "U1325",
+      "E1954",
+      "N1292"
+    ],
+    "layer": "concept inventory",
+    "slug": "bounded-repair"
+  },
+  {
+    "id": "C04",
+    "label": "Collateral change",
+    "definition": "A repair can disturb commitments outside the initiating problem.",
+    "boundary": "Count changes against the original commitments and dependency boundary.",
+    "family": "Computation & modelling",
+    "group": "architecture",
+    "original_label": "Cambio colateral",
+    "sources": [
+      "U1325",
+      "N2082"
+    ],
+    "layer": "concept inventory",
+    "slug": "collateral-change"
+  },
+  {
+    "id": "C05",
+    "label": "Indivisible commitment",
+    "definition": "A group or obligation may have to be assigned as a unit.",
+    "boundary": "Splitting it requires a legitimate change to the obligation.",
+    "family": "Computation & modelling",
+    "group": "architecture",
+    "original_label": "Compromiso indivisible",
+    "sources": [
+      "N1803",
+      "E1563"
+    ],
+    "layer": "concept inventory",
+    "slug": "indivisible-commitment"
+  },
+  {
+    "id": "C06",
+    "label": "Group feasibility",
+    "definition": "An assignment must satisfy the constraints of the whole group.",
+    "boundary": "Pairwise compatibility may leave joint capacity or timing constraints unresolved.",
+    "family": "Computation & modelling",
+    "group": "architecture",
+    "original_label": "Compatibilidad global",
+    "sources": [
+      "E1563",
+      "GH023",
+      "N1803",
+      "N1833",
+      "T1491",
+      "E1538",
+      "N1801",
+      "U1494",
+      "N1805"
+    ],
+    "layer": "concept inventory",
+    "slug": "group-feasibility"
+  },
+  {
+    "id": "C07",
+    "label": "Safe search pruning",
+    "definition": "A demonstrated feasibility property can rule out candidates before evaluation.",
+    "boundary": "A preference heuristic provides a different kind of assurance.",
+    "family": "Computation & modelling",
+    "group": "architecture",
+    "original_label": "Poda segura de búsqueda",
+    "sources": [
+      "E1954",
+      "GH059",
+      "N1833",
+      "E1654",
+      "T1475"
+    ],
+    "layer": "concept inventory",
+    "slug": "safe-search-pruning"
+  },
+  {
+    "id": "C08",
+    "label": "Application retirement",
+    "definition": "Decide whether to continue, replace or retire an application while accounting for the capabilities it supports.",
+    "boundary": "Trace operational dependencies and a safe transition before committing.",
+    "family": "Intervention & architecture",
+    "group": "interventions",
+    "original_label": "Retiro de aplicaciones",
+    "sources": [
+      "E1538",
+      "E1654",
+      "E1704",
+      "T1472",
+      "T902",
+      "N1833",
+      "E1557",
+      "T1475",
+      "T1419",
+      "N1285",
+      "U1792"
+    ],
+    "layer": "concept inventory",
+    "slug": "application-retirement"
+  },
+  {
+    "id": "C09",
+    "label": "Observation expansion",
+    "definition": "Acquire a signal or source that could change a specific decision.",
+    "boundary": "State what distinction it adds and whether it can arrive in time.",
+    "family": "Information & representation",
+    "group": "foundations",
+    "original_label": "Ampliación de observación",
+    "sources": [
+      "E1554",
+      "N1801",
+      "E1560",
+      "T1522"
+    ],
+    "layer": "concept inventory",
+    "slug": "observation-expansion"
+  },
+  {
+    "id": "C10",
+    "label": "Process observability",
+    "definition": "Reconstruct work, events and dependencies from observable evidence.",
+    "boundary": "Declare which steps, exceptions and informal work the record covers.",
+    "family": "Information & representation",
+    "group": "foundations",
+    "original_label": "Observabilidad del proceso",
+    "sources": [
+      "E1560",
+      "N1258",
+      "N1267",
+      "N1289",
+      "N1843",
+      "T1400",
+      "T1415",
+      "T1484",
+      "U1494",
+      "N1801",
+      "T2729",
+      "E1654",
+      "E1731",
+      "T2795",
+      "T1427",
+      "T1475"
+    ],
+    "layer": "concept inventory",
+    "slug": "process-observability"
+  },
+  {
+    "id": "C11",
+    "label": "Event time and knowledge time",
+    "definition": "Separate when an event occurred from when its evidence became available.",
+    "boundary": "Assess a historical decision against the information then available.",
+    "family": "Time, memory & context",
+    "group": "foundations",
+    "original_label": "Tiempo del hecho y del conocimiento",
+    "sources": [
+      "N1835",
+      "U1322",
+      "N1289",
+      "T2799",
+      "GH012",
+      "GH066"
+    ],
+    "layer": "concept inventory",
+    "slug": "event-time-and-knowledge-time"
+  },
+  {
+    "id": "C12",
+    "label": "Auditable provenance",
+    "definition": "Track the source, version, timing, transformation and scope of a claim.",
+    "boundary": "The trail preserves accountability for interpretation.",
+    "family": "Evidence, testing & measurement",
+    "group": "human-intelligence",
+    "original_label": "Procedencia auditable",
+    "sources": [
+      "E1554",
+      "E1560",
+      "E1567",
+      "GH001",
+      "GH007",
+      "GH029",
+      "GH046",
+      "GH056",
+      "GH075",
+      "L002",
+      "L008",
+      "L011",
+      "N1289",
+      "N1328",
+      "N1876",
+      "T1423",
+      "T1472",
+      "T2694",
+      "T2788",
+      "U1322",
+      "N1835",
+      "N864",
+      "T2807",
+      "E1958",
+      "T2814",
+      "T1475",
+      "U1496",
+      "T1400",
+      "L005",
+      "GH003",
+      "N1831",
+      "N2086",
+      "GH043",
+      "GH052"
+    ],
+    "layer": "concept inventory",
+    "slug": "auditable-provenance"
+  },
+  {
+    "id": "C13",
+    "label": "Dependency-aware reconstruction",
+    "definition": "Recompute descendants affected by a correction and retain independent results.",
+    "boundary": "Keep the earlier state and the grounds for the revision.",
+    "family": "Time, memory & context",
+    "group": "foundations",
+    "original_label": "Reconstrucción por dependencias",
+    "sources": [
+      "N1835",
+      "E1567"
+    ],
+    "layer": "concept inventory",
+    "slug": "dependency-aware-reconstruction"
+  },
+  {
+    "id": "C14",
+    "label": "Stable identity",
+    "definition": "Refer to the same operational object across movements, systems and views.",
+    "boundary": "Identity resolution needs an accountable rule when sources disagree.",
+    "family": "Time, memory & context",
+    "group": "foundations",
+    "original_label": "Identidad estable",
+    "sources": [
+      "E1567",
+      "GH022",
+      "N1801",
+      "N1826",
+      "T2795",
+      "E1563",
+      "E1954",
+      "GH013",
+      "E1541"
+    ],
+    "layer": "concept inventory",
+    "slug": "stable-identity"
+  },
+  {
+    "id": "C15",
+    "label": "Contextual admissibility",
+    "definition": "Specify the circumstances under which an observation can inform a decision.",
+    "boundary": "Changes in regime, source or scope can require requalification.",
+    "family": "Time, memory & context",
+    "group": "foundations",
+    "original_label": "Admisibilidad contextual",
+    "sources": [
+      "N1831",
+      "T1513",
+      "T2729",
+      "T2795",
+      "T387",
+      "U1322",
+      "U1492",
+      "E1570",
+      "N1817",
+      "T1387",
+      "N1272",
+      "N1283",
+      "GH031",
+      "GH034",
+      "GH036"
+    ],
+    "layer": "concept inventory",
+    "slug": "contextual-admissibility"
+  },
+  {
+    "id": "C16",
+    "label": "Similarity-based retrieval",
+    "definition": "Retrieve material close to a query in content or representation.",
+    "boundary": "Verify its relevance, currency and authority for the particular use.",
+    "family": "Information & representation",
+    "group": "foundations",
+    "original_label": "Recuperación por similitud",
+    "sources": [
+      "E1570",
+      "N1831",
+      "T2795"
+    ],
+    "layer": "concept inventory",
+    "slug": "similarity-based-retrieval"
+  },
+  {
+    "id": "C17",
+    "label": "Memory horizons",
+    "definition": "Use different time windows for local episodes, persistent patterns and regime shifts.",
+    "boundary": "Carry forward the scope and expiry of each memory.",
+    "family": "Time, memory & context",
+    "group": "foundations",
+    "original_label": "Horizontes de memoria",
+    "sources": [
+      "GH051",
+      "N1833",
+      "E1563",
+      "N1831"
+    ],
+    "layer": "concept inventory",
+    "slug": "memory-horizons"
+  },
+  {
+    "id": "C18",
+    "label": "Demand signals",
+    "definition": "Observations can inform what users or operations need.",
+    "boundary": "Consider context and alternative explanations before committing resources.",
+    "family": "Information & representation",
+    "group": "foundations",
+    "original_label": "Señales de demanda",
+    "sources": [
+      "E1563",
+      "N1833",
+      "N1801",
+      "U1312",
+      "E1524"
+    ],
+    "layer": "concept inventory",
+    "slug": "demand-signals"
+  },
+  {
+    "id": "C19",
+    "label": "Versioned rules with owners",
+    "definition": "Maintain each operational rule with its owner, version and effective scope.",
+    "boundary": "Record which decisions it governed and who can change it.",
+    "family": "Time, memory & context",
+    "group": "foundations",
+    "original_label": "Reglas con dueño y versión",
+    "sources": [
+      "E1526",
+      "E1554",
+      "N864",
+      "U1494",
+      "T2744",
+      "E1654",
+      "E1954"
+    ],
+    "layer": "concept inventory",
+    "slug": "versioned-rules-with-owners"
+  },
+  {
+    "id": "C20",
+    "label": "Reusable capability",
+    "definition": "A useful function can sometimes outlive the tool or channel where it first appeared.",
+    "boundary": "Specify which dependencies travel with the function.",
+    "family": "Value, attribution & clarity",
+    "group": "human-intelligence",
+    "original_label": "Capacidad reutilizable",
+    "sources": [
+      "E1535",
+      "E1538",
+      "E1563",
+      "E1654",
+      "E1954",
+      "GH050",
+      "N1246",
+      "N1258",
+      "N1263",
+      "N1265",
+      "T2814",
+      "T897",
+      "U1792",
+      "E1570",
+      "T1475",
+      "U1312",
+      "E1777",
+      "T1400",
+      "T1472",
+      "U1494",
+      "E1704",
+      "L004",
+      "L005",
+      "L008"
+    ],
+    "layer": "concept inventory",
+    "slug": "reusable-capability"
+  },
+  {
+    "id": "C21",
+    "label": "Local channel",
+    "definition": "An interaction environment has its own practices and constraints.",
+    "boundary": "Patterns move across channels through adaptation of the interaction.",
+    "family": "Coordination & transfer",
+    "group": "interventions",
+    "original_label": "Canal local",
+    "sources": [
+      "E1570",
+      "E1535"
+    ],
+    "layer": "concept inventory",
+    "slug": "local-channel"
+  },
+  {
+    "id": "C22",
+    "label": "Scenario governance",
+    "definition": "People set policies and choose trade-offs before computation and operational commitment.",
+    "boundary": "Trace which decisions the computation can prepare and who accepts them.",
+    "family": "Decision, authority & control",
+    "group": "architecture",
+    "original_label": "Gobierno de escenarios",
+    "sources": [
+      "E1959",
+      "N2082",
+      "T1487",
+      "E1731",
+      "N1803",
+      "N1287",
+      "T2784",
+      "T2799"
+    ],
+    "layer": "concept inventory",
+    "slug": "scenario-governance"
+  },
+  {
+    "id": "C23",
+    "label": "Frame revision",
+    "definition": "Reconsider objectives, categories and assumptions that define the option space.",
+    "boundary": "Record when the intervention changes the problem being optimised.",
+    "family": "Decision, authority & control",
+    "group": "architecture",
+    "original_label": "Revisión del marco",
+    "sources": [
+      "E1731",
+      "N1826",
+      "N1833",
+      "N2082",
+      "T1499",
+      "T2795",
+      "T1421",
+      "T1487",
+      "T1484",
+      "T2811",
+      "E1628",
+      "GH019",
+      "GH028",
+      "GH064"
+    ],
+    "layer": "concept inventory",
+    "slug": "frame-revision"
+  },
+  {
+    "id": "C24",
+    "label": "Decision-critical uncertainty",
+    "definition": "A missing distinction can prevent a decision even when other facts are known.",
+    "boundary": "State what would resolve it or justify abstention.",
+    "family": "Decision, authority & control",
+    "group": "architecture",
+    "original_label": "Incertidumbre crítica",
+    "sources": [
+      "E1538",
+      "GH026",
+      "GH028",
+      "T1573",
+      "E1654",
+      "T1419",
+      "T1499",
+      "GH053"
+    ],
+    "layer": "concept inventory",
+    "slug": "decision-critical-uncertainty"
+  },
+  {
+    "id": "C25",
+    "label": "Decision-specific sufficiency",
+    "definition": "Qualify evidence for a bounded decision under specified conditions.",
+    "boundary": "A neighbouring decision can require different evidence or authority.",
+    "family": "Decision, authority & control",
+    "group": "architecture",
+    "original_label": "Suficiencia para una decisión",
+    "sources": [
+      "E1654",
+      "E1731",
+      "GH018",
+      "GH025",
+      "GH049",
+      "GH053",
+      "GH058",
+      "GH069",
+      "L005",
+      "N1803",
+      "N1833",
+      "T1427",
+      "T2795",
+      "U1494",
+      "T1573",
+      "E1567",
+      "E1729",
+      "N1826",
+      "T1415",
+      "N1296",
+      "GH005",
+      "GH006",
+      "GH008",
+      "E1538",
+      "T1522",
+      "GH059",
+      "T1484"
+    ],
+    "layer": "concept inventory",
+    "slug": "decision-specific-sufficiency"
+  },
+  {
+    "id": "C26",
+    "label": "Decision authority",
+    "definition": "Assign rights and accountability for decisions, commitments, delegation, escalation and stops.",
+    "boundary": "Identify the actor who can bind the actual operation.",
+    "family": "Decision, authority & control",
+    "group": "architecture",
+    "original_label": "Autoridad de decisión",
+    "sources": [
+      "E1541",
+      "E1554",
+      "E1563",
+      "E1567",
+      "E1954",
+      "GH035",
+      "L009",
+      "N1272",
+      "N1279",
+      "N1281",
+      "N1292",
+      "N1295",
+      "N1826",
+      "T1391",
+      "T2792",
+      "T2795",
+      "T2807",
+      "T3083",
+      "T886",
+      "U1681",
+      "N864",
+      "E1570",
+      "N1296",
+      "N1843",
+      "T878",
+      "T1472",
+      "E1628",
+      "U1498",
+      "L006",
+      "GH022",
+      "GH024",
+      "GH025",
+      "GH044",
+      "GH054",
+      "GH073",
+      "GH079"
+    ],
+    "layer": "concept inventory",
+    "slug": "decision-authority"
+  },
+  {
+    "id": "C27",
+    "label": "Context handoff",
+    "definition": "Transfer evidence with meaning, limits and conditions for its receiving decision.",
+    "boundary": "Check that the recipient can interpret, verify and act on it.",
+    "family": "Coordination & transfer",
+    "group": "interventions",
+    "original_label": "Transferencia de contexto",
+    "sources": [
+      "E1526",
+      "E1954",
+      "GH005",
+      "GH036",
+      "N1261",
+      "N1296",
+      "T2807",
+      "T3083",
+      "U1317",
+      "E1554",
+      "U1322",
+      "N1831",
+      "U1492",
+      "U1681",
+      "T2795",
+      "L005",
+      "L006"
+    ],
+    "layer": "concept inventory",
+    "slug": "context-handoff"
+  },
+  {
+    "id": "C28",
+    "label": "Effective response capacity",
+    "definition": "An actor needs time, understanding and means to act within a usable window.",
+    "boundary": "Formal permission is only one condition of operational response.",
+    "family": "Human capability & learning",
+    "group": "human-intelligence",
+    "original_label": "Capacidad efectiva de respuesta",
+    "sources": [
+      "E1541",
+      "N1279",
+      "T1387",
+      "T1391",
+      "T2795",
+      "U1498",
+      "E1704",
+      "N1281",
+      "T2729",
+      "N1285",
+      "GH032"
+    ],
+    "layer": "concept inventory",
+    "slug": "effective-response-capacity"
+  },
+  {
+    "id": "C29",
+    "label": "Proposal and commitment",
+    "definition": "Suggestion, reservation, authorisation and execution are distinct operational states.",
+    "boundary": "Record the transition that makes an obligation binding.",
+    "family": "Decision, authority & control",
+    "group": "architecture",
+    "original_label": "Propuesta y compromiso",
+    "sources": [
+      "E1954",
+      "GH025",
+      "N1803",
+      "N1826",
+      "T1417",
+      "T2795",
+      "U1325",
+      "N2082",
+      "E1567",
+      "E1959",
+      "U1494",
+      "L007",
+      "L009",
+      "GH033"
+    ],
+    "layer": "concept inventory",
+    "slug": "proposal-and-commitment"
+  },
+  {
+    "id": "C30",
+    "label": "Responsible abstention",
+    "definition": "Pause an action when declared conditions fail and preserve evidence for escalation.",
+    "boundary": "Provide an accountable path to reassessment or safe closure.",
+    "family": "Decision, authority & control",
+    "group": "architecture",
+    "original_label": "Abstención responsable",
+    "sources": [
+      "N1279",
+      "T1387"
+    ],
+    "layer": "concept inventory",
+    "slug": "responsible-abstention"
+  },
+  {
+    "id": "C31",
+    "label": "Constitutive information",
+    "definition": "An authorised decision creates a rule, mandate or responsibility.",
+    "boundary": "Discovering a fact and establishing an obligation have different costs.",
+    "family": "Information & representation",
+    "group": "foundations",
+    "original_label": "Información constitutiva",
+    "sources": [
+      "T1415",
+      "T1522",
+      "U1494",
+      "U1312",
+      "E1554",
+      "N1272",
+      "T2795",
+      "T1396",
+      "T1417",
+      "GH058",
+      "GH006"
+    ],
+    "layer": "concept inventory",
+    "slug": "constitutive-information"
+  },
+  {
+    "id": "C32",
+    "label": "Cost of Clarity",
+    "definition": "Producing decision-ready clarity uses time, effort and operational capacity.",
+    "boundary": "Distinguish discovery, constitution and absorption of effects.",
+    "family": "Value, attribution & clarity",
+    "group": "human-intelligence",
+    "original_label": "Coste de claridad",
+    "sources": [
+      "E1729",
+      "GH070",
+      "N1289",
+      "T1421",
+      "T1423",
+      "T1425",
+      "T1427",
+      "E1557",
+      "E1731",
+      "T2795",
+      "E1538",
+      "N1285",
+      "N1287",
+      "T1475",
+      "T1400",
+      "N1258",
+      "U1498",
+      "GH009",
+      "GH038",
+      "GH076"
+    ],
+    "layer": "concept inventory",
+    "slug": "cost-of-clarity"
+  },
+  {
+    "id": "C33",
+    "label": "Contribution and recognition",
+    "definition": "A capability's operational contribution and its organisational recognition can diverge.",
+    "boundary": "Trace both before reallocating or retiring its support.",
+    "family": "Value, attribution & clarity",
+    "group": "human-intelligence",
+    "original_label": "Contribución y reconocimiento",
+    "sources": [
+      "GH040",
+      "GH071",
+      "T1472",
+      "T1475",
+      "E1538",
+      "U1792",
+      "L002",
+      "L003",
+      "T902",
+      "GH046",
+      "GH079"
+    ],
+    "layer": "concept inventory",
+    "slug": "contribution-and-recognition"
+  },
+  {
+    "id": "C34",
+    "label": "Human workload counterfactual",
+    "definition": "Compare compensatory human work with a technically admissible alternative.",
+    "boundary": "Treat the comparison as estimated workload until savings are observed.",
+    "family": "Human capability & learning",
+    "group": "human-intelligence",
+    "original_label": "Contrafactual de carga humana",
+    "sources": [
+      "E1560",
+      "E1704",
+      "T1400",
+      "T874",
+      "E1729",
+      "U1317",
+      "E1636",
+      "T1391",
+      "T1472",
+      "T1494",
+      "T2803"
+    ],
+    "layer": "concept inventory",
+    "slug": "human-workload-counterfactual"
+  },
+  {
+    "id": "C35",
+    "label": "Coordination burden",
+    "definition": "Work is needed to keep actors, systems and decisions aligned.",
+    "boundary": "Measure it at the actual handoffs and decision gates.",
+    "family": "Coordination & transfer",
+    "group": "interventions",
+    "original_label": "Carga de coordinación",
+    "sources": [
+      "E1557",
+      "GH061",
+      "N1285",
+      "T1378",
+      "T902",
+      "U1498",
+      "E1636",
+      "E1630",
+      "T1421",
+      "T1472",
+      "T1391",
+      "GH068",
+      "GH074"
+    ],
+    "layer": "concept inventory",
+    "slug": "coordination-burden"
+  },
+  {
+    "id": "C36",
+    "label": "Transmission of tacit judgment",
+    "definition": "People learn to recognise exceptions through situated practice.",
+    "boundary": "Check that the receiving team can handle new exceptions independently.",
+    "family": "Human capability & learning",
+    "group": "human-intelligence",
+    "original_label": "Transmisión de juicio tácito",
+    "sources": [
+      "E1557",
+      "L010",
+      "N1287",
+      "U1317",
+      "U1496",
+      "E1959",
+      "T1400",
+      "E1535",
+      "T1396",
+      "T1427",
+      "T1475",
+      "U1498",
+      "L001",
+      "L003",
+      "L006",
+      "GH037"
+    ],
+    "layer": "concept inventory",
+    "slug": "transmission-of-tacit-judgment"
+  },
+  {
+    "id": "C37",
+    "label": "Mission activation",
+    "definition": "Establish a focused commitment, accountable roles and a practical route to intervention.",
+    "boundary": "Provide access, capacity and a defined mandate at entry.",
+    "family": "Intervention & architecture",
+    "group": "interventions",
+    "original_label": "Activación de misión",
+    "sources": [
+      "N1270",
+      "N1272",
+      "N1274",
+      "N1279",
+      "N1281",
+      "N1292",
+      "N1295",
+      "T1417",
+      "U1498",
+      "E1633",
+      "T2795",
+      "T2803",
+      "T1415",
+      "T886",
+      "T1391",
+      "T2792",
+      "T1487",
+      "T2729",
+      "E1628",
+      "L001",
+      "GH035"
+    ],
+    "layer": "concept inventory",
+    "slug": "mission-activation"
+  },
+  {
+    "id": "C38",
+    "label": "Repeatable internal learning",
+    "definition": "Training, codification and practice can make an intervention reproducible.",
+    "boundary": "Look for repeat performance beyond the originating individual.",
+    "family": "Human capability & learning",
+    "group": "human-intelligence",
+    "original_label": "Aprendizaje interno repetible",
+    "sources": [
+      "E1636",
+      "N1276",
+      "U1317",
+      "T1400",
+      "T1472",
+      "U1494"
+    ],
+    "layer": "concept inventory",
+    "slug": "repeatable-internal-learning"
+  },
+  {
+    "id": "C39",
+    "label": "Usable human capability",
+    "definition": "People must be able to perceive and exercise an option within the operating architecture.",
+    "boundary": "Measure the conditions for using the capacity, including authority and resources.",
+    "family": "Human capability & learning",
+    "group": "human-intelligence",
+    "original_label": "Capacidad humana utilizable",
+    "sources": [
+      "E1630",
+      "GH037",
+      "GH038",
+      "GH054",
+      "N1281",
+      "T1378",
+      "T1400",
+      "U1498",
+      "N1246",
+      "N1287",
+      "T1425"
+    ],
+    "layer": "concept inventory",
+    "slug": "usable-human-capability"
+  },
+  {
+    "id": "C40",
+    "label": "Detection and response",
+    "definition": "A warning detects a possible deviation and a response acts on it.",
+    "boundary": "Check response time and authority separately from detector performance.",
+    "family": "Decision, authority & control",
+    "group": "architecture",
+    "original_label": "Alerta y respuesta",
+    "sources": [
+      "GH032",
+      "T1387",
+      "E1541",
+      "T387"
+    ],
+    "layer": "concept inventory",
+    "slug": "detection-and-response"
+  },
+  {
+    "id": "C41",
+    "label": "Minimum sufficient control",
+    "definition": "Compare configurations that can sustain an explicit operational objective.",
+    "boundary": "Estimate sufficiency within the declared setting and burden.",
+    "family": "Decision, authority & control",
+    "group": "architecture",
+    "original_label": "Control mínimo suficiente",
+    "sources": [
+      "GH021",
+      "GH031",
+      "T2729",
+      "E1541",
+      "U1494",
+      "T1391",
+      "N1274",
+      "E1633"
+    ],
+    "layer": "concept inventory",
+    "slug": "minimum-sufficient-control"
+  },
+  {
+    "id": "C42",
+    "label": "Context version",
+    "definition": "Identify which contextual state informed a representation, rule or decision.",
+    "boundary": "Record how a later state changes the decision's validity.",
+    "family": "Time, memory & context",
+    "group": "foundations",
+    "original_label": "Versión del contexto",
+    "sources": [
+      "E1570",
+      "GH019",
+      "GH033",
+      "GH045",
+      "N1831",
+      "T1513",
+      "T2807",
+      "N1826",
+      "E1954",
+      "N1835",
+      "GH007"
+    ],
+    "layer": "concept inventory",
+    "slug": "context-version"
+  },
+  {
+    "id": "C43",
+    "label": "Validity and expiry",
+    "definition": "Evidence and permission have temporal and policy limits.",
+    "boundary": "A new use after expiry requires qualification.",
+    "family": "Time, memory & context",
+    "group": "foundations",
+    "original_label": "Vigencia y caducidad",
+    "sources": [
+      "E1959",
+      "N1826",
+      "N1835",
+      "T2795",
+      "U1317",
+      "E1954",
+      "GH045"
+    ],
+    "layer": "concept inventory",
+    "slug": "validity-and-expiry"
+  },
+  {
+    "id": "C44",
+    "label": "Resource arbitration",
+    "definition": "Resolve competing proposals before committing shared capacity.",
+    "boundary": "Account for prior reservations, decision rights and coupled obligations.",
+    "family": "Decision, authority & control",
+    "group": "architecture",
+    "original_label": "Arbitraje de recursos",
+    "sources": [
+      "E1954",
+      "GH062",
+      "N1801",
+      "N1805",
+      "N1826",
+      "N1843",
+      "T1484",
+      "T2807",
+      "U1325",
+      "U1498",
+      "GH023",
+      "GH042",
+      "GH061",
+      "GH069"
+    ],
+    "layer": "concept inventory",
+    "slug": "resource-arbitration"
+  },
+  {
+    "id": "C45",
+    "label": "Compositional failure",
+    "definition": "The overall operation can fail while its local controls comply.",
+    "boundary": "Identify the interaction and an independently specified outcome.",
+    "family": "Decision, authority & control",
+    "group": "architecture",
+    "original_label": "Fallo de composición",
+    "sources": [
+      "GH023",
+      "GH042",
+      "GH055",
+      "L009",
+      "T2784",
+      "T389",
+      "T878",
+      "U1325",
+      "E1959",
+      "T2776",
+      "T2818",
+      "N1843",
+      "E1541",
+      "GH057",
+      "N1805",
+      "E1954"
+    ],
+    "layer": "concept inventory",
+    "slug": "compositional-failure"
+  },
+  {
+    "id": "C46",
+    "label": "Mechanism ablation",
+    "definition": "Remove a condition in a controlled exercise to inspect its contribution.",
+    "boundary": "Hold relevant budgets and comparison conditions constant.",
+    "family": "Evidence, testing & measurement",
+    "group": "human-intelligence",
+    "original_label": "Ablación de mecanismos",
+    "sources": [
+      "GH048",
+      "GH049",
+      "GH074",
+      "T2803",
+      "U1494",
+      "N1295",
+      "T1400",
+      "GH025",
+      "GH030",
+      "GH078"
+    ],
+    "layer": "concept inventory",
+    "slug": "mechanism-ablation"
+  },
+  {
+    "id": "C47",
+    "label": "Matched comparison",
+    "definition": "Compare alternatives under equivalent obligations, information access and budgets.",
+    "boundary": "Report any asymmetries that change what the comparison can establish.",
+    "family": "Evidence, testing & measurement",
+    "group": "human-intelligence",
+    "original_label": "Comparación justa",
+    "sources": [
+      "E1956",
+      "GH060",
+      "N1265",
+      "T1421",
+      "T2799",
+      "T2803",
+      "U1498",
+      "N2082",
+      "T2788",
+      "N1815",
+      "N1835",
+      "U1494",
+      "T1475",
+      "GH070"
+    ],
+    "layer": "concept inventory",
+    "slug": "matched-comparison"
+  },
+  {
+    "id": "C48",
+    "label": "Quantum resource accounting",
+    "definition": "Include state preparation, oracle work, measurements and classical processing.",
+    "boundary": "An advantage claim needs an end-to-end comparison against credible baselines.",
+    "family": "Computation & modelling",
+    "group": "architecture",
+    "original_label": "Contabilidad de recursos cuánticos",
+    "sources": [
+      "N1815",
+      "N1817",
+      "N1819",
+      "T2744",
+      "T1513",
+      "T2799",
+      "T2814",
+      "GH027"
+    ],
+    "layer": "concept inventory",
+    "slug": "quantum-resource-accounting"
+  },
+  {
+    "id": "C49",
+    "label": "Minimum case model",
+    "definition": "Extract a bounded problem that can be checked independently of the full deployment.",
+    "boundary": "State which operational details the abstraction omits.",
+    "family": "Computation & modelling",
+    "group": "architecture",
+    "original_label": "Modelo mínimo de caso",
+    "sources": [
+      "GH052",
+      "N1263",
+      "N1819",
+      "N864",
+      "T1427",
+      "T2744",
+      "T2818",
+      "E1526",
+      "N1289",
+      "U1792",
+      "L008",
+      "GH047",
+      "GH050",
+      "N1876"
+    ],
+    "layer": "concept inventory",
+    "slug": "minimum-case-model"
+  },
+  {
+    "id": "C50",
+    "label": "Claim status",
+    "definition": "Distinguish case description, reconstruction, design, hypothesis, test and independent validation.",
+    "boundary": "Keep the claim status visible when a result is carried into another domain.",
+    "family": "Evidence, testing & measurement",
+    "group": "human-intelligence",
+    "original_label": "Estado de una afirmación",
+    "sources": [
+      "E1777",
+      "E1958",
+      "E1959",
+      "GH001",
+      "GH003",
+      "GH004",
+      "GH020",
+      "GH027",
+      "GH039",
+      "GH063",
+      "N1831",
+      "N1843",
+      "N1876",
+      "N2086",
+      "T1399",
+      "T1484",
+      "T1494",
+      "T2694",
+      "T2744",
+      "T2788",
+      "T2799",
+      "T2803",
+      "T2811",
+      "T2814",
+      "T2818",
+      "N2082",
+      "N1265",
+      "N1276",
+      "N1328",
+      "N1817",
+      "T1400",
+      "T1499",
+      "E1956",
+      "N1261",
+      "U1494",
+      "U1496",
+      "L001",
+      "GH002",
+      "T1518",
+      "GH007",
+      "GH016",
+      "T1513",
+      "N1819",
+      "GH029",
+      "GH048",
+      "GH060",
+      "N1283",
+      "GH067"
+    ],
+    "layer": "concept inventory",
+    "slug": "claim-status"
+  },
+  {
+    "id": "C51",
+    "label": "Capability federation",
+    "definition": "Coordinate capacities with shared accountability while retaining useful local differences.",
+    "boundary": "Name what must be shared and what remains locally governed.",
+    "family": "Intervention & architecture",
+    "group": "interventions",
+    "original_label": "Federación de capacidades",
+    "sources": [
+      "E1538",
+      "E1541",
+      "E1557",
+      "E1654",
+      "N1263",
+      "T886",
+      "U1312",
+      "E1563",
+      "E1554",
+      "T1423",
+      "T897",
+      "N1274",
+      "L005",
+      "L010",
+      "GH055"
+    ],
+    "layer": "concept inventory",
+    "slug": "capability-federation"
+  },
+  {
+    "id": "C52",
+    "label": "Platform choice",
+    "definition": "Choose among integrated, capability-specific and hybrid platforms.",
+    "boundary": "Compare dependencies and outcomes before scaling the choice.",
+    "family": "Intervention & architecture",
+    "group": "interventions",
+    "original_label": "Elección de plataforma",
+    "sources": [
+      "U1312",
+      "U1494",
+      "E1654",
+      "N1263"
+    ],
+    "layer": "concept inventory",
+    "slug": "platform-choice"
+  },
+  {
+    "id": "C53",
+    "label": "Audit readiness",
+    "definition": "Prepare process evidence and response capability for a defined review.",
+    "boundary": "Scope, evidence coverage and actual authority must be explicit.",
+    "family": "Evidence, testing & measurement",
+    "group": "human-intelligence",
+    "original_label": "Preparación de auditoría",
+    "sources": [
+      "T2795",
+      "U1317",
+      "U1322",
+      "N1276",
+      "GH049"
+    ],
+    "layer": "concept inventory",
+    "slug": "audit-readiness"
+  },
+  {
+    "id": "C54",
+    "label": "Discovered value",
+    "definition": "Identify useful potential in existing capabilities.",
+    "boundary": "Distinguish recognition from realisation and measured outcome.",
+    "family": "Value, attribution & clarity",
+    "group": "human-intelligence",
+    "original_label": "Valor descubierto",
+    "sources": [
+      "E1662",
+      "E1729",
+      "E1731",
+      "GH044",
+      "L008",
+      "U1792",
+      "T1400",
+      "T1475",
+      "T1472",
+      "L001",
+      "N1265",
+      "GH010",
+      "GH018",
+      "E1563",
+      "GH065"
+    ],
+    "layer": "concept inventory",
+    "slug": "discovered-value"
+  },
+  {
+    "id": "C55",
+    "label": "Pre-standardisation",
+    "definition": "Contribute cases, requirements or problems for standards discussion.",
+    "boundary": "Record the institutional status of each contribution.",
+    "family": "Institutions & frontiers",
+    "group": "institutions",
+    "original_label": "Preestandarización",
+    "sources": [
+      "E1526",
+      "T2744",
+      "T2818",
+      "L004"
+    ],
+    "layer": "concept inventory",
+    "slug": "pre-standardisation"
+  },
+  {
+    "id": "C56",
+    "label": "Institutional stewardship",
+    "definition": "Preserve and review knowledge with traceable custody.",
+    "boundary": "Document the authority and scope of any legal or publication decision separately.",
+    "family": "Institutions & frontiers",
+    "group": "institutions",
+    "original_label": "Custodia institucional",
+    "sources": [
+      "L001",
+      "N1270",
+      "N1441",
+      "T1472",
+      "T2818",
+      "N1287",
+      "E1662",
+      "T1400",
+      "T2694"
+    ],
+    "layer": "concept inventory",
+    "slug": "institutional-stewardship"
+  },
+  {
+    "id": "C57",
+    "label": "Distributed continuity",
+    "definition": "Sustain an operation across places, times and organisations.",
+    "boundary": "Track handoffs, outstanding commitments and receiving capacity.",
+    "family": "Coordination & transfer",
+    "group": "interventions",
+    "original_label": "Continuidad distribuida",
+    "sources": [
+      "GH017",
+      "GH034",
+      "N1261",
+      "T2807",
+      "U1317",
+      "U1492",
+      "U1496",
+      "U1681",
+      "E1526",
+      "N1287",
+      "T1399",
+      "N1295",
+      "L004",
+      "L006",
+      "GH011"
+    ],
+    "layer": "concept inventory",
+    "slug": "distributed-continuity"
+  },
+  {
+    "id": "C58",
+    "label": "Domain knowledge",
+    "definition": "Situated expertise identifies constraints and exceptions a general model may miss.",
+    "boundary": "Use it to test assumptions before generalising.",
+    "family": "Intervention & architecture",
+    "group": "interventions",
+    "original_label": "Conocimiento de dominio",
+    "sources": [
+      "E1557",
+      "N1258",
+      "N1287",
+      "N1441",
+      "T1427",
+      "U1496",
+      "L001",
+      "L010"
+    ],
+    "layer": "concept inventory",
+    "slug": "domain-knowledge"
+  },
+  {
+    "id": "C59",
+    "label": "Traceable explanation",
+    "definition": "Reconstruct why a recommendation or decision was produced.",
+    "boundary": "Carry relevant sources, transformations and authority with the explanation.",
+    "family": "Evidence, testing & measurement",
+    "group": "human-intelligence",
+    "original_label": "Explicación trazable",
+    "sources": [
+      "N2086",
+      "N864",
+      "T385",
+      "T1391",
+      "GH056"
+    ],
+    "layer": "concept inventory",
+    "slug": "traceable-explanation"
+  },
+  {
+    "id": "C60",
+    "label": "Unrecoverable remainder",
+    "definition": "Some distinctions are absent from the available output or record.",
+    "boundary": "Determine what new observation would be needed for the question at hand.",
+    "family": "Information & representation",
+    "group": "foundations",
+    "original_label": "Remanente no recuperable",
+    "sources": [
+      "T1396",
+      "E1557",
+      "T1522",
+      "N1287",
+      "L002"
+    ],
+    "layer": "concept inventory",
+    "slug": "unrecoverable-remainder"
+  },
+  {
+    "id": "C61",
+    "label": "JUBAP intervention sequence",
+    "definition": "Connect focus, changes in perspective, leverage points and propagation of capability.",
+    "boundary": "Read the sequence as a practice adapted to the setting.",
+    "family": "Intervention & architecture",
+    "group": "interventions",
+    "original_label": "Secuencia JUBAP",
+    "sources": [
+      "E1628",
+      "E1633",
+      "E1630",
+      "T1499",
+      "T1417",
+      "N1292",
+      "N1287",
+      "U1492",
+      "U1792",
+      "L002",
+      "L007"
+    ],
+    "layer": "concept inventory",
+    "slug": "jubap-intervention-sequence"
+  },
+  {
+    "id": "C62",
+    "label": "Resistance indicators",
+    "definition": "Operational signals help locate obstacles to a transformation.",
+    "boundary": "Signals guide investigation of causes.",
+    "family": "Intervention & architecture",
+    "group": "interventions",
+    "original_label": "Indicadores de resistencia",
+    "sources": [
+      "E1636",
+      "U1494",
+      "E1628",
+      "N1289"
+    ],
+    "layer": "concept inventory",
+    "slug": "resistance-indicators"
+  },
+  {
+    "id": "C63",
+    "label": "Release and causal inquiry",
+    "definition": "Locate a drag point and investigate what sustains it before intervening.",
+    "boundary": "Check plausible alternative explanations and the effect of removal.",
+    "family": "Intervention & architecture",
+    "group": "interventions",
+    "original_label": "Liberación y análisis causal",
+    "sources": [
+      "E1628",
+      "E1636",
+      "L007",
+      "N1285",
+      "N1272",
+      "T1417"
+    ],
+    "layer": "concept inventory",
+    "slug": "release-and-causal-inquiry"
+  },
+  {
+    "id": "C64",
+    "label": "Human perspective change",
+    "definition": "Reframe an issue so people can perceive additional options.",
+    "boundary": "The altered option space is distinct from ranking options within it.",
+    "family": "Human capability & learning",
+    "group": "human-intelligence",
+    "original_label": "Cambio de perspectiva humano",
+    "sources": [
+      "E1628",
+      "E1630",
+      "E1633",
+      "GH030",
+      "N1272",
+      "T1487"
+    ],
+    "layer": "concept inventory",
+    "slug": "human-perspective-change"
+  },
+  {
+    "id": "C65",
+    "label": "Communities of practice",
+    "definition": "Share and adapt patterns through practitioners with local judgment.",
+    "boundary": "Observe how knowledge changes when it is applied.",
+    "family": "Institutions & frontiers",
+    "group": "institutions",
+    "original_label": "Comunidades de práctica",
+    "sources": [
+      "E1535",
+      "L006",
+      "N1287",
+      "L010"
+    ],
+    "layer": "concept inventory",
+    "slug": "communities-of-practice"
+  },
+  {
+    "id": "C66",
+    "label": "Non-purchase signals",
+    "definition": "A completed-sale record omits information about choices that did not become sales.",
+    "boundary": "Interpret absence alongside opportunity, availability and behaviour.",
+    "family": "Information & representation",
+    "group": "foundations",
+    "original_label": "Señales de no compra",
+    "sources": [
+      "E1524",
+      "E1563"
+    ],
+    "layer": "concept inventory",
+    "slug": "non-purchase-signals"
+  },
+  {
+    "id": "C67",
+    "label": "Architecture decision",
+    "definition": "Change or preserve dependencies, applications and controls using evidence of capability and use.",
+    "boundary": "Identify which operational outcome and owner guide the decision.",
+    "family": "Intervention & architecture",
+    "group": "interventions",
+    "original_label": "Decisión de arquitectura",
+    "sources": [
+      "E1654",
+      "E1954",
+      "N1285",
+      "N1295",
+      "T1419",
+      "U1492",
+      "E1560",
+      "T1472",
+      "E1628",
+      "U1317",
+      "GH026"
+    ],
+    "layer": "concept inventory",
+    "slug": "architecture-decision"
+  },
+  {
+    "id": "C68",
+    "label": "Observable maturity",
+    "definition": "Repeated practice and learning provide evidence of maturity.",
+    "boundary": "State the observed practice and the scope of the assessment.",
+    "family": "Evidence, testing & measurement",
+    "group": "human-intelligence",
+    "original_label": "Madurez observable",
+    "sources": [
+      "L006",
+      "N1276",
+      "E1636",
+      "T2799"
+    ],
+    "layer": "concept inventory",
+    "slug": "observable-maturity"
+  },
+  {
+    "id": "C69",
+    "label": "Contribution evidence",
+    "definition": "Identify the technical or operational contribution of a capability.",
+    "boundary": "Use a measure independent of the attention it receives.",
+    "family": "Value, attribution & clarity",
+    "group": "human-intelligence",
+    "original_label": "Evidencia de contribución",
+    "sources": [
+      "GH067",
+      "N1246",
+      "N1876",
+      "N2086",
+      "T1472",
+      "T1475",
+      "T1513",
+      "T1518",
+      "T2814",
+      "T2818",
+      "U1792",
+      "E1654",
+      "E1662",
+      "N1833",
+      "T902",
+      "T1484",
+      "T1421",
+      "N1289",
+      "N1295",
+      "N1287",
+      "N1276",
+      "U1494",
+      "U1496",
+      "L004",
+      "L009",
+      "GH004",
+      "GH020",
+      "GH039",
+      "GH075",
+      "GH077"
+    ],
+    "layer": "concept inventory",
+    "slug": "contribution-evidence"
+  },
+  {
+    "id": "C70",
+    "label": "Organisational attribution",
+    "definition": "Decision-makers assign recognition and credit for capability.",
+    "boundary": "Inspect its effect on continuity, ownership and budget.",
+    "family": "Value, attribution & clarity",
+    "group": "human-intelligence",
+    "original_label": "Atribución organizativa",
+    "sources": [
+      "E1654",
+      "T1400",
+      "T1472",
+      "T1475",
+      "T1484",
+      "N1246",
+      "N1441",
+      "U1792",
+      "T874",
+      "N1292",
+      "E1636",
+      "U1496"
+    ],
+    "layer": "concept inventory",
+    "slug": "organisational-attribution"
+  },
+  {
+    "id": "C71",
+    "label": "Control burden",
+    "definition": "Controls introduce costs, constraints and response demands.",
+    "boundary": "Judge the burden in relation to the objective and action it enables.",
+    "family": "Decision, authority & control",
+    "group": "architecture",
+    "original_label": "Carga de control",
+    "sources": [
+      "E1541",
+      "T1391",
+      "U1494",
+      "T2729",
+      "T1400"
+    ],
+    "layer": "concept inventory",
+    "slug": "control-burden"
+  },
+  {
+    "id": "C72",
+    "label": "Response window",
+    "definition": "An answer must be understood, authorised and applied within a usable time.",
+    "boundary": "Measure each stage when testing the response.",
+    "family": "Decision, authority & control",
+    "group": "architecture",
+    "original_label": "Ventana de respuesta",
+    "sources": [
+      "N1801",
+      "N1831",
+      "T2795",
+      "T1491",
+      "L011",
+      "GH051"
+    ],
+    "layer": "concept inventory",
+    "slug": "response-window"
+  },
+  {
+    "id": "C73",
+    "label": "Human Intelligence Debt measurement unit",
+    "definition": "Declare the object, population and denominator of the measurement.",
+    "boundary": "Role-level and episode-level rates answer different questions.",
+    "family": "Evidence, testing & measurement",
+    "group": "human-intelligence",
+    "original_label": "Unidad de medida de HID",
+    "sources": [
+      "GH037",
+      "T874",
+      "T1400"
+    ],
+    "layer": "concept inventory",
+    "slug": "human-intelligence-debt-measurement-unit"
+  },
+  {
+    "id": "C74",
+    "label": "Necessary execution and oversight",
+    "definition": "Work can be required by responsibility, novelty, law or physical constraints.",
+    "boundary": "Separate this category from remediable compensation in an assessment.",
+    "family": "Human capability & learning",
+    "group": "human-intelligence",
+    "original_label": "Ejecución y supervisión necesarias (NEO)",
+    "sources": [
+      "T1400",
+      "T1425"
+    ],
+    "layer": "concept inventory",
+    "slug": "necessary-execution-and-oversight"
+  },
+  {
+    "id": "C75",
+    "label": "Avoidable compensatory work",
+    "definition": "People move, repair or reconcile information to compensate for a remediable gap.",
+    "boundary": "A feasible, risk-appropriate counterfactual supports the classification.",
+    "family": "Human capability & learning",
+    "group": "human-intelligence",
+    "original_label": "Trabajo compensatorio evitable (ACW)",
+    "sources": [
+      "T1400",
+      "T1494",
+      "T874",
+      "T1391",
+      "T897",
+      "T1491",
+      "N1296",
+      "N1276",
+      "U1322"
+    ],
+    "layer": "concept inventory",
+    "slug": "avoidable-compensatory-work"
+  },
+  {
+    "id": "C76",
+    "label": "Genuine informational contribution",
+    "definition": "People produce situated information, knowledge or judgment.",
+    "boundary": "Distinguish contribution from moving an existing record.",
+    "family": "Human capability & learning",
+    "group": "human-intelligence",
+    "original_label": "Contribución informativa genuina (GIC)",
+    "sources": [
+      "N1246",
+      "T1400"
+    ],
+    "layer": "concept inventory",
+    "slug": "genuine-informational-contribution"
+  },
+  {
+    "id": "C77",
+    "label": "Capacity recovery coefficient",
+    "definition": "Estimate the share of released capacity that returns to genuine contribution.",
+    "boundary": "Specify capability, cohort and horizon, and measure redeployment.",
+    "family": "Human capability & learning",
+    "group": "human-intelligence",
+    "original_label": "Coeficiente de recuperación de capacidad (ρ)",
+    "sources": [
+      "T1400",
+      "T1378",
+      "N1287",
+      "U1498",
+      "L001"
+    ],
+    "layer": "concept inventory",
+    "slug": "capacity-recovery-coefficient"
+  },
+  {
+    "id": "C78",
+    "label": "Revaluation before clarification",
+    "definition": "Reconstruct contribution, dependencies, substitutes and tacit knowledge before deciding continuity.",
+    "boundary": "Reassess the value of what the intervention could remove.",
+    "family": "Value, attribution & clarity",
+    "group": "human-intelligence",
+    "original_label": "Revaloración antes de clarificar",
+    "sources": [
+      "T1419",
+      "T1472",
+      "N1258",
+      "E1662"
+    ],
+    "layer": "concept inventory",
+    "slug": "revaluation-before-clarification"
+  },
+  {
+    "id": "C79",
+    "label": "Loss from a divergent operational map",
+    "definition": "A control can cause loss when its representation omits the flow that matters.",
+    "boundary": "Identify the operational difference and trace the consequence.",
+    "family": "Decision, authority & control",
+    "group": "architecture",
+    "original_label": "Pérdida por control sobre mapa divergente",
+    "sources": [
+      "GH002",
+      "GH016",
+      "T1484",
+      "T1491",
+      "U1792",
+      "T1487",
+      "T1494",
+      "N1289",
+      "N1267",
+      "L002",
+      "L005"
+    ],
+    "layer": "concept inventory",
+    "slug": "loss-from-a-divergent-operational-map"
+  },
+  {
+    "id": "C80",
+    "label": "Independent upstream outcome",
+    "definition": "Specify a service, continuity or capability result independently of local rule success.",
+    "boundary": "Use it to evaluate the coherence of the combined operation.",
+    "family": "Evidence, testing & measurement",
+    "group": "human-intelligence",
+    "original_label": "Resultado upstream independiente",
+    "sources": [
+      "T1391",
+      "T1475",
+      "T1484",
+      "T1487",
+      "T1491",
+      "T2776",
+      "T2795",
+      "U1681",
+      "N1295",
+      "N1281",
+      "E1628",
+      "U1494",
+      "U1498",
+      "U1325",
+      "GH071"
+    ],
+    "layer": "concept inventory",
+    "slug": "independent-upstream-outcome"
+  },
+  {
+    "id": "C81",
+    "label": "Operational integrity boundary",
+    "definition": "Identify the conditions needed to trust an operation during intervention.",
+    "boundary": "Apply the boundary to the stated mission and operating window.",
+    "family": "Decision, authority & control",
+    "group": "architecture",
+    "original_label": "Frontera de integridad operacional",
+    "sources": [
+      "E1633",
+      "N1283",
+      "T2776",
+      "T2795",
+      "T389",
+      "T888",
+      "N1279",
+      "T878",
+      "T387",
+      "L009",
+      "GH021"
+    ],
+    "layer": "concept inventory",
+    "slug": "operational-integrity-boundary"
+  },
+  {
+    "id": "C82",
+    "label": "From capture to architecture",
+    "definition": "Translate observations into value chains, capabilities, critical paths and competencies before process modelling.",
+    "boundary": "Check that the translation preserves decisive dependencies.",
+    "family": "Intervention & architecture",
+    "group": "interventions",
+    "original_label": "Traducción de captura a arquitectura",
+    "sources": [
+      "GH041",
+      "N1289",
+      "T2744",
+      "T1427",
+      "T1475",
+      "E1636",
+      "L002",
+      "L011",
+      "GH015"
+    ],
+    "layer": "concept inventory",
+    "slug": "from-capture-to-architecture"
+  },
+  {
+    "id": "C83",
+    "label": "Three costs of producing clarity",
+    "definition": "Account for discovery, authorised constitution and operational absorption.",
+    "boundary": "Keep the three costs distinct when comparing interventions.",
+    "family": "Value, attribution & clarity",
+    "group": "human-intelligence",
+    "original_label": "Tres costes de producir claridad",
+    "sources": [
+      "N1292",
+      "T1417",
+      "T1427",
+      "E1628"
+    ],
+    "layer": "concept inventory",
+    "slug": "three-costs-of-producing-clarity"
+  },
+  {
+    "id": "C84",
+    "label": "Reversible provisional statement",
+    "definition": "A bounded working assumption can support investigation before commitment.",
+    "boundary": "Specify expiry, owner and conditions for withdrawal.",
+    "family": "Decision, authority & control",
+    "group": "architecture",
+    "original_label": "Declaración provisional reversible",
+    "sources": [
+      "N1279",
+      "T1417",
+      "T1415",
+      "U1792"
+    ],
+    "layer": "concept inventory",
+    "slug": "reversible-provisional-statement"
+  },
+  {
+    "id": "C85",
+    "label": "Mission activation and closure",
+    "definition": "Enter intensified responsibility explicitly and leave it through review and transfer.",
+    "boundary": "Confirm that the receiving operation can sustain the result.",
+    "family": "Intervention & architecture",
+    "group": "interventions",
+    "original_label": "Activación y cierre de misión",
+    "sources": [
+      "N1272",
+      "T1378",
+      "T2818",
+      "U1312",
+      "T1400",
+      "T387",
+      "N1281",
+      "N1270",
+      "U1498",
+      "N1292"
+    ],
+    "layer": "concept inventory",
+    "slug": "mission-activation-and-closure"
+  },
+  {
+    "id": "C86",
+    "label": "Shared core of qualified evidence",
+    "definition": "A common decision surface retains evidence provenance, version and limits.",
+    "boundary": "Each use still requires qualification for its question.",
+    "family": "Coordination & transfer",
+    "group": "interventions",
+    "original_label": "Núcleo común con evidencia cualificada",
+    "sources": [
+      "N1289",
+      "N1296",
+      "T1391",
+      "T385",
+      "T2795",
+      "T1400",
+      "GH041"
+    ],
+    "layer": "concept inventory",
+    "slug": "shared-core-of-qualified-evidence"
+  },
+  {
+    "id": "C87",
+    "label": "Defined and self-assessed maturity",
+    "definition": "A practice can describe maturity through procedures and learning.",
+    "boundary": "Record the assessment as self-evaluation unless independent evidence exists.",
+    "family": "Evidence, testing & measurement",
+    "group": "human-intelligence",
+    "original_label": "Madurez definida y autoevaluada",
+    "sources": [
+      "N1276",
+      "T1475",
+      "T1400"
+    ],
+    "layer": "concept inventory",
+    "slug": "defined-and-self-assessed-maturity"
+  },
+  {
+    "id": "C88",
+    "label": "Federated integrity function",
+    "definition": "Domain specialists retain distinct responsibilities under shared conditions for decision quality.",
+    "boundary": "Document escalation and boundary interfaces.",
+    "family": "Decision, authority & control",
+    "group": "architecture",
+    "original_label": "Función federada de integridad",
+    "sources": [
+      "GH057",
+      "N1283",
+      "T878",
+      "T886",
+      "T888",
+      "U1492",
+      "N1274",
+      "GH017",
+      "GH063"
+    ],
+    "layer": "concept inventory",
+    "slug": "federated-integrity-function"
+  },
+  {
+    "id": "C89",
+    "label": "Total intervention cost",
+    "definition": "Count discovery, activation, execution, governance, disruption, learning and closure within the boundary.",
+    "boundary": "Use the same scope and horizon for alternatives.",
+    "family": "Value, attribution & clarity",
+    "group": "human-intelligence",
+    "original_label": "Coste total de una intervención",
+    "sources": [
+      "T1400",
+      "T1427",
+      "T1417",
+      "N1272"
+    ],
+    "layer": "concept inventory",
+    "slug": "total-intervention-cost"
+  },
+  {
+    "id": "C90",
+    "label": "Internal capability after exit",
+    "definition": "The recipient can operate, resolve exceptions and learn after the interveners leave.",
+    "boundary": "Demonstrate this with an independent operating or teach-back task.",
+    "family": "Human capability & learning",
+    "group": "human-intelligence",
+    "original_label": "Capacidad interna después de la salida",
+    "sources": [
+      "N1287",
+      "N1292",
+      "U1312",
+      "U1317",
+      "T1472",
+      "E1628",
+      "U1496",
+      "U1498",
+      "L002"
+    ],
+    "layer": "concept inventory",
+    "slug": "internal-capability-after-exit"
+  },
+  {
+    "id": "C91",
+    "label": "Capability activation conditions",
+    "definition": "Responsibility, access, trust, pressure, resources and interaction make capability usable.",
+    "boundary": "Staffing or equipment presence alone establishes availability.",
+    "family": "Intervention & architecture",
+    "group": "interventions",
+    "original_label": "Condiciones de activación de capacidad",
+    "sources": [
+      "GH061",
+      "GH068",
+      "GH074",
+      "L011",
+      "N1246",
+      "U1498",
+      "T1400",
+      "N1287",
+      "T2795",
+      "L004",
+      "GH079",
+      "N1285"
+    ],
+    "layer": "concept inventory",
+    "slug": "capability-activation-conditions"
+  },
+  {
+    "id": "C92",
+    "label": "Selective coupling",
+    "definition": "Connect systems in stages to expose capabilities to new demands while retaining adaptation space.",
+    "boundary": "Treat effects of selective coupling as a proposition to test in context.",
+    "family": "Coordination & transfer",
+    "group": "interventions",
+    "original_label": "Acoplamiento selectivo entre sistemas",
+    "sources": [
+      "U1498",
+      "N1292",
+      "N1279",
+      "L003"
+    ],
+    "layer": "concept inventory",
+    "slug": "selective-coupling"
+  },
+  {
+    "id": "C93",
+    "label": "Decision agreement dispersion",
+    "definition": "Count parties whose agreement is an actual gate for an atomic decision.",
+    "boundary": "Distinguish consultation, review, veto and acceptance.",
+    "family": "Coordination & transfer",
+    "group": "interventions",
+    "original_label": "Dispersión del acuerdo decisorio",
+    "sources": [
+      "U1498",
+      "N1285",
+      "T1423"
+    ],
+    "layer": "concept inventory",
+    "slug": "decision-agreement-dispersion"
+  },
+  {
+    "id": "C94",
+    "label": "Decision blocking reach",
+    "definition": "Trace dependent results delayed or blocked by a decision.",
+    "boundary": "Measure propagation separately from the number of required approvals.",
+    "family": "Coordination & transfer",
+    "group": "interventions",
+    "original_label": "Alcance de bloqueo de una decisión",
+    "sources": [
+      "N1285",
+      "U1498",
+      "T1484"
+    ],
+    "layer": "concept inventory",
+    "slug": "decision-blocking-reach"
+  },
+  {
+    "id": "C95",
+    "label": "Mobilisation threshold",
+    "definition": "Identify the observed load and conditions at which coordination intensifies.",
+    "boundary": "A retrospective threshold requires separate prospective evaluation.",
+    "family": "Intervention & architecture",
+    "group": "interventions",
+    "original_label": "Umbral de movilización",
+    "sources": [
+      "U1498",
+      "N1272"
+    ],
+    "layer": "concept inventory",
+    "slug": "mobilisation-threshold"
+  },
+  {
+    "id": "C96",
+    "label": "Sign of deviation",
+    "definition": "Compare a departure from procedure with an independently stated outcome.",
+    "boundary": "Classify the effect as helpful, harmful or unresolved with evidence.",
+    "family": "Intervention & architecture",
+    "group": "interventions",
+    "original_label": "Signo de la desviación",
+    "sources": [
+      "U1494",
+      "U1496",
+      "U1498",
+      "T1487",
+      "E1560",
+      "T1491",
+      "U1792"
+    ],
+    "layer": "concept inventory",
+    "slug": "sign-of-deviation"
+  },
+  {
+    "id": "C97",
+    "label": "Network externality compensation",
+    "definition": "Recognise or support a contributor whose value is captured elsewhere in a network.",
+    "boundary": "Identify the beneficiaries and who bears the cost.",
+    "family": "Coordination & transfer",
+    "group": "interventions",
+    "original_label": "Compensación de externalidades de red",
+    "sources": [
+      "GH040",
+      "T902",
+      "U1496",
+      "U1792",
+      "T1472",
+      "E1628",
+      "L011"
+    ],
+    "layer": "concept inventory",
+    "slug": "network-externality-compensation"
+  },
+  {
+    "id": "C98",
+    "label": "Current and target map lock",
+    "definition": "Both the current-state representation and a legitimate route to the target may be inadequate.",
+    "boundary": "Evaluate the two deficits separately before choosing a response.",
+    "family": "Intervention & architecture",
+    "group": "interventions",
+    "original_label": "Bloqueo de mapas actual y objetivo",
+    "sources": [
+      "U1792",
+      "T1417",
+      "T1427"
+    ],
+    "layer": "concept inventory",
+    "slug": "current-and-target-map-lock"
+  },
+  {
+    "id": "C99",
+    "label": "Cross-territory architecture adaptation",
+    "definition": "Transfer a function while redesigning rules, support and incentives for the receiver.",
+    "boundary": "Identify which conditions must survive and what must change.",
+    "family": "Coordination & transfer",
+    "group": "interventions",
+    "original_label": "Adaptación de arquitectura entre territorios",
+    "sources": [
+      "U1492",
+      "U1494",
+      "U1496",
+      "U1792",
+      "E1954",
+      "N1843",
+      "N1803",
+      "N1258",
+      "L004"
+    ],
+    "layer": "concept inventory",
+    "slug": "cross-territory-architecture-adaptation"
+  },
+  {
+    "id": "C100",
+    "label": "Capability migration and value capture",
+    "definition": "Capability creation, carriers, operation and value capture can occur in different places.",
+    "boundary": "Measure learning, origin losses and receiver benefits separately.",
+    "family": "Value, attribution & clarity",
+    "group": "human-intelligence",
+    "original_label": "Migración y capitalización de capacidad",
+    "sources": [
+      "E1662",
+      "U1496",
+      "T1472",
+      "T1475",
+      "U1792"
+    ],
+    "layer": "concept inventory",
+    "slug": "capability-migration-and-value-capture"
+  },
+  {
+    "id": "C101",
+    "label": "Batched coordination cadence",
+    "definition": "Group decisions to make coordination worthwhile within urgency and risk limits.",
+    "boundary": "Check the useful decision window for each group.",
+    "family": "Coordination & transfer",
+    "group": "interventions",
+    "original_label": "Cadencia de coordinación por lotes",
+    "sources": [
+      "U1498",
+      "N1801"
+    ],
+    "layer": "concept inventory",
+    "slug": "batched-coordination-cadence"
+  },
+  {
+    "id": "C102",
+    "label": "Outcome level and boundary",
+    "definition": "Locate a performance claim at task, team, organisation, network or programme level.",
+    "boundary": "Match the evidence to that level.",
+    "family": "Evidence, testing & measurement",
+    "group": "human-intelligence",
+    "original_label": "Nivel y frontera del resultado",
+    "sources": [
+      "L011",
+      "T1475",
+      "T1487",
+      "U1496",
+      "U1681",
+      "U1498",
+      "T2744"
+    ],
+    "layer": "concept inventory",
+    "slug": "outcome-level-and-boundary"
+  },
+  {
+    "id": "C103",
+    "label": "Generative integration",
+    "definition": "Combine useful differences so the parts can sustain new functions together.",
+    "boundary": "Observe the new function and the dependencies that sustain it.",
+    "family": "Coordination & transfer",
+    "group": "interventions",
+    "original_label": "Arquitectura de integración generativa",
+    "sources": [
+      "GH014",
+      "GH072",
+      "L005",
+      "U1312",
+      "T2807",
+      "U1792",
+      "E1567",
+      "GH005",
+      "GH079"
+    ],
+    "layer": "concept inventory",
+    "slug": "generative-integration"
+  },
+  {
+    "id": "C104",
+    "label": "Reductive integration",
+    "definition": "Homogenisation can remove functions or options carried by local differences.",
+    "boundary": "Distinguish loss of capability from retirement of redundant support.",
+    "family": "Coordination & transfer",
+    "group": "interventions",
+    "original_label": "Arquitectura de integración reductiva",
+    "sources": [
+      "L005",
+      "E1538"
+    ],
+    "layer": "concept inventory",
+    "slug": "reductive-integration"
+  },
+  {
+    "id": "C105",
+    "label": "Legitimacy across an interface",
+    "definition": "A carrier needs enough recognition in both communities to sustain translation.",
+    "boundary": "Mandate, consent and technical competence still have their own tests.",
+    "family": "Coordination & transfer",
+    "group": "interventions",
+    "original_label": "Legitimidad en ambos lados de una interfaz",
+    "sources": [
+      "L006",
+      "N1276",
+      "U1317",
+      "N1279"
+    ],
+    "layer": "concept inventory",
+    "slug": "legitimacy-across-an-interface"
+  },
+  {
+    "id": "C106",
+    "label": "Exploration–exploitation cycle",
+    "definition": "Read how a discovered difference can become repeatable and scale.",
+    "boundary": "Use the cycle as an interpretive lens and examine where exploration survives.",
+    "family": "Intervention & architecture",
+    "group": "interventions",
+    "original_label": "Ciclo exploración–explotación",
+    "sources": [
+      "L003",
+      "N1292",
+      "U1498",
+      "N1246",
+      "T1475",
+      "E1557"
+    ],
+    "layer": "concept inventory",
+    "slug": "explorationexploitation-cycle"
+  },
+  {
+    "id": "C107",
+    "label": "Narrative compression of capability",
+    "definition": "A compact model or story communicates complex practices and dependencies.",
+    "boundary": "Recover omitted conditions before implementation.",
+    "family": "Information & representation",
+    "group": "foundations",
+    "original_label": "Compresión narrativa de capacidad",
+    "sources": [
+      "GH043",
+      "L002",
+      "N1246",
+      "T1484",
+      "T1396",
+      "T1472",
+      "N1289",
+      "E1628",
+      "U1312",
+      "L003"
+    ],
+    "layer": "concept inventory",
+    "slug": "narrative-compression-of-capability"
+  },
+  {
+    "id": "C108",
+    "label": "Cross-frontier activation",
+    "definition": "A need or capacity in one territory, community or technical domain can open another possibility.",
+    "boundary": "Test the receiving frontier's conditions independently.",
+    "family": "Institutions & frontiers",
+    "group": "institutions",
+    "original_label": "Activación entre tipos de frontera",
+    "sources": [
+      "L004",
+      "U1492",
+      "U1494",
+      "N2086",
+      "T2744",
+      "E1954",
+      "U1498",
+      "GH062"
+    ],
+    "layer": "concept inventory",
+    "slug": "cross-frontier-activation"
+  },
+  {
+    "id": "C109",
+    "label": "Dual operational embeddedness",
+    "definition": "People or networks operating in two settings can sustain translation and continuity.",
+    "boundary": "Establish actual roles and activity in each setting.",
+    "family": "Coordination & transfer",
+    "group": "interventions",
+    "original_label": "Doble inserción operativa de portadores",
+    "sources": [
+      "L006",
+      "U1496"
+    ],
+    "layer": "concept inventory",
+    "slug": "dual-operational-embeddedness"
+  },
+  {
+    "id": "C110",
+    "label": "Intervention compression and expansion",
+    "definition": "Opening options, focused execution and organisational absorption need different structures.",
+    "boundary": "Assess the sequence against the mission and receiving capacity.",
+    "family": "Intervention & architecture",
+    "group": "interventions",
+    "original_label": "Compresión y expansión de la intervención",
+    "sources": [
+      "GH024",
+      "N1292",
+      "L003"
+    ],
+    "layer": "concept inventory",
+    "slug": "intervention-compression-and-expansion"
+  },
+  {
+    "id": "C111",
+    "label": "Effective non-closure in an open world",
+    "definition": "A finite run can close its record while the semantic question remains open.",
+    "boundary": "A formal non-closure claim depends on a declared expressive family and assumptions.",
+    "family": "Information & representation",
+    "group": "foundations",
+    "original_label": "No cierre efectivo del mundo abierto",
+    "sources": [
+      "GH008",
+      "N1803"
+    ],
+    "layer": "concept inventory",
+    "slug": "effective-non-closure-in-an-open-world"
+  },
+  {
+    "id": "C112",
+    "label": "Qualified properties of the residual",
+    "definition": "Evidence can support a bounded claim about the unresolved remainder.",
+    "boundary": "The claim has a scope and does not identify every unresolved item.",
+    "family": "Information & representation",
+    "group": "foundations",
+    "original_label": "Metapropiedad cualificada del residual",
+    "sources": [
+      "GH005",
+      "GH009"
+    ],
+    "layer": "concept inventory",
+    "slug": "qualified-properties-of-the-residual"
+  },
+  {
+    "id": "C113",
+    "label": "Existence, encounter and executable opportunity",
+    "definition": "An option can exist before anyone encounters it or can act on it.",
+    "boundary": "Each transition needs its own evidence, means and authority.",
+    "family": "Information & representation",
+    "group": "foundations",
+    "original_label": "Existencia, encuentro y oportunidad ejecutable",
+    "sources": [
+      "GH010",
+      "GH061",
+      "GH062",
+      "GH073",
+      "E1662",
+      "L004",
+      "T3083"
+    ],
+    "layer": "concept inventory",
+    "slug": "existence-encounter-and-executable-opportunity"
+  },
+  {
+    "id": "C114",
+    "label": "Diagnosing insufficiency and reconstructing information",
+    "definition": "Showing that a record is insufficient is different from acquiring a representation that answers the question.",
+    "boundary": "The reconstruction requires sources, distinctions and an effective interpretation.",
+    "family": "Information & representation",
+    "group": "foundations",
+    "original_label": "Diagnóstico de insuficiencia frente a reconstrucción",
+    "sources": [
+      "E1628",
+      "GH009",
+      "GH030",
+      "GH005",
+      "GH074"
+    ],
+    "layer": "concept inventory",
+    "slug": "diagnosing-insufficiency-and-reconstructing-information"
+  },
+  {
+    "id": "C115",
+    "label": "Record before admission",
+    "definition": "Preserve an authorised trace before its classification for possible later admission.",
+    "boundary": "Later interpretation depends on valid source and rule and on having captured the trace.",
+    "family": "Information & representation",
+    "group": "foundations",
+    "original_label": "Registro previo a admisión y promoción posterior",
+    "sources": [
+      "GH012",
+      "GH015",
+      "N1835",
+      "N1289",
+      "GH066"
+    ],
+    "layer": "concept inventory",
+    "slug": "record-before-admission"
+  },
+  {
+    "id": "C116",
+    "label": "Runtime rule plasticity",
+    "definition": "A resident program can revise its operating rules or interpretation under qualified conditions.",
+    "boundary": "The mechanism requires rights, evidence and effective change and does not extend computability.",
+    "family": "Time, memory & context",
+    "group": "foundations",
+    "original_label": "Plasticidad de reglas en ejecución",
+    "sources": [],
+    "layer": "concept inventory",
+    "slug": "runtime-rule-plasticity"
+  },
+  {
+    "id": "C117",
+    "label": "Shared semantics for an intersection",
+    "definition": "Observers can compose predicates when question, domain, event, provenance and time match.",
+    "boundary": "Verify the interpretation rather than relying on formal set overlap alone.",
+    "family": "Information & representation",
+    "group": "foundations",
+    "original_label": "Marco semántico común de una intersección",
+    "sources": [
+      "GH011",
+      "GH013",
+      "L005",
+      "U1496",
+      "E1567",
+      "GH014"
+    ],
+    "layer": "concept inventory",
+    "slug": "shared-semantics-for-an-intersection"
+  },
+  {
+    "id": "C118",
+    "label": "Bounded reference oracle",
+    "definition": "An evaluator may access fixture information withheld from the system under test.",
+    "boundary": "Limit the claim to the stated model and evaluation role.",
+    "family": "Evidence, testing & measurement",
+    "group": "human-intelligence",
+    "original_label": "Oráculo de referencia acotado",
+    "sources": [
+      "GH047",
+      "T2744"
+    ],
+    "layer": "concept inventory",
+    "slug": "bounded-reference-oracle"
+  },
+  {
+    "id": "C119",
+    "label": "Concurrent commitments of human capacity",
+    "definition": "Obligations can compete for the time and skills of the same people.",
+    "boundary": "A load inequality is only one condition of a feasible schedule.",
+    "family": "Human capability & learning",
+    "group": "human-intelligence",
+    "original_label": "Compromisos concurrentes de capacidad humana",
+    "sources": [
+      "GH038",
+      "U1312"
+    ],
+    "layer": "concept inventory",
+    "slug": "concurrent-commitments-of-human-capacity"
+  },
+  {
+    "id": "C120",
+    "label": "Sufficient distinctions for a new question",
+    "definition": "A representation must distinguish states that call for different answers in the new use.",
+    "boundary": "Earlier data may remain accurate while becoming insufficient.",
+    "family": "Information & representation",
+    "group": "foundations",
+    "original_label": "Distinciones suficientes para una pregunta nueva",
+    "sources": [
+      "GH006",
+      "GH064",
+      "GH065",
+      "T1427",
+      "N1833",
+      "E1662",
+      "T1522"
+    ],
+    "layer": "concept inventory",
+    "slug": "sufficient-distinctions-for-a-new-question"
+  },
+  {
+    "id": "C121",
+    "label": "Savings from qualified reuse",
+    "definition": "Reuse can save effort when scope, permissions and validity are checked.",
+    "boundary": "Count discovery, adaptation, verification and renewal costs.",
+    "family": "Value, attribution & clarity",
+    "group": "human-intelligence",
+    "original_label": "Ahorro por reutilización cualificada",
+    "sources": [
+      "GH009",
+      "T1421"
+    ],
+    "layer": "concept inventory",
+    "slug": "savings-from-qualified-reuse"
+  },
+  {
+    "id": "C122",
+    "label": "Historical and at-use validity",
+    "definition": "A rule can be valid for interpreting a past event and inadequate for a current decision.",
+    "boundary": "Separate event, issue, knowledge, expiry and use dates.",
+    "family": "Time, memory & context",
+    "group": "foundations",
+    "original_label": "Validez histórica y validez al uso",
+    "sources": [
+      "GH066",
+      "N1835",
+      "GH015"
+    ],
+    "layer": "concept inventory",
+    "slug": "historical-and-at-use-validity"
+  },
+  {
+    "id": "C123",
+    "label": "Partial order of non-fungible dimensions",
+    "definition": "Compare measures with declared actors, units and directions.",
+    "boundary": "Some alternatives remain incomparable until legitimate trade-offs are specified.",
+    "family": "Value, attribution & clarity",
+    "group": "human-intelligence",
+    "original_label": "Orden parcial de dimensiones no fungibles",
+    "sources": [
+      "GH079",
+      "L005",
+      "GH072",
+      "T1475",
+      "U1498",
+      "T3083"
+    ],
+    "layer": "concept inventory",
+    "slug": "partial-order-of-non-fungible-dimensions"
+  },
+  {
+    "id": "C124",
+    "label": "Fallible matched evidence acquisition",
+    "definition": "Record coverage, error, cost and provenance when gathering evidence.",
+    "boundary": "Compare alternatives with equivalent access to evidence.",
+    "family": "Evidence, testing & measurement",
+    "group": "human-intelligence",
+    "original_label": "Adquisición de evidencia falible y emparejada",
+    "sources": [
+      "GH076",
+      "GH077",
+      "T1421",
+      "T2814",
+      "GH078"
+    ],
+    "layer": "concept inventory",
+    "slug": "fallible-matched-evidence-acquisition"
+  },
+  {
+    "id": "C125",
+    "label": "Fixture label leakage",
+    "definition": "Public fixture features can accidentally reveal a label reserved for evaluation.",
+    "boundary": "Use paired controls to test whether the system actually acquired the intended evidence.",
+    "family": "Evidence, testing & measurement",
+    "group": "human-intelligence",
+    "original_label": "Fuga de etiquetas de una fixture",
+    "sources": [
+      "GH078",
+      "T2803",
+      "GH077"
+    ],
+    "layer": "concept inventory",
+    "slug": "fixture-label-leakage"
+  },
+  {
+    "id": "G01",
+    "label": "Structural Awareness",
+    "definition": "The research programme examines what can be known, decided and controlled under partial representations.",
+    "boundary": "Each component carries its own evidence and maturity.",
+    "family": "Foundations",
+    "group": "foundations",
+    "original_label": "Structural Awareness",
+    "layer": "bridge map",
+    "sources": [
+      "T1499",
+      "GH001",
+      "GH004",
+      "GH017"
+    ],
+    "slug": "structural-awareness"
+  },
+  {
+    "id": "G02",
+    "label": "The Given Universe Axiom",
+    "definition": "The axiom frames limits on recovering distinctions that are missing from available records.",
+    "boundary": "Formal use requires stated assumptions about the representation and question.",
+    "family": "Foundations",
+    "group": "foundations",
+    "original_label": "The Given Universe Axiom",
+    "layer": "bridge map",
+    "sources": [
+      "GH028",
+      "GH029"
+    ],
+    "slug": "the-given-universe-axiom"
+  },
+  {
+    "id": "G03",
+    "label": "World, record and missing context",
+    "definition": "The operating world differs from the data and categories used to represent it.",
+    "boundary": "Assess each record against the decision it is intended to support.",
+    "family": "Foundations",
+    "group": "foundations",
+    "original_label": "Mundo, registro y contexto perdido",
+    "layer": "bridge map",
+    "sources": [
+      "GH028",
+      "GH025"
+    ],
+    "slug": "world-record-and-missing-context"
+  },
+  {
+    "id": "G04",
+    "label": "Ecosystem Positioning",
+    "definition": "Allocate qualification and responsibility across participants in an ecosystem.",
+    "boundary": "Interfaces can coordinate local authority without requiring a global supervisor.",
+    "family": "Architecture",
+    "group": "architecture",
+    "original_label": "Ecosystem Positioning",
+    "layer": "bridge map",
+    "sources": [
+      "GH017",
+      "GH034",
+      "GH033"
+    ],
+    "slug": "ecosystem-positioning"
+  },
+  {
+    "id": "G05",
+    "label": "Ecosystem Awareness",
+    "definition": "Qualify evidence, dependencies, provenance and limits for a defined decision.",
+    "boundary": "A result can remain unqualified when a decisive distinction is missing.",
+    "family": "Architecture",
+    "group": "architecture",
+    "original_label": "Ecosystem Awareness (EA)",
+    "layer": "bridge map",
+    "sources": [
+      "T2776",
+      "GH025",
+      "GH028"
+    ],
+    "slug": "ecosystem-awareness"
+  },
+  {
+    "id": "G06",
+    "label": "Regime Awareness",
+    "definition": "Detect conditions that could invalidate an earlier interpretation or operating assumption.",
+    "boundary": "Detection and containment require separate checks.",
+    "family": "Architecture",
+    "group": "architecture",
+    "original_label": "Regime Awareness (RA)",
+    "layer": "bridge map",
+    "sources": [
+      "T250",
+      "GH019",
+      "GH032",
+      "S07",
+      "GH017"
+    ],
+    "slug": "regime-awareness"
+  },
+  {
+    "id": "G07",
+    "label": "Minimum Sufficient Control Architecture",
+    "definition": "Evaluate controls against stated objectives and limits in a particular operating context.",
+    "boundary": "Sufficiency is bounded by evidence, response capacity and the case.",
+    "family": "Architecture",
+    "group": "architecture",
+    "original_label": "Minimum Sufficient Control Architecture (MSCA)",
+    "layer": "bridge map",
+    "sources": [
+      "T2729",
+      "GH021",
+      "S22",
+      "S06",
+      "GH017"
+    ],
+    "slug": "minimum-sufficient-control-architecture"
+  },
+  {
+    "id": "G08",
+    "label": "Objective Envelope",
+    "definition": "Declare the objectives and conditions within which an operation should remain.",
+    "boundary": "A responsible authority sets its legitimacy and priorities.",
+    "family": "Architecture",
+    "group": "architecture",
+    "original_label": "Objective Envelope",
+    "layer": "bridge map",
+    "sources": [
+      "S06",
+      "GH017"
+    ],
+    "slug": "objective-envelope"
+  },
+  {
+    "id": "G09",
+    "label": "Qualification for a concrete decision",
+    "definition": "Evaluate what evidence suffices for an action with a stated context and owner.",
+    "boundary": "A change in scope or risk can require a new qualification.",
+    "family": "Architecture",
+    "group": "architecture",
+    "original_label": "Cualificación para una decisión concreta",
+    "layer": "bridge map",
+    "sources": [
+      "GH025"
+    ],
+    "slug": "qualification-for-a-concrete-decision"
+  },
+  {
+    "id": "G10",
+    "label": "Epistemic handoff",
+    "definition": "Pass meaning, provenance, version, authority and conditions along with evidence.",
+    "boundary": "Recipients still need access to decisive distinctions.",
+    "family": "Architecture",
+    "group": "architecture",
+    "original_label": "Epistemic handoff / transferencia contextual",
+    "layer": "bridge map",
+    "sources": [
+      "GH041",
+      "GH066",
+      "S05"
+    ],
+    "slug": "epistemic-handoff"
+  },
+  {
+    "id": "G11",
+    "label": "Delegated authority governance",
+    "definition": "Assign who may propose, approve, execute, stop and review effects.",
+    "boundary": "Responsibility follows the governance even when analysis is automated.",
+    "family": "Architecture",
+    "group": "architecture",
+    "original_label": "Gobernanza de autoridad delegada",
+    "layer": "bridge map",
+    "sources": [
+      "GH035",
+      "S19",
+      "S20",
+      "GH017",
+      "S05"
+    ],
+    "slug": "delegated-authority-governance"
+  },
+  {
+    "id": "G12",
+    "label": "Early Warning Systems",
+    "definition": "Detect signs that an operating regime or assumption is changing.",
+    "boundary": "Test false alarms, latency and response costs for the scenario.",
+    "family": "Architecture",
+    "group": "architecture",
+    "original_label": "Early Warning Systems (EWS)",
+    "layer": "bridge map",
+    "sources": [
+      "S07"
+    ],
+    "slug": "early-warning-systems"
+  },
+  {
+    "id": "G13",
+    "label": "Canonical requirements S1–S14",
+    "definition": "The research contract records specific conditions for assessing structural awareness mechanisms.",
+    "boundary": "Read the source version for the exact requirement wording.",
+    "family": "Architecture",
+    "group": "architecture",
+    "original_label": "Requisitos canónicos S1–S14",
+    "layer": "bridge map",
+    "sources": [
+      "GH025"
+    ],
+    "slug": "canonical-requirements-s1s14"
+  },
+  {
+    "id": "G14",
+    "label": "Conditions T1–T4",
+    "definition": "The theory distinguishes operating conditions that affect the qualification of evidence.",
+    "boundary": "Apply the conditions within the stated contract and example.",
+    "family": "Architecture",
+    "group": "architecture",
+    "original_label": "Condiciones T1–T4",
+    "layer": "bridge map",
+    "sources": [
+      "GH025"
+    ],
+    "slug": "conditions-t1t4"
+  },
+  {
+    "id": "G15",
+    "label": "Principles P1–P6",
+    "definition": "The foundational theory groups principles that constrain the architectural approach.",
+    "boundary": "Use the canonical version for their scope and interpretation.",
+    "family": "Foundations",
+    "group": "foundations",
+    "original_label": "Principios P1–P6",
+    "layer": "bridge map",
+    "sources": [
+      "GH028"
+    ],
+    "slug": "principles-p1p6"
+  },
+  {
+    "id": "G16",
+    "label": "Hypotheses H1–H6",
+    "definition": "The research contract separates hypotheses to be examined from requirements imposed on an architecture.",
+    "boundary": "Inspect which hypothesis a particular test can address.",
+    "family": "Architecture",
+    "group": "architecture",
+    "original_label": "Hipótesis H1–H6",
+    "layer": "bridge map",
+    "sources": [
+      "GH025"
+    ],
+    "slug": "hypotheses-h1h6"
+  },
+  {
+    "id": "G17",
+    "label": "DDS benchmarks and ablations",
+    "definition": "Controlled benchmarks and ablations examine specific mechanisms under stated fixtures.",
+    "boundary": "A result is bounded by setup, oracle and measurement.",
+    "family": "Architecture",
+    "group": "architecture",
+    "original_label": "Benchmarks DDS y ablaciones",
+    "layer": "bridge map",
+    "sources": [
+      "GH047",
+      "GH077",
+      "GH078",
+      "GH025",
+      "GH028"
+    ],
+    "slug": "dds-benchmarks-and-ablations"
+  },
+  {
+    "id": "G18",
+    "label": "Field Notes",
+    "definition": "Public notes record operational observations, methods and reflections.",
+    "boundary": "Distinguish reported field work from retrospective interpretation.",
+    "family": "Interventions",
+    "group": "interventions",
+    "original_label": "Field Notes / notas de campo",
+    "layer": "bridge map",
+    "sources": [
+      "T1230",
+      "T1499"
+    ],
+    "slug": "field-notes"
+  },
+  {
+    "id": "G19",
+    "label": "Mathematical contributions",
+    "definition": "Formal papers isolate questions, conditions and comparative claims from the larger application context.",
+    "boundary": "Read the assumptions, proofs and version for each paper.",
+    "family": "Architecture",
+    "group": "architecture",
+    "original_label": "Contribuciones matemáticas",
+    "layer": "bridge map",
+    "sources": [
+      "GH004",
+      "GH006",
+      "GH010",
+      "S09",
+      "GH028"
+    ],
+    "slug": "mathematical-contributions"
+  },
+  {
+    "id": "G20",
+    "label": "Evidence and maturity ladder",
+    "definition": "Separate description, proposal, demonstration, test and independent validation.",
+    "boundary": "A public record is useful evidence for its declared level.",
+    "family": "Human Intelligence",
+    "group": "human-intelligence",
+    "original_label": "Escalera de evidencia y madurez",
+    "layer": "bridge map",
+    "sources": [
+      "S09",
+      "T1499"
+    ],
+    "slug": "evidence-and-maturity-ladder"
+  },
+  {
+    "id": "G21",
+    "label": "Human Intelligence Debt",
+    "definition": "Remediable gaps can require recurring human work to sustain an operation.",
+    "boundary": "Necessary supervision and genuine contribution retain their own categories.",
+    "family": "Human Intelligence",
+    "group": "human-intelligence",
+    "original_label": "Human Intelligence Debt (HID)",
+    "layer": "bridge map",
+    "sources": [
+      "T874",
+      "T1400",
+      "T1399"
+    ],
+    "slug": "human-intelligence-debt"
+  },
+  {
+    "id": "G22",
+    "label": "Informational Friction and Cost of Clarity",
+    "definition": "Information movement and producing decision-ready clarity consume work in different ways.",
+    "boundary": "Identify whether work moves, discovers or constitutes information.",
+    "family": "Interventions",
+    "group": "interventions",
+    "original_label": "Informational Friction / coste de claridad",
+    "layer": "bridge map",
+    "sources": [
+      "T1484",
+      "T1472"
+    ],
+    "slug": "informational-friction-and-cost-of-clarity"
+  },
+  {
+    "id": "G23",
+    "label": "Attribution Gap",
+    "definition": "The capacity that sustains a result and the capacity credited for it can differ.",
+    "boundary": "Reconstruct contributions before making decisions about continuity.",
+    "family": "Human Intelligence",
+    "group": "human-intelligence",
+    "original_label": "Attribution Gap",
+    "layer": "bridge map",
+    "sources": [
+      "T1472",
+      "T1475"
+    ],
+    "slug": "attribution-gap"
+  },
+  {
+    "id": "G24",
+    "label": "JUBAP intervention practice",
+    "definition": "The practice uses perspective changes and focused interventions to activate capacity within organisations.",
+    "boundary": "Read the framework together with the boundaries of its field cases.",
+    "family": "Interventions",
+    "group": "interventions",
+    "original_label": "JUBAP / secuencia de intervención",
+    "layer": "bridge map",
+    "sources": [
+      "E1628",
+      "E1636"
+    ],
+    "slug": "jubap-intervention-practice"
+  },
+  {
+    "id": "G25",
+    "label": "Tiger Teams",
+    "definition": "Focused teams combine architecture, engineering, governance and operational delivery around a mission.",
+    "boundary": "Transfer and closure are part of the practice.",
+    "family": "Interventions",
+    "group": "interventions",
+    "original_label": "Tiger Teams",
+    "layer": "bridge map",
+    "sources": [
+      "N1267",
+      "N1296"
+    ],
+    "slug": "tiger-teams"
+  },
+  {
+    "id": "G26",
+    "label": "Transferable implementation architecture",
+    "definition": "Specify roles, interfaces, evidence and conditions so an implementer can reconstruct the operating logic.",
+    "boundary": "Test transfer through a receiver's ability to use it.",
+    "family": "Architecture",
+    "group": "architecture",
+    "original_label": "Arquitectura transmisible a implementadores",
+    "layer": "bridge map",
+    "sources": [],
+    "slug": "transferable-implementation-architecture"
+  },
+  {
+    "id": "G27",
+    "label": "xSeil and assignment problems",
+    "definition": "xSeil provides a field lineage for constrained assignment and planning under commitments.",
+    "boundary": "Separate the reported deployment from later formal and quantum explorations.",
+    "family": "Cases",
+    "group": "cases",
+    "original_label": "xSeil y problemas de asignación",
+    "layer": "bridge map",
+    "sources": [
+      "N1247",
+      "N2082",
+      "N1819"
+    ],
+    "slug": "xseil-and-assignment-problems"
+  },
+  {
+    "id": "G28",
+    "label": "Phylons and temporal reconstruction",
+    "definition": "Phylons explores state reconstruction and decision support when evidence and commitments evolve.",
+    "boundary": "Keep scenario, event time, knowledge time and research status visible.",
+    "family": "Cases",
+    "group": "cases",
+    "original_label": "Phylons y reconstrucción temporal",
+    "layer": "bridge map",
+    "sources": [
+      "N1835",
+      "N1831",
+      "T1513"
+    ],
+    "slug": "phylons-and-temporal-reconstruction"
+  },
+  {
+    "id": "G29",
+    "label": "Event intelligence and supply chain",
+    "definition": "Demand and dependencies are modelled so participants can coordinate meaningful actions.",
+    "boundary": "Claims remain specific to the stated data, case and deployment stage.",
+    "family": "Cases",
+    "group": "cases",
+    "original_label": "Event Intelligence / Supply Chain",
+    "layer": "bridge map",
+    "sources": [],
+    "slug": "event-intelligence-and-supply-chain"
+  },
+  {
+    "id": "G30",
+    "label": "Mobility OS and distributed coordination",
+    "definition": "Mobility OS connects demand, capacity, choices, commitments and execution across actors.",
+    "boundary": "Compare scenario evidence with the actual deployment context.",
+    "family": "Cases",
+    "group": "cases",
+    "original_label": "Mobility OS / coordinación distribuida",
+    "layer": "bridge map",
+    "sources": [
+      "E1953",
+      "E1954",
+      "E1958",
+      "E1959",
+      "N1843"
+    ],
+    "slug": "mobility-os-and-distributed-coordination"
+  },
+  {
+    "id": "G31",
+    "label": "Tegrity.AI",
+    "definition": "The public research programme covers operational integrity, structural awareness and technical contributions.",
+    "boundary": "Use publication and contribution records for individual claims.",
+    "family": "Institutions",
+    "group": "institutions",
+    "original_label": "Tegrity.AI",
+    "layer": "bridge map",
+    "sources": [
+      "T1573",
+      "T1687",
+      "T1499",
+      "T1230"
+    ],
+    "slug": "tegrity-ai"
+  },
+  {
+    "id": "G32",
+    "label": "The Integral Management Society",
+    "definition": "The society provides a context for stewardship, knowledge preservation and technical exchange.",
+    "boundary": "Follow the individual public records for institutional status and scope.",
+    "family": "Institutions",
+    "group": "institutions",
+    "original_label": "IMSV",
+    "layer": "bridge map",
+    "sources": [
+      "S14",
+      "T1499"
+    ],
+    "slug": "the-integral-management-society"
+  },
+  {
+    "id": "G33",
+    "label": "JubAp intervention ecosystem",
+    "definition": "The JubAp units contribute complementary field and architectural practices across regions.",
+    "boundary": "Preserve each unit's operating context and responsibility.",
+    "family": "Institutions",
+    "group": "institutions",
+    "original_label": "JUBAP (ecosistema de intervención)",
+    "layer": "bridge map",
+    "sources": [
+      "N2"
+    ],
+    "slug": "jubap-intervention-ecosystem"
+  },
+  {
+    "id": "G34",
+    "label": "Industry Reference Group",
+    "definition": "The group convenes practical perspectives on agentic AI and its operating conditions.",
+    "boundary": "Use participation materials for its remit and activities.",
+    "family": "Institutions",
+    "group": "institutions",
+    "original_label": "Industry Reference Group (IRG)",
+    "layer": "bridge map",
+    "sources": [
+      "T1726",
+      "T1499"
+    ],
+    "slug": "industry-reference-group"
+  },
+  {
+    "id": "G35",
+    "label": "Pre-standardisation and ITU contributions",
+    "definition": "Contributions bring cases and requirements into institutional technical discussion.",
+    "boundary": "Trace each input to its own public record and status.",
+    "family": "Institutions",
+    "group": "institutions",
+    "original_label": "Preestandarización y contribuciones UIT",
+    "layer": "bridge map",
+    "sources": [
+      "S11",
+      "T1687",
+      "S21",
+      "S22"
+    ],
+    "slug": "pre-standardisation-and-itu-contributions"
+  },
+  {
+    "id": "G36",
+    "label": "Compositional failure of local controls",
+    "definition": "Individually compliant controls can interact to produce an unacceptable system result.",
+    "boundary": "Assess the combined outcome under explicit dependencies and conditions.",
+    "family": "Architecture",
+    "group": "architecture",
+    "original_label": "Fallo composicional de controles locales",
+    "layer": "bridge map",
+    "sources": [
+      "T2776",
+      "GH043",
+      "GH017",
+      "GH025"
+    ],
+    "slug": "compositional-failure-of-local-controls"
+  },
+  {
+    "id": "G37",
+    "label": "Non-observability and prudent isolation",
+    "definition": "When critical state is unavailable, isolation can be a bounded protective response.",
+    "boundary": "An authorised actor must judge trade-offs and routes to requalification.",
+    "family": "Foundations",
+    "group": "foundations",
+    "original_label": "No observabilidad y aislamiento prudente",
+    "layer": "bridge map",
+    "sources": [
+      "GH025",
+      "GH028",
+      "GH017",
+      "S06"
+    ],
+    "slug": "non-observability-and-prudent-isolation"
+  },
+  {
+    "id": "G38",
+    "label": "Public corpus and cross-traceability",
+    "definition": "Stable links and versions connect explanatory claims to supporting publications.",
+    "boundary": "Distinguish primary evidence, editorial comparison and discovery links.",
+    "family": "Institutions",
+    "group": "institutions",
+    "original_label": "Corpus público y trazabilidad cruzada",
+    "layer": "bridge map",
+    "sources": [
+      "S09",
+      "T1230"
+    ],
+    "slug": "public-corpus-and-cross-traceability"
+  },
+  {
+    "id": "G39",
+    "label": "100-million-token stress scenario",
+    "definition": "A constructed scenario examines the limits of retrieving and qualifying evidence at large context scale.",
+    "boundary": "Read conclusions within the specific scenario and test setup.",
+    "family": "Architecture",
+    "group": "architecture",
+    "original_label": "Escenario de 100 millones de tokens",
+    "layer": "bridge map",
+    "sources": [
+      "GH017"
+    ],
+    "slug": "100-million-token-stress-scenario"
+  },
+  {
+    "id": "G40",
+    "label": "Chaos Smart City",
+    "definition": "A stress scenario examines interacting systems, local rules and authority in an urban setting.",
+    "boundary": "The scenario is an instrument for exploring composition and failure.",
+    "family": "Architecture",
+    "group": "architecture",
+    "original_label": "Chaos Smart City",
+    "layer": "bridge map",
+    "sources": [
+      "GH042",
+      "GH017"
+    ],
+    "slug": "chaos-smart-city"
+  },
+  {
+    "id": "G41",
+    "label": "School of judgment and communities of practice",
+    "definition": "Practitioners develop and transmit judgment through situated work and reflection.",
+    "boundary": "Evaluate receiver capability rather than volume of documentation.",
+    "family": "Interventions",
+    "group": "interventions",
+    "original_label": "Escuela de criterio y comunidades de práctica",
+    "layer": "bridge map",
+    "sources": [
+      "N1246",
+      "N1267"
+    ],
+    "slug": "school-of-judgment-and-communities-of-practice"
+  },
+  {
+    "id": "G42",
+    "label": "Semantic navigation for assistants",
+    "definition": "Typed relations and stable links help machines navigate definitions and sources.",
+    "boundary": "Automated retrieval still needs to qualify the use of each source.",
+    "family": "Institutions",
+    "group": "institutions",
+    "original_label": "Navegación semántica para asistentes",
+    "layer": "bridge map",
+    "sources": [
+      "S09",
+      "T1230"
+    ],
+    "slug": "semantic-navigation-for-assistants"
+  },
+  {
+    "id": "G43",
+    "label": "Cyber Napoleon",
+    "definition": "A stress scenario probes the limits of concentrated system control and decision authority.",
+    "boundary": "The scenario's assumptions define the transfer to real settings.",
+    "family": "Architecture",
+    "group": "architecture",
+    "original_label": "Cyber Napoleon",
+    "layer": "bridge map",
+    "sources": [
+      "GH017"
+    ],
+    "slug": "cyber-napoleon"
+  },
+  {
+    "id": "G44",
+    "label": "Quiet Four Thousand",
+    "definition": "A named corpus scenario examines change and capability under conditions that can be hard to see from aggregate records.",
+    "boundary": "Trace its specific use through the source that describes it.",
+    "family": "Architecture",
+    "group": "architecture",
+    "original_label": "Quiet Four Thousand",
+    "layer": "bridge map",
+    "sources": [
+      "GH017"
+    ],
+    "slug": "quiet-four-thousand"
+  },
+  {
+    "id": "G45",
+    "label": "The Patch that Undid the Fix",
+    "definition": "A patch scenario examines downstream consequences of local changes.",
+    "boundary": "Use dependency evidence to decide which effects should be revisited.",
+    "family": "Architecture",
+    "group": "architecture",
+    "original_label": "The Patch that Undid the Fix",
+    "layer": "bridge map",
+    "sources": [
+      "GH017"
+    ],
+    "slug": "the-patch-that-undid-the-fix"
+  },
+  {
+    "id": "G46",
+    "label": "The Author Pays for His Own Work",
+    "definition": "A scenario examines contribution, costs and recognition falling on different actors.",
+    "boundary": "Read it as a structured way to examine attribution and incentives.",
+    "family": "Architecture",
+    "group": "architecture",
+    "original_label": "The Author Pays for His Own Work",
+    "layer": "bridge map",
+    "sources": [
+      "GH017"
+    ],
+    "slug": "the-author-pays-for-his-own-work"
+  },
+  {
+    "id": "G47",
+    "label": "Nestlé North America and JUBAP origins",
+    "definition": "The field case records the line from a shift in perspective to coordinated transformation action.",
+    "boundary": "Its measured results belong to the reported plant and intervention.",
+    "family": "Cases",
+    "group": "cases",
+    "original_label": "Nestlé North America / origen JUBAP",
+    "layer": "bridge map",
+    "sources": [
+      "E1636"
+    ],
+    "slug": "nestle-north-america-and-jubap-origins"
+  },
+  {
+    "id": "G48",
+    "label": "Luxury systems rationalisation",
+    "definition": "The luxury portfolio case examines architecture decisions across differentiated Maisons.",
+    "boundary": "Inspect dependencies and useful local differences before standardising.",
+    "family": "Cases",
+    "group": "cases",
+    "original_label": "Racionalización de sistemas en lujo",
+    "layer": "bridge map",
+    "sources": [
+      "E1654"
+    ],
+    "slug": "luxury-systems-rationalisation"
+  },
+  {
+    "id": "G49",
+    "label": "Luxury HR and shift planning",
+    "definition": "A field case connects HR system rationalisation to the operating constraints of scheduling.",
+    "boundary": "Apply labour, rest, fairness and coverage rules in the specific domain.",
+    "family": "Cases",
+    "group": "cases",
+    "original_label": "HR de lujo y planificación de turnos",
+    "layer": "bridge map",
+    "sources": [
+      "U1312"
+    ],
+    "slug": "luxury-hr-and-shift-planning"
+  },
+  {
+    "id": "G50",
+    "label": "Luxury product recommendation",
+    "definition": "The retail case explores product guidance and demand signals within store constraints.",
+    "boundary": "Use purchase and non-purchase evidence within its observed coverage.",
+    "family": "Cases",
+    "group": "cases",
+    "original_label": "Recomendación de productos de lujo",
+    "layer": "bridge map",
+    "sources": [
+      "E1570",
+      "E1524"
+    ],
+    "slug": "luxury-product-recommendation"
+  },
+  {
+    "id": "G51",
+    "label": "Greater China robotics and operational integration",
+    "definition": "The case connects cross-territory manufacturing and robotics capability with operating integration.",
+    "boundary": "Account for local practices, responsibilities and supplier conditions.",
+    "family": "Cases",
+    "group": "cases",
+    "original_label": "Robótica Greater China / integración operativa",
+    "layer": "bridge map",
+    "sources": [
+      "E1526"
+    ],
+    "slug": "greater-china-robotics-and-operational-integration"
+  },
+  {
+    "id": "G52",
+    "label": "Weatherford supplier traceability",
+    "definition": "The case relates supplier decisions to evidence across levels of an oilfield operation.",
+    "boundary": "Preserve provenance and who can act on the evidence.",
+    "family": "Cases",
+    "group": "cases",
+    "original_label": "Weatherford / trazabilidad de proveedor",
+    "layer": "bridge map",
+    "sources": [
+      "U1322"
+    ],
+    "slug": "weatherford-supplier-traceability"
+  },
+  {
+    "id": "G53",
+    "label": "Logic Fields",
+    "definition": "Logic Fields is a foundational lens in the initial map for the conditions under which distinctions and inferences remain meaningful.",
+    "boundary": "The atlas uses it as a reading lens and keeps formal claims with their primary texts.",
+    "family": "Foundations",
+    "group": "foundations",
+    "original_label": "Logic Fields",
+    "layer": "bridge map",
+    "sources": [
+      "GH004",
+      "GH016"
+    ],
+    "slug": "logic-fields"
+  },
+  {
+    "id": "G54",
+    "label": "The Map and the Flow",
+    "definition": "The published essay examines what can be lost when a representation of work replaces the flow through which value is produced.",
+    "boundary": "Use it to compare model-based controls against an independent operational outcome.",
+    "family": "Foundations",
+    "group": "foundations",
+    "original_label": "The Map and the Flow",
+    "layer": "bridge map",
+    "sources": [
+      "T1484",
+      "GH016"
+    ],
+    "slug": "the-map-and-the-flow"
+  }
+]
