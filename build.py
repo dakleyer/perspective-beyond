@@ -1,5 +1,6 @@
 """Build the public Perspective Beyond atlas from its versioned records."""
 from collections import defaultdict
+from csv import writer
 from hashlib import sha256
 from html import escape
 from pathlib import Path
@@ -21,6 +22,7 @@ document_relations = data("document-relations")
 reading_links = data("reading-links")
 edition = data("edition")
 article_maps = {row["source"]: row for row in data("article-maps")}
+journeys = data("journeys")
 groups = edition["groups"]
 records = {r["id"]: r for r in concepts + sources}
 concept_ids = {r["id"] for r in concepts}
@@ -132,26 +134,81 @@ def guide():
             body += "<ol>" + "".join("<li>" + escape(re.sub(r"^\d+\. ", "", line)) + "</li>" for line in block.splitlines()) + "</ol>"
         else:
             body += "<p>" + escape(block) + "</p>"
+    body += '<p><a class="button" href="../journeys/">Explore the twelve reading journeys →</a></p>'
     page("guide/", "A guide to Perspective Beyond", parts[1], body + "</div>")
 
-def heatmap():
-    counts = defaultdict(int)
-    for row in relations:
-        counts[(records[row["from"]]["group"], records[row["to"]]["group"])] += 1
+def reading_journeys():
+    lead = "Trace a case or a question through its mechanism, practical use and conditions."
+    items = "".join(f'<li><a href="#{j["id"]}"><span class="tag">{index:02}</span><strong>{escape(j["title"])}</strong></a></li>'
+                    for index, j in enumerate(journeys, 1))
+    body = heading("Case to mechanism", "Twelve reading journeys", lead)
+    body += f'<nav aria-label="Reading journeys"><ol class="tiles">{items}</ol></nav>'
+    for index, journey in enumerate(journeys, 1):
+        steps = "".join("<li>" + " · ".join(ref(key, "../") for key in step) + "</li>" for step in journey["steps"])
+        body += f'''<section class="section journey" id="{journey["id"]}">
+<p class="kicker">Journey {index:02}</p><h2>{escape(journey["title"])}</h2>
+<ol class="journey-steps">{steps}</ol>
+<p><strong>In practice.</strong> {escape(journey["application"])}</p>
+<p class="condition"><strong>Conditions.</strong> {escape(journey["boundary"])}</p>
+</section>'''
+    page("journeys/", "Twelve reading journeys", lead, body)
+
+def heat_table(labels, counts, caption):
     maximum = max(counts.values())
-    headings = "".join(f'<th scope="col">{g["label"]}</th>' for g in groups)
+    headings = "".join(f'<th scope="col">{escape(label)}</th>' for _, label, _ in labels)
     rows = []
-    for origin in groups:
+    for origin, label, href in labels:
         cells = []
-        for target in groups:
-            count = counts[(origin["id"], target["id"])]
+        for target, _, _ in labels:
+            count = counts[(origin, target)]
             strength = round((count / maximum) ** .55 * 72)
             cells.append(f'<td style="background:color-mix(in srgb,#af7e43 {strength}%,#fffdf8)">{count}</td>')
-        rows.append(f'<tr><th scope="row"><a href="../maps/{origin["id"]}/">{origin["label"]}</a></th>{"".join(cells)}</tr>')
+        name = f'<a href="{href}">{escape(label)}</a>' if href else escape(label)
+        rows.append(f'<tr><th scope="row">{name}</th>{"".join(cells)}</tr>')
+    return f'<div class="table-wrap" tabindex="0" role="region" aria-label="{escape(caption, quote=True)}"><table><caption>{escape(caption)}</caption><thead><tr><th scope="col">From ↓ / To →</th>{headings}</tr></thead><tbody>{"".join(rows)}</tbody></table></div>'
+
+def save_matrix(name, origins, targets, counts):
+    def label(row):
+        return f'{row["id"]} {row.get("label") or row["title"]}'
+
+    with (OUT / "data" / name).open("w", encoding="utf-8-sig", newline="") as handle:
+        out = writer(handle, lineterminator="\n")
+        out.writerow(["Origin / destination", *(label(t) for t in targets)])
+        for origin in origins:
+            out.writerow([label(origin), *(counts.get((origin["id"], t["id"]), 0) for t in targets)])
+
+def heatmap():
+    paths = defaultdict(int)
+    all_concepts = defaultdict(int)
+    original_concepts = defaultdict(int)
+    families = defaultdict(int)
+    for row in relations:
+        a, b = records[row["from"]], records[row["to"]]
+        paths[(a["group"], b["group"])] += 1
+        all_concepts[(a["id"], b["id"])] += 1
+        if "relation_es" in row:
+            original_concepts[(a["id"], b["id"])] += 1
+            families[(a["family"], b["family"])] += 1
+    base = [c for c in concepts if c["layer"] == "concept inventory"]
+    family_names = list(dict.fromkeys(c["family"] for c in base))
+    citation_counts = {(c["id"], source): 1 for c in concepts for source in c["sources"]}
+    save_matrix("concept-matrix.csv", concepts, concepts, all_concepts)
+    save_matrix("original-concept-matrix.csv", base, base, original_concepts)
+    save_matrix("concept-source-matrix.csv", concepts, sources, citation_counts)
     lead = "Read across each row to see where its relationships lead. The diagonal counts relationships within a reading path."
     body = heading("Corpus structure", "Relationship heat map", lead)
-    body += f'<div class="table-wrap" tabindex="0" role="region" aria-label="Relationship matrix"><table><caption>{len(relations)} directed concept relationships by reading path</caption><thead><tr><th scope="col">From ↓ / To →</th>{headings}</tr></thead><tbody>{"".join(rows)}</tbody></table></div>'
+    body += heat_table([(g["id"], g["label"], f'../maps/{g["id"]}/') for g in groups],
+                       paths, f"{len(relations)} directed concept relationships by reading path")
     body += '<p class="map-key">Darker cells indicate more recorded relationships. The counts describe coverage in this edition. Use the individual relationship and source pages to judge the strength of each connection.</p>'
+    body += '<section class="section"><h2>Ten families of the original corpus</h2>'
+    body += heat_table([(name, name, None) for name in family_names], families,
+                       f"{sum(families.values())} directed relationships in the original corpus")
+    body += '''<h2>Download the full matrices</h2>
+<ul class="chips">
+<li><a href="../data/concept-matrix.csv" download>Combined concepts · 179 × 179</a></li>
+<li><a href="../data/original-concept-matrix.csv" download>Original concepts · 125 × 125</a></li>
+<li><a href="../data/concept-source-matrix.csv" download>Concepts and sources · 179 × 278</a></li>
+</ul><p class="map-key">Concept cells count directed relationships. A 1 in the source matrix marks a citation.</p></section>'''
     page("heatmap/", "Relationship heat map", lead, body)
 
 def article_map(entry):
@@ -210,7 +267,7 @@ def build():
 <p class="map-key">Circles are concepts and squares are sources. Select a node to open its neighborhood or an arrow to read the relationship. Dashed lines mark comparisons, possible transfers and hypotheses.</p>
 <p class="alternatives"><a href="concepts/">Browse all concepts →</a> <a href="sources/">Browse the sources →</a> <a href="heatmap/">See the relationship heat map →</a></p></section>
 <section class="section"><p class="kicker">Six reading paths</p><h2>Start where your question begins</h2><ul class="tiles">{maps}</ul></section>
-<section class="section closing"><p class="kicker">The reading guide</p><h2>From a representation to an accountable decision</h2><p>Follow the argument from Logic Fields and Structural Awareness to the JUBAP framework, Tiger Teams, operational cases and institutional stewardship.</p><a href="guide/">Read the full guide →</a></section>'''
+<section class="section closing"><p class="kicker">The reading guide</p><h2>From a representation to an accountable decision</h2><p>Follow the argument from Logic Fields and Structural Awareness to the JUBAP framework, Tiger Teams, operational cases and institutional stewardship.</p><p class="alternatives"><a href="guide/">Read the full guide →</a> <a href="journeys/">Explore the twelve reading journeys →</a></p></section>'''
     page("", "Perspective Beyond", lead, home, graph=True)
 
     body = heading("Concept index", "Concepts", "Definitions, operating conditions and relationships across the Perspective Beyond corpus.")
@@ -266,6 +323,7 @@ def build():
         body += "</ul></section>"
     page("sources/", "Sources", "A source index spanning research, articles, cases and operational material.", body)
     guide()
+    reading_journeys()
     heatmap()
     map_index()
     urls = sorted(p.parent.relative_to(OUT).as_posix().strip(".") for p in OUT.rglob("index.html"))
