@@ -1,0 +1,18 @@
+{
+  "closed": {
+    "label": "Cerrado",
+    "description": "Lee solo el clúster elegido.",
+    "bridge_required": false
+  },
+  "porous": {
+    "label": "Poroso",
+    "description": "Abre una conexión documentada que tú elijas.",
+    "bridge_required": true,
+    "max_bridge_hops": 1
+  },
+  "federated": {
+    "label": "Federado",
+    "description": "Recorre los clústeres públicos enlazados en este piloto.",
+    "bridge_required": false
+  }
+}

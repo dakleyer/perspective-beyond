@@ -1,0 +1,32 @@
+{
+  "protocol": "open-thought-atlas",
+  "protocol_version": "0.1.0",
+  "atlas_id": "urn:ota:perspective-beyond:site:us",
+  "atlas_version": "1.0.0",
+  "title": "JubAp.us",
+  "source_commit": "774beb990be80734d7a3fb1863a4bc0e5f3cba6a",
+  "language": [
+    "en"
+  ],
+  "entry_html": "../../index.html?site=us",
+  "guidance": "../../README_BOTS.md",
+  "default_scope": "closed",
+  "available_modes": [
+    "closed",
+    "porous",
+    "federated"
+  ],
+  "export_profiles": [
+    "lite"
+  ],
+  "datasets": {
+    "lite": {
+      "url": "lite.json",
+      "sha256": "dbba38f200979b01c4cd200632d3eb566e0fad2faf353efc5c548626c12d1f7c",
+      "cards": 4
+    }
+  },
+  "source_policy": "Published originals only. Verify attribution in the original.",
+  "rights_for_content": "Consult the terms of each original source.",
+  "privacy_policy": "This projection contains only the selected public references."
+}

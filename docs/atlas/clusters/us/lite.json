@@ -1,0 +1,169 @@
+{
+  "cluster_id": "urn:ota:perspective-beyond:site:us",
+  "edition": "1.0.0",
+  "source_commit": "774beb990be80734d7a3fb1863a4bc0e5f3cba6a",
+  "cards": [
+    {
+      "source_id": "U1792",
+      "stable_id": "urn:ota:perspective-beyond:source:U1792",
+      "title": "Surviving Capability: Why the Field Celebrates What the Theory Condemns",
+      "original_url": "https://jubap.us/surviving-capability-why-the-field-celebrates-what-the-theory-condemns/",
+      "atlas_card_url": "https://dakleyer.github.io/perspective-beyond/sources/surviving-capability-why-the-field-celebrates-what-the-theory-condemns-u1792/",
+      "language": "en",
+      "editorial_question": "What makes an inherited capability worth keeping after its founding conditions change?",
+      "editorial_readings": [
+        {
+          "concept_id": "C20",
+          "label": "Reusable capability",
+          "reading": "A useful function can sometimes outlive the tool or channel where it first appeared."
+        },
+        {
+          "concept_id": "C100",
+          "label": "Capability migration and value capture",
+          "reading": "Capability creation, carriers, operation and value capture can occur in different places."
+        },
+        {
+          "concept_id": "C108",
+          "label": "Cross-frontier activation",
+          "reading": "A need or capacity in one territory, community or technical domain can open another possibility."
+        },
+        {
+          "concept_id": "C102",
+          "label": "Outcome level and boundary",
+          "reading": "Locate a performance claim at task, team, organisation, network or programme level."
+        }
+      ]
+    },
+    {
+      "source_id": "U1492",
+      "stable_id": "urn:ota:perspective-beyond:source:U1492",
+      "title": "Distributed Operational Intelligence Across the Americas",
+      "original_url": "https://jubap.us/distributed-operational-intelligence-across-the-americas/",
+      "atlas_card_url": "https://dakleyer.github.io/perspective-beyond/sources/distributed-operational-intelligence-across-the-americas-u1492/",
+      "language": "en",
+      "editorial_question": "How does operating meaning survive movement across an institutional border?",
+      "editorial_readings": [
+        {
+          "concept_id": "C57",
+          "label": "Distributed continuity",
+          "reading": "Sustain an operation across places, times and organisations."
+        },
+        {
+          "concept_id": "G25",
+          "label": "Tiger Teams",
+          "reading": "Focused teams combine architecture, engineering, governance and operational delivery around a mission."
+        },
+        {
+          "concept_id": "C27",
+          "label": "Context handoff",
+          "reading": "Transfer evidence with meaning, limits and conditions for its receiving decision."
+        },
+        {
+          "concept_id": "C67",
+          "label": "Architecture decision",
+          "reading": "Change or preserve dependencies, applications and controls using evidence of capability and use."
+        }
+      ]
+    },
+    {
+      "source_id": "U1317",
+      "stable_id": "urn:ota:perspective-beyond:source:U1317",
+      "title": "Case Study: Texas-to-Mexico Oilfield Services Transformation: Knowledge Transfer, Industrialization, and Compliance",
+      "original_url": "https://jubap.us/case-study-texas-to-mexico-oilfield-services-transformation-knowledge-transfer-industrialization-and-compliance/",
+      "atlas_card_url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-texas-to-mexico-oilfield-services-transformation-knowledge-transfer-u1317/",
+      "language": "en",
+      "editorial_question": "What lets a receiving operation exercise an imported capability independently?",
+      "editorial_readings": [
+        {
+          "concept_id": "C53",
+          "label": "Audit readiness",
+          "reading": "Prepare process evidence and response capability for a defined review."
+        },
+        {
+          "concept_id": "C90",
+          "label": "Internal capability after exit",
+          "reading": "The recipient can operate, resolve exceptions and learn after the interveners leave."
+        },
+        {
+          "concept_id": "C105",
+          "label": "Legitimacy across an interface",
+          "reading": "A carrier needs enough recognition in both communities to sustain translation."
+        },
+        {
+          "concept_id": "C38",
+          "label": "Repeatable internal learning",
+          "reading": "Training, codification and practice can make an intervention reproducible."
+        }
+      ]
+    },
+    {
+      "source_id": "U1496",
+      "stable_id": "urn:ota:perspective-beyond:source:U1496",
+      "title": "Field Intelligence in Chicontepec and the Texas–Mérida Corridor",
+      "original_url": "https://jubap.us/field-intelligence-in-chicontepec-and-the-texas-merida-corridor/",
+      "atlas_card_url": "https://dakleyer.github.io/perspective-beyond/sources/field-intelligence-in-chicontepec-and-the-texasmerida-corridor-u1496/",
+      "language": "en",
+      "editorial_question": "Which institutions can carry field knowledge across different operating contracts?",
+      "editorial_readings": [
+        {
+          "concept_id": "C99",
+          "label": "Cross-territory architecture adaptation",
+          "reading": "Transfer a function while redesigning rules, support and incentives for the receiver."
+        },
+        {
+          "concept_id": "C100",
+          "label": "Capability migration and value capture",
+          "reading": "Capability creation, carriers, operation and value capture can occur in different places."
+        },
+        {
+          "concept_id": "C36",
+          "label": "Transmission of tacit judgment",
+          "reading": "People learn to recognise exceptions through situated practice."
+        },
+        {
+          "concept_id": "C108",
+          "label": "Cross-frontier activation",
+          "reading": "A need or capacity in one territory, community or technical domain can open another possibility."
+        }
+      ]
+    }
+  ],
+  "intra_cluster_edges": [
+    {
+      "id": "A018",
+      "from": "U1496",
+      "to": "U1317",
+      "kind": "documented use",
+      "reading": "The Texas-to-Mexico case makes regional capability formation tangible through local roles, acceptance criteria and operating records that let the receiving team execute in its own context.",
+      "boundary": "La preparación audit-ready descrita no equivale a certificación universal ni demuestra por sí sola autonomía futura de cada equipo.",
+      "evidence_source_ids": [
+        "U1496",
+        "U1317"
+      ]
+    },
+    {
+      "id": "R067",
+      "from": "U1492",
+      "to": "U1496",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The Texas–Mérida operational continuum](https://jubap.us/field-intelligence-in-chicontepec-and-the-texas-merida-corridor/).",
+      "boundary": "",
+      "evidence_source_ids": [
+        "U1492",
+        "U1496"
+      ]
+    },
+    {
+      "id": "R072",
+      "from": "U1496",
+      "to": "U1317",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Texas-to-Mexico industrial knowledge transfer](https://jubap.us/case-study-texas-to-mexico-oilfield-services-transformation-knowledge-transfer-industrialization-and-compliance/).",
+      "boundary": "",
+      "evidence_source_ids": [
+        "U1496",
+        "U1317"
+      ]
+    }
+  ]
+}

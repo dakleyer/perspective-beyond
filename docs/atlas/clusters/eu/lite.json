@@ -1,0 +1,138 @@
+{
+  "cluster_id": "urn:ota:perspective-beyond:site:eu",
+  "edition": "1.0.0",
+  "source_commit": "774beb990be80734d7a3fb1863a4bc0e5f3cba6a",
+  "cards": [
+    {
+      "source_id": "E1628",
+      "stable_id": "urn:ota:perspective-beyond:source:E1628",
+      "title": "The JUBAP Framework",
+      "original_url": "https://jubap.eu/the-jubap-framework/",
+      "atlas_card_url": "https://dakleyer.github.io/perspective-beyond/sources/jubap-org-e1628/",
+      "language": "en",
+      "editorial_question": "What does UP open up before JUMP filters for action?",
+      "editorial_readings": [
+        {
+          "concept_id": "G24",
+          "label": "JUBAP intervention practice",
+          "reading": "The practice uses perspective changes and focused interventions to activate capacity within organisations."
+        },
+        {
+          "concept_id": "C61",
+          "label": "JUBAP intervention sequence",
+          "reading": "Connect focus, changes in perspective, leverage points and propagation of capability."
+        },
+        {
+          "concept_id": "C64",
+          "label": "Human perspective change",
+          "reading": "Reframe an issue so people can perceive additional options."
+        },
+        {
+          "concept_id": "C37",
+          "label": "Mission activation",
+          "reading": "Establish a focused commitment, accountable roles and a practical route to intervention."
+        }
+      ]
+    },
+    {
+      "source_id": "E1636",
+      "stable_id": "urn:ota:perspective-beyond:source:E1636",
+      "title": "Nestlé North America — Where JUBAP Was Named",
+      "original_url": "https://jubap.eu/nestle-case-study-where-jubap-was-first-named/",
+      "atlas_card_url": "https://dakleyer.github.io/perspective-beyond/sources/nestle-north-america-where-jubap-was-named-e1636/",
+      "language": "en",
+      "editorial_question": "How can a local blockage become a plant-wide constraint?",
+      "editorial_readings": [
+        {
+          "concept_id": "G47",
+          "label": "Nestlé North America and JUBAP origins",
+          "reading": "The field case records the line from a shift in perspective to coordinated transformation action."
+        },
+        {
+          "concept_id": "C62",
+          "label": "Resistance indicators",
+          "reading": "Operational signals help locate obstacles to a transformation."
+        },
+        {
+          "concept_id": "C63",
+          "label": "Release and causal inquiry",
+          "reading": "Locate a drag point and investigate what sustains it before intervening."
+        },
+        {
+          "concept_id": "C90",
+          "label": "Internal capability after exit",
+          "reading": "The recipient can operate, resolve exceptions and learn after the interveners leave."
+        }
+      ]
+    },
+    {
+      "source_id": "E1731",
+      "stable_id": "urn:ota:perspective-beyond:source:E1731",
+      "title": "Reframing Value Creation",
+      "original_url": "https://jubap.eu/reframing-value-creation/",
+      "atlas_card_url": "https://dakleyer.github.io/perspective-beyond/sources/reframing-value-creation-e1731/",
+      "language": "en",
+      "editorial_question": "Which outcomes disappear when the portfolio frame narrows?",
+      "editorial_readings": [
+        {
+          "concept_id": "C54",
+          "label": "Discovered value",
+          "reading": "Identify useful potential in existing capabilities."
+        },
+        {
+          "concept_id": "C23",
+          "label": "Frame revision",
+          "reading": "Reconsider objectives, categories and assumptions that define the option space."
+        },
+        {
+          "concept_id": "C76",
+          "label": "Genuine informational contribution",
+          "reading": "People produce situated information, knowledge or judgment."
+        },
+        {
+          "concept_id": "C100",
+          "label": "Capability migration and value capture",
+          "reading": "Capability creation, carriers, operation and value capture can occur in different places."
+        }
+      ]
+    }
+  ],
+  "intra_cluster_edges": [
+    {
+      "id": "D065",
+      "from": "E1636",
+      "to": "E1628",
+      "kind": "documented use",
+      "reading": "The Nestlé account describes how the dashboard, liberation strategy and six-domain root-cause tool were used as a sequence.",
+      "boundary": "La fuente pública es un relato del programa, no una evaluación causal independiente. No llamar Lean, Six Sigma o ensayo controlado a esta secuencia sin evidencia adicional.",
+      "evidence_source_ids": [
+        "E1636",
+        "E1628"
+      ]
+    },
+    {
+      "id": "R001",
+      "from": "E1628",
+      "to": "E1636",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Nestlé: where the framework was named](https://jubap.eu/nestle-case-study-where-jubap-was-first-named/).",
+      "boundary": "",
+      "evidence_source_ids": [
+        "E1628",
+        "E1636"
+      ]
+    },
+    {
+      "id": "R006",
+      "from": "E1636",
+      "to": "E1628",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The JUBAP adaptive transformation framework](https://jubap.eu/the-jubap-framework/).",
+      "boundary": "",
+      "evidence_source_ids": [
+        "E1636",
+        "E1628"
+      ]
+    }
+  ]
+}

@@ -255,7 +255,7 @@ def build():
     lead = "An atlas of how evidence, judgment and authority shape action across research, operating systems and field interventions."
     home = f'''<section class="hero atlas-hero"><div><p class="kicker">An atlas of architectural thought</p>
 <h1>Perspective<br>Beyond<span>.</span></h1><p class="lead">{lead}</p>
-<div class="actions"><a class="button" href="#atlas">Explore the map ↓</a><a href="guide/">Read the guide →</a></div></div>
+<div class="actions"><a class="button" href="#atlas">Explore the map ↓</a><a href="guide/">Read the guide →</a><a href="atlas/">Connect your assistant to the atlas →</a></div></div>
 <div class="atlas-plate"><p>From observation to action</p>{field_diagram()}
 <div class="atlas-plate-links"><a href="maps/foundations/">What can we know?</a><a href="maps/architecture/">Who can decide?</a><a href="maps/interventions/">How can we act?</a></div></div></section>
 <div class="metrics"><div><b>{len(concepts)}</b><span>Concepts</span></div><div><b>{len(sources)}</b><span>Sources</span></div><div><b>{len(relations)}</b><span>Concept relationships</span></div><div><b>{len(groups)}</b><span>Reading paths</span></div></div>

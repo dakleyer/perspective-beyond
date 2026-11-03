@@ -1,0 +1,32 @@
+{
+  "protocol": "open-thought-atlas",
+  "protocol_version": "0.1.0",
+  "atlas_id": "urn:ota:perspective-beyond:site:tegrity",
+  "atlas_version": "1.0.0",
+  "title": "Tegrity.AI",
+  "source_commit": "774beb990be80734d7a3fb1863a4bc0e5f3cba6a",
+  "language": [
+    "en"
+  ],
+  "entry_html": "../../index.html?site=tegrity",
+  "guidance": "../../README_BOTS.md",
+  "default_scope": "closed",
+  "available_modes": [
+    "closed",
+    "porous",
+    "federated"
+  ],
+  "export_profiles": [
+    "lite"
+  ],
+  "datasets": {
+    "lite": {
+      "url": "lite.json",
+      "sha256": "8b8e8e22f8c1b0acc6f7f82992d0f324fe27795ab384a943d71453fceb3232e1",
+      "cards": 3
+    }
+  },
+  "source_policy": "Published originals only. Verify attribution in the original.",
+  "rights_for_content": "Consult the terms of each original source.",
+  "privacy_policy": "This projection contains only the selected public references."
+}

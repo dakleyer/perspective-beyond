@@ -1,0 +1,187 @@
+{
+  "protocol": "open-thought-atlas",
+  "protocol_version": "0.1.0",
+  "constellation_id": "urn:ota:perspective-beyond",
+  "version": "1.0.0",
+  "source_commit": "774beb990be80734d7a3fb1863a4bc0e5f3cba6a",
+  "canonical_root": "https://dakleyer.github.io/perspective-beyond/",
+  "global_thought_scope": "Public assistant pilot drawn from the Perspective Beyond atlas.",
+  "cluster_registry": [
+    {
+      "key": "eu",
+      "cluster_id": "urn:ota:perspective-beyond:site:eu",
+      "label": "JubAp.eu",
+      "scope": "Estrategia y transformación",
+      "host": "jubap.eu",
+      "entry": "clusters/eu/entry.json",
+      "manifest": "clusters/eu/manifest.json",
+      "allowed_modes": [
+        "closed",
+        "porous",
+        "federated"
+      ]
+    },
+    {
+      "key": "net",
+      "cluster_id": "urn:ota:perspective-beyond:site:net",
+      "label": "JubAp.Net",
+      "scope": "Ingeniería de frontera",
+      "host": "jubap.net",
+      "entry": "clusters/net/entry.json",
+      "manifest": "clusters/net/manifest.json",
+      "allowed_modes": [
+        "closed",
+        "porous",
+        "federated"
+      ]
+    },
+    {
+      "key": "us",
+      "cluster_id": "urn:ota:perspective-beyond:site:us",
+      "label": "JubAp.us",
+      "scope": "Integración transfronteriza",
+      "host": "jubap.us",
+      "entry": "clusters/us/entry.json",
+      "manifest": "clusters/us/manifest.json",
+      "allowed_modes": [
+        "closed",
+        "porous",
+        "federated"
+      ]
+    },
+    {
+      "key": "tegrity",
+      "cluster_id": "urn:ota:perspective-beyond:site:tegrity",
+      "label": "Tegrity.AI",
+      "scope": "Integridad de IA e investigación",
+      "host": "tegrity.ai",
+      "entry": "clusters/tegrity/entry.json",
+      "manifest": "clusters/tegrity/manifest.json",
+      "allowed_modes": [
+        "closed",
+        "porous",
+        "federated"
+      ]
+    }
+  ],
+  "cross_cluster_edges": [
+    {
+      "id": "F063",
+      "from": "E1628",
+      "to": "N1287",
+      "kind": "analogy only",
+      "reading": "JUBAP's propagation logic can be made operational through evidence that the receiving organization can repeat the practice and handle new exceptions after the team leaves.",
+      "boundary": "No garantía de autosostenibilidad ni obligación de que toda práctica quede completamente documentada.",
+      "evidence_source_ids": [
+        "E1628",
+        "N1287"
+      ],
+      "origin": "eu",
+      "destination": "net"
+    },
+    {
+      "id": "A045",
+      "from": "E1628",
+      "to": "U1792",
+      "kind": "candidate transfer",
+      "reading": "The network example suggests a JUBAP leverage point in the funding and transfer rule itself: make the contributing node sustainable so the wider service can work.",
+      "boundary": "Es aplicación propuesta de la lectura; no implica que JUBAP diseñara la reforma histórica de Barcelona.",
+      "evidence_source_ids": [
+        "E1628",
+        "U1792"
+      ],
+      "origin": "eu",
+      "destination": "us"
+    },
+    {
+      "id": "R139",
+      "from": "N1295",
+      "to": "U1317",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [A Texas-to-Mexico Tiger Team deployment](https://jubap.us/case-study-texas-to-mexico-oilfield-services-transformation-knowledge-transfer-industrialization-and-compliance/).",
+      "boundary": "",
+      "evidence_source_ids": [
+        "N1295",
+        "U1317"
+      ],
+      "origin": "net",
+      "destination": "us"
+    },
+    {
+      "id": "F033",
+      "from": "N1295",
+      "to": "T1472",
+      "kind": "analogy only",
+      "reading": "Compressed accountability should not become concentrated blame without matching authority or visible contribution.",
+      "boundary": "La similitud no demuestra que ese patrón exista en un contrato concreto ni traduce una aplicación directamente a una persona.",
+      "evidence_source_ids": [
+        "N1295",
+        "T1472"
+      ],
+      "origin": "net",
+      "destination": "tegrity"
+    },
+    {
+      "id": "M031",
+      "from": "U1496",
+      "to": "N1287",
+      "kind": "analogy only",
+      "reading": "Cross-border knowledge transfer includes the ability to handle local exceptions, not merely the movement of manuals or personnel.",
+      "boundary": "El relato no constituye una medición del efecto económico de la migración ni de una transferencia completa.",
+      "evidence_source_ids": [
+        "U1496",
+        "N1287"
+      ],
+      "origin": "us",
+      "destination": "net"
+    },
+    {
+      "id": "A033",
+      "from": "U1792",
+      "to": "T1472",
+      "kind": "analogy only",
+      "reading": "The transfer-compensation example shows why network value may require funding the contributing node even when its local ledger understates the benefit it creates elsewhere.",
+      "boundary": "La analogía no verifica cifras históricas del fondo ni prueba que toda línea deficitaria cree valor neto para la red.",
+      "evidence_source_ids": [
+        "U1792",
+        "T1472"
+      ],
+      "origin": "us",
+      "destination": "tegrity"
+    },
+    {
+      "id": "F024",
+      "from": "T1499",
+      "to": "E1628",
+      "kind": "analogy only",
+      "reading": "The four-series programme can supply distinct diagnostic questions for reading JUBAP in the field without treating their convergence as four independent validations of the framework.",
+      "boundary": "La práctica histórica no deriva de publicaciones posteriores; convergencia conceptual y contraste empírico se mantienen separados.",
+      "evidence_source_ids": [
+        "T1499",
+        "E1628"
+      ],
+      "origin": "tegrity",
+      "destination": "eu"
+    },
+    {
+      "id": "R190",
+      "from": "T1499",
+      "to": "U1792",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Surviving Capability: the field-to-theory bridge](https://jubap.us/surviving-capability-why-the-field-celebrates-what-the-theory-condemns/).",
+      "boundary": "",
+      "evidence_source_ids": [
+        "T1499",
+        "U1792"
+      ],
+      "origin": "tegrity",
+      "destination": "us"
+    }
+  ],
+  "navigation_rules": {
+    "closed": "No crossing.",
+    "porous": "Only the selected directed bridge, at most one hop.",
+    "federated": "Only directed bridges and accessible clusters in this pilot.",
+    "return": "Re-anchor at the registry and preserve the originating cluster."
+  }
+}

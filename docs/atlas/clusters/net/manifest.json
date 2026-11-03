@@ -1,0 +1,32 @@
+{
+  "protocol": "open-thought-atlas",
+  "protocol_version": "0.1.0",
+  "atlas_id": "urn:ota:perspective-beyond:site:net",
+  "atlas_version": "1.0.0",
+  "title": "JubAp.Net",
+  "source_commit": "774beb990be80734d7a3fb1863a4bc0e5f3cba6a",
+  "language": [
+    "en"
+  ],
+  "entry_html": "../../index.html?site=net",
+  "guidance": "../../README_BOTS.md",
+  "default_scope": "closed",
+  "available_modes": [
+    "closed",
+    "porous",
+    "federated"
+  ],
+  "export_profiles": [
+    "lite"
+  ],
+  "datasets": {
+    "lite": {
+      "url": "lite.json",
+      "sha256": "6cedff2808365cdc8b5d000aa7457cb02d3a1dbb0a0af156ff9028ae4623cf57",
+      "cards": 3
+    }
+  },
+  "source_policy": "Published originals only. Verify attribution in the original.",
+  "rights_for_content": "Consult the terms of each original source.",
+  "privacy_policy": "This projection contains only the selected public references."
+}
