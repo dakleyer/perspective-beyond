@@ -20,12 +20,14 @@ relations = data("relations")
 document_relations = data("document-relations")
 reading_links = data("reading-links")
 edition = data("edition")
+article_maps = {row["source"]: row for row in data("article-maps")}
 groups = edition["groups"]
 records = {r["id"]: r for r in concepts + sources}
 concept_ids = {r["id"] for r in concepts}
 group_labels = {g["id"]: g["label"] for g in groups}
 source_by_url = {r["url"].rstrip("/"): r["id"] for r in sources}
 atlas_version = sha256((ROOT / "site" / "assets" / "atlas.js").read_bytes()).hexdigest()[:12]
+style_version = sha256((ROOT / "site" / "assets" / "atlas.css").read_bytes()).hexdigest()[:12]
 
 MAPS = {
     "foundations": ("What the record can tell us", "Start with the distinction between what happens in an operation and what a model preserves. Follow the conditions under which evidence can support a decision, be reconstructed, or travel into a new setting.", "G53 G02 G54 G01 C60 C120"),
@@ -65,7 +67,7 @@ def card(record, prefix, line):
 def page(path, title, description, body, graph=False, term=None):
     prefix = "../" * path.count("/")
     canonical = BASE + path
-    nav = "".join(f'<a href="{prefix}{p}">{label}</a>' for p, label in [("guide/", "Reading guide"), ("concepts/", "Concepts"), ("sources/", "Sources"), ("heatmap/", "Heat map")])
+    nav = "".join(f'<a href="{prefix}{p}">{label}</a>' for p, label in [("guide/", "Reading guide"), ("concepts/", "Concepts"), ("sources/", "Sources"), ("article-maps/", "Article maps"), ("heatmap/", "Heat map")])
     schema = {"@context": "https://schema.org", "@type": "DefinedTerm" if term else ("WebSite" if not path else "WebPage"), "name": title, "url": canonical, "description": description}
     if term:
         schema["inDefinedTermSet"] = BASE + "concepts/"
@@ -78,7 +80,7 @@ def page(path, title, description, body, graph=False, term=None):
 <title>{escape(full_title)}</title><meta name="description" content="{escape(description, quote=True)}">
 <link rel="canonical" href="{canonical}"><meta property="og:title" content="{escape(full_title, quote=True)}">
 <meta property="og:description" content="{escape(description, quote=True)}"><meta property="og:url" content="{canonical}">
-<link rel="stylesheet" href="{prefix}assets/atlas.css">
+<link rel="stylesheet" href="{prefix}assets/atlas.css?v={style_version}">
 <script type="application/ld+json">{json.dumps(schema, ensure_ascii=False).replace("<", chr(92) + "u003c")}</script>{scripts}
 </head><body><a class="skip" href="#main">Skip to content</a>
 <header class="top"><div class="shell"><a class="brand" href="{prefix or './'}"><span aria-hidden="true">◈</span> Perspective Beyond</a><nav aria-label="Main navigation">{nav}</nav></div></header>
@@ -152,6 +154,38 @@ def heatmap():
     body += '<p class="map-key">Darker cells indicate more recorded relationships. The counts describe coverage in this edition. Use the individual relationship and source pages to judge the strength of each connection.</p>'
     page("heatmap/", "Relationship heat map", lead, body)
 
+def article_map(entry):
+    def nodes(items):
+        result = []
+        for item in items:
+            record = records[item["id"]]
+            label = record.get("label") or record["title"]
+            target = "../../" + route(record) if item["id"] in concept_ids else record["url"]
+            tag = f'<span class="pbm-type">{escape(item["relationship"])}</span>' if "relationship" in item else ""
+            result.append(f'<li><a href="{escape(target, quote=True)}">{tag}<strong>{escape(label)}</strong><span class="pbm-meaning">{escape(item["reading"])}</span></a></li>')
+        return "<ul>" + "".join(result) + "</ul>"
+    title = escape(records[entry["source"]]["title"])
+    concepts, neighbors = entry["concepts"], entry["neighbors"]
+    return f'''<details class="pbm" id="article-map" open>
+<summary><span class="pbm-mark" aria-hidden="true">◇</span><span class="pbm-label">Concept map</span><span class="pbm-count">{len(concepts) + len(neighbors)} connections</span><span class="pbm-toggle" aria-hidden="true"></span></summary>
+<div class="pbm-body"><p class="pbm-hub"><span>THIS ARTICLE</span><strong>{title}</strong></p>
+<div class="pbm-branches"><section aria-label="Concepts and methods"><p class="pbm-branch">Concepts and methods</p>{nodes(concepts)}</section>
+<section aria-label="Closest readings"><p class="pbm-branch">Closest readings</p>{nodes(neighbors)}</section></div></div></details>'''
+
+def map_index():
+    lead = "Open a compact map for an article or case to find its main ideas and the closest readings across the corpus."
+    body = heading("Four sites · one corpus", "Article concept maps", lead)
+    by_site = defaultdict(list)
+    for record_id in article_maps:
+        by_site[records[record_id]["site"]].append(records[record_id])
+    for site, entries in sorted(by_site.items()):
+        items = "".join(
+            f'<li><a href="../{route(r)}#article-map"><strong>{escape(r["title"])}</strong><span>Open concept map →</span></a></li>'
+            for r in sorted(entries, key=lambda r: r["title"].lower())
+        )
+        body += f'<section class="section"><h2>{escape(site)} <small>{len(entries)}</small></h2><ul class="tiles">{items}</ul></section>'
+    page("article-maps/", "Article concept maps", lead, body)
+
 def build():
     OUT.mkdir(exist_ok=True)
     shutil.copytree(ROOT / "site" / "assets", OUT / "assets", dirs_exist_ok=True)
@@ -216,6 +250,8 @@ def build():
             body += f'<span>Version <code>{escape(source["version"])}</code></span>'
         body += '</p>'
         source_id = source["id"]
+        if source_id in article_maps:
+            body += article_map(article_maps[source_id])
         if cited_by[source_id]:
             body += '<section class="section"><h2>Concepts that cite this source</h2>' + refs(cited_by[source_id], "../../") + '</section>'
         if by_document[source_id]:
@@ -231,6 +267,7 @@ def build():
     page("sources/", "Sources", "A source index spanning research, articles, cases and operational material.", body)
     guide()
     heatmap()
+    map_index()
     urls = sorted(p.parent.relative_to(OUT).as_posix().strip(".") for p in OUT.rglob("index.html"))
     sitemap = "\n".join("<url><loc>" + BASE + escape(path + "/" if path else "") + "</loc></url>" for path in urls)
     (OUT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + sitemap + "\n</urlset>\n", encoding="utf-8")

@@ -9,6 +9,7 @@ Perspective Beyond connects the concepts, research, interventions and field case
 - `narrative/guide.md` holds the long-form reading guide. Link concept and source IDs using double brackets.
 - `data/concepts.json` and `data/sources.json` hold definitions and original source references.
 - `data/relations.json` records conceptual edges. `data/document-relations.json` records comparative readings and `data/reading-links.json` records recommendations published on source sites.
+- `data/article-maps.json` records the concepts and close readings in each article map.
 - `site/assets/` holds the atlas interface and Cytoscape.js, bundled with its license.
 - Run `python build.py` with Python 3.10 or later, then commit the regenerated `docs/` files. GitHub Pages publishes from `main:/docs`.
 
