@@ -149,17 +149,20 @@ async function launch() {
     results.hidden = query.length < 2;
     if (results.hidden) return;
     const all = [...records.values()];
-    const hits = all.filter(row => labels(row.id).toLowerCase().includes(query));
+    const hits = all.filter(row => labels(row.id).toLowerCase().includes(query))
+      .sort((a, b) => Number(labels(b.id).toLowerCase() === query) - Number(labels(a.id).toLowerCase() === query));
     if (!hits.length) {
       results.append(make("span", "No titles match that search."));
       return;
     }
     for (const row of hits.slice(0, 9)) {
-      const button = make("button", labels(row.id));
+      const type = concepts.has(row.id) ? "Concept" : row.site;
+      const button = make("button", labels(row.id) + " · " + type);
       button.type = "button";
       button.addEventListener("click", () => {
         render(row.id);
         results.hidden = true;
+        element("inspector").querySelector("a").focus({preventScroll:true});
       });
       results.append(button);
     }
