@@ -7,6 +7,7 @@ from pathlib import Path
 import json
 import re
 import shutil
+from article_design import article_map as render_article_map, field_diagram
 
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "docs"
@@ -30,6 +31,8 @@ group_labels = {g["id"]: g["label"] for g in groups}
 source_by_url = {r["url"].rstrip("/"): r["id"] for r in sources}
 atlas_version = sha256((ROOT / "site" / "assets" / "atlas.js").read_bytes()).hexdigest()[:12]
 style_version = sha256((ROOT / "site" / "assets" / "atlas.css").read_bytes()).hexdigest()[:12]
+article_style_version = sha256((ROOT / "site" / "assets" / "article-design.css").read_bytes()).hexdigest()[:12]
+experience_version = sha256((ROOT / "site" / "assets" / "atlas-experience.css").read_bytes()).hexdigest()[:12]
 
 MAPS = {
     "foundations": ("What the record can tell us", "Start with the distinction between what happens in an operation and what a model preserves. Follow the conditions under which evidence can support a decision, be reconstructed, or travel into a new setting.", "G53 G02 G54 G01 C60 C120"),
@@ -66,7 +69,7 @@ def inline(value, prefix):
 def card(record, prefix, line):
     return f'<li><a href="{prefix}{route(record)}"><strong>{escape(record.get("label") or record["title"])}</strong><span>{escape(line)}</span></a></li>'
 
-def page(path, title, description, body, graph=False, term=None):
+def page(path, title, description, body, graph=False, term=None, has_article_map=False):
     prefix = "../" * path.count("/")
     canonical = BASE + path
     nav = "".join(f'<a href="{prefix}{p}">{label}</a>' for p, label in [("guide/", "Reading guide"), ("concepts/", "Concepts"), ("sources/", "Sources"), ("article-maps/", "Article maps"), ("heatmap/", "Heat map")])
@@ -74,6 +77,8 @@ def page(path, title, description, body, graph=False, term=None):
     if term:
         schema["inDefinedTermSet"] = BASE + "concepts/"
     scripts = (f'<script defer src="{prefix}assets/cytoscape-3.33.1.min.js"></script><script defer src="{prefix}assets/atlas.js?v={atlas_version}"></script>') if graph else ""
+    map_styles = f'<link rel="stylesheet" href="{prefix}assets/article-design.css?v={article_style_version}">' if has_article_map else ""
+    graph_styles = f'<link rel="stylesheet" href="{prefix}assets/atlas-experience.css?v={experience_version}">' if graph else ""
     full_title = title if not path else title + " · Perspective Beyond"
     target = OUT / path / "index.html"
     target.parent.mkdir(parents=True, exist_ok=True)
@@ -82,7 +87,7 @@ def page(path, title, description, body, graph=False, term=None):
 <title>{escape(full_title)}</title><meta name="description" content="{escape(description, quote=True)}">
 <link rel="canonical" href="{canonical}"><meta property="og:title" content="{escape(full_title, quote=True)}">
 <meta property="og:description" content="{escape(description, quote=True)}"><meta property="og:url" content="{canonical}">
-<link rel="stylesheet" href="{prefix}assets/atlas.css?v={style_version}">
+<link rel="stylesheet" href="{prefix}assets/atlas.css?v={style_version}">{map_styles}{graph_styles}
 <script type="application/ld+json">{json.dumps(schema, ensure_ascii=False).replace("<", chr(92) + "u003c")}</script>{scripts}
 </head><body><a class="skip" href="#main">Skip to content</a>
 <header class="top"><div class="shell"><a class="brand" href="{prefix or './'}"><span aria-hidden="true">◈</span> Perspective Beyond</a><nav aria-label="Main navigation">{nav}</nav></div></header>
@@ -213,21 +218,11 @@ def heatmap():
 
 def article_map(entry):
     def nodes(items):
-        result = []
-        for item in items:
-            record = records[item["id"]]
-            label = record.get("label") or record["title"]
-            target = "../../" + route(record) if item["id"] in concept_ids else record["url"]
-            tag = f'<span class="pbm-type">{escape(item["relationship"])}</span>' if "relationship" in item else ""
-            result.append(f'<li><a href="{escape(target, quote=True)}">{tag}<strong>{escape(label)}</strong><span class="pbm-meaning">{escape(item["reading"])}</span></a></li>')
-        return "<ul>" + "".join(result) + "</ul>"
-    title = escape(records[entry["source"]]["title"])
-    concepts, neighbors = entry["concepts"], entry["neighbors"]
-    return f'''<details class="pbm" id="article-map" open>
-<summary><span class="pbm-mark" aria-hidden="true">◇</span><span class="pbm-label">Concept map</span><span class="pbm-count">{len(concepts) + len(neighbors)} connections</span><span class="pbm-toggle" aria-hidden="true"></span></summary>
-<div class="pbm-body"><p class="pbm-hub"><span>THIS ARTICLE</span><strong>{title}</strong></p>
-<div class="pbm-branches"><section aria-label="Concepts and methods"><p class="pbm-branch">Concepts and methods</p>{nodes(concepts)}</section>
-<section aria-label="Closest readings"><p class="pbm-branch">Closest readings</p>{nodes(neighbors)}</section></div></div></details>'''
+        return [dict(item, title=records[item["id"]].get("label") or records[item["id"]]["title"],
+                     url="../../" + route(records[item["id"]]) if item["id"] in concept_ids else records[item["id"]]["url"])
+                for item in items]
+    return render_article_map(entry["source"], records[entry["source"]]["title"], nodes(entry["concepts"]),
+                              nodes(entry["neighbors"]), key="article-map", opened=True)
 
 def map_index():
     lead = "Open a compact map for an article or case to find its main ideas and the closest readings across the corpus."
@@ -248,17 +243,16 @@ def build():
     shutil.copytree(ROOT / "site" / "assets", OUT / "assets", dirs_exist_ok=True)
     (OUT / ".nojekyll").touch()
     (OUT / "data").mkdir(exist_ok=True)
-    graph = {"concepts": concepts, "sources": sources, "relations": relations, "documentRelations": document_relations, "readingLinks": reading_links, "groups": groups}
+    graph = {"concepts": concepts, "sources": sources, "relations": relations, "documentRelations": document_relations, "readingLinks": reading_links, "groups": groups, "articleMaps": list(article_maps.values())}
     (OUT / "data" / "atlas.json").write_text(json.dumps(graph, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
     maps = "".join(f'<li><a href="maps/{g["id"]}/"><span class="tag">{g["label"]}</span><strong>{escape(MAPS[g["id"]][0])}</strong><span>{escape(MAPS[g["id"]][1])}</span></a></li>' for g in groups)
     lead = "An atlas of how evidence, judgment and authority shape action across research, operating systems and field interventions."
-    home = f'''<section class="hero"><div><p class="kicker">An atlas of architectural thought</p>
+    home = f'''<section class="hero atlas-hero"><div><p class="kicker">An atlas of architectural thought</p>
 <h1>Perspective<br>Beyond<span>.</span></h1><p class="lead">{lead}</p>
 <div class="actions"><a class="button" href="#atlas">Explore the map ↓</a><a href="guide/">Read the guide →</a></div></div>
-<div class="plate"><svg viewBox="0 0 420 320" aria-hidden="true"><defs><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M 24 0 L 0 0 0 24" fill="none" stroke="#acb6b2" stroke-opacity=".22"/></pattern></defs>
-<rect width="420" height="320" fill="url(#grid)"/><g fill="none" stroke="#9cb4ad"><ellipse cx="210" cy="160" rx="146" ry="80" transform="rotate(-26 210 160)"/><ellipse cx="210" cy="160" rx="146" ry="80" transform="rotate(25 210 160)"/><ellipse cx="210" cy="160" rx="91" ry="111"/><path d="M46 160H374M210 30V290" opacity=".55"/></g>
-<g fill="#e2b46a"><circle cx="210" cy="160" r="8"/><circle cx="123" cy="115" r="5"/><circle cx="283" cy="224" r="5"/><circle cx="298" cy="131" r="5"/><circle cx="210" cy="49" r="4"/><circle cx="210" cy="271" r="4"/></g></svg><span>Evidence · judgment · action</span></div></section>
+<div class="atlas-plate"><p>From observation to action</p>{field_diagram()}
+<div class="atlas-plate-links"><a href="maps/foundations/">What can we know?</a><a href="maps/architecture/">Who can decide?</a><a href="maps/interventions/">How can we act?</a></div></div></section>
 <div class="metrics"><div><b>{len(concepts)}</b><span>Concepts</span></div><div><b>{len(sources)}</b><span>Sources</span></div><div><b>{len(relations)}</b><span>Concept relationships</span></div><div><b>{len(groups)}</b><span>Reading paths</span></div></div>
 <section class="section" id="atlas"><p class="kicker">Interactive atlas</p><h2>Follow a question across the corpus</h2>
 <p class="lead">Select a node to trace a relationship. Switch to documents to compare source material and follow further reading.</p>
@@ -315,7 +309,8 @@ def build():
             body += '<section class="section"><h2>Document comparisons</h2>' + connections(by_document[source_id], source_id, "../../") + '</section>'
         if published[source_id]:
             body += '<section class="section"><h2>Further reading on the original website</h2>' + connections(published[source_id], source_id, "../../") + '</section>'
-        page(route(source), source["title"], f'{source["kind"].capitalize()} from {source["site"]} in the Perspective Beyond atlas.', body)
+        page(route(source), source["title"], f'{source["kind"].capitalize()} from {source["site"]} in the Perspective Beyond atlas.', body,
+             has_article_map=source_id in article_maps)
     body = heading("Source index", "Sources", "Read the original material. Each source page gathers the concepts, comparisons and published reading links that point to it.")
     for site, entries in sorted(by_site.items()):
         body += f'<section class="section"><h2>{escape(site)} <small>{len(entries)}</small></h2><ul class="tiles">'

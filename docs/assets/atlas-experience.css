@@ -1,0 +1,14 @@
+.atlas-hero{gap:clamp(1.5rem,5vw,4.8rem)}
+.atlas-plate{position:relative;min-width:0;border:1px solid #3b6355;border-top:3px solid #d3a76b;border-radius:.55rem;background:radial-gradient(ellipse at 50% 26%,#315e50,#142b25 76%);padding:clamp(1rem,3vw,2rem);box-shadow:0 20px 45px #132d231f;color:#f8f1df}
+.atlas-plate>p{margin:0;text-align:center;color:#edc88d;font-size:.69rem;letter-spacing:.16em;font-weight:750;text-transform:uppercase}
+.atlas-plate .pbx-diagram{width:100%;height:auto;max-height:270px;display:block;margin:.5rem auto .7rem}
+.atlas-plate-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.35rem;border-top:1px solid #6a8e7d;padding-top:.8rem;text-align:center}
+.atlas-plate-links a{font:600 clamp(.75rem,1.25vw,1rem)/1.2 Georgia,serif;color:#fcf3dc;text-decoration:none;overflow-wrap:anywhere}
+.atlas-plate-links a:hover{color:#f5c781;text-decoration:underline}
+#atlas{scroll-margin-top:1.2rem}
+#atlas .explorer{border-color:#5b7b6c;box-shadow:0 20px 42px #1b2f251b}
+#atlas #graph{background-color:#172f28;background-image:radial-gradient(#88aa9540 1px,transparent 1px),radial-gradient(ellipse at center,#23463a,#172f28 72%);background-size:22px 22px,auto}
+#atlas #inspector{background:#1c3830}
+#atlas #inspector .atlas-steps-title{color:#f0cc91;font-size:.72rem;font-weight:750;letter-spacing:.09em;text-transform:uppercase;margin-top:1rem}
+#atlas #inspector li small{display:block;color:#d1e0d4;line-height:1.45;margin:.18rem 0 .45rem}
+#atlas .map-key{margin-top:.9rem}

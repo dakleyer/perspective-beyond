@@ -20,6 +20,8 @@ async function launch() {
   const groupLabels = new Map(atlas.groups.map(row => [row.id, row.label]));
   const labels = id => records.get(id).label || records.get(id).title;
   const href = id => (concepts.has(id) ? "concepts/" : "sources/") + records.get(id).slug + "/";
+  const articleMaps = new Map((atlas.articleMaps || []).map(row => [row.source, row]));
+  const entry = new URLSearchParams(location.search).get("focus");
   const docEdges = [...atlas.documentRelations, ...atlas.readingLinks];
   const citations = atlas.concepts.flatMap(row => row.sources.map(source => ({
     from: row.id, to: source, kind: "source reference", reading: "Read the original source cited by this concept."
@@ -59,6 +61,30 @@ async function launch() {
       ...(record.boundary ? [make("p", record.boundary)] : []),
       link(id, concepts.has(id) ? "Open concept page →" : "Open source page →")
     );
+    const article = articleMaps.get(id);
+    if (article) {
+      const mapLink = link(id, "Open the article map →");
+      mapLink.href += "#article-map";
+      const mapRow = make("p");
+      mapRow.append(mapLink);
+      side.append(mapRow);
+      for (const [label, items] of [["Concepts and methods", article.concepts], ["Closest readings", article.neighbors]]) {
+        const list = make("ul");
+        for (const item of items) {
+          const li = make("li");
+          const action = make("button", labels(item.id));
+          action.type = "button";
+          action.addEventListener("click", () => {
+            render(item.id);
+            side.querySelector("a").focus({preventScroll:true});
+          });
+          li.append(action, make("small", item.reading));
+          list.append(li);
+        }
+        side.append(make("p", label, "atlas-steps-title"), list);
+      }
+      return;
+    }
     if (entries.length) {
       const list = make("ul");
       entries.forEach(([other, edges]) => {
@@ -86,7 +112,8 @@ async function launch() {
     style: [
       {selector:"node", style:{"label":"data(label)", "color":"#f9f5e8", "font-size":12, "font-weight":600, "text-wrap":"wrap", "text-max-width":120, "text-margin-y":7, "text-valign":"bottom", "text-outline-color":"#142925", "text-outline-width":3, "background-color":"#a8beae", "width":18, "height":18}},
       {selector:"node.focus", style:{"background-color":"#edbf7c","width":27,"height":27}},
-      {selector:"node.document", style:{"shape":"round-rectangle"}},
+      {selector:"node.document", style:{"shape":"round-rectangle","background-color":"#7fb6a7"}},
+      {selector:"node.document.focus", style:{"background-color":"#edbf7c"}},
       {selector:"edge", style:{"width":1.25,"line-color":"#a2b5a7","target-arrow-color":"#a2b5a7","target-arrow-shape":"triangle","curve-style":"bezier","opacity":.66}},
       {selector:"edge.conditional", style:{"line-style":"dashed","line-color":"#deb178","target-arrow-color":"#deb178"}}
     ]
@@ -115,9 +142,15 @@ async function launch() {
     element("group").disabled = documents;
     const group = element("group").value;
     const primary = documents ? docEdges : atlas.relations;
-    const pool = focus ? [...primary, ...citations] : primary;
+    const article = articleMaps.get(focus);
+    const mapEdges = article ? [...article.concepts, ...article.neighbors].map(item => ({
+      from:focus, to:item.id, kind:item.relationship || "Reading lens", reading:item.reading
+    })) : null;
+    const pool = mapEdges || (focus ? [...primary, ...citations] : primary);
     let ids;
-    if (focus) {
+    if (mapEdges) {
+      ids = [focus, ...mapEdges.map(edge => edge.to)];
+    } else if (focus) {
       const adjacent = neighbors.get(focus) || [];
       const other = edge => edge.from === focus ? edge.to : edge.from;
       const references = [...new Set(adjacent.filter(edge => edge.kind === "source reference").map(other))].slice(0, 3);
@@ -138,8 +171,11 @@ async function launch() {
     const columns = wide ? 4 : 3;
     const arrange = ids.map((id, i) => {
       const label = labels(id);
+      const branch = i <= 4 ? -1 : 1;
+      const position = mapEdges && wide ? (i ? {x:branch * 265, y:((i - 1) % 4 - 1.5) * 89} : {x:0,y:0})
+        : {x:(i % columns) * 157,y:Math.floor(i / columns) * 101};
       return {data:{id,label:label.length > 51 ? label.slice(0, 48).replace(/\s+\S*$/, "") + "…" : label},
-        position:{x:(i % columns) * 157,y:Math.floor(i / columns) * 101},
+        position,
         classes:[id === active && "focus", !concepts.has(id) && "document"].filter(Boolean).join(" ")};
     });
     graph.elements().remove();
@@ -178,7 +214,7 @@ async function launch() {
       results.append(button);
     }
   });
-  render();
+  render(records.has(entry) ? entry : undefined);
 }
 
 if (typeof cytoscape === "function") {
