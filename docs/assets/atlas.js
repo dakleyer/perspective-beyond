@@ -42,8 +42,16 @@ async function launch() {
     const record = records.get(id);
     const side = element("inspector");
     const related = neighbors.get(id) || [];
-    const entries = [...related.filter(edge => edge.kind === "source reference").slice(0, 3),
-      ...related.filter(edge => edge.kind !== "source reference").slice(0, 6)];
+    const byTarget = new Map();
+    for (const edge of related) {
+      const other = edge.from === id ? edge.to : edge.from;
+      if (other === id) continue;
+      if (!byTarget.has(other)) byTarget.set(other, []);
+      byTarget.get(other).push(edge);
+    }
+    const targets = [...byTarget];
+    const entries = [...targets.filter(([, edges]) => edges.some(edge => edge.kind === "source reference")).slice(0, 3),
+      ...targets.filter(([, edges]) => edges.every(edge => edge.kind !== "source reference")).slice(0, 6)];
     side.replaceChildren(
       make("p", groupLabels.get(record.group) || record.site, "tag"),
       make("h3", labels(id)),
@@ -53,13 +61,16 @@ async function launch() {
     );
     if (entries.length) {
       const list = make("ul");
-      entries.forEach(edge => {
-        const other = edge.from === id ? edge.to : edge.from;
+      entries.forEach(([other, edges]) => {
         const row = make("li");
         const action = make("button", labels(other));
         action.type = "button";
-        action.addEventListener("click", () => render(other));
-        row.append(action, " · " + edge.kind);
+        action.addEventListener("click", event => {
+          render(other);
+          if (event.detail === 0) side.querySelector("a").focus();
+        });
+        const summary = edges.length === 1 ? (edges[0].predicate || edges[0].kind) : edges.length + " relationships";
+        row.append(action, " · " + summary);
         list.append(row);
       });
       side.append(list);
