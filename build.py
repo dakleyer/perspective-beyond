@@ -1,5 +1,6 @@
 """Build the public Perspective Beyond atlas from its versioned records."""
 from collections import defaultdict
+from hashlib import sha256
 from html import escape
 from pathlib import Path
 import json
@@ -24,6 +25,7 @@ records = {r["id"]: r for r in concepts + sources}
 concept_ids = {r["id"] for r in concepts}
 group_labels = {g["id"]: g["label"] for g in groups}
 source_by_url = {r["url"].rstrip("/"): r["id"] for r in sources}
+atlas_version = sha256((ROOT / "site" / "assets" / "atlas.js").read_bytes()).hexdigest()[:12]
 
 MAPS = {
     "foundations": ("What the record can tell us", "Start with the distinction between what happens in an operation and what a model preserves. Follow the conditions under which evidence can support a decision, be reconstructed, or travel into a new setting.", "G53 G02 G54 G01 C60 C120"),
@@ -67,7 +69,7 @@ def page(path, title, description, body, graph=False, term=None):
     schema = {"@context": "https://schema.org", "@type": "DefinedTerm" if term else ("WebSite" if not path else "WebPage"), "name": title, "url": canonical, "description": description}
     if term:
         schema["inDefinedTermSet"] = BASE + "concepts/"
-    scripts = (f'<script defer src="{prefix}assets/cytoscape-3.33.1.min.js"></script><script defer src="{prefix}assets/atlas.js"></script>') if graph else ""
+    scripts = (f'<script defer src="{prefix}assets/cytoscape-3.33.1.min.js"></script><script defer src="{prefix}assets/atlas.js?v={atlas_version}"></script>') if graph else ""
     full_title = title if not path else title + " · Perspective Beyond"
     target = OUT / path / "index.html"
     target.parent.mkdir(parents=True, exist_ok=True)
