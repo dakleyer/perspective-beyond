@@ -222,10 +222,11 @@ def article_map(entry):
                      url="../../" + route(records[item["id"]]) if item["id"] in concept_ids else records[item["id"]]["url"])
                 for item in items]
     return render_article_map(entry["source"], records[entry["source"]]["title"], nodes(entry["concepts"]),
-                              nodes(entry["neighbors"]), key="article-map", opened=True)
+                              nodes(entry["neighbors"]), key="article-map", opened=True,
+                              conceptual=entry.get("conceptual", False))
 
 def map_index():
-    lead = "Open a compact map for an article or case to find its main ideas and the closest readings across the corpus."
+    lead = "Open a compact map for an article or case to see its main ideas and follow their relationships across the corpus."
     body = heading("Four sites · one corpus", "Article concept maps", lead)
     by_site = defaultdict(list)
     for record_id in article_maps:

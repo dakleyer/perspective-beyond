@@ -68,7 +68,8 @@ async function launch() {
       const mapRow = make("p");
       mapRow.append(mapLink);
       side.append(mapRow);
-      for (const [label, items] of [["Concepts and methods", article.concepts], ["Closest readings", article.neighbors]]) {
+      const secondBranch = article.conceptual ? "Conceptual connections" : "Closest readings";
+      for (const [label, items] of [["Concepts and methods", article.concepts], [secondBranch, article.neighbors]]) {
         const list = make("ul");
         for (const item of items) {
           const li = make("li");
@@ -143,13 +144,14 @@ async function launch() {
     const group = element("group").value;
     const primary = documents ? docEdges : atlas.relations;
     const article = articleMaps.get(focus);
-    const mapEdges = article ? [...article.concepts, ...article.neighbors].map(item => ({
-      from:focus, to:item.id, kind:item.relationship || "Reading lens", reading:item.reading
-    })) : null;
+    const mapItems = article ? [...article.concepts, ...article.neighbors] : null;
+    const mapEdges = mapItems?.map(item => ({
+      from:item.from || focus, to:item.to || item.id, kind:item.relationship || "Reading lens", reading:item.reading
+    }));
     const pool = mapEdges || (focus ? [...primary, ...citations] : primary);
     let ids;
     if (mapEdges) {
-      ids = [focus, ...mapEdges.map(edge => edge.to)];
+      ids = [focus, ...mapItems.map(item => item.id)];
     } else if (focus) {
       const adjacent = neighbors.get(focus) || [];
       const other = edge => edge.from === focus ? edge.to : edge.from;

@@ -14,7 +14,7 @@ def field_diagram():
 <g fill="#a9c5b3"><circle cx="40" cy="32" r="4"/><circle cx="23" cy="63" r="4"/><circle cx="23" cy="93" r="4"/><circle cx="40" cy="125" r="4"/><circle cx="240" cy="32" r="4"/><circle cx="257" cy="63" r="4"/><circle cx="257" cy="93" r="4"/><circle cx="240" cy="125" r="4"/></g>
 </svg>"""
 
-def article_map(source, title, concepts, neighbors, *, key, opened=False):
+def article_map(source, title, concepts, neighbors, *, key, opened=False, conceptual=False):
     def list_items(rows, label):
         cards = []
         for i, row in enumerate(rows, 1):
@@ -23,6 +23,9 @@ def article_map(source, title, concepts, neighbors, *, key, opened=False):
         return f'<section class="pbx-branch" aria-label="{label}"><h3>{label}</h3><ul>{"".join(cards)}</ul></section>'
 
     opened_attr = " open" if opened else ""
+    branch_label = "Conceptual connections" if conceptual else "Closest readings"
+    summary_label = "Map of ideas and connections" if conceptual else "Map of ideas and readings"
+    count_label = "4 ideas · 4 connections" if conceptual else "4 concepts · 4 readings"
     return f'''<aside class="pbx" id="{key}" data-pbx-source="{source}" aria-labelledby="{key}-title">
 <div class="pbx-cover">
 <div class="pbx-copy">
@@ -33,6 +36,6 @@ def article_map(source, title, concepts, neighbors, *, key, opened=False):
 </div><div class="pbx-art">{field_diagram()}</div>
 </div>
 <details class="pbx-details"{opened_attr}>
-<summary><span>Map of ideas and readings</span><span class="pbx-count">4 concepts · 4 readings</span><span class="pbx-toggle" aria-hidden="true"></span></summary>
-<div class="pbx-branches">{list_items(concepts, "Concepts and methods")}{list_items(neighbors, "Closest readings")}</div>
+<summary><span>{summary_label}</span><span class="pbx-count">{count_label}</span><span class="pbx-toggle" aria-hidden="true"></span></summary>
+<div class="pbx-branches">{list_items(concepts, "Concepts and methods")}{list_items(neighbors, branch_label)}</div>
 </details></aside>'''
