@@ -183,5 +183,10 @@ write('robots.txt','User-agent: *\nAllow: /\n\nSitemap: '+ORIGIN+'/sitemap.xml\n
 write('404.html','<!doctype html><html lang="en"><meta charset="utf-8"><title>Explore the Atlas</title><h1>Explore the Atlas</h1><p>'+a('/entrada/','Open the Atlas reading entry')+'</p></html>')
 from orientation import build as build_orientation
 build_orientation(ROOT)
+# Preserve canonical template bytes while serving their asset placeholders as
+# ordinary static URLs in this full-source web edition.
+module=OUT/'perspective-beyond/atlas/web-lenses/module'
+for asset in ['mind.css','mind.js','entry.txt','README.txt']:
+    write('perspective-beyond/atlas/web-lenses/module/__ASSETS__'+asset,(module/asset).read_bytes())
 print(json.dumps(edition|{'newHTMLPages':len(html_paths),'totalFiles':sum(p.is_file()for p in OUT.rglob('*'))},ensure_ascii=False,indent=2))
 

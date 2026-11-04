@@ -1,50 +1,50 @@
-MIND ATLAS / ATLAS MENTAL — NUEVA PERSPECTIVA
+MIND ATLAS — NUEVA PERSPECTIVA
 
-Un grafo compartido. Una ventana de lectura para cada página.
+One shared graph. One reading window for each page.
 
-ABRIR EL PROYECTO
+OPEN THE PROJECT
 https://integralmanagement.ch/nueva-perspectiva/atlas-mental/
 https://perspective-beyond-atlas.carvedgem.chatgpt.site/mind-atlas/
-Fuente canónica: https://github.com/dakleyer/perspective-beyond/tree/main/docs/atlas/web-lenses
+Canonical source: https://github.com/dakleyer/perspective-beyond/tree/main/docs/atlas/web-lenses
 
-ESTRUCTURA
-Documento de origen → fichas → composiciones de etiquetas → relaciones explicadas con otras cards and concepts.
-Una página web conserva su texto y su mapa visual. El diseñador selecciona el punto de entrada, unos pesos de etiquetas y un presupuesto pequeño de lectura. La vista ampliada reproduce esa misma configuración sobre el grafo compartido.
+STRUCTURE
+Source document → cards → tag compositions → explained relationships with other cards and concepts.
+A web page retains its text and visual map. The designer selects the entry point, tag weights and a small reading budget. The expanded view reproduces that same configuration over the shared graph.
 
-CRITERIOS PUBLICADOS
-profiles.json contiene, para cada página, su URL, fichas de inicio, pesos, presupuesto, alcance y URL reproducible. selections/ contiene el resultado JSON y la lectura de texto preparada para asistentes. Todos los nodos y relaciones seleccionados conservan sus identificadores del grafo canónico.
-Las páginas con fichas propias parten de ellas. Las otras entradas publican una selección de inicio del diseñador que conecta esa lectura con fichas existentes. Esta configuración es una capa de navegación; el sustrato del grafo se conserva.
+PUBLISHED CRITERIA
+profiles.json contains each page's URL, starting cards, weights, budget, scope and reproducible URL. selections/ contains the JSON result and the text reading prepared for assistants. All selected nodes and relationships retain their canonical graph identifiers.
+Pages with their own cards start from those cards. Other entries publish the designer's starting selection, connecting that reading with existing cards. This configuration is a navigation layer; the graph substrate is retained.
 
-CÁLCULO
-Se utiliza docs/atlas/positioning.mjs: readPosition, positionMap y positionParams.
-La composición porcentual de cada ficha permite calcular afinidad con los pesos elegidos. El recorrido sigue relaciones existentes y conserva los caminos hacia cada incorporación. El presupuesto cuenta el texto de las fichas y las relaciones seleccionadas con o200k_base. Una ficha no se divide al alcanzar el límite. El mini mapa muestra un prefijo conectado; la lectura descargable conserva la selección completa.
-Un peso no concede acceso ni modifica una fuente. El alcance cerrado, poroso o federado determina qué clusters pueden participar.
+CALCULATION
+docs/atlas/positioning.mjs is used: readPosition, positionMap and positionParams.
+Each card's percentage composition allows affinity with the chosen weights to be calculated. Traversal follows existing relationships and retains the paths to each addition. The budget counts the text of selected cards and relationships with o200k_base. A card is not split when the limit is reached. The mini-map shows a connected prefix; the downloadable reading retains the complete selection.
+A weight does not grant access or modify a source. Closed, porous or federated scope determines which clusters may participate.
 
-EJEMPLO DE URL CONFIGURADA
+CONFIGURED URL EXAMPLE
 https://perspective-beyond-atlas.carvedgem.chatgpt.site/perspective-beyond/atlas/posicionamiento/?posicionamiento=E1628&tokens=2200&max=11&modo=federated&site=eu&peso=tema%3Aperspectiva%3A45&peso=tema%3Atransformacion%3A30&peso=tema%3Aaprendizaje%3A15&peso=tema%3Adecision%3A10
 
-EJEMPLO COMPLETO PARA COMPRENDER
-Abre la entrada de texto de la página The JUBAP Framework: selections/eu-1628.txt. Parte de su documento de origen. Explícame el movimiento UP y cómo se relaciona con JUMP. Elige dos conexiones de la lectura que permitan comprender el mecanismo. Explica qué aporta cada una y conserva los enlaces a las fuentes. Pregúntame qué situación quiero examinar.
+COMPLETE EXAMPLE FOR UNDERSTANDING
+Open the text entry for The JUBAP Framework page: selections/eu-1628.txt. Start from its source document. Explain the UP movement and how it relates to JUMP. Choose two connections from the reading that help understand the mechanism. Explain what each contributes and retain source links. Ask what situation I want to examine.
 
-EJEMPLO COMPLETO PARA COMPARAR
-Lee selections/net-1287.txt. Quiero comparar la transmisión de conocimiento tácito en los Tiger Teams con otra experiencia de aprendizaje del mismo Atlas. Distingue el conocimiento que viaja, quién puede ejercerlo y qué condiciones permiten continuarlo. Explica una semejanza útil y una diferencia que cambie su aplicación. Conserva las fechas y los contextos de los textos y enlaza sus originales.
+COMPLETE EXAMPLE FOR COMPARISON
+Read selections/net-1287.txt. I want to compare tacit knowledge transmission in Tiger Teams with another learning experience from the same Atlas. Distinguish the knowledge being transmitted, who can exercise it and what conditions allow it to continue. Explain one useful similarity and one difference that changes its application. Retain the texts' dates and contexts and link their originals.
 
-CONFIGURAR UNA PREGUNTA
-1. Identifica el documento o ficha de entrada.
-2. Elige el propósito: comprender, comparar, resolver, enseñar o elaborar.
-3. Conserva la configuración que ya venga en la URL. Pregunta solo por lo que falte.
-4. Elige pesos de etiquetas: por ejemplo aprendizaje 50, perspectiva 30, encuentros 20.
-5. Elige alcance y presupuesto. Amplía el presupuesto cuando la pregunta necesite más lectura.
-6. Lee las relaciones, explica los mecanismos y vuelve a las fuentes originales.
+CONFIGURE A QUESTION
+1. Identify the entry document or card.
+2. Choose the purpose: understand, compare, solve, teach or develop.
+3. Retain any configuration already in the URL. Ask only for what is missing.
+4. Choose tag weights: for example aprendizaje 50, perspectiva 30, encuentros 20.
+5. Choose scope and budget. Increase the budget when the question needs more reading.
+6. Read the relationships, explain the mechanisms and return to the original sources.
 
-PROTOCOL COMPARTIDO PARA ASISTENTES
+SHARED ASSISTANT PROTOCOL
 https://tegrity.ai/wp-content/uploads/2026/11/atlas-web-entry-2884295fa843.txt
-ORIENTACIÓN SUPERIOR
+UPPER-LEVEL ORIENTATION
 https://perspective-beyond-atlas.carvedgem.chatgpt.site/orientacion/
-CLÚSTERES
+CLUSTERS
 https://perspective-beyond-atlas.carvedgem.chatgpt.site/clusters/
-FICHAS
+CARDS
 https://perspective-beyond-atlas.carvedgem.chatgpt.site/fichas/
 
-MANTENIMIENTO
-Actualizar el inventario público y los perfiles de diseñador. Ejecutar build_selections.mjs con el mismo grafo y módulo de posicionamiento. Verificar identificadores, relaciones, presupuestos y enlaces. Publicar los perfiles, las selecciones y su integración. La regeneración no reescribe artículos, notas metodológicas, notas de campo ni Related; conserva el diseño de los mapas existentes.
+MAINTENANCE
+Update the public inventory and designer profiles. Run build_selections.mjs with the same graph and positioning module. Verify identifiers, relationships, budgets and links. Publish the profiles, selections and their integration. Regeneration does not rewrite articles, methodological notes, field notes or Related; it retains the design of existing maps.

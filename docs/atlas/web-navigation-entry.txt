@@ -6,24 +6,24 @@ Complemento de navegación y comprensión de las páginas del corpus.
 {
   "schema": "atlas/direct-entry-v1",
   "entry": "https://tegrity.ai/atlas-reader/",
-  "purpose": "Atlas íntegro de fichas, conceptos y relaciones, servido como texto en Tegrity.AI. No requiere el dominio chatgpt.site ni GitHub para recorrer el grafo.",
-  "configurationRule": "Conserva punto de entrada, modo, pesos, etiquetas, alcance y propósito de la URL del visitante. Si no están elegidos, lee la orientación, pregunta qué quiere comprender, resolver o crear y ofrece dos o tres entradas pertinentes. En modo cerrado consulta contenido del clúster permitido; en poroso sigue el puente elegido; en federado sigue las recorded relationships.",
+  "purpose": "Complete Atlas of cards, concepts and relationships, served as text on Tegrity.AI. Graph traversal does not require the chatgpt.site domain or GitHub.",
+  "configurationRule": "Retain the entry point, mode, weights, tags, scope and purpose from the visitor's URL. If they are not chosen, read the orientation, ask what they want to understand, solve or create and offer two or three relevant entries. In closed mode consult content from the permitted cluster; in porous mode follow the chosen bridge; in federated mode follow recorded relationships.",
   "graphSha256": "8733a98ca9844a1b5f85096f6b68c910bda9d1aed95e0192c359522a1a641ece",
   "edition": "2026-11-04-mantenimiento-mapa-1",
   "parameters": {
-    "cluster": "ID de clúster de la lista; varios separados por coma.",
-    "alcance": "cerrado, poroso o federado. Poroso requiere puente elegido.",
-    "posicionamiento": "ID de ficha, documento o URL de origen.",
-    "rol": "lector, embajador, consultor, investigador o personalizado.",
-    "lectura": "paraphrase, explore, ideas, locate o quote.",
-    "enfoque": "parejo, transversal o personalizado.",
-    "peso": "Parámetro repetible etiqueta:peso. Conserva los pesos del lector.",
-    "tokens": "Presupuesto de lectura solicitado.",
-    "instruccion": "Instrucciones del lector para esta sesión.",
-    "page": "URL pública de la página desde la que se entra. Conserva esa procedencia durante la lectura.",
+    "cluster": "Cluster ID from the list; separate several with commas.",
+    "alcance": "closed, porous or federated. Porous requires a chosen bridge.",
+    "posicionamiento": "Card ID, document ID or source URL.",
+    "rol": "lector (guide), embajador (ambassador), consultor (consultant), investigador (researcher) or personalizado (custom).",
+    "lectura": "paraphrase, explore, ideas, locate or quote.",
+    "enfoque": "parejo (balanced), transversal (cross-cutting) or personalizado (custom).",
+    "peso": "Repeatable tag:weight parameter. Retain the reader's weights.",
+    "tokens": "Requested reading budget.",
+    "instruccion": "Reader's instructions for this session.",
+    "page": "Public URL of the entry page. Retain that provenance throughout the reading.",
     "fichas": "Identificadores existentes vinculados con la página, separados por coma."
   },
-  "scopeRule": "Una selección previa prevalece. En una URL parcial pregunta solo por lo que falta. Sin selección, orienta desde la pregunta. Los enlaces de un archivo no amplían el alcance acordado.",
+  "scopeRule": "A previous selection takes precedence. In a partial URL, ask only for what is missing. Without a selection, orient from the question. A file's links do not expand the agreed scope.",
   "counts": {
     "fichas": 1294,
     "concepts": 272,
@@ -96,7 +96,7 @@ Complemento de navegación y comprensión de las páginas del corpus.
   ],
   "lookup": {
     "url": "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-localizador.txt",
-    "instruction": "Busca el ID de la ficha o relación. Abre su archivo y localiza el registro por su ID. Los enlaces connections llevan a las fichas vecinas y a la relación completa."
+    "instruction": "Find the card or relationship ID. Open its file and locate the record by ID. The connections links lead to neighbouring cards and the complete relationship."
   },
   "documents": "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-documentos.txt",
   "navigation": "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-navegacion.txt",
