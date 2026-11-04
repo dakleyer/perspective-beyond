@@ -6,16 +6,64 @@
   "documentId": "doc-86e0595b3709434d22",
   "sourceIds": [],
   "tagWeights": {
-    "documentacion": 1.0
+    "documentacion": 0.4,
+    "integridad-ia": 0.3,
+    "evidencia": 0.3
   },
   "clusters": [
     "tegrity"
   ],
-  "context": "## Research Initiatives\n\nEtiquetas: Investigación y documentación técnica 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/research-initiatives-t1709/\nDocumento de origen: https://tegrity.ai/research-initiatives/\n\n",
-  "readingSource": null,
-  "tokens": 57,
+  "context": "## Research Initiatives\nResearch Initiatives organiza ocho líneas del programa Structural Awareness de Tegrity.AI: Regime Awareness; Ecosystem Awareness; The Cost of Clarity; Human Intelligence Debt; The Attribution Gap and Capability Loss; Informational Friction; AI Operational Integrity Architecture; y AI Integrity Management Architecture.\n\nEl índice de octubre de 2026 sitúa Regime Awareness en revisión preliminar con QAVA/Universitat de València. Cost of Clarity y Human Intelligence Debt forman parte de una propuesta RUP presentada a Enterprise Estonia/EIS, referencia 943697, con una ruta de investigación propuesta con TalTech y evaluación en curso. Attribution Gap tiene un artículo fundacional y una ruta de observador WIPO en formalización. Informational Friction cuenta con serie publicada; AI Integrity Management se presenta como discusión de gestión.\n\nLas contribuciones técnicas sobre integridad operativa se documentan en FG-TIDA y FG-AI4SSC. Cada línea conduce a sus artículos, documentos y estado de trabajo. Este índice explica la actividad de investigación; el directorio institucional de IMSV sitúa junto a ella los ámbitos cultural y editorial.\nEtiquetas: Investigación y documentación técnica 40.00%; Evidencia, procedencia y atribución 30.00%; Integridad y seguridad de IA 30.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/research-initiatives-t1709/\nDocumento de origen: https://tegrity.ai/research-initiatives/\n\n",
+  "readingSource": {
+    "url": "https://tegrity.ai/research-initiatives/",
+    "section": "Main page",
+    "observed": "2026-11-04",
+    "sourceSha256": "fa09da94bc49b908bba3e02bee59fc22bc3499679b8fb3343cffdfdd6614c223"
+  },
+  "tokens": 307,
   "encoding": "o200k_base",
   "relations": [
+    {
+      "id": "documento:imsv-institutional-link-02",
+      "to": "imsv-investigacion",
+      "title": "IMSV · Campo de investigación y Tegrity.AI",
+      "direction": "entrante",
+      "kind": "documented institutional reading",
+      "reading": "El índice de iniciativas permite elegir una línea y consultar su estado.",
+      "relationTokens": 49,
+      "fichaTokens": 201,
+      "tagWeights": {
+        "documentacion": 0.4,
+        "integridad-ia": 0.3,
+        "representacion": 0.3
+      },
+      "clusters": [
+        "imsv"
+      ],
+      "type": "ficha",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/imsv-investigacion.json"
+    },
+    {
+      "id": "documento:imsv-institutional-link-17",
+      "to": "T2694",
+      "title": "Research and Publication Policy",
+      "direction": "saliente",
+      "kind": "documented institutional reading",
+      "reading": "La política de publicación permite interpretar el estado y la autoría de cada iniciativa.",
+      "relationTokens": 45,
+      "fichaTokens": 326,
+      "tagWeights": {
+        "documentacion": 0.3889,
+        "empresa": 0.2778,
+        "evidencia": 0.2222,
+        "memoria-territorio": 0.1111
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2694.json"
+    },
     {
       "id": "navigation:position-nav-T1573-T1709",
       "to": "T1573",
@@ -44,9 +92,13 @@
       "kind": "lectura enlazada desde el documento",
       "reading": "Desde «The Integral Management Society», el enlace «programa» abre «Research Initiatives».",
       "relationTokens": 47,
-      "fichaTokens": 76,
+      "fichaTokens": 380,
       "tagWeights": {
-        "empresa": 1.0
+        "empresa": 0.2,
+        "autoridad": 0.2,
+        "legitimidad": 0.2,
+        "encuentros": 0.2,
+        "aprendizaje": 0.2
       },
       "clusters": [
         "imsv"

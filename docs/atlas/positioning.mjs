@@ -1,6 +1,6 @@
 import {parseFocusWeights} from './session-config.mjs';
 
-export const VERSION='perspective-beyond/positioning-v1.2';
+export const VERSION='perspective-beyond/positioning-v1.3';
 const cmp=(a,b)=>a<b?-1:a>b?1:0;
 export function canonicalURL(raw,fragment=false){
  try{const u=new URL(raw);u.protocol='https:';u.hostname=u.hostname.toLowerCase().replace(/^www\./,'');u.pathname=u.pathname.replace(/\/$/,'')||'/';
@@ -117,7 +117,9 @@ export function positionMap(graph,request){
  }).slice(0,4):[];
  const coreDocument=anchor?activeEdges.filter(e=>e[1]===anchor&&e[6]==='documento'&&e[3]==='documented use'&&visits.get(e[2])?.parent===anchor)
   .sort((a,b)=>affinity.get(b[2])-affinity.get(a[2])||cmp(a[2],b[2]))[0]?.[2]:null;
- const order=localCore.length||coreDocument?[anchor,...localCore,...(coreDocument?[coreDocument]:[]),...weightedOrder]:weightedOrder;
+ const coverage=!request.pesos.length?(request.position.coverageGroups??[]).map(group=>group.candidates.find(id=>visits.has(id))).filter(Boolean):[];
+ const priorOrder=localCore.length||coreDocument?[anchor,...localCore,...(coreDocument?[coreDocument]:[]),...weightedOrder]:weightedOrder;
+ const order=coverage.length?[anchor??seeds[0],...coverage,...priorOrder]:priorOrder;
  // This sequence is independent of the budget: increasing tokens preserves the selected prefix.
  const sequence=[],seen=new Set();
  for(const id of order){

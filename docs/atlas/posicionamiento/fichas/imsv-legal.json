@@ -1,0 +1,89 @@
+{
+  "id": "imsv-legal",
+  "type": "ficha",
+  "title": "IMSV · Identidad jurídica y fuentes legales",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-legal/",
+  "documentId": "doc-d96d6ea0bcd57cf923",
+  "sourceIds": [],
+  "tagWeights": {
+    "evidencia": 0.4,
+    "legitimidad": 0.4,
+    "autoridad": 0.2
+  },
+  "clusters": [
+    "imsv"
+  ],
+  "context": "## IMSV · Identidad jurídica y fuentes legales\nLa ficha legal identifica The Integral Management Society como asociación suiza sin ánimo de lucro, con sede en el cantón de Ginebra. Reproduce un extracto de la Oficina Federal de Estadística fechado el 28 de agosto de 2026: UID CHE-481.709.475, forma 0109 — Association, estado Actif y dirección administrativa c/o MSA, Route des Jeunes 41a, 1227 Carouge GE. El registro oficial enlazado permite consultar el dato actualizado.\n\nLa página distingue los documentos institucionales vigentes de sus síntesis editoriales y marca aspectos del aviso legal aún en revisión. Los contratos y patrimonios de entidades independientes del ecosistema se identifican por sus propios responsables.\nEtiquetas: Autoridad, permisos y delegación 20.00%; Evidencia, procedencia y atribución 40.00%; Legitimidad y principios 40.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-legal/\nDocumento de origen: https://integralmanagement.ch/legal/\n\n",
+  "readingSource": {
+    "url": "https://integralmanagement.ch/legal/",
+    "section": "Institutional page",
+    "observed": "2026-11-04",
+    "sourceSha256": "9a78b19254d04781f2598d8fa5cb2d79fa0da8ec57ba7f168620ab91d7b8629c"
+  },
+  "tokens": 236,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "documento:imsv-overview-S14-imsv-legal",
+      "to": "S14",
+      "title": "The Integral Management Society",
+      "direction": "entrante",
+      "kind": "institutional function",
+      "reading": "La ficha explica identidad jurídica y fuentes legales dentro de la asociación.",
+      "relationTokens": 44,
+      "fichaTokens": 380,
+      "tagWeights": {
+        "empresa": 0.2,
+        "autoridad": 0.2,
+        "legitimidad": 0.2,
+        "encuentros": 0.2,
+        "aprendizaje": 0.2
+      },
+      "clusters": [
+        "imsv"
+      ],
+      "type": "ficha",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/S14.json"
+    },
+    {
+      "id": "documento:imsv-institutional-link-11",
+      "to": "imsv-gobierno",
+      "title": "IMSV · Gobierno y órganos responsables",
+      "direction": "entrante",
+      "kind": "documented institutional reading",
+      "reading": "La ficha legal relaciona identidad pública, UID y documentos institucionales.",
+      "relationTokens": 51,
+      "fichaTokens": 221,
+      "tagWeights": {
+        "autoridad": 0.4,
+        "legitimidad": 0.35,
+        "empresa": 0.25
+      },
+      "clusters": [
+        "imsv"
+      ],
+      "type": "ficha",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/imsv-gobierno.json"
+    },
+    {
+      "id": "documento:imsv-institutional-link-16",
+      "to": "L001",
+      "title": "The Integral Management Society : Institución de frontera desde 1898",
+      "direction": "entrante",
+      "kind": "documented institutional reading",
+      "reading": "La ficha legal sitúa en 2024 la asociación suiza y distingue su identidad del linaje histórico.",
+      "relationTokens": 86,
+      "fichaTokens": 304,
+      "tagWeights": {
+        "decision": 0.2,
+        "empresa": 0.5,
+        "memoria-territorio": 0.3
+      },
+      "clusters": [
+        "latinoempresa"
+      ],
+      "type": "ficha",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/L001.json"
+    }
+  ]
+}

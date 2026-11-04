@@ -191,6 +191,8 @@ def enrich_graph(graph,catalog):
   'header':'# Posicionamiento · Atlas global · Perspective Beyond\nDocumento de origen: '+ATLAS+'\n\n'}
  atlas_doc['headerTokens']=len(enc.encode(atlas_doc['header']))
  docs['doc-atlas']=atlas_doc
+ for sid,groups in catalog.get('positioning',{}).get('overviewSources',{}).items():
+  if sid in byid:docs[byid[sid]['documentId']]['coverageGroups']=groups
  graph['documents']=list(docs.values())
  graph['positionings']={k:{'source':sid,'document':byid[sid]['documentId'],'url':next(d['url'] for d in docs.values() if d['id']==byid[sid]['documentId'])} for k,sid in LANDINGS.items()}
  graph['positionings']['all']={'source':None,'document':'doc-atlas','url':ATLAS}

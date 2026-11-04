@@ -1,6 +1,6 @@
 {
-  "schema": "perspective-beyond/positioning-v1.1",
-  "edition": "2026-11-04-mantenimiento-mapa-1",
+  "schema": "perspective-beyond/positioning-v1.3",
+  "edition": "2026-11-04-institutional-entry-1",
   "request": {
     "posicionamiento": "imsv",
     "tokens": 4000,
@@ -29,6 +29,40 @@
     ],
     "header": "# Posicionamiento · The Integral Management Society\nDocumento de origen: https://integralmanagement.ch/\n\n",
     "headerTokens": 21,
+    "coverageGroups": [
+      {
+        "id": "gobierno",
+        "candidates": [
+          "imsv-gobierno",
+          "imsv-estatutos"
+        ]
+      },
+      {
+        "id": "investigacion",
+        "candidates": [
+          "imsv-investigacion"
+        ]
+      },
+      {
+        "id": "cultura",
+        "candidates": [
+          "imsv-cultura"
+        ]
+      },
+      {
+        "id": "periodismo",
+        "candidates": [
+          "imsv-periodismo"
+        ]
+      },
+      {
+        "id": "entidades",
+        "candidates": [
+          "imsv-entidades",
+          "imsv-ecosistema"
+        ]
+      }
+    ],
     "type": "documento",
     "focus": "S14",
     "seeds": [
@@ -37,16 +71,16 @@
   },
   "budget": {
     "limit": 4000,
-    "used": 2940,
-    "remaining": 1060,
-    "nextBlock": null,
+    "used": 3929,
+    "remaining": 71,
+    "nextBlock": 173,
     "encoding": "o200k_base",
     "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
   },
-  "reachable": 18,
-  "selected": 18,
-  "shown": 19,
-  "omittedByBudget": 0,
+  "reachable": 27,
+  "selected": 17,
+  "shown": 18,
+  "omittedByBudget": 10,
   "omittedInDiagram": 0,
   "layers": [
     {
@@ -61,8 +95,8 @@
     },
     {
       "distance": 2,
-      "selected": 2,
-      "shown": 2
+      "selected": 11,
+      "shown": 11
     },
     {
       "distance": 3,
@@ -76,28 +110,8 @@
     },
     {
       "distance": 5,
-      "selected": 2,
-      "shown": 2
-    },
-    {
-      "distance": 6,
-      "selected": 3,
-      "shown": 3
-    },
-    {
-      "distance": 7,
-      "selected": 2,
-      "shown": 2
-    },
-    {
-      "distance": 8,
-      "selected": 2,
-      "shown": 2
-    },
-    {
-      "distance": 9,
-      "selected": 2,
-      "shown": 2
+      "selected": 1,
+      "shown": 1
     }
   ],
   "center": "doc-e198b1540263bd17cd-entrada",
@@ -130,7 +144,11 @@
         "imsv"
       ],
       "tags": [
-        "empresa"
+        "empresa",
+        "autoridad",
+        "legitimidad",
+        "encuentros",
+        "aprendizaje"
       ],
       "summary": "Una sociedad científica dedicada a comprender la complejidad, preservar las capacidades esenciales y abrir nuevas posibilidades de adaptación.",
       "commit": null,
@@ -138,12 +156,386 @@
       "commitUrl": null,
       "documentId": "doc-e198b1540263bd17cd",
       "tagWeights": {
-        "empresa": 1
+        "empresa": 0.2,
+        "autoridad": 0.2,
+        "legitimidad": 0.2,
+        "encuentros": 0.2,
+        "aprendizaje": 0.2
       },
-      "contextTokens": 76,
+      "contextTokens": 380,
+      "reading": "The Integral Management Society es una asociación suiza sin ánimo de lucro, con sede en Ginebra. Su página de gobierno fecha la constitución el 20 de noviembre de 2024. Reúne investigación, cultura y periodismo/difusión: Tegrity.AI, el Instituto del Totonacapan y LatinoEmpresa desarrollan esos campos.\n\nLa Asamblea General y el Consejo gobiernan la asociación; los Círculos trabajan mediante mandatos y Chartae. Los estatutos consolidados fueron ratificados el 3 de agosto de 2026 y el francés es su texto de referencia jurídica. Las páginas públicas describen estos órganos; las consultas sobre sus responsables se dirigen al contacto institucional.\n\nPara una dirección empresarial, el ecosistema conecta investigación sobre sistemas complejos e integridad operativa, preservación de capacidades y experiencia de ingeniería y transformación. JubAp.Net, JubAp.eu y JubAp.us aportan funciones especializadas mediante sus entidades y acuerdos. JubAp.eu identifica a OÜ JUBAP como entidad estonia independiente: la contratación comercial corresponde a la entidad identificada para el encargo.\n\nLa Bola de Oro aporta la trayectoria histórica iniciada en 1898; la asociación suiza tiene personalidad jurídica desde 2024. Nueva Perspectiva es una línea de pensamiento dentro de este conjunto. Gobierno, actividad, ecosistema y documentos legales permiten comprender la institución completa.",
+      "readingSummary": "The Integral Management Society es una asociación suiza sin ánimo de lucro, con sede en Ginebra. Su página de gobierno fecha la constitución el 20 de noviembre de 2024. Reúne investigación, cultura y periodismo/difusión: Tegrity.AI, el Instituto del Totonacapan y LatinoEmpresa desarrollan esos campos.",
+      "readingSource": {
+        "url": "https://integralmanagement.ch/",
+        "section": "Institutional overview and principal linked pages",
+        "observed": "2026-11-04",
+        "sourceSha256": "791c8c239b65405229b4b1b35fa9846597ec54c6182af43b93f5a141f847cd16"
+      },
+      "readingSources": [
+        "https://integralmanagement.ch/",
+        "https://integralmanagement.ch/gobierno/",
+        "https://integralmanagement.ch/ecosistema/",
+        "https://integralmanagement.ch/trabajo/",
+        "https://integralmanagement.ch/legal/"
+      ],
       "distance": 1,
       "parent": "doc-e198b1540263bd17cd-entrada",
       "routeEdge": null,
+      "affinity": 1
+    },
+    {
+      "id": "imsv-gobierno",
+      "type": "ficha",
+      "title": "IMSV · Gobierno y órganos responsables",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-gobierno/",
+      "original": "https://integralmanagement.ch/gobierno/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "autoridad",
+        "legitimidad",
+        "empresa"
+      ],
+      "summary": "La Asamblea General adopta y modifica estatutos, elige al Consejo y aprueba informes, cuentas, hoja de ruta y presupuesto conforme a las reglas estatutarias. El Consejo es el comité de la asociación y distribuye las funciones de dirección o presidencia, secretaría y responsabilidad financiera. Los Círculos desarrollan mandatos mediante sus Chartae; comparten la personalidad jurídica de la asociación.",
+      "reading": "La Asamblea General adopta y modifica estatutos, elige al Consejo y aprueba informes, cuentas, hoja de ruta y presupuesto conforme a las reglas estatutarias. El Consejo es el comité de la asociación y distribuye las funciones de dirección o presidencia, secretaría y responsabilidad financiera. Los Círculos desarrollan mandatos mediante sus Chartae; comparten la personalidad jurídica de la asociación.\n\nLa página de gobierno fecha la constitución en Ginebra el 20 de noviembre de 2024 y la ratificación del texto estatutario consolidado el 3 de agosto de 2026. Publica las funciones de los órganos y un contacto para consultar representación y documentos.",
+      "readingSummary": "La Asamblea General adopta y modifica estatutos, elige al Consejo y aprueba informes, cuentas, hoja de ruta y presupuesto conforme a las reglas estatutarias. El Consejo es el comité de la asociación y distribuye las funciones de dirección o presidencia, secretaría y responsabilidad financiera. Los Círculos desarrollan mandatos mediante sus Chartae; comparten la personalidad jurídica de la asociación.",
+      "readingSource": {
+        "url": "https://integralmanagement.ch/gobierno/",
+        "section": "Institutional page",
+        "observed": "2026-11-04",
+        "sourceSha256": "63a257646f518430850079dc08336a9a82726d2d61797c294b26e247a9afa024"
+      },
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "tagWeights": {
+        "autoridad": 0.4,
+        "legitimidad": 0.35,
+        "empresa": 0.25
+      },
+      "contextTokens": 221,
+      "documentId": "doc-ddb54e82d9ed2cb191",
+      "distance": 2,
+      "parent": "S14",
+      "routeEdge": "documento:imsv-overview-S14-imsv-gobierno",
+      "affinity": 1
+    },
+    {
+      "id": "imsv-investigacion",
+      "type": "ficha",
+      "title": "IMSV · Campo de investigación y Tegrity.AI",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-investigacion/",
+      "original": "https://integralmanagement.ch/trabajo/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "documentacion",
+        "integridad-ia",
+        "representacion"
+      ],
+      "summary": "La investigación es uno de los tres campos institucionales de The Integral Management Society. Tegrity.AI reúne el programa Structural Awareness sobre sistemas adaptativos, integridad operativa y cambios en las condiciones de representación y control. Publica artículos, notas técnicas y contribuciones de preestandarización.",
+      "reading": "La investigación es uno de los tres campos institucionales de The Integral Management Society. Tegrity.AI reúne el programa Structural Awareness sobre sistemas adaptativos, integridad operativa y cambios en las condiciones de representación y control. Publica artículos, notas técnicas y contribuciones de preestandarización.\n\nResearch Initiatives distingue ocho líneas con sus respectivos estados; Research Contributions enlaza ejemplos de intercambios académicos, documentos y aportaciones a grupos de la UIT. Desde la visión institucional se puede pasar a ese corpus técnico para examinar una pregunta o una colaboración concreta.",
+      "readingSummary": "La investigación es uno de los tres campos institucionales de The Integral Management Society. Tegrity.AI reúne el programa Structural Awareness sobre sistemas adaptativos, integridad operativa y cambios en las condiciones de representación y control. Publica artículos, notas técnicas y contribuciones de preestandarización.",
+      "readingSource": {
+        "url": "https://integralmanagement.ch/trabajo/",
+        "section": "Institutional page",
+        "observed": "2026-11-04",
+        "sourceSha256": "640aacdf0e3d027e3bdae84a5cd9ca71301bc7860e700da64e536fa66d3f6398"
+      },
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "tagWeights": {
+        "documentacion": 0.4,
+        "integridad-ia": 0.3,
+        "representacion": 0.3
+      },
+      "contextTokens": 201,
+      "documentId": "doc-b0d55b5ef731985449",
+      "distance": 2,
+      "parent": "S14",
+      "routeEdge": "documento:imsv-overview-S14-imsv-investigacion",
+      "affinity": 1
+    },
+    {
+      "id": "imsv-cultura",
+      "type": "ficha",
+      "title": "IMSV · Cultura y el Instituto del Totonacapan",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-cultura/",
+      "original": "https://integralmanagement.ch/ecosistema/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "memoria-territorio",
+        "aprendizaje",
+        "encuentros"
+      ],
+      "summary": "El campo cultural reúne preservación de capacidades, patrimonio vivo y comunidades de práctica. El Instituto del Totonacapan desarrolla historia, oficios, joyería, relojería, territorio y transmisión de conocimiento. Su sitio conserva el desarrollo histórico y las voces de esos trabajos.",
+      "reading": "El campo cultural reúne preservación de capacidades, patrimonio vivo y comunidades de práctica. El Instituto del Totonacapan desarrolla historia, oficios, joyería, relojería, territorio y transmisión de conocimiento. Su sitio conserva el desarrollo histórico y las voces de esos trabajos.\n\nEsta función conecta con la misión de la Sociedad de mantener conocimientos útiles entre generaciones. La trayectoria de La Bola de Oro se sitúa desde 1898; la asociación suiza que hoy da forma institucional a la misión se constituye en 2024. El directorio permite continuar hacia el Instituto y sus fuentes.",
+      "readingSummary": "El campo cultural reúne preservación de capacidades, patrimonio vivo y comunidades de práctica. El Instituto del Totonacapan desarrolla historia, oficios, joyería, relojería, territorio y transmisión de conocimiento. Su sitio conserva el desarrollo histórico y las voces de esos trabajos.",
+      "readingSource": {
+        "url": "https://integralmanagement.ch/ecosistema/",
+        "section": "Institutional page",
+        "observed": "2026-11-04",
+        "sourceSha256": "85017c9afd92f33714221bcddec865d08cd707cc1863517a96dd4fbfbc0cd29e"
+      },
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "tagWeights": {
+        "memoria-territorio": 0.5,
+        "aprendizaje": 0.3,
+        "encuentros": 0.2
+      },
+      "contextTokens": 203,
+      "documentId": "doc-9f9dfa78fdb4325431",
+      "distance": 2,
+      "parent": "S14",
+      "routeEdge": "documento:imsv-overview-S14-imsv-cultura",
+      "affinity": 1
+    },
+    {
+      "id": "imsv-periodismo",
+      "type": "ficha",
+      "title": "IMSV · Periodismo, difusión y LatinoEmpresa",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-periodismo/",
+      "original": "https://integralmanagement.ch/ecosistema/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "encuentros",
+        "memoria-territorio",
+        "evidencia"
+      ],
+      "summary": "LatinoEmpresa desarrolla el campo de periodismo y difusión: entrevistas, reportajes y experiencias humanas, culturales y empresariales entre América Latina y Europa. Reúne voces migrantes, personas emprendedoras, profesionales y comunidades de práctica.",
+      "reading": "LatinoEmpresa desarrolla el campo de periodismo y difusión: entrevistas, reportajes y experiencias humanas, culturales y empresariales entre América Latina y Europa. Reúne voces migrantes, personas emprendedoras, profesionales y comunidades de práctica.\n\nSu función institucional es hacer circular conocimiento con procedencia reconocible y facilitar encuentros. Los artículos y eventos se consultan en su sitio; el directorio de IMSV sitúa esa actividad junto a investigación y cultura.",
+      "readingSummary": "LatinoEmpresa desarrolla el campo de periodismo y difusión: entrevistas, reportajes y experiencias humanas, culturales y empresariales entre América Latina y Europa. Reúne voces migrantes, personas emprendedoras, profesionales y comunidades de práctica.",
+      "readingSource": {
+        "url": "https://integralmanagement.ch/ecosistema/",
+        "section": "Institutional page",
+        "observed": "2026-11-04",
+        "sourceSha256": "85017c9afd92f33714221bcddec865d08cd707cc1863517a96dd4fbfbc0cd29e"
+      },
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "tagWeights": {
+        "encuentros": 0.4,
+        "memoria-territorio": 0.3,
+        "evidencia": 0.3
+      },
+      "contextTokens": 177,
+      "documentId": "doc-9f9dfa78fdb4325431",
+      "distance": 2,
+      "parent": "S14",
+      "routeEdge": "documento:imsv-overview-S14-imsv-periodismo",
+      "affinity": 1
+    },
+    {
+      "id": "imsv-entidades",
+      "type": "ficha",
+      "title": "IMSV · Ingeniería, transformación y contratación",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-entidades/",
+      "original": "https://integralmanagement.ch/ecosistema/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "empresa",
+        "transformacion",
+        "autoridad"
+      ],
+      "summary": "JubAp.Net aporta ingeniería de frontera, JubAp.eu transformación estratégica y JubAp.us integración operativa y creación de valor. Estas funciones conectan experiencia de campo y especialidades del ecosistema con necesidades organizativas.",
+      "reading": "JubAp.Net aporta ingeniería de frontera, JubAp.eu transformación estratégica y JubAp.us integración operativa y creación de valor. Estas funciones conectan experiencia de campo y especialidades del ecosistema con necesidades organizativas.\n\nJubAp.eu opera mediante OÜ JUBAP, entidad estonia independiente. Para un encargo comercial, la propuesta y el contrato identifican a la entidad responsable de realizarlo y sus obligaciones. La asociación suiza mantiene sus fines, gobierno y patrimonio; la cooperación permite combinar capacidades mediante acuerdos que identifican a cada parte.",
+      "readingSummary": "JubAp.Net aporta ingeniería de frontera, JubAp.eu transformación estratégica y JubAp.us integración operativa y creación de valor. Estas funciones conectan experiencia de campo y especialidades del ecosistema con necesidades organizativas.",
+      "readingSource": {
+        "url": "https://integralmanagement.ch/ecosistema/",
+        "section": "Institutional page",
+        "observed": "2026-11-04",
+        "sourceSha256": "85017c9afd92f33714221bcddec865d08cd707cc1863517a96dd4fbfbc0cd29e"
+      },
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "tagWeights": {
+        "empresa": 0.45,
+        "transformacion": 0.3,
+        "autoridad": 0.25
+      },
+      "contextTokens": 193,
+      "documentId": "doc-9f9dfa78fdb4325431",
+      "distance": 2,
+      "parent": "S14",
+      "routeEdge": "documento:imsv-overview-S14-imsv-entidades",
+      "affinity": 1
+    },
+    {
+      "id": "imsv-ecosistema",
+      "type": "ficha",
+      "title": "IMSV · Directorio de funciones y entidades",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-ecosistema/",
+      "original": "https://integralmanagement.ch/ecosistema/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "empresa",
+        "encuentros",
+        "autoridad",
+        "transformacion"
+      ],
+      "summary": "El directorio relaciona el Instituto del Totonacapan con cultura y patrimonio; Tegrity.AI con investigación; LatinoEmpresa con medios y comunidad; y Formación Integral con educación y transmisión de capacidades. JubAp.Net aporta ingeniería, JubAp.eu transformación y JubAp.us integración operativa y creación de valor.",
+      "reading": "El directorio relaciona el Instituto del Totonacapan con cultura y patrimonio; Tegrity.AI con investigación; LatinoEmpresa con medios y comunidad; y Formación Integral con educación y transmisión de capacidades. JubAp.Net aporta ingeniería, JubAp.eu transformación y JubAp.us integración operativa y creación de valor.\n\nJubAp.eu identifica a OÜ JUBAP como entidad estonia independiente. Las funciones de cooperación, custodia, pertenencia, representación y contratación se describen por sus entidades y acuerdos correspondientes. El directorio permite elegir la unidad pertinente para una necesidad y acudir a su página especializada.",
+      "readingSummary": "El directorio relaciona el Instituto del Totonacapan con cultura y patrimonio; Tegrity.AI con investigación; LatinoEmpresa con medios y comunidad; y Formación Integral con educación y transmisión de capacidades. JubAp.Net aporta ingeniería, JubAp.eu transformación y JubAp.us integración operativa y creación de valor.",
+      "readingSource": {
+        "url": "https://integralmanagement.ch/ecosistema/",
+        "section": "Institutional page",
+        "observed": "2026-11-04",
+        "sourceSha256": "85017c9afd92f33714221bcddec865d08cd707cc1863517a96dd4fbfbc0cd29e"
+      },
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "tagWeights": {
+        "empresa": 0.3,
+        "encuentros": 0.3,
+        "autoridad": 0.2,
+        "transformacion": 0.2
+      },
+      "contextTokens": 216,
+      "documentId": "doc-9f9dfa78fdb4325431",
+      "distance": 2,
+      "parent": "S14",
+      "routeEdge": "documento:imsv-overview-S14-imsv-ecosistema",
+      "affinity": 1
+    },
+    {
+      "id": "imsv-estatutos",
+      "type": "ficha",
+      "title": "IMSV · Estatutos y misión institucional",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-estatutos/",
+      "original": "https://integralmanagement.ch/wp-content/uploads/2026/11/Statuts_The_Integral_Management_Society_mission_notarial_apostille_public-web.pdf",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "legitimidad",
+        "autoridad",
+        "evidencia"
+      ],
+      "summary": "Gobierno enlaza el extracto público en francés de los estatutos de misión, con disposiciones fundadoras, artículos 1 a 9 y anexos visuales. La web distingue constitución de la asociación el 20 de noviembre de 2024, revisión estatutaria de referencia el 2 de julio de 2025 y ratificación del texto consolidado el 3 de agosto de 2026.",
+      "reading": "Gobierno enlaza el extracto público en francés de los estatutos de misión, con disposiciones fundadoras, artículos 1 a 9 y anexos visuales. La web distingue constitución de la asociación el 20 de noviembre de 2024, revisión estatutaria de referencia el 2 de julio de 2025 y ratificación del texto consolidado el 3 de agosto de 2026.\n\nEl francés es el ejemplar de referencia jurídica. Las normas permiten situar fines, recursos, responsabilidades y mandatos; la página de gobierno explica las competencias de Asamblea General, Consejo y Círculos. La procedencia histórica de capacidades y la constitución de la persona jurídica son dos hitos identificados en su cronología.",
+      "readingSummary": "Gobierno enlaza el extracto público en francés de los estatutos de misión, con disposiciones fundadoras, artículos 1 a 9 y anexos visuales. La web distingue constitución de la asociación el 20 de noviembre de 2024, revisión estatutaria de referencia el 2 de julio de 2025 y ratificación del texto consolidado el 3 de agosto de 2026.",
+      "readingSource": {
+        "url": "https://integralmanagement.ch/wp-content/uploads/2026/11/Statuts_The_Integral_Management_Society_mission_notarial_apostille_public-web.pdf",
+        "section": "Institutional page",
+        "observed": "2026-11-04",
+        "sourceSha256": "d5e28a414be0cb817593d91f2aacb5eaade97b556834ce886e966a93ae727692"
+      },
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "tagWeights": {
+        "legitimidad": 0.5,
+        "autoridad": 0.3,
+        "evidencia": 0.2
+      },
+      "contextTokens": 266,
+      "documentId": "doc-e12637ceddae458e32",
+      "distance": 2,
+      "parent": "S14",
+      "routeEdge": "documento:imsv-overview-S14-imsv-estatutos",
+      "affinity": 1
+    },
+    {
+      "id": "imsv-legal",
+      "type": "ficha",
+      "title": "IMSV · Identidad jurídica y fuentes legales",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-legal/",
+      "original": "https://integralmanagement.ch/legal/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "evidencia",
+        "legitimidad",
+        "autoridad"
+      ],
+      "summary": "La ficha legal identifica The Integral Management Society como asociación suiza sin ánimo de lucro, con sede en el cantón de Ginebra. Reproduce un extracto de la Oficina Federal de Estadística fechado el 28 de agosto de 2026: UID CHE-481.709.475, forma 0109 — Association, estado Actif y dirección administrativa c/o MSA, Route des Jeunes 41a, 1227 Carouge GE. El registro oficial enlazado permite consultar el dato actualizado.",
+      "reading": "La ficha legal identifica The Integral Management Society como asociación suiza sin ánimo de lucro, con sede en el cantón de Ginebra. Reproduce un extracto de la Oficina Federal de Estadística fechado el 28 de agosto de 2026: UID CHE-481.709.475, forma 0109 — Association, estado Actif y dirección administrativa c/o MSA, Route des Jeunes 41a, 1227 Carouge GE. El registro oficial enlazado permite consultar el dato actualizado.\n\nLa página distingue los documentos institucionales vigentes de sus síntesis editoriales y marca aspectos del aviso legal aún en revisión. Los contratos y patrimonios de entidades independientes del ecosistema se identifican por sus propios responsables.",
+      "readingSummary": "La ficha legal identifica The Integral Management Society como asociación suiza sin ánimo de lucro, con sede en el cantón de Ginebra. Reproduce un extracto de la Oficina Federal de Estadística fechado el 28 de agosto de 2026: UID CHE-481.709.475, forma 0109 — Association, estado Actif y dirección administrativa c/o MSA, Route des Jeunes 41a, 1227 Carouge GE. El registro oficial enlazado permite consultar el dato actualizado.",
+      "readingSource": {
+        "url": "https://integralmanagement.ch/legal/",
+        "section": "Institutional page",
+        "observed": "2026-11-04",
+        "sourceSha256": "9a78b19254d04781f2598d8fa5cb2d79fa0da8ec57ba7f168620ab91d7b8629c"
+      },
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "tagWeights": {
+        "evidencia": 0.4,
+        "legitimidad": 0.4,
+        "autoridad": 0.2
+      },
+      "contextTokens": 236,
+      "documentId": "doc-d96d6ea0bcd57cf923",
+      "distance": 2,
+      "parent": "S14",
+      "routeEdge": "documento:imsv-overview-S14-imsv-legal",
+      "affinity": 1
+    },
+    {
+      "id": "imsv-trabajo",
+      "type": "ficha",
+      "title": "IMSV · Trabajo, conocimiento y experiencia de campo",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-trabajo/",
+      "original": "https://integralmanagement.ch/trabajo/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "transformacion",
+        "aprendizaje",
+        "documentacion",
+        "empresa"
+      ],
+      "summary": "El trabajo conecta investigación de sistemas complejos, experiencia de campo, transformación sociotécnica y preservación de capacidades. Tegrity.AI desarrolla la línea de integridad operativa de IA; las unidades de JubAp presentan ingeniería y transformación en sus sitios especializados.",
+      "reading": "El trabajo conecta investigación de sistemas complejos, experiencia de campo, transformación sociotécnica y preservación de capacidades. Tegrity.AI desarrolla la línea de integridad operativa de IA; las unidades de JubAp presentan ingeniería y transformación en sus sitios especializados.\n\nGEPLAN ilustra coordinación de flota, mantenimiento y suministros; AICM/Crea Camino, el cauce para convertir conocimiento operativo en propuestas; Riviera Maya/xSeil, la comparación de escenarios de demanda y recursos. El Instituto del Totonacapan sitúa oficios, patrimonio y transmisión; Formación Integral y LatinoEmpresa conectan aprendizaje, difusión y comunidad.",
+      "readingSummary": "El trabajo conecta investigación de sistemas complejos, experiencia de campo, transformación sociotécnica y preservación de capacidades. Tegrity.AI desarrolla la línea de integridad operativa de IA; las unidades de JubAp presentan ingeniería y transformación en sus sitios especializados.",
+      "readingSource": {
+        "url": "https://integralmanagement.ch/trabajo/",
+        "section": "Institutional page",
+        "observed": "2026-11-04",
+        "sourceSha256": "640aacdf0e3d027e3bdae84a5cd9ca71301bc7860e700da64e536fa66d3f6398"
+      },
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "tagWeights": {
+        "transformacion": 0.3,
+        "aprendizaje": 0.3,
+        "documentacion": 0.2,
+        "empresa": 0.2
+      },
+      "contextTokens": 223,
+      "documentId": "doc-b0d55b5ef731985449",
+      "distance": 2,
+      "parent": "S14",
+      "routeEdge": "documento:imsv-overview-S14-imsv-trabajo",
       "affinity": 1
     },
     {
@@ -350,300 +742,6 @@
       "parent": "np-aprendizajes",
       "routeEdge": "documento:np-r13",
       "affinity": 1
-    },
-    {
-      "id": "np-sierra",
-      "type": "ficha",
-      "title": "La sierra del Totonacapan: el origen vivencial",
-      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-sierra",
-      "original": "https://integralmanagement.ch/nueva-perspectiva/sierra-del-totonacapan/",
-      "aliases": [],
-      "clusters": [
-        "imsv"
-      ],
-      "tags": [
-        "experimentacion",
-        "memoria-territorio"
-      ],
-      "summary": "Los encuentros comunitarios plantearon cómo una persona puede querer cambiar y seguir reproduciendo la situación que quiere transformar. Quienes acompañaban la experiencia también ponían a prueba su propia mirada.",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-e48e4b0fbdce2ff103",
-      "tagWeights": {
-        "experimentacion": 0.4444,
-        "memoria-territorio": 0.5556
-      },
-      "contextTokens": 128,
-      "distance": 5,
-      "parent": "np-experiencia",
-      "routeEdge": "documento:np-r03",
-      "affinity": 1
-    },
-    {
-      "id": "np-accion-metodo",
-      "type": "ficha",
-      "title": "Acción Integral: la capacidad de actuar entre personas y sistemas",
-      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-accion-metodo",
-      "original": "https://integralmanagement.ch/publicaciones/art-imsv-09/",
-      "aliases": [],
-      "clusters": [
-        "imsv"
-      ],
-      "tags": [
-        "aprendizaje",
-        "decision",
-        "transformacion"
-      ],
-      "summary": "La cooperación requiere que la información, el juicio y las responsabilidades lleguen a quienes realizan el trabajo. El programa DO y JUMP UP ofrecen maneras concretas de pasar de una observación compartida a una decisión que pueda sostenerse.",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-45e247f28037ec2d23",
-      "tagWeights": {
-        "aprendizaje": 0.2222,
-        "decision": 0.5556,
-        "transformacion": 0.2222
-      },
-      "contextTokens": 140,
-      "distance": 6,
-      "parent": "np-accion",
-      "routeEdge": "documento:np-r17",
-      "affinity": 1
-    },
-    {
-      "id": "np-aicm",
-      "type": "ficha",
-      "title": "AICM y Crea Camino: transformar desde la experiencia",
-      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-aicm",
-      "original": "https://integralmanagement.ch/nueva-perspectiva/aicm-crea-camino/",
-      "aliases": [],
-      "clusters": [
-        "imsv"
-      ],
-      "tags": [
-        "aprendizaje",
-        "movilidad"
-      ],
-      "summary": "En un contexto incierto, los talleres aprovecharon la experiencia de trabajadores para formular propuestas de mejora. Convertir una idea en iniciativa requería responsables, indicadores y un camino de ejecución.",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-749cbd6894bd70c2e9",
-      "tagWeights": {
-        "aprendizaje": 0.4444,
-        "movilidad": 0.5556
-      },
-      "contextTokens": 124,
-      "distance": 6,
-      "parent": "np-accion",
-      "routeEdge": "documento:np-r12",
-      "affinity": 1
-    },
-    {
-      "id": "np-coaching",
-      "type": "ficha",
-      "title": "Coaching Transpersonal: aprender en comunidad",
-      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-coaching",
-      "original": "https://integralmanagement.ch/nueva-perspectiva/coaching-transpersonal/",
-      "aliases": [],
-      "clusters": [
-        "imsv"
-      ],
-      "tags": [
-        "aprendizaje",
-        "espiritualidad",
-        "memoria-territorio"
-      ],
-      "summary": "Los talleres en Xalapa y Coatepec recurrieron a la observación de la experiencia, la atención y los cambios de rol. El participante podía examinar lo que le ocurría antes de adoptar la explicación de otra persona.",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-b1f655d51915d8d1ef",
-      "tagWeights": {
-        "aprendizaje": 0.2857,
-        "espiritualidad": 0.3572,
-        "memoria-territorio": 0.3571
-      },
-      "contextTokens": 137,
-      "distance": 6,
-      "parent": "np-sierra",
-      "routeEdge": "documento:np-r04",
-      "affinity": 1
-    },
-    {
-      "id": "np-encajonadora",
-      "type": "ficha",
-      "title": "La encajonadora: un problema técnico y muchas perspectivas",
-      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-encajonadora",
-      "original": "https://integralmanagement.ch/nueva-perspectiva/encajonadora/",
-      "aliases": [],
-      "clusters": [
-        "imsv"
-      ],
-      "tags": [
-        "decision",
-        "perspectiva"
-      ],
-      "summary": "Producción, calidad y mantenimiento veían la misma máquina desde responsabilidades diferentes. Para intervenir se necesitaba comprender a la vez sus fallos materiales y cómo interactuaban las respuestas de las áreas.",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-43b98a7f1952ac72d5",
-      "tagWeights": {
-        "decision": 0.4444,
-        "perspectiva": 0.5556
-      },
-      "contextTokens": 121,
-      "distance": 7,
-      "parent": "np-aicm",
-      "routeEdge": "documento:np-r11",
-      "affinity": 1
-    },
-    {
-      "id": "np-microempresas",
-      "type": "ficha",
-      "title": "Microempresarios: mirar el negocio desde otra silla",
-      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-microempresas",
-      "original": "https://integralmanagement.ch/nueva-perspectiva/microempresarios/",
-      "aliases": [],
-      "clusters": [
-        "imsv"
-      ],
-      "tags": [
-        "empresa"
-      ],
-      "summary": "El Programa de Desarrollo Organizacional proponía observar el mismo negocio como cliente, trabajador, proveedor o vecino. Comparar esas miradas permite descubrir una contradicción entre la promesa del negocio y lo que sucede al visitarlo o trabajar allí.",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-6791639699e0fbb314",
-      "tagWeights": {
-        "empresa": 1
-      },
-      "contextTokens": 119,
-      "distance": 7,
-      "parent": "np-coaching",
-      "routeEdge": "documento:np-r05",
-      "affinity": 1
-    },
-    {
-      "id": "np-ado",
-      "type": "ficha",
-      "title": "ADO: Consciencia Plena, Pulsera Rosa y andenes",
-      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-ado",
-      "original": "https://integralmanagement.ch/nueva-perspectiva/ado-consciencia-plena/",
-      "aliases": [],
-      "clusters": [
-        "imsv"
-      ],
-      "tags": [
-        "espiritualidad",
-        "integridad-ia"
-      ],
-      "summary": "El conocimiento de quienes operaban andenes o atendían a pasajeros podía convertirse en propuestas concretas. Pulsera Rosa muestra cómo observar la experiencia de una pasajera cambia la manera de formular una cuestión de seguridad.",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-90701a536266d9a059",
-      "tagWeights": {
-        "espiritualidad": 0.5556,
-        "integridad-ia": 0.4444
-      },
-      "contextTokens": 131,
-      "distance": 8,
-      "parent": "np-encajonadora",
-      "routeEdge": "documento:np-r10",
-      "affinity": 1
-    },
-    {
-      "id": "np-lectura-manifiesto",
-      "type": "ficha",
-      "title": "El manifiesto, leído en diálogo",
-      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-lectura-manifiesto",
-      "original": "https://integralmanagement.ch/nueva-perspectiva/leer-el-manifiesto/",
-      "aliases": [],
-      "clusters": [
-        "imsv"
-      ],
-      "tags": [
-        "decision",
-        "perspectiva"
-      ],
-      "summary": "La lectura distingue deseo, acción, consecuencia y satisfacción. Una nueva idea merece examen racional, observaciones y contraste, para saber si cambió la situación o solo la manera de describirla.",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-30ca55893f391b5c59",
-      "tagWeights": {
-        "decision": 0.5,
-        "perspectiva": 0.5
-      },
-      "contextTokens": 118,
-      "distance": 8,
-      "parent": "np-microempresas",
-      "routeEdge": "documento:np-r06",
-      "affinity": 1
-    },
-    {
-      "id": "np-jump-up",
-      "type": "ficha",
-      "title": "Del cambio de perspectiva al plan JUMP UP",
-      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-jump-up",
-      "original": "https://integralmanagement.ch/nueva-perspectiva/jump-up/",
-      "aliases": [],
-      "clusters": [
-        "imsv"
-      ],
-      "tags": [
-        "perspectiva",
-        "transformacion"
-      ],
-      "summary": "Focus ON permite examinar cómo se afectan entre sí los intereses, las capacidades, los objetivos y los bloqueos. JUMP UP convierte esa lectura en una acción que un equipo puede empezar y seguir en la operación.",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-ff9d2edaecf0774aed",
-      "tagWeights": {
-        "perspectiva": 0.3846,
-        "transformacion": 0.6154
-      },
-      "contextTokens": 120,
-      "distance": 9,
-      "parent": "np-lectura-manifiesto",
-      "routeEdge": "documento:np-r07",
-      "affinity": 1
-    },
-    {
-      "id": "np-pemex",
-      "type": "ficha",
-      "title": "PEMEX y TETSA: personas, seguridad y operación",
-      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-pemex",
-      "original": "https://integralmanagement.ch/nueva-perspectiva/pemex-tetsa/",
-      "aliases": [],
-      "clusters": [
-        "imsv"
-      ],
-      "tags": [
-        "empresa",
-        "integridad-ia",
-        "movilidad"
-      ],
-      "summary": "El capítulo examina atención, estrés, hábitos de los operadores y condiciones técnicas de seguridad. Distingue esas experiencias de los sistemas logísticos y de gestión que coexistieron en el entorno petrolero.",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-338ccb609a5fe2b0fe",
-      "tagWeights": {
-        "empresa": 0.25,
-        "integridad-ia": 0.5,
-        "movilidad": 0.25
-      },
-      "contextTokens": 131,
-      "distance": 9,
-      "parent": "np-ado",
-      "routeEdge": "documento:np-r09",
-      "affinity": 1
     }
   ],
   "edges": [
@@ -653,6 +751,87 @@
       "to": "S14",
       "kind": "ficha del documento",
       "reading": "Esta pieza abre la lectura desde su documento de origen.",
+      "route": true
+    },
+    {
+      "id": "documento:imsv-overview-S14-imsv-gobierno",
+      "from": "S14",
+      "to": "imsv-gobierno",
+      "kind": "institutional function",
+      "reading": "La ficha explica gobierno y órganos responsables dentro de la asociación.",
+      "evidence": "https://integralmanagement.ch/gobierno/",
+      "route": true
+    },
+    {
+      "id": "documento:imsv-overview-S14-imsv-investigacion",
+      "from": "S14",
+      "to": "imsv-investigacion",
+      "kind": "institutional function",
+      "reading": "La ficha explica campo de investigación y tegrity.ai dentro de la asociación.",
+      "evidence": "https://integralmanagement.ch/trabajo/",
+      "route": true
+    },
+    {
+      "id": "documento:imsv-overview-S14-imsv-cultura",
+      "from": "S14",
+      "to": "imsv-cultura",
+      "kind": "institutional function",
+      "reading": "La ficha explica cultura y el instituto del totonacapan dentro de la asociación.",
+      "evidence": "https://integralmanagement.ch/ecosistema/",
+      "route": true
+    },
+    {
+      "id": "documento:imsv-overview-S14-imsv-periodismo",
+      "from": "S14",
+      "to": "imsv-periodismo",
+      "kind": "institutional function",
+      "reading": "La ficha explica periodismo, difusión y latinoempresa dentro de la asociación.",
+      "evidence": "https://integralmanagement.ch/ecosistema/",
+      "route": true
+    },
+    {
+      "id": "documento:imsv-overview-S14-imsv-entidades",
+      "from": "S14",
+      "to": "imsv-entidades",
+      "kind": "institutional function",
+      "reading": "La ficha explica ingeniería, transformación y contratación dentro de la asociación.",
+      "evidence": "https://integralmanagement.ch/ecosistema/",
+      "route": true
+    },
+    {
+      "id": "documento:imsv-overview-S14-imsv-ecosistema",
+      "from": "S14",
+      "to": "imsv-ecosistema",
+      "kind": "institutional function",
+      "reading": "La ficha explica directorio de funciones y entidades dentro de la asociación.",
+      "evidence": "https://integralmanagement.ch/ecosistema/",
+      "route": true
+    },
+    {
+      "id": "documento:imsv-overview-S14-imsv-estatutos",
+      "from": "S14",
+      "to": "imsv-estatutos",
+      "kind": "institutional function",
+      "reading": "La ficha explica estatutos y misión institucional dentro de la asociación.",
+      "evidence": "https://integralmanagement.ch/wp-content/uploads/2026/11/Statuts_The_Integral_Management_Society_mission_notarial_apostille_public-web.pdf",
+      "route": true
+    },
+    {
+      "id": "documento:imsv-overview-S14-imsv-legal",
+      "from": "S14",
+      "to": "imsv-legal",
+      "kind": "institutional function",
+      "reading": "La ficha explica identidad jurídica y fuentes legales dentro de la asociación.",
+      "evidence": "https://integralmanagement.ch/legal/",
+      "route": true
+    },
+    {
+      "id": "documento:imsv-overview-S14-imsv-trabajo",
+      "from": "S14",
+      "to": "imsv-trabajo",
+      "kind": "institutional function",
+      "reading": "La ficha explica trabajo, conocimiento y experiencia de campo dentro de la asociación.",
+      "evidence": "https://integralmanagement.ch/trabajo/",
       "route": true
     },
     {
@@ -719,111 +898,66 @@
       "route": true
     },
     {
-      "id": "documento:np-r03",
-      "from": "np-experiencia",
-      "to": "np-sierra",
-      "kind": "trayectoria",
-      "reading": "La sierra concreta una de las experiencias que precedieron o acompañaron la formulación.",
-      "evidence": null,
-      "route": true
-    },
-    {
-      "id": "documento:np-r17",
-      "from": "np-accion",
-      "to": "np-accion-metodo",
-      "kind": "ampliación",
-      "reading": "El ensayo desarrolla el paso entre aprendizaje, responsabilidades y acción sostenida.",
-      "evidence": null,
-      "route": true
-    },
-    {
-      "id": "documento:np-r12",
-      "from": "np-aicm",
-      "to": "np-accion",
-      "kind": "síntesis",
-      "reading": "La acción de quienes conocen el trabajo se sitúa junto a otras prácticas de integración.",
-      "evidence": null,
-      "route": true
-    },
-    {
-      "id": "documento:np-r04",
-      "from": "np-sierra",
-      "to": "np-coaching",
-      "kind": "continuidad",
-      "reading": "La observación de la experiencia vuelve a aparecer en un entorno abierto de formación.",
-      "evidence": null,
-      "route": true
-    },
-    {
-      "id": "documento:np-r11",
-      "from": "np-encajonadora",
-      "to": "np-aicm",
-      "kind": "comparación",
-      "reading": "El caso aeroportuario permite examinar, a otra escala, cómo el conocimiento de la operación llega a propuestas ejecutables.",
-      "evidence": null,
-      "route": true
-    },
-    {
-      "id": "documento:np-r05",
-      "from": "np-coaching",
-      "to": "np-microempresas",
-      "kind": "aplicación",
-      "reading": "El cambio de rol se convierte en una observación concreta de un negocio.",
-      "evidence": null,
-      "route": true
-    },
-    {
-      "id": "documento:np-r10",
-      "from": "np-ado",
-      "to": "np-encajonadora",
-      "kind": "comparación",
-      "reading": "Cambiar el punto de observación revela condiciones que las responsabilidades parciales no muestran.",
-      "evidence": null,
-      "route": true
-    },
-    {
-      "id": "documento:np-r06",
-      "from": "np-microempresas",
-      "to": "np-lectura-manifiesto",
-      "kind": "contraste",
-      "reading": "La comparación entre papeles permite examinar la diferencia entre una idea nueva y una decisión comprobable.",
-      "evidence": null,
-      "route": true
-    },
-    {
-      "id": "documento:np-r07",
-      "from": "np-lectura-manifiesto",
-      "to": "np-jump-up",
-      "kind": "desarrollo",
-      "reading": "El examen racional de una nueva mirada encuentra una expresión práctica en el diseño de la intervención.",
-      "evidence": null,
-      "route": true
-    },
-    {
-      "id": "documento:np-r09",
-      "from": "np-pemex",
-      "to": "np-ado",
-      "kind": "comparación",
-      "reading": "Ambos relatos distinguen las condiciones de operación de lo que trabajadores y usuarios pueden observar.",
-      "evidence": null,
-      "route": true
-    },
-    {
-      "id": "documento:np-r08",
-      "from": "np-jump-up",
-      "to": "np-pemex",
-      "kind": "lectura de campo",
-      "reading": "Leer los bloqueos exige observar a la vez procedimientos, seguridad y experiencia de quienes operan.",
-      "evidence": null,
-      "route": false
-    },
-    {
       "id": "documento:np-r16",
       "from": "np-manifiesto",
       "to": "np-mas-alla",
       "kind": "desarrollo",
       "reading": "El ensayo vuelve sobre las condiciones que delimitan qué puede ver un marco.",
       "evidence": null,
+      "route": false
+    },
+    {
+      "id": "documento:imsv-institutional-link-10",
+      "from": "imsv-gobierno",
+      "to": "imsv-estatutos",
+      "kind": "documented institutional reading",
+      "reading": "El gobierno deriva sus atribuciones de las normas y versiones estatutarias.",
+      "evidence": "https://integralmanagement.ch/gobierno/",
+      "route": false
+    },
+    {
+      "id": "documento:imsv-institutional-link-11",
+      "from": "imsv-gobierno",
+      "to": "imsv-legal",
+      "kind": "documented institutional reading",
+      "reading": "La ficha legal relaciona identidad pública, UID y documentos institucionales.",
+      "evidence": "https://integralmanagement.ch/gobierno/",
+      "route": false
+    },
+    {
+      "id": "documento:imsv-institutional-link-12",
+      "from": "imsv-ecosistema",
+      "to": "imsv-entidades",
+      "kind": "documented institutional reading",
+      "reading": "El directorio distingue funciones de cooperación y entidades responsables de los encargos.",
+      "evidence": "https://integralmanagement.ch/ecosistema/",
+      "route": false
+    },
+    {
+      "id": "documento:imsv-institutional-link-13",
+      "from": "imsv-trabajo",
+      "to": "imsv-investigacion",
+      "kind": "documented institutional reading",
+      "reading": "La práctica de campo y la investigación forman parte de un ciclo de conocimiento.",
+      "evidence": "https://integralmanagement.ch/trabajo/",
+      "route": false
+    },
+    {
+      "id": "documento:imsv-institutional-link-14",
+      "from": "imsv-trabajo",
+      "to": "imsv-cultura",
+      "kind": "documented institutional reading",
+      "reading": "La preservación de capacidades conecta experiencia y transmisión entre generaciones.",
+      "evidence": "https://integralmanagement.ch/trabajo/",
+      "route": false
+    },
+    {
+      "id": "documento:imsv-institutional-link-15",
+      "from": "imsv-ecosistema",
+      "to": "imsv-periodismo",
+      "kind": "documented institutional reading",
+      "reading": "LatinoEmpresa desarrolla periodismo, difusión y encuentro entre comunidades.",
+      "evidence": "https://integralmanagement.ch/ecosistema/",
       "route": false
     }
   ],
@@ -839,7 +973,11 @@
         "imsv"
       ],
       "tags": [
-        "empresa"
+        "empresa",
+        "autoridad",
+        "legitimidad",
+        "encuentros",
+        "aprendizaje"
       ],
       "summary": "Una sociedad científica dedicada a comprender la complejidad, preservar las capacidades esenciales y abrir nuevas posibilidades de adaptación.",
       "commit": null,
@@ -847,12 +985,386 @@
       "commitUrl": null,
       "documentId": "doc-e198b1540263bd17cd",
       "tagWeights": {
-        "empresa": 1
+        "empresa": 0.2,
+        "autoridad": 0.2,
+        "legitimidad": 0.2,
+        "encuentros": 0.2,
+        "aprendizaje": 0.2
       },
-      "contextTokens": 76,
+      "contextTokens": 380,
+      "reading": "The Integral Management Society es una asociación suiza sin ánimo de lucro, con sede en Ginebra. Su página de gobierno fecha la constitución el 20 de noviembre de 2024. Reúne investigación, cultura y periodismo/difusión: Tegrity.AI, el Instituto del Totonacapan y LatinoEmpresa desarrollan esos campos.\n\nLa Asamblea General y el Consejo gobiernan la asociación; los Círculos trabajan mediante mandatos y Chartae. Los estatutos consolidados fueron ratificados el 3 de agosto de 2026 y el francés es su texto de referencia jurídica. Las páginas públicas describen estos órganos; las consultas sobre sus responsables se dirigen al contacto institucional.\n\nPara una dirección empresarial, el ecosistema conecta investigación sobre sistemas complejos e integridad operativa, preservación de capacidades y experiencia de ingeniería y transformación. JubAp.Net, JubAp.eu y JubAp.us aportan funciones especializadas mediante sus entidades y acuerdos. JubAp.eu identifica a OÜ JUBAP como entidad estonia independiente: la contratación comercial corresponde a la entidad identificada para el encargo.\n\nLa Bola de Oro aporta la trayectoria histórica iniciada en 1898; la asociación suiza tiene personalidad jurídica desde 2024. Nueva Perspectiva es una línea de pensamiento dentro de este conjunto. Gobierno, actividad, ecosistema y documentos legales permiten comprender la institución completa.",
+      "readingSummary": "The Integral Management Society es una asociación suiza sin ánimo de lucro, con sede en Ginebra. Su página de gobierno fecha la constitución el 20 de noviembre de 2024. Reúne investigación, cultura y periodismo/difusión: Tegrity.AI, el Instituto del Totonacapan y LatinoEmpresa desarrollan esos campos.",
+      "readingSource": {
+        "url": "https://integralmanagement.ch/",
+        "section": "Institutional overview and principal linked pages",
+        "observed": "2026-11-04",
+        "sourceSha256": "791c8c239b65405229b4b1b35fa9846597ec54c6182af43b93f5a141f847cd16"
+      },
+      "readingSources": [
+        "https://integralmanagement.ch/",
+        "https://integralmanagement.ch/gobierno/",
+        "https://integralmanagement.ch/ecosistema/",
+        "https://integralmanagement.ch/trabajo/",
+        "https://integralmanagement.ch/legal/"
+      ],
       "distance": 1,
       "parent": "doc-e198b1540263bd17cd-entrada",
       "routeEdge": null,
+      "affinity": 1
+    },
+    {
+      "id": "imsv-gobierno",
+      "type": "ficha",
+      "title": "IMSV · Gobierno y órganos responsables",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-gobierno/",
+      "original": "https://integralmanagement.ch/gobierno/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "autoridad",
+        "legitimidad",
+        "empresa"
+      ],
+      "summary": "La Asamblea General adopta y modifica estatutos, elige al Consejo y aprueba informes, cuentas, hoja de ruta y presupuesto conforme a las reglas estatutarias. El Consejo es el comité de la asociación y distribuye las funciones de dirección o presidencia, secretaría y responsabilidad financiera. Los Círculos desarrollan mandatos mediante sus Chartae; comparten la personalidad jurídica de la asociación.",
+      "reading": "La Asamblea General adopta y modifica estatutos, elige al Consejo y aprueba informes, cuentas, hoja de ruta y presupuesto conforme a las reglas estatutarias. El Consejo es el comité de la asociación y distribuye las funciones de dirección o presidencia, secretaría y responsabilidad financiera. Los Círculos desarrollan mandatos mediante sus Chartae; comparten la personalidad jurídica de la asociación.\n\nLa página de gobierno fecha la constitución en Ginebra el 20 de noviembre de 2024 y la ratificación del texto estatutario consolidado el 3 de agosto de 2026. Publica las funciones de los órganos y un contacto para consultar representación y documentos.",
+      "readingSummary": "La Asamblea General adopta y modifica estatutos, elige al Consejo y aprueba informes, cuentas, hoja de ruta y presupuesto conforme a las reglas estatutarias. El Consejo es el comité de la asociación y distribuye las funciones de dirección o presidencia, secretaría y responsabilidad financiera. Los Círculos desarrollan mandatos mediante sus Chartae; comparten la personalidad jurídica de la asociación.",
+      "readingSource": {
+        "url": "https://integralmanagement.ch/gobierno/",
+        "section": "Institutional page",
+        "observed": "2026-11-04",
+        "sourceSha256": "63a257646f518430850079dc08336a9a82726d2d61797c294b26e247a9afa024"
+      },
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "tagWeights": {
+        "autoridad": 0.4,
+        "legitimidad": 0.35,
+        "empresa": 0.25
+      },
+      "contextTokens": 221,
+      "documentId": "doc-ddb54e82d9ed2cb191",
+      "distance": 2,
+      "parent": "S14",
+      "routeEdge": "documento:imsv-overview-S14-imsv-gobierno",
+      "affinity": 1
+    },
+    {
+      "id": "imsv-investigacion",
+      "type": "ficha",
+      "title": "IMSV · Campo de investigación y Tegrity.AI",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-investigacion/",
+      "original": "https://integralmanagement.ch/trabajo/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "documentacion",
+        "integridad-ia",
+        "representacion"
+      ],
+      "summary": "La investigación es uno de los tres campos institucionales de The Integral Management Society. Tegrity.AI reúne el programa Structural Awareness sobre sistemas adaptativos, integridad operativa y cambios en las condiciones de representación y control. Publica artículos, notas técnicas y contribuciones de preestandarización.",
+      "reading": "La investigación es uno de los tres campos institucionales de The Integral Management Society. Tegrity.AI reúne el programa Structural Awareness sobre sistemas adaptativos, integridad operativa y cambios en las condiciones de representación y control. Publica artículos, notas técnicas y contribuciones de preestandarización.\n\nResearch Initiatives distingue ocho líneas con sus respectivos estados; Research Contributions enlaza ejemplos de intercambios académicos, documentos y aportaciones a grupos de la UIT. Desde la visión institucional se puede pasar a ese corpus técnico para examinar una pregunta o una colaboración concreta.",
+      "readingSummary": "La investigación es uno de los tres campos institucionales de The Integral Management Society. Tegrity.AI reúne el programa Structural Awareness sobre sistemas adaptativos, integridad operativa y cambios en las condiciones de representación y control. Publica artículos, notas técnicas y contribuciones de preestandarización.",
+      "readingSource": {
+        "url": "https://integralmanagement.ch/trabajo/",
+        "section": "Institutional page",
+        "observed": "2026-11-04",
+        "sourceSha256": "640aacdf0e3d027e3bdae84a5cd9ca71301bc7860e700da64e536fa66d3f6398"
+      },
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "tagWeights": {
+        "documentacion": 0.4,
+        "integridad-ia": 0.3,
+        "representacion": 0.3
+      },
+      "contextTokens": 201,
+      "documentId": "doc-b0d55b5ef731985449",
+      "distance": 2,
+      "parent": "S14",
+      "routeEdge": "documento:imsv-overview-S14-imsv-investigacion",
+      "affinity": 1
+    },
+    {
+      "id": "imsv-cultura",
+      "type": "ficha",
+      "title": "IMSV · Cultura y el Instituto del Totonacapan",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-cultura/",
+      "original": "https://integralmanagement.ch/ecosistema/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "memoria-territorio",
+        "aprendizaje",
+        "encuentros"
+      ],
+      "summary": "El campo cultural reúne preservación de capacidades, patrimonio vivo y comunidades de práctica. El Instituto del Totonacapan desarrolla historia, oficios, joyería, relojería, territorio y transmisión de conocimiento. Su sitio conserva el desarrollo histórico y las voces de esos trabajos.",
+      "reading": "El campo cultural reúne preservación de capacidades, patrimonio vivo y comunidades de práctica. El Instituto del Totonacapan desarrolla historia, oficios, joyería, relojería, territorio y transmisión de conocimiento. Su sitio conserva el desarrollo histórico y las voces de esos trabajos.\n\nEsta función conecta con la misión de la Sociedad de mantener conocimientos útiles entre generaciones. La trayectoria de La Bola de Oro se sitúa desde 1898; la asociación suiza que hoy da forma institucional a la misión se constituye en 2024. El directorio permite continuar hacia el Instituto y sus fuentes.",
+      "readingSummary": "El campo cultural reúne preservación de capacidades, patrimonio vivo y comunidades de práctica. El Instituto del Totonacapan desarrolla historia, oficios, joyería, relojería, territorio y transmisión de conocimiento. Su sitio conserva el desarrollo histórico y las voces de esos trabajos.",
+      "readingSource": {
+        "url": "https://integralmanagement.ch/ecosistema/",
+        "section": "Institutional page",
+        "observed": "2026-11-04",
+        "sourceSha256": "85017c9afd92f33714221bcddec865d08cd707cc1863517a96dd4fbfbc0cd29e"
+      },
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "tagWeights": {
+        "memoria-territorio": 0.5,
+        "aprendizaje": 0.3,
+        "encuentros": 0.2
+      },
+      "contextTokens": 203,
+      "documentId": "doc-9f9dfa78fdb4325431",
+      "distance": 2,
+      "parent": "S14",
+      "routeEdge": "documento:imsv-overview-S14-imsv-cultura",
+      "affinity": 1
+    },
+    {
+      "id": "imsv-periodismo",
+      "type": "ficha",
+      "title": "IMSV · Periodismo, difusión y LatinoEmpresa",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-periodismo/",
+      "original": "https://integralmanagement.ch/ecosistema/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "encuentros",
+        "memoria-territorio",
+        "evidencia"
+      ],
+      "summary": "LatinoEmpresa desarrolla el campo de periodismo y difusión: entrevistas, reportajes y experiencias humanas, culturales y empresariales entre América Latina y Europa. Reúne voces migrantes, personas emprendedoras, profesionales y comunidades de práctica.",
+      "reading": "LatinoEmpresa desarrolla el campo de periodismo y difusión: entrevistas, reportajes y experiencias humanas, culturales y empresariales entre América Latina y Europa. Reúne voces migrantes, personas emprendedoras, profesionales y comunidades de práctica.\n\nSu función institucional es hacer circular conocimiento con procedencia reconocible y facilitar encuentros. Los artículos y eventos se consultan en su sitio; el directorio de IMSV sitúa esa actividad junto a investigación y cultura.",
+      "readingSummary": "LatinoEmpresa desarrolla el campo de periodismo y difusión: entrevistas, reportajes y experiencias humanas, culturales y empresariales entre América Latina y Europa. Reúne voces migrantes, personas emprendedoras, profesionales y comunidades de práctica.",
+      "readingSource": {
+        "url": "https://integralmanagement.ch/ecosistema/",
+        "section": "Institutional page",
+        "observed": "2026-11-04",
+        "sourceSha256": "85017c9afd92f33714221bcddec865d08cd707cc1863517a96dd4fbfbc0cd29e"
+      },
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "tagWeights": {
+        "encuentros": 0.4,
+        "memoria-territorio": 0.3,
+        "evidencia": 0.3
+      },
+      "contextTokens": 177,
+      "documentId": "doc-9f9dfa78fdb4325431",
+      "distance": 2,
+      "parent": "S14",
+      "routeEdge": "documento:imsv-overview-S14-imsv-periodismo",
+      "affinity": 1
+    },
+    {
+      "id": "imsv-entidades",
+      "type": "ficha",
+      "title": "IMSV · Ingeniería, transformación y contratación",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-entidades/",
+      "original": "https://integralmanagement.ch/ecosistema/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "empresa",
+        "transformacion",
+        "autoridad"
+      ],
+      "summary": "JubAp.Net aporta ingeniería de frontera, JubAp.eu transformación estratégica y JubAp.us integración operativa y creación de valor. Estas funciones conectan experiencia de campo y especialidades del ecosistema con necesidades organizativas.",
+      "reading": "JubAp.Net aporta ingeniería de frontera, JubAp.eu transformación estratégica y JubAp.us integración operativa y creación de valor. Estas funciones conectan experiencia de campo y especialidades del ecosistema con necesidades organizativas.\n\nJubAp.eu opera mediante OÜ JUBAP, entidad estonia independiente. Para un encargo comercial, la propuesta y el contrato identifican a la entidad responsable de realizarlo y sus obligaciones. La asociación suiza mantiene sus fines, gobierno y patrimonio; la cooperación permite combinar capacidades mediante acuerdos que identifican a cada parte.",
+      "readingSummary": "JubAp.Net aporta ingeniería de frontera, JubAp.eu transformación estratégica y JubAp.us integración operativa y creación de valor. Estas funciones conectan experiencia de campo y especialidades del ecosistema con necesidades organizativas.",
+      "readingSource": {
+        "url": "https://integralmanagement.ch/ecosistema/",
+        "section": "Institutional page",
+        "observed": "2026-11-04",
+        "sourceSha256": "85017c9afd92f33714221bcddec865d08cd707cc1863517a96dd4fbfbc0cd29e"
+      },
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "tagWeights": {
+        "empresa": 0.45,
+        "transformacion": 0.3,
+        "autoridad": 0.25
+      },
+      "contextTokens": 193,
+      "documentId": "doc-9f9dfa78fdb4325431",
+      "distance": 2,
+      "parent": "S14",
+      "routeEdge": "documento:imsv-overview-S14-imsv-entidades",
+      "affinity": 1
+    },
+    {
+      "id": "imsv-ecosistema",
+      "type": "ficha",
+      "title": "IMSV · Directorio de funciones y entidades",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-ecosistema/",
+      "original": "https://integralmanagement.ch/ecosistema/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "empresa",
+        "encuentros",
+        "autoridad",
+        "transformacion"
+      ],
+      "summary": "El directorio relaciona el Instituto del Totonacapan con cultura y patrimonio; Tegrity.AI con investigación; LatinoEmpresa con medios y comunidad; y Formación Integral con educación y transmisión de capacidades. JubAp.Net aporta ingeniería, JubAp.eu transformación y JubAp.us integración operativa y creación de valor.",
+      "reading": "El directorio relaciona el Instituto del Totonacapan con cultura y patrimonio; Tegrity.AI con investigación; LatinoEmpresa con medios y comunidad; y Formación Integral con educación y transmisión de capacidades. JubAp.Net aporta ingeniería, JubAp.eu transformación y JubAp.us integración operativa y creación de valor.\n\nJubAp.eu identifica a OÜ JUBAP como entidad estonia independiente. Las funciones de cooperación, custodia, pertenencia, representación y contratación se describen por sus entidades y acuerdos correspondientes. El directorio permite elegir la unidad pertinente para una necesidad y acudir a su página especializada.",
+      "readingSummary": "El directorio relaciona el Instituto del Totonacapan con cultura y patrimonio; Tegrity.AI con investigación; LatinoEmpresa con medios y comunidad; y Formación Integral con educación y transmisión de capacidades. JubAp.Net aporta ingeniería, JubAp.eu transformación y JubAp.us integración operativa y creación de valor.",
+      "readingSource": {
+        "url": "https://integralmanagement.ch/ecosistema/",
+        "section": "Institutional page",
+        "observed": "2026-11-04",
+        "sourceSha256": "85017c9afd92f33714221bcddec865d08cd707cc1863517a96dd4fbfbc0cd29e"
+      },
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "tagWeights": {
+        "empresa": 0.3,
+        "encuentros": 0.3,
+        "autoridad": 0.2,
+        "transformacion": 0.2
+      },
+      "contextTokens": 216,
+      "documentId": "doc-9f9dfa78fdb4325431",
+      "distance": 2,
+      "parent": "S14",
+      "routeEdge": "documento:imsv-overview-S14-imsv-ecosistema",
+      "affinity": 1
+    },
+    {
+      "id": "imsv-estatutos",
+      "type": "ficha",
+      "title": "IMSV · Estatutos y misión institucional",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-estatutos/",
+      "original": "https://integralmanagement.ch/wp-content/uploads/2026/11/Statuts_The_Integral_Management_Society_mission_notarial_apostille_public-web.pdf",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "legitimidad",
+        "autoridad",
+        "evidencia"
+      ],
+      "summary": "Gobierno enlaza el extracto público en francés de los estatutos de misión, con disposiciones fundadoras, artículos 1 a 9 y anexos visuales. La web distingue constitución de la asociación el 20 de noviembre de 2024, revisión estatutaria de referencia el 2 de julio de 2025 y ratificación del texto consolidado el 3 de agosto de 2026.",
+      "reading": "Gobierno enlaza el extracto público en francés de los estatutos de misión, con disposiciones fundadoras, artículos 1 a 9 y anexos visuales. La web distingue constitución de la asociación el 20 de noviembre de 2024, revisión estatutaria de referencia el 2 de julio de 2025 y ratificación del texto consolidado el 3 de agosto de 2026.\n\nEl francés es el ejemplar de referencia jurídica. Las normas permiten situar fines, recursos, responsabilidades y mandatos; la página de gobierno explica las competencias de Asamblea General, Consejo y Círculos. La procedencia histórica de capacidades y la constitución de la persona jurídica son dos hitos identificados en su cronología.",
+      "readingSummary": "Gobierno enlaza el extracto público en francés de los estatutos de misión, con disposiciones fundadoras, artículos 1 a 9 y anexos visuales. La web distingue constitución de la asociación el 20 de noviembre de 2024, revisión estatutaria de referencia el 2 de julio de 2025 y ratificación del texto consolidado el 3 de agosto de 2026.",
+      "readingSource": {
+        "url": "https://integralmanagement.ch/wp-content/uploads/2026/11/Statuts_The_Integral_Management_Society_mission_notarial_apostille_public-web.pdf",
+        "section": "Institutional page",
+        "observed": "2026-11-04",
+        "sourceSha256": "d5e28a414be0cb817593d91f2aacb5eaade97b556834ce886e966a93ae727692"
+      },
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "tagWeights": {
+        "legitimidad": 0.5,
+        "autoridad": 0.3,
+        "evidencia": 0.2
+      },
+      "contextTokens": 266,
+      "documentId": "doc-e12637ceddae458e32",
+      "distance": 2,
+      "parent": "S14",
+      "routeEdge": "documento:imsv-overview-S14-imsv-estatutos",
+      "affinity": 1
+    },
+    {
+      "id": "imsv-legal",
+      "type": "ficha",
+      "title": "IMSV · Identidad jurídica y fuentes legales",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-legal/",
+      "original": "https://integralmanagement.ch/legal/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "evidencia",
+        "legitimidad",
+        "autoridad"
+      ],
+      "summary": "La ficha legal identifica The Integral Management Society como asociación suiza sin ánimo de lucro, con sede en el cantón de Ginebra. Reproduce un extracto de la Oficina Federal de Estadística fechado el 28 de agosto de 2026: UID CHE-481.709.475, forma 0109 — Association, estado Actif y dirección administrativa c/o MSA, Route des Jeunes 41a, 1227 Carouge GE. El registro oficial enlazado permite consultar el dato actualizado.",
+      "reading": "La ficha legal identifica The Integral Management Society como asociación suiza sin ánimo de lucro, con sede en el cantón de Ginebra. Reproduce un extracto de la Oficina Federal de Estadística fechado el 28 de agosto de 2026: UID CHE-481.709.475, forma 0109 — Association, estado Actif y dirección administrativa c/o MSA, Route des Jeunes 41a, 1227 Carouge GE. El registro oficial enlazado permite consultar el dato actualizado.\n\nLa página distingue los documentos institucionales vigentes de sus síntesis editoriales y marca aspectos del aviso legal aún en revisión. Los contratos y patrimonios de entidades independientes del ecosistema se identifican por sus propios responsables.",
+      "readingSummary": "La ficha legal identifica The Integral Management Society como asociación suiza sin ánimo de lucro, con sede en el cantón de Ginebra. Reproduce un extracto de la Oficina Federal de Estadística fechado el 28 de agosto de 2026: UID CHE-481.709.475, forma 0109 — Association, estado Actif y dirección administrativa c/o MSA, Route des Jeunes 41a, 1227 Carouge GE. El registro oficial enlazado permite consultar el dato actualizado.",
+      "readingSource": {
+        "url": "https://integralmanagement.ch/legal/",
+        "section": "Institutional page",
+        "observed": "2026-11-04",
+        "sourceSha256": "9a78b19254d04781f2598d8fa5cb2d79fa0da8ec57ba7f168620ab91d7b8629c"
+      },
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "tagWeights": {
+        "evidencia": 0.4,
+        "legitimidad": 0.4,
+        "autoridad": 0.2
+      },
+      "contextTokens": 236,
+      "documentId": "doc-d96d6ea0bcd57cf923",
+      "distance": 2,
+      "parent": "S14",
+      "routeEdge": "documento:imsv-overview-S14-imsv-legal",
+      "affinity": 1
+    },
+    {
+      "id": "imsv-trabajo",
+      "type": "ficha",
+      "title": "IMSV · Trabajo, conocimiento y experiencia de campo",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-trabajo/",
+      "original": "https://integralmanagement.ch/trabajo/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "transformacion",
+        "aprendizaje",
+        "documentacion",
+        "empresa"
+      ],
+      "summary": "El trabajo conecta investigación de sistemas complejos, experiencia de campo, transformación sociotécnica y preservación de capacidades. Tegrity.AI desarrolla la línea de integridad operativa de IA; las unidades de JubAp presentan ingeniería y transformación en sus sitios especializados.",
+      "reading": "El trabajo conecta investigación de sistemas complejos, experiencia de campo, transformación sociotécnica y preservación de capacidades. Tegrity.AI desarrolla la línea de integridad operativa de IA; las unidades de JubAp presentan ingeniería y transformación en sus sitios especializados.\n\nGEPLAN ilustra coordinación de flota, mantenimiento y suministros; AICM/Crea Camino, el cauce para convertir conocimiento operativo en propuestas; Riviera Maya/xSeil, la comparación de escenarios de demanda y recursos. El Instituto del Totonacapan sitúa oficios, patrimonio y transmisión; Formación Integral y LatinoEmpresa conectan aprendizaje, difusión y comunidad.",
+      "readingSummary": "El trabajo conecta investigación de sistemas complejos, experiencia de campo, transformación sociotécnica y preservación de capacidades. Tegrity.AI desarrolla la línea de integridad operativa de IA; las unidades de JubAp presentan ingeniería y transformación en sus sitios especializados.",
+      "readingSource": {
+        "url": "https://integralmanagement.ch/trabajo/",
+        "section": "Institutional page",
+        "observed": "2026-11-04",
+        "sourceSha256": "640aacdf0e3d027e3bdae84a5cd9ca71301bc7860e700da64e536fa66d3f6398"
+      },
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "tagWeights": {
+        "transformacion": 0.3,
+        "aprendizaje": 0.3,
+        "documentacion": 0.2,
+        "empresa": 0.2
+      },
+      "contextTokens": 223,
+      "documentId": "doc-b0d55b5ef731985449",
+      "distance": 2,
+      "parent": "S14",
+      "routeEdge": "documento:imsv-overview-S14-imsv-trabajo",
       "affinity": 1
     },
     {
@@ -1059,301 +1571,7 @@
       "parent": "np-aprendizajes",
       "routeEdge": "documento:np-r13",
       "affinity": 1
-    },
-    {
-      "id": "np-sierra",
-      "type": "ficha",
-      "title": "La sierra del Totonacapan: el origen vivencial",
-      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-sierra",
-      "original": "https://integralmanagement.ch/nueva-perspectiva/sierra-del-totonacapan/",
-      "aliases": [],
-      "clusters": [
-        "imsv"
-      ],
-      "tags": [
-        "experimentacion",
-        "memoria-territorio"
-      ],
-      "summary": "Los encuentros comunitarios plantearon cómo una persona puede querer cambiar y seguir reproduciendo la situación que quiere transformar. Quienes acompañaban la experiencia también ponían a prueba su propia mirada.",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-e48e4b0fbdce2ff103",
-      "tagWeights": {
-        "experimentacion": 0.4444,
-        "memoria-territorio": 0.5556
-      },
-      "contextTokens": 128,
-      "distance": 5,
-      "parent": "np-experiencia",
-      "routeEdge": "documento:np-r03",
-      "affinity": 1
-    },
-    {
-      "id": "np-accion-metodo",
-      "type": "ficha",
-      "title": "Acción Integral: la capacidad de actuar entre personas y sistemas",
-      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-accion-metodo",
-      "original": "https://integralmanagement.ch/publicaciones/art-imsv-09/",
-      "aliases": [],
-      "clusters": [
-        "imsv"
-      ],
-      "tags": [
-        "aprendizaje",
-        "decision",
-        "transformacion"
-      ],
-      "summary": "La cooperación requiere que la información, el juicio y las responsabilidades lleguen a quienes realizan el trabajo. El programa DO y JUMP UP ofrecen maneras concretas de pasar de una observación compartida a una decisión que pueda sostenerse.",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-45e247f28037ec2d23",
-      "tagWeights": {
-        "aprendizaje": 0.2222,
-        "decision": 0.5556,
-        "transformacion": 0.2222
-      },
-      "contextTokens": 140,
-      "distance": 6,
-      "parent": "np-accion",
-      "routeEdge": "documento:np-r17",
-      "affinity": 1
-    },
-    {
-      "id": "np-aicm",
-      "type": "ficha",
-      "title": "AICM y Crea Camino: transformar desde la experiencia",
-      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-aicm",
-      "original": "https://integralmanagement.ch/nueva-perspectiva/aicm-crea-camino/",
-      "aliases": [],
-      "clusters": [
-        "imsv"
-      ],
-      "tags": [
-        "aprendizaje",
-        "movilidad"
-      ],
-      "summary": "En un contexto incierto, los talleres aprovecharon la experiencia de trabajadores para formular propuestas de mejora. Convertir una idea en iniciativa requería responsables, indicadores y un camino de ejecución.",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-749cbd6894bd70c2e9",
-      "tagWeights": {
-        "aprendizaje": 0.4444,
-        "movilidad": 0.5556
-      },
-      "contextTokens": 124,
-      "distance": 6,
-      "parent": "np-accion",
-      "routeEdge": "documento:np-r12",
-      "affinity": 1
-    },
-    {
-      "id": "np-coaching",
-      "type": "ficha",
-      "title": "Coaching Transpersonal: aprender en comunidad",
-      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-coaching",
-      "original": "https://integralmanagement.ch/nueva-perspectiva/coaching-transpersonal/",
-      "aliases": [],
-      "clusters": [
-        "imsv"
-      ],
-      "tags": [
-        "aprendizaje",
-        "espiritualidad",
-        "memoria-territorio"
-      ],
-      "summary": "Los talleres en Xalapa y Coatepec recurrieron a la observación de la experiencia, la atención y los cambios de rol. El participante podía examinar lo que le ocurría antes de adoptar la explicación de otra persona.",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-b1f655d51915d8d1ef",
-      "tagWeights": {
-        "aprendizaje": 0.2857,
-        "espiritualidad": 0.3572,
-        "memoria-territorio": 0.3571
-      },
-      "contextTokens": 137,
-      "distance": 6,
-      "parent": "np-sierra",
-      "routeEdge": "documento:np-r04",
-      "affinity": 1
-    },
-    {
-      "id": "np-encajonadora",
-      "type": "ficha",
-      "title": "La encajonadora: un problema técnico y muchas perspectivas",
-      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-encajonadora",
-      "original": "https://integralmanagement.ch/nueva-perspectiva/encajonadora/",
-      "aliases": [],
-      "clusters": [
-        "imsv"
-      ],
-      "tags": [
-        "decision",
-        "perspectiva"
-      ],
-      "summary": "Producción, calidad y mantenimiento veían la misma máquina desde responsabilidades diferentes. Para intervenir se necesitaba comprender a la vez sus fallos materiales y cómo interactuaban las respuestas de las áreas.",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-43b98a7f1952ac72d5",
-      "tagWeights": {
-        "decision": 0.4444,
-        "perspectiva": 0.5556
-      },
-      "contextTokens": 121,
-      "distance": 7,
-      "parent": "np-aicm",
-      "routeEdge": "documento:np-r11",
-      "affinity": 1
-    },
-    {
-      "id": "np-microempresas",
-      "type": "ficha",
-      "title": "Microempresarios: mirar el negocio desde otra silla",
-      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-microempresas",
-      "original": "https://integralmanagement.ch/nueva-perspectiva/microempresarios/",
-      "aliases": [],
-      "clusters": [
-        "imsv"
-      ],
-      "tags": [
-        "empresa"
-      ],
-      "summary": "El Programa de Desarrollo Organizacional proponía observar el mismo negocio como cliente, trabajador, proveedor o vecino. Comparar esas miradas permite descubrir una contradicción entre la promesa del negocio y lo que sucede al visitarlo o trabajar allí.",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-6791639699e0fbb314",
-      "tagWeights": {
-        "empresa": 1
-      },
-      "contextTokens": 119,
-      "distance": 7,
-      "parent": "np-coaching",
-      "routeEdge": "documento:np-r05",
-      "affinity": 1
-    },
-    {
-      "id": "np-ado",
-      "type": "ficha",
-      "title": "ADO: Consciencia Plena, Pulsera Rosa y andenes",
-      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-ado",
-      "original": "https://integralmanagement.ch/nueva-perspectiva/ado-consciencia-plena/",
-      "aliases": [],
-      "clusters": [
-        "imsv"
-      ],
-      "tags": [
-        "espiritualidad",
-        "integridad-ia"
-      ],
-      "summary": "El conocimiento de quienes operaban andenes o atendían a pasajeros podía convertirse en propuestas concretas. Pulsera Rosa muestra cómo observar la experiencia de una pasajera cambia la manera de formular una cuestión de seguridad.",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-90701a536266d9a059",
-      "tagWeights": {
-        "espiritualidad": 0.5556,
-        "integridad-ia": 0.4444
-      },
-      "contextTokens": 131,
-      "distance": 8,
-      "parent": "np-encajonadora",
-      "routeEdge": "documento:np-r10",
-      "affinity": 1
-    },
-    {
-      "id": "np-lectura-manifiesto",
-      "type": "ficha",
-      "title": "El manifiesto, leído en diálogo",
-      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-lectura-manifiesto",
-      "original": "https://integralmanagement.ch/nueva-perspectiva/leer-el-manifiesto/",
-      "aliases": [],
-      "clusters": [
-        "imsv"
-      ],
-      "tags": [
-        "decision",
-        "perspectiva"
-      ],
-      "summary": "La lectura distingue deseo, acción, consecuencia y satisfacción. Una nueva idea merece examen racional, observaciones y contraste, para saber si cambió la situación o solo la manera de describirla.",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-30ca55893f391b5c59",
-      "tagWeights": {
-        "decision": 0.5,
-        "perspectiva": 0.5
-      },
-      "contextTokens": 118,
-      "distance": 8,
-      "parent": "np-microempresas",
-      "routeEdge": "documento:np-r06",
-      "affinity": 1
-    },
-    {
-      "id": "np-jump-up",
-      "type": "ficha",
-      "title": "Del cambio de perspectiva al plan JUMP UP",
-      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-jump-up",
-      "original": "https://integralmanagement.ch/nueva-perspectiva/jump-up/",
-      "aliases": [],
-      "clusters": [
-        "imsv"
-      ],
-      "tags": [
-        "perspectiva",
-        "transformacion"
-      ],
-      "summary": "Focus ON permite examinar cómo se afectan entre sí los intereses, las capacidades, los objetivos y los bloqueos. JUMP UP convierte esa lectura en una acción que un equipo puede empezar y seguir en la operación.",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-ff9d2edaecf0774aed",
-      "tagWeights": {
-        "perspectiva": 0.3846,
-        "transformacion": 0.6154
-      },
-      "contextTokens": 120,
-      "distance": 9,
-      "parent": "np-lectura-manifiesto",
-      "routeEdge": "documento:np-r07",
-      "affinity": 1
-    },
-    {
-      "id": "np-pemex",
-      "type": "ficha",
-      "title": "PEMEX y TETSA: personas, seguridad y operación",
-      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-pemex",
-      "original": "https://integralmanagement.ch/nueva-perspectiva/pemex-tetsa/",
-      "aliases": [],
-      "clusters": [
-        "imsv"
-      ],
-      "tags": [
-        "empresa",
-        "integridad-ia",
-        "movilidad"
-      ],
-      "summary": "El capítulo examina atención, estrés, hábitos de los operadores y condiciones técnicas de seguridad. Distingue esas experiencias de los sistemas logísticos y de gestión que coexistieron en el entorno petrolero.",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-338ccb609a5fe2b0fe",
-      "tagWeights": {
-        "empresa": 0.25,
-        "integridad-ia": 0.5,
-        "movilidad": 0.25
-      },
-      "contextTokens": 131,
-      "distance": 9,
-      "parent": "np-ado",
-      "routeEdge": "documento:np-r09",
-      "affinity": 1
     }
   ],
-  "reading": "# Posicionamiento · The Integral Management Society\nDocumento de origen: https://integralmanagement.ch/\n\n## The Integral Management Society\nUna sociedad científica dedicada a comprender la complejidad, preservar las capacidades esenciales y abrir nuevas posibilidades de adaptación.\nEtiquetas: Empresa y gestión 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/the-integral-management-society-s14/\nDocumento de origen: https://integralmanagement.ch/\n\nThe Integral Management Society → Del manifiesto a la práctica · lectura enlazada desde el documento. Desde «The Integral Management Society», el enlace «Explorar Nueva Perspectiva: del manifiesto a la práctica  →» abre «Del manifiesto a la práctica».\nFuente de la relación: https://integralmanagement.ch/\n\n## Del manifiesto a la práctica\nIdentificar qué relaciones quedan fuera de la atención cuando un problema persiste pese a que conocemos sus componentes. La serie sigue esa pregunta por el manifiesto, la formación y los casos.\nEtiquetas: Aprendizaje y transmisión de capacidades 80.00%; Cambio de perspectiva 20.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-entrada\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/\n\nThe Integral Management Society → Perspective Beyond: cuándo queda corto un marco · lectura enlazada desde el documento. Desde «The Integral Management Society», el enlace «Perspective Beyond  →» abre «Perspective Beyond: cuándo queda corto un marco».\nFuente de la relación: https://integralmanagement.ch/\n\n## Perspective Beyond: cuándo queda corto un marco\nUn marco permite medir y decidir, pero responde a las preguntas para las que fue construido. Si cambian las condiciones, conviene revisar qué presupuestos siguen vigentes antes de mejorar la respuesta existente.\nEtiquetas: Cambio de perspectiva 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-mas-alla\nDocumento de origen: https://integralmanagement.ch/publicaciones/art-imsv-07/\n\nConservar el conocimiento y seguir conversando → Del manifiesto a la práctica · relectura. El índice permite volver al punto de partida desde la evidencia acumulada.\n\n## Conservar el conocimiento y seguir conversando\nEl archivo conserva variantes, preguntas y aportaciones con su procedencia. Así se puede reconstruir cómo cambió una interpretación y qué parte proviene de un testimonio, un documento o una lectura posterior.\nEtiquetas: Investigación y documentación técnica 33.34%; Evidencia, procedencia y atribución 33.33%; Memoria, comunidad y territorio 33.33%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-archivo\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/archivo-y-dialogo/\n\nDel manifiesto a la práctica → El manifiesto original de Nueva Perspectiva · fundamento. La formulación original desarrolla el papel de las relaciones entre los elementos del sistema mental.\n\n## El manifiesto original de Nueva Perspectiva\nEl sistema mental organiza percepciones, recuerdos, emociones e intereses mediante relaciones. Una idea nueva puede reordenar esas relaciones. El texto pide examinar después su coherencia y sus efectos.\nEtiquetas: Cambio de perspectiva 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-manifiesto\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/manifiesto/\n\n¿Qué enseñaron estas experiencias? → Conservar el conocimiento y seguir conversando · custodia. La posibilidad de revisar un aprendizaje requiere guardar su procedencia y los cambios de interpretación.\n\n## ¿Qué enseñaron estas experiencias?\nUna mejora requiere una acción concreta, alguien que pueda sostenerla y una observación posterior. El capítulo diferencia los bloqueos de perspectiva de restricciones materiales que necesitan recursos, mantenimiento o cambios de proceso.\nEtiquetas: Cambio de perspectiva 50.00%; Representación y límites formales 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-aprendizajes\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/aprendizajes/\n\nEl manifiesto original de Nueva Perspectiva → ¿Qué ocurrió primero: la experiencia o la idea? · origen. La conversación permite situar la experiencia previa a la formulación escrita.\n\n## ¿Qué ocurrió primero: la experiencia o la idea?\nLa reflexión escrita ordenó un patrón que ya se observaba en prácticas humanas y organizativas. Las experiencias se solaparon, de modo que el aprendizaje circuló entre la formulación y el trabajo de campo.\nEtiquetas: Aprendizaje y transmisión de capacidades 44.45%; Empresa y gestión 44.44%; Cambio de perspectiva 11.11%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-experiencia\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/experiencia-e-idea/\n\nAcción Integral: muchas prácticas, una pregunta compartida → ¿Qué enseñaron estas experiencias? · síntesis. Se extraen criterios observables de intervención y se conservan las diferencias entre los casos.\n\n## Acción Integral: muchas prácticas, una pregunta compartida\nEl capítulo conecta formación, gobierno de procesos, integración técnica y trabajo organizativo. Casos distintos permiten comparar qué se aprende al relacionar conocimientos que estaban repartidos entre personas, sistemas y áreas.\nEtiquetas: Aprendizaje y transmisión de capacidades 33.34%; Empresa y gestión 33.33%; Transformación y continuidad operativa 33.33%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-accion\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/accion-integral/\n\n¿Qué ocurrió primero: la experiencia o la idea? → La sierra del Totonacapan: el origen vivencial · trayectoria. La sierra concreta una de las experiencias que precedieron o acompañaron la formulación.\n\n## La sierra del Totonacapan: el origen vivencial\nLos encuentros comunitarios plantearon cómo una persona puede querer cambiar y seguir reproduciendo la situación que quiere transformar. Quienes acompañaban la experiencia también ponían a prueba su propia mirada.\nEtiquetas: Experimentación, falsación y contraejemplos 44.44%; Memoria, comunidad y territorio 55.56%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-sierra\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/sierra-del-totonacapan/\n\nAcción Integral: muchas prácticas, una pregunta compartida → Acción Integral: la capacidad de actuar entre personas y sistemas · ampliación. El ensayo desarrolla el paso entre aprendizaje, responsabilidades y acción sostenida.\n\n## Acción Integral: la capacidad de actuar entre personas y sistemas\nLa cooperación requiere que la información, el juicio y las responsabilidades lleguen a quienes realizan el trabajo. El programa DO y JUMP UP ofrecen maneras concretas de pasar de una observación compartida a una decisión que pueda sostenerse.\nEtiquetas: Aprendizaje y transmisión de capacidades 22.22%; Decisiones y responsabilidad 55.56%; Transformación y continuidad operativa 22.22%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-accion-metodo\nDocumento de origen: https://integralmanagement.ch/publicaciones/art-imsv-09/\n\nAICM y Crea Camino: transformar desde la experiencia → Acción Integral: muchas prácticas, una pregunta compartida · síntesis. La acción de quienes conocen el trabajo se sitúa junto a otras prácticas de integración.\n\n## AICM y Crea Camino: transformar desde la experiencia\nEn un contexto incierto, los talleres aprovecharon la experiencia de trabajadores para formular propuestas de mejora. Convertir una idea en iniciativa requería responsables, indicadores y un camino de ejecución.\nEtiquetas: Aprendizaje y transmisión de capacidades 44.44%; Movilidad e infraestructura 55.56%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-aicm\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/aicm-crea-camino/\n\nLa sierra del Totonacapan: el origen vivencial → Coaching Transpersonal: aprender en comunidad · continuidad. La observación de la experiencia vuelve a aparecer en un entorno abierto de formación.\n\n## Coaching Transpersonal: aprender en comunidad\nLos talleres en Xalapa y Coatepec recurrieron a la observación de la experiencia, la atención y los cambios de rol. El participante podía examinar lo que le ocurría antes de adoptar la explicación de otra persona.\nEtiquetas: Aprendizaje y transmisión de capacidades 28.57%; Espiritualidad y vida interior 35.72%; Memoria, comunidad y territorio 35.71%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-coaching\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/coaching-transpersonal/\n\nLa encajonadora: un problema técnico y muchas perspectivas → AICM y Crea Camino: transformar desde la experiencia · comparación. El caso aeroportuario permite examinar, a otra escala, cómo el conocimiento de la operación llega a propuestas ejecutables.\n\n## La encajonadora: un problema técnico y muchas perspectivas\nProducción, calidad y mantenimiento veían la misma máquina desde responsabilidades diferentes. Para intervenir se necesitaba comprender a la vez sus fallos materiales y cómo interactuaban las respuestas de las áreas.\nEtiquetas: Decisiones y responsabilidad 44.44%; Cambio de perspectiva 55.56%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-encajonadora\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/encajonadora/\n\nCoaching Transpersonal: aprender en comunidad → Microempresarios: mirar el negocio desde otra silla · aplicación. El cambio de rol se convierte en una observación concreta de un negocio.\n\n## Microempresarios: mirar el negocio desde otra silla\nEl Programa de Desarrollo Organizacional proponía observar el mismo negocio como cliente, trabajador, proveedor o vecino. Comparar esas miradas permite descubrir una contradicción entre la promesa del negocio y lo que sucede al visitarlo o trabajar allí.\nEtiquetas: Empresa y gestión 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-microempresas\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/microempresarios/\n\nADO: Consciencia Plena, Pulsera Rosa y andenes → La encajonadora: un problema técnico y muchas perspectivas · comparación. Cambiar el punto de observación revela condiciones que las responsabilidades parciales no muestran.\n\n## ADO: Consciencia Plena, Pulsera Rosa y andenes\nEl conocimiento de quienes operaban andenes o atendían a pasajeros podía convertirse en propuestas concretas. Pulsera Rosa muestra cómo observar la experiencia de una pasajera cambia la manera de formular una cuestión de seguridad.\nEtiquetas: Espiritualidad y vida interior 55.56%; Integridad y seguridad de IA 44.44%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-ado\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/ado-consciencia-plena/\n\nMicroempresarios: mirar el negocio desde otra silla → El manifiesto, leído en diálogo · contraste. La comparación entre papeles permite examinar la diferencia entre una idea nueva y una decisión comprobable.\n\n## El manifiesto, leído en diálogo\nLa lectura distingue deseo, acción, consecuencia y satisfacción. Una nueva idea merece examen racional, observaciones y contraste, para saber si cambió la situación o solo la manera de describirla.\nEtiquetas: Decisiones y responsabilidad 50.00%; Cambio de perspectiva 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-lectura-manifiesto\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/leer-el-manifiesto/\n\nEl manifiesto, leído en diálogo → Del cambio de perspectiva al plan JUMP UP · desarrollo. El examen racional de una nueva mirada encuentra una expresión práctica en el diseño de la intervención.\n\n## Del cambio de perspectiva al plan JUMP UP\nFocus ON permite examinar cómo se afectan entre sí los intereses, las capacidades, los objetivos y los bloqueos. JUMP UP convierte esa lectura en una acción que un equipo puede empezar y seguir en la operación.\nEtiquetas: Cambio de perspectiva 38.46%; Transformación y continuidad operativa 61.54%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-jump-up\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/jump-up/\n\nPEMEX y TETSA: personas, seguridad y operación → ADO: Consciencia Plena, Pulsera Rosa y andenes · comparación. Ambos relatos distinguen las condiciones de operación de lo que trabajadores y usuarios pueden observar.\n\n## PEMEX y TETSA: personas, seguridad y operación\nEl capítulo examina atención, estrés, hábitos de los operadores y condiciones técnicas de seguridad. Distingue esas experiencias de los sistemas logísticos y de gestión que coexistieron en el entorno petrolero.\nEtiquetas: Empresa y gestión 25.00%; Integridad y seguridad de IA 50.00%; Movilidad e infraestructura 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-pemex\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/pemex-tetsa/\n\n"
+  "reading": "# Posicionamiento · The Integral Management Society\nDocumento de origen: https://integralmanagement.ch/\n\n## The Integral Management Society\nThe Integral Management Society es una asociación suiza sin ánimo de lucro, con sede en Ginebra. Su página de gobierno fecha la constitución el 20 de noviembre de 2024. Reúne investigación, cultura y periodismo/difusión: Tegrity.AI, el Instituto del Totonacapan y LatinoEmpresa desarrollan esos campos.\n\nLa Asamblea General y el Consejo gobiernan la asociación; los Círculos trabajan mediante mandatos y Chartae. Los estatutos consolidados fueron ratificados el 3 de agosto de 2026 y el francés es su texto de referencia jurídica. Las páginas públicas describen estos órganos; las consultas sobre sus responsables se dirigen al contacto institucional.\n\nPara una dirección empresarial, el ecosistema conecta investigación sobre sistemas complejos e integridad operativa, preservación de capacidades y experiencia de ingeniería y transformación. JubAp.Net, JubAp.eu y JubAp.us aportan funciones especializadas mediante sus entidades y acuerdos. JubAp.eu identifica a OÜ JUBAP como entidad estonia independiente: la contratación comercial corresponde a la entidad identificada para el encargo.\n\nLa Bola de Oro aporta la trayectoria histórica iniciada en 1898; la asociación suiza tiene personalidad jurídica desde 2024. Nueva Perspectiva es una línea de pensamiento dentro de este conjunto. Gobierno, actividad, ecosistema y documentos legales permiten comprender la institución completa.\nEtiquetas: Aprendizaje y transmisión de capacidades 20.00%; Autoridad, permisos y delegación 20.00%; Empresa y gestión 20.00%; Infraestructura de encuentros 20.00%; Legitimidad y principios 20.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/the-integral-management-society-s14/\nDocumento de origen: https://integralmanagement.ch/\n\nThe Integral Management Society → IMSV · Gobierno y órganos responsables · institutional function. La ficha explica gobierno y órganos responsables dentro de la asociación.\nFuente de la relación: https://integralmanagement.ch/gobierno/\n\n## IMSV · Gobierno y órganos responsables\nLa Asamblea General adopta y modifica estatutos, elige al Consejo y aprueba informes, cuentas, hoja de ruta y presupuesto conforme a las reglas estatutarias. El Consejo es el comité de la asociación y distribuye las funciones de dirección o presidencia, secretaría y responsabilidad financiera. Los Círculos desarrollan mandatos mediante sus Chartae; comparten la personalidad jurídica de la asociación.\n\nLa página de gobierno fecha la constitución en Ginebra el 20 de noviembre de 2024 y la ratificación del texto estatutario consolidado el 3 de agosto de 2026. Publica las funciones de los órganos y un contacto para consultar representación y documentos.\nEtiquetas: Autoridad, permisos y delegación 40.00%; Empresa y gestión 25.00%; Legitimidad y principios 35.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-gobierno/\nDocumento de origen: https://integralmanagement.ch/gobierno/\n\nThe Integral Management Society → IMSV · Campo de investigación y Tegrity.AI · institutional function. La ficha explica campo de investigación y tegrity.ai dentro de la asociación.\nFuente de la relación: https://integralmanagement.ch/trabajo/\n\n## IMSV · Campo de investigación y Tegrity.AI\nLa investigación es uno de los tres campos institucionales de The Integral Management Society. Tegrity.AI reúne el programa Structural Awareness sobre sistemas adaptativos, integridad operativa y cambios en las condiciones de representación y control. Publica artículos, notas técnicas y contribuciones de preestandarización.\n\nResearch Initiatives distingue ocho líneas con sus respectivos estados; Research Contributions enlaza ejemplos de intercambios académicos, documentos y aportaciones a grupos de la UIT. Desde la visión institucional se puede pasar a ese corpus técnico para examinar una pregunta o una colaboración concreta.\nEtiquetas: Investigación y documentación técnica 40.00%; Integridad y seguridad de IA 30.00%; Representación y límites formales 30.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-investigacion/\nDocumento de origen: https://integralmanagement.ch/trabajo/\n\nThe Integral Management Society → IMSV · Cultura y el Instituto del Totonacapan · institutional function. La ficha explica cultura y el instituto del totonacapan dentro de la asociación.\nFuente de la relación: https://integralmanagement.ch/ecosistema/\n\n## IMSV · Cultura y el Instituto del Totonacapan\nEl campo cultural reúne preservación de capacidades, patrimonio vivo y comunidades de práctica. El Instituto del Totonacapan desarrolla historia, oficios, joyería, relojería, territorio y transmisión de conocimiento. Su sitio conserva el desarrollo histórico y las voces de esos trabajos.\n\nEsta función conecta con la misión de la Sociedad de mantener conocimientos útiles entre generaciones. La trayectoria de La Bola de Oro se sitúa desde 1898; la asociación suiza que hoy da forma institucional a la misión se constituye en 2024. El directorio permite continuar hacia el Instituto y sus fuentes.\nEtiquetas: Aprendizaje y transmisión de capacidades 30.00%; Infraestructura de encuentros 20.00%; Memoria, comunidad y territorio 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-cultura/\nDocumento de origen: https://integralmanagement.ch/ecosistema/\n\nThe Integral Management Society → IMSV · Periodismo, difusión y LatinoEmpresa · institutional function. La ficha explica periodismo, difusión y latinoempresa dentro de la asociación.\nFuente de la relación: https://integralmanagement.ch/ecosistema/\n\n## IMSV · Periodismo, difusión y LatinoEmpresa\nLatinoEmpresa desarrolla el campo de periodismo y difusión: entrevistas, reportajes y experiencias humanas, culturales y empresariales entre América Latina y Europa. Reúne voces migrantes, personas emprendedoras, profesionales y comunidades de práctica.\n\nSu función institucional es hacer circular conocimiento con procedencia reconocible y facilitar encuentros. Los artículos y eventos se consultan en su sitio; el directorio de IMSV sitúa esa actividad junto a investigación y cultura.\nEtiquetas: Infraestructura de encuentros 40.00%; Evidencia, procedencia y atribución 30.00%; Memoria, comunidad y territorio 30.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-periodismo/\nDocumento de origen: https://integralmanagement.ch/ecosistema/\n\nThe Integral Management Society → IMSV · Ingeniería, transformación y contratación · institutional function. La ficha explica ingeniería, transformación y contratación dentro de la asociación.\nFuente de la relación: https://integralmanagement.ch/ecosistema/\n\n## IMSV · Ingeniería, transformación y contratación\nJubAp.Net aporta ingeniería de frontera, JubAp.eu transformación estratégica y JubAp.us integración operativa y creación de valor. Estas funciones conectan experiencia de campo y especialidades del ecosistema con necesidades organizativas.\n\nJubAp.eu opera mediante OÜ JUBAP, entidad estonia independiente. Para un encargo comercial, la propuesta y el contrato identifican a la entidad responsable de realizarlo y sus obligaciones. La asociación suiza mantiene sus fines, gobierno y patrimonio; la cooperación permite combinar capacidades mediante acuerdos que identifican a cada parte.\nEtiquetas: Autoridad, permisos y delegación 25.00%; Empresa y gestión 45.00%; Transformación y continuidad operativa 30.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-entidades/\nDocumento de origen: https://integralmanagement.ch/ecosistema/\n\nThe Integral Management Society → IMSV · Directorio de funciones y entidades · institutional function. La ficha explica directorio de funciones y entidades dentro de la asociación.\nFuente de la relación: https://integralmanagement.ch/ecosistema/\n\n## IMSV · Directorio de funciones y entidades\nEl directorio relaciona el Instituto del Totonacapan con cultura y patrimonio; Tegrity.AI con investigación; LatinoEmpresa con medios y comunidad; y Formación Integral con educación y transmisión de capacidades. JubAp.Net aporta ingeniería, JubAp.eu transformación y JubAp.us integración operativa y creación de valor.\n\nJubAp.eu identifica a OÜ JUBAP como entidad estonia independiente. Las funciones de cooperación, custodia, pertenencia, representación y contratación se describen por sus entidades y acuerdos correspondientes. El directorio permite elegir la unidad pertinente para una necesidad y acudir a su página especializada.\nEtiquetas: Autoridad, permisos y delegación 20.00%; Empresa y gestión 30.00%; Infraestructura de encuentros 30.00%; Transformación y continuidad operativa 20.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-ecosistema/\nDocumento de origen: https://integralmanagement.ch/ecosistema/\n\nThe Integral Management Society → IMSV · Estatutos y misión institucional · institutional function. La ficha explica estatutos y misión institucional dentro de la asociación.\nFuente de la relación: https://integralmanagement.ch/wp-content/uploads/2026/11/Statuts_The_Integral_Management_Society_mission_notarial_apostille_public-web.pdf\n\n## IMSV · Estatutos y misión institucional\nGobierno enlaza el extracto público en francés de los estatutos de misión, con disposiciones fundadoras, artículos 1 a 9 y anexos visuales. La web distingue constitución de la asociación el 20 de noviembre de 2024, revisión estatutaria de referencia el 2 de julio de 2025 y ratificación del texto consolidado el 3 de agosto de 2026.\n\nEl francés es el ejemplar de referencia jurídica. Las normas permiten situar fines, recursos, responsabilidades y mandatos; la página de gobierno explica las competencias de Asamblea General, Consejo y Círculos. La procedencia histórica de capacidades y la constitución de la persona jurídica son dos hitos identificados en su cronología.\nEtiquetas: Autoridad, permisos y delegación 30.00%; Evidencia, procedencia y atribución 20.00%; Legitimidad y principios 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-estatutos/\nDocumento de origen: https://integralmanagement.ch/wp-content/uploads/2026/11/Statuts_The_Integral_Management_Society_mission_notarial_apostille_public-web.pdf\n\nThe Integral Management Society → IMSV · Identidad jurídica y fuentes legales · institutional function. La ficha explica identidad jurídica y fuentes legales dentro de la asociación.\nFuente de la relación: https://integralmanagement.ch/legal/\n\n## IMSV · Identidad jurídica y fuentes legales\nLa ficha legal identifica The Integral Management Society como asociación suiza sin ánimo de lucro, con sede en el cantón de Ginebra. Reproduce un extracto de la Oficina Federal de Estadística fechado el 28 de agosto de 2026: UID CHE-481.709.475, forma 0109 — Association, estado Actif y dirección administrativa c/o MSA, Route des Jeunes 41a, 1227 Carouge GE. El registro oficial enlazado permite consultar el dato actualizado.\n\nLa página distingue los documentos institucionales vigentes de sus síntesis editoriales y marca aspectos del aviso legal aún en revisión. Los contratos y patrimonios de entidades independientes del ecosistema se identifican por sus propios responsables.\nEtiquetas: Autoridad, permisos y delegación 20.00%; Evidencia, procedencia y atribución 40.00%; Legitimidad y principios 40.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-legal/\nDocumento de origen: https://integralmanagement.ch/legal/\n\nThe Integral Management Society → IMSV · Trabajo, conocimiento y experiencia de campo · institutional function. La ficha explica trabajo, conocimiento y experiencia de campo dentro de la asociación.\nFuente de la relación: https://integralmanagement.ch/trabajo/\n\n## IMSV · Trabajo, conocimiento y experiencia de campo\nEl trabajo conecta investigación de sistemas complejos, experiencia de campo, transformación sociotécnica y preservación de capacidades. Tegrity.AI desarrolla la línea de integridad operativa de IA; las unidades de JubAp presentan ingeniería y transformación en sus sitios especializados.\n\nGEPLAN ilustra coordinación de flota, mantenimiento y suministros; AICM/Crea Camino, el cauce para convertir conocimiento operativo en propuestas; Riviera Maya/xSeil, la comparación de escenarios de demanda y recursos. El Instituto del Totonacapan sitúa oficios, patrimonio y transmisión; Formación Integral y LatinoEmpresa conectan aprendizaje, difusión y comunidad.\nEtiquetas: Aprendizaje y transmisión de capacidades 30.00%; Investigación y documentación técnica 20.00%; Empresa y gestión 20.00%; Transformación y continuidad operativa 30.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-trabajo/\nDocumento de origen: https://integralmanagement.ch/trabajo/\n\nThe Integral Management Society → Del manifiesto a la práctica · lectura enlazada desde el documento. Desde «The Integral Management Society», el enlace «Explorar Nueva Perspectiva: del manifiesto a la práctica  →» abre «Del manifiesto a la práctica».\nFuente de la relación: https://integralmanagement.ch/\n\n## Del manifiesto a la práctica\nIdentificar qué relaciones quedan fuera de la atención cuando un problema persiste pese a que conocemos sus componentes. La serie sigue esa pregunta por el manifiesto, la formación y los casos.\nEtiquetas: Aprendizaje y transmisión de capacidades 80.00%; Cambio de perspectiva 20.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-entrada\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/\n\nThe Integral Management Society → Perspective Beyond: cuándo queda corto un marco · lectura enlazada desde el documento. Desde «The Integral Management Society», el enlace «Perspective Beyond  →» abre «Perspective Beyond: cuándo queda corto un marco».\nFuente de la relación: https://integralmanagement.ch/\n\n## Perspective Beyond: cuándo queda corto un marco\nUn marco permite medir y decidir, pero responde a las preguntas para las que fue construido. Si cambian las condiciones, conviene revisar qué presupuestos siguen vigentes antes de mejorar la respuesta existente.\nEtiquetas: Cambio de perspectiva 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-mas-alla\nDocumento de origen: https://integralmanagement.ch/publicaciones/art-imsv-07/\n\nConservar el conocimiento y seguir conversando → Del manifiesto a la práctica · relectura. El índice permite volver al punto de partida desde la evidencia acumulada.\n\n## Conservar el conocimiento y seguir conversando\nEl archivo conserva variantes, preguntas y aportaciones con su procedencia. Así se puede reconstruir cómo cambió una interpretación y qué parte proviene de un testimonio, un documento o una lectura posterior.\nEtiquetas: Investigación y documentación técnica 33.34%; Evidencia, procedencia y atribución 33.33%; Memoria, comunidad y territorio 33.33%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-archivo\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/archivo-y-dialogo/\n\nDel manifiesto a la práctica → El manifiesto original de Nueva Perspectiva · fundamento. La formulación original desarrolla el papel de las relaciones entre los elementos del sistema mental.\n\n## El manifiesto original de Nueva Perspectiva\nEl sistema mental organiza percepciones, recuerdos, emociones e intereses mediante relaciones. Una idea nueva puede reordenar esas relaciones. El texto pide examinar después su coherencia y sus efectos.\nEtiquetas: Cambio de perspectiva 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-manifiesto\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/manifiesto/\n\n¿Qué enseñaron estas experiencias? → Conservar el conocimiento y seguir conversando · custodia. La posibilidad de revisar un aprendizaje requiere guardar su procedencia y los cambios de interpretación.\n\n## ¿Qué enseñaron estas experiencias?\nUna mejora requiere una acción concreta, alguien que pueda sostenerla y una observación posterior. El capítulo diferencia los bloqueos de perspectiva de restricciones materiales que necesitan recursos, mantenimiento o cambios de proceso.\nEtiquetas: Cambio de perspectiva 50.00%; Representación y límites formales 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-aprendizajes\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/aprendizajes/\n\nEl manifiesto original de Nueva Perspectiva → ¿Qué ocurrió primero: la experiencia o la idea? · origen. La conversación permite situar la experiencia previa a la formulación escrita.\n\n## ¿Qué ocurrió primero: la experiencia o la idea?\nLa reflexión escrita ordenó un patrón que ya se observaba en prácticas humanas y organizativas. Las experiencias se solaparon, de modo que el aprendizaje circuló entre la formulación y el trabajo de campo.\nEtiquetas: Aprendizaje y transmisión de capacidades 44.45%; Empresa y gestión 44.44%; Cambio de perspectiva 11.11%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-experiencia\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/experiencia-e-idea/\n\nAcción Integral: muchas prácticas, una pregunta compartida → ¿Qué enseñaron estas experiencias? · síntesis. Se extraen criterios observables de intervención y se conservan las diferencias entre los casos.\n\n## Acción Integral: muchas prácticas, una pregunta compartida\nEl capítulo conecta formación, gobierno de procesos, integración técnica y trabajo organizativo. Casos distintos permiten comparar qué se aprende al relacionar conocimientos que estaban repartidos entre personas, sistemas y áreas.\nEtiquetas: Aprendizaje y transmisión de capacidades 33.34%; Empresa y gestión 33.33%; Transformación y continuidad operativa 33.33%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-accion\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/accion-integral/\n\n"
 }

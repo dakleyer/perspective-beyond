@@ -188,6 +188,26 @@
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-e81dcdb1021761.json"
     },
     {
+      "id": "documento:imsv-institutional-link-01",
+      "to": "imsv-investigacion",
+      "title": "IMSV · Campo de investigación y Tegrity.AI",
+      "direction": "entrante",
+      "kind": "documented institutional reading",
+      "reading": "El campo institucional de investigación se desarrolla en el programa técnico de Tegrity.AI.",
+      "relationTokens": 56,
+      "fichaTokens": 201,
+      "tagWeights": {
+        "documentacion": 0.4,
+        "integridad-ia": 0.3,
+        "representacion": 0.3
+      },
+      "clusters": [
+        "imsv"
+      ],
+      "type": "ficha",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/imsv-investigacion.json"
+    },
+    {
       "id": "navigation:position-nav-T1573-S14",
       "to": "S14",
       "title": "The Integral Management Society",
@@ -195,9 +215,13 @@
       "kind": "lectura enlazada desde el documento",
       "reading": "Desde «Tegrity.AI», el enlace «The Integral Management Society» abre «The Integral Management Society».",
       "relationTokens": 52,
-      "fichaTokens": 76,
+      "fichaTokens": 380,
       "tagWeights": {
-        "empresa": 1.0
+        "empresa": 0.2,
+        "autoridad": 0.2,
+        "legitimidad": 0.2,
+        "encuentros": 0.2,
+        "aprendizaje": 0.2
       },
       "clusters": [
         "imsv"
@@ -318,9 +342,11 @@
       "kind": "lectura enlazada desde el documento",
       "reading": "Desde «Tegrity.AI», el enlace «Research Initiatives» abre «Research Initiatives».",
       "relationTokens": 49,
-      "fichaTokens": 57,
+      "fichaTokens": 307,
       "tagWeights": {
-        "documentacion": 1.0
+        "documentacion": 0.4,
+        "integridad-ia": 0.3,
+        "evidencia": 0.3
       },
       "clusters": [
         "tegrity"
@@ -355,9 +381,13 @@
       "kind": "lectura enlazada desde el documento",
       "reading": "Desde «The Integral Management Society», el enlace «Tegrity.AI» abre «Tegrity.AI».",
       "relationTokens": 54,
-      "fichaTokens": 76,
+      "fichaTokens": 380,
       "tagWeights": {
-        "empresa": 1.0
+        "empresa": 0.2,
+        "autoridad": 0.2,
+        "legitimidad": 0.2,
+        "encuentros": 0.2,
+        "aprendizaje": 0.2
       },
       "clusters": [
         "imsv"

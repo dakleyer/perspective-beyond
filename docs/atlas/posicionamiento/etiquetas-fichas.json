@@ -719,7 +719,9 @@
       "estandares": 1.0
     },
     "T1709": {
-      "documentacion": 1.0
+      "documentacion": 0.4,
+      "integridad-ia": 0.3,
+      "evidencia": 0.3
     },
     "T1726": {
       "estandares": 0.5,
@@ -1630,7 +1632,11 @@
       "estandares": 1.0
     },
     "S14": {
-      "empresa": 1.0
+      "empresa": 0.2,
+      "autoridad": 0.2,
+      "legitimidad": 0.2,
+      "encuentros": 0.2,
+      "aprendizaje": 0.2
     },
     "S16": {
       "cartografia": 0.3333,
@@ -6381,6 +6387,53 @@
       "evidencia": 0.15,
       "legitimidad": 0.2,
       "memoria-territorio": 0.3
+    },
+    "imsv-gobierno": {
+      "autoridad": 0.4,
+      "legitimidad": 0.35,
+      "empresa": 0.25
+    },
+    "imsv-estatutos": {
+      "legitimidad": 0.5,
+      "autoridad": 0.3,
+      "evidencia": 0.2
+    },
+    "imsv-ecosistema": {
+      "empresa": 0.3,
+      "encuentros": 0.3,
+      "autoridad": 0.2,
+      "transformacion": 0.2
+    },
+    "imsv-trabajo": {
+      "transformacion": 0.3,
+      "aprendizaje": 0.3,
+      "documentacion": 0.2,
+      "empresa": 0.2
+    },
+    "imsv-legal": {
+      "evidencia": 0.4,
+      "legitimidad": 0.4,
+      "autoridad": 0.2
+    },
+    "imsv-investigacion": {
+      "documentacion": 0.4,
+      "integridad-ia": 0.3,
+      "representacion": 0.3
+    },
+    "imsv-cultura": {
+      "memoria-territorio": 0.5,
+      "aprendizaje": 0.3,
+      "encuentros": 0.2
+    },
+    "imsv-periodismo": {
+      "encuentros": 0.4,
+      "memoria-territorio": 0.3,
+      "evidencia": 0.3
+    },
+    "imsv-entidades": {
+      "empresa": 0.45,
+      "transformacion": 0.3,
+      "autoridad": 0.25
     }
   }
 }

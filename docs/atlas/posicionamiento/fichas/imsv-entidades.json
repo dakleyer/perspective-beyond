@@ -1,0 +1,157 @@
+{
+  "id": "imsv-entidades",
+  "type": "ficha",
+  "title": "IMSV · Ingeniería, transformación y contratación",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-entidades/",
+  "documentId": "doc-9f9dfa78fdb4325431",
+  "sourceIds": [],
+  "tagWeights": {
+    "empresa": 0.45,
+    "transformacion": 0.3,
+    "autoridad": 0.25
+  },
+  "clusters": [
+    "imsv"
+  ],
+  "context": "## IMSV · Ingeniería, transformación y contratación\nJubAp.Net aporta ingeniería de frontera, JubAp.eu transformación estratégica y JubAp.us integración operativa y creación de valor. Estas funciones conectan experiencia de campo y especialidades del ecosistema con necesidades organizativas.\n\nJubAp.eu opera mediante OÜ JUBAP, entidad estonia independiente. Para un encargo comercial, la propuesta y el contrato identifican a la entidad responsable de realizarlo y sus obligaciones. La asociación suiza mantiene sus fines, gobierno y patrimonio; la cooperación permite combinar capacidades mediante acuerdos que identifican a cada parte.\nEtiquetas: Autoridad, permisos y delegación 25.00%; Empresa y gestión 45.00%; Transformación y continuidad operativa 30.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-entidades/\nDocumento de origen: https://integralmanagement.ch/ecosistema/\n\n",
+  "readingSource": {
+    "url": "https://integralmanagement.ch/ecosistema/",
+    "section": "Institutional page",
+    "observed": "2026-11-04",
+    "sourceSha256": "85017c9afd92f33714221bcddec865d08cd707cc1863517a96dd4fbfbc0cd29e"
+  },
+  "tokens": 193,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "documento:imsv-overview-S14-imsv-entidades",
+      "to": "S14",
+      "title": "The Integral Management Society",
+      "direction": "entrante",
+      "kind": "institutional function",
+      "reading": "La ficha explica ingeniería, transformación y contratación dentro de la asociación.",
+      "relationTokens": 45,
+      "fichaTokens": 380,
+      "tagWeights": {
+        "empresa": 0.2,
+        "autoridad": 0.2,
+        "legitimidad": 0.2,
+        "encuentros": 0.2,
+        "aprendizaje": 0.2
+      },
+      "clusters": [
+        "imsv"
+      ],
+      "type": "ficha",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/S14.json"
+    },
+    {
+      "id": "documento:imsv-institutional-link-06",
+      "to": "E2",
+      "title": "JubAp.EU",
+      "direction": "saliente",
+      "kind": "documented institutional reading",
+      "reading": "JubAp.eu desarrolla transformación mediante la entidad estonia identificada en su web.",
+      "relationTokens": 49,
+      "fichaTokens": 115,
+      "tagWeights": {
+        "decision": 0.1,
+        "empresa": 0.45,
+        "navegacion": 0.05,
+        "perspectiva": 0.15,
+        "transformacion": 0.25
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E2.json"
+    },
+    {
+      "id": "documento:imsv-institutional-link-07",
+      "to": "N2",
+      "title": "JubAp.Net",
+      "direction": "saliente",
+      "kind": "documented institutional reading",
+      "reading": "JubAp.Net desarrolla la capacidad de ingeniería de frontera.",
+      "relationTokens": 43,
+      "fichaTokens": 126,
+      "tagWeights": {
+        "capacidad-humana": 0.35,
+        "documentacion": 0.1,
+        "empresa": 0.25,
+        "navegacion": 0.05,
+        "transformacion": 0.25
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N2.json"
+    },
+    {
+      "id": "documento:imsv-institutional-link-08",
+      "to": "U2",
+      "title": "JubAp.US",
+      "direction": "saliente",
+      "kind": "documented institutional reading",
+      "reading": "JubAp.us explica su función de integración y creación de valor.",
+      "relationTokens": 45,
+      "fichaTokens": 117,
+      "tagWeights": {
+        "aprendizaje": 0.1,
+        "decision": 0.1,
+        "empresa": 0.4,
+        "navegacion": 0.05,
+        "transformacion": 0.35
+      },
+      "clusters": [
+        "us"
+      ],
+      "type": "ficha",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U2.json"
+    },
+    {
+      "id": "documento:imsv-institutional-link-09",
+      "to": "N1441",
+      "title": "JubAp.Net Frontier Operations Role in the IMSV.org Circle",
+      "direction": "saliente",
+      "kind": "documented institutional reading",
+      "reading": "La relación con el círculo de ingeniería distingue ejecución, documentación y custodia.",
+      "relationTokens": 56,
+      "fichaTokens": 262,
+      "tagWeights": {
+        "empresa": 0.1818,
+        "evidencia": 0.1818,
+        "memoria-territorio": 0.1818,
+        "transformacion": 0.4546
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1441.json"
+    },
+    {
+      "id": "documento:imsv-institutional-link-12",
+      "to": "imsv-ecosistema",
+      "title": "IMSV · Directorio de funciones y entidades",
+      "direction": "entrante",
+      "kind": "documented institutional reading",
+      "reading": "El directorio distingue funciones de cooperación y entidades responsables de los encargos.",
+      "relationTokens": 53,
+      "fichaTokens": 216,
+      "tagWeights": {
+        "empresa": 0.3,
+        "encuentros": 0.3,
+        "autoridad": 0.2,
+        "transformacion": 0.2
+      },
+      "clusters": [
+        "imsv"
+      ],
+      "type": "ficha",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/imsv-ecosistema.json"
+    }
+  ]
+}
