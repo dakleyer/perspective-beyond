@@ -1,6 +1,6 @@
 Perspective Beyond — Contextual visual Atlas entry
 
-Version 1.2.0.
+Version 1.3.0.
 This module adds one scoped visual entry to every public page of integralmanagement.ch and totonacapan.com, including future pages. It does not write article bodies, replace an existing Atlas, change another website, create users or add remote administration.
 
 The registry contains 163 source-page views of the same canonical Atlas, 18 contextual reading profiles and 136 different neighbour selections. Canonical ficha and relation identifiers are preserved. Source page URLs retain WordPress page_id/p identifiers.

@@ -2,11 +2,11 @@
 /**
  * Plugin Name: Perspective Beyond — Atlas institucional
  * Description: Mapas de lectura contextuales para Integral Management y el Instituto del Totonacapan.
- * Version: 1.2.0
+ * Version: 1.3.0
  * License: GPL-2.0-or-later
  */
 if (!defined('ABSPATH')) { exit; }
-final class PB_Institutional_Visual_Entries_V12 {
+final class PB_Institutional_Visual_Entries_V13 {
  private static $rendered = false;
  private static $data = null;
  private static function site() {
@@ -16,8 +16,8 @@ final class PB_Institutional_Visual_Entries_V12 {
  private static function allowed() { return self::site() && !is_admin() && !is_feed() && !(defined('REST_REQUEST') && REST_REQUEST); }
  public static function assets() {
   if (!self::allowed()) { return; }
-  wp_enqueue_style('pb-institutional-atlas', plugins_url('atlas.css', __FILE__), array(), '1.2.0');
-  wp_enqueue_script('pb-institutional-atlas', plugins_url('atlas.js', __FILE__), array(), '1.2.0', true);
+  wp_enqueue_style('pb-institutional-atlas', plugins_url('atlas.css', __FILE__), array(), '1.3.0');
+  wp_enqueue_script('pb-institutional-atlas', plugins_url('atlas.js', __FILE__), array(), '1.3.0', true);
  }
  private static function data() {
   if (self::$data === null) { self::$data = json_decode((string) file_get_contents(__DIR__ . '/registry.json'), true); }
@@ -63,6 +63,6 @@ final class PB_Institutional_Visual_Entries_V12 {
  public static function content($content) { if (self::allowed() && is_singular() && in_the_loop() && is_main_query()) { return $content . self::render(); } return $content; }
  public static function footer() { echo self::render(); }
 }
-add_action('wp_enqueue_scripts', array('PB_Institutional_Visual_Entries_V12','assets'));
-add_filter('the_content', array('PB_Institutional_Visual_Entries_V12','content'), 99);
-add_action('wp_footer', array('PB_Institutional_Visual_Entries_V12','footer'), 5);
+add_action('wp_enqueue_scripts', array('PB_Institutional_Visual_Entries_V13','assets'));
+add_filter('the_content', array('PB_Institutional_Visual_Entries_V13','content'), 99);
+add_action('wp_footer', array('PB_Institutional_Visual_Entries_V13','footer'), 5);
