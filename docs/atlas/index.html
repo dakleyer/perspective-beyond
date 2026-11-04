@@ -27,7 +27,7 @@ input,select,textarea{max-width:100%;border:1px solid #938b7c;background:white;c
 .focus-row input{width:100%}.focus-target{width:min(100%,31rem)}
 @media(max-width:33rem){.focus-row{grid-template-columns:minmax(0,1fr) 5rem auto}.focus-row button{grid-column:1/-1;justify-self:start}}
 </style>
-<script src="global.js?v=ponderacion-1" defer></script>
+<script src="global.js?v=perfiles-1" defer></script>
 </head>
 <body><main>
 <header>
@@ -48,16 +48,23 @@ input,select,textarea{max-width:100%;border:1px solid #938b7c;background:white;c
 </section>
 <section id="asistente" class="panel" aria-labelledby="assistant-title">
 <p class="label">Asistente de pensamiento</p><h2 id="assistant-title">Conecta tu asistente al Atlas</h2>
-<p>Pega una sola URL en tu asistente. Se abre como texto plano y le indica qué parte del Atlas consultar. Puedes añadir tu pregunta en el mismo mensaje.</p>
+<p>Pega una sola URL en tu asistente. La entrada general le permite preguntarte cómo quieres trabajar. La URL configurada lleva tus elecciones y puedes añadir la pregunta en el mismo mensaje.</p>
 <p><a href="entrada.txt">Abrir la entrada general en texto</a> · <a href="guide.html">Guía para asistentes</a> · <a href="atlas-portable.txt" download>Descargar el catálogo portable</a></p>
 <form id="setup" hidden>
 <div class="grid">
 <div><label for="origin">Clúster de origen</label><select id="origin"></select></div>
 <div><label for="mode">Alcance</label><select id="mode"><option value="closed">Cerrado</option><option value="porous">Poroso</option><option value="federated">Federado</option></select></div>
 <div id="bridge-field" hidden><label for="bridge">Puente a seguir</label><select id="bridge"></select></div>
-<div><label for="purpose">Qué quieres hacer</label><select id="purpose"><option value="paraphrase">Parafrasear y explicar</option><option value="explore">Explorar relaciones</option><option value="ideas">Proponer ideas para un caso nuevo</option><option value="locate">Localizar fuentes</option><option value="quote">Verificar una cita</option></select></div>
+<div><label for="role">Rol del asistente</label><select id="role" aria-describedby="role-help"></select></div>
+<div><label for="purpose">Qué quieres hacer</label><select id="purpose"></select></div>
 </div>
 <p id="scope" class="hint" aria-live="polite"></p>
+<p id="role-help" class="hint"></p>
+<details class="focus-box" id="role-options">
+<summary>Instrucciones personalizadas</summary>
+<p class="hint" id="custom-hint">Puedes añadir el tono, el formato o el método que quieres. Escribe solo lo que quieras incluir en una URL para compartir.</p>
+<label for="custom-role">Instrucciones de trabajo</label><textarea id="custom-role" maxlength="500" aria-describedby="custom-hint" placeholder="Ej. Explica las ideas en tres puntos y usa un ejemplo para una persona que llega por primera vez."></textarea>
+</details>
 <details class="focus-box" id="focus-box" open>
 <summary>Enfoque y ponderación</summary>
 <div class="row"><label for="focus-profile">Cómo repartir la atención</label><select id="focus-profile">
@@ -71,7 +78,7 @@ input,select,textarea{max-width:100%;border:1px solid #938b7c;background:white;c
 <p class="hint" id="focus-preview" role="status"></p>
 </details>
 <div class="actions"><button type="button" id="copy-url">Copiar URL para mi asistente</button><a id="entry-url" href="entrada.txt">Abrir URL de esta selección</a></div>
-<div class="actions"><button type="button" class="secondary" id="copy">Copiar instrucciones</button><button type="button" class="secondary" id="download">Descargar lectura en Markdown</button></div>
+<div class="actions"><a id="web-entry" href="#asistente">Abrir esta configuración web</a><button type="button" class="secondary" id="copy-config">Copiar enlace a esta configuración web</button><button type="button" class="secondary" id="copy">Copiar instrucciones</button><button type="button" class="secondary" id="download">Descargar lectura en Markdown</button></div>
 <label for="prompt">Instrucciones para pegar en tu asistente</label><textarea id="prompt" readonly></textarea>
 <p id="status" class="hint" role="status"></p>
 </form>

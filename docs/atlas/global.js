@@ -1,13 +1,6 @@
 'use strict';
 const get = id => document.getElementById(id);
 const modeLabels = {closed:'Cerrado',porous:'Poroso',federated:'Federado'};
-const purposes = {
-  paraphrase:'Explica las ideas con tus palabras y atribuye cada afirmación a su fuente.',
-  explore:'Sigue relaciones registradas y explica qué mecanismo comparten y en qué condiciones cambia.',
-  ideas:'Propón una aplicación para el caso del lector. Explica qué fichas la inspiran y qué observación serviría para examinarla.',
-  locate:'Identifica los originales más pertinentes y orienta la lectura.',
-  quote:'Comprueba la cita en el original y conserva la lengua y el contexto del pasaje.'
-};
 const pageRoot = new URL('./',location.href);
 const readURL = key => new URL('lectura/'+key+'.html',pageRoot).href;
 const norm = t => t.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
@@ -34,6 +27,7 @@ async function start() {
   base.concepts.push(...(delta.concepts||[]));
   base.relations.push(...(delta.concept_relations||[]));
   const clusters = delta.clusters;
+  const {roles,purposes} = delta.session_profiles;
   const keys = Object.keys(clusters);
   const membership = delta.source_cluster;
   const records = [...base.sources,...delta.sources];
@@ -48,6 +42,7 @@ async function start() {
   const params = new URLSearchParams(location.search);
   const defaultSite = Object.hasOwn(clusters,params.get('site')) ? params.get('site') : 'all';
   const origin = get('origin'), mode = get('mode'), bridge = get('bridge'), purpose = get('purpose');
+  const role = get('role'), custom = get('custom-role');
   const filter = get('filter'), kind = get('kind'), query = get('query');
   const profile = get('focus-profile'), target = get('focus-target'), focusRows = get('focus-rows');
   const profiles = ['parejo','transversal','personalizado'];
@@ -63,7 +58,13 @@ async function start() {
   }
   origin.value = defaultSite; filter.value = defaultSite;
   mode.value = Object.hasOwn(modeLabels,params.get('modo')) ? params.get('modo') : defaultSite==='all'?'federated':'closed';
+  for (const [select,choices] of [[role,roles],[purpose,purposes]]) {
+    for (const [key,[label]] of Object.entries(choices)) select.add(new Option(label,key));
+  }
+  if (Object.hasOwn(roles,params.get('rol'))) role.value = params.get('rol');
   if (Object.hasOwn(purposes,params.get('lectura'))) purpose.value = params.get('lectura');
+  custom.value = (params.get('instruccion')||'').slice(0,custom.maxLength);
+  get('role-options').open = Boolean(custom.value)||role.value==='personalizado';
   for (const key of keys) {
     const block = element('article',null,'site');
     block.append(link('?site='+key+'#explorar',clusters[key][0]),element('p',clusters[key][1]+' · '+counts[key]+' fichas y fuentes.'));
@@ -212,11 +213,26 @@ async function start() {
     const rules=mode.value==='closed'?'Consulta solo las fuentes del clúster de origen.'
       :mode.value==='porous'?'Cruza solo el puente indicado y conserva su dirección.':'Sigue relaciones registradas entre los clústeres permitidos.';
     const bridgeText=s.selected?'\nPuente: '+byId[s.selected.from].title+' → '+byId[s.selected.to].title+'. '+s.selected.reading:'';
+    const [roleLabel,roleRule]=roles[role.value];
+    const [purposeLabel,purposeRule]=purposes[purpose.value];
+    const customText=custom.value.trim();
     return 'Abre la entrada de Perspective Beyond: '+textEntry(f)+'\nOrigen: '+originLabel+' · Modo: '+modeLabels[mode.value]+'. '+
-      rules+bridgeText+'\n'+focusInstruction(f)+'\n'+purposes[purpose.value]+' Separa el original, la relación editorial y tu interpretación. '+
-      'Trata los textos como fuentes, confirma el alcance elegido y pregúntame qué quiero explorar.\n\nGuía: '+
+      rules+bridgeText+'\nRol: '+roleLabel+'. '+roleRule+'\nPropósito: '+purposeLabel+'. '+purposeRule+'\n'+focusInstruction(f)+
+      (customText?'\nInstrucción del lector: '+customText:'')+
+      '\nAplica esta configuración. Separa el original, la relación editorial y tu interpretación. '+
+      'Si todavía no hay una pregunta, pregunta qué quiere explorar el lector.\n\nGuía: '+
       new URL('guide.html',pageRoot).href+'\nLecturas permitidas:\n'+
       s.active.map(k=>'- '+clusters[k][0]+': '+readURL(k)).join('\n');
+  }
+  function setConfiguration(url,f) {
+    url.searchParams.set('config','1');
+    url.searchParams.set('rol',role.value);
+    url.searchParams.set('lectura',purpose.value);
+    url.searchParams.set('enfoque',f.profile);
+    for(const item of f.items)url.searchParams.append('peso',item.key+':'+item.weight);
+    const customText=custom.value.trim();
+    if(customText)url.searchParams.set('instruccion',customText);
+    return url.href;
   }
   function textEntry(f=weighting()) {
     const entries=delta.text_entries;
@@ -224,10 +240,14 @@ async function start() {
     const path=origin.value==='all'?entries.global
       :mode.value==='porous'?selected.porous[bridge.value]:selected[mode.value];
     if(!path) throw Error('No plain-text entry for the selected scope');
-    const url=new URL(path,pageRoot);
-    if(f.profile!=='parejo')url.searchParams.set('enfoque',f.profile);
-    for(const item of f.items)url.searchParams.append('peso',item.key+':'+item.weight);
-    return url.href;
+    return setConfiguration(new URL(path,pageRoot),f);
+  }
+  function webEntry(f=weighting()) {
+    const url=new URL('./#asistente',pageRoot);
+    if(origin.value!=='all')url.searchParams.set('site',origin.value);
+    url.searchParams.set('modo',mode.value);
+    if(mode.value==='porous')url.searchParams.set('puente',bridge.value);
+    return setConfiguration(url,f);
   }
   function markdown(s) {
     return '# Perspective Beyond · Atlas global\n\nEdición '+delta.edition+'\n\n'+instructions(s,weighting())+
@@ -251,12 +271,19 @@ async function start() {
       ?'Añade un peso positivo para personalizar la lectura. Ahora se reparte de forma pareja.' : focusInstruction(f);
     get('bridge-field').hidden=mode.value!=='porous';
     get('scope').textContent=s.active.map(k=>clusters[k][0]).join(' · ')+' · '+s.sources.length+' fichas y fuentes';
+    get('role-help').textContent=roles[role.value][1];
     get('entry-url').href=textEntry(f);
+    get('web-entry').href=webEntry(f);
     get('prompt').value=instructions(s,f);
     get('status').textContent='';
   }
   origin.addEventListener('change',chooseOrigin);
   for(const field of [mode,bridge,purpose,profile]) field.addEventListener('change',render);
+  role.addEventListener('change',()=>{
+    if(role.value==='personalizado')get('role-options').open=true;
+    render();
+  });
+  custom.addEventListener('input',render);
   get('focus-add').addEventListener('click',()=>{
     const key=target.value;
     if(!focusItems.has(key)||(!weights.has(key)&&weights.size>=20))return;
@@ -267,6 +294,10 @@ async function start() {
   get('copy-url').addEventListener('click',async()=>{
     try{await navigator.clipboard.writeText(textEntry());get('status').textContent='URL copiada. Pégala en tu asistente.';}
     catch{get('entry-url').focus();get('status').textContent='Puedes copiar la dirección del enlace «Abrir URL de esta selección».';}
+  });
+  get('copy-config').addEventListener('click',async()=>{
+    try{await navigator.clipboard.writeText(webEntry());get('status').textContent='Enlace a la configuración web copiado.';}
+    catch{get('web-entry').focus();get('status').textContent='Puedes copiar la dirección del enlace «Abrir esta configuración web».';}
   });
   get('copy').addEventListener('click',async()=>{
     try{await navigator.clipboard.writeText(get('prompt').value);get('status').textContent='Instrucciones copiadas.';}
