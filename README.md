@@ -1,5 +1,8 @@
 # Perspective Beyond
 
+[Mind Atlas · lectura web completa](https://dakleyer.github.io/perspective-beyond/atlas/lectura/) · [Entrada autónoma para asistentes](https://dakleyer.github.io/perspective-beyond/atlas/lectura/entrada.txt)
+
+
 [Conecta tu asistente al Atlas · lectura directa](https://tegrity.ai/atlas-reader/)
 
 [Open the interactive atlas](https://dakleyer.github.io/perspective-beyond/) · [Read the guide](https://dakleyer.github.io/perspective-beyond/guide/) · [Browse the sources](https://dakleyer.github.io/perspective-beyond/sources/)

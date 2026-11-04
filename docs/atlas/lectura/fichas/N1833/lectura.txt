@@ -1,0 +1,117 @@
+# Phylons dynamic combinations
+
+JUBAP/Phylons did not attempt an exhaustive evaluation of all predictive-factor states and all of their combinations. It built a dynamic, budgeted search system in which the representation, candidate set, evaluation depth, temporal evidence and active rule portfolio changed over time. The supplied source snapshot confirms four especially important mechanisms. Quantitative factors were expanded into one-sided and bounded predicates at multiple granularities; active predicates were materialized on waves; positive combinations were extended only when every pair of states satisfied a positive performance-interaction relation; and negative exceptions were extended only under complete adverse pairwise constraints. These mechanisms operated alongside occupancy-constrained discretization, multi-horizon occurrence filters, timed worker hand-offs, persistent rule statistics and residual-focused combination discovery.
+
+The paper formalizes this architecture as an anytime, coarse-to-fine, selectively incremental search over interpretable context rules. The actual cost object is not a simple 2^N space: it depends on the size of the predicate lattice, graph density, maximum rule depth, temporal memories, books, targets and compute budget. Support supplies a safe anti-monotone pruning rule; performance interactions constrain search heuristically; positive bases become cliques in a positive-interaction graph; and exception sets form adverse structures relative to their bases. The result is a code-grounded explanation of how a large semantic-context space was made operational without claiming exhaustive completeness, global optimality or proven minimal contextual sufficiency.
+
+The optimization was not one pruning trick. It was a stack: encode compactly, materialize once, screen both supportive and adverse states, prune by anti-monotone support, expand only along empirically useful relations, construct exceptions separately, allocate bounded compute, update sufficient statistics incrementally, and keep a slow recovery path running behind the fast path.
+
+Ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/N1833/
+Publicación de origen: https://jubap.net/phylons-dynamic-combinations/
+
+RELACIONES
+Phylons dynamic combinations → Reparación acotada
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/#r-d566da0213b4acc3
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C03/
+
+Phylons dynamic combinations → Compatibilidad global
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/#r-baf613e3f0798f5b
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C06/
+
+Phylons dynamic combinations → Poda segura de búsqueda
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/#r-a0d2ac1457e872f4
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C07/
+
+Phylons dynamic combinations → Retiro de aplicaciones
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/#r-1d5734a231064400
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C08/
+
+Phylons dynamic combinations → Horizontes de memoria
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-3/#r-622d03b66556cbab
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C17/
+
+Phylons dynamic combinations → Señales de demanda
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-3/#r-240d51b2ebd98da6
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C18/
+
+Phylons dynamic combinations → Revisión del marco
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-4/#r-a1328ee9b4049bb2
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C23/
+
+Phylons dynamic combinations → Suficiencia para una decisión
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-4/#r-bba49b42cde1e4e0
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C25/
+
+Phylons dynamic combinations → Evidencia de contribución
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-13/#r-15522180c2ec268c
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C69/
+
+Phylons dynamic combinations → Distinciones suficientes para una pregunta nueva
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-18/#r-daf9e89a3f811df5
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C120/
+
+Phylons dynamic combinations → Case Study: Rationalization in Luxury
+analogy only. The distinction between safe pruning and heuristic ranking clarifies why application retirement requires its own evidence.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-35/#r-e98aaab00037b353
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/E1654/
+
+Phylons dynamic combinations → Southeast Asia Shadow IT and Lakehouse model Rationalization
+hypothesis. An interaction graph could help screen consolidation candidates, provided whole-group constraints are checked separately.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-35/#r-cd07b2200591ea8f
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/E1538/
+
+Phylons dynamic combinations → Car Evolution Mobility OS – Product Annex
+candidate transfer. Residual-focused search could complement Mobility OS repair by revisiting only the part whose validity has changed.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-35/#r-dca7b9252974bc96
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/E1954/
+
+Phylons dynamic combinations → Event Intelligence
+hypothesis. Multiple memory horizons could help distinguish an event-specific reaction from a durable client preference.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-36/#r-721da106eabab306
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/E1563/
+
+Phylons dynamic combinations → Attribution Gap Measurement Protocol
+analogy only. A safe search-pruning rule does not justify treating low usage or recognition as evidence that a business capability is dispensable.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-37/#r-a4fb56cfa7199afe
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/T1475/
+
+Código de calificación exacta → Phylons dynamic combinations
+candidate transfer. A pruning guard should preserve the exact conditions supporting rejection; rounding must not turn inconsistent evidence into a certificate that removes a valid candidate.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-41/#r-055754f44073bb72
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/GH059/
+
+02 — Formal core: dynamic sufficiency, bounded distinctions and explicit proof obligations → Phylons dynamic combinations
+analogy only. A changed search question may require only the distinctions not already supplied by the existing observation, under a separately qualified query menu.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-41/#r-8808ba8ce17a3a61
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/GH064/
+
+Phylons combinatorial optimization → Phylons dynamic combinations
+editorial comparison. For a complementary reading, see [The dynamic combinatorial-search mechanism](https://jubap.net/phylons-dynamic-combinations/).
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-43/#r-8fa0ded7dbc62d80
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/N1828/
+
+Phylons dynamic combinations → Phylons relabeling cascades
+editorial comparison. For a complementary reading, see [Dependency-aware rebuilding after event revision](https://jubap.net/phylons-relabeling-cascades/).
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-44/#r-6bf09990682c771b
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/N1835/
+
+Phylons dynamic combinations → Minimalistic Regime-Aware Early Warning Systems
+editorial comparison. For a complementary reading, see [The sufficient-detector and context-boundary problem](https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/).
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-44/#r-479bd882153c9363
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/T1387/
+
+Structural Awareness Programme → Phylons dynamic combinations
+referencia de la fuente. La fuente enlaza esta lectura en «Phylons» con el rótulo «Dynamic Combinatorial Search».
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-53/#r-9ae83ada4a666c43
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/GH001/
+

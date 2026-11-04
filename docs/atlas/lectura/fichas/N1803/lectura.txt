@@ -1,0 +1,109 @@
+# xSeil VRP
+
+xSeil was deployed in 2016-2017 to plan passenger transport for an integrated tourism operation in the Mexican Caribbean. A tourism sale made upstream became a transport commitment before the complete daily demand, fleet state, and network interactions were known. The resulting problem combined hard pickup promises, indivisible passenger groups, a heterogeneous owned-and-rented fleet, multiple trips per unit, direct and multi-leg service, typed transfer points, destination-capacity externalities, and a rigid planning deadline. This paper presents a single self-contained account of the operation, the vehicle-routing problem, and the deployed solution architecture.
+
+The implementation did not solve a conventional static VRP by repeatedly constructing routes from scratch. It converted idle computation into operational latency reserve: feasible stop sequences, compatibility relations, and scenario-specific candidate structures were built and persisted offline; online planning retrieved those structures, added state-dependent scarcity and isolation prices, committed one passenger-group coalition at a time, repriced the remaining candidates, and invoked rollback or bounded search widening only on evidence of insufficiency. The code further shows that passenger groups were atomic rather than split-delivery quantities, that transfers could occur at typed non-central points, and that human scenario weights controlled both objective level and penalty curvature.
+
+The paper makes four contributions. First, it classifies xSeil as an industrial rich-VRP with heterogeneous multi-trip routing, hard time commitments, atomic group demand, synchronized transfers, and destination resources. Second, it provides a code-auditable reconstruction while correcting earlier overstatements: the route builder is bounded level-wise enumeration rather than demonstrated dynamic programming; the allocator lacks a global optimality guarantee but does not necessarily produce a suboptimal solution; and route-library coverage is bounded by the configured topology and policies. Third, it proposes a modernization that preserves the offline-online doctrine while replacing exhaustive construction with modern candidate generation and bounded improvement. Fourth, because real demand days can be recovered, it specifies a paired historical replay comparing legacy-faithful, semantically repaired, modern, and hybrid solvers under the same time limits, scenarios, and raw KPI vectors. No superiority claim is made before that replay.
+
+Keywords: rich vehicle routing; multi-trip VRP; time windows; synchronized transfers; passenger transport; atomic demand; route pools; human-in-the-loop optimization; historical replay; xSeil.
+
+Ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/N1803/
+Publicación de origen: https://jubap.net/xseil-vrp/
+
+RELACIONES
+xSeil VRP → Compromiso indivisible
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/#r-9430594e3556ee8a
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C05/
+
+xSeil VRP → Compatibilidad global
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/#r-74e8e708e9cb2070
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C06/
+
+xSeil VRP → Gobierno de escenarios
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-3/#r-707a57b568de5ed3
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C22/
+
+xSeil VRP → Suficiencia para una decisión
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-4/#r-132b269a214b088a
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C25/
+
+xSeil VRP → Propuesta y compromiso
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-5/#r-ff0756f259602acf
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C29/
+
+xSeil VRP → Adaptación de arquitectura entre territorios
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-16/#r-c59c779edf36bae3
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C99/
+
+xSeil VRP → No cierre efectivo del mundo abierto
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-17/#r-fbad921e3dd4a8ee
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C111/
+
+xSeil VRP → Event Intelligence
+analogy only. The atomic-group distinction in transport offers a useful lens for defining indivisible commitments in luxury events.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-35/#r-7dfc403ba70815fc
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/E1563/
+
+xSeil: Scenario-Based Planning and Human-Governed Computation → xSeil VRP
+documented use. In the reconstructed xSeil planner, scenario choice precedes state-dependent scoring and sequential commitment.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-36/#r-48fdb32b26ab7f79
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/N2082/
+
+Barcelona, Cuba, California, Veracruz: Urban Mobility, Swarm Intelligence and Constraint-Driven Architecture → xSeil VRP
+analogy only. Analog pooling can inspire a routing model, but xSeil's fully committed demand requires preserving service obligations rather than selecting only the easiest demand to serve.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-39/#r-98ed66001f5da7ee
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/U1494/
+
+Open-World Agent Encounters: A Uniform Decision Frontier → xSeil VRP
+analogy only. A finite routing run can be valid within its declared frame without certifying all future operating conditions; open-world limits do not make every bounded VRP undecidable.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-40/#r-9cd995e1783b015a
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/GH008/
+
+JubAp.Net © xSeil Whitepaper → xSeil VRP
+editorial comparison. For a complementary reading, see [Vehicle routing under fully committed demand](https://jubap.net/xseil-vrp/).
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-43/#r-787477f13e290999
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/N1247/
+
+xSeil Functionality Analisis → xSeil VRP
+editorial comparison. For a complementary reading, see [The exact industrial routing problem](https://jubap.net/xseil-vrp/).
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-43/#r-89fe536383b9a7ba
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/N1801/
+
+xSeil VRP → xSeil: Scenario-Based Planning and Human-Governed Computation
+editorial comparison. For a complementary reading, see [How human scenarios steer the planner](https://jubap.net/xseil-scenario-based-planning-human-governed-computation/).
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-43/#r-099f3916e290443e
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/N2082/
+
+xSeil VRP → Car Evolution Mobility OS – Evidence Cases 01-02
+editorial comparison. For a complementary reading, see [Grouping and bounded repair: the paired exhibits](https://jubap.eu/mobility/evidence/case-01-02-valencia/).
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-43/#r-5bd90be59cdcaa39
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/E1958/
+
+xSeil quantum formulation. Companion paper → xSeil VRP
+editorial comparison. For a complementary reading, see [The classical routing problem and baselines](https://jubap.net/xseil-vrp/).
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-43/#r-3a639aa6574ff6cb
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/N1817/
+
+Car Evolution Mobility OS – Evidence Cases 01-02 → xSeil VRP
+editorial comparison. For a complementary reading, see [The routing and grouping constraints behind the exhibit](https://jubap.net/xseil-vrp/).
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-44/#r-abbe98d186f4b5e8
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/E1958/
+
+Car Evolution Mobility OS – Competition → xSeil VRP
+editorial comparison. For a complementary reading, see [The industrial rich-VRP problem definition](https://jubap.net/xseil-vrp/).
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-44/#r-9ba1e84fccae8047
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/E1956/
+
+Structural Awareness Programme → xSeil VRP
+referencia de la fuente. La fuente enlaza esta lectura en «xSeil» con el rótulo «xSeil — Vehicle Routing Under Fully Committed Tourism Demand».
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-53/#r-68e624db61ba5825
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/GH001/
+

@@ -1,0 +1,292 @@
+# Measuring Human Intelligence Debt
+
+This document moves the series from concept to measurement. It extends Human Intelligence Debt (Paper 1), The Harvester Multiplication Problem (Paper 2), The Human Intelligence Debt Dilemma (Paper 3) and Architectural Entropy (Paper 4). Where the prior papers defined the phenomenon, its mechanism, its incentive structure and its irreversibility, this one proposes how to verify it. It is a methods proposal and preregistered experimental programme : it specifies constructs, instruments, metrics and study designs, and it states in advance the conditions under which the framework would be wrong. It does not report an empirical Human Intelligence Debt (HID) value; no such value should be published before the instrument-validation gate (Study 0) is passed. Public figures cited below are drawn from third-party sources as of early 2026, are flagged as vendor benchmarks where applicable, and are intended to establish environment and direction, not to prove the debt.
+
+A Three-Layer Measurement Architecture, an Instrument-Validation Gate and Five Studies for Verifying the Debt, the Recovery Coefficient ρ, and the Oversight Threshold
+
+This paper builds on four field notes in the series. Where they defined the phenomenon, this one proposes how to verify it; readers new to the framework are encouraged to read them first.
+
+Ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/T1400/
+Publicación de origen: https://tegrity.ai/meassuring-human-intelligence-debt/
+
+RELACIONES
+Measuring Human Intelligence Debt → Observabilidad del proceso
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/#r-e10a826a959e1b77
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C10/
+
+Measuring Human Intelligence Debt → Procedencia auditable
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-2/#r-1ddfcddde945c389
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C12/
+
+Measuring Human Intelligence Debt → Capacidad reutilizable
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-3/#r-b69730b788844414
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C20/
+
+Measuring Human Intelligence Debt → Coste de claridad
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-6/#r-1096244d34e51191
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C32/
+
+Measuring Human Intelligence Debt → Contrafactual de carga humana
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-6/#r-320d4535685a7319
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C34/
+
+Measuring Human Intelligence Debt → Transmisión de juicio tácito
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-7/#r-257e6d27825f6e14
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C36/
+
+Measuring Human Intelligence Debt → Aprendizaje interno repetible
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-7/#r-a34306f8f17406d9
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C38/
+
+Measuring Human Intelligence Debt → Capacidad humana utilizable
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-8/#r-23d3f078b5d57606
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C39/
+
+Measuring Human Intelligence Debt → Ablación de mecanismos
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-9/#r-b6a250d31fc088ce
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C46/
+
+Measuring Human Intelligence Debt → Estado de una afirmación
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-10/#r-35bc33b1467e490e
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C50/
+
+Measuring Human Intelligence Debt → Valor descubierto
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-11/#r-e0379a0356cac9bd
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C54/
+
+Measuring Human Intelligence Debt → Custodia institucional
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-11/#r-ffdf6006f9ba2351
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C56/
+
+Measuring Human Intelligence Debt → Atribución organizativa
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-13/#r-a550582faaa29908
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C70/
+
+Measuring Human Intelligence Debt → Carga de control
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-13/#r-366d12b4e000a107
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C71/
+
+Measuring Human Intelligence Debt → Unidad de medida de HID
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-13/#r-dbf72ecb91752837
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C73/
+
+Measuring Human Intelligence Debt → Ejecución y supervisión necesarias (NEO)
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-13/#r-90b18fa88d748d9b
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C74/
+
+Measuring Human Intelligence Debt → Trabajo compensatorio evitable (ACW)
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-13/#r-afb3f27b488feb02
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C75/
+
+Measuring Human Intelligence Debt → Contribución informativa genuina (GIC)
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-14/#r-60167aed318d52c3
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C76/
+
+Measuring Human Intelligence Debt → Coeficiente de recuperación de capacidad (ρ)
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-14/#r-5fd9d67ec7a58754
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C77/
+
+Measuring Human Intelligence Debt → Activación y cierre de misión
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-15/#r-016436eab5a73c54
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C85/
+
+Measuring Human Intelligence Debt → Núcleo común con evidencia cualificada
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-15/#r-640f6894e42fd30e
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C86/
+
+Measuring Human Intelligence Debt → Madurez definida y autoevaluada
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-15/#r-3434e2f162eafd59
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C87/
+
+Measuring Human Intelligence Debt → Coste total de una intervención
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-15/#r-7545861adfed18a0
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C89/
+
+Measuring Human Intelligence Debt → Condiciones de activación de capacidad
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-15/#r-528e1413e3d99dc5
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C91/
+
+Measuring Human Intelligence Debt → Human Intelligence Debt (HID)
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-19/#r-5742679497869b1f
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/G21/
+
+Measuring Human Intelligence Debt → HR & Processess Rationalization
+candidate transfer. Capacity estimates can be strengthened by grading the evidence behind each automation counterfactual.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-36/#r-3db37ec583467f00
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/E1729/
+
+Case Study: Texas-to-Mexico Oilfield Services Transformation: Knowledge Transfer, Industrialization, and Compliance → Measuring Human Intelligence Debt
+candidate transfer. Knowledge-transfer evidence can include safe novel-exception exercises rather than relying only on document completion.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-36/#r-cddb1b58d9ff11a7
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/U1317/
+
+Measuring Human Intelligence Debt → Supply Chain Rationalization & Process Mining
+candidate transfer. Operational traces can anchor a conservative estimate of compensatory work while leaving their coverage gaps explicit.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-36/#r-4a96a892df197fbe
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/E1560/
+
+Nestlé North America — Where JUBAP Was Named → Measuring Human Intelligence Debt
+hypothesis. A future evaluation could separate the cost of building facilitator capability from any later reduction in compensatory coordination work.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-37/#r-4d7e9fafa605dd8d
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/E1636/
+
+The Outlook → Measuring Human Intelligence Debt
+candidate transfer. The programme's forecasts become testable only when their indicators, populations, time windows and disconfirming outcomes are specified.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-37/#r-21089e4c5f2320e4
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/T1494/
+
+Annex 6 — Ablation, Sufficiency and Extensibility → Measuring Human Intelligence Debt
+candidate transfer. Task simulations could vary integration, data quality and expert support separately to examine which assumptions drive a human-work counterfactual.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-37/#r-4a63fc5084b51161
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/T2803/
+
+Human Intelligence Debt → Measuring Human Intelligence Debt
+documented use. The task-level protocol operationalizes the earlier role-based framework; its time ratios should not be compared with operator ratios without an explicit conversion model.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-37/#r-29f0214df5d489af
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/T874/
+
+Architectural Entropy: How Mediated Systems Spend Human “Exergy” and the Partial Irreversibility of Human Intelligence Debt → Measuring Human Intelligence Debt
+documented use. The recovery coefficient turns the atrophy claim into a bounded question: how much released capacity becomes genuine contribution again for the same capability and cohort?
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-37/#r-e154286248368e54
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/T1378/
+
+The Limits of AI Oversight → Measuring Human Intelligence Debt
+documented use. The oversight-threshold study tests whether added review and reconciliation outweigh removed work, rather than treating guardrail count as a measure of debt.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-37/#r-5637aed7ce4d1e0f
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/T1391/
+
+The Harvester Multiplication Problem: Capability Fragmentation, Governance Collapse and the Compounding of Human Intelligence Debt → Measuring Human Intelligence Debt
+candidate transfer. Capability multiplicity is a screening signal; avoidable compensatory work must still be established from task episodes and a credible replacement counterfactual.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-37/#r-b65bd90edcb8e14e
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/T897/
+
+What Goes Unpriced Is Paid in Human Intelligence → Measuring Human Intelligence Debt
+analogy only. Unpriced clarity may consume human effort, but only the task-level distinction between necessary work and fixable compensation can classify that effort as debt.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-38/#r-8536895e4e78e643
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/T1425/
+
+Distributed Tiger Teams VS Freelancer Swarms → Measuring Human Intelligence Debt
+hypothesis. A common decision core may reduce human-as-API work, provided the cost of maintaining and qualifying that core is included in the comparison.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-38/#r-7502134ee3389c2d
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/N1296/
+
+Tacit Knowledge Management in Distributed Tiger Teams → Measuring Human Intelligence Debt
+candidate transfer. A practice-based transmission programme could provide the capability-recovery arm of an HID intervention, separately from the integration fix that releases time.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-38/#r-0360c5f822042962
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/N1287/
+
+The Anthropology of Tiger Team Activation → Measuring Human Intelligence Debt
+candidate transfer. A Tiger Team evaluation should include activation, learning and closure costs, while distinguishing necessary mission work from avoidable compensation.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-38/#r-0604c623dc945235
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/N1272/
+
+Tiger Team Maturity Model → Measuring Human Intelligence Debt
+candidate transfer. Validated task measurement can strengthen intervention evidence without by itself upgrading a defined Tiger Team model to quantitatively managed maturity.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-38/#r-876b8a72e71faddb
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/N1276/
+
+The Formación Integral © JubAp.Net (JubAp.Net) School of Invisible Talent → Measuring Human Intelligence Debt
+analogy only. Genuine contribution should be classified at the task episode, not inferred from a person's title, credentials or membership in an elite team.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-38/#r-6338c5c4a323bd5f
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/N1246/
+
+Entropy, Capability Activation and Sociotechnical Engineering → Measuring Human Intelligence Debt
+analogy only. Carrier availability at an activation threshold and the HID recovery coefficient answer different questions: who can respond now, and what capability returns after the architecture changes.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-39/#r-d80f8b13131a83a6
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/U1498/
+
+Case Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management → Measuring Human Intelligence Debt
+candidate transfer. Reusable audit evidence provides a concrete setting for distinguishing avoidable reconstruction from necessary assurance, while measuring the net work of maintaining the shared evidence model.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-39/#r-3f2f4c5df3f81b07
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/U1322/
+
+The Integral Management Society : Institución de frontera desde 1898 → Measuring Human Intelligence Debt
+hypothesis. The preservation rationale motivates a testable question, while the HID measurement programme explicitly keeps recovery and irreversibility as hypotheses awaiting field evidence.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-39/#r-0d1f3f509b341947
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/L001/
+
+Annex 01K — Human Capacity / Human Intelligence Debt → Measuring Human Intelligence Debt
+documented use. The 01K extension imports the HID research line while keeping runtime response capacity distinct from instrument-gated architectural debt measurement.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-41/#r-2809c067edd3fd66
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/GH037/
+
+HR & Processess Rationalization → Measuring Human Intelligence Debt
+editorial comparison. For a complementary reading, see [A research protocol for measuring Human Intelligence Debt](https://tegrity.ai/meassuring-human-intelligence-debt/).
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-42/#r-1b32916c4fe1c0c0
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/E1729/
+
+Human Intelligence Debt → Measuring Human Intelligence Debt
+editorial comparison. For a complementary reading, see [Measuring Human Intelligence Debt](https://tegrity.ai/meassuring-human-intelligence-debt/).
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-45/#r-5dd5f2e7a655cc01
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/T874/
+
+Evidence Notes for the Proposed Human Intelligence Debt Study → Measuring Human Intelligence Debt
+editorial comparison. For a complementary reading, see [The proposed measurement study](https://tegrity.ai/meassuring-human-intelligence-debt/).
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-45/#r-071b9fef2318c535
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/T1399/
+
+Measuring Human Intelligence Debt → Information Management as Operational Tracking
+editorial comparison. For a complementary reading, see [An operational-capture model for instrument design](https://jubap.net/information-management-as-operational-tracking/).
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-45/#r-3fad70d91bf54f93
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/N1289/
+
+How to Measure the Cost of Not Knowing → Measuring Human Intelligence Debt
+editorial comparison. For a complementary reading, see [The Human Intelligence Debt measurement stack](https://tegrity.ai/meassuring-human-intelligence-debt/).
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-45/#r-87a033d7133b242f
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/T1421/
+
+Bridge: The Attribution Gap and Capability Loss → Measuring Human Intelligence Debt
+editorial comparison. For a complementary reading, see [The separate Human Intelligence Debt measurement proposal](https://tegrity.ai/meassuring-human-intelligence-debt/).
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-45/#r-5d0d863cfd0c2e08
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/T1474/
+
+01K-A01 — Human Capacity / HID Component Verification Record v0.1 → Measuring Human Intelligence Debt
+separa dos tipos de medición. La medición de deuda observa carga acumulada y desperdicio de juicio humano. La verificación del componente pregunta si la escalada es viable en el momento.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-49/#r-31382956a2c3678a
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/GH039/
+
+DDS Potential Contributions Register → Measuring Human Intelligence Debt
+referencia de la fuente. La fuente enlaza esta lectura en «8.2 Other article sources» con el rótulo «Published source».
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-75/#r-90c38de4358a35f2
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/sac-31c5add4fe1a12/
+
+Annex 01K-A02 — Human Intelligence Debt: aceleración económica y experimentos de segundo orden → Measuring Human Intelligence Debt
+referencia de la fuente. La fuente enlaza esta lectura en «I. Puentes, fuentes y próxima ejecución» con el rótulo «estudio de medición de Human Intelligence Debt».
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-103/#r-f5ecb105037516af
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/GH040/
+
+Annex 01K — Human Capacity / Human Intelligence Debt → Measuring Human Intelligence Debt
+referencia de la fuente. La fuente enlaza esta lectura en «Annex A — Human Intelligence Debt / Human Intelligence Gap source map» con el rótulo «Measuring Human Intelligence Debt — Paper 5».
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-103/#r-3de0b5a80b651e3e
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/GH037/
+
+El supervisor humano no es barato porque solo revise dos casillas → Measuring Human Intelligence Debt
+lectura comparada entre clústeres. La pregunta por el coste de supervisar se encuentra con un protocolo que distingue supervisión necesaria, creación de información y trabajo compensatorio evitable, para estudiar qué esfuerzo cambia con una intervención.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-181/#r-29552f984663b39e
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/D-243/
+

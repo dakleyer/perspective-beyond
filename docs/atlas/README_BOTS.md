@@ -1,3 +1,9 @@
+LECTURA WEB COMPLETA Y AUTÓNOMA
+Entrada estable: https://dakleyer.github.io/perspective-beyond/atlas/lectura/
+Instrucciones para asistentes: https://dakleyer.github.io/perspective-beyond/atlas/lectura/entrada.txt
+Esta entrada publica cada ficha, concepto, documento, clúster y relación en HTML y texto. Empieza por la pregunta del visitante y navega por sus enlaces. Conserva el punto de entrada y los parámetros de la URL original; las instrucciones y los índices están en la propia web. Todas las piezas del grafo actual se pueden recorrer desde esta entrada sin una explicación adicional del usuario, sin cookies, identificación especial ni JavaScript.
+FIN DE LA ENTRADA AUTÓNOMA
+
 # Perspective Beyond · Entrada para asistentes
 
 Guía de lectura común: https://dakleyer.github.io/perspective-beyond/atlas/guide.html

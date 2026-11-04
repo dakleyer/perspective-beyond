@@ -1,0 +1,104 @@
+# Phylons Liquidity Orquestration
+
+This paper reconstructs the coordination and execution architecture of JUBAP/Phylons from the 2018 design corpus and the supplied xbot source snapshot. The system did not treat a signal as an executable order. It separated contextual detection, local intent formation, shared-resource authorization, exchange commitment, and realized feedback. The code now verifies a substantial substrate beneath that design: user–exchange credentials, books and currencies, balance snapshots, resource allocations, capital instances, resource-utilization statistics, executable transactions, market-operation lifecycle records, request/response audit logs, an event-driven feed–strategy–broker loop, exchange-neutral order submission through CCXT, order-completion polling, and stop-loss/profit closure through an opposite order. The complete tf15→tf5→tf1 book-supervisor logic, HQ/LQ classification, cross-book netting, sell-first priority, proportional proration, A/B/C/D sale taxonomy, and rich partial-fill ledger remain design-grounded where their full implementation is not present in the supplied snapshot. The contribution is therefore not a claim of autonomous multi-agent trading or investment performance. It is a code-grounded account of an explicit coordination contract: detectors propose; local supervisors size; shared-liquidity governance authorizes; exchange adapters commit; operation records reconcile; and feedback changes the next cycle. This contract is interpretable, testable, and portable to other domains in which many local actors compete for scarce shared resources.
+
+Keywords: multi-agent coordination; expert systems; liquidity orchestration; resource governance; exchange broker; event-driven execution; auditability; replay evaluation
+
+JUBAP separated epistemic confidence from economic authority. The supplied code verifies the resource and execution substrate; the historical design specifies the richer multi-book coordination policy that can now be replayed as an explicit, playable algorithm.
+
+Partial fills, reason-coded A/B/C/D inventory attribution, full HQ/LQ arbitration and tf15→tf5→tf1 quantity synchronization are retained as design-grounded mechanisms, not silently promoted to code-verified behavior.
+
+Ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/N1826/
+Publicación de origen: https://jubap.net/phylons-liquidity-orquestration/
+
+RELACIONES
+Phylons Liquidity Orquestration → Identidad estable
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-2/#r-89065d3c11ce7faf
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C14/
+
+Phylons Liquidity Orquestration → Revisión del marco
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-4/#r-bc4f630138250186
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C23/
+
+Phylons Liquidity Orquestration → Suficiencia para una decisión
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-4/#r-8f4b19fd8030d926
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C25/
+
+Phylons Liquidity Orquestration → Autoridad de decisión
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-5/#r-e0d883a5fe5f581c
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C26/
+
+Phylons Liquidity Orquestration → Propuesta y compromiso
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-5/#r-8d8321a292ab1c87
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C29/
+
+Phylons Liquidity Orquestration → Versión del contexto
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-8/#r-2c40f9678c779b38
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C42/
+
+Phylons Liquidity Orquestration → Vigencia y caducidad
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-8/#r-181eb66715d1188f
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C43/
+
+Phylons Liquidity Orquestration → Arbitraje de recursos
+documenta el concepto. 
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-8/#r-20323a7ebeb8dd01
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/C44/
+
+Piece Identity & Inventory Orchestration → Phylons Liquidity Orquestration
+analogy only. A stable object identity can support several operational views without collapsing their distinct permissions and responsibilities.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-36/#r-d635da17cc6ac7bd
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/E1567/
+
+Phylons Liquidity Orquestration → Piece Identity & Inventory Orchestration
+candidate transfer. A proposal–reservation–authorization–commitment sequence could clarify the authority boundary of piece allocation.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-36/#r-7937d2d02c9c9743
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/E1567/
+
+Phylons Liquidity Orquestration → Case Study: DMG MORI — Multilevel Post-Merger Integration, International Supply Chain Control & Mission-Critical Industrial Delivery (2013 – 2016)
+hypothesis. A shared-resource intent layer could be tested for industrial deployment without importing financial allocation rules unchanged.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-36/#r-4519c43b958c2299
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/U1325/
+
+Phylons Liquidity Orquestration → Car Evolution Mobility OS – Product Annex
+candidate transfer. Policy-version and expiry checks could make the boundary between a planned assignment and an authorized action explicit.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-36/#r-ad0a6ddddb3da7e8
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/E1954/
+
+Phylons Liquidity Orquestration → Annex 4 — Canonical Requirements and Test Contract
+candidate transfer. Each transition from proposal to commitment can be qualified by its own evidence, authority and validity conditions.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-37/#r-0ca707103039c197
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/T2795/
+
+Regime Awareness — corpus index → Phylons Liquidity Orquestration
+documented use. The Phylons lineage motivates later questions about when a previously useful signal loses its operating-context qualification.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-40/#r-07fd098359159890
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/GH019/
+
+Phylons Liquidity Orquestration → Phylons predictive factors cascade
+editorial comparison. For a complementary reading, see [The predictive-factor and context substrate](https://jubap.net/phylons-predictive-factors-cascade/).
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-43/#r-bb2420a7e89140c7
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/N1831/
+
+Phylons Liquidity Orquestration → AI Integrity Architecture: Toward Expert-System Envelopes Around Statistical AI
+editorial comparison. For a complementary reading, see [Expert-system envelopes and authorization boundaries](https://tegrity.ai/ai-integrity-architecture-toward-expert-system-envelopes-around-statistical-ai/).
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-43/#r-6fd6957ada88011f
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/T385/
+
+El futuro comprometido puede vaciar la capacidad disponible → Phylons Liquidity Orquestration
+lectura comparada entre clústeres. La reflexión sobre obligaciones futuras analiza cómo se reserva capacidad. Phylons separa intención local y autorización de liquidez compartida: la lectura compara cómo reconocer la capacidad disponible antes de comprometerla.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-181/#r-c37200a3077ab762
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/D-138/
+
+La iniciativa que no se puede mover ya consume recursos → Phylons Liquidity Orquestration
+lectura comparada entre clústeres. La selección de iniciativas pregunta qué acción puede comenzar con personas, recursos y facultades reales. La orquestación de liquidez aporta una comparación operativa entre una intención y un compromiso autorizado sobre recursos compartidos.
+Relación: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/pagina-181/#r-04cb82141efa0342
+Otra ficha: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/D-221/
+
