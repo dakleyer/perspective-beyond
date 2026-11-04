@@ -22,8 +22,12 @@ button.secondary{background:white;color:var(--blue)}label{display:block;font-siz
 input,select,textarea{max-width:100%;border:1px solid #938b7c;background:white;color:var(--ink);border-radius:.3rem;padding:.52rem;font:inherit}
 .grid select,textarea{width:100%}textarea{min-height:7rem}.record-list{margin-top:.85rem}.record h3{font-size:1.06rem}
 .metric{color:var(--muted);font-size:.92rem}[hidden]{display:none!important}
+.focus-box{margin:1rem 0;padding:.75rem .9rem;border:1px solid var(--line);border-radius:.35rem}
+.focus-box summary{cursor:pointer;font-weight:700}.focus-row{display:grid;grid-template-columns:minmax(0,1fr) 6rem auto auto;gap:.5rem;align-items:center;margin:.55rem 0}
+.focus-row input{width:100%}.focus-target{width:min(100%,31rem)}
+@media(max-width:33rem){.focus-row{grid-template-columns:minmax(0,1fr) 5rem auto}.focus-row button{grid-column:1/-1;justify-self:start}}
 </style>
-<script src="global.js" defer></script>
+<script src="global.js?v=ponderacion-1" defer></script>
 </head>
 <body><main>
 <header>
@@ -54,6 +58,18 @@ input,select,textarea{max-width:100%;border:1px solid #938b7c;background:white;c
 <div><label for="purpose">Qué quieres hacer</label><select id="purpose"><option value="paraphrase">Parafrasear y explicar</option><option value="explore">Explorar relaciones</option><option value="ideas">Proponer ideas para un caso nuevo</option><option value="locate">Localizar fuentes</option><option value="quote">Verificar una cita</option></select></div>
 </div>
 <p id="scope" class="hint" aria-live="polite"></p>
+<details class="focus-box" id="focus-box" open>
+<summary>Enfoque y ponderación</summary>
+<div class="row"><label for="focus-profile">Cómo repartir la atención</label><select id="focus-profile">
+<option value="parejo">Parejo</option><option value="transversal">Transversal</option><option value="personalizado">Ponderado por mí</option>
+</select></div>
+<div id="focus-editor" hidden>
+<p class="hint">Combina clústeres y etiquetas. Los pesos son relativos y el Atlas los convierte en un reparto de 100 %.</p>
+<div class="row"><label for="focus-target">Clúster o etiqueta</label><select id="focus-target" class="focus-target"></select><button type="button" class="secondary" id="focus-add">Añadir peso</button></div>
+<div id="focus-rows"></div>
+</div>
+<p class="hint" id="focus-preview" role="status"></p>
+</details>
 <div class="actions"><button type="button" id="copy-url">Copiar URL para mi asistente</button><a id="entry-url" href="entrada.txt">Abrir URL de esta selección</a></div>
 <div class="actions"><button type="button" class="secondary" id="copy">Copiar instrucciones</button><button type="button" class="secondary" id="download">Descargar lectura en Markdown</button></div>
 <label for="prompt">Instrucciones para pegar en tu asistente</label><textarea id="prompt" readonly></textarea>

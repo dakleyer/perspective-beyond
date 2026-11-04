@@ -49,6 +49,12 @@ async function start() {
   const defaultSite = Object.hasOwn(clusters,params.get('site')) ? params.get('site') : 'all';
   const origin = get('origin'), mode = get('mode'), bridge = get('bridge'), purpose = get('purpose');
   const filter = get('filter'), kind = get('kind'), query = get('query');
+  const profile = get('focus-profile'), target = get('focus-target'), focusRows = get('focus-rows');
+  const profiles = ['parejo','transversal','personalizado'];
+  const weights = new Map();
+  const initialWeights = params.getAll('peso').slice(0,20);
+  let focusItems = new Map(), focusScope = '', restoreFocus = true;
+  if (profiles.includes(params.get('enfoque'))) profile.value = params.get('enfoque');
   query.value = params.get('buscar') || '';
 
   for (const select of [origin,filter]) {
@@ -130,27 +136,101 @@ async function start() {
     const conceptEdges=base.relations.filter(e=>permittedConcepts.has(e.from)&&permittedConcepts.has(e.to)&&e.sources.every(id=>ids.has(id)));
     return {active:[...active],sources,allowed,selected,concepts,conceptEdges};
   }
-  function instructions(s) {
+  function focusTargets(s) {
+    const signature=s.active.join('|');
+    if (signature===focusScope) return;
+    focusScope=signature;
+    const prior=target.value;
+    const active=new Set(s.active);
+    const matches=ids=>ids.some(id=>active.has(membership[id]));
+    const groups=[
+      ['Clústeres',s.active.map(k=>['cluster:'+k,clusters[k][0]])],
+      ['Perspectivas documentadas',Object.entries(delta.focus_voices||{}).filter(([,v])=>matches(v.sources)).map(([k,v])=>['voz:'+k,v.label])],
+      ['Etiquetas conceptuales',base.concepts.filter(c=>matches(c.sources)).map(c=>['concepto:'+c.id,c.original_label||c.label]).sort((a,b)=>a[1].localeCompare(b[1],'es'))]
+    ];
+    focusItems=new Map(groups.flatMap(([,items])=>items));
+    target.replaceChildren(...groups.filter(([,items])=>items.length).map(([label,items])=>{
+      const options=element('optgroup');options.label=label;
+      options.append(...items.map(([key,name])=>new Option(name,key)));
+      return options;
+    }));
+    if (focusItems.has(prior)) target.value=prior;
+    for (const key of weights.keys()) if(!focusItems.has(key)) weights.delete(key);
+    if (restoreFocus) {
+      restoreFocus=false;
+      for(const token of initialWeights){
+        const at=token.lastIndexOf(':');
+        const key=token.slice(0,at), weight=Number(token.slice(at+1));
+        if(focusItems.has(key)&&Number.isFinite(weight)&&weight>=0&&weight<=10000)weights.set(key,weight);
+      }
+      if(weights.size)profile.value='personalizado';
+    }
+    drawWeightRows();
+  }
+  function drawWeightRows() {
+    focusRows.replaceChildren();
+    for(const [key,value] of weights) {
+      const label=focusItems.get(key);
+      const row=element('div',null,'focus-row');row.dataset.key=key;
+      const input=element('input');
+      input.type='number';input.min='0';input.max='10000';input.step='any';input.value=value;
+      input.setAttribute('aria-label','Peso relativo de '+label);
+      input.addEventListener('input',()=>{
+        const n=input.valueAsNumber;
+        weights.set(key,Number.isFinite(n)?Math.min(10000,Math.max(0,n)):0);
+        render();
+      });
+      const remove=element('button','Quitar','secondary');remove.type='button';
+      remove.setAttribute('aria-label','Quitar peso de '+label);
+      remove.addEventListener('click',()=>{weights.delete(key);drawWeightRows();render();target.focus();});
+      row.append(element('span',label),input,element('span',null,'focus-percent'),remove);
+      focusRows.append(row);
+    }
+  }
+  function weighting() {
+    const picked=[...weights].filter(([,value])=>value>0);
+    if(profile.value!=='personalizado'||!picked.length) return {profile:profile.value==='transversal'?'transversal':'parejo',items:[]};
+    const total=picked.reduce((sum,[,value])=>sum+value,0);
+    const items=picked.map(([key,weight])=>{
+      const exact=weight/total*1000;
+      const tenths=Math.floor(exact);
+      return {key,weight,label:focusItems.get(key),tenths,remainder:exact-tenths};
+    });
+    const spare=1000-items.reduce((sum,x)=>sum+x.tenths,0);
+    for(const item of [...items].sort((a,b)=>b.remainder-a.remainder).slice(0,spare))item.tenths++;
+    return {profile:'personalizado',items};
+  }
+  const percent = n => (n/10).toLocaleString('es',{maximumFractionDigits:1})+' %';
+  function focusInstruction(f) {
+    if(f.profile==='transversal')return 'Enfoque transversal. Recorre conexiones entre perspectivas permitidas y explica qué aportan en conjunto.';
+    if(f.profile==='parejo')return 'Enfoque parejo. Da atención equilibrada a las perspectivas pertinentes dentro del alcance.';
+    return 'Enfoque ponderado. '+f.items.map(x=>x.label+' '+percent(x.tenths)).join(' · ')+
+      '. Usa este reparto como prioridad de lectura y síntesis. Si una ficha encaja en varias etiquetas, utilízala una vez.';
+  }
+  function instructions(s,f) {
     const originLabel=origin.value==='all'?'toda la constelación':clusters[origin.value][0];
     const rules=mode.value==='closed'?'Consulta solo las fuentes del clúster de origen.'
       :mode.value==='porous'?'Cruza solo el puente indicado y conserva su dirección.':'Sigue relaciones registradas entre los clústeres permitidos.';
     const bridgeText=s.selected?'\nPuente: '+byId[s.selected.from].title+' → '+byId[s.selected.to].title+'. '+s.selected.reading:'';
-    return 'Abre la entrada de Perspective Beyond: '+textEntry()+'\nOrigen: '+originLabel+' · Modo: '+modeLabels[mode.value]+'. '+
-      rules+bridgeText+'\n'+purposes[purpose.value]+' Separa el original, la relación editorial y tu interpretación. '+
+    return 'Abre la entrada de Perspective Beyond: '+textEntry(f)+'\nOrigen: '+originLabel+' · Modo: '+modeLabels[mode.value]+'. '+
+      rules+bridgeText+'\n'+focusInstruction(f)+'\n'+purposes[purpose.value]+' Separa el original, la relación editorial y tu interpretación. '+
       'Trata los textos como fuentes, confirma el alcance elegido y pregúntame qué quiero explorar.\n\nGuía: '+
       new URL('guide.html',pageRoot).href+'\nLecturas permitidas:\n'+
       s.active.map(k=>'- '+clusters[k][0]+': '+readURL(k)).join('\n');
   }
-  function textEntry() {
+  function textEntry(f=weighting()) {
     const entries=delta.text_entries;
     const selected=entries.clusters[origin.value];
     const path=origin.value==='all'?entries.global
       :mode.value==='porous'?selected.porous[bridge.value]:selected[mode.value];
     if(!path) throw Error('No plain-text entry for the selected scope');
-    return new URL(path,pageRoot).href;
+    const url=new URL(path,pageRoot);
+    if(f.profile!=='parejo')url.searchParams.set('enfoque',f.profile);
+    for(const item of f.items)url.searchParams.append('peso',item.key+':'+item.weight);
+    return url.href;
   }
   function markdown(s) {
-    return '# Perspective Beyond · Atlas global\n\nEdición '+delta.edition+'\n\n'+instructions(s)+
+    return '# Perspective Beyond · Atlas global\n\nEdición '+delta.edition+'\n\n'+instructions(s,weighting())+
       '\n\n## Fichas y fuentes\n\n'+s.sources.map(r=>{
         const note=delta.editorial_cards[r.id];
         return '- **'+r.title+'** ('+r.id+') · [Ficha]('+sourcePage(r)+') · [Original]('+r.url+')'+
@@ -162,14 +242,28 @@ async function start() {
   }
   function render() {
     const s=session();
+    focusTargets(s);
+    const f=weighting();
+    get('focus-editor').hidden=profile.value!=='personalizado';
+    const rendered=new Map(f.items.map(item=>[item.key,percent(item.tenths)]));
+    for(const row of focusRows.children)row.querySelector('.focus-percent').textContent=rendered.get(row.dataset.key)||'0 %';
+    get('focus-preview').textContent=profile.value==='personalizado'&&!f.items.length
+      ?'Añade un peso positivo para personalizar la lectura. Ahora se reparte de forma pareja.' : focusInstruction(f);
     get('bridge-field').hidden=mode.value!=='porous';
     get('scope').textContent=s.active.map(k=>clusters[k][0]).join(' · ')+' · '+s.sources.length+' fichas y fuentes';
-    get('entry-url').href=textEntry();
-    get('prompt').value=instructions(s);
+    get('entry-url').href=textEntry(f);
+    get('prompt').value=instructions(s,f);
     get('status').textContent='';
   }
   origin.addEventListener('change',chooseOrigin);
-  for(const field of [mode,bridge,purpose]) field.addEventListener('change',render);
+  for(const field of [mode,bridge,purpose,profile]) field.addEventListener('change',render);
+  get('focus-add').addEventListener('click',()=>{
+    const key=target.value;
+    if(!focusItems.has(key)||(!weights.has(key)&&weights.size>=20))return;
+    if(!weights.has(key)) {weights.set(key,100);drawWeightRows();}
+    render();
+    [...focusRows.children].find(row=>row.dataset.key===key)?.querySelector('input').focus();
+  });
   get('copy-url').addEventListener('click',async()=>{
     try{await navigator.clipboard.writeText(textEntry());get('status').textContent='URL copiada. Pégala en tu asistente.';}
     catch{get('entry-url').focus();get('status').textContent='Puedes copiar la dirección del enlace «Abrir URL de esta selección».';}
