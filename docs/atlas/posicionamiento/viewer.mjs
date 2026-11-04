@@ -10,6 +10,8 @@ function link(url,label){const a=element('a',label);a.href=url;return a;}
 const type=n=>n.type==='ficha'?'Ficha':n.type==='concepto'?'Concepto':'Documento de origen';
 async function start(){
  const response=await fetch('../mapa/grafo.json?v=posicionamiento-2');if(!response.ok)throw Error('El Atlas no está disponible ahora.');const graph=await response.json();
+ const pageViewsResponse=await fetch('../web-lenses/profiles.json');if(pageViewsResponse.ok){const pageViews=await pageViewsResponse.json();for(const doc of pageViews.documents){const at=graph.documents.findIndex(d=>d.id===doc.id);if(at<0)graph.documents.push(doc);else graph.documents[at]=doc;}graph.webPageViews=pageViews.pages;}
+
  const all=new Map(graph.nodes.map(n=>[n.id,n])),labels=new Map(Object.entries(graph.topics).map(([k,v])=>['tema:'+k,v]));
  for(const[k,v]of Object.entries(graph.clusters))labels.set('cluster:'+k,v);
  for(const[k,v]of Object.entries(graph.voices))labels.set('voz:'+k,v.label);
@@ -67,7 +69,7 @@ async function start(){
  get('extra').addEventListener('change',draw);
  async function copy(text){get('copy-fallback').value=text;try{await navigator.clipboard.writeText(text);get('status').textContent='Copiado.';}catch{get('copy-fallback').hidden=false;get('copy-fallback').focus();get('copy-fallback').select();}}
  get('copy-link').addEventListener('click',()=>copy(mapURL(result.request).href));
- get('copy-assistant').addEventListener('click',()=>{const u=new URL('https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/posicionamiento/entrada.txt');u.search=positionParams(result.request);for(const key of ['rol','lectura','instruccion'])if(initial.has(key))u.searchParams.set(key,initial.get(key));copy(u.href);});
+ get('copy-assistant').addEventListener('click',()=>{const prepared=graph.webPageViews?.find(p=>p.document===result.position.id&&p.tokens===result.request.tokens);const u=new URL(prepared?'../web-lenses/selections/'+prepared.selection.replace('.json','.txt'):'../web-lenses/entry.txt',location.href);u.search=positionParams(result.request);for(const key of ['rol','lectura','instruccion'])if(initial.has(key))u.searchParams.set(key,initial.get(key));copy(u.href);});
  function download(text,name,mime){const u=URL.createObjectURL(new Blob([text],{type:mime})),a=link(u,name);a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),1000);}
  get('download-text').addEventListener('click',()=>download(result.reading,'atlas-posicionamiento.md','text/markdown;charset=utf-8'));
  get('download-json').addEventListener('click',()=>download(JSON.stringify(result,null,2),'atlas-posicionamiento.json','application/json;charset=utf-8'));

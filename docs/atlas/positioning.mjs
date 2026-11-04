@@ -1,6 +1,6 @@
 import {parseFocusWeights} from './session-config.mjs';
 
-export const VERSION='perspective-beyond/positioning-v1.1';
+export const VERSION='perspective-beyond/positioning-v1.2';
 const cmp=(a,b)=>a<b?-1:a>b?1:0;
 export function canonicalURL(raw,fragment=false){
  try{const u=new URL(raw);u.protocol='https:';u.hostname=u.hostname.toLowerCase().replace(/^www\./,'');u.pathname=u.pathname.replace(/\/$/,'')||'/';
@@ -109,8 +109,9 @@ export function positionMap(graph,request){
  const weightedOrder=[...queue].sort((a,b)=>priority(b)-priority(a)||visits.get(a).distance-visits.get(b).distance||cmp(a,b));
  // Explain the entry's own mechanism before expanding into the visitor's preferred themes.
  // The fixed core is independent of the budget, preserving monotonic expansion.
- const anchor=seeds.filter(id=>all.get(id).readingSource).sort((a,b)=>affinity.get(b)-affinity.get(a)||cmp(a,b))[0];
- const localCore=anchor&&request.red==='ideas'?[...support.get(anchor)??[]].filter(id=>visits.has(id)&&visits.get(id).parent===anchor).sort((a,b)=>{
+ const anchor=(request.position.entryAnchor&&seeds.includes(request.position.entryAnchor)?request.position.entryAnchor:null)||seeds.filter(id=>all.get(id).readingSource).sort((a,b)=>affinity.get(b)-affinity.get(a)||cmp(a,b))[0];
+ const authoredCore=(request.position.entryCore??[]).filter(id=>seeds.includes(id)&&visits.has(id));
+ const localCore=authoredCore.length?authoredCore:anchor&&request.red==='ideas'?[...support.get(anchor)??[]].filter(id=>visits.has(id)&&visits.get(id).parent===anchor).sort((a,b)=>{
   const match=id=>Object.entries(all.get(anchor).tagWeights).reduce((s,[k,v])=>s+v*(all.get(id).tagWeights[k]??0),0);
   return match(b)-match(a)||cmp(a,b);
  }).slice(0,4):[];

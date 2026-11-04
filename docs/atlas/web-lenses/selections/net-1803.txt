@@ -1,0 +1,87 @@
+MIND ATLAS / ATLAS MENTAL — NUEVA PERSPECTIVA
+
+PAGE: xSeil VRP
+SOURCE: https://jubap.net/xseil-vrp/
+CLUSTER: net
+POSITION: doc-1cffae9dc49a7982d0
+TOPIC WEIGHTS: Movilidad e infraestructura 40; Agentes y coordinación distribuida 30; Compromisos y capacidad disponible 20; Decisiones y responsabilidad 10
+READING BUDGET: 2200 tokens (o200k_base); 1907 used.
+
+Read the visitor question first. Explain the mechanisms in this selection and follow the source links. Use the original article for its full context. The same constellation can be explored through other weights, clusters and a larger token budget. The graph remains the source of all ficha and relationship IDs.
+
+COMPLETE EXAMPLE PROMPT
+“Start from https://jubap.net/xseil-vrp/. Use the reading selection below to explain its main idea, two connected mechanisms and one useful comparison. Explain why each relation helps my question. Keep chronology and return to original sources. Ask what I want to understand or create.”
+
+EXPLORE THIS WINDOW
+https://perspective-beyond-atlas.carvedgem.chatgpt.site/perspective-beyond/atlas/posicionamiento/?posicionamiento=doc-1cffae9dc49a7982d0&tokens=2200&max=11&red=ideas&sentido=ambas&modo=federated&site=net&rol=lector&lectura=explore&enfoque=personalizado&peso=tema%3Aagentes%3A30&peso=tema%3Acompromisos%3A20&peso=tema%3Adecision%3A10&peso=tema%3Amovilidad%3A40
+
+MIND ATLAS
+https://integralmanagement.ch/nueva-perspectiva/atlas-mental/?pagina=net%3A1803
+
+SHARED ASSISTANT PROTOCOL
+https://tegrity.ai/wp-content/uploads/2026/11/atlas-web-entry-2884295fa843.txt
+
+CANONICAL PROJECT
+https://github.com/dakleyer/perspective-beyond/tree/main/docs/atlas/web-lenses
+
+SELECTED READING
+
+# Posicionamiento · xSeil VRP
+Documento de origen: https://jubap.net/xseil-vrp
+
+## xSeil VRP
+xSeil was deployed in 2016-2017 to plan passenger transport for an integrated tourism operation in the Mexican Caribbean. A tourism sale made upstream became a transport commitment before the complete daily demand, fleet state, and network interactions were known. The resulting problem combined hard pickup promises, indivisible passenger groups, a heterogeneous owned-and-rented fleet, multiple trips per unit, direct and multi-leg service, typed transfer points, destination-capacity externalities, and a rigid planning deadline. This paper presents a single self-contained account of the operation, the vehicle-routing problem, and the deployed solution architecture.
+
+The implementation did not solve a conventional static VRP by repeatedly constructing routes from scratch. It converted idle computation into operational latency reserve: feasible stop sequences, compatibility relations, and scenario-specific candidate structures were built and persisted offline; online planning retrieved those structures, added state-dependent scarcity and isolation prices, committed one passenger-group coalition at a time, repriced the remaining candidates, and invoked rollback or bounded search widening only on evidence of insufficiency. The code further shows that passenger groups were atomic rather than split-delivery quantities, that transfers could occur at typed non-central points, and that human scenario weights controlled both objective level and penalty curvature.
+
+The paper makes four contributions. First, it classifies xSeil as an industrial rich-VRP with heterogeneous multi-trip routing, hard time commitments, atomic group demand, synchronized transfers, and destination resources. Second, it provides a code-auditable reconstruction while correcting earlier overstatements: the route builder is bounded level-wise enumeration rather than demonstrated dynamic programming; the allocator lacks a global optimality guarantee but does not necessarily produce a suboptimal solution; and route-library coverage is bounded by the configured topology and policies. Third, it proposes a modernization that preserves the offline-online doctrine while replacing exhaustive construction with modern candidate generation and bounded improvement. Fourth, because real demand days can be recovered, it specifies a paired historical replay comparing legacy-faithful, semantically repaired, modern, and hybrid solvers under the same time limits, scenarios, and raw KPI vectors. No superiority claim is made before that replay.
+
+Keywords: rich vehicle routing; multi-trip VRP; time windows; synchronized transfers; passenger transport; atomic demand; route pools; human-in-the-loop optimization; historical replay; xSeil.
+Etiquetas: Casos de uso y aplicaciones 27.58%; Control mínimo y suficiencia 13.79%; Decisiones y responsabilidad 6.90%; Memoria, comunidad y territorio 6.90%; Movilidad e infraestructura 37.93%; Mundo abierto e indeterminación 6.90%
+Ficha: https://dakleyer.github.io/perspective-beyond/sources/xseil-vrp-n1803/
+Documento de origen: https://jubap.net/xseil-vrp/
+
+## Gobierno de escenarios
+People set policies and choose trade-offs before computation and operational commitment.
+Etiquetas: Agentes y coordinación distribuida 0.93%; Capacidad humana y deuda de inteligencia 3.21%; Casos de uso y aplicaciones 18.89%; Control mínimo y suficiencia 3.04%; Decisiones y responsabilidad 8.39%; Investigación y documentación técnica 23.84%; Economía, costes y liquidez 3.68%; Empresa y gestión 4.23%; Evidencia, procedencia y atribución 2.96%; Experimentación, falsación y contraejemplos 4.81%; Memoria, comunidad y territorio 3.07%; Movilidad e infraestructura 13.68%; Mundo abierto e indeterminación 0.86%; Cambio de perspectiva 5.21%; Transformación y continuidad operativa 3.20%
+Ficha: https://dakleyer.github.io/perspective-beyond/concepts/scenario-governance/
+
+## Compromiso indivisible
+A group or obligation may have to be assigned as a unit.
+Etiquetas: Agentes y coordinación distribuida 11.37%; Autoridad, permisos y delegación 4.55%; Casos de uso y aplicaciones 13.79%; Control mínimo y suficiencia 6.89%; Decisiones y responsabilidad 12.54%; Empresa y gestión 15.91%; Memoria, comunidad y territorio 7.99%; Movilidad e infraestructura 18.97%; Mundo abierto e indeterminación 3.45%; Representación y límites formales 4.54%
+Ficha: https://dakleyer.github.io/perspective-beyond/concepts/indivisible-commitment/
+
+## Compatibilidad global
+An assignment must satisfy the constraints of the whole group.
+Etiquetas: Agentes y coordinación distribuida 7.29%; Aprendizaje y transmisión de capacidades 1.98%; Autoridad, permisos y delegación 1.01%; Cartografía y señales de ecosistema 2.65%; Casos de uso y aplicaciones 5.06%; Control mínimo y suficiencia 15.44%; Decisiones y responsabilidad 5.57%; Investigación y documentación técnica 3.82%; Economía, costes y liquidez 3.54%; Empresa y gestión 9.96%; Evidencia, procedencia y atribución 5.03%; Experimentación, falsación y contraejemplos 10.05%; Memoria, comunidad y territorio 3.74%; Movilidad e infraestructura 15.26%; Mundo abierto e indeterminación 1.30%; Cambio de perspectiva 1.85%; Representación y límites formales 2.08%; Transformación y continuidad operativa 4.37%
+Ficha: https://dakleyer.github.io/perspective-beyond/concepts/group-feasibility/
+
+## Reparación acotada
+Revise the commitments affected by a disruption while preserving those still valid.
+Etiquetas: Agentes y coordinación distribuida 1.85%; Autoridad, permisos y delegación 2.16%; Casos de uso y aplicaciones 8.74%; Control mínimo y suficiencia 7.53%; Decisiones y responsabilidad 13.27%; Investigación y documentación técnica 6.15%; Economía, costes y liquidez 8.16%; Empresa y gestión 9.71%; Evidencia, procedencia y atribución 4.74%; Experimentación, falsación y contraejemplos 3.33%; Memoria, comunidad y territorio 3.61%; Movilidad e infraestructura 15.53%; Transformación y continuidad operativa 15.22%
+Ficha: https://dakleyer.github.io/perspective-beyond/concepts/bounded-repair/
+
+Car Evolution Mobility OS – Competition → xSeil VRP · editorial comparison. For a complementary reading, see [The industrial rich-VRP problem definition](https://jubap.net/xseil-vrp/).
+
+## Car Evolution Mobility OS – Competition
+
+Etiquetas: Movilidad e infraestructura 100.00%
+Ficha: https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-competition-e1956/
+Documento de origen: https://jubap.eu/mobility/competition/
+
+JubAp.Net © xSeil Whitepaper → xSeil VRP · editorial comparison. For a complementary reading, see [Vehicle routing under fully committed demand](https://jubap.net/xseil-vrp/).
+
+## JubAp.Net © xSeil Whitepaper
+A large-scale passenger-transport orchestration platform built for fully committed demand under hard operational constraints — planning, execution and real-time control across the full transport lifecycle.
+
+Use the provenance dossier to identify dates, artifact versions and the scope of the original technical record. State which passages describe an implemented mechanism and which are later explanations or proposed extensions. The same source can support several readings without establishing every reading as a historical feature.
+
+Experiencias Xcaret is the largest integrated tourism operator in Latin America, based in the Riviera Maya. It runs seven theme parks and welcomes around 4 million visitors per year, or roughly 12,000 per day, while directly employing more than 17,000 people and supporting over 65,000 families indirectly across its wider ecosystem of roughly 500 hotels, transport providers, resellers, and on-site service operations
+
+Around 2016–2017, the organization was undergoing a major technology renewal program covering core systems modernization, cloud migration, and hyperscaler-aligned architecture. Logistics was identified as a critical bottleneck. Multiple top-tier international providers were engaged — including specialists in large-scale transportation and major global theme park operations. The conclusion was consistent: the problem did not fit existing operational models. No out-of-the-box solution was available.
+
+The underlying structure pointed to a complex variant of the Vehicle Routing Problem (VRP), with additional constraints and real-time dynamic behaviors that made it significantly harder than standard formulations — an NP-complex problem under live operational conditions.
+Etiquetas: Economía, costes y liquidez 14.29%; Movilidad e infraestructura 85.71%
+Ficha: https://dakleyer.github.io/perspective-beyond/sources/jubap-net-xseil-whitepaper-n1247/
+Documento de origen: https://jubap.net/jubap-net-xseil-whitepaper/
+

@@ -1,0 +1,93 @@
+MIND ATLAS / ATLAS MENTAL — NUEVA PERSPECTIVA
+
+PAGE: The Limits of AI Oversight
+SOURCE: https://tegrity.ai/the-limits-of-ai-oversight/
+CLUSTER: tegrity
+POSITION: doc-4be828e99f81281c6e
+TOPIC WEIGHTS: Decisiones y responsabilidad 32; Investigación y documentación técnica 28; Capacidad humana y deuda de inteligencia 20.01; Empresa y gestión 19.99
+READING BUDGET: 2200 tokens (o200k_base); 2159 used.
+
+Read the visitor question first. Explain the mechanisms in this selection and follow the source links. Use the original article for its full context. The same constellation can be explored through other weights, clusters and a larger token budget. The graph remains the source of all ficha and relationship IDs.
+
+COMPLETE EXAMPLE PROMPT
+“Start from https://tegrity.ai/the-limits-of-ai-oversight/. Use the reading selection below to explain its main idea, two connected mechanisms and one useful comparison. Explain why each relation helps my question. Keep chronology and return to original sources. Ask what I want to understand or create.”
+
+EXPLORE THIS WINDOW
+https://perspective-beyond-atlas.carvedgem.chatgpt.site/perspective-beyond/atlas/posicionamiento/?posicionamiento=doc-4be828e99f81281c6e&tokens=2200&max=11&red=ideas&sentido=ambas&modo=federated&site=tegrity&rol=lector&lectura=explore&enfoque=personalizado&peso=tema%3Acapacidad-humana%3A20.01&peso=tema%3Adecision%3A32&peso=tema%3Adocumentacion%3A28&peso=tema%3Aempresa%3A19.99
+
+MIND ATLAS
+https://integralmanagement.ch/nueva-perspectiva/atlas-mental/?pagina=tegrity%3A1391
+
+SHARED ASSISTANT PROTOCOL
+https://tegrity.ai/wp-content/uploads/2026/11/atlas-web-entry-2884295fa843.txt
+
+CANONICAL PROJECT
+https://github.com/dakleyer/perspective-beyond/tree/main/docs/atlas/web-lenses
+
+SELECTED READING
+
+# Posicionamiento · The Limits of AI Oversight
+Documento de origen: https://tegrity.ai/the-limits-of-ai-oversight
+
+## The Limits of AI Oversight
+Enterprise AI is commonly organized as a statistical core wrapped in a deterministic envelope of guardrails, rules, audits, and human review. The implicit promise is that additional oversight will reduce risk while also reducing human burden. This paper argues for a more conditional conclusion. A guardrail operates on formalised representations and records, not directly on the physical or operational system they represent. If input formation maps two decision-relevant world states to the same record, no downstream guardrail reading only that record can distinguish them. The unresolved decision must then be handled through additional information, abstention, risk acceptance, redesign, or external review. In accountable enterprise settings, this residual work commonly falls on people. Guardrails can remove substantial human work, but they also generate exception handling, reconciliation across tools, policy maintenance, and governance overhead. We model the resulting net human oversight load and define the AI Exhaustion Threshold as the point at which this load exceeds available expert capacity. The crossing is identified with Human Intelligence Debt: cognitive capacity diverted from judgment, strategy, design, and knowledge creation into validation and reconciliation. The paper therefore advances a falsifiable, thresholded prediction rather than an unconditional law: oversight may initially reduce Human Intelligence Debt, but beyond a coupling and exception threshold, further embedded guardrails increase it. The next empirical paper in this program will test that relationship and determine whether it is monotone, thresholded, or U-shaped in real deployments.
+Etiquetas: Autoridad, permisos y delegación 6.25%; Capacidad humana y deuda de inteligencia 15.63%; Control mínimo y suficiencia 9.38%; Decisiones y responsabilidad 25.00%; Investigación y documentación técnica 21.87%; Empresa y gestión 15.62%; Evidencia, procedencia y atribución 6.25%
+Ficha: https://dakleyer.github.io/perspective-beyond/sources/the-limits-of-ai-oversight-t1391/
+Documento de origen: https://tegrity.ai/the-limits-of-ai-oversight/
+
+## Carga de control
+Controls introduce costs, constraints and response demands.
+Etiquetas: Aprendizaje y transmisión de capacidades 4.66%; Autoridad, permisos y delegación 2.99%; Capacidad humana y deuda de inteligencia 10.15%; Control mínimo y suficiencia 18.11%; Decisiones y responsabilidad 9.25%; Investigación y documentación técnica 4.37%; Economía, costes y liquidez 2.70%; Empresa y gestión 13.77%; Estándares e interoperabilidad 5.38%; Evidencia, procedencia y atribución 4.84%; Experimentación, falsación y contraejemplos 4.67%; Memoria, comunidad y territorio 3.05%; Movilidad e infraestructura 11.71%; Transformación y continuidad operativa 4.35%
+Ficha: https://dakleyer.github.io/perspective-beyond/concepts/control-burden/
+
+## Carga de coordinación
+Work is needed to keep actors, systems and decisions aligned.
+Etiquetas: Agentes y coordinación distribuida 7.69%; Aprendizaje y transmisión de capacidades 1.95%; Autoridad, permisos y delegación 1.63%; Capacidad humana y deuda de inteligencia 14.12%; Casos de uso y aplicaciones 3.85%; Control mínimo y suficiencia 4.57%; Decisiones y responsabilidad 8.22%; Investigación y documentación técnica 10.40%; Economía, costes y liquidez 11.22%; Empresa y gestión 11.27%; Evidencia, procedencia y atribución 6.46%; Experimentación, falsación y contraejemplos 4.83%; Memoria, comunidad y territorio 1.54%; Movilidad e infraestructura 2.26%; Cambio de perspectiva 2.12%; Transformación y continuidad operativa 7.87%
+Ficha: https://dakleyer.github.io/perspective-beyond/concepts/coordination-burden/
+
+## Capacidad efectiva de respuesta
+An actor needs time, understanding and means to act within a usable window.
+Etiquetas: Aprendizaje y transmisión de capacidades 0.59%; Autoridad, permisos y delegación 7.12%; Cambios de régimen y alerta temprana 5.84%; Capacidad humana y deuda de inteligencia 3.28%; Cartografía y señales de ecosistema 3.02%; Casos de uso y aplicaciones 1.77%; Control mínimo y suficiencia 9.08%; Decisiones y responsabilidad 15.20%; Investigación y documentación técnica 7.33%; Economía, costes y liquidez 3.87%; Empresa y gestión 10.30%; Estándares e interoperabilidad 2.45%; Evidencia, procedencia y atribución 1.74%; Integridad y seguridad de IA 2.39%; Memoria, comunidad y territorio 1.07%; Movilidad e infraestructura 4.42%; Cambio de perspectiva 0.86%; Representación y límites formales 1.45%; Transformación y continuidad operativa 18.22%
+Ficha: https://dakleyer.github.io/perspective-beyond/concepts/effective-response-capacity/
+
+## Human Intelligence Debt (HID)
+Remediable gaps can require recurring human work to sustain an operation.
+Etiquetas: Aprendizaje y transmisión de capacidades 1.80%; Capacidad humana y deuda de inteligencia 48.14%; Decisiones y responsabilidad 1.80%; Investigación y documentación técnica 4.76%; Economía, costes y liquidez 4.51%; Empresa y gestión 5.97%; Evidencia, procedencia y atribución 18.25%; Experimentación, falsación y contraejemplos 10.17%; Memoria, comunidad y territorio 2.70%; Transformación y continuidad operativa 1.90%
+Ficha: https://dakleyer.github.io/perspective-beyond/concepts/human-intelligence-debt/
+
+The Limits of AI Oversight → Measuring Human Intelligence Debt · documented use. The oversight-threshold study tests whether added review and reconciliation outweigh removed work, rather than treating guardrail count as a measure of debt.
+
+## Measuring Human Intelligence Debt
+This document moves the series from concept to measurement. It extends Human Intelligence Debt (Paper 1), The Harvester Multiplication Problem (Paper 2), The Human Intelligence Debt Dilemma (Paper 3) and Architectural Entropy (Paper 4). Where the prior papers defined the phenomenon, its mechanism, its incentive structure and its irreversibility, this one proposes how to verify it. It is a methods proposal and preregistered experimental programme : it specifies constructs, instruments, metrics and study designs, and it states in advance the conditions under which the framework would be wrong. It does not report an empirical Human Intelligence Debt (HID) value; no such value should be published before the instrument-validation gate (Study 0) is passed. Public figures cited below are drawn from third-party sources as of early 2026, are flagged as vendor benchmarks where applicable, and are intended to establish environment and direction, not to prove the debt.
+
+A Three-Layer Measurement Architecture, an Instrument-Validation Gate and Five Studies for Verifying the Debt, the Recovery Coefficient ρ, and the Oversight Threshold
+
+This paper builds on four field notes in the series. Where they defined the phenomenon, this one proposes how to verify it; readers new to the framework are encouraged to read them first.
+Etiquetas: Aprendizaje y transmisión de capacidades 5.41%; Capacidad humana y deuda de inteligencia 35.13%; Decisiones y responsabilidad 5.41%; Economía, costes y liquidez 13.51%; Empresa y gestión 5.40%; Evidencia, procedencia y atribución 10.81%; Experimentación, falsación y contraejemplos 16.22%; Memoria, comunidad y territorio 8.11%
+Ficha: https://dakleyer.github.io/perspective-beyond/sources/measuring-human-intelligence-debt-t1400/
+Documento de origen: https://tegrity.ai/meassuring-human-intelligence-debt/
+
+Cuatro mecanismos para aumentar el poder explicativo y reutilizable del corpus → Carga de coordinación · documenta el concepto. 
+
+## Cuatro mecanismos para aumentar el poder explicativo y reutilizable del corpus
+
+Etiquetas: Investigación y documentación técnica 100.00%
+Ficha: https://dakleyer.github.io/perspective-beyond/sources/cuatro-mecanismos-para-aumentar-el-poder-explicativo-y-reutilizable-del-corpus-gh068/
+Documento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/ea6848feccb92f584f75d1f516f372689180d8f5/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/review/incremental-audit-2026-10-26/GENERATIVE_DEVELOPMENT_2026-10-28.md
+
+Luxury Recommendation → The Limits of AI Oversight · editorial comparison. For a complementary reading, see [The limits of oversight and input recovery](https://tegrity.ai/the-limits-of-ai-oversight/).
+
+## Luxury Recommendation
+Industrial Case · Luxury Operations · Recommendation Systems · Vector Databases · SLM Architecture · Enterprise Data
+
+In a high-end luxury group, a recommendation engine cannot be treated as a small add-on inside SAP, Salesforce or any single application.
+
+The problem is not merely to search for products or to show “people who bought X also bought Y”. Recommendation in this context means connecting, in real time and with high precision:
+
+Product and reference, client and household, purchase history, repair and after-sales history, style, aesthetics and cultural context.
+
+Events, invitations, scarcity, boutique, region, channel, collection logic, design narratives, technical documentation and training content.
+Etiquetas: Autoridad, permisos y delegación 13.34%; Decisiones y responsabilidad 13.33%; Empresa y gestión 73.33%
+Ficha: https://dakleyer.github.io/perspective-beyond/sources/luxury-recommendation-e1570/
+Documento de origen: https://jubap.eu/luxury-recommendation-intelligence/
+
