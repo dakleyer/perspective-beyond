@@ -46,3 +46,9 @@ Desde un clon del repositorio, `node tools/check-atlas-history.mjs` comprueba la
 [Abrir el producto](https://dakleyer.github.io/perspective-beyond/atlas/asistentes/) · [README del producto](docs/atlas/asistentes/README.md) · [Probar una fuente de texto](https://dakleyer.github.io/perspective-beyond/atlas/asistentes/ejemplos/arquitectura-y-lenguajes.txt)
 
 Un archivo compacto reúne textos, relaciones, referencias y configuración de una selección del Atlas. El asistente del lector puede conversar sobre ese pensamiento o darle forma de web, audio, vídeo o documento. Cada mini mapa permite descargar su propia fuente autocontenida.
+
+## Edición web completa
+
+[Entrada para asistentes](https://perspective-beyond-atlas.carvedgem.chatgpt.site/entrada/) · [Atlas completo en HTML](https://perspective-beyond-atlas.carvedgem.chatgpt.site/) · [Reproducción y procedencia](web-edition/README.md)
+
+La edición web reproduce todos los archivos públicos del Atlas y añade páginas HTML enlazadas para leer fichas, conceptos, documentos y relaciones. GitHub conserva la fuente canónica.
