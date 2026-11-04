@@ -1,6 +1,6 @@
 # Perspective Beyond
 
-[Mind Atlas · lectura web completa](https://dakleyer.github.io/perspective-beyond/atlas/lectura/) · [Entrada autónoma para asistentes](https://dakleyer.github.io/perspective-beyond/atlas/lectura/entrada.txt)
+[Mind Atlas · lectura web completa](https://integralmanagement.ch/atlas-reader/) · [Entrada autónoma para asistentes](https://integralmanagement.ch/atlas-reader/entrada.txt)
 
 
 [Conecta tu asistente al Atlas · lectura directa](https://tegrity.ai/atlas-reader/)
