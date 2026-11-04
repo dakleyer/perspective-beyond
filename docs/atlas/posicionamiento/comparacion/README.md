@@ -36,6 +36,14 @@ El cierre incorporó una lectura de uso documentado antes de la expansión temá
 
 Los registros pequeños de las fichas incluyen los porcentajes, clústeres y costes de sus vecinas. Un lector puede elegir la siguiente lectura con esos datos. Los 83 pasajes de la biografía comparten su documento de origen y conservan entradas concretas por ficha; la URL del documento abre el conjunto.
 
+## Prueba de una URL configurada
+
+Un visitante nuevo utilizó únicamente herramientas web, con T874 como entrada, 2.400 tokens, alcance cerrado en Tegrity.AI y pesos 70:30 de capacidad humana e integridad de IA. La primera lectura manual mostró que la selección y la cuenta completa debían entregarse juntas. Se reforzó la regla de clústeres y se añadieron siete configuraciones calculadas.
+
+Otro lector nuevo encontró el paquete coincidente, conservó el papel de consultor y respondió en dos párrafos y un ejemplo. Recuperó exactamente 1.755 tokens utilizados, 645 restantes y un siguiente bloque de 726. Usó T874, G21, T1400, T897 y T1425; las cinco piezas pertenecen exclusivamente a Tegrity.AI. La lectura web funcionó mediante el espejo de texto de GitHub. Los botones para copiar la entrada del asistente priorizan esa URL de texto.
+
+En la continuación del diálogo, el visitante preguntó si toda hora humana era deuda. El lector explicó la diferencia entre supervisión necesaria y compensación evitable y corrigió la clasificación del ejemplo. La prueba comprueba así la lectura de la configuración, el uso de sus fuentes y la elaboración de una distinción conceptual en conversación.
+
 ## Materiales de la prueba
 
 - [Paquetes de la comparación final: grupo 1](paquetes-1.json) y [grupo 2](paquetes-2.json).

@@ -399,7 +399,7 @@ async function start() {
     [...focusRows.children].find(row=>row.dataset.key===key)?.querySelector('input').focus();
   });
   get('copy-url').addEventListener('click',async()=>{
-    try{await navigator.clipboard.writeText(textEntry());get('status').textContent='URL copiada. Pégala en tu asistente.';}
+    try{await navigator.clipboard.writeText(textEntry(weighting(),rawRoot));get('status').textContent='URL copiada. Pégala en tu asistente.';}
     catch{get('entry-url').focus();get('status').textContent='Puedes copiar la dirección del enlace «Abrir URL de esta selección».';}
   });
   get('copy-config').addEventListener('click',async()=>{

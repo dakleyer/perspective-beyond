@@ -8,6 +8,8 @@ La [comparación ciega de seis preguntas](comparacion/README.md) dio tres prefer
 
 La versión de cierre pasa 36 pruebas funcionales y 48 comprobaciones exactas de tokens. El protocolo y los registros de fichas permiten elegir la siguiente lectura con los porcentajes y costes de las vecinas. Siete configuraciones calculadas entregan también el contexto y la cuenta completa a lectores que usan solo la web. La selección de cada paquete coincide con la del motor y los paquetes cerrados conservan exclusivamente su clúster. Los textos originales de los artículos y las relaciones conceptuales conservan su contenido.
 
+Una prueba pública desde una URL configurada, sin ejecutar código, recuperó la selección cerrada de cinco piezas de Tegrity.AI y la cuenta completa de 1.755/2.400 tokens. Conservó los pesos 70:30, el rol de consultor y la instrucción de respuesta. La conversación posterior distinguió trabajo compensatorio evitable y supervisión necesaria. El [registro de comparación](comparacion/README.md) describe esa prueba.
+
 ## Qué se comprobó
 
 El posicionamiento abre un documento de origen. Sus fichas tienen una composición porcentual de etiquetas; el visitante aporta otra combinación que orienta el recorrido. El presupuesto de tokens incorpora piezas completas y sus relaciones de llegada. Al ampliarlo se conserva el prefijo anterior de la lectura.
