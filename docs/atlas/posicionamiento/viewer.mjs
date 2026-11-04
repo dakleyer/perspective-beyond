@@ -2,7 +2,7 @@ import {readPosition,positionMap,positionParams} from '../positioning.mjs';
 const get=id=>document.getElementById(id),ns='http://www.w3.org/2000/svg';
 const initial=new URLSearchParams(location.search),embedded=initial.get('embed')==='1';
 if(embedded)document.body.classList.add('embed');
-const number=new Intl.NumberFormat('es'),percent=new Intl.NumberFormat('es',{style:'percent',maximumFractionDigits:1});
+const number=new Intl.NumberFormat('es'),percent=new Intl.NumberFormat('es',{style:'percent',maximumFractionDigits:2});
 const element=(tag,text)=>{const n=document.createElement(tag);if(text)n.textContent=text;return n;};
 const svg=(tag,attrs)=>{const n=document.createElementNS(ns,tag);for(const[k,v]of Object.entries(attrs))n.setAttribute(k,v);return n;};
 function link(url,label){const a=element('a',label);a.href=url;return a;}
@@ -58,7 +58,7 @@ async function start(){
   get('frontier').textContent=(r.omittedInDiagram?r.omittedInDiagram+' piezas adicionales están en la lectura descargable. ':'')+(r.budget.nextBlock?'La siguiente incorporación necesita '+Math.max(0,r.budget.used+r.budget.nextBlock-r.budget.limit)+' tokens más.':'El recorrido ha incluido todas las piezas alcanzables de esta selección.');
   get('node-list').replaceChildren(...r.nodes.map(n=>{const li=element('li'),b=element('button',n.title+' · '+type(n));b.type='button';b.dataset.id=n.id;b.addEventListener('click',()=>inspect(n.id));li.append(b);return li;}));
   get('reading').textContent=r.reading;get('accounting').textContent='Cuenta de lectura con '+r.budget.encoding+': '+r.budget.accounting;
-  get('document-cards').replaceChildren(...r.position.fichas.map(id=>{const li=element('li');li.append(link(all.get(id).url,all.get(id).title));return li;}));
+  get('document-cards').replaceChildren(...(r.position.fichas.length?r.position.fichas:r.position.entrySources??[]).map(id=>{const li=element('li');li.append(link(all.get(id).url,all.get(id).title));return li;}));
   get('open-full').hidden=!embedded;get('open-full').href=mapURL(r.request).href;get('status').textContent='';for(const id of ['copy-link','copy-assistant','download-text','download-json'])get(id).disabled=false;draw();inspect(selected);
  }
  function update(p,change){try{display(positionMap(graph,readPosition(p,graph)));if(change)history.replaceState(null,'',mapURL(result.request));}catch(e){get('status').textContent=e.message;for(const id of ['copy-link','copy-assistant','download-text','download-json'])get(id).disabled=true;}}

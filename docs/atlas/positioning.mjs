@@ -121,13 +121,15 @@ export function positionMap(graph,request){
  }
  const picked=new Set(selected);
  const root={id:request.position.id+'-entrada',title:request.position.title,type:request.position.type,
-  url:request.position.url,original:request.position.url,summary:'Documento desde el que se abre este posicionamiento.',tags:[],tagWeights:{},clusters:[...allowed],distance:0,parent:null};
+  url:request.position.url,original:request.position.url,summary:request.position.type==='documento'?'Documento desde el que se abre este posicionamiento.':'Concepto desde el que se abre este posicionamiento.',tags:[],tagWeights:{},clusters:[...allowed],distance:0,parent:null};
  const chosen=selected.map(id=>({...all.get(id),...visits.get(id),edge:undefined,routeEdge:visits.get(id).edge?.[0]??null,parent:visits.get(id).parent??root.id,affinity:affinity.get(id)}));
  // Display a connected prefix; the downloadable reading retains the entire selection.
  const visible=chosen.slice(0,Math.max(0,request.max-1)),visibleIds=new Set([root.id,...visible.map(n=>n.id)]);
  const edges=[];
  for(const n of visible){const v=visits.get(n.id);if(v.edge){const e=v.edge;edges.push({id:e[0],from:e[1],to:e[2],kind:e[3],reading:e[4],evidence:e[5],route:true});}
-  else edges.push({id:'contiene:'+root.id+':'+n.id,from:root.id,to:n.id,kind:'ficha del documento',reading:'Esta ficha abre la lectura desde el documento de origen.',route:true});}
+  else {const owned=request.position.fichas.includes(n.id);edges.push({id:'contiene:'+root.id+':'+n.id,from:root.id,to:n.id,
+   kind:request.position.type==='concepto'?'concepto de entrada':owned?'ficha del documento':'lectura enlazada desde el documento',
+   reading:owned?'Esta pieza abre la lectura desde su documento de origen.':'El documento de entrada enlaza esta lectura del Atlas.',route:true});}}
  for(const e of activeEdges)if(visibleIds.has(e[1])&&visibleIds.has(e[2])&&!edges.some(x=>x.id===e[0]))edges.push({id:e[0],from:e[1],to:e[2],kind:e[3],reading:e[4],evidence:e[5],route:false});
  const blocks=[request.position.header];
  for(const id of selected){const v=visits.get(id);if(v.edge)blocks.push(edgeText(v.edge,all));blocks.push(nodeText(all.get(id),graph.topics));}

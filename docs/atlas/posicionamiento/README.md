@@ -2,6 +2,8 @@
 
 Un **posicionamiento** es un punto de entrada al Atlas. Puede ser la landing de una web, otro documento de origen o una ficha concreta. Desde ahí se elige una combinación de etiquetas y un presupuesto de tokens para abrir un mini mapa.
 
+El documento elegido es el posicionamiento. Los pesos, el alcance y los tokens forman su configuración de lectura.
+
 **Documento de origen → sus fichas → otras fichas y conceptos relacionados.** Cada relación conserva su significado y su procedencia. El documento puede reunir varias fichas: la biografía publicada del Instituto del Totonacapan, por ejemplo, tiene pasajes y lecturas que comparten ese origen.
 
 ## Dos combinaciones de etiquetas
