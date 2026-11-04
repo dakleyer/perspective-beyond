@@ -3,7 +3,7 @@
   "dataset": {
     "edition": "2026-11-04",
     "canonicalSha256": "5e37a308dc5d57011d4884dc95dcc7b26223f1c383ad9c3a8bf2367e15a7fb49",
-    "catalogSha256": "18e15e80412d41987785c6957a3a85c16f94cd9e2e01f987434219ab3feaf33b"
+    "catalogSha256": "57faa1a96e283e1bb486985ee3a6b758c206e24142aef936251b6c14465049cd"
   },
   "request": {
     "centro": "T1499",
@@ -26,9 +26,9 @@
     ]
   },
   "center": "T1499",
-  "reachable": 294,
+  "reachable": 323,
   "shown": 16,
-  "omitted": 278,
+  "omitted": 307,
   "layers": [
     {
       "distance": 0,
@@ -38,15 +38,15 @@
     },
     {
       "distance": 1,
-      "reachable": 24,
+      "reachable": 26,
       "shown": 8,
-      "omitted": 16
+      "omitted": 18
     },
     {
       "distance": 2,
-      "reachable": 269,
+      "reachable": 296,
       "shown": 7,
-      "omitted": 262
+      "omitted": 289
     }
   ],
   "nodes": [
@@ -194,6 +194,32 @@
       "priority": 0.359375
     },
     {
+      "id": "D-285",
+      "type": "ficha",
+      "title": "Un arquitecto no puede saber toda la jerga de todos los oficios",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-285",
+      "original": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-285.html",
+      "aliases": [],
+      "clusters": [
+        "dialogos"
+      ],
+      "tags": [
+        "aprendizaje",
+        "empresa",
+        "evidencia",
+        "transformacion"
+      ],
+      "summary": "¿Cuál es el conocimiento propio del arquitecto cuando cada dominio conoce algo que él no domina?",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "distance": 1,
+      "parent": "T1499",
+      "routeEdge": "documento:dialogue-bridge-D-285-T1499",
+      "affinity": 0.37499999999999994,
+      "priority": 0.265625
+    },
+    {
       "id": "G32",
       "type": "concepto",
       "title": "IMSV",
@@ -216,36 +242,6 @@
       "distance": 1,
       "parent": "T1499",
       "routeEdge": "apoyo:T1499:G32",
-      "affinity": 0.37499999999999994,
-      "priority": 0.265625
-    },
-    {
-      "id": "GH002",
-      "type": "ficha",
-      "title": "Structural Awareness Programme",
-      "url": "https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/GH002.html",
-      "original": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/README_PROGRAMME_SYNTHESIS_2026-09-22.md",
-      "aliases": [
-        "https://github.com/dakleyer/structural-awareness-contributions/blob/03f1ef400c6de41f6ad5015a097a5703f1d3ba1f/README_PROGRAMME_SYNTHESIS_2026-09-22.md"
-      ],
-      "clusters": [
-        "research"
-      ],
-      "tags": [
-        "cambio-regimen",
-        "capacidad-humana",
-        "cartografia",
-        "economia",
-        "empresa",
-        "evidencia"
-      ],
-      "summary": "Contenido de la fuente: The core idea: the map and the flow · Four disciplines explain why structural awareness is lost · 1. The Cost of Clarity — information economics.",
-      "commit": "03f1ef400c6de41f6ad5015a097a5703f1d3ba1f",
-      "sourcePath": "README_PROGRAMME_SYNTHESIS_2026-09-22.md",
-      "commitUrl": "https://github.com/dakleyer/structural-awareness-contributions/commit/03f1ef400c6de41f6ad5015a097a5703f1d3ba1f",
-      "distance": 1,
-      "parent": "T1499",
-      "routeEdge": "documento:sac-rel-ea75c5c1b29eee",
       "affinity": 0.37499999999999994,
       "priority": 0.265625
     },
@@ -573,17 +569,6 @@
       "route": true
     },
     {
-      "id": "apoyo:GH002:C50",
-      "from": "GH002",
-      "to": "C50",
-      "kind": "documenta el concepto",
-      "reading": "",
-      "evidence": null,
-      "layer": "apoyo",
-      "condition": "",
-      "route": false
-    },
-    {
       "id": "apoyo:T1499:G01",
       "from": "T1499",
       "to": "G01",
@@ -694,17 +679,6 @@
       "route": false
     },
     {
-      "id": "documento:sac-rel-cc3683232eeb71",
-      "from": "GH001",
-      "to": "GH002",
-      "kind": "referencia de la fuente",
-      "reading": "La fuente enlaza esta lectura en «Start here — Ecosystem Positioning» con el rótulo «22 September synthesis, preserved verbatim».",
-      "evidence": "https://github.com/dakleyer/structural-awareness-contributions/blob/3b4bd71d7f013b6c461d6fc75331008998d65bfb/README.md",
-      "layer": "documento",
-      "condition": "",
-      "route": false
-    },
-    {
       "id": "documento:sac-rel-49f2404e9f9d04",
       "from": "GH001",
       "to": "T1499",
@@ -722,28 +696,6 @@
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Where should I go?» con el rótulo «Foundation syntax closure».",
       "evidence": "https://github.com/dakleyer/structural-awareness-contributions/blob/3b4bd71d7f013b6c461d6fc75331008998d65bfb/README.md",
-      "layer": "documento",
-      "condition": "",
-      "route": true
-    },
-    {
-      "id": "documento:sac-rel-5c74f1e47e1d0f",
-      "from": "GH002",
-      "to": "GH001",
-      "kind": "referencia de la fuente",
-      "reading": "La fuente enlaza esta lectura con el rótulo «README.md».",
-      "evidence": "https://github.com/dakleyer/structural-awareness-contributions/blob/03f1ef400c6de41f6ad5015a097a5703f1d3ba1f/README_PROGRAMME_SYNTHESIS_2026-09-22.md",
-      "layer": "documento",
-      "condition": "",
-      "route": false
-    },
-    {
-      "id": "documento:sac-rel-ea75c5c1b29eee",
-      "from": "GH002",
-      "to": "T1499",
-      "kind": "referencia de la fuente",
-      "reading": "La fuente enlaza esta lectura en «Where to go next» con el rótulo «Structural Awareness synthesis».",
-      "evidence": "https://github.com/dakleyer/structural-awareness-contributions/blob/03f1ef400c6de41f6ad5015a097a5703f1d3ba1f/README_PROGRAMME_SYNTHESIS_2026-09-22.md",
       "layer": "documento",
       "condition": "",
       "route": true
@@ -846,6 +798,17 @@
       "layer": "documento",
       "condition": "",
       "route": false
+    },
+    {
+      "id": "documento:dialogue-bridge-D-285-T1499",
+      "from": "D-285",
+      "to": "T1499",
+      "kind": "puente de lectura",
+      "reading": "La traducción entre oficios plantea qué relaciones conserva cada representación. Structural Awareness permite examinar esa dependencia del contexto en los sistemas adaptativos.",
+      "evidence": null,
+      "layer": "documento",
+      "condition": "",
+      "route": true
     },
     {
       "id": "concepto:B467",
