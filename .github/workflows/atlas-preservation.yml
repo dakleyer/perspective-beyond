@@ -1,0 +1,27 @@
+name: Atlas preservation
+on:
+  push:
+    paths: ['docs/atlas/**', 'docs/data/**', 'scripts/atlas_preservation.py', 'tests/test_atlas_preservation.py', '.github/workflows/atlas-preservation.yml']
+  pull_request:
+    paths: ['docs/atlas/**', 'docs/data/**', 'scripts/atlas_preservation.py', 'tests/test_atlas_preservation.py', '.github/workflows/atlas-preservation.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  preserve:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Test loss detection
+        run: PYTHONPATH=scripts python3 -m unittest discover -s tests -p test_atlas_preservation.py
+      - name: Compare committed Atlas substrate
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
+          HEAD_SHA: ${{ github.sha }}
+        run: |
+          if [ -z "$BASE_SHA" ] || [ "$BASE_SHA" = "0000000000000000000000000000000000000000" ]; then
+            BASE_SHA=$(git rev-parse HEAD^)
+          fi
+          python3 scripts/atlas_preservation.py --base "$BASE_SHA" --head "$HEAD_SHA"
