@@ -1,0 +1,602 @@
+{
+  "schema": "perspective-beyond/positioning-v1.1",
+  "edition": "2026-11-04",
+  "request": {
+    "posicionamiento": "T874",
+    "tokens": 2400,
+    "max": 60,
+    "rol": "lector",
+    "lectura": "explore",
+    "enfoque": "personalizado",
+    "instruccion": "",
+    "red": "ideas",
+    "sentido": "ambas",
+    "modo": "closed",
+    "site": "tegrity",
+    "puente": null,
+    "solo": false,
+    "pesos": [
+      {
+        "tag": "tema:capacidad-humana",
+        "value": 70,
+        "normalized": 0.7
+      },
+      {
+        "tag": "tema:integridad-ia",
+        "value": 30,
+        "normalized": 0.3
+      }
+    ]
+  },
+  "position": {
+    "id": "doc-a68c59b41898c09161",
+    "title": "Human Intelligence Debt",
+    "url": "https://tegrity.ai/human-intelligence-debt",
+    "fichas": [
+      "T874"
+    ],
+    "aliases": [
+      "https://tegrity.ai/human-intelligence-debt/"
+    ],
+    "header": "# Posicionamiento · Human Intelligence Debt\nDocumento de origen: https://tegrity.ai/human-intelligence-debt\n\n",
+    "headerTokens": 25,
+    "type": "documento",
+    "focus": "T874",
+    "seeds": [
+      "T874"
+    ]
+  },
+  "budget": {
+    "limit": 2400,
+    "used": 1755,
+    "remaining": 645,
+    "nextBlock": 726,
+    "encoding": "o200k_base",
+    "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
+  },
+  "reachable": 67,
+  "selected": 5,
+  "shown": 6,
+  "omittedByBudget": 62,
+  "omittedInDiagram": 0,
+  "layers": [
+    {
+      "distance": 0,
+      "selected": 0,
+      "shown": 1
+    },
+    {
+      "distance": 1,
+      "selected": 1,
+      "shown": 1
+    },
+    {
+      "distance": 2,
+      "selected": 3,
+      "shown": 3
+    },
+    {
+      "distance": 3,
+      "selected": 1,
+      "shown": 1
+    }
+  ],
+  "center": "doc-a68c59b41898c09161-entrada",
+  "localCore": [
+    "G21"
+  ],
+  "coreDocument": "T1400",
+  "nodes": [
+    {
+      "id": "doc-a68c59b41898c09161-entrada",
+      "title": "Human Intelligence Debt",
+      "type": "documento",
+      "url": "https://tegrity.ai/human-intelligence-debt",
+      "original": "https://tegrity.ai/human-intelligence-debt",
+      "summary": "Documento desde el que se abre este posicionamiento.",
+      "tags": [],
+      "tagWeights": {},
+      "clusters": [
+        "tegrity"
+      ],
+      "distance": 0,
+      "parent": null
+    },
+    {
+      "id": "T874",
+      "type": "ficha",
+      "title": "Human Intelligence Debt",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/human-intelligence-debt-t874/",
+      "original": "https://tegrity.ai/human-intelligence-debt/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "capacidad-humana",
+        "empresa",
+        "evidencia"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-a68c59b41898c09161",
+      "tagWeights": {
+        "capacidad-humana": 0.75,
+        "empresa": 0.125,
+        "evidencia": 0.125
+      },
+      "reading": "This paper introduces the concepts of Human Intelligence Contribution Ratio and Human Intelligence Debt as socio-technical metrics for studying the relationship between technology, organisations and human cognitive work. The central question is not whether technology can automate jobs, but whether socio-technical systems progressively liberate human cognition from compensatory data operations into genuine information creation.\n\nThe paper defines an Ideal Operational Intelligence Environment as a theoretical benchmark in which data is captured once, transformed through the best available technology of its period, governed transparently, and embedded in a perfectly understood lean operational flow. Under this ideal condition, humans remain necessary only where they create information that cannot be mechanically inferred, generated or transformed by the best available socio-technical capabilities of the time.\n\nHuman Intelligence Contribution Target (HICT) is defined as the ideal ratio of operators whose role maximises genuine human contribution — that is, the proportion of human operators who would still be required to create genuine information under the ideal state. Human Intelligence Contribution Ratio (HICR) measures the actual proportion of human operators currently performing a role that adds information that cannot be obtained by non-human means — as opposed to operators performing roles that a machine could do at least as well. The difference between the two is Human Intelligence Debt (HID) : the proportion of human operators currently employed in mechanisable roles that the best available architecture of the period could theoretically absorb.\n\nThe paper argues that technological progress tends to increase the Human Intelligence Contribution Target, but field observation suggests that the Human Intelligence Contribution Ratio may often stagnate or decline as organisations accumulate fragmentation, duplicated systems, manual reconciliation, governance friction and human middleware. This produces a structural paradox: technology raises the theoretical ceiling of informational efficiency while organisations may simultaneously increase their real Human Intelligence Debt. The final sections discuss whether Artificial Intelligence may reverse this historical tendency or amplify it, and propose an empirical research agenda.",
+      "readingSource": {
+        "url": "https://tegrity.ai/human-intelligence-debt/",
+        "section": "Abstract",
+        "observed": "2026-11-04",
+        "sourceSha256": "91d1db38ae7c1388edd412aa0e0a6c6da5eb8cf5498ccd0986ee3f7033bffd7d"
+      },
+      "readingSummary": "This paper introduces the concepts of Human Intelligence Contribution Ratio and Human Intelligence Debt as socio-technical metrics for studying the relationship between technology, organisations and human cognitive work.",
+      "contextTokens": 450,
+      "distance": 1,
+      "parent": "doc-a68c59b41898c09161-entrada",
+      "routeEdge": null,
+      "affinity": 0.5249999999999999
+    },
+    {
+      "id": "G21",
+      "type": "concepto",
+      "title": "Human Intelligence Debt (HID)",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/human-intelligence-debt/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "aprendizaje",
+        "capacidad-humana",
+        "decision",
+        "documentacion",
+        "economia",
+        "empresa",
+        "evidencia",
+        "experimentacion",
+        "memoria-territorio",
+        "transformacion"
+      ],
+      "summary": "Remediable gaps can require recurring human work to sustain an operation.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "T874",
+        "T1400",
+        "T1399"
+      ],
+      "tagWeights": {
+        "aprendizaje": 0.018,
+        "capacidad-humana": 0.4814,
+        "decision": 0.018,
+        "documentacion": 0.0476,
+        "economia": 0.0451,
+        "empresa": 0.0597,
+        "evidencia": 0.1825,
+        "experimentacion": 0.1017,
+        "memoria-territorio": 0.027,
+        "transformacion": 0.019
+      },
+      "contextTokens": 159,
+      "positionHeaderTokens": 38,
+      "distance": 2,
+      "parent": "T874",
+      "routeEdge": "apoyo:T874:G21",
+      "affinity": 0.33698
+    },
+    {
+      "id": "T1400",
+      "type": "ficha",
+      "title": "Measuring Human Intelligence Debt",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/measuring-human-intelligence-debt-t1400/",
+      "original": "https://tegrity.ai/meassuring-human-intelligence-debt/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "aprendizaje",
+        "capacidad-humana",
+        "decision",
+        "economia",
+        "empresa",
+        "evidencia",
+        "experimentacion",
+        "memoria-territorio"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-4ee0cbf5a517cb4a17",
+      "tagWeights": {
+        "aprendizaje": 0.0541,
+        "capacidad-humana": 0.3513,
+        "decision": 0.0541,
+        "economia": 0.1351,
+        "empresa": 0.054,
+        "evidencia": 0.1081,
+        "experimentacion": 0.1622,
+        "memoria-territorio": 0.0811
+      },
+      "reading": "This document moves the series from concept to measurement. It extends Human Intelligence Debt (Paper 1), The Harvester Multiplication Problem (Paper 2), The Human Intelligence Debt Dilemma (Paper 3) and Architectural Entropy (Paper 4). Where the prior papers defined the phenomenon, its mechanism, its incentive structure and its irreversibility, this one proposes how to verify it. It is a methods proposal and preregistered experimental programme : it specifies constructs, instruments, metrics and study designs, and it states in advance the conditions under which the framework would be wrong. It does not report an empirical Human Intelligence Debt (HID) value; no such value should be published before the instrument-validation gate (Study 0) is passed. Public figures cited below are drawn from third-party sources as of early 2026, are flagged as vendor benchmarks where applicable, and are intended to establish environment and direction, not to prove the debt.\n\nA Three-Layer Measurement Architecture, an Instrument-Validation Gate and Five Studies for Verifying the Debt, the Recovery Coefficient ρ, and the Oversight Threshold\n\nThis paper builds on four field notes in the series. Where they defined the phenomenon, this one proposes how to verify it; readers new to the framework are encouraged to read them first.",
+      "readingSource": {
+        "url": "https://tegrity.ai/meassuring-human-intelligence-debt/",
+        "section": "Opening paragraphs",
+        "observed": "2026-11-04",
+        "sourceSha256": "08977eb15e13ce9dfd6bba31ac6a8f1332d06a4689aaf35e3c7babc811439104"
+      },
+      "readingSummary": "This document moves the series from concept to measurement.",
+      "contextTokens": 409,
+      "distance": 2,
+      "parent": "T874",
+      "routeEdge": "documento:F001",
+      "affinity": 0.24591
+    },
+    {
+      "id": "T897",
+      "type": "ficha",
+      "title": "The Harvester Multiplication Problem: Capability Fragmentation, Governance Collapse and the Compounding of Human Intelligence Debt",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/the-harvester-multiplication-problem-capability-fragmentation-governance-colla-t897/",
+      "original": "https://tegrity.ai/the-harvester-multiplication-problem-capability-fragmentation-governance-collapse-and-the-compounding-of-human-intelligence-debt/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "capacidad-humana"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-47dfc73499363e29d3",
+      "tagWeights": {
+        "capacidad-humana": 1
+      },
+      "reading": "This document is a field notes paper : a structured conceptual contribution grounded in direct practitioner observation, prior to formal empirical validation. It extends the framework introduced in Human Intelligence Debt: A Socio-Technical Metric for Measuring the Human Cost of Imperfect Data Flows . Readers unfamiliar with the core definitions — Human Intelligence Contribution Ratio (HICR), Human Intelligence Contribution Target (HICT), and Human Intelligence Debt (HID) — are encouraged to read that paper first. The next stage of this series will be a working paper developing the measurement methodology and a preregistered empirical research protocol; empirical results will follow instrument validation.\n\nTwo Notes on Capability Fragmentation and the Architecture of Human Intelligence Waste",
+      "readingSource": {
+        "url": "https://tegrity.ai/the-harvester-multiplication-problem-capability-fragmentation-governance-collapse-and-the-compounding-of-human-intelligence-debt/",
+        "section": "Opening paragraphs",
+        "observed": "2026-11-04",
+        "sourceSha256": "593a1c80e7e2183346dd7e5297e532c5802372eb6961a2d0888a49263b957c89"
+      },
+      "readingSummary": "This document is a field notes paper : a structured conceptual contribution grounded in direct practitioner observation, prior to formal empirical validation.",
+      "contextTokens": 253,
+      "distance": 3,
+      "parent": "T1400",
+      "routeEdge": "documento:F004",
+      "affinity": 0.7
+    },
+    {
+      "id": "T1425",
+      "type": "ficha",
+      "title": "What Goes Unpriced Is Paid in Human Intelligence",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/what-goes-unpriced-is-paid-in-human-intelligence-t1425/",
+      "original": "https://tegrity.ai/what-goes-unpriced-is-paid-in-human-intelligence/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "capacidad-humana",
+        "economia"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-2a028429693a39c123",
+      "tagWeights": {
+        "capacidad-humana": 0.5,
+        "economia": 0.5
+      },
+      "reading": "The Cost of Clarity series established a single, narrow result. Producing the information a transformation needs — the clarity about how the work actually runs — is not a free input you happen to have on hand. It is an intervention. Much of that information was never decided and must be declared rather than found; the declarations are entangled and costly; they arrive in a paradoxical order, where you must decide before you can discover; and rebuilding to escape them is a blind bet against value you cannot see. The cost and the risk of all this can be measured, and may be rising as systems entangle. And — the finding the whole series turns on — organizations price none of it. They treat clarity as free.\n\nThis bridge asks the question that result leaves open. If the cost is real and is never paid, where does it go? Costs do not vanish because no one books them. This one is paid — continuously, invisibly, and in the one currency the ledger never shows. It is paid in human intelligence.",
+      "readingSource": {
+        "url": "https://tegrity.ai/what-goes-unpriced-is-paid-in-human-intelligence/",
+        "section": "Opening paragraphs",
+        "observed": "2026-11-04",
+        "sourceSha256": "ab743a49b929efeebc611c0a51627979718c5cd2620ecbf7c0f14fae46cf4b3a"
+      },
+      "readingSummary": "The Cost of Clarity series established a single, narrow result.",
+      "contextTokens": 298,
+      "distance": 2,
+      "parent": "T874",
+      "routeEdge": "documento:R181",
+      "affinity": 0.35
+    }
+  ],
+  "edges": [
+    {
+      "id": "contiene:doc-a68c59b41898c09161-entrada:T874",
+      "from": "doc-a68c59b41898c09161-entrada",
+      "to": "T874",
+      "kind": "ficha del documento",
+      "reading": "Esta pieza abre la lectura desde su documento de origen.",
+      "route": true
+    },
+    {
+      "id": "apoyo:T874:G21",
+      "from": "T874",
+      "to": "G21",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:F001",
+      "from": "T874",
+      "to": "T1400",
+      "kind": "documented use",
+      "reading": "The task-level protocol operationalizes the earlier role-based framework; its time ratios should not be compared with operator ratios without an explicit conversion model.",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:F004",
+      "from": "T897",
+      "to": "T1400",
+      "kind": "candidate transfer",
+      "reading": "Capability multiplicity is a screening signal; avoidable compensatory work must still be established from task episodes and a credible replacement counterfactual.",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:R181",
+      "from": "T1425",
+      "to": "T874",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Human Intelligence Debt: definitions and scope](https://tegrity.ai/human-intelligence-debt/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "apoyo:T1400:G21",
+      "from": "T1400",
+      "to": "G21",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "route": false
+    },
+    {
+      "id": "documento:F015",
+      "from": "T1425",
+      "to": "T1400",
+      "kind": "analogy only",
+      "reading": "Unpriced clarity may consume human effort, but only the task-level distinction between necessary work and fixable compensation can classify that effort as debt.",
+      "evidence": null,
+      "route": false
+    },
+    {
+      "id": "documento:R169",
+      "from": "T874",
+      "to": "T1400",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Measuring Human Intelligence Debt](https://tegrity.ai/meassuring-human-intelligence-debt/).",
+      "evidence": null,
+      "route": false
+    }
+  ],
+  "selection": [
+    {
+      "id": "T874",
+      "type": "ficha",
+      "title": "Human Intelligence Debt",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/human-intelligence-debt-t874/",
+      "original": "https://tegrity.ai/human-intelligence-debt/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "capacidad-humana",
+        "empresa",
+        "evidencia"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-a68c59b41898c09161",
+      "tagWeights": {
+        "capacidad-humana": 0.75,
+        "empresa": 0.125,
+        "evidencia": 0.125
+      },
+      "reading": "This paper introduces the concepts of Human Intelligence Contribution Ratio and Human Intelligence Debt as socio-technical metrics for studying the relationship between technology, organisations and human cognitive work. The central question is not whether technology can automate jobs, but whether socio-technical systems progressively liberate human cognition from compensatory data operations into genuine information creation.\n\nThe paper defines an Ideal Operational Intelligence Environment as a theoretical benchmark in which data is captured once, transformed through the best available technology of its period, governed transparently, and embedded in a perfectly understood lean operational flow. Under this ideal condition, humans remain necessary only where they create information that cannot be mechanically inferred, generated or transformed by the best available socio-technical capabilities of the time.\n\nHuman Intelligence Contribution Target (HICT) is defined as the ideal ratio of operators whose role maximises genuine human contribution — that is, the proportion of human operators who would still be required to create genuine information under the ideal state. Human Intelligence Contribution Ratio (HICR) measures the actual proportion of human operators currently performing a role that adds information that cannot be obtained by non-human means — as opposed to operators performing roles that a machine could do at least as well. The difference between the two is Human Intelligence Debt (HID) : the proportion of human operators currently employed in mechanisable roles that the best available architecture of the period could theoretically absorb.\n\nThe paper argues that technological progress tends to increase the Human Intelligence Contribution Target, but field observation suggests that the Human Intelligence Contribution Ratio may often stagnate or decline as organisations accumulate fragmentation, duplicated systems, manual reconciliation, governance friction and human middleware. This produces a structural paradox: technology raises the theoretical ceiling of informational efficiency while organisations may simultaneously increase their real Human Intelligence Debt. The final sections discuss whether Artificial Intelligence may reverse this historical tendency or amplify it, and propose an empirical research agenda.",
+      "readingSource": {
+        "url": "https://tegrity.ai/human-intelligence-debt/",
+        "section": "Abstract",
+        "observed": "2026-11-04",
+        "sourceSha256": "91d1db38ae7c1388edd412aa0e0a6c6da5eb8cf5498ccd0986ee3f7033bffd7d"
+      },
+      "readingSummary": "This paper introduces the concepts of Human Intelligence Contribution Ratio and Human Intelligence Debt as socio-technical metrics for studying the relationship between technology, organisations and human cognitive work.",
+      "contextTokens": 450,
+      "distance": 1,
+      "parent": "doc-a68c59b41898c09161-entrada",
+      "routeEdge": null,
+      "affinity": 0.5249999999999999
+    },
+    {
+      "id": "G21",
+      "type": "concepto",
+      "title": "Human Intelligence Debt (HID)",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/human-intelligence-debt/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "aprendizaje",
+        "capacidad-humana",
+        "decision",
+        "documentacion",
+        "economia",
+        "empresa",
+        "evidencia",
+        "experimentacion",
+        "memoria-territorio",
+        "transformacion"
+      ],
+      "summary": "Remediable gaps can require recurring human work to sustain an operation.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "T874",
+        "T1400",
+        "T1399"
+      ],
+      "tagWeights": {
+        "aprendizaje": 0.018,
+        "capacidad-humana": 0.4814,
+        "decision": 0.018,
+        "documentacion": 0.0476,
+        "economia": 0.0451,
+        "empresa": 0.0597,
+        "evidencia": 0.1825,
+        "experimentacion": 0.1017,
+        "memoria-territorio": 0.027,
+        "transformacion": 0.019
+      },
+      "contextTokens": 159,
+      "positionHeaderTokens": 38,
+      "distance": 2,
+      "parent": "T874",
+      "routeEdge": "apoyo:T874:G21",
+      "affinity": 0.33698
+    },
+    {
+      "id": "T1400",
+      "type": "ficha",
+      "title": "Measuring Human Intelligence Debt",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/measuring-human-intelligence-debt-t1400/",
+      "original": "https://tegrity.ai/meassuring-human-intelligence-debt/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "aprendizaje",
+        "capacidad-humana",
+        "decision",
+        "economia",
+        "empresa",
+        "evidencia",
+        "experimentacion",
+        "memoria-territorio"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-4ee0cbf5a517cb4a17",
+      "tagWeights": {
+        "aprendizaje": 0.0541,
+        "capacidad-humana": 0.3513,
+        "decision": 0.0541,
+        "economia": 0.1351,
+        "empresa": 0.054,
+        "evidencia": 0.1081,
+        "experimentacion": 0.1622,
+        "memoria-territorio": 0.0811
+      },
+      "reading": "This document moves the series from concept to measurement. It extends Human Intelligence Debt (Paper 1), The Harvester Multiplication Problem (Paper 2), The Human Intelligence Debt Dilemma (Paper 3) and Architectural Entropy (Paper 4). Where the prior papers defined the phenomenon, its mechanism, its incentive structure and its irreversibility, this one proposes how to verify it. It is a methods proposal and preregistered experimental programme : it specifies constructs, instruments, metrics and study designs, and it states in advance the conditions under which the framework would be wrong. It does not report an empirical Human Intelligence Debt (HID) value; no such value should be published before the instrument-validation gate (Study 0) is passed. Public figures cited below are drawn from third-party sources as of early 2026, are flagged as vendor benchmarks where applicable, and are intended to establish environment and direction, not to prove the debt.\n\nA Three-Layer Measurement Architecture, an Instrument-Validation Gate and Five Studies for Verifying the Debt, the Recovery Coefficient ρ, and the Oversight Threshold\n\nThis paper builds on four field notes in the series. Where they defined the phenomenon, this one proposes how to verify it; readers new to the framework are encouraged to read them first.",
+      "readingSource": {
+        "url": "https://tegrity.ai/meassuring-human-intelligence-debt/",
+        "section": "Opening paragraphs",
+        "observed": "2026-11-04",
+        "sourceSha256": "08977eb15e13ce9dfd6bba31ac6a8f1332d06a4689aaf35e3c7babc811439104"
+      },
+      "readingSummary": "This document moves the series from concept to measurement.",
+      "contextTokens": 409,
+      "distance": 2,
+      "parent": "T874",
+      "routeEdge": "documento:F001",
+      "affinity": 0.24591
+    },
+    {
+      "id": "T897",
+      "type": "ficha",
+      "title": "The Harvester Multiplication Problem: Capability Fragmentation, Governance Collapse and the Compounding of Human Intelligence Debt",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/the-harvester-multiplication-problem-capability-fragmentation-governance-colla-t897/",
+      "original": "https://tegrity.ai/the-harvester-multiplication-problem-capability-fragmentation-governance-collapse-and-the-compounding-of-human-intelligence-debt/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "capacidad-humana"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-47dfc73499363e29d3",
+      "tagWeights": {
+        "capacidad-humana": 1
+      },
+      "reading": "This document is a field notes paper : a structured conceptual contribution grounded in direct practitioner observation, prior to formal empirical validation. It extends the framework introduced in Human Intelligence Debt: A Socio-Technical Metric for Measuring the Human Cost of Imperfect Data Flows . Readers unfamiliar with the core definitions — Human Intelligence Contribution Ratio (HICR), Human Intelligence Contribution Target (HICT), and Human Intelligence Debt (HID) — are encouraged to read that paper first. The next stage of this series will be a working paper developing the measurement methodology and a preregistered empirical research protocol; empirical results will follow instrument validation.\n\nTwo Notes on Capability Fragmentation and the Architecture of Human Intelligence Waste",
+      "readingSource": {
+        "url": "https://tegrity.ai/the-harvester-multiplication-problem-capability-fragmentation-governance-collapse-and-the-compounding-of-human-intelligence-debt/",
+        "section": "Opening paragraphs",
+        "observed": "2026-11-04",
+        "sourceSha256": "593a1c80e7e2183346dd7e5297e532c5802372eb6961a2d0888a49263b957c89"
+      },
+      "readingSummary": "This document is a field notes paper : a structured conceptual contribution grounded in direct practitioner observation, prior to formal empirical validation.",
+      "contextTokens": 253,
+      "distance": 3,
+      "parent": "T1400",
+      "routeEdge": "documento:F004",
+      "affinity": 0.7
+    },
+    {
+      "id": "T1425",
+      "type": "ficha",
+      "title": "What Goes Unpriced Is Paid in Human Intelligence",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/what-goes-unpriced-is-paid-in-human-intelligence-t1425/",
+      "original": "https://tegrity.ai/what-goes-unpriced-is-paid-in-human-intelligence/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "capacidad-humana",
+        "economia"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-2a028429693a39c123",
+      "tagWeights": {
+        "capacidad-humana": 0.5,
+        "economia": 0.5
+      },
+      "reading": "The Cost of Clarity series established a single, narrow result. Producing the information a transformation needs — the clarity about how the work actually runs — is not a free input you happen to have on hand. It is an intervention. Much of that information was never decided and must be declared rather than found; the declarations are entangled and costly; they arrive in a paradoxical order, where you must decide before you can discover; and rebuilding to escape them is a blind bet against value you cannot see. The cost and the risk of all this can be measured, and may be rising as systems entangle. And — the finding the whole series turns on — organizations price none of it. They treat clarity as free.\n\nThis bridge asks the question that result leaves open. If the cost is real and is never paid, where does it go? Costs do not vanish because no one books them. This one is paid — continuously, invisibly, and in the one currency the ledger never shows. It is paid in human intelligence.",
+      "readingSource": {
+        "url": "https://tegrity.ai/what-goes-unpriced-is-paid-in-human-intelligence/",
+        "section": "Opening paragraphs",
+        "observed": "2026-11-04",
+        "sourceSha256": "ab743a49b929efeebc611c0a51627979718c5cd2620ecbf7c0f14fae46cf4b3a"
+      },
+      "readingSummary": "The Cost of Clarity series established a single, narrow result.",
+      "contextTokens": 298,
+      "distance": 2,
+      "parent": "T874",
+      "routeEdge": "documento:R181",
+      "affinity": 0.35
+    }
+  ],
+  "reading": "# Posicionamiento · Human Intelligence Debt\nDocumento de origen: https://tegrity.ai/human-intelligence-debt\n\n## Human Intelligence Debt\nThis paper introduces the concepts of Human Intelligence Contribution Ratio and Human Intelligence Debt as socio-technical metrics for studying the relationship between technology, organisations and human cognitive work. The central question is not whether technology can automate jobs, but whether socio-technical systems progressively liberate human cognition from compensatory data operations into genuine information creation.\n\nThe paper defines an Ideal Operational Intelligence Environment as a theoretical benchmark in which data is captured once, transformed through the best available technology of its period, governed transparently, and embedded in a perfectly understood lean operational flow. Under this ideal condition, humans remain necessary only where they create information that cannot be mechanically inferred, generated or transformed by the best available socio-technical capabilities of the time.\n\nHuman Intelligence Contribution Target (HICT) is defined as the ideal ratio of operators whose role maximises genuine human contribution — that is, the proportion of human operators who would still be required to create genuine information under the ideal state. Human Intelligence Contribution Ratio (HICR) measures the actual proportion of human operators currently performing a role that adds information that cannot be obtained by non-human means — as opposed to operators performing roles that a machine could do at least as well. The difference between the two is Human Intelligence Debt (HID) : the proportion of human operators currently employed in mechanisable roles that the best available architecture of the period could theoretically absorb.\n\nThe paper argues that technological progress tends to increase the Human Intelligence Contribution Target, but field observation suggests that the Human Intelligence Contribution Ratio may often stagnate or decline as organisations accumulate fragmentation, duplicated systems, manual reconciliation, governance friction and human middleware. This produces a structural paradox: technology raises the theoretical ceiling of informational efficiency while organisations may simultaneously increase their real Human Intelligence Debt. The final sections discuss whether Artificial Intelligence may reverse this historical tendency or amplify it, and propose an empirical research agenda.\nEtiquetas: Capacidad humana y deuda de inteligencia 75.00%; Empresa y gestión 12.50%; Evidencia, procedencia y atribución 12.50%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/human-intelligence-debt-t874/\nDocumento de origen: https://tegrity.ai/human-intelligence-debt/\n\nHuman Intelligence Debt → Human Intelligence Debt (HID) · documenta el concepto. \n\n## Human Intelligence Debt (HID)\nRemediable gaps can require recurring human work to sustain an operation.\nEtiquetas: Aprendizaje y transmisión de capacidades 1.80%; Capacidad humana y deuda de inteligencia 48.14%; Decisiones y responsabilidad 1.80%; Investigación y documentación técnica 4.76%; Economía, costes y liquidez 4.51%; Empresa y gestión 5.97%; Evidencia, procedencia y atribución 18.25%; Experimentación, falsación y contraejemplos 10.17%; Memoria, comunidad y territorio 2.70%; Transformación y continuidad operativa 1.90%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/human-intelligence-debt/\n\nHuman Intelligence Debt → Measuring Human Intelligence Debt · documented use. The task-level protocol operationalizes the earlier role-based framework; its time ratios should not be compared with operator ratios without an explicit conversion model.\n\n## Measuring Human Intelligence Debt\nThis document moves the series from concept to measurement. It extends Human Intelligence Debt (Paper 1), The Harvester Multiplication Problem (Paper 2), The Human Intelligence Debt Dilemma (Paper 3) and Architectural Entropy (Paper 4). Where the prior papers defined the phenomenon, its mechanism, its incentive structure and its irreversibility, this one proposes how to verify it. It is a methods proposal and preregistered experimental programme : it specifies constructs, instruments, metrics and study designs, and it states in advance the conditions under which the framework would be wrong. It does not report an empirical Human Intelligence Debt (HID) value; no such value should be published before the instrument-validation gate (Study 0) is passed. Public figures cited below are drawn from third-party sources as of early 2026, are flagged as vendor benchmarks where applicable, and are intended to establish environment and direction, not to prove the debt.\n\nA Three-Layer Measurement Architecture, an Instrument-Validation Gate and Five Studies for Verifying the Debt, the Recovery Coefficient ρ, and the Oversight Threshold\n\nThis paper builds on four field notes in the series. Where they defined the phenomenon, this one proposes how to verify it; readers new to the framework are encouraged to read them first.\nEtiquetas: Aprendizaje y transmisión de capacidades 5.41%; Capacidad humana y deuda de inteligencia 35.13%; Decisiones y responsabilidad 5.41%; Economía, costes y liquidez 13.51%; Empresa y gestión 5.40%; Evidencia, procedencia y atribución 10.81%; Experimentación, falsación y contraejemplos 16.22%; Memoria, comunidad y territorio 8.11%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/measuring-human-intelligence-debt-t1400/\nDocumento de origen: https://tegrity.ai/meassuring-human-intelligence-debt/\n\nThe Harvester Multiplication Problem: Capability Fragmentation, Governance Collapse and the Compounding of Human Intelligence Debt → Measuring Human Intelligence Debt · candidate transfer. Capability multiplicity is a screening signal; avoidable compensatory work must still be established from task episodes and a credible replacement counterfactual.\n\n## The Harvester Multiplication Problem: Capability Fragmentation, Governance Collapse and the Compounding of Human Intelligence Debt\nThis document is a field notes paper : a structured conceptual contribution grounded in direct practitioner observation, prior to formal empirical validation. It extends the framework introduced in Human Intelligence Debt: A Socio-Technical Metric for Measuring the Human Cost of Imperfect Data Flows . Readers unfamiliar with the core definitions — Human Intelligence Contribution Ratio (HICR), Human Intelligence Contribution Target (HICT), and Human Intelligence Debt (HID) — are encouraged to read that paper first. The next stage of this series will be a working paper developing the measurement methodology and a preregistered empirical research protocol; empirical results will follow instrument validation.\n\nTwo Notes on Capability Fragmentation and the Architecture of Human Intelligence Waste\nEtiquetas: Capacidad humana y deuda de inteligencia 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/the-harvester-multiplication-problem-capability-fragmentation-governance-colla-t897/\nDocumento de origen: https://tegrity.ai/the-harvester-multiplication-problem-capability-fragmentation-governance-collapse-and-the-compounding-of-human-intelligence-debt/\n\nWhat Goes Unpriced Is Paid in Human Intelligence → Human Intelligence Debt · editorial comparison. For a complementary reading, see [Human Intelligence Debt: definitions and scope](https://tegrity.ai/human-intelligence-debt/).\n\n## What Goes Unpriced Is Paid in Human Intelligence\nThe Cost of Clarity series established a single, narrow result. Producing the information a transformation needs — the clarity about how the work actually runs — is not a free input you happen to have on hand. It is an intervention. Much of that information was never decided and must be declared rather than found; the declarations are entangled and costly; they arrive in a paradoxical order, where you must decide before you can discover; and rebuilding to escape them is a blind bet against value you cannot see. The cost and the risk of all this can be measured, and may be rising as systems entangle. And — the finding the whole series turns on — organizations price none of it. They treat clarity as free.\n\nThis bridge asks the question that result leaves open. If the cost is real and is never paid, where does it go? Costs do not vanish because no one books them. This one is paid — continuously, invisibly, and in the one currency the ledger never shows. It is paid in human intelligence.\nEtiquetas: Capacidad humana y deuda de inteligencia 50.00%; Economía, costes y liquidez 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/what-goes-unpriced-is-paid-in-human-intelligence-t1425/\nDocumento de origen: https://tegrity.ai/what-goes-unpriced-is-paid-in-human-intelligence/\n\n"
+}

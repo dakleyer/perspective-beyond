@@ -1,0 +1,1196 @@
+{
+  "schema": "perspective-beyond/positioning-v1.1",
+  "edition": "2026-11-04",
+  "request": {
+    "posicionamiento": "N1826",
+    "tokens": 3000,
+    "max": 60,
+    "rol": "lector",
+    "lectura": "explore",
+    "enfoque": "personalizado",
+    "instruccion": "",
+    "red": "ideas",
+    "sentido": "ambas",
+    "modo": "federated",
+    "site": "net",
+    "puente": null,
+    "solo": false,
+    "pesos": [
+      {
+        "tag": "tema:cambio-regimen",
+        "value": 70,
+        "normalized": 0.7
+      },
+      {
+        "tag": "tema:economia",
+        "value": 30,
+        "normalized": 0.3
+      }
+    ]
+  },
+  "position": {
+    "id": "doc-001c719f1662721819",
+    "title": "Phylons Liquidity Orquestration",
+    "url": "https://jubap.net/phylons-liquidity-orquestration",
+    "fichas": [
+      "N1826"
+    ],
+    "aliases": [
+      "https://jubap.net/phylons-liquidity-orquestration/"
+    ],
+    "header": "# Posicionamiento · Phylons Liquidity Orquestration\nDocumento de origen: https://jubap.net/phylons-liquidity-orquestration\n\n",
+    "headerTokens": 33,
+    "type": "documento",
+    "focus": "N1826",
+    "seeds": [
+      "N1826"
+    ]
+  },
+  "budget": {
+    "limit": 3000,
+    "used": 2797,
+    "remaining": 203,
+    "nextBlock": 267,
+    "encoding": "o200k_base",
+    "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
+  },
+  "reachable": 1535,
+  "selected": 9,
+  "shown": 10,
+  "omittedByBudget": 1526,
+  "omittedInDiagram": 0,
+  "layers": [
+    {
+      "distance": 0,
+      "selected": 0,
+      "shown": 1
+    },
+    {
+      "distance": 1,
+      "selected": 1,
+      "shown": 1
+    },
+    {
+      "distance": 2,
+      "selected": 6,
+      "shown": 6
+    },
+    {
+      "distance": 3,
+      "selected": 2,
+      "shown": 2
+    }
+  ],
+  "center": "doc-001c719f1662721819-entrada",
+  "localCore": [
+    "C23",
+    "C14",
+    "C43",
+    "C44"
+  ],
+  "coreDocument": null,
+  "nodes": [
+    {
+      "id": "doc-001c719f1662721819-entrada",
+      "title": "Phylons Liquidity Orquestration",
+      "type": "documento",
+      "url": "https://jubap.net/phylons-liquidity-orquestration",
+      "original": "https://jubap.net/phylons-liquidity-orquestration",
+      "summary": "Documento desde el que se abre este posicionamiento.",
+      "tags": [],
+      "tagWeights": {},
+      "clusters": [
+        "eu",
+        "net",
+        "us",
+        "tegrity",
+        "imsv",
+        "totonacapan",
+        "mobility",
+        "latinoempresa",
+        "research",
+        "dialogos"
+      ],
+      "distance": 0,
+      "parent": null
+    },
+    {
+      "id": "N1826",
+      "type": "ficha",
+      "title": "Phylons Liquidity Orquestration",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/phylons-liquidity-orquestration-n1826/",
+      "original": "https://jubap.net/phylons-liquidity-orquestration/",
+      "aliases": [],
+      "clusters": [
+        "net"
+      ],
+      "tags": [
+        "agentes",
+        "autoridad",
+        "control-minimo",
+        "decision",
+        "documentacion",
+        "economia"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-001c719f1662721819",
+      "tagWeights": {
+        "agentes": 0.2258,
+        "autoridad": 0.129,
+        "control-minimo": 0.0645,
+        "decision": 0.0968,
+        "documentacion": 0.129,
+        "economia": 0.3549
+      },
+      "reading": "This paper reconstructs the coordination and execution architecture of JUBAP/Phylons from the 2018 design corpus and the supplied xbot source snapshot. The system did not treat a signal as an executable order. It separated contextual detection, local intent formation, shared-resource authorization, exchange commitment, and realized feedback. The code now verifies a substantial substrate beneath that design: user–exchange credentials, books and currencies, balance snapshots, resource allocations, capital instances, resource-utilization statistics, executable transactions, market-operation lifecycle records, request/response audit logs, an event-driven feed–strategy–broker loop, exchange-neutral order submission through CCXT, order-completion polling, and stop-loss/profit closure through an opposite order. The complete tf15→tf5→tf1 book-supervisor logic, HQ/LQ classification, cross-book netting, sell-first priority, proportional proration, A/B/C/D sale taxonomy, and rich partial-fill ledger remain design-grounded where their full implementation is not present in the supplied snapshot. The contribution is therefore not a claim of autonomous multi-agent trading or investment performance. It is a code-grounded account of an explicit coordination contract: detectors propose; local supervisors size; shared-liquidity governance authorizes; exchange adapters commit; operation records reconcile; and feedback changes the next cycle. This contract is interpretable, testable, and portable to other domains in which many local actors compete for scarce shared resources.\n\nKeywords: multi-agent coordination; expert systems; liquidity orchestration; resource governance; exchange broker; event-driven execution; auditability; replay evaluation\n\nJUBAP separated epistemic confidence from economic authority. The supplied code verifies the resource and execution substrate; the historical design specifies the richer multi-book coordination policy that can now be replayed as an explicit, playable algorithm.\n\nPartial fills, reason-coded A/B/C/D inventory attribution, full HQ/LQ arbitration and tf15→tf5→tf1 quantity synchronization are retained as design-grounded mechanisms, not silently promoted to code-verified behavior.",
+      "readingSource": {
+        "url": "https://jubap.net/phylons-liquidity-orquestration/",
+        "section": "Abstract",
+        "observed": "2026-11-04",
+        "sourceSha256": "4ea3ddd1e8cedc9a132e3e257e14b561a9a49df0c8919e4377f7b65178e11641"
+      },
+      "readingSummary": "This paper reconstructs the coordination and execution architecture of JUBAP/Phylons from the 2018 design corpus and the supplied xbot source snapshot.",
+      "contextTokens": 532,
+      "distance": 1,
+      "parent": "doc-001c719f1662721819-entrada",
+      "routeEdge": null,
+      "affinity": 0.10647
+    },
+    {
+      "id": "C23",
+      "type": "concepto",
+      "title": "Revisión del marco",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/frame-revision/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "eu",
+        "net",
+        "research",
+        "tegrity"
+      ],
+      "tags": [
+        "agentes",
+        "aprendizaje",
+        "autoridad",
+        "cambio-regimen",
+        "capacidad-humana",
+        "cartografia",
+        "casos",
+        "control-minimo",
+        "decision",
+        "documentacion",
+        "economia",
+        "empresa",
+        "evidencia",
+        "experimentacion",
+        "integridad-ia",
+        "matematicas",
+        "memoria-territorio",
+        "movilidad",
+        "mundo-abierto",
+        "perspectiva"
+      ],
+      "summary": "Reconsider objectives, categories and assumptions that define the option space.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "E1731",
+        "N1826",
+        "N1833",
+        "N2082",
+        "T1499",
+        "T2795",
+        "T1421",
+        "T1487",
+        "T1484",
+        "T2811",
+        "E1628",
+        "GH019",
+        "GH028",
+        "GH064"
+      ],
+      "tagWeights": {
+        "agentes": 0.0161,
+        "aprendizaje": 0.0046,
+        "autoridad": 0.0294,
+        "cambio-regimen": 0.0357,
+        "capacidad-humana": 0.0123,
+        "cartografia": 0.0172,
+        "casos": 0.0457,
+        "control-minimo": 0.0842,
+        "decision": 0.0651,
+        "documentacion": 0.2662,
+        "economia": 0.1321,
+        "empresa": 0.0249,
+        "evidencia": 0.0866,
+        "experimentacion": 0.036,
+        "integridad-ia": 0.0046,
+        "matematicas": 0.0464,
+        "memoria-territorio": 0.0075,
+        "movilidad": 0.0246,
+        "mundo-abierto": 0.02,
+        "perspectiva": 0.0408
+      },
+      "contextTokens": 257,
+      "positionHeaderTokens": 33,
+      "distance": 2,
+      "parent": "N1826",
+      "routeEdge": "apoyo:N1826:C23",
+      "affinity": 0.06462
+    },
+    {
+      "id": "C14",
+      "type": "concepto",
+      "title": "Identidad estable",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/stable-identity/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "eu",
+        "mobility",
+        "net",
+        "research",
+        "tegrity"
+      ],
+      "tags": [
+        "agentes",
+        "aprendizaje",
+        "autoridad",
+        "control-minimo",
+        "decision",
+        "documentacion",
+        "economia",
+        "empresa",
+        "evidencia",
+        "experimentacion",
+        "integridad-ia",
+        "matematicas",
+        "memoria-territorio",
+        "movilidad",
+        "mundo-abierto",
+        "representacion",
+        "transformacion"
+      ],
+      "summary": "Refer to the same operational object across movements, systems and views.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "E1567",
+        "GH022",
+        "N1801",
+        "N1826",
+        "T2795",
+        "E1563",
+        "E1954",
+        "GH013",
+        "E1541"
+      ],
+      "tagWeights": {
+        "agentes": 0.1402,
+        "aprendizaje": 0.0072,
+        "autoridad": 0.1241,
+        "control-minimo": 0.0797,
+        "decision": 0.1062,
+        "documentacion": 0.0789,
+        "economia": 0.0656,
+        "empresa": 0.1075,
+        "evidencia": 0.0557,
+        "experimentacion": 0.0085,
+        "integridad-ia": 0.0072,
+        "matematicas": 0.0085,
+        "memoria-territorio": 0.0163,
+        "movilidad": 0.0792,
+        "mundo-abierto": 0.0427,
+        "representacion": 0.0155,
+        "transformacion": 0.057
+      },
+      "contextTokens": 223,
+      "positionHeaderTokens": 33,
+      "distance": 2,
+      "parent": "N1826",
+      "routeEdge": "apoyo:N1826:C14",
+      "affinity": 0.01968
+    },
+    {
+      "id": "C43",
+      "type": "concepto",
+      "title": "Vigencia y caducidad",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/validity-and-expiry/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "mobility",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "tags": [
+        "agentes",
+        "aprendizaje",
+        "autoridad",
+        "cambio-regimen",
+        "casos",
+        "control-minimo",
+        "decision",
+        "documentacion",
+        "economia",
+        "empresa",
+        "evidencia",
+        "experimentacion",
+        "integridad-ia",
+        "memoria-territorio",
+        "movilidad",
+        "transformacion"
+      ],
+      "summary": "Evidence and permission have temporal and policy limits.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "E1959",
+        "N1826",
+        "N1835",
+        "T2795",
+        "U1317",
+        "E1954",
+        "GH045"
+      ],
+      "tagWeights": {
+        "agentes": 0.0587,
+        "aprendizaje": 0.0207,
+        "autoridad": 0.0505,
+        "cambio-regimen": 0.044,
+        "casos": 0.0359,
+        "control-minimo": 0.0184,
+        "decision": 0.1647,
+        "documentacion": 0.1558,
+        "economia": 0.0999,
+        "empresa": 0.0257,
+        "evidencia": 0.093,
+        "experimentacion": 0.06,
+        "integridad-ia": 0.0092,
+        "memoria-territorio": 0.0242,
+        "movilidad": 0.1164,
+        "transformacion": 0.0229
+      },
+      "contextTokens": 219,
+      "positionHeaderTokens": 38,
+      "distance": 2,
+      "parent": "N1826",
+      "routeEdge": "apoyo:N1826:C43",
+      "affinity": 0.06077
+    },
+    {
+      "id": "C44",
+      "type": "concepto",
+      "title": "Arbitraje de recursos",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/resource-arbitration/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "mobility",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "tags": [
+        "agentes",
+        "aprendizaje",
+        "autoridad",
+        "cambio-regimen",
+        "capacidad-humana",
+        "cartografia",
+        "casos",
+        "control-minimo",
+        "decision",
+        "documentacion",
+        "economia",
+        "empresa",
+        "evidencia",
+        "experimentacion",
+        "memoria-territorio",
+        "movilidad",
+        "mundo-abierto",
+        "representacion",
+        "transformacion"
+      ],
+      "summary": "Resolve competing proposals before committing shared capacity.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "E1954",
+        "GH062",
+        "N1801",
+        "N1805",
+        "N1826",
+        "N1843",
+        "T1484",
+        "T2807",
+        "U1325",
+        "U1498",
+        "GH023",
+        "GH042",
+        "GH061",
+        "GH069"
+      ],
+      "tagWeights": {
+        "agentes": 0.1306,
+        "aprendizaje": 0.003,
+        "autoridad": 0.0356,
+        "cambio-regimen": 0.022,
+        "capacidad-humana": 0.0207,
+        "cartografia": 0.0884,
+        "casos": 0.0258,
+        "control-minimo": 0.081,
+        "decision": 0.0617,
+        "documentacion": 0.0791,
+        "economia": 0.0867,
+        "empresa": 0.0445,
+        "evidencia": 0.0425,
+        "experimentacion": 0.0143,
+        "memoria-territorio": 0.0168,
+        "movilidad": 0.1657,
+        "mundo-abierto": 0.0183,
+        "representacion": 0.0124,
+        "transformacion": 0.0509
+      },
+      "contextTokens": 250,
+      "positionHeaderTokens": 35,
+      "distance": 2,
+      "parent": "N1826",
+      "routeEdge": "apoyo:N1826:C44",
+      "affinity": 0.041409999999999995
+    },
+    {
+      "id": "N1831",
+      "type": "ficha",
+      "title": "Phylons predictive factors cascade",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/phylons-predictive-factors-cascade-n1831/",
+      "original": "https://jubap.net/phylons-predictive-factors-cascade/",
+      "aliases": [],
+      "clusters": [
+        "net"
+      ],
+      "tags": [
+        "control-minimo",
+        "documentacion",
+        "evidencia",
+        "memoria-territorio"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-1c9f745c429738967c",
+      "tagWeights": {
+        "control-minimo": 0.4375,
+        "documentacion": 0.3125,
+        "evidencia": 0.125,
+        "memoria-territorio": 0.125
+      },
+      "reading": "This paper reconstructs the context-construction layer of JUBAP/Phylons from its design documents and the supplied source snapshots. The 2018 architecture did not treat a current numerical value as self-explanatory. It represented the present through price and volume dynamics, event morphology, position inside a wave, order-flow behaviour, cross-market relations, calendar and social context, and geometric support or resistance. The code-grounded contribution is now concrete. The xbot snapshot routes 54 predictive-factor families, dynamically expands TA-Lib candlestick functions, builds quantitative subpf definitions as lower-bounded, upper-bounded and all-pair bounded predicates, ranks them in three ordered series, computes factors in parallel, materializes active state identifiers and target outcomes by wave, and appends Bitcoin factor state to non-Bitcoin contexts. A later JUBAP-PFS snapshot implements streaming relevant-peak confirmation, temporary extrema and recursive event levels with explicit knowledge-time separation. The source register still remains broader than one implementation snapshot: it contains 128 document slots, 84 named entries and a form-factor entry expanding into 61 candlestick candidates. Historically, the system made a rich context vocabulary enumerable, persistent and usable by specialized Phylon detectors and interpretable rule search. Retrospectively, the resulting factor-state configurations can be analysed as early semantic-window candidates. The 2026 Contextual Sufficiency framework formalizes what the earlier architecture did not claim to prove: whether a selected context is sufficient, minimal, stable, uncontaminated and worth its acquisition cost. The relationship is therefore evolutionary and code-grounded, not an anachronistic identity.\n\nThe code verifies that JUBAP/Phylons made context computationally explicit: a rich, overlapping predicate vocabulary was compressed into materialized active state, enriched across assets, and consumed by interpretable detectors and rule search. The 2026 framework turns sufficiency, minimality, stability and contamination into explicit research objects.",
+      "readingSource": {
+        "url": "https://jubap.net/phylons-predictive-factors-cascade/",
+        "section": "Abstract",
+        "observed": "2026-11-04",
+        "sourceSha256": "e8ff7db5f951e206266e3b9f797efdc729b70bed18d2016cee9d89ce3b9b2925"
+      },
+      "readingSummary": "This paper reconstructs the context-construction layer of JUBAP/Phylons from its design documents and the supplied source snapshots.",
+      "contextTokens": 501,
+      "distance": 2,
+      "parent": "N1826",
+      "routeEdge": "documento:R105",
+      "affinity": 0
+    },
+    {
+      "id": "T1221",
+      "type": "ficha",
+      "title": "Regime Awareness: Capability Development Across Four Field Cases",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/regime-awareness-capability-development-across-four-field-cases-t1221/",
+      "original": "https://tegrity.ai/evolution-of-regime-awareness-capability/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "cambio-regimen"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-b3caaa1c986520a04a",
+      "tagWeights": {
+        "cambio-regimen": 1
+      },
+      "reading": "Document Status — Field Case · Series: Regime Awareness in Adaptive Systems , Paper 1\n\nThis article is a retrospective field-case reconstruction of engineering patterns that preceded the present Regime Awareness framework. It examines whether recurring control patterns across four operational settings can be formulated as a transferable, regime-aware decision architecture. The cases motivate that hypothesis; they do not by themselves establish domain-agnostic validity, predictive performance or causal effectiveness.",
+      "readingSource": {
+        "url": "https://tegrity.ai/evolution-of-regime-awareness-capability/",
+        "section": "Opening paragraphs",
+        "observed": "2026-11-04",
+        "sourceSha256": "b7b6b71fb07bf33fb8bc000f9ed3394aa2d187b13d5f57c6ec49f65c34d3ae98"
+      },
+      "readingSummary": "Document Status — Field Case · Series: Regime Awareness in Adaptive Systems , Paper 1\n\nThis article is a retrospective field-case reconstruction of engineering patterns that preceded the present Regime Awareness framework.",
+      "contextTokens": 163,
+      "distance": 3,
+      "parent": "N1831",
+      "routeEdge": "documento:R194",
+      "affinity": 0.7
+    },
+    {
+      "id": "GH019",
+      "type": "ficha",
+      "title": "Regime Awareness — corpus index",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/GH019.html",
+      "original": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/regime-awareness/README.md",
+      "aliases": [
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/00ea3174c10a7e7cad84905d5642aa74eba35b18/research/regime-awareness/README.md"
+      ],
+      "clusters": [
+        "research"
+      ],
+      "tags": [
+        "cambio-regimen",
+        "documentacion"
+      ],
+      "summary": "Contenido de la fuente: Research-series lineage · Read in order · Current architectural output.",
+      "commit": "00ea3174c10a7e7cad84905d5642aa74eba35b18",
+      "sourcePath": "research/regime-awareness/README.md",
+      "commitUrl": "https://github.com/dakleyer/structural-awareness-contributions/commit/00ea3174c10a7e7cad84905d5642aa74eba35b18",
+      "documentId": "doc-ca281f9f492167e815",
+      "tagWeights": {
+        "cambio-regimen": 0.5,
+        "documentacion": 0.5
+      },
+      "contextTokens": 129,
+      "distance": 2,
+      "parent": "N1826",
+      "routeEdge": "documento:G019",
+      "affinity": 0.35
+    },
+    {
+      "id": "sac-9f80130e2cd182",
+      "type": "ficha",
+      "title": "Regime Awareness — trabajo adicional y lecturas complementarias",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-9f80130e2cd182.html",
+      "original": "https://github.com/dakleyer/structural-awareness-contributions/blob/7500dd5ee05c1a5052a28d35a8cefaf2c530707f/research/regime-awareness/ADDITIONAL_WORK_README.md",
+      "aliases": [],
+      "clusters": [
+        "research"
+      ],
+      "tags": [
+        "cambio-regimen",
+        "memoria-territorio"
+      ],
+      "summary": "Contenido de la fuente: Qué hay fuera y qué ya estaba dentro · Duplicación y valor · Volver a la ruta principal.",
+      "commit": "7500dd5ee05c1a5052a28d35a8cefaf2c530707f",
+      "sourcePath": "research/regime-awareness/ADDITIONAL_WORK_README.md",
+      "commitUrl": "https://github.com/dakleyer/structural-awareness-contributions/commit/7500dd5ee05c1a5052a28d35a8cefaf2c530707f",
+      "documentId": "doc-39e466482122c7861a",
+      "tagWeights": {
+        "cambio-regimen": 0.8333,
+        "memoria-territorio": 0.1667
+      },
+      "contextTokens": 158,
+      "distance": 3,
+      "parent": "GH019",
+      "routeEdge": "documento:sac-rel-812f40906bf405",
+      "affinity": 0.58331
+    }
+  ],
+  "edges": [
+    {
+      "id": "contiene:doc-001c719f1662721819-entrada:N1826",
+      "from": "doc-001c719f1662721819-entrada",
+      "to": "N1826",
+      "kind": "ficha del documento",
+      "reading": "Esta pieza abre la lectura desde su documento de origen.",
+      "route": true
+    },
+    {
+      "id": "apoyo:N1826:C23",
+      "from": "N1826",
+      "to": "C23",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "apoyo:N1826:C14",
+      "from": "N1826",
+      "to": "C14",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "apoyo:N1826:C43",
+      "from": "N1826",
+      "to": "C43",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "apoyo:N1826:C44",
+      "from": "N1826",
+      "to": "C44",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:R105",
+      "from": "N1826",
+      "to": "N1831",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The predictive-factor and context substrate](https://jubap.net/phylons-predictive-factors-cascade/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:R194",
+      "from": "T1221",
+      "to": "N1831",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The Phylons context-construction evidence](https://jubap.net/phylons-predictive-factors-cascade/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:G019",
+      "from": "GH019",
+      "to": "N1826",
+      "kind": "documented use",
+      "reading": "The Phylons lineage motivates later questions about when a previously useful signal loses its operating-context qualification.",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:sac-rel-812f40906bf405",
+      "from": "sac-9f80130e2cd182",
+      "to": "GH019",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Volver a la ruta principal» con el rótulo «Entrada RA».",
+      "evidence": "https://github.com/dakleyer/structural-awareness-contributions/blob/7500dd5ee05c1a5052a28d35a8cefaf2c530707f/research/regime-awareness/ADDITIONAL_WORK_README.md",
+      "route": true
+    },
+    {
+      "id": "apoyo:GH019:C23",
+      "from": "GH019",
+      "to": "C23",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "route": false
+    }
+  ],
+  "selection": [
+    {
+      "id": "N1826",
+      "type": "ficha",
+      "title": "Phylons Liquidity Orquestration",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/phylons-liquidity-orquestration-n1826/",
+      "original": "https://jubap.net/phylons-liquidity-orquestration/",
+      "aliases": [],
+      "clusters": [
+        "net"
+      ],
+      "tags": [
+        "agentes",
+        "autoridad",
+        "control-minimo",
+        "decision",
+        "documentacion",
+        "economia"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-001c719f1662721819",
+      "tagWeights": {
+        "agentes": 0.2258,
+        "autoridad": 0.129,
+        "control-minimo": 0.0645,
+        "decision": 0.0968,
+        "documentacion": 0.129,
+        "economia": 0.3549
+      },
+      "reading": "This paper reconstructs the coordination and execution architecture of JUBAP/Phylons from the 2018 design corpus and the supplied xbot source snapshot. The system did not treat a signal as an executable order. It separated contextual detection, local intent formation, shared-resource authorization, exchange commitment, and realized feedback. The code now verifies a substantial substrate beneath that design: user–exchange credentials, books and currencies, balance snapshots, resource allocations, capital instances, resource-utilization statistics, executable transactions, market-operation lifecycle records, request/response audit logs, an event-driven feed–strategy–broker loop, exchange-neutral order submission through CCXT, order-completion polling, and stop-loss/profit closure through an opposite order. The complete tf15→tf5→tf1 book-supervisor logic, HQ/LQ classification, cross-book netting, sell-first priority, proportional proration, A/B/C/D sale taxonomy, and rich partial-fill ledger remain design-grounded where their full implementation is not present in the supplied snapshot. The contribution is therefore not a claim of autonomous multi-agent trading or investment performance. It is a code-grounded account of an explicit coordination contract: detectors propose; local supervisors size; shared-liquidity governance authorizes; exchange adapters commit; operation records reconcile; and feedback changes the next cycle. This contract is interpretable, testable, and portable to other domains in which many local actors compete for scarce shared resources.\n\nKeywords: multi-agent coordination; expert systems; liquidity orchestration; resource governance; exchange broker; event-driven execution; auditability; replay evaluation\n\nJUBAP separated epistemic confidence from economic authority. The supplied code verifies the resource and execution substrate; the historical design specifies the richer multi-book coordination policy that can now be replayed as an explicit, playable algorithm.\n\nPartial fills, reason-coded A/B/C/D inventory attribution, full HQ/LQ arbitration and tf15→tf5→tf1 quantity synchronization are retained as design-grounded mechanisms, not silently promoted to code-verified behavior.",
+      "readingSource": {
+        "url": "https://jubap.net/phylons-liquidity-orquestration/",
+        "section": "Abstract",
+        "observed": "2026-11-04",
+        "sourceSha256": "4ea3ddd1e8cedc9a132e3e257e14b561a9a49df0c8919e4377f7b65178e11641"
+      },
+      "readingSummary": "This paper reconstructs the coordination and execution architecture of JUBAP/Phylons from the 2018 design corpus and the supplied xbot source snapshot.",
+      "contextTokens": 532,
+      "distance": 1,
+      "parent": "doc-001c719f1662721819-entrada",
+      "routeEdge": null,
+      "affinity": 0.10647
+    },
+    {
+      "id": "C23",
+      "type": "concepto",
+      "title": "Revisión del marco",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/frame-revision/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "eu",
+        "net",
+        "research",
+        "tegrity"
+      ],
+      "tags": [
+        "agentes",
+        "aprendizaje",
+        "autoridad",
+        "cambio-regimen",
+        "capacidad-humana",
+        "cartografia",
+        "casos",
+        "control-minimo",
+        "decision",
+        "documentacion",
+        "economia",
+        "empresa",
+        "evidencia",
+        "experimentacion",
+        "integridad-ia",
+        "matematicas",
+        "memoria-territorio",
+        "movilidad",
+        "mundo-abierto",
+        "perspectiva"
+      ],
+      "summary": "Reconsider objectives, categories and assumptions that define the option space.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "E1731",
+        "N1826",
+        "N1833",
+        "N2082",
+        "T1499",
+        "T2795",
+        "T1421",
+        "T1487",
+        "T1484",
+        "T2811",
+        "E1628",
+        "GH019",
+        "GH028",
+        "GH064"
+      ],
+      "tagWeights": {
+        "agentes": 0.0161,
+        "aprendizaje": 0.0046,
+        "autoridad": 0.0294,
+        "cambio-regimen": 0.0357,
+        "capacidad-humana": 0.0123,
+        "cartografia": 0.0172,
+        "casos": 0.0457,
+        "control-minimo": 0.0842,
+        "decision": 0.0651,
+        "documentacion": 0.2662,
+        "economia": 0.1321,
+        "empresa": 0.0249,
+        "evidencia": 0.0866,
+        "experimentacion": 0.036,
+        "integridad-ia": 0.0046,
+        "matematicas": 0.0464,
+        "memoria-territorio": 0.0075,
+        "movilidad": 0.0246,
+        "mundo-abierto": 0.02,
+        "perspectiva": 0.0408
+      },
+      "contextTokens": 257,
+      "positionHeaderTokens": 33,
+      "distance": 2,
+      "parent": "N1826",
+      "routeEdge": "apoyo:N1826:C23",
+      "affinity": 0.06462
+    },
+    {
+      "id": "C14",
+      "type": "concepto",
+      "title": "Identidad estable",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/stable-identity/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "eu",
+        "mobility",
+        "net",
+        "research",
+        "tegrity"
+      ],
+      "tags": [
+        "agentes",
+        "aprendizaje",
+        "autoridad",
+        "control-minimo",
+        "decision",
+        "documentacion",
+        "economia",
+        "empresa",
+        "evidencia",
+        "experimentacion",
+        "integridad-ia",
+        "matematicas",
+        "memoria-territorio",
+        "movilidad",
+        "mundo-abierto",
+        "representacion",
+        "transformacion"
+      ],
+      "summary": "Refer to the same operational object across movements, systems and views.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "E1567",
+        "GH022",
+        "N1801",
+        "N1826",
+        "T2795",
+        "E1563",
+        "E1954",
+        "GH013",
+        "E1541"
+      ],
+      "tagWeights": {
+        "agentes": 0.1402,
+        "aprendizaje": 0.0072,
+        "autoridad": 0.1241,
+        "control-minimo": 0.0797,
+        "decision": 0.1062,
+        "documentacion": 0.0789,
+        "economia": 0.0656,
+        "empresa": 0.1075,
+        "evidencia": 0.0557,
+        "experimentacion": 0.0085,
+        "integridad-ia": 0.0072,
+        "matematicas": 0.0085,
+        "memoria-territorio": 0.0163,
+        "movilidad": 0.0792,
+        "mundo-abierto": 0.0427,
+        "representacion": 0.0155,
+        "transformacion": 0.057
+      },
+      "contextTokens": 223,
+      "positionHeaderTokens": 33,
+      "distance": 2,
+      "parent": "N1826",
+      "routeEdge": "apoyo:N1826:C14",
+      "affinity": 0.01968
+    },
+    {
+      "id": "C43",
+      "type": "concepto",
+      "title": "Vigencia y caducidad",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/validity-and-expiry/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "mobility",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "tags": [
+        "agentes",
+        "aprendizaje",
+        "autoridad",
+        "cambio-regimen",
+        "casos",
+        "control-minimo",
+        "decision",
+        "documentacion",
+        "economia",
+        "empresa",
+        "evidencia",
+        "experimentacion",
+        "integridad-ia",
+        "memoria-territorio",
+        "movilidad",
+        "transformacion"
+      ],
+      "summary": "Evidence and permission have temporal and policy limits.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "E1959",
+        "N1826",
+        "N1835",
+        "T2795",
+        "U1317",
+        "E1954",
+        "GH045"
+      ],
+      "tagWeights": {
+        "agentes": 0.0587,
+        "aprendizaje": 0.0207,
+        "autoridad": 0.0505,
+        "cambio-regimen": 0.044,
+        "casos": 0.0359,
+        "control-minimo": 0.0184,
+        "decision": 0.1647,
+        "documentacion": 0.1558,
+        "economia": 0.0999,
+        "empresa": 0.0257,
+        "evidencia": 0.093,
+        "experimentacion": 0.06,
+        "integridad-ia": 0.0092,
+        "memoria-territorio": 0.0242,
+        "movilidad": 0.1164,
+        "transformacion": 0.0229
+      },
+      "contextTokens": 219,
+      "positionHeaderTokens": 38,
+      "distance": 2,
+      "parent": "N1826",
+      "routeEdge": "apoyo:N1826:C43",
+      "affinity": 0.06077
+    },
+    {
+      "id": "C44",
+      "type": "concepto",
+      "title": "Arbitraje de recursos",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/resource-arbitration/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "mobility",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "tags": [
+        "agentes",
+        "aprendizaje",
+        "autoridad",
+        "cambio-regimen",
+        "capacidad-humana",
+        "cartografia",
+        "casos",
+        "control-minimo",
+        "decision",
+        "documentacion",
+        "economia",
+        "empresa",
+        "evidencia",
+        "experimentacion",
+        "memoria-territorio",
+        "movilidad",
+        "mundo-abierto",
+        "representacion",
+        "transformacion"
+      ],
+      "summary": "Resolve competing proposals before committing shared capacity.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "E1954",
+        "GH062",
+        "N1801",
+        "N1805",
+        "N1826",
+        "N1843",
+        "T1484",
+        "T2807",
+        "U1325",
+        "U1498",
+        "GH023",
+        "GH042",
+        "GH061",
+        "GH069"
+      ],
+      "tagWeights": {
+        "agentes": 0.1306,
+        "aprendizaje": 0.003,
+        "autoridad": 0.0356,
+        "cambio-regimen": 0.022,
+        "capacidad-humana": 0.0207,
+        "cartografia": 0.0884,
+        "casos": 0.0258,
+        "control-minimo": 0.081,
+        "decision": 0.0617,
+        "documentacion": 0.0791,
+        "economia": 0.0867,
+        "empresa": 0.0445,
+        "evidencia": 0.0425,
+        "experimentacion": 0.0143,
+        "memoria-territorio": 0.0168,
+        "movilidad": 0.1657,
+        "mundo-abierto": 0.0183,
+        "representacion": 0.0124,
+        "transformacion": 0.0509
+      },
+      "contextTokens": 250,
+      "positionHeaderTokens": 35,
+      "distance": 2,
+      "parent": "N1826",
+      "routeEdge": "apoyo:N1826:C44",
+      "affinity": 0.041409999999999995
+    },
+    {
+      "id": "N1831",
+      "type": "ficha",
+      "title": "Phylons predictive factors cascade",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/phylons-predictive-factors-cascade-n1831/",
+      "original": "https://jubap.net/phylons-predictive-factors-cascade/",
+      "aliases": [],
+      "clusters": [
+        "net"
+      ],
+      "tags": [
+        "control-minimo",
+        "documentacion",
+        "evidencia",
+        "memoria-territorio"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-1c9f745c429738967c",
+      "tagWeights": {
+        "control-minimo": 0.4375,
+        "documentacion": 0.3125,
+        "evidencia": 0.125,
+        "memoria-territorio": 0.125
+      },
+      "reading": "This paper reconstructs the context-construction layer of JUBAP/Phylons from its design documents and the supplied source snapshots. The 2018 architecture did not treat a current numerical value as self-explanatory. It represented the present through price and volume dynamics, event morphology, position inside a wave, order-flow behaviour, cross-market relations, calendar and social context, and geometric support or resistance. The code-grounded contribution is now concrete. The xbot snapshot routes 54 predictive-factor families, dynamically expands TA-Lib candlestick functions, builds quantitative subpf definitions as lower-bounded, upper-bounded and all-pair bounded predicates, ranks them in three ordered series, computes factors in parallel, materializes active state identifiers and target outcomes by wave, and appends Bitcoin factor state to non-Bitcoin contexts. A later JUBAP-PFS snapshot implements streaming relevant-peak confirmation, temporary extrema and recursive event levels with explicit knowledge-time separation. The source register still remains broader than one implementation snapshot: it contains 128 document slots, 84 named entries and a form-factor entry expanding into 61 candlestick candidates. Historically, the system made a rich context vocabulary enumerable, persistent and usable by specialized Phylon detectors and interpretable rule search. Retrospectively, the resulting factor-state configurations can be analysed as early semantic-window candidates. The 2026 Contextual Sufficiency framework formalizes what the earlier architecture did not claim to prove: whether a selected context is sufficient, minimal, stable, uncontaminated and worth its acquisition cost. The relationship is therefore evolutionary and code-grounded, not an anachronistic identity.\n\nThe code verifies that JUBAP/Phylons made context computationally explicit: a rich, overlapping predicate vocabulary was compressed into materialized active state, enriched across assets, and consumed by interpretable detectors and rule search. The 2026 framework turns sufficiency, minimality, stability and contamination into explicit research objects.",
+      "readingSource": {
+        "url": "https://jubap.net/phylons-predictive-factors-cascade/",
+        "section": "Abstract",
+        "observed": "2026-11-04",
+        "sourceSha256": "e8ff7db5f951e206266e3b9f797efdc729b70bed18d2016cee9d89ce3b9b2925"
+      },
+      "readingSummary": "This paper reconstructs the context-construction layer of JUBAP/Phylons from its design documents and the supplied source snapshots.",
+      "contextTokens": 501,
+      "distance": 2,
+      "parent": "N1826",
+      "routeEdge": "documento:R105",
+      "affinity": 0
+    },
+    {
+      "id": "T1221",
+      "type": "ficha",
+      "title": "Regime Awareness: Capability Development Across Four Field Cases",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/regime-awareness-capability-development-across-four-field-cases-t1221/",
+      "original": "https://tegrity.ai/evolution-of-regime-awareness-capability/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "cambio-regimen"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-b3caaa1c986520a04a",
+      "tagWeights": {
+        "cambio-regimen": 1
+      },
+      "reading": "Document Status — Field Case · Series: Regime Awareness in Adaptive Systems , Paper 1\n\nThis article is a retrospective field-case reconstruction of engineering patterns that preceded the present Regime Awareness framework. It examines whether recurring control patterns across four operational settings can be formulated as a transferable, regime-aware decision architecture. The cases motivate that hypothesis; they do not by themselves establish domain-agnostic validity, predictive performance or causal effectiveness.",
+      "readingSource": {
+        "url": "https://tegrity.ai/evolution-of-regime-awareness-capability/",
+        "section": "Opening paragraphs",
+        "observed": "2026-11-04",
+        "sourceSha256": "b7b6b71fb07bf33fb8bc000f9ed3394aa2d187b13d5f57c6ec49f65c34d3ae98"
+      },
+      "readingSummary": "Document Status — Field Case · Series: Regime Awareness in Adaptive Systems , Paper 1\n\nThis article is a retrospective field-case reconstruction of engineering patterns that preceded the present Regime Awareness framework.",
+      "contextTokens": 163,
+      "distance": 3,
+      "parent": "N1831",
+      "routeEdge": "documento:R194",
+      "affinity": 0.7
+    },
+    {
+      "id": "GH019",
+      "type": "ficha",
+      "title": "Regime Awareness — corpus index",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/GH019.html",
+      "original": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/regime-awareness/README.md",
+      "aliases": [
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/00ea3174c10a7e7cad84905d5642aa74eba35b18/research/regime-awareness/README.md"
+      ],
+      "clusters": [
+        "research"
+      ],
+      "tags": [
+        "cambio-regimen",
+        "documentacion"
+      ],
+      "summary": "Contenido de la fuente: Research-series lineage · Read in order · Current architectural output.",
+      "commit": "00ea3174c10a7e7cad84905d5642aa74eba35b18",
+      "sourcePath": "research/regime-awareness/README.md",
+      "commitUrl": "https://github.com/dakleyer/structural-awareness-contributions/commit/00ea3174c10a7e7cad84905d5642aa74eba35b18",
+      "documentId": "doc-ca281f9f492167e815",
+      "tagWeights": {
+        "cambio-regimen": 0.5,
+        "documentacion": 0.5
+      },
+      "contextTokens": 129,
+      "distance": 2,
+      "parent": "N1826",
+      "routeEdge": "documento:G019",
+      "affinity": 0.35
+    },
+    {
+      "id": "sac-9f80130e2cd182",
+      "type": "ficha",
+      "title": "Regime Awareness — trabajo adicional y lecturas complementarias",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-9f80130e2cd182.html",
+      "original": "https://github.com/dakleyer/structural-awareness-contributions/blob/7500dd5ee05c1a5052a28d35a8cefaf2c530707f/research/regime-awareness/ADDITIONAL_WORK_README.md",
+      "aliases": [],
+      "clusters": [
+        "research"
+      ],
+      "tags": [
+        "cambio-regimen",
+        "memoria-territorio"
+      ],
+      "summary": "Contenido de la fuente: Qué hay fuera y qué ya estaba dentro · Duplicación y valor · Volver a la ruta principal.",
+      "commit": "7500dd5ee05c1a5052a28d35a8cefaf2c530707f",
+      "sourcePath": "research/regime-awareness/ADDITIONAL_WORK_README.md",
+      "commitUrl": "https://github.com/dakleyer/structural-awareness-contributions/commit/7500dd5ee05c1a5052a28d35a8cefaf2c530707f",
+      "documentId": "doc-39e466482122c7861a",
+      "tagWeights": {
+        "cambio-regimen": 0.8333,
+        "memoria-territorio": 0.1667
+      },
+      "contextTokens": 158,
+      "distance": 3,
+      "parent": "GH019",
+      "routeEdge": "documento:sac-rel-812f40906bf405",
+      "affinity": 0.58331
+    }
+  ],
+  "reading": "# Posicionamiento · Phylons Liquidity Orquestration\nDocumento de origen: https://jubap.net/phylons-liquidity-orquestration\n\n## Phylons Liquidity Orquestration\nThis paper reconstructs the coordination and execution architecture of JUBAP/Phylons from the 2018 design corpus and the supplied xbot source snapshot. The system did not treat a signal as an executable order. It separated contextual detection, local intent formation, shared-resource authorization, exchange commitment, and realized feedback. The code now verifies a substantial substrate beneath that design: user–exchange credentials, books and currencies, balance snapshots, resource allocations, capital instances, resource-utilization statistics, executable transactions, market-operation lifecycle records, request/response audit logs, an event-driven feed–strategy–broker loop, exchange-neutral order submission through CCXT, order-completion polling, and stop-loss/profit closure through an opposite order. The complete tf15→tf5→tf1 book-supervisor logic, HQ/LQ classification, cross-book netting, sell-first priority, proportional proration, A/B/C/D sale taxonomy, and rich partial-fill ledger remain design-grounded where their full implementation is not present in the supplied snapshot. The contribution is therefore not a claim of autonomous multi-agent trading or investment performance. It is a code-grounded account of an explicit coordination contract: detectors propose; local supervisors size; shared-liquidity governance authorizes; exchange adapters commit; operation records reconcile; and feedback changes the next cycle. This contract is interpretable, testable, and portable to other domains in which many local actors compete for scarce shared resources.\n\nKeywords: multi-agent coordination; expert systems; liquidity orchestration; resource governance; exchange broker; event-driven execution; auditability; replay evaluation\n\nJUBAP separated epistemic confidence from economic authority. The supplied code verifies the resource and execution substrate; the historical design specifies the richer multi-book coordination policy that can now be replayed as an explicit, playable algorithm.\n\nPartial fills, reason-coded A/B/C/D inventory attribution, full HQ/LQ arbitration and tf15→tf5→tf1 quantity synchronization are retained as design-grounded mechanisms, not silently promoted to code-verified behavior.\nEtiquetas: Agentes y coordinación distribuida 22.58%; Autoridad, permisos y delegación 12.90%; Control mínimo y suficiencia 6.45%; Decisiones y responsabilidad 9.68%; Investigación y documentación técnica 12.90%; Economía, costes y liquidez 35.49%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/phylons-liquidity-orquestration-n1826/\nDocumento de origen: https://jubap.net/phylons-liquidity-orquestration/\n\nPhylons Liquidity Orquestration → Revisión del marco · documenta el concepto. \n\n## Revisión del marco\nReconsider objectives, categories and assumptions that define the option space.\nEtiquetas: Agentes y coordinación distribuida 1.61%; Aprendizaje y transmisión de capacidades 0.46%; Autoridad, permisos y delegación 2.94%; Cambios de régimen y alerta temprana 3.57%; Capacidad humana y deuda de inteligencia 1.23%; Cartografía y señales de ecosistema 1.72%; Casos de uso y aplicaciones 4.57%; Control mínimo y suficiencia 8.42%; Decisiones y responsabilidad 6.51%; Investigación y documentación técnica 26.62%; Economía, costes y liquidez 13.21%; Empresa y gestión 2.49%; Evidencia, procedencia y atribución 8.66%; Experimentación, falsación y contraejemplos 3.60%; Integridad y seguridad de IA 0.46%; Matemáticas 4.64%; Memoria, comunidad y territorio 0.75%; Movilidad e infraestructura 2.46%; Mundo abierto e indeterminación 2.00%; Cambio de perspectiva 4.08%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/frame-revision/\n\nPhylons Liquidity Orquestration → Identidad estable · documenta el concepto. \n\n## Identidad estable\nRefer to the same operational object across movements, systems and views.\nEtiquetas: Agentes y coordinación distribuida 14.02%; Aprendizaje y transmisión de capacidades 0.72%; Autoridad, permisos y delegación 12.41%; Control mínimo y suficiencia 7.97%; Decisiones y responsabilidad 10.62%; Investigación y documentación técnica 7.89%; Economía, costes y liquidez 6.56%; Empresa y gestión 10.75%; Evidencia, procedencia y atribución 5.57%; Experimentación, falsación y contraejemplos 0.85%; Integridad y seguridad de IA 0.72%; Matemáticas 0.85%; Memoria, comunidad y territorio 1.63%; Movilidad e infraestructura 7.92%; Mundo abierto e indeterminación 4.27%; Representación y límites formales 1.55%; Transformación y continuidad operativa 5.70%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/stable-identity/\n\nPhylons Liquidity Orquestration → Vigencia y caducidad · documenta el concepto. \n\n## Vigencia y caducidad\nEvidence and permission have temporal and policy limits.\nEtiquetas: Agentes y coordinación distribuida 5.87%; Aprendizaje y transmisión de capacidades 2.07%; Autoridad, permisos y delegación 5.05%; Cambios de régimen y alerta temprana 4.40%; Casos de uso y aplicaciones 3.59%; Control mínimo y suficiencia 1.84%; Decisiones y responsabilidad 16.47%; Investigación y documentación técnica 15.58%; Economía, costes y liquidez 9.99%; Empresa y gestión 2.57%; Evidencia, procedencia y atribución 9.30%; Experimentación, falsación y contraejemplos 6.00%; Integridad y seguridad de IA 0.92%; Memoria, comunidad y territorio 2.42%; Movilidad e infraestructura 11.64%; Transformación y continuidad operativa 2.29%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/validity-and-expiry/\n\nPhylons Liquidity Orquestration → Arbitraje de recursos · documenta el concepto. \n\n## Arbitraje de recursos\nResolve competing proposals before committing shared capacity.\nEtiquetas: Agentes y coordinación distribuida 13.06%; Aprendizaje y transmisión de capacidades 0.30%; Autoridad, permisos y delegación 3.56%; Cambios de régimen y alerta temprana 2.20%; Capacidad humana y deuda de inteligencia 2.07%; Cartografía y señales de ecosistema 8.84%; Casos de uso y aplicaciones 2.58%; Control mínimo y suficiencia 8.10%; Decisiones y responsabilidad 6.17%; Investigación y documentación técnica 7.91%; Economía, costes y liquidez 8.67%; Empresa y gestión 4.45%; Evidencia, procedencia y atribución 4.25%; Experimentación, falsación y contraejemplos 1.43%; Memoria, comunidad y territorio 1.68%; Movilidad e infraestructura 16.57%; Mundo abierto e indeterminación 1.83%; Representación y límites formales 1.24%; Transformación y continuidad operativa 5.09%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/resource-arbitration/\n\nPhylons Liquidity Orquestration → Phylons predictive factors cascade · editorial comparison. For a complementary reading, see [The predictive-factor and context substrate](https://jubap.net/phylons-predictive-factors-cascade/).\n\n## Phylons predictive factors cascade\nThis paper reconstructs the context-construction layer of JUBAP/Phylons from its design documents and the supplied source snapshots. The 2018 architecture did not treat a current numerical value as self-explanatory. It represented the present through price and volume dynamics, event morphology, position inside a wave, order-flow behaviour, cross-market relations, calendar and social context, and geometric support or resistance. The code-grounded contribution is now concrete. The xbot snapshot routes 54 predictive-factor families, dynamically expands TA-Lib candlestick functions, builds quantitative subpf definitions as lower-bounded, upper-bounded and all-pair bounded predicates, ranks them in three ordered series, computes factors in parallel, materializes active state identifiers and target outcomes by wave, and appends Bitcoin factor state to non-Bitcoin contexts. A later JUBAP-PFS snapshot implements streaming relevant-peak confirmation, temporary extrema and recursive event levels with explicit knowledge-time separation. The source register still remains broader than one implementation snapshot: it contains 128 document slots, 84 named entries and a form-factor entry expanding into 61 candlestick candidates. Historically, the system made a rich context vocabulary enumerable, persistent and usable by specialized Phylon detectors and interpretable rule search. Retrospectively, the resulting factor-state configurations can be analysed as early semantic-window candidates. The 2026 Contextual Sufficiency framework formalizes what the earlier architecture did not claim to prove: whether a selected context is sufficient, minimal, stable, uncontaminated and worth its acquisition cost. The relationship is therefore evolutionary and code-grounded, not an anachronistic identity.\n\nThe code verifies that JUBAP/Phylons made context computationally explicit: a rich, overlapping predicate vocabulary was compressed into materialized active state, enriched across assets, and consumed by interpretable detectors and rule search. The 2026 framework turns sufficiency, minimality, stability and contamination into explicit research objects.\nEtiquetas: Control mínimo y suficiencia 43.75%; Investigación y documentación técnica 31.25%; Evidencia, procedencia y atribución 12.50%; Memoria, comunidad y territorio 12.50%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/phylons-predictive-factors-cascade-n1831/\nDocumento de origen: https://jubap.net/phylons-predictive-factors-cascade/\n\nRegime Awareness: Capability Development Across Four Field Cases → Phylons predictive factors cascade · editorial comparison. For a complementary reading, see [The Phylons context-construction evidence](https://jubap.net/phylons-predictive-factors-cascade/).\n\n## Regime Awareness: Capability Development Across Four Field Cases\nDocument Status — Field Case · Series: Regime Awareness in Adaptive Systems , Paper 1\n\nThis article is a retrospective field-case reconstruction of engineering patterns that preceded the present Regime Awareness framework. It examines whether recurring control patterns across four operational settings can be formulated as a transferable, regime-aware decision architecture. The cases motivate that hypothesis; they do not by themselves establish domain-agnostic validity, predictive performance or causal effectiveness.\nEtiquetas: Cambios de régimen y alerta temprana 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/regime-awareness-capability-development-across-four-field-cases-t1221/\nDocumento de origen: https://tegrity.ai/evolution-of-regime-awareness-capability/\n\nRegime Awareness — corpus index → Phylons Liquidity Orquestration · documented use. The Phylons lineage motivates later questions about when a previously useful signal loses its operating-context qualification.\n\n## Regime Awareness — corpus index\nContenido de la fuente: Research-series lineage · Read in order · Current architectural output.\nEtiquetas: Cambios de régimen y alerta temprana 50.00%; Investigación y documentación técnica 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/GH019.html\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/regime-awareness/README.md\n\nRegime Awareness — trabajo adicional y lecturas complementarias → Regime Awareness — corpus index · referencia de la fuente. La fuente enlaza esta lectura en «Volver a la ruta principal» con el rótulo «Entrada RA».\nFuente de la relación: https://github.com/dakleyer/structural-awareness-contributions/blob/7500dd5ee05c1a5052a28d35a8cefaf2c530707f/research/regime-awareness/ADDITIONAL_WORK_README.md\n\n## Regime Awareness — trabajo adicional y lecturas complementarias\nContenido de la fuente: Qué hay fuera y qué ya estaba dentro · Duplicación y valor · Volver a la ruta principal.\nEtiquetas: Cambios de régimen y alerta temprana 83.33%; Memoria, comunidad y territorio 16.67%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-9f80130e2cd182.html\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/7500dd5ee05c1a5052a28d35a8cefaf2c530707f/research/regime-awareness/ADDITIONAL_WORK_README.md\n\n"
+}

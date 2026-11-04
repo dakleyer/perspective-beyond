@@ -50,6 +50,8 @@ Para lectores web, cada documento y cada ficha dispone de un registro JSON peque
 
 Las relaciones de esos registros incluyen también la composición, el clúster y el coste de la ficha vecina, para elegir la próxima lectura sin abrir todas las candidatas. Los resultados de la [comparación de recorridos](comparacion/README.md) documentan las preguntas, paquetes y respuestas de las pruebas ciegas.
 
+Los lectores que usan solo la web pueden consultar [configuraciones calculadas](configurados/index.json). Su JSON entrega `reading`, `selection` y la cuenta completa `budget`. Se compara el posicionamiento, presupuesto, alcance, clúster, red, sentido y proporciones normalizadas; el rol, propósito e instrucción de la URL siguen personalizando la respuesta. En Cerrado todos los clústeres de cada nodo deben coincidir con el clúster seleccionado. Los conceptos compartidos se exploran mediante el alcance que los habilita.
+
 El mismo cálculo funciona en Node.js:
 
 ```sh

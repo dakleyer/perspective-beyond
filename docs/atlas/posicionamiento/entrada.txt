@@ -7,6 +7,7 @@ LEE LA URL ORIGINAL
 posicionamiento elige el documento o la ficha. centro y desde conservan compatibilidad como puntos de entrada. tokens indica el presupuesto de lectura; el valor inicial es 2000. peso se repite con una etiqueta y su peso relativo: peso=tema:empresa:50 y peso=tema:matematicas:50. Se admiten también cluster:, concepto: y voz:. Las claves conocidas se reconocen al ignorar mayúsculas.
 
 modo elige closed (Cerrado), porous (Poroso) o federated (Federado). Cerrado usa solo site. Poroso usa site y el puente dirigido puente. Federado sigue las relaciones entre clústeres. solo=1 filtra las fichas por las etiquetas temáticas elegidas. red elige ideas (fichas y conceptos) o documentos (fichas). sentido elige ambas, salientes o entrantes.
+En Cerrado cada ficha o concepto utilizado debe tener únicamente el clúster site en su campo clusters. Una etiqueta compartida o la presencia de site entre varios clústeres no basta para incluirlo. En Poroso se conserva el puente dirigido elegido. Lee el conjunto autorizado del paquete calculado antes de ampliar fuentes.
 
 rol, lectura e instruccion conservan el papel del asistente, su propósito y la indicación especial del visitante. Si falta una pregunta, pide qué quiere explorar. Una URL ya configurada conserva sus elecciones.
 
@@ -18,6 +19,7 @@ El presupuesto incluye cabecera, fichas y relaciones de llegada. Se cuenta con o
 Los artículos con extracto de lectura conservan primero una base de hasta cuatro conceptos directamente ligados al documento, elegidos por su propia composición. Si existe un uso documentado, se incorpora también una lectura vinculada directamente al mecanismo. Después se amplía el recorrido por la combinación de etiquetas del visitante. Esta base ayuda a explicar el mecanismo de origen antes de relacionarlo con otros pensamientos.
 
 FORMAS DE LEER
+- Primero busca una configuración coincidente en https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/configurados/index.json . Compara posicionamiento o sus alias, tokens, alcance, clúster, solo, puente, red, sentido y pesos normalizados. Si coincide, abre su JSON y usa solo reading y selection como contexto del Atlas. budget da la cuenta completa con cabecera y relaciones; conserva el rol y la instrucción de la URL del visitante.
 - Paquetes ya calculados, desde las entradas iniciales y con presupuestos de 1000, 2000 y 4000 tokens: https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/preparados/index.json
 - Registro de documentos: https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/documentos.json
 - Composiciones de las fichas: https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/etiquetas-fichas.json
@@ -25,6 +27,7 @@ FORMAS DE LEER
 - Si el posicionamiento es un ID de ficha o concepto, abre directamente https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/ID.json sustituyendo ID por el identificador recibido. Sus relaciones incluyen porcentajes, clústeres y costes de las vecinas para orientar la siguiente lectura.
 - readingSource identifica los extractos de las fuentes públicas. Los diálogos conservan su texto completo. Cuando una ficha aporte solo una referencia, abre su documento de origen para fundamentar la explicación.
 - Para una configuración personalizada, abre el visualizador y descarga su lectura, o ejecuta el cálculo público con el grafo de la edición. Usa reading como contexto de lectura y budget para comprobar el presupuesto.
+- Si tu herramienta solo lee la web y no encuentra un paquete coincidente, solicita la lectura descargada desde el visualizador. Mantén separados los costes declarados de fichas y el presupuesto completo que calcula el motor.
 
 CALCULO PUBLICO
 https://dakleyer.github.io/perspective-beyond/atlas/positioning.mjs

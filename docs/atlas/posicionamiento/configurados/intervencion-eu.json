@@ -1,0 +1,861 @@
+{
+  "schema": "perspective-beyond/positioning-v1.1",
+  "edition": "2026-11-04",
+  "request": {
+    "posicionamiento": "E2",
+    "tokens": 2000,
+    "max": 60,
+    "rol": "lector",
+    "lectura": "explore",
+    "enfoque": "personalizado",
+    "instruccion": "",
+    "red": "ideas",
+    "sentido": "ambas",
+    "modo": "federated",
+    "site": "eu",
+    "puente": null,
+    "solo": false,
+    "pesos": [
+      {
+        "tag": "tema:empresa",
+        "value": 60,
+        "normalized": 0.6
+      },
+      {
+        "tag": "tema:transformacion",
+        "value": 40,
+        "normalized": 0.4
+      }
+    ]
+  },
+  "position": {
+    "id": "doc-63aa9c575ad7473553",
+    "title": "JubAp.EU",
+    "url": "https://jubap.eu/",
+    "fichas": [
+      "E2"
+    ],
+    "aliases": [
+      "https://jubap.eu/"
+    ],
+    "header": "# Posicionamiento · JubAp.EU\nDocumento de origen: https://jubap.eu/\n\n",
+    "headerTokens": 20,
+    "type": "documento",
+    "focus": "E2",
+    "seeds": [
+      "E2"
+    ]
+  },
+  "budget": {
+    "limit": 2000,
+    "used": 1896,
+    "remaining": 104,
+    "nextBlock": 207,
+    "encoding": "o200k_base",
+    "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
+  },
+  "reachable": 1535,
+  "selected": 9,
+  "shown": 10,
+  "omittedByBudget": 1526,
+  "omittedInDiagram": 0,
+  "layers": [
+    {
+      "distance": 0,
+      "selected": 0,
+      "shown": 1
+    },
+    {
+      "distance": 1,
+      "selected": 1,
+      "shown": 1
+    },
+    {
+      "distance": 2,
+      "selected": 4,
+      "shown": 4
+    },
+    {
+      "distance": 3,
+      "selected": 2,
+      "shown": 2
+    },
+    {
+      "distance": 4,
+      "selected": 2,
+      "shown": 2
+    }
+  ],
+  "center": "doc-63aa9c575ad7473553-entrada",
+  "localCore": [],
+  "coreDocument": null,
+  "nodes": [
+    {
+      "id": "doc-63aa9c575ad7473553-entrada",
+      "title": "JubAp.EU",
+      "type": "documento",
+      "url": "https://jubap.eu/",
+      "original": "https://jubap.eu/",
+      "summary": "Documento desde el que se abre este posicionamiento.",
+      "tags": [],
+      "tagWeights": {},
+      "clusters": [
+        "eu",
+        "net",
+        "us",
+        "tegrity",
+        "imsv",
+        "totonacapan",
+        "mobility",
+        "latinoempresa",
+        "research",
+        "dialogos"
+      ],
+      "distance": 0,
+      "parent": null
+    },
+    {
+      "id": "E2",
+      "type": "ficha",
+      "title": "JubAp.EU",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/jubap-eu-e2/",
+      "original": "https://jubap.eu/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "decision",
+        "empresa",
+        "navegacion",
+        "perspectiva",
+        "transformacion"
+      ],
+      "summary": "JubAp.eu supports high-stakes socio-technical transformations where technology, operating model or organizational decisions define long-term viability.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-63aa9c575ad7473553",
+      "tagWeights": {
+        "decision": 0.1,
+        "empresa": 0.45,
+        "navegacion": 0.05,
+        "perspectiva": 0.15,
+        "transformacion": 0.25
+      },
+      "contextTokens": 115,
+      "distance": 1,
+      "parent": "doc-63aa9c575ad7473553-entrada",
+      "routeEdge": null,
+      "affinity": 0.37
+    },
+    {
+      "id": "U2",
+      "type": "ficha",
+      "title": "JubAp.US",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/jubap-us-u2/",
+      "original": "https://jubap.us/",
+      "aliases": [],
+      "clusters": [
+        "us"
+      ],
+      "tags": [
+        "aprendizaje",
+        "decision",
+        "empresa",
+        "navegacion",
+        "transformacion"
+      ],
+      "summary": "Carve-outs, post-merger integration, joint ventures and SPVs. Operating models that connect people, information and execution.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-4133165018517e2690",
+      "tagWeights": {
+        "aprendizaje": 0.1,
+        "decision": 0.1,
+        "empresa": 0.4,
+        "navegacion": 0.05,
+        "transformacion": 0.35
+      },
+      "contextTokens": 117,
+      "distance": 2,
+      "parent": "E2",
+      "routeEdge": "navigation:position-nav-E2-U2",
+      "affinity": 0.38
+    },
+    {
+      "id": "N2",
+      "type": "ficha",
+      "title": "JubAp.Net",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/jubap-net-n2/",
+      "original": "https://jubap.net/",
+      "aliases": [],
+      "clusters": [
+        "net"
+      ],
+      "tags": [
+        "capacidad-humana",
+        "documentacion",
+        "empresa",
+        "navegacion",
+        "transformacion"
+      ],
+      "summary": "JubAp.Net is an engineering and operations unit with roots in the Barcelona Nokia R&D environment, built around critical systems and applied across different technology waves and industrial contexts.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-4b88133cc260c8d3a0",
+      "tagWeights": {
+        "capacidad-humana": 0.35,
+        "documentacion": 0.1,
+        "empresa": 0.25,
+        "navegacion": 0.05,
+        "transformacion": 0.25
+      },
+      "contextTokens": 126,
+      "distance": 2,
+      "parent": "E2",
+      "routeEdge": "navigation:position-nav-E2-N2",
+      "affinity": 0.25
+    },
+    {
+      "id": "E1731",
+      "type": "ficha",
+      "title": "Reframing Value Creation",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-reframing",
+      "original": "https://jubap.eu/reframing-value-creation/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "casos",
+        "control-minimo",
+        "decision",
+        "documentacion",
+        "economia",
+        "empresa",
+        "perspectiva"
+      ],
+      "summary": "El cambio de marco permite reconocer valor que ya existe en recursos, prácticas y relaciones. Una intervención puede comenzar por reorganizar esas capacidades y darles una forma que la organización pueda usar.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-4998b3d102aa89fd7f",
+      "tagWeights": {
+        "casos": 0.1053,
+        "control-minimo": 0.1053,
+        "decision": 0.1053,
+        "documentacion": 0.1053,
+        "economia": 0.1052,
+        "empresa": 0.2105,
+        "perspectiva": 0.2631
+      },
+      "contextTokens": 154,
+      "distance": 2,
+      "parent": "E2",
+      "routeEdge": "navigation:position-nav-E2-E1731",
+      "affinity": 0.1263
+    },
+    {
+      "id": "E1662",
+      "type": "ficha",
+      "title": "THE DIAMOND INSIDE FRAMEWORK",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/the-diamond-inside-framework-e1662/",
+      "original": "https://jubap.eu/the-diamond-inside-framework/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "control-minimo",
+        "economia",
+        "empresa",
+        "evidencia",
+        "memoria-territorio",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-d21d93f69ad55c7f28",
+      "tagWeights": {
+        "control-minimo": 0.0667,
+        "economia": 0.2667,
+        "empresa": 0.2333,
+        "evidencia": 0.1333,
+        "memoria-territorio": 0.0667,
+        "transformacion": 0.2333
+      },
+      "reading": "A JubAp / IMSV.org rationalization method · Developed through a three-year, 50+ Maison programme\n\nMost rationalization programmes begin by listing systems and ranking them for cost. In a uniform organization that can work. In a decentralized, heritage-rich group it quietly destroys value, because the things that make such a group valuable — local excellence, cultural identity, hard-won adaptations — rarely show up on a portfolio list as anything other than «duplicates.»\n\nThis is the trap the Cost of Clarity work names precisely: the information you would need to rationalize safely is treated as free, when in fact it is costly and often missing. Declaring a clean target architecture and cutting toward it is not a safe cleanup — it is a blind bet against value you cannot see. Diamond Inside is the operational answer to that bet: pay the cost of clarity up front, understand why each capability exists, and only then decide.\n\nRead the capability, its dependencies and tacit support before classifying an option. The luxury rationalization case supplies the field setting described by the method. Anything proposed for wider use then needs its own admission decision: local usefulness is evidence to examine, not automatic readiness to scale.\n\nThe programme stops asking «what can we remove?» and starts asking «what value is already inside the group that we cannot yet see — and which of it is worth scaling?»",
+      "readingSource": {
+        "url": "https://jubap.eu/the-diamond-inside-framework/",
+        "section": "Opening paragraphs",
+        "observed": "2026-11-04",
+        "sourceSha256": "355dd1f05505a4086029bee82577752000405620b064f1b1ee170ef12227c3e5"
+      },
+      "readingSummary": "A JubAp / IMSV.org rationalization method · Developed through a three-year, 50+ Maison programme\n\nMost rationalization programmes begin by listing systems and ranking them for cost.",
+      "contextTokens": 395,
+      "distance": 3,
+      "parent": "E1731",
+      "routeEdge": "documento:R023",
+      "affinity": 0.2333
+    },
+    {
+      "id": "E1524",
+      "type": "ficha",
+      "title": "Montblanc — Lightweight Product Intelligence for Luxury In-Store Conversion",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/montblanc-lightweight-product-intelligence-for-luxury-in-store-conversion-e1524/",
+      "original": "https://jubap.eu/montblanc-lightweight-product-intelligence-for-luxury-in-store-conversion/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "empresa"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-0d09f6eb9814f96587",
+      "tagWeights": {
+        "empresa": 1
+      },
+      "reading": "Montblanc operates one of the most complex product portfolios in premium retail. With strong brand awareness and consistent in-store traffic across a global network of more than 500 boutiques, the business priority it struggled to resolve was deceptively precise: understanding why a customer who enters the store does not complete a purchase.\n\nThat gap between traffic and conversion is structurally different in a luxury context than in mass retail. For a Maison whose product range spans fine writing instruments, Swiss-manufactured watches, leather goods and connected accessories, each production category operates at different volumes, with different cost structures and different regional demand patterns. Producing and allocating incorrectly in this environment is not just an inventory problem. It is a strategic risk.",
+      "readingSource": {
+        "url": "https://jubap.eu/montblanc-lightweight-product-intelligence-for-luxury-in-store-conversion/",
+        "section": "Opening paragraphs",
+        "observed": "2026-11-04",
+        "sourceSha256": "12f19e254aca12b1b653bfd157d36f8144cf9df7915b13c7222e410178b96f82"
+      },
+      "readingSummary": "Montblanc operates one of the most complex product portfolios in premium retail.",
+      "contextTokens": 232,
+      "distance": 4,
+      "parent": "E1662",
+      "routeEdge": "documento:R052",
+      "affinity": 0.6
+    },
+    {
+      "id": "E1953",
+      "type": "ficha",
+      "title": "Car Evolution Mobility OS",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-e1953/",
+      "original": "https://jubap.eu/mobility/",
+      "aliases": [],
+      "clusters": [
+        "mobility"
+      ],
+      "tags": [
+        "agentes",
+        "movilidad"
+      ],
+      "summary": "Cities, authorities and operators already hold the data, the fleets, the routes and the channels. What is added is the layer that turns them into coordinated decisions, in real time.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-509a767ebeba965190",
+      "tagWeights": {
+        "agentes": 0.1667,
+        "movilidad": 0.8333
+      },
+      "contextTokens": 105,
+      "distance": 2,
+      "parent": "E2",
+      "routeEdge": "navigation:position-nav-E1953-E2",
+      "affinity": 0
+    },
+    {
+      "id": "T1573",
+      "type": "ficha",
+      "title": "Tegrity.AI",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/tegrity-ai-t1573/",
+      "original": "https://tegrity.ai/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "control-minimo",
+        "decision",
+        "navegacion"
+      ],
+      "summary": "Tegrity.AI is an applied research, engineering and pre-standardization group of The Integral Management Society , a Swiss non-profit association based in Geneva. It advances AI Integrity Management through research, architecture, the review and development of standards, and technology for the common good.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-3365ae2ce02200034c",
+      "tagWeights": {
+        "control-minimo": 0.2222,
+        "decision": 0.2222,
+        "navegacion": 0.5556
+      },
+      "contextTokens": 129,
+      "distance": 3,
+      "parent": "E1953",
+      "routeEdge": "navigation:position-nav-E1953-T1573",
+      "affinity": 0
+    },
+    {
+      "id": "S14",
+      "type": "ficha",
+      "title": "The Integral Management Society",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/the-integral-management-society-s14/",
+      "original": "https://integralmanagement.ch/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "empresa"
+      ],
+      "summary": "Una sociedad científica dedicada a comprender la complejidad, preservar las capacidades esenciales y abrir nuevas posibilidades de adaptación.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-e198b1540263bd17cd",
+      "tagWeights": {
+        "empresa": 1
+      },
+      "contextTokens": 76,
+      "distance": 4,
+      "parent": "T1573",
+      "routeEdge": "navigation:position-nav-S14-T1573",
+      "affinity": 0.6
+    }
+  ],
+  "edges": [
+    {
+      "id": "contiene:doc-63aa9c575ad7473553-entrada:E2",
+      "from": "doc-63aa9c575ad7473553-entrada",
+      "to": "E2",
+      "kind": "ficha del documento",
+      "reading": "Esta pieza abre la lectura desde su documento de origen.",
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-E2-U2",
+      "from": "E2",
+      "to": "U2",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «JubAp.EU», el enlace «JubAp.us» abre «JubAp.US».",
+      "evidence": "https://jubap.eu/",
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-E2-N2",
+      "from": "E2",
+      "to": "N2",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «JubAp.EU», el enlace «JubAp.Net» abre «JubAp.Net».",
+      "evidence": "https://jubap.eu/",
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-E2-E1731",
+      "from": "E2",
+      "to": "E1731",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «JubAp.EU», el enlace «strategic-reframing account» abre «Reframing Value Creation».",
+      "evidence": "https://jubap.eu/",
+      "route": true
+    },
+    {
+      "id": "documento:R023",
+      "from": "E1731",
+      "to": "E1662",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Diamond Inside: discovering value already present](https://jubap.eu/the-diamond-inside-framework/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:R052",
+      "from": "E1524",
+      "to": "E1662",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The Diamond Inside value-discovery framework](https://jubap.eu/the-diamond-inside-framework/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-E1953-E2",
+      "from": "E1953",
+      "to": "E2",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «Car Evolution Mobility OS», el enlace «OÜ JUBAP / JubAp.eu» abre «JubAp.EU».",
+      "evidence": "https://jubap.eu/mobility/",
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-E1953-T1573",
+      "from": "E1953",
+      "to": "T1573",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «Car Evolution Mobility OS», el enlace «Tegrity.AI» abre «Tegrity.AI».",
+      "evidence": "https://jubap.eu/mobility/",
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-S14-T1573",
+      "from": "S14",
+      "to": "T1573",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «The Integral Management Society», el enlace «Tegrity.AI» abre «Tegrity.AI».",
+      "evidence": "https://integralmanagement.ch/",
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-N2-E2",
+      "from": "N2",
+      "to": "E2",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «JubAp.Net», el enlace «JubAp.EU» abre «JubAp.EU».",
+      "evidence": "https://jubap.net/",
+      "route": false
+    },
+    {
+      "id": "navigation:position-nav-N2-U2",
+      "from": "N2",
+      "to": "U2",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «JubAp.Net», el enlace «JubAp.US» abre «JubAp.US».",
+      "evidence": "https://jubap.net/",
+      "route": false
+    },
+    {
+      "id": "navigation:position-nav-T1573-S14",
+      "from": "T1573",
+      "to": "S14",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «Tegrity.AI», el enlace «The Integral Management Society» abre «The Integral Management Society».",
+      "evidence": "https://tegrity.ai/",
+      "route": false
+    },
+    {
+      "id": "navigation:position-nav-E1953-N2",
+      "from": "E1953",
+      "to": "N2",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «Car Evolution Mobility OS», el enlace «JubAp.Net» abre «JubAp.Net».",
+      "evidence": "https://jubap.eu/mobility/",
+      "route": false
+    }
+  ],
+  "selection": [
+    {
+      "id": "E2",
+      "type": "ficha",
+      "title": "JubAp.EU",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/jubap-eu-e2/",
+      "original": "https://jubap.eu/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "decision",
+        "empresa",
+        "navegacion",
+        "perspectiva",
+        "transformacion"
+      ],
+      "summary": "JubAp.eu supports high-stakes socio-technical transformations where technology, operating model or organizational decisions define long-term viability.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-63aa9c575ad7473553",
+      "tagWeights": {
+        "decision": 0.1,
+        "empresa": 0.45,
+        "navegacion": 0.05,
+        "perspectiva": 0.15,
+        "transformacion": 0.25
+      },
+      "contextTokens": 115,
+      "distance": 1,
+      "parent": "doc-63aa9c575ad7473553-entrada",
+      "routeEdge": null,
+      "affinity": 0.37
+    },
+    {
+      "id": "U2",
+      "type": "ficha",
+      "title": "JubAp.US",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/jubap-us-u2/",
+      "original": "https://jubap.us/",
+      "aliases": [],
+      "clusters": [
+        "us"
+      ],
+      "tags": [
+        "aprendizaje",
+        "decision",
+        "empresa",
+        "navegacion",
+        "transformacion"
+      ],
+      "summary": "Carve-outs, post-merger integration, joint ventures and SPVs. Operating models that connect people, information and execution.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-4133165018517e2690",
+      "tagWeights": {
+        "aprendizaje": 0.1,
+        "decision": 0.1,
+        "empresa": 0.4,
+        "navegacion": 0.05,
+        "transformacion": 0.35
+      },
+      "contextTokens": 117,
+      "distance": 2,
+      "parent": "E2",
+      "routeEdge": "navigation:position-nav-E2-U2",
+      "affinity": 0.38
+    },
+    {
+      "id": "N2",
+      "type": "ficha",
+      "title": "JubAp.Net",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/jubap-net-n2/",
+      "original": "https://jubap.net/",
+      "aliases": [],
+      "clusters": [
+        "net"
+      ],
+      "tags": [
+        "capacidad-humana",
+        "documentacion",
+        "empresa",
+        "navegacion",
+        "transformacion"
+      ],
+      "summary": "JubAp.Net is an engineering and operations unit with roots in the Barcelona Nokia R&D environment, built around critical systems and applied across different technology waves and industrial contexts.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-4b88133cc260c8d3a0",
+      "tagWeights": {
+        "capacidad-humana": 0.35,
+        "documentacion": 0.1,
+        "empresa": 0.25,
+        "navegacion": 0.05,
+        "transformacion": 0.25
+      },
+      "contextTokens": 126,
+      "distance": 2,
+      "parent": "E2",
+      "routeEdge": "navigation:position-nav-E2-N2",
+      "affinity": 0.25
+    },
+    {
+      "id": "E1731",
+      "type": "ficha",
+      "title": "Reframing Value Creation",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-reframing",
+      "original": "https://jubap.eu/reframing-value-creation/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "casos",
+        "control-minimo",
+        "decision",
+        "documentacion",
+        "economia",
+        "empresa",
+        "perspectiva"
+      ],
+      "summary": "El cambio de marco permite reconocer valor que ya existe en recursos, prácticas y relaciones. Una intervención puede comenzar por reorganizar esas capacidades y darles una forma que la organización pueda usar.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-4998b3d102aa89fd7f",
+      "tagWeights": {
+        "casos": 0.1053,
+        "control-minimo": 0.1053,
+        "decision": 0.1053,
+        "documentacion": 0.1053,
+        "economia": 0.1052,
+        "empresa": 0.2105,
+        "perspectiva": 0.2631
+      },
+      "contextTokens": 154,
+      "distance": 2,
+      "parent": "E2",
+      "routeEdge": "navigation:position-nav-E2-E1731",
+      "affinity": 0.1263
+    },
+    {
+      "id": "E1662",
+      "type": "ficha",
+      "title": "THE DIAMOND INSIDE FRAMEWORK",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/the-diamond-inside-framework-e1662/",
+      "original": "https://jubap.eu/the-diamond-inside-framework/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "control-minimo",
+        "economia",
+        "empresa",
+        "evidencia",
+        "memoria-territorio",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-d21d93f69ad55c7f28",
+      "tagWeights": {
+        "control-minimo": 0.0667,
+        "economia": 0.2667,
+        "empresa": 0.2333,
+        "evidencia": 0.1333,
+        "memoria-territorio": 0.0667,
+        "transformacion": 0.2333
+      },
+      "reading": "A JubAp / IMSV.org rationalization method · Developed through a three-year, 50+ Maison programme\n\nMost rationalization programmes begin by listing systems and ranking them for cost. In a uniform organization that can work. In a decentralized, heritage-rich group it quietly destroys value, because the things that make such a group valuable — local excellence, cultural identity, hard-won adaptations — rarely show up on a portfolio list as anything other than «duplicates.»\n\nThis is the trap the Cost of Clarity work names precisely: the information you would need to rationalize safely is treated as free, when in fact it is costly and often missing. Declaring a clean target architecture and cutting toward it is not a safe cleanup — it is a blind bet against value you cannot see. Diamond Inside is the operational answer to that bet: pay the cost of clarity up front, understand why each capability exists, and only then decide.\n\nRead the capability, its dependencies and tacit support before classifying an option. The luxury rationalization case supplies the field setting described by the method. Anything proposed for wider use then needs its own admission decision: local usefulness is evidence to examine, not automatic readiness to scale.\n\nThe programme stops asking «what can we remove?» and starts asking «what value is already inside the group that we cannot yet see — and which of it is worth scaling?»",
+      "readingSource": {
+        "url": "https://jubap.eu/the-diamond-inside-framework/",
+        "section": "Opening paragraphs",
+        "observed": "2026-11-04",
+        "sourceSha256": "355dd1f05505a4086029bee82577752000405620b064f1b1ee170ef12227c3e5"
+      },
+      "readingSummary": "A JubAp / IMSV.org rationalization method · Developed through a three-year, 50+ Maison programme\n\nMost rationalization programmes begin by listing systems and ranking them for cost.",
+      "contextTokens": 395,
+      "distance": 3,
+      "parent": "E1731",
+      "routeEdge": "documento:R023",
+      "affinity": 0.2333
+    },
+    {
+      "id": "E1524",
+      "type": "ficha",
+      "title": "Montblanc — Lightweight Product Intelligence for Luxury In-Store Conversion",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/montblanc-lightweight-product-intelligence-for-luxury-in-store-conversion-e1524/",
+      "original": "https://jubap.eu/montblanc-lightweight-product-intelligence-for-luxury-in-store-conversion/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "empresa"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-0d09f6eb9814f96587",
+      "tagWeights": {
+        "empresa": 1
+      },
+      "reading": "Montblanc operates one of the most complex product portfolios in premium retail. With strong brand awareness and consistent in-store traffic across a global network of more than 500 boutiques, the business priority it struggled to resolve was deceptively precise: understanding why a customer who enters the store does not complete a purchase.\n\nThat gap between traffic and conversion is structurally different in a luxury context than in mass retail. For a Maison whose product range spans fine writing instruments, Swiss-manufactured watches, leather goods and connected accessories, each production category operates at different volumes, with different cost structures and different regional demand patterns. Producing and allocating incorrectly in this environment is not just an inventory problem. It is a strategic risk.",
+      "readingSource": {
+        "url": "https://jubap.eu/montblanc-lightweight-product-intelligence-for-luxury-in-store-conversion/",
+        "section": "Opening paragraphs",
+        "observed": "2026-11-04",
+        "sourceSha256": "12f19e254aca12b1b653bfd157d36f8144cf9df7915b13c7222e410178b96f82"
+      },
+      "readingSummary": "Montblanc operates one of the most complex product portfolios in premium retail.",
+      "contextTokens": 232,
+      "distance": 4,
+      "parent": "E1662",
+      "routeEdge": "documento:R052",
+      "affinity": 0.6
+    },
+    {
+      "id": "E1953",
+      "type": "ficha",
+      "title": "Car Evolution Mobility OS",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-e1953/",
+      "original": "https://jubap.eu/mobility/",
+      "aliases": [],
+      "clusters": [
+        "mobility"
+      ],
+      "tags": [
+        "agentes",
+        "movilidad"
+      ],
+      "summary": "Cities, authorities and operators already hold the data, the fleets, the routes and the channels. What is added is the layer that turns them into coordinated decisions, in real time.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-509a767ebeba965190",
+      "tagWeights": {
+        "agentes": 0.1667,
+        "movilidad": 0.8333
+      },
+      "contextTokens": 105,
+      "distance": 2,
+      "parent": "E2",
+      "routeEdge": "navigation:position-nav-E1953-E2",
+      "affinity": 0
+    },
+    {
+      "id": "T1573",
+      "type": "ficha",
+      "title": "Tegrity.AI",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/tegrity-ai-t1573/",
+      "original": "https://tegrity.ai/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "control-minimo",
+        "decision",
+        "navegacion"
+      ],
+      "summary": "Tegrity.AI is an applied research, engineering and pre-standardization group of The Integral Management Society , a Swiss non-profit association based in Geneva. It advances AI Integrity Management through research, architecture, the review and development of standards, and technology for the common good.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-3365ae2ce02200034c",
+      "tagWeights": {
+        "control-minimo": 0.2222,
+        "decision": 0.2222,
+        "navegacion": 0.5556
+      },
+      "contextTokens": 129,
+      "distance": 3,
+      "parent": "E1953",
+      "routeEdge": "navigation:position-nav-E1953-T1573",
+      "affinity": 0
+    },
+    {
+      "id": "S14",
+      "type": "ficha",
+      "title": "The Integral Management Society",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/the-integral-management-society-s14/",
+      "original": "https://integralmanagement.ch/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "empresa"
+      ],
+      "summary": "Una sociedad científica dedicada a comprender la complejidad, preservar las capacidades esenciales y abrir nuevas posibilidades de adaptación.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-e198b1540263bd17cd",
+      "tagWeights": {
+        "empresa": 1
+      },
+      "contextTokens": 76,
+      "distance": 4,
+      "parent": "T1573",
+      "routeEdge": "navigation:position-nav-S14-T1573",
+      "affinity": 0.6
+    }
+  ],
+  "reading": "# Posicionamiento · JubAp.EU\nDocumento de origen: https://jubap.eu/\n\n## JubAp.EU\nJubAp.eu supports high-stakes socio-technical transformations where technology, operating model or organizational decisions define long-term viability.\nEtiquetas: Decisiones y responsabilidad 10.00%; Empresa y gestión 45.00%; Índices, contacto y políticas 5.00%; Cambio de perspectiva 15.00%; Transformación y continuidad operativa 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-eu-e2/\nDocumento de origen: https://jubap.eu/\n\nJubAp.EU → JubAp.US · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «JubAp.us» abre «JubAp.US».\nFuente de la relación: https://jubap.eu/\n\n## JubAp.US\nCarve-outs, post-merger integration, joint ventures and SPVs. Operating models that connect people, information and execution.\nEtiquetas: Aprendizaje y transmisión de capacidades 10.00%; Decisiones y responsabilidad 10.00%; Empresa y gestión 40.00%; Índices, contacto y políticas 5.00%; Transformación y continuidad operativa 35.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-us-u2/\nDocumento de origen: https://jubap.us/\n\nJubAp.EU → JubAp.Net · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «JubAp.Net» abre «JubAp.Net».\nFuente de la relación: https://jubap.eu/\n\n## JubAp.Net\nJubAp.Net is an engineering and operations unit with roots in the Barcelona Nokia R&D environment, built around critical systems and applied across different technology waves and industrial contexts.\nEtiquetas: Capacidad humana y deuda de inteligencia 35.00%; Investigación y documentación técnica 10.00%; Empresa y gestión 25.00%; Índices, contacto y políticas 5.00%; Transformación y continuidad operativa 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-net-n2/\nDocumento de origen: https://jubap.net/\n\nJubAp.EU → Reframing Value Creation · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «strategic-reframing account» abre «Reframing Value Creation».\nFuente de la relación: https://jubap.eu/\n\n## Reframing Value Creation\nEl cambio de marco permite reconocer valor que ya existe en recursos, prácticas y relaciones. Una intervención puede comenzar por reorganizar esas capacidades y darles una forma que la organización pueda usar.\nEtiquetas: Casos de uso y aplicaciones 10.53%; Control mínimo y suficiencia 10.53%; Decisiones y responsabilidad 10.53%; Investigación y documentación técnica 10.53%; Economía, costes y liquidez 10.52%; Empresa y gestión 21.05%; Cambio de perspectiva 26.31%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-reframing\nDocumento de origen: https://jubap.eu/reframing-value-creation/\n\nReframing Value Creation → THE DIAMOND INSIDE FRAMEWORK · editorial comparison. For a complementary reading, see [Diamond Inside: discovering value already present](https://jubap.eu/the-diamond-inside-framework/).\n\n## THE DIAMOND INSIDE FRAMEWORK\nA JubAp / IMSV.org rationalization method · Developed through a three-year, 50+ Maison programme\n\nMost rationalization programmes begin by listing systems and ranking them for cost. In a uniform organization that can work. In a decentralized, heritage-rich group it quietly destroys value, because the things that make such a group valuable — local excellence, cultural identity, hard-won adaptations — rarely show up on a portfolio list as anything other than «duplicates.»\n\nThis is the trap the Cost of Clarity work names precisely: the information you would need to rationalize safely is treated as free, when in fact it is costly and often missing. Declaring a clean target architecture and cutting toward it is not a safe cleanup — it is a blind bet against value you cannot see. Diamond Inside is the operational answer to that bet: pay the cost of clarity up front, understand why each capability exists, and only then decide.\n\nRead the capability, its dependencies and tacit support before classifying an option. The luxury rationalization case supplies the field setting described by the method. Anything proposed for wider use then needs its own admission decision: local usefulness is evidence to examine, not automatic readiness to scale.\n\nThe programme stops asking «what can we remove?» and starts asking «what value is already inside the group that we cannot yet see — and which of it is worth scaling?»\nEtiquetas: Control mínimo y suficiencia 6.67%; Economía, costes y liquidez 26.67%; Empresa y gestión 23.33%; Evidencia, procedencia y atribución 13.33%; Memoria, comunidad y territorio 6.67%; Transformación y continuidad operativa 23.33%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/the-diamond-inside-framework-e1662/\nDocumento de origen: https://jubap.eu/the-diamond-inside-framework/\n\nMontblanc — Lightweight Product Intelligence for Luxury In-Store Conversion → THE DIAMOND INSIDE FRAMEWORK · editorial comparison. For a complementary reading, see [The Diamond Inside value-discovery framework](https://jubap.eu/the-diamond-inside-framework/).\n\n## Montblanc — Lightweight Product Intelligence for Luxury In-Store Conversion\nMontblanc operates one of the most complex product portfolios in premium retail. With strong brand awareness and consistent in-store traffic across a global network of more than 500 boutiques, the business priority it struggled to resolve was deceptively precise: understanding why a customer who enters the store does not complete a purchase.\n\nThat gap between traffic and conversion is structurally different in a luxury context than in mass retail. For a Maison whose product range spans fine writing instruments, Swiss-manufactured watches, leather goods and connected accessories, each production category operates at different volumes, with different cost structures and different regional demand patterns. Producing and allocating incorrectly in this environment is not just an inventory problem. It is a strategic risk.\nEtiquetas: Empresa y gestión 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/montblanc-lightweight-product-intelligence-for-luxury-in-store-conversion-e1524/\nDocumento de origen: https://jubap.eu/montblanc-lightweight-product-intelligence-for-luxury-in-store-conversion/\n\nCar Evolution Mobility OS → JubAp.EU · lectura enlazada desde el documento. Desde «Car Evolution Mobility OS», el enlace «OÜ JUBAP / JubAp.eu» abre «JubAp.EU».\nFuente de la relación: https://jubap.eu/mobility/\n\n## Car Evolution Mobility OS\nCities, authorities and operators already hold the data, the fleets, the routes and the channels. What is added is the layer that turns them into coordinated decisions, in real time.\nEtiquetas: Agentes y coordinación distribuida 16.67%; Movilidad e infraestructura 83.33%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-e1953/\nDocumento de origen: https://jubap.eu/mobility/\n\nCar Evolution Mobility OS → Tegrity.AI · lectura enlazada desde el documento. Desde «Car Evolution Mobility OS», el enlace «Tegrity.AI» abre «Tegrity.AI».\nFuente de la relación: https://jubap.eu/mobility/\n\n## Tegrity.AI\nTegrity.AI is an applied research, engineering and pre-standardization group of The Integral Management Society , a Swiss non-profit association based in Geneva. It advances AI Integrity Management through research, architecture, the review and development of standards, and technology for the common good.\nEtiquetas: Control mínimo y suficiencia 22.22%; Decisiones y responsabilidad 22.22%; Índices, contacto y políticas 55.56%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/tegrity-ai-t1573/\nDocumento de origen: https://tegrity.ai/\n\nThe Integral Management Society → Tegrity.AI · lectura enlazada desde el documento. Desde «The Integral Management Society», el enlace «Tegrity.AI» abre «Tegrity.AI».\nFuente de la relación: https://integralmanagement.ch/\n\n## The Integral Management Society\nUna sociedad científica dedicada a comprender la complejidad, preservar las capacidades esenciales y abrir nuevas posibilidades de adaptación.\nEtiquetas: Empresa y gestión 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/the-integral-management-society-s14/\nDocumento de origen: https://integralmanagement.ch/\n\n"
+}

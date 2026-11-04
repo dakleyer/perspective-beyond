@@ -6,7 +6,7 @@
 
 La [comparación ciega de seis preguntas](comparacion/README.md) dio tres preferencias al posicionamiento y tres empates en la última evaluación independiente. Se incorporaron extractos literales de las fuentes públicas en 154 fichas y una base de conceptos directamente sostenidos por el documento antes de ampliar por las etiquetas del visitante. El cierre conserva también una lectura de uso documentado cuando existe. Otro lector nuevo repitió las dos preguntas afectadas y mantuvo el empate y la preferencia del posicionamiento.
 
-La versión de cierre pasa 35 pruebas funcionales y 48 comprobaciones exactas de tokens. El protocolo y los registros de fichas permiten elegir la siguiente lectura con los porcentajes y costes de las vecinas. Los textos originales de los artículos y las relaciones conceptuales conservan su contenido.
+La versión de cierre pasa 36 pruebas funcionales y 48 comprobaciones exactas de tokens. El protocolo y los registros de fichas permiten elegir la siguiente lectura con los porcentajes y costes de las vecinas. Siete configuraciones calculadas entregan también el contexto y la cuenta completa a lectores que usan solo la web. La selección de cada paquete coincide con la del motor y los paquetes cerrados conservan exclusivamente su clúster. Los textos originales de los artículos y las relaciones conceptuales conservan su contenido.
 
 ## Qué se comprobó
 

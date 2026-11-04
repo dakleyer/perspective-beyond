@@ -1,5 +1,5 @@
 {
-  "tests": 35,
+  "tests": 36,
   "results": [
     {
       "name": "Every ficha has one source document",
@@ -139,6 +139,10 @@
     },
     {
       "name": "Documented use remains available before thematic expansion",
+      "pass": true
+    },
+    {
+      "name": "Configured web readings reproduce the engine and enforce closed scope",
       "pass": true
     }
   ]
