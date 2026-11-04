@@ -21,6 +21,22 @@ Cinco agentes nuevos recibieron únicamente una URL pública, una pregunta de vi
 
 El lector web empleado en estas conversaciones devolvió errores para algunas URLs de Pages. Los agentes recuperaron los textos públicos por HTTP y registraron ese recorrido. La entrada conserva la ruta equivalente de GitHub para lectores de texto.
 
+### Ronda posterior a la publicación de los ajustes
+
+Se crearon otros tres agentes sin historial y se les entregaron nuevas URLs de la versión [4d19db3](https://github.com/dakleyer/perspective-beyond/commit/4d19db3219ad3827667142afe8baf3a376f0e058). En conjunto, esta revisión comprende ocho agentes y nueve respuestas de visitante, incluida la selección en dos intervenciones de la visita E.
+
+| Visita | Función comprobada | Resultado observado |
+| --- | --- | --- |
+| F | Lectura exclusivamente web, sin terminal ni HTTP desde código; repetir la selección 70:30 que contenía una mayúscula. | Leyó la entrada y los textos mediante el espejo de GitHub indicado por el Atlas. Conservó Perspectiva 70 % y Empresa 30 %. Desarrolló la definición del problema, las expectativas de cada equipo y el cambio observable, con cuatro frases, ejemplo y pregunta final. |
+| G | Una etiqueta desconocida con peso 70 junto a Empresa con peso 30. | Pidió corregir solo la etiqueta desconocida; conservó Empresa y la configuración pendiente. Esperó la corrección antes de abrir fuentes o recalcular el reparto. |
+| H | Mapa desde el diálogo sobre vocabularios de los oficios; radio 2, máximo 12, empresa 0,5 y matemáticas 0,3, con mayúsculas. | Leyó y ejecutó los módulos públicos: 176 nodos alcanzables, 12 mostrados, pesos 62,5 % / 37,5 %. Reconstruyó un recorrido real y el sentido inverso de una de sus aristas. Identificó que el concepto matemático era alcanzable pero quedaba fuera de los doce mostrados. |
+
+Las lecturas recuperaron mecanismos diferentes del corpus: revisar cómo se formula el problema; distinguir admisión, decisión y resultado; transmitir juicio práctico mediante trabajo compartido; mantener apertura al asumir un papel; y aprender a reconstruir una rutina en vez de reproducirla solamente. Los ejemplos y ejercicios nuevos se presentaron como aplicaciones de los agentes.
+
+También se realizaron cinco comprobaciones en el selector publicado: recuperación 70:30, conservación de una instrucción especial en la URL, copia efectiva de esa URL, bloqueo de una selección con etiqueta desconocida y corrección explícita conservando rol y modo. [Resultados del selector](pruebas-selector.json). El registro de funciones contiene veinte comprobaciones, incluidas ocho comparaciones del recorrido de mapas con la versión anterior.
+
+Para repetir las visitas, usa la [entrada breve](https://dakleyer.github.io/perspective-beyond/atlas/entrada/dialogos/cerrado.txt), el [espejo de texto](https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/entrada/dialogos/cerrado.txt), el [índice conceptual](https://dakleyer.github.io/perspective-beyond/atlas/dialogos/indice.txt) o el [mapa de oficios con pesos](https://dakleyer.github.io/perspective-beyond/atlas/mapa/?centro=D-285&radio=2&max=12&red=ideas&peso=Empresa%3A0.5&peso=Matematicas%3A0.3). La conversación nueva debe recibir solo la URL configurada y su pregunta.
+
 El 4 de noviembre de 2026 se probaron cinco agentes en contextos separados. Los agentes recibieron una URL pública y una pregunta de visitante. Las comprobaciones observaron si podían abrir el material, conservar la configuración, escoger fuentes dentro del alcance y distinguir la aportación original de una lectura editorial o de una aplicación propuesta durante la conversación.
 
 [Selector del Atlas](https://dakleyer.github.io/perspective-beyond/atlas/#asistente) · [Guía y perfiles](https://dakleyer.github.io/perspective-beyond/atlas/guide.html) · [Protocolo del mapa](https://github.com/dakleyer/perspective-beyond/tree/main/docs/atlas/mapa#readme)

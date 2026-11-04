@@ -1,0 +1,25 @@
+{
+  "tests": 5,
+  "results": [
+    {
+      "name": "70:30 with a mixed-case key",
+      "pass": true
+    },
+    {
+      "name": "Special instruction survives URL generation",
+      "pass": true
+    },
+    {
+      "name": "Copy URL carries the selected instruction and weights",
+      "pass": true
+    },
+    {
+      "name": "Unknown weighted key blocks sharing and retains scope",
+      "pass": true
+    },
+    {
+      "name": "Explicit correction keeps role and mode and enables sharing",
+      "pass": true
+    }
+  ]
+}
