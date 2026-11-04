@@ -31,6 +31,8 @@ async function json(url) {
 async function start() {
   const delta = await json('global-catalog.json');
   const base = await json(delta.canonical);
+  base.concepts.push(...(delta.concepts||[]));
+  base.relations.push(...(delta.concept_relations||[]));
   const clusters = delta.clusters;
   const keys = Object.keys(clusters);
   const membership = delta.source_cluster;
@@ -41,12 +43,13 @@ async function start() {
   const cross = edges.filter(e=>membership[e.from]!==membership[e.to]);
   const outgoing = key => cross.filter(e=>membership[e.from]===key);
   const sourcePage = r => new URL(delta.editorial_cards[r.id]?.url || '../sources/'+r.slug+'/',pageRoot).href;
-  const conceptPage = c => new URL('../concepts/'+c.slug+'/',pageRoot).href;
+  const conceptPage = c => new URL(c.url||'../concepts/'+c.slug+'/',pageRoot).href;
   const counts = Object.fromEntries(keys.map(k=>[k,records.filter(r=>membership[r.id]===k).length]));
   const params = new URLSearchParams(location.search);
   const defaultSite = Object.hasOwn(clusters,params.get('site')) ? params.get('site') : 'all';
   const origin = get('origin'), mode = get('mode'), bridge = get('bridge'), purpose = get('purpose');
   const filter = get('filter'), kind = get('kind'), query = get('query');
+  query.value = params.get('buscar') || '';
 
   for (const select of [origin,filter]) {
     select.add(new Option('Toda la constelación','all'));
@@ -83,7 +86,7 @@ async function start() {
         box.append(link(item.url,'Abrir original'));
       } else {
         heading.append(link(conceptPage(item),item.original_label||item.label));
-        box.append(heading,element('p',item.definition),link(new URL('../?focus='+encodeURIComponent(item.id)+'#atlas',pageRoot),'Ver en el grafo'));
+        box.append(heading,element('p',item.definition),link(item.url?conceptPage(item):new URL('../?focus='+encodeURIComponent(item.id)+'#atlas',pageRoot),'Ver en el grafo'));
       }
       result.append(box);
     }
