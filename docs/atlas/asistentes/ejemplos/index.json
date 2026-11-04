@@ -1,0 +1,215 @@
+{
+  "schema": "perspective-beyond/assistant-source-v1",
+  "revision": "2d9cbf5b120f4280cb8a9d22e01ede3925e7325e",
+  "edition": "2026-11-04-mantenimiento-mapa-1",
+  "graphSha256": "8733a98ca9844a1b5f85096f6b68c910bda9d1aed95e0192c359522a1a641ece",
+  "examples": [
+    {
+      "slug": "arquitectura-y-lenguajes",
+      "title": "Pensar entre lenguajes y oficios",
+      "description": "La arquitectura como capacidad para reconocer estructuras y construir traducciones que sirven para operar.",
+      "point": "D-285",
+      "weights": [
+        [
+          "empresa",
+          50
+        ],
+        [
+          "matematicas",
+          50
+        ]
+      ],
+      "role": "embajador",
+      "purpose": "paraphrase",
+      "format": "conversacion",
+      "instruction": "Explica el pensamiento documentado de Iván Abril con su vocabulario arquitectónico y un ejemplo de traducción entre dos oficios.",
+      "configuration": "posicionamiento=D-285&tokens=2000&max=60&red=ideas&sentido=ambas&modo=federated&rol=embajador&lectura=paraphrase&enfoque=personalizado&instruccion=Explica+el+pensamiento+documentado+de+Iv%C3%A1n+Abril+con+su+vocabulario+arquitect%C3%B3nico+y+un+ejemplo+de+traducci%C3%B3n+entre+dos+oficios.&peso=tema%3Aempresa%3A50&peso=tema%3Amatematicas%3A50",
+      "text": "ejemplos/arquitectura-y-lenguajes.txt",
+      "html": "ejemplos/arquitectura-y-lenguajes.html",
+      "selected": [
+        "D-285",
+        "D-029",
+        "D-054",
+        "dg-structure"
+      ],
+      "relations": [
+        "documento:dialogue-expansion-D-285-D-029",
+        "documento:dg-073",
+        "apoyo:D-285:dg-structure",
+        "apoyo:D-029:dg-structure"
+      ],
+      "bytes": 10940,
+      "sha256": "7edbef025d715cba3d125b9fa038ceb17fac775953ef9596ece1b516ded9463c",
+      "readingBudget": {
+        "limit": 2000,
+        "used": 1721,
+        "remaining": 279,
+        "nextBlock": 364,
+        "encoding": "o200k_base",
+        "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
+      }
+    },
+    {
+      "slug": "conocimiento-tacito",
+      "title": "Conservar la capacidad que hace funcionar las cosas",
+      "description": "Conocimiento tácito, juicio de campo y transmisión de capacidades en los Tiger Teams.",
+      "point": "N1287",
+      "weights": [
+        [
+          "capacidad-humana",
+          70
+        ],
+        [
+          "empresa",
+          30
+        ]
+      ],
+      "role": "consultor",
+      "purpose": "ideas",
+      "format": "web",
+      "instruction": "Explica cómo conservar el juicio de las personas al rediseñar una organización; muestra el mecanismo y su aplicación práctica.",
+      "configuration": "posicionamiento=N1287&tokens=2000&max=60&red=ideas&sentido=ambas&modo=federated&rol=consultor&lectura=ideas&enfoque=personalizado&instruccion=Explica+c%C3%B3mo+conservar+el+juicio+de+las+personas+al+redise%C3%B1ar+una+organizaci%C3%B3n%3B+muestra+el+mecanismo+y+su+aplicaci%C3%B3n+pr%C3%A1ctica.&peso=tema%3Acapacidad-humana%3A70&peso=tema%3Aempresa%3A30",
+      "text": "ejemplos/conocimiento-tacito.txt",
+      "html": "ejemplos/conocimiento-tacito.html",
+      "selected": [
+        "N1287",
+        "C60",
+        "C77",
+        "C39",
+        "C65",
+        "D-059",
+        "GH037"
+      ],
+      "relations": [
+        "apoyo:N1287:C60",
+        "apoyo:N1287:C77",
+        "apoyo:N1287:C39",
+        "apoyo:N1287:C65",
+        "documento:dg-183",
+        "documento:G073",
+        "apoyo:GH037:C39",
+        "concepto:F002"
+      ],
+      "bytes": 13059,
+      "sha256": "b0d56fbe75b55803e467509c9fd58661081aed41a318dbf5b653e75718b8cc1a",
+      "readingBudget": {
+        "limit": 2000,
+        "used": 1886,
+        "remaining": 114,
+        "nextBlock": 405,
+        "encoding": "o200k_base",
+        "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
+      }
+    },
+    {
+      "slug": "integridad-estructural",
+      "title": "Observar la estructura que sostiene una decisión",
+      "description": "Conciencia estructural y relaciones entre integridad, representación y sistemas adaptativos.",
+      "point": "T1499",
+      "weights": [
+        [
+          "representacion",
+          50
+        ],
+        [
+          "evidencia",
+          50
+        ]
+      ],
+      "role": "investigador",
+      "purpose": "explore",
+      "format": "audio",
+      "instruction": "Prepara una explicación hablada de las ideas y de las relaciones documentadas en esta selección.",
+      "configuration": "posicionamiento=T1499&tokens=2000&max=60&red=ideas&sentido=ambas&modo=federated&rol=investigador&lectura=explore&enfoque=personalizado&instruccion=Prepara+una+explicaci%C3%B3n+hablada+de+las+ideas+y+de+las+relaciones+documentadas+en+esta+selecci%C3%B3n.&peso=tema%3Aevidencia%3A50&peso=tema%3Arepresentacion%3A50",
+      "text": "ejemplos/integridad-estructural.txt",
+      "html": "ejemplos/integridad-estructural.html",
+      "selected": [
+        "T1499",
+        "G18",
+        "G20",
+        "G32",
+        "G34",
+        "C50",
+        "GH003",
+        "GH001",
+        "sac-cc1d3b02348467",
+        "N1876"
+      ],
+      "relations": [
+        "apoyo:T1499:G18",
+        "apoyo:T1499:G20",
+        "apoyo:T1499:G32",
+        "apoyo:T1499:G34",
+        "apoyo:T1499:C50",
+        "apoyo:GH003:C50",
+        "documento:sac-rel-49f2404e9f9d04",
+        "documento:sac-rel-2bc91b57bbaf47",
+        "apoyo:N1876:C50",
+        "documento:G001",
+        "documento:G069",
+        "documento:sac-rel-38ac7fe354ba5a",
+        "apoyo:GH001:C50",
+        "concepto:B461",
+        "concepto:B467",
+        "concepto:B538",
+        "concepto:B544"
+      ],
+      "bytes": 13575,
+      "sha256": "b866f1783e07205533364ddae6fd18eed6bf8fc1b37fe7b11ecdff83aaa1e925",
+      "readingBudget": {
+        "limit": 2000,
+        "used": 1783,
+        "remaining": 217,
+        "nextBlock": 490,
+        "encoding": "o200k_base",
+        "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
+      }
+    },
+    {
+      "slug": "valor-y-ejecucion",
+      "title": "De una intención empresarial a una capacidad operativa",
+      "description": "Creación de valor, coordinación entre actores y ejecución en el entorno americano.",
+      "point": "U2",
+      "weights": [
+        [
+          "empresa",
+          60
+        ],
+        [
+          "transformacion",
+          40
+        ]
+      ],
+      "role": "consultor",
+      "purpose": "ideas",
+      "format": "video",
+      "instruction": "Explica cómo se convierte una intención de negocio en ejecución coordinada y capacidad que permanece.",
+      "configuration": "posicionamiento=U2&tokens=2000&max=60&red=ideas&sentido=ambas&modo=federated&rol=consultor&lectura=ideas&enfoque=personalizado&instruccion=Explica+c%C3%B3mo+se+convierte+una+intenci%C3%B3n+de+negocio+en+ejecuci%C3%B3n+coordinada+y+capacidad+que+permanece.&peso=tema%3Aempresa%3A60&peso=tema%3Atransformacion%3A40",
+      "text": "ejemplos/valor-y-ejecucion.txt",
+      "html": "ejemplos/valor-y-ejecucion.html",
+      "selected": [
+        "U2",
+        "E2",
+        "U1312",
+        "U1322",
+        "U1325"
+      ],
+      "relations": [
+        "navigation:position-nav-E2-U2",
+        "navigation:position-nav-U2-U1312",
+        "navigation:position-nav-U2-U1322",
+        "navigation:position-nav-U2-U1325"
+      ],
+      "bytes": 13879,
+      "sha256": "9d81b7009efe83d969e70dfee7484e44f7e32715265accccb63632ca32e027b9",
+      "readingBudget": {
+        "limit": 2000,
+        "used": 1938,
+        "remaining": 62,
+        "nextBlock": 175,
+        "encoding": "o200k_base",
+        "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
+      }
+    }
+  ]
+}

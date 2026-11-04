@@ -40,3 +40,9 @@ GitHub research links preserve the commit referenced by the edition or source re
 [Revisión histórica y de navegación · 4 de noviembre de 2026](docs/atlas/mapa/REVISION-20261104-2.md)
 
 Desde un clon del repositorio, `node tools/check-atlas-history.mjs` comprueba las fichas, relaciones y asociaciones de todas las ediciones anteriores. `node tools/check-atlas-history.mjs --self-test` ejecuta sus siete controles. `python tools/check-atlas-links.py` revisa los archivos y anclas de los enlaces internos publicados. Ambos leen los objetos de Git sin escribir copias del contenido.
+
+## Fuentes autocontenidas para asistentes
+
+[Abrir el producto](https://dakleyer.github.io/perspective-beyond/atlas/asistentes/) · [README del producto](docs/atlas/asistentes/README.md) · [Probar una fuente de texto](https://dakleyer.github.io/perspective-beyond/atlas/asistentes/ejemplos/arquitectura-y-lenguajes.txt)
+
+Un archivo compacto reúne textos, relaciones, referencias y configuración de una selección del Atlas. El asistente del lector puede conversar sobre ese pensamiento o darle forma de web, audio, vídeo o documento. Cada mini mapa permite descargar su propia fuente autocontenida.

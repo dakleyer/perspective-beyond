@@ -1,4 +1,5 @@
 import {readPosition,positionMap,positionParams} from '../positioning.mjs';
+import {assistantSource} from '../asistentes/source.mjs';
 const get=id=>document.getElementById(id),ns='http://www.w3.org/2000/svg';
 const initial=new URLSearchParams(location.search),embedded=initial.get('embed')==='1';
 if(embedded)document.body.classList.add('embed');
@@ -59,9 +60,9 @@ async function start(){
   get('node-list').replaceChildren(...r.nodes.map(n=>{const li=element('li'),b=element('button',n.title+' · '+type(n));b.type='button';b.dataset.id=n.id;b.addEventListener('click',()=>inspect(n.id));li.append(b);return li;}));
   get('reading').textContent=r.reading;get('accounting').textContent='Cuenta de lectura con '+r.budget.encoding+': '+r.budget.accounting;
   get('document-cards').replaceChildren(...(r.position.fichas.length?r.position.fichas:r.position.entrySources??[]).map(id=>{const li=element('li');li.append(link(all.get(id).url,all.get(id).title));return li;}));
-  get('open-full').hidden=!embedded;get('open-full').href=mapURL(r.request).href;get('status').textContent='';for(const id of ['copy-link','copy-assistant','download-text','download-json'])get(id).disabled=false;draw();inspect(selected);
+  get('open-full').hidden=!embedded;get('open-full').href=mapURL(r.request).href;get('status').textContent='';for(const id of ['copy-link','copy-assistant','download-text','download-json','download-source'])get(id).disabled=false;draw();inspect(selected);
  }
- function update(p,change){try{display(positionMap(graph,readPosition(p,graph)));if(change)history.replaceState(null,'',mapURL(result.request));}catch(e){get('status').textContent=e.message;for(const id of ['copy-link','copy-assistant','download-text','download-json'])get(id).disabled=true;}}
+ function update(p,change){try{display(positionMap(graph,readPosition(p,graph)));if(change)history.replaceState(null,'',mapURL(result.request));}catch(e){get('status').textContent=e.message;for(const id of ['copy-link','copy-assistant','download-text','download-json','download-source'])get(id).disabled=true;}}
  get('settings').addEventListener('submit',e=>{e.preventDefault();const p=new URLSearchParams(new FormData(get('settings')));for(const key of ['rol','lectura','enfoque','instruccion'])if(initial.has(key))p.set(key,initial.get(key));for(const[k,v]of weights)p.append('peso',k+':'+v);if(!get('only').checked)p.delete('solo');update(p,true);});
  get('extra').addEventListener('change',draw);
  async function copy(text){get('copy-fallback').value=text;try{await navigator.clipboard.writeText(text);get('status').textContent='Copiado.';}catch{get('copy-fallback').hidden=false;get('copy-fallback').focus();get('copy-fallback').select();}}
@@ -70,6 +71,7 @@ async function start(){
  function download(text,name,mime){const u=URL.createObjectURL(new Blob([text],{type:mime})),a=link(u,name);a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),1000);}
  get('download-text').addEventListener('click',()=>download(result.reading,'atlas-posicionamiento.md','text/markdown;charset=utf-8'));
  get('download-json').addEventListener('click',()=>download(JSON.stringify(result,null,2),'atlas-posicionamiento.json','application/json;charset=utf-8'));
+ get('download-source').addEventListener('click',()=>{try{const source=assistantSource(result,graph,{format:get('source-format').value});download(source.text,'atlas-fuente-asistente.txt','text/plain;charset=utf-8');get('status').textContent='Fuente autocontenida descargada: textos, relaciones y configuración.';}catch(e){get('status').textContent=e.message;}});
  let request;try{request=readPosition(initial,graph);}catch(e){get('status').textContent=e.message;}
  const defaults=request??readPosition(new URLSearchParams(),graph);
  get('position').value=request?.posicionamiento??initial.get('posicionamiento')??initial.get('centro')??defaults.posicionamiento;get('tokens').value=defaults.tokens;get('limit').value=defaults.max;get('site').value=defaults.site??all.get(defaults.position.focus??defaults.position.seeds?.[0]??defaults.position.fichas[0])?.clusters[0]??'all';get('mode').value=defaults.modo;get('network').value=defaults.red;get('direction').value=defaults.sentido;bridges();if(defaults.puente)get('bridge').value=defaults.puente;
