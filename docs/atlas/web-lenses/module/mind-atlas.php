@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name: Mind Atlas — ventanas del grafo compartido
- * Description: Selecciones de lectura con pesos, tokens y conexiones al Atlas Mental. Conserva los mapas y textos de las páginas.
+ * Plugin Name: Mind Atlas — shared graph windows
+ * Description: Reading selections with weights, tokens and connections to Mind Atlas. Preserves page maps and text.
  * Version: 1.0.0
  * License: GPL-2.0-or-later
  */

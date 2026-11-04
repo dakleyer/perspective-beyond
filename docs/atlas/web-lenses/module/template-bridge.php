@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name: Mind Atlas — enlace de plantillas especiales
- * Description: Conecta las portadas y cronologías que usan una plantilla propia con el mismo Atlas Mental.
+ * Plugin Name: Mind Atlas — custom template bridge
+ * Description: Connects home pages and timelines using a custom template to the same Mind Atlas.
  * Version: 1.0.0
  */
 if(!defined('ABSPATH'))exit;
