@@ -10,7 +10,7 @@ El registro de páginas enlaza URL pública, título, clúster y fichas ya regis
 
 ## Contexto de la entrada
 
-- `page`: URL pública de la página original, sin datos de previsualización.
+- `page` (o `desde` en el lector WordPress): URL pública de la página original, sin datos de previsualización.
 - `posicionamiento`: identificador existente o documento de origen.
 - `fichas`: identificadores ya vinculados con esa página.
 - `cluster`: perspectiva inicial; Mobility conserva su contexto dentro de JubAp.eu.
