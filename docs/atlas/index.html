@@ -27,21 +27,21 @@ input,select,textarea{max-width:100%;border:1px solid #938b7c;background:white;c
 .focus-row input{width:100%}.focus-target{width:min(100%,31rem)}
 @media(max-width:33rem){.focus-row{grid-template-columns:minmax(0,1fr) 5rem auto}.focus-row button{grid-column:1/-1;justify-self:start}}
 </style>
-<script src="global.js?v=perfiles-1" defer></script>
+<script src="global.js?v=etiquetas-1" defer></script>
 </head>
 <body><main>
 <header>
 <p class="label">Perspective Beyond · Atlas de Pensamiento Abierto</p>
 <h1>Atlas global</h1>
 <p class="lead">Explora una sola constelación de ideas, casos y fuentes. Cada clúster ofrece un punto de entrada al mismo corpus, desde Nueva Perspectiva y el Totonacapan hasta la transformación, la ingeniería y la investigación.</p>
-<nav class="nav" aria-label="Entradas del Atlas"><a class="button" href="#asistente">Conecta tu asistente</a><a href="#explorar">Buscar fichas y conceptos</a><a href="../#atlas">Abrir el grafo conceptual</a><a href="../constelacion/#mapa">Mapa de Nueva Perspectiva</a><a href="dialogos/">Diálogos en red</a></nav>
+<nav class="nav" aria-label="Entradas del Atlas"><a class="button" href="#asistente">Conecta tu asistente</a><a href="#explorar">Buscar fichas y conceptos</a><a href="../#atlas">Abrir el grafo conceptual</a><a href="../constelacion/#mapa">Mapa de Nueva Perspectiva</a><a href="dialogos/">Diálogos en red</a><a href="github/">Structural Awareness en GitHub</a></nav>
 <p id="metrics" class="metric" role="status">Cargando el catálogo público…</p>
 </header>
 <section id="explorar" class="panel" aria-labelledby="explore-title">
 <p class="label">Explorador común</p><h2 id="explore-title">Clústeres, fichas y fuentes</h2>
 <div id="clusters" class="grid"></div>
 <div id="search-panel" hidden>
-<div class="row"><label for="query">Buscar</label><input type="search" id="query" placeholder="Ej. JUMP UP, xSeil, atribución"><label for="filter">Ámbito</label><select id="filter"></select><label for="kind">Ver</label><select id="kind"><option value="source">Fichas y fuentes</option><option value="concept">Conceptos</option></select></div>
+<div class="row"><label for="query">Buscar</label><input type="search" id="query" placeholder="Ej. JUMP UP, xSeil, atribución"><label for="filter">Ámbito</label><select id="filter"></select><label for="topic-filter">Etiqueta</label><select id="topic-filter"><option value="">Todas las etiquetas</option></select><label for="kind">Ver</label><select id="kind"><option value="source">Fichas y fuentes</option><option value="concept">Conceptos</option></select></div>
 <p id="result-count" class="metric" role="status"></p><div id="results" class="grid record-list"></div>
 <div class="row"><button id="more" type="button" class="secondary" hidden>Mostrar más</button></div>
 </div>
@@ -74,6 +74,7 @@ input,select,textarea{max-width:100%;border:1px solid #938b7c;background:white;c
 <p class="hint">Combina clústeres y etiquetas. Los pesos son relativos y el Atlas los convierte en un reparto de 100 %.</p>
 <div class="row"><label for="focus-target">Clúster o etiqueta</label><select id="focus-target" class="focus-target"></select><button type="button" class="secondary" id="focus-add">Añadir peso</button></div>
 <div id="focus-rows"></div>
+<label><input type="checkbox" id="only-topics"> Usar solo las fichas de las etiquetas temáticas elegidas</label>
 </div>
 <p class="hint" id="focus-preview" role="status"></p>
 </details>

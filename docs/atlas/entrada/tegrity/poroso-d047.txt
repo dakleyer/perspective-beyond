@@ -16,8 +16,8 @@ Tipo: analogy only · An operationally useful solution must meet its response wi
 CONFIGURACIÓN DE LA SESIÓN
 URL general sin parámetros de selección. Pregunta en un solo mensaje qué quiere explorar y cómo quiere trabajar. Ofrece los clústeres de abajo, los alcances Cerrado (solo un clúster), Poroso (un puente elegido) y Federado (varios clústeres por relaciones registradas). Ofrece un rol, un propósito y un enfoque. Lee el índice de etiquetas y muestra opciones concretas que encajen en el alcance. Si el lector elige Ponderado, pídele las etiquetas y sus pesos relativos. Acepta que delegue las decisiones.
 URL de un clúster sin parámetros de selección. Usa el origen, el alcance y el puente de la ruta. Pregunta por el rol, propósito y enfoque. Ofrece etiquetas pertinentes dentro de ese alcance.
-URL configurada (config=1). Aplica directamente rol, lectura, enfoque, peso e instruccion de la URL original. Si ya hay una pregunta, respóndela. Si falta la pregunta, pide solo qué quiere explorar. Si falta una selección imprescindible o un valor es incompatible, pregunta solo por esa selección. Para enlaces parciales anteriores, conserva las selecciones válidas y pregunta por las que falten.
-Para cambiar de alcance, abre la entrada correspondiente. Usa la lista de abajo para Cerrado y el registro text_entries del catálogo para Federado y Poroso. Antes de elegir Poroso, ofrece puentes documentados y su dirección. Los parámetros de personalización organizan la lectura dentro del alcance definido por la ruta.
+URL configurada (config=1). Aplica directamente rol, lectura, enfoque, peso, solo e instruccion de la URL original. Si ya hay una pregunta, respóndela. Si falta la pregunta, pide solo qué quiere explorar. Si falta una selección imprescindible o un valor es incompatible, pregunta solo por esa selección. Para enlaces parciales anteriores, conserva las selecciones válidas y pregunta por las que falten.
+Para cambiar de alcance, abre la entrada correspondiente. Usa la lista de abajo para Cerrado y el registro de rutas para Federado y Poroso. Antes de elegir Poroso, ofrece puentes documentados y su dirección. Los parámetros de personalización organizan la lectura dentro del alcance definido por la ruta.
 instruccion es texto opcional del lector, de hasta 500 caracteres, aplicable a cualquier rol. Úsalo para adaptar estilo y método de trabajo dentro del alcance y con atribución a las fuentes.
 Roles (rol):
 - lector · Guía de lectura. Explica las ideas y orienta al lector hacia las fichas y los originales pertinentes.
@@ -35,9 +35,10 @@ Si el lector delega, empieza con Guía de lectura, Parafrasear y explicar y enfo
 
 ENFOQUE DE LECTURA
 Parejo reparte la atención entre perspectivas pertinentes. Transversal prioriza las conexiones entre etiquetas o clústeres del alcance.
-enfoque=personalizado activa los parámetros peso repetidos. Tras decodificar cada valor, el último ':' separa la etiqueta del peso. Formato: peso=cluster:dialogos:150 o peso=concepto:dg-perspective:20. Las etiquetas también pueden empezar por voz:.
+enfoque=personalizado activa los parámetros peso repetidos. Tras decodificar cada valor, el último ':' separa la etiqueta del peso. Formato: peso=tema:matematicas:100, peso=cluster:dialogos:150 o peso=concepto:dg-perspective:20. Las etiquetas también pueden empezar por voz:.
 Usa solo pesos positivos de etiquetas vinculadas a las fuentes permitidas. Divide cada peso entre la suma de los pesos válidos. Un peso único equivale al 100 %. Si no quedan pesos válidos, pregunta o usa Parejo.
 Aplica los porcentajes a la prioridad de búsqueda y síntesis. Respeta el alcance y el puente de esta entrada. Cuando una ficha coincide con varias etiquetas, úsala una vez. Para una perspectiva documentada, distingue su voz de tu interpretación.
+solo=1 limita la sesión a fichas que lleven al menos una de las etiquetas tema: con peso positivo. Usa el índice de cada etiqueta para localizar sus fichas y cruza sus clústeres con el alcance de esta entrada. Conserva solo las relaciones cuyos dos extremos cumplan el filtro. Si no hay etiqueta temática válida o fichas elegibles, pide ajustar la selección.
 Índice de etiquetas públicas y sus clústeres: https://dakleyer.github.io/perspective-beyond/atlas/enfoques.txt
 
 LECTURAS AUTORIZADAS
@@ -46,4 +47,4 @@ LECTURAS AUTORIZADAS
 
 Atlas web: https://dakleyer.github.io/perspective-beyond/atlas/
 Guía de lectura: https://dakleyer.github.io/perspective-beyond/atlas/guide.html
-Registro de etiquetas, puentes y entradas: https://dakleyer.github.io/perspective-beyond/atlas/global-catalog.json
+Registro de rutas y puentes: https://dakleyer.github.io/perspective-beyond/atlas/rutas.json

@@ -1,0 +1,882 @@
+{
+  "base": "https://dakleyer.github.io/perspective-beyond/atlas/",
+  "text_entries": {
+    "global": "entrada.txt",
+    "clusters": {
+      "eu": {
+        "closed": "entrada/eu/cerrado.txt",
+        "federated": "entrada/eu/federado.txt",
+        "porous": {
+          "D013": "entrada/eu/poroso-d013.txt",
+          "D033": "entrada/eu/poroso-d033.txt",
+          "D034": "entrada/eu/poroso-d034.txt",
+          "D053": "entrada/eu/poroso-d053.txt",
+          "A045": "entrada/eu/poroso-a045.txt",
+          "R020": "entrada/eu/poroso-r020.txt",
+          "D030": "entrada/eu/poroso-d030.txt",
+          "D040": "entrada/eu/poroso-d040.txt",
+          "M001": "entrada/eu/poroso-m001.txt",
+          "np-r26": "entrada/eu/poroso-np-r26.txt",
+          "np-r28": "entrada/eu/poroso-np-r28.txt",
+          "D054": "entrada/eu/poroso-d054.txt",
+          "R153": "entrada/eu/poroso-r153.txt",
+          "R222": "entrada/eu/poroso-r222.txt",
+          "B045": "entrada/eu/poroso-b045.txt",
+          "G072": "entrada/eu/poroso-g072.txt"
+        }
+      },
+      "net": {
+        "closed": "entrada/net/cerrado.txt",
+        "federated": "entrada/net/federado.txt",
+        "porous": {
+          "D003": "entrada/net/poroso-d003.txt",
+          "D004": "entrada/net/poroso-d004.txt",
+          "D005": "entrada/net/poroso-d005.txt",
+          "D001": "entrada/net/poroso-d001.txt",
+          "D002": "entrada/net/poroso-d002.txt",
+          "D009": "entrada/net/poroso-d009.txt",
+          "D023": "entrada/net/poroso-d023.txt",
+          "D035": "entrada/net/poroso-d035.txt",
+          "D037": "entrada/net/poroso-d037.txt",
+          "D007": "entrada/net/poroso-d007.txt",
+          "D036": "entrada/net/poroso-d036.txt",
+          "D049": "entrada/net/poroso-d049.txt",
+          "G069": "entrada/net/poroso-g069.txt",
+          "G070": "entrada/net/poroso-g070.txt",
+          "G071": "entrada/net/poroso-g071.txt"
+        }
+      },
+      "us": {
+        "closed": "entrada/us/cerrado.txt",
+        "federated": "entrada/us/federado.txt",
+        "porous": {
+          "D071": "entrada/us/poroso-d071.txt",
+          "A003": "entrada/us/poroso-a003.txt",
+          "A010": "entrada/us/poroso-a010.txt",
+          "D072": "entrada/us/poroso-d072.txt",
+          "M031": "entrada/us/poroso-m031.txt",
+          "A001": "entrada/us/poroso-a001.txt",
+          "D024": "entrada/us/poroso-d024.txt",
+          "D038": "entrada/us/poroso-d038.txt",
+          "D055": "entrada/us/poroso-d055.txt",
+          "A004": "entrada/us/poroso-a004.txt",
+          "A008": "entrada/us/poroso-a008.txt",
+          "R070": "entrada/us/poroso-r070.txt",
+          "B047": "entrada/us/poroso-b047.txt",
+          "G076": "entrada/us/poroso-g076.txt"
+        }
+      },
+      "tegrity": {
+        "closed": "entrada/tegrity/cerrado.txt",
+        "federated": "entrada/tegrity/federado.txt",
+        "porous": {
+          "D017": "entrada/tegrity/poroso-d017.txt",
+          "D018": "entrada/tegrity/poroso-d018.txt",
+          "D020": "entrada/tegrity/poroso-d020.txt",
+          "D021": "entrada/tegrity/poroso-d021.txt",
+          "D046": "entrada/tegrity/poroso-d046.txt",
+          "D047": "entrada/tegrity/poroso-d047.txt",
+          "D019": "entrada/tegrity/poroso-d019.txt",
+          "D025": "entrada/tegrity/poroso-d025.txt",
+          "D048": "entrada/tegrity/poroso-d048.txt",
+          "R202": "entrada/tegrity/poroso-r202.txt",
+          "R207": "entrada/tegrity/poroso-r207.txt",
+          "B046": "entrada/tegrity/poroso-b046.txt",
+          "B048": "entrada/tegrity/poroso-b048.txt",
+          "G074": "entrada/tegrity/poroso-g074.txt",
+          "G075": "entrada/tegrity/poroso-g075.txt",
+          "G078": "entrada/tegrity/poroso-g078.txt"
+        }
+      },
+      "imsv": {
+        "closed": "entrada/imsv/cerrado.txt",
+        "federated": "entrada/imsv/federado.txt",
+        "porous": {
+          "np-r25": "entrada/imsv/poroso-np-r25.txt",
+          "np-r23": "entrada/imsv/poroso-np-r23.txt",
+          "dg-180": "entrada/imsv/poroso-dg-180.txt"
+        }
+      },
+      "totonacapan": {
+        "closed": "entrada/totonacapan/cerrado.txt",
+        "federated": "entrada/totonacapan/federado.txt",
+        "porous": {
+          "np-r24": "entrada/totonacapan/poroso-np-r24.txt",
+          "np-r27": "entrada/totonacapan/poroso-np-r27.txt",
+          "dg-178": "entrada/totonacapan/poroso-dg-178.txt"
+        }
+      },
+      "mobility": {
+        "closed": "entrada/mobility/cerrado.txt",
+        "federated": "entrada/mobility/federado.txt",
+        "porous": {
+          "R224": "entrada/mobility/poroso-r224.txt",
+          "R142": "entrada/mobility/poroso-r142.txt",
+          "R143": "entrada/mobility/poroso-r143.txt",
+          "R145": "entrada/mobility/poroso-r145.txt",
+          "A047": "entrada/mobility/poroso-a047.txt",
+          "D056": "entrada/mobility/poroso-d056.txt",
+          "M045": "entrada/mobility/poroso-m045.txt",
+          "M046": "entrada/mobility/poroso-m046.txt",
+          "G079": "entrada/mobility/poroso-g079.txt"
+        }
+      },
+      "latinoempresa": {
+        "closed": "entrada/latinoempresa/cerrado.txt",
+        "federated": "entrada/latinoempresa/federado.txt",
+        "porous": {
+          "B004": "entrada/latinoempresa/poroso-b004.txt",
+          "B011": "entrada/latinoempresa/poroso-b011.txt",
+          "B017": "entrada/latinoempresa/poroso-b017.txt",
+          "B001": "entrada/latinoempresa/poroso-b001.txt",
+          "B002": "entrada/latinoempresa/poroso-b002.txt",
+          "B003": "entrada/latinoempresa/poroso-b003.txt",
+          "B012": "entrada/latinoempresa/poroso-b012.txt",
+          "B014": "entrada/latinoempresa/poroso-b014.txt",
+          "B018": "entrada/latinoempresa/poroso-b018.txt",
+          "B005": "entrada/latinoempresa/poroso-b005.txt",
+          "B006": "entrada/latinoempresa/poroso-b006.txt",
+          "B007": "entrada/latinoempresa/poroso-b007.txt",
+          "B022": "entrada/latinoempresa/poroso-b022.txt",
+          "G077": "entrada/latinoempresa/poroso-g077.txt",
+          "G099": "entrada/latinoempresa/poroso-g099.txt"
+        }
+      },
+      "research": {
+        "closed": "entrada/research/cerrado.txt",
+        "federated": "entrada/research/federado.txt",
+        "porous": {
+          "G010": "entrada/research/poroso-g010.txt",
+          "G013": "entrada/research/poroso-g013.txt",
+          "G018": "entrada/research/poroso-g018.txt",
+          "G001": "entrada/research/poroso-g001.txt",
+          "G007": "entrada/research/poroso-g007.txt",
+          "G008": "entrada/research/poroso-g008.txt",
+          "G011": "entrada/research/poroso-g011.txt",
+          "G017": "entrada/research/poroso-g017.txt",
+          "G034": "entrada/research/poroso-g034.txt",
+          "G002": "entrada/research/poroso-g002.txt",
+          "G003": "entrada/research/poroso-g003.txt",
+          "G004": "entrada/research/poroso-g004.txt",
+          "G025": "entrada/research/poroso-g025.txt",
+          "G033": "entrada/research/poroso-g033.txt",
+          "sac-rel-670ecd9f2771d7": "entrada/research/poroso-sac-rel-670ecd9f2771d7.txt",
+          "G005": "entrada/research/poroso-g005.txt",
+          "G014": "entrada/research/poroso-g014.txt",
+          "G043": "entrada/research/poroso-g043.txt"
+        }
+      },
+      "dialogos": {
+        "closed": "entrada/dialogos/cerrado.txt",
+        "federated": "entrada/dialogos/federado.txt",
+        "porous": {
+          "dg-182": "entrada/dialogos/poroso-dg-182.txt",
+          "dg-183": "entrada/dialogos/poroso-dg-183.txt",
+          "dg-184": "entrada/dialogos/poroso-dg-184.txt",
+          "dg-185": "entrada/dialogos/poroso-dg-185.txt",
+          "dg-181": "entrada/dialogos/poroso-dg-181.txt",
+          "dg-179": "entrada/dialogos/poroso-dg-179.txt",
+          "dg-186": "entrada/dialogos/poroso-dg-186.txt"
+        }
+      }
+    }
+  },
+  "bridges": {
+    "D013": {
+      "from": "eu",
+      "to": "net",
+      "title": "Piece Identity & Inventory Orchestration → Phylons Liquidity Orquestration",
+      "reading": "A stable object identity can support several operational views without collapsing their distinct permissions and responsibilities."
+    },
+    "D033": {
+      "from": "eu",
+      "to": "net",
+      "title": "Nestlé North America — Where JUBAP Was Named → Tiger Team Maturity Model",
+      "reading": "The Nestlé account describes codification and internal facilitator training, practices that can be compared with repeatability and learning in the maturity model."
+    },
+    "D034": {
+      "from": "eu",
+      "to": "net",
+      "title": "Nestlé North America — Where JUBAP Was Named → The Coordination Entropy Trap in Large Scale Programs",
+      "reading": "The liberation strategy and compressed accountability both focus attention, but operate through different social and organizational mechanisms."
+    },
+    "D053": {
+      "from": "eu",
+      "to": "us",
+      "title": "Event Intelligence → Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment",
+      "reading": "Event-level demand signals could be explored as contextual inputs to boutique workforce planning."
+    },
+    "A045": {
+      "from": "eu",
+      "to": "us",
+      "title": "The JUBAP Framework → Surviving Capability: Why the Field Celebrates What the Theory Condemns",
+      "reading": "The network example suggests a JUBAP leverage point in the funding and transfer rule itself: make the contributing node sustainable so the wider service can work."
+    },
+    "R020": {
+      "from": "eu",
+      "to": "us",
+      "title": "HR & Processess Rationalization → Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment",
+      "reading": "For a complementary reading, see [Americas workforce and scheduling architecture](https://jubap.us/luxury-group-hr-information-system-rationalization-smart-scheduling-capabilities-deployment/)."
+    },
+    "D030": {
+      "from": "eu",
+      "to": "tegrity",
+      "title": "Watchmaking Manufacturing Rationalization → The Minimal Information a Transformation Needs",
+      "reading": "The calibration example makes the minimum-information problem concrete: an application inventory alone may not reveal what would be lost."
+    },
+    "D040": {
+      "from": "eu",
+      "to": "tegrity",
+      "title": "Case Study: HT → Architectural Entropy: How Mediated Systems Spend Human “Exergy” and the Partial Irreversibility of Human Intelligence Debt",
+      "reading": "A testable question is whether newly perceived options become usable only when the operating architecture also permits action."
+    },
+    "M001": {
+      "from": "eu",
+      "to": "tegrity",
+      "title": "Greater China Robotics → Annex 7 — Reference Architecture and Implementation",
+      "reading": "Architectural translation could preserve not only interface fields but also their meaning, authority and validity conditions at each receiving operation."
+    },
+    "np-r26": {
+      "from": "eu",
+      "to": "imsv",
+      "title": "The JUBAP Framework → El manifiesto original de Nueva Perspectiva",
+      "reading": "El marco identifica Nueva Perspectiva como raíz de su modo de cambiar el nivel de observación."
+    },
+    "np-r28": {
+      "from": "eu",
+      "to": "imsv",
+      "title": "Nestlé North America — Where JUBAP Was Named → La encajonadora: un problema técnico y muchas perspectivas",
+      "reading": "Ambos relatos permiten comparar interdependencias entre áreas, respetando la identificación y el alcance de cada fuente."
+    },
+    "D054": {
+      "from": "eu",
+      "to": "mobility",
+      "title": "Piece Identity & Inventory Orchestration → Car Evolution Mobility OS – Product Annex",
+      "reading": "Identity, temporary allocation and responsibility transfer are distinct modeling questions in both piece and mobility orchestration."
+    },
+    "R153": {
+      "from": "eu",
+      "to": "mobility",
+      "title": "Mobility Operating System → Car Evolution Mobility OS",
+      "reading": "For a complementary reading, see [The Logistics and Mobility Unit](https://jubap.eu/mobility/)."
+    },
+    "R222": {
+      "from": "eu",
+      "to": "mobility",
+      "title": "Orchestration capabilities → Car Evolution Mobility OS",
+      "reading": "For a complementary reading, see [The Logistics and Mobility application unit](https://jubap.eu/mobility/)."
+    },
+    "B045": {
+      "from": "eu",
+      "to": "latinoempresa",
+      "title": "The JUBAP Framework → LA TRANSFORMACIÓN EMPRESARIAL A CORTO PLAZO ES POSIBLE.",
+      "reading": "For a historical explanation of the action filter, the early JUMP UP article shows why a precise intervention depends on preparation and practical entry conditions."
+    },
+    "G072": {
+      "from": "eu",
+      "to": "research",
+      "title": "The JUBAP Framework → Why bounded awareness may prevent mission drift without exhaustive domain knowledge",
+      "reading": "The framework’s perspective shift may motivate a later test of epistemic-limit awareness, without making its historical cases evidence that FH-C is already proven."
+    },
+    "D003": {
+      "from": "net",
+      "to": "eu",
+      "title": "xSeil VRP → Event Intelligence",
+      "reading": "The atomic-group distinction in transport offers a useful lens for defining indivisible commitments in luxury events."
+    },
+    "D004": {
+      "from": "net",
+      "to": "eu",
+      "title": "Phylons dynamic combinations → Case Study: Rationalization in Luxury",
+      "reading": "The distinction between safe pruning and heuristic ranking clarifies why application retirement requires its own evidence."
+    },
+    "D005": {
+      "from": "net",
+      "to": "eu",
+      "title": "Phylons dynamic combinations → Southeast Asia Shadow IT and Lakehouse model Rationalization",
+      "reading": "An interaction graph could help screen consolidation candidates, provided whole-group constraints are checked separately."
+    },
+    "D001": {
+      "from": "net",
+      "to": "us",
+      "title": "xSeil Functionality Analisis → Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment",
+      "reading": "The xSeil approach to precomputing feasible combinations could inform a bounded workforce-planning experiment."
+    },
+    "D002": {
+      "from": "net",
+      "to": "us",
+      "title": "xSeil: Scenario-Based Planning and Human-Governed Computation → Case Study: DMG MORI — Multilevel Post-Merger Integration, International Supply Chain Control & Mission-Critical Industrial Delivery (2013 – 2016)",
+      "reading": "Bounded repair in xSeil suggests a way to limit collateral change when an industrial delivery plan is disrupted."
+    },
+    "D009": {
+      "from": "net",
+      "to": "us",
+      "title": "Phylons relabeling cascades → Case Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management",
+      "reading": "Event time and knowledge time should remain distinct when reconstructing an audit decision."
+    },
+    "D023": {
+      "from": "net",
+      "to": "tegrity",
+      "title": "Tiger Team Governance Principles → Minimalistic Regime-Aware Early Warning Systems",
+      "reading": "Responsible abstention begins by declaring which operating conditions no longer justify continuing the intervention."
+    },
+    "D035": {
+      "from": "net",
+      "to": "tegrity",
+      "title": "GEPLAN – Mission-Critical Logistics Intelligence for PEMEX (2006-) → The Limits of AI Oversight",
+      "reading": "The GEPLAN interface illustrates why human authority needs usable decision context, not merely a confirmation button."
+    },
+    "D037": {
+      "from": "net",
+      "to": "tegrity",
+      "title": "The Formación Integral © JubAp.Net (JubAp.Net) School of Invisible Talent → Attribution Gap Measurement Protocol",
+      "reading": "The invisible-talent account could motivate a blinded recognition study while retaining a different unit of analysis from the Attribution Gap protocol."
+    },
+    "D007": {
+      "from": "net",
+      "to": "mobility",
+      "title": "Phylons dynamic combinations → Car Evolution Mobility OS – Product Annex",
+      "reading": "Residual-focused search could complement Mobility OS repair by revisiting only the part whose validity has changed."
+    },
+    "D036": {
+      "from": "net",
+      "to": "mobility",
+      "title": "Tacit Knowledge Management in Distributed Tiger Teams → Car Evolution Mobility OS – Evidence Cases 03-07",
+      "reading": "An operator-led walkthrough could make the judgment behind the exhibit teachable without pretending the interface contains all tacit knowledge."
+    },
+    "D049": {
+      "from": "net",
+      "to": "mobility",
+      "title": "xSeil: Scenario-Based Planning and Human-Governed Computation → Car Evolution Mobility OS – Evidence Cases 03-07",
+      "reading": "The policy exhibits should be read with their evidence labels and the historical scenario-governance mechanism."
+    },
+    "G069": {
+      "from": "net",
+      "to": "research",
+      "title": "xSeil 2016 to 2018 Provenance Delivery and Code Evidence → Structural Awareness Programme",
+      "reading": "This engineering record informs later Structural Awareness research questions while retaining its original dates and evidential scope."
+    },
+    "G070": {
+      "from": "net",
+      "to": "research",
+      "title": "Phylons predictive factors cascade → Source Provenance and Mathematical Priority — Structural Awareness Utility",
+      "reading": "For the later mathematical reading, the provenance ledger separates the 2018 heuristics from subsequent sources, derivations and review corrections."
+    },
+    "G071": {
+      "from": "net",
+      "to": "research",
+      "title": "xSeil orchestration → MSCA Ecosystem Composition & Control — Ecosystem Cartography of Objective-Bound Architectures",
+      "reading": "The historical allocation mechanism can inspire a later cartographic treatment of shared dependencies without being relabeled as an MSCA deployment."
+    },
+    "D071": {
+      "from": "us",
+      "to": "eu",
+      "title": "Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment → Case Study: Rationalization in Luxury",
+      "reading": "The workforce case documents a capability baseline and platform-choice framework before the transition to scaled delivery."
+    },
+    "A003": {
+      "from": "us",
+      "to": "eu",
+      "title": "Distributed Operational Intelligence Across the Americas → The JUBAP Framework",
+      "reading": "The thin integration layers described here can be read through JUBAP as focused interventions that change a leverage point while retaining useful operating capability."
+    },
+    "A010": {
+      "from": "us",
+      "to": "eu",
+      "title": "Barcelona, Cuba, California, Veracruz: Urban Mobility, Swarm Intelligence and Constraint-Driven Architecture → Nestlé North America — Where JUBAP Was Named",
+      "reading": "Tuxpan's adoption layer can be compared with JUBAP's internal facilitation model: the operating practice must become usable and transmissible inside the receiving organization."
+    },
+    "D072": {
+      "from": "us",
+      "to": "net",
+      "title": "Case Study: Texas-to-Mexico Oilfield Services Transformation: Knowledge Transfer, Industrialization, and Compliance → Tiger Team Maturity Model",
+      "reading": "The industrialization case describes quality-system and audit-readiness work that can illustrate observable maturity practices without claiming a certified maturity level."
+    },
+    "M031": {
+      "from": "us",
+      "to": "net",
+      "title": "Field Intelligence in Chicontepec and the Texas–Mérida Corridor → Tacit Knowledge Management in Distributed Tiger Teams",
+      "reading": "Cross-border knowledge transfer includes the ability to handle local exceptions, not merely the movement of manuals or personnel."
+    },
+    "A001": {
+      "from": "us",
+      "to": "net",
+      "title": "Distributed Operational Intelligence Across the Americas → JubAp.Net Tiger Team Model",
+      "reading": "Distributed American Innovation becomes operationally intelligible when the team itself integrates field interpretation, engineering and responsibility for the receiving operation."
+    },
+    "D024": {
+      "from": "us",
+      "to": "tegrity",
+      "title": "Case Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management → Annex 7 — Reference Architecture and Implementation",
+      "reading": "The supplier case shows why evidence handoff needs the decision context that makes a document meaningful."
+    },
+    "D038": {
+      "from": "us",
+      "to": "tegrity",
+      "title": "Case Study: Texas-to-Mexico Oilfield Services Transformation: Knowledge Transfer, Industrialization, and Compliance → Measuring Human Intelligence Debt",
+      "reading": "Knowledge-transfer evidence can include safe novel-exception exercises rather than relying only on document completion."
+    },
+    "D055": {
+      "from": "us",
+      "to": "tegrity",
+      "title": "Barcelona, Cuba, California, Veracruz: Urban Mobility, Swarm Intelligence and Constraint-Driven Architecture → Minimum Sufficient Control Architecture for AI Enabled Urban Systems",
+      "reading": "Tuxpan provides a historical comparison for asking which observations are sufficient for a bounded operating objective."
+    },
+    "A004": {
+      "from": "us",
+      "to": "mobility",
+      "title": "Distributed Operational Intelligence Across the Americas → Car Evolution Mobility OS – Product Annex",
+      "reading": "The field series suggests treating connectivity, institutional capacity and existing fleets as integration inputs for Mobility OS rather than as exceptions to an ideal platform."
+    },
+    "A008": {
+      "from": "us",
+      "to": "mobility",
+      "title": "Barcelona, Cuba, California, Veracruz: Urban Mobility, Swarm Intelligence and Constraint-Driven Architecture → Car Evolution Mobility OS – Product Annex",
+      "reading": "The paper transfer protocol offers a concrete way to ask what a mobility commitment must preserve across actors before choosing its digital representation."
+    },
+    "R070": {
+      "from": "us",
+      "to": "mobility",
+      "title": "Barcelona, Cuba, California, Veracruz: Urban Mobility, Swarm Intelligence and Constraint-Driven Architecture → Car Evolution Mobility OS",
+      "reading": "For a complementary reading, see [The current Logistics and Mobility Unit](https://jubap.eu/mobility/)."
+    },
+    "B047": {
+      "from": "us",
+      "to": "latinoempresa",
+      "title": "Entropy, Capability Activation and Sociotechnical Engineering → Cuando las fronteras se hablan y activan entre sí.",
+      "reading": "The frontier-activation essay suggests a further study of how conditions at one interface enable another, with each capability and observation level defined separately."
+    },
+    "G076": {
+      "from": "us",
+      "to": "research",
+      "title": "Entropy, Capability Activation and Sociotechnical Engineering → Reducción ACC → ecosistemas agénticos: frustración de misión y metaproceso parcial",
+      "reading": "The synthetic agentic reduction offers a bounded comparison of knowing an opportunity and activating it through an authorized joint transition."
+    },
+    "D017": {
+      "from": "tegrity",
+      "to": "eu",
+      "title": "Tegrity.AI → Case Study: Rationalization in Luxury",
+      "reading": "Portfolio confidence should preserve unresolved critical dependencies rather than average them away across units."
+    },
+    "D018": {
+      "from": "tegrity",
+      "to": "eu",
+      "title": "Annex 4 — Canonical Requirements and Test Contract → Piece Identity & Inventory Orchestration",
+      "reading": "Location, authenticity and sale authority require different evidence scopes, even when they refer to the same physical piece."
+    },
+    "D020": {
+      "from": "tegrity",
+      "to": "eu",
+      "title": "Annex 7 — Reference Architecture and Implementation → Japan Enterprise Architecture Function",
+      "reading": "The Japan case offers an organizational comparison for context-preserving handoffs between distinct decision owners."
+    },
+    "D021": {
+      "from": "tegrity",
+      "to": "net",
+      "title": "The Limits of AI Oversight → Tiger Team Governance Principles",
+      "reading": "Decision authority and timely review capacity should be specified separately in the governance contract."
+    },
+    "D046": {
+      "from": "tegrity",
+      "to": "net",
+      "title": "Optimization, Coherence, and the Frame → xSeil: Scenario-Based Planning and Human-Governed Computation",
+      "reading": "Scenario selection optimizes within a declared frame; questioning that frame is a separate governance act."
+    },
+    "D047": {
+      "from": "tegrity",
+      "to": "net",
+      "title": "Why Selection Cannot See It → xSeil Functionality Analisis",
+      "reading": "An operationally useful solution must meet its response window, not merely exist in the feasible set."
+    },
+    "D019": {
+      "from": "tegrity",
+      "to": "us",
+      "title": "Annex 4 — Canonical Requirements and Test Contract → Case Study: Texas-to-Mexico Oilfield Services Transformation: Knowledge Transfer, Industrialization, and Compliance",
+      "reading": "Readiness depends on evidence remaining valid and actionable within the operating decision window."
+    },
+    "D025": {
+      "from": "tegrity",
+      "to": "us",
+      "title": "When Asking the Question Changes the Answer → Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment",
+      "reading": "Some scheduling questions require an accountable declaration of ownership or policy before further data collection can resolve them."
+    },
+    "D048": {
+      "from": "tegrity",
+      "to": "us",
+      "title": "Annex 4 — Canonical Requirements and Test Contract → Entropy, Capability Activation and Sociotechnical Engineering",
+      "reading": "The activation hypothesis should be tested against response capacity and negative cases, not inferred from pressure alone."
+    },
+    "R202": {
+      "from": "tegrity",
+      "to": "mobility",
+      "title": "Minimum Sufficient Control Architecture for AI Enabled Urban Systems → Car Evolution Mobility OS",
+      "reading": "For a complementary reading, see [The current Mobility OS application route](https://jubap.eu/mobility/)."
+    },
+    "R207": {
+      "from": "tegrity",
+      "to": "mobility",
+      "title": "Annex 1 — Six Failure Scenarios → Car Evolution Mobility OS – Product Annex",
+      "reading": "For a complementary reading, see [The mobility architecture used for applied context](https://jubap.eu/mobility/product/)."
+    },
+    "B046": {
+      "from": "tegrity",
+      "to": "latinoempresa",
+      "title": "The Attribution Gap and Capability Loss → Narrativa, centro y frontera: por qué los modelos simples fallan cuando llega la implementación",
+      "reading": "Narrative compression is one possible visibility mechanism to examine when contribution and attribution diverge; it should be traced through actual resource and authority decisions."
+    },
+    "B048": {
+      "from": "tegrity",
+      "to": "latinoempresa",
+      "title": "Annex 10 — Collaboration Guide → ¿Quién controla a quién? Cuando los agentes de inteligencia artificial comenzaron a actuar por su cuenta",
+      "reading": "A public incident account can motivate a collaboration challenge, provided the technical question is rebuilt from primary evidence and evaluated against a stated baseline."
+    },
+    "G074": {
+      "from": "tegrity",
+      "to": "research",
+      "title": "The Attribution Gap and Capability Loss → Annex 01K-A02 — Human Intelligence Debt: aceleración económica y experimentos de segundo orden",
+      "reading": "A later economic question is whether correcting attribution changes effective withdrawal and allocation rights, rather than only symbolic credit."
+    },
+    "G075": {
+      "from": "tegrity",
+      "to": "research",
+      "title": "What Goes Unpriced Is Paid in Human Intelligence → 01K-A01 — Human Capacity / Human Intelligence Debt Reusable Component Specification",
+      "reading": "The human cost of clarity includes keeping intervention capacity available, maintaining it and qualifying alternative information routes, not only time spent on a case."
+    },
+    "G078": {
+      "from": "tegrity",
+      "to": "research",
+      "title": "About Cats, Boxes and Enterprise Management Decisions → Structural Awareness — Mathematical Utility of Metasyntactic Operations",
+      "reading": "Part II develops the distinction further: retrieving state-preserving records cannot by itself constitute an institutional fact that still requires an authorized declaration."
+    },
+    "np-r25": {
+      "from": "imsv",
+      "to": "eu",
+      "title": "Acción Integral: la capacidad de actuar entre personas y sistemas → The JUBAP Framework",
+      "reading": "La guía profesional desarrolla JUMP UP en términos de diagnóstico, selección y propagación de una intervención."
+    },
+    "np-r23": {
+      "from": "imsv",
+      "to": "totonacapan",
+      "title": "La sierra del Totonacapan: el origen vivencial → Biografía: una trayectoria en diálogo",
+      "reading": "La biografía abre el contexto personal y territorial de la experiencia, a partir de su edición pública."
+    },
+    "dg-180": {
+      "from": "imsv",
+      "to": "dialogos",
+      "title": "El manifiesto original de Nueva Perspectiva → Nueva Perspectiva: cambiar el punto de observación",
+      "reading": "El manifiesto se puede leer junto a la reconstrucción biográfica del cambio de observación."
+    },
+    "np-r24": {
+      "from": "totonacapan",
+      "to": "imsv",
+      "title": "Biografía: una trayectoria en diálogo → La sierra del Totonacapan: el origen vivencial",
+      "reading": "La serie desarrolla la pregunta por el cambio de perspectiva a partir de las experiencias en la sierra."
+    },
+    "np-r27": {
+      "from": "totonacapan",
+      "to": "imsv",
+      "title": "Formación Integral: del maestro al aprendizaje digital → Acción Integral: la capacidad de actuar entre personas y sistemas",
+      "reading": "El ensayo lleva la transmisión de saber a la cooperación y la acción entre personas y sistemas."
+    },
+    "dg-178": {
+      "from": "totonacapan",
+      "to": "dialogos",
+      "title": "Biografía: una trayectoria en diálogo → Dos familias, varios oficios, una convergencia",
+      "reading": "La ficha de trayectoria lleva al pasaje de entrada y a sus conexiones con otros episodios."
+    },
+    "R224": {
+      "from": "mobility",
+      "to": "eu",
+      "title": "Car Evolution Mobility OS → Orchestration capabilities",
+      "reading": "For a complementary reading, see [The wider mission-critical engineering capability](https://jubap.eu/orchestration-capabilities/)."
+    },
+    "R142": {
+      "from": "mobility",
+      "to": "net",
+      "title": "Car Evolution Mobility OS → JubAp.Net © xSeil Whitepaper",
+      "reading": "For a complementary reading, see [The xSeil operational lineage](https://jubap.net/jubap-net-xseil-whitepaper/)."
+    },
+    "R143": {
+      "from": "mobility",
+      "to": "net",
+      "title": "Car Evolution Mobility OS → Tuxpan Urban Service Case Study",
+      "reading": "For a complementary reading, see [Tuxpan: urban-mobility engineering in 2010–2011](https://jubap.net/1843-2/)."
+    },
+    "R145": {
+      "from": "mobility",
+      "to": "net",
+      "title": "Car Evolution Mobility OS – Product Annex → xSeil: Scenario-Based Planning and Human-Governed Computation",
+      "reading": "For a complementary reading, see [How scenario priorities steered xSeil computation](https://jubap.net/xseil-scenario-based-planning-human-governed-computation/)."
+    },
+    "A047": {
+      "from": "mobility",
+      "to": "us",
+      "title": "Car Evolution Mobility OS – Product Annex → Barcelona, Cuba, California, Veracruz: Urban Mobility, Swarm Intelligence and Constraint-Driven Architecture",
+      "reading": "Tuxpan provides a field example of coordinating existing mobility capacity through rights and signals, while the current Product Annex states the scope of today's platform."
+    },
+    "D056": {
+      "from": "mobility",
+      "to": "tegrity",
+      "title": "Car Evolution Mobility OS – Evidence Cases 03-07 → Annex 1 — Six Failure Scenarios",
+      "reading": "The mobility exhibits could seed constructed counterexamples that test the interaction of locally valid policies."
+    },
+    "M045": {
+      "from": "mobility",
+      "to": "tegrity",
+      "title": "Car Evolution Mobility OS – Competition → Annex 2 — Plausibility and Technological Comparison",
+      "reading": "Positioning can compare problem classes, while any performance claim requires its own matched task, competent baseline and executed evidence."
+    },
+    "M046": {
+      "from": "mobility",
+      "to": "tegrity",
+      "title": "Car Evolution Mobility OS – Product Annex → Annex 7 — Reference Architecture and Implementation",
+      "reading": "A cross-operator assignment should carry the context and acceptance conditions that allow each responsible operator to authorize its own action."
+    },
+    "G079": {
+      "from": "mobility",
+      "to": "research",
+      "title": "Car Evolution Mobility OS – Product Annex → Smart-City Mobility Chaos",
+      "reading": "A constructed shared-capacity scenario could test whether locally valid mobility decisions remain coherent at the declared system boundary."
+    },
+    "B004": {
+      "from": "latinoempresa",
+      "to": "eu",
+      "title": "The Integral Management Society : Institución de frontera desde 1898 → THE DIAMOND INSIDE FRAMEWORK",
+      "reading": "Diamond Inside offers a possible selection lens for stewardship: preserve the useful capability while deciding separately whether its original implementation should remain local, change or retire."
+    },
+    "B011": {
+      "from": "latinoempresa",
+      "to": "eu",
+      "title": "Narrativa, centro y frontera: por qué los modelos simples fallan cuando llega la implementación → The JUBAP Framework",
+      "reading": "The JUBAP sequence is more useful when each stage retains the capabilities and operating conditions required for it to work, rather than becoming a ritualized checklist."
+    },
+    "B017": {
+      "from": "latinoempresa",
+      "to": "eu",
+      "title": "El cliclo de la frontera: de Exploradores a Explotadores → Watchmaking Manufacturing Rationalization",
+      "reading": "The watchmaking case suggests a practical distinction between commemorating inherited know-how and keeping it usable within a federated operating architecture."
+    },
+    "B001": {
+      "from": "latinoempresa",
+      "to": "net",
+      "title": "The Integral Management Society : Institución de frontera desde 1898 → JubAp.Net Tiger Teams and Institutional Frontier Ecosystems",
+      "reading": "The institutional account gains an operational counterpart in the Tiger Team model, which distinguishes commercial activation from participation in a wider frontier mission."
+    },
+    "B002": {
+      "from": "latinoempresa",
+      "to": "net",
+      "title": "The Integral Management Society : Institución de frontera desde 1898 → JubAp.Net Frontier Operations Role in the IMSV.org Circle",
+      "reading": "Frontier engineering can feed selected artifacts into institutional stewardship, with lineage, scope and readiness retained before broader reuse."
+    },
+    "B003": {
+      "from": "latinoempresa",
+      "to": "net",
+      "title": "The Integral Management Society : Institución de frontera desde 1898 → Tacit Knowledge Management in Distributed Tiger Teams",
+      "reading": "Preserving an artifact is only one layer; the tacit-knowledge model explains how observation, rehearsal and apprenticeship can preserve the judgment needed to use it."
+    },
+    "B012": {
+      "from": "latinoempresa",
+      "to": "us",
+      "title": "Narrativa, centro y frontera: por qué los modelos simples fallan cuando llega la implementación → Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment",
+      "reading": "The HR rationalization case makes the distinction concrete: preparing an executable architecture and handover is a different result from completing the full rollout."
+    },
+    "B014": {
+      "from": "latinoempresa",
+      "to": "us",
+      "title": "El cliclo de la frontera: de Exploradores a Explotadores → Entropy, Capability Activation and Sociotechnical Engineering",
+      "reading": "A possible operational test is whether selective decoupling preserves room for exploration while reducing coordination that blocks action across the network."
+    },
+    "B018": {
+      "from": "latinoempresa",
+      "to": "us",
+      "title": "Cuando las fronteras se hablan y activan entre sí. → Distributed Operational Intelligence Across the Americas",
+      "reading": "Distributed American Innovation offers a field-oriented lens on how territorial, social and technical frontiers can activate one another through operating networks."
+    },
+    "B005": {
+      "from": "latinoempresa",
+      "to": "tegrity",
+      "title": "The Integral Management Society : Institución de frontera desde 1898 → Measuring Human Intelligence Debt",
+      "reading": "The preservation rationale motivates a testable question, while the HID measurement programme explicitly keeps recovery and irreversibility as hypotheses awaiting field evidence."
+    },
+    "B006": {
+      "from": "latinoempresa",
+      "to": "tegrity",
+      "title": "The Integral Management Society : Institución de frontera desde 1898 → Research and Publication Policy",
+      "reading": "A stewardship archive can use explicit document labels and correction history so that public availability does not obscure a work’s evidential status."
+    },
+    "B007": {
+      "from": "latinoempresa",
+      "to": "tegrity",
+      "title": "Narrativa, centro y frontera: por qué los modelos simples fallan cuando llega la implementación → The Map and The Flow",
+      "reading": "Narrative compression becomes operationally consequential when the simplified model is used as the control surface for decisions that depend on omitted conditions."
+    },
+    "B022": {
+      "from": "latinoempresa",
+      "to": "mobility",
+      "title": "Cuando las fronteras se hablan y activan entre sí. → Car Evolution Mobility OS – Product Annex",
+      "reading": "A mobility orchestration capability can travel between domains only if the receiving context’s actors, obligations and constraints are made explicit."
+    },
+    "G077": {
+      "from": "latinoempresa",
+      "to": "research",
+      "title": "Dos maneras de cruzar un mundo Arquitecturas que empobrecen vs arquitecturas que multiplican → Metasyntactic Architecture for Open Ecosystems",
+      "reading": "A technical analogy is partial, question-preserving meaning transfer: coordination can require enough shared interpretation without identical internal ontologies."
+    },
+    "G099": {
+      "from": "latinoempresa",
+      "to": "research",
+      "title": "Dos maneras de cruzar un mundo Arquitecturas que empobrecen vs arquitecturas que multiplican → ACC — Architectural fidelity review of recent experiments",
+      "reading": "A generative-integration assessment can preserve nonfungible gains and losses, leaving trade-offs or unknown dimensions explicit instead of declaring a universal net improvement."
+    },
+    "G010": {
+      "from": "research",
+      "to": "eu",
+      "title": "Structural Awareness — Meta-Existence, Evaluability and Context-Restriction Calculus → THE DIAMOND INSIDE FRAMEWORK",
+      "reading": "Evidence that a useful capability exists may justify a bounded search, while discovery, ownership, scale-up permission and realized value remain separate questions."
+    },
+    "G013": {
+      "from": "research",
+      "to": "eu",
+      "title": "Structural Awareness — Collective Residual Intersections and Recognizable Opportunities → Piece Identity & Inventory Orchestration",
+      "reading": "A task-specific collective property could support a minimal handoff, but it must not erase the piece identity and provenance needed by the receiving decision."
+    },
+    "G018": {
+      "from": "research",
+      "to": "eu",
+      "title": "Objective-Conditioned Agentic Gradient Law → Reframing Value Creation",
+      "reading": "A value opportunity becomes actionable through its relevance to a declared objective and an admissible transition, rather than through uncertainty reduction alone."
+    },
+    "G001": {
+      "from": "research",
+      "to": "net",
+      "title": "Structural Awareness Programme → xSeil 2016 to 2018 Provenance Delivery and Code Evidence",
+      "reading": "The xSeil record provides earlier engineering provenance for later Structural Awareness questions; it is not evidence of a 2016 implementation of the 2026 architecture."
+    },
+    "G007": {
+      "from": "research",
+      "to": "net",
+      "title": "Source Provenance and Mathematical Priority — Structural Awareness Utility → Phylons predictive factors cascade",
+      "reading": "The source ledger explicitly separates 2018 operational heuristics from later mathematical claims, allowing Phylons to inform the research without retroactively inheriting its proofs."
+    },
+    "G008": {
+      "from": "research",
+      "to": "net",
+      "title": "Open-World Agent Encounters: A Uniform Decision Frontier → xSeil VRP",
+      "reading": "A finite routing run can be valid within its declared frame without certifying all future operating conditions; open-world limits do not make every bounded VRP undecidable."
+    },
+    "G011": {
+      "from": "research",
+      "to": "us",
+      "title": "Structural Awareness — Common Blind-Spot Cartography and Opportunity Arrival → Field Intelligence in Chicontepec and the Texas–Mérida Corridor",
+      "reading": "Distributed field observations can be combined meaningfully only after their question, event, scope and time references have been aligned."
+    },
+    "G017": {
+      "from": "research",
+      "to": "us",
+      "title": "Ecosystem Positioning → Distributed Operational Intelligence Across the Americas",
+      "reading": "Participant-local positioning offers a later architectural comparison for distributed operational intelligence without presuming one global controller or shared objective."
+    },
+    "G034": {
+      "from": "research",
+      "to": "us",
+      "title": "Annex 01H — Participant-Local Ecosystem Positioning and Decision-Scoped Epistemic Opportunity → Distributed Operational Intelligence Across the Americas",
+      "reading": "A distributed network can exchange qualified signals while each participant retains responsibility for its own question, scope and reliance decision."
+    },
+    "G002": {
+      "from": "research",
+      "to": "tegrity",
+      "title": "Structural Awareness Programme → The Map and The Flow",
+      "reading": "The preserved September synthesis records an earlier programme reading of the map–flow problem; its dated status should remain visible beside the current explanation."
+    },
+    "G003": {
+      "from": "research",
+      "to": "tegrity",
+      "title": "Claim and Attribution Boundaries → Research and Publication Policy",
+      "reading": "A repository commit and a public document label should travel together so that technical publication is not mistaken for external acceptance or validation."
+    },
+    "G004": {
+      "from": "research",
+      "to": "tegrity",
+      "title": "Structural Awareness — Mathematical Research Reading Route → Structural Awareness Foundation Validation",
+      "reading": "The mathematical reading route helps define a reviewable object: a conditional result, its source assumptions and the separate implementation question."
+    },
+    "G025": {
+      "from": "research",
+      "to": "mobility",
+      "title": "Canonical Requirements: S1–S14, Sufficiency Conditions, Hypotheses and KPIs → Car Evolution Mobility OS – Product Annex",
+      "reading": "A mobility orchestration design can distinguish recommendation, reservation, commitment and execution, with material changes triggering the appropriate requalification or confirmation."
+    },
+    "G033": {
+      "from": "research",
+      "to": "mobility",
+      "title": "Annex 01D — EA / MSCA / Regime Awareness operation-composition profile → Car Evolution Mobility OS – Product Annex",
+      "reading": "A mobility decision should bind regime evidence, control support and permission to the same operation, version and useful time interval."
+    },
+    "sac-rel-670ecd9f2771d7": {
+      "from": "research",
+      "to": "mobility",
+      "title": "00F — Success Model Case: Coherent Shared-Capacity Requalification — v0.1 → Car Evolution Mobility OS",
+      "reading": "En Car Evolution, coordinar capacidad existente plantea cómo componer compromisos de actores distintos. El modelo 00F propone un contraste para el caso en que dos decisiones válidas se vuelven incompatibles al compartir capacidad."
+    },
+    "G005": {
+      "from": "research",
+      "to": "latinoempresa",
+      "title": "Metasyntactic Architecture for Open Ecosystems → Dos maneras de cruzar un mundo Arquitecturas que empobrecen vs arquitecturas que multiplican",
+      "reading": "Typed meaning transfer offers a possible technical comparison for a generative boundary: sufficient shared meaning for a defined question without forcing identical internal models."
+    },
+    "G014": {
+      "from": "research",
+      "to": "latinoempresa",
+      "title": "Structural Awareness — Cross-Agent Residual Intersection and Online Opportunity → Dos maneras de cruzar un mundo Arquitecturas que empobrecen vs arquitecturas que multiplican",
+      "reading": "A nonempty shared region does not itself prove generative value; the link from the joint property to a usable capability must be established separately."
+    },
+    "G043": {
+      "from": "research",
+      "to": "latinoempresa",
+      "title": "00G — Canonical Reference Failure Scenario and Integrated Quality / Implementation Plan: Collective False-Context Convergence (\"Bar-to-Napoleon\" Cascade) → Narrativa, centro y frontera: por qué los modelos simples fallan cuando llega la implementación",
+      "reading": "Narrative convergence should not be counted as independent corroboration when several statements inherit the same underlying source or compressed frame."
+    },
+    "dg-182": {
+      "from": "dialogos",
+      "to": "eu",
+      "title": "Nueva Perspectiva: cambiar el punto de observación → The JUBAP Framework",
+      "reading": "El marco profesional desarrolla el cambio de perspectiva como paso de una intervención."
+    },
+    "dg-183": {
+      "from": "dialogos",
+      "to": "net",
+      "title": "La experiencia que nunca se escribió → Tacit Knowledge Management in Distributed Tiger Teams",
+      "reading": "Ambas lecturas preguntan cómo se conserva un saber que se ejerce sin quedar escrito."
+    },
+    "dg-184": {
+      "from": "dialogos",
+      "to": "us",
+      "title": "Conservar una capacidad más allá de su creador → Surviving Capability: Why the Field Celebrates What the Theory Condemns",
+      "reading": "Comparan qué capacidad puede seguir operando cuando cambian quienes la sostienen."
+    },
+    "dg-185": {
+      "from": "dialogos",
+      "to": "tegrity",
+      "title": "Del régimen de operación a la conciencia estructural → Structural Awareness",
+      "reading": "La lectura biográfica y el programa técnico permiten comparar cómo se hacen visibles las dependencias."
+    },
+    "dg-181": {
+      "from": "dialogos",
+      "to": "imsv",
+      "title": "Nueva Perspectiva: cambiar el punto de observación → El manifiesto original de Nueva Perspectiva",
+      "reading": "El original desarrolla la idea del sistema mental que el diálogo permite explorar."
+    },
+    "dg-179": {
+      "from": "dialogos",
+      "to": "totonacapan",
+      "title": "Dos familias, varios oficios, una convergencia → Biografía: una trayectoria en diálogo",
+      "reading": "La ficha de trayectoria sitúa el prólogo dentro del recorrido territorial e institucional."
+    },
+    "dg-186": {
+      "from": "dialogos",
+      "to": "mobility",
+      "title": "Movilidad, cítricos y soluciones prácticas → Car Evolution Mobility OS",
+      "reading": "El ámbito de movilidad permite comparar preguntas de coordinación con una arquitectura operativa actual."
+    }
+  }
+}

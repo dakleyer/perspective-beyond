@@ -28,6 +28,7 @@ async function start() {
   base.relations.push(...(delta.concept_relations||[]));
   const clusters = delta.clusters;
   const {roles,purposes} = delta.session_profiles;
+  const {topics,source_tags:sourceTags} = delta;
   const keys = Object.keys(clusters);
   const membership = delta.source_cluster;
   const records = [...base.sources,...delta.sources];
@@ -44,10 +45,12 @@ async function start() {
   const origin = get('origin'), mode = get('mode'), bridge = get('bridge'), purpose = get('purpose');
   const role = get('role'), custom = get('custom-role');
   const filter = get('filter'), kind = get('kind'), query = get('query');
+  const topicFilter = get('topic-filter'), onlyTopics = get('only-topics');
   const profile = get('focus-profile'), target = get('focus-target'), focusRows = get('focus-rows');
   const profiles = ['parejo','transversal','personalizado'];
   const weights = new Map();
   const initialWeights = params.getAll('peso').slice(0,20);
+  onlyTopics.checked = params.get('solo')==='1';
   let focusItems = new Map(), focusScope = '', restoreFocus = true;
   if (profiles.includes(params.get('enfoque'))) profile.value = params.get('enfoque');
   query.value = params.get('buscar') || '';
@@ -65,22 +68,29 @@ async function start() {
   if (Object.hasOwn(purposes,params.get('lectura'))) purpose.value = params.get('lectura');
   custom.value = (params.get('instruccion')||'').slice(0,custom.maxLength);
   get('role-options').open = Boolean(custom.value)||role.value==='personalizado';
+  for (const [key,topic] of Object.entries(topics)) topicFilter.add(new Option(topic.label,key));
+  if (Object.hasOwn(topics,params.get('etiqueta'))) topicFilter.value=params.get('etiqueta');
   for (const key of keys) {
     const block = element('article',null,'site');
     block.append(link('?site='+key+'#explorar',clusters[key][0]),element('p',clusters[key][1]+' · '+counts[key]+' fichas y fuentes.'));
     get('clusters').append(block);
   }
   get('metrics').textContent = base.concepts.length+' conceptos · '+records.length+' fichas y fuentes · '+keys.length+' clústeres';
-  const recordNames = new Map(records.map(r=>[r.id,norm(r.title+' '+r.id+' '+(delta.editorial_cards[r.id]?.summary||''))]));
+  const recordNames = new Map(records.map(r=>[r.id,norm([
+    r.title,r.id,delta.editorial_cards[r.id]?.summary||'',
+    ...sourceTags[r.id].map(key=>topics[key].label)
+  ].join(' '))]));
   const conceptNames = new Map(base.concepts.map(c=>[c.id,norm(c.label+' '+c.original_label+' '+c.definition+' '+c.id)]));
   let limit=18;
   function search(reset=true) {
     if (reset) limit=18;
     const q=norm(query.value.trim());
     const key=filter.value;
+    const tag=topicFilter.value;
+    const matches=sid=>(key==='all'||membership[sid]===key)&&(!tag||sourceTags[sid]?.includes(tag));
     const available=kind.value==='source'
-      ? records.filter(r=>(key==='all'||membership[r.id]===key)&&recordNames.get(r.id).includes(q))
-      : base.concepts.filter(c=>(key==='all'||c.sources.some(id=>membership[id]===key))&&conceptNames.get(c.id).includes(q));
+      ? records.filter(r=>matches(r.id)&&recordNames.get(r.id).includes(q))
+      : base.concepts.filter(c=>((key==='all'&&!tag)||c.sources.some(matches))&&conceptNames.get(c.id).includes(q));
     const result=get('results');
     result.replaceChildren();
     for (const item of available.slice(0,limit)) {
@@ -90,6 +100,7 @@ async function start() {
         heading.append(link(sourcePage(item),item.title));
         box.append(heading,element('p',clusters[membership[item.id]][0]+' · '+item.kind));
         if(delta.editorial_cards[item.id]) box.append(element('p',delta.editorial_cards[item.id].summary));
+        if(sourceTags[item.id].length)box.append(element('p',sourceTags[item.id].map(key=>topics[key].label).join(' · ')));
         box.append(link(item.url,'Abrir original'));
       } else {
         heading.append(link(conceptPage(item),item.original_label||item.label));
@@ -100,7 +111,7 @@ async function start() {
     get('result-count').textContent=available.length+' resultados'+(available.length>limit?' · '+limit+' visibles':'');
     get('more').hidden=available.length<=limit;
   }
-  for (const field of [filter,kind]) field.addEventListener('change',()=>search());
+  for (const field of [filter,kind,topicFilter]) field.addEventListener('change',()=>search());
   query.addEventListener('input',()=>search());
   get('more').addEventListener('click',()=>{limit+=18;search(false);});
 
@@ -146,6 +157,7 @@ async function start() {
     const matches=ids=>ids.some(id=>active.has(membership[id]));
     const groups=[
       ['Clústeres',s.active.map(k=>['cluster:'+k,clusters[k][0]])],
+      ['Etiquetas temáticas',Object.entries(topics).filter(([,v])=>matches(v.sources)).map(([k,v])=>['tema:'+k,v.label])],
       ['Perspectivas documentadas',Object.entries(delta.focus_voices||{}).filter(([,v])=>matches(v.sources)).map(([k,v])=>['voz:'+k,v.label])],
       ['Etiquetas conceptuales',base.concepts.filter(c=>matches(c.sources)).map(c=>['concepto:'+c.id,c.original_label||c.label]).sort((a,b)=>a[1].localeCompare(b[1],'es'))]
     ];
@@ -199,14 +211,28 @@ async function start() {
     });
     const spare=1000-items.reduce((sum,x)=>sum+x.tenths,0);
     for(const item of [...items].sort((a,b)=>b.remainder-a.remainder).slice(0,spare))item.tenths++;
-    return {profile:'personalizado',items};
+    const topicKeys=items.filter(item=>item.key.startsWith('tema:')).map(item=>item.key.slice(5));
+    return {profile:'personalizado',items,topicKeys,strict:onlyTopics.checked&&topicKeys.length>0};
+  }
+  function filteredSession(s,f) {
+    if(!f.strict)return s;
+    const sources=s.sources.filter(r=>f.topicKeys.some(key=>sourceTags[r.id].includes(key)));
+    const ids=new Set(sources.map(r=>r.id));
+    const concepts=s.concepts.filter(c=>c.sources.every(id=>ids.has(id)));
+    const conceptIds=new Set(concepts.map(c=>c.id));
+    const conceptEdges=s.conceptEdges.filter(e=>conceptIds.has(e.from)&&conceptIds.has(e.to)&&e.sources.every(id=>ids.has(id)));
+    const allowed=s.allowed.filter(e=>ids.has(e.from)&&ids.has(e.to));
+    return {...s,sources,concepts,conceptEdges,allowed};
   }
   const percent = n => (n/10).toLocaleString('es',{maximumFractionDigits:1})+' %';
   function focusInstruction(f) {
     if(f.profile==='transversal')return 'Enfoque transversal. Recorre conexiones entre perspectivas permitidas y explica qué aportan en conjunto.';
     if(f.profile==='parejo')return 'Enfoque parejo. Da atención equilibrada a las perspectivas pertinentes dentro del alcance.';
     return 'Enfoque ponderado. '+f.items.map(x=>x.label+' '+percent(x.tenths)).join(' · ')+
-      '. Usa este reparto como prioridad de lectura y síntesis. Si una ficha encaja en varias etiquetas, utilízala una vez.';
+      '. Usa este reparto como prioridad de lectura y síntesis. Si una ficha encaja en varias etiquetas, utilízala una vez.'+
+      (f.strict?' Usa solo fichas con al menos una de estas etiquetas: '+f.topicKeys.map(key=>topics[key].label).join(', ')+
+        '. Conserva relaciones entre fichas que cumplan el filtro.\nÍndices temáticos: '+
+        f.topicKeys.map(key=>new URL('temas/'+key+'.txt',pageRoot).href).join(' · '):'');
   }
   function instructions(s,f) {
     const originLabel=origin.value==='all'?'toda la constelación':clusters[origin.value][0];
@@ -230,6 +256,7 @@ async function start() {
     url.searchParams.set('lectura',purpose.value);
     url.searchParams.set('enfoque',f.profile);
     for(const item of f.items)url.searchParams.append('peso',item.key+':'+item.weight);
+    if(f.strict)url.searchParams.set('solo','1');
     const customText=custom.value.trim();
     if(customText)url.searchParams.set('instruccion',customText);
     return url.href;
@@ -250,10 +277,13 @@ async function start() {
     return setConfiguration(url,f);
   }
   function markdown(s) {
-    return '# Perspective Beyond · Atlas global\n\nEdición '+delta.edition+'\n\n'+instructions(s,weighting())+
+    const f=weighting();
+    s=filteredSession(s,f);
+    return '# Perspective Beyond · Atlas global\n\nEdición '+delta.edition+'\n\n'+instructions(s,f)+
       '\n\n## Fichas y fuentes\n\n'+s.sources.map(r=>{
         const note=delta.editorial_cards[r.id];
-        return '- **'+r.title+'** ('+r.id+') · [Ficha]('+sourcePage(r)+') · [Original]('+r.url+')'+
+        const tags=sourceTags[r.id].map(key=>'tema:'+key).join(' · ');
+        return '- **'+r.title+'** ('+r.id+') · [Ficha]('+sourcePage(r)+') · [Original]('+r.url+')'+(tags?' · '+tags:'')+
           (note?'\n  - Lectura editorial: '+note.summary:'');
       }).join('\n')+
       '\n\n## Conceptos con fuentes dentro del alcance\n\n'+s.concepts.map(c=>'- **'+(c.original_label||c.label)+'** ('+c.id+') · '+c.definition+' '+c.boundary+' [Ficha]('+conceptPage(c)+')').join('\n')+
@@ -264,13 +294,15 @@ async function start() {
     const s=session();
     focusTargets(s);
     const f=weighting();
+    const scoped=filteredSession(s,f);
     get('focus-editor').hidden=profile.value!=='personalizado';
+    onlyTopics.disabled=!f.topicKeys?.length;
     const rendered=new Map(f.items.map(item=>[item.key,percent(item.tenths)]));
     for(const row of focusRows.children)row.querySelector('.focus-percent').textContent=rendered.get(row.dataset.key)||'0 %';
     get('focus-preview').textContent=profile.value==='personalizado'&&!f.items.length
       ?'Añade un peso positivo para personalizar la lectura. Ahora se reparte de forma pareja.' : focusInstruction(f);
     get('bridge-field').hidden=mode.value!=='porous';
-    get('scope').textContent=s.active.map(k=>clusters[k][0]).join(' · ')+' · '+s.sources.length+' fichas y fuentes';
+    get('scope').textContent=s.active.map(k=>clusters[k][0]).join(' · ')+' · '+scoped.sources.length+' fichas y fuentes';
     get('role-help').textContent=roles[role.value][1];
     get('entry-url').href=textEntry(f);
     get('web-entry').href=webEntry(f);
@@ -278,7 +310,7 @@ async function start() {
     get('status').textContent='';
   }
   origin.addEventListener('change',chooseOrigin);
-  for(const field of [mode,bridge,purpose,profile]) field.addEventListener('change',render);
+  for(const field of [mode,bridge,purpose,profile,onlyTopics]) field.addEventListener('change',render);
   role.addEventListener('change',()=>{
     if(role.value==='personalizado')get('role-options').open=true;
     render();
