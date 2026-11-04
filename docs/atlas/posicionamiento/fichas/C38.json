@@ -13,19 +13,21 @@
     "U1494"
   ],
   "tagWeights": {
-    "aprendizaje": 0.1279,
-    "autoridad": 0.0525,
-    "capacidad-humana": 0.08,
-    "casos": 0.0389,
-    "control-minimo": 0.0333,
-    "decision": 0.0633,
-    "economia": 0.0367,
-    "empresa": 0.1448,
-    "evidencia": 0.1551,
-    "experimentacion": 0.0578,
-    "memoria-territorio": 0.0589,
-    "movilidad": 0.0417,
-    "transformacion": 0.1091
+    "aprendizaje": 0.123,
+    "autoridad": 0.0215,
+    "capacidad-humana": 0.0797,
+    "casos": 0.022,
+    "control-minimo": 0.0238,
+    "decision": 0.0547,
+    "documentacion": 0.0167,
+    "economia": 0.0463,
+    "empresa": 0.1861,
+    "estandares": 0.0333,
+    "evidencia": 0.1587,
+    "experimentacion": 0.0623,
+    "memoria-territorio": 0.0374,
+    "movilidad": 0.0655,
+    "transformacion": 0.069
   },
   "clusters": [
     "eu",
@@ -33,8 +35,9 @@
     "tegrity",
     "us"
   ],
-  "context": "## Aprendizaje interno repetible\nTraining, codification and practice can make an intervention reproducible.\nEtiquetas: Aprendizaje y transmisión de capacidades 12.79%; Autoridad, permisos y delegación 5.25%; Capacidad humana y deuda de inteligencia 8.00%; Casos de uso y aplicaciones 3.89%; Control mínimo y suficiencia 3.33%; Decisiones y responsabilidad 6.33%; Economía, costes y liquidez 3.67%; Empresa y gestión 14.48%; Evidencia, procedencia y atribución 15.51%; Experimentación, falsación y contraejemplos 5.78%; Memoria, comunidad y territorio 5.89%; Movilidad e infraestructura 4.17%; Transformación y continuidad operativa 10.91%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/repeatable-internal-learning/\n\n",
-  "tokens": 191,
+  "context": "## Aprendizaje interno repetible\nTraining, codification and practice can make an intervention reproducible.\nEtiquetas: Aprendizaje y transmisión de capacidades 12.30%; Autoridad, permisos y delegación 2.15%; Capacidad humana y deuda de inteligencia 7.97%; Casos de uso y aplicaciones 2.20%; Control mínimo y suficiencia 2.38%; Decisiones y responsabilidad 5.47%; Investigación y documentación técnica 1.67%; Economía, costes y liquidez 4.63%; Empresa y gestión 18.61%; Estándares e interoperabilidad 3.33%; Evidencia, procedencia y atribución 15.87%; Experimentación, falsación y contraejemplos 6.23%; Memoria, comunidad y territorio 3.74%; Movilidad e infraestructura 6.55%; Transformación y continuidad operativa 6.90%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/repeatable-internal-learning/\n\n",
+  "readingSource": null,
+  "tokens": 211,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -46,6 +49,15 @@
       "reading": "",
       "relationTokens": 25,
       "fichaTokens": 144,
+      "tagWeights": {
+        "aprendizaje": 0.2222,
+        "empresa": 0.5556,
+        "evidencia": 0.2222
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1636.json"
     },
     {
@@ -56,7 +68,19 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 100,
+      "fichaTokens": 316,
+      "tagWeights": {
+        "aprendizaje": 0.1714,
+        "autoridad": 0.0571,
+        "empresa": 0.2,
+        "estandares": 0.2,
+        "evidencia": 0.2286,
+        "transformacion": 0.1429
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1276.json"
     },
     {
@@ -67,7 +91,23 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 35,
-      "fichaTokens": 189,
+      "fichaTokens": 425,
+      "tagWeights": {
+        "aprendizaje": 0.08,
+        "autoridad": 0.04,
+        "casos": 0.1,
+        "decision": 0.06,
+        "documentacion": 0.1,
+        "empresa": 0.18,
+        "evidencia": 0.1,
+        "experimentacion": 0.14,
+        "memoria-territorio": 0.04,
+        "transformacion": 0.16
+      },
+      "clusters": [
+        "us"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1317.json"
     },
     {
@@ -78,7 +118,21 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 145,
+      "fichaTokens": 409,
+      "tagWeights": {
+        "aprendizaje": 0.0541,
+        "capacidad-humana": 0.3513,
+        "decision": 0.0541,
+        "economia": 0.1351,
+        "empresa": 0.054,
+        "evidencia": 0.1081,
+        "experimentacion": 0.1622,
+        "memoria-territorio": 0.0811
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1400.json"
     },
     {
@@ -89,7 +143,23 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 20,
-      "fichaTokens": 156,
+      "fichaTokens": 694,
+      "tagWeights": {
+        "aprendizaje": 0.0318,
+        "autoridad": 0.0317,
+        "capacidad-humana": 0.127,
+        "casos": 0.0317,
+        "decision": 0.1429,
+        "economia": 0.1429,
+        "empresa": 0.127,
+        "evidencia": 0.2222,
+        "memoria-territorio": 0.0317,
+        "transformacion": 0.1111
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1472.json"
     },
     {
@@ -100,7 +170,20 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 33,
-      "fichaTokens": 176,
+      "fichaTokens": 433,
+      "tagWeights": {
+        "aprendizaje": 0.1786,
+        "control-minimo": 0.1429,
+        "decision": 0.0714,
+        "evidencia": 0.0714,
+        "experimentacion": 0.0714,
+        "memoria-territorio": 0.0714,
+        "movilidad": 0.3929
+      },
+      "clusters": [
+        "us"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1494.json"
     },
     {
@@ -111,7 +194,26 @@
       "kind": "documented use",
       "reading": "The Nestlé account describes codification and internal facilitator training, practices that can be compared with repeatability and learning in the maturity model.",
       "relationTokens": 41,
-      "fichaTokens": 134,
+      "fichaTokens": 145,
+      "tagWeights": {
+        "aprendizaje": 0.0984,
+        "autoridad": 0.0825,
+        "casos": 0.0384,
+        "decision": 0.0682,
+        "documentacion": 0.2115,
+        "empresa": 0.1889,
+        "estandares": 0.05,
+        "evidencia": 0.1127,
+        "memoria-territorio": 0.0682,
+        "transformacion": 0.0812
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "net",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C68.json"
     },
     {
@@ -122,7 +224,31 @@
       "kind": "documented use",
       "reading": "The industrialization case describes quality-system and audit-readiness work that can illustrate observable maturity practices without claiming a certified maturity level.",
       "relationTokens": 41,
-      "fichaTokens": 192,
+      "fichaTokens": 203,
+      "tagWeights": {
+        "aprendizaje": 0.0632,
+        "autoridad": 0.0719,
+        "casos": 0.045,
+        "control-minimo": 0.0529,
+        "decision": 0.0447,
+        "documentacion": 0.1324,
+        "economia": 0.0129,
+        "empresa": 0.171,
+        "estandares": 0.04,
+        "evidencia": 0.1632,
+        "experimentacion": 0.0813,
+        "integridad-ia": 0.0462,
+        "matematicas": 0.0067,
+        "memoria-territorio": 0.008,
+        "transformacion": 0.0606
+      },
+      "clusters": [
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C53.json"
     },
     {
@@ -134,6 +260,28 @@
       "reading": "A future evaluation could separate the cost of building facilitator capability from any later reduction in compensatory coordination work.",
       "relationTokens": 37,
       "fichaTokens": 203,
+      "tagWeights": {
+        "aprendizaje": 0.0353,
+        "autoridad": 0.0122,
+        "capacidad-humana": 0.1672,
+        "cartografia": 0.0083,
+        "casos": 0.0195,
+        "control-minimo": 0.0376,
+        "decision": 0.0599,
+        "documentacion": 0.066,
+        "economia": 0.0886,
+        "empresa": 0.2153,
+        "evidencia": 0.0984,
+        "experimentacion": 0.0578,
+        "memoria-territorio": 0.0139,
+        "transformacion": 0.12
+      },
+      "clusters": [
+        "eu",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C34.json"
     },
     {
@@ -144,7 +292,30 @@
       "kind": "analogy only",
       "reading": "Facilitator capability can outlast an intervention only if learning is accompanied by durable ownership, resourcing and recognition, rather than enthusiasm alone.",
       "relationTokens": 43,
-      "fichaTokens": 186,
+      "fichaTokens": 195,
+      "tagWeights": {
+        "aprendizaje": 0.0584,
+        "autoridad": 0.0088,
+        "capacidad-humana": 0.1471,
+        "casos": 0.0306,
+        "control-minimo": 0.0095,
+        "decision": 0.0766,
+        "documentacion": 0.0115,
+        "economia": 0.0798,
+        "empresa": 0.1832,
+        "evidencia": 0.1639,
+        "experimentacion": 0.0254,
+        "memoria-territorio": 0.0724,
+        "movilidad": 0.0119,
+        "transformacion": 0.1209
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C70.json"
     },
     {
@@ -155,7 +326,28 @@
       "kind": "analogy only",
       "reading": "Tuxpan's adoption layer can be compared with JUBAP's internal facilitation model: the operating practice must become usable and transmissible inside the receiving organization.",
       "relationTokens": 48,
-      "fichaTokens": 166,
+      "fichaTokens": 177,
+      "tagWeights": {
+        "aprendizaje": 0.1002,
+        "autoridad": 0.0385,
+        "control-minimo": 0.0742,
+        "decision": 0.1242,
+        "documentacion": 0.0385,
+        "economia": 0.0523,
+        "empresa": 0.2014,
+        "evidencia": 0.129,
+        "experimentacion": 0.0178,
+        "memoria-territorio": 0.0178,
+        "movilidad": 0.133,
+        "perspectiva": 0.0384,
+        "representacion": 0.0347
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C62.json"
     },
     {
@@ -167,6 +359,11 @@
       "reading": "",
       "relationTokens": 20,
       "fichaTokens": 63,
+      "tagWeights": {
+        "documentacion": 1.0
+      },
+      "clusters": [],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G26.json"
     },
     {
@@ -177,7 +374,21 @@
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 20,
-      "fichaTokens": 122,
+      "fichaTokens": 146,
+      "tagWeights": {
+        "aprendizaje": 0.1965,
+        "capacidad-humana": 0.0357,
+        "decision": 0.1296,
+        "empresa": 0.2011,
+        "evidencia": 0.0535,
+        "experimentacion": 0.0926,
+        "memoria-territorio": 0.1799,
+        "transformacion": 0.1111
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G41.json"
     },
     {
@@ -189,6 +400,15 @@
       "reading": "",
       "relationTokens": 21,
       "fichaTokens": 94,
+      "tagWeights": {
+        "aprendizaje": 0.2222,
+        "empresa": 0.5556,
+        "evidencia": 0.2222
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G47.json"
     }
   ]

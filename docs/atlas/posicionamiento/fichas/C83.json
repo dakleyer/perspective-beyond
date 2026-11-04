@@ -11,24 +11,25 @@
     "E1628"
   ],
   "tagWeights": {
-    "aprendizaje": 0.1,
-    "autoridad": 0.0718,
-    "control-minimo": 0.0826,
-    "decision": 0.1352,
+    "aprendizaje": 0.0714,
+    "autoridad": 0.057,
+    "control-minimo": 0.0593,
+    "decision": 0.1526,
     "documentacion": 0.0385,
-    "economia": 0.2806,
-    "empresa": 0.0333,
-    "evidencia": 0.0333,
-    "memoria-territorio": 0.0294,
+    "economia": 0.305,
+    "empresa": 0.0671,
+    "evidencia": 0.0185,
+    "memoria-territorio": 0.0139,
     "perspectiva": 0.0385,
-    "transformacion": 0.1568
+    "transformacion": 0.1782
   },
   "clusters": [
     "eu",
     "net",
     "tegrity"
   ],
-  "context": "## Tres costes de producir claridad\nAccount for discovery, authorised constitution and operational absorption.\nEtiquetas: Aprendizaje y transmisión de capacidades 10.00%; Autoridad, permisos y delegación 7.18%; Control mínimo y suficiencia 8.26%; Decisiones y responsabilidad 13.52%; Investigación y documentación técnica 3.85%; Economía, costes y liquidez 28.06%; Empresa y gestión 3.33%; Evidencia, procedencia y atribución 3.33%; Memoria, comunidad y territorio 2.94%; Cambio de perspectiva 3.85%; Transformación y continuidad operativa 15.68%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/three-costs-of-producing-clarity/\n\n",
+  "context": "## Tres costes de producir claridad\nAccount for discovery, authorised constitution and operational absorption.\nEtiquetas: Aprendizaje y transmisión de capacidades 7.14%; Autoridad, permisos y delegación 5.70%; Control mínimo y suficiencia 5.93%; Decisiones y responsabilidad 15.26%; Investigación y documentación técnica 3.85%; Economía, costes y liquidez 30.50%; Empresa y gestión 6.71%; Evidencia, procedencia y atribución 1.85%; Memoria, comunidad y territorio 1.39%; Cambio de perspectiva 3.85%; Transformación y continuidad operativa 17.82%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/three-costs-of-producing-clarity/\n\n",
+  "readingSource": null,
   "tokens": 160,
   "encoding": "o200k_base",
   "relations": [
@@ -40,7 +41,19 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 17,
-      "fichaTokens": 115,
+      "fichaTokens": 297,
+      "tagWeights": {
+        "autoridad": 0.0741,
+        "decision": 0.2963,
+        "economia": 0.0741,
+        "empresa": 0.0741,
+        "evidencia": 0.074,
+        "transformacion": 0.4074
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1292.json"
     },
     {
@@ -51,7 +64,15 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 91,
+      "fichaTokens": 172,
+      "tagWeights": {
+        "aprendizaje": 0.2857,
+        "economia": 0.7143
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1417.json"
     },
     {
@@ -62,7 +83,19 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 111,
+      "fichaTokens": 359,
+      "tagWeights": {
+        "control-minimo": 0.0833,
+        "decision": 0.0833,
+        "economia": 0.2778,
+        "empresa": 0.1944,
+        "memoria-territorio": 0.0556,
+        "transformacion": 0.3056
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1427.json"
     },
     {
@@ -74,6 +107,18 @@
       "reading": "",
       "relationTokens": 18,
       "fichaTokens": 152,
+      "tagWeights": {
+        "autoridad": 0.1539,
+        "control-minimo": 0.1539,
+        "decision": 0.2308,
+        "documentacion": 0.1538,
+        "economia": 0.1538,
+        "perspectiva": 0.1538
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1628.json"
     },
     {
@@ -84,7 +129,27 @@
       "kind": "documented use",
       "reading": "A transformation business case should include the costs of looking, making binding declarations and absorbing their consequences, not only implementation expenditure.",
       "relationTokens": 40,
-      "fichaTokens": 183,
+      "fichaTokens": 194,
+      "tagWeights": {
+        "aprendizaje": 0.1077,
+        "autoridad": 0.0227,
+        "capacidad-humana": 0.0878,
+        "control-minimo": 0.0208,
+        "decision": 0.0571,
+        "economia": 0.3045,
+        "empresa": 0.0621,
+        "estandares": 0.0568,
+        "evidencia": 0.027,
+        "experimentacion": 0.0406,
+        "memoria-territorio": 0.0342,
+        "perspectiva": 0.0227,
+        "transformacion": 0.156
+      },
+      "clusters": [
+        "net",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C89.json"
     },
     {
@@ -96,6 +161,28 @@
       "reading": "Upstream work should produce a focusable mission and explicit residual uncertainty before execution is compressed, with the cost of that preparation visible.",
       "relationTokens": 41,
       "fichaTokens": 185,
+      "tagWeights": {
+        "agentes": 0.0185,
+        "autoridad": 0.0216,
+        "casos": 0.0874,
+        "control-minimo": 0.0753,
+        "decision": 0.1327,
+        "documentacion": 0.0615,
+        "economia": 0.0816,
+        "empresa": 0.0971,
+        "evidencia": 0.0474,
+        "experimentacion": 0.0333,
+        "memoria-territorio": 0.0361,
+        "movilidad": 0.1553,
+        "transformacion": 0.1522
+      },
+      "clusters": [
+        "mobility",
+        "net",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C03.json"
     },
     {
@@ -107,6 +194,31 @@
       "reading": "Focus ON can distinguish an observable operating obstacle from a still-unmade declaration of ownership, scope or priority that the diagnosis cannot simply discover.",
       "relationTokens": 42,
       "fichaTokens": 205,
+      "tagWeights": {
+        "aprendizaje": 0.0563,
+        "autoridad": 0.0207,
+        "capacidad-humana": 0.0296,
+        "casos": 0.0473,
+        "control-minimo": 0.0218,
+        "decision": 0.0663,
+        "documentacion": 0.0594,
+        "economia": 0.1043,
+        "empresa": 0.1255,
+        "evidencia": 0.1038,
+        "integridad-ia": 0.0052,
+        "memoria-territorio": 0.0324,
+        "movilidad": 0.0604,
+        "perspectiva": 0.0443,
+        "transformacion": 0.2227
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "net",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C61.json"
     },
     {
@@ -117,7 +229,25 @@
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 172,
+      "fichaTokens": 183,
+      "tagWeights": {
+        "aprendizaje": 0.0159,
+        "autoridad": 0.0159,
+        "capacidad-humana": 0.1497,
+        "casos": 0.0159,
+        "control-minimo": 0.0345,
+        "decision": 0.1232,
+        "documentacion": 0.0689,
+        "economia": 0.1749,
+        "empresa": 0.1325,
+        "evidencia": 0.1973,
+        "memoria-territorio": 0.0158,
+        "transformacion": 0.0555
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G22.json"
     }
   ]

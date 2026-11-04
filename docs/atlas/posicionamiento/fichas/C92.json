@@ -11,23 +11,25 @@
     "L003"
   ],
   "tagWeights": {
-    "autoridad": 0.1375,
-    "capacidad-humana": 0.0417,
-    "decision": 0.2834,
-    "economia": 0.075,
-    "empresa": 0.0333,
-    "evidencia": 0.0333,
-    "integridad-ia": 0.0417,
-    "memoria-territorio": 0.1666,
-    "transformacion": 0.1875
+    "autoridad": 0.123,
+    "capacidad-humana": 0.0294,
+    "decision": 0.3246,
+    "economia": 0.0479,
+    "empresa": 0.0185,
+    "evidencia": 0.0185,
+    "integridad-ia": 0.0167,
+    "memoria-territorio": 0.1544,
+    "movilidad": 0.0735,
+    "transformacion": 0.1935
   },
   "clusters": [
     "latinoempresa",
     "net",
     "us"
   ],
-  "context": "## Acoplamiento selectivo entre sistemas\nConnect systems in stages to expose capabilities to new demands while retaining adaptation space.\nEtiquetas: Autoridad, permisos y delegación 13.75%; Capacidad humana y deuda de inteligencia 4.17%; Decisiones y responsabilidad 28.34%; Economía, costes y liquidez 7.50%; Empresa y gestión 3.33%; Evidencia, procedencia y atribución 3.33%; Integridad y seguridad de IA 4.17%; Memoria, comunidad y territorio 16.66%; Transformación y continuidad operativa 18.75%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/selective-coupling/\n\n",
-  "tokens": 147,
+  "context": "## Acoplamiento selectivo entre sistemas\nConnect systems in stages to expose capabilities to new demands while retaining adaptation space.\nEtiquetas: Autoridad, permisos y delegación 12.30%; Capacidad humana y deuda de inteligencia 2.94%; Decisiones y responsabilidad 32.46%; Economía, costes y liquidez 4.79%; Empresa y gestión 1.85%; Evidencia, procedencia y atribución 1.85%; Integridad y seguridad de IA 1.67%; Memoria, comunidad y territorio 15.44%; Movilidad e infraestructura 7.35%; Transformación y continuidad operativa 19.35%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/selective-coupling/\n\n",
+  "readingSource": null,
+  "tokens": 156,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -38,7 +40,19 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 126,
+      "fichaTokens": 260,
+      "tagWeights": {
+        "autoridad": 0.1177,
+        "capacidad-humana": 0.1177,
+        "decision": 0.2353,
+        "economia": 0.1176,
+        "memoria-territorio": 0.1176,
+        "movilidad": 0.2941
+      },
+      "clusters": [
+        "us"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1498.json"
     },
     {
@@ -49,7 +63,19 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 115,
+      "fichaTokens": 297,
+      "tagWeights": {
+        "autoridad": 0.0741,
+        "decision": 0.2963,
+        "economia": 0.0741,
+        "empresa": 0.0741,
+        "evidencia": 0.074,
+        "transformacion": 0.4074
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1292.json"
     },
     {
@@ -60,7 +86,17 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 100,
+      "fichaTokens": 302,
+      "tagWeights": {
+        "autoridad": 0.3,
+        "decision": 0.2667,
+        "integridad-ia": 0.0667,
+        "transformacion": 0.3666
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1279.json"
     },
     {
@@ -72,6 +108,14 @@
       "reading": "",
       "relationTokens": 29,
       "fichaTokens": 107,
+      "tagWeights": {
+        "decision": 0.5,
+        "memoria-territorio": 0.5
+      },
+      "clusters": [
+        "latinoempresa"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/L003.json"
     },
     {
@@ -82,7 +126,33 @@
       "kind": "analogy only",
       "reading": "Selective coupling offers a way to discuss the transition between focused intervention and organizational absorption without treating immediate full integration as the default.",
       "relationTokens": 44,
-      "fichaTokens": 213,
+      "fichaTokens": 222,
+      "tagWeights": {
+        "aprendizaje": 0.0183,
+        "autoridad": 0.0464,
+        "capacidad-humana": 0.0615,
+        "casos": 0.035,
+        "control-minimo": 0.0171,
+        "decision": 0.1314,
+        "documentacion": 0.0282,
+        "economia": 0.079,
+        "empresa": 0.1195,
+        "evidencia": 0.0942,
+        "experimentacion": 0.0314,
+        "memoria-territorio": 0.0419,
+        "movilidad": 0.0485,
+        "perspectiva": 0.0171,
+        "representacion": 0.0058,
+        "transformacion": 0.2247
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "net",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C90.json"
     },
     {
@@ -93,7 +163,40 @@
       "kind": "candidate transfer",
       "reading": "Selective coupling becomes an actionable design question only when authority, escalation, operating limits and exit conditions are explicit at the interface.",
       "relationTokens": 41,
-      "fichaTokens": 262,
+      "fichaTokens": 273,
+      "tagWeights": {
+        "agentes": 0.0434,
+        "aprendizaje": 0.0079,
+        "autoridad": 0.1478,
+        "capacidad-humana": 0.018,
+        "cartografia": 0.0148,
+        "casos": 0.0271,
+        "control-minimo": 0.0436,
+        "decision": 0.1698,
+        "documentacion": 0.0784,
+        "economia": 0.0334,
+        "empresa": 0.112,
+        "estandares": 0.0063,
+        "evidencia": 0.0528,
+        "experimentacion": 0.0371,
+        "geopolitica": 0.0013,
+        "integridad-ia": 0.0373,
+        "memoria-territorio": 0.0241,
+        "movilidad": 0.0392,
+        "perspectiva": 0.0068,
+        "representacion": 0.0025,
+        "transformacion": 0.0964
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "mobility",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C26.json"
     },
     {
@@ -104,7 +207,29 @@
       "kind": "hypothesis",
       "reading": "A possible operational test is whether selective decoupling preserves room for exploration while reducing coordination that blocks action across the network.",
       "relationTokens": 43,
-      "fichaTokens": 158,
+      "fichaTokens": 182,
+      "tagWeights": {
+        "aprendizaje": 0.0655,
+        "autoridad": 0.032,
+        "capacidad-humana": 0.0803,
+        "casos": 0.0167,
+        "decision": 0.1967,
+        "economia": 0.0527,
+        "empresa": 0.1165,
+        "evidencia": 0.0871,
+        "experimentacion": 0.0214,
+        "memoria-territorio": 0.1672,
+        "movilidad": 0.049,
+        "transformacion": 0.1149
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "net",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C106.json"
     }
   ]

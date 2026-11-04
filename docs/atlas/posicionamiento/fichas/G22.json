@@ -9,23 +9,25 @@
     "T1472"
   ],
   "tagWeights": {
-    "aprendizaje": 0.0334,
-    "autoridad": 0.0334,
-    "capacidad-humana": 0.1,
-    "casos": 0.0334,
-    "control-minimo": 0.0714,
-    "decision": 0.1572,
-    "documentacion": 0.0714,
-    "economia": 0.1214,
-    "empresa": 0.1047,
-    "evidencia": 0.2404,
-    "memoria-territorio": 0.0333
+    "aprendizaje": 0.0159,
+    "autoridad": 0.0159,
+    "capacidad-humana": 0.1497,
+    "casos": 0.0159,
+    "control-minimo": 0.0345,
+    "decision": 0.1232,
+    "documentacion": 0.0689,
+    "economia": 0.1749,
+    "empresa": 0.1325,
+    "evidencia": 0.1973,
+    "memoria-territorio": 0.0158,
+    "transformacion": 0.0555
   },
   "clusters": [
     "tegrity"
   ],
-  "context": "## Informational Friction / coste de claridad\nInformation movement and producing decision-ready clarity consume work in different ways.\nEtiquetas: Aprendizaje y transmisión de capacidades 3.34%; Autoridad, permisos y delegación 3.34%; Capacidad humana y deuda de inteligencia 10.00%; Casos de uso y aplicaciones 3.34%; Control mínimo y suficiencia 7.14%; Decisiones y responsabilidad 15.72%; Investigación y documentación técnica 7.14%; Economía, costes y liquidez 12.14%; Empresa y gestión 10.47%; Evidencia, procedencia y atribución 24.04%; Memoria, comunidad y territorio 3.33%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/informational-friction-and-cost-of-clarity/\n\n",
-  "tokens": 172,
+  "context": "## Informational Friction / coste de claridad\nInformation movement and producing decision-ready clarity consume work in different ways.\nEtiquetas: Aprendizaje y transmisión de capacidades 1.59%; Autoridad, permisos y delegación 1.59%; Capacidad humana y deuda de inteligencia 14.97%; Casos de uso y aplicaciones 1.59%; Control mínimo y suficiencia 3.45%; Decisiones y responsabilidad 12.32%; Investigación y documentación técnica 6.89%; Economía, costes y liquidez 17.49%; Empresa y gestión 13.25%; Evidencia, procedencia y atribución 19.73%; Memoria, comunidad y territorio 1.58%; Transformación y continuidad operativa 5.55%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/informational-friction-and-cost-of-clarity/\n\n",
+  "readingSource": null,
+  "tokens": 183,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -36,7 +38,20 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 110,
+      "fichaTokens": 280,
+      "tagWeights": {
+        "capacidad-humana": 0.1724,
+        "control-minimo": 0.069,
+        "decision": 0.1035,
+        "documentacion": 0.1379,
+        "economia": 0.2069,
+        "empresa": 0.1379,
+        "evidencia": 0.1724
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1484.json"
     },
     {
@@ -47,7 +62,23 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 156,
+      "fichaTokens": 694,
+      "tagWeights": {
+        "aprendizaje": 0.0318,
+        "autoridad": 0.0317,
+        "capacidad-humana": 0.127,
+        "casos": 0.0317,
+        "decision": 0.1429,
+        "economia": 0.1429,
+        "empresa": 0.127,
+        "evidencia": 0.2222,
+        "memoria-territorio": 0.0317,
+        "transformacion": 0.1111
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1472.json"
     },
     {
@@ -58,7 +89,23 @@
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 150,
+      "fichaTokens": 159,
+      "tagWeights": {
+        "aprendizaje": 0.018,
+        "capacidad-humana": 0.4814,
+        "decision": 0.018,
+        "documentacion": 0.0476,
+        "economia": 0.0451,
+        "empresa": 0.0597,
+        "evidencia": 0.1825,
+        "experimentacion": 0.1017,
+        "memoria-territorio": 0.027,
+        "transformacion": 0.019
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G21.json"
     },
     {
@@ -70,6 +117,36 @@
       "reading": "",
       "relationTokens": 18,
       "fichaTokens": 257,
+      "tagWeights": {
+        "agentes": 0.0227,
+        "aprendizaje": 0.0059,
+        "autoridad": 0.0123,
+        "capacidad-humana": 0.1126,
+        "casos": 0.0221,
+        "control-minimo": 0.0305,
+        "decision": 0.0772,
+        "documentacion": 0.0313,
+        "economia": 0.2329,
+        "empresa": 0.1056,
+        "evidencia": 0.1037,
+        "experimentacion": 0.0145,
+        "integridad-ia": 0.0032,
+        "matematicas": 0.0074,
+        "memoria-territorio": 0.0263,
+        "movilidad": 0.0406,
+        "mundo-abierto": 0.0111,
+        "perspectiva": 0.015,
+        "representacion": 0.0266,
+        "transformacion": 0.0985
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C32.json"
     },
     {
@@ -80,7 +157,33 @@
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 18,
-      "fichaTokens": 207,
+      "fichaTokens": 216,
+      "tagWeights": {
+        "agentes": 0.0769,
+        "aprendizaje": 0.0195,
+        "autoridad": 0.0163,
+        "capacidad-humana": 0.1412,
+        "casos": 0.0385,
+        "control-minimo": 0.0457,
+        "decision": 0.0822,
+        "documentacion": 0.104,
+        "economia": 0.1122,
+        "empresa": 0.1127,
+        "evidencia": 0.0646,
+        "experimentacion": 0.0483,
+        "memoria-territorio": 0.0154,
+        "movilidad": 0.0226,
+        "perspectiva": 0.0212,
+        "transformacion": 0.0787
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C35.json"
     },
     {
@@ -92,6 +195,25 @@
       "reading": "",
       "relationTokens": 19,
       "fichaTokens": 160,
+      "tagWeights": {
+        "aprendizaje": 0.0714,
+        "autoridad": 0.057,
+        "control-minimo": 0.0593,
+        "decision": 0.1526,
+        "documentacion": 0.0385,
+        "economia": 0.305,
+        "empresa": 0.0671,
+        "evidencia": 0.0185,
+        "memoria-territorio": 0.0139,
+        "perspectiva": 0.0385,
+        "transformacion": 0.1782
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C83.json"
     },
     {
@@ -103,6 +225,26 @@
       "reading": "",
       "relationTokens": 18,
       "fichaTokens": 172,
+      "tagWeights": {
+        "aprendizaje": 0.1339,
+        "autoridad": 0.075,
+        "casos": 0.0385,
+        "control-minimo": 0.0625,
+        "decision": 0.1292,
+        "economia": 0.2171,
+        "empresa": 0.0384,
+        "evidencia": 0.0577,
+        "integridad-ia": 0.0167,
+        "memoria-territorio": 0.0384,
+        "representacion": 0.0625,
+        "transformacion": 0.1301
+      },
+      "clusters": [
+        "net",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C84.json"
     },
     {
@@ -113,7 +255,23 @@
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 150,
+      "fichaTokens": 159,
+      "tagWeights": {
+        "aprendizaje": 0.018,
+        "capacidad-humana": 0.4814,
+        "decision": 0.018,
+        "documentacion": 0.0476,
+        "economia": 0.0451,
+        "empresa": 0.0597,
+        "evidencia": 0.1825,
+        "experimentacion": 0.1017,
+        "memoria-territorio": 0.027,
+        "transformacion": 0.019
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G21.json"
     }
   ]

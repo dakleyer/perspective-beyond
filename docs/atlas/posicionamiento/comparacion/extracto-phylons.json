@@ -1,0 +1,75 @@
+{
+  "case": "C3",
+  "question": "¿Por qué una señal local no basta para comprometer liquidez compartida en Phylons? Reconstruye la secuencia de coordinación y explica una relación útil con otro dominio.",
+  "method": {
+    "blind_read": true,
+    "external_sources_opened": false,
+    "memory_used": false,
+    "content_source": "correction_reader_C3.json",
+    "scores_scale": "0 = ausente o inutilizable; 1 = muy insuficiente; 2 = parcial; 3 = sólido con límites; 4 = completo y explícito para la pregunta."
+  },
+  "answers": {
+    "X": {
+      "text": "El paquete permite plantear una distinción entre señal y decisión económica, pero no reconstruir la secuencia operativa de Phylons. La ficha de [liquidez](https://jubap.net/phylons-liquidity-orquestration/) reúne autoridad, permisos, decisiones y recursos económicos; esas etiquetas indican el tema, sin describir quién autoriza, cómo se calcula una cantidad o qué ocurre después de ejecutar. Por ello, concluir que una señal local basta para comprometer fondos compartidos excedería la evidencia disponible. Tampoco sería justificable inventar supervisores, prioridades o reglas de reparto.\n\nSí aparece una relación útil con la alerta temprana: [Regime Awareness](https://dakleyer.github.io/perspective-beyond/concepts/regime-awareness/) busca detectar condiciones que podrían invalidar una interpretación o supuesto anterior. Aplicado como comparación conceptual, esto sugiere preguntar si una señal sigue siendo pertinente bajo el contexto vigente antes de apoyar una decisión. El paquete vincula esa pregunta posterior con el linaje Phylons, aunque no aporta fechas ni demuestra una implementación compartida. La relación con los factores predictivos se presenta expresamente como comparación editorial. Para explicar el mecanismo completo faltan etapas, responsables y condiciones de paso entre detección, autorización y uso efectivo de liquidez.",
+      "word_count": 171
+    },
+    "Y": {
+      "text": "Una señal local aporta información, pero no autoridad sobre recursos compartidos. Según [Phylons Liquidity Orquestration](https://jubap.net/phylons-liquidity-orquestration/), la arquitectura distingue confianza epistémica y autoridad económica: los detectores proponen; los supervisores locales dimensionan la intención; la gobernanza de liquidez compartida autoriza; los adaptadores comprometen la orden en el mercado; los registros reconcilian lo ocurrido y la retroalimentación modifica el ciclo siguiente. Esa separación coordina actores que compiten por el mismo recurso escaso.\n\nEl paquete atribuye al código saldos, asignaciones, registros de operaciones, envío mediante CCXT y consultas de finalización. En cambio, la sincronización tf15→tf5→tf1, el reparto proporcional y la clasificación y coordinación HQ/LQ pertenecen al diseño histórico: no están verificados íntegramente en la instantánea suministrada. Tampoco se acredita rentabilidad.\n\nUna analogía propuesta sería distribuir capacidad hospitalaria: una alerta local de demanda inicia una solicitud, pero comprometer camas compartidas requiere dimensionarla, autorizarla y registrar el uso real. La comparación ilustra el contrato, sin acreditar su validación sanitaria. Finalmente, [la cascada de factores](https://jubap.net/phylons-predictive-factors-cascade/) contextualiza las señales; el marco de suficiencia de 2026 formaliza preguntas que la arquitectura de 2018 no afirmaba haber resuelto.",
+      "word_count": 178
+    }
+  },
+  "scores": {
+    "X": {
+      "mecanismo": {
+        "score": 0,
+        "reason": "No proporciona las etapas ni las condiciones que convierten una señal en un compromiso de liquidez."
+      },
+      "cobertura": {
+        "score": 1,
+        "reason": "Identifica los temas pertinentes y una conexión con Regime Awareness, pero deja sin respuesta la secuencia de coordinación."
+      },
+      "apoyo_en_fuentes": {
+        "score": 1,
+        "reason": "Aporta enlaces identificables y tipos de relación, sin contenido sustantivo de las fuentes principales que permita sostener la explicación operativa."
+      },
+      "fluidez": {
+        "score": 2,
+        "reason": "El recorrido se puede seguir como índice, aunque las etiquetas y referencias interrumpen la explicación y no componen un argumento."
+      },
+      "precision_de_atribucion_y_cronologia": {
+        "score": 2,
+        "reason": "Distingue comparación editorial, uso documentado y referencia de fuente; no aporta fechas ni límites suficientes para reconstruir la evolución del mecanismo."
+      },
+      "total": 6
+    },
+    "Y": {
+      "mecanismo": {
+        "score": 4,
+        "reason": "Expone detección, intención dimensionada, autorización de recursos comunes, compromiso en mercado, reconciliación y retroalimentación."
+      },
+      "cobertura": {
+        "score": 4,
+        "reason": "Permite responder por qué no basta una señal, reconstruir la secuencia y proponer una transferencia conceptual a otro recurso compartido."
+      },
+      "apoyo_en_fuentes": {
+        "score": 3,
+        "reason": "Ofrece contenido sustantivo, enlaces y distinciones concretas de evidencia; las afirmaciones sobre el código siguen siendo atribuciones del texto suministrado, sin inspección independiente."
+      },
+      "fluidez": {
+        "score": 3,
+        "reason": "La exposición conecta las etapas y sus funciones, aunque la densidad de siglas, listas técnicas e índices posteriores dificulta una lectura continua."
+      },
+      "precision_de_atribucion_y_cronologia": {
+        "score": 4,
+        "reason": "Diferencia diseño de 2018, instantáneas de implementación, reconstrucción retrospectiva y formalización de 2026; mantiene mecanismos no verificados en la categoría de diseño y no afirma rentabilidad ni validez universal."
+      },
+      "total": 18
+    }
+  },
+  "comparison": {
+    "preference": "Y",
+    "decisive_information": "La cadena detectores → supervisores locales → autorización de liquidez compartida → adaptadores de mercado → reconciliación → retroalimentación permite explicar cómo se pasa de información local a uso autorizado de un recurso común. La separación entre confianza epistémica y autoridad económica responde directamente al porqué. La lista de funciones atribuidas al código y de políticas que permanecen en el diseño evita presentar toda la arquitectura como implementada. Las fechas 2018 y 2026 permiten explicar evolución sin identidad retrospectiva.",
+    "concrete_limitation_X": "Las etiquetas temáticas y los enlaces no contienen la información necesaria para reconstruir esa cadena. La respuesta X conserva explícitamente esa incertidumbre.",
+    "cross_domain_relation_status": "La capacidad hospitalaria de la respuesta Y es una analogía propuesta a partir del contrato de recursos compartidos, no un caso documentado ni una validación. La relación con alerta temprana de X deriva exclusivamente de la definición y del enlace de linaje presentes en X."
+  }
+}

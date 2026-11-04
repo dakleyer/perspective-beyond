@@ -13,6 +13,7 @@
     "dialogos"
   ],
   "context": "## Un JSON correcto puede describir una vaca que no estaba allí\nINTERLOCUTOR (pregunta editorial; no necesariamente pronunciada) — ¿Qué demuestra de verdad una validación impecable cuando el problema pudo ocurrir antes de la codificación?\nREFLEXIÓN DEL DIÁLOGO (reconstrucción/síntesis; no cita literal) — El crítico ofrece una objeción contundente: existe un validador de JSON que, para cualquier cadena finita, puede decir correctamente si cumple la sintaxis. Por tanto, no es cierto que no pueda existir ningún filtro perfecto. El arquitecto acepta el contraejemplo, pero señala el lugar que sigue sin estar resuelto. El validador no recibe una vaca, una nube con forma de vaca ni la alucinación de una vaca. Recibe un registro que puede decir exactamente lo mismo sobre cualquiera de ellas: `{\"object\":\"cow\"}`.\n\nEl debate afina la tesis. No hace falta suponer un «prefiltro semántico» que decida cuáles cadenas merecen entrar: el JSON puede admitir todas. Lo que ocurrió antes es otro tipo de operación, una transformación entre fenómeno y registro. Si dos estados del mundo que deberían producir decisiones distintas quedaron codificados igual, ningún validador posterior puede devolverles la diferencia perdida. No es un fallo del JSON. Es una limitación de decidir exclusivamente desde esa representación.\n\nEsto explica una paradoja operativa conocida por Iván: los controles pueden aprobar y el sistema seguir fallando, sin que sea correcto llamar inútiles a todos los controles. Funcionan para lo que reciben. La pregunta arquitectónica es si el registro conserva precisamente lo que el resultado exigía distinguir. La ficha preserva la concesión del crítico tanto como la intuición del arquitecto.\nEtiquetas: Decisiones y responsabilidad 50.00%; Matemáticas 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-217\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-217.html\n\n",
+  "readingSource": null,
   "tokens": 438,
   "encoding": "o200k_base",
   "relations": [
@@ -25,6 +26,24 @@
       "reading": "",
       "relationTokens": 25,
       "fichaTokens": 177,
+      "tagWeights": {
+        "aprendizaje": 0.1144,
+        "autoridad": 0.0109,
+        "cambio-regimen": 0.0198,
+        "casos": 0.0531,
+        "decision": 0.1278,
+        "documentacion": 0.0217,
+        "economia": 0.0163,
+        "experimentacion": 0.0582,
+        "matematicas": 0.5204,
+        "movilidad": 0.0248,
+        "mundo-abierto": 0.0109,
+        "representacion": 0.0217
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-math.json"
     },
     {
@@ -36,6 +55,31 @@
       "reading": "",
       "relationTokens": 29,
       "fichaTokens": 258,
+      "tagWeights": {
+        "aprendizaje": 0.2354,
+        "autoridad": 0.0588,
+        "casos": 0.0162,
+        "control-minimo": 0.0103,
+        "decision": 0.157,
+        "documentacion": 0.0114,
+        "economia": 0.0507,
+        "empresa": 0.0151,
+        "espiritualidad": 0.025,
+        "estandares": 0.0142,
+        "evidencia": 0.0076,
+        "experimentacion": 0.0418,
+        "geopolitica": 0.0057,
+        "integridad-ia": 0.0284,
+        "matematicas": 0.169,
+        "memoria-territorio": 0.0227,
+        "mundo-abierto": 0.0057,
+        "perspectiva": 0.1023,
+        "transformacion": 0.0227
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-doubt.json"
     },
     {
@@ -47,6 +91,26 @@
       "reading": "",
       "relationTokens": 26,
       "fichaTokens": 202,
+      "tagWeights": {
+        "aprendizaje": 0.0552,
+        "autoridad": 0.0761,
+        "casos": 0.0111,
+        "decision": 0.4409,
+        "economia": 0.1355,
+        "empresa": 0.0486,
+        "evidencia": 0.0185,
+        "matematicas": 0.0868,
+        "memoria-territorio": 0.007,
+        "movilidad": 0.0347,
+        "mundo-abierto": 0.0139,
+        "perspectiva": 0.037,
+        "representacion": 0.0278,
+        "transformacion": 0.0069
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-measure.json"
     },
     {
@@ -58,6 +122,18 @@
       "reading": "",
       "relationTokens": 27,
       "fichaTokens": 137,
+      "tagWeights": {
+        "aprendizaje": 0.2131,
+        "decision": 0.1339,
+        "integridad-ia": 0.1,
+        "matematicas": 0.428,
+        "mundo-abierto": 0.025,
+        "transformacion": 0.1
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-formalization_event.json"
     },
     {
@@ -69,6 +145,15 @@
       "reading": "La lectura enlaza «Un JSON correcto puede describir una vaca que no estaba allí» con «Tres observaciones que no caben en una decisión». Permite contrastar Pensamiento matemático, Duda, pruebas y conocimiento corregible.",
       "relationTokens": 80,
       "fichaTokens": 298,
+      "tagWeights": {
+        "casos": 0.2,
+        "decision": 0.6,
+        "matematicas": 0.2
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-097.json"
     },
     {
@@ -80,6 +165,13 @@
       "reading": "La lectura enlaza «Un JSON correcto puede describir una vaca que no estaba allí» con «Lo que el mapa no representa puede cambiar la decisión». Permite contrastar Duda, pruebas y conocimiento corregible.",
       "relationTokens": 75,
       "fichaTokens": 261,
+      "tagWeights": {
+        "decision": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-099.json"
     },
     {
@@ -91,6 +183,13 @@
       "reading": "La lectura enlaza «Un JSON correcto puede describir una vaca que no estaba allí» con «Un control puede aprobar y el sistema seguir fallando». Permite contrastar Duda, pruebas y conocimiento corregible.",
       "relationTokens": 75,
       "fichaTokens": 299,
+      "tagWeights": {
+        "aprendizaje": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-116.json"
     },
     {
@@ -102,6 +201,13 @@
       "reading": "La lectura enlaza «Un JSON correcto puede describir una vaca que no estaba allí» con «El instante que una cosa del mundo se convierte en dato». Permite contrastar Pensamiento matemático, La frontera entre mundo y registro.",
       "relationTokens": 80,
       "fichaTokens": 425,
+      "tagWeights": {
+        "matematicas": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-216.json"
     },
     {
@@ -113,6 +219,13 @@
       "reading": "La lectura enlaza «Una contradicción puede contagiar máquinas antes de que nadie vea el desastre» con «Un JSON correcto puede describir una vaca que no estaba allí». Permite contrastar La frontera entre mundo y registro.",
       "relationTokens": 81,
       "fichaTokens": 430,
+      "tagWeights": {
+        "transformacion": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-244.json"
     },
     {
@@ -124,6 +237,15 @@
       "reading": "La lectura enlaza «La nueva Babel puede funcionar demasiado bien antes de dejar de ser fiable» con «Un JSON correcto puede describir una vaca que no estaba allí». Permite contrastar Duda, pruebas y conocimiento corregible.",
       "relationTokens": 81,
       "fichaTokens": 449,
+      "tagWeights": {
+        "economia": 0.3334,
+        "evidencia": 0.3333,
+        "transformacion": 0.3333
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-247.json"
     },
     {
@@ -135,6 +257,14 @@
       "reading": "La lectura enlaza «Rechazar una entrada también es tomar una decisión» con «Un JSON correcto puede describir una vaca que no estaba allí». Permite contrastar Pensamiento matemático, La frontera entre mundo y registro.",
       "relationTokens": 78,
       "fichaTokens": 404,
+      "tagWeights": {
+        "decision": 0.7143,
+        "matematicas": 0.2857
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-278.json"
     },
     {
@@ -146,6 +276,13 @@
       "reading": "La lectura enlaza «Una entrada fuera del dominio puede producir una salida aparentemente útil» con «Un JSON correcto puede describir una vaca que no estaba allí». Permite contrastar Pensamiento matemático, La frontera entre mundo y registro.",
       "relationTokens": 80,
       "fichaTokens": 377,
+      "tagWeights": {
+        "matematicas": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-279.json"
     },
     {
@@ -157,6 +294,16 @@
       "reading": "Ambas reflexiones permiten comparar La frontera entre mundo y registro, Medir decisiones y consecuencias, Pensamiento matemático desde las situaciones que describe cada texto.",
       "relationTokens": 62,
       "fichaTokens": 482,
+      "tagWeights": {
+        "aprendizaje": 0.3125,
+        "decision": 0.125,
+        "matematicas": 0.3125,
+        "mundo-abierto": 0.25
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-219.json"
     },
     {
@@ -168,6 +315,13 @@
       "reading": "Ambas reflexiones permiten comparar La frontera entre mundo y registro, Pensamiento matemático, Duda, pruebas y conocimiento corregible desde las situaciones que describe cada texto.",
       "relationTokens": 67,
       "fichaTokens": 406,
+      "tagWeights": {
+        "matematicas": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-266.json"
     },
     {
@@ -179,6 +333,14 @@
       "reading": "Ambas reflexiones permiten comparar La frontera entre mundo y registro, Pensamiento matemático, Duda, pruebas y conocimiento corregible desde las situaciones que describe cada texto.",
       "relationTokens": 66,
       "fichaTokens": 408,
+      "tagWeights": {
+        "aprendizaje": 0.8182,
+        "matematicas": 0.1818
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-250.json"
     }
   ]

@@ -11,21 +11,24 @@
     "L004"
   ],
   "tagWeights": {
-    "documentacion": 0.1137,
-    "estandares": 0.3089,
-    "evidencia": 0.0839,
-    "experimentacion": 0.125,
-    "geopolitica": 0.0962,
-    "memoria-territorio": 0.0839,
-    "transformacion": 0.1884
+    "autoridad": 0.05,
+    "documentacion": 0.181,
+    "empresa": 0.103,
+    "estandares": 0.1955,
+    "evidencia": 0.1361,
+    "experimentacion": 0.0935,
+    "geopolitica": 0.0961,
+    "memoria-territorio": 0.0622,
+    "transformacion": 0.0826
   },
   "clusters": [
     "eu",
     "latinoempresa",
     "tegrity"
   ],
-  "context": "## Preestandarización\nContribute cases, requirements or problems for standards discussion.\nEtiquetas: Investigación y documentación técnica 11.37%; Estándares e interoperabilidad 30.89%; Evidencia, procedencia y atribución 8.39%; Experimentación, falsación y contraejemplos 12.50%; Geopolítica y fronteras 9.62%; Memoria, comunidad y territorio 8.39%; Transformación y continuidad operativa 18.84%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/pre-standardisation/\n\n",
-  "tokens": 121,
+  "context": "## Preestandarización\nContribute cases, requirements or problems for standards discussion.\nEtiquetas: Autoridad, permisos y delegación 5.00%; Investigación y documentación técnica 18.10%; Empresa y gestión 10.30%; Estándares e interoperabilidad 19.55%; Evidencia, procedencia y atribución 13.61%; Experimentación, falsación y contraejemplos 9.35%; Geopolítica y fronteras 9.61%; Memoria, comunidad y territorio 6.22%; Transformación y continuidad operativa 8.26%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/pre-standardisation/\n\n",
+  "readingSource": null,
+  "tokens": 141,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -36,7 +39,17 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 15,
-      "fichaTokens": 84,
+      "fichaTokens": 249,
+      "tagWeights": {
+        "empresa": 0.4118,
+        "estandares": 0.1176,
+        "experimentacion": 0.2941,
+        "transformacion": 0.1765
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1526.json"
     },
     {
@@ -47,7 +60,18 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 105,
+      "fichaTokens": 342,
+      "tagWeights": {
+        "autoridad": 0.2,
+        "documentacion": 0.2,
+        "estandares": 0.32,
+        "evidencia": 0.2,
+        "experimentacion": 0.08
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2744.json"
     },
     {
@@ -58,7 +82,17 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 107,
+      "fichaTokens": 207,
+      "tagWeights": {
+        "documentacion": 0.5238,
+        "estandares": 0.1905,
+        "evidencia": 0.1905,
+        "memoria-territorio": 0.0952
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2818.json"
     },
     {
@@ -70,6 +104,17 @@
       "reading": "",
       "relationTokens": 24,
       "fichaTokens": 132,
+      "tagWeights": {
+        "estandares": 0.1539,
+        "evidencia": 0.1539,
+        "geopolitica": 0.3846,
+        "memoria-territorio": 0.1538,
+        "transformacion": 0.1538
+      },
+      "clusters": [
+        "latinoempresa"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/L004.json"
     },
     {
@@ -80,7 +125,36 @@
       "kind": "candidate transfer",
       "reading": "A bounded, rights-cleared interoperability case could support a technical contribution without presenting the entire client engagement as a standards submission.",
       "relationTokens": 37,
-      "fichaTokens": 231,
+      "fichaTokens": 242,
+      "tagWeights": {
+        "autoridad": 0.021,
+        "cambio-regimen": 0.0269,
+        "cartografia": 0.0119,
+        "casos": 0.0629,
+        "control-minimo": 0.0202,
+        "decision": 0.0424,
+        "documentacion": 0.0708,
+        "economia": 0.0586,
+        "empresa": 0.1,
+        "estandares": 0.0472,
+        "evidencia": 0.1556,
+        "experimentacion": 0.084,
+        "integridad-ia": 0.0541,
+        "memoria-territorio": 0.0218,
+        "movilidad": 0.1649,
+        "mundo-abierto": 0.0024,
+        "representacion": 0.0099,
+        "transformacion": 0.0454
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C49.json"
     },
     {
@@ -91,7 +165,35 @@
       "kind": "candidate transfer",
       "reading": "The extensible case-study method could translate a frontier observation into a bounded requirement and test, rather than treating experience itself as a standard.",
       "relationTokens": 42,
-      "fichaTokens": 230,
+      "fichaTokens": 238,
+      "tagWeights": {
+        "agentes": 0.0139,
+        "aprendizaje": 0.0223,
+        "autoridad": 0.0467,
+        "capacidad-humana": 0.0147,
+        "cartografia": 0.1534,
+        "control-minimo": 0.0179,
+        "decision": 0.0682,
+        "documentacion": 0.0493,
+        "economia": 0.0147,
+        "empresa": 0.0312,
+        "estandares": 0.0592,
+        "evidencia": 0.0816,
+        "experimentacion": 0.0189,
+        "geopolitica": 0.0481,
+        "memoria-territorio": 0.0623,
+        "movilidad": 0.2136,
+        "transformacion": 0.084
+      },
+      "clusters": [
+        "latinoempresa",
+        "mobility",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C108.json"
     },
     {
@@ -103,6 +205,16 @@
       "reading": "",
       "relationTokens": 18,
       "fichaTokens": 78,
+      "tagWeights": {
+        "documentacion": 0.3409,
+        "evidencia": 0.3863,
+        "matematicas": 0.2728
+      },
+      "clusters": [
+        "research",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G20.json"
     },
     {
@@ -114,6 +226,16 @@
       "reading": "",
       "relationTokens": 18,
       "fichaTokens": 79,
+      "tagWeights": {
+        "control-minimo": 0.103,
+        "documentacion": 0.0588,
+        "estandares": 0.8382
+      },
+      "clusters": [
+        "research",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G35.json"
     }
   ]

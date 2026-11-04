@@ -6,14 +6,20 @@
   "documentId": "doc-ae91b86a373ea7544d",
   "sourceIds": [],
   "tagWeights": {
-    "agentes": 0.5,
-    "movilidad": 0.5
+    "agentes": 0.5625,
+    "movilidad": 0.4375
   },
   "clusters": [
     "net"
   ],
-  "context": "## xSeil agentic features\n\nEtiquetas: Agentes y coordinación distribuida 50.00%; Movilidad e infraestructura 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/xseil-agentic-features-n1822/\nDocumento de origen: https://jubap.net/xseil-agentic-features/\n\n",
-  "tokens": 75,
+  "context": "## xSeil agentic features\nBefore agent frameworks became mainstream, deployed mission-critical systems implemented centralized equivalents of behaviours now attributed to multi-agent architectures. We document three such mechanisms in xSeil (2016–2017): a pacing daemon computing a multiplicative saturation index over destination pressure and issuing physical speed commands to vehicles through iterative marginal load-shifting; a scenario system with a full simulation twin evaluating counterfactual plans against a shared persistent configuration library; and an evidence-gated escalation ladder that widens search scope only on demonstrated insufficiency. We show that the daemon’s saturation index is structurally identical to the fragility measure F = P(anomalies) × P(propagation) formalized by the same group a decade later, map each mechanism to its modern agentic counterpart as explicit retrospective interpretation, and specify a benchmark protocol for the open empirical question of what decentralization buys — and costs — against a centralized baseline possessing global visibility and deterministic auditability.\nEtiquetas: Agentes y coordinación distribuida 56.25%; Movilidad e infraestructura 43.75%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/xseil-agentic-features-n1822/\nDocumento de origen: https://jubap.net/xseil-agentic-features/\n\n",
+  "readingSource": {
+    "url": "https://jubap.net/xseil-agentic-features/",
+    "section": "Abstract",
+    "observed": "2026-11-04",
+    "sourceSha256": "016faca3d96c85420eed6bea373e3278dcddf092ebf4453a76e905db949a89f6"
+  },
+  "tokens": 262,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -24,7 +30,16 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [Pre-Agentic Orchestration: the canonical paper](https://jubap.net/xseil-agentic-features/).",
       "relationTokens": 48,
-      "fichaTokens": 72,
+      "fichaTokens": 327,
+      "tagWeights": {
+        "agentes": 0.4286,
+        "documentacion": 0.2381,
+        "movilidad": 0.3333
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1805.json"
     },
     {
@@ -35,7 +50,16 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [A retrospective MSCA reading of xSeil](https://tegrity.ai/minimum-sufficient-control-architecture-for-ai-enabled-urban-systems/).",
       "relationTokens": 59,
-      "fichaTokens": 83,
+      "fichaTokens": 290,
+      "tagWeights": {
+        "control-minimo": 0.5385,
+        "estandares": 0.2692,
+        "movilidad": 0.1923
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2729.json"
     },
     {
@@ -46,7 +70,16 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [When locally valid controls do not establish global sufficiency](https://tegrity.ai/when-the-controls-work-but-the-system-fails/).",
       "relationTokens": 55,
-      "fichaTokens": 87,
+      "fichaTokens": 182,
+      "tagWeights": {
+        "cartografia": 0.3077,
+        "documentacion": 0.5385,
+        "integridad-ia": 0.1538
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2776.json"
     }
   ]

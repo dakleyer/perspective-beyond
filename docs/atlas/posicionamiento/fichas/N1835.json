@@ -6,13 +6,22 @@
   "documentId": "doc-ed24c3ef0140a94479",
   "sourceIds": [],
   "tagWeights": {
-    "evidencia": 1.0
+    "documentacion": 0.28,
+    "economia": 0.28,
+    "evidencia": 0.16,
+    "experimentacion": 0.28
   },
   "clusters": [
     "net"
   ],
-  "context": "## Phylons relabeling cascades\n\nEtiquetas: Evidencia, procedencia y atribución 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/phylons-relabeling-cascades-n1835/\nDocumento de origen: https://jubap.net/phylons-relabeling-cascades/\n\n",
-  "tokens": 74,
+  "context": "## Phylons relabeling cascades\nThis paper reconstructs the revision-aware event substrate of JUBAP/Phylons from two supplied source snapshots and the historical design corpus. The xbot snapshot implements a retrospective path: local extrema are filtered through centred windows, hidden extrema can be recovered, waves and targets are deleted and rematerialized over a bounded recent interval, predictive factors are recalculated with history padding, and materialized factor-state arrays are replaced from the last stored timestamp. The later JUBAP-PFS snapshot implements a causal streaming path: candidate extrema are confirmed only after subsequent evidence, the event is stored at its historical position while confirmation is emitted at the current stream position, higher event levels are constructed recursively, and temporary extrema are represented separately from confirmed ones. Together, these artifacts expose a research object more precise than a generic “relabeling cascade”: a new observation can revise an earlier event in event time, and that revision can propagate forward through the subset of derived objects that actually depend on the event branch.\n\nThe paper therefore separates three layers. First, it documents the code-grounded historical mechanisms. Second, it introduces an implementation-ready, dependency-aware reconstruction with versioned event records, knowledge-time cutoffs, selective invalidation, topological rebuilding, and a cascade-cost ledger. Third, it treats quantum computation as a conditional research option rather than an established advantage. Amplitude amplification or amplitude estimation becomes relevant only after a fixed candidate universe, a reversible marking or sampling oracle, coherent state preparation, error targets, and total resource costs are specified. Event detection, feature construction, dependency traversal, and rebuilding remain classical. The strongest contribution is thus classical and falsifiable: an evolution from retrospective event reconstruction to causal event semantics, plus a concrete benchmark for measuring when revisions matter, how far they propagate, and whether any quantum triage layer could ever cross the engineering cost frontier.\n\nKeywords: event semantics; relabeling; causal replay; knowledge time; dependency graph; incremental recomputation; regime detection; quantum amplitude amplification; amplitude estimation\n\nThe supplied code verifies both retrospective reconstruction and causal streaming confirmation. A relabeling cascade should be measured as selective downstream invalidation under explicit event and knowledge versions, not assumed to affect the entire system.\n\nThe paper identifies query-complexity candidates, not a demonstrated hardware advantage. The oracle, state preparation, coherent simulation, precision, confidence, and total wall-clock/resource costs remain part of the research question.\nEtiquetas: Investigación y documentación técnica 28.00%; Economía, costes y liquidez 28.00%; Evidencia, procedencia y atribución 16.00%; Experimentación, falsación y contraejemplos 28.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/phylons-relabeling-cascades-n1835/\nDocumento de origen: https://jubap.net/phylons-relabeling-cascades/\n\n",
+  "readingSource": {
+    "url": "https://jubap.net/phylons-relabeling-cascades/",
+    "section": "Abstract",
+    "observed": "2026-11-04",
+    "sourceSha256": "ae2caa70e066d810f761fed491cde41f0f2263e5f8d262331cc7ec5550cfedd3"
+  },
+  "tokens": 592,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,7 +32,29 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 163,
+      "fichaTokens": 181,
+      "tagWeights": {
+        "agentes": 0.0397,
+        "casos": 0.0465,
+        "control-minimo": 0.0079,
+        "decision": 0.0324,
+        "documentacion": 0.2843,
+        "economia": 0.0559,
+        "empresa": 0.1208,
+        "evidencia": 0.2084,
+        "experimentacion": 0.0546,
+        "matematicas": 0.0318,
+        "movilidad": 0.0231,
+        "mundo-abierto": 0.0397,
+        "representacion": 0.0549
+      },
+      "clusters": [
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C11.json"
     },
     {
@@ -35,6 +66,39 @@
       "reading": "",
       "relationTokens": 20,
       "fichaTokens": 276,
+      "tagWeights": {
+        "agentes": 0.0125,
+        "aprendizaje": 0.0053,
+        "autoridad": 0.0141,
+        "cambio-regimen": 0.0077,
+        "capacidad-humana": 0.0245,
+        "cartografia": 0.0367,
+        "casos": 0.0262,
+        "control-minimo": 0.0301,
+        "decision": 0.0464,
+        "documentacion": 0.0959,
+        "economia": 0.0531,
+        "empresa": 0.0947,
+        "estandares": 0.0013,
+        "evidencia": 0.3105,
+        "experimentacion": 0.029,
+        "matematicas": 0.0257,
+        "memoria-territorio": 0.0142,
+        "movilidad": 0.0697,
+        "mundo-abierto": 0.0101,
+        "representacion": 0.0099,
+        "transformacion": 0.0824
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "mobility",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C12.json"
     },
     {
@@ -45,7 +109,23 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 111,
+      "fichaTokens": 146,
+      "tagWeights": {
+        "agentes": 0.1563,
+        "autoridad": 0.0625,
+        "control-minimo": 0.0625,
+        "decision": 0.0937,
+        "documentacion": 0.14,
+        "economia": 0.14,
+        "evidencia": 0.1425,
+        "experimentacion": 0.14,
+        "transformacion": 0.0625
+      },
+      "clusters": [
+        "eu",
+        "net"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C13.json"
     },
     {
@@ -57,6 +137,33 @@
       "reading": "",
       "relationTokens": 20,
       "fichaTokens": 220,
+      "tagWeights": {
+        "agentes": 0.0306,
+        "autoridad": 0.041,
+        "cambio-regimen": 0.1197,
+        "cartografia": 0.0091,
+        "casos": 0.007,
+        "control-minimo": 0.0684,
+        "decision": 0.0931,
+        "documentacion": 0.2006,
+        "economia": 0.082,
+        "empresa": 0.0667,
+        "evidencia": 0.0822,
+        "experimentacion": 0.03,
+        "matematicas": 0.0687,
+        "memoria-territorio": 0.0164,
+        "movilidad": 0.0404,
+        "perspectiva": 0.0168,
+        "transformacion": 0.0273
+      },
+      "clusters": [
+        "eu",
+        "mobility",
+        "net",
+        "research",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C42.json"
     },
     {
@@ -68,6 +175,32 @@
       "reading": "",
       "relationTokens": 22,
       "fichaTokens": 219,
+      "tagWeights": {
+        "agentes": 0.0587,
+        "aprendizaje": 0.0207,
+        "autoridad": 0.0505,
+        "cambio-regimen": 0.044,
+        "casos": 0.0359,
+        "control-minimo": 0.0184,
+        "decision": 0.1647,
+        "documentacion": 0.1558,
+        "economia": 0.0999,
+        "empresa": 0.0257,
+        "evidencia": 0.093,
+        "experimentacion": 0.06,
+        "integridad-ia": 0.0092,
+        "memoria-territorio": 0.0242,
+        "movilidad": 0.1164,
+        "transformacion": 0.0229
+      },
+      "clusters": [
+        "mobility",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C43.json"
     },
     {
@@ -78,7 +211,34 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 204,
+      "fichaTokens": 224,
+      "tagWeights": {
+        "agentes": 0.0325,
+        "aprendizaje": 0.0127,
+        "autoridad": 0.0084,
+        "cambio-regimen": 0.0223,
+        "capacidad-humana": 0.0293,
+        "casos": 0.0342,
+        "control-minimo": 0.0287,
+        "decision": 0.0412,
+        "documentacion": 0.1702,
+        "economia": 0.1301,
+        "empresa": 0.0204,
+        "evidencia": 0.0804,
+        "experimentacion": 0.1373,
+        "matematicas": 0.017,
+        "memoria-territorio": 0.017,
+        "movilidad": 0.2138,
+        "transformacion": 0.0045
+      },
+      "clusters": [
+        "mobility",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C47.json"
     },
     {
@@ -89,7 +249,26 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 154,
+      "fichaTokens": 172,
+      "tagWeights": {
+        "agentes": 0.0476,
+        "control-minimo": 0.0095,
+        "decision": 0.0389,
+        "documentacion": 0.1523,
+        "economia": 0.0671,
+        "empresa": 0.05,
+        "evidencia": 0.205,
+        "experimentacion": 0.0655,
+        "matematicas": 0.0535,
+        "movilidad": 0.0278,
+        "mundo-abierto": 0.2169,
+        "representacion": 0.0659
+      },
+      "clusters": [
+        "net",
+        "research"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C115.json"
     },
     {
@@ -100,7 +279,20 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 94,
+      "fichaTokens": 120,
+      "tagWeights": {
+        "documentacion": 0.238,
+        "economia": 0.0933,
+        "evidencia": 0.2677,
+        "experimentacion": 0.0933,
+        "matematicas": 0.0256,
+        "mundo-abierto": 0.2821
+      },
+      "clusters": [
+        "net",
+        "research"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C122.json"
     },
     {
@@ -111,7 +303,23 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 104,
+      "fichaTokens": 149,
+      "tagWeights": {
+        "cambio-regimen": 0.0864,
+        "control-minimo": 0.1459,
+        "documentacion": 0.1975,
+        "economia": 0.0933,
+        "evidencia": 0.1444,
+        "experimentacion": 0.0933,
+        "matematicas": 0.1358,
+        "memoria-territorio": 0.0417,
+        "perspectiva": 0.0617
+      },
+      "clusters": [
+        "net",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G28.json"
     },
     {
@@ -122,7 +330,17 @@
       "kind": "candidate transfer",
       "reading": "Event time and knowledge time should remain distinct when reconstructing an audit decision.",
       "relationTokens": 42,
-      "fichaTokens": 116,
+      "fichaTokens": 387,
+      "tagWeights": {
+        "casos": 0.125,
+        "documentacion": 0.175,
+        "empresa": 0.475,
+        "evidencia": 0.225
+      },
+      "clusters": [
+        "us"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1322.json"
     },
     {
@@ -133,7 +351,19 @@
       "kind": "candidate transfer",
       "reading": "Dependency-aware rebuilding could make corrections to piece identity auditable without erasing the custody history.",
       "relationTokens": 38,
-      "fichaTokens": 130,
+      "fichaTokens": 276,
+      "tagWeights": {
+        "agentes": 0.3125,
+        "autoridad": 0.125,
+        "control-minimo": 0.125,
+        "decision": 0.1875,
+        "evidencia": 0.125,
+        "transformacion": 0.125
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1567.json"
     },
     {
@@ -144,7 +374,19 @@
       "kind": "candidate transfer",
       "reading": "Operational tracking can preserve both the decision-time view and the later corrected view instead of silently replacing one with the other.",
       "relationTokens": 41,
-      "fichaTokens": 88,
+      "fichaTokens": 405,
+      "tagWeights": {
+        "decision": 0.1944,
+        "economia": 0.0556,
+        "empresa": 0.25,
+        "evidencia": 0.2222,
+        "movilidad": 0.1389,
+        "representacion": 0.1389
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1289.json"
     },
     {
@@ -155,7 +397,15 @@
       "kind": "candidate transfer",
       "reading": "A fair replay should reveal late evidence only when it became available and score the original decision separately from its later repair.",
       "relationTokens": 46,
-      "fichaTokens": 95,
+      "fichaTokens": 197,
+      "tagWeights": {
+        "casos": 0.1538,
+        "documentacion": 0.8462
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2799.json"
     },
     {
@@ -167,6 +417,19 @@
       "reading": "Event-triggered promotion can be compared retrospectively with relabeling cascades, provided event identity and the times of capture, knowledge and reinterpretation remain distinct.",
       "relationTokens": 57,
       "fichaTokens": 214,
+      "tagWeights": {
+        "agentes": 0.2381,
+        "control-minimo": 0.0476,
+        "documentacion": 0.0476,
+        "experimentacion": 0.0476,
+        "matematicas": 0.1905,
+        "mundo-abierto": 0.2381,
+        "representacion": 0.1905
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH012.json"
     },
     {
@@ -178,6 +441,16 @@
       "reading": "A revision-aware pipeline should bind action to the qualified version it actually relies on, not merely record that a later relabeling occurred.",
       "relationTokens": 45,
       "fichaTokens": 200,
+      "tagWeights": {
+        "cambio-regimen": 0.3077,
+        "casos": 0.0769,
+        "decision": 0.5385,
+        "evidencia": 0.0769
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH045.json"
     },
     {
@@ -189,6 +462,14 @@
       "reading": "A later rule may support historical reinterpretation while being expired or unauthorized for a new action; event time and current-use validity must be checked separately.",
       "relationTokens": 58,
       "fichaTokens": 180,
+      "tagWeights": {
+        "documentacion": 0.3571,
+        "evidencia": 0.6429
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH066.json"
     },
     {
@@ -199,7 +480,17 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [Revision-aware event semantics and relabeling](https://jubap.net/phylons-relabeling-cascades/).",
       "relationTokens": 51,
-      "fichaTokens": 85,
+      "fichaTokens": 501,
+      "tagWeights": {
+        "control-minimo": 0.4375,
+        "documentacion": 0.3125,
+        "evidencia": 0.125,
+        "memoria-territorio": 0.125
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1831.json"
     },
     {
@@ -210,7 +501,19 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [Dependency-aware rebuilding after event revision](https://jubap.net/phylons-relabeling-cascades/).",
       "relationTokens": 48,
-      "fichaTokens": 117,
+      "fichaTokens": 475,
+      "tagWeights": {
+        "casos": 0.1053,
+        "control-minimo": 0.3684,
+        "decision": 0.1053,
+        "documentacion": 0.1053,
+        "evidencia": 0.2105,
+        "memoria-territorio": 0.1052
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1833.json"
     },
     {
@@ -221,7 +524,17 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [Past-only validation and re-anchoring](https://tegrity.ai/regime-aware-semantic-windows-mathematical-validation/).",
       "relationTokens": 63,
-      "fichaTokens": 124,
+      "fichaTokens": 263,
+      "tagWeights": {
+        "cambio-regimen": 0.2593,
+        "evidencia": 0.1481,
+        "matematicas": 0.4074,
+        "perspectiva": 0.1852
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1513.json"
     },
     {
@@ -232,7 +545,17 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [Event time, knowledge time and causal evaluation](https://jubap.net/phylons-relabeling-cascades/).",
       "relationTokens": 60,
-      "fichaTokens": 124,
+      "fichaTokens": 263,
+      "tagWeights": {
+        "cambio-regimen": 0.2593,
+        "evidencia": 0.1481,
+        "matematicas": 0.4074,
+        "perspectiva": 0.1852
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1513.json"
     },
     {
@@ -244,6 +567,17 @@
       "reading": "Los cambios de etiquetas en Phylons permiten comparar una regla de recálculo con la pregunta de 00I sobre la vigencia de una autorización. El objeto de la decisión cambia entre los dos casos.",
       "relationTokens": 143,
       "fichaTokens": 218,
+      "tagWeights": {
+        "autoridad": 0.0625,
+        "cambio-regimen": 0.0625,
+        "casos": 0.3125,
+        "control-minimo": 0.3125,
+        "decision": 0.25
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-1de49f78faf23d.json"
     },
     {
@@ -255,6 +589,18 @@
       "reading": "La fuente enlaza esta lectura en «Phylons» con el rótulo «Revision-Aware Event Semantics and Relabeling Cascades».",
       "relationTokens": 98,
       "fichaTokens": 179,
+      "tagWeights": {
+        "cambio-regimen": 0.0625,
+        "capacidad-humana": 0.0625,
+        "cartografia": 0.25,
+        "economia": 0.0625,
+        "evidencia": 0.125,
+        "matematicas": 0.4375
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH001.json"
     }
   ]

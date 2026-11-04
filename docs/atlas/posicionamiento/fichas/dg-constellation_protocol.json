@@ -18,6 +18,7 @@
     "dialogos"
   ],
   "context": "## Constelaciones, clusters y modos de lectura\nEl pensamiento general conecta conjuntos comerciales y culturales mediante fichas, relaciones y modos que devuelven al texto canónico.\nEtiquetas: Empresa y gestión 25.00%; Evidencia, procedencia y atribución 23.61%; Memoria, comunidad y territorio 38.89%; Cambio de perspectiva 12.50%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-constellation_protocol\n\n",
+  "readingSource": null,
   "tokens": 104,
   "encoding": "o200k_base",
   "relations": [
@@ -30,6 +31,15 @@
       "reading": "",
       "relationTokens": 32,
       "fichaTokens": 405,
+      "tagWeights": {
+        "empresa": 0.5,
+        "evidencia": 0.25,
+        "perspectiva": 0.25
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-267.json"
     },
     {
@@ -41,6 +51,14 @@
       "reading": "",
       "relationTokens": 29,
       "fichaTokens": 393,
+      "tagWeights": {
+        "evidencia": 0.2222,
+        "memoria-territorio": 0.7778
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-268.json"
     },
     {
@@ -52,6 +70,23 @@
       "reading": "Fichas con relaciones, fuentes y retornos.",
       "relationTokens": 40,
       "fichaTokens": 181,
+      "tagWeights": {
+        "aprendizaje": 0.0229,
+        "decision": 0.0625,
+        "economia": 0.0417,
+        "empresa": 0.1063,
+        "evidencia": 0.2673,
+        "experimentacion": 0.0625,
+        "matematicas": 0.0125,
+        "memoria-territorio": 0.2472,
+        "perspectiva": 0.0625,
+        "representacion": 0.025,
+        "transformacion": 0.0896
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-semantic_graph.json"
     },
     {
@@ -63,6 +98,19 @@
       "reading": "Lectores futuros deben poder llegar al original.",
       "relationTokens": 33,
       "fichaTokens": 126,
+      "tagWeights": {
+        "autoridad": 0.0151,
+        "capacidad-humana": 0.0151,
+        "decision": 0.1003,
+        "evidencia": 0.0519,
+        "geopolitica": 0.1316,
+        "memoria-territorio": 0.5509,
+        "transformacion": 0.1351
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-legacy.json"
     },
     {
@@ -74,6 +122,25 @@
       "reading": "Nueva Perspectiva integra clusters conectados.",
       "relationTokens": 33,
       "fichaTokens": 190,
+      "tagWeights": {
+        "aprendizaje": 0.117,
+        "cambio-regimen": 0.019,
+        "control-minimo": 0.0111,
+        "decision": 0.057,
+        "economia": 0.0167,
+        "empresa": 0.1111,
+        "evidencia": 0.0167,
+        "experimentacion": 0.0167,
+        "geopolitica": 0.0333,
+        "memoria-territorio": 0.0322,
+        "movilidad": 0.0214,
+        "perspectiva": 0.4845,
+        "transformacion": 0.0633
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-perspective.json"
     },
     {
@@ -85,6 +152,18 @@
       "reading": "Clusters institucionales conservan procedencia y permisos.",
       "relationTokens": 39,
       "fichaTokens": 128,
+      "tagWeights": {
+        "autoridad": 0.1487,
+        "capacidad-humana": 0.0711,
+        "documentacion": 0.0588,
+        "geopolitica": 0.0333,
+        "memoria-territorio": 0.6464,
+        "transformacion": 0.0417
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-federated_custody.json"
     },
     {
@@ -96,6 +175,15 @@
       "reading": "Si no hay fuente, bot debe señalar ausencia y no inventar.",
       "relationTokens": 42,
       "fichaTokens": 98,
+      "tagWeights": {
+        "autoridad": 0.5,
+        "evidencia": 0.1111,
+        "memoria-territorio": 0.3889
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-epistemic_silence.json"
     },
     {
@@ -107,6 +195,16 @@
       "reading": "Navegación con retorno al archivo.",
       "relationTokens": 36,
       "fichaTokens": 101,
+      "tagWeights": {
+        "evidencia": 0.2,
+        "experimentacion": 0.3125,
+        "matematicas": 0.1875,
+        "memoria-territorio": 0.3
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-epistemic_increment.json"
     }
   ]

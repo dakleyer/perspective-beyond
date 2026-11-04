@@ -9,20 +9,21 @@
     "T1400"
   ],
   "tagWeights": {
-    "aprendizaje": 0.2186,
-    "capacidad-humana": 0.2115,
-    "decision": 0.04,
-    "economia": 0.06,
-    "empresa": 0.1114,
-    "evidencia": 0.1871,
-    "experimentacion": 0.04,
-    "memoria-territorio": 0.1314
+    "aprendizaje": 0.2235,
+    "capacidad-humana": 0.2114,
+    "decision": 0.0271,
+    "economia": 0.0675,
+    "empresa": 0.0984,
+    "evidencia": 0.1076,
+    "experimentacion": 0.0811,
+    "memoria-territorio": 0.1834
   },
   "clusters": [
     "net",
     "tegrity"
   ],
-  "context": "## Contribución informativa genuina (GIC)\nPeople produce situated information, knowledge or judgment.\nEtiquetas: Aprendizaje y transmisión de capacidades 21.86%; Capacidad humana y deuda de inteligencia 21.15%; Decisiones y responsabilidad 4.00%; Economía, costes y liquidez 6.00%; Empresa y gestión 11.14%; Evidencia, procedencia y atribución 18.71%; Experimentación, falsación y contraejemplos 4.00%; Memoria, comunidad y territorio 13.14%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/genuine-informational-contribution/\n\n",
+  "context": "## Contribución informativa genuina (GIC)\nPeople produce situated information, knowledge or judgment.\nEtiquetas: Aprendizaje y transmisión de capacidades 22.35%; Capacidad humana y deuda de inteligencia 21.14%; Decisiones y responsabilidad 2.71%; Economía, costes y liquidez 6.75%; Empresa y gestión 9.84%; Evidencia, procedencia y atribución 10.76%; Experimentación, falsación y contraejemplos 8.11%; Memoria, comunidad y territorio 18.34%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/genuine-informational-contribution/\n\n",
+  "readingSource": null,
   "tokens": 139,
   "encoding": "o200k_base",
   "relations": [
@@ -34,7 +35,18 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 36,
-      "fichaTokens": 142,
+      "fichaTokens": 449,
+      "tagWeights": {
+        "aprendizaje": 0.3929,
+        "capacidad-humana": 0.0714,
+        "empresa": 0.1429,
+        "evidencia": 0.1071,
+        "memoria-territorio": 0.2857
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1246.json"
     },
     {
@@ -45,7 +57,21 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 145,
+      "fichaTokens": 409,
+      "tagWeights": {
+        "aprendizaje": 0.0541,
+        "capacidad-humana": 0.3513,
+        "decision": 0.0541,
+        "economia": 0.1351,
+        "empresa": 0.054,
+        "evidencia": 0.1081,
+        "experimentacion": 0.1622,
+        "memoria-territorio": 0.0811
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1400.json"
     },
     {
@@ -56,7 +82,30 @@
       "kind": "analogy only",
       "reading": "Genuine contribution should be classified at the task episode, not inferred from a person's title, credentials or membership in an elite team.",
       "relationTokens": 46,
-      "fichaTokens": 186,
+      "fichaTokens": 195,
+      "tagWeights": {
+        "aprendizaje": 0.0584,
+        "autoridad": 0.0088,
+        "capacidad-humana": 0.1471,
+        "casos": 0.0306,
+        "control-minimo": 0.0095,
+        "decision": 0.0766,
+        "documentacion": 0.0115,
+        "economia": 0.0798,
+        "empresa": 0.1832,
+        "evidencia": 0.1639,
+        "experimentacion": 0.0254,
+        "memoria-territorio": 0.0724,
+        "movilidad": 0.0119,
+        "transformacion": 0.1209
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C70.json"
     },
     {
@@ -67,7 +116,23 @@
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 150,
+      "fichaTokens": 159,
+      "tagWeights": {
+        "aprendizaje": 0.018,
+        "capacidad-humana": 0.4814,
+        "decision": 0.018,
+        "documentacion": 0.0476,
+        "economia": 0.0451,
+        "empresa": 0.0597,
+        "evidencia": 0.1825,
+        "experimentacion": 0.1017,
+        "memoria-territorio": 0.027,
+        "transformacion": 0.019
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G21.json"
     }
   ]

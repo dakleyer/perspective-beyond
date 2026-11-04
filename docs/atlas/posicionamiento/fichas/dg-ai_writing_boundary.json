@@ -15,6 +15,7 @@
     "dialogos"
   ],
   "context": "## Máquina de escribir, pensamiento y autoría\nLa IA puede ayudar a volver comunicable una idea sin que la fluidez de su prosa pruebe quién la concibió.\nEtiquetas: Decisiones y responsabilidad 50.00%; Evidencia, procedencia y atribución 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-ai_writing_boundary\n\n",
+  "readingSource": null,
   "tokens": 88,
   "encoding": "o200k_base",
   "relations": [
@@ -27,6 +28,14 @@
       "reading": "",
       "relationTokens": 26,
       "fichaTokens": 377,
+      "tagWeights": {
+        "decision": 0.5,
+        "evidencia": 0.5
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-291.json"
     },
     {
@@ -38,6 +47,23 @@
       "reading": "Retornar al registro de ideas originales.",
       "relationTokens": 36,
       "fichaTokens": 181,
+      "tagWeights": {
+        "aprendizaje": 0.0229,
+        "decision": 0.0625,
+        "economia": 0.0417,
+        "empresa": 0.1063,
+        "evidencia": 0.2673,
+        "experimentacion": 0.0625,
+        "matematicas": 0.0125,
+        "memoria-territorio": 0.2472,
+        "perspectiva": 0.0625,
+        "representacion": 0.025,
+        "transformacion": 0.0896
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-semantic_graph.json"
     },
     {
@@ -49,6 +75,20 @@
       "reading": "Distinguir intervención y elaboración.",
       "relationTokens": 35,
       "fichaTokens": 150,
+      "tagWeights": {
+        "aprendizaje": 0.0556,
+        "autoridad": 0.3333,
+        "decision": 0.0833,
+        "empresa": 0.0556,
+        "evidencia": 0.15,
+        "experimentacion": 0.1667,
+        "memoria-territorio": 0.1,
+        "transformacion": 0.0555
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-research_dialogue.json"
     },
     {
@@ -60,6 +100,18 @@
       "reading": "La fluidez no prueba autoría.",
       "relationTokens": 34,
       "fichaTokens": 126,
+      "tagWeights": {
+        "aprendizaje": 0.2,
+        "autoridad": 0.1,
+        "decision": 0.2,
+        "evidencia": 0.2333,
+        "integridad-ia": 0.0667,
+        "memoria-territorio": 0.2
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-evidence_recognition.json"
     }
   ]

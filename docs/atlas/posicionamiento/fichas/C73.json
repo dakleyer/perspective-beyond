@@ -10,23 +10,24 @@
     "T1400"
   ],
   "tagWeights": {
-    "aprendizaje": 0.0584,
+    "aprendizaje": 0.0498,
     "autoridad": 0.0079,
-    "capacidad-humana": 0.4203,
+    "capacidad-humana": 0.4941,
     "control-minimo": 0.0317,
-    "decision": 0.0902,
+    "decision": 0.0815,
     "documentacion": 0.0397,
-    "economia": 0.0479,
-    "empresa": 0.1013,
-    "evidencia": 0.12,
-    "experimentacion": 0.0267,
-    "memoria-territorio": 0.0559
+    "economia": 0.053,
+    "empresa": 0.0676,
+    "evidencia": 0.0777,
+    "experimentacion": 0.0541,
+    "memoria-territorio": 0.0429
   },
   "clusters": [
     "research",
     "tegrity"
   ],
-  "context": "## Unidad de medida de HID\nDeclare the object, population and denominator of the measurement.\nEtiquetas: Aprendizaje y transmisión de capacidades 5.84%; Autoridad, permisos y delegación 0.79%; Capacidad humana y deuda de inteligencia 42.03%; Control mínimo y suficiencia 3.17%; Decisiones y responsabilidad 9.02%; Investigación y documentación técnica 3.97%; Economía, costes y liquidez 4.79%; Empresa y gestión 10.13%; Evidencia, procedencia y atribución 12.00%; Experimentación, falsación y contraejemplos 2.67%; Memoria, comunidad y territorio 5.59%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/human-intelligence-debt-measurement-unit/\n\n",
+  "context": "## Unidad de medida de HID\nDeclare the object, population and denominator of the measurement.\nEtiquetas: Aprendizaje y transmisión de capacidades 4.98%; Autoridad, permisos y delegación 0.79%; Capacidad humana y deuda de inteligencia 49.41%; Control mínimo y suficiencia 3.17%; Decisiones y responsabilidad 8.15%; Investigación y documentación técnica 3.97%; Economía, costes y liquidez 5.30%; Empresa y gestión 6.76%; Evidencia, procedencia y atribución 7.77%; Experimentación, falsación y contraejemplos 5.41%; Memoria, comunidad y territorio 4.29%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/human-intelligence-debt-measurement-unit/\n\n",
+  "readingSource": null,
   "tokens": 170,
   "encoding": "o200k_base",
   "relations": [
@@ -39,6 +40,21 @@
       "reading": "",
       "relationTokens": 25,
       "fichaTokens": 264,
+      "tagWeights": {
+        "aprendizaje": 0.0952,
+        "autoridad": 0.0238,
+        "capacidad-humana": 0.381,
+        "control-minimo": 0.0952,
+        "decision": 0.1905,
+        "documentacion": 0.1191,
+        "economia": 0.0238,
+        "empresa": 0.0238,
+        "memoria-territorio": 0.0476
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH037.json"
     },
     {
@@ -49,7 +65,16 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 16,
-      "fichaTokens": 82,
+      "fichaTokens": 450,
+      "tagWeights": {
+        "capacidad-humana": 0.75,
+        "empresa": 0.125,
+        "evidencia": 0.125
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T874.json"
     },
     {
@@ -60,7 +85,21 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 18,
-      "fichaTokens": 145,
+      "fichaTokens": 409,
+      "tagWeights": {
+        "aprendizaje": 0.0541,
+        "capacidad-humana": 0.3513,
+        "decision": 0.0541,
+        "economia": 0.1351,
+        "empresa": 0.054,
+        "evidencia": 0.1081,
+        "experimentacion": 0.1622,
+        "memoria-territorio": 0.0811
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1400.json"
     },
     {
@@ -71,7 +110,31 @@
       "kind": "documented use",
       "reading": "The task-level protocol operationalizes the earlier role-based framework; its time ratios should not be compared with operator ratios without an explicit conversion model.",
       "relationTokens": 47,
-      "fichaTokens": 207,
+      "fichaTokens": 227,
+      "tagWeights": {
+        "aprendizaje": 0.0251,
+        "autoridad": 0.0207,
+        "capacidad-humana": 0.3014,
+        "cartografia": 0.0101,
+        "casos": 0.0139,
+        "control-minimo": 0.0178,
+        "decision": 0.0597,
+        "documentacion": 0.0437,
+        "economia": 0.0655,
+        "empresa": 0.1382,
+        "estandares": 0.0222,
+        "evidencia": 0.0981,
+        "experimentacion": 0.1106,
+        "memoria-territorio": 0.009,
+        "perspectiva": 0.0185,
+        "transformacion": 0.0455
+      },
+      "clusters": [
+        "net",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C75.json"
     },
     {
@@ -82,7 +145,33 @@
       "kind": "documented use",
       "reading": "The 01K extension imports the HID research line while keeping runtime response capacity distinct from instrument-gated architectural debt measurement.",
       "relationTokens": 39,
-      "fichaTokens": 210,
+      "fichaTokens": 219,
+      "tagWeights": {
+        "aprendizaje": 0.0493,
+        "autoridad": 0.0303,
+        "capacidad-humana": 0.3004,
+        "casos": 0.0395,
+        "control-minimo": 0.0086,
+        "decision": 0.0941,
+        "documentacion": 0.0108,
+        "economia": 0.1209,
+        "empresa": 0.0537,
+        "evidencia": 0.0434,
+        "experimentacion": 0.0387,
+        "memoria-territorio": 0.0577,
+        "movilidad": 0.0267,
+        "perspectiva": 0.0251,
+        "representacion": 0.0121,
+        "transformacion": 0.0887
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C39.json"
     },
     {
@@ -93,7 +182,23 @@
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 18,
-      "fichaTokens": 150,
+      "fichaTokens": 159,
+      "tagWeights": {
+        "aprendizaje": 0.018,
+        "capacidad-humana": 0.4814,
+        "decision": 0.018,
+        "documentacion": 0.0476,
+        "economia": 0.0451,
+        "empresa": 0.0597,
+        "evidencia": 0.1825,
+        "experimentacion": 0.1017,
+        "memoria-territorio": 0.027,
+        "transformacion": 0.019
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G21.json"
     }
   ]

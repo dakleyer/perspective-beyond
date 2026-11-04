@@ -25,6 +25,7 @@
     "dialogos"
   ],
   "context": "## Carga de validar sistemas y sus entradas\nLa complejidad de discriminar entradas, contaminaciones y configuraciones puede trasladarse a una nueva capa de supervisión.\nEtiquetas: Autoridad, permisos y delegación 20.83%; Decisiones y responsabilidad 16.07%; Investigación y documentación técnica 8.33%; Experimentación, falsación y contraejemplos 11.91%; Matemáticas 17.86%; Representación y límites formales 8.33%; Transformación y continuidad operativa 16.67%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-meta_discrimination\n\n",
+  "readingSource": null,
   "tokens": 137,
   "encoding": "o200k_base",
   "relations": [
@@ -37,6 +38,15 @@
       "reading": "",
       "relationTokens": 28,
       "fichaTokens": 442,
+      "tagWeights": {
+        "autoridad": 0.25,
+        "documentacion": 0.5,
+        "matematicas": 0.25
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-243.json"
     },
     {
@@ -48,6 +58,13 @@
       "reading": "",
       "relationTokens": 30,
       "fichaTokens": 430,
+      "tagWeights": {
+        "transformacion": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-244.json"
     },
     {
@@ -59,6 +76,13 @@
       "reading": "",
       "relationTokens": 31,
       "fichaTokens": 430,
+      "tagWeights": {
+        "autoridad": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-245.json"
     },
     {
@@ -70,6 +94,14 @@
       "reading": "",
       "relationTokens": 26,
       "fichaTokens": 404,
+      "tagWeights": {
+        "decision": 0.7143,
+        "matematicas": 0.2857
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-278.json"
     },
     {
@@ -81,6 +113,14 @@
       "reading": "",
       "relationTokens": 25,
       "fichaTokens": 411,
+      "tagWeights": {
+        "experimentacion": 0.7143,
+        "matematicas": 0.2857
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-280.json"
     },
     {
@@ -92,6 +132,15 @@
       "reading": "",
       "relationTokens": 29,
       "fichaTokens": 390,
+      "tagWeights": {
+        "decision": 0.25,
+        "matematicas": 0.25,
+        "representacion": 0.5
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-293.json"
     },
     {
@@ -103,6 +152,30 @@
       "reading": "Supervisar exige comprender la frontera del sistema.",
       "relationTokens": 32,
       "fichaTokens": 254,
+      "tagWeights": {
+        "aprendizaje": 0.034,
+        "autoridad": 0.4256,
+        "capacidad-humana": 0.0104,
+        "casos": 0.0027,
+        "decision": 0.1415,
+        "documentacion": 0.0128,
+        "economia": 0.0465,
+        "empresa": 0.053,
+        "espiritualidad": 0.0099,
+        "estandares": 0.0467,
+        "evidencia": 0.0256,
+        "experimentacion": 0.0128,
+        "geopolitica": 0.0262,
+        "matematicas": 0.0064,
+        "memoria-territorio": 0.0945,
+        "movilidad": 0.0051,
+        "representacion": 0.0143,
+        "transformacion": 0.032
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-governance.json"
     },
     {
@@ -114,6 +187,31 @@
       "reading": "La cota propuesta es una hipótesis pendiente de prueba.",
       "relationTokens": 38,
       "fichaTokens": 258,
+      "tagWeights": {
+        "aprendizaje": 0.2354,
+        "autoridad": 0.0588,
+        "casos": 0.0162,
+        "control-minimo": 0.0103,
+        "decision": 0.157,
+        "documentacion": 0.0114,
+        "economia": 0.0507,
+        "empresa": 0.0151,
+        "espiritualidad": 0.025,
+        "estandares": 0.0142,
+        "evidencia": 0.0076,
+        "experimentacion": 0.0418,
+        "geopolitica": 0.0057,
+        "integridad-ia": 0.0284,
+        "matematicas": 0.169,
+        "memoria-territorio": 0.0227,
+        "mundo-abierto": 0.0057,
+        "perspectiva": 0.1023,
+        "transformacion": 0.0227
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-doubt.json"
     },
     {
@@ -125,6 +223,18 @@
       "reading": "Admitir datos requiere conocer cómo se definen.",
       "relationTokens": 34,
       "fichaTokens": 137,
+      "tagWeights": {
+        "aprendizaje": 0.2131,
+        "decision": 0.1339,
+        "integridad-ia": 0.1,
+        "matematicas": 0.428,
+        "mundo-abierto": 0.025,
+        "transformacion": 0.1
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-formalization_event.json"
     },
     {
@@ -136,6 +246,31 @@
       "reading": "Las contradicciones pueden propagarse entre máquinas.",
       "relationTokens": 31,
       "fichaTokens": 256,
+      "tagWeights": {
+        "aprendizaje": 0.158,
+        "autoridad": 0.0636,
+        "cambio-regimen": 0.0285,
+        "capacidad-humana": 0.0093,
+        "decision": 0.0565,
+        "economia": 0.06,
+        "empresa": 0.1498,
+        "espiritualidad": 0.0198,
+        "estandares": 0.0174,
+        "evidencia": 0.0292,
+        "experimentacion": 0.0278,
+        "geopolitica": 0.0278,
+        "integridad-ia": 0.0278,
+        "matematicas": 0.1395,
+        "memoria-territorio": 0.0417,
+        "movilidad": 0.0165,
+        "perspectiva": 0.0179,
+        "representacion": 0.0194,
+        "transformacion": 0.0895
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-structure.json"
     },
     {
@@ -147,6 +282,26 @@
       "reading": "Gobernar depende de linaje y uso real.",
       "relationTokens": 31,
       "fichaTokens": 196,
+      "tagWeights": {
+        "aprendizaje": 0.059,
+        "autoridad": 0.1499,
+        "capacidad-humana": 0.0216,
+        "casos": 0.0166,
+        "decision": 0.1127,
+        "economia": 0.0848,
+        "empresa": 0.1523,
+        "estandares": 0.026,
+        "evidencia": 0.0417,
+        "integridad-ia": 0.0455,
+        "matematicas": 0.0519,
+        "memoria-territorio": 0.0065,
+        "movilidad": 0.1628,
+        "transformacion": 0.0687
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-operations.json"
     },
     {
@@ -158,6 +313,14 @@
       "reading": "Un verificador no recupera los datos ausentes.",
       "relationTokens": 36,
       "fichaTokens": 75,
+      "tagWeights": {
+        "aprendizaje": 0.8182,
+        "matematicas": 0.1818
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-reversibility.json"
     },
     {
@@ -169,6 +332,15 @@
       "reading": "Admisión y propiedad son controles distintos.",
       "relationTokens": 38,
       "fichaTokens": 87,
+      "tagWeights": {
+        "autoridad": 0.3333,
+        "decision": 0.2381,
+        "matematicas": 0.4286
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-validity_boundary.json"
     },
     {
@@ -180,6 +352,15 @@
       "reading": "El alcance también se valida.",
       "relationTokens": 32,
       "fichaTokens": 90,
+      "tagWeights": {
+        "autoridad": 0.5,
+        "experimentacion": 0.3572,
+        "matematicas": 0.1428
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-human_oracle.json"
     },
     {
@@ -191,6 +372,16 @@
       "reading": "Detectar cambio de marco antes de optimizar.",
       "relationTokens": 39,
       "fichaTokens": 98,
+      "tagWeights": {
+        "decision": 0.125,
+        "experimentacion": 0.5,
+        "matematicas": 0.125,
+        "representacion": 0.25
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-explorer_compute.json"
     }
   ]

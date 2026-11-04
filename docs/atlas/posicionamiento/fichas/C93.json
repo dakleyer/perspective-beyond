@@ -10,21 +10,24 @@
     "T1423"
   ],
   "tagWeights": {
-    "autoridad": 0.0556,
-    "capacidad-humana": 0.0556,
-    "casos": 0.0952,
-    "decision": 0.254,
-    "economia": 0.3175,
-    "evidencia": 0.1666,
-    "memoria-territorio": 0.0555
+    "autoridad": 0.0392,
+    "capacidad-humana": 0.0392,
+    "casos": 0.037,
+    "decision": 0.2081,
+    "economia": 0.2985,
+    "evidencia": 0.1111,
+    "memoria-territorio": 0.0392,
+    "movilidad": 0.098,
+    "transformacion": 0.1297
   },
   "clusters": [
     "net",
     "tegrity",
     "us"
   ],
-  "context": "## Dispersión del acuerdo decisorio\nCount parties whose agreement is an actual gate for an atomic decision.\nEtiquetas: Autoridad, permisos y delegación 5.56%; Capacidad humana y deuda de inteligencia 5.56%; Casos de uso y aplicaciones 9.52%; Decisiones y responsabilidad 25.40%; Economía, costes y liquidez 31.75%; Evidencia, procedencia y atribución 16.66%; Memoria, comunidad y territorio 5.55%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/decision-agreement-dispersion/\n\n",
-  "tokens": 128,
+  "context": "## Dispersión del acuerdo decisorio\nCount parties whose agreement is an actual gate for an atomic decision.\nEtiquetas: Autoridad, permisos y delegación 3.92%; Capacidad humana y deuda de inteligencia 3.92%; Casos de uso y aplicaciones 3.70%; Decisiones y responsabilidad 20.81%; Economía, costes y liquidez 29.85%; Evidencia, procedencia y atribución 11.11%; Memoria, comunidad y territorio 3.92%; Movilidad e infraestructura 9.80%; Transformación y continuidad operativa 12.97%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/decision-agreement-dispersion/\n\n",
+  "readingSource": null,
+  "tokens": 148,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -35,7 +38,19 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 126,
+      "fichaTokens": 260,
+      "tagWeights": {
+        "autoridad": 0.1177,
+        "capacidad-humana": 0.1177,
+        "decision": 0.2353,
+        "economia": 0.1176,
+        "memoria-territorio": 0.1176,
+        "movilidad": 0.2941
+      },
+      "clusters": [
+        "us"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1498.json"
     },
     {
@@ -46,7 +61,17 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 99,
+      "fichaTokens": 280,
+      "tagWeights": {
+        "casos": 0.1111,
+        "decision": 0.3889,
+        "economia": 0.1111,
+        "transformacion": 0.3889
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1285.json"
     },
     {
@@ -57,7 +82,15 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 84,
+      "fichaTokens": 405,
+      "tagWeights": {
+        "economia": 0.6667,
+        "evidencia": 0.3333
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1423.json"
     },
     {
@@ -68,7 +101,27 @@
       "kind": "analogy only",
       "reading": "Decision-level dispersion and downstream coupling make the coordination-entropy discussion more precise by separating agreement burden from the propagation of a blocked decision.",
       "relationTokens": 45,
-      "fichaTokens": 151,
+      "fichaTokens": 171,
+      "tagWeights": {
+        "autoridad": 0.0392,
+        "capacidad-humana": 0.0967,
+        "casos": 0.037,
+        "control-minimo": 0.023,
+        "decision": 0.2426,
+        "documentacion": 0.046,
+        "economia": 0.1452,
+        "empresa": 0.046,
+        "evidencia": 0.0575,
+        "memoria-territorio": 0.0392,
+        "movilidad": 0.098,
+        "transformacion": 0.1296
+      },
+      "clusters": [
+        "net",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C94.json"
     },
     {
@@ -80,6 +133,36 @@
       "reading": "The agreement-load model offers a local test of rising clarity cost, provided the actual sign-off topology is measured rather than assumed to require full pairwise consensus.",
       "relationTokens": 47,
       "fichaTokens": 257,
+      "tagWeights": {
+        "agentes": 0.0227,
+        "aprendizaje": 0.0059,
+        "autoridad": 0.0123,
+        "capacidad-humana": 0.1126,
+        "casos": 0.0221,
+        "control-minimo": 0.0305,
+        "decision": 0.0772,
+        "documentacion": 0.0313,
+        "economia": 0.2329,
+        "empresa": 0.1056,
+        "evidencia": 0.1037,
+        "experimentacion": 0.0145,
+        "integridad-ia": 0.0032,
+        "matematicas": 0.0074,
+        "memoria-territorio": 0.0263,
+        "movilidad": 0.0406,
+        "mundo-abierto": 0.0111,
+        "perspectiva": 0.015,
+        "representacion": 0.0266,
+        "transformacion": 0.0985
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C32.json"
     },
     {
@@ -90,7 +173,27 @@
       "kind": "hypothesis",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 151,
+      "fichaTokens": 171,
+      "tagWeights": {
+        "autoridad": 0.0392,
+        "capacidad-humana": 0.0967,
+        "casos": 0.037,
+        "control-minimo": 0.023,
+        "decision": 0.2426,
+        "documentacion": 0.046,
+        "economia": 0.1452,
+        "empresa": 0.046,
+        "evidencia": 0.0575,
+        "memoria-territorio": 0.0392,
+        "movilidad": 0.098,
+        "transformacion": 0.1296
+      },
+      "clusters": [
+        "net",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C94.json"
     }
   ]

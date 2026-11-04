@@ -1,5 +1,5 @@
 {
-  "tests": 30,
+  "tests": 35,
   "results": [
     {
       "name": "Every ficha has one source document",
@@ -119,6 +119,26 @@
     },
     {
       "name": "Independent block costs agree with the selected records",
+      "pass": true
+    },
+    {
+      "name": "Public source extracts retain their provenance",
+      "pass": true
+    },
+    {
+      "name": "The entry includes the article mechanism before expanding",
+      "pass": true
+    },
+    {
+      "name": "Changing the composition preference changes the reading",
+      "pass": true
+    },
+    {
+      "name": "A source mechanism retains its directly supported conceptual core",
+      "pass": true
+    },
+    {
+      "name": "Documented use remains available before thematic expansion",
       "pass": true
     }
   ]

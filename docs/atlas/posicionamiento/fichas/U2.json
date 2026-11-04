@@ -16,6 +16,7 @@
     "us"
   ],
   "context": "## JubAp.US\nCarve-outs, post-merger integration, joint ventures and SPVs. Operating models that connect people, information and execution.\nEtiquetas: Aprendizaje y transmisión de capacidades 10.00%; Decisiones y responsabilidad 10.00%; Empresa y gestión 40.00%; Índices, contacto y políticas 5.00%; Transformación y continuidad operativa 35.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-us-u2/\nDocumento de origen: https://jubap.us/\n\n",
+  "readingSource": null,
   "tokens": 117,
   "encoding": "o200k_base",
   "relations": [
@@ -28,6 +29,17 @@
       "reading": "Desde «JubAp.EU», el enlace «JubAp.us» abre «JubAp.US».",
       "relationTokens": 51,
       "fichaTokens": 115,
+      "tagWeights": {
+        "decision": 0.1,
+        "empresa": 0.45,
+        "navegacion": 0.05,
+        "perspectiva": 0.15,
+        "transformacion": 0.25
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E2.json"
     },
     {
@@ -39,6 +51,17 @@
       "reading": "Desde «JubAp.Net», el enlace «JubAp.US» abre «JubAp.US».",
       "relationTokens": 49,
       "fichaTokens": 126,
+      "tagWeights": {
+        "capacidad-humana": 0.35,
+        "documentacion": 0.1,
+        "empresa": 0.25,
+        "navegacion": 0.05,
+        "transformacion": 0.25
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N2.json"
     },
     {
@@ -50,6 +73,18 @@
       "reading": "Desde «JubAp.US», el enlace «Jump Up Business Action Plan» abre «The JUBAP Framework».",
       "relationTokens": 53,
       "fichaTokens": 152,
+      "tagWeights": {
+        "autoridad": 0.1539,
+        "control-minimo": 0.1539,
+        "decision": 0.2308,
+        "documentacion": 0.1538,
+        "economia": 0.1538,
+        "perspectiva": 0.1538
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1628.json"
     },
     {
@@ -60,7 +95,18 @@
       "kind": "lectura enlazada desde el documento",
       "reading": "Desde «JubAp.US», el enlace «DMG MORI Post-merger integration, international supply-chain control and mission-critical industrial delivery. Read the case study  ↗» abre «Case Study: DMG MORI — Multilevel Post-Merger Integration, International Supply Chain Control & Mission-Critical Industrial Delivery (2013 – 2016)».",
       "relationTokens": 132,
-      "fichaTokens": 167,
+      "fichaTokens": 439,
+      "tagWeights": {
+        "casos": 0.1429,
+        "empresa": 0.3143,
+        "experimentacion": 0.2,
+        "movilidad": 0.1428,
+        "transformacion": 0.2
+      },
+      "clusters": [
+        "us"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1325.json"
     },
     {
@@ -71,7 +117,17 @@
       "kind": "lectura enlazada desde el documento",
       "reading": "Desde «JubAp.US», el enlace «Weatherford Multi-level supplier information, audit readiness and evidence architecture. Read the case study  ↗» abre «Case Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management».",
       "relationTokens": 86,
-      "fichaTokens": 116,
+      "fichaTokens": 387,
+      "tagWeights": {
+        "casos": 0.125,
+        "documentacion": 0.175,
+        "empresa": 0.475,
+        "evidencia": 0.225
+      },
+      "clusters": [
+        "us"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1322.json"
     },
     {
@@ -82,7 +138,23 @@
       "kind": "lectura enlazada desde el documento",
       "reading": "Desde «JubAp.US», el enlace «Superior Performance Texas-to-Mexico knowledge transfer, operations integration and industrialization. Read the case study  ↗» abre «Case Study: Texas-to-Mexico Oilfield Services Transformation: Knowledge Transfer, Industrialization, and Compliance».",
       "relationTokens": 103,
-      "fichaTokens": 189,
+      "fichaTokens": 425,
+      "tagWeights": {
+        "aprendizaje": 0.08,
+        "autoridad": 0.04,
+        "casos": 0.1,
+        "decision": 0.06,
+        "documentacion": 0.1,
+        "empresa": 0.18,
+        "evidencia": 0.1,
+        "experimentacion": 0.14,
+        "memoria-territorio": 0.04,
+        "transformacion": 0.16
+      },
+      "clusters": [
+        "us"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1317.json"
     },
     {
@@ -93,7 +165,19 @@
       "kind": "lectura enlazada desde el documento",
       "reading": "Desde «JubAp.US», el enlace «Chicontepec Megaproject SPV structuring, supplier integration and compliance within a complex energy ecosystem. Read the case study  ↗» abre «Case Study: Chicontepec Megaproject».",
       "relationTokens": 87,
-      "fichaTokens": 110,
+      "fichaTokens": 367,
+      "tagWeights": {
+        "autoridad": 0.0953,
+        "casos": 0.2381,
+        "decision": 0.0952,
+        "empresa": 0.2381,
+        "memoria-territorio": 0.2381,
+        "transformacion": 0.0952
+      },
+      "clusters": [
+        "us"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1681.json"
     },
     {
@@ -104,7 +188,19 @@
       "kind": "lectura enlazada desde el documento",
       "reading": "Desde «JubAp.US», el enlace «Luxury Group HR information-system rationalization and workforce capability architecture. Read the case study  ↗» abre «Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment».",
       "relationTokens": 87,
-      "fichaTokens": 150,
+      "fichaTokens": 505,
+      "tagWeights": {
+        "aprendizaje": 0.0526,
+        "capacidad-humana": 0.0526,
+        "casos": 0.1316,
+        "empresa": 0.3948,
+        "representacion": 0.0526,
+        "transformacion": 0.3158
+      },
+      "clusters": [
+        "us"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1312.json"
     },
     {
@@ -115,7 +211,18 @@
       "kind": "lectura enlazada desde el documento",
       "reading": "Desde «JubAp.US», el enlace «Explore our Case Studies» abre «Case Studies».",
       "relationTokens": 46,
-      "fichaTokens": 66,
+      "fichaTokens": 330,
+      "tagWeights": {
+        "casos": 0.2571,
+        "empresa": 0.2,
+        "experimentacion": 0.2,
+        "navegacion": 0.1429,
+        "transformacion": 0.2
+      },
+      "clusters": [
+        "us"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U250.json"
     },
     {
@@ -126,7 +233,18 @@
       "kind": "lectura enlazada desde el documento",
       "reading": "Desde «JubAp.US», el enlace «Distributed American Innovation account» abre «Distributed Operational Intelligence Across the Americas».",
       "relationTokens": 54,
-      "fichaTokens": 94,
+      "fichaTokens": 386,
+      "tagWeights": {
+        "decision": 0.1,
+        "empresa": 0.25,
+        "memoria-territorio": 0.1,
+        "movilidad": 0.35,
+        "transformacion": 0.2
+      },
+      "clusters": [
+        "us"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1492.json"
     }
   ]

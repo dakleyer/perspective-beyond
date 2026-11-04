@@ -1,0 +1,117 @@
+{
+  "evaluation": "Prueba ciega final de dos preguntas",
+  "content_source": "comparison_release_targeted.json",
+  "scope": "Solo el contenido de cada variante; readme_bots.md leído como instrucciones. Sin memoria, navegación web, verificación externa ni otros archivos de contenido.",
+  "word_count_method": "Palabras separadas por espacios, contando el texto visible de los enlaces y excluyendo sus destinos.",
+  "rubric": {
+    "scale": {
+      "0": "Ausente",
+      "1": "Débil",
+      "2": "Parcial",
+      "3": "Suficiente",
+      "4": "Preciso y desarrollado dentro del alcance solicitado"
+    },
+    "criteria": [
+      "mecanismo",
+      "cobertura",
+      "apoyo_documental",
+      "fluidez",
+      "cronologia_atribucion"
+    ],
+    "maximum_total": 20,
+    "scoring_basis": "Capacidad de la variante suministrada para sostener la respuesta solicitada; los enlaces se evalúan como referencias aportadas, sin comprobar su contenido fuera del paquete."
+  },
+  "cases": [
+    {
+      "case": "C5",
+      "question": "¿Cómo puede distribuirse una capacidad operativa entre actores y territorios sin reducir la integración a transporte y logística? Explica el mecanismo empresarial y una relación de aprendizaje entre piezas.",
+      "A": {
+        "answer": "La capacidad se distribuye cuando varios nodos conservan información utilizable, conocimiento especializado y responsabilidad sobre decisiones mientras sostienen una operación común. [Distributed Operational Intelligence](https://jubap.us/distributed-operational-intelligence-across-the-americas/) sitúa ese aprendizaje también en energía, manufactura y turismo. El mecanismo empresarial consiste en coordinar expertos, transmitir contexto y mantener la continuidad entre organizaciones: cada receptor recibe evidencia con sus condiciones de uso y conserva su responsabilidad. [Before Digital Nomads](https://jubap.net/before-digital-nomads-there-were-distributed-tiger-teams/) aporta la trayectoria de I+D distribuida y coordinación técnica que ayuda a comprender esa disciplina. Como transferencia candidata, [Mobility OS](https://jubap.eu/mobility/product/) puede aprender de ese trabajo de campo: incorporar conectividad, capacidad institucional y recursos existentes a sus decisiones. La relación conecta experiencia operativa y diseño de producto; su enseñanza es adaptar la coordinación al entorno receptor.",
+        "scores": {
+          "mecanismo": 3,
+          "cobertura": 3,
+          "apoyo_documental": 3,
+          "fluidez": 4,
+          "cronologia_atribucion": 4
+        },
+        "total": 17,
+        "rationale": "Explica continuidad, contexto y responsabilidad, y diferencia trayectoria documentada de transferencia candidata. El mecanismo empresarial queda descrito principalmente como coordinación de especialistas.",
+        "missing": [
+          "Una forma empresarial concreta que distribuya propiedad, compromisos, riesgos y recursos entre los actores.",
+          "El contenido desarrollado del segundo artículo anunciado sobre el aprendizaje Barcelona–Cuba–Estados Unidos–México.",
+          "Evidencia de una transferencia ya realizada desde la serie de campo a Mobility OS."
+        ],
+        "word_count": 119
+      },
+      "B": {
+        "answer": "Distribuir capacidad significa conectar personas, información y ejecución mediante un modelo operativo compartido. [JubAp.US](https://jubap.us/) identifica vehículos empresariales concretos: segregaciones, integración tras fusiones, empresas conjuntas y sociedades de propósito específico. La coordinación puede abarcar energía, manufactura y turismo, además de movilidad. El [Tiger Team Model](https://jubap.net/jupap-net-tiger-team-model/) ofrece una analogía organizativa: reunir arquitectura, ingeniería, despliegue y estabilización en una unidad responsable conserva contexto y reduce traspasos. Para llevar una función a otro territorio, se rediseñan reglas, apoyos e incentivos según el receptor. La relación de aprendizaje con [The JUBAP Framework](https://jubap.eu/the-jubap-framework/) permite interpretar las capas de integración como intervenciones sobre puntos de palanca: conservar capacidad útil, desbloquear movimiento y propagar lo aprendido. El vínculo se presenta como lectura comparativa de experiencia de campo.",
+        "scores": {
+          "mecanismo": 4,
+          "cobertura": 4,
+          "apoyo_documental": 3,
+          "fluidez": 4,
+          "cronologia_atribucion": 4
+        },
+        "total": 19,
+        "rationale": "Conecta vehículos empresariales, unidad responsable, adaptación territorial y aprendizaje entre piezas. Mantiene la relación con JUBAP y Tiger Teams en el nivel de analogía declarado.",
+        "missing": [
+          "Un caso desarrollado que muestre qué vehículo empresarial se eligió, sus compromisos y el resultado de la integración.",
+          "La secuencia verificable de decisiones mediante la que el aprendizaje de un territorio cambió la operación en otro.",
+          "Fechas y registros que permitan reconstruir con precisión la trayectoria de aprendizaje anunciada."
+        ],
+        "word_count": 119
+      },
+      "preference": "B",
+      "preference_reason": "B hace explícito el mecanismo empresarial y la organización de la intervención, y permite conectar aprendizaje, adaptación territorial y propagación de capacidad con menos inferencia."
+    },
+    {
+      "case": "C2",
+      "question": "¿Cómo distinguir una contribución humana que crea información del trabajo que compensa una arquitectura fragmentada? Explica cómo usar esa distinción para decidir una mejora y relaciónala con otra pieza del corpus.",
+      "A": {
+        "answer": "La distinción depende de qué añade la intervención humana. En [Human Intelligence Debt](https://tegrity.ai/human-intelligence-debt/), crear información significa aportar algo que las capacidades sociotécnicas disponibles en ese periodo no pueden obtener mecánicamente. Mover, reparar o conciliar información por una brecha remediable constituye trabajo compensatorio. Para decidir una mejora, delimitaría tarea, población y denominador; compararía la carga actual con una alternativa técnicamente admisible y priorizaría eliminar la brecha que consume juicio recurrentemente. Es una aplicación del contrafactual propuesto en el paquete. [Measuring Human Intelligence Debt](https://tegrity.ai/meassuring-human-intelligence-debt/) desarrolla después la medición por tareas y su validación instrumental. El [Anexo 01K](https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/GH037.html) añade otra pregunta operativa: que una persona autorizada pueda intervenir a tiempo con información suficiente. Así, la mejora libera atención y conserva capacidad de decisión.",
+        "scores": {
+          "mecanismo": 4,
+          "cobertura": 4,
+          "apoyo_documental": 3,
+          "fluidez": 4,
+          "cronologia_atribucion": 4
+        },
+        "total": 19,
+        "rationale": "Los conceptos de trabajo compensatorio y contrafactual sostienen una decisión concreta de mejora. La respuesta conserva la secuencia entre marco inicial, protocolo posterior y aplicación arquitectónica.",
+        "missing": [
+          "Observaciones de tareas y una alternativa técnicamente admisible especificada para estimar una mejora concreta.",
+          "Resultados de Study 0 y valores empíricos de HID; el protocolo aportado es una propuesta de medición.",
+          "Un modelo de conversión explícito si se quieren comparar proporciones de operadores con proporciones de tiempo."
+        ],
+        "word_count": 120
+      },
+      "B": {
+        "answer": "Una contribución humana crea información cuando aporta contenido que la mejor arquitectura disponible del periodo no puede inferir, generar o transformar mecánicamente. En [Human Intelligence Debt](https://tegrity.ai/human-intelligence-debt/), la conciliación manual, la duplicación y la intermediación entre sistemas explican cómo una organización consume capacidad humana para compensar fragmentación. Aplicaría la distinción identificando esas operaciones repetidas y eligiendo una mejora que capture los datos una vez, clarifique su gobierno y reduzca reconciliaciones, preservando el juicio que añade información. Declararía objeto, población y denominador para evaluar el cambio. [What Goes Unpriced](https://tegrity.ai/what-goes-unpriced-is-paid-in-human-intelligence/) aporta una comparación editorial útil: la claridad sobre cómo funciona el trabajo exige intervención y tiene coste. Reconocer ese coste permite decidir qué aclarar antes de rediseñar. El protocolo posterior de [medición](https://tegrity.ai/meassuring-human-intelligence-debt/) organiza la comprobación de la mejora.",
+        "scores": {
+          "mecanismo": 4,
+          "cobertura": 4,
+          "apoyo_documental": 3,
+          "fluidez": 4,
+          "cronologia_atribucion": 4
+        },
+        "total": 19,
+        "rationale": "El marco inicial sostiene la distinción y una mejora concreta del flujo de información. La comparación con Cost of Clarity aporta una razón empresarial para invertir en aclarar la operación y se atribuye como editorial.",
+        "missing": [
+          "Un contrafactual desarrollado y criterios para elegir entre alternativas de mejora.",
+          "Observaciones y resultados instrumentales validados que cuantifiquen la carga humana y el efecto de la intervención.",
+          "Una relación causal comprobada entre el coste de claridad descrito en la pieza comparada y una cantidad medida de HID."
+        ],
+        "word_count": 125
+      },
+      "preference": "empate",
+      "preference_reason": "Ambas variantes permiten distinguir creación de información y compensación, elegir una mejora y relacionarla con otra pieza. A facilita la comparación con una alternativa; B añade el coste de producir claridad. Las dos alcanzan una respuesta completa dentro del alcance conceptual."
+    }
+  ],
+  "aggregate": {
+    "A_total": 36,
+    "B_total": 38,
+    "maximum_per_variant": 40,
+    "preference": "B",
+    "preference_reason": "Ventaja localizada en C5 por el mecanismo empresarial explícito; empate en C2. La suma describe estas dos preguntas, sin generalizar a todo el corpus."
+  }
+}

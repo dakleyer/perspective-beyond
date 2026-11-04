@@ -12,6 +12,7 @@
     "dialogos"
   ],
   "context": "## Un control puede aprobar y el sistema seguir fallando\nINTERLOCUTOR (pregunta editorial) — ¿Qué significa que todas las casillas de control estén marcadas y la operación produzca un resultado equivocado?\nLECTURA DEL DIÁLOGO (síntesis editorial) — UC21 formula un caso de ingeniería que Iván se resiste a suavizar: **cada componente puede cumplir sus controles y el sistema completo puede seguir fallando**. El problema no es necesariamente un controlador defectuoso o un agente desobediente. Puede surgir de dependencias, cambios de contexto, interfaces o condiciones de validez que cada auditoría local dejó fuera de su alcance. Una prueba retrospectiva de un incidente conocido tampoco demuestra que el sistema reconocerá prospectivamente el siguiente régimen sin recibir la respuesta de antemano. Por eso distingue evidencia local, calificación independiente de contexto, revalidación de continuidad y control mínimo suficiente para actuar sin traicionar la misión. Añadir controles indiscriminadamente puede consumir capacidad y trasladar responsabilidad; lo que busca es identificar qué información y qué especificación realmente cierran la brecha de decisión, si es posible hacerlo.\nEtiquetas: Aprendizaje y transmisión de capacidades 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-116\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-116.html\n\n",
+  "readingSource": null,
   "tokens": 299,
   "encoding": "o200k_base",
   "relations": [
@@ -24,6 +25,25 @@
       "reading": "",
       "relationTokens": 23,
       "fichaTokens": 189,
+      "tagWeights": {
+        "aprendizaje": 0.0835,
+        "cambio-regimen": 0.054,
+        "capacidad-humana": 0.0526,
+        "decision": 0.1203,
+        "empresa": 0.1492,
+        "espiritualidad": 0.0376,
+        "evidencia": 0.0026,
+        "geopolitica": 0.079,
+        "matematicas": 0.1393,
+        "memoria-territorio": 0.0526,
+        "perspectiva": 0.1662,
+        "representacion": 0.0105,
+        "transformacion": 0.0526
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-observe.json"
     },
     {
@@ -35,6 +55,31 @@
       "reading": "",
       "relationTokens": 22,
       "fichaTokens": 256,
+      "tagWeights": {
+        "aprendizaje": 0.158,
+        "autoridad": 0.0636,
+        "cambio-regimen": 0.0285,
+        "capacidad-humana": 0.0093,
+        "decision": 0.0565,
+        "economia": 0.06,
+        "empresa": 0.1498,
+        "espiritualidad": 0.0198,
+        "estandares": 0.0174,
+        "evidencia": 0.0292,
+        "experimentacion": 0.0278,
+        "geopolitica": 0.0278,
+        "integridad-ia": 0.0278,
+        "matematicas": 0.1395,
+        "memoria-territorio": 0.0417,
+        "movilidad": 0.0165,
+        "perspectiva": 0.0179,
+        "representacion": 0.0194,
+        "transformacion": 0.0895
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-structure.json"
     },
     {
@@ -46,6 +91,31 @@
       "reading": "",
       "relationTokens": 26,
       "fichaTokens": 258,
+      "tagWeights": {
+        "aprendizaje": 0.2354,
+        "autoridad": 0.0588,
+        "casos": 0.0162,
+        "control-minimo": 0.0103,
+        "decision": 0.157,
+        "documentacion": 0.0114,
+        "economia": 0.0507,
+        "empresa": 0.0151,
+        "espiritualidad": 0.025,
+        "estandares": 0.0142,
+        "evidencia": 0.0076,
+        "experimentacion": 0.0418,
+        "geopolitica": 0.0057,
+        "integridad-ia": 0.0284,
+        "matematicas": 0.169,
+        "memoria-territorio": 0.0227,
+        "mundo-abierto": 0.0057,
+        "perspectiva": 0.1023,
+        "transformacion": 0.0227
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-doubt.json"
     },
     {
@@ -57,6 +127,14 @@
       "reading": "La lectura enlaza «Una ley tiene principios; un expediente exige requisitos» con «Un control puede aprobar y el sistema seguir fallando».",
       "relationTokens": 54,
       "fichaTokens": 334,
+      "tagWeights": {
+        "autoridad": 0.4286,
+        "estandares": 0.5714
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-169.json"
     },
     {
@@ -68,6 +146,13 @@
       "reading": "La lectura enlaza «O como, o lleno formatos» con «Un control puede aprobar y el sistema seguir fallando».",
       "relationTokens": 48,
       "fichaTokens": 325,
+      "tagWeights": {
+        "autoridad": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-170.json"
     },
     {
@@ -79,6 +164,15 @@
       "reading": "La lectura enlaza «Una inteligencia puede hacer operable la fragilidad sin convertirla en resiliencia» con «Un control puede aprobar y el sistema seguir fallando».",
       "relationTokens": 66,
       "fichaTokens": 387,
+      "tagWeights": {
+        "economia": 0.3334,
+        "movilidad": 0.3333,
+        "transformacion": 0.3333
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-191.json"
     },
     {
@@ -90,6 +184,14 @@
       "reading": "La lectura enlaza «Un JSON correcto puede describir una vaca que no estaba allí» con «Un control puede aprobar y el sistema seguir fallando». Permite contrastar Duda, pruebas y conocimiento corregible.",
       "relationTokens": 75,
       "fichaTokens": 438,
+      "tagWeights": {
+        "decision": 0.5,
+        "matematicas": 0.5
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-217.json"
     },
     {
@@ -101,6 +203,14 @@
       "reading": "La lectura enlaza «Compraron control y consiguieron exactamente lo contrario» con «Un control puede aprobar y el sistema seguir fallando».",
       "relationTokens": 54,
       "fichaTokens": 427,
+      "tagWeights": {
+        "autoridad": 0.3333,
+        "evidencia": 0.6667
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-224.json"
     },
     {
@@ -112,6 +222,14 @@
       "reading": "La lectura enlaza «Una capacidad zombi sigue en el organigrama, no en la realidad» con «Un control puede aprobar y el sistema seguir fallando». Permite contrastar Conciencia estructural.",
       "relationTokens": 75,
       "fichaTokens": 413,
+      "tagWeights": {
+        "autoridad": 0.5,
+        "memoria-territorio": 0.5
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-233.json"
     },
     {
@@ -123,6 +241,15 @@
       "reading": "La lectura enlaza «El mejor informe puede salvar el puesto y perder la operación» con «Un control puede aprobar y el sistema seguir fallando».",
       "relationTokens": 58,
       "fichaTokens": 450,
+      "tagWeights": {
+        "autoridad": 0.3334,
+        "decision": 0.3333,
+        "evidencia": 0.3333
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-235.json"
     },
     {
@@ -134,6 +261,13 @@
       "reading": "La lectura enlaza «El sistema sobrevive gracias a quien se sale del mapa» con «Un control puede aprobar y el sistema seguir fallando». Permite contrastar Conciencia estructural.",
       "relationTokens": 67,
       "fichaTokens": 411,
+      "tagWeights": {
+        "evidencia": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-236.json"
     },
     {
@@ -145,6 +279,15 @@
       "reading": "La lectura enlaza «Obedecer todas las reglas puede hacer imposible el resultado» con «Un control puede aprobar y el sistema seguir fallando».",
       "relationTokens": 58,
       "fichaTokens": 427,
+      "tagWeights": {
+        "autoridad": 0.25,
+        "empresa": 0.5,
+        "evidencia": 0.25
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-237.json"
     },
     {
@@ -156,6 +299,15 @@
       "reading": "La lectura enlaza «El supervisor humano no es barato porque solo revise dos casillas» con «Un control puede aprobar y el sistema seguir fallando». Permite contrastar Duda, pruebas y conocimiento corregible.",
       "relationTokens": 73,
       "fichaTokens": 442,
+      "tagWeights": {
+        "autoridad": 0.25,
+        "documentacion": 0.5,
+        "matematicas": 0.25
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-243.json"
     },
     {
@@ -167,6 +319,13 @@
       "reading": "La lectura enlaza «Una contradicción puede contagiar máquinas antes de que nadie vea el desastre» con «Un control puede aprobar y el sistema seguir fallando». Permite contrastar Conciencia estructural.",
       "relationTokens": 73,
       "fichaTokens": 430,
+      "tagWeights": {
+        "transformacion": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-244.json"
     },
     {
@@ -178,6 +337,13 @@
       "reading": "La lectura enlaza «Llamarlo «AI firewall» no te concede saber qué está filtrando» con «Un control puede aprobar y el sistema seguir fallando». Permite contrastar Conciencia estructural.",
       "relationTokens": 75,
       "fichaTokens": 430,
+      "tagWeights": {
+        "autoridad": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-245.json"
     },
     {
@@ -189,6 +355,14 @@
       "reading": "La lectura enlaza «Rechazar una entrada también es tomar una decisión» con «Un control puede aprobar y el sistema seguir fallando».",
       "relationTokens": 56,
       "fichaTokens": 404,
+      "tagWeights": {
+        "decision": 0.7143,
+        "matematicas": 0.2857
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-278.json"
     },
     {
@@ -200,6 +374,13 @@
       "reading": "La lectura enlaza «Una entrada fuera del dominio puede producir una salida aparentemente útil» con «Un control puede aprobar y el sistema seguir fallando».",
       "relationTokens": 58,
       "fichaTokens": 377,
+      "tagWeights": {
+        "matematicas": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-279.json"
     },
     {
@@ -211,6 +392,13 @@
       "reading": "La lectura enlaza «Antes de cerrar un universo, alguien debe decidir qué entra en él» con «Un control puede aprobar y el sistema seguir fallando».",
       "relationTokens": 62,
       "fichaTokens": 407,
+      "tagWeights": {
+        "autoridad": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-281.json"
     },
     {
@@ -222,6 +410,14 @@
       "reading": "Ambas reflexiones permiten comparar Mirar lo que falta, Conciencia estructural desde las situaciones que describe cada texto.",
       "relationTokens": 48,
       "fichaTokens": 444,
+      "tagWeights": {
+        "empresa": 0.5,
+        "perspectiva": 0.5
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-029.json"
     },
     {
@@ -233,6 +429,14 @@
       "reading": "Ambas reflexiones permiten comparar Mirar lo que falta, Duda, pruebas y conocimiento corregible desde las situaciones que describe cada texto.",
       "relationTokens": 57,
       "fichaTokens": 329,
+      "tagWeights": {
+        "aprendizaje": 0.2857,
+        "espiritualidad": 0.7143
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-092.json"
     },
     {
@@ -244,6 +448,13 @@
       "reading": "Ambas reflexiones permiten comparar Mirar lo que falta, Conciencia estructural, Duda, pruebas y conocimiento corregible desde las situaciones que describe cada texto.",
       "relationTokens": 60,
       "fichaTokens": 261,
+      "tagWeights": {
+        "decision": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-099.json"
     },
     {
@@ -255,6 +466,15 @@
       "reading": "Ambas reflexiones permiten comparar Mirar lo que falta, Conciencia estructural desde las situaciones que describe cada texto.",
       "relationTokens": 50,
       "fichaTokens": 637,
+      "tagWeights": {
+        "cambio-regimen": 0.5714,
+        "decision": 0.2857,
+        "perspectiva": 0.1429
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-073.json"
     },
     {
@@ -266,6 +486,18 @@
       "reading": "Ambas reflexiones permiten comparar Mirar lo que falta, Conciencia estructural desde las situaciones que describe cada texto.",
       "relationTokens": 56,
       "fichaTokens": 439,
+      "tagWeights": {
+        "aprendizaje": 0.05,
+        "empresa": 0.35,
+        "evidencia": 0.05,
+        "matematicas": 0.1,
+        "representacion": 0.2,
+        "transformacion": 0.25
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-285.json"
     }
   ]

@@ -18,6 +18,7 @@
     "tegrity"
   ],
   "context": "## Industry Reference Group (IRG)\nThe group convenes practical perspectives on agentic AI and its operating conditions.\nEtiquetas: Investigación y documentación técnica 25.00%; Estándares e interoperabilidad 25.00%; Evidencia, procedencia y atribución 25.00%; Integridad y seguridad de IA 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/industry-reference-group/\n\n",
+  "readingSource": null,
   "tokens": 91,
   "encoding": "o200k_base",
   "relations": [
@@ -30,6 +31,14 @@
       "reading": "",
       "relationTokens": 18,
       "fichaTokens": 68,
+      "tagWeights": {
+        "estandares": 0.5,
+        "integridad-ia": 0.5
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1726.json"
     },
     {
@@ -40,7 +49,15 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 17,
-      "fichaTokens": 68,
+      "fichaTokens": 173,
+      "tagWeights": {
+        "documentacion": 0.5,
+        "evidencia": 0.5
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1499.json"
     },
     {
@@ -52,6 +69,19 @@
       "reading": "",
       "relationTokens": 21,
       "fichaTokens": 131,
+      "tagWeights": {
+        "autoridad": 0.087,
+        "cartografia": 0.0869,
+        "control-minimo": 0.2609,
+        "decision": 0.1739,
+        "documentacion": 0.1739,
+        "experimentacion": 0.1739,
+        "integridad-ia": 0.0435
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G16.json"
     },
     {
@@ -63,6 +93,16 @@
       "reading": "",
       "relationTokens": 21,
       "fichaTokens": 78,
+      "tagWeights": {
+        "documentacion": 0.3409,
+        "evidencia": 0.3863,
+        "matematicas": 0.2728
+      },
+      "clusters": [
+        "research",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G20.json"
     },
     {
@@ -74,6 +114,11 @@
       "reading": "",
       "relationTokens": 20,
       "fichaTokens": 63,
+      "tagWeights": {
+        "documentacion": 1.0
+      },
+      "clusters": [],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G26.json"
     },
     {
@@ -85,6 +130,16 @@
       "reading": "",
       "relationTokens": 21,
       "fichaTokens": 79,
+      "tagWeights": {
+        "control-minimo": 0.103,
+        "documentacion": 0.0588,
+        "estandares": 0.8382
+      },
+      "clusters": [
+        "research",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G35.json"
     }
   ]

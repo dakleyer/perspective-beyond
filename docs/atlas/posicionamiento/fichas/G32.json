@@ -18,6 +18,7 @@
     "tegrity"
   ],
   "context": "## IMSV\nThe society provides a context for stewardship, knowledge preservation and technical exchange.\nEtiquetas: Investigación y documentación técnica 25.00%; Empresa y gestión 50.00%; Evidencia, procedencia y atribución 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/the-integral-management-society/\n\n",
+  "readingSource": null,
   "tokens": 75,
   "encoding": "o200k_base",
   "relations": [
@@ -30,6 +31,13 @@
       "reading": "",
       "relationTokens": 14,
       "fichaTokens": 76,
+      "tagWeights": {
+        "empresa": 1.0
+      },
+      "clusters": [
+        "imsv"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/S14.json"
     },
     {
@@ -40,7 +48,15 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 12,
-      "fichaTokens": 68,
+      "fichaTokens": 173,
+      "tagWeights": {
+        "documentacion": 0.5,
+        "evidencia": 0.5
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1499.json"
     },
     {
@@ -51,7 +67,20 @@
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 13,
-      "fichaTokens": 108,
+      "fichaTokens": 119,
+      "tagWeights": {
+        "agentes": 0.0568,
+        "control-minimo": 0.0556,
+        "decision": 0.0555,
+        "documentacion": 0.1932,
+        "estandares": 0.25,
+        "evidencia": 0.1932,
+        "navegacion": 0.1957
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G31.json"
     },
     {
@@ -63,6 +92,29 @@
       "reading": "",
       "relationTokens": 11,
       "fichaTokens": 197,
+      "tagWeights": {
+        "aprendizaje": 0.0096,
+        "autoridad": 0.0035,
+        "capacidad-humana": 0.0816,
+        "casos": 0.0092,
+        "control-minimo": 0.0074,
+        "decision": 0.0555,
+        "documentacion": 0.1014,
+        "economia": 0.0662,
+        "empresa": 0.2058,
+        "estandares": 0.0212,
+        "evidencia": 0.1233,
+        "experimentacion": 0.018,
+        "memoria-territorio": 0.1189,
+        "transformacion": 0.1784
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "net",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C56.json"
     },
     {
@@ -73,7 +125,20 @@
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 13,
-      "fichaTokens": 108,
+      "fichaTokens": 119,
+      "tagWeights": {
+        "agentes": 0.0568,
+        "control-minimo": 0.0556,
+        "decision": 0.0555,
+        "documentacion": 0.1932,
+        "estandares": 0.25,
+        "evidencia": 0.1932,
+        "navegacion": 0.1957
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G31.json"
     },
     {
@@ -85,6 +150,16 @@
       "reading": "",
       "relationTokens": 16,
       "fichaTokens": 78,
+      "tagWeights": {
+        "documentacion": 0.3409,
+        "evidencia": 0.3863,
+        "matematicas": 0.2728
+      },
+      "clusters": [
+        "research",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G20.json"
     }
   ]

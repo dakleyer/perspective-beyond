@@ -13,6 +13,8 @@ El documento elegido es el posicionamiento. Los pesos, el alcance y los tokens f
 
 Los perfiles están en [etiquetas-fichas.json](etiquetas-fichas.json), en `source_tag_weights` del catálogo y en `tagWeights` de los nodos. `tag_weight_overrides` conserva las composiciones editoriales explícitas para la siguiente generación. El resto se calcula mediante señales documentadas en título, resumen y conceptos vinculados.
 
+Las fichas cuyo catálogo contenía solo metadatos incorporan, cuando está disponible, un extracto literal del Abstract o de los párrafos iniciales de su fuente pública. El extracto aporta el mecanismo que explica el artículo y participa en su composición temática. [lecturas-fuentes.json](lecturas-fuentes.json) identifica el origen, la sección, el momento de lectura y la huella de cada fuente. Los diálogos conservan su texto completo y los perfiles editoriales explícitos se mantienen.
+
 ## Tokens y distancia
 
 El **presupuesto de tokens** determina el contenido de lectura que entra en el mini mapa: cabecera del documento, fichas y relaciones de llegada. La **distancia** cuenta conexiones recorridas desde ese documento. Al aumentar los tokens con el mismo posicionamiento, etiquetas y alcance, la selección anterior se conserva y la lectura puede seguir creciendo.
@@ -27,6 +29,8 @@ Los bloques se cuentan de forma independiente con `tiktoken 0.12.0`, codificaci�
 - Se aplica el alcance Cerrado, Poroso o Federado y el filtro de etiquetas elegido.
 - La afinidad temática es la suma de cada peso del posicionamiento multiplicado por la proporción de esa etiqueta en la ficha. También se admiten pesos de clúster, perspectiva documentada y concepto.
 - Se recorren relaciones existentes. Para las landings se incorporan enlaces de lectura comprobados en su contenido, identificados como navegación.
+- En las fichas con extracto de un artículo se conserva primero una base de hasta cuatro conceptos que ese artículo sostiene directamente. Se ordenan por afinidad con la composición del propio documento. Así se explica su mecanismo antes de ampliar hacia las preferencias del visitante.
+- Si existe una relación saliente de uso documentado, esa base incluye también una lectura vinculada directamente con el mecanismo de origen. Se conserva el tipo de relación ya registrado en el Atlas.
 - Se ordenan las piezas por afinidad y cercanía, conservando las conexiones necesarias para llegar a cada una. La prioridad es `(0.25 + 0.75 × afinidad) / (1 + distancia)`.
 - Se toma el prefijo de ese recorrido que cabe en el presupuesto. La secuencia se calcula independientemente del presupuesto. La siguiente incorporación se detiene completa cuando necesita más tokens.
 
@@ -43,6 +47,8 @@ Parámetros: `posicionamiento`, `tokens`, `peso` repetido, `modo`, `site`, `puen
 [Entrada para asistentes](entrada.txt) · [Posicionamientos preparados](preparados/index.html) · [Documentos y sus fichas](documentos.json) · [Grafo completo](../mapa/grafo.json).
 
 Para lectores web, cada documento y cada ficha dispone de un registro JSON pequeño bajo `documentos/` y `fichas/`. El registro de una ficha contiene su texto de lectura, coste, composición y relaciones hacia las fichas vecinas. Los paquetes preparados ofrecen lecturas calculadas para las entradas iniciales. El visualizador calcula configuraciones personalizadas y permite descargar su lectura y su mapa.
+
+Las relaciones de esos registros incluyen también la composición, el clúster y el coste de la ficha vecina, para elegir la próxima lectura sin abrir todas las candidatas. Los resultados de la [comparación de recorridos](comparacion/README.md) documentan las preguntas, paquetes y respuestas de las pruebas ciegas.
 
 El mismo cálculo funciona en Node.js:
 

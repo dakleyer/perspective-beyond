@@ -29,6 +29,7 @@
     "research"
   ],
   "context": "## Contribuciones matemáticas\nFormal papers isolate questions, conditions and comparative claims from the larger application context.\nEtiquetas: Aprendizaje y transmisión de capacidades 1.54%; Cambios de régimen y alerta temprana 4.00%; Cartografía y señales de ecosistema 4.80%; Control mínimo y suficiencia 2.31%; Decisiones y responsabilidad 1.54%; Investigación y documentación técnica 9.24%; Economía, costes y liquidez 7.04%; Evidencia, procedencia y atribución 11.56%; Experimentación, falsación y contraejemplos 6.61%; Matemáticas 37.71%; Mundo abierto e indeterminación 5.60%; Representación y límites formales 8.05%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/mathematical-contributions/\n\n",
+  "readingSource": null,
   "tokens": 181,
   "encoding": "o200k_base",
   "relations": [
@@ -41,6 +42,16 @@
       "reading": "",
       "relationTokens": 20,
       "fichaTokens": 155,
+      "tagWeights": {
+        "evidencia": 0.1053,
+        "experimentacion": 0.2105,
+        "matematicas": 0.4737,
+        "representacion": 0.2105
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH004.json"
     },
     {
@@ -52,6 +63,18 @@
       "reading": "",
       "relationTokens": 24,
       "fichaTokens": 229,
+      "tagWeights": {
+        "aprendizaje": 0.0769,
+        "control-minimo": 0.1154,
+        "decision": 0.0769,
+        "economia": 0.1923,
+        "matematicas": 0.3462,
+        "representacion": 0.1923
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH006.json"
     },
     {
@@ -63,6 +86,16 @@
       "reading": "",
       "relationTokens": 29,
       "fichaTokens": 202,
+      "tagWeights": {
+        "cambio-regimen": 0.2,
+        "documentacion": 0.2,
+        "evidencia": 0.2,
+        "matematicas": 0.4
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH010.json"
     },
     {
@@ -74,6 +107,15 @@
       "reading": "",
       "relationTokens": 20,
       "fichaTokens": 93,
+      "tagWeights": {
+        "documentacion": 0.1818,
+        "evidencia": 0.2727,
+        "matematicas": 0.5455
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/S09.json"
     },
     {
@@ -85,6 +127,18 @@
       "reading": "",
       "relationTokens": 31,
       "fichaTokens": 244,
+      "tagWeights": {
+        "cartografia": 0.24,
+        "documentacion": 0.08,
+        "economia": 0.16,
+        "experimentacion": 0.12,
+        "matematicas": 0.12,
+        "mundo-abierto": 0.28
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH028.json"
     },
     {
@@ -96,6 +150,30 @@
       "reading": "",
       "relationTokens": 13,
       "fichaTokens": 230,
+      "tagWeights": {
+        "agentes": 0.027,
+        "autoridad": 0.0135,
+        "cambio-regimen": 0.0292,
+        "capacidad-humana": 0.0156,
+        "cartografia": 0.1031,
+        "casos": 0.0135,
+        "control-minimo": 0.0203,
+        "documentacion": 0.1318,
+        "economia": 0.0156,
+        "empresa": 0.0068,
+        "estandares": 0.027,
+        "evidencia": 0.2096,
+        "experimentacion": 0.0526,
+        "matematicas": 0.2548,
+        "movilidad": 0.0135,
+        "representacion": 0.0526,
+        "transformacion": 0.0135
+      },
+      "clusters": [
+        "research",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G01.json"
     },
     {
@@ -106,7 +184,17 @@
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 17,
-      "fichaTokens": 75,
+      "fichaTokens": 86,
+      "tagWeights": {
+        "agentes": 0.1137,
+        "documentacion": 0.3863,
+        "evidencia": 0.3863,
+        "navegacion": 0.1137
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G18.json"
     },
     {
@@ -118,6 +206,22 @@
       "reading": "",
       "relationTokens": 16,
       "fichaTokens": 161,
+      "tagWeights": {
+        "cartografia": 0.2287,
+        "documentacion": 0.04,
+        "economia": 0.08,
+        "estandares": 0.0217,
+        "evidencia": 0.0435,
+        "experimentacion": 0.06,
+        "matematicas": 0.1035,
+        "mundo-abierto": 0.2922,
+        "representacion": 0.0217,
+        "transformacion": 0.1087
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G02.json"
     },
     {
@@ -128,7 +232,18 @@
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 93,
+      "fichaTokens": 102,
+      "tagWeights": {
+        "casos": 0.092,
+        "decision": 0.0575,
+        "documentacion": 0.023,
+        "economia": 0.2047,
+        "movilidad": 0.6228
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G27.json"
     },
     {
@@ -139,7 +254,23 @@
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 18,
-      "fichaTokens": 104,
+      "fichaTokens": 149,
+      "tagWeights": {
+        "cambio-regimen": 0.0864,
+        "control-minimo": 0.1459,
+        "documentacion": 0.1975,
+        "economia": 0.0933,
+        "evidencia": 0.1444,
+        "experimentacion": 0.0933,
+        "matematicas": 0.1358,
+        "memoria-territorio": 0.0417,
+        "perspectiva": 0.0617
+      },
+      "clusters": [
+        "net",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G28.json"
     },
     {
@@ -150,7 +281,36 @@
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 15,
-      "fichaTokens": 231,
+      "fichaTokens": 242,
+      "tagWeights": {
+        "autoridad": 0.021,
+        "cambio-regimen": 0.0269,
+        "cartografia": 0.0119,
+        "casos": 0.0629,
+        "control-minimo": 0.0202,
+        "decision": 0.0424,
+        "documentacion": 0.0708,
+        "economia": 0.0586,
+        "empresa": 0.1,
+        "estandares": 0.0472,
+        "evidencia": 0.1556,
+        "experimentacion": 0.084,
+        "integridad-ia": 0.0541,
+        "memoria-territorio": 0.0218,
+        "movilidad": 0.1649,
+        "mundo-abierto": 0.0024,
+        "representacion": 0.0099,
+        "transformacion": 0.0454
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C49.json"
     },
     {
@@ -162,6 +322,16 @@
       "reading": "",
       "relationTokens": 19,
       "fichaTokens": 78,
+      "tagWeights": {
+        "documentacion": 0.3409,
+        "evidencia": 0.3863,
+        "matematicas": 0.2728
+      },
+      "clusters": [
+        "research",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G20.json"
     }
   ]

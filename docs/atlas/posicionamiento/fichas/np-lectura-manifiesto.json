@@ -13,6 +13,7 @@
     "imsv"
   ],
   "context": "## El manifiesto, leído en diálogo\nLa lectura distingue deseo, acción, consecuencia y satisfacción. Una nueva idea merece examen racional, observaciones y contraste, para saber si cambió la situación o solo la manera de describirla.\nEtiquetas: Decisiones y responsabilidad 50.00%; Cambio de perspectiva 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-lectura-manifiesto\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/leer-el-manifiesto/\n\n",
+  "readingSource": null,
   "tokens": 118,
   "encoding": "o200k_base",
   "relations": [
@@ -25,6 +26,13 @@
       "reading": "La comparación entre papeles permite examinar la diferencia entre una idea nueva y una decisión comprobable.",
       "relationTokens": 42,
       "fichaTokens": 119,
+      "tagWeights": {
+        "empresa": 1.0
+      },
+      "clusters": [
+        "imsv"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-microempresas.json"
     },
     {
@@ -36,6 +44,14 @@
       "reading": "El examen racional de una nueva mirada encuentra una expresión práctica en el diseño de la intervención.",
       "relationTokens": 38,
       "fichaTokens": 120,
+      "tagWeights": {
+        "perspectiva": 0.3846,
+        "transformacion": 0.6154
+      },
+      "clusters": [
+        "imsv"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-jump-up.json"
     }
   ]

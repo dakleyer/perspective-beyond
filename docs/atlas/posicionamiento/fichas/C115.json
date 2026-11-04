@@ -14,21 +14,24 @@
   "tagWeights": {
     "agentes": 0.0476,
     "control-minimo": 0.0095,
-    "documentacion": 0.0963,
-    "economia": 0.0364,
-    "empresa": 0.0909,
-    "evidencia": 0.4013,
-    "experimentacion": 0.0095,
+    "decision": 0.0389,
+    "documentacion": 0.1523,
+    "economia": 0.0671,
+    "empresa": 0.05,
+    "evidencia": 0.205,
+    "experimentacion": 0.0655,
     "matematicas": 0.0535,
+    "movilidad": 0.0278,
     "mundo-abierto": 0.2169,
-    "representacion": 0.0381
+    "representacion": 0.0659
   },
   "clusters": [
     "net",
     "research"
   ],
-  "context": "## Registro previo a admisión y promoción posterior\nPreserve an authorised trace before its classification for possible later admission.\nEtiquetas: Agentes y coordinación distribuida 4.76%; Control mínimo y suficiencia 0.95%; Investigación y documentación técnica 9.63%; Economía, costes y liquidez 3.64%; Empresa y gestión 9.09%; Evidencia, procedencia y atribución 40.13%; Experimentación, falsación y contraejemplos 0.95%; Matemáticas 5.35%; Mundo abierto e indeterminación 21.69%; Representación y límites formales 3.81%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/record-before-admission/\n\n",
-  "tokens": 154,
+  "context": "## Registro previo a admisión y promoción posterior\nPreserve an authorised trace before its classification for possible later admission.\nEtiquetas: Agentes y coordinación distribuida 4.76%; Control mínimo y suficiencia 0.95%; Decisiones y responsabilidad 3.89%; Investigación y documentación técnica 15.23%; Economía, costes y liquidez 6.71%; Empresa y gestión 5.00%; Evidencia, procedencia y atribución 20.50%; Experimentación, falsación y contraejemplos 6.55%; Matemáticas 5.35%; Movilidad e infraestructura 2.78%; Mundo abierto e indeterminación 21.69%; Representación y límites formales 6.59%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/record-before-admission/\n\n",
+  "readingSource": null,
+  "tokens": 172,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -40,6 +43,19 @@
       "reading": "",
       "relationTokens": 28,
       "fichaTokens": 214,
+      "tagWeights": {
+        "agentes": 0.2381,
+        "control-minimo": 0.0476,
+        "documentacion": 0.0476,
+        "experimentacion": 0.0476,
+        "matematicas": 0.1905,
+        "mundo-abierto": 0.2381,
+        "representacion": 0.1905
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH012.json"
     },
     {
@@ -51,6 +67,15 @@
       "reading": "",
       "relationTokens": 27,
       "fichaTokens": 176,
+      "tagWeights": {
+        "documentacion": 0.0769,
+        "matematicas": 0.0769,
+        "mundo-abierto": 0.8462
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH015.json"
     },
     {
@@ -61,7 +86,17 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 74,
+      "fichaTokens": 592,
+      "tagWeights": {
+        "documentacion": 0.28,
+        "economia": 0.28,
+        "evidencia": 0.16,
+        "experimentacion": 0.28
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1835.json"
     },
     {
@@ -72,7 +107,19 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 88,
+      "fichaTokens": 405,
+      "tagWeights": {
+        "decision": 0.1944,
+        "economia": 0.0556,
+        "empresa": 0.25,
+        "evidencia": 0.2222,
+        "movilidad": 0.1389,
+        "representacion": 0.1389
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1289.json"
     },
     {
@@ -84,6 +131,14 @@
       "reading": "",
       "relationTokens": 32,
       "fichaTokens": 180,
+      "tagWeights": {
+        "documentacion": 0.3571,
+        "evidencia": 0.6429
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH066.json"
     },
     {
@@ -94,7 +149,29 @@
       "kind": "analogy only",
       "reading": "Event-triggered promotion can be compared retrospectively with relabeling cascades, provided event identity and the times of capture, knowledge and reinterpretation remain distinct.",
       "relationTokens": 51,
-      "fichaTokens": 163,
+      "fichaTokens": 181,
+      "tagWeights": {
+        "agentes": 0.0397,
+        "casos": 0.0465,
+        "control-minimo": 0.0079,
+        "decision": 0.0324,
+        "documentacion": 0.2843,
+        "economia": 0.0559,
+        "empresa": 0.1208,
+        "evidencia": 0.2084,
+        "experimentacion": 0.0546,
+        "matematicas": 0.0318,
+        "movilidad": 0.0231,
+        "mundo-abierto": 0.0397,
+        "representacion": 0.0549
+      },
+      "clusters": [
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C11.json"
     },
     {
@@ -105,7 +182,38 @@
       "kind": "candidate transfer",
       "reading": "Operational tracking could retain permitted unresolved traces before lossy admission, so that later qualification can revisit evidence that actually exists.",
       "relationTokens": 42,
-      "fichaTokens": 245,
+      "fichaTokens": 277,
+      "tagWeights": {
+        "agentes": 0.0327,
+        "aprendizaje": 0.0247,
+        "autoridad": 0.0222,
+        "capacidad-humana": 0.0325,
+        "cartografia": 0.0327,
+        "casos": 0.0054,
+        "control-minimo": 0.0093,
+        "decision": 0.0417,
+        "documentacion": 0.0308,
+        "economia": 0.0452,
+        "empresa": 0.1219,
+        "estandares": 0.0356,
+        "evidencia": 0.2655,
+        "experimentacion": 0.0089,
+        "integridad-ia": 0.0327,
+        "matematicas": 0.0085,
+        "memoria-territorio": 0.0116,
+        "movilidad": 0.0154,
+        "mundo-abierto": 0.094,
+        "representacion": 0.0154,
+        "transformacion": 0.1133
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "net",
+        "research",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C82.json"
     },
     {
@@ -116,7 +224,20 @@
       "kind": "documented use",
       "reading": "The dual-time contract makes a later implementation obligation explicit: historical reinterpretation and current permission to rely on a certificate must be evaluated separately.",
       "relationTokens": 48,
-      "fichaTokens": 94,
+      "fichaTokens": 120,
+      "tagWeights": {
+        "documentacion": 0.238,
+        "economia": 0.0933,
+        "evidencia": 0.2677,
+        "experimentacion": 0.0933,
+        "matematicas": 0.0256,
+        "mundo-abierto": 0.2821
+      },
+      "clusters": [
+        "net",
+        "research"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C122.json"
     }
   ]

@@ -10,24 +10,27 @@
     "T1484"
   ],
   "tagWeights": {
-    "autoridad": 0.0556,
-    "capacidad-humana": 0.0556,
-    "casos": 0.0953,
-    "control-minimo": 0.0476,
-    "decision": 0.3254,
-    "documentacion": 0.0476,
-    "economia": 0.1984,
-    "empresa": 0.0476,
-    "evidencia": 0.0714,
-    "memoria-territorio": 0.0555
+    "autoridad": 0.0392,
+    "capacidad-humana": 0.0967,
+    "casos": 0.037,
+    "control-minimo": 0.023,
+    "decision": 0.2426,
+    "documentacion": 0.046,
+    "economia": 0.1452,
+    "empresa": 0.046,
+    "evidencia": 0.0575,
+    "memoria-territorio": 0.0392,
+    "movilidad": 0.098,
+    "transformacion": 0.1296
   },
   "clusters": [
     "net",
     "tegrity",
     "us"
   ],
-  "context": "## Alcance de bloqueo de una decisión\nTrace dependent results delayed or blocked by a decision.\nEtiquetas: Autoridad, permisos y delegación 5.56%; Capacidad humana y deuda de inteligencia 5.56%; Casos de uso y aplicaciones 9.53%; Control mínimo y suficiencia 4.76%; Decisiones y responsabilidad 32.54%; Investigación y documentación técnica 4.76%; Economía, costes y liquidez 19.84%; Empresa y gestión 4.76%; Evidencia, procedencia y atribución 7.14%; Memoria, comunidad y territorio 5.55%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/decision-blocking-reach/\n\n",
-  "tokens": 151,
+  "context": "## Alcance de bloqueo de una decisión\nTrace dependent results delayed or blocked by a decision.\nEtiquetas: Autoridad, permisos y delegación 3.92%; Capacidad humana y deuda de inteligencia 9.67%; Casos de uso y aplicaciones 3.70%; Control mínimo y suficiencia 2.30%; Decisiones y responsabilidad 24.26%; Investigación y documentación técnica 4.60%; Economía, costes y liquidez 14.52%; Empresa y gestión 4.60%; Evidencia, procedencia y atribución 5.75%; Memoria, comunidad y territorio 3.92%; Movilidad e infraestructura 9.80%; Transformación y continuidad operativa 12.96%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/decision-blocking-reach/\n\n",
+  "readingSource": null,
+  "tokens": 171,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -38,7 +41,17 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 99,
+      "fichaTokens": 280,
+      "tagWeights": {
+        "casos": 0.1111,
+        "decision": 0.3889,
+        "economia": 0.1111,
+        "transformacion": 0.3889
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1285.json"
     },
     {
@@ -49,7 +62,19 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 126,
+      "fichaTokens": 260,
+      "tagWeights": {
+        "autoridad": 0.1177,
+        "capacidad-humana": 0.1177,
+        "decision": 0.2353,
+        "economia": 0.1176,
+        "memoria-territorio": 0.1176,
+        "movilidad": 0.2941
+      },
+      "clusters": [
+        "us"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1498.json"
     },
     {
@@ -60,7 +85,20 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 20,
-      "fichaTokens": 110,
+      "fichaTokens": 280,
+      "tagWeights": {
+        "capacidad-humana": 0.1724,
+        "control-minimo": 0.069,
+        "decision": 0.1035,
+        "documentacion": 0.1379,
+        "economia": 0.2069,
+        "empresa": 0.1379,
+        "evidencia": 0.1724
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1484.json"
     },
     {
@@ -71,7 +109,24 @@
       "kind": "analogy only",
       "reading": "Decision-level dispersion and downstream coupling make the coordination-entropy discussion more precise by separating agreement burden from the propagation of a blocked decision.",
       "relationTokens": 45,
-      "fichaTokens": 128,
+      "fichaTokens": 148,
+      "tagWeights": {
+        "autoridad": 0.0392,
+        "capacidad-humana": 0.0392,
+        "casos": 0.037,
+        "decision": 0.2081,
+        "economia": 0.2985,
+        "evidencia": 0.1111,
+        "memoria-territorio": 0.0392,
+        "movilidad": 0.098,
+        "transformacion": 0.1297
+      },
+      "clusters": [
+        "net",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C93.json"
     },
     {
@@ -83,6 +138,34 @@
       "reading": "Reach-weighted latency can operationalize one aspect of informational friction, but the causal loss from a divergent map must still be separated from necessary waiting and other delays.",
       "relationTokens": 48,
       "fichaTokens": 241,
+      "tagWeights": {
+        "aprendizaje": 0.0162,
+        "autoridad": 0.0494,
+        "capacidad-humana": 0.0551,
+        "cartografia": 0.0205,
+        "casos": 0.0389,
+        "control-minimo": 0.035,
+        "decision": 0.1178,
+        "documentacion": 0.1163,
+        "economia": 0.0744,
+        "empresa": 0.0629,
+        "evidencia": 0.0581,
+        "experimentacion": 0.1056,
+        "integridad-ia": 0.0146,
+        "memoria-territorio": 0.0317,
+        "movilidad": 0.0553,
+        "mundo-abierto": 0.0333,
+        "perspectiva": 0.0316,
+        "transformacion": 0.0833
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C80.json"
     },
     {
@@ -93,7 +176,24 @@
       "kind": "hypothesis",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 128,
+      "fichaTokens": 148,
+      "tagWeights": {
+        "autoridad": 0.0392,
+        "capacidad-humana": 0.0392,
+        "casos": 0.037,
+        "decision": 0.2081,
+        "economia": 0.2985,
+        "evidencia": 0.1111,
+        "memoria-territorio": 0.0392,
+        "movilidad": 0.098,
+        "transformacion": 0.1297
+      },
+      "clusters": [
+        "net",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C93.json"
     }
   ]

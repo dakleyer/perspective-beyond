@@ -10,17 +10,18 @@
     "GH077"
   ],
   "tagWeights": {
-    "control-minimo": 0.098,
-    "documentacion": 0.098,
+    "control-minimo": 0.0864,
+    "documentacion": 0.1358,
     "evidencia": 0.2569,
-    "experimentacion": 0.4429,
+    "experimentacion": 0.4167,
     "matematicas": 0.1042
   },
   "clusters": [
     "research",
     "tegrity"
   ],
-  "context": "## Fuga de etiquetas de una fixture\nPublic fixture features can accidentally reveal a label reserved for evaluation.\nEtiquetas: Control mínimo y suficiencia 9.80%; Investigación y documentación técnica 9.80%; Evidencia, procedencia y atribución 25.69%; Experimentación, falsación y contraejemplos 44.29%; Matemáticas 10.42%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/fixture-label-leakage/\n\n",
+  "context": "## Fuga de etiquetas de una fixture\nPublic fixture features can accidentally reveal a label reserved for evaluation.\nEtiquetas: Control mínimo y suficiencia 8.64%; Investigación y documentación técnica 13.58%; Evidencia, procedencia y atribución 25.69%; Experimentación, falsación y contraejemplos 41.67%; Matemáticas 10.42%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/fixture-label-leakage/\n\n",
+  "readingSource": null,
   "tokens": 101,
   "encoding": "o200k_base",
   "relations": [
@@ -33,6 +34,14 @@
       "reading": "",
       "relationTokens": 28,
       "fichaTokens": 175,
+      "tagWeights": {
+        "evidencia": 0.3333,
+        "experimentacion": 0.6667
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH078.json"
     },
     {
@@ -43,7 +52,16 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 29,
-      "fichaTokens": 114,
+      "fichaTokens": 220,
+      "tagWeights": {
+        "control-minimo": 0.2593,
+        "documentacion": 0.4074,
+        "experimentacion": 0.3333
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2803.json"
     },
     {
@@ -55,6 +73,15 @@
       "reading": "",
       "relationTokens": 29,
       "fichaTokens": 179,
+      "tagWeights": {
+        "evidencia": 0.4375,
+        "experimentacion": 0.25,
+        "matematicas": 0.3125
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH077.json"
     },
     {
@@ -66,6 +93,33 @@
       "reading": "Matched public-view counterworlds can test whether a reported acquisition benefit comes from new evidence rather than accidental fixture-label leakage.",
       "relationTokens": 41,
       "fichaTokens": 236,
+      "tagWeights": {
+        "aprendizaje": 0.0233,
+        "autoridad": 0.0351,
+        "cambio-regimen": 0.0238,
+        "capacidad-humana": 0.0351,
+        "cartografia": 0.0134,
+        "control-minimo": 0.1601,
+        "decision": 0.0747,
+        "documentacion": 0.0772,
+        "economia": 0.0326,
+        "empresa": 0.0054,
+        "evidencia": 0.0932,
+        "experimentacion": 0.2436,
+        "integridad-ia": 0.0389,
+        "matematicas": 0.0319,
+        "memoria-territorio": 0.0153,
+        "movilidad": 0.0393,
+        "perspectiva": 0.0095,
+        "transformacion": 0.0476
+      },
+      "clusters": [
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C46.json"
     },
     {
@@ -77,6 +131,18 @@
       "reading": "A fallible audit mechanism and a public-label leakage control address different confounders; both must remain visible in a fair comparison.",
       "relationTokens": 49,
       "fichaTokens": 109,
+      "tagWeights": {
+        "documentacion": 0.1223,
+        "economia": 0.2334,
+        "evidencia": 0.3985,
+        "experimentacion": 0.1833,
+        "matematicas": 0.0625
+      },
+      "clusters": [
+        "research",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C124.json"
     }
   ]

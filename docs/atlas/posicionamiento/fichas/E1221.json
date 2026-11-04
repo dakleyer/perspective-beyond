@@ -6,13 +6,21 @@
   "documentId": "doc-bd9004cfedb4291c84",
   "sourceIds": [],
   "tagWeights": {
-    "navegacion": 1.0
+    "agentes": 0.3334,
+    "movilidad": 0.3333,
+    "navegacion": 0.3333
   },
   "clusters": [
     "eu"
   ],
-  "context": "## Field Notes\n\nEtiquetas: Índices, contacto y políticas 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/field-notes-e1221/\nDocumento de origen: https://jubap.eu/field-notes/\n\n",
-  "tokens": 56,
+  "context": "## Field Notes\nUn MVP regional de inteligencia de producto para entender la conversión en boutiques de lujo de Oriente Medio, India y África.\n\nCar Evolution is an operationally tested mobility-orchestration product, validated as an MVP at scale and prepared for European deployment and adaptation.\n\nMission-critical operational intelligence, regime-aware systems and orchestration capabilities for complex international programmes and consortia.\n\nPublic map of JubAp.eu, IMSV.org and Tegrity.AI research programmes, software platforms, engineering capabilities and ecosystem roles.\n\nReveal the strategic options the current frame leaves unseen. Compare value, risk and uncertainty, then shape a more defensible direction for the organization.\nEtiquetas: Agentes y coordinación distribuida 33.34%; Movilidad e infraestructura 33.33%; Índices, contacto y políticas 33.33%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/field-notes-e1221/\nDocumento de origen: https://jubap.eu/field-notes/\n\n",
+  "readingSource": {
+    "url": "https://jubap.eu/field-notes/",
+    "section": "Opening paragraphs",
+    "observed": "2026-11-04",
+    "sourceSha256": "65432f39c78ee9915260dfabdca77671cf3e50a3e3b74453c654b1045c81b718"
+  },
+  "tokens": 204,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -24,6 +32,17 @@
       "reading": "Desde «JubAp.EU», el enlace «Last articles» abre «Field Notes».",
       "relationTokens": 46,
       "fichaTokens": 115,
+      "tagWeights": {
+        "decision": 0.1,
+        "empresa": 0.45,
+        "navegacion": 0.05,
+        "perspectiva": 0.15,
+        "transformacion": 0.25
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E2.json"
     }
   ]

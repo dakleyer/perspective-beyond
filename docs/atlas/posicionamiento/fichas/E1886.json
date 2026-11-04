@@ -6,13 +6,20 @@
   "documentId": "doc-71df030d41fc38ff30",
   "sourceIds": [],
   "tagWeights": {
-    "movilidad": 1.0
+    "agentes": 0.3889,
+    "movilidad": 0.6111
   },
   "clusters": [
     "eu"
   ],
-  "context": "## Mobility Operating System\n\nEtiquetas: Movilidad e infraestructura 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/mobility-operating-system-e1886/\nDocumento de origen: https://jubap.eu/car-pooling-orchestration/\n\n",
-  "tokens": 59,
+  "context": "## Mobility Operating System\nAn operationally tested mobility-orchestration product — validated as an MVP at scale and ready for European deployment and adaptation\n\nCar Evolution is an existing mobility-orchestration product that has already been tested as an MVP in large-scale daily operations.\n\nIts underlying platform coordinated between 10,000 and 15,000 passengers per day and hundreds of buses, managing vehicles, schedules, travel preferences, access restrictions, CO₂ and service policies, hard and semi-flexible constraints, and continuous operational replanning.\n\nIn its current form, the product can already be offered commercially for defined B2B mobility-orchestration use cases, particularly bus and passenger-transport operations. European adaptation is highly advisable to address local regulation, integrations, data environments, user experience and additional market requirements; it is an extension and productisation step, not the creation of the first product or prototype.\nEtiquetas: Agentes y coordinación distribuida 38.89%; Movilidad e infraestructura 61.11%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/mobility-operating-system-e1886/\nDocumento de origen: https://jubap.eu/car-pooling-orchestration/\n\n",
+  "readingSource": {
+    "url": "https://jubap.eu/car-pooling-orchestration/",
+    "section": "Opening paragraphs",
+    "observed": "2026-11-04",
+    "sourceSha256": "66897723bbfa5ecd7b0526675052b3d485deede2fff14dcab95f8deefb2c9f4b"
+  },
+  "tokens": 243,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -24,6 +31,14 @@
       "reading": "For a complementary reading, see [The Logistics and Mobility Unit](https://jubap.eu/mobility/).",
       "relationTokens": 36,
       "fichaTokens": 105,
+      "tagWeights": {
+        "agentes": 0.1667,
+        "movilidad": 0.8333
+      },
+      "clusters": [
+        "mobility"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1953.json"
     },
     {
@@ -34,7 +49,18 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The historical scenario-governance mechanism](https://jubap.net/xseil-scenario-based-planning-human-governed-computation/).",
       "relationTokens": 59,
-      "fichaTokens": 118,
+      "fichaTokens": 211,
+      "tagWeights": {
+        "casos": 0.2759,
+        "decision": 0.1724,
+        "documentacion": 0.069,
+        "economia": 0.1379,
+        "movilidad": 0.3448
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N2082.json"
     },
     {
@@ -46,6 +72,18 @@
       "reading": "La fuente enlaza esta lectura en «Mobility Operating System / Car Evolution» con el rótulo «Mobility Operating System / Car Evolution».",
       "relationTokens": 92,
       "fichaTokens": 179,
+      "tagWeights": {
+        "cambio-regimen": 0.0625,
+        "capacidad-humana": 0.0625,
+        "cartografia": 0.25,
+        "economia": 0.0625,
+        "evidencia": 0.125,
+        "matematicas": 0.4375
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH001.json"
     },
     {
@@ -57,6 +95,14 @@
       "reading": "Desde «Car Evolution Mobility OS», el enlace «Mobility Operating System technical account» abre «Mobility Operating System».",
       "relationTokens": 54,
       "fichaTokens": 105,
+      "tagWeights": {
+        "agentes": 0.1667,
+        "movilidad": 0.8333
+      },
+      "clusters": [
+        "mobility"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1953.json"
     }
   ]

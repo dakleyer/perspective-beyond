@@ -23,6 +23,7 @@
     "dialogos"
   ],
   "context": "## Valor del trabajo y pruebas de capacidad\nEl reconocimiento puede castigar producción verificable; examinar obras y resultados, no solo credenciales.\nEtiquetas: Aprendizaje y transmisión de capacidades 20.00%; Autoridad, permisos y delegación 10.00%; Decisiones y responsabilidad 20.00%; Evidencia, procedencia y atribución 23.33%; Integridad y seguridad de IA 6.67%; Memoria, comunidad y territorio 20.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-evidence_recognition\n\n",
+  "readingSource": null,
   "tokens": 126,
   "encoding": "o200k_base",
   "relations": [
@@ -35,6 +36,14 @@
       "reading": "",
       "relationTokens": 23,
       "fichaTokens": 430,
+      "tagWeights": {
+        "evidencia": 0.6667,
+        "integridad-ia": 0.3333
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-229.json"
     },
     {
@@ -46,6 +55,14 @@
       "reading": "",
       "relationTokens": 28,
       "fichaTokens": 432,
+      "tagWeights": {
+        "aprendizaje": 0.5,
+        "decision": 0.5
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-230.json"
     },
     {
@@ -57,6 +74,14 @@
       "reading": "",
       "relationTokens": 28,
       "fichaTokens": 419,
+      "tagWeights": {
+        "aprendizaje": 0.5,
+        "autoridad": 0.5
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-231.json"
     },
     {
@@ -68,6 +93,13 @@
       "reading": "",
       "relationTokens": 28,
       "fichaTokens": 388,
+      "tagWeights": {
+        "memoria-territorio": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-260.json"
     },
     {
@@ -79,6 +111,14 @@
       "reading": "",
       "relationTokens": 25,
       "fichaTokens": 377,
+      "tagWeights": {
+        "decision": 0.5,
+        "evidencia": 0.5
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-291.json"
     },
     {
@@ -90,6 +130,26 @@
       "reading": "Puede castigarse la evidencia útil.",
       "relationTokens": 30,
       "fichaTokens": 218,
+      "tagWeights": {
+        "aprendizaje": 0.0295,
+        "autoridad": 0.0417,
+        "capacidad-humana": 0.0128,
+        "casos": 0.0555,
+        "decision": 0.0795,
+        "economia": 0.1389,
+        "empresa": 0.1285,
+        "evidencia": 0.1389,
+        "experimentacion": 0.0534,
+        "geopolitica": 0.0555,
+        "integridad-ia": 0.0278,
+        "memoria-territorio": 0.0401,
+        "movilidad": 0.1146,
+        "transformacion": 0.0833
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-production.json"
     },
     {
@@ -101,6 +161,18 @@
       "reading": "Un plazo no mide necesariamente aprendizaje.",
       "relationTokens": 31,
       "fichaTokens": 133,
+      "tagWeights": {
+        "aprendizaje": 0.0625,
+        "autoridad": 0.6004,
+        "decision": 0.0938,
+        "empresa": 0.0625,
+        "estandares": 0.1496,
+        "evidencia": 0.0312
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-legitimacy_gap.json"
     },
     {
@@ -112,6 +184,26 @@
       "reading": "Proyectos y transferencias complementan títulos.",
       "relationTokens": 31,
       "fichaTokens": 200,
+      "tagWeights": {
+        "aprendizaje": 0.4664,
+        "autoridad": 0.0587,
+        "capacidad-humana": 0.0372,
+        "decision": 0.0863,
+        "economia": 0.04,
+        "empresa": 0.0356,
+        "espiritualidad": 0.0291,
+        "evidencia": 0.0053,
+        "experimentacion": 0.0267,
+        "matematicas": 0.04,
+        "memoria-territorio": 0.0849,
+        "movilidad": 0.03,
+        "perspectiva": 0.0289,
+        "transformacion": 0.0309
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-learning.json"
     },
     {
@@ -123,6 +215,31 @@
       "reading": "La obra también puede fallar pruebas.",
       "relationTokens": 30,
       "fichaTokens": 258,
+      "tagWeights": {
+        "aprendizaje": 0.2354,
+        "autoridad": 0.0588,
+        "casos": 0.0162,
+        "control-minimo": 0.0103,
+        "decision": 0.157,
+        "documentacion": 0.0114,
+        "economia": 0.0507,
+        "empresa": 0.0151,
+        "espiritualidad": 0.025,
+        "estandares": 0.0142,
+        "evidencia": 0.0076,
+        "experimentacion": 0.0418,
+        "geopolitica": 0.0057,
+        "integridad-ia": 0.0284,
+        "matematicas": 0.169,
+        "memoria-territorio": 0.0227,
+        "mundo-abierto": 0.0057,
+        "perspectiva": 0.1023,
+        "transformacion": 0.0227
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-doubt.json"
     },
     {
@@ -134,6 +251,16 @@
       "reading": "Una excepción necesita evidencia causal, no solo anomalía.",
       "relationTokens": 36,
       "fichaTokens": 106,
+      "tagWeights": {
+        "autoridad": 0.1945,
+        "decision": 0.1111,
+        "empresa": 0.1667,
+        "evidencia": 0.5277
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-cross_frame_coherence.json"
     },
     {
@@ -145,6 +272,23 @@
       "reading": "Sin fuentes el grafo es un catálogo de lemas.",
       "relationTokens": 35,
       "fichaTokens": 181,
+      "tagWeights": {
+        "aprendizaje": 0.0229,
+        "decision": 0.0625,
+        "economia": 0.0417,
+        "empresa": 0.1063,
+        "evidencia": 0.2673,
+        "experimentacion": 0.0625,
+        "matematicas": 0.0125,
+        "memoria-territorio": 0.2472,
+        "perspectiva": 0.0625,
+        "representacion": 0.025,
+        "transformacion": 0.0896
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-semantic_graph.json"
     },
     {
@@ -156,6 +300,16 @@
       "reading": "La excelencia requiere pruebas del trabajo hecho.",
       "relationTokens": 34,
       "fichaTokens": 105,
+      "tagWeights": {
+        "capacidad-humana": 0.0769,
+        "empresa": 0.6539,
+        "experimentacion": 0.1538,
+        "memoria-territorio": 0.1154
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-craft_excellence.json"
     },
     {
@@ -167,6 +321,15 @@
       "reading": "Testimonio y evidencia independiente se registran por separado.",
       "relationTokens": 38,
       "fichaTokens": 93,
+      "tagWeights": {
+        "geopolitica": 0.0834,
+        "memoria-territorio": 0.8333,
+        "transformacion": 0.0833
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-field_revisit.json"
     },
     {
@@ -178,6 +341,13 @@
       "reading": "Contrastar antes de elevar la propuesta.",
       "relationTokens": 35,
       "fichaTokens": 71,
+      "tagWeights": {
+        "decision": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-unheard_evidence.json"
     },
     {
@@ -189,6 +359,14 @@
       "reading": "La fluidez no prueba autoría.",
       "relationTokens": 34,
       "fichaTokens": 88,
+      "tagWeights": {
+        "decision": 0.5,
+        "evidencia": 0.5
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-ai_writing_boundary.json"
     }
   ]

@@ -17,6 +17,7 @@
     "dialogos"
   ],
   "context": "## Costes culturales de entrada y salida\nLa facilidad de consumir otro mundo puede borrar diferencias y hacer costosa la salida hacia lo propio.\nEtiquetas: Autoridad, permisos y delegación 16.67%; Economía, costes y liquidez 83.33%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-cultural_friction\n\n",
+  "readingSource": null,
   "tokens": 79,
   "encoding": "o200k_base",
   "relations": [
@@ -29,6 +30,13 @@
       "reading": "",
       "relationTokens": 29,
       "fichaTokens": 393,
+      "tagWeights": {
+        "economia": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-199.json"
     },
     {
@@ -40,6 +48,13 @@
       "reading": "",
       "relationTokens": 27,
       "fichaTokens": 380,
+      "tagWeights": {
+        "economia": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-200.json"
     },
     {
@@ -51,6 +66,14 @@
       "reading": "",
       "relationTokens": 30,
       "fichaTokens": 395,
+      "tagWeights": {
+        "autoridad": 0.5,
+        "economia": 0.5
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-262.json"
     },
     {
@@ -62,6 +85,25 @@
       "reading": "Bajar toda incomodidad de entrada puede vaciar diferencias culturales.",
       "relationTokens": 38,
       "fichaTokens": 204,
+      "tagWeights": {
+        "aprendizaje": 0.0299,
+        "capacidad-humana": 0.0091,
+        "decision": 0.1539,
+        "documentacion": 0.0181,
+        "economia": 0.2051,
+        "empresa": 0.1068,
+        "evidencia": 0.0192,
+        "experimentacion": 0.1154,
+        "geopolitica": 0.0897,
+        "integridad-ia": 0.0385,
+        "memoria-territorio": 0.1395,
+        "perspectiva": 0.0449,
+        "transformacion": 0.0299
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-culture.json"
     },
     {
@@ -73,6 +115,17 @@
       "reading": "Mercados intensivos en restricciones absorben bienes de mundos anteriores.",
       "relationTokens": 34,
       "fichaTokens": 117,
+      "tagWeights": {
+        "aprendizaje": 0.0476,
+        "autoridad": 0.0833,
+        "economia": 0.658,
+        "memoria-territorio": 0.1,
+        "representacion": 0.1111
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-scarcity_design.json"
     },
     {
@@ -84,6 +137,23 @@
       "reading": "Las opciones nuevas pueden volver costoso conservar la autonomía anterior.",
       "relationTokens": 36,
       "fichaTokens": 180,
+      "tagWeights": {
+        "aprendizaje": 0.0303,
+        "autoridad": 0.0485,
+        "casos": 0.026,
+        "decision": 0.15,
+        "economia": 0.4569,
+        "empresa": 0.0364,
+        "estandares": 0.0606,
+        "experimentacion": 0.0303,
+        "memoria-territorio": 0.0195,
+        "movilidad": 0.0809,
+        "transformacion": 0.0606
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-capture.json"
     }
   ]

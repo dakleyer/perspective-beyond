@@ -1,0 +1,239 @@
+{
+  "evaluation": "blind_comparison",
+  "language": "es",
+  "date": "2026-11-04",
+  "scope": {
+    "substantive_inputs": [
+      "comparison_reader_1.json",
+      "comparison_reader_2.json",
+      "comparison_answers_1.json",
+      "comparison_answers_2.json"
+    ],
+    "governance_input": "readme_bots.md, por la instrucción de inicio de la carpeta; no usado como evidencia para puntuar",
+    "answer_fields_evaluated": ["answer", "missing"],
+    "author_preference_and_reason_excluded_from_judgment": true,
+    "comparison_key_read": false,
+    "atlas_code_read": false,
+    "history_consulted": false,
+    "web_browsing_used": false,
+    "package_selection_method_known": false,
+    "source_links_opened": false,
+    "evidence_rule": "Cada respuesta se contrasta con su propio paquete A o B. Los títulos, etiquetas y enlaces sin cuerpo no se tratan como contenido operativo recuperado. Se admiten inferencias explicativas plausibles si se distinguen de una atribución documental o de un resultado observado."
+  },
+  "rubric": {
+    "score_range": [0, 4],
+    "dimensions": [
+      "mecanismo_explicado",
+      "cobertura_de_pregunta",
+      "apoyo_en_paquete",
+      "fluidez_y_utilidad",
+      "precision_temporal_y_atribucion"
+    ],
+    "anchors": {
+      "0": "Ausente o incompatible con el material.",
+      "1": "Muy insuficiente: apenas identifica el tema o falla una parte central.",
+      "2": "Parcial: permite avanzar, pero deja sin explicar una parte importante.",
+      "3": "Sólido, con una carencia concreta o una ambigüedad menor.",
+      "4": "Claro y suficiente para la dimensión, dentro de los límites de evidencia declarados."
+    },
+    "weighting": "Cinco dimensiones independientes, con el mismo peso; total máximo 20. Un límite documental bien declarado puede conservar la puntuación de atribución sin cubrir la pregunta.",
+    "preference_rule": "Se prefiere la respuesta con mayor calidad global según las cinco dimensiones; un equilibrio equivalente se registra como empate. La falta de una prueba formal o un caso ejecutado no es por sí sola un error si la pregunta admite explicación conceptual y la respuesta la identifica como tal."
+  },
+  "cases": [
+    {
+      "case": "C1",
+      "question": "¿Qué conocimiento propio aporta un arquitecto cuando no domina la jerga de todos los oficios? Explica dos mecanismos concretos y su relación con la forma de plantear un problema matemático.",
+      "A": {
+        "scores": {
+          "mecanismo_explicado": 3,
+          "cobertura_de_pregunta": 3,
+          "apoyo_en_paquete": 4,
+          "fluidez_y_utilidad": 3,
+          "precision_temporal_y_atribucion": 4
+        },
+        "total": 17,
+        "evidence_check": "La búsqueda de correspondencias procede de d-285 y la cadena del reporte de d-029. La elección de elementos, relaciones y restricciones es una inferencia razonable del autor, expresamente presentada como analogía. No la atribuye a una demostración ni afirma un isomorfismo formal establecido."
+      },
+      "B": {
+        "scores": {
+          "mecanismo_explicado": 4,
+          "cobertura_de_pregunta": 4,
+          "apoyo_en_paquete": 4,
+          "fluidez_y_utilidad": 4,
+          "precision_temporal_y_atribucion": 4
+        },
+        "total": 20,
+        "evidence_check": "d-285 y d-029 sostienen la lectura entre dominios; d-216 sostiene la selección de distinciones antes del registro; d-054 sostiene la cuestión del observador y las reglas de construcción. No convierte la pregunta sobre platonismo y constructivismo en una equivalencia probada."
+      },
+      "preference": "B",
+      "reasons": [
+        "B distingue dos operaciones con más claridad: relacionar estructuras entre equipos y examinar qué se pierde al formalizar una situación. En A, correspondencias y seguimiento de dependencias se solapan parcialmente y la segunda operación queda menos diferenciada.",
+        "B conecta esas operaciones con observador y reglas de construcción mediante d-216 y d-054, ambos presentes en B. A ofrece una conexión matemática plausible y honesta, pero más genérica y sin una pieza matemática que la desarrolle en su paquete."
+      ]
+    },
+    {
+      "case": "C2",
+      "question": "¿Cómo distinguir una contribución humana que crea información del trabajo que compensa una arquitectura fragmentada? Explica cómo usar esa distinción para decidir una mejora y relaciónala con otra pieza del corpus.",
+      "A": {
+        "scores": {
+          "mecanismo_explicado": 3,
+          "cobertura_de_pregunta": 4,
+          "apoyo_en_paquete": 4,
+          "fluidez_y_utilidad": 4,
+          "precision_temporal_y_atribucion": 4
+        },
+        "total": 19,
+        "evidence_check": "La definición breve de HID sostiene la recurrencia y la carencia remediable; d-059 permite los ejemplos de juicio situado; Annex 01K sostiene separar ahorro de tiempo y capacidad de intervención. La prueba contrafáctica de qué esfuerzo desaparecería está identificada como propuesta, no como protocolo documentado. La cautela sobre una suite modular está expresamente en la relación del paquete."
+      },
+      "B": {
+        "scores": {
+          "mecanismo_explicado": 4,
+          "cobertura_de_pregunta": 4,
+          "apoyo_en_paquete": 4,
+          "fluidez_y_utilidad": 4,
+          "precision_temporal_y_atribucion": 4
+        },
+        "total": 20,
+        "evidence_check": "d-286 explica cómo decisiones localmente útiles dejan coordinación y soporte sin contabilizar. La relación con Measuring Human Intelligence Debt aporta el nivel de tarea y la incompatibilidad directa de denominadores, pero no su protocolo completo; B conserva ese límite. Annex 01K respalda la distinción entre reducción de compensación e intervención competente y oportuna."
+      },
+      "preference": "B",
+      "reasons": [
+        "B explica de dónde surge el trabajo compensatorio: cada aplicación resuelve su parte y desplaza al conjunto excepciones, mediación y soporte. A distingue correctamente los tipos de trabajo y propone una buena comprobación, pero desarrolla menos la cadena causal de la fragmentación.",
+        "B convierte la distinción en una revisión por tareas, comprueba que el esfuerzo no cambie de equipo y advierte la diferencia entre ratios temporales y por operador. Son apoyos concretos de su paquete; no inventa valores ni reproduce un protocolo ausente. A también preserva la capacidad humana y evita equiparar cantidad de aplicaciones con fragmentación, por lo que la ventaja de B es pequeña."
+      ]
+    },
+    {
+      "case": "C3",
+      "question": "¿Por qué una señal local no basta para comprometer liquidez compartida en Phylons? Reconstruye la secuencia de coordinación y explica una relación útil con otro dominio.",
+      "A": {
+        "scores": {
+          "mecanismo_explicado": 3,
+          "cobertura_de_pregunta": 4,
+          "apoyo_en_paquete": 4,
+          "fluidez_y_utilidad": 4,
+          "precision_temporal_y_atribucion": 4
+        },
+        "total": 19,
+        "evidence_check": "Las definiciones de suficiencia, arbitraje, autoridad, versión del contexto y revisión del marco permiten la secuencia conceptual propuesta. La relación con Annex 4 es una transferencia candidata. A declara que reconstruye a partir de conceptos y relaciones y no acredita el procedimiento real de Phylons; no inventa actores, umbrales ni resultados."
+      },
+      "B": {
+        "scores": {
+          "mecanismo_explicado": 3,
+          "cobertura_de_pregunta": 2,
+          "apoyo_en_paquete": 3,
+          "fluidez_y_utilidad": 3,
+          "precision_temporal_y_atribucion": 3
+        },
+        "total": 14,
+        "evidence_check": "RA y EWS sí están definidos y sostienen la pérdida de validez contextual y la relación con alerta temprana. Las referencias a predictive factors cascade y context-construction no aportan una secuencia operativa. Llamar 'secuencia recuperable' al encadenamiento señal-factores-contexto-interpretación-vigilancia da a una síntesis plausible algo más de estatus documental del que ofrecen esas referencias. Es una ambigüedad de atribución; no se identifica un procedimiento financiero inventado."
+      },
+      "preference": "A",
+      "reasons": [
+        "A explica por qué una señal favorable no decide el uso de liquidez común: suficiencia de evidencia, propuestas competidoras y derecho a comprometer recursos son pasos distintos. B explica por qué puede caducar una señal, pero deja sin reconstruir la coordinación y el compromiso colectivo que pide la pregunta.",
+        "A etiqueta su secuencia como reconstrucción y la conexión con integridad de IA como transferencia candidata. B es prudente sobre los fondos y la autoridad, pero su 'secuencia recuperable' se apoya en referencias sin desarrollo; sería más preciso llamarla esquema explicativo posible. En A también faltan detalles operativos, por eso el mecanismo no recibe el máximo."
+      ]
+    },
+    {
+      "case": "C4",
+      "question": "Desde la landing de JubAp.eu, explica cómo pasaría un equipo de una demanda de transformación a una intervención concreta. Identifica las lecturas que permiten profundizar y qué aporta cada una.",
+      "A": {
+        "scores": {
+          "mecanismo_explicado": 3,
+          "cobertura_de_pregunta": 4,
+          "apoyo_en_paquete": 4,
+          "fluidez_y_utilidad": 4,
+          "precision_temporal_y_atribucion": 4
+        },
+        "total": 19,
+        "evidence_check": "Reframing Value Creation sostiene revisar y reorganizar capacidades existentes; The JUBAP Framework aporta preguntas para escoger una acción; Mobility aporta la coordinación de recursos existentes; las presentaciones de Net y US sostienen los destinos indicados. Diamond Inside se presenta como lectura complementaria de desarrollo ausente. El itinerario se declara reconstruido, no se atribuye a un procedimiento de servicio documentado."
+      },
+      "B": {
+        "scores": {
+          "mecanismo_explicado": 1,
+          "cobertura_de_pregunta": 1,
+          "apoyo_en_paquete": 4,
+          "fluidez_y_utilidad": 2,
+          "precision_temporal_y_atribucion": 4
+        },
+        "total": 12,
+        "evidence_check": "B solo contiene la presentación breve de JubAp.EU y sus dos referencias a la misma pieza. La respuesta no inventa enlaces, casos ni método; señala correctamente que no puede reconstruirlos. Su pregunta inicial al equipo está identificada como propuesta del autor."
+      },
+      "preference": "A",
+      "reasons": [
+        "A aporta un recorrido inteligible entre revisar la demanda, reconocer capacidad disponible y filtrar una intervención, e indica qué ofrece cada lectura. Le falta una intervención trabajada con decisión, ejecución y criterio de comprobación; por eso el mecanismo queda en 3.",
+        "B delimita con precisión el material, pero termina tras formular la demanda: no explica el paso a una intervención ni identifica lecturas complementarias. Esa insuficiencia reduce cobertura y utilidad, sin reducir el apoyo ni la atribución porque la respuesta reconoce expresamente la limitación del paquete."
+      ]
+    },
+    {
+      "case": "C5",
+      "question": "¿Cómo puede distribuirse una capacidad operativa entre actores y territorios sin reducir la integración a transporte y logística? Explica el mecanismo empresarial y una relación de aprendizaje entre piezas.",
+      "A": {
+        "scores": {
+          "mecanismo_explicado": 4,
+          "cobertura_de_pregunta": 3,
+          "apoyo_en_paquete": 4,
+          "fluidez_y_utilidad": 4,
+          "precision_temporal_y_atribucion": 4
+        },
+        "total": 19,
+        "evidence_check": "Transferencia de contexto, continuidad distribuida y función federada respaldan el relevo de evidencia con condiciones y responsabilidades. La comparación con Tiger Teams y la transferencia candidata a Annex 7 aportan interpretación del terreno y límites de autoridad. La relación hacia Mobility Product Annex es candidata y se conserva como tal; no se afirma aprendizaje implantado o medido."
+      },
+      "B": {
+        "scores": {
+          "mecanismo_explicado": 3,
+          "cobertura_de_pregunta": 4,
+          "apoyo_en_paquete": 4,
+          "fluidez_y_utilidad": 4,
+          "precision_temporal_y_atribucion": 4
+        },
+        "total": 19,
+        "evidence_check": "JubAp.US aporta los contextos empresariales enumerados. La relación analógica con JUBAP aporta las capas ligeras, el punto de palanca y conservar capacidad útil; Tiger Team y Annex 7 respaldan la composición y los límites de los relevos como comparación o diseño candidato. B llama propuesto al mecanismo y analogía al vínculo de aprendizaje; no acredita resultados."
+      },
+      "preference": "empate",
+      "reasons": [
+        "A explica mejor la operación que debe cruzar fronteras: entregar evidencia con significado, límites y condiciones para la decisión receptora, manteniendo responsabilidades. Su relación de aprendizaje hacia Mobility identifica además qué condiciones de campo se transferirían. Deja menos explícitos los contextos de integración empresarial.",
+        "B concreta esos contextos mediante separaciones, integraciones y sociedades conjuntas, y vincula la intervención con las preguntas de JUBAP. Sin embargo, las capas ligeras y el punto de palanca describen una dirección de diseño sin detallar tanto cómo un actor continúa el trabajo de otro. Las ventajas se compensan; ambas respetan el carácter candidato o analógico y ninguna aporta un caso ejecutado."
+      ]
+    },
+    {
+      "case": "C6",
+      "question": "¿Cómo puede una solución haber sido expresada varias veces y seguir sin ser escuchada? Explica qué intervención cambia esa situación y conecta la reflexión con otro caso o mecanismo del corpus.",
+      "A": {
+        "scores": {
+          "mecanismo_explicado": 4,
+          "cobertura_de_pregunta": 4,
+          "apoyo_en_paquete": 4,
+          "fluidez_y_utilidad": 4,
+          "precision_temporal_y_atribucion": 4
+        },
+        "total": 20,
+        "evidence_check": "d-271 sostiene el bloqueo por marco social y el retorno a hipótesis; d-258 sostiene distinguir silencio institucional y refutación, junto a interlocución crítica. A marca como propuesta propia el acuerdo sobre observaciones de apoyo, refutación y discusión. No da una solución ignorada por verdadera ni afirma resultados de facilitación."
+      },
+      "B": {
+        "scores": {
+          "mecanismo_explicado": 3,
+          "cobertura_de_pregunta": 4,
+          "apoyo_en_paquete": 4,
+          "fluidez_y_utilidad": 4,
+          "precision_temporal_y_atribucion": 4
+        },
+        "total": 19,
+        "evidence_check": "d-271 sostiene el mecanismo inicial y d-029 la transcripción sin visibilidad del conjunto. B dice expresamente que d-029 no demuestra una solución rechazada y propone, en condicional, reunir perspectivas y probar una alternativa. El contraste es una inferencia explicativa legítima, no una atribución falsa de un rechazo ni de una intervención realizada."
+      },
+      "preference": "A",
+      "reasons": [
+        "A explica el cambio de estatus con mayor precisión: pasar de ignorar una proposición a acordar cómo puede apoyarse o refutarse y quién discutirá el resultado. B también recupera contexto y propone prueba, pero no desarrolla tanto las condiciones de contrastación.",
+        "El mecanismo paralelo de d-258 conserva exactamente la distinción entre exclusión y refutación. El reporte de d-029 usado por B ilumina una rutina invisible, pero requiere un puente adicional para explicar una propuesta desoída. B reconoce ese límite y evita correctamente convertir el ejemplo en una prueba de rechazo, por lo que la ventaja de A es pequeña."
+      ]
+    }
+  ],
+  "summary": {
+    "preferences": {"A": 3, "B": 2, "empate": 1},
+    "cases_by_preference": {"A": ["C3", "C4", "C6"], "B": ["C1", "C2"], "empate": ["C5"]},
+    "total_scores_by_display_label": {"A": 113, "B": 104},
+    "score_totals_do_not_identify_a_package_selection_method": true,
+    "false_operational_or_empirical_attributions_confirmed": [],
+    "minor_attribution_ambiguities": ["C3 B: 'secuencia recuperable' da excesivo estatus documental a una síntesis posible de referencias sin desarrollo."],
+    "main_finding": "La capacidad de reconstruir un mecanismo y cubrir la pregunta varía más que la honestidad básica sobre límites. Las relaciones editoriales y las definiciones breves pueden sostener una explicación conceptual cuando se identifica como reconstrucción; no permiten acreditar procedimientos reales, implantaciones ni resultados."
+  }
+}

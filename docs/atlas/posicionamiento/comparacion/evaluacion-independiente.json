@@ -1,0 +1,248 @@
+{
+  "evaluation": "comparison_core_blind_judgment",
+  "date": "2026-11-04",
+  "evidence_files": [
+    "comparison_core_reader_1.json",
+    "comparison_core_reader_2.json",
+    "comparison_core_answers_1.json",
+    "comparison_core_answers_2.json"
+  ],
+  "method": {
+    "evidence_boundary": "Cada respuesta se contrasta con su propio paquete A o B del mismo caso. No se consultaron claves, código, pruebas anteriores, memoria ni páginas externas. El README de proyecto se leyó como instrucción administrativa, no como evidencia temática.",
+    "author_scores_and_preferences": "Ignorados: las puntuaciones y preferencias de los autores no se usan para decidir el juicio.",
+    "scored_content": "Texto del campo answer. Los campos de autoevaluación y missing no aportan crédito a afirmaciones ausentes de la respuesta.",
+    "scale": {
+      "0": "Ausente o incompatible con el paquete.",
+      "1": "Débil, con carencias centrales.",
+      "2": "Parcial: resuelve solo una parte sustantiva.",
+      "3": "Sólido, con una limitación concreta.",
+      "4": "Cumple plenamente lo pedido dentro del alcance del paquete."
+    },
+    "criteria": ["mecanismo", "cobertura", "apoyo", "fluidez_utilidad", "precision_temporal_atribucion"],
+    "maximum_per_response": 20,
+    "calibration": "No se exige repetir reservas cuando una afirmación es precisa. Una analogía declarada no se trata como causalidad histórica; una propuesta explícita no se trata como procedimiento ya documentado. Más enlaces no dan por sí solos mayor cobertura."
+  },
+  "cases": [
+    {
+      "case": "C1",
+      "question": "Conocimiento propio del arquitecto, dos mecanismos y relación con plantear un problema matemático.",
+      "A": {
+        "scores": {"mecanismo": 4, "cobertura": 3, "apoyo": 3, "fluidez_utilidad": 4, "precision_temporal_atribucion": 4},
+        "total": 18,
+        "reasons": [
+          "Explica dos operaciones distintas: reconocer estructuras entre oficios y reconstruir dependencias que quedan fuera de la visión de cada departamento.",
+          "d-285 apoya los isomorfismos y el trabajo con especialistas; d-029 apoya la pérdida de visibilidad en el recorrido del informe por once departamentos; d-286 apoya coordinación, riesgos y soporte del conjunto.",
+          "La relación matemática se formula de manera razonable como elección de elementos, restricciones y supuestos, pero el paquete A no contiene una pieza matemática que la desarrolle. Cubre esa parte de forma general y mediante inferencia, de ahí la reducción en cobertura y apoyo.",
+          "Es clara y útil; no afirma que exista un teorema ni convierte la síntesis editorial en una cita literal."
+        ],
+        "relations_check": [
+          {"relation": "d-285 ↔ d-029", "status": "Presente como lectura por conceptos compartidos; el uso del informe como ilustración respeta ese alcance."},
+          {"relation": "Arquitectura ↔ formulación matemática", "status": "Inferencia explicativa del autor de la respuesta; no hay desarrollo matemático específico en A. No se presenta como demostración ni como causa histórica."}
+        ],
+        "invented_causality_detected": false
+      },
+      "B": {
+        "scores": {"mecanismo": 4, "cobertura": 4, "apoyo": 4, "fluidez_utilidad": 4, "precision_temporal_atribucion": 4},
+        "total": 20,
+        "reasons": [
+          "Distingue la correspondencia entre saberes parciales de la investigación de cómo una situación entra en una representación: dos mecanismos concretos y complementarios.",
+          "d-216 sostiene las distinciones preservadas o descartadas al formalizar; d-054 sostiene el punto de vista del observador, los pasos finitos y las reglas de construcción. La relación matemática está anclada en contenido realmente recibido.",
+          "Usa d-029 como ilustración organizativa y articula una conclusión práctica sobre formular el problema, sin afirmar equivalencia demostrada entre escuelas matemáticas ni una causalidad biográfica."
+        ],
+        "relations_check": [
+          {"relation": "d-285 → d-029 → d-054", "status": "El itinerario está presente; el segundo enlace es una lectura por concepto, no una prueba de identidad disciplinar."},
+          {"relation": "d-285 → Conciencia estructural ← d-216", "status": "Presente a través del concepto; la síntesis conecta la frontera de representación con la formulación del problema sin inventar resultados formales."}
+        ],
+        "invented_causality_detected": false
+      },
+      "preference": "B",
+      "reason": "Ambas explican conocimiento arquitectónico. B cumple mejor la parte matemática porque conserva en el propio paquete el observador, los pasos de construcción y la selección de distinciones; A solo puede formular una analogía general."
+    },
+    {
+      "case": "C2",
+      "question": "Distinguir creación de información de trabajo compensatorio, decidir una mejora y relacionarla con otra pieza.",
+      "A": {
+        "scores": {"mecanismo": 4, "cobertura": 4, "apoyo": 4, "fluidez_utilidad": 4, "precision_temporal_atribucion": 4},
+        "total": 20,
+        "reasons": [
+          "La distinción se refiere correctamente a las capacidades tecnológicas disponibles en el período, no a una división fija entre tareas humanas y tareas de máquina.",
+          "Propone una secuencia operativa suficiente para lo pedido: delimitar operación y población, identificar roles compensatorios, comparar con una alternativa admisible y priorizar reconciliaciones evitables.",
+          "La unidad de medida aporta población y denominador; el contrafactual de carga humana apoya la comparación; Annex 01K aporta la relación con capacidad de intervención autorizada, informada y oportuna.",
+          "Separa explícitamente deuda y capacidad de decisión. La pregunta no exige disponer de un protocolo validado ni de resultados empíricos para que esta explicación sea completa."
+        ],
+        "relations_check": [
+          {"relation": "Human Intelligence Debt → unidad de medida / contrafactual / trabajo compensatorio", "status": "Las tres relaciones y sus definiciones están presentes; sustentan la mejora propuesta."},
+          {"relation": "Annex 01K → Human Intelligence Debt", "status": "Presente como aplicación arquitectónica. La respuesta mantiene distintas las preguntas y observaciones, sin equiparar sus unidades."}
+        ],
+        "invented_causality_detected": false
+      },
+      "B": {
+        "scores": {"mecanismo": 4, "cobertura": 4, "apoyo": 4, "fluidez_utilidad": 4, "precision_temporal_atribucion": 4},
+        "total": 20,
+        "reasons": [
+          "Explica la creación de información y las duplicaciones o conciliaciones compensatorias, y las usa para escoger una alternativa que retire esfuerzo recurrente.",
+          "El paquete contiene la relación explícita entre el marco inicial por operadores y el protocolo posterior por tareas y tiempos. La respuesta conserva esa diferencia y no publica una cifra empírica ni afirma validación ya conseguida.",
+          "What Goes Unpriced aporta el coste de producir claridad; presupuestar esa claridad se presenta como criterio de intervención, sin prometer un efecto causal ya medido."
+        ],
+        "relations_check": [
+          {"relation": "Human Intelligence Debt → Measuring Human Intelligence Debt", "status": "Presente como uso documentado y posterior operacionalización; se respetan las unidades diferentes."},
+          {"relation": "What Goes Unpriced Is Paid in Human Intelligence → Human Intelligence Debt", "status": "Presente como comparación editorial; la respuesta aprovecha su argumento económico sin convertirlo en resultado experimental."}
+        ],
+        "invented_causality_detected": false
+      },
+      "preference": "tie",
+      "reason": "Las dos cumplen todas las partes de la pregunta. A es más explícita al delimitar población, denominador y contrafactual; B añade una vía de observación por tareas y tiempos y la decisión de financiar claridad. La mayor amplitud de lecturas de B no convierte en incompleta la respuesta A."
+    },
+    {
+      "case": "C3",
+      "question": "Por qué la señal local no autoriza liquidez compartida, secuencia de coordinación y relación con otro dominio.",
+      "A": {
+        "scores": {"mecanismo": 4, "cobertura": 4, "apoyo": 4, "fluidez_utilidad": 4, "precision_temporal_atribucion": 4},
+        "total": 20,
+        "reasons": [
+          "Reconstruye detección, intención dimensionada, autorización común, compromiso en mercado, reconciliación y realimentación. Explica por qué la oportunidad local y el uso de capital compartido son decisiones distintas.",
+          "La cascada de factores sostiene la construcción del contexto; el concepto de arbitraje sostiene resolver competencia antes del compromiso.",
+          "El vehículo solicitado por varias rutas es una analogía operativa clara y correctamente marcada como tal. No se afirma que sea un despliegue histórico ni que el diseño completo esté probado por código."
+        ],
+        "relations_check": [
+          {"relation": "Phylons Liquidity Orquestration → predictive factors cascade", "status": "Presente como comparación editorial; contexto y autorización quedan separados."},
+          {"relation": "Phylons → arbitraje de recursos → reserva de vehículo", "status": "El concepto está en el paquete. La reserva de vehículo es una analogía construida por la respuesta, compatible con el contrato portable a otros recursos escasos, no un caso documentado añadido."}
+        ],
+        "invented_causality_detected": false
+      },
+      "B": {
+        "scores": {"mecanismo": 4, "cobertura": 4, "apoyo": 4, "fluidez_utilidad": 4, "precision_temporal_atribucion": 4},
+        "total": 20,
+        "reasons": [
+          "Distingue confianza epistémica de autoridad económica y reconstruye correctamente toda la cadena hasta reconciliación y realimentación.",
+          "Identidad estable y vigencia están presentes en el paquete y se usan para enlazar registros y situar evidencia y permiso en el tiempo.",
+          "La competencia entre equipos por un especialista reproduce con claridad propuesta, prioridad, disponibilidad y autorización. Se identifica como analogía empresarial y no como prueba causal ni despliegue realizado."
+        ],
+        "relations_check": [
+          {"relation": "Phylons → identidad estable / vigencia y caducidad / arbitraje", "status": "Las tres relaciones están presentes como conceptos documentados; los usos corresponden a sus definiciones."},
+          {"relation": "Liquidez compartida ↔ capacidad de un especialista", "status": "Analogía explícita de la respuesta, sustentada en el contrato de coordinación portable; no se atribuye como caso histórico del corpus."}
+        ],
+        "invented_causality_detected": false
+      },
+      "preference": "tie",
+      "reason": "Ambas reconstruyen el mecanismo central completo y proporcionan una transferencia de dominio comprensible. A explica mejor la entrada contextual; B hace más visible la continuidad de identidad y vigencia. Ninguna necesita repetir las reservas sobre implementación para que esta descripción del contrato sea precisa."
+    },
+    {
+      "case": "C4",
+      "question": "Pasar desde la landing a una intervención concreta e identificar lecturas de profundización y sus aportes.",
+      "A": {
+        "scores": {"mecanismo": 4, "cobertura": 4, "apoyo": 4, "fluidez_utilidad": 4, "precision_temporal_atribucion": 4},
+        "total": 20,
+        "reasons": [
+          "Convierte una demanda general en un recorrido reconocible: identificar valor existente, estudiar capacidades y dependencias, y delimitar una decisión de reorganización o ampliación.",
+          "Identifica lecturas con aportes distintos y presentes: Reframing cambia el encuadre del valor; Diamond Inside exige comprender dependencias y apoyos tácitos; Montblanc concreta la pregunta de conversión comercial; Car Evolution ilustra coordinación de recursos existentes.",
+          "No confunde el problema de conversión con un resultado probado ni presenta el caso de movilidad como una implantación del equipo lector."
+        ],
+        "relations_check": [
+          {"relation": "JubAp.eu → Reframing → Diamond Inside", "status": "El primer paso es enlace de la fuente y el segundo comparación editorial; ambos están presentes."},
+          {"relation": "Montblanc → Diamond Inside; Car Evolution → JubAp.eu", "status": "Ambas relaciones constan en A. La respuesta las emplea como profundización y aplicación, sin inventar que todos los enlaces salgan directamente de la landing."}
+        ],
+        "invented_causality_detected": false
+      },
+      "B": {
+        "scores": {"mecanismo": 3, "cobertura": 1, "apoyo": 3, "fluidez_utilidad": 3, "precision_temporal_atribucion": 4},
+        "total": 14,
+        "reasons": [
+          "La secuencia de formular una decisión, ordenar tres ámbitos y escoger un cambio delimitado es coherente, pero genérica: no determina qué capacidad o dependencia examinar ni con qué lectura profundizar.",
+          "No cumple la parte central de identificar lecturas de profundización con aportes distintos. La ficha citada reproduce el mismo encuadre y no constituye un segundo desarrollo.",
+          "El paquete B contiene únicamente la línea de posicionamiento de la landing. Esa línea sostiene los tres ámbitos y la viabilidad futura, pero no un método de intervención desarrollado: la propia respuesta lo ofrece acertadamente como propuesta del equipo.",
+          "La atribución es precisa y no inventa fuentes, enlaces o resultados. La limitación de utilidad y apoyo se debe al recorrido recibido y a la generalidad de la respuesta, no a una afirmación engañosa."
+        ],
+        "relations_check": [
+          {"relation": "Landing JubAp.eu ↔ ficha de JubAp.eu", "status": "Ambas referencias están en B, pero apuntan al mismo encuadre y no aportan una ruta sustantiva de profundización."},
+          {"relation": "Posicionamiento → secuencia de trabajo propuesta", "status": "Derivación propia expresamente señalada con propongo; no se presenta como método documentado del paquete."}
+        ],
+        "invented_causality_detected": false
+      },
+      "preference": "A",
+      "reason": "A proporciona un mecanismo de intervención y varias lecturas con funciones diferenciadas. B conserva correctamente el encuadre de la landing, pero su único paquete y su respuesta no abren la profundización solicitada."
+    },
+    {
+      "case": "C5",
+      "question": "Distribuir capacidad entre actores y territorios, mecanismo empresarial y aprendizaje entre piezas más allá de transporte y logística.",
+      "A": {
+        "scores": {"mecanismo": 3, "cobertura": 4, "apoyo": 4, "fluidez_utilidad": 4, "precision_temporal_atribucion": 4},
+        "total": 19,
+        "reasons": [
+          "Responde más allá de logística: comprende continuidad de comprensión, decisión y ejecución, responsabilidades especializadas y transferencia de información con significado y condiciones.",
+          "El mecanismo empresarial queda menos desarrollado: compartir contexto y mantenerlo utilizable indica la condición necesaria, pero no explica con tanta concreción cómo se organiza la responsabilidad conjunta o se adapta la operación receptora.",
+          "La relación entre equipos distribuidos e información operativa está documentada. La lectura hacia Car Evolution se formula como traslado de criterios y conserva el alcance de candidate transfer del paquete, sin afirmar que esa transferencia ya se realizara."
+        ],
+        "relations_check": [
+          {"relation": "Distributed Operational Intelligence → transferencia de contexto / continuidad distribuida / función federada", "status": "Presentes; apoyan la distribución de conocimiento y responsabilidades sin reducirla a movimiento físico."},
+          {"relation": "Distributed Operational Intelligence → Before Digital Nomads", "status": "Presente como uso documentado sobre disciplina de información y continuidad transfronteriza."},
+          {"relation": "Distributed Operational Intelligence → Car Evolution Product Annex", "status": "Presente como transferencia candidata. La respuesta habla de una lectura posterior que permite trasladar criterios, no de un origen causal demostrado del producto."}
+        ],
+        "invented_causality_detected": false
+      },
+      "B": {
+        "scores": {"mecanismo": 4, "cobertura": 4, "apoyo": 4, "fluidez_utilidad": 4, "precision_temporal_atribucion": 4},
+        "total": 20,
+        "reasons": [
+          "Hace concreto el mecanismo empresarial: una unidad responsable reúne arquitectura, ingeniería, despliegue y estabilización para conservar contexto y evitar traspasos que fragmentan decisiones.",
+          "La adaptación territorial añade una operación específica: transferir la función rediseñando reglas, soporte e incentivos para el receptor. No equipara integración con transporte físico.",
+          "JubAp.org aporta resistencias, puntos de intervención y secuencia de activación. Su derivación de intervenciones de campo está en el extracto; la respuesta no afirma que una analogía del atlas pruebe causalidad entre los casos ni validación general."
+        ],
+        "relations_check": [
+          {"relation": "Distributed Operational Intelligence → adaptación territorial", "status": "Presente; el uso corresponde a la definición del concepto."},
+          {"relation": "Distributed Operational Intelligence → Tiger Team", "status": "Presente como analogy only. La expresión queda más visible en introduce una comparación explicativa, no una identidad histórica o institucional."},
+          {"relation": "Distributed Operational Intelligence → JUBAP Framework ← JubAp.org", "status": "Ruta presente mediante analogía y comparación editorial. El extracto de JubAp.org sostiene por sí mismo el aprendizaje desde intervención de campo."}
+        ],
+        "invented_causality_detected": false
+      },
+      "preference": "B",
+      "reason": "Ambas cubren distribución y aprendizaje sin encerrarse en logística. B precisa mejor el mecanismo empresarial y la recepción territorial; A se apoya sobre todo en condiciones generales de contexto y continuidad."
+    },
+    {
+      "case": "C6",
+      "question": "Por qué una solución repetida puede seguir inaudible, intervención que cambia la situación y conexión con otro caso o mecanismo.",
+      "A": {
+        "scores": {"mecanismo": 4, "cobertura": 4, "apoyo": 4, "fluidez_utilidad": 4, "precision_temporal_atribucion": 4},
+        "total": 20,
+        "reasons": [
+          "Explica la selección social previa al examen mediante roles, rivalidades y rutinas. La intervención recupera proposición, contexto, evidencia y resistencia para darle estatus de hipótesis y una vía de prueba.",
+          "La conexión con d-258 distingue exclusión social de refutación; d-269 aporta medir, atender objeciones y revisar. Las dos piezas están en A y sostienen el mecanismo.",
+          "La respuesta identifica la reflexión como editorial y no transforma una idea desatendida en una verdad ya acreditada. Es precisa sin necesitar advertencias reiteradas."
+        ],
+        "relations_check": [
+          {"relation": "d-271 → d-258", "status": "Conexión editorial explícita y presente; se usa como mecanismo comparable de falta de interlocución."},
+          {"relation": "d-271 → Mirar lo que falta ← d-269", "status": "Ruta conceptual presente. La respuesta usa la contrastación racional para convertir escucha en examen, no en asentimiento automático."}
+        ],
+        "invented_causality_detected": false
+      },
+      "B": {
+        "scores": {"mecanismo": 4, "cobertura": 4, "apoyo": 4, "fluidez_utilidad": 4, "precision_temporal_atribucion": 4},
+        "total": 20,
+        "reasons": [
+          "Explica la inaudibilidad por jerarquías, rivalidades y mapas de contribución; recupera idea y contexto y pide una prueba concreta.",
+          "d-029 sostiene el informe que circula sin visibilidad de origen y dependencia. Attribution Gap sostiene el incentivo a mantener dependencias implícitas y la cuestión de quién asume responsabilidad por la capacidad.",
+          "El mecanismo económico se atribuye expresamente como propuesta complementaria. No se afirma que explique de forma comprobada aquel episodio concreto de GEPLAN ni que las propuestas ignoradas sean verdaderas."
+        ],
+        "relations_check": [
+          {"relation": "d-271 → d-029", "status": "Conexión editorial presente; el caso ilustra circulación sin reconocimiento de dependencia."},
+          {"relation": "d-271 → The Attribution Gap and Capability Loss", "status": "Presente como puente de lectura. La respuesta mantiene su condición de mecanismo propuesto, sin convertir el puente editorial en prueba causal histórica."}
+        ],
+        "invented_causality_detected": false
+      },
+      "preference": "tie",
+      "reason": "A desarrolla la vía de interlocución y contraste; B concreta el flujo de información, los incentivos de atribución y la responsabilidad por sostener la capacidad. Ambas satisfacen la pregunta con relaciones reales y atribución correcta."
+    }
+  ],
+  "summary": {
+    "case_count": 6,
+    "totals": {"A": 117, "B": 114, "maximum_each": 120},
+    "preferences": {"A": 1, "B": 2, "tie": 3},
+    "B_minus_A": -3,
+    "by_total": "A",
+    "interpretation": "B mejora C1 y C5; A obtiene una ventaja mayor en C4. C2, C3 y C6 son empates sustantivos. La suma y el recuento de casos favorecen lados distintos: no deben confundirse ni extrapolarse como evidencia de superioridad general con seis casos.",
+    "invented_causality_detected": false,
+    "main_support_gap": "C1 A reconstruye la conexión matemática sin una pieza matemática directa; C4 B solo recibe el encuadre de la landing y no ofrece las lecturas de profundización pedidas.",
+    "scope": "Juicio de las respuestas y sus paquetes suministrados; no verificación externa de las fuentes enlazadas ni validación de las teorías del corpus.",
+    "output_boundary": "Solo comparison_core_judge.json; sin copias de seguridad ni publicación."
+  }
+}

@@ -11,26 +11,28 @@
     "N1289"
   ],
   "tagWeights": {
-    "aprendizaje": 0.093,
+    "aprendizaje": 0.1002,
     "autoridad": 0.0385,
-    "control-minimo": 0.0885,
-    "decision": 0.0827,
+    "control-minimo": 0.0742,
+    "decision": 0.1242,
     "documentacion": 0.0385,
-    "economia": 0.0839,
-    "empresa": 0.2526,
-    "evidencia": 0.1714,
-    "experimentacion": 0.025,
-    "memoria-territorio": 0.025,
-    "movilidad": 0.0625,
-    "perspectiva": 0.0384
+    "economia": 0.0523,
+    "empresa": 0.2014,
+    "evidencia": 0.129,
+    "experimentacion": 0.0178,
+    "memoria-territorio": 0.0178,
+    "movilidad": 0.133,
+    "perspectiva": 0.0384,
+    "representacion": 0.0347
   },
   "clusters": [
     "eu",
     "net",
     "us"
   ],
-  "context": "## Indicadores de resistencia\nOperational signals help locate obstacles to a transformation.\nEtiquetas: Aprendizaje y transmisión de capacidades 9.30%; Autoridad, permisos y delegación 3.85%; Control mínimo y suficiencia 8.85%; Decisiones y responsabilidad 8.27%; Investigación y documentación técnica 3.85%; Economía, costes y liquidez 8.39%; Empresa y gestión 25.26%; Evidencia, procedencia y atribución 17.14%; Experimentación, falsación y contraejemplos 2.50%; Memoria, comunidad y territorio 2.50%; Movilidad e infraestructura 6.25%; Cambio de perspectiva 3.84%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/resistance-indicators/\n\n",
-  "tokens": 166,
+  "context": "## Indicadores de resistencia\nOperational signals help locate obstacles to a transformation.\nEtiquetas: Aprendizaje y transmisión de capacidades 10.02%; Autoridad, permisos y delegación 3.85%; Control mínimo y suficiencia 7.42%; Decisiones y responsabilidad 12.42%; Investigación y documentación técnica 3.85%; Economía, costes y liquidez 5.23%; Empresa y gestión 20.14%; Evidencia, procedencia y atribución 12.90%; Experimentación, falsación y contraejemplos 1.78%; Memoria, comunidad y territorio 1.78%; Movilidad e infraestructura 13.30%; Cambio de perspectiva 3.84%; Representación y límites formales 3.47%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/resistance-indicators/\n\n",
+  "readingSource": null,
+  "tokens": 177,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -42,6 +44,15 @@
       "reading": "",
       "relationTokens": 23,
       "fichaTokens": 144,
+      "tagWeights": {
+        "aprendizaje": 0.2222,
+        "empresa": 0.5556,
+        "evidencia": 0.2222
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1636.json"
     },
     {
@@ -52,7 +63,20 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 31,
-      "fichaTokens": 176,
+      "fichaTokens": 433,
+      "tagWeights": {
+        "aprendizaje": 0.1786,
+        "control-minimo": 0.1429,
+        "decision": 0.0714,
+        "evidencia": 0.0714,
+        "experimentacion": 0.0714,
+        "memoria-territorio": 0.0714,
+        "movilidad": 0.3929
+      },
+      "clusters": [
+        "us"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1494.json"
     },
     {
@@ -64,6 +88,18 @@
       "reading": "",
       "relationTokens": 17,
       "fichaTokens": 152,
+      "tagWeights": {
+        "autoridad": 0.1539,
+        "control-minimo": 0.1539,
+        "decision": 0.2308,
+        "documentacion": 0.1538,
+        "economia": 0.1538,
+        "perspectiva": 0.1538
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1628.json"
     },
     {
@@ -74,7 +110,19 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 17,
-      "fichaTokens": 88,
+      "fichaTokens": 405,
+      "tagWeights": {
+        "decision": 0.1944,
+        "economia": 0.0556,
+        "empresa": 0.25,
+        "evidencia": 0.2222,
+        "movilidad": 0.1389,
+        "representacion": 0.1389
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1289.json"
     },
     {
@@ -85,7 +133,28 @@
       "kind": "documented use",
       "reading": "The Nestlé account describes how the dashboard, liberation strategy and six-domain root-cause tool were used as a sequence.",
       "relationTokens": 38,
-      "fichaTokens": 162,
+      "fichaTokens": 173,
+      "tagWeights": {
+        "aprendizaje": 0.1554,
+        "autoridad": 0.0408,
+        "casos": 0.0185,
+        "control-minimo": 0.0257,
+        "decision": 0.1184,
+        "documentacion": 0.0256,
+        "economia": 0.1784,
+        "empresa": 0.1481,
+        "estandares": 0.0379,
+        "evidencia": 0.037,
+        "perspectiva": 0.0408,
+        "transformacion": 0.1734
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "net",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C63.json"
     },
     {
@@ -96,7 +165,38 @@
       "kind": "analogy only",
       "reading": "Resistance indicators can focus investigation, while capability and critical-path analysis are needed to distinguish a causal bottleneck from a visible symptom.",
       "relationTokens": 40,
-      "fichaTokens": 245,
+      "fichaTokens": 277,
+      "tagWeights": {
+        "agentes": 0.0327,
+        "aprendizaje": 0.0247,
+        "autoridad": 0.0222,
+        "capacidad-humana": 0.0325,
+        "cartografia": 0.0327,
+        "casos": 0.0054,
+        "control-minimo": 0.0093,
+        "decision": 0.0417,
+        "documentacion": 0.0308,
+        "economia": 0.0452,
+        "empresa": 0.1219,
+        "estandares": 0.0356,
+        "evidencia": 0.2655,
+        "experimentacion": 0.0089,
+        "integridad-ia": 0.0327,
+        "matematicas": 0.0085,
+        "memoria-territorio": 0.0116,
+        "movilidad": 0.0154,
+        "mundo-abierto": 0.094,
+        "representacion": 0.0154,
+        "transformacion": 0.1133
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "net",
+        "research",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C82.json"
     },
     {
@@ -107,7 +207,31 @@
       "kind": "analogy only",
       "reading": "Tuxpan's adoption layer can be compared with JUBAP's internal facilitation model: the operating practice must become usable and transmissible inside the receiving organization.",
       "relationTokens": 48,
-      "fichaTokens": 191,
+      "fichaTokens": 211,
+      "tagWeights": {
+        "aprendizaje": 0.123,
+        "autoridad": 0.0215,
+        "capacidad-humana": 0.0797,
+        "casos": 0.022,
+        "control-minimo": 0.0238,
+        "decision": 0.0547,
+        "documentacion": 0.0167,
+        "economia": 0.0463,
+        "empresa": 0.1861,
+        "estandares": 0.0333,
+        "evidencia": 0.1587,
+        "experimentacion": 0.0623,
+        "memoria-territorio": 0.0374,
+        "movilidad": 0.0655,
+        "transformacion": 0.069
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C38.json"
     },
     {
@@ -119,6 +243,15 @@
       "reading": "",
       "relationTokens": 19,
       "fichaTokens": 94,
+      "tagWeights": {
+        "aprendizaje": 0.2222,
+        "empresa": 0.5556,
+        "evidencia": 0.2222
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G47.json"
     }
   ]

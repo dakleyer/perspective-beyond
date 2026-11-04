@@ -13,6 +13,7 @@
     "research"
   ],
   "context": "## L-09 — Remove accidental public-label leakage without rewriting source examples\n\nEtiquetas: Evidencia, procedencia y atribución 33.33%; Experimentación, falsación y contraejemplos 66.67%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/l-09-remove-accidental-public-label-leakage-without-rewriting-source-examples-gh078/\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/d41e2d4064dcdff4b4a2e80eb45b61c63f53e4dd/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1/L09_MATCHED_PUBLIC_VIEW_PROTOCOL.md\n\n",
+  "readingSource": null,
   "tokens": 175,
   "encoding": "o200k_base",
   "relations": [
@@ -25,6 +26,33 @@
       "reading": "",
       "relationTokens": 25,
       "fichaTokens": 236,
+      "tagWeights": {
+        "aprendizaje": 0.0233,
+        "autoridad": 0.0351,
+        "cambio-regimen": 0.0238,
+        "capacidad-humana": 0.0351,
+        "cartografia": 0.0134,
+        "control-minimo": 0.1601,
+        "decision": 0.0747,
+        "documentacion": 0.0772,
+        "economia": 0.0326,
+        "empresa": 0.0054,
+        "evidencia": 0.0932,
+        "experimentacion": 0.2436,
+        "integridad-ia": 0.0389,
+        "matematicas": 0.0319,
+        "memoria-territorio": 0.0153,
+        "movilidad": 0.0393,
+        "perspectiva": 0.0095,
+        "transformacion": 0.0476
+      },
+      "clusters": [
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C46.json"
     },
     {
@@ -36,6 +64,18 @@
       "reading": "",
       "relationTokens": 32,
       "fichaTokens": 109,
+      "tagWeights": {
+        "documentacion": 0.1223,
+        "economia": 0.2334,
+        "evidencia": 0.3985,
+        "experimentacion": 0.1833,
+        "matematicas": 0.0625
+      },
+      "clusters": [
+        "research",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C124.json"
     },
     {
@@ -47,6 +87,18 @@
       "reading": "",
       "relationTokens": 28,
       "fichaTokens": 101,
+      "tagWeights": {
+        "control-minimo": 0.0864,
+        "documentacion": 0.1358,
+        "evidencia": 0.2569,
+        "experimentacion": 0.4167,
+        "matematicas": 0.1042
+      },
+      "clusters": [
+        "research",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C125.json"
     },
     {
@@ -58,6 +110,26 @@
       "reading": "",
       "relationTokens": 27,
       "fichaTokens": 204,
+      "tagWeights": {
+        "autoridad": 0.0174,
+        "cambio-regimen": 0.0067,
+        "cartografia": 0.0987,
+        "casos": 0.0333,
+        "control-minimo": 0.0522,
+        "decision": 0.0348,
+        "documentacion": 0.1041,
+        "economia": 0.032,
+        "estandares": 0.0067,
+        "evidencia": 0.1608,
+        "experimentacion": 0.2954,
+        "integridad-ia": 0.0087,
+        "matematicas": 0.0865,
+        "mundo-abierto": 0.0627
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G17.json"
     },
     {
@@ -68,7 +140,16 @@
       "kind": "candidate transfer",
       "reading": "Matched public-view counterworlds can test whether a reported acquisition benefit comes from new evidence rather than accidental fixture-label leakage.",
       "relationTokens": 56,
-      "fichaTokens": 114,
+      "fichaTokens": 220,
+      "tagWeights": {
+        "control-minimo": 0.2593,
+        "documentacion": 0.4074,
+        "experimentacion": 0.3333
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2803.json"
     },
     {
@@ -80,6 +161,15 @@
       "reading": "A fallible audit mechanism and a public-label leakage control address different confounders; both must remain visible in a fair comparison.",
       "relationTokens": 58,
       "fichaTokens": 179,
+      "tagWeights": {
+        "evidencia": 0.4375,
+        "experimentacion": 0.25,
+        "matematicas": 0.3125
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH077.json"
     }
   ]

@@ -15,6 +15,7 @@
     "dialogos"
   ],
   "context": "## xSeil: mostrar alternativas, no una orden\nEntre los proyectos industriales y el trabajo posterior de arquitectura empresarial hubo otra experiencia que merece su propia conversación: diseñar un sistema que pudiera proponer alternativas sin ocultar a las personas las decisiones que tenían que tomar.\n\nINTERLOCUTOR (pregunta editorial nueva) — Después de GEPLAN, ¿qué problema diferente encontraste al trabajar con la movilidad turística de la Riviera Maya?\n\nLECTURA DOCUMENTAL — La reconstrucción técnica de xSeil sitúa el desarrollo para Experiencias Xcaret/Xtours en 2016–2017. El desafío partía de una particularidad comercial: las reservas de transporte ya contenían compromisos de recogida y llegada, mientras que la demanda final, la disponibilidad de vehículos y las condiciones de operación seguían cambiando. Había grupos de pasajeros que no podían dividirse arbitrariamente, vehículos de capacidades distintas, reglas de transbordo, tiempos, varios destinos y restricciones de servicio. Optimizar una ruta aislada no resolvía la operación completa.\n\nINTERLOCUTOR (pregunta editorial nueva) — ¿Qué hacía diferente la manera de calcular? ¿Por qué presentar escenarios en vez de declarar que existía una única solución «mejor»?\n\nLECTURA DOCUMENTAL — La propuesta funcional de junio de 2016 ya contemplaba alternativas de planificación y la presentación de tres escenarios. El anexo técnico de febrero de 2017 documentó parámetros, indicadores y escenarios distintos. La plataforma preparaba combinaciones de rutas viables, mantenía una biblioteca reutilizable, las valoraba de acuerdo con prioridades operativas y continuaba asignando recursos después de que una persona eligiera el marco de decisión. No era simplemente una pantalla que explicaba un resultado calculado: la elección del escenario orientaba el cálculo posterior.\n\nHabía compromisos reales entre criterios. Reducir vehículos podía elevar la ocupación pero prolongar trayectos; favorecer viajes directos podía consumir capacidad necesaria para otros servicios; cumplir una hora de llegada no eliminaba por sí solo la congestión en destino. La comparación de escenarios hacía visibles esas tensiones.\nEtiquetas: Casos de uso y aplicaciones 14.29%; Decisiones y responsabilidad 14.29%; Matemáticas 14.28%; Movilidad e infraestructura 57.14%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-052\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=Entre%20los%20proyectos%20industriales%20y%20el%20trabajo%20posterior%20de%20arquitectura\n\n",
+  "readingSource": null,
   "tokens": 546,
   "encoding": "o200k_base",
   "relations": [
@@ -27,6 +28,24 @@
       "reading": "",
       "relationTokens": 22,
       "fichaTokens": 177,
+      "tagWeights": {
+        "aprendizaje": 0.1144,
+        "autoridad": 0.0109,
+        "cambio-regimen": 0.0198,
+        "casos": 0.0531,
+        "decision": 0.1278,
+        "documentacion": 0.0217,
+        "economia": 0.0163,
+        "experimentacion": 0.0582,
+        "matematicas": 0.5204,
+        "movilidad": 0.0248,
+        "mundo-abierto": 0.0109,
+        "representacion": 0.0217
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-math.json"
     },
     {
@@ -38,6 +57,24 @@
       "reading": "",
       "relationTokens": 22,
       "fichaTokens": 169,
+      "tagWeights": {
+        "aprendizaje": 0.0486,
+        "autoridad": 0.0059,
+        "casos": 0.2265,
+        "control-minimo": 0.0253,
+        "decision": 0.3175,
+        "economia": 0.0862,
+        "empresa": 0.0741,
+        "estandares": 0.0222,
+        "geopolitica": 0.0111,
+        "matematicas": 0.0615,
+        "movilidad": 0.0904,
+        "transformacion": 0.0307
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-decision.json"
     },
     {
@@ -49,6 +86,26 @@
       "reading": "",
       "relationTokens": 21,
       "fichaTokens": 196,
+      "tagWeights": {
+        "aprendizaje": 0.059,
+        "autoridad": 0.1499,
+        "capacidad-humana": 0.0216,
+        "casos": 0.0166,
+        "decision": 0.1127,
+        "economia": 0.0848,
+        "empresa": 0.1523,
+        "estandares": 0.026,
+        "evidencia": 0.0417,
+        "integridad-ia": 0.0455,
+        "matematicas": 0.0519,
+        "memoria-territorio": 0.0065,
+        "movilidad": 0.1628,
+        "transformacion": 0.0687
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-operations.json"
     },
     {
@@ -60,6 +117,15 @@
       "reading": "Mostrar escenarios hace visible dónde permanece la responsabilidad por la decisión.",
       "relationTokens": 35,
       "fichaTokens": 492,
+      "tagWeights": {
+        "casos": 0.125,
+        "decision": 0.625,
+        "matematicas": 0.25
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-053.json"
     },
     {
@@ -71,6 +137,16 @@
       "reading": "Comparten el tema «Decisiones entre escenarios».",
       "relationTokens": 34,
       "fichaTokens": 763,
+      "tagWeights": {
+        "casos": 0.1429,
+        "decision": 0.3571,
+        "economia": 0.1429,
+        "empresa": 0.3571
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-050.json"
     },
     {
@@ -82,6 +158,15 @@
       "reading": "Comparten el tema «Operación real».",
       "relationTokens": 34,
       "fichaTokens": 503,
+      "tagWeights": {
+        "casos": 0.2222,
+        "decision": 0.2222,
+        "movilidad": 0.5556
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-047.json"
     },
     {
@@ -93,6 +178,13 @@
       "reading": "Comparten el tema «Operación real».",
       "relationTokens": 32,
       "fichaTokens": 380,
+      "tagWeights": {
+        "movilidad": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-007.json"
     },
     {
@@ -104,6 +196,13 @@
       "reading": "Comparten el tema «Pensamiento matemático».",
       "relationTokens": 34,
       "fichaTokens": 422,
+      "tagWeights": {
+        "matematicas": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-054.json"
     },
     {
@@ -115,6 +214,14 @@
       "reading": "Comparten el tema «Pensamiento matemático».",
       "relationTokens": 34,
       "fichaTokens": 510,
+      "tagWeights": {
+        "cambio-regimen": 0.4545,
+        "matematicas": 0.5455
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-056.json"
     },
     {
@@ -126,6 +233,15 @@
       "reading": "La lectura enlaza «El valor de elegir entre escenarios casi eficientes» con «xSeil: mostrar alternativas, no una orden». Permite contrastar Decisiones entre escenarios, Pensamiento matemático.",
       "relationTokens": 66,
       "fichaTokens": 350,
+      "tagWeights": {
+        "casos": 0.5455,
+        "decision": 0.2727,
+        "matematicas": 0.1818
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-110.json"
     },
     {
@@ -137,6 +253,14 @@
       "reading": "La lectura enlaza «Responsabilidad sin posibilidad de ganar produce selección regresiva» con «xSeil: mostrar alternativas, no una orden».",
       "relationTokens": 56,
       "fichaTokens": 346,
+      "tagWeights": {
+        "decision": 0.75,
+        "economia": 0.25
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-176.json"
     },
     {
@@ -148,6 +272,15 @@
       "reading": "La lectura enlaza «Una promesa de movilidad empieza a existir cuando tiene horarios» con «xSeil: mostrar alternativas, no una orden». Permite contrastar Decisiones entre escenarios.",
       "relationTokens": 67,
       "fichaTokens": 361,
+      "tagWeights": {
+        "casos": 0.2,
+        "decision": 0.3,
+        "movilidad": 0.5
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-182.json"
     },
     {
@@ -159,6 +292,15 @@
       "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Pensamiento matemático desde las situaciones que describe cada texto.",
       "relationTokens": 50,
       "fichaTokens": 298,
+      "tagWeights": {
+        "casos": 0.2,
+        "decision": 0.6,
+        "matematicas": 0.2
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-097.json"
     },
     {
@@ -170,6 +312,15 @@
       "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Pensamiento matemático desde las situaciones que describe cada texto.",
       "relationTokens": 54,
       "fichaTokens": 322,
+      "tagWeights": {
+        "casos": 0.3334,
+        "decision": 0.3333,
+        "matematicas": 0.3333
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-096.json"
     }
   ]

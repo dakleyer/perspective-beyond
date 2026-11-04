@@ -29,24 +29,25 @@
   ],
   "tagWeights": {
     "agentes": 0.0113,
-    "aprendizaje": 0.0418,
-    "autoridad": 0.1033,
-    "capacidad-humana": 0.0166,
-    "casos": 0.0299,
-    "control-minimo": 0.1275,
-    "decision": 0.1264,
-    "documentacion": 0.0886,
-    "economia": 0.0633,
-    "empresa": 0.0472,
-    "evidencia": 0.0278,
-    "experimentacion": 0.026,
+    "aprendizaje": 0.0329,
+    "autoridad": 0.0836,
+    "capacidad-humana": 0.0172,
+    "casos": 0.0141,
+    "control-minimo": 0.0764,
+    "decision": 0.133,
+    "documentacion": 0.1124,
+    "economia": 0.0601,
+    "empresa": 0.0811,
+    "estandares": 0.0236,
+    "evidencia": 0.0172,
+    "experimentacion": 0.0387,
     "geopolitica": 0.0023,
-    "integridad-ia": 0.0351,
-    "memoria-territorio": 0.0358,
-    "movilidad": 0.014,
-    "perspectiva": 0.0351,
+    "integridad-ia": 0.0467,
+    "memoria-territorio": 0.0247,
+    "movilidad": 0.0381,
+    "perspectiva": 0.0217,
     "representacion": 0.0119,
-    "transformacion": 0.1561
+    "transformacion": 0.153
   },
   "clusters": [
     "eu",
@@ -56,8 +57,9 @@
     "tegrity",
     "us"
   ],
-  "context": "## Activación de misión\nEstablish a focused commitment, accountable roles and a practical route to intervention.\nEtiquetas: Agentes y coordinación distribuida 1.13%; Aprendizaje y transmisión de capacidades 4.18%; Autoridad, permisos y delegación 10.33%; Capacidad humana y deuda de inteligencia 1.66%; Casos de uso y aplicaciones 2.99%; Control mínimo y suficiencia 12.75%; Decisiones y responsabilidad 12.64%; Investigación y documentación técnica 8.86%; Economía, costes y liquidez 6.33%; Empresa y gestión 4.72%; Evidencia, procedencia y atribución 2.78%; Experimentación, falsación y contraejemplos 2.60%; Geopolítica y fronteras 0.23%; Integridad y seguridad de IA 3.51%; Memoria, comunidad y territorio 3.58%; Movilidad e infraestructura 1.40%; Cambio de perspectiva 3.51%; Representación y límites formales 1.19%; Transformación y continuidad operativa 15.61%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/mission-activation/\n\n",
-  "tokens": 250,
+  "context": "## Activación de misión\nEstablish a focused commitment, accountable roles and a practical route to intervention.\nEtiquetas: Agentes y coordinación distribuida 1.13%; Aprendizaje y transmisión de capacidades 3.29%; Autoridad, permisos y delegación 8.36%; Capacidad humana y deuda de inteligencia 1.72%; Casos de uso y aplicaciones 1.41%; Control mínimo y suficiencia 7.64%; Decisiones y responsabilidad 13.30%; Investigación y documentación técnica 11.24%; Economía, costes y liquidez 6.01%; Empresa y gestión 8.11%; Estándares e interoperabilidad 2.36%; Evidencia, procedencia y atribución 1.72%; Experimentación, falsación y contraejemplos 3.87%; Geopolítica y fronteras 0.23%; Integridad y seguridad de IA 4.67%; Memoria, comunidad y territorio 2.47%; Movilidad e infraestructura 3.81%; Cambio de perspectiva 2.17%; Representación y límites formales 1.19%; Transformación y continuidad operativa 15.30%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/mission-activation/\n\n",
+  "readingSource": null,
+  "tokens": 261,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -68,7 +70,16 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 101,
+      "fichaTokens": 296,
+      "tagWeights": {
+        "empresa": 0.35,
+        "memoria-territorio": 0.1,
+        "transformacion": 0.55
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1270.json"
     },
     {
@@ -79,7 +90,20 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 18,
-      "fichaTokens": 126,
+      "fichaTokens": 364,
+      "tagWeights": {
+        "aprendizaje": 0.0909,
+        "autoridad": 0.0909,
+        "decision": 0.0909,
+        "economia": 0.0909,
+        "estandares": 0.2273,
+        "perspectiva": 0.0909,
+        "transformacion": 0.3182
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1272.json"
     },
     {
@@ -90,7 +114,16 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 15,
-      "fichaTokens": 69,
+      "fichaTokens": 316,
+      "tagWeights": {
+        "control-minimo": 0.1579,
+        "integridad-ia": 0.3684,
+        "transformacion": 0.4737
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1274.json"
     },
     {
@@ -101,7 +134,17 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 16,
-      "fichaTokens": 100,
+      "fichaTokens": 302,
+      "tagWeights": {
+        "autoridad": 0.3,
+        "decision": 0.2667,
+        "integridad-ia": 0.0667,
+        "transformacion": 0.3666
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1279.json"
     },
     {
@@ -112,7 +155,17 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 18,
-      "fichaTokens": 101,
+      "fichaTokens": 320,
+      "tagWeights": {
+        "autoridad": 0.087,
+        "capacidad-humana": 0.0869,
+        "decision": 0.3478,
+        "transformacion": 0.4783
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1281.json"
     },
     {
@@ -123,7 +176,19 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 16,
-      "fichaTokens": 115,
+      "fichaTokens": 297,
+      "tagWeights": {
+        "autoridad": 0.0741,
+        "decision": 0.2963,
+        "economia": 0.0741,
+        "empresa": 0.0741,
+        "evidencia": 0.074,
+        "transformacion": 0.4074
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1292.json"
     },
     {
@@ -134,7 +199,18 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 117,
+      "fichaTokens": 288,
+      "tagWeights": {
+        "autoridad": 0.0953,
+        "decision": 0.2381,
+        "evidencia": 0.0952,
+        "experimentacion": 0.0952,
+        "transformacion": 0.4762
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1295.json"
     },
     {
@@ -145,7 +221,15 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 91,
+      "fichaTokens": 172,
+      "tagWeights": {
+        "aprendizaje": 0.2857,
+        "economia": 0.7143
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1417.json"
     },
     {
@@ -156,7 +240,19 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 126,
+      "fichaTokens": 260,
+      "tagWeights": {
+        "autoridad": 0.1177,
+        "capacidad-humana": 0.1177,
+        "decision": 0.2353,
+        "economia": 0.1176,
+        "memoria-territorio": 0.1176,
+        "movilidad": 0.2941
+      },
+      "clusters": [
+        "us"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1498.json"
     },
     {
@@ -167,7 +263,20 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 18,
-      "fichaTokens": 107,
+      "fichaTokens": 370,
+      "tagWeights": {
+        "casos": 0.1429,
+        "control-minimo": 0.0857,
+        "empresa": 0.2,
+        "integridad-ia": 0.0571,
+        "movilidad": 0.3143,
+        "perspectiva": 0.0571,
+        "transformacion": 0.1429
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1633.json"
     },
     {
@@ -178,7 +287,21 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 162,
+      "fichaTokens": 261,
+      "tagWeights": {
+        "aprendizaje": 0.0645,
+        "autoridad": 0.1291,
+        "control-minimo": 0.0645,
+        "decision": 0.0968,
+        "documentacion": 0.3871,
+        "economia": 0.0645,
+        "evidencia": 0.129,
+        "integridad-ia": 0.0645
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2795.json"
     },
     {
@@ -189,7 +312,16 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 114,
+      "fichaTokens": 220,
+      "tagWeights": {
+        "control-minimo": 0.2593,
+        "documentacion": 0.4074,
+        "experimentacion": 0.3333
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2803.json"
     },
     {
@@ -200,7 +332,17 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 104,
+      "fichaTokens": 389,
+      "tagWeights": {
+        "aprendizaje": 0.25,
+        "control-minimo": 0.25,
+        "decision": 0.25,
+        "representacion": 0.25
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1415.json"
     },
     {
@@ -211,7 +353,17 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 124,
+      "fichaTokens": 251,
+      "tagWeights": {
+        "autoridad": 0.0769,
+        "decision": 0.0769,
+        "empresa": 0.4231,
+        "integridad-ia": 0.4231
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T886.json"
     },
     {
@@ -222,7 +374,20 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 18,
-      "fichaTokens": 101,
+      "fichaTokens": 415,
+      "tagWeights": {
+        "autoridad": 0.0625,
+        "capacidad-humana": 0.1563,
+        "control-minimo": 0.0938,
+        "decision": 0.25,
+        "documentacion": 0.2187,
+        "empresa": 0.1562,
+        "evidencia": 0.0625
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1391.json"
     },
     {
@@ -233,7 +398,16 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 107,
+      "fichaTokens": 205,
+      "tagWeights": {
+        "autoridad": 0.2353,
+        "decision": 0.1176,
+        "documentacion": 0.6471
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2792.json"
     },
     {
@@ -244,7 +418,17 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 20,
-      "fichaTokens": 83,
+      "fichaTokens": 242,
+      "tagWeights": {
+        "casos": 0.1539,
+        "documentacion": 0.3077,
+        "experimentacion": 0.3846,
+        "perspectiva": 0.1538
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1487.json"
     },
     {
@@ -255,7 +439,16 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 83,
+      "fichaTokens": 290,
+      "tagWeights": {
+        "control-minimo": 0.5385,
+        "estandares": 0.2692,
+        "movilidad": 0.1923
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2729.json"
     },
     {
@@ -267,6 +460,18 @@
       "reading": "",
       "relationTokens": 17,
       "fichaTokens": 152,
+      "tagWeights": {
+        "autoridad": 0.1539,
+        "control-minimo": 0.1539,
+        "decision": 0.2308,
+        "documentacion": 0.1538,
+        "economia": 0.1538,
+        "perspectiva": 0.1538
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1628.json"
     },
     {
@@ -278,6 +483,15 @@
       "reading": "",
       "relationTokens": 25,
       "fichaTokens": 119,
+      "tagWeights": {
+        "decision": 0.2,
+        "empresa": 0.5,
+        "memoria-territorio": 0.3
+      },
+      "clusters": [
+        "latinoempresa"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/L001.json"
     },
     {
@@ -289,6 +503,18 @@
       "reading": "",
       "relationTokens": 31,
       "fichaTokens": 238,
+      "tagWeights": {
+        "agentes": 0.2381,
+        "autoridad": 0.3333,
+        "decision": 0.0953,
+        "documentacion": 0.2381,
+        "economia": 0.0476,
+        "geopolitica": 0.0476
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH035.json"
     },
     {
@@ -299,7 +525,34 @@
       "kind": "analogy only",
       "reading": "Mission activation offers a comparison for how the AICM programme connected a new perspective with concrete collective responsibility.",
       "relationTokens": 34,
-      "fichaTokens": 220,
+      "fichaTokens": 239,
+      "tagWeights": {
+        "aprendizaje": 0.0151,
+        "autoridad": 0.0408,
+        "cambio-regimen": 0.0397,
+        "capacidad-humana": 0.0115,
+        "cartografia": 0.0079,
+        "casos": 0.0782,
+        "control-minimo": 0.0558,
+        "decision": 0.0536,
+        "documentacion": 0.1087,
+        "economia": 0.0725,
+        "empresa": 0.0736,
+        "estandares": 0.0379,
+        "evidencia": 0.0079,
+        "experimentacion": 0.08,
+        "integridad-ia": 0.0095,
+        "movilidad": 0.0524,
+        "perspectiva": 0.1378,
+        "transformacion": 0.1171
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "research",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C64.json"
     },
     {
@@ -310,7 +563,36 @@
       "kind": "hypothesis",
       "reading": "The activation hypothesis should be tested against response capacity and negative cases, not inferred from pressure alone.",
       "relationTokens": 32,
-      "fichaTokens": 223,
+      "fichaTokens": 251,
+      "tagWeights": {
+        "aprendizaje": 0.0059,
+        "autoridad": 0.0712,
+        "cambio-regimen": 0.0584,
+        "capacidad-humana": 0.0328,
+        "cartografia": 0.0302,
+        "casos": 0.0177,
+        "control-minimo": 0.0908,
+        "decision": 0.152,
+        "documentacion": 0.0733,
+        "economia": 0.0387,
+        "empresa": 0.103,
+        "estandares": 0.0245,
+        "evidencia": 0.0174,
+        "integridad-ia": 0.0239,
+        "memoria-territorio": 0.0107,
+        "movilidad": 0.0442,
+        "perspectiva": 0.0086,
+        "representacion": 0.0145,
+        "transformacion": 0.1822
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C28.json"
     },
     {
@@ -322,6 +604,33 @@
       "reading": "A tabletop ablation could test which coordination conditions the Tiger Team model actually depends on.",
       "relationTokens": 30,
       "fichaTokens": 236,
+      "tagWeights": {
+        "aprendizaje": 0.0233,
+        "autoridad": 0.0351,
+        "cambio-regimen": 0.0238,
+        "capacidad-humana": 0.0351,
+        "cartografia": 0.0134,
+        "control-minimo": 0.1601,
+        "decision": 0.0747,
+        "documentacion": 0.0772,
+        "economia": 0.0326,
+        "empresa": 0.0054,
+        "evidencia": 0.0932,
+        "experimentacion": 0.2436,
+        "integridad-ia": 0.0389,
+        "matematicas": 0.0319,
+        "memoria-territorio": 0.0153,
+        "movilidad": 0.0393,
+        "perspectiva": 0.0095,
+        "transformacion": 0.0476
+      },
+      "clusters": [
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C46.json"
     },
     {
@@ -332,7 +641,37 @@
       "kind": "analogy only",
       "reading": "Mission activation can create the ownership and decision boundaries that further information gathering would otherwise leave unresolved.",
       "relationTokens": 31,
-      "fichaTokens": 242,
+      "fichaTokens": 253,
+      "tagWeights": {
+        "aprendizaje": 0.1224,
+        "autoridad": 0.0287,
+        "capacidad-humana": 0.0281,
+        "casos": 0.012,
+        "control-minimo": 0.0744,
+        "decision": 0.129,
+        "documentacion": 0.0352,
+        "economia": 0.1009,
+        "empresa": 0.1478,
+        "estandares": 0.0207,
+        "evidencia": 0.0442,
+        "experimentacion": 0.0108,
+        "integridad-ia": 0.0344,
+        "matematicas": 0.0315,
+        "memoria-territorio": 0.0117,
+        "movilidad": 0.0357,
+        "mundo-abierto": 0.0216,
+        "perspectiva": 0.0083,
+        "representacion": 0.045,
+        "transformacion": 0.0576
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C31.json"
     },
     {
@@ -343,7 +682,35 @@
       "kind": "analogy only",
       "reading": "An integrated mission team and a federated integrity function solve different coordination problems and need not share the same governance structure.",
       "relationTokens": 35,
-      "fichaTokens": 199,
+      "fichaTokens": 232,
+      "tagWeights": {
+        "agentes": 0.0152,
+        "aprendizaje": 0.0432,
+        "autoridad": 0.0233,
+        "cambio-regimen": 0.0095,
+        "capacidad-humana": 0.0702,
+        "casos": 0.0408,
+        "control-minimo": 0.0419,
+        "decision": 0.0797,
+        "economia": 0.0577,
+        "empresa": 0.2339,
+        "evidencia": 0.0626,
+        "experimentacion": 0.0404,
+        "integridad-ia": 0.0699,
+        "memoria-territorio": 0.0295,
+        "movilidad": 0.0133,
+        "representacion": 0.0281,
+        "transformacion": 0.1408
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C51.json"
     },
     {
@@ -354,7 +721,36 @@
       "kind": "analogy only",
       "reading": "Trust supports collaboration, but timely review still depends on explicit decision context and actual response capacity.",
       "relationTokens": 32,
-      "fichaTokens": 223,
+      "fichaTokens": 251,
+      "tagWeights": {
+        "aprendizaje": 0.0059,
+        "autoridad": 0.0712,
+        "cambio-regimen": 0.0584,
+        "capacidad-humana": 0.0328,
+        "cartografia": 0.0302,
+        "casos": 0.0177,
+        "control-minimo": 0.0908,
+        "decision": 0.152,
+        "documentacion": 0.0733,
+        "economia": 0.0387,
+        "empresa": 0.103,
+        "estandares": 0.0245,
+        "evidencia": 0.0174,
+        "integridad-ia": 0.0239,
+        "memoria-territorio": 0.0107,
+        "movilidad": 0.0442,
+        "perspectiva": 0.0086,
+        "representacion": 0.0145,
+        "transformacion": 0.1822
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C28.json"
     },
     {
@@ -365,7 +761,40 @@
       "kind": "analogy only",
       "reading": "A governance principle becomes operational when it specifies an owner, an escalation condition and a clear boundary on authorized action.",
       "relationTokens": 35,
-      "fichaTokens": 262,
+      "fichaTokens": 273,
+      "tagWeights": {
+        "agentes": 0.0434,
+        "aprendizaje": 0.0079,
+        "autoridad": 0.1478,
+        "capacidad-humana": 0.018,
+        "cartografia": 0.0148,
+        "casos": 0.0271,
+        "control-minimo": 0.0436,
+        "decision": 0.1698,
+        "documentacion": 0.0784,
+        "economia": 0.0334,
+        "empresa": 0.112,
+        "estandares": 0.0063,
+        "evidencia": 0.0528,
+        "experimentacion": 0.0371,
+        "geopolitica": 0.0013,
+        "integridad-ia": 0.0373,
+        "memoria-territorio": 0.0241,
+        "movilidad": 0.0392,
+        "perspectiva": 0.0068,
+        "representacion": 0.0025,
+        "transformacion": 0.0964
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "mobility",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C26.json"
     },
     {
@@ -377,6 +806,34 @@
       "reading": "The team is an integrated system when its specialist decisions preserve the same independently stated mission outcome, not merely when every member completes a local deliverable.",
       "relationTokens": 41,
       "fichaTokens": 241,
+      "tagWeights": {
+        "aprendizaje": 0.0162,
+        "autoridad": 0.0494,
+        "capacidad-humana": 0.0551,
+        "cartografia": 0.0205,
+        "casos": 0.0389,
+        "control-minimo": 0.035,
+        "decision": 0.1178,
+        "documentacion": 0.1163,
+        "economia": 0.0744,
+        "empresa": 0.0629,
+        "evidencia": 0.0581,
+        "experimentacion": 0.1056,
+        "integridad-ia": 0.0146,
+        "memoria-territorio": 0.0317,
+        "movilidad": 0.0553,
+        "mundo-abierto": 0.0333,
+        "perspectiva": 0.0316,
+        "transformacion": 0.0833
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C80.json"
     },
     {
@@ -388,6 +845,26 @@
       "reading": "A focused intervention can begin with a bounded discovery mandate without confusing provisional assumptions with the binding decisions required for production change.",
       "relationTokens": 36,
       "fichaTokens": 172,
+      "tagWeights": {
+        "aprendizaje": 0.1339,
+        "autoridad": 0.075,
+        "casos": 0.0385,
+        "control-minimo": 0.0625,
+        "decision": 0.1292,
+        "economia": 0.2171,
+        "empresa": 0.0384,
+        "evidencia": 0.0577,
+        "integridad-ia": 0.0167,
+        "memoria-territorio": 0.0384,
+        "representacion": 0.0625,
+        "transformacion": 0.1301
+      },
+      "clusters": [
+        "net",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C84.json"
     },
     {
@@ -399,6 +876,34 @@
       "reading": "Functional trust can support early disclosure of uncertainty when protecting the mission requires giving up a locally favourable account of progress.",
       "relationTokens": 34,
       "fichaTokens": 241,
+      "tagWeights": {
+        "aprendizaje": 0.0162,
+        "autoridad": 0.0494,
+        "capacidad-humana": 0.0551,
+        "cartografia": 0.0205,
+        "casos": 0.0389,
+        "control-minimo": 0.035,
+        "decision": 0.1178,
+        "documentacion": 0.1163,
+        "economia": 0.0744,
+        "empresa": 0.0629,
+        "evidencia": 0.0581,
+        "experimentacion": 0.1056,
+        "integridad-ia": 0.0146,
+        "memoria-territorio": 0.0317,
+        "movilidad": 0.0553,
+        "mundo-abierto": 0.0333,
+        "perspectiva": 0.0316,
+        "transformacion": 0.0833
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C80.json"
     },
     {
@@ -410,6 +915,32 @@
       "reading": "A mission team and a federated integrity function can share explicit decision interfaces without requiring the same organizational structure.",
       "relationTokens": 37,
       "fichaTokens": 227,
+      "tagWeights": {
+        "agentes": 0.0847,
+        "aprendizaje": 0.0555,
+        "autoridad": 0.0228,
+        "cambio-regimen": 0.006,
+        "cartografia": 0.018,
+        "casos": 0.006,
+        "control-minimo": 0.0436,
+        "decision": 0.0279,
+        "documentacion": 0.003,
+        "empresa": 0.2178,
+        "estandares": 0.0462,
+        "evidencia": 0.0291,
+        "integridad-ia": 0.2529,
+        "matematicas": 0.012,
+        "memoria-territorio": 0.0111,
+        "movilidad": 0.0449,
+        "transformacion": 0.1185
+      },
+      "clusters": [
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C88.json"
     },
     {
@@ -420,7 +951,36 @@
       "kind": "candidate transfer",
       "reading": "Team configuration can be assessed against the mission's required capabilities and response obligations before comparing the burden of alternative structures.",
       "relationTokens": 34,
-      "fichaTokens": 225,
+      "fichaTokens": 248,
+      "tagWeights": {
+        "aprendizaje": 0.0223,
+        "autoridad": 0.0253,
+        "cambio-regimen": 0.005,
+        "capacidad-humana": 0.0196,
+        "cartografia": 0.0329,
+        "casos": 0.0179,
+        "control-minimo": 0.2797,
+        "decision": 0.051,
+        "documentacion": 0.0602,
+        "empresa": 0.1043,
+        "estandares": 0.0337,
+        "evidencia": 0.0233,
+        "experimentacion": 0.0089,
+        "integridad-ia": 0.0632,
+        "memoria-territorio": 0.0089,
+        "movilidad": 0.1124,
+        "perspectiva": 0.0071,
+        "representacion": 0.02,
+        "transformacion": 0.1043
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C41.json"
     },
     {
@@ -432,6 +992,31 @@
       "reading": "JUBAP's expansion-and-filtering sequence offers a practical comparison for moving from architectural optionality to a focusable engineering mission.",
       "relationTokens": 40,
       "fichaTokens": 205,
+      "tagWeights": {
+        "aprendizaje": 0.0563,
+        "autoridad": 0.0207,
+        "capacidad-humana": 0.0296,
+        "casos": 0.0473,
+        "control-minimo": 0.0218,
+        "decision": 0.0663,
+        "documentacion": 0.0594,
+        "economia": 0.1043,
+        "empresa": 0.1255,
+        "evidencia": 0.1038,
+        "integridad-ia": 0.0052,
+        "memoria-territorio": 0.0324,
+        "movilidad": 0.0604,
+        "perspectiva": 0.0443,
+        "transformacion": 0.2227
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "net",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C61.json"
     },
     {
@@ -443,6 +1028,29 @@
       "reading": "The institutional account gains an operational counterpart in the Tiger Team model, which distinguishes commercial activation from participation in a wider frontier mission.",
       "relationTokens": 37,
       "fichaTokens": 197,
+      "tagWeights": {
+        "aprendizaje": 0.0096,
+        "autoridad": 0.0035,
+        "capacidad-humana": 0.0816,
+        "casos": 0.0092,
+        "control-minimo": 0.0074,
+        "decision": 0.0555,
+        "documentacion": 0.1014,
+        "economia": 0.0662,
+        "empresa": 0.2058,
+        "estandares": 0.0212,
+        "evidencia": 0.1233,
+        "experimentacion": 0.018,
+        "memoria-territorio": 0.1189,
+        "transformacion": 0.1784
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "net",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C56.json"
     },
     {
@@ -453,7 +1061,40 @@
       "kind": "analogy only",
       "reading": "A candidate goal or useful finding does not enlarge a Tiger Team’s mandate; adoption, authority and participation conditions must be explicit.",
       "relationTokens": 38,
-      "fichaTokens": 262,
+      "fichaTokens": 273,
+      "tagWeights": {
+        "agentes": 0.0434,
+        "aprendizaje": 0.0079,
+        "autoridad": 0.1478,
+        "capacidad-humana": 0.018,
+        "cartografia": 0.0148,
+        "casos": 0.0271,
+        "control-minimo": 0.0436,
+        "decision": 0.1698,
+        "documentacion": 0.0784,
+        "economia": 0.0334,
+        "empresa": 0.112,
+        "estandares": 0.0063,
+        "evidencia": 0.0528,
+        "experimentacion": 0.0371,
+        "geopolitica": 0.0013,
+        "integridad-ia": 0.0373,
+        "memoria-territorio": 0.0241,
+        "movilidad": 0.0392,
+        "perspectiva": 0.0068,
+        "representacion": 0.0025,
+        "transformacion": 0.0964
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "mobility",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C26.json"
     },
     {
@@ -464,7 +1105,21 @@
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 12,
-      "fichaTokens": 109,
+      "fichaTokens": 132,
+      "tagWeights": {
+        "autoridad": 0.0334,
+        "control-minimo": 0.0334,
+        "decision": 0.2463,
+        "empresa": 0.2463,
+        "evidencia": 0.0666,
+        "experimentacion": 0.0926,
+        "memoria-territorio": 0.037,
+        "transformacion": 0.2444
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G25.json"
     }
   ]

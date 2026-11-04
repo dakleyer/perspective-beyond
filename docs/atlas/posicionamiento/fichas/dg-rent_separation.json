@@ -15,6 +15,7 @@
     "dialogos"
   ],
   "context": "## Renta por posesión frente a valor productivo\nSeparar rendimiento por propiedad de colateral, producción y distribución; los cambios de régimen monetario son hipótesis.\nEtiquetas: Economía, costes y liquidez 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-rent_separation\n\n",
+  "readingSource": null,
   "tokens": 75,
   "encoding": "o200k_base",
   "relations": [
@@ -27,6 +28,13 @@
       "reading": "",
       "relationTokens": 35,
       "fichaTokens": 464,
+      "tagWeights": {
+        "economia": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-222.json"
     },
     {
@@ -38,6 +46,13 @@
       "reading": "",
       "relationTokens": 30,
       "fichaTokens": 398,
+      "tagWeights": {
+        "economia": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-261.json"
     },
     {
@@ -49,6 +64,30 @@
       "reading": "El precio del activo y el valor productivo son preguntas distintas.",
       "relationTokens": 35,
       "fichaTokens": 239,
+      "tagWeights": {
+        "aprendizaje": 0.0689,
+        "autoridad": 0.0119,
+        "capacidad-humana": 0.0161,
+        "casos": 0.0204,
+        "control-minimo": 0.0108,
+        "decision": 0.1092,
+        "economia": 0.5189,
+        "empresa": 0.032,
+        "estandares": 0.0095,
+        "evidencia": 0.0095,
+        "geopolitica": 0.0766,
+        "integridad-ia": 0.0331,
+        "matematicas": 0.0149,
+        "memoria-territorio": 0.0143,
+        "movilidad": 0.0142,
+        "perspectiva": 0.0119,
+        "representacion": 0.0159,
+        "transformacion": 0.0119
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-economy.json"
     },
     {
@@ -60,6 +99,26 @@
       "reading": "La renta por posesión puede desplazarse del trabajo productivo.",
       "relationTokens": 40,
       "fichaTokens": 218,
+      "tagWeights": {
+        "aprendizaje": 0.0295,
+        "autoridad": 0.0417,
+        "capacidad-humana": 0.0128,
+        "casos": 0.0555,
+        "decision": 0.0795,
+        "economia": 0.1389,
+        "empresa": 0.1285,
+        "evidencia": 0.1389,
+        "experimentacion": 0.0534,
+        "geopolitica": 0.0555,
+        "integridad-ia": 0.0278,
+        "memoria-territorio": 0.0401,
+        "movilidad": 0.1146,
+        "transformacion": 0.0833
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-production.json"
     },
     {
@@ -71,6 +130,17 @@
       "reading": "La arquitectura de colateral cambia el acceso.",
       "relationTokens": 40,
       "fichaTokens": 117,
+      "tagWeights": {
+        "aprendizaje": 0.0476,
+        "autoridad": 0.0833,
+        "economia": 0.658,
+        "memoria-territorio": 0.1,
+        "representacion": 0.1111
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-scarcity_design.json"
     },
     {
@@ -82,6 +152,14 @@
       "reading": "Una licencia o permiso puede capturar rentas de acceso.",
       "relationTokens": 42,
       "fichaTokens": 89,
+      "tagWeights": {
+        "autoridad": 0.25,
+        "economia": 0.75
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-intangible_reserves.json"
     }
   ]

@@ -1,6 +1,6 @@
 import {parseFocusWeights} from './session-config.mjs';
 
-export const VERSION='perspective-beyond/positioning-v1';
+export const VERSION='perspective-beyond/positioning-v1.1';
 const cmp=(a,b)=>a<b?-1:a>b?1:0;
 export function canonicalURL(raw,fragment=false){
  try{const u=new URL(raw);u.protocol='https:';u.hostname=u.hostname.toLowerCase().replace(/^www\./,'');u.pathname=u.pathname.replace(/\/$/,'')||'/';
@@ -106,7 +106,17 @@ export function positionMap(graph,request){
   visits.set(item.to,{distance:visits.get(queue[i]).distance+1,parent:queue[i],edge:item.edge});queue.push(item.to);
  }
  const priority=id=>(.25+.75*affinity.get(id))/(1+visits.get(id).distance);
- const order=[...queue].sort((a,b)=>priority(b)-priority(a)||visits.get(a).distance-visits.get(b).distance||cmp(a,b));
+ const weightedOrder=[...queue].sort((a,b)=>priority(b)-priority(a)||visits.get(a).distance-visits.get(b).distance||cmp(a,b));
+ // Explain the entry's own mechanism before expanding into the visitor's preferred themes.
+ // The fixed core is independent of the budget, preserving monotonic expansion.
+ const anchor=seeds.filter(id=>all.get(id).readingSource).sort((a,b)=>affinity.get(b)-affinity.get(a)||cmp(a,b))[0];
+ const localCore=anchor&&request.red==='ideas'?[...support.get(anchor)??[]].filter(id=>visits.has(id)&&visits.get(id).parent===anchor).sort((a,b)=>{
+  const match=id=>Object.entries(all.get(anchor).tagWeights).reduce((s,[k,v])=>s+v*(all.get(id).tagWeights[k]??0),0);
+  return match(b)-match(a)||cmp(a,b);
+ }).slice(0,4):[];
+ const coreDocument=anchor?activeEdges.filter(e=>e[1]===anchor&&e[6]==='documento'&&e[3]==='documented use'&&visits.get(e[2])?.parent===anchor)
+  .sort((a,b)=>affinity.get(b[2])-affinity.get(a[2])||cmp(a[2],b[2]))[0]?.[2]:null;
+ const order=localCore.length||coreDocument?[anchor,...localCore,...(coreDocument?[coreDocument]:[]),...weightedOrder]:weightedOrder;
  // This sequence is independent of the budget: increasing tokens preserves the selected prefix.
  const sequence=[],seen=new Set();
  for(const id of order){
@@ -138,7 +148,7 @@ export function positionMap(graph,request){
   budget:{limit:request.tokens,used,remaining:request.tokens-used,nextBlock:nextCost,encoding:graph.tokenization.encoding,accounting:graph.tokenization.accounting},
   reachable:queue.length,selected:chosen.length,shown:visible.length+1,omittedByBudget:queue.length-chosen.length,omittedInDiagram:chosen.length-visible.length,
   layers:Array.from({length:maxDistance+1},(_,distance)=>({distance,selected:chosen.filter(n=>n.distance===distance).length,shown:visible.filter(n=>n.distance===distance).length+(distance===0?1:0)})),
-  center:root.id,nodes:[root,...visible],edges,selection:chosen,reading:blocks.join('')};
+  center:root.id,localCore:localCore.filter(id=>picked.has(id)),coreDocument:coreDocument&&picked.has(coreDocument)?coreDocument:null,nodes:[root,...visible],edges,selection:chosen,reading:blocks.join('')};
 }
 export function positionParams(request){
  const p=new URLSearchParams({posicionamiento:request.posicionamiento,tokens:String(request.tokens),max:String(request.max),red:request.red,sentido:request.sentido,modo:request.modo});

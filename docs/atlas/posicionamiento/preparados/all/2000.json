@@ -1,5 +1,5 @@
 {
-  "schema": "perspective-beyond/positioning-v1",
+  "schema": "perspective-beyond/positioning-v1.1",
   "edition": "2026-11-04",
   "request": {
     "posicionamiento": "all",
@@ -56,7 +56,7 @@
     "limit": 2000,
     "used": 1807,
     "remaining": 193,
-    "nextBlock": 259,
+    "nextBlock": 268,
     "encoding": "o200k_base",
     "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
   },
@@ -78,6 +78,8 @@
     }
   ],
   "center": "doc-atlas-entrada",
+  "localCore": [],
+  "coreDocument": null,
   "nodes": [
     {
       "id": "doc-atlas-entrada",

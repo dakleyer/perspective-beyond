@@ -1,5 +1,5 @@
 {
-  "schema": "perspective-beyond/positioning-v1",
+  "schema": "perspective-beyond/positioning-v1.1",
   "edition": "2026-11-04",
   "request": {
     "posicionamiento": "us",
@@ -37,16 +37,16 @@
   },
   "budget": {
     "limit": 1000,
-    "used": 867,
-    "remaining": 133,
-    "nextBlock": 299,
+    "used": 728,
+    "remaining": 272,
+    "nextBlock": 528,
     "encoding": "o200k_base",
     "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
   },
   "reachable": 11,
-  "selected": 4,
-  "shown": 5,
-  "omittedByBudget": 7,
+  "selected": 2,
+  "shown": 3,
+  "omittedByBudget": 9,
   "omittedInDiagram": 0,
   "layers": [
     {
@@ -61,11 +61,13 @@
     },
     {
       "distance": 2,
-      "selected": 3,
-      "shown": 3
+      "selected": 1,
+      "shown": 1
     }
   ],
   "center": "doc-4133165018517e2690-entrada",
+  "localCore": [],
+  "coreDocument": null,
   "nodes": [
     {
       "id": "doc-4133165018517e2690-entrada",
@@ -141,89 +143,25 @@
       "commitUrl": null,
       "documentId": "doc-2b9ae79941e4c9bc03",
       "tagWeights": {
-        "aprendizaje": 0.0769,
-        "capacidad-humana": 0.0769,
-        "casos": 0.1923,
-        "empresa": 0.3462,
-        "representacion": 0.0769,
-        "transformacion": 0.2308
+        "aprendizaje": 0.0526,
+        "capacidad-humana": 0.0526,
+        "casos": 0.1316,
+        "empresa": 0.3948,
+        "representacion": 0.0526,
+        "transformacion": 0.3158
       },
-      "contextTokens": 150,
+      "reading": "A leading global luxury group faced an emerging operational challenge in its Americas retail network: how to schedule boutique personnel intelligently against changing demand patterns while preserving Maison-specific service standards, labor compliance, employee fairness and operational continuity.\n\nAt first glance, the requirement appeared to be a relatively contained Smart Scheduling feature: matching retail staffing levels with customer traffic, transactions, appointments, opening and closing rules, tasks, zones and peak sales windows. However, the initial architecture assessment showed that the problem was significantly broader. Smart Scheduling was not an isolated workforce planning feature. It sat at the intersection of HRIS, Workday, Time & Attendance, payroll, forecasting, boutique operations, task management, employee experience, reporting and multi-Maison governance.log-explanation-hr-opportunities-3.docx+1\n\nThe group’s HR application landscape was already highly fragmented, with over 134 applications across 10 HR capabilities , and a rationalization analysis indicating a 13.4% elimination target , a 21.6% migration opportunity , and an annual savings potential estimated at $15–25M through consolidation and better portfolio governance. Within this landscape, Workforce Scheduling appeared as an underdeveloped capability, with only a handful of tools (e.g., Jooxter, AskCody, Calabrio, Maison-specific schedulers) documented against a much more complex operational reality.\n\nJubAp.us , Americas Virtual Rapid Deployment Unit of JubAp.net , supported J UBAP.eu —the independent Estonian enterprise transformation unit—in structuring the Smart Scheduling request as a regional architecture and rationalization pilot. The engagement reframed the initiative from a narrow scheduling feature into an operational intelligence and HRIS rationalization case , clarified the capability model, established a target deployment logic and prepared the initiative for scaled implementation.",
+      "readingSource": {
+        "url": "https://jubap.us/luxury-group-hr-information-system-rationalization-smart-scheduling-capabilities-deployment/",
+        "section": "Opening paragraphs",
+        "observed": "2026-11-04",
+        "sourceSha256": "e6c1b1c54ea320cfe9294e94d1c5b6096f3bcb165c21484410e8ffd5f6648a67"
+      },
+      "readingSummary": "A leading global luxury group faced an emerging operational challenge in its Americas retail network: how to schedule boutique personnel intelligently against changing demand patterns while preserving Maison-specific service standards, labor compliance, employee fairness and operational continuity.",
+      "contextTokens": 505,
       "distance": 2,
       "parent": "U2",
       "routeEdge": "navigation:position-nav-U2-U1312",
-      "affinity": 1
-    },
-    {
-      "id": "U1317",
-      "type": "ficha",
-      "title": "Case Study: Texas-to-Mexico Oilfield Services Transformation: Knowledge Transfer, Industrialization, and Compliance",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-texas-to-mexico-oilfield-services-transformation-knowledge-transfer-u1317/",
-      "original": "https://jubap.us/case-study-texas-to-mexico-oilfield-services-transformation-knowledge-transfer-industrialization-and-compliance/",
-      "aliases": [],
-      "clusters": [
-        "us"
-      ],
-      "tags": [
-        "aprendizaje",
-        "autoridad",
-        "casos",
-        "decision",
-        "empresa",
-        "experimentacion",
-        "memoria-territorio",
-        "transformacion"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-77737ec7cd6b404d4d",
-      "tagWeights": {
-        "aprendizaje": 0.0667,
-        "autoridad": 0.0667,
-        "casos": 0.1667,
-        "decision": 0.1,
-        "empresa": 0.1666,
-        "experimentacion": 0.1666,
-        "memoria-territorio": 0.0667,
-        "transformacion": 0.2
-      },
-      "contextTokens": 189,
-      "distance": 2,
-      "parent": "U2",
-      "routeEdge": "navigation:position-nav-U2-U1317",
-      "affinity": 1
-    },
-    {
-      "id": "U1322",
-      "type": "ficha",
-      "title": "Case Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-weatherford-multi-level-information-management-for-oilfield-supplie-u1322/",
-      "original": "https://jubap.us/case-study-weatherford-multi-level-information-management-for-oilfield-supplier-management/",
-      "aliases": [],
-      "clusters": [
-        "us"
-      ],
-      "tags": [
-        "casos",
-        "empresa",
-        "evidencia"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-1d239c367168fe979d",
-      "tagWeights": {
-        "casos": 0.2381,
-        "empresa": 0.619,
-        "evidencia": 0.1429
-      },
-      "contextTokens": 116,
-      "distance": 2,
-      "parent": "U2",
-      "routeEdge": "navigation:position-nav-U2-U1322",
       "affinity": 1
     }
   ],
@@ -244,33 +182,6 @@
       "reading": "Desde «JubAp.US», el enlace «Luxury Group HR information-system rationalization and workforce capability architecture. Read the case study  ↗» abre «Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment».",
       "evidence": "https://jubap.us/",
       "route": true
-    },
-    {
-      "id": "navigation:position-nav-U2-U1317",
-      "from": "U2",
-      "to": "U1317",
-      "kind": "lectura enlazada desde el documento",
-      "reading": "Desde «JubAp.US», el enlace «Superior Performance Texas-to-Mexico knowledge transfer, operations integration and industrialization. Read the case study  ↗» abre «Case Study: Texas-to-Mexico Oilfield Services Transformation: Knowledge Transfer, Industrialization, and Compliance».",
-      "evidence": "https://jubap.us/",
-      "route": true
-    },
-    {
-      "id": "navigation:position-nav-U2-U1322",
-      "from": "U2",
-      "to": "U1322",
-      "kind": "lectura enlazada desde el documento",
-      "reading": "Desde «JubAp.US», el enlace «Weatherford Multi-level supplier information, audit readiness and evidence architecture. Read the case study  ↗» abre «Case Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management».",
-      "evidence": "https://jubap.us/",
-      "route": true
-    },
-    {
-      "id": "documento:R058",
-      "from": "U1317",
-      "to": "U1322",
-      "kind": "editorial comparison",
-      "reading": "For a complementary reading, see [Supplier evidence and audit-reactive mapping](https://jubap.us/case-study-weatherford-multi-level-information-management-for-oilfield-supplier-management/).",
-      "evidence": null,
-      "route": false
     }
   ],
   "selection": [
@@ -333,91 +244,27 @@
       "commitUrl": null,
       "documentId": "doc-2b9ae79941e4c9bc03",
       "tagWeights": {
-        "aprendizaje": 0.0769,
-        "capacidad-humana": 0.0769,
-        "casos": 0.1923,
-        "empresa": 0.3462,
-        "representacion": 0.0769,
-        "transformacion": 0.2308
+        "aprendizaje": 0.0526,
+        "capacidad-humana": 0.0526,
+        "casos": 0.1316,
+        "empresa": 0.3948,
+        "representacion": 0.0526,
+        "transformacion": 0.3158
       },
-      "contextTokens": 150,
+      "reading": "A leading global luxury group faced an emerging operational challenge in its Americas retail network: how to schedule boutique personnel intelligently against changing demand patterns while preserving Maison-specific service standards, labor compliance, employee fairness and operational continuity.\n\nAt first glance, the requirement appeared to be a relatively contained Smart Scheduling feature: matching retail staffing levels with customer traffic, transactions, appointments, opening and closing rules, tasks, zones and peak sales windows. However, the initial architecture assessment showed that the problem was significantly broader. Smart Scheduling was not an isolated workforce planning feature. It sat at the intersection of HRIS, Workday, Time & Attendance, payroll, forecasting, boutique operations, task management, employee experience, reporting and multi-Maison governance.log-explanation-hr-opportunities-3.docx+1\n\nThe group’s HR application landscape was already highly fragmented, with over 134 applications across 10 HR capabilities , and a rationalization analysis indicating a 13.4% elimination target , a 21.6% migration opportunity , and an annual savings potential estimated at $15–25M through consolidation and better portfolio governance. Within this landscape, Workforce Scheduling appeared as an underdeveloped capability, with only a handful of tools (e.g., Jooxter, AskCody, Calabrio, Maison-specific schedulers) documented against a much more complex operational reality.\n\nJubAp.us , Americas Virtual Rapid Deployment Unit of JubAp.net , supported J UBAP.eu —the independent Estonian enterprise transformation unit—in structuring the Smart Scheduling request as a regional architecture and rationalization pilot. The engagement reframed the initiative from a narrow scheduling feature into an operational intelligence and HRIS rationalization case , clarified the capability model, established a target deployment logic and prepared the initiative for scaled implementation.",
+      "readingSource": {
+        "url": "https://jubap.us/luxury-group-hr-information-system-rationalization-smart-scheduling-capabilities-deployment/",
+        "section": "Opening paragraphs",
+        "observed": "2026-11-04",
+        "sourceSha256": "e6c1b1c54ea320cfe9294e94d1c5b6096f3bcb165c21484410e8ffd5f6648a67"
+      },
+      "readingSummary": "A leading global luxury group faced an emerging operational challenge in its Americas retail network: how to schedule boutique personnel intelligently against changing demand patterns while preserving Maison-specific service standards, labor compliance, employee fairness and operational continuity.",
+      "contextTokens": 505,
       "distance": 2,
       "parent": "U2",
       "routeEdge": "navigation:position-nav-U2-U1312",
       "affinity": 1
-    },
-    {
-      "id": "U1317",
-      "type": "ficha",
-      "title": "Case Study: Texas-to-Mexico Oilfield Services Transformation: Knowledge Transfer, Industrialization, and Compliance",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-texas-to-mexico-oilfield-services-transformation-knowledge-transfer-u1317/",
-      "original": "https://jubap.us/case-study-texas-to-mexico-oilfield-services-transformation-knowledge-transfer-industrialization-and-compliance/",
-      "aliases": [],
-      "clusters": [
-        "us"
-      ],
-      "tags": [
-        "aprendizaje",
-        "autoridad",
-        "casos",
-        "decision",
-        "empresa",
-        "experimentacion",
-        "memoria-territorio",
-        "transformacion"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-77737ec7cd6b404d4d",
-      "tagWeights": {
-        "aprendizaje": 0.0667,
-        "autoridad": 0.0667,
-        "casos": 0.1667,
-        "decision": 0.1,
-        "empresa": 0.1666,
-        "experimentacion": 0.1666,
-        "memoria-territorio": 0.0667,
-        "transformacion": 0.2
-      },
-      "contextTokens": 189,
-      "distance": 2,
-      "parent": "U2",
-      "routeEdge": "navigation:position-nav-U2-U1317",
-      "affinity": 1
-    },
-    {
-      "id": "U1322",
-      "type": "ficha",
-      "title": "Case Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-weatherford-multi-level-information-management-for-oilfield-supplie-u1322/",
-      "original": "https://jubap.us/case-study-weatherford-multi-level-information-management-for-oilfield-supplier-management/",
-      "aliases": [],
-      "clusters": [
-        "us"
-      ],
-      "tags": [
-        "casos",
-        "empresa",
-        "evidencia"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-1d239c367168fe979d",
-      "tagWeights": {
-        "casos": 0.2381,
-        "empresa": 0.619,
-        "evidencia": 0.1429
-      },
-      "contextTokens": 116,
-      "distance": 2,
-      "parent": "U2",
-      "routeEdge": "navigation:position-nav-U2-U1322",
-      "affinity": 1
     }
   ],
-  "reading": "# Posicionamiento · JubAp.US\nDocumento de origen: https://jubap.us/\n\n## JubAp.US\nCarve-outs, post-merger integration, joint ventures and SPVs. Operating models that connect people, information and execution.\nEtiquetas: Aprendizaje y transmisión de capacidades 10.00%; Decisiones y responsabilidad 10.00%; Empresa y gestión 40.00%; Índices, contacto y políticas 5.00%; Transformación y continuidad operativa 35.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-us-u2/\nDocumento de origen: https://jubap.us/\n\nJubAp.US → Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment · lectura enlazada desde el documento. Desde «JubAp.US», el enlace «Luxury Group HR information-system rationalization and workforce capability architecture. Read the case study  ↗» abre «Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment».\nFuente de la relación: https://jubap.us/\n\n## Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment\n\nEtiquetas: Aprendizaje y transmisión de capacidades 7.69%; Capacidad humana y deuda de inteligencia 7.69%; Casos de uso y aplicaciones 19.23%; Empresa y gestión 34.62%; Representación y límites formales 7.69%; Transformación y continuidad operativa 23.08%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-study-luxury-group-hr-information-system-rationalization-smart-scheduling-u1312/\nDocumento de origen: https://jubap.us/luxury-group-hr-information-system-rationalization-smart-scheduling-capabilities-deployment/\n\nJubAp.US → Case Study: Texas-to-Mexico Oilfield Services Transformation: Knowledge Transfer, Industrialization, and Compliance · lectura enlazada desde el documento. Desde «JubAp.US», el enlace «Superior Performance Texas-to-Mexico knowledge transfer, operations integration and industrialization. Read the case study  ↗» abre «Case Study: Texas-to-Mexico Oilfield Services Transformation: Knowledge Transfer, Industrialization, and Compliance».\nFuente de la relación: https://jubap.us/\n\n## Case Study: Texas-to-Mexico Oilfield Services Transformation: Knowledge Transfer, Industrialization, and Compliance\n\nEtiquetas: Aprendizaje y transmisión de capacidades 6.67%; Autoridad, permisos y delegación 6.67%; Casos de uso y aplicaciones 16.67%; Decisiones y responsabilidad 10.00%; Empresa y gestión 16.66%; Experimentación, falsación y contraejemplos 16.66%; Memoria, comunidad y territorio 6.67%; Transformación y continuidad operativa 20.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-study-texas-to-mexico-oilfield-services-transformation-knowledge-transfer-u1317/\nDocumento de origen: https://jubap.us/case-study-texas-to-mexico-oilfield-services-transformation-knowledge-transfer-industrialization-and-compliance/\n\nJubAp.US → Case Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management · lectura enlazada desde el documento. Desde «JubAp.US», el enlace «Weatherford Multi-level supplier information, audit readiness and evidence architecture. Read the case study  ↗» abre «Case Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management».\nFuente de la relación: https://jubap.us/\n\n## Case Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management\n\nEtiquetas: Casos de uso y aplicaciones 23.81%; Empresa y gestión 61.90%; Evidencia, procedencia y atribución 14.29%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-study-weatherford-multi-level-information-management-for-oilfield-supplie-u1322/\nDocumento de origen: https://jubap.us/case-study-weatherford-multi-level-information-management-for-oilfield-supplier-management/\n\n"
+  "reading": "# Posicionamiento · JubAp.US\nDocumento de origen: https://jubap.us/\n\n## JubAp.US\nCarve-outs, post-merger integration, joint ventures and SPVs. Operating models that connect people, information and execution.\nEtiquetas: Aprendizaje y transmisión de capacidades 10.00%; Decisiones y responsabilidad 10.00%; Empresa y gestión 40.00%; Índices, contacto y políticas 5.00%; Transformación y continuidad operativa 35.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-us-u2/\nDocumento de origen: https://jubap.us/\n\nJubAp.US → Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment · lectura enlazada desde el documento. Desde «JubAp.US», el enlace «Luxury Group HR information-system rationalization and workforce capability architecture. Read the case study  ↗» abre «Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment».\nFuente de la relación: https://jubap.us/\n\n## Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment\nA leading global luxury group faced an emerging operational challenge in its Americas retail network: how to schedule boutique personnel intelligently against changing demand patterns while preserving Maison-specific service standards, labor compliance, employee fairness and operational continuity.\n\nAt first glance, the requirement appeared to be a relatively contained Smart Scheduling feature: matching retail staffing levels with customer traffic, transactions, appointments, opening and closing rules, tasks, zones and peak sales windows. However, the initial architecture assessment showed that the problem was significantly broader. Smart Scheduling was not an isolated workforce planning feature. It sat at the intersection of HRIS, Workday, Time & Attendance, payroll, forecasting, boutique operations, task management, employee experience, reporting and multi-Maison governance.log-explanation-hr-opportunities-3.docx+1\n\nThe group’s HR application landscape was already highly fragmented, with over 134 applications across 10 HR capabilities , and a rationalization analysis indicating a 13.4% elimination target , a 21.6% migration opportunity , and an annual savings potential estimated at $15–25M through consolidation and better portfolio governance. Within this landscape, Workforce Scheduling appeared as an underdeveloped capability, with only a handful of tools (e.g., Jooxter, AskCody, Calabrio, Maison-specific schedulers) documented against a much more complex operational reality.\n\nJubAp.us , Americas Virtual Rapid Deployment Unit of JubAp.net , supported J UBAP.eu —the independent Estonian enterprise transformation unit—in structuring the Smart Scheduling request as a regional architecture and rationalization pilot. The engagement reframed the initiative from a narrow scheduling feature into an operational intelligence and HRIS rationalization case , clarified the capability model, established a target deployment logic and prepared the initiative for scaled implementation.\nEtiquetas: Aprendizaje y transmisión de capacidades 5.26%; Capacidad humana y deuda de inteligencia 5.26%; Casos de uso y aplicaciones 13.16%; Empresa y gestión 39.48%; Representación y límites formales 5.26%; Transformación y continuidad operativa 31.58%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-study-luxury-group-hr-information-system-rationalization-smart-scheduling-u1312/\nDocumento de origen: https://jubap.us/luxury-group-hr-information-system-rationalization-smart-scheduling-capabilities-deployment/\n\n"
 }

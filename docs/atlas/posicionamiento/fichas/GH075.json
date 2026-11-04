@@ -12,6 +12,7 @@
     "research"
   ],
   "context": "## G-06 — Trazabilidad de las fuentes de Conscientia / ACC\n\nEtiquetas: Evidencia, procedencia y atribución 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/g-06-trazabilidad-de-las-fuentes-de-conscientia-acc-gh075/\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/9dc00e6d92d92f084198e9abc40daaa753747615/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1/G06_SOURCE_PROVENANCE_AUDIT.md\n\n",
+  "readingSource": null,
   "tokens": 156,
   "encoding": "o200k_base",
   "relations": [
@@ -24,6 +25,39 @@
       "reading": "",
       "relationTokens": 28,
       "fichaTokens": 276,
+      "tagWeights": {
+        "agentes": 0.0125,
+        "aprendizaje": 0.0053,
+        "autoridad": 0.0141,
+        "cambio-regimen": 0.0077,
+        "capacidad-humana": 0.0245,
+        "cartografia": 0.0367,
+        "casos": 0.0262,
+        "control-minimo": 0.0301,
+        "decision": 0.0464,
+        "documentacion": 0.0959,
+        "economia": 0.0531,
+        "empresa": 0.0947,
+        "estandares": 0.0013,
+        "evidencia": 0.3105,
+        "experimentacion": 0.029,
+        "matematicas": 0.0257,
+        "memoria-territorio": 0.0142,
+        "movilidad": 0.0697,
+        "mundo-abierto": 0.0101,
+        "representacion": 0.0099,
+        "transformacion": 0.0824
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "mobility",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C12.json"
     },
     {
@@ -35,6 +69,40 @@
       "reading": "",
       "relationTokens": 29,
       "fichaTokens": 289,
+      "tagWeights": {
+        "agentes": 0.0366,
+        "aprendizaje": 0.0258,
+        "autoridad": 0.0159,
+        "cambio-regimen": 0.027,
+        "capacidad-humana": 0.0643,
+        "cartografia": 0.0076,
+        "casos": 0.0219,
+        "control-minimo": 0.0231,
+        "decision": 0.0524,
+        "documentacion": 0.076,
+        "economia": 0.062,
+        "empresa": 0.0685,
+        "estandares": 0.0181,
+        "evidencia": 0.23,
+        "experimentacion": 0.0268,
+        "geopolitica": 0.0128,
+        "integridad-ia": 0.0075,
+        "matematicas": 0.0473,
+        "memoria-territorio": 0.04,
+        "movilidad": 0.0398,
+        "perspectiva": 0.0126,
+        "representacion": 0.0117,
+        "transformacion": 0.0723
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C69.json"
     },
     {
@@ -45,7 +113,15 @@
       "kind": "analogy only",
       "reading": "A source reference, a computational use and an attested review are different evidence states; each historical claim should name what was actually observed.",
       "relationTokens": 64,
-      "fichaTokens": 111,
+      "fichaTokens": 249,
+      "tagWeights": {
+        "evidencia": 0.7083,
+        "movilidad": 0.2917
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1876.json"
     }
   ]

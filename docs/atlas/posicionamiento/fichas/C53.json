@@ -12,20 +12,21 @@
     "GH049"
   ],
   "tagWeights": {
-    "aprendizaje": 0.0688,
-    "autoridad": 0.0954,
-    "casos": 0.081,
-    "control-minimo": 0.059,
-    "decision": 0.0619,
-    "documentacion": 0.0571,
-    "economia": 0.019,
-    "empresa": 0.1571,
-    "evidencia": 0.1107,
-    "experimentacion": 0.0867,
-    "integridad-ia": 0.0524,
+    "aprendizaje": 0.0632,
+    "autoridad": 0.0719,
+    "casos": 0.045,
+    "control-minimo": 0.0529,
+    "decision": 0.0447,
+    "documentacion": 0.1324,
+    "economia": 0.0129,
+    "empresa": 0.171,
+    "estandares": 0.04,
+    "evidencia": 0.1632,
+    "experimentacion": 0.0813,
+    "integridad-ia": 0.0462,
     "matematicas": 0.0067,
-    "memoria-territorio": 0.0133,
-    "transformacion": 0.1309
+    "memoria-territorio": 0.008,
+    "transformacion": 0.0606
   },
   "clusters": [
     "net",
@@ -33,8 +34,9 @@
     "tegrity",
     "us"
   ],
-  "context": "## Preparación de auditoría\nPrepare process evidence and response capability for a defined review.\nEtiquetas: Aprendizaje y transmisión de capacidades 6.88%; Autoridad, permisos y delegación 9.54%; Casos de uso y aplicaciones 8.10%; Control mínimo y suficiencia 5.90%; Decisiones y responsabilidad 6.19%; Investigación y documentación técnica 5.71%; Economía, costes y liquidez 1.90%; Empresa y gestión 15.71%; Evidencia, procedencia y atribución 11.07%; Experimentación, falsación y contraejemplos 8.67%; Integridad y seguridad de IA 5.24%; Matemáticas 0.67%; Memoria, comunidad y territorio 1.33%; Transformación y continuidad operativa 13.09%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/audit-readiness/\n\n",
-  "tokens": 192,
+  "context": "## Preparación de auditoría\nPrepare process evidence and response capability for a defined review.\nEtiquetas: Aprendizaje y transmisión de capacidades 6.32%; Autoridad, permisos y delegación 7.19%; Casos de uso y aplicaciones 4.50%; Control mínimo y suficiencia 5.29%; Decisiones y responsabilidad 4.47%; Investigación y documentación técnica 13.24%; Economía, costes y liquidez 1.29%; Empresa y gestión 17.10%; Estándares e interoperabilidad 4.00%; Evidencia, procedencia y atribución 16.32%; Experimentación, falsación y contraejemplos 8.13%; Integridad y seguridad de IA 4.62%; Matemáticas 0.67%; Memoria, comunidad y territorio 0.80%; Transformación y continuidad operativa 6.06%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/audit-readiness/\n\n",
+  "readingSource": null,
+  "tokens": 203,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -45,7 +47,21 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 162,
+      "fichaTokens": 261,
+      "tagWeights": {
+        "aprendizaje": 0.0645,
+        "autoridad": 0.1291,
+        "control-minimo": 0.0645,
+        "decision": 0.0968,
+        "documentacion": 0.3871,
+        "economia": 0.0645,
+        "evidencia": 0.129,
+        "integridad-ia": 0.0645
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2795.json"
     },
     {
@@ -56,7 +72,23 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 34,
-      "fichaTokens": 189,
+      "fichaTokens": 425,
+      "tagWeights": {
+        "aprendizaje": 0.08,
+        "autoridad": 0.04,
+        "casos": 0.1,
+        "decision": 0.06,
+        "documentacion": 0.1,
+        "empresa": 0.18,
+        "evidencia": 0.1,
+        "experimentacion": 0.14,
+        "memoria-territorio": 0.04,
+        "transformacion": 0.16
+      },
+      "clusters": [
+        "us"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1317.json"
     },
     {
@@ -67,7 +99,17 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 27,
-      "fichaTokens": 116,
+      "fichaTokens": 387,
+      "tagWeights": {
+        "casos": 0.125,
+        "documentacion": 0.175,
+        "empresa": 0.475,
+        "evidencia": 0.225
+      },
+      "clusters": [
+        "us"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1322.json"
     },
     {
@@ -78,7 +120,19 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 18,
-      "fichaTokens": 100,
+      "fichaTokens": 316,
+      "tagWeights": {
+        "aprendizaje": 0.1714,
+        "autoridad": 0.0571,
+        "empresa": 0.2,
+        "estandares": 0.2,
+        "evidencia": 0.2286,
+        "transformacion": 0.1429
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1276.json"
     },
     {
@@ -90,6 +144,19 @@
       "reading": "",
       "relationTokens": 36,
       "fichaTokens": 273,
+      "tagWeights": {
+        "autoridad": 0.1333,
+        "control-minimo": 0.2,
+        "decision": 0.0667,
+        "evidencia": 0.1333,
+        "experimentacion": 0.2667,
+        "integridad-ia": 0.1667,
+        "matematicas": 0.0333
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH049.json"
     },
     {
@@ -101,6 +168,32 @@
       "reading": "Readiness depends on evidence remaining valid and actionable within the operating decision window.",
       "relationTokens": 32,
       "fichaTokens": 219,
+      "tagWeights": {
+        "agentes": 0.0587,
+        "aprendizaje": 0.0207,
+        "autoridad": 0.0505,
+        "cambio-regimen": 0.044,
+        "casos": 0.0359,
+        "control-minimo": 0.0184,
+        "decision": 0.1647,
+        "documentacion": 0.1558,
+        "economia": 0.0999,
+        "empresa": 0.0257,
+        "evidencia": 0.093,
+        "experimentacion": 0.06,
+        "integridad-ia": 0.0092,
+        "memoria-territorio": 0.0242,
+        "movilidad": 0.1164,
+        "transformacion": 0.0229
+      },
+      "clusters": [
+        "mobility",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C43.json"
     },
     {
@@ -111,7 +204,31 @@
       "kind": "documented use",
       "reading": "The industrialization case describes quality-system and audit-readiness work that can illustrate observable maturity practices without claiming a certified maturity level.",
       "relationTokens": 41,
-      "fichaTokens": 191,
+      "fichaTokens": 211,
+      "tagWeights": {
+        "aprendizaje": 0.123,
+        "autoridad": 0.0215,
+        "capacidad-humana": 0.0797,
+        "casos": 0.022,
+        "control-minimo": 0.0238,
+        "decision": 0.0547,
+        "documentacion": 0.0167,
+        "economia": 0.0463,
+        "empresa": 0.1861,
+        "estandares": 0.0333,
+        "evidencia": 0.1587,
+        "experimentacion": 0.0623,
+        "memoria-territorio": 0.0374,
+        "movilidad": 0.0655,
+        "transformacion": 0.069
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C38.json"
     },
     {
@@ -122,7 +239,38 @@
       "kind": "candidate transfer",
       "reading": "Evidence reuse across audits should carry purpose, scope, version and access conditions, so a reusable record does not become an unrestricted or context-free assertion.",
       "relationTokens": 43,
-      "fichaTokens": 242,
+      "fichaTokens": 268,
+      "tagWeights": {
+        "agentes": 0.0111,
+        "aprendizaje": 0.0104,
+        "autoridad": 0.0306,
+        "cambio-regimen": 0.0667,
+        "cartografia": 0.0818,
+        "casos": 0.0083,
+        "control-minimo": 0.1085,
+        "decision": 0.0392,
+        "documentacion": 0.1045,
+        "economia": 0.0192,
+        "empresa": 0.1172,
+        "estandares": 0.0331,
+        "evidencia": 0.0453,
+        "experimentacion": 0.0203,
+        "integridad-ia": 0.062,
+        "matematicas": 0.0416,
+        "memoria-territorio": 0.015,
+        "movilidad": 0.0819,
+        "perspectiva": 0.0269,
+        "representacion": 0.0111,
+        "transformacion": 0.0653
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C15.json"
     },
     {
@@ -133,7 +281,42 @@
       "kind": "documented use",
       "reading": "A completed checklist is not a global sufficiency theorem; the requirement-conformance analysis preserves the exact implications that remain unclosed.",
       "relationTokens": 42,
-      "fichaTokens": 293,
+      "fichaTokens": 305,
+      "tagWeights": {
+        "agentes": 0.0368,
+        "aprendizaje": 0.0299,
+        "autoridad": 0.0248,
+        "cambio-regimen": 0.0034,
+        "capacidad-humana": 0.0064,
+        "cartografia": 0.0032,
+        "casos": 0.0305,
+        "control-minimo": 0.1626,
+        "decision": 0.1596,
+        "documentacion": 0.04,
+        "economia": 0.0684,
+        "empresa": 0.0823,
+        "evidencia": 0.0729,
+        "experimentacion": 0.0282,
+        "geopolitica": 0.006,
+        "integridad-ia": 0.0102,
+        "matematicas": 0.0223,
+        "memoria-territorio": 0.0111,
+        "movilidad": 0.0286,
+        "mundo-abierto": 0.036,
+        "navegacion": 0.0206,
+        "perspectiva": 0.0097,
+        "representacion": 0.0339,
+        "transformacion": 0.0726
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C25.json"
     },
     {
@@ -144,7 +327,17 @@
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 18,
-      "fichaTokens": 83,
+      "fichaTokens": 92,
+      "tagWeights": {
+        "casos": 0.125,
+        "documentacion": 0.175,
+        "empresa": 0.475,
+        "evidencia": 0.225
+      },
+      "clusters": [
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G52.json"
     }
   ]

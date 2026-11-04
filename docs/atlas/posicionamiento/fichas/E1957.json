@@ -6,13 +6,20 @@
   "documentId": "doc-c5df5cf8fc0687c3e6",
   "sourceIds": [],
   "tagWeights": {
-    "movilidad": 1.0
+    "agentes": 0.25,
+    "movilidad": 0.75
   },
   "clusters": [
     "mobility"
   ],
-  "context": "## Car Evolution Mobility OS – Materials\n\nEtiquetas: Movilidad e infraestructura 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-materials-e1957/\nDocumento de origen: https://jubap.eu/mobility/materials/\n\n",
-  "tokens": 64,
+  "context": "## Car Evolution Mobility OS – Materials\nCar Evolution is a Distributed Mobility Operating System / Mobility Control Center for authorities, campuses, fleets, operators and mobility ecosystems that need to coordinate existing capacity. The core product is the orchestration layer: demand and capacity modelling, policy-weighted scenarios, route and capacity planning, execution instructions, KPI tracking and affected-subspace replanning. User-facing, smart-contract, settlement and edge-agentic modules are treated as extensions around that core.\nEtiquetas: Agentes y coordinación distribuida 25.00%; Movilidad e infraestructura 75.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-materials-e1957/\nDocumento de origen: https://jubap.eu/mobility/materials/\n\n",
+  "readingSource": {
+    "url": "https://jubap.eu/mobility/materials/",
+    "section": "Opening paragraphs",
+    "observed": "2026-11-04",
+    "sourceSha256": "7557ae4fd56105eabd0d45c0ac3b9e8a88be479f4323501edfc1046b8355c3e1"
+  },
+  "tokens": 161,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,7 +30,19 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The complete product annex](https://jubap.eu/mobility/product/).",
       "relationTokens": 41,
-      "fichaTokens": 117,
+      "fichaTokens": 210,
+      "tagWeights": {
+        "agentes": 0.1111,
+        "autoridad": 0.0556,
+        "decision": 0.1389,
+        "documentacion": 0.1944,
+        "memoria-territorio": 0.0556,
+        "movilidad": 0.4444
+      },
+      "clusters": [
+        "mobility"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1954.json"
     }
   ]

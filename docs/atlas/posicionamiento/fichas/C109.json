@@ -10,19 +10,22 @@
   ],
   "tagWeights": {
     "autoridad": 0.1364,
-    "decision": 0.2031,
-    "economia": 0.0667,
-    "empresa": 0.0667,
-    "evidencia": 0.1333,
-    "memoria-territorio": 0.2363,
-    "transformacion": 0.1575
+    "decision": 0.1935,
+    "economia": 0.0857,
+    "empresa": 0.0857,
+    "evidencia": 0.0572,
+    "experimentacion": 0.0715,
+    "memoria-territorio": 0.1792,
+    "movilidad": 0.0714,
+    "transformacion": 0.1194
   },
   "clusters": [
     "latinoempresa",
     "us"
   ],
-  "context": "## Doble inserción operativa de portadores\nPeople or networks operating in two settings can sustain translation and continuity.\nEtiquetas: Autoridad, permisos y delegación 13.64%; Decisiones y responsabilidad 20.31%; Economía, costes y liquidez 6.67%; Empresa y gestión 6.67%; Evidencia, procedencia y atribución 13.33%; Memoria, comunidad y territorio 23.63%; Transformación y continuidad operativa 15.75%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/dual-operational-embeddedness/\n\n",
-  "tokens": 126,
+  "context": "## Doble inserción operativa de portadores\nPeople or networks operating in two settings can sustain translation and continuity.\nEtiquetas: Autoridad, permisos y delegación 13.64%; Decisiones y responsabilidad 19.35%; Economía, costes y liquidez 8.57%; Empresa y gestión 8.57%; Evidencia, procedencia y atribución 5.72%; Experimentación, falsación y contraejemplos 7.15%; Memoria, comunidad y territorio 17.92%; Movilidad e infraestructura 7.14%; Transformación y continuidad operativa 11.94%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/dual-operational-embeddedness/\n\n",
+  "readingSource": null,
+  "tokens": 150,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -34,6 +37,16 @@
       "reading": "",
       "relationTokens": 32,
       "fichaTokens": 149,
+      "tagWeights": {
+        "autoridad": 0.2728,
+        "decision": 0.2727,
+        "memoria-territorio": 0.2727,
+        "transformacion": 0.1818
+      },
+      "clusters": [
+        "latinoempresa"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/L006.json"
     },
     {
@@ -44,7 +57,21 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 32,
-      "fichaTokens": 151,
+      "fichaTokens": 447,
+      "tagWeights": {
+        "decision": 0.1143,
+        "economia": 0.1714,
+        "empresa": 0.1714,
+        "evidencia": 0.1143,
+        "experimentacion": 0.1429,
+        "memoria-territorio": 0.0857,
+        "movilidad": 0.1429,
+        "transformacion": 0.0571
+      },
+      "clusters": [
+        "us"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1496.json"
     },
     {
@@ -56,6 +83,40 @@
       "reading": "The industrial-corridor account offers a way to examine dual embeddedness through actual translation of operating requirements, rather than geography alone.",
       "relationTokens": 44,
       "fichaTokens": 290,
+      "tagWeights": {
+        "agentes": 0.0183,
+        "aprendizaje": 0.0053,
+        "autoridad": 0.0461,
+        "cambio-regimen": 0.0036,
+        "capacidad-humana": 0.0399,
+        "cartografia": 0.0464,
+        "casos": 0.0296,
+        "control-minimo": 0.0076,
+        "decision": 0.0811,
+        "documentacion": 0.0536,
+        "economia": 0.026,
+        "empresa": 0.1099,
+        "estandares": 0.0253,
+        "evidencia": 0.0714,
+        "experimentacion": 0.0571,
+        "geopolitica": 0.0371,
+        "matematicas": 0.0072,
+        "memoria-territorio": 0.0662,
+        "movilidad": 0.0525,
+        "mundo-abierto": 0.0139,
+        "perspectiva": 0.0022,
+        "representacion": 0.0222,
+        "transformacion": 0.1775
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C57.json"
     }
   ]

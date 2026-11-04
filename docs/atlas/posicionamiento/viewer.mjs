@@ -8,7 +8,7 @@ const svg=(tag,attrs)=>{const n=document.createElementNS(ns,tag);for(const[k,v]o
 function link(url,label){const a=element('a',label);a.href=url;return a;}
 const type=n=>n.type==='ficha'?'Ficha':n.type==='concepto'?'Concepto':'Documento de origen';
 async function start(){
- const response=await fetch('../mapa/grafo.json?v=posicionamiento-1');if(!response.ok)throw Error('El Atlas no está disponible ahora.');const graph=await response.json();
+ const response=await fetch('../mapa/grafo.json?v=posicionamiento-2');if(!response.ok)throw Error('El Atlas no está disponible ahora.');const graph=await response.json();
  const all=new Map(graph.nodes.map(n=>[n.id,n])),labels=new Map(Object.entries(graph.topics).map(([k,v])=>['tema:'+k,v]));
  for(const[k,v]of Object.entries(graph.clusters))labels.set('cluster:'+k,v);
  for(const[k,v]of Object.entries(graph.voices))labels.set('voz:'+k,v.label);
@@ -33,7 +33,7 @@ async function start(){
  get('mode').addEventListener('change',bridges);get('site').addEventListener('change',bridges);
  const mapURL=(r,embed=false)=>{const u=new URL('./',location.href);u.search=positionParams(r);if(embed)u.searchParams.set('embed','1');return u;};
  function inspect(id){
-  selected=id;const n=byId.get(id);get('node-meta').textContent=type(n)+' · '+(n.distance===0?'posicionamiento':n.distance===1?'una conexión desde el documento':n.distance+' conexiones desde el documento');get('node-title').textContent=n.title;get('node-summary').textContent=n.summary;
+  selected=id;const n=byId.get(id);get('node-meta').textContent=type(n)+' · '+(n.distance===0?'posicionamiento':n.distance===1?'una conexión desde el documento':n.distance+' conexiones desde el documento');get('node-title').textContent=n.title;get('node-summary').textContent=n.summary||n.readingSummary||'';
   get('composition').replaceChildren();get('profile-title').hidden=!Object.keys(n.tagWeights??{}).length;
   for(const[k,w]of Object.entries(n.tagWeights??{}).sort((a,b)=>b[1]-a[1])){const row=element('div');row.className='composition-row';const bar=element('progress');bar.max=1;bar.value=w;bar.setAttribute('aria-label',graph.topics[k]+' '+percent.format(w));row.append(element('span',graph.topics[k]),element('strong',percent.format(w)),bar);get('composition').append(row);}
   const next=new URL('./',location.href);const p=positionParams(result.request);p.set('posicionamiento',n.type==='documento'?result.position.url:n.id);next.search=p;

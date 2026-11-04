@@ -20,6 +20,7 @@
     "dialogos"
   ],
   "context": "## Poder, innovación y agotamiento de sentido\nTensión entre tecnologías nacidas dentro de un orden, miedo a las condiciones que crean, capacidad de controlar interfaces y erosión de la misión declarada.\nEtiquetas: Autoridad, permisos y delegación 25.00%; Economía, costes y liquidez 8.34%; Geopolítica y fronteras 45.83%; Integridad y seguridad de IA 20.83%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-imperial_contradiction\n\n",
+  "readingSource": null,
   "tokens": 117,
   "encoding": "o200k_base",
   "relations": [
@@ -32,6 +33,14 @@
       "reading": "",
       "relationTokens": 27,
       "fichaTokens": 443,
+      "tagWeights": {
+        "geopolitica": 0.5,
+        "integridad-ia": 0.5
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-209.json"
     },
     {
@@ -43,6 +52,13 @@
       "reading": "",
       "relationTokens": 28,
       "fichaTokens": 413,
+      "tagWeights": {
+        "geopolitica": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-210.json"
     },
     {
@@ -54,6 +70,13 @@
       "reading": "",
       "relationTokens": 27,
       "fichaTokens": 407,
+      "tagWeights": {
+        "autoridad": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-211.json"
     },
     {
@@ -65,6 +88,15 @@
       "reading": "",
       "relationTokens": 32,
       "fichaTokens": 410,
+      "tagWeights": {
+        "economia": 0.3334,
+        "geopolitica": 0.3333,
+        "integridad-ia": 0.3333
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-212.json"
     },
     {
@@ -76,6 +108,20 @@
       "reading": "Poder material e incapacidad para reconocer su misión pueden coexistir.",
       "relationTokens": 36,
       "fichaTokens": 138,
+      "tagWeights": {
+        "aprendizaje": 0.0333,
+        "casos": 0.0133,
+        "decision": 0.0738,
+        "economia": 0.1625,
+        "geopolitica": 0.5235,
+        "integridad-ia": 0.0556,
+        "memoria-territorio": 0.1026,
+        "transformacion": 0.0354
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-geopolitics.json"
     },
     {
@@ -87,6 +133,25 @@
       "reading": "El conocimiento innovador emerge también lejos del centro del poder.",
       "relationTokens": 40,
       "fichaTokens": 204,
+      "tagWeights": {
+        "aprendizaje": 0.0299,
+        "capacidad-humana": 0.0091,
+        "decision": 0.1539,
+        "documentacion": 0.0181,
+        "economia": 0.2051,
+        "empresa": 0.1068,
+        "evidencia": 0.0192,
+        "experimentacion": 0.1154,
+        "geopolitica": 0.0897,
+        "integridad-ia": 0.0385,
+        "memoria-territorio": 0.1395,
+        "perspectiva": 0.0449,
+        "transformacion": 0.0299
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-culture.json"
     },
     {
@@ -98,6 +163,18 @@
       "reading": "La tecnología propia puede alterar el orden que la hizo posible.",
       "relationTokens": 37,
       "fichaTokens": 121,
+      "tagWeights": {
+        "decision": 0.1843,
+        "economia": 0.0758,
+        "evidencia": 0.0606,
+        "geopolitica": 0.0757,
+        "integridad-ia": 0.5581,
+        "memoria-territorio": 0.0455
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-risk.json"
     },
     {
@@ -109,6 +186,16 @@
       "reading": "Dominar la interfaz no resuelve la pérdida de sentido.",
       "relationTokens": 35,
       "fichaTokens": 106,
+      "tagWeights": {
+        "aprendizaje": 0.1667,
+        "autoridad": 0.5417,
+        "economia": 0.1666,
+        "estandares": 0.125
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-civilization_interface.json"
     },
     {
@@ -120,6 +207,18 @@
       "reading": "Sostener un propósito exige aceptar sus costes y contradicciones.",
       "relationTokens": 39,
       "fichaTokens": 122,
+      "tagWeights": {
+        "aprendizaje": 0.0833,
+        "decision": 0.25,
+        "estandares": 0.1667,
+        "geopolitica": 0.25,
+        "memoria-territorio": 0.1072,
+        "transformacion": 0.1428
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-mission.json"
     },
     {
@@ -131,6 +230,30 @@
       "reading": "La coacción indirecta tiene trazas distintas de la violencia de supervivencia.",
       "relationTokens": 38,
       "fichaTokens": 239,
+      "tagWeights": {
+        "aprendizaje": 0.0689,
+        "autoridad": 0.0119,
+        "capacidad-humana": 0.0161,
+        "casos": 0.0204,
+        "control-minimo": 0.0108,
+        "decision": 0.1092,
+        "economia": 0.5189,
+        "empresa": 0.032,
+        "estandares": 0.0095,
+        "evidencia": 0.0095,
+        "geopolitica": 0.0766,
+        "integridad-ia": 0.0331,
+        "matematicas": 0.0149,
+        "memoria-territorio": 0.0143,
+        "movilidad": 0.0142,
+        "perspectiva": 0.0119,
+        "representacion": 0.0159,
+        "transformacion": 0.0119
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-economy.json"
     },
     {
@@ -142,6 +265,17 @@
       "reading": "La legitimación interior permite que una interfaz gobierne sin orden expresa.",
       "relationTokens": 39,
       "fichaTokens": 120,
+      "tagWeights": {
+        "aprendizaje": 0.2084,
+        "autoridad": 0.2083,
+        "economia": 0.0833,
+        "integridad-ia": 0.25,
+        "perspectiva": 0.25
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-internalized_control.json"
     }
   ]

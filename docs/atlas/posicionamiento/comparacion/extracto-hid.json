@@ -1,0 +1,54 @@
+{
+  "case": "C2",
+  "question": "¿Cómo distinguir una contribución humana que crea información del trabajo que compensa una arquitectura fragmentada? Explica cómo usar esa distinción para decidir una mejora y relaciónala con otra pieza del corpus.",
+  "scope": "Prueba ciega. Respuestas basadas exclusivamente en el contenido de cada paquete y en los enlaces allí presentes, sin abrirlos. Se leyó readme_bots.md como instrucción del proyecto. No se consultó memoria ni otras fuentes.",
+  "answers": {
+    "X": {
+      "text": "La distinción exige comparar el trabajo actual con un entorno ideal: datos capturados una sola vez, tecnología adecuada a su época, gobierno transparente y un flujo operativo comprendido. Según [Human Intelligence Debt](https://tegrity.ai/human-intelligence-debt/), crea información la intervención humana cuyo resultado no puede inferirse, generarse o transformarse mediante las mejores capacidades sociotécnicas disponibles. En cambio, duplicar operaciones o reconciliar sistemas fragmentados puede compensar defectos de arquitectura.\n\nPara decidir una mejora, declararía primero el objeto, la población y el denominador. Después compararía la proporción actual de operadores que aportan información genuina —HICR— con el objetivo ideal —HICT—. La brecha orienta dónde reducir trabajo mecanizable; no constituye por sí sola una medición empírica validada.\n\nEl [Annex 01K](https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/GH037.html) añade otra comprobación: que una persona autorizada pueda intervenir a tiempo y con información suficiente. Por ello, evaluaría una integración tanto por el trabajo compensatorio que elimina como por la capacidad de intervención que conserva. Son preguntas con unidades distintas. El paquete presenta Harvester como notas de campo anteriores a la validación empírica, de modo que esta propuesta sigue siendo una orientación conceptual.",
+      "word_count": 176
+    },
+    "Y": {
+      "text": "Con Y, identificaría como candidato a trabajo compensatorio el esfuerzo humano recurrente que sostiene una operación por una brecha remediable: ese es el mecanismo explícito en la [ficha de HID](https://dakleyer.github.io/perspective-beyond/concepts/human-intelligence-debt/). El paquete no desarrolla el criterio positivo de creación de información ni aporta las definiciones cuantitativas del documento principal; no permite calcular una deuda con precisión.\n\nComo propuesta de mejora, observaría qué trabajo desaparecería al corregir una brecha y qué capacidad humana seguiría siendo necesaria. Declararía objeto, población y denominador antes de medir. No usaría el número de aplicaciones como prueba de fragmentación: el vínculo entre la suite y Harvester advierte expresamente que son arquitecturas diferentes.\n\nRelacionaría esa decisión con [La experiencia que nunca se escribió](https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-059): su lectura editorial describe saberes para reconocer anomalías y anticipar fallos que pueden quedar fuera del inventario formal. Esto permite preguntar si una mejora recupera capacidad para excepciones, además de liberar horas. La transferencia desde conocimiento tácito aparece como candidata, no como resultado demostrado; el anexo exige además distinguir esa capacidad oportuna del juicio consumido por la arquitectura.",
+      "word_count": 174
+    }
+  },
+  "evaluation": {
+    "scale": "0 = ausente o inutilizable; 1 = muy insuficiente; 2 = parcial; 3 = suficiente con límites; 4 = sólido para responder la pregunta con el material suministrado. Se puntúa la utilidad del paquete, no la validez externa de sus tesis.",
+    "X": {
+      "scores": {
+        "mecanismo": 4,
+        "cobertura": 4,
+        "apoyo_en_fuentes": 4,
+        "fluidez": 3,
+        "precision_de_atribucion_y_cronologia": 4
+      },
+      "total": 19,
+      "reasons": {
+        "mecanismo": "Explica el contrafactual operativo, la captura única, el límite tecnológico de la época y las definiciones HICR/HICT/HID. Permite separar creación de información y absorción arquitectónica de trabajo mecanizable.",
+        "cobertura": "Cubre la distinción, una decisión de mejora, la declaración de población y denominador y la conexión con intervención humana autorizada y oportuna.",
+        "apoyo_en_fuentes": "Incluye extractos sustantivos del documento principal y de piezas relacionadas, junto con enlaces de origen. El apoyo se limita a lo efectivamente reproducido; no se verificaron las páginas.",
+        "fluidez": "El hilo conceptual es suficiente, aunque las etiquetas porcentuales, repeticiones de enlaces y algunos encabezados con poco contenido interrumpen la lectura.",
+        "precision_de_atribucion_y_cronologia": "Distingue referencias de fuente, comparación editorial y transferencia candidata; Harvester declara su carácter de notas de campo anterior a validación empírica. Los enlaces a revisiones concretas permiten conservar atribuciones sin inferir una cronología no suministrada."
+      }
+    },
+    "Y": {
+      "scores": {
+        "mecanismo": 2,
+        "cobertura": 3,
+        "apoyo_en_fuentes": 2,
+        "fluidez": 3,
+        "precision_de_atribucion_y_cronologia": 4
+      },
+      "total": 14,
+      "reasons": {
+        "mecanismo": "Explicita brechas remediables y trabajo recurrente, pero el cuerpo del documento principal está vacío. No reproduce el criterio de creación de información ni las definiciones de los indicadores.",
+        "cobertura": "Permite proponer una observación acotada y relacionarla con capacidad oportuna y conocimiento tácito; la distinción principal queda incompleta.",
+        "apoyo_en_fuentes": "Aporta enlaces y algunos extractos útiles, pero varias piezas centrales aparecen solo como títulos, etiquetas o relaciones. Los enlaces sin abrir no suplen el contenido ausente.",
+        "fluidez": "La advertencia sobre contar aplicaciones y la pieza editorial ayudan, aunque los encabezados vacíos y el salto a la experiencia tácita debilitan la continuidad del argumento.",
+        "precision_de_atribucion_y_cronologia": "Los rótulos de analogía, transferencia candidata y lectura editorial acotan las atribuciones. El 10 de junio de 2026 se atribuye a una conversación; no lo trato como fecha de publicación. El 2019 del título tampoco prueba una fecha editorial."
+      }
+    },
+    "preference": "X",
+    "concrete_information_that_helped": "El entorno ideal con captura única, el criterio relativo a las mejores capacidades sociotécnicas de la época y las definiciones HICR/HICT/HID hicieron posible explicar el mecanismo y orientar una mejora sin completar vacíos con conocimiento externo. Annex 01K permitió distinguir reducción del trabajo compensatorio y disponibilidad de una persona autorizada con información suficiente. Y añadió una buena cautela sobre el número de aplicaciones y una conexión con conocimiento tácito, pero no compensó la falta del núcleo definitorio."
+  }
+}

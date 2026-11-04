@@ -10,23 +10,24 @@
     "L003"
   ],
   "tagWeights": {
-    "autoridad": 0.0815,
+    "autoridad": 0.0617,
     "capacidad-humana": 0.0185,
-    "cartografia": 0.1482,
+    "cartografia": 0.1481,
     "control-minimo": 0.0926,
-    "decision": 0.2482,
-    "economia": 0.0444,
-    "empresa": 0.0444,
-    "evidencia": 0.0444,
+    "decision": 0.3025,
+    "economia": 0.0247,
+    "empresa": 0.0247,
+    "evidencia": 0.0247,
     "memoria-territorio": 0.1667,
-    "transformacion": 0.1111
+    "transformacion": 0.1358
   },
   "clusters": [
     "latinoempresa",
     "net",
     "research"
   ],
-  "context": "## Compresión y expansión de la intervención\nOpening options, focused execution and organisational absorption need different structures.\nEtiquetas: Autoridad, permisos y delegación 8.15%; Capacidad humana y deuda de inteligencia 1.85%; Cartografía y señales de ecosistema 14.82%; Control mínimo y suficiencia 9.26%; Decisiones y responsabilidad 24.82%; Economía, costes y liquidez 4.44%; Empresa y gestión 4.44%; Evidencia, procedencia y atribución 4.44%; Memoria, comunidad y territorio 16.67%; Transformación y continuidad operativa 11.11%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/intervention-compression-and-expansion/\n\n",
+  "context": "## Compresión y expansión de la intervención\nOpening options, focused execution and organisational absorption need different structures.\nEtiquetas: Autoridad, permisos y delegación 6.17%; Capacidad humana y deuda de inteligencia 1.85%; Cartografía y señales de ecosistema 14.81%; Control mínimo y suficiencia 9.26%; Decisiones y responsabilidad 30.25%; Economía, costes y liquidez 2.47%; Empresa y gestión 2.47%; Evidencia, procedencia y atribución 2.47%; Memoria, comunidad y territorio 16.67%; Transformación y continuidad operativa 13.58%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/intervention-compression-and-expansion/\n\n",
+  "readingSource": null,
   "tokens": 157,
   "encoding": "o200k_base",
   "relations": [
@@ -39,6 +40,17 @@
       "reading": "",
       "relationTokens": 35,
       "fichaTokens": 205,
+      "tagWeights": {
+        "autoridad": 0.1111,
+        "capacidad-humana": 0.0556,
+        "cartografia": 0.4444,
+        "control-minimo": 0.2778,
+        "decision": 0.1111
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH024.json"
     },
     {
@@ -49,7 +61,19 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 115,
+      "fichaTokens": 297,
+      "tagWeights": {
+        "autoridad": 0.0741,
+        "decision": 0.2963,
+        "economia": 0.0741,
+        "empresa": 0.0741,
+        "evidencia": 0.074,
+        "transformacion": 0.4074
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1292.json"
     },
     {
@@ -61,6 +85,14 @@
       "reading": "",
       "relationTokens": 29,
       "fichaTokens": 107,
+      "tagWeights": {
+        "decision": 0.5,
+        "memoria-territorio": 0.5
+      },
+      "clusters": [
+        "latinoempresa"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/L003.json"
     },
     {
@@ -71,7 +103,29 @@
       "kind": "analogy only",
       "reading": "The frontier cycle raises a governance question for compression and expansion: how can scaling retain the ability to explore without treating every expansion as extraction?",
       "relationTokens": 47,
-      "fichaTokens": 158,
+      "fichaTokens": 182,
+      "tagWeights": {
+        "aprendizaje": 0.0655,
+        "autoridad": 0.032,
+        "capacidad-humana": 0.0803,
+        "casos": 0.0167,
+        "decision": 0.1967,
+        "economia": 0.0527,
+        "empresa": 0.1165,
+        "evidencia": 0.0871,
+        "experimentacion": 0.0214,
+        "memoria-territorio": 0.1672,
+        "movilidad": 0.049,
+        "transformacion": 0.1149
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "net",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C106.json"
     },
     {
@@ -82,7 +136,40 @@
       "kind": "analogy only",
       "reading": "Phase changes can be reviewed as role and mandate transitions, distinguishing permitted realignment from a new objective or contract.",
       "relationTokens": 38,
-      "fichaTokens": 262,
+      "fichaTokens": 273,
+      "tagWeights": {
+        "agentes": 0.0434,
+        "aprendizaje": 0.0079,
+        "autoridad": 0.1478,
+        "capacidad-humana": 0.018,
+        "cartografia": 0.0148,
+        "casos": 0.0271,
+        "control-minimo": 0.0436,
+        "decision": 0.1698,
+        "documentacion": 0.0784,
+        "economia": 0.0334,
+        "empresa": 0.112,
+        "estandares": 0.0063,
+        "evidencia": 0.0528,
+        "experimentacion": 0.0371,
+        "geopolitica": 0.0013,
+        "integridad-ia": 0.0373,
+        "memoria-territorio": 0.0241,
+        "movilidad": 0.0392,
+        "perspectiva": 0.0068,
+        "representacion": 0.0025,
+        "transformacion": 0.0964
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "mobility",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C26.json"
     }
   ]

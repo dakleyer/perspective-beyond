@@ -17,6 +17,7 @@
     "dialogos"
   ],
   "context": "## Exclusión por omisión de interlocución\nUn marco de investigación puede mantener ciertas preguntas invisibles cuando no les concede examen, revisión o respuesta.\nEtiquetas: Autoridad, permisos y delegación 50.00%; Evidencia, procedencia y atribución 11.11%; Memoria, comunidad y territorio 38.89%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-epistemic_silence\n\n",
+  "readingSource": null,
   "tokens": 98,
   "encoding": "o200k_base",
   "relations": [
@@ -29,6 +30,13 @@
       "reading": "",
       "relationTokens": 29,
       "fichaTokens": 408,
+      "tagWeights": {
+        "autoridad": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-258.json"
     },
     {
@@ -40,6 +48,14 @@
       "reading": "",
       "relationTokens": 28,
       "fichaTokens": 393,
+      "tagWeights": {
+        "evidencia": 0.2222,
+        "memoria-territorio": 0.7778
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-268.json"
     },
     {
@@ -51,6 +67,31 @@
       "reading": "El silencio social no es una refutación.",
       "relationTokens": 38,
       "fichaTokens": 258,
+      "tagWeights": {
+        "aprendizaje": 0.2354,
+        "autoridad": 0.0588,
+        "casos": 0.0162,
+        "control-minimo": 0.0103,
+        "decision": 0.157,
+        "documentacion": 0.0114,
+        "economia": 0.0507,
+        "empresa": 0.0151,
+        "espiritualidad": 0.025,
+        "estandares": 0.0142,
+        "evidencia": 0.0076,
+        "experimentacion": 0.0418,
+        "geopolitica": 0.0057,
+        "integridad-ia": 0.0284,
+        "matematicas": 0.169,
+        "memoria-territorio": 0.0227,
+        "mundo-abierto": 0.0057,
+        "perspectiva": 0.1023,
+        "transformacion": 0.0227
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-doubt.json"
     },
     {
@@ -62,6 +103,20 @@
       "reading": "La crítica debe permitir interlocución y rectificación.",
       "relationTokens": 39,
       "fichaTokens": 150,
+      "tagWeights": {
+        "aprendizaje": 0.0556,
+        "autoridad": 0.3333,
+        "decision": 0.0833,
+        "empresa": 0.0556,
+        "evidencia": 0.15,
+        "experimentacion": 0.1667,
+        "memoria-territorio": 0.1,
+        "transformacion": 0.0555
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-research_dialogue.json"
     },
     {
@@ -73,6 +128,30 @@
       "reading": "Comités y filtros ejercen selección y necesitan criterios claros.",
       "relationTokens": 37,
       "fichaTokens": 254,
+      "tagWeights": {
+        "aprendizaje": 0.034,
+        "autoridad": 0.4256,
+        "capacidad-humana": 0.0104,
+        "casos": 0.0027,
+        "decision": 0.1415,
+        "documentacion": 0.0128,
+        "economia": 0.0465,
+        "empresa": 0.053,
+        "espiritualidad": 0.0099,
+        "estandares": 0.0467,
+        "evidencia": 0.0256,
+        "experimentacion": 0.0128,
+        "geopolitica": 0.0262,
+        "matematicas": 0.0064,
+        "memoria-territorio": 0.0945,
+        "movilidad": 0.0051,
+        "representacion": 0.0143,
+        "transformacion": 0.032
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-governance.json"
     },
     {
@@ -84,6 +163,14 @@
       "reading": "Las fronteras de investigación pueden dejar preguntas fuera.",
       "relationTokens": 38,
       "fichaTokens": 87,
+      "tagWeights": {
+        "experimentacion": 0.3125,
+        "matematicas": 0.6875
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-axiom_reversal.json"
     },
     {
@@ -95,6 +182,16 @@
       "reading": "Si no hay fuente, bot debe señalar ausencia y no inventar.",
       "relationTokens": 42,
       "fichaTokens": 104,
+      "tagWeights": {
+        "empresa": 0.25,
+        "evidencia": 0.2361,
+        "memoria-territorio": 0.3889,
+        "perspectiva": 0.125
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-constellation_protocol.json"
     },
     {
@@ -106,6 +203,13 @@
       "reading": "Las ideas pueden quedar sin interlocutor.",
       "relationTokens": 36,
       "fichaTokens": 71,
+      "tagWeights": {
+        "decision": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-unheard_evidence.json"
     }
   ]

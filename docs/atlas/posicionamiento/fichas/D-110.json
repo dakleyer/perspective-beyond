@@ -14,6 +14,7 @@
     "dialogos"
   ],
   "context": "## El valor de elegir entre escenarios casi eficientes\nINTERLOCUTOR (pregunta editorial) — ¿Qué ocurre cuando puntualidad, ocupación, trasbordos, combustible y preferencias no admiten una única solución mejor?\nLECTURA DEL DIÁLOGO (síntesis editorial) — En xSeil el compromiso con el pasajero nacía antes de conocer toda la demanda del día: un billete vendido fijaba hora y punto de recogida, mientras vehículos, reservas y condiciones cambiaban. La arquitectura reconstruida por Iván no perseguía una ruta óptima única. Conservaba memoria de secuencias viables, aplicaba restricciones duras —capacidad, horarios, grupos indivisibles, transbordos permitidos— y comparaba escenarios que priorizaban de modo diferente puntualidad, ocupación, servicios directos, uso de flota y tiempo. Los responsables elegían el compromiso aceptable; después, cada asignación modificaba el estado y obligaba a recalcular las oportunidades restantes. Hojas de ruta dinámicas, datos de campo y reparación acotada cerraban el ciclo entre cálculo y ejecución. El punto intelectual no es pronunciar «Pareto», sino conservar la gobernanza humana de objetivos incompatibles dentro de una computación iterativa, con límites operativos reales y evidencia técnica histórica.\nEtiquetas: Casos de uso y aplicaciones 54.55%; Decisiones y responsabilidad 27.27%; Matemáticas 18.18%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-110\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-110.html\n\n",
+  "readingSource": null,
   "tokens": 350,
   "encoding": "o200k_base",
   "relations": [
@@ -26,6 +27,24 @@
       "reading": "",
       "relationTokens": 20,
       "fichaTokens": 177,
+      "tagWeights": {
+        "aprendizaje": 0.1144,
+        "autoridad": 0.0109,
+        "cambio-regimen": 0.0198,
+        "casos": 0.0531,
+        "decision": 0.1278,
+        "documentacion": 0.0217,
+        "economia": 0.0163,
+        "experimentacion": 0.0582,
+        "matematicas": 0.5204,
+        "movilidad": 0.0248,
+        "mundo-abierto": 0.0109,
+        "representacion": 0.0217
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-math.json"
     },
     {
@@ -37,6 +56,24 @@
       "reading": "",
       "relationTokens": 20,
       "fichaTokens": 169,
+      "tagWeights": {
+        "aprendizaje": 0.0486,
+        "autoridad": 0.0059,
+        "casos": 0.2265,
+        "control-minimo": 0.0253,
+        "decision": 0.3175,
+        "economia": 0.0862,
+        "empresa": 0.0741,
+        "estandares": 0.0222,
+        "geopolitica": 0.0111,
+        "matematicas": 0.0615,
+        "movilidad": 0.0904,
+        "transformacion": 0.0307
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-decision.json"
     },
     {
@@ -48,6 +85,27 @@
       "reading": "",
       "relationTokens": 19,
       "fichaTokens": 208,
+      "tagWeights": {
+        "aprendizaje": 0.0939,
+        "autoridad": 0.0359,
+        "capacidad-humana": 0.0248,
+        "casos": 0.0239,
+        "decision": 0.4177,
+        "economia": 0.0414,
+        "empresa": 0.0205,
+        "espiritualidad": 0.0152,
+        "experimentacion": 0.005,
+        "geopolitica": 0.0917,
+        "integridad-ia": 0.0446,
+        "matematicas": 0.0131,
+        "memoria-territorio": 0.1218,
+        "perspectiva": 0.0152,
+        "transformacion": 0.0353
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-care.json"
     },
     {
@@ -59,6 +117,16 @@
       "reading": "La lectura enlaza «El valor de elegir entre escenarios casi eficientes» con «xSeil: mostrar alternativas, no una orden». Permite contrastar Decisiones entre escenarios, Pensamiento matemático.",
       "relationTokens": 66,
       "fichaTokens": 546,
+      "tagWeights": {
+        "casos": 0.1429,
+        "decision": 0.1429,
+        "matematicas": 0.1428,
+        "movilidad": 0.5714
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-052.json"
     },
     {
@@ -70,6 +138,15 @@
       "reading": "La lectura enlaza «El valor de elegir entre escenarios casi eficientes» con «La responsabilidad humana en la optimización». Permite contrastar Decisiones entre escenarios, Responsabilidad humana.",
       "relationTokens": 59,
       "fichaTokens": 492,
+      "tagWeights": {
+        "casos": 0.125,
+        "decision": 0.625,
+        "matematicas": 0.25
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-053.json"
     },
     {
@@ -81,6 +158,15 @@
       "reading": "La lectura enlaza «Una promesa de movilidad empieza a existir cuando tiene horarios» con «El valor de elegir entre escenarios casi eficientes». Permite contrastar Decisiones entre escenarios.",
       "relationTokens": 63,
       "fichaTokens": 361,
+      "tagWeights": {
+        "casos": 0.2,
+        "decision": 0.3,
+        "movilidad": 0.5
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-182.json"
     },
     {
@@ -92,6 +178,15 @@
       "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Responsabilidad humana desde las situaciones que describe cada texto.",
       "relationTokens": 42,
       "fichaTokens": 447,
+      "tagWeights": {
+        "casos": 0.1177,
+        "decision": 0.5882,
+        "economia": 0.2941
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-064.json"
     },
     {
@@ -103,6 +198,15 @@
       "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Pensamiento matemático desde las situaciones que describe cada texto.",
       "relationTokens": 52,
       "fichaTokens": 322,
+      "tagWeights": {
+        "casos": 0.3334,
+        "decision": 0.3333,
+        "matematicas": 0.3333
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-096.json"
     },
     {
@@ -114,6 +218,15 @@
       "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Pensamiento matemático desde las situaciones que describe cada texto.",
       "relationTokens": 48,
       "fichaTokens": 298,
+      "tagWeights": {
+        "casos": 0.2,
+        "decision": 0.6,
+        "matematicas": 0.2
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-097.json"
     }
   ]

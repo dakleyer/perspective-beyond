@@ -14,6 +14,7 @@
     "dialogos"
   ],
   "context": "## El supervisor humano no es barato porque solo revise dos casillas\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Por qué una verificación de entrada aparentemente simple puede esconder una tarea de discriminación enorme?\nREFLEXIÓN DEL DIÁLOGO (voz atribuida mediante documento o contexto, distinta de transcripción literal salvo citas señaladas) — En la conversación original Iván insiste: «be very sure, be very sharp, and be very deep». No está pidiendo otra lista de controles. Plantea la figura del *meta-discriminador*: quien decide qué entradas, circunstancias o configuraciones quedan admitidas antes de que operen las máquinas M0, M1, M2… A primera vista, el humano solo debería comprobar unas pocas características abstractas. Pero justamente por ser abstractas pueden encubrir los comportamientos y excepciones de multitud de sistemas internos.\n\nIván quiere probar una proposición fuerte: que el supervisor necesitaría una capacidad de discriminación y una sabiduría al menos comparables con los procesos que supervisa. Lo dice como un límite posible del crecimiento de la IA y como una carga cognitiva que las presentaciones de gobernanza suelen minimizar. No quiere una metáfora: pregunta «how you can measure it» y pide una prueba.\n\nAquí es crucial conservar también la dificultad. La respuesta del asistente en el archivo llamó «teorema» a esa intuición demasiado pronto. No hay en esa transcripción una demostración general de la desigualdad de potencia computacional: una comprobación acotada puede ser más sencilla que la tarea supervisada, según las hipótesis. El diálogo digno de conservar es la pregunta original y su demanda de rigor, no una prueba inventada para complacer al autor.\nEtiquetas: Autoridad, permisos y delegación 25.00%; Investigación y documentación técnica 50.00%; Matemáticas 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-243\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-243.html\n\n",
+  "readingSource": null,
   "tokens": 442,
   "encoding": "o200k_base",
   "relations": [
@@ -26,6 +27,24 @@
       "reading": "",
       "relationTokens": 24,
       "fichaTokens": 177,
+      "tagWeights": {
+        "aprendizaje": 0.1144,
+        "autoridad": 0.0109,
+        "cambio-regimen": 0.0198,
+        "casos": 0.0531,
+        "decision": 0.1278,
+        "documentacion": 0.0217,
+        "economia": 0.0163,
+        "experimentacion": 0.0582,
+        "matematicas": 0.5204,
+        "movilidad": 0.0248,
+        "mundo-abierto": 0.0109,
+        "representacion": 0.0217
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-math.json"
     },
     {
@@ -37,6 +56,31 @@
       "reading": "",
       "relationTokens": 28,
       "fichaTokens": 258,
+      "tagWeights": {
+        "aprendizaje": 0.2354,
+        "autoridad": 0.0588,
+        "casos": 0.0162,
+        "control-minimo": 0.0103,
+        "decision": 0.157,
+        "documentacion": 0.0114,
+        "economia": 0.0507,
+        "empresa": 0.0151,
+        "espiritualidad": 0.025,
+        "estandares": 0.0142,
+        "evidencia": 0.0076,
+        "experimentacion": 0.0418,
+        "geopolitica": 0.0057,
+        "integridad-ia": 0.0284,
+        "matematicas": 0.169,
+        "memoria-territorio": 0.0227,
+        "mundo-abierto": 0.0057,
+        "perspectiva": 0.1023,
+        "transformacion": 0.0227
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-doubt.json"
     },
     {
@@ -48,6 +92,30 @@
       "reading": "",
       "relationTokens": 25,
       "fichaTokens": 254,
+      "tagWeights": {
+        "aprendizaje": 0.034,
+        "autoridad": 0.4256,
+        "capacidad-humana": 0.0104,
+        "casos": 0.0027,
+        "decision": 0.1415,
+        "documentacion": 0.0128,
+        "economia": 0.0465,
+        "empresa": 0.053,
+        "espiritualidad": 0.0099,
+        "estandares": 0.0467,
+        "evidencia": 0.0256,
+        "experimentacion": 0.0128,
+        "geopolitica": 0.0262,
+        "matematicas": 0.0064,
+        "memoria-territorio": 0.0945,
+        "movilidad": 0.0051,
+        "representacion": 0.0143,
+        "transformacion": 0.032
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-governance.json"
     },
     {
@@ -59,6 +127,19 @@
       "reading": "",
       "relationTokens": 28,
       "fichaTokens": 137,
+      "tagWeights": {
+        "autoridad": 0.2083,
+        "decision": 0.1607,
+        "documentacion": 0.0833,
+        "experimentacion": 0.1191,
+        "matematicas": 0.1786,
+        "representacion": 0.0833,
+        "transformacion": 0.1667
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-meta_discrimination.json"
     },
     {
@@ -70,6 +151,13 @@
       "reading": "La lectura enlaza «El supervisor humano no es barato porque solo revise dos casillas» con «Gödel, máquinas de Turing y la pregunta de qué queda fuera». Permite contrastar Pensamiento matemático, Duda, pruebas y conocimiento corregible.",
       "relationTokens": 86,
       "fichaTokens": 338,
+      "tagWeights": {
+        "matematicas": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-094.json"
     },
     {
@@ -81,6 +169,16 @@
       "reading": "La lectura enlaza «El supervisor humano no es barato porque solo revise dos casillas» con «¿Cuánto cuesta saber lo suficiente para decidir?». Permite contrastar Duda, pruebas y conocimiento corregible.",
       "relationTokens": 73,
       "fichaTokens": 311,
+      "tagWeights": {
+        "casos": 0.1818,
+        "control-minimo": 0.4546,
+        "decision": 0.1818,
+        "economia": 0.1818
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-100.json"
     },
     {
@@ -92,6 +190,17 @@
       "reading": "La lectura enlaza «El supervisor humano no es barato porque solo revise dos casillas» con «La IA no es el maestro que juzga el oficio».",
       "relationTokens": 62,
       "fichaTokens": 350,
+      "tagWeights": {
+        "aprendizaje": 0.1429,
+        "autoridad": 0.2857,
+        "capacidad-humana": 0.1429,
+        "decision": 0.1428,
+        "memoria-territorio": 0.2857
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-112.json"
     },
     {
@@ -103,6 +212,13 @@
       "reading": "La lectura enlaza «El supervisor humano no es barato porque solo revise dos casillas» con «Un control puede aprobar y el sistema seguir fallando». Permite contrastar Duda, pruebas y conocimiento corregible.",
       "relationTokens": 73,
       "fichaTokens": 299,
+      "tagWeights": {
+        "aprendizaje": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-116.json"
     },
     {
@@ -114,6 +230,13 @@
       "reading": "La lectura enlaza «El supervisor humano no es barato porque solo revise dos casillas» con «Una arquitectura que no puede declararse cerrada». Permite contrastar Pensamiento matemático, Duda, pruebas y conocimiento corregible.",
       "relationTokens": 76,
       "fichaTokens": 249,
+      "tagWeights": {
+        "matematicas": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-117.json"
     },
     {
@@ -125,6 +248,14 @@
       "reading": "La lectura enlaza «Rechazar una entrada también es tomar una decisión» con «El supervisor humano no es barato porque solo revise dos casillas». Permite contrastar Pensamiento matemático, Carga de validar sistemas y sus entradas.",
       "relationTokens": 78,
       "fichaTokens": 404,
+      "tagWeights": {
+        "decision": 0.7143,
+        "matematicas": 0.2857
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-278.json"
     },
     {
@@ -136,6 +267,13 @@
       "reading": "La lectura enlaza «Una entrada fuera del dominio puede producir una salida aparentemente útil» con «El supervisor humano no es barato porque solo revise dos casillas». Permite contrastar Pensamiento matemático.",
       "relationTokens": 71,
       "fichaTokens": 377,
+      "tagWeights": {
+        "matematicas": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-279.json"
     },
     {
@@ -147,6 +285,14 @@
       "reading": "La lectura enlaza «El investigador también ocupa el lugar del oráculo» con «El supervisor humano no es barato porque solo revise dos casillas». Permite contrastar Carga de validar sistemas y sus entradas, Duda, pruebas y conocimiento corregible, Pensamiento matemático.",
       "relationTokens": 85,
       "fichaTokens": 411,
+      "tagWeights": {
+        "experimentacion": 0.7143,
+        "matematicas": 0.2857
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-280.json"
     },
     {
@@ -158,6 +304,13 @@
       "reading": "Ambas reflexiones permiten comparar Carga de validar sistemas y sus entradas, Gobernanza y legitimidad desde las situaciones que describe cada texto.",
       "relationTokens": 62,
       "fichaTokens": 430,
+      "tagWeights": {
+        "autoridad": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-245.json"
     }
   ]

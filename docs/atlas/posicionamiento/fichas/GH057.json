@@ -17,6 +17,7 @@
     "research"
   ],
   "context": "## Comment on NIST AI 200-2 Initial Public Draft\nContenido de la fuente: Compositional Evidence Sufficiency in TEVV for Composed and Agentic Systems · EXECUTIVE POSITION · PRINCIPAL REQUEST TO NIST.\nEtiquetas: Agentes y coordinación distribuida 15.39%; Control mínimo y suficiencia 15.38%; Estándares e interoperabilidad 30.77%; Evidencia, procedencia y atribución 15.38%; Integridad y seguridad de IA 19.23%; Transformación y continuidad operativa 3.85%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/GH057.html\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/submissions/nist-ai-200-2/2026-10-05_PUBLIC_COMMENT_v0.14.md\n\n",
+  "readingSource": null,
   "tokens": 212,
   "encoding": "o200k_base",
   "relations": [
@@ -28,7 +29,38 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 240,
+      "fichaTokens": 251,
+      "tagWeights": {
+        "agentes": 0.0759,
+        "autoridad": 0.0271,
+        "cambio-regimen": 0.0376,
+        "cartografia": 0.0341,
+        "casos": 0.0674,
+        "control-minimo": 0.0594,
+        "decision": 0.051,
+        "documentacion": 0.1296,
+        "economia": 0.0098,
+        "empresa": 0.0796,
+        "estandares": 0.0311,
+        "evidencia": 0.0614,
+        "experimentacion": 0.0299,
+        "integridad-ia": 0.0985,
+        "memoria-territorio": 0.018,
+        "movilidad": 0.133,
+        "mundo-abierto": 0.003,
+        "representacion": 0.0251,
+        "transformacion": 0.0285
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "mobility",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C45.json"
     },
     {
@@ -40,6 +72,32 @@
       "reading": "",
       "relationTokens": 27,
       "fichaTokens": 227,
+      "tagWeights": {
+        "agentes": 0.0847,
+        "aprendizaje": 0.0555,
+        "autoridad": 0.0228,
+        "cambio-regimen": 0.006,
+        "cartografia": 0.018,
+        "casos": 0.006,
+        "control-minimo": 0.0436,
+        "decision": 0.0279,
+        "documentacion": 0.003,
+        "empresa": 0.2178,
+        "estandares": 0.0462,
+        "evidencia": 0.0291,
+        "integridad-ia": 0.2529,
+        "matematicas": 0.012,
+        "memoria-territorio": 0.0111,
+        "movilidad": 0.0449,
+        "transformacion": 0.1185
+      },
+      "clusters": [
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C88.json"
     },
     {
@@ -50,7 +108,17 @@
       "kind": "candidate transfer",
       "reading": "An AI integrity function could own the review of composed evidence sufficiency while preserving the specialist ownership of identity, authority and model evaluation.",
       "relationTokens": 54,
-      "fichaTokens": 113,
+      "fichaTokens": 234,
+      "tagWeights": {
+        "autoridad": 0.0741,
+        "decision": 0.0741,
+        "empresa": 0.4815,
+        "integridad-ia": 0.3703
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T878.json"
     },
     {
@@ -62,6 +130,15 @@
       "reading": "La fuente enlaza esta lectura en «Duplicación: lo que es igual y lo que solo se parece» con el rótulo «Copia raíz».",
       "relationTokens": 123,
       "fichaTokens": 175,
+      "tagWeights": {
+        "decision": 0.3334,
+        "documentacion": 0.3333,
+        "estandares": 0.3333
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-ae5cfdf16d6d42.json"
     },
     {
@@ -73,6 +150,13 @@
       "reading": "El índice de la carpeta sitúa este documento dentro de su línea de trabajo.",
       "relationTokens": 108,
       "fichaTokens": 109,
+      "tagWeights": {
+        "documentacion": 1.0
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-84bd503d7066f9.json"
     }
   ]

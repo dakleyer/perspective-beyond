@@ -1,0 +1,99 @@
+[
+  {
+    "case": "C1",
+    "A": {
+      "answer": "El arquitecto aporta conocimiento sobre las relaciones que permiten funcionar al conjunto. Primer mecanismo: [reconocer isomorfismos](https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-285.html), comparando estructuras entre departamentos y trabajando con especialistas para traducir funciones sin exigirles una jerga única. Segundo: seguir dependencias que cada área deja fuera de su campo de visión. El recorrido del mismo [reporte por once departamentos](https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-029) muestra cómo una tarea local puede ocultar el origen, el destino y el propósito de la información. Esa mirada permite pasar de aplicaciones aisladas a una arquitectura operativa que contemple coordinación, riesgos y mantenimiento. Su relación con plantear un problema matemático está en la formulación: decidir qué elementos y relaciones representar, qué restricciones conservar y qué supuestos revisar. Antes de buscar una solución, el arquitecto ayuda a construir el problema que merece resolverse.",
+      "missing": [
+        "Falta una pieza matemática que desarrolle directamente esta relación; aquí se reconstruye a partir de la comparación de estructuras y la delimitación del problema."
+      ],
+      "scores": {
+        "mecanismo": 4,
+        "cobertura": 3,
+        "apoyo": 3,
+        "fluidez": 4,
+        "cronologia_atribucion": 4
+      },
+      "total": 18
+    },
+    "B": {
+      "answer": "El arquitecto conoce cómo relacionar saberes parciales y cómo construir una representación útil del problema. Primero, identifica [estructuras equivalentes entre oficios](https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-285.html): compara funciones, dependencias e incentivos con ayuda de especialistas, conservando las diferencias relevantes. Segundo, investiga la entrada de la realidad en el modelo: [qué se convierte en dato](https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-216.html), qué distinciones se preservan y qué queda fuera. El reporte copiado por once departamentos ilustra por qué comprender un eslabón exige reconstruir también sus relaciones. La conexión matemática es precisa: [preguntar antes de elegir escuela](https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-054) obliga a declarar el punto de vista del observador, los pasos que puede ejecutar y las reglas de construcción. Así, el conocimiento arquitectónico mejora la formulación: convierte una descripción aparentemente dada en un problema cuyas condiciones pueden examinarse.",
+      "missing": [],
+      "scores": {
+        "mecanismo": 4,
+        "cobertura": 4,
+        "apoyo": 4,
+        "fluidez": 4,
+        "cronologia_atribucion": 4
+      },
+      "total": 20
+    },
+    "preference": "B",
+    "reason": "B conecta directamente los dos mecanismos arquitectónicos con piezas sobre formulación matemática, observador y formalización. A desarrolla bien el problema organizativo, pero la relación matemática exige una inferencia más amplia."
+  },
+  {
+    "case": "C3",
+    "A": {
+      "answer": "Una señal local expresa una oportunidad dentro de un contexto; comprometer liquidez exige resolver además quién puede usar el capital compartido. [Phylons](https://jubap.net/phylons-liquidity-orquestration/) organiza esa diferencia en una secuencia: los detectores proponen, los supervisores locales dimensionan la intención, la coordinación común autoriza recursos y los adaptadores envían la orden al mercado. Después, los registros reconcilian lo ejecutado y la información obtenida modifica el siguiente ciclo. Los factores de precio, volumen y relaciones entre mercados [construyen el contexto](https://jubap.net/phylons-predictive-factors-cascade/) que alimenta la detección; el arbitraje resuelve la competencia entre propuestas. La relación útil con transporte es una analogía operativa: varias rutas pueden necesitar el mismo vehículo, por lo que detectar demanda precede a reservar capacidad. El [arbitraje de recursos](https://dakleyer.github.io/perspective-beyond/concepts/resource-arbitration/) convierte necesidades locales concurrentes en compromisos compatibles con la disponibilidad común.",
+      "missing": [
+        "El paquete no presenta una aplicación de esta secuencia en transporte; esa relación se propone como analogía. La política completa entre libros pertenece al diseño histórico, mientras el código recibido documenta la base de recursos y ejecución."
+      ],
+      "scores": {
+        "mecanismo": 4,
+        "cobertura": 4,
+        "apoyo": 3,
+        "fluidez": 4,
+        "cronologia_atribucion": 4
+      },
+      "total": 19
+    },
+    "B": {
+      "answer": "La confianza de un detector y el derecho a disponer de fondos resuelven preguntas distintas. En [Phylons](https://jubap.net/phylons-liquidity-orquestration/), la señal inicia una propuesta; un supervisor local calcula su tamaño, la coordinación de liquidez autoriza el recurso compartido y el adaptador compromete la operación en el mercado. La reconciliación de resultados y la realimentación preparan el ciclo siguiente. Esta separación permite comparar propuestas que compiten por el mismo capital. Conservar la [identidad de cada operación](https://dakleyer.github.io/perspective-beyond/concepts/stable-identity/) enlaza sus movimientos y registros, mientras la [vigencia del contexto y del permiso](https://dakleyer.github.io/perspective-beyond/concepts/validity-and-expiry/) sitúa cada decisión en su momento. Como analogía en gestión empresarial, varios equipos pueden solicitar a la vez una misma capacidad especializada: reconocer una necesidad permite proponer trabajo; asignarlo exige arbitrar disponibilidad, prioridad y autorización antes de comprometer al especialista.",
+      "missing": [
+        "No se aporta un caso empresarial que implemente esta transferencia; el ejemplo explica una analogía. El detalle completo de supervisión y arbitraje entre libros permanece en el diseño histórico."
+      ],
+      "scores": {
+        "mecanismo": 4,
+        "cobertura": 4,
+        "apoyo": 3,
+        "fluidez": 4,
+        "cronologia_atribucion": 4
+      },
+      "total": 19
+    },
+    "preference": "empate",
+    "reason": "Ambos paquetes contienen la misma secuencia causal y permiten explicar una transferencia razonada a capacidad compartida. A aclara suficiencia y autoridad; B añade identidad y vigencia. Ninguno aporta el desarrollo de un caso de otro dominio, y esa carencia afecta por igual al apoyo de la analogía."
+  },
+  {
+    "case": "C5",
+    "A": {
+      "answer": "Distribuir capacidad operativa consiste en conservar la posibilidad de comprender, decidir y ejecutar a través de organizaciones y lugares. [La inteligencia operativa americana](https://jubap.us/distributed-operational-intelligence-across-the-americas/) sitúa esa integración en energía, manufactura, turismo y movilidad: cada territorio también produce conocimiento de ingeniería. El mecanismo empresarial combina responsabilidades especializadas con [transferencia de contexto](https://dakleyer.github.io/perspective-beyond/concepts/context-handoff/): compartir información con su significado y condiciones permite al receptor usarla en su propia decisión. La continuidad depende de mantener utilizable ese conocimiento al cambiar de equipo o ubicación. La trayectoria de los [equipos distribuidos](https://jubap.net/before-digital-nomads-there-were-distributed-tiger-teams/) aporta el aprendizaje inicial sobre información y coordinación. Una lectura posterior hacia [Car Evolution](https://jubap.eu/mobility/product/) permite trasladarlo al diseño de decisiones que combinan demanda, capacidad existente, restricciones y realimentación. El aprendizaje entre piezas convierte experiencia territorial en criterios para una arquitectura operativa adaptable.",
+      "missing": [
+        "Falta un caso empresarial desarrollado que muestre reparto contractual de responsabilidades y resultados de la transferencia; Car Evolution aparece como transferencia candidata."
+      ],
+      "scores": {
+        "mecanismo": 3,
+        "cobertura": 3,
+        "apoyo": 4,
+        "fluidez": 4,
+        "cronologia_atribucion": 4
+      },
+      "total": 18
+    },
+    "B": {
+      "answer": "Una capacidad se distribuye cuando distintos actores pueden sostener decisiones y ejecución compartiendo conocimiento operativo y responsabilidades claras. [Distributed American Innovation](https://jubap.us/distributed-operational-intelligence-across-the-americas/) lo plantea desde energía, manufactura, turismo y movilidad. El mecanismo empresarial queda más visible en el [Tiger Team](https://jubap.net/jupap-net-tiger-team-model/): una unidad responsable reúne arquitectura, ingeniería, despliegue y estabilización, conservando contexto y reduciendo traspasos que fragmentan las decisiones. Al pasar a otro territorio, se transfiere la función y se rediseñan reglas, soporte e incentivos para quien la recibe. La relación de aprendizaje con [JubAp.org](https://jubap.net/jubap-org-the-transformation-framework-that-emerged-from-the-field/) añade cómo activar el cambio: reconocer resistencias, elegir puntos de intervención y ordenar pasos para que la capacidad se propague. La experiencia de campo alimenta así una lógica de transformación que también sirve para integrar personas, información y ejecución en operaciones empresariales.",
+      "missing": [
+        "No se entregan resultados comparados de una transferencia entre territorios ni un caso detallado de integración societaria."
+      ],
+      "scores": {
+        "mecanismo": 4,
+        "cobertura": 4,
+        "apoyo": 4,
+        "fluidez": 4,
+        "cronologia_atribucion": 4
+      },
+      "total": 20
+    },
+    "preference": "B",
+    "reason": "B ofrece un mecanismo empresarial concreto de responsabilidad conjunta y reducción de traspasos, además de una relación de aprendizaje explícita entre intervención de campo y marco de transformación. A explica bien contexto y continuidad, pero su desarrollo más concreto vuelve a movilidad."
+  }
+]

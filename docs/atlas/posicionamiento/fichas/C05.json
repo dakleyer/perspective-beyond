@@ -9,21 +9,24 @@
     "E1563"
   ],
   "tagWeights": {
-    "autoridad": 0.125,
-    "casos": 0.0667,
-    "control-minimo": 0.0667,
-    "decision": 0.1916,
-    "memoria-territorio": 0.1916,
-    "movilidad": 0.1667,
-    "mundo-abierto": 0.0667,
-    "representacion": 0.125
+    "agentes": 0.1137,
+    "autoridad": 0.0455,
+    "casos": 0.1379,
+    "control-minimo": 0.0689,
+    "decision": 0.1254,
+    "empresa": 0.1591,
+    "memoria-territorio": 0.0799,
+    "movilidad": 0.1897,
+    "mundo-abierto": 0.0345,
+    "representacion": 0.0454
   },
   "clusters": [
     "eu",
     "net"
   ],
-  "context": "## Compromiso indivisible\nA group or obligation may have to be assigned as a unit.\nEtiquetas: Autoridad, permisos y delegación 12.50%; Casos de uso y aplicaciones 6.67%; Control mínimo y suficiencia 6.67%; Decisiones y responsabilidad 19.16%; Memoria, comunidad y territorio 19.16%; Movilidad e infraestructura 16.67%; Mundo abierto e indeterminación 6.67%; Representación y límites formales 12.50%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/indivisible-commitment/\n\n",
-  "tokens": 131,
+  "context": "## Compromiso indivisible\nA group or obligation may have to be assigned as a unit.\nEtiquetas: Agentes y coordinación distribuida 11.37%; Autoridad, permisos y delegación 4.55%; Casos de uso y aplicaciones 13.79%; Control mínimo y suficiencia 6.89%; Decisiones y responsabilidad 12.54%; Empresa y gestión 15.91%; Memoria, comunidad y territorio 7.99%; Movilidad e infraestructura 18.97%; Mundo abierto e indeterminación 3.45%; Representación y límites formales 4.54%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/indivisible-commitment/\n\n",
+  "readingSource": null,
+  "tokens": 150,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -34,7 +37,19 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 18,
-      "fichaTokens": 111,
+      "fichaTokens": 578,
+      "tagWeights": {
+        "casos": 0.2758,
+        "control-minimo": 0.1379,
+        "decision": 0.069,
+        "memoria-territorio": 0.069,
+        "movilidad": 0.3793,
+        "mundo-abierto": 0.069
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1803.json"
     },
     {
@@ -45,7 +60,19 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 15,
-      "fichaTokens": 92,
+      "fichaTokens": 279,
+      "tagWeights": {
+        "agentes": 0.2273,
+        "autoridad": 0.0909,
+        "decision": 0.1818,
+        "empresa": 0.3182,
+        "memoria-territorio": 0.0909,
+        "representacion": 0.0909
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1563.json"
     },
     {
@@ -57,6 +84,34 @@
       "reading": "The atomic-group distinction in transport offers a useful lens for defining indivisible commitments in luxury events.",
       "relationTokens": 32,
       "fichaTokens": 234,
+      "tagWeights": {
+        "agentes": 0.0729,
+        "aprendizaje": 0.0198,
+        "autoridad": 0.0101,
+        "cartografia": 0.0265,
+        "casos": 0.0506,
+        "control-minimo": 0.1544,
+        "decision": 0.0557,
+        "documentacion": 0.0382,
+        "economia": 0.0354,
+        "empresa": 0.0996,
+        "evidencia": 0.0503,
+        "experimentacion": 0.1005,
+        "memoria-territorio": 0.0374,
+        "movilidad": 0.1526,
+        "mundo-abierto": 0.013,
+        "perspectiva": 0.0185,
+        "representacion": 0.0208,
+        "transformacion": 0.0437
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C06.json"
     },
     {
@@ -67,7 +122,18 @@
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 93,
+      "fichaTokens": 102,
+      "tagWeights": {
+        "casos": 0.092,
+        "decision": 0.0575,
+        "documentacion": 0.023,
+        "economia": 0.2047,
+        "movilidad": 0.6228
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G27.json"
     }
   ]

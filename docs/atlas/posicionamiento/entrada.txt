@@ -15,12 +15,15 @@ Los porcentajes de la ficha suman 100 %. Los pesos del posicionamiento se normal
 
 LECTURA POR TOKENS
 El presupuesto incluye cabecera, fichas y relaciones de llegada. Se cuenta con o200k_base por bloques. La distancia cuenta conexiones desde el documento. Al ampliar tokens manteniendo el posicionamiento y los pesos se conserva la selección anterior. max limita el diagrama; el texto reading conserva toda la selección incluida en el presupuesto.
+Los artículos con extracto de lectura conservan primero una base de hasta cuatro conceptos directamente ligados al documento, elegidos por su propia composición. Si existe un uso documentado, se incorpora también una lectura vinculada directamente al mecanismo. Después se amplía el recorrido por la combinación de etiquetas del visitante. Esta base ayuda a explicar el mecanismo de origen antes de relacionarlo con otros pensamientos.
 
 FORMAS DE LEER
 - Paquetes ya calculados, desde las entradas iniciales y con presupuestos de 1000, 2000 y 4000 tokens: https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/preparados/index.json
 - Registro de documentos: https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/documentos.json
 - Composiciones de las fichas: https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/etiquetas-fichas.json
 - Cada documento enlaza sus fichas. Cada ficha tiene un JSON con texto de lectura, coste, porcentajes y relaciones a sus vecinas.
+- Si el posicionamiento es un ID de ficha o concepto, abre directamente https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/ID.json sustituyendo ID por el identificador recibido. Sus relaciones incluyen porcentajes, clústeres y costes de las vecinas para orientar la siguiente lectura.
+- readingSource identifica los extractos de las fuentes públicas. Los diálogos conservan su texto completo. Cuando una ficha aporte solo una referencia, abre su documento de origen para fundamentar la explicación.
 - Para una configuración personalizada, abre el visualizador y descarga su lectura, o ejecuta el cálculo público con el grafo de la edición. Usa reading como contexto de lectura y budget para comprobar el presupuesto.
 
 CALCULO PUBLICO
@@ -30,6 +33,7 @@ API: positionMap(graph, readPosition(new URLSearchParams(URL_original.search), g
 CLI: node mapa/cli.mjs "posicionamiento=D-285&tokens=2000&peso=empresa:50&peso=matematicas:50"
 
 Explica primero el pensamiento y su mecanismo con lenguaje claro y enlaces titulados. Integra la procedencia y las fechas donde aclaren una afirmación. Presenta tus ejemplos como propuestas. Los registros técnicos se entregan por separado cuando el visitante los pide.
+Escribe para quien descubre el corpus por primera vez: tono afirmativo, nombres legibles y ejemplos concretos. Expresa las precisiones importantes en la frase que las necesita y mantén el hilo de la explicación.
 
 VISUALIZADOR
 https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/

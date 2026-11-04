@@ -9,6 +9,7 @@ from urllib.request import Request,urlopen
 from atlas_topics import RULES,plain
 
 ROOT=Path(__file__).resolve().parent
+PUBLIC_ROOT=ROOT/'site' if (ROOT/'site').is_dir() else ROOT
 ATLAS='https://dakleyer.github.io/perspective-beyond/atlas/'
 LANDINGS={'eu':'E2','net':'N2','us':'U2','tegrity':'T1573','imsv':'S14',
  'totonacapan':'np-biografia','mobility':'E1953','latinoempresa':'L002','research':'GH049','dialogos':'D-067'}
@@ -60,12 +61,12 @@ def enrich_catalog(base,catalog):
   for sid in c['sources']:labels[sid].append(c.get('original_label') or c['label'])
  known=defaultdict(list)
  for r in records:known[normalized_url(r['url'])].append(r['id'])
- capture_file=ROOT/'site/posicionamiento/landings.json'
+ capture_file=PUBLIC_ROOT/'posicionamiento/landings.json'
  cached={}
  if os.environ.get('ATLAS_REFRESH_LANDINGS')!='1':
   if capture_file.exists():cached=json.loads(capture_file.read_bytes())
-  elif (ROOT/'site/global-catalog.json').exists():
-   prior=json.loads((ROOT/'site/global-catalog.json').read_bytes())
+  elif (PUBLIC_ROOT/'global-catalog.json').exists():
+   prior=json.loads((PUBLIC_ROOT/'global-catalog.json').read_bytes())
    cached=(prior.get('positioning') or {})|{'summaries':{sid:n.get('summary','') for sid,n in prior.get('editorial_cards',{}).items()}}
  observations=[];links=[]
  for cluster,sid in LANDINGS.items():
@@ -102,6 +103,8 @@ def enrich_catalog(base,catalog):
  capture_file.write_text(json.dumps({'observed':'2026-11-04','observations':observations,'navigation':links,
   'summaries':{sid:notes.get(sid,{}).get('summary','') for sid in LANDINGS.values()}},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
  overrides=catalog.get('tag_weight_overrides',EDITORIAL)
+ reading_path=PUBLIC_ROOT/'posicionamiento/lecturas-fuentes.json'
+ reading_records={r['id']:r for r in json.loads(reading_path.read_bytes())['records']} if reading_path.exists() else {}
  compositions={}
  for record in records:
   sid=record['id'];tags=catalog['source_tags'][sid]
@@ -110,7 +113,11 @@ def enrich_catalog(base,catalog):
    for tag in tags:
     if tag not in raw:raw=raw|{tag:scale*.02}
   else:
-   fields=[(record['title'],4),(notes.get(sid,{}).get('summary',''),3),(' '.join(labels[sid]),1)]
+   excerpt=reading_records.get(sid,{}).get('text','')
+   if excerpt:
+    matches={tag:len(list(pattern.finditer(plain(excerpt)))) for tag,pattern in RULES.items()}
+    tags=list(dict.fromkeys(tags+[tag for tag,count in sorted(matches.items(),key=lambda item:(-item[1],item[0])) if count>=2][:8]))
+   fields=[(record['title'],4),(notes.get(sid,{}).get('summary',''),3),(' '.join(labels[sid]),1),(excerpt,2)]
    raw={tag:1+sum(weight*min(3,len(list(RULES[tag].finditer(plain(text))))) for text,weight in fields) for tag in tags}
   compositions[sid]=normalize_weights(raw)
   catalog['source_tags'][sid]=list(compositions[sid])
@@ -120,7 +127,7 @@ def enrich_catalog(base,catalog):
  catalog['source_tag_weights']=compositions
  catalog['tag_weight_overrides']={sid:normalize_weights(profile) for sid,profile in overrides.items()}
  catalog['tag_weight_method']={'schema':'perspective-beyond/tag-composition-v1','unit':'proportion','sum':1,
-  'method':'Perfil editorial de lectura. Las composiciones automáticas ponderan señales en título (4), resumen (3) y conceptos vinculados (1), con una base positiva por etiqueta previa. Los perfiles editoriales explícitos prevalecen. Redondeo a 10000 unidades.',
+  'method':'Perfil editorial de lectura. Las composiciones automáticas ponderan señales en título (4), resumen (3), conceptos vinculados (1) y extracto público cuando está disponible (2), con una base positiva por etiqueta previa. Los perfiles editoriales explícitos prevalecen. Redondeo a 10000 unidades.',
   'editorial_overrides':list(overrides),'editable':True}
  catalog['positioning']={'schema':'perspective-beyond/positioning-v1','url':'posicionamiento/',
   'defaultTokens':2000,'defaultSources':LANDINGS,
@@ -145,6 +152,8 @@ def enrich_graph(graph,catalog):
  public_root=ROOT/'site' if (ROOT/'site/dialogos/publico.json').exists() else ROOT
  public=json.loads((public_root/'dialogos/publico.json').read_bytes())
  dialogue_text={c['id']:c['body'] for c in public['cards']}
+ reading_path=PUBLIC_ROOT/'posicionamiento/lecturas-fuentes.json'
+ reading_records={r['id']:r for r in json.loads(reading_path.read_bytes())['records']} if reading_path.exists() else {}
  docs={};byid={n['id']:n for n in graph['nodes']};membership=catalog['source_cluster']
  for node in graph['nodes']:
   if node['type']=='ficha':
@@ -165,6 +174,10 @@ def enrich_graph(graph,catalog):
   node['tagWeights']=weights
   node['tags']=list(weights)
   if node['id'] in dialogue_text:node['reading']=dialogue_text[node['id']]
+  elif node['id'] in reading_records:
+   record=reading_records[node['id']];node['reading']=record['text']
+   node['readingSource']={k:record[k] for k in ['url','section','observed','sourceSha256']}
+   node['readingSummary']=re.split(r'(?<=[.!?])\s+',record['text'])[0]
   node['contextTokens']=len(enc.encode(node_block(node,graph['topics'])))
   if node['type']=='concepto':node['positionHeaderTokens']=len(enc.encode('# Posicionamiento · '+node['title']+'\nConcepto de entrada: '+node['url']+'\n\n'))
  for document in docs.values():

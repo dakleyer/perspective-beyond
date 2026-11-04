@@ -6,15 +6,24 @@
   "documentId": "doc-9080687b1ed469d230",
   "sourceIds": [],
   "tagWeights": {
-    "economia": 0.1818,
-    "empresa": 0.4546,
-    "evidencia": 0.3636
+    "decision": 0.1944,
+    "economia": 0.0556,
+    "empresa": 0.25,
+    "evidencia": 0.2222,
+    "movilidad": 0.1389,
+    "representacion": 0.1389
   },
   "clusters": [
     "net"
   ],
-  "context": "## Information Management as Operational Tracking\n\nEtiquetas: Economía, costes y liquidez 18.18%; Empresa y gestión 45.46%; Evidencia, procedencia y atribución 36.36%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/information-management-as-operational-tracking-n1289/\nDocumento de origen: https://jubap.net/information-management-as-operational-tracking/\n\n",
-  "tokens": 88,
+  "context": "## Information Management as Operational Tracking\nThe later Map and Flow argument helps distinguish a convenient shared view from a representation adequate for a particular decision. Record the event’s source, scope, time and owner, together with the rule producing its status. A correction should preserve what was known when an earlier decision was made.\n\nInformation management is the operating discipline that keeps distributed action tied to one traceable reality. It connects capture, context, decisions and execution before analytics or reporting begin.\n\nIn the early 2000s, the dominant problem was operational control: how to keep one reliable version of reality across distributed teams, industrial systems, telecom environments, logistics operations and mission-critical infrastructure. Information was not primarily treated as analytics or reporting. It was the coordination backbone of the operation itself.\n\nThat period was shaped by structured systems: ERPs, operational databases, data warehouses, BPMN models, control centers, telecom monitoring, workflow systems and early decision-support environments. The core doctrine was discipline: one source of truth, traceability, version control, process ownership and clear responsibility over operational data.\n\nDuring the following decade, the center of gravity shifted. Cloud platforms, SaaS, collaboration tools, agile practices, APIs, DevOps, wikis, shared drives, chats and distributed teams expanded the amount of information that could be created and shared. This increased speed and flexibility, but also created a new problem: fragmented truths, duplicated files, disconnected conversations, shadow systems and loss of information lineage.\nEtiquetas: Decisiones y responsabilidad 19.44%; Economía, costes y liquidez 5.56%; Empresa y gestión 25.00%; Evidencia, procedencia y atribución 22.22%; Movilidad e infraestructura 13.89%; Representación y límites formales 13.89%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/information-management-as-operational-tracking-n1289/\nDocumento de origen: https://jubap.net/information-management-as-operational-tracking/\n\n",
+  "readingSource": {
+    "url": "https://jubap.net/information-management-as-operational-tracking/",
+    "section": "Opening paragraphs",
+    "observed": "2026-11-04",
+    "sourceSha256": "e1b077f0679faf953eb0b3abe9360d66479a2649fe2e51bc64ef62848052d31d"
+  },
+  "tokens": 405,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -25,7 +34,35 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 17,
-      "fichaTokens": 235,
+      "fichaTokens": 246,
+      "tagWeights": {
+        "agentes": 0.0039,
+        "aprendizaje": 0.0342,
+        "autoridad": 0.012,
+        "capacidad-humana": 0.051,
+        "casos": 0.0316,
+        "control-minimo": 0.0811,
+        "decision": 0.0988,
+        "documentacion": 0.0394,
+        "economia": 0.0865,
+        "empresa": 0.1515,
+        "estandares": 0.0168,
+        "evidencia": 0.0858,
+        "experimentacion": 0.0262,
+        "integridad-ia": 0.004,
+        "memoria-territorio": 0.0289,
+        "movilidad": 0.1092,
+        "perspectiva": 0.0164,
+        "representacion": 0.0274,
+        "transformacion": 0.0953
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C10.json"
     },
     {
@@ -36,7 +73,29 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 163,
+      "fichaTokens": 181,
+      "tagWeights": {
+        "agentes": 0.0397,
+        "casos": 0.0465,
+        "control-minimo": 0.0079,
+        "decision": 0.0324,
+        "documentacion": 0.2843,
+        "economia": 0.0559,
+        "empresa": 0.1208,
+        "evidencia": 0.2084,
+        "experimentacion": 0.0546,
+        "matematicas": 0.0318,
+        "movilidad": 0.0231,
+        "mundo-abierto": 0.0397,
+        "representacion": 0.0549
+      },
+      "clusters": [
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C11.json"
     },
     {
@@ -48,6 +107,39 @@
       "reading": "",
       "relationTokens": 17,
       "fichaTokens": 276,
+      "tagWeights": {
+        "agentes": 0.0125,
+        "aprendizaje": 0.0053,
+        "autoridad": 0.0141,
+        "cambio-regimen": 0.0077,
+        "capacidad-humana": 0.0245,
+        "cartografia": 0.0367,
+        "casos": 0.0262,
+        "control-minimo": 0.0301,
+        "decision": 0.0464,
+        "documentacion": 0.0959,
+        "economia": 0.0531,
+        "empresa": 0.0947,
+        "estandares": 0.0013,
+        "evidencia": 0.3105,
+        "experimentacion": 0.029,
+        "matematicas": 0.0257,
+        "memoria-territorio": 0.0142,
+        "movilidad": 0.0697,
+        "mundo-abierto": 0.0101,
+        "representacion": 0.0099,
+        "transformacion": 0.0824
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "mobility",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C12.json"
     },
     {
@@ -59,6 +151,36 @@
       "reading": "",
       "relationTokens": 17,
       "fichaTokens": 257,
+      "tagWeights": {
+        "agentes": 0.0227,
+        "aprendizaje": 0.0059,
+        "autoridad": 0.0123,
+        "capacidad-humana": 0.1126,
+        "casos": 0.0221,
+        "control-minimo": 0.0305,
+        "decision": 0.0772,
+        "documentacion": 0.0313,
+        "economia": 0.2329,
+        "empresa": 0.1056,
+        "evidencia": 0.1037,
+        "experimentacion": 0.0145,
+        "integridad-ia": 0.0032,
+        "matematicas": 0.0074,
+        "memoria-territorio": 0.0263,
+        "movilidad": 0.0406,
+        "mundo-abierto": 0.0111,
+        "perspectiva": 0.015,
+        "representacion": 0.0266,
+        "transformacion": 0.0985
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C32.json"
     },
     {
@@ -69,7 +191,36 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 17,
-      "fichaTokens": 231,
+      "fichaTokens": 242,
+      "tagWeights": {
+        "autoridad": 0.021,
+        "cambio-regimen": 0.0269,
+        "cartografia": 0.0119,
+        "casos": 0.0629,
+        "control-minimo": 0.0202,
+        "decision": 0.0424,
+        "documentacion": 0.0708,
+        "economia": 0.0586,
+        "empresa": 0.1,
+        "estandares": 0.0472,
+        "evidencia": 0.1556,
+        "experimentacion": 0.084,
+        "integridad-ia": 0.0541,
+        "memoria-territorio": 0.0218,
+        "movilidad": 0.1649,
+        "mundo-abierto": 0.0024,
+        "representacion": 0.0099,
+        "transformacion": 0.0454
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C49.json"
     },
     {
@@ -80,7 +231,28 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 17,
-      "fichaTokens": 166,
+      "fichaTokens": 177,
+      "tagWeights": {
+        "aprendizaje": 0.1002,
+        "autoridad": 0.0385,
+        "control-minimo": 0.0742,
+        "decision": 0.1242,
+        "documentacion": 0.0385,
+        "economia": 0.0523,
+        "empresa": 0.2014,
+        "evidencia": 0.129,
+        "experimentacion": 0.0178,
+        "memoria-territorio": 0.0178,
+        "movilidad": 0.133,
+        "perspectiva": 0.0384,
+        "representacion": 0.0347
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C62.json"
     },
     {
@@ -92,6 +264,40 @@
       "reading": "",
       "relationTokens": 18,
       "fichaTokens": 289,
+      "tagWeights": {
+        "agentes": 0.0366,
+        "aprendizaje": 0.0258,
+        "autoridad": 0.0159,
+        "cambio-regimen": 0.027,
+        "capacidad-humana": 0.0643,
+        "cartografia": 0.0076,
+        "casos": 0.0219,
+        "control-minimo": 0.0231,
+        "decision": 0.0524,
+        "documentacion": 0.076,
+        "economia": 0.062,
+        "empresa": 0.0685,
+        "estandares": 0.0181,
+        "evidencia": 0.23,
+        "experimentacion": 0.0268,
+        "geopolitica": 0.0128,
+        "integridad-ia": 0.0075,
+        "matematicas": 0.0473,
+        "memoria-territorio": 0.04,
+        "movilidad": 0.0398,
+        "perspectiva": 0.0126,
+        "representacion": 0.0117,
+        "transformacion": 0.0723
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C69.json"
     },
     {
@@ -102,7 +308,33 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 195,
+      "fichaTokens": 230,
+      "tagWeights": {
+        "cambio-regimen": 0.0076,
+        "capacidad-humana": 0.0646,
+        "cartografia": 0.0613,
+        "casos": 0.028,
+        "control-minimo": 0.0265,
+        "decision": 0.0709,
+        "documentacion": 0.0405,
+        "economia": 0.1322,
+        "empresa": 0.0804,
+        "evidencia": 0.1106,
+        "experimentacion": 0.1275,
+        "memoria-territorio": 0.0207,
+        "movilidad": 0.0126,
+        "perspectiva": 0.0746,
+        "representacion": 0.0126,
+        "transformacion": 0.1294
+      },
+      "clusters": [
+        "latinoempresa",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C79.json"
     },
     {
@@ -113,7 +345,38 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 245,
+      "fichaTokens": 277,
+      "tagWeights": {
+        "agentes": 0.0327,
+        "aprendizaje": 0.0247,
+        "autoridad": 0.0222,
+        "capacidad-humana": 0.0325,
+        "cartografia": 0.0327,
+        "casos": 0.0054,
+        "control-minimo": 0.0093,
+        "decision": 0.0417,
+        "documentacion": 0.0308,
+        "economia": 0.0452,
+        "empresa": 0.1219,
+        "estandares": 0.0356,
+        "evidencia": 0.2655,
+        "experimentacion": 0.0089,
+        "integridad-ia": 0.0327,
+        "matematicas": 0.0085,
+        "memoria-territorio": 0.0116,
+        "movilidad": 0.0154,
+        "mundo-abierto": 0.094,
+        "representacion": 0.0154,
+        "transformacion": 0.1133
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "net",
+        "research",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C82.json"
     },
     {
@@ -124,7 +387,32 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 20,
-      "fichaTokens": 214,
+      "fichaTokens": 234,
+      "tagWeights": {
+        "agentes": 0.042,
+        "aprendizaje": 0.017,
+        "autoridad": 0.0369,
+        "capacidad-humana": 0.0725,
+        "cartografia": 0.042,
+        "control-minimo": 0.0321,
+        "decision": 0.1184,
+        "documentacion": 0.0865,
+        "economia": 0.0365,
+        "empresa": 0.0991,
+        "evidencia": 0.1624,
+        "experimentacion": 0.0232,
+        "integridad-ia": 0.1421,
+        "memoria-territorio": 0.0116,
+        "movilidad": 0.0198,
+        "representacion": 0.0198,
+        "transformacion": 0.0381
+      },
+      "clusters": [
+        "net",
+        "research",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C86.json"
     },
     {
@@ -135,7 +423,36 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 18,
-      "fichaTokens": 228,
+      "fichaTokens": 237,
+      "tagWeights": {
+        "aprendizaje": 0.0535,
+        "autoridad": 0.0186,
+        "capacidad-humana": 0.0681,
+        "cartografia": 0.0154,
+        "casos": 0.0356,
+        "control-minimo": 0.0261,
+        "decision": 0.1229,
+        "documentacion": 0.033,
+        "economia": 0.0559,
+        "empresa": 0.131,
+        "evidencia": 0.1086,
+        "integridad-ia": 0.0314,
+        "memoria-territorio": 0.0874,
+        "movilidad": 0.0139,
+        "mundo-abierto": 0.0038,
+        "perspectiva": 0.0154,
+        "representacion": 0.0345,
+        "transformacion": 0.1449
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C107.json"
     },
     {
@@ -146,7 +463,26 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 154,
+      "fichaTokens": 172,
+      "tagWeights": {
+        "agentes": 0.0476,
+        "control-minimo": 0.0095,
+        "decision": 0.0389,
+        "documentacion": 0.1523,
+        "economia": 0.0671,
+        "empresa": 0.05,
+        "evidencia": 0.205,
+        "experimentacion": 0.0655,
+        "matematicas": 0.0535,
+        "movilidad": 0.0278,
+        "mundo-abierto": 0.2169,
+        "representacion": 0.0659
+      },
+      "clusters": [
+        "net",
+        "research"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C115.json"
     },
     {
@@ -157,7 +493,17 @@
       "kind": "candidate transfer",
       "reading": "Operational tracking can preserve both the decision-time view and the later corrected view instead of silently replacing one with the other.",
       "relationTokens": 41,
-      "fichaTokens": 74,
+      "fichaTokens": 592,
+      "tagWeights": {
+        "documentacion": 0.28,
+        "economia": 0.28,
+        "evidencia": 0.16,
+        "experimentacion": 0.28
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1835.json"
     },
     {
@@ -168,7 +514,15 @@
       "kind": "hypothesis",
       "reading": "Maintained operational tracking could lower the cost of answering selected questions, provided its own maintenance burden is counted.",
       "relationTokens": 38,
-      "fichaTokens": 84,
+      "fichaTokens": 405,
+      "tagWeights": {
+        "economia": 0.6667,
+        "evidencia": 0.3333
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1423.json"
     },
     {
@@ -179,7 +533,18 @@
       "kind": "candidate transfer",
       "reading": "Operational capture and capability analysis can define a bounded research case while preserving the context that the minimum model deliberately leaves outside.",
       "relationTokens": 49,
-      "fichaTokens": 105,
+      "fichaTokens": 342,
+      "tagWeights": {
+        "autoridad": 0.2,
+        "documentacion": 0.2,
+        "estandares": 0.32,
+        "evidencia": 0.2,
+        "experimentacion": 0.08
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2744.json"
     },
     {
@@ -190,7 +555,19 @@
       "kind": "analogy only",
       "reading": "The capture-to-architecture step helps target the minimum information needed for a decision rather than treating complete documentation as the prerequisite for all action.",
       "relationTokens": 43,
-      "fichaTokens": 111,
+      "fichaTokens": 359,
+      "tagWeights": {
+        "control-minimo": 0.0833,
+        "decision": 0.0833,
+        "economia": 0.2778,
+        "empresa": 0.1944,
+        "memoria-territorio": 0.0556,
+        "transformacion": 0.3056
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1427.json"
     },
     {
@@ -201,7 +578,20 @@
       "kind": "candidate transfer",
       "reading": "The information model can preserve separate dependency and attribution channels, allowing the Attribution Gap protocol to test their divergence without building it into the data.",
       "relationTokens": 41,
-      "fichaTokens": 132,
+      "fichaTokens": 319,
+      "tagWeights": {
+        "capacidad-humana": 0.2927,
+        "casos": 0.0488,
+        "decision": 0.0975,
+        "economia": 0.0732,
+        "empresa": 0.0975,
+        "evidencia": 0.3415,
+        "memoria-territorio": 0.0488
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1475.json"
     },
     {
@@ -212,7 +602,20 @@
       "kind": "analogy only",
       "reading": "Operational tracking can close the loop between a process representation and the effects of decisions taken through it, rather than treating the diagram as a static description.",
       "relationTokens": 44,
-      "fichaTokens": 110,
+      "fichaTokens": 280,
+      "tagWeights": {
+        "capacidad-humana": 0.1724,
+        "control-minimo": 0.069,
+        "decision": 0.1035,
+        "documentacion": 0.1379,
+        "economia": 0.2069,
+        "empresa": 0.1379,
+        "evidencia": 0.1724
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1484.json"
     },
     {
@@ -224,6 +627,15 @@
       "reading": "Resistance indicators can focus investigation, while capability and critical-path analysis are needed to distinguish a causal bottleneck from a visible symptom.",
       "relationTokens": 46,
       "fichaTokens": 144,
+      "tagWeights": {
+        "aprendizaje": 0.2222,
+        "empresa": 0.5556,
+        "evidencia": 0.2222
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1636.json"
     },
     {
@@ -235,6 +647,14 @@
       "reading": "The Level 1.5 transition offers a practical check on narrative compression by tracing how field observations, dependencies and responsibilities become architecture.",
       "relationTokens": 54,
       "fichaTokens": 134,
+      "tagWeights": {
+        "evidencia": 0.2857,
+        "transformacion": 0.7143
+      },
+      "clusters": [
+        "latinoempresa"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/L002.json"
     },
     {
@@ -246,6 +666,13 @@
       "reading": "Operational tracking provides a way to distinguish a submitted record from evidence that has been interpreted, assigned and returned to the field as an actionable decision.",
       "relationTokens": 62,
       "fichaTokens": 119,
+      "tagWeights": {
+        "evidencia": 1.0
+      },
+      "clusters": [
+        "latinoempresa"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/L011.json"
     },
     {
@@ -257,6 +684,15 @@
       "reading": "Operational tracking could retain permitted unresolved traces before lossy admission, so that later qualification can revisit evidence that actually exists.",
       "relationTokens": 44,
       "fichaTokens": 176,
+      "tagWeights": {
+        "documentacion": 0.0769,
+        "matematicas": 0.0769,
+        "mundo-abierto": 0.8462
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH015.json"
     },
     {
@@ -268,6 +704,16 @@
       "reading": "A qualified handoff could preserve the provenance and limits of operational analysis as it becomes architecture and is reused by another decision process.",
       "relationTokens": 53,
       "fichaTokens": 203,
+      "tagWeights": {
+        "agentes": 0.2941,
+        "cartografia": 0.2941,
+        "evidencia": 0.1177,
+        "integridad-ia": 0.2941
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH041.json"
     },
     {
@@ -278,7 +724,17 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [Information management as operational tracking](https://jubap.net/information-management-as-operational-tracking/).",
       "relationTokens": 41,
-      "fichaTokens": 84,
+      "fichaTokens": 249,
+      "tagWeights": {
+        "empresa": 0.4118,
+        "estandares": 0.1176,
+        "experimentacion": 0.2941,
+        "transformacion": 0.1765
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1526.json"
     },
     {
@@ -289,7 +745,17 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The operational-capture and tracking model](https://jubap.net/information-management-as-operational-tracking/).",
       "relationTokens": 47,
-      "fichaTokens": 101,
+      "fichaTokens": 257,
+      "tagWeights": {
+        "decision": 0.0909,
+        "empresa": 0.5,
+        "evidencia": 0.0909,
+        "transformacion": 0.3182
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1560.json"
     },
     {
@@ -300,7 +766,17 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The operational-tracking architecture](https://jubap.net/information-management-as-operational-tracking/).",
       "relationTokens": 52,
-      "fichaTokens": 116,
+      "fichaTokens": 387,
+      "tagWeights": {
+        "casos": 0.125,
+        "documentacion": 0.175,
+        "empresa": 0.475,
+        "evidencia": 0.225
+      },
+      "clusters": [
+        "us"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1322.json"
     },
     {
@@ -311,7 +787,19 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [Operational tracking as a learning infrastructure](https://jubap.net/information-management-as-operational-tracking/).",
       "relationTokens": 44,
-      "fichaTokens": 100,
+      "fichaTokens": 316,
+      "tagWeights": {
+        "aprendizaje": 0.1714,
+        "autoridad": 0.0571,
+        "empresa": 0.2,
+        "estandares": 0.2,
+        "evidencia": 0.2286,
+        "transformacion": 0.1429
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1276.json"
     },
     {
@@ -322,7 +810,17 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [Weatherford: operational tracking in a supplier ecosystem](https://jubap.us/case-study-weatherford-multi-level-information-management-for-oilfield-supplier-management/).",
       "relationTokens": 65,
-      "fichaTokens": 116,
+      "fichaTokens": 387,
+      "tagWeights": {
+        "casos": 0.125,
+        "documentacion": 0.175,
+        "empresa": 0.475,
+        "evidencia": 0.225
+      },
+      "clusters": [
+        "us"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1322.json"
     },
     {
@@ -333,7 +831,19 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [GEPLAN: tracking connected to operational decisions](https://jubap.net/geplan-mission-critical-logistics-intelligence-for-pemex-2006/).",
       "relationTokens": 64,
-      "fichaTokens": 124,
+      "fichaTokens": 483,
+      "tagWeights": {
+        "autoridad": 0.0541,
+        "decision": 0.2162,
+        "empresa": 0.1892,
+        "evidencia": 0.1081,
+        "experimentacion": 0.1351,
+        "movilidad": 0.2973
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N864.json"
     },
     {
@@ -344,7 +854,21 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [An operational-capture model for instrument design](https://jubap.net/information-management-as-operational-tracking/).",
       "relationTokens": 46,
-      "fichaTokens": 145,
+      "fichaTokens": 409,
+      "tagWeights": {
+        "aprendizaje": 0.0541,
+        "capacidad-humana": 0.3513,
+        "decision": 0.0541,
+        "economia": 0.1351,
+        "empresa": 0.054,
+        "evidencia": 0.1081,
+        "experimentacion": 0.1622,
+        "memoria-territorio": 0.0811
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1400.json"
     },
     {
@@ -355,7 +879,18 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [Operational tracking as a historical comparison](https://jubap.net/information-management-as-operational-tracking/).",
       "relationTokens": 48,
-      "fichaTokens": 123,
+      "fichaTokens": 225,
+      "tagWeights": {
+        "autoridad": 0.1333,
+        "decision": 0.0667,
+        "documentacion": 0.3667,
+        "evidencia": 0.1333,
+        "transformacion": 0.3
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2807.json"
     }
   ]

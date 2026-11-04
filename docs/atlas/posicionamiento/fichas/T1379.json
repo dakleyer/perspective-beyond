@@ -6,14 +6,25 @@
   "documentId": "doc-daf6149f8b0c351d74",
   "sourceIds": [],
   "tagWeights": {
-    "control-minimo": 0.5,
-    "integridad-ia": 0.5
+    "cambio-regimen": 0.1321,
+    "cartografia": 0.1321,
+    "control-minimo": 0.2076,
+    "economia": 0.1321,
+    "integridad-ia": 0.2075,
+    "perspectiva": 0.0943,
+    "transformacion": 0.0943
   },
   "clusters": [
     "tegrity"
   ],
-  "context": "## Existence, Constructive Realizability, Operational Maximality, Safety Governance, and the Contextual Boundary Problem of a “Sufficiently Good” Detector\n\nEtiquetas: Control mínimo y suficiencia 50.00%; Integridad y seguridad de IA 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/existence-constructive-realizability-operational-maximality-safety-governance--t1379/\nDocumento de origen: https://tegrity.ai/1379-2/\n\n",
-  "tokens": 112,
+  "context": "## Existence, Constructive Realizability, Operational Maximality, Safety Governance, and the Contextual Boundary Problem of a “Sufficiently Good” Detector\nThis paper develops a theoretical framework for minimalistic early warning under an intentionally severe observational setting: an unknown system, one scalar observable time series, finite and possibly truncated history, no labels, no causal model, and no privileged external variables. The objective is not forecasting, but regime-change awareness: determining whether present observable behavior remains compatible with a recent observable regime and, when it does not, identifying the direction of the observable break.\n\nThe paper introduces a Sufficiently Good Early Warning System as a deliberately restricted class whose strongest guarantee is not perfect signal truth but disciplined signal-action coupling. Its defining safety ideal is Pointwise Non-Inferiority: every authorized non-neutral intervention must be no worse than inaction for every admissible state covered by the action design. This shifts the central guarantee from prediction accuracy to intervention architecture. It also addresses a structural source of Cry Wolf dynamics. False signals may still occur, and human attention costs may remain, but the utility-based incentive to ignore warnings is removed when responding to an authorized signal cannot make the operator worse off.\n\nThe theoretical contribution proceeds in stages. Leibnizian continuity of determination and sufficient representativeness make regime preservation and regime departure distinguishable within a declared observable representation. A practical threshold then induces a non-trivial partition of observable histories and a directional regime-signal functional. When the invariant, baseline, threshold comparison, contextual window, and action mapping are computable, a Bishop-style finite online construction follows. When admissible actions satisfy the declared safety condition and total operational value exceeds total cost, the resulting artifact belongs to the strong Sufficiently Good class. A formal witness is included to establish that this class is not empty, while the domain examples show that the corresponding problem family is potentially broad across financial, digital, industrial, ecological, logistical, and cybersecurity settings.\n\nThe paper’s principal change of perspective concerns the location of the hard problem. Traditional early warning focuses on the tipping point: the instant or zone at which a system changes regime. Under finite observation, exact tipping identification is generally unavailable. This paper argues that the deeper structural problem is often contextual: what must be observed, over what historical extent, at what resolution, and through which transformation for present regime identity to become decidable? A regime is a structural relation, and a structural relation requires context. The paper therefore defines a Contextual Sufficiency Boundary—informally, a tailing point —as the earliest historical boundary beyond which additional past observations are not required to preserve the regime distinctions relevant to the declared decision problem.\n\nThis reframing does not eliminate the structural difficulty; it relocates and clarifies it. A finite sufficient context may fail to exist, may exist only locally, may be finite for every individual case while remaining unbounded over the problem class, may be non-computably identifiable, or may be too expensive or too slow to acquire and process. More data is not automatically better: excessive history can mix regimes, dilute the current baseline, increase latency, and introduce irrelevant structure. Accordingly, the paper separates five questions that are often conflated: representability, finite contextual sufficiency, computable identification, action safety, and economic-operational feasibility.\nEtiquetas: Cambios de régimen y alerta temprana 13.21%; Cartografía y señales de ecosistema 13.21%; Control mínimo y suficiencia 20.76%; Economía, costes y liquidez 13.21%; Integridad y seguridad de IA 20.75%; Cambio de perspectiva 9.43%; Transformación y continuidad operativa 9.43%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/existence-constructive-realizability-operational-maximality-safety-governance--t1379/\nDocumento de origen: https://tegrity.ai/1379-2/\n\n",
+  "readingSource": {
+    "url": "https://tegrity.ai/1379-2/",
+    "section": "Abstract",
+    "observed": "2026-11-04",
+    "sourceSha256": "e8d8f60dd4e90513b440902ace28335b4aa3e72c4d542d034a3d5e9ddc2c5247"
+  },
+  "tokens": 801,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -24,7 +35,20 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The maintained early-warning working paper](https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/).",
       "relationTokens": 78,
-      "fichaTokens": 79,
+      "fichaTokens": 798,
+      "tagWeights": {
+        "cambio-regimen": 0.283,
+        "cartografia": 0.1321,
+        "control-minimo": 0.1321,
+        "economia": 0.1321,
+        "integridad-ia": 0.1321,
+        "perspectiva": 0.0943,
+        "transformacion": 0.0943
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1387.json"
     },
     {
@@ -36,6 +60,14 @@
       "reading": "La fuente enlaza esta lectura en «Main documents and their roles» con el rótulo «Full parent working paper».",
       "relationTokens": 138,
       "fichaTokens": 149,
+      "tagWeights": {
+        "cambio-regimen": 0.7333,
+        "documentacion": 0.2667
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/S07.json"
     },
     {
@@ -47,6 +79,17 @@
       "reading": "La fuente enlaza esta lectura en «Public corpus» con el rótulo «Minimalistic Regime-Aware Early Warning Systems».",
       "relationTokens": 143,
       "fichaTokens": 182,
+      "tagWeights": {
+        "cambio-regimen": 0.3572,
+        "documentacion": 0.3571,
+        "economia": 0.0714,
+        "evidencia": 0.1429,
+        "integridad-ia": 0.0714
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH020.json"
     }
   ]

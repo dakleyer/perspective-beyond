@@ -21,6 +21,7 @@
     "dialogos"
   ],
   "context": "## Valor actuado y monedas de identidad\nDistinguir valor declarado, deseado, atribuido y revelado por decisiones; examinar el precio de identidad y reconocimiento.\nEtiquetas: Aprendizaje y transmisión de capacidades 25.00%; Autoridad, permisos y delegación 7.14%; Decisiones y responsabilidad 10.00%; Economía, costes y liquidez 47.86%; Evidencia, procedencia y atribución 10.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-value_acted\n\n",
+  "readingSource": null,
   "tokens": 120,
   "encoding": "o200k_base",
   "relations": [
@@ -33,6 +34,15 @@
       "reading": "",
       "relationTokens": 29,
       "fichaTokens": 377,
+      "tagWeights": {
+        "decision": 0.4,
+        "economia": 0.2,
+        "evidencia": 0.4
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-162.json"
     },
     {
@@ -44,6 +54,13 @@
       "reading": "",
       "relationTokens": 23,
       "fichaTokens": 344,
+      "tagWeights": {
+        "economia": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-164.json"
     },
     {
@@ -55,6 +72,14 @@
       "reading": "",
       "relationTokens": 26,
       "fichaTokens": 339,
+      "tagWeights": {
+        "autoridad": 0.2857,
+        "economia": 0.7143
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-168.json"
     },
     {
@@ -66,6 +91,13 @@
       "reading": "",
       "relationTokens": 25,
       "fichaTokens": 389,
+      "tagWeights": {
+        "aprendizaje": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-214.json"
     },
     {
@@ -77,6 +109,28 @@
       "reading": "La autointerpretación se contrasta con las elecciones que preservan identidad.",
       "relationTokens": 35,
       "fichaTokens": 234,
+      "tagWeights": {
+        "aprendizaje": 0.2833,
+        "autoridad": 0.0459,
+        "capacidad-humana": 0.0065,
+        "control-minimo": 0.0119,
+        "decision": 0.1418,
+        "documentacion": 0.0278,
+        "economia": 0.0777,
+        "empresa": 0.052,
+        "estandares": 0.0238,
+        "evidencia": 0.0143,
+        "experimentacion": 0.0179,
+        "geopolitica": 0.0436,
+        "integridad-ia": 0.0536,
+        "memoria-territorio": 0.0153,
+        "perspectiva": 0.122,
+        "transformacion": 0.0626
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-identity.json"
     },
     {
@@ -88,6 +142,30 @@
       "reading": "Precio monetario no agota los intercambios de reconocimiento.",
       "relationTokens": 32,
       "fichaTokens": 239,
+      "tagWeights": {
+        "aprendizaje": 0.0689,
+        "autoridad": 0.0119,
+        "capacidad-humana": 0.0161,
+        "casos": 0.0204,
+        "control-minimo": 0.0108,
+        "decision": 0.1092,
+        "economia": 0.5189,
+        "empresa": 0.032,
+        "estandares": 0.0095,
+        "evidencia": 0.0095,
+        "geopolitica": 0.0766,
+        "integridad-ia": 0.0331,
+        "matematicas": 0.0149,
+        "memoria-territorio": 0.0143,
+        "movilidad": 0.0142,
+        "perspectiva": 0.0119,
+        "representacion": 0.0159,
+        "transformacion": 0.0119
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-economy.json"
     },
     {
@@ -99,6 +177,26 @@
       "reading": "La acción debe observarse sin confundir correlación con causa.",
       "relationTokens": 31,
       "fichaTokens": 202,
+      "tagWeights": {
+        "aprendizaje": 0.0552,
+        "autoridad": 0.0761,
+        "casos": 0.0111,
+        "decision": 0.4409,
+        "economia": 0.1355,
+        "empresa": 0.0486,
+        "evidencia": 0.0185,
+        "matematicas": 0.0868,
+        "memoria-territorio": 0.007,
+        "movilidad": 0.0347,
+        "mundo-abierto": 0.0139,
+        "perspectiva": 0.037,
+        "representacion": 0.0278,
+        "transformacion": 0.0069
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-measure.json"
     },
     {
@@ -110,6 +208,15 @@
       "reading": "La riqueza que obliga a representar puede reducir libertad.",
       "relationTokens": 34,
       "fichaTokens": 99,
+      "tagWeights": {
+        "aprendizaje": 0.5,
+        "economia": 0.25,
+        "integridad-ia": 0.25
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-invisible_autonomy.json"
     },
     {
@@ -121,6 +228,15 @@
       "reading": "El propósito puede no reflejarse en precio.",
       "relationTokens": 36,
       "fichaTokens": 88,
+      "tagWeights": {
+        "aprendizaje": 0.3334,
+        "decision": 0.3333,
+        "economia": 0.3333
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-fulfillment_boundary.json"
     }
   ]

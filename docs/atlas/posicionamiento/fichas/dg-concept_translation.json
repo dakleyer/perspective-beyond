@@ -14,6 +14,7 @@
     "dialogos"
   ],
   "context": "## Fenómeno, concepto y palabra\nCompartir un fenómeno no asegura categorías culturales idénticas ni vocablos equivalentes.\nEtiquetas: Geopolítica y fronteras 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-concept_translation\n\n",
+  "readingSource": null,
   "tokens": 65,
   "encoding": "o200k_base",
   "relations": [
@@ -26,6 +27,13 @@
       "reading": "",
       "relationTokens": 28,
       "fichaTokens": 358,
+      "tagWeights": {
+        "geopolitica": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-298.json"
     },
     {
@@ -37,6 +45,17 @@
       "reading": "Palabra y fenómeno no equivalen.",
       "relationTokens": 30,
       "fichaTokens": 108,
+      "tagWeights": {
+        "aprendizaje": 0.2,
+        "autoridad": 0.1,
+        "documentacion": 0.1556,
+        "geopolitica": 0.3444,
+        "memoria-territorio": 0.2
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-language.json"
     },
     {
@@ -48,6 +67,21 @@
       "reading": "Un mismo hecho puede recibir categorías distintas.",
       "relationTokens": 33,
       "fichaTokens": 156,
+      "tagWeights": {
+        "aprendizaje": 0.05,
+        "autoridad": 0.0923,
+        "decision": 0.05,
+        "empresa": 0.25,
+        "evidencia": 0.05,
+        "geopolitica": 0.2,
+        "memoria-territorio": 0.1077,
+        "perspectiva": 0.15,
+        "transformacion": 0.05
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-distributed_meaning.json"
     },
     {
@@ -59,6 +93,23 @@
       "reading": "Traducción entre comunidades sin equivalencia presupuesta.",
       "relationTokens": 33,
       "fichaTokens": 162,
+      "tagWeights": {
+        "aprendizaje": 0.0162,
+        "autoridad": 0.0568,
+        "decision": 0.0194,
+        "documentacion": 0.0432,
+        "economia": 0.0952,
+        "empresa": 0.0093,
+        "geopolitica": 0.5083,
+        "memoria-territorio": 0.1401,
+        "perspectiva": 0.0555,
+        "representacion": 0.0309,
+        "transformacion": 0.0251
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-boundaries.json"
     }
   ]

@@ -6,15 +6,22 @@
   "documentId": "doc-335c68118bc87aefe1",
   "sourceIds": [],
   "tagWeights": {
-    "documentacion": 0.2222,
-    "evidencia": 0.2222,
-    "navegacion": 0.5556
+    "agentes": 0.2273,
+    "documentacion": 0.2727,
+    "evidencia": 0.2727,
+    "navegacion": 0.2273
   },
   "clusters": [
     "tegrity"
   ],
-  "context": "## Field Notes\n\nEtiquetas: Investigación y documentación técnica 22.22%; Evidencia, procedencia y atribución 22.22%; Índices, contacto y políticas 55.56%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/field-notes-t1230/\nDocumento de origen: https://tegrity.ai/articles/\n\n",
-  "tokens": 75,
+  "context": "## Field Notes\nFour research paths to measure avoidable suffering, test the limits of agentic systems and compare whether chosen solidarity can solve problems that competition, orders or negotiation cannot.\n\nCuatro vías de investigación para medir sufrimiento evitable, poner a prueba los límites de los sistemas agénticos y comparar si la solidaridad elegida puede resolver problemas que la competencia, la orden o la negociación no resuelven.\n\nA concise guide to the paper’s central argument, how individually sound controls can fail together, and the role of the technical annexes.\n\nA guide for readers and collaborators to review, challenge and contribute to the technical work.\n\nAn appendix linking the claims of the paper to the supporting evidence and the bounds of that evidence.\nEtiquetas: Agentes y coordinación distribuida 22.73%; Investigación y documentación técnica 27.27%; Evidencia, procedencia y atribución 27.27%; Índices, contacto y políticas 22.73%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/field-notes-t1230/\nDocumento de origen: https://tegrity.ai/articles/\n\n",
+  "readingSource": {
+    "url": "https://tegrity.ai/articles/",
+    "section": "Opening paragraphs",
+    "observed": "2026-11-04",
+    "sourceSha256": "dc3bf0363da245de52faf879a3caead3ed98ed7a4b0fd9edd2bae9588db6916a"
+  },
+  "tokens": 228,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -25,7 +32,17 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 16,
-      "fichaTokens": 75,
+      "fichaTokens": 86,
+      "tagWeights": {
+        "agentes": 0.1137,
+        "documentacion": 0.3863,
+        "evidencia": 0.3863,
+        "navegacion": 0.1137
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G18.json"
     },
     {
@@ -36,7 +53,20 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 15,
-      "fichaTokens": 108,
+      "fichaTokens": 119,
+      "tagWeights": {
+        "agentes": 0.0568,
+        "control-minimo": 0.0556,
+        "decision": 0.0555,
+        "documentacion": 0.1932,
+        "estandares": 0.25,
+        "evidencia": 0.1932,
+        "navegacion": 0.1957
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G31.json"
     },
     {
@@ -47,7 +77,19 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 17,
-      "fichaTokens": 88,
+      "fichaTokens": 99,
+      "tagWeights": {
+        "agentes": 0.1137,
+        "documentacion": 0.2273,
+        "evidencia": 0.2727,
+        "matematicas": 0.2727,
+        "navegacion": 0.1136
+      },
+      "clusters": [
+        "research",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G38.json"
     },
     {
@@ -58,7 +100,19 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 18,
-      "fichaTokens": 89,
+      "fichaTokens": 100,
+      "tagWeights": {
+        "agentes": 0.1137,
+        "documentacion": 0.2273,
+        "evidencia": 0.2727,
+        "matematicas": 0.2727,
+        "navegacion": 0.1136
+      },
+      "clusters": [
+        "research",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G42.json"
     },
     {
@@ -70,6 +124,18 @@
       "reading": "La fuente enlaza esta lectura en «Why these series belong together» con el rótulo «Tegrity.AI Field Notes».",
       "relationTokens": 89,
       "fichaTokens": 179,
+      "tagWeights": {
+        "cambio-regimen": 0.0625,
+        "capacidad-humana": 0.0625,
+        "cartografia": 0.25,
+        "economia": 0.0625,
+        "evidencia": 0.125,
+        "matematicas": 0.4375
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH001.json"
     },
     {
@@ -81,6 +147,18 @@
       "reading": "La fuente enlaza esta lectura en «Where to go next» con el rótulo «Field Notes».",
       "relationTokens": 97,
       "fichaTokens": 199,
+      "tagWeights": {
+        "cambio-regimen": 0.0834,
+        "capacidad-humana": 0.0833,
+        "cartografia": 0.0833,
+        "economia": 0.5834,
+        "empresa": 0.0833,
+        "evidencia": 0.0833
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH002.json"
     }
   ]

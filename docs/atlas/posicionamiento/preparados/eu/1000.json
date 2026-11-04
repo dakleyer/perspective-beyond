@@ -1,5 +1,5 @@
 {
-  "schema": "perspective-beyond/positioning-v1",
+  "schema": "perspective-beyond/positioning-v1.1",
   "edition": "2026-11-04",
   "request": {
     "posicionamiento": "eu",
@@ -37,16 +37,16 @@
   },
   "budget": {
     "limit": 1000,
-    "used": 927,
-    "remaining": 73,
-    "nextBlock": 189,
+    "used": 802,
+    "remaining": 198,
+    "nextBlock": 333,
     "encoding": "o200k_base",
     "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
   },
   "reachable": 28,
-  "selected": 6,
-  "shown": 7,
-  "omittedByBudget": 22,
+  "selected": 4,
+  "shown": 5,
+  "omittedByBudget": 24,
   "omittedInDiagram": 0,
   "layers": [
     {
@@ -63,14 +63,11 @@
       "distance": 2,
       "selected": 3,
       "shown": 3
-    },
-    {
-      "distance": 3,
-      "selected": 2,
-      "shown": 2
     }
   ],
   "center": "doc-63aa9c575ad7473553-entrada",
+  "localCore": [],
+  "coreDocument": null,
   "nodes": [
     {
       "id": "doc-63aa9c575ad7473553-entrada",
@@ -133,6 +130,8 @@
         "eu"
       ],
       "tags": [
+        "agentes",
+        "movilidad",
         "navegacion"
       ],
       "summary": "",
@@ -141,9 +140,19 @@
       "commitUrl": null,
       "documentId": "doc-bd9004cfedb4291c84",
       "tagWeights": {
-        "navegacion": 1
+        "agentes": 0.3334,
+        "movilidad": 0.3333,
+        "navegacion": 0.3333
       },
-      "contextTokens": 56,
+      "reading": "Un MVP regional de inteligencia de producto para entender la conversión en boutiques de lujo de Oriente Medio, India y África.\n\nCar Evolution is an operationally tested mobility-orchestration product, validated as an MVP at scale and prepared for European deployment and adaptation.\n\nMission-critical operational intelligence, regime-aware systems and orchestration capabilities for complex international programmes and consortia.\n\nPublic map of JubAp.eu, IMSV.org and Tegrity.AI research programmes, software platforms, engineering capabilities and ecosystem roles.\n\nReveal the strategic options the current frame leaves unseen. Compare value, risk and uncertainty, then shape a more defensible direction for the organization.",
+      "readingSource": {
+        "url": "https://jubap.eu/field-notes/",
+        "section": "Opening paragraphs",
+        "observed": "2026-11-04",
+        "sourceSha256": "65432f39c78ee9915260dfabdca77671cf3e50a3e3b74453c654b1045c81b718"
+      },
+      "readingSummary": "Un MVP regional de inteligencia de producto para entender la conversión en boutiques de lujo de Oriente Medio, India y África.",
+      "contextTokens": 204,
       "distance": 2,
       "parent": "E2",
       "routeEdge": "navigation:position-nav-E2-E1221",
@@ -224,72 +233,6 @@
       "parent": "E2",
       "routeEdge": "navigation:position-nav-E2-E1731",
       "affinity": 1
-    },
-    {
-      "id": "E1630",
-      "type": "ficha",
-      "title": "Case Study: HT",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-ht-e1630/",
-      "original": "https://jubap.eu/human-transformation/",
-      "aliases": [],
-      "clusters": [
-        "eu"
-      ],
-      "tags": [
-        "capacidad-humana",
-        "casos",
-        "perspectiva"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-543b0477030043bc1a",
-      "tagWeights": {
-        "capacidad-humana": 0.2222,
-        "casos": 0.5556,
-        "perspectiva": 0.2222
-      },
-      "contextTokens": 79,
-      "distance": 3,
-      "parent": "E1628",
-      "routeEdge": "documento:R005",
-      "affinity": 1
-    },
-    {
-      "id": "E1633",
-      "type": "ficha",
-      "title": "Case Study: AICM",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-aicm-e1633/",
-      "original": "https://jubap.eu/aicm-mexico-city-airport-transformation/",
-      "aliases": [],
-      "clusters": [
-        "eu"
-      ],
-      "tags": [
-        "casos",
-        "control-minimo",
-        "integridad-ia",
-        "movilidad",
-        "perspectiva"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-af1a95d4ae4382fede",
-      "tagWeights": {
-        "casos": 0.2941,
-        "control-minimo": 0.1765,
-        "integridad-ia": 0.1177,
-        "movilidad": 0.2941,
-        "perspectiva": 0.1176
-      },
-      "contextTokens": 107,
-      "distance": 3,
-      "parent": "E1628",
-      "routeEdge": "documento:R002",
-      "affinity": 1
     }
   ],
   "edges": [
@@ -327,51 +270,6 @@
       "reading": "Desde «JubAp.EU», el enlace «strategic-reframing account» abre «Reframing Value Creation».",
       "evidence": "https://jubap.eu/",
       "route": true
-    },
-    {
-      "id": "documento:R005",
-      "from": "E1628",
-      "to": "E1630",
-      "kind": "editorial comparison",
-      "reading": "For a complementary reading, see [Human transformation: the perspective engine](https://jubap.eu/human-transformation/).",
-      "evidence": null,
-      "route": true
-    },
-    {
-      "id": "documento:R002",
-      "from": "E1628",
-      "to": "E1633",
-      "kind": "editorial comparison",
-      "reading": "For a complementary reading, see [The AICM transformation programme](https://jubap.eu/aicm-mexico-city-airport-transformation/).",
-      "evidence": null,
-      "route": true
-    },
-    {
-      "id": "documento:D066",
-      "from": "E1633",
-      "to": "E1630",
-      "kind": "documented use",
-      "reading": "The AICM programme explicitly describes an adapted JUBAP route; the human-transformation article explains the perspective mechanism without establishing that every technique was used there.",
-      "evidence": null,
-      "route": false
-    },
-    {
-      "id": "documento:R007",
-      "from": "E1633",
-      "to": "E1731",
-      "kind": "editorial comparison",
-      "reading": "For a complementary reading, see [Strategic reframing of an existing capability base](https://jubap.eu/reframing-value-creation/).",
-      "evidence": null,
-      "route": false
-    },
-    {
-      "id": "documento:R022",
-      "from": "E1731",
-      "to": "E1633",
-      "kind": "editorial comparison",
-      "reading": "For a complementary reading, see [AICM: reframing the workforce as strategic capacity](https://jubap.eu/aicm-mexico-city-airport-transformation/).",
-      "evidence": null,
-      "route": false
     },
     {
       "id": "documento:np-r21",
@@ -430,6 +328,8 @@
         "eu"
       ],
       "tags": [
+        "agentes",
+        "movilidad",
         "navegacion"
       ],
       "summary": "",
@@ -438,9 +338,19 @@
       "commitUrl": null,
       "documentId": "doc-bd9004cfedb4291c84",
       "tagWeights": {
-        "navegacion": 1
+        "agentes": 0.3334,
+        "movilidad": 0.3333,
+        "navegacion": 0.3333
       },
-      "contextTokens": 56,
+      "reading": "Un MVP regional de inteligencia de producto para entender la conversión en boutiques de lujo de Oriente Medio, India y África.\n\nCar Evolution is an operationally tested mobility-orchestration product, validated as an MVP at scale and prepared for European deployment and adaptation.\n\nMission-critical operational intelligence, regime-aware systems and orchestration capabilities for complex international programmes and consortia.\n\nPublic map of JubAp.eu, IMSV.org and Tegrity.AI research programmes, software platforms, engineering capabilities and ecosystem roles.\n\nReveal the strategic options the current frame leaves unseen. Compare value, risk and uncertainty, then shape a more defensible direction for the organization.",
+      "readingSource": {
+        "url": "https://jubap.eu/field-notes/",
+        "section": "Opening paragraphs",
+        "observed": "2026-11-04",
+        "sourceSha256": "65432f39c78ee9915260dfabdca77671cf3e50a3e3b74453c654b1045c81b718"
+      },
+      "readingSummary": "Un MVP regional de inteligencia de producto para entender la conversión en boutiques de lujo de Oriente Medio, India y África.",
+      "contextTokens": 204,
       "distance": 2,
       "parent": "E2",
       "routeEdge": "navigation:position-nav-E2-E1221",
@@ -521,73 +431,7 @@
       "parent": "E2",
       "routeEdge": "navigation:position-nav-E2-E1731",
       "affinity": 1
-    },
-    {
-      "id": "E1630",
-      "type": "ficha",
-      "title": "Case Study: HT",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-ht-e1630/",
-      "original": "https://jubap.eu/human-transformation/",
-      "aliases": [],
-      "clusters": [
-        "eu"
-      ],
-      "tags": [
-        "capacidad-humana",
-        "casos",
-        "perspectiva"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-543b0477030043bc1a",
-      "tagWeights": {
-        "capacidad-humana": 0.2222,
-        "casos": 0.5556,
-        "perspectiva": 0.2222
-      },
-      "contextTokens": 79,
-      "distance": 3,
-      "parent": "E1628",
-      "routeEdge": "documento:R005",
-      "affinity": 1
-    },
-    {
-      "id": "E1633",
-      "type": "ficha",
-      "title": "Case Study: AICM",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-aicm-e1633/",
-      "original": "https://jubap.eu/aicm-mexico-city-airport-transformation/",
-      "aliases": [],
-      "clusters": [
-        "eu"
-      ],
-      "tags": [
-        "casos",
-        "control-minimo",
-        "integridad-ia",
-        "movilidad",
-        "perspectiva"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-af1a95d4ae4382fede",
-      "tagWeights": {
-        "casos": 0.2941,
-        "control-minimo": 0.1765,
-        "integridad-ia": 0.1177,
-        "movilidad": 0.2941,
-        "perspectiva": 0.1176
-      },
-      "contextTokens": 107,
-      "distance": 3,
-      "parent": "E1628",
-      "routeEdge": "documento:R002",
-      "affinity": 1
     }
   ],
-  "reading": "# Posicionamiento · JubAp.EU\nDocumento de origen: https://jubap.eu/\n\n## JubAp.EU\nJubAp.eu supports high-stakes socio-technical transformations where technology, operating model or organizational decisions define long-term viability.\nEtiquetas: Decisiones y responsabilidad 10.00%; Empresa y gestión 45.00%; Índices, contacto y políticas 5.00%; Cambio de perspectiva 15.00%; Transformación y continuidad operativa 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-eu-e2/\nDocumento de origen: https://jubap.eu/\n\nJubAp.EU → Field Notes · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «Last articles» abre «Field Notes».\nFuente de la relación: https://jubap.eu/\n\n## Field Notes\n\nEtiquetas: Índices, contacto y políticas 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/field-notes-e1221/\nDocumento de origen: https://jubap.eu/field-notes/\n\nJubAp.EU → The JUBAP Framework · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «Jump Up Business Action Plan» abre «The JUBAP Framework».\nFuente de la relación: https://jubap.eu/\n\n## The JUBAP Framework\nEl marco combina el cambio de nivel de observación de UP con el filtro de acciones de JUMP. Las preguntas sobre participación, desbloqueo, movimiento observable y propagación ayudan a elegir por dónde empezar.\nEtiquetas: Autoridad, permisos y delegación 15.39%; Control mínimo y suficiencia 15.39%; Decisiones y responsabilidad 23.08%; Investigación y documentación técnica 15.38%; Economía, costes y liquidez 15.38%; Cambio de perspectiva 15.38%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-jubap-framework\nDocumento de origen: https://jubap.eu/the-jubap-framework/\n\nJubAp.EU → Reframing Value Creation · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «strategic-reframing account» abre «Reframing Value Creation».\nFuente de la relación: https://jubap.eu/\n\n## Reframing Value Creation\nEl cambio de marco permite reconocer valor que ya existe en recursos, prácticas y relaciones. Una intervención puede comenzar por reorganizar esas capacidades y darles una forma que la organización pueda usar.\nEtiquetas: Casos de uso y aplicaciones 10.53%; Control mínimo y suficiencia 10.53%; Decisiones y responsabilidad 10.53%; Investigación y documentación técnica 10.53%; Economía, costes y liquidez 10.52%; Empresa y gestión 21.05%; Cambio de perspectiva 26.31%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-reframing\nDocumento de origen: https://jubap.eu/reframing-value-creation/\n\nThe JUBAP Framework → Case Study: HT · editorial comparison. For a complementary reading, see [Human transformation: the perspective engine](https://jubap.eu/human-transformation/).\n\n## Case Study: HT\n\nEtiquetas: Capacidad humana y deuda de inteligencia 22.22%; Casos de uso y aplicaciones 55.56%; Cambio de perspectiva 22.22%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-study-ht-e1630/\nDocumento de origen: https://jubap.eu/human-transformation/\n\nThe JUBAP Framework → Case Study: AICM · editorial comparison. For a complementary reading, see [The AICM transformation programme](https://jubap.eu/aicm-mexico-city-airport-transformation/).\n\n## Case Study: AICM\n\nEtiquetas: Casos de uso y aplicaciones 29.41%; Control mínimo y suficiencia 17.65%; Integridad y seguridad de IA 11.77%; Movilidad e infraestructura 29.41%; Cambio de perspectiva 11.76%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-study-aicm-e1633/\nDocumento de origen: https://jubap.eu/aicm-mexico-city-airport-transformation/\n\n"
+  "reading": "# Posicionamiento · JubAp.EU\nDocumento de origen: https://jubap.eu/\n\n## JubAp.EU\nJubAp.eu supports high-stakes socio-technical transformations where technology, operating model or organizational decisions define long-term viability.\nEtiquetas: Decisiones y responsabilidad 10.00%; Empresa y gestión 45.00%; Índices, contacto y políticas 5.00%; Cambio de perspectiva 15.00%; Transformación y continuidad operativa 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-eu-e2/\nDocumento de origen: https://jubap.eu/\n\nJubAp.EU → Field Notes · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «Last articles» abre «Field Notes».\nFuente de la relación: https://jubap.eu/\n\n## Field Notes\nUn MVP regional de inteligencia de producto para entender la conversión en boutiques de lujo de Oriente Medio, India y África.\n\nCar Evolution is an operationally tested mobility-orchestration product, validated as an MVP at scale and prepared for European deployment and adaptation.\n\nMission-critical operational intelligence, regime-aware systems and orchestration capabilities for complex international programmes and consortia.\n\nPublic map of JubAp.eu, IMSV.org and Tegrity.AI research programmes, software platforms, engineering capabilities and ecosystem roles.\n\nReveal the strategic options the current frame leaves unseen. Compare value, risk and uncertainty, then shape a more defensible direction for the organization.\nEtiquetas: Agentes y coordinación distribuida 33.34%; Movilidad e infraestructura 33.33%; Índices, contacto y políticas 33.33%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/field-notes-e1221/\nDocumento de origen: https://jubap.eu/field-notes/\n\nJubAp.EU → The JUBAP Framework · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «Jump Up Business Action Plan» abre «The JUBAP Framework».\nFuente de la relación: https://jubap.eu/\n\n## The JUBAP Framework\nEl marco combina el cambio de nivel de observación de UP con el filtro de acciones de JUMP. Las preguntas sobre participación, desbloqueo, movimiento observable y propagación ayudan a elegir por dónde empezar.\nEtiquetas: Autoridad, permisos y delegación 15.39%; Control mínimo y suficiencia 15.39%; Decisiones y responsabilidad 23.08%; Investigación y documentación técnica 15.38%; Economía, costes y liquidez 15.38%; Cambio de perspectiva 15.38%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-jubap-framework\nDocumento de origen: https://jubap.eu/the-jubap-framework/\n\nJubAp.EU → Reframing Value Creation · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «strategic-reframing account» abre «Reframing Value Creation».\nFuente de la relación: https://jubap.eu/\n\n## Reframing Value Creation\nEl cambio de marco permite reconocer valor que ya existe en recursos, prácticas y relaciones. Una intervención puede comenzar por reorganizar esas capacidades y darles una forma que la organización pueda usar.\nEtiquetas: Casos de uso y aplicaciones 10.53%; Control mínimo y suficiencia 10.53%; Decisiones y responsabilidad 10.53%; Investigación y documentación técnica 10.53%; Economía, costes y liquidez 10.52%; Empresa y gestión 21.05%; Cambio de perspectiva 26.31%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-reframing\nDocumento de origen: https://jubap.eu/reframing-value-creation/\n\n"
 }

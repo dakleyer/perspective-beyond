@@ -13,6 +13,7 @@
     "dialogos"
   ],
   "context": "## Rechazar una entrada también es tomar una decisión\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — Si una máquina rechaza una entrada, ¿ha evitado decidir o acaba de decidir algo sobre ella?\nREFLEXIÓN DEL DIÁLOGO (voz original solo en citas, resto elaboración editorial) — En el diálogo del «meta oráculo», Iván no acepta que la etiqueta «entrada inválida» se use como salida mágica del problema. Pregunta qué diferencia hay entre que una máquina no procese un dato, que no devuelva respuesta y que lo rechace expresamente. Su corrección es directa: «if it's refused, it's a decision». La frase no cierra la discusión; la abre en el nivel que suele darse por supuesto.\n\nDistingue dos operaciones que la arquitectura coloca a veces en la misma pieza: comprobar que un dato pertenece al universo admitido por una especificación y, una vez admitido, decidir la propiedad buscada. Si ambas funciones están dentro de la misma máquina, la etiqueta «no válido» ya es un resultado y puede requerir sus propias reglas, excepciones y pruebas. Si están en máquinas distintas, surge la pregunta por la validez del criterio de la primera.\n\nEsto no demuestra que todo validador sea indecidible; numerosos dominios y formatos tienen predicados de pertenencia efectivamente decidibles. La pregunta interesante aparece cuando la frontera práctica es incompleta, cambia con el contexto o delega juicio a personas. La distinción entre rechazo, no terminación y respuesta negativa tiene consecuencias operativas distintas; confundirlas puede producir seguridad aparente.\nEtiquetas: Decisiones y responsabilidad 71.43%; Matemáticas 28.57%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-278\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-278.html\n\n",
+  "readingSource": null,
   "tokens": 404,
   "encoding": "o200k_base",
   "relations": [
@@ -25,6 +26,24 @@
       "reading": "",
       "relationTokens": 22,
       "fichaTokens": 177,
+      "tagWeights": {
+        "aprendizaje": 0.1144,
+        "autoridad": 0.0109,
+        "cambio-regimen": 0.0198,
+        "casos": 0.0531,
+        "decision": 0.1278,
+        "documentacion": 0.0217,
+        "economia": 0.0163,
+        "experimentacion": 0.0582,
+        "matematicas": 0.5204,
+        "movilidad": 0.0248,
+        "mundo-abierto": 0.0109,
+        "representacion": 0.0217
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-math.json"
     },
     {
@@ -36,6 +55,18 @@
       "reading": "",
       "relationTokens": 24,
       "fichaTokens": 137,
+      "tagWeights": {
+        "aprendizaje": 0.2131,
+        "decision": 0.1339,
+        "integridad-ia": 0.1,
+        "matematicas": 0.428,
+        "mundo-abierto": 0.025,
+        "transformacion": 0.1
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-formalization_event.json"
     },
     {
@@ -47,6 +78,19 @@
       "reading": "",
       "relationTokens": 26,
       "fichaTokens": 137,
+      "tagWeights": {
+        "autoridad": 0.2083,
+        "decision": 0.1607,
+        "documentacion": 0.0833,
+        "experimentacion": 0.1191,
+        "matematicas": 0.1786,
+        "representacion": 0.0833,
+        "transformacion": 0.1667
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-meta_discrimination.json"
     },
     {
@@ -58,6 +102,15 @@
       "reading": "",
       "relationTokens": 28,
       "fichaTokens": 87,
+      "tagWeights": {
+        "autoridad": 0.3333,
+        "decision": 0.2381,
+        "matematicas": 0.4286
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-validity_boundary.json"
     },
     {
@@ -69,6 +122,13 @@
       "reading": "La lectura enlaza «Rechazar una entrada también es tomar una decisión» con «Gödel, máquinas de Turing y la pregunta de qué queda fuera». Permite contrastar Pensamiento matemático.",
       "relationTokens": 73,
       "fichaTokens": 338,
+      "tagWeights": {
+        "matematicas": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-094.json"
     },
     {
@@ -80,6 +140,13 @@
       "reading": "La lectura enlaza «Rechazar una entrada también es tomar una decisión» con «Un control puede aprobar y el sistema seguir fallando».",
       "relationTokens": 56,
       "fichaTokens": 299,
+      "tagWeights": {
+        "aprendizaje": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-116.json"
     },
     {
@@ -91,6 +158,13 @@
       "reading": "La lectura enlaza «Rechazar una entrada también es tomar una decisión» con «El instante que una cosa del mundo se convierte en dato». Permite contrastar Pensamiento matemático, La frontera entre mundo y registro.",
       "relationTokens": 74,
       "fichaTokens": 425,
+      "tagWeights": {
+        "matematicas": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-216.json"
     },
     {
@@ -102,6 +176,14 @@
       "reading": "La lectura enlaza «Rechazar una entrada también es tomar una decisión» con «Un JSON correcto puede describir una vaca que no estaba allí». Permite contrastar Pensamiento matemático, La frontera entre mundo y registro.",
       "relationTokens": 78,
       "fichaTokens": 438,
+      "tagWeights": {
+        "decision": 0.5,
+        "matematicas": 0.5
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-217.json"
     },
     {
@@ -113,6 +195,16 @@
       "reading": "La lectura enlaza «Rechazar una entrada también es tomar una decisión» con «Perder información no es lo mismo que no poder decidir». Permite contrastar Pensamiento matemático, La frontera entre mundo y registro.",
       "relationTokens": 74,
       "fichaTokens": 482,
+      "tagWeights": {
+        "aprendizaje": 0.3125,
+        "decision": 0.125,
+        "matematicas": 0.3125,
+        "mundo-abierto": 0.25
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-219.json"
     },
     {
@@ -124,6 +216,15 @@
       "reading": "La lectura enlaza «Rechazar una entrada también es tomar una decisión» con «El supervisor humano no es barato porque solo revise dos casillas». Permite contrastar Pensamiento matemático, Carga de validar sistemas y sus entradas.",
       "relationTokens": 78,
       "fichaTokens": 442,
+      "tagWeights": {
+        "autoridad": 0.25,
+        "documentacion": 0.5,
+        "matematicas": 0.25
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-243.json"
     },
     {
@@ -135,6 +236,13 @@
       "reading": "La lectura enlaza «Rechazar una entrada también es tomar una decisión» con «¿Y si el punto de partida fuera lo no definible?». Permite contrastar Pensamiento matemático, La frontera entre mundo y registro.",
       "relationTokens": 78,
       "fichaTokens": 406,
+      "tagWeights": {
+        "matematicas": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-266.json"
     },
     {
@@ -146,6 +254,13 @@
       "reading": "La lectura enlaza «Una entrada fuera del dominio puede producir una salida aparentemente útil» con «Rechazar una entrada también es tomar una decisión». Permite contrastar Límite entre entrada, pertenencia y respuesta, Pensamiento matemático, La frontera entre mundo y registro.",
       "relationTokens": 85,
       "fichaTokens": 377,
+      "tagWeights": {
+        "matematicas": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-279.json"
     },
     {
@@ -157,6 +272,14 @@
       "reading": "La lectura enlaza «El investigador también ocupa el lugar del oráculo» con «Rechazar una entrada también es tomar una decisión». Permite contrastar Carga de validar sistemas y sus entradas, Pensamiento matemático.",
       "relationTokens": 72,
       "fichaTokens": 411,
+      "tagWeights": {
+        "experimentacion": 0.7143,
+        "matematicas": 0.2857
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-280.json"
     },
     {
@@ -168,6 +291,13 @@
       "reading": "Ambas reflexiones permiten comparar Carga de validar sistemas y sus entradas, La frontera entre mundo y registro desde las situaciones que describe cada texto.",
       "relationTokens": 60,
       "fichaTokens": 430,
+      "tagWeights": {
+        "transformacion": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-244.json"
     },
     {
@@ -179,6 +309,15 @@
       "reading": "Ambas reflexiones permiten comparar Carga de validar sistemas y sus entradas, Pensamiento matemático desde las situaciones que describe cada texto.",
       "relationTokens": 57,
       "fichaTokens": 390,
+      "tagWeights": {
+        "decision": 0.25,
+        "matematicas": 0.25,
+        "representacion": 0.5
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-293.json"
     },
     {
@@ -190,6 +329,16 @@
       "reading": "El rechazo de una entrada desplaza la pregunta a la pertenencia al dominio. El cálculo de restricción contextual permite estudiar esa distinción en una formulación matemática específica.",
       "relationTokens": 66,
       "fichaTokens": 202,
+      "tagWeights": {
+        "cambio-regimen": 0.2,
+        "documentacion": 0.2,
+        "evidencia": 0.2,
+        "matematicas": 0.4
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH010.json"
     }
   ]

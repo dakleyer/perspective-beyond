@@ -9,16 +9,17 @@
     "E1535"
   ],
   "tagWeights": {
-    "autoridad": 0.1111,
-    "decision": 0.1778,
-    "empresa": 0.4445,
-    "memoria-territorio": 0.1,
+    "autoridad": 0.0667,
+    "decision": 0.1143,
+    "empresa": 0.581,
+    "memoria-territorio": 0.0714,
     "transformacion": 0.1666
   },
   "clusters": [
     "eu"
   ],
-  "context": "## Canal local\nAn interaction environment has its own practices and constraints.\nEtiquetas: Autoridad, permisos y delegación 11.11%; Decisiones y responsabilidad 17.78%; Empresa y gestión 44.45%; Memoria, comunidad y territorio 10.00%; Transformación y continuidad operativa 16.66%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/local-channel/\n\n",
+  "context": "## Canal local\nAn interaction environment has its own practices and constraints.\nEtiquetas: Autoridad, permisos y delegación 6.67%; Decisiones y responsabilidad 11.43%; Empresa y gestión 58.10%; Memoria, comunidad y territorio 7.14%; Transformación y continuidad operativa 16.66%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/local-channel/\n\n",
+  "readingSource": null,
   "tokens": 87,
   "encoding": "o200k_base",
   "relations": [
@@ -30,7 +31,16 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 12,
-      "fichaTokens": 80,
+      "fichaTokens": 211,
+      "tagWeights": {
+        "autoridad": 0.1334,
+        "decision": 0.1333,
+        "empresa": 0.7333
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1570.json"
     },
     {
@@ -41,7 +51,17 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 16,
-      "fichaTokens": 100,
+      "fichaTokens": 219,
+      "tagWeights": {
+        "decision": 0.0952,
+        "empresa": 0.4286,
+        "memoria-territorio": 0.1429,
+        "transformacion": 0.3333
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1535.json"
     },
     {
@@ -52,7 +72,39 @@
       "kind": "candidate transfer",
       "reading": "Regional transfer works best when the reusable capability is separated from the channel that first hosted it.",
       "relationTokens": 29,
-      "fichaTokens": 254,
+      "fichaTokens": 267,
+      "tagWeights": {
+        "agentes": 0.0141,
+        "aprendizaje": 0.0296,
+        "autoridad": 0.013,
+        "cambio-regimen": 0.019,
+        "capacidad-humana": 0.079,
+        "casos": 0.044,
+        "control-minimo": 0.0201,
+        "decision": 0.0593,
+        "documentacion": 0.0697,
+        "economia": 0.033,
+        "empresa": 0.1772,
+        "estandares": 0.0064,
+        "evidencia": 0.0971,
+        "experimentacion": 0.0181,
+        "geopolitica": 0.016,
+        "integridad-ia": 0.0315,
+        "memoria-territorio": 0.0494,
+        "movilidad": 0.107,
+        "representacion": 0.006,
+        "transformacion": 0.1105
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "mobility",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C20.json"
     },
     {
@@ -64,6 +116,15 @@
       "reading": "",
       "relationTokens": 15,
       "fichaTokens": 78,
+      "tagWeights": {
+        "autoridad": 0.0667,
+        "decision": 0.0667,
+        "empresa": 0.8666
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G50.json"
     }
   ]

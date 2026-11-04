@@ -6,14 +6,21 @@
   "documentId": "doc-ea8a22d5c4bc36ba9b",
   "sourceIds": [],
   "tagWeights": {
-    "empresa": 0.5,
-    "transformacion": 0.5
+    "empresa": 0.2727,
+    "evidencia": 0.4546,
+    "transformacion": 0.2727
   },
   "clusters": [
     "eu"
   ],
-  "context": "## Diamond Inside\n\nEtiquetas: Empresa y gestión 50.00%; Transformación y continuidad operativa 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/diamond-inside-e1706/\nDocumento de origen: https://jubap.eu/rationalization-as-value-discovery/\n\n",
-  "tokens": 67,
+  "context": "## Diamond Inside\nMost rationalization begins the same way: count the number of applications serving a single capability, identify the surplus, and mark it for removal. In a uniform organization that instinct is often sound. In a decentralized, heritage-rich group it is frequently mistaken — and the mistake is invisible at the moment it is made, because a list cannot show the difference between a costly redundancy and a deliberate adaptation.\n\nThe number of solutions per capability is not, by itself, evidence of inefficiency. It is evidence that the same need was met more than once. Whether that is waste depends entirely on why.\nEtiquetas: Empresa y gestión 27.27%; Evidencia, procedencia y atribución 45.46%; Transformación y continuidad operativa 27.27%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/diamond-inside-e1706/\nDocumento de origen: https://jubap.eu/rationalization-as-value-discovery/\n\n",
+  "readingSource": {
+    "url": "https://jubap.eu/rationalization-as-value-discovery/",
+    "section": "Opening paragraphs",
+    "observed": "2026-11-04",
+    "sourceSha256": "da021b637f3ddf26f3c3c383c2783a69f7d139c9ec8521262824961d5abed57d"
+  },
+  "tokens": 197,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -24,7 +31,19 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [Rationalization as value discovery](https://jubap.eu/rationalization-as-value-discovery/).",
       "relationTokens": 43,
-      "fichaTokens": 100,
+      "fichaTokens": 395,
+      "tagWeights": {
+        "control-minimo": 0.0667,
+        "economia": 0.2667,
+        "empresa": 0.2333,
+        "evidencia": 0.1333,
+        "memoria-territorio": 0.0667,
+        "transformacion": 0.2333
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1662.json"
     },
     {
@@ -35,7 +54,19 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The complete Diamond Inside framework](https://jubap.eu/the-diamond-inside-framework/).",
       "relationTokens": 41,
-      "fichaTokens": 100,
+      "fichaTokens": 395,
+      "tagWeights": {
+        "control-minimo": 0.0667,
+        "economia": 0.2667,
+        "empresa": 0.2333,
+        "evidencia": 0.1333,
+        "memoria-territorio": 0.0667,
+        "transformacion": 0.2333
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1662.json"
     },
     {
@@ -46,7 +77,17 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [When cleanup risks destroying hidden value](https://tegrity.ai/when-cleaning-up-means-betting-blind/).",
       "relationTokens": 45,
-      "fichaTokens": 83,
+      "fichaTokens": 454,
+      "tagWeights": {
+        "casos": 0.1429,
+        "decision": 0.1429,
+        "economia": 0.3571,
+        "evidencia": 0.3571
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1419.json"
     },
     {
@@ -57,7 +98,17 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [Rationalization as value discovery](https://jubap.eu/rationalization-as-value-discovery/).",
       "relationTokens": 51,
-      "fichaTokens": 111,
+      "fichaTokens": 316,
+      "tagWeights": {
+        "cambio-regimen": 0.3125,
+        "empresa": 0.1875,
+        "movilidad": 0.4375,
+        "transformacion": 0.0625
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1265.json"
     }
   ]

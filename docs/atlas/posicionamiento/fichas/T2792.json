@@ -6,15 +6,21 @@
   "documentId": "doc-4cfcae7538a962c2ce",
   "sourceIds": [],
   "tagWeights": {
-    "autoridad": 0.2222,
-    "decision": 0.2222,
-    "documentacion": 0.5556
+    "autoridad": 0.2353,
+    "decision": 0.1176,
+    "documentacion": 0.6471
   },
   "clusters": [
     "tegrity"
   ],
-  "context": "## Annex 3 — Foundations, Principles and Derivation\n\nEtiquetas: Autoridad, permisos y delegación 22.22%; Decisiones y responsabilidad 22.22%; Investigación y documentación técnica 55.56%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/annex-3-foundations-principles-and-derivation-t2792/\nDocumento de origen: https://tegrity.ai/when-the-controls-work-annex-3-foundations-principles-and-derivation/\n\n",
-  "tokens": 107,
+  "context": "## Annex 3 — Foundations, Principles and Derivation\nThis is not the foundations document; it is a technical verification annex to the public-facing foundation article . For the authoritative technical material, use the canonical Ecosystem Positioning README and the versioned sources it indexes. This annex makes the foundations, operating principles and derivation chain inspectable and traceable. Publication on Tegrity.AI does not imply peer review, independent validation, production readiness, adoption as a standard or endorsement by the ITU, FG-TIDA or any cited organisation.\nEtiquetas: Autoridad, permisos y delegación 23.53%; Decisiones y responsabilidad 11.76%; Investigación y documentación técnica 64.71%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/annex-3-foundations-principles-and-derivation-t2792/\nDocumento de origen: https://tegrity.ai/when-the-controls-work-annex-3-foundations-principles-and-derivation/\n\n",
+  "readingSource": {
+    "url": "https://tegrity.ai/when-the-controls-work-annex-3-foundations-principles-and-derivation/",
+    "section": "Opening paragraphs",
+    "observed": "2026-11-04",
+    "sourceSha256": "27ecfdd305c116f653c7f1173b0a2cfa70921f4c1be5e5918cd49e25d3505ae8"
+  },
+  "tokens": 205,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -25,7 +31,40 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 262,
+      "fichaTokens": 273,
+      "tagWeights": {
+        "agentes": 0.0434,
+        "aprendizaje": 0.0079,
+        "autoridad": 0.1478,
+        "capacidad-humana": 0.018,
+        "cartografia": 0.0148,
+        "casos": 0.0271,
+        "control-minimo": 0.0436,
+        "decision": 0.1698,
+        "documentacion": 0.0784,
+        "economia": 0.0334,
+        "empresa": 0.112,
+        "estandares": 0.0063,
+        "evidencia": 0.0528,
+        "experimentacion": 0.0371,
+        "geopolitica": 0.0013,
+        "integridad-ia": 0.0373,
+        "memoria-territorio": 0.0241,
+        "movilidad": 0.0392,
+        "perspectiva": 0.0068,
+        "representacion": 0.0025,
+        "transformacion": 0.0964
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "mobility",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C26.json"
     },
     {
@@ -36,7 +75,38 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 250,
+      "fichaTokens": 261,
+      "tagWeights": {
+        "agentes": 0.0113,
+        "aprendizaje": 0.0329,
+        "autoridad": 0.0836,
+        "capacidad-humana": 0.0172,
+        "casos": 0.0141,
+        "control-minimo": 0.0764,
+        "decision": 0.133,
+        "documentacion": 0.1124,
+        "economia": 0.0601,
+        "empresa": 0.0811,
+        "estandares": 0.0236,
+        "evidencia": 0.0172,
+        "experimentacion": 0.0387,
+        "geopolitica": 0.0023,
+        "integridad-ia": 0.0467,
+        "memoria-territorio": 0.0247,
+        "movilidad": 0.0381,
+        "perspectiva": 0.0217,
+        "representacion": 0.0119,
+        "transformacion": 0.153
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C37.json"
     },
     {
@@ -47,7 +117,17 @@
       "kind": "analogy only",
       "reading": "A governance principle becomes operational when it specifies an owner, an escalation condition and a clear boundary on authorized action.",
       "relationTokens": 42,
-      "fichaTokens": 100,
+      "fichaTokens": 302,
+      "tagWeights": {
+        "autoridad": 0.3,
+        "decision": 0.2667,
+        "integridad-ia": 0.0667,
+        "transformacion": 0.3666
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1279.json"
     },
     {
@@ -58,7 +138,21 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [Canonical requirements and the test contract](https://tegrity.ai/when-the-controls-work-annex-4-canonical-requirements-and-test-contract/).",
       "relationTokens": 64,
-      "fichaTokens": 162,
+      "fichaTokens": 261,
+      "tagWeights": {
+        "aprendizaje": 0.0645,
+        "autoridad": 0.1291,
+        "control-minimo": 0.0645,
+        "decision": 0.0968,
+        "documentacion": 0.3871,
+        "economia": 0.0645,
+        "evidencia": 0.129,
+        "integridad-ia": 0.0645
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2795.json"
     }
   ]

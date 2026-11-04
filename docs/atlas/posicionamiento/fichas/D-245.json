@@ -12,6 +12,7 @@
     "dialogos"
   ],
   "context": "## Llamarlo «AI firewall» no te concede saber qué está filtrando\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Cómo pretende gobernar un sistema de IA un filtro que ignora de dónde vienen y adónde van sus datos?\nREFLEXIÓN DEL DIÁLOGO (voz atribuida mediante documento o contexto, distinta de transcripción literal salvo citas señaladas) — Aquí Iván abandona la notación y regresa a su trabajo diario. Enumera capas que una empresa va añadiendo: sistemas conectados, data warehouse, data lake, lakehouse, big data, IA sobre los datos y, al final, una plataforma de AI governance. Cada capa promete ordenar a la anterior. Pero cuando se pretende instalar la última, aparece la misma pregunta que estaba pendiente desde el principio: quién es dueño del dato, quién lo custodia, cómo llegó allí, por dónde circula y qué decisiones depende de él.\n\nLa intervención original es frontal: «You can't pretend that you are governing because you start a firewall, and it's called firewall». Un catálogo automático puede detectar tipos evidentes, pero eso no equivale a comprender las condiciones reales de una organización. Iván dice que volver a clasificar miles de casos mal comprendidos consume horas humanas y conocimiento de arquitectura; su preocupación no es una marca de software sino la diferencia entre etiquetar y gobernar.\n\nLa implicación no es que todos los firewalls de IA sean inútiles. Es que la barrera puede verificar solamente aquello cuya procedencia, significado, responsabilidades y límites de uso han sido correctamente definidos. Cuando esa información falta, el sistema de seguridad recibe una deuda anterior y se anuncia como solución nueva. La frontera del control no nace al instalar un producto: nace al conocer el sistema que pretende controlar.\nEtiquetas: Autoridad, permisos y delegación 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-245\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-245.html\n\n",
+  "readingSource": null,
   "tokens": 430,
   "encoding": "o200k_base",
   "relations": [
@@ -24,6 +25,26 @@
       "reading": "",
       "relationTokens": 26,
       "fichaTokens": 196,
+      "tagWeights": {
+        "aprendizaje": 0.059,
+        "autoridad": 0.1499,
+        "capacidad-humana": 0.0216,
+        "casos": 0.0166,
+        "decision": 0.1127,
+        "economia": 0.0848,
+        "empresa": 0.1523,
+        "estandares": 0.026,
+        "evidencia": 0.0417,
+        "integridad-ia": 0.0455,
+        "matematicas": 0.0519,
+        "memoria-territorio": 0.0065,
+        "movilidad": 0.1628,
+        "transformacion": 0.0687
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-operations.json"
     },
     {
@@ -35,6 +56,31 @@
       "reading": "",
       "relationTokens": 27,
       "fichaTokens": 256,
+      "tagWeights": {
+        "aprendizaje": 0.158,
+        "autoridad": 0.0636,
+        "cambio-regimen": 0.0285,
+        "capacidad-humana": 0.0093,
+        "decision": 0.0565,
+        "economia": 0.06,
+        "empresa": 0.1498,
+        "espiritualidad": 0.0198,
+        "estandares": 0.0174,
+        "evidencia": 0.0292,
+        "experimentacion": 0.0278,
+        "geopolitica": 0.0278,
+        "integridad-ia": 0.0278,
+        "matematicas": 0.1395,
+        "memoria-territorio": 0.0417,
+        "movilidad": 0.0165,
+        "perspectiva": 0.0179,
+        "representacion": 0.0194,
+        "transformacion": 0.0895
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-structure.json"
     },
     {
@@ -46,6 +92,30 @@
       "reading": "",
       "relationTokens": 28,
       "fichaTokens": 254,
+      "tagWeights": {
+        "aprendizaje": 0.034,
+        "autoridad": 0.4256,
+        "capacidad-humana": 0.0104,
+        "casos": 0.0027,
+        "decision": 0.1415,
+        "documentacion": 0.0128,
+        "economia": 0.0465,
+        "empresa": 0.053,
+        "espiritualidad": 0.0099,
+        "estandares": 0.0467,
+        "evidencia": 0.0256,
+        "experimentacion": 0.0128,
+        "geopolitica": 0.0262,
+        "matematicas": 0.0064,
+        "memoria-territorio": 0.0945,
+        "movilidad": 0.0051,
+        "representacion": 0.0143,
+        "transformacion": 0.032
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-governance.json"
     },
     {
@@ -57,6 +127,19 @@
       "reading": "",
       "relationTokens": 31,
       "fichaTokens": 137,
+      "tagWeights": {
+        "autoridad": 0.2083,
+        "decision": 0.1607,
+        "documentacion": 0.0833,
+        "experimentacion": 0.1191,
+        "matematicas": 0.1786,
+        "representacion": 0.0833,
+        "transformacion": 0.1667
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-meta_discrimination.json"
     },
     {
@@ -68,6 +151,13 @@
       "reading": "La lectura enlaza «Llamarlo «AI firewall» no te concede saber qué está filtrando» con «Lo que el mapa no representa puede cambiar la decisión». Permite contrastar Conciencia estructural.",
       "relationTokens": 75,
       "fichaTokens": 261,
+      "tagWeights": {
+        "decision": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-099.json"
     },
     {
@@ -79,6 +169,13 @@
       "reading": "La lectura enlaza «Llamarlo «AI firewall» no te concede saber qué está filtrando» con «Un control puede aprobar y el sistema seguir fallando». Permite contrastar Conciencia estructural.",
       "relationTokens": 75,
       "fichaTokens": 299,
+      "tagWeights": {
+        "aprendizaje": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-116.json"
     },
     {
@@ -90,6 +187,14 @@
       "reading": "La lectura enlaza «Llamarlo «AI firewall» no te concede saber qué está filtrando» con «Publicar no demuestra que alguien recibió ni actuó». Permite contrastar Gobernanza y legitimidad.",
       "relationTokens": 76,
       "fichaTokens": 263,
+      "tagWeights": {
+        "autoridad": 0.5,
+        "decision": 0.5
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-118.json"
     },
     {
@@ -101,6 +206,14 @@
       "reading": "La lectura enlaza «Llamarlo «AI firewall» no te concede saber qué está filtrando» con «Un papel compartido puede controlar más que diez firmas». Permite contrastar Gobernanza y legitimidad, Operación real.",
       "relationTokens": 80,
       "fichaTokens": 297,
+      "tagWeights": {
+        "autoridad": 0.2857,
+        "decision": 0.7143
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-152.json"
     },
     {
@@ -112,6 +225,15 @@
       "reading": "La lectura enlaza «Llamarlo «AI firewall» no te concede saber qué está filtrando» con «El control ceremonial se parece a un sistema de control». Permite contrastar Gobernanza y legitimidad, Conciencia estructural.",
       "relationTokens": 81,
       "fichaTokens": 317,
+      "tagWeights": {
+        "autoridad": 0.25,
+        "decision": 0.25,
+        "empresa": 0.5
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-153.json"
     },
     {
@@ -123,6 +245,16 @@
       "reading": "La lectura enlaza «Llamarlo «AI firewall» no te concede saber qué está filtrando» con «Dices «cloud» y acabas comprando cloud».",
       "relationTokens": 68,
       "fichaTokens": 451,
+      "tagWeights": {
+        "aprendizaje": 0.25,
+        "empresa": 0.25,
+        "perspectiva": 0.25,
+        "transformacion": 0.25
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-223.json"
     },
     {
@@ -134,6 +266,15 @@
       "reading": "Ambas reflexiones permiten comparar Carga de validar sistemas y sus entradas, Gobernanza y legitimidad desde las situaciones que describe cada texto.",
       "relationTokens": 62,
       "fichaTokens": 442,
+      "tagWeights": {
+        "autoridad": 0.25,
+        "documentacion": 0.5,
+        "matematicas": 0.25
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-243.json"
     },
     {
@@ -145,6 +286,13 @@
       "reading": "Ambas reflexiones permiten comparar Carga de validar sistemas y sus entradas, Conciencia estructural desde las situaciones que describe cada texto.",
       "relationTokens": 63,
       "fichaTokens": 430,
+      "tagWeights": {
+        "transformacion": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-244.json"
     },
     {
@@ -156,6 +304,15 @@
       "reading": "Ambas reflexiones permiten comparar Carga de validar sistemas y sus entradas, Conciencia estructural desde las situaciones que describe cada texto.",
       "relationTokens": 62,
       "fichaTokens": 390,
+      "tagWeights": {
+        "decision": 0.25,
+        "matematicas": 0.25,
+        "representacion": 0.5
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-293.json"
     },
     {
@@ -166,7 +323,15 @@
       "kind": "puente de lectura",
       "reading": "La pregunta por custodia, circulación y decisiones dependientes de los datos ofrece una entrada empresarial a la conciencia de la estructura que un control de IA pretende gobernar.",
       "relationTokens": 56,
-      "fichaTokens": 68,
+      "fichaTokens": 173,
+      "tagWeights": {
+        "documentacion": 0.5,
+        "evidencia": 0.5
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1499.json"
     }
   ]

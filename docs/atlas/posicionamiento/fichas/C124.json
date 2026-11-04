@@ -12,9 +12,9 @@
     "GH078"
   ],
   "tagWeights": {
-    "documentacion": 0.1133,
-    "economia": 0.2091,
-    "evidencia": 0.4318,
+    "documentacion": 0.1223,
+    "economia": 0.2334,
+    "evidencia": 0.3985,
     "experimentacion": 0.1833,
     "matematicas": 0.0625
   },
@@ -22,7 +22,8 @@
     "research",
     "tegrity"
   ],
-  "context": "## Adquisición de evidencia falible y emparejada\nRecord coverage, error, cost and provenance when gathering evidence.\nEtiquetas: Investigación y documentación técnica 11.33%; Economía, costes y liquidez 20.91%; Evidencia, procedencia y atribución 43.18%; Experimentación, falsación y contraejemplos 18.33%; Matemáticas 6.25%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/fallible-matched-evidence-acquisition/\n\n",
+  "context": "## Adquisición de evidencia falible y emparejada\nRecord coverage, error, cost and provenance when gathering evidence.\nEtiquetas: Investigación y documentación técnica 12.23%; Economía, costes y liquidez 23.34%; Evidencia, procedencia y atribución 39.85%; Experimentación, falsación y contraejemplos 18.33%; Matemáticas 6.25%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/fallible-matched-evidence-acquisition/\n\n",
+  "readingSource": null,
   "tokens": 109,
   "encoding": "o200k_base",
   "relations": [
@@ -35,6 +36,14 @@
       "reading": "",
       "relationTokens": 35,
       "fichaTokens": 172,
+      "tagWeights": {
+        "economia": 0.5,
+        "evidencia": 0.5
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH076.json"
     },
     {
@@ -46,6 +55,15 @@
       "reading": "",
       "relationTokens": 33,
       "fichaTokens": 179,
+      "tagWeights": {
+        "evidencia": 0.4375,
+        "experimentacion": 0.25,
+        "matematicas": 0.3125
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH077.json"
     },
     {
@@ -56,7 +74,16 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 27,
-      "fichaTokens": 96,
+      "fichaTokens": 229,
+      "tagWeights": {
+        "documentacion": 0.1333,
+        "economia": 0.6667,
+        "evidencia": 0.2
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1421.json"
     },
     {
@@ -67,7 +94,15 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 95,
+      "fichaTokens": 198,
+      "tagWeights": {
+        "documentacion": 0.4783,
+        "evidencia": 0.5217
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2814.json"
     },
     {
@@ -79,6 +114,14 @@
       "reading": "",
       "relationTokens": 32,
       "fichaTokens": 175,
+      "tagWeights": {
+        "evidencia": 0.3333,
+        "experimentacion": 0.6667
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH078.json"
     },
     {
@@ -90,6 +133,36 @@
       "reading": "Compare evidence precision and provenance before pricing the procedures; a favorable price assumption must not be reported as an architectural advantage.",
       "relationTokens": 43,
       "fichaTokens": 257,
+      "tagWeights": {
+        "agentes": 0.0227,
+        "aprendizaje": 0.0059,
+        "autoridad": 0.0123,
+        "capacidad-humana": 0.1126,
+        "casos": 0.0221,
+        "control-minimo": 0.0305,
+        "decision": 0.0772,
+        "documentacion": 0.0313,
+        "economia": 0.2329,
+        "empresa": 0.1056,
+        "evidencia": 0.1037,
+        "experimentacion": 0.0145,
+        "integridad-ia": 0.0032,
+        "matematicas": 0.0074,
+        "memoria-territorio": 0.0263,
+        "movilidad": 0.0406,
+        "mundo-abierto": 0.0111,
+        "perspectiva": 0.015,
+        "representacion": 0.0266,
+        "transformacion": 0.0985
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C32.json"
     },
     {
@@ -101,6 +174,40 @@
       "reading": "An audited-Q claim becomes testable when audit observations, fallibility, scope and cost are explicit, rather than supplied as a favorable Boolean flag.",
       "relationTokens": 50,
       "fichaTokens": 289,
+      "tagWeights": {
+        "agentes": 0.0366,
+        "aprendizaje": 0.0258,
+        "autoridad": 0.0159,
+        "cambio-regimen": 0.027,
+        "capacidad-humana": 0.0643,
+        "cartografia": 0.0076,
+        "casos": 0.0219,
+        "control-minimo": 0.0231,
+        "decision": 0.0524,
+        "documentacion": 0.076,
+        "economia": 0.062,
+        "empresa": 0.0685,
+        "estandares": 0.0181,
+        "evidencia": 0.23,
+        "experimentacion": 0.0268,
+        "geopolitica": 0.0128,
+        "integridad-ia": 0.0075,
+        "matematicas": 0.0473,
+        "memoria-territorio": 0.04,
+        "movilidad": 0.0398,
+        "perspectiva": 0.0126,
+        "representacion": 0.0117,
+        "transformacion": 0.0723
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C69.json"
     },
     {
@@ -112,6 +219,18 @@
       "reading": "A fallible audit mechanism and a public-label leakage control address different confounders; both must remain visible in a fair comparison.",
       "relationTokens": 49,
       "fichaTokens": 101,
+      "tagWeights": {
+        "control-minimo": 0.0864,
+        "documentacion": 0.1358,
+        "evidencia": 0.2569,
+        "experimentacion": 0.4167,
+        "matematicas": 0.1042
+      },
+      "clusters": [
+        "research",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C125.json"
     }
   ]

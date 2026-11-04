@@ -11,8 +11,14 @@
   "clusters": [
     "tegrity"
   ],
-  "context": "## Regime Awareness: Capability Development Across Four Field Cases\n\nEtiquetas: Cambios de régimen y alerta temprana 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/regime-awareness-capability-development-across-four-field-cases-t1221/\nDocumento de origen: https://tegrity.ai/evolution-of-regime-awareness-capability/\n\n",
-  "tokens": 78,
+  "context": "## Regime Awareness: Capability Development Across Four Field Cases\nDocument Status — Field Case · Series: Regime Awareness in Adaptive Systems , Paper 1\n\nThis article is a retrospective field-case reconstruction of engineering patterns that preceded the present Regime Awareness framework. It examines whether recurring control patterns across four operational settings can be formulated as a transferable, regime-aware decision architecture. The cases motivate that hypothesis; they do not by themselves establish domain-agnostic validity, predictive performance or causal effectiveness.\nEtiquetas: Cambios de régimen y alerta temprana 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/regime-awareness-capability-development-across-four-field-cases-t1221/\nDocumento de origen: https://tegrity.ai/evolution-of-regime-awareness-capability/\n\n",
+  "readingSource": {
+    "url": "https://tegrity.ai/evolution-of-regime-awareness-capability/",
+    "section": "Opening paragraphs",
+    "observed": "2026-11-04",
+    "sourceSha256": "b7b6b71fb07bf33fb8bc000f9ed3394aa2d187b13d5f57c6ec49f65c34d3ae98"
+  },
+  "tokens": 163,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,7 +29,19 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The GEPLAN operational record](https://jubap.net/geplan-mission-critical-logistics-intelligence-for-pemex-2006/).",
       "relationTokens": 66,
-      "fichaTokens": 124,
+      "fichaTokens": 483,
+      "tagWeights": {
+        "autoridad": 0.0541,
+        "decision": 0.2162,
+        "empresa": 0.1892,
+        "evidencia": 0.1081,
+        "experimentacion": 0.1351,
+        "movilidad": 0.2973
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N864.json"
     },
     {
@@ -34,7 +52,15 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The xSeil operational architecture](https://jubap.net/jubap-net-xseil-whitepaper/).",
       "relationTokens": 54,
-      "fichaTokens": 82,
+      "fichaTokens": 379,
+      "tagWeights": {
+        "economia": 0.1429,
+        "movilidad": 0.8571
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1247.json"
     },
     {
@@ -45,7 +71,17 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The Phylons context-construction evidence](https://jubap.net/phylons-predictive-factors-cascade/).",
       "relationTokens": 54,
-      "fichaTokens": 85,
+      "fichaTokens": 501,
+      "tagWeights": {
+        "control-minimo": 0.4375,
+        "documentacion": 0.3125,
+        "evidencia": 0.125,
+        "memoria-territorio": 0.125
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1831.json"
     },
     {
@@ -56,7 +92,17 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [Enterprise process observability and rationalization](https://jubap.eu/supply-chain-rationalization-process-mining/).",
       "relationTokens": 53,
-      "fichaTokens": 101,
+      "fichaTokens": 257,
+      "tagWeights": {
+        "decision": 0.0909,
+        "empresa": 0.5,
+        "evidencia": 0.0909,
+        "transformacion": 0.3182
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1560.json"
     },
     {
@@ -68,6 +114,15 @@
       "reading": "La fuente enlaza esta lectura en «Current public corpus» con el rótulo «Evolution of Regime-Awareness Capability».",
       "relationTokens": 108,
       "fichaTokens": 159,
+      "tagWeights": {
+        "agentes": 0.1429,
+        "cambio-regimen": 0.7143,
+        "evidencia": 0.1428
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-e81dcdb1021761.json"
     },
     {
@@ -79,6 +134,14 @@
       "reading": "La fuente enlaza esta lectura en «Main documents and their roles» con el rótulo «Regime Awareness Capability — field-case reconstruction».",
       "relationTokens": 120,
       "fichaTokens": 149,
+      "tagWeights": {
+        "cambio-regimen": 0.7333,
+        "documentacion": 0.2667
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/S07.json"
     },
     {
@@ -90,6 +153,17 @@
       "reading": "La fuente enlaza esta lectura en «Public corpus» con el rótulo «Regime Awareness Capability: Field Case».",
       "relationTokens": 119,
       "fichaTokens": 182,
+      "tagWeights": {
+        "cambio-regimen": 0.3572,
+        "documentacion": 0.3571,
+        "economia": 0.0714,
+        "evidencia": 0.1429,
+        "integridad-ia": 0.0714
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH020.json"
     },
     {
@@ -101,6 +175,14 @@
       "reading": "La repetición de una configuración exitosa se contrasta con Regime Awareness: reconocer qué condiciones cambiaron antes de reutilizar una capacidad.",
       "relationTokens": 58,
       "fichaTokens": 396,
+      "tagWeights": {
+        "integridad-ia": 0.5,
+        "memoria-territorio": 0.5
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-234.json"
     },
     {
@@ -112,6 +194,15 @@
       "reading": "Desde «Tegrity.AI», el enlace «field cases» abre «Regime Awareness: Capability Development Across Four Field Cases».",
       "relationTokens": 62,
       "fichaTokens": 129,
+      "tagWeights": {
+        "control-minimo": 0.2222,
+        "decision": 0.2222,
+        "navegacion": 0.5556
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1573.json"
     }
   ]

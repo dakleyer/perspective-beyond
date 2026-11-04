@@ -15,6 +15,7 @@
     "dialogos"
   ],
   "context": "## Una memoria en estrella puede perder su centro sin dejar de funcionar\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Cómo reconoce una IA que el nodo que está a punto de sustituir era el que sostenía el sentido de toda una memoria?\nREFLEXIÓN DEL DIÁLOGO (voz atribuida mediante documento o contexto, distinta de transcripción literal salvo citas señaladas) — En una discusión técnica sobre entropía y aprendizaje, Iván introdujo una escena visual: recuerdos «en forma de estrella con un centro claro». No era una decoración gráfica. Planteaba que el significado de un conjunto puede depender de la centralidad de algunas relaciones, mientras otras son periferia o ruido. Si el sistema dispersa las conexiones o se ajusta a nuevos datos sin reconocer ese centro, podría sobrescribir algo importante creyendo que solo reorganiza representaciones.\n\nLa objeción conecta con su insistencia en no maximizar o minimizar arbitrariamente la entropía: el objetivo debería depender del contexto. Pero, preguntaba, ¿cómo mide la máquina el contexto que necesita para calibrar ese objetivo? Si no puede identificar qué memorias son estructurales, la misma operación que mejora el ajuste local puede erosionar continuidad global.\n\nNo debe convertirse esta analogía en una explicación demostrada de los mecanismos internos de todos los modelos. Iván interrogaba una posibilidad: las medidas agregadas de dispersión no bastan para conservar la importancia funcional de ciertas conexiones. El diálogo anticipa una pregunta práctica del atlas: no basta con conservar todas las fichas si se pierden los vínculos que hacían que unas limitaran o sostuvieran a otras.\nEtiquetas: Aprendizaje y transmisión de capacidades 13.34%; Evidencia, procedencia y atribución 13.33%; Memoria, comunidad y territorio 60.00%; Transformación y continuidad operativa 13.33%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-249\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-249.html\n\n",
+  "readingSource": null,
   "tokens": 441,
   "encoding": "o200k_base",
   "relations": [
@@ -27,6 +28,26 @@
       "reading": "",
       "relationTokens": 27,
       "fichaTokens": 200,
+      "tagWeights": {
+        "aprendizaje": 0.4664,
+        "autoridad": 0.0587,
+        "capacidad-humana": 0.0372,
+        "decision": 0.0863,
+        "economia": 0.04,
+        "empresa": 0.0356,
+        "espiritualidad": 0.0291,
+        "evidencia": 0.0053,
+        "experimentacion": 0.0267,
+        "matematicas": 0.04,
+        "memoria-territorio": 0.0849,
+        "movilidad": 0.03,
+        "perspectiva": 0.0289,
+        "transformacion": 0.0309
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-learning.json"
     },
     {
@@ -38,6 +59,26 @@
       "reading": "",
       "relationTokens": 24,
       "fichaTokens": 201,
+      "tagWeights": {
+        "aprendizaje": 0.0854,
+        "autoridad": 0.0274,
+        "capacidad-humana": 0.0278,
+        "casos": 0.0136,
+        "decision": 0.0681,
+        "economia": 0.0544,
+        "empresa": 0.1382,
+        "evidencia": 0.0203,
+        "experimentacion": 0.0217,
+        "geopolitica": 0.0197,
+        "memoria-territorio": 0.1624,
+        "movilidad": 0.0199,
+        "perspectiva": 0.0217,
+        "transformacion": 0.3194
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-continuity.json"
     },
     {
@@ -49,6 +90,23 @@
       "reading": "",
       "relationTokens": 29,
       "fichaTokens": 181,
+      "tagWeights": {
+        "aprendizaje": 0.0229,
+        "decision": 0.0625,
+        "economia": 0.0417,
+        "empresa": 0.1063,
+        "evidencia": 0.2673,
+        "experimentacion": 0.0625,
+        "matematicas": 0.0125,
+        "memoria-territorio": 0.2472,
+        "perspectiva": 0.0625,
+        "representacion": 0.025,
+        "transformacion": 0.0896
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-semantic_graph.json"
     },
     {
@@ -60,6 +118,16 @@
       "reading": "",
       "relationTokens": 28,
       "fichaTokens": 100,
+      "tagWeights": {
+        "aprendizaje": 0.1334,
+        "evidencia": 0.1333,
+        "memoria-territorio": 0.6,
+        "transformacion": 0.1333
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-memory_topology.json"
     },
     {
@@ -71,6 +139,15 @@
       "reading": "La lectura enlaza «Una memoria en estrella puede perder su centro sin dejar de funcionar» con «Capacidad informacional, complejidad y exergía».",
       "relationTokens": 64,
       "fichaTokens": 350,
+      "tagWeights": {
+        "aprendizaje": 0.5,
+        "economia": 0.375,
+        "matematicas": 0.125
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-095.json"
     },
     {
@@ -82,6 +159,13 @@
       "reading": "La lectura enlaza «Una memoria en estrella puede perder su centro sin dejar de funcionar» con «Lo que el mapa no representa puede cambiar la decisión».",
       "relationTokens": 60,
       "fichaTokens": 261,
+      "tagWeights": {
+        "decision": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-099.json"
     },
     {
@@ -93,6 +177,14 @@
       "reading": "La lectura enlaza «Una memoria en estrella puede perder su centro sin dejar de funcionar» con «La protocultura sucede antes de que una idea sea institución».",
       "relationTokens": 62,
       "fichaTokens": 311,
+      "tagWeights": {
+        "memoria-territorio": 0.6667,
+        "perspectiva": 0.3333
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-157.json"
     },
     {
@@ -104,6 +196,13 @@
       "reading": "La lectura enlaza «Una memoria en estrella puede perder su centro sin dejar de funcionar» con «Si un diálogo nunca cede nada, quizá es un sermón». Permite contrastar Aprendizaje autodirigido.",
       "relationTokens": 78,
       "fichaTokens": 419,
+      "tagWeights": {
+        "aprendizaje": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-220.json"
     },
     {
@@ -115,6 +214,15 @@
       "reading": "La lectura enlaza «Una memoria en estrella puede perder su centro sin dejar de funcionar» con «Una palabra se copia; las relaciones entre ideas cuentan otra historia». Permite contrastar Conocimiento como red de relaciones y procedencia.",
       "relationTokens": 78,
       "fichaTokens": 475,
+      "tagWeights": {
+        "evidencia": 0.25,
+        "experimentacion": 0.5,
+        "perspectiva": 0.25
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-240.json"
     },
     {
@@ -126,6 +234,15 @@
       "reading": "Ambas reflexiones permiten comparar Continuidad de capacidades, Aprendizaje autodirigido desde las situaciones que describe cada texto.",
       "relationTokens": 58,
       "fichaTokens": 310,
+      "tagWeights": {
+        "aprendizaje": 0.25,
+        "decision": 0.5,
+        "transformacion": 0.25
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-079.json"
     },
     {
@@ -137,6 +254,15 @@
       "reading": "Ambas reflexiones permiten comparar Conocimiento como red de relaciones y procedencia, Continuidad de capacidades desde las situaciones que describe cada texto.",
       "relationTokens": 60,
       "fichaTokens": 449,
+      "tagWeights": {
+        "economia": 0.3334,
+        "evidencia": 0.3333,
+        "transformacion": 0.3333
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-247.json"
     },
     {
@@ -148,6 +274,16 @@
       "reading": "Ambas reflexiones permiten comparar Continuidad de capacidades, Aprendizaje autodirigido desde las situaciones que describe cada texto.",
       "relationTokens": 57,
       "fichaTokens": 422,
+      "tagWeights": {
+        "aprendizaje": 0.1667,
+        "decision": 0.5,
+        "experimentacion": 0.1667,
+        "transformacion": 0.1666
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-287.json"
     }
   ]

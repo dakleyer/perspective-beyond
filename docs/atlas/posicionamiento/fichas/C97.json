@@ -14,20 +14,21 @@
     "L011"
   ],
   "tagWeights": {
-    "aprendizaje": 0.0095,
-    "autoridad": 0.0315,
-    "capacidad-humana": 0.1556,
-    "casos": 0.0633,
+    "aprendizaje": 0.0045,
+    "autoridad": 0.0265,
+    "capacidad-humana": 0.1705,
+    "casos": 0.0456,
     "control-minimo": 0.022,
-    "decision": 0.0663,
-    "documentacion": 0.0517,
-    "economia": 0.107,
-    "empresa": 0.0505,
-    "evidencia": 0.2897,
-    "experimentacion": 0.0298,
-    "memoria-territorio": 0.0601,
+    "decision": 0.0697,
+    "documentacion": 0.0518,
+    "economia": 0.1186,
+    "empresa": 0.0646,
+    "evidencia": 0.2489,
+    "experimentacion": 0.0502,
+    "memoria-territorio": 0.0387,
+    "movilidad": 0.0204,
     "perspectiva": 0.022,
-    "transformacion": 0.041
+    "transformacion": 0.046
   },
   "clusters": [
     "eu",
@@ -36,8 +37,9 @@
     "tegrity",
     "us"
   ],
-  "context": "## Compensación de externalidades de red\nRecognise or support a contributor whose value is captured elsewhere in a network.\nEtiquetas: Aprendizaje y transmisión de capacidades 0.95%; Autoridad, permisos y delegación 3.15%; Capacidad humana y deuda de inteligencia 15.56%; Casos de uso y aplicaciones 6.33%; Control mínimo y suficiencia 2.20%; Decisiones y responsabilidad 6.63%; Investigación y documentación técnica 5.17%; Economía, costes y liquidez 10.70%; Empresa y gestión 5.05%; Evidencia, procedencia y atribución 28.97%; Experimentación, falsación y contraejemplos 2.98%; Memoria, comunidad y territorio 6.01%; Cambio de perspectiva 2.20%; Transformación y continuidad operativa 4.10%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/network-externality-compensation/\n\n",
-  "tokens": 203,
+  "context": "## Compensación de externalidades de red\nRecognise or support a contributor whose value is captured elsewhere in a network.\nEtiquetas: Aprendizaje y transmisión de capacidades 0.45%; Autoridad, permisos y delegación 2.65%; Capacidad humana y deuda de inteligencia 17.05%; Casos de uso y aplicaciones 4.56%; Control mínimo y suficiencia 2.20%; Decisiones y responsabilidad 6.97%; Investigación y documentación técnica 5.18%; Economía, costes y liquidez 11.86%; Empresa y gestión 6.46%; Evidencia, procedencia y atribución 24.89%; Experimentación, falsación y contraejemplos 5.02%; Memoria, comunidad y territorio 3.87%; Movilidad e infraestructura 2.04%; Cambio de perspectiva 2.20%; Transformación y continuidad operativa 4.60%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/network-externality-compensation/\n\n",
+  "readingSource": null,
+  "tokens": 212,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -49,6 +51,17 @@
       "reading": "",
       "relationTokens": 37,
       "fichaTokens": 226,
+      "tagWeights": {
+        "capacidad-humana": 0.3333,
+        "documentacion": 0.2084,
+        "economia": 0.2083,
+        "evidencia": 0.0417,
+        "experimentacion": 0.2083
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH040.json"
     },
     {
@@ -59,7 +72,16 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 39,
-      "fichaTokens": 143,
+      "fichaTokens": 296,
+      "tagWeights": {
+        "capacidad-humana": 0.7333,
+        "casos": 0.1334,
+        "evidencia": 0.1333
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T902.json"
     },
     {
@@ -70,7 +92,21 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 31,
-      "fichaTokens": 151,
+      "fichaTokens": 447,
+      "tagWeights": {
+        "decision": 0.1143,
+        "economia": 0.1714,
+        "empresa": 0.1714,
+        "evidencia": 0.1143,
+        "experimentacion": 0.1429,
+        "memoria-territorio": 0.0857,
+        "movilidad": 0.1429,
+        "transformacion": 0.0571
+      },
+      "clusters": [
+        "us"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1496.json"
     },
     {
@@ -81,7 +117,19 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 32,
-      "fichaTokens": 158,
+      "fichaTokens": 269,
+      "tagWeights": {
+        "casos": 0.1539,
+        "economia": 0.1539,
+        "empresa": 0.1538,
+        "evidencia": 0.2308,
+        "memoria-territorio": 0.1538,
+        "transformacion": 0.1538
+      },
+      "clusters": [
+        "us"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1792.json"
     },
     {
@@ -92,7 +140,23 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 156,
+      "fichaTokens": 694,
+      "tagWeights": {
+        "aprendizaje": 0.0318,
+        "autoridad": 0.0317,
+        "capacidad-humana": 0.127,
+        "casos": 0.0317,
+        "decision": 0.1429,
+        "economia": 0.1429,
+        "empresa": 0.127,
+        "evidencia": 0.2222,
+        "memoria-territorio": 0.0317,
+        "transformacion": 0.1111
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1472.json"
     },
     {
@@ -104,6 +168,18 @@
       "reading": "",
       "relationTokens": 21,
       "fichaTokens": 152,
+      "tagWeights": {
+        "autoridad": 0.1539,
+        "control-minimo": 0.1539,
+        "decision": 0.2308,
+        "documentacion": 0.1538,
+        "economia": 0.1538,
+        "perspectiva": 0.1538
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1628.json"
     },
     {
@@ -115,6 +191,13 @@
       "reading": "",
       "relationTokens": 40,
       "fichaTokens": 119,
+      "tagWeights": {
+        "evidencia": 1.0
+      },
+      "clusters": [
+        "latinoempresa"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/L011.json"
     },
     {
@@ -126,6 +209,30 @@
       "reading": "The transfer-compensation example shows why network value may require funding the contributing node even when its local ledger understates the benefit it creates elsewhere.",
       "relationTokens": 46,
       "fichaTokens": 200,
+      "tagWeights": {
+        "aprendizaje": 0.0029,
+        "autoridad": 0.0142,
+        "capacidad-humana": 0.1351,
+        "casos": 0.0705,
+        "control-minimo": 0.0067,
+        "decision": 0.0854,
+        "documentacion": 0.0474,
+        "economia": 0.1115,
+        "empresa": 0.0714,
+        "evidencia": 0.1687,
+        "experimentacion": 0.0534,
+        "memoria-territorio": 0.0667,
+        "mundo-abierto": 0.0455,
+        "transformacion": 0.1206
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C33.json"
     },
     {
@@ -137,6 +244,31 @@
       "reading": "The network example suggests a JUBAP leverage point in the funding and transfer rule itself: make the contributing node sustainable so the wider service can work.",
       "relationTokens": 48,
       "fichaTokens": 205,
+      "tagWeights": {
+        "aprendizaje": 0.0563,
+        "autoridad": 0.0207,
+        "capacidad-humana": 0.0296,
+        "casos": 0.0473,
+        "control-minimo": 0.0218,
+        "decision": 0.0663,
+        "documentacion": 0.0594,
+        "economia": 0.1043,
+        "empresa": 0.1255,
+        "evidencia": 0.1038,
+        "integridad-ia": 0.0052,
+        "memoria-territorio": 0.0324,
+        "movilidad": 0.0604,
+        "perspectiva": 0.0443,
+        "transformacion": 0.2227
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "net",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C61.json"
     },
     {
@@ -147,7 +279,29 @@
       "kind": "analogy only",
       "reading": "The historical Chicontepec account helps separate local capability formation from programme-level and territorial outcomes; improvement at one level cannot stand in for the others.",
       "relationTokens": 48,
-      "fichaTokens": 190,
+      "fichaTokens": 199,
+      "tagWeights": {
+        "autoridad": 0.059,
+        "capacidad-humana": 0.0586,
+        "casos": 0.063,
+        "decision": 0.0775,
+        "documentacion": 0.0725,
+        "economia": 0.0517,
+        "empresa": 0.0724,
+        "estandares": 0.0457,
+        "evidencia": 0.2366,
+        "experimentacion": 0.0868,
+        "memoria-territorio": 0.07,
+        "movilidad": 0.0624,
+        "perspectiva": 0.022,
+        "transformacion": 0.0218
+      },
+      "clusters": [
+        "latinoempresa",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C102.json"
     },
     {
@@ -159,6 +313,30 @@
       "reading": "The second-order HID programme can extend the incentive question by testing how contribution recognition and withdrawal rights change feasible collective outcomes.",
       "relationTokens": 40,
       "fichaTokens": 200,
+      "tagWeights": {
+        "aprendizaje": 0.0029,
+        "autoridad": 0.0142,
+        "capacidad-humana": 0.1351,
+        "casos": 0.0705,
+        "control-minimo": 0.0067,
+        "decision": 0.0854,
+        "documentacion": 0.0474,
+        "economia": 0.1115,
+        "empresa": 0.0714,
+        "evidencia": 0.1687,
+        "experimentacion": 0.0534,
+        "memoria-territorio": 0.0667,
+        "mundo-abierto": 0.0455,
+        "transformacion": 0.1206
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C33.json"
     },
     {
@@ -170,6 +348,30 @@
       "reading": "A later economic question is whether correcting attribution changes effective withdrawal and allocation rights, rather than only symbolic credit.",
       "relationTokens": 38,
       "fichaTokens": 200,
+      "tagWeights": {
+        "aprendizaje": 0.0029,
+        "autoridad": 0.0142,
+        "capacidad-humana": 0.1351,
+        "casos": 0.0705,
+        "control-minimo": 0.0067,
+        "decision": 0.0854,
+        "documentacion": 0.0474,
+        "economia": 0.1115,
+        "empresa": 0.0714,
+        "evidencia": 0.1687,
+        "experimentacion": 0.0534,
+        "memoria-territorio": 0.0667,
+        "mundo-abierto": 0.0455,
+        "transformacion": 0.1206
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C33.json"
     }
   ]

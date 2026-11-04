@@ -12,6 +12,7 @@
     "tegrity"
   ],
   "context": "## Research Contributions\n\nEtiquetas: Estándares e interoperabilidad 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/research-contributions-t1687/\nDocumento de origen: https://tegrity.ai/research-contributions/\n\n",
+  "readingSource": null,
   "tokens": 56,
   "encoding": "o200k_base",
   "relations": [
@@ -23,7 +24,20 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 15,
-      "fichaTokens": 108,
+      "fichaTokens": 119,
+      "tagWeights": {
+        "agentes": 0.0568,
+        "control-minimo": 0.0556,
+        "decision": 0.0555,
+        "documentacion": 0.1932,
+        "estandares": 0.25,
+        "evidencia": 0.1932,
+        "navegacion": 0.1957
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G31.json"
     },
     {
@@ -35,6 +49,16 @@
       "reading": "",
       "relationTokens": 18,
       "fichaTokens": 79,
+      "tagWeights": {
+        "control-minimo": 0.103,
+        "documentacion": 0.0588,
+        "estandares": 0.8382
+      },
+      "clusters": [
+        "research",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G35.json"
     },
     {
@@ -46,6 +70,17 @@
       "reading": "Desde «JubAp.EU», el enlace «Explore contributions, technical exchanges and work in development →» abre «Research Contributions».",
       "relationTokens": 54,
       "fichaTokens": 115,
+      "tagWeights": {
+        "decision": 0.1,
+        "empresa": 0.45,
+        "navegacion": 0.05,
+        "perspectiva": 0.15,
+        "transformacion": 0.25
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E2.json"
     },
     {
@@ -57,6 +92,17 @@
       "reading": "Desde «JubAp.Net», el enlace «See the public contribution record» abre «Research Contributions».",
       "relationTokens": 47,
       "fichaTokens": 126,
+      "tagWeights": {
+        "capacidad-humana": 0.35,
+        "documentacion": 0.1,
+        "empresa": 0.25,
+        "navegacion": 0.05,
+        "transformacion": 0.25
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N2.json"
     },
     {
@@ -68,6 +114,14 @@
       "reading": "Desde «Car Evolution Mobility OS», el enlace «Tegrity.AI» abre «Research Contributions».",
       "relationTokens": 50,
       "fichaTokens": 105,
+      "tagWeights": {
+        "agentes": 0.1667,
+        "movilidad": 0.8333
+      },
+      "clusters": [
+        "mobility"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1953.json"
     }
   ]

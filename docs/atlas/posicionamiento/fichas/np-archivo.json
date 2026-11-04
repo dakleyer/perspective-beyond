@@ -14,6 +14,7 @@
     "imsv"
   ],
   "context": "## Conservar el conocimiento y seguir conversando\nEl archivo conserva variantes, preguntas y aportaciones con su procedencia. Así se puede reconstruir cómo cambió una interpretación y qué parte proviene de un testimonio, un documento o una lectura posterior.\nEtiquetas: Investigación y documentación técnica 33.34%; Evidencia, procedencia y atribución 33.33%; Memoria, comunidad y territorio 33.33%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-archivo\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/archivo-y-dialogo/\n\n",
+  "readingSource": null,
   "tokens": 132,
   "encoding": "o200k_base",
   "relations": [
@@ -26,6 +27,14 @@
       "reading": "La posibilidad de revisar un aprendizaje requiere guardar su procedencia y los cambios de interpretación.",
       "relationTokens": 36,
       "fichaTokens": 116,
+      "tagWeights": {
+        "perspectiva": 0.5,
+        "representacion": 0.5
+      },
+      "clusters": [
+        "imsv"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-aprendizajes.json"
     },
     {
@@ -37,6 +46,14 @@
       "reading": "El índice permite volver al punto de partida desde la evidencia acumulada.",
       "relationTokens": 34,
       "fichaTokens": 108,
+      "tagWeights": {
+        "aprendizaje": 0.8,
+        "perspectiva": 0.2
+      },
+      "clusters": [
+        "imsv"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-entrada.json"
     }
   ]

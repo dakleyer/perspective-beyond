@@ -11,25 +11,27 @@
     "N1272"
   ],
   "tagWeights": {
-    "aprendizaje": 0.1534,
-    "autoridad": 0.0334,
-    "capacidad-humana": 0.07,
-    "control-minimo": 0.0441,
-    "decision": 0.0975,
-    "economia": 0.2721,
-    "empresa": 0.02,
-    "evidencia": 0.04,
-    "experimentacion": 0.02,
-    "memoria-territorio": 0.0594,
-    "perspectiva": 0.0333,
-    "transformacion": 0.1568
+    "aprendizaje": 0.1077,
+    "autoridad": 0.0227,
+    "capacidad-humana": 0.0878,
+    "control-minimo": 0.0208,
+    "decision": 0.0571,
+    "economia": 0.3045,
+    "empresa": 0.0621,
+    "estandares": 0.0568,
+    "evidencia": 0.027,
+    "experimentacion": 0.0406,
+    "memoria-territorio": 0.0342,
+    "perspectiva": 0.0227,
+    "transformacion": 0.156
   },
   "clusters": [
     "net",
     "tegrity"
   ],
-  "context": "## Coste total de una intervención\nCount discovery, activation, execution, governance, disruption, learning and closure within the boundary.\nEtiquetas: Aprendizaje y transmisión de capacidades 15.34%; Autoridad, permisos y delegación 3.34%; Capacidad humana y deuda de inteligencia 7.00%; Control mínimo y suficiencia 4.41%; Decisiones y responsabilidad 9.75%; Economía, costes y liquidez 27.21%; Empresa y gestión 2.00%; Evidencia, procedencia y atribución 4.00%; Experimentación, falsación y contraejemplos 2.00%; Memoria, comunidad y territorio 5.94%; Cambio de perspectiva 3.33%; Transformación y continuidad operativa 15.68%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/total-intervention-cost/\n\n",
-  "tokens": 183,
+  "context": "## Coste total de una intervención\nCount discovery, activation, execution, governance, disruption, learning and closure within the boundary.\nEtiquetas: Aprendizaje y transmisión de capacidades 10.77%; Autoridad, permisos y delegación 2.27%; Capacidad humana y deuda de inteligencia 8.78%; Control mínimo y suficiencia 2.08%; Decisiones y responsabilidad 5.71%; Economía, costes y liquidez 30.45%; Empresa y gestión 6.21%; Estándares e interoperabilidad 5.68%; Evidencia, procedencia y atribución 2.70%; Experimentación, falsación y contraejemplos 4.06%; Memoria, comunidad y territorio 3.42%; Cambio de perspectiva 2.27%; Transformación y continuidad operativa 15.60%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/total-intervention-cost/\n\n",
+  "readingSource": null,
+  "tokens": 194,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -40,7 +42,21 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 145,
+      "fichaTokens": 409,
+      "tagWeights": {
+        "aprendizaje": 0.0541,
+        "capacidad-humana": 0.3513,
+        "decision": 0.0541,
+        "economia": 0.1351,
+        "empresa": 0.054,
+        "evidencia": 0.1081,
+        "experimentacion": 0.1622,
+        "memoria-territorio": 0.0811
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1400.json"
     },
     {
@@ -51,7 +67,19 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 20,
-      "fichaTokens": 111,
+      "fichaTokens": 359,
+      "tagWeights": {
+        "control-minimo": 0.0833,
+        "decision": 0.0833,
+        "economia": 0.2778,
+        "empresa": 0.1944,
+        "memoria-territorio": 0.0556,
+        "transformacion": 0.3056
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1427.json"
     },
     {
@@ -62,7 +90,15 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 91,
+      "fichaTokens": 172,
+      "tagWeights": {
+        "aprendizaje": 0.2857,
+        "economia": 0.7143
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1417.json"
     },
     {
@@ -73,7 +109,20 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 20,
-      "fichaTokens": 126,
+      "fichaTokens": 364,
+      "tagWeights": {
+        "aprendizaje": 0.0909,
+        "autoridad": 0.0909,
+        "decision": 0.0909,
+        "economia": 0.0909,
+        "estandares": 0.2273,
+        "perspectiva": 0.0909,
+        "transformacion": 0.3182
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1272.json"
     },
     {
@@ -85,6 +134,25 @@
       "reading": "A transformation business case should include the costs of looking, making binding declarations and absorbing their consequences, not only implementation expenditure.",
       "relationTokens": 40,
       "fichaTokens": 160,
+      "tagWeights": {
+        "aprendizaje": 0.0714,
+        "autoridad": 0.057,
+        "control-minimo": 0.0593,
+        "decision": 0.1526,
+        "documentacion": 0.0385,
+        "economia": 0.305,
+        "empresa": 0.0671,
+        "evidencia": 0.0185,
+        "memoria-territorio": 0.0139,
+        "perspectiva": 0.0385,
+        "transformacion": 0.1782
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C83.json"
     },
     {
@@ -95,7 +163,33 @@
       "kind": "candidate transfer",
       "reading": "A Tiger Team evaluation should include activation, learning and closure costs, while distinguishing necessary mission work from avoidable compensation.",
       "relationTokens": 40,
-      "fichaTokens": 235,
+      "fichaTokens": 244,
+      "tagWeights": {
+        "aprendizaje": 0.0198,
+        "autoridad": 0.037,
+        "cambio-regimen": 0.0458,
+        "capacidad-humana": 0.124,
+        "casos": 0.0131,
+        "decision": 0.1024,
+        "documentacion": 0.0524,
+        "economia": 0.0786,
+        "empresa": 0.0873,
+        "estandares": 0.0418,
+        "evidencia": 0.0373,
+        "experimentacion": 0.0162,
+        "integridad-ia": 0.0333,
+        "memoria-territorio": 0.0394,
+        "movilidad": 0.0502,
+        "perspectiva": 0.0091,
+        "representacion": 0.0053,
+        "transformacion": 0.207
+      },
+      "clusters": [
+        "net",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C85.json"
     }
   ]

@@ -11,8 +11,14 @@
   "clusters": [
     "tegrity"
   ],
-  "context": "## When the Problem Isn’t the Technology\n\nEtiquetas: Transformación y continuidad operativa 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/when-the-problem-isnt-the-technology-t1411/\nDocumento de origen: https://tegrity.ai/when-the-problem-isnt-the-technology/\n\n",
-  "tokens": 73,
+  "context": "## When the Problem Isn’t the Technology\nA company is running five different software systems that all do roughly the same job. Everyone agrees this is wasteful. Four of the five should go. Leadership funds a project to remove them. Consultants arrive. Two years later, all five systems are still running — and a sixth has appeared.\n\nThis is not a story about incompetence, and it is not a story about technology being hard. The tools to consolidate systems are mature. The people doing the work are capable. The project fails for a reason that sounds almost too simple: nobody can answer basic questions about the systems they are trying to remove. What does this one actually cost? Who has the authority to switch it off? What else will break if we do? When those questions have no retrievable answer, the safe choice is always to keep the system “just in case.” So it stays.\nEtiquetas: Transformación y continuidad operativa 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/when-the-problem-isnt-the-technology-t1411/\nDocumento de origen: https://tegrity.ai/when-the-problem-isnt-the-technology/\n\n",
+  "readingSource": {
+    "url": "https://tegrity.ai/when-the-problem-isnt-the-technology/",
+    "section": "Opening paragraphs",
+    "observed": "2026-11-04",
+    "sourceSha256": "1ce02f1aa34c6f313ab1e4653cc7a0613b57b705b69ccfdec64c75b859ab1e95"
+  },
+  "tokens": 244,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,7 +29,17 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [Why process mining can fail before the tool begins](https://tegrity.ai/when-the-problem-isnt-the-technology/).",
       "relationTokens": 53,
-      "fichaTokens": 101,
+      "fichaTokens": 257,
+      "tagWeights": {
+        "decision": 0.0909,
+        "empresa": 0.5,
+        "evidencia": 0.0909,
+        "transformacion": 0.3182
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1560.json"
     },
     {
@@ -34,7 +50,17 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [Process observability in a multi-entity luxury supply chain](https://jubap.eu/supply-chain-rationalization-process-mining/).",
       "relationTokens": 54,
-      "fichaTokens": 101,
+      "fichaTokens": 257,
+      "tagWeights": {
+        "decision": 0.0909,
+        "empresa": 0.5,
+        "evidencia": 0.0909,
+        "transformacion": 0.3182
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1560.json"
     },
     {
@@ -46,6 +72,17 @@
       "reading": "La fuente enlaza esta lectura en «8.2 Other article sources» con el rótulo «Published source».",
       "relationTokens": 108,
       "fichaTokens": 186,
+      "tagWeights": {
+        "control-minimo": 0.2,
+        "decision": 0.2,
+        "evidencia": 0.2,
+        "geopolitica": 0.2,
+        "perspectiva": 0.2
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-31c5add4fe1a12.json"
     }
   ]

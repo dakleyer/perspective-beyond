@@ -1,5 +1,5 @@
 {
-  "schema": "perspective-beyond/positioning-v1",
+  "schema": "perspective-beyond/positioning-v1.1",
   "edition": "2026-11-04",
   "request": {
     "posicionamiento": "us",
@@ -37,16 +37,16 @@
   },
   "budget": {
     "limit": 2000,
-    "used": 1886,
-    "remaining": 114,
-    "nextBlock": 224,
+    "used": 1729,
+    "remaining": 271,
+    "nextBlock": 571,
     "encoding": "o200k_base",
     "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
   },
   "reachable": 11,
-  "selected": 10,
-  "shown": 11,
-  "omittedByBudget": 1,
+  "selected": 4,
+  "shown": 5,
+  "omittedByBudget": 7,
   "omittedInDiagram": 0,
   "layers": [
     {
@@ -61,16 +61,13 @@
     },
     {
       "distance": 2,
-      "selected": 7,
-      "shown": 7
-    },
-    {
-      "distance": 3,
-      "selected": 2,
-      "shown": 2
+      "selected": 3,
+      "shown": 3
     }
   ],
   "center": "doc-4133165018517e2690-entrada",
+  "localCore": [],
+  "coreDocument": null,
   "nodes": [
     {
       "id": "doc-4133165018517e2690-entrada",
@@ -146,14 +143,22 @@
       "commitUrl": null,
       "documentId": "doc-2b9ae79941e4c9bc03",
       "tagWeights": {
-        "aprendizaje": 0.0769,
-        "capacidad-humana": 0.0769,
-        "casos": 0.1923,
-        "empresa": 0.3462,
-        "representacion": 0.0769,
-        "transformacion": 0.2308
+        "aprendizaje": 0.0526,
+        "capacidad-humana": 0.0526,
+        "casos": 0.1316,
+        "empresa": 0.3948,
+        "representacion": 0.0526,
+        "transformacion": 0.3158
       },
-      "contextTokens": 150,
+      "reading": "A leading global luxury group faced an emerging operational challenge in its Americas retail network: how to schedule boutique personnel intelligently against changing demand patterns while preserving Maison-specific service standards, labor compliance, employee fairness and operational continuity.\n\nAt first glance, the requirement appeared to be a relatively contained Smart Scheduling feature: matching retail staffing levels with customer traffic, transactions, appointments, opening and closing rules, tasks, zones and peak sales windows. However, the initial architecture assessment showed that the problem was significantly broader. Smart Scheduling was not an isolated workforce planning feature. It sat at the intersection of HRIS, Workday, Time & Attendance, payroll, forecasting, boutique operations, task management, employee experience, reporting and multi-Maison governance.log-explanation-hr-opportunities-3.docx+1\n\nThe group’s HR application landscape was already highly fragmented, with over 134 applications across 10 HR capabilities , and a rationalization analysis indicating a 13.4% elimination target , a 21.6% migration opportunity , and an annual savings potential estimated at $15–25M through consolidation and better portfolio governance. Within this landscape, Workforce Scheduling appeared as an underdeveloped capability, with only a handful of tools (e.g., Jooxter, AskCody, Calabrio, Maison-specific schedulers) documented against a much more complex operational reality.\n\nJubAp.us , Americas Virtual Rapid Deployment Unit of JubAp.net , supported J UBAP.eu —the independent Estonian enterprise transformation unit—in structuring the Smart Scheduling request as a regional architecture and rationalization pilot. The engagement reframed the initiative from a narrow scheduling feature into an operational intelligence and HRIS rationalization case , clarified the capability model, established a target deployment logic and prepared the initiative for scaled implementation.",
+      "readingSource": {
+        "url": "https://jubap.us/luxury-group-hr-information-system-rationalization-smart-scheduling-capabilities-deployment/",
+        "section": "Opening paragraphs",
+        "observed": "2026-11-04",
+        "sourceSha256": "e6c1b1c54ea320cfe9294e94d1c5b6096f3bcb165c21484410e8ffd5f6648a67"
+      },
+      "readingSummary": "A leading global luxury group faced an emerging operational challenge in its Americas retail network: how to schedule boutique personnel intelligently against changing demand patterns while preserving Maison-specific service standards, labor compliance, employee fairness and operational continuity.",
+      "contextTokens": 505,
       "distance": 2,
       "parent": "U2",
       "routeEdge": "navigation:position-nav-U2-U1312",
@@ -174,7 +179,9 @@
         "autoridad",
         "casos",
         "decision",
+        "documentacion",
         "empresa",
+        "evidencia",
         "experimentacion",
         "memoria-territorio",
         "transformacion"
@@ -185,16 +192,26 @@
       "commitUrl": null,
       "documentId": "doc-77737ec7cd6b404d4d",
       "tagWeights": {
-        "aprendizaje": 0.0667,
-        "autoridad": 0.0667,
-        "casos": 0.1667,
-        "decision": 0.1,
-        "empresa": 0.1666,
-        "experimentacion": 0.1666,
-        "memoria-territorio": 0.0667,
-        "transformacion": 0.2
+        "aprendizaje": 0.08,
+        "autoridad": 0.04,
+        "casos": 0.1,
+        "decision": 0.06,
+        "documentacion": 0.1,
+        "empresa": 0.18,
+        "evidencia": 0.1,
+        "experimentacion": 0.14,
+        "memoria-territorio": 0.04,
+        "transformacion": 0.16
       },
-      "contextTokens": 189,
+      "reading": "Superior Performance Oil & Gas Services required a rapid cross-border industrialization program to establish and operate oilfield service capabilities in Mexico under demanding client, compliance, and operational conditions.\n\nThe initiative encompassed the creation of a joint venture with a Mexican partner, the structuring of a new Petroservices operating vehicle, the construction and activation of a drilling fluids and oilfield services facility in Coatzintla, Veracruz, and the execution of field services under Weatherford-linked operations.\n\nThe challenge was not limited to documentation or certification. It required the transfer of operational know-how from Texas into Mexico, the adaptation of U.S.-origin practices to the Mexican regulatory and labor environment, and the preparation of audit-ready evidence for major international oilfield clients including Baker Hughes. The operating model had to be deployed rapidly because contracts and service expectations were already active or pre-committed.\n\nThis case represents a direct precursor to JUBAP’s current rapid-deployment engineering capability: a Tiger Team model combining technical operations, compliance, governance, documentation, process reengineering, and local capability transfer across jurisdictions.",
+      "readingSource": {
+        "url": "https://jubap.us/case-study-texas-to-mexico-oilfield-services-transformation-knowledge-transfer-industrialization-and-compliance/",
+        "section": "Abstract",
+        "observed": "2026-11-04",
+        "sourceSha256": "af85eb7213a86d88ae25d3dc5ff17b270cbc21ec987ad949de2e1cfa68a8c19b"
+      },
+      "readingSummary": "Superior Performance Oil & Gas Services required a rapid cross-border industrialization program to establish and operate oilfield service capabilities in Mexico under demanding client, compliance, and operational conditions.",
+      "contextTokens": 425,
       "distance": 2,
       "parent": "U2",
       "routeEdge": "navigation:position-nav-U2-U1317",
@@ -212,6 +229,7 @@
       ],
       "tags": [
         "casos",
+        "documentacion",
         "empresa",
         "evidencia"
       ],
@@ -221,214 +239,23 @@
       "commitUrl": null,
       "documentId": "doc-1d239c367168fe979d",
       "tagWeights": {
-        "casos": 0.2381,
-        "empresa": 0.619,
-        "evidencia": 0.1429
+        "casos": 0.125,
+        "documentacion": 0.175,
+        "empresa": 0.475,
+        "evidencia": 0.225
       },
-      "contextTokens": 116,
+      "reading": "Weatherford and its supplier ecosystem operated in a high-pressure environment where multiple companies, subcontractors, operational teams and compliance frameworks had to coordinate under very tight timelines. The visible face of the problem was QHSE audit readiness and supplier qualification; the structural problem was information management across companies, frontiers and compliance frameworks.\n\nCritical information was fragmented across companies, individuals, folders, audit formats, procedures, evidence files, field certificates, legal matrices, corrective actions and unformalized local knowledge. Each audit essentially demanded the same elements in different languages and formats (Annex S, QHSE, ISO 9001, HSE, environmental controls, legal requirements, training evidence, operating procedures, equipment certifications and subcontractor controls), turning every visit into a “new project” from an evidence preparation standpoint.\n\nThe starting point was low: supplier preparation documents showed an initial compliance of 31% on Annex S with 34 findings, and 8% on the supplier QHSSE audit with 26 findings — a workload equivalent to a full year of safety, environmental and quality activity compressed into a few weeks. This was not a “sort the documents” problem; it was a problem of recovering operational control, reconstructing evidence, translating field reality into audit language and creating a reusable information system across audits and companies.",
+      "readingSource": {
+        "url": "https://jubap.us/case-study-weatherford-multi-level-information-management-for-oilfield-supplier-management/",
+        "section": "Opening paragraphs",
+        "observed": "2026-11-04",
+        "sourceSha256": "05fa2f7e51cebc25008aeecbd588ad946a04241e05ac93b0ff1338d850d6c213"
+      },
+      "readingSummary": "Weatherford and its supplier ecosystem operated in a high-pressure environment where multiple companies, subcontractors, operational teams and compliance frameworks had to coordinate under very tight timelines.",
+      "contextTokens": 387,
       "distance": 2,
       "parent": "U2",
       "routeEdge": "navigation:position-nav-U2-U1322",
-      "affinity": 1
-    },
-    {
-      "id": "U1325",
-      "type": "ficha",
-      "title": "Case Study: DMG MORI — Multilevel Post-Merger Integration, International Supply Chain Control & Mission-Critical Industrial Delivery (2013 – 2016)",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-dmg-mori-multilevel-post-merger-integration-international-supply-ch-u1325/",
-      "original": "https://jubap.us/case-study-dmg-mori-multilevel-post-merger-integration-international-supply-chain-control-mission-critical-industrial-delivery-2013-2016/",
-      "aliases": [],
-      "clusters": [
-        "us"
-      ],
-      "tags": [
-        "casos",
-        "empresa",
-        "experimentacion",
-        "transformacion"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-9f3c7e5b4ad91dac5e",
-      "tagWeights": {
-        "casos": 0.25,
-        "empresa": 0.25,
-        "experimentacion": 0.25,
-        "transformacion": 0.25
-      },
-      "contextTokens": 167,
-      "distance": 2,
-      "parent": "U2",
-      "routeEdge": "navigation:position-nav-U2-U1325",
-      "affinity": 1
-    },
-    {
-      "id": "U1492",
-      "type": "ficha",
-      "title": "Distributed Operational Intelligence Across the Americas",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/distributed-operational-intelligence-across-the-americas-u1492/",
-      "original": "https://jubap.us/distributed-operational-intelligence-across-the-americas/",
-      "aliases": [],
-      "clusters": [
-        "us"
-      ],
-      "tags": [
-        "decision",
-        "memoria-territorio",
-        "transformacion"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-44d6ba768352369aed",
-      "tagWeights": {
-        "decision": 0.3334,
-        "memoria-territorio": 0.3333,
-        "transformacion": 0.3333
-      },
-      "contextTokens": 94,
-      "distance": 2,
-      "parent": "U2",
-      "routeEdge": "navigation:position-nav-U2-U1492",
-      "affinity": 1
-    },
-    {
-      "id": "U1681",
-      "type": "ficha",
-      "title": "Case Study: Chicontepec Megaproject",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-chicontepec-megaproject-u1681/",
-      "original": "https://jubap.us/case-study-chicontepec-megaproject/",
-      "aliases": [],
-      "clusters": [
-        "us"
-      ],
-      "tags": [
-        "autoridad",
-        "casos",
-        "decision",
-        "transformacion"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-7cf74a1c92226ebd84",
-      "tagWeights": {
-        "autoridad": 0.1818,
-        "casos": 0.4546,
-        "decision": 0.1818,
-        "transformacion": 0.1818
-      },
-      "contextTokens": 110,
-      "distance": 2,
-      "parent": "U2",
-      "routeEdge": "navigation:position-nav-U2-U1681",
-      "affinity": 1
-    },
-    {
-      "id": "U250",
-      "type": "ficha",
-      "title": "Case Studies",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-studies-u250/",
-      "original": "https://jubap.us/case-studies/",
-      "aliases": [],
-      "clusters": [
-        "us"
-      ],
-      "tags": [
-        "casos",
-        "navegacion"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-2f954185997f95d741",
-      "tagWeights": {
-        "casos": 0.5,
-        "navegacion": 0.5
-      },
-      "contextTokens": 66,
-      "distance": 2,
-      "parent": "U2",
-      "routeEdge": "navigation:position-nav-U2-U250",
-      "affinity": 1
-    },
-    {
-      "id": "G49",
-      "type": "concepto",
-      "title": "HR de lujo y planificación de turnos",
-      "url": "https://dakleyer.github.io/perspective-beyond/concepts/luxury-hr-and-shift-planning/",
-      "original": null,
-      "aliases": [],
-      "clusters": [
-        "us"
-      ],
-      "tags": [
-        "aprendizaje",
-        "capacidad-humana",
-        "casos",
-        "empresa",
-        "representacion",
-        "transformacion"
-      ],
-      "summary": "A field case connects HR system rationalisation to the operating constraints of scheduling.",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "sourceIds": [
-        "U1312"
-      ],
-      "tagWeights": {
-        "aprendizaje": 0.0769,
-        "capacidad-humana": 0.0769,
-        "casos": 0.1923,
-        "empresa": 0.3462,
-        "representacion": 0.0769,
-        "transformacion": 0.2308
-      },
-      "contextTokens": 120,
-      "positionHeaderTokens": 44,
-      "distance": 3,
-      "parent": "U1312",
-      "routeEdge": "apoyo:U1312:G49",
-      "affinity": 1
-    },
-    {
-      "id": "G52",
-      "type": "concepto",
-      "title": "Weatherford / trazabilidad de proveedor",
-      "url": "https://dakleyer.github.io/perspective-beyond/concepts/weatherford-supplier-traceability/",
-      "original": null,
-      "aliases": [],
-      "clusters": [
-        "us"
-      ],
-      "tags": [
-        "casos",
-        "empresa",
-        "evidencia"
-      ],
-      "summary": "The case relates supplier decisions to evidence across levels of an oilfield operation.",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "sourceIds": [
-        "U1322"
-      ],
-      "tagWeights": {
-        "casos": 0.2381,
-        "empresa": 0.619,
-        "evidencia": 0.1429
-      },
-      "contextTokens": 83,
-      "positionHeaderTokens": 40,
-      "distance": 3,
-      "parent": "U1322",
-      "routeEdge": "apoyo:U1322:G52",
       "affinity": 1
     }
   ],
@@ -466,60 +293,6 @@
       "kind": "lectura enlazada desde el documento",
       "reading": "Desde «JubAp.US», el enlace «Weatherford Multi-level supplier information, audit readiness and evidence architecture. Read the case study  ↗» abre «Case Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management».",
       "evidence": "https://jubap.us/",
-      "route": true
-    },
-    {
-      "id": "navigation:position-nav-U2-U1325",
-      "from": "U2",
-      "to": "U1325",
-      "kind": "lectura enlazada desde el documento",
-      "reading": "Desde «JubAp.US», el enlace «DMG MORI Post-merger integration, international supply-chain control and mission-critical industrial delivery. Read the case study  ↗» abre «Case Study: DMG MORI — Multilevel Post-Merger Integration, International Supply Chain Control & Mission-Critical Industrial Delivery (2013 – 2016)».",
-      "evidence": "https://jubap.us/",
-      "route": true
-    },
-    {
-      "id": "navigation:position-nav-U2-U1492",
-      "from": "U2",
-      "to": "U1492",
-      "kind": "lectura enlazada desde el documento",
-      "reading": "Desde «JubAp.US», el enlace «Distributed American Innovation account» abre «Distributed Operational Intelligence Across the Americas».",
-      "evidence": "https://jubap.us/",
-      "route": true
-    },
-    {
-      "id": "navigation:position-nav-U2-U1681",
-      "from": "U2",
-      "to": "U1681",
-      "kind": "lectura enlazada desde el documento",
-      "reading": "Desde «JubAp.US», el enlace «Chicontepec Megaproject SPV structuring, supplier integration and compliance within a complex energy ecosystem. Read the case study  ↗» abre «Case Study: Chicontepec Megaproject».",
-      "evidence": "https://jubap.us/",
-      "route": true
-    },
-    {
-      "id": "navigation:position-nav-U2-U250",
-      "from": "U2",
-      "to": "U250",
-      "kind": "lectura enlazada desde el documento",
-      "reading": "Desde «JubAp.US», el enlace «Explore our Case Studies» abre «Case Studies».",
-      "evidence": "https://jubap.us/",
-      "route": true
-    },
-    {
-      "id": "apoyo:U1312:G49",
-      "from": "U1312",
-      "to": "G49",
-      "kind": "documenta el concepto",
-      "reading": "",
-      "evidence": null,
-      "route": true
-    },
-    {
-      "id": "apoyo:U1322:G52",
-      "from": "U1322",
-      "to": "G52",
-      "kind": "documenta el concepto",
-      "reading": "",
-      "evidence": null,
       "route": true
     },
     {
@@ -592,14 +365,22 @@
       "commitUrl": null,
       "documentId": "doc-2b9ae79941e4c9bc03",
       "tagWeights": {
-        "aprendizaje": 0.0769,
-        "capacidad-humana": 0.0769,
-        "casos": 0.1923,
-        "empresa": 0.3462,
-        "representacion": 0.0769,
-        "transformacion": 0.2308
+        "aprendizaje": 0.0526,
+        "capacidad-humana": 0.0526,
+        "casos": 0.1316,
+        "empresa": 0.3948,
+        "representacion": 0.0526,
+        "transformacion": 0.3158
       },
-      "contextTokens": 150,
+      "reading": "A leading global luxury group faced an emerging operational challenge in its Americas retail network: how to schedule boutique personnel intelligently against changing demand patterns while preserving Maison-specific service standards, labor compliance, employee fairness and operational continuity.\n\nAt first glance, the requirement appeared to be a relatively contained Smart Scheduling feature: matching retail staffing levels with customer traffic, transactions, appointments, opening and closing rules, tasks, zones and peak sales windows. However, the initial architecture assessment showed that the problem was significantly broader. Smart Scheduling was not an isolated workforce planning feature. It sat at the intersection of HRIS, Workday, Time & Attendance, payroll, forecasting, boutique operations, task management, employee experience, reporting and multi-Maison governance.log-explanation-hr-opportunities-3.docx+1\n\nThe group’s HR application landscape was already highly fragmented, with over 134 applications across 10 HR capabilities , and a rationalization analysis indicating a 13.4% elimination target , a 21.6% migration opportunity , and an annual savings potential estimated at $15–25M through consolidation and better portfolio governance. Within this landscape, Workforce Scheduling appeared as an underdeveloped capability, with only a handful of tools (e.g., Jooxter, AskCody, Calabrio, Maison-specific schedulers) documented against a much more complex operational reality.\n\nJubAp.us , Americas Virtual Rapid Deployment Unit of JubAp.net , supported J UBAP.eu —the independent Estonian enterprise transformation unit—in structuring the Smart Scheduling request as a regional architecture and rationalization pilot. The engagement reframed the initiative from a narrow scheduling feature into an operational intelligence and HRIS rationalization case , clarified the capability model, established a target deployment logic and prepared the initiative for scaled implementation.",
+      "readingSource": {
+        "url": "https://jubap.us/luxury-group-hr-information-system-rationalization-smart-scheduling-capabilities-deployment/",
+        "section": "Opening paragraphs",
+        "observed": "2026-11-04",
+        "sourceSha256": "e6c1b1c54ea320cfe9294e94d1c5b6096f3bcb165c21484410e8ffd5f6648a67"
+      },
+      "readingSummary": "A leading global luxury group faced an emerging operational challenge in its Americas retail network: how to schedule boutique personnel intelligently against changing demand patterns while preserving Maison-specific service standards, labor compliance, employee fairness and operational continuity.",
+      "contextTokens": 505,
       "distance": 2,
       "parent": "U2",
       "routeEdge": "navigation:position-nav-U2-U1312",
@@ -620,7 +401,9 @@
         "autoridad",
         "casos",
         "decision",
+        "documentacion",
         "empresa",
+        "evidencia",
         "experimentacion",
         "memoria-territorio",
         "transformacion"
@@ -631,16 +414,26 @@
       "commitUrl": null,
       "documentId": "doc-77737ec7cd6b404d4d",
       "tagWeights": {
-        "aprendizaje": 0.0667,
-        "autoridad": 0.0667,
-        "casos": 0.1667,
-        "decision": 0.1,
-        "empresa": 0.1666,
-        "experimentacion": 0.1666,
-        "memoria-territorio": 0.0667,
-        "transformacion": 0.2
+        "aprendizaje": 0.08,
+        "autoridad": 0.04,
+        "casos": 0.1,
+        "decision": 0.06,
+        "documentacion": 0.1,
+        "empresa": 0.18,
+        "evidencia": 0.1,
+        "experimentacion": 0.14,
+        "memoria-territorio": 0.04,
+        "transformacion": 0.16
       },
-      "contextTokens": 189,
+      "reading": "Superior Performance Oil & Gas Services required a rapid cross-border industrialization program to establish and operate oilfield service capabilities in Mexico under demanding client, compliance, and operational conditions.\n\nThe initiative encompassed the creation of a joint venture with a Mexican partner, the structuring of a new Petroservices operating vehicle, the construction and activation of a drilling fluids and oilfield services facility in Coatzintla, Veracruz, and the execution of field services under Weatherford-linked operations.\n\nThe challenge was not limited to documentation or certification. It required the transfer of operational know-how from Texas into Mexico, the adaptation of U.S.-origin practices to the Mexican regulatory and labor environment, and the preparation of audit-ready evidence for major international oilfield clients including Baker Hughes. The operating model had to be deployed rapidly because contracts and service expectations were already active or pre-committed.\n\nThis case represents a direct precursor to JUBAP’s current rapid-deployment engineering capability: a Tiger Team model combining technical operations, compliance, governance, documentation, process reengineering, and local capability transfer across jurisdictions.",
+      "readingSource": {
+        "url": "https://jubap.us/case-study-texas-to-mexico-oilfield-services-transformation-knowledge-transfer-industrialization-and-compliance/",
+        "section": "Abstract",
+        "observed": "2026-11-04",
+        "sourceSha256": "af85eb7213a86d88ae25d3dc5ff17b270cbc21ec987ad949de2e1cfa68a8c19b"
+      },
+      "readingSummary": "Superior Performance Oil & Gas Services required a rapid cross-border industrialization program to establish and operate oilfield service capabilities in Mexico under demanding client, compliance, and operational conditions.",
+      "contextTokens": 425,
       "distance": 2,
       "parent": "U2",
       "routeEdge": "navigation:position-nav-U2-U1317",
@@ -658,6 +451,7 @@
       ],
       "tags": [
         "casos",
+        "documentacion",
         "empresa",
         "evidencia"
       ],
@@ -667,216 +461,25 @@
       "commitUrl": null,
       "documentId": "doc-1d239c367168fe979d",
       "tagWeights": {
-        "casos": 0.2381,
-        "empresa": 0.619,
-        "evidencia": 0.1429
+        "casos": 0.125,
+        "documentacion": 0.175,
+        "empresa": 0.475,
+        "evidencia": 0.225
       },
-      "contextTokens": 116,
+      "reading": "Weatherford and its supplier ecosystem operated in a high-pressure environment where multiple companies, subcontractors, operational teams and compliance frameworks had to coordinate under very tight timelines. The visible face of the problem was QHSE audit readiness and supplier qualification; the structural problem was information management across companies, frontiers and compliance frameworks.\n\nCritical information was fragmented across companies, individuals, folders, audit formats, procedures, evidence files, field certificates, legal matrices, corrective actions and unformalized local knowledge. Each audit essentially demanded the same elements in different languages and formats (Annex S, QHSE, ISO 9001, HSE, environmental controls, legal requirements, training evidence, operating procedures, equipment certifications and subcontractor controls), turning every visit into a “new project” from an evidence preparation standpoint.\n\nThe starting point was low: supplier preparation documents showed an initial compliance of 31% on Annex S with 34 findings, and 8% on the supplier QHSSE audit with 26 findings — a workload equivalent to a full year of safety, environmental and quality activity compressed into a few weeks. This was not a “sort the documents” problem; it was a problem of recovering operational control, reconstructing evidence, translating field reality into audit language and creating a reusable information system across audits and companies.",
+      "readingSource": {
+        "url": "https://jubap.us/case-study-weatherford-multi-level-information-management-for-oilfield-supplier-management/",
+        "section": "Opening paragraphs",
+        "observed": "2026-11-04",
+        "sourceSha256": "05fa2f7e51cebc25008aeecbd588ad946a04241e05ac93b0ff1338d850d6c213"
+      },
+      "readingSummary": "Weatherford and its supplier ecosystem operated in a high-pressure environment where multiple companies, subcontractors, operational teams and compliance frameworks had to coordinate under very tight timelines.",
+      "contextTokens": 387,
       "distance": 2,
       "parent": "U2",
       "routeEdge": "navigation:position-nav-U2-U1322",
       "affinity": 1
-    },
-    {
-      "id": "U1325",
-      "type": "ficha",
-      "title": "Case Study: DMG MORI — Multilevel Post-Merger Integration, International Supply Chain Control & Mission-Critical Industrial Delivery (2013 – 2016)",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-dmg-mori-multilevel-post-merger-integration-international-supply-ch-u1325/",
-      "original": "https://jubap.us/case-study-dmg-mori-multilevel-post-merger-integration-international-supply-chain-control-mission-critical-industrial-delivery-2013-2016/",
-      "aliases": [],
-      "clusters": [
-        "us"
-      ],
-      "tags": [
-        "casos",
-        "empresa",
-        "experimentacion",
-        "transformacion"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-9f3c7e5b4ad91dac5e",
-      "tagWeights": {
-        "casos": 0.25,
-        "empresa": 0.25,
-        "experimentacion": 0.25,
-        "transformacion": 0.25
-      },
-      "contextTokens": 167,
-      "distance": 2,
-      "parent": "U2",
-      "routeEdge": "navigation:position-nav-U2-U1325",
-      "affinity": 1
-    },
-    {
-      "id": "U1492",
-      "type": "ficha",
-      "title": "Distributed Operational Intelligence Across the Americas",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/distributed-operational-intelligence-across-the-americas-u1492/",
-      "original": "https://jubap.us/distributed-operational-intelligence-across-the-americas/",
-      "aliases": [],
-      "clusters": [
-        "us"
-      ],
-      "tags": [
-        "decision",
-        "memoria-territorio",
-        "transformacion"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-44d6ba768352369aed",
-      "tagWeights": {
-        "decision": 0.3334,
-        "memoria-territorio": 0.3333,
-        "transformacion": 0.3333
-      },
-      "contextTokens": 94,
-      "distance": 2,
-      "parent": "U2",
-      "routeEdge": "navigation:position-nav-U2-U1492",
-      "affinity": 1
-    },
-    {
-      "id": "U1681",
-      "type": "ficha",
-      "title": "Case Study: Chicontepec Megaproject",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-chicontepec-megaproject-u1681/",
-      "original": "https://jubap.us/case-study-chicontepec-megaproject/",
-      "aliases": [],
-      "clusters": [
-        "us"
-      ],
-      "tags": [
-        "autoridad",
-        "casos",
-        "decision",
-        "transformacion"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-7cf74a1c92226ebd84",
-      "tagWeights": {
-        "autoridad": 0.1818,
-        "casos": 0.4546,
-        "decision": 0.1818,
-        "transformacion": 0.1818
-      },
-      "contextTokens": 110,
-      "distance": 2,
-      "parent": "U2",
-      "routeEdge": "navigation:position-nav-U2-U1681",
-      "affinity": 1
-    },
-    {
-      "id": "U250",
-      "type": "ficha",
-      "title": "Case Studies",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-studies-u250/",
-      "original": "https://jubap.us/case-studies/",
-      "aliases": [],
-      "clusters": [
-        "us"
-      ],
-      "tags": [
-        "casos",
-        "navegacion"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-2f954185997f95d741",
-      "tagWeights": {
-        "casos": 0.5,
-        "navegacion": 0.5
-      },
-      "contextTokens": 66,
-      "distance": 2,
-      "parent": "U2",
-      "routeEdge": "navigation:position-nav-U2-U250",
-      "affinity": 1
-    },
-    {
-      "id": "G49",
-      "type": "concepto",
-      "title": "HR de lujo y planificación de turnos",
-      "url": "https://dakleyer.github.io/perspective-beyond/concepts/luxury-hr-and-shift-planning/",
-      "original": null,
-      "aliases": [],
-      "clusters": [
-        "us"
-      ],
-      "tags": [
-        "aprendizaje",
-        "capacidad-humana",
-        "casos",
-        "empresa",
-        "representacion",
-        "transformacion"
-      ],
-      "summary": "A field case connects HR system rationalisation to the operating constraints of scheduling.",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "sourceIds": [
-        "U1312"
-      ],
-      "tagWeights": {
-        "aprendizaje": 0.0769,
-        "capacidad-humana": 0.0769,
-        "casos": 0.1923,
-        "empresa": 0.3462,
-        "representacion": 0.0769,
-        "transformacion": 0.2308
-      },
-      "contextTokens": 120,
-      "positionHeaderTokens": 44,
-      "distance": 3,
-      "parent": "U1312",
-      "routeEdge": "apoyo:U1312:G49",
-      "affinity": 1
-    },
-    {
-      "id": "G52",
-      "type": "concepto",
-      "title": "Weatherford / trazabilidad de proveedor",
-      "url": "https://dakleyer.github.io/perspective-beyond/concepts/weatherford-supplier-traceability/",
-      "original": null,
-      "aliases": [],
-      "clusters": [
-        "us"
-      ],
-      "tags": [
-        "casos",
-        "empresa",
-        "evidencia"
-      ],
-      "summary": "The case relates supplier decisions to evidence across levels of an oilfield operation.",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "sourceIds": [
-        "U1322"
-      ],
-      "tagWeights": {
-        "casos": 0.2381,
-        "empresa": 0.619,
-        "evidencia": 0.1429
-      },
-      "contextTokens": 83,
-      "positionHeaderTokens": 40,
-      "distance": 3,
-      "parent": "U1322",
-      "routeEdge": "apoyo:U1322:G52",
-      "affinity": 1
     }
   ],
-  "reading": "# Posicionamiento · JubAp.US\nDocumento de origen: https://jubap.us/\n\n## JubAp.US\nCarve-outs, post-merger integration, joint ventures and SPVs. Operating models that connect people, information and execution.\nEtiquetas: Aprendizaje y transmisión de capacidades 10.00%; Decisiones y responsabilidad 10.00%; Empresa y gestión 40.00%; Índices, contacto y políticas 5.00%; Transformación y continuidad operativa 35.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-us-u2/\nDocumento de origen: https://jubap.us/\n\nJubAp.US → Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment · lectura enlazada desde el documento. Desde «JubAp.US», el enlace «Luxury Group HR information-system rationalization and workforce capability architecture. Read the case study  ↗» abre «Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment».\nFuente de la relación: https://jubap.us/\n\n## Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment\n\nEtiquetas: Aprendizaje y transmisión de capacidades 7.69%; Capacidad humana y deuda de inteligencia 7.69%; Casos de uso y aplicaciones 19.23%; Empresa y gestión 34.62%; Representación y límites formales 7.69%; Transformación y continuidad operativa 23.08%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-study-luxury-group-hr-information-system-rationalization-smart-scheduling-u1312/\nDocumento de origen: https://jubap.us/luxury-group-hr-information-system-rationalization-smart-scheduling-capabilities-deployment/\n\nJubAp.US → Case Study: Texas-to-Mexico Oilfield Services Transformation: Knowledge Transfer, Industrialization, and Compliance · lectura enlazada desde el documento. Desde «JubAp.US», el enlace «Superior Performance Texas-to-Mexico knowledge transfer, operations integration and industrialization. Read the case study  ↗» abre «Case Study: Texas-to-Mexico Oilfield Services Transformation: Knowledge Transfer, Industrialization, and Compliance».\nFuente de la relación: https://jubap.us/\n\n## Case Study: Texas-to-Mexico Oilfield Services Transformation: Knowledge Transfer, Industrialization, and Compliance\n\nEtiquetas: Aprendizaje y transmisión de capacidades 6.67%; Autoridad, permisos y delegación 6.67%; Casos de uso y aplicaciones 16.67%; Decisiones y responsabilidad 10.00%; Empresa y gestión 16.66%; Experimentación, falsación y contraejemplos 16.66%; Memoria, comunidad y territorio 6.67%; Transformación y continuidad operativa 20.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-study-texas-to-mexico-oilfield-services-transformation-knowledge-transfer-u1317/\nDocumento de origen: https://jubap.us/case-study-texas-to-mexico-oilfield-services-transformation-knowledge-transfer-industrialization-and-compliance/\n\nJubAp.US → Case Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management · lectura enlazada desde el documento. Desde «JubAp.US», el enlace «Weatherford Multi-level supplier information, audit readiness and evidence architecture. Read the case study  ↗» abre «Case Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management».\nFuente de la relación: https://jubap.us/\n\n## Case Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management\n\nEtiquetas: Casos de uso y aplicaciones 23.81%; Empresa y gestión 61.90%; Evidencia, procedencia y atribución 14.29%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-study-weatherford-multi-level-information-management-for-oilfield-supplie-u1322/\nDocumento de origen: https://jubap.us/case-study-weatherford-multi-level-information-management-for-oilfield-supplier-management/\n\nJubAp.US → Case Study: DMG MORI — Multilevel Post-Merger Integration, International Supply Chain Control & Mission-Critical Industrial Delivery (2013 – 2016) · lectura enlazada desde el documento. Desde «JubAp.US», el enlace «DMG MORI Post-merger integration, international supply-chain control and mission-critical industrial delivery. Read the case study  ↗» abre «Case Study: DMG MORI — Multilevel Post-Merger Integration, International Supply Chain Control & Mission-Critical Industrial Delivery (2013 – 2016)».\nFuente de la relación: https://jubap.us/\n\n## Case Study: DMG MORI — Multilevel Post-Merger Integration, International Supply Chain Control & Mission-Critical Industrial Delivery (2013 – 2016)\n\nEtiquetas: Casos de uso y aplicaciones 25.00%; Empresa y gestión 25.00%; Experimentación, falsación y contraejemplos 25.00%; Transformación y continuidad operativa 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-study-dmg-mori-multilevel-post-merger-integration-international-supply-ch-u1325/\nDocumento de origen: https://jubap.us/case-study-dmg-mori-multilevel-post-merger-integration-international-supply-chain-control-mission-critical-industrial-delivery-2013-2016/\n\nJubAp.US → Distributed Operational Intelligence Across the Americas · lectura enlazada desde el documento. Desde «JubAp.US», el enlace «Distributed American Innovation account» abre «Distributed Operational Intelligence Across the Americas».\nFuente de la relación: https://jubap.us/\n\n## Distributed Operational Intelligence Across the Americas\n\nEtiquetas: Decisiones y responsabilidad 33.34%; Memoria, comunidad y territorio 33.33%; Transformación y continuidad operativa 33.33%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/distributed-operational-intelligence-across-the-americas-u1492/\nDocumento de origen: https://jubap.us/distributed-operational-intelligence-across-the-americas/\n\nJubAp.US → Case Study: Chicontepec Megaproject · lectura enlazada desde el documento. Desde «JubAp.US», el enlace «Chicontepec Megaproject SPV structuring, supplier integration and compliance within a complex energy ecosystem. Read the case study  ↗» abre «Case Study: Chicontepec Megaproject».\nFuente de la relación: https://jubap.us/\n\n## Case Study: Chicontepec Megaproject\n\nEtiquetas: Autoridad, permisos y delegación 18.18%; Casos de uso y aplicaciones 45.46%; Decisiones y responsabilidad 18.18%; Transformación y continuidad operativa 18.18%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-study-chicontepec-megaproject-u1681/\nDocumento de origen: https://jubap.us/case-study-chicontepec-megaproject/\n\nJubAp.US → Case Studies · lectura enlazada desde el documento. Desde «JubAp.US», el enlace «Explore our Case Studies» abre «Case Studies».\nFuente de la relación: https://jubap.us/\n\n## Case Studies\n\nEtiquetas: Casos de uso y aplicaciones 50.00%; Índices, contacto y políticas 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-studies-u250/\nDocumento de origen: https://jubap.us/case-studies/\n\nCase Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment → HR de lujo y planificación de turnos · documenta el concepto. \n\n## HR de lujo y planificación de turnos\nA field case connects HR system rationalisation to the operating constraints of scheduling.\nEtiquetas: Aprendizaje y transmisión de capacidades 7.69%; Capacidad humana y deuda de inteligencia 7.69%; Casos de uso y aplicaciones 19.23%; Empresa y gestión 34.62%; Representación y límites formales 7.69%; Transformación y continuidad operativa 23.08%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/luxury-hr-and-shift-planning/\n\nCase Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management → Weatherford / trazabilidad de proveedor · documenta el concepto. \n\n## Weatherford / trazabilidad de proveedor\nThe case relates supplier decisions to evidence across levels of an oilfield operation.\nEtiquetas: Casos de uso y aplicaciones 23.81%; Empresa y gestión 61.90%; Evidencia, procedencia y atribución 14.29%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/weatherford-supplier-traceability/\n\n"
+  "reading": "# Posicionamiento · JubAp.US\nDocumento de origen: https://jubap.us/\n\n## JubAp.US\nCarve-outs, post-merger integration, joint ventures and SPVs. Operating models that connect people, information and execution.\nEtiquetas: Aprendizaje y transmisión de capacidades 10.00%; Decisiones y responsabilidad 10.00%; Empresa y gestión 40.00%; Índices, contacto y políticas 5.00%; Transformación y continuidad operativa 35.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-us-u2/\nDocumento de origen: https://jubap.us/\n\nJubAp.US → Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment · lectura enlazada desde el documento. Desde «JubAp.US», el enlace «Luxury Group HR information-system rationalization and workforce capability architecture. Read the case study  ↗» abre «Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment».\nFuente de la relación: https://jubap.us/\n\n## Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment\nA leading global luxury group faced an emerging operational challenge in its Americas retail network: how to schedule boutique personnel intelligently against changing demand patterns while preserving Maison-specific service standards, labor compliance, employee fairness and operational continuity.\n\nAt first glance, the requirement appeared to be a relatively contained Smart Scheduling feature: matching retail staffing levels with customer traffic, transactions, appointments, opening and closing rules, tasks, zones and peak sales windows. However, the initial architecture assessment showed that the problem was significantly broader. Smart Scheduling was not an isolated workforce planning feature. It sat at the intersection of HRIS, Workday, Time & Attendance, payroll, forecasting, boutique operations, task management, employee experience, reporting and multi-Maison governance.log-explanation-hr-opportunities-3.docx+1\n\nThe group’s HR application landscape was already highly fragmented, with over 134 applications across 10 HR capabilities , and a rationalization analysis indicating a 13.4% elimination target , a 21.6% migration opportunity , and an annual savings potential estimated at $15–25M through consolidation and better portfolio governance. Within this landscape, Workforce Scheduling appeared as an underdeveloped capability, with only a handful of tools (e.g., Jooxter, AskCody, Calabrio, Maison-specific schedulers) documented against a much more complex operational reality.\n\nJubAp.us , Americas Virtual Rapid Deployment Unit of JubAp.net , supported J UBAP.eu —the independent Estonian enterprise transformation unit—in structuring the Smart Scheduling request as a regional architecture and rationalization pilot. The engagement reframed the initiative from a narrow scheduling feature into an operational intelligence and HRIS rationalization case , clarified the capability model, established a target deployment logic and prepared the initiative for scaled implementation.\nEtiquetas: Aprendizaje y transmisión de capacidades 5.26%; Capacidad humana y deuda de inteligencia 5.26%; Casos de uso y aplicaciones 13.16%; Empresa y gestión 39.48%; Representación y límites formales 5.26%; Transformación y continuidad operativa 31.58%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-study-luxury-group-hr-information-system-rationalization-smart-scheduling-u1312/\nDocumento de origen: https://jubap.us/luxury-group-hr-information-system-rationalization-smart-scheduling-capabilities-deployment/\n\nJubAp.US → Case Study: Texas-to-Mexico Oilfield Services Transformation: Knowledge Transfer, Industrialization, and Compliance · lectura enlazada desde el documento. Desde «JubAp.US», el enlace «Superior Performance Texas-to-Mexico knowledge transfer, operations integration and industrialization. Read the case study  ↗» abre «Case Study: Texas-to-Mexico Oilfield Services Transformation: Knowledge Transfer, Industrialization, and Compliance».\nFuente de la relación: https://jubap.us/\n\n## Case Study: Texas-to-Mexico Oilfield Services Transformation: Knowledge Transfer, Industrialization, and Compliance\nSuperior Performance Oil & Gas Services required a rapid cross-border industrialization program to establish and operate oilfield service capabilities in Mexico under demanding client, compliance, and operational conditions.\n\nThe initiative encompassed the creation of a joint venture with a Mexican partner, the structuring of a new Petroservices operating vehicle, the construction and activation of a drilling fluids and oilfield services facility in Coatzintla, Veracruz, and the execution of field services under Weatherford-linked operations.\n\nThe challenge was not limited to documentation or certification. It required the transfer of operational know-how from Texas into Mexico, the adaptation of U.S.-origin practices to the Mexican regulatory and labor environment, and the preparation of audit-ready evidence for major international oilfield clients including Baker Hughes. The operating model had to be deployed rapidly because contracts and service expectations were already active or pre-committed.\n\nThis case represents a direct precursor to JUBAP’s current rapid-deployment engineering capability: a Tiger Team model combining technical operations, compliance, governance, documentation, process reengineering, and local capability transfer across jurisdictions.\nEtiquetas: Aprendizaje y transmisión de capacidades 8.00%; Autoridad, permisos y delegación 4.00%; Casos de uso y aplicaciones 10.00%; Decisiones y responsabilidad 6.00%; Investigación y documentación técnica 10.00%; Empresa y gestión 18.00%; Evidencia, procedencia y atribución 10.00%; Experimentación, falsación y contraejemplos 14.00%; Memoria, comunidad y territorio 4.00%; Transformación y continuidad operativa 16.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-study-texas-to-mexico-oilfield-services-transformation-knowledge-transfer-u1317/\nDocumento de origen: https://jubap.us/case-study-texas-to-mexico-oilfield-services-transformation-knowledge-transfer-industrialization-and-compliance/\n\nJubAp.US → Case Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management · lectura enlazada desde el documento. Desde «JubAp.US», el enlace «Weatherford Multi-level supplier information, audit readiness and evidence architecture. Read the case study  ↗» abre «Case Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management».\nFuente de la relación: https://jubap.us/\n\n## Case Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management\nWeatherford and its supplier ecosystem operated in a high-pressure environment where multiple companies, subcontractors, operational teams and compliance frameworks had to coordinate under very tight timelines. The visible face of the problem was QHSE audit readiness and supplier qualification; the structural problem was information management across companies, frontiers and compliance frameworks.\n\nCritical information was fragmented across companies, individuals, folders, audit formats, procedures, evidence files, field certificates, legal matrices, corrective actions and unformalized local knowledge. Each audit essentially demanded the same elements in different languages and formats (Annex S, QHSE, ISO 9001, HSE, environmental controls, legal requirements, training evidence, operating procedures, equipment certifications and subcontractor controls), turning every visit into a “new project” from an evidence preparation standpoint.\n\nThe starting point was low: supplier preparation documents showed an initial compliance of 31% on Annex S with 34 findings, and 8% on the supplier QHSSE audit with 26 findings — a workload equivalent to a full year of safety, environmental and quality activity compressed into a few weeks. This was not a “sort the documents” problem; it was a problem of recovering operational control, reconstructing evidence, translating field reality into audit language and creating a reusable information system across audits and companies.\nEtiquetas: Casos de uso y aplicaciones 12.50%; Investigación y documentación técnica 17.50%; Empresa y gestión 47.50%; Evidencia, procedencia y atribución 22.50%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-study-weatherford-multi-level-information-management-for-oilfield-supplie-u1322/\nDocumento de origen: https://jubap.us/case-study-weatherford-multi-level-information-management-for-oilfield-supplier-management/\n\n"
 }

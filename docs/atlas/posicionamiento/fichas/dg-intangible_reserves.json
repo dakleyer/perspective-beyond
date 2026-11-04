@@ -16,6 +16,7 @@
     "dialogos"
   ],
   "context": "## Reservas intangibles, interfaces y precio\nLas finanzas pueden capitalizar control de datos, permisos, accesos y expectativa de exclusividad, aun sin bienes clásicos visibles.\nEtiquetas: Autoridad, permisos y delegación 25.00%; Economía, costes y liquidez 75.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-intangible_reserves\n\n",
+  "readingSource": null,
   "tokens": 89,
   "encoding": "o200k_base",
   "relations": [
@@ -28,6 +29,13 @@
       "reading": "",
       "relationTokens": 29,
       "fichaTokens": 398,
+      "tagWeights": {
+        "economia": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-261.json"
     },
     {
@@ -39,6 +47,14 @@
       "reading": "",
       "relationTokens": 32,
       "fichaTokens": 395,
+      "tagWeights": {
+        "autoridad": 0.5,
+        "economia": 0.5
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-262.json"
     },
     {
@@ -50,6 +66,17 @@
       "reading": "La exclusividad puede ser construida por normas y expectativas.",
       "relationTokens": 40,
       "fichaTokens": 117,
+      "tagWeights": {
+        "aprendizaje": 0.0476,
+        "autoridad": 0.0833,
+        "economia": 0.658,
+        "memoria-territorio": 0.1,
+        "representacion": 0.1111
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-scarcity_design.json"
     },
     {
@@ -61,6 +88,30 @@
       "reading": "Valor financiero y uso real pueden divergir.",
       "relationTokens": 34,
       "fichaTokens": 239,
+      "tagWeights": {
+        "aprendizaje": 0.0689,
+        "autoridad": 0.0119,
+        "capacidad-humana": 0.0161,
+        "casos": 0.0204,
+        "control-minimo": 0.0108,
+        "decision": 0.1092,
+        "economia": 0.5189,
+        "empresa": 0.032,
+        "estandares": 0.0095,
+        "evidencia": 0.0095,
+        "geopolitica": 0.0766,
+        "integridad-ia": 0.0331,
+        "matematicas": 0.0149,
+        "memoria-territorio": 0.0143,
+        "movilidad": 0.0142,
+        "perspectiva": 0.0119,
+        "representacion": 0.0159,
+        "transformacion": 0.0119
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-economy.json"
     },
     {
@@ -72,6 +123,13 @@
       "reading": "Una licencia o permiso puede capturar rentas de acceso.",
       "relationTokens": 42,
       "fichaTokens": 75,
+      "tagWeights": {
+        "economia": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-rent_separation.json"
     },
     {
@@ -83,6 +141,16 @@
       "reading": "Las interfaces pueden concentrar control de relaciones.",
       "relationTokens": 35,
       "fichaTokens": 106,
+      "tagWeights": {
+        "aprendizaje": 0.1667,
+        "autoridad": 0.5417,
+        "economia": 0.1666,
+        "estandares": 0.125
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-civilization_interface.json"
     }
   ]

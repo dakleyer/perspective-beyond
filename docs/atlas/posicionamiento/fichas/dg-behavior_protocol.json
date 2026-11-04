@@ -19,6 +19,7 @@
     "dialogos"
   ],
   "context": "## Protocolo conductual de plataformas\nVer patrones de reacción y convergencia operacional por detrás de relatos enfrentados.\nEtiquetas: Aprendizaje y transmisión de capacidades 33.33%; Autoridad, permisos y delegación 33.33%; Decisiones y responsabilidad 16.67%; Economía, costes y liquidez 16.67%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-behavior_protocol\n\n",
+  "readingSource": null,
   "tokens": 98,
   "encoding": "o200k_base",
   "relations": [
@@ -31,6 +32,14 @@
       "reading": "",
       "relationTokens": 26,
       "fichaTokens": 392,
+      "tagWeights": {
+        "decision": 0.5,
+        "economia": 0.5
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-188.json"
     },
     {
@@ -42,6 +51,13 @@
       "reading": "",
       "relationTokens": 26,
       "fichaTokens": 407,
+      "tagWeights": {
+        "autoridad": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-211.json"
     },
     {
@@ -53,6 +69,13 @@
       "reading": "",
       "relationTokens": 28,
       "fichaTokens": 440,
+      "tagWeights": {
+        "aprendizaje": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-246.json"
     },
     {
@@ -64,6 +87,26 @@
       "reading": "El sistema observa clics y tiempos, no convicciones interiores directamente.",
       "relationTokens": 32,
       "fichaTokens": 202,
+      "tagWeights": {
+        "aprendizaje": 0.0552,
+        "autoridad": 0.0761,
+        "casos": 0.0111,
+        "decision": 0.4409,
+        "economia": 0.1355,
+        "empresa": 0.0486,
+        "evidencia": 0.0185,
+        "matematicas": 0.0868,
+        "memoria-territorio": 0.007,
+        "movilidad": 0.0347,
+        "mundo-abierto": 0.0139,
+        "perspectiva": 0.037,
+        "representacion": 0.0278,
+        "transformacion": 0.0069
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-measure.json"
     },
     {
@@ -75,6 +118,23 @@
       "reading": "Relatos opuestos pueden alimentar mecanismos repetibles de reacción.",
       "relationTokens": 34,
       "fichaTokens": 180,
+      "tagWeights": {
+        "aprendizaje": 0.0303,
+        "autoridad": 0.0485,
+        "casos": 0.026,
+        "decision": 0.15,
+        "economia": 0.4569,
+        "empresa": 0.0364,
+        "estandares": 0.0606,
+        "experimentacion": 0.0303,
+        "memoria-territorio": 0.0195,
+        "movilidad": 0.0809,
+        "transformacion": 0.0606
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-capture.json"
     },
     {
@@ -86,6 +146,28 @@
       "reading": "Un patrón de conducta no agota la identidad personal.",
       "relationTokens": 32,
       "fichaTokens": 234,
+      "tagWeights": {
+        "aprendizaje": 0.2833,
+        "autoridad": 0.0459,
+        "capacidad-humana": 0.0065,
+        "control-minimo": 0.0119,
+        "decision": 0.1418,
+        "documentacion": 0.0278,
+        "economia": 0.0777,
+        "empresa": 0.052,
+        "estandares": 0.0238,
+        "evidencia": 0.0143,
+        "experimentacion": 0.0179,
+        "geopolitica": 0.0436,
+        "integridad-ia": 0.0536,
+        "memoria-territorio": 0.0153,
+        "perspectiva": 0.122,
+        "transformacion": 0.0626
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-identity.json"
     },
     {
@@ -97,6 +179,13 @@
       "reading": "La audiencia también responde a incentivos del relato.",
       "relationTokens": 34,
       "fichaTokens": 73,
+      "tagWeights": {
+        "aprendizaje": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-media_reality.json"
     }
   ]

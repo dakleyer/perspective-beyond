@@ -9,21 +9,23 @@
     "T2744"
   ],
   "tagWeights": {
+    "autoridad": 0.1,
     "cambio-regimen": 0.0167,
     "cartografia": 0.0833,
     "casos": 0.0833,
-    "documentacion": 0.1334,
-    "estandares": 0.2666,
-    "evidencia": 0.0167,
-    "experimentacion": 0.3833,
+    "documentacion": 0.2334,
+    "estandares": 0.1767,
+    "evidencia": 0.1166,
+    "experimentacion": 0.1733,
     "mundo-abierto": 0.0167
   },
   "clusters": [
     "research",
     "tegrity"
   ],
-  "context": "## Oráculo de referencia acotado\nAn evaluator may access fixture information withheld from the system under test.\nEtiquetas: Cambios de régimen y alerta temprana 1.67%; Cartografía y señales de ecosistema 8.33%; Casos de uso y aplicaciones 8.33%; Investigación y documentación técnica 13.34%; Estándares e interoperabilidad 26.66%; Evidencia, procedencia y atribución 1.67%; Experimentación, falsación y contraejemplos 38.33%; Mundo abierto e indeterminación 1.67%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/bounded-reference-oracle/\n\n",
-  "tokens": 142,
+  "context": "## Oráculo de referencia acotado\nAn evaluator may access fixture information withheld from the system under test.\nEtiquetas: Autoridad, permisos y delegación 10.00%; Cambios de régimen y alerta temprana 1.67%; Cartografía y señales de ecosistema 8.33%; Casos de uso y aplicaciones 8.33%; Investigación y documentación técnica 23.34%; Estándares e interoperabilidad 17.67%; Evidencia, procedencia y atribución 11.66%; Experimentación, falsación y contraejemplos 17.33%; Mundo abierto e indeterminación 1.67%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/bounded-reference-oracle/\n\n",
+  "readingSource": null,
+  "tokens": 154,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -35,6 +37,20 @@
       "reading": "",
       "relationTokens": 43,
       "fichaTokens": 279,
+      "tagWeights": {
+        "cambio-regimen": 0.0333,
+        "cartografia": 0.1667,
+        "casos": 0.1667,
+        "documentacion": 0.2667,
+        "estandares": 0.0333,
+        "evidencia": 0.0333,
+        "experimentacion": 0.2667,
+        "mundo-abierto": 0.0333
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH047.json"
     },
     {
@@ -45,7 +61,18 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 31,
-      "fichaTokens": 105,
+      "fichaTokens": 342,
+      "tagWeights": {
+        "autoridad": 0.2,
+        "documentacion": 0.2,
+        "estandares": 0.32,
+        "evidencia": 0.2,
+        "experimentacion": 0.08
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2744.json"
     },
     {
@@ -56,7 +83,36 @@
       "kind": "documented use",
       "reading": "The bounded-oracle design makes a case-study test inspectable by separating referee knowledge, candidate observations and the declared failure condition.",
       "relationTokens": 41,
-      "fichaTokens": 231,
+      "fichaTokens": 242,
+      "tagWeights": {
+        "autoridad": 0.021,
+        "cambio-regimen": 0.0269,
+        "cartografia": 0.0119,
+        "casos": 0.0629,
+        "control-minimo": 0.0202,
+        "decision": 0.0424,
+        "documentacion": 0.0708,
+        "economia": 0.0586,
+        "empresa": 0.1,
+        "estandares": 0.0472,
+        "evidencia": 0.1556,
+        "experimentacion": 0.084,
+        "integridad-ia": 0.0541,
+        "memoria-territorio": 0.0218,
+        "movilidad": 0.1649,
+        "mundo-abierto": 0.0024,
+        "representacion": 0.0099,
+        "transformacion": 0.0454
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C49.json"
     }
   ]

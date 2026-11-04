@@ -6,14 +6,20 @@
   "documentId": "doc-4600fb16ed27054825",
   "sourceIds": [],
   "tagWeights": {
-    "economia": 0.25,
-    "movilidad": 0.75
+    "economia": 0.1429,
+    "movilidad": 0.8571
   },
   "clusters": [
     "net"
   ],
-  "context": "## JubAp.Net © xSeil Whitepaper\n\nEtiquetas: Economía, costes y liquidez 25.00%; Movilidad e infraestructura 75.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-net-xseil-whitepaper-n1247/\nDocumento de origen: https://jubap.net/jubap-net-xseil-whitepaper/\n\n",
-  "tokens": 82,
+  "context": "## JubAp.Net © xSeil Whitepaper\nA large-scale passenger-transport orchestration platform built for fully committed demand under hard operational constraints — planning, execution and real-time control across the full transport lifecycle.\n\nUse the provenance dossier to identify dates, artifact versions and the scope of the original technical record. State which passages describe an implemented mechanism and which are later explanations or proposed extensions. The same source can support several readings without establishing every reading as a historical feature.\n\nExperiencias Xcaret is the largest integrated tourism operator in Latin America, based in the Riviera Maya. It runs seven theme parks and welcomes around 4 million visitors per year, or roughly 12,000 per day, while directly employing more than 17,000 people and supporting over 65,000 families indirectly across its wider ecosystem of roughly 500 hotels, transport providers, resellers, and on-site service operations\n\nAround 2016–2017, the organization was undergoing a major technology renewal program covering core systems modernization, cloud migration, and hyperscaler-aligned architecture. Logistics was identified as a critical bottleneck. Multiple top-tier international providers were engaged — including specialists in large-scale transportation and major global theme park operations. The conclusion was consistent: the problem did not fit existing operational models. No out-of-the-box solution was available.\n\nThe underlying structure pointed to a complex variant of the Vehicle Routing Problem (VRP), with additional constraints and real-time dynamic behaviors that made it significantly harder than standard formulations — an NP-complex problem under live operational conditions.\nEtiquetas: Economía, costes y liquidez 14.29%; Movilidad e infraestructura 85.71%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-net-xseil-whitepaper-n1247/\nDocumento de origen: https://jubap.net/jubap-net-xseil-whitepaper/\n\n",
+  "readingSource": {
+    "url": "https://jubap.net/jubap-net-xseil-whitepaper/",
+    "section": "Opening paragraphs",
+    "observed": "2026-11-04",
+    "sourceSha256": "15d84134debfb6008794c5d63907cb2dcea1a88fcc39c98266ec01c8587e5eab"
+  },
+  "tokens": 379,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -24,7 +30,18 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 93,
+      "fichaTokens": 102,
+      "tagWeights": {
+        "casos": 0.092,
+        "decision": 0.0575,
+        "documentacion": 0.023,
+        "economia": 0.2047,
+        "movilidad": 0.6228
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G27.json"
     },
     {
@@ -35,7 +52,15 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [xSeil provenance, delivery and code evidence](https://jubap.net/xseil-2016-to-2018-provenance-delivery-and-code-evidence/).",
       "relationTokens": 74,
-      "fichaTokens": 111,
+      "fichaTokens": 249,
+      "tagWeights": {
+        "evidencia": 0.7083,
+        "movilidad": 0.2917
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1876.json"
     },
     {
@@ -46,7 +71,18 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [Scenario-based planning and human-governed computation](https://jubap.net/xseil-scenario-based-planning-human-governed-computation/).",
       "relationTokens": 67,
-      "fichaTokens": 118,
+      "fichaTokens": 211,
+      "tagWeights": {
+        "casos": 0.2759,
+        "decision": 0.1724,
+        "documentacion": 0.069,
+        "economia": 0.1379,
+        "movilidad": 0.3448
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N2082.json"
     },
     {
@@ -57,7 +93,19 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [Vehicle routing under fully committed demand](https://jubap.net/xseil-vrp/).",
       "relationTokens": 46,
-      "fichaTokens": 111,
+      "fichaTokens": 578,
+      "tagWeights": {
+        "casos": 0.2758,
+        "control-minimo": 0.1379,
+        "decision": 0.069,
+        "memoria-territorio": 0.069,
+        "movilidad": 0.3793,
+        "mundo-abierto": 0.069
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1803.json"
     },
     {
@@ -68,7 +116,15 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [xSeil: the field-system architecture](https://jubap.net/jubap-net-xseil-whitepaper/).",
       "relationTokens": 59,
-      "fichaTokens": 88,
+      "fichaTokens": 237,
+      "tagWeights": {
+        "empresa": 0.5556,
+        "evidencia": 0.4444
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1328.json"
     },
     {
@@ -80,6 +136,14 @@
       "reading": "For a complementary reading, see [The xSeil operational lineage](https://jubap.net/jubap-net-xseil-whitepaper/).",
       "relationTokens": 48,
       "fichaTokens": 105,
+      "tagWeights": {
+        "agentes": 0.1667,
+        "movilidad": 0.8333
+      },
+      "clusters": [
+        "mobility"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1953.json"
     },
     {
@@ -90,7 +154,14 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The xSeil operational architecture](https://jubap.net/jubap-net-xseil-whitepaper/).",
       "relationTokens": 54,
-      "fichaTokens": 78,
+      "fichaTokens": 163,
+      "tagWeights": {
+        "cambio-regimen": 1.0
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1221.json"
     }
   ]

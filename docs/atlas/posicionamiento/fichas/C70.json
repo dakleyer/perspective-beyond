@@ -19,19 +19,20 @@
     "U1496"
   ],
   "tagWeights": {
-    "aprendizaje": 0.0605,
-    "autoridad": 0.0167,
-    "capacidad-humana": 0.1219,
-    "casos": 0.0412,
-    "control-minimo": 0.0173,
-    "decision": 0.0698,
-    "documentacion": 0.0119,
-    "economia": 0.0753,
-    "empresa": 0.198,
-    "evidencia": 0.2215,
-    "experimentacion": 0.0067,
-    "memoria-territorio": 0.0914,
-    "transformacion": 0.0678
+    "aprendizaje": 0.0584,
+    "autoridad": 0.0088,
+    "capacidad-humana": 0.1471,
+    "casos": 0.0306,
+    "control-minimo": 0.0095,
+    "decision": 0.0766,
+    "documentacion": 0.0115,
+    "economia": 0.0798,
+    "empresa": 0.1832,
+    "evidencia": 0.1639,
+    "experimentacion": 0.0254,
+    "memoria-territorio": 0.0724,
+    "movilidad": 0.0119,
+    "transformacion": 0.1209
   },
   "clusters": [
     "eu",
@@ -39,8 +40,9 @@
     "tegrity",
     "us"
   ],
-  "context": "## Atribución organizativa\nDecision-makers assign recognition and credit for capability.\nEtiquetas: Aprendizaje y transmisión de capacidades 6.05%; Autoridad, permisos y delegación 1.67%; Capacidad humana y deuda de inteligencia 12.19%; Casos de uso y aplicaciones 4.12%; Control mínimo y suficiencia 1.73%; Decisiones y responsabilidad 6.98%; Investigación y documentación técnica 1.19%; Economía, costes y liquidez 7.53%; Empresa y gestión 19.80%; Evidencia, procedencia y atribución 22.15%; Experimentación, falsación y contraejemplos 0.67%; Memoria, comunidad y territorio 9.14%; Transformación y continuidad operativa 6.78%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/organisational-attribution/\n\n",
-  "tokens": 186,
+  "context": "## Atribución organizativa\nDecision-makers assign recognition and credit for capability.\nEtiquetas: Aprendizaje y transmisión de capacidades 5.84%; Autoridad, permisos y delegación 0.88%; Capacidad humana y deuda de inteligencia 14.71%; Casos de uso y aplicaciones 3.06%; Control mínimo y suficiencia 0.95%; Decisiones y responsabilidad 7.66%; Investigación y documentación técnica 1.15%; Economía, costes y liquidez 7.98%; Empresa y gestión 18.32%; Evidencia, procedencia y atribución 16.39%; Experimentación, falsación y contraejemplos 2.54%; Memoria, comunidad y territorio 7.24%; Movilidad e infraestructura 1.19%; Transformación y continuidad operativa 12.09%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/organisational-attribution/\n\n",
+  "readingSource": null,
+  "tokens": 195,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -51,7 +53,19 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 20,
-      "fichaTokens": 119,
+      "fichaTokens": 394,
+      "tagWeights": {
+        "casos": 0.1333,
+        "control-minimo": 0.0444,
+        "decision": 0.1111,
+        "empresa": 0.3778,
+        "evidencia": 0.0667,
+        "transformacion": 0.2667
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1654.json"
     },
     {
@@ -62,7 +76,21 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 18,
-      "fichaTokens": 145,
+      "fichaTokens": 409,
+      "tagWeights": {
+        "aprendizaje": 0.0541,
+        "capacidad-humana": 0.3513,
+        "decision": 0.0541,
+        "economia": 0.1351,
+        "empresa": 0.054,
+        "evidencia": 0.1081,
+        "experimentacion": 0.1622,
+        "memoria-territorio": 0.0811
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1400.json"
     },
     {
@@ -73,7 +101,23 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 156,
+      "fichaTokens": 694,
+      "tagWeights": {
+        "aprendizaje": 0.0318,
+        "autoridad": 0.0317,
+        "capacidad-humana": 0.127,
+        "casos": 0.0317,
+        "decision": 0.1429,
+        "economia": 0.1429,
+        "empresa": 0.127,
+        "evidencia": 0.2222,
+        "memoria-territorio": 0.0317,
+        "transformacion": 0.1111
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1472.json"
     },
     {
@@ -84,7 +128,20 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 18,
-      "fichaTokens": 132,
+      "fichaTokens": 319,
+      "tagWeights": {
+        "capacidad-humana": 0.2927,
+        "casos": 0.0488,
+        "decision": 0.0975,
+        "economia": 0.0732,
+        "empresa": 0.0975,
+        "evidencia": 0.3415,
+        "memoria-territorio": 0.0488
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1475.json"
     },
     {
@@ -95,7 +152,20 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 18,
-      "fichaTokens": 110,
+      "fichaTokens": 280,
+      "tagWeights": {
+        "capacidad-humana": 0.1724,
+        "control-minimo": 0.069,
+        "decision": 0.1035,
+        "documentacion": 0.1379,
+        "economia": 0.2069,
+        "empresa": 0.1379,
+        "evidencia": 0.1724
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1484.json"
     },
     {
@@ -106,7 +176,18 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 30,
-      "fichaTokens": 142,
+      "fichaTokens": 449,
+      "tagWeights": {
+        "aprendizaje": 0.3929,
+        "capacidad-humana": 0.0714,
+        "empresa": 0.1429,
+        "evidencia": 0.1071,
+        "memoria-territorio": 0.2857
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1246.json"
     },
     {
@@ -117,7 +198,17 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 111,
+      "fichaTokens": 262,
+      "tagWeights": {
+        "empresa": 0.1818,
+        "evidencia": 0.1818,
+        "memoria-territorio": 0.1818,
+        "transformacion": 0.4546
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1441.json"
     },
     {
@@ -128,7 +219,19 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 29,
-      "fichaTokens": 158,
+      "fichaTokens": 269,
+      "tagWeights": {
+        "casos": 0.1539,
+        "economia": 0.1539,
+        "empresa": 0.1538,
+        "evidencia": 0.2308,
+        "memoria-territorio": 0.1538,
+        "transformacion": 0.1538
+      },
+      "clusters": [
+        "us"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1792.json"
     },
     {
@@ -139,7 +242,16 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 16,
-      "fichaTokens": 82,
+      "fichaTokens": 450,
+      "tagWeights": {
+        "capacidad-humana": 0.75,
+        "empresa": 0.125,
+        "evidencia": 0.125
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T874.json"
     },
     {
@@ -150,7 +262,19 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 17,
-      "fichaTokens": 115,
+      "fichaTokens": 297,
+      "tagWeights": {
+        "autoridad": 0.0741,
+        "decision": 0.2963,
+        "economia": 0.0741,
+        "empresa": 0.0741,
+        "evidencia": 0.074,
+        "transformacion": 0.4074
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1292.json"
     },
     {
@@ -162,6 +286,15 @@
       "reading": "",
       "relationTokens": 24,
       "fichaTokens": 144,
+      "tagWeights": {
+        "aprendizaje": 0.2222,
+        "empresa": 0.5556,
+        "evidencia": 0.2222
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1636.json"
     },
     {
@@ -172,7 +305,21 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 151,
+      "fichaTokens": 447,
+      "tagWeights": {
+        "decision": 0.1143,
+        "economia": 0.1714,
+        "empresa": 0.1714,
+        "evidencia": 0.1143,
+        "experimentacion": 0.1429,
+        "memoria-territorio": 0.0857,
+        "movilidad": 0.1429,
+        "transformacion": 0.0571
+      },
+      "clusters": [
+        "us"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1496.json"
     },
     {
@@ -184,6 +331,40 @@
       "reading": "An anti-circularity design would separate evidence of technical contribution from evidence of organizational recognition.",
       "relationTokens": 34,
       "fichaTokens": 289,
+      "tagWeights": {
+        "agentes": 0.0366,
+        "aprendizaje": 0.0258,
+        "autoridad": 0.0159,
+        "cambio-regimen": 0.027,
+        "capacidad-humana": 0.0643,
+        "cartografia": 0.0076,
+        "casos": 0.0219,
+        "control-minimo": 0.0231,
+        "decision": 0.0524,
+        "documentacion": 0.076,
+        "economia": 0.062,
+        "empresa": 0.0685,
+        "estandares": 0.0181,
+        "evidencia": 0.23,
+        "experimentacion": 0.0268,
+        "geopolitica": 0.0128,
+        "integridad-ia": 0.0075,
+        "matematicas": 0.0473,
+        "memoria-territorio": 0.04,
+        "movilidad": 0.0398,
+        "perspectiva": 0.0126,
+        "representacion": 0.0117,
+        "transformacion": 0.0723
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C69.json"
     },
     {
@@ -194,7 +375,39 @@
       "kind": "hypothesis",
       "reading": "The invisible-talent account could motivate a blinded recognition study while retaining a different unit of analysis from the Attribution Gap protocol.",
       "relationTokens": 37,
-      "fichaTokens": 254,
+      "fichaTokens": 267,
+      "tagWeights": {
+        "agentes": 0.0141,
+        "aprendizaje": 0.0296,
+        "autoridad": 0.013,
+        "cambio-regimen": 0.019,
+        "capacidad-humana": 0.079,
+        "casos": 0.044,
+        "control-minimo": 0.0201,
+        "decision": 0.0593,
+        "documentacion": 0.0697,
+        "economia": 0.033,
+        "empresa": 0.1772,
+        "estandares": 0.0064,
+        "evidencia": 0.0971,
+        "experimentacion": 0.0181,
+        "geopolitica": 0.016,
+        "integridad-ia": 0.0315,
+        "memoria-territorio": 0.0494,
+        "movilidad": 0.107,
+        "representacion": 0.006,
+        "transformacion": 0.1105
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "mobility",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C20.json"
     },
     {
@@ -206,6 +419,29 @@
       "reading": "Institutional preservation can keep a capability available while leaving its contribution, recognition and legal rights as separate questions.",
       "relationTokens": 33,
       "fichaTokens": 197,
+      "tagWeights": {
+        "aprendizaje": 0.0096,
+        "autoridad": 0.0035,
+        "capacidad-humana": 0.0816,
+        "casos": 0.0092,
+        "control-minimo": 0.0074,
+        "decision": 0.0555,
+        "documentacion": 0.1014,
+        "economia": 0.0662,
+        "empresa": 0.2058,
+        "estandares": 0.0212,
+        "evidencia": 0.1233,
+        "experimentacion": 0.018,
+        "memoria-territorio": 0.1189,
+        "transformacion": 0.1784
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "net",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C56.json"
     },
     {
@@ -217,6 +453,40 @@
       "reading": "A capability-loss study should include useful survivors, genuine redundancies and documented losses rather than selecting only successful informal adaptations.",
       "relationTokens": 38,
       "fichaTokens": 289,
+      "tagWeights": {
+        "agentes": 0.0366,
+        "aprendizaje": 0.0258,
+        "autoridad": 0.0159,
+        "cambio-regimen": 0.027,
+        "capacidad-humana": 0.0643,
+        "cartografia": 0.0076,
+        "casos": 0.0219,
+        "control-minimo": 0.0231,
+        "decision": 0.0524,
+        "documentacion": 0.076,
+        "economia": 0.062,
+        "empresa": 0.0685,
+        "estandares": 0.0181,
+        "evidencia": 0.23,
+        "experimentacion": 0.0268,
+        "geopolitica": 0.0128,
+        "integridad-ia": 0.0075,
+        "matematicas": 0.0473,
+        "memoria-territorio": 0.04,
+        "movilidad": 0.0398,
+        "perspectiva": 0.0126,
+        "representacion": 0.0117,
+        "transformacion": 0.0723
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C69.json"
     },
     {
@@ -228,6 +498,28 @@
       "reading": "Reducing compensatory human work and improving capability recognition are distinct outcomes that require separate measures.",
       "relationTokens": 34,
       "fichaTokens": 203,
+      "tagWeights": {
+        "aprendizaje": 0.0353,
+        "autoridad": 0.0122,
+        "capacidad-humana": 0.1672,
+        "cartografia": 0.0083,
+        "casos": 0.0195,
+        "control-minimo": 0.0376,
+        "decision": 0.0599,
+        "documentacion": 0.066,
+        "economia": 0.0886,
+        "empresa": 0.2153,
+        "evidencia": 0.0984,
+        "experimentacion": 0.0578,
+        "memoria-territorio": 0.0139,
+        "transformacion": 0.12
+      },
+      "clusters": [
+        "eu",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C34.json"
     },
     {
@@ -239,6 +531,40 @@
       "reading": "Independent dependency and attribution records provide a concrete comparison for the distinction between found flow and declared representation.",
       "relationTokens": 35,
       "fichaTokens": 289,
+      "tagWeights": {
+        "agentes": 0.0366,
+        "aprendizaje": 0.0258,
+        "autoridad": 0.0159,
+        "cambio-regimen": 0.027,
+        "capacidad-humana": 0.0643,
+        "cartografia": 0.0076,
+        "casos": 0.0219,
+        "control-minimo": 0.0231,
+        "decision": 0.0524,
+        "documentacion": 0.076,
+        "economia": 0.062,
+        "empresa": 0.0685,
+        "estandares": 0.0181,
+        "evidencia": 0.23,
+        "experimentacion": 0.0268,
+        "geopolitica": 0.0128,
+        "integridad-ia": 0.0075,
+        "matematicas": 0.0473,
+        "memoria-territorio": 0.04,
+        "movilidad": 0.0398,
+        "perspectiva": 0.0126,
+        "representacion": 0.0117,
+        "transformacion": 0.0723
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C69.json"
     },
     {
@@ -249,7 +575,33 @@
       "kind": "candidate transfer",
       "reading": "Successful engineering needs an institutional handover that preserves ownership, maintenance capacity and recognition after the intervention team leaves.",
       "relationTokens": 38,
-      "fichaTokens": 213,
+      "fichaTokens": 222,
+      "tagWeights": {
+        "aprendizaje": 0.0183,
+        "autoridad": 0.0464,
+        "capacidad-humana": 0.0615,
+        "casos": 0.035,
+        "control-minimo": 0.0171,
+        "decision": 0.1314,
+        "documentacion": 0.0282,
+        "economia": 0.079,
+        "empresa": 0.1195,
+        "evidencia": 0.0942,
+        "experimentacion": 0.0314,
+        "memoria-territorio": 0.0419,
+        "movilidad": 0.0485,
+        "perspectiva": 0.0171,
+        "representacion": 0.0058,
+        "transformacion": 0.2247
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "net",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C90.json"
     },
     {
@@ -261,6 +613,40 @@
       "reading": "Work-based talent recognition illustrates why visible credentials and demonstrated capability should be assessed separately, while retaining a different unit of analysis from application-level attribution.",
       "relationTokens": 44,
       "fichaTokens": 289,
+      "tagWeights": {
+        "agentes": 0.0366,
+        "aprendizaje": 0.0258,
+        "autoridad": 0.0159,
+        "cambio-regimen": 0.027,
+        "capacidad-humana": 0.0643,
+        "cartografia": 0.0076,
+        "casos": 0.0219,
+        "control-minimo": 0.0231,
+        "decision": 0.0524,
+        "documentacion": 0.076,
+        "economia": 0.062,
+        "empresa": 0.0685,
+        "estandares": 0.0181,
+        "evidencia": 0.23,
+        "experimentacion": 0.0268,
+        "geopolitica": 0.0128,
+        "integridad-ia": 0.0075,
+        "matematicas": 0.0473,
+        "memoria-territorio": 0.04,
+        "movilidad": 0.0398,
+        "perspectiva": 0.0126,
+        "representacion": 0.0117,
+        "transformacion": 0.0723
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C69.json"
     },
     {
@@ -272,6 +658,21 @@
       "reading": "Genuine contribution should be classified at the task episode, not inferred from a person's title, credentials or membership in an elite team.",
       "relationTokens": 46,
       "fichaTokens": 139,
+      "tagWeights": {
+        "aprendizaje": 0.2235,
+        "capacidad-humana": 0.2114,
+        "decision": 0.0271,
+        "economia": 0.0675,
+        "empresa": 0.0984,
+        "evidencia": 0.1076,
+        "experimentacion": 0.0811,
+        "memoria-territorio": 0.1834
+      },
+      "clusters": [
+        "net",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C76.json"
     },
     {
@@ -282,7 +683,31 @@
       "kind": "analogy only",
       "reading": "Facilitator capability can outlast an intervention only if learning is accompanied by durable ownership, resourcing and recognition, rather than enthusiasm alone.",
       "relationTokens": 43,
-      "fichaTokens": 191,
+      "fichaTokens": 211,
+      "tagWeights": {
+        "aprendizaje": 0.123,
+        "autoridad": 0.0215,
+        "capacidad-humana": 0.0797,
+        "casos": 0.022,
+        "control-minimo": 0.0238,
+        "decision": 0.0547,
+        "documentacion": 0.0167,
+        "economia": 0.0463,
+        "empresa": 0.1861,
+        "estandares": 0.0333,
+        "evidencia": 0.1587,
+        "experimentacion": 0.0623,
+        "memoria-territorio": 0.0374,
+        "movilidad": 0.0655,
+        "transformacion": 0.069
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C38.json"
     },
     {
@@ -293,7 +718,28 @@
       "kind": "analogy only",
       "reading": "The corridor invites a bounded attribution study of where a capability is created, maintained and capitalized, rather than inferring its value from the location that books the revenue.",
       "relationTokens": 50,
-      "fichaTokens": 173,
+      "fichaTokens": 197,
+      "tagWeights": {
+        "aprendizaje": 0.0064,
+        "autoridad": 0.0063,
+        "capacidad-humana": 0.0839,
+        "casos": 0.0469,
+        "control-minimo": 0.0134,
+        "decision": 0.0709,
+        "economia": 0.1616,
+        "empresa": 0.1566,
+        "evidencia": 0.2084,
+        "experimentacion": 0.0286,
+        "memoria-territorio": 0.0773,
+        "movilidad": 0.0286,
+        "transformacion": 0.1111
+      },
+      "clusters": [
+        "eu",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C100.json"
     },
     {
@@ -304,7 +750,23 @@
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 14,
-      "fichaTokens": 143,
+      "fichaTokens": 154,
+      "tagWeights": {
+        "aprendizaje": 0.0159,
+        "autoridad": 0.0159,
+        "capacidad-humana": 0.2099,
+        "casos": 0.0403,
+        "decision": 0.1202,
+        "economia": 0.108,
+        "empresa": 0.1122,
+        "evidencia": 0.2819,
+        "memoria-territorio": 0.0402,
+        "transformacion": 0.0555
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G23.json"
     },
     {
@@ -316,6 +778,25 @@
       "reading": "",
       "relationTokens": 18,
       "fichaTokens": 188,
+      "tagWeights": {
+        "agentes": 0.1081,
+        "autoridad": 0.0541,
+        "cambio-regimen": 0.0541,
+        "cartografia": 0.1622,
+        "casos": 0.0541,
+        "control-minimo": 0.0811,
+        "documentacion": 0.027,
+        "empresa": 0.027,
+        "estandares": 0.1081,
+        "evidencia": 0.1081,
+        "matematicas": 0.1081,
+        "movilidad": 0.054,
+        "transformacion": 0.054
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G46.json"
     }
   ]

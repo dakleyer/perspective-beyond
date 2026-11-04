@@ -6,14 +6,24 @@
   "documentId": "doc-132fe5f96f0fa9c5aa",
   "sourceIds": [],
   "tagWeights": {
-    "movilidad": 0.7143,
-    "representacion": 0.2857
+    "economia": 0.1708,
+    "empresa": 0.1707,
+    "evidencia": 0.1707,
+    "movilidad": 0.2683,
+    "representacion": 0.0488,
+    "transformacion": 0.1707
   },
   "clusters": [
     "net"
   ],
-  "context": "## xSeil Functionality Analisis\n\nEtiquetas: Movilidad e infraestructura 71.43%; Representación y límites formales 28.57%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/xseil-functionality-analisis-n1801/\nDocumento de origen: https://jubap.net/xseil-functionality-analisis/\n\n",
-  "tokens": 78,
+  "context": "## xSeil Functionality Analisis\nThis paper examines whether a large operational problem can be solved with a durable efficiency advantage even when the implementation has no exclusive hardware advantage. The case is xSeil, a mission-critical logistics platform deployed in 2016-2017. The evidence combines a contractual component taxonomy, a costed inventory of 178 line items, a 2017 delivery tracker, a surviving repository of 601 files (293 Python modules; 26,758 Python lines), and the published system description. Only 38 of the 178 costed items (21.3%) were classified contractually as internal logic or algorithm-analysis components; together they represented 37.9% of the historical estimated cost, while 62.1% concerned data structures, integration, screens, reports, architecture, inherited components, business analysis and related work. This composition does not prove comparative value, but it demonstrates that the computationally difficult planner was only one layer of the delivered system.\n\nThe code evidence shows a recurrent design pattern: use the smallest mechanism that fully closes a business function. Availability was a controlled state and a filter; rental sizing was a booking-curve ratio and a capacity division; passenger reality was closed through boarding/no-show state; SLA control was timestamp accounting; reassignment governance was a typed reason catalogue; congestion pacing was a bounded feedback loop; and expensive combinatorial work was precomputed, persisted and widened only when evidence required it. We call this functional efficiency: minimizing resource intensity per completed business function while meeting its correctness, deadline, auditability and safety conditions.\n\nThe paper concludes that xSeil’s durable edge is plausible but not yet demonstrated quantitatively against a modern 2026 implementation. The strongest candidate advantage is not raw execution speed; it is the avoidance of unnecessary computation, data movement and coordination through explicit semantics, closed loops, persistent decision memory and bounded adaptation. We propose a functional-unit benchmark and a replay programme capable of testing that proposition. A complete annex maps the system’s functional inventory to implementation mechanisms, code anchors and the relevance – or irrelevance – of advanced computation.\n\nKeywords: functional efficiency; enterprise systems; logistics; software architecture; business functions; computational efficiency; contract-to-code traceability; closed-loop control; xSeil\n\nChanges in version 2. This version adds material only; no claim of version 1 is removed. Additions: five recovered primary sources (S6–S10 in Section 2.2); repository provenance and an audit of a later third-party containerization port (Section 2.4); the measured production hardware envelope (Section 2.5); recovered operational scale evidence with explicit evidence classes (Section 2.6); an empirical note on the booking curve (Section 6.2); two additional limitations (Section 10); and references [P6]–[P10].\nEtiquetas: Economía, costes y liquidez 17.08%; Empresa y gestión 17.07%; Evidencia, procedencia y atribución 17.07%; Movilidad e infraestructura 26.83%; Representación y límites formales 4.88%; Transformación y continuidad operativa 17.07%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/xseil-functionality-analisis-n1801/\nDocumento de origen: https://jubap.net/xseil-functionality-analisis/\n\n",
+  "readingSource": {
+    "url": "https://jubap.net/xseil-functionality-analisis/",
+    "section": "Abstract",
+    "observed": "2026-11-04",
+    "sourceSha256": "31e0e3e2f44e9eb3b4f57aa6170fdf78ce69b7d4e23b36567bfb60cd4cda3e15"
+  },
+  "tokens": 690,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -24,7 +34,23 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 119,
+      "fichaTokens": 143,
+      "tagWeights": {
+        "aprendizaje": 0.0263,
+        "capacidad-humana": 0.0263,
+        "casos": 0.0658,
+        "economia": 0.0854,
+        "empresa": 0.2828,
+        "evidencia": 0.0854,
+        "movilidad": 0.1341,
+        "representacion": 0.0507,
+        "transformacion": 0.2432
+      },
+      "clusters": [
+        "net",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C01.json"
     },
     {
@@ -35,7 +61,31 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 20,
-      "fichaTokens": 172,
+      "fichaTokens": 196,
+      "tagWeights": {
+        "agentes": 0.0455,
+        "aprendizaje": 0.0605,
+        "autoridad": 0.0182,
+        "capacidad-humana": 0.1572,
+        "casos": 0.0263,
+        "control-minimo": 0.05,
+        "decision": 0.0864,
+        "economia": 0.0608,
+        "empresa": 0.1767,
+        "evidencia": 0.0341,
+        "memoria-territorio": 0.0182,
+        "movilidad": 0.0537,
+        "representacion": 0.1151,
+        "transformacion": 0.0973
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C02.json"
     },
     {
@@ -47,6 +97,34 @@
       "reading": "",
       "relationTokens": 18,
       "fichaTokens": 234,
+      "tagWeights": {
+        "agentes": 0.0729,
+        "aprendizaje": 0.0198,
+        "autoridad": 0.0101,
+        "cartografia": 0.0265,
+        "casos": 0.0506,
+        "control-minimo": 0.1544,
+        "decision": 0.0557,
+        "documentacion": 0.0382,
+        "economia": 0.0354,
+        "empresa": 0.0996,
+        "evidencia": 0.0503,
+        "experimentacion": 0.1005,
+        "memoria-territorio": 0.0374,
+        "movilidad": 0.1526,
+        "mundo-abierto": 0.013,
+        "perspectiva": 0.0185,
+        "representacion": 0.0208,
+        "transformacion": 0.0437
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C06.json"
     },
     {
@@ -57,7 +135,25 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 140,
+      "fichaTokens": 151,
+      "tagWeights": {
+        "aprendizaje": 0.0488,
+        "autoridad": 0.0238,
+        "control-minimo": 0.0375,
+        "decision": 0.1454,
+        "economia": 0.0427,
+        "empresa": 0.4111,
+        "evidencia": 0.0892,
+        "movilidad": 0.0671,
+        "representacion": 0.0122,
+        "transformacion": 0.1222
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C09.json"
     },
     {
@@ -68,7 +164,35 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 235,
+      "fichaTokens": 246,
+      "tagWeights": {
+        "agentes": 0.0039,
+        "aprendizaje": 0.0342,
+        "autoridad": 0.012,
+        "capacidad-humana": 0.051,
+        "casos": 0.0316,
+        "control-minimo": 0.0811,
+        "decision": 0.0988,
+        "documentacion": 0.0394,
+        "economia": 0.0865,
+        "empresa": 0.1515,
+        "estandares": 0.0168,
+        "evidencia": 0.0858,
+        "experimentacion": 0.0262,
+        "integridad-ia": 0.004,
+        "memoria-territorio": 0.0289,
+        "movilidad": 0.1092,
+        "perspectiva": 0.0164,
+        "representacion": 0.0274,
+        "transformacion": 0.0953
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C10.json"
     },
     {
@@ -80,6 +204,33 @@
       "reading": "",
       "relationTokens": 18,
       "fichaTokens": 223,
+      "tagWeights": {
+        "agentes": 0.1402,
+        "aprendizaje": 0.0072,
+        "autoridad": 0.1241,
+        "control-minimo": 0.0797,
+        "decision": 0.1062,
+        "documentacion": 0.0789,
+        "economia": 0.0656,
+        "empresa": 0.1075,
+        "evidencia": 0.0557,
+        "experimentacion": 0.0085,
+        "integridad-ia": 0.0072,
+        "matematicas": 0.0085,
+        "memoria-territorio": 0.0163,
+        "movilidad": 0.0792,
+        "mundo-abierto": 0.0427,
+        "representacion": 0.0155,
+        "transformacion": 0.057
+      },
+      "clusters": [
+        "eu",
+        "mobility",
+        "net",
+        "research",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C14.json"
     },
     {
@@ -90,7 +241,30 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 178,
+      "fichaTokens": 200,
+      "tagWeights": {
+        "agentes": 0.0455,
+        "aprendizaje": 0.0105,
+        "autoridad": 0.0182,
+        "capacidad-humana": 0.0105,
+        "casos": 0.0474,
+        "control-minimo": 0.0737,
+        "decision": 0.0574,
+        "documentacion": 0.0211,
+        "economia": 0.0342,
+        "empresa": 0.3767,
+        "evidencia": 0.0762,
+        "memoria-territorio": 0.0392,
+        "movilidad": 0.0537,
+        "representacion": 0.0384,
+        "transformacion": 0.0973
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C18.json"
     },
     {
@@ -102,6 +276,35 @@
       "reading": "",
       "relationTokens": 20,
       "fichaTokens": 250,
+      "tagWeights": {
+        "agentes": 0.1306,
+        "aprendizaje": 0.003,
+        "autoridad": 0.0356,
+        "cambio-regimen": 0.022,
+        "capacidad-humana": 0.0207,
+        "cartografia": 0.0884,
+        "casos": 0.0258,
+        "control-minimo": 0.081,
+        "decision": 0.0617,
+        "documentacion": 0.0791,
+        "economia": 0.0867,
+        "empresa": 0.0445,
+        "evidencia": 0.0425,
+        "experimentacion": 0.0143,
+        "memoria-territorio": 0.0168,
+        "movilidad": 0.1657,
+        "mundo-abierto": 0.0183,
+        "representacion": 0.0124,
+        "transformacion": 0.0509
+      },
+      "clusters": [
+        "mobility",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C44.json"
     },
     {
@@ -112,7 +315,33 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 194,
+      "fichaTokens": 228,
+      "tagWeights": {
+        "aprendizaje": 0.0108,
+        "autoridad": 0.0215,
+        "cambio-regimen": 0.0104,
+        "cartografia": 0.0417,
+        "control-minimo": 0.0837,
+        "decision": 0.0161,
+        "documentacion": 0.1583,
+        "economia": 0.0392,
+        "empresa": 0.0284,
+        "evidencia": 0.2374,
+        "experimentacion": 0.1389,
+        "integridad-ia": 0.0108,
+        "memoria-territorio": 0.0417,
+        "movilidad": 0.0447,
+        "perspectiva": 0.0799,
+        "representacion": 0.0081,
+        "transformacion": 0.0284
+      },
+      "clusters": [
+        "latinoempresa",
+        "net",
+        "research",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C72.json"
     },
     {
@@ -123,7 +352,24 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 123,
+      "fichaTokens": 155,
+      "tagWeights": {
+        "autoridad": 0.0589,
+        "capacidad-humana": 0.0589,
+        "decision": 0.1177,
+        "economia": 0.1442,
+        "empresa": 0.0853,
+        "evidencia": 0.0853,
+        "memoria-territorio": 0.0588,
+        "movilidad": 0.2812,
+        "representacion": 0.0244,
+        "transformacion": 0.0853
+      },
+      "clusters": [
+        "net",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C101.json"
     },
     {
@@ -134,7 +380,19 @@
       "kind": "candidate transfer",
       "reading": "The xSeil approach to precomputing feasible combinations could inform a bounded workforce-planning experiment.",
       "relationTokens": 47,
-      "fichaTokens": 150,
+      "fichaTokens": 505,
+      "tagWeights": {
+        "aprendizaje": 0.0526,
+        "capacidad-humana": 0.0526,
+        "casos": 0.1316,
+        "empresa": 0.3948,
+        "representacion": 0.0526,
+        "transformacion": 0.3158
+      },
+      "clusters": [
+        "us"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1312.json"
     },
     {
@@ -145,7 +403,17 @@
       "kind": "candidate transfer",
       "reading": "Evidence-gated widening offers a design question for process discovery: when does another data source materially change the decision?",
       "relationTokens": 41,
-      "fichaTokens": 101,
+      "fichaTokens": 257,
+      "tagWeights": {
+        "decision": 0.0909,
+        "empresa": 0.5,
+        "evidencia": 0.0909,
+        "transformacion": 0.3182
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1560.json"
     },
     {
@@ -156,7 +424,15 @@
       "kind": "analogy only",
       "reading": "An operationally useful solution must meet its response window, not merely exist in the feasible set.",
       "relationTokens": 36,
-      "fichaTokens": 62,
+      "fichaTokens": 262,
+      "tagWeights": {
+        "experimentacion": 0.8333,
+        "perspectiva": 0.1667
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1491.json"
     },
     {
@@ -167,7 +443,19 @@
       "kind": "candidate transfer",
       "reading": "Simple attribution joins can make event signals more useful before adding complex analytics.",
       "relationTokens": 28,
-      "fichaTokens": 92,
+      "fichaTokens": 279,
+      "tagWeights": {
+        "agentes": 0.2273,
+        "autoridad": 0.0909,
+        "decision": 0.1818,
+        "empresa": 0.3182,
+        "memoria-territorio": 0.0909,
+        "representacion": 0.0909
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1563.json"
     },
     {
@@ -178,7 +466,19 @@
       "kind": "analogy only",
       "reading": "Batch coordination and operational buffers can be compared as ways of timing a coupled intervention, provided urgent obligations and response windows remain explicit.",
       "relationTokens": 46,
-      "fichaTokens": 126,
+      "fichaTokens": 260,
+      "tagWeights": {
+        "autoridad": 0.1177,
+        "capacidad-humana": 0.1177,
+        "decision": 0.2353,
+        "economia": 0.1176,
+        "memoria-territorio": 0.1176,
+        "movilidad": 0.2941
+      },
+      "clusters": [
+        "us"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1498.json"
     },
     {
@@ -189,7 +489,15 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The code-grounded functional-efficiency analysis](https://jubap.net/xseil-functionality-analisis/).",
       "relationTokens": 59,
-      "fichaTokens": 111,
+      "fichaTokens": 249,
+      "tagWeights": {
+        "evidencia": 0.7083,
+        "movilidad": 0.2917
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1876.json"
     },
     {
@@ -200,7 +508,19 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The Mobility OS product architecture and status labels](https://jubap.eu/mobility/product/).",
       "relationTokens": 46,
-      "fichaTokens": 117,
+      "fichaTokens": 210,
+      "tagWeights": {
+        "agentes": 0.1111,
+        "autoridad": 0.0556,
+        "decision": 0.1389,
+        "documentacion": 0.1944,
+        "memoria-territorio": 0.0556,
+        "movilidad": 0.4444
+      },
+      "clusters": [
+        "mobility"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1954.json"
     },
     {
@@ -211,7 +531,19 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The exact industrial routing problem](https://jubap.net/xseil-vrp/).",
       "relationTokens": 42,
-      "fichaTokens": 111,
+      "fichaTokens": 578,
+      "tagWeights": {
+        "casos": 0.2758,
+        "control-minimo": 0.1379,
+        "decision": 0.069,
+        "memoria-territorio": 0.069,
+        "movilidad": 0.3793,
+        "mundo-abierto": 0.069
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1803.json"
     },
     {
@@ -222,7 +554,17 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [Five meanings of functional efficiency in xSeil](https://jubap.net/xseil-functionality-analisis/).",
       "relationTokens": 50,
-      "fichaTokens": 64,
+      "fichaTokens": 225,
+      "tagWeights": {
+        "decision": 0.25,
+        "economia": 0.25,
+        "matematicas": 0.25,
+        "movilidad": 0.25
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1828.json"
     }
   ]

@@ -12,6 +12,7 @@
     "imsv"
   ],
   "context": "## El manifiesto original de Nueva Perspectiva\nEl sistema mental organiza percepciones, recuerdos, emociones e intereses mediante relaciones. Una idea nueva puede reordenar esas relaciones. El texto pide examinar después su coherencia y sus efectos.\nEtiquetas: Cambio de perspectiva 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-manifiesto\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/manifiesto/\n\n",
+  "readingSource": null,
   "tokens": 105,
   "encoding": "o200k_base",
   "relations": [
@@ -24,6 +25,14 @@
       "reading": "La formulación original desarrolla el papel de las relaciones entre los elementos del sistema mental.",
       "relationTokens": 36,
       "fichaTokens": 108,
+      "tagWeights": {
+        "aprendizaje": 0.8,
+        "perspectiva": 0.2
+      },
+      "clusters": [
+        "imsv"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-entrada.json"
     },
     {
@@ -35,6 +44,15 @@
       "reading": "La conversación permite situar la experiencia previa a la formulación escrita.",
       "relationTokens": 38,
       "fichaTokens": 133,
+      "tagWeights": {
+        "aprendizaje": 0.4445,
+        "empresa": 0.4444,
+        "perspectiva": 0.1111
+      },
+      "clusters": [
+        "imsv"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-experiencia.json"
     },
     {
@@ -46,6 +64,13 @@
       "reading": "El ensayo vuelve sobre las condiciones que delimitan qué puede ver un marco.",
       "relationTokens": 36,
       "fichaTokens": 105,
+      "tagWeights": {
+        "perspectiva": 1.0
+      },
+      "clusters": [
+        "imsv"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-mas-alla.json"
     },
     {
@@ -57,6 +82,18 @@
       "reading": "El marco identifica Nueva Perspectiva como raíz de su modo de cambiar el nivel de observación.",
       "relationTokens": 39,
       "fichaTokens": 152,
+      "tagWeights": {
+        "autoridad": 0.1539,
+        "control-minimo": 0.1539,
+        "decision": 0.2308,
+        "documentacion": 0.1538,
+        "economia": 0.1538,
+        "perspectiva": 0.1538
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1628.json"
     },
     {
@@ -68,6 +105,14 @@
       "reading": "El manifiesto se puede leer junto a la reconstrucción biográfica del cambio de observación.",
       "relationTokens": 44,
       "fichaTokens": 583,
+      "tagWeights": {
+        "empresa": 0.2353,
+        "perspectiva": 0.7647
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-067.json"
     },
     {
@@ -79,6 +124,14 @@
       "reading": "El original desarrolla la idea del sistema mental que el diálogo permite explorar.",
       "relationTokens": 39,
       "fichaTokens": 583,
+      "tagWeights": {
+        "empresa": 0.2353,
+        "perspectiva": 0.7647
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-067.json"
     },
     {
@@ -90,6 +143,14 @@
       "reading": "La posibilidad de impugnar una norma desde fuera permite leer Nueva Perspectiva desde la posición de quien recibe las consecuencias de una institución.",
       "relationTokens": 54,
       "fichaTokens": 379,
+      "tagWeights": {
+        "autoridad": 0.5,
+        "decision": 0.5
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-296.json"
     }
   ]

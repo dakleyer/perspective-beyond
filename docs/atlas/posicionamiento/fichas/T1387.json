@@ -6,13 +6,25 @@
   "documentId": "doc-431e2eeef604eb7723",
   "sourceIds": [],
   "tagWeights": {
-    "cambio-regimen": 1.0
+    "cambio-regimen": 0.283,
+    "cartografia": 0.1321,
+    "control-minimo": 0.1321,
+    "economia": 0.1321,
+    "integridad-ia": 0.1321,
+    "perspectiva": 0.0943,
+    "transformacion": 0.0943
   },
   "clusters": [
     "tegrity"
   ],
-  "context": "## Minimalistic Regime-Aware Early Warning Systems\n\nEtiquetas: Cambios de régimen y alerta temprana 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/minimalistic-regime-aware-early-warning-systems-t1387/\nDocumento de origen: https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/\n\n",
-  "tokens": 79,
+  "context": "## Minimalistic Regime-Aware Early Warning Systems\nThis paper develops a theoretical framework for minimalistic early warning under an intentionally severe observational setting: an unknown system, one scalar observable time series, finite and possibly truncated history, no labels, no causal model, and no privileged external variables. The objective is not forecasting, but regime-change awareness: determining whether present observable behavior remains compatible with a recent observable regime and, when it does not, identifying the direction of the observable break.\n\nThe paper introduces a Sufficiently Good Early Warning System as a deliberately restricted class whose strongest guarantee is not perfect signal truth but disciplined signal-action coupling. Its defining safety ideal is Pointwise Non-Inferiority: every authorized non-neutral intervention must be no worse than inaction for every admissible state covered by the action design. This shifts the central guarantee from prediction accuracy to intervention architecture. It also addresses a structural source of Cry Wolf dynamics. False signals may still occur, and human attention costs may remain, but the utility-based incentive to ignore warnings is removed when responding to an authorized signal cannot make the operator worse off.\n\nThe theoretical contribution proceeds in stages. Leibnizian continuity of determination and sufficient representativeness make regime preservation and regime departure distinguishable within a declared observable representation. A practical threshold then induces a non-trivial partition of observable histories and a directional regime-signal functional. When the invariant, baseline, threshold comparison, contextual window, and action mapping are computable, a Bishop-style finite online construction follows. When admissible actions satisfy the declared safety condition and total operational value exceeds total cost, the resulting artifact belongs to the strong Sufficiently Good class. A formal witness is included to establish that this class is not empty, while the domain examples show that the corresponding problem family is potentially broad across financial, digital, industrial, ecological, logistical, and cybersecurity settings.\n\nThe paper’s principal change of perspective concerns the location of the hard problem. Traditional early warning focuses on the tipping point: the instant or zone at which a system changes regime. Without additional identifiability assumptions, distinct latent processes can generate the same finite observations; exact tipping-time identification is therefore not guaranteed in the paper’s minimal observation model. This paper argues that the deeper structural problem is often contextual: what must be observed, over what historical extent, at what resolution, and through which transformation for present regime identity to become decidable? A regime is a structural relation, and a structural relation requires context. The paper therefore defines a Contextual Sufficiency Boundary—informally, a tailing point —as the earliest historical boundary beyond which additional past observations are not required to preserve the regime distinctions relevant to the declared decision problem.\n\nThis reframing does not eliminate the structural difficulty; it relocates and clarifies it. A finite sufficient context may fail to exist, may exist only locally, may be finite for every individual case while remaining unbounded over the problem class, may be non-computably identifiable, or may be too expensive or too slow to acquire and process. More data is not automatically better: excessive history can mix regimes, dilute the current baseline, increase latency, and introduce irrelevant structure. Accordingly, the paper separates five questions that are often conflated: representability, finite contextual sufficiency, computable identification, action safety, and economic-operational feasibility.\nEtiquetas: Cambios de régimen y alerta temprana 28.30%; Cartografía y señales de ecosistema 13.21%; Control mínimo y suficiencia 13.21%; Economía, costes y liquidez 13.21%; Integridad y seguridad de IA 13.21%; Cambio de perspectiva 9.43%; Transformación y continuidad operativa 9.43%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/minimalistic-regime-aware-early-warning-systems-t1387/\nDocumento de origen: https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/\n\n",
+  "readingSource": {
+    "url": "https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/",
+    "section": "Abstract",
+    "observed": "2026-11-04",
+    "sourceSha256": "f2f4137b83adb4e2c90d2c53a39e50829415b8a210494e1b9d8d3ce0fa7dd96a"
+  },
+  "tokens": 798,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,7 +35,38 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 242,
+      "fichaTokens": 268,
+      "tagWeights": {
+        "agentes": 0.0111,
+        "aprendizaje": 0.0104,
+        "autoridad": 0.0306,
+        "cambio-regimen": 0.0667,
+        "cartografia": 0.0818,
+        "casos": 0.0083,
+        "control-minimo": 0.1085,
+        "decision": 0.0392,
+        "documentacion": 0.1045,
+        "economia": 0.0192,
+        "empresa": 0.1172,
+        "estandares": 0.0331,
+        "evidencia": 0.0453,
+        "experimentacion": 0.0203,
+        "integridad-ia": 0.062,
+        "matematicas": 0.0416,
+        "memoria-territorio": 0.015,
+        "movilidad": 0.0819,
+        "perspectiva": 0.0269,
+        "representacion": 0.0111,
+        "transformacion": 0.0653
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C15.json"
     },
     {
@@ -34,7 +77,36 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 223,
+      "fichaTokens": 251,
+      "tagWeights": {
+        "aprendizaje": 0.0059,
+        "autoridad": 0.0712,
+        "cambio-regimen": 0.0584,
+        "capacidad-humana": 0.0328,
+        "cartografia": 0.0302,
+        "casos": 0.0177,
+        "control-minimo": 0.0908,
+        "decision": 0.152,
+        "documentacion": 0.0733,
+        "economia": 0.0387,
+        "empresa": 0.103,
+        "estandares": 0.0245,
+        "evidencia": 0.0174,
+        "integridad-ia": 0.0239,
+        "memoria-territorio": 0.0107,
+        "movilidad": 0.0442,
+        "perspectiva": 0.0086,
+        "representacion": 0.0145,
+        "transformacion": 0.1822
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C28.json"
     },
     {
@@ -45,7 +117,23 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 20,
-      "fichaTokens": 100,
+      "fichaTokens": 141,
+      "tagWeights": {
+        "autoridad": 0.15,
+        "cambio-regimen": 0.1415,
+        "cartografia": 0.0661,
+        "control-minimo": 0.0661,
+        "decision": 0.1334,
+        "economia": 0.066,
+        "integridad-ia": 0.0994,
+        "perspectiva": 0.0471,
+        "transformacion": 0.2304
+      },
+      "clusters": [
+        "net",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C30.json"
     },
     {
@@ -56,7 +144,28 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 149,
+      "fichaTokens": 177,
+      "tagWeights": {
+        "autoridad": 0.0218,
+        "cambio-regimen": 0.2753,
+        "cartografia": 0.083,
+        "control-minimo": 0.0756,
+        "decision": 0.0217,
+        "documentacion": 0.05,
+        "economia": 0.033,
+        "empresa": 0.1296,
+        "integridad-ia": 0.1164,
+        "movilidad": 0.0521,
+        "perspectiva": 0.0236,
+        "representacion": 0.04,
+        "transformacion": 0.0779
+      },
+      "clusters": [
+        "eu",
+        "research",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C40.json"
     },
     {
@@ -67,7 +176,17 @@
       "kind": "analogy only",
       "reading": "Responsible abstention begins by declaring which operating conditions no longer justify continuing the intervention.",
       "relationTokens": 34,
-      "fichaTokens": 100,
+      "fichaTokens": 302,
+      "tagWeights": {
+        "autoridad": 0.3,
+        "decision": 0.2667,
+        "integridad-ia": 0.0667,
+        "transformacion": 0.3666
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1279.json"
     },
     {
@@ -78,7 +197,18 @@
       "kind": "candidate transfer",
       "reading": "The early-warning distinction between detection and response could clarify when an additional control helps or burdens operations.",
       "relationTokens": 46,
-      "fichaTokens": 133,
+      "fichaTokens": 290,
+      "tagWeights": {
+        "autoridad": 0.087,
+        "control-minimo": 0.1304,
+        "decision": 0.0869,
+        "empresa": 0.4783,
+        "transformacion": 0.2174
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1541.json"
     },
     {
@@ -89,7 +219,16 @@
       "kind": "analogy only",
       "reading": "A regime signal matters operationally only when its evidence, response window and authorized action are specified, not merely when another alarm layer is added.",
       "relationTokens": 52,
-      "fichaTokens": 96,
+      "fichaTokens": 241,
+      "tagWeights": {
+        "cambio-regimen": 0.4583,
+        "integridad-ia": 0.3333,
+        "movilidad": 0.2084
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T387.json"
     },
     {
@@ -101,6 +240,18 @@
       "reading": "Regime evidence becomes operationally useful only when its timing and qualification support a feasible, authorized response.",
       "relationTokens": 49,
       "fichaTokens": 221,
+      "tagWeights": {
+        "cambio-regimen": 0.36,
+        "cartografia": 0.2,
+        "control-minimo": 0.04,
+        "documentacion": 0.2,
+        "empresa": 0.04,
+        "representacion": 0.16
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH032.json"
     },
     {
@@ -111,7 +262,19 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The sufficient-detector and context-boundary problem](https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/).",
       "relationTokens": 54,
-      "fichaTokens": 117,
+      "fichaTokens": 475,
+      "tagWeights": {
+        "casos": 0.1053,
+        "control-minimo": 0.3684,
+        "decision": 0.1053,
+        "documentacion": 0.1053,
+        "evidencia": 0.2105,
+        "memoria-territorio": 0.1052
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1833.json"
     },
     {
@@ -122,7 +285,16 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [Minimalistic Regime-Aware Early Warning Systems](https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/).",
       "relationTokens": 59,
-      "fichaTokens": 96,
+      "fichaTokens": 241,
+      "tagWeights": {
+        "cambio-regimen": 0.4583,
+        "integridad-ia": 0.3333,
+        "movilidad": 0.2084
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T387.json"
     },
     {
@@ -133,7 +305,17 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The H1–H3 mathematical and empirical validation proposal](https://tegrity.ai/regime-aware-semantic-windows-mathematical-validation/).",
       "relationTokens": 67,
-      "fichaTokens": 124,
+      "fichaTokens": 263,
+      "tagWeights": {
+        "cambio-regimen": 0.2593,
+        "evidencia": 0.1481,
+        "matematicas": 0.4074,
+        "perspectiva": 0.1852
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1513.json"
     },
     {
@@ -144,7 +326,20 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The maintained early-warning working paper](https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/).",
       "relationTokens": 78,
-      "fichaTokens": 112,
+      "fichaTokens": 801,
+      "tagWeights": {
+        "cambio-regimen": 0.1321,
+        "cartografia": 0.1321,
+        "control-minimo": 0.2076,
+        "economia": 0.1321,
+        "integridad-ia": 0.2075,
+        "perspectiva": 0.0943,
+        "transformacion": 0.0943
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1379.json"
     },
     {
@@ -156,6 +351,16 @@
       "reading": "La fuente enlaza esta lectura en «Requirements for a Sufficiently Good Solution to the Ecosystem Awareness Challenge» con el rótulo «Minimalistic Regime-Aware Early Warning Systems».",
       "relationTokens": 135,
       "fichaTokens": 199,
+      "tagWeights": {
+        "cartografia": 0.3333,
+        "control-minimo": 0.5333,
+        "evidencia": 0.0667,
+        "experimentacion": 0.0667
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-4fe36815288306.json"
     },
     {
@@ -167,6 +372,18 @@
       "reading": "La fuente enlaza esta lectura en «1. Source, scope and architectural thesis» con el rótulo «Minimalistic Regime-Aware Early Warning Systems anchor working paper».",
       "relationTokens": 142,
       "fichaTokens": 221,
+      "tagWeights": {
+        "cambio-regimen": 0.36,
+        "cartografia": 0.2,
+        "control-minimo": 0.04,
+        "documentacion": 0.2,
+        "empresa": 0.04,
+        "representacion": 0.16
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH032.json"
     },
     {
@@ -178,6 +395,15 @@
       "reading": "La fuente enlaza esta lectura en «Segunda pasada — fuente, productor, consumidor y retorno» con el rótulo «página del anchor paper».",
       "relationTokens": 121,
       "fichaTokens": 165,
+      "tagWeights": {
+        "cambio-regimen": 0.4546,
+        "documentacion": 0.4545,
+        "transformacion": 0.0909
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-469c6ea2ffcfab.json"
     },
     {
@@ -189,6 +415,19 @@
       "reading": "La fuente enlaza esta lectura en «1. Why a joint profile is needed» con el rótulo «anchor paper».",
       "relationTokens": 130,
       "fichaTokens": 231,
+      "tagWeights": {
+        "cambio-regimen": 0.25,
+        "cartografia": 0.1,
+        "control-minimo": 0.25,
+        "decision": 0.05,
+        "documentacion": 0.25,
+        "economia": 0.05,
+        "experimentacion": 0.05
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH033.json"
     },
     {
@@ -200,6 +439,15 @@
       "reading": "La fuente enlaza esta lectura en «Current public corpus» con el rótulo «Minimalistic Regime-Aware Early Warning Systems».",
       "relationTokens": 108,
       "fichaTokens": 159,
+      "tagWeights": {
+        "agentes": 0.1429,
+        "cambio-regimen": 0.7143,
+        "evidencia": 0.1428
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-e81dcdb1021761.json"
     },
     {
@@ -211,6 +459,14 @@
       "reading": "La fuente enlaza esta lectura en «Main documents and their roles» con el rótulo «Minimalistic Regime-Aware Early Warning Systems — anchor article».",
       "relationTokens": 123,
       "fichaTokens": 149,
+      "tagWeights": {
+        "cambio-regimen": 0.7333,
+        "documentacion": 0.2667
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/S07.json"
     },
     {
@@ -222,6 +478,15 @@
       "reading": "Desde «Tegrity.AI», el enlace «Good Enough EWS» abre «Minimalistic Regime-Aware Early Warning Systems».",
       "relationTokens": 62,
       "fichaTokens": 129,
+      "tagWeights": {
+        "control-minimo": 0.2222,
+        "decision": 0.2222,
+        "navegacion": 0.5556
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1573.json"
     }
   ]

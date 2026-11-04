@@ -9,21 +9,24 @@
     "N1272"
   ],
   "tagWeights": {
-    "aprendizaje": 0.0667,
-    "autoridad": 0.1501,
-    "capacidad-humana": 0.0833,
-    "decision": 0.2333,
-    "economia": 0.15,
-    "memoria-territorio": 0.0833,
-    "perspectiva": 0.0667,
-    "transformacion": 0.1666
+    "aprendizaje": 0.0455,
+    "autoridad": 0.1043,
+    "capacidad-humana": 0.0589,
+    "decision": 0.1631,
+    "economia": 0.1043,
+    "estandares": 0.1136,
+    "memoria-territorio": 0.0588,
+    "movilidad": 0.147,
+    "perspectiva": 0.0454,
+    "transformacion": 0.1591
   },
   "clusters": [
     "net",
     "us"
   ],
-  "context": "## Umbral de movilización\nIdentify the observed load and conditions at which coordination intensifies.\nEtiquetas: Aprendizaje y transmisión de capacidades 6.67%; Autoridad, permisos y delegación 15.01%; Capacidad humana y deuda de inteligencia 8.33%; Decisiones y responsabilidad 23.33%; Economía, costes y liquidez 15.00%; Memoria, comunidad y territorio 8.33%; Cambio de perspectiva 6.67%; Transformación y continuidad operativa 16.66%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/mobilisation-threshold/\n\n",
-  "tokens": 130,
+  "context": "## Umbral de movilización\nIdentify the observed load and conditions at which coordination intensifies.\nEtiquetas: Aprendizaje y transmisión de capacidades 4.55%; Autoridad, permisos y delegación 10.43%; Capacidad humana y deuda de inteligencia 5.89%; Decisiones y responsabilidad 16.31%; Economía, costes y liquidez 10.43%; Estándares e interoperabilidad 11.36%; Memoria, comunidad y territorio 5.88%; Movilidad e infraestructura 14.70%; Cambio de perspectiva 4.54%; Transformación y continuidad operativa 15.91%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/mobilisation-threshold/\n\n",
+  "readingSource": null,
+  "tokens": 150,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -34,7 +37,19 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 126,
+      "fichaTokens": 260,
+      "tagWeights": {
+        "autoridad": 0.1177,
+        "capacidad-humana": 0.1177,
+        "decision": 0.2353,
+        "economia": 0.1176,
+        "memoria-territorio": 0.1176,
+        "movilidad": 0.2941
+      },
+      "clusters": [
+        "us"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1498.json"
     },
     {
@@ -45,7 +60,20 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 126,
+      "fichaTokens": 364,
+      "tagWeights": {
+        "aprendizaje": 0.0909,
+        "autoridad": 0.0909,
+        "decision": 0.0909,
+        "economia": 0.0909,
+        "estandares": 0.2273,
+        "perspectiva": 0.0909,
+        "transformacion": 0.3182
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1272.json"
     },
     {
@@ -56,7 +84,33 @@
       "kind": "candidate transfer",
       "reading": "A mobilisation threshold may inform Tiger Team activation, but accumulated load must be read together with mission focus, authority, available attention and a credible exit.",
       "relationTokens": 45,
-      "fichaTokens": 235,
+      "fichaTokens": 244,
+      "tagWeights": {
+        "aprendizaje": 0.0198,
+        "autoridad": 0.037,
+        "cambio-regimen": 0.0458,
+        "capacidad-humana": 0.124,
+        "casos": 0.0131,
+        "decision": 0.1024,
+        "documentacion": 0.0524,
+        "economia": 0.0786,
+        "empresa": 0.0873,
+        "estandares": 0.0418,
+        "evidencia": 0.0373,
+        "experimentacion": 0.0162,
+        "integridad-ia": 0.0333,
+        "memoria-territorio": 0.0394,
+        "movilidad": 0.0502,
+        "perspectiva": 0.0091,
+        "representacion": 0.0053,
+        "transformacion": 0.207
+      },
+      "clusters": [
+        "net",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C85.json"
     }
   ]

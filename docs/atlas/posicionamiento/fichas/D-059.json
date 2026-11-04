@@ -12,6 +12,7 @@
     "dialogos"
   ],
   "context": "## La experiencia que nunca se escribió\nLa experiencia de Xanath permite mirar de nuevo algo que también aparecía en las operaciones industriales: el valor del conocimiento que funciona, aunque no encaje en el inventario oficial de una organización.\n\nINTERLOCUTOR (pregunta editorial nueva) — Cuando observabas a personas que sabían reparar, enseñar o coordinar sin haber escrito un manual, ¿qué parte del sistema estabas viendo que los organigramas no mostraban?\n\nLECTURA EDITORIAL — Los procedimientos son necesarios, pero no describen todo lo que una organización sabe hacer. Hay operadores que reconocen una anomalía por experiencia; técnicos que anticipan un fallo antes de que exista una alarma; docentes que ajustan una explicación al aprendiz; artesanos que distinguen un material con una mirada o un gesto. Su conocimiento puede ser esencial y, al mismo tiempo, difícil de representar en un proceso formal.\n\nEn una conversación del 10 de junio de 2026 examinaste una inversión incómoda: a veces la documentación sigue la narrativa de la organización y no la criticidad de su funcionamiento. Un área muy visible puede estar sobredocumentada mientras una dependencia decisiva vive en la memoria de una sola persona. La lectura se refuerza con el recuerdo de GEPLAN: integrar datos y procedimientos no bastaba para integrar la capacidad operativa.\nEtiquetas: Capacidad humana y deuda de inteligencia 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-059\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=La%20experiencia%20de%20Xanath%20permite%20mirar%20de%20nuevo%20algo%20que\n\n",
+  "readingSource": null,
   "tokens": 368,
   "encoding": "o200k_base",
   "relations": [
@@ -24,6 +25,25 @@
       "reading": "",
       "relationTokens": 19,
       "fichaTokens": 189,
+      "tagWeights": {
+        "aprendizaje": 0.0835,
+        "cambio-regimen": 0.054,
+        "capacidad-humana": 0.0526,
+        "decision": 0.1203,
+        "empresa": 0.1492,
+        "espiritualidad": 0.0376,
+        "evidencia": 0.0026,
+        "geopolitica": 0.079,
+        "matematicas": 0.1393,
+        "memoria-territorio": 0.0526,
+        "perspectiva": 0.1662,
+        "representacion": 0.0105,
+        "transformacion": 0.0526
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-observe.json"
     },
     {
@@ -35,6 +55,23 @@
       "reading": "",
       "relationTokens": 18,
       "fichaTokens": 166,
+      "tagWeights": {
+        "aprendizaje": 0.0572,
+        "autoridad": 0.0363,
+        "capacidad-humana": 0.2909,
+        "decision": 0.0923,
+        "documentacion": 0.0124,
+        "economia": 0.0643,
+        "empresa": 0.109,
+        "experimentacion": 0.0162,
+        "memoria-territorio": 0.259,
+        "movilidad": 0.0117,
+        "transformacion": 0.0507
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-tacit.json"
     },
     {
@@ -46,6 +83,14 @@
       "reading": "Participar sin apropiarse del saber exige reconocer la experiencia que no quedó escrita.",
       "relationTokens": 40,
       "fichaTokens": 473,
+      "tagWeights": {
+        "decision": 0.4,
+        "memoria-territorio": 0.6
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-057.json"
     },
     {
@@ -57,6 +102,14 @@
       "reading": "Comparten el tema «Mirar lo que falta».",
       "relationTokens": 31,
       "fichaTokens": 510,
+      "tagWeights": {
+        "cambio-regimen": 0.4545,
+        "matematicas": 0.5455
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-056.json"
     },
     {
@@ -68,6 +121,14 @@
       "reading": "Comparten el tema «Mirar lo que falta».",
       "relationTokens": 34,
       "fichaTokens": 583,
+      "tagWeights": {
+        "empresa": 0.2353,
+        "perspectiva": 0.7647
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-067.json"
     },
     {
@@ -79,6 +140,14 @@
       "reading": "Comparten el tema «Conocimiento tácito».",
       "relationTokens": 30,
       "fichaTokens": 396,
+      "tagWeights": {
+        "capacidad-humana": 0.4,
+        "memoria-territorio": 0.6
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-058.json"
     },
     {
@@ -90,6 +159,14 @@
       "reading": "Comparten el tema «Conocimiento tácito».",
       "relationTokens": 28,
       "fichaTokens": 461,
+      "tagWeights": {
+        "capacidad-humana": 0.3333,
+        "empresa": 0.6667
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-060.json"
     },
     {
@@ -100,7 +177,21 @@
       "kind": "puente editorial",
       "reading": "Ambas lecturas preguntan cómo se conserva un saber que se ejerce sin quedar escrito.",
       "relationTokens": 37,
-      "fichaTokens": 153,
+      "fichaTokens": 313,
+      "tagWeights": {
+        "capacidad-humana": 0.2564,
+        "casos": 0.0513,
+        "decision": 0.1026,
+        "economia": 0.0513,
+        "empresa": 0.1282,
+        "evidencia": 0.0513,
+        "memoria-territorio": 0.1025,
+        "transformacion": 0.2564
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1287.json"
     },
     {
@@ -112,6 +203,14 @@
       "reading": "La lectura enlaza «La telenovela disputa el patrimonio; casi nadie lo produce» con «La experiencia que nunca se escribió».",
       "relationTokens": 54,
       "fichaTokens": 349,
+      "tagWeights": {
+        "economia": 0.3333,
+        "geopolitica": 0.6667
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-179.json"
     },
     {
@@ -123,6 +222,16 @@
       "reading": "La lectura enlaza «Cinco mil aplicaciones y el trabajo que evitaba la caída» con «La experiencia que nunca se escribió».",
       "relationTokens": 52,
       "fichaTokens": 367,
+      "tagWeights": {
+        "casos": 0.3125,
+        "empresa": 0.25,
+        "movilidad": 0.125,
+        "transformacion": 0.3125
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-181.json"
     },
     {
@@ -134,6 +243,14 @@
       "reading": "La lectura enlaza «Una generación construyó la infraestructura; otra recibió la interfaz» con «La experiencia que nunca se escribió».",
       "relationTokens": 52,
       "fichaTokens": 393,
+      "tagWeights": {
+        "memoria-territorio": 0.25,
+        "movilidad": 0.75
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-187.json"
     },
     {
@@ -145,6 +262,14 @@
       "reading": "La lectura enlaza «La institución existe fuera de sus oficinas» con «La experiencia que nunca se escribió». Permite contrastar Conocimiento tácito.",
       "relationTokens": 51,
       "fichaTokens": 426,
+      "tagWeights": {
+        "capacidad-humana": 0.2222,
+        "memoria-territorio": 0.7778
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-227.json"
     },
     {
@@ -156,6 +281,14 @@
       "reading": "La lectura enlaza «Una capacidad zombi sigue en el organigrama, no en la realidad» con «La experiencia que nunca se escribió».",
       "relationTokens": 58,
       "fichaTokens": 413,
+      "tagWeights": {
+        "autoridad": 0.5,
+        "memoria-territorio": 0.5
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-233.json"
     },
     {
@@ -167,6 +300,13 @@
       "reading": "La lectura enlaza «El sistema sobrevive gracias a quien se sale del mapa» con «La experiencia que nunca se escribió».",
       "relationTokens": 50,
       "fichaTokens": 411,
+      "tagWeights": {
+        "evidencia": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-236.json"
     },
     {
@@ -178,6 +318,15 @@
       "reading": "La lectura enlaza «Una palabra se copia; las relaciones entre ideas cuentan otra historia» con «La experiencia que nunca se escribió».",
       "relationTokens": 52,
       "fichaTokens": 475,
+      "tagWeights": {
+        "evidencia": 0.25,
+        "experimentacion": 0.5,
+        "perspectiva": 0.25
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-240.json"
     },
     {
@@ -189,6 +338,15 @@
       "reading": "La lectura enlaza «Custodiar un saber no es encerrarlo: hay que poder volver a hacerlo» con «La experiencia que nunca se escribió». Permite contrastar Conocimiento tácito.",
       "relationTokens": 69,
       "fichaTokens": 432,
+      "tagWeights": {
+        "capacidad-humana": 0.1667,
+        "memoria-territorio": 0.6666,
+        "transformacion": 0.1667
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-253.json"
     },
     {
@@ -200,6 +358,13 @@
       "reading": "La lectura enlaza «No prolongues mi recuerdo: investiga si lo que digo pasó» con «La experiencia que nunca se escribió».",
       "relationTokens": 54,
       "fichaTokens": 388,
+      "tagWeights": {
+        "memoria-territorio": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-260.json"
     }
   ]

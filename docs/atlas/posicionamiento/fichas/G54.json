@@ -9,21 +9,23 @@
     "GH016"
   ],
   "tagWeights": {
+    "capacidad-humana": 0.0862,
     "cartografia": 0.25,
-    "control-minimo": 0.0715,
-    "decision": 0.1072,
-    "documentacion": 0.0714,
-    "economia": 0.0714,
-    "empresa": 0.0714,
-    "evidencia": 0.1071,
+    "control-minimo": 0.0345,
+    "decision": 0.0518,
+    "documentacion": 0.069,
+    "economia": 0.1034,
+    "empresa": 0.0689,
+    "evidencia": 0.0862,
     "perspectiva": 0.25
   },
   "clusters": [
     "research",
     "tegrity"
   ],
-  "context": "## The Map and the Flow\nThe published essay examines what can be lost when a representation of work replaces the flow through which value is produced.\nEtiquetas: Cartografía y señales de ecosistema 25.00%; Control mínimo y suficiencia 7.15%; Decisiones y responsabilidad 10.72%; Investigación y documentación técnica 7.14%; Economía, costes y liquidez 7.14%; Empresa y gestión 7.14%; Evidencia, procedencia y atribución 10.71%; Cambio de perspectiva 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/the-map-and-the-flow/\n\n",
-  "tokens": 134,
+  "context": "## The Map and the Flow\nThe published essay examines what can be lost when a representation of work replaces the flow through which value is produced.\nEtiquetas: Capacidad humana y deuda de inteligencia 8.62%; Cartografía y señales de ecosistema 25.00%; Control mínimo y suficiencia 3.45%; Decisiones y responsabilidad 5.18%; Investigación y documentación técnica 6.90%; Economía, costes y liquidez 10.34%; Empresa y gestión 6.89%; Evidencia, procedencia y atribución 8.62%; Cambio de perspectiva 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/the-map-and-the-flow/\n\n",
+  "readingSource": null,
+  "tokens": 146,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -34,7 +36,20 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 18,
-      "fichaTokens": 110,
+      "fichaTokens": 280,
+      "tagWeights": {
+        "capacidad-humana": 0.1724,
+        "control-minimo": 0.069,
+        "decision": 0.1035,
+        "documentacion": 0.1379,
+        "economia": 0.2069,
+        "empresa": 0.1379,
+        "evidencia": 0.1724
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1484.json"
     },
     {
@@ -46,6 +61,14 @@
       "reading": "",
       "relationTokens": 34,
       "fichaTokens": 176,
+      "tagWeights": {
+        "cartografia": 0.5,
+        "perspectiva": 0.5
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH016.json"
     },
     {
@@ -57,6 +80,30 @@
       "reading": "",
       "relationTokens": 13,
       "fichaTokens": 230,
+      "tagWeights": {
+        "agentes": 0.027,
+        "autoridad": 0.0135,
+        "cambio-regimen": 0.0292,
+        "capacidad-humana": 0.0156,
+        "cartografia": 0.1031,
+        "casos": 0.0135,
+        "control-minimo": 0.0203,
+        "documentacion": 0.1318,
+        "economia": 0.0156,
+        "empresa": 0.0068,
+        "estandares": 0.027,
+        "evidencia": 0.2096,
+        "experimentacion": 0.0526,
+        "matematicas": 0.2548,
+        "movilidad": 0.0135,
+        "representacion": 0.0526,
+        "transformacion": 0.0135
+      },
+      "clusters": [
+        "research",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G01.json"
     },
     {
@@ -67,7 +114,33 @@
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 195,
+      "fichaTokens": 230,
+      "tagWeights": {
+        "cambio-regimen": 0.0076,
+        "capacidad-humana": 0.0646,
+        "cartografia": 0.0613,
+        "casos": 0.028,
+        "control-minimo": 0.0265,
+        "decision": 0.0709,
+        "documentacion": 0.0405,
+        "economia": 0.1322,
+        "empresa": 0.0804,
+        "evidencia": 0.1106,
+        "experimentacion": 0.1275,
+        "memoria-territorio": 0.0207,
+        "movilidad": 0.0126,
+        "perspectiva": 0.0746,
+        "representacion": 0.0126,
+        "transformacion": 0.1294
+      },
+      "clusters": [
+        "latinoempresa",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C79.json"
     }
   ]

@@ -14,6 +14,7 @@
     "dialogos"
   ],
   "context": "## Una palabra se copia; las relaciones entre ideas cuentan otra historia\nINTERLOCUTOR (pregunta editorial; no necesariamente pronunciada) — ¿Puede una obra sobrevivir a un mundo en el que cualquier palabra o etiqueta intelectual se reproduce al instante?\nREFLEXIÓN DEL DIÁLOGO (reconstrucción/síntesis; no cita literal) — Iván discutía la tentación de ganar una posición intelectual mediante una sola expresión «canónica». En un mundo donde los modelos de lenguaje replican fórmulas, definiciones y artículos a gran velocidad, una etiqueta aislada puede volver indistinguibles a quienes han trabajado durante años y a quienes solo repiten el vocabulario. Su propuesta fue buscar un grafo de dos, tres o más conceptos que se refuercen y limiten entre sí: una estructura de relaciones, casos, condiciones de aplicación, errores y trayectorias, no un eslogan inmune al contexto.\n\nLa diferencia se vuelve visible cuando el mapa conserva procedencia. Una idea que parece abstracta puede regresar a un proyecto de campo, una decisión que fracasó, un oficio transmitido, un modelo matemático con pruebas pendientes o una conversación donde hubo que cambiar de opinión. No se trata de afirmar que la historia de una persona no pueda copiarse como texto. Se trata de que su sentido depende de una red de evidencias y experiencias que el lector puede recorrer y discutir.\n\nAquí el atlas encuentra su propia crítica. Si las fichas solo acumulan frases bonitas, el mapa se convierte en otro catálogo de etiquetas. Si registra relaciones explicativas, objeciones, contextos y accesos al pensamiento original, puede conservar algo más difícil de falsificar: no la exclusividad de las palabras, sino la trazabilidad del razonamiento. La supuesta «irreplicabilidad» del grafo es una aspiración, no un monopolio garantizado.\nEtiquetas: Evidencia, procedencia y atribución 25.00%; Experimentación, falsación y contraejemplos 50.00%; Cambio de perspectiva 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-240\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-240.html\n\n",
+  "readingSource": null,
   "tokens": 475,
   "encoding": "o200k_base",
   "relations": [
@@ -26,6 +27,25 @@
       "reading": "",
       "relationTokens": 24,
       "fichaTokens": 190,
+      "tagWeights": {
+        "aprendizaje": 0.117,
+        "cambio-regimen": 0.019,
+        "control-minimo": 0.0111,
+        "decision": 0.057,
+        "economia": 0.0167,
+        "empresa": 0.1111,
+        "evidencia": 0.0167,
+        "experimentacion": 0.0167,
+        "geopolitica": 0.0333,
+        "memoria-territorio": 0.0322,
+        "movilidad": 0.0214,
+        "perspectiva": 0.4845,
+        "transformacion": 0.0633
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-perspective.json"
     },
     {
@@ -37,6 +57,25 @@
       "reading": "",
       "relationTokens": 30,
       "fichaTokens": 204,
+      "tagWeights": {
+        "aprendizaje": 0.0299,
+        "capacidad-humana": 0.0091,
+        "decision": 0.1539,
+        "documentacion": 0.0181,
+        "economia": 0.2051,
+        "empresa": 0.1068,
+        "evidencia": 0.0192,
+        "experimentacion": 0.1154,
+        "geopolitica": 0.0897,
+        "integridad-ia": 0.0385,
+        "memoria-territorio": 0.1395,
+        "perspectiva": 0.0449,
+        "transformacion": 0.0299
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-culture.json"
     },
     {
@@ -48,6 +87,23 @@
       "reading": "",
       "relationTokens": 29,
       "fichaTokens": 181,
+      "tagWeights": {
+        "aprendizaje": 0.0229,
+        "decision": 0.0625,
+        "economia": 0.0417,
+        "empresa": 0.1063,
+        "evidencia": 0.2673,
+        "experimentacion": 0.0625,
+        "matematicas": 0.0125,
+        "memoria-territorio": 0.2472,
+        "perspectiva": 0.0625,
+        "representacion": 0.025,
+        "transformacion": 0.0896
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-semantic_graph.json"
     },
     {
@@ -59,6 +115,13 @@
       "reading": "La lectura enlaza «Una palabra se copia; las relaciones entre ideas cuentan otra historia» con «La experiencia que nunca se escribió».",
       "relationTokens": 52,
       "fichaTokens": 368,
+      "tagWeights": {
+        "capacidad-humana": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-059.json"
     },
     {
@@ -70,6 +133,15 @@
       "reading": "La lectura enlaza «Una palabra se copia; las relaciones entre ideas cuentan otra historia» con «La autoría no equivale al trabajo de uno solo».",
       "relationTokens": 62,
       "fichaTokens": 434,
+      "tagWeights": {
+        "aprendizaje": 0.3636,
+        "decision": 0.1818,
+        "transformacion": 0.4546
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-071.json"
     },
     {
@@ -81,6 +153,14 @@
       "reading": "La lectura enlaza «Una palabra se copia; las relaciones entre ideas cuentan otra historia» con «Conservar una línea de pensamiento sin imponerla». Permite contrastar Nueva Perspectiva.",
       "relationTokens": 67,
       "fichaTokens": 671,
+      "tagWeights": {
+        "perspectiva": 0.5,
+        "transformacion": 0.5
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-081.json"
     },
     {
@@ -92,6 +172,14 @@
       "reading": "La lectura enlaza «Una palabra se copia; las relaciones entre ideas cuentan otra historia» con «La protocultura sucede antes de que una idea sea institución». Permite contrastar Nueva Perspectiva, Protocultura, autoría y conocimiento emergente.",
       "relationTokens": 82,
       "fichaTokens": 311,
+      "tagWeights": {
+        "memoria-territorio": 0.6667,
+        "perspectiva": 0.3333
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-157.json"
     },
     {
@@ -103,6 +191,13 @@
       "reading": "La lectura enlaza «Una palabra se copia; las relaciones entre ideas cuentan otra historia» con «Si un diálogo nunca cede nada, quizá es un sermón».",
       "relationTokens": 66,
       "fichaTokens": 419,
+      "tagWeights": {
+        "aprendizaje": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-220.json"
     },
     {
@@ -114,6 +209,15 @@
       "reading": "La lectura enlaza «La nueva Babel puede funcionar demasiado bien antes de dejar de ser fiable» con «Una palabra se copia; las relaciones entre ideas cuentan otra historia». Permite contrastar Conocimiento como red de relaciones y procedencia.",
       "relationTokens": 80,
       "fichaTokens": 449,
+      "tagWeights": {
+        "economia": 0.3334,
+        "evidencia": 0.3333,
+        "transformacion": 0.3333
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-247.json"
     },
     {
@@ -125,6 +229,16 @@
       "reading": "La lectura enlaza «Una memoria en estrella puede perder su centro sin dejar de funcionar» con «Una palabra se copia; las relaciones entre ideas cuentan otra historia». Permite contrastar Conocimiento como red de relaciones y procedencia.",
       "relationTokens": 78,
       "fichaTokens": 441,
+      "tagWeights": {
+        "aprendizaje": 0.1334,
+        "evidencia": 0.1333,
+        "memoria-territorio": 0.6,
+        "transformacion": 0.1333
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-249.json"
     },
     {
@@ -136,6 +250,15 @@
       "reading": "La lectura enlaza «Una constelación de pensamiento contiene clusters conectados, no departamentos cerrados» con «Una palabra se copia; las relaciones entre ideas cuentan otra historia». Permite contrastar Conocimiento como red de relaciones y procedencia, Nueva Perspectiva.",
       "relationTokens": 89,
       "fichaTokens": 405,
+      "tagWeights": {
+        "empresa": 0.5,
+        "evidencia": 0.25,
+        "perspectiva": 0.25
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-267.json"
     },
     {
@@ -147,6 +270,14 @@
       "reading": "La lectura enlaza «Un bot que interpreta mi pensamiento debe saber regresar al archivo original» con «Una palabra se copia; las relaciones entre ideas cuentan otra historia». Permite contrastar Conocimiento como red de relaciones y procedencia.",
       "relationTokens": 78,
       "fichaTokens": 393,
+      "tagWeights": {
+        "evidencia": 0.2222,
+        "memoria-territorio": 0.7778
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-268.json"
     },
     {
@@ -158,6 +289,13 @@
       "reading": "La lectura enlaza «Una nueva perspectiva conserva los datos y cambia sus relaciones» con «Una palabra se copia; las relaciones entre ideas cuentan otra historia». Permite contrastar Nueva Perspectiva.",
       "relationTokens": 69,
       "fichaTokens": 378,
+      "tagWeights": {
+        "perspectiva": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-272.json"
     },
     {
@@ -169,6 +307,14 @@
       "reading": "La lectura enlaza «Una serie rigurosa deja examinar cada eslabón por separado» con «Una palabra se copia; las relaciones entre ideas cuentan otra historia». Permite contrastar Conocimiento como red de relaciones y procedencia.",
       "relationTokens": 80,
       "fichaTokens": 419,
+      "tagWeights": {
+        "evidencia": 0.4,
+        "memoria-territorio": 0.6
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-283.json"
     },
     {
@@ -180,6 +326,18 @@
       "reading": "La lectura enlaza «Un arquitecto no puede saber toda la jerga de todos los oficios» con «Una palabra se copia; las relaciones entre ideas cuentan otra historia». Permite contrastar Conocimiento como red de relaciones y procedencia.",
       "relationTokens": 84,
       "fichaTokens": 439,
+      "tagWeights": {
+        "aprendizaje": 0.05,
+        "empresa": 0.35,
+        "evidencia": 0.05,
+        "matematicas": 0.1,
+        "representacion": 0.2,
+        "transformacion": 0.25
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-285.json"
     },
     {
@@ -191,6 +349,14 @@
       "reading": "La lectura enlaza «La inteligencia artificial también puede ser una máquina de escribir» con «Una palabra se copia; las relaciones entre ideas cuentan otra historia». Permite contrastar Conocimiento como red de relaciones y procedencia.",
       "relationTokens": 74,
       "fichaTokens": 377,
+      "tagWeights": {
+        "decision": 0.5,
+        "evidencia": 0.5
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-291.json"
     }
   ]

@@ -6,13 +6,21 @@
   "documentId": "doc-435600d93d6230a73f",
   "sourceIds": [],
   "tagWeights": {
-    "control-minimo": 1.0
+    "control-minimo": 0.0769,
+    "empresa": 0.3846,
+    "estandares": 0.5385
   },
   "clusters": [
     "tegrity"
   ],
-  "context": "## Summary — When the Controls Work but the System Fails\n\nEtiquetas: Control mínimo y suficiencia 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/summary-when-the-controls-work-but-the-system-fails-t2931/\nDocumento de origen: https://tegrity.ai/when-the-controls-work-but-the-system-fails-summary/\n\n",
-  "tokens": 79,
+  "context": "## Summary — When the Controls Work but the System Fails\nThis summary is based on the public-facing article written by Iv án Abril Palma, which explains the foundations and gives a full account of the work. Full article: a public-facing explanation of the foundations\n\nThe contribution-and-limits appendix identifies what the current artifacts establish. For each system-level statement, locate the supporting object and the condition a test could challenge. A concise explanation should preserve the distinction between a proposed mechanism, a constructed scenario and an outcome independently reproduced.\n\nInstitutional context. The ITU-T Focus Group on Trust and Identity for Humans and Agentic AI (FG-TIDA) was announced by the International Telecommunication Union at the AI for Good Global Summit on 9 July 2026 and reports to ITU-T Study Group 17. The Integral Management Society contributes to this open pre-standardization work. Ecosystem Awareness is our association’s independently developed contribution to that wider field; publication here does not imply endorsement by ITU, AI for Good or FG-TIDA.\n\nOur association, The Integral Management Society, is contributing six anti-goals as a model to the open work of FG-TIDA, an ITU-T focus group: what must a system preserve to avoid global failures even when its local controls keep working?\n\nA multinational automates its work with AI: it consumes 100 million tokens and creates an enormous burden of human supervision. In the end, no substantive work is completed and no useful new information is produced.\nEtiquetas: Control mínimo y suficiencia 7.69%; Empresa y gestión 38.46%; Estándares e interoperabilidad 53.85%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/summary-when-the-controls-work-but-the-system-fails-t2931/\nDocumento de origen: https://tegrity.ai/when-the-controls-work-but-the-system-fails-summary/\n\n",
+  "readingSource": {
+    "url": "https://tegrity.ai/when-the-controls-work-but-the-system-fails-summary/",
+    "section": "Opening paragraphs",
+    "observed": "2026-11-04",
+    "sourceSha256": "1521e92fc1842cc89c657b2311d83aeac98660936ce794be3e3fe701955fb7b9"
+  },
+  "tokens": 385,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,7 +31,16 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [A concise summary of the Ecosystem Awareness case](https://tegrity.ai/when-the-controls-work-but-the-system-fails-summary/).",
       "relationTokens": 60,
-      "fichaTokens": 87,
+      "fichaTokens": 182,
+      "tagWeights": {
+        "cartografia": 0.3077,
+        "documentacion": 0.5385,
+        "integridad-ia": 0.1538
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2776.json"
     },
     {
@@ -34,7 +51,16 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The full foundation article](https://tegrity.ai/when-the-controls-work-but-the-system-fails/).",
       "relationTokens": 54,
-      "fichaTokens": 87,
+      "fichaTokens": 182,
+      "tagWeights": {
+        "cartografia": 0.3077,
+        "documentacion": 0.5385,
+        "integridad-ia": 0.1538
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2776.json"
     }
   ]

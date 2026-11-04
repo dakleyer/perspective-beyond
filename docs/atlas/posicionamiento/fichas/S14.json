@@ -12,6 +12,7 @@
     "imsv"
   ],
   "context": "## The Integral Management Society\nUna sociedad científica dedicada a comprender la complejidad, preservar las capacidades esenciales y abrir nuevas posibilidades de adaptación.\nEtiquetas: Empresa y gestión 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/the-integral-management-society-s14/\nDocumento de origen: https://integralmanagement.ch/\n\n",
+  "readingSource": null,
   "tokens": 76,
   "encoding": "o200k_base",
   "relations": [
@@ -24,6 +25,16 @@
       "reading": "",
       "relationTokens": 14,
       "fichaTokens": 75,
+      "tagWeights": {
+        "documentacion": 0.25,
+        "empresa": 0.5,
+        "evidencia": 0.25
+      },
+      "clusters": [
+        "imsv",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G32.json"
     },
     {
@@ -35,6 +46,15 @@
       "reading": "Desde «Tegrity.AI», el enlace «The Integral Management Society» abre «The Integral Management Society».",
       "relationTokens": 52,
       "fichaTokens": 129,
+      "tagWeights": {
+        "control-minimo": 0.2222,
+        "decision": 0.2222,
+        "navegacion": 0.5556
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1573.json"
     },
     {
@@ -46,6 +66,13 @@
       "reading": "Desde «The Integral Management Society», el enlace «programa» abre «Research Initiatives».",
       "relationTokens": 47,
       "fichaTokens": 57,
+      "tagWeights": {
+        "documentacion": 1.0
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1709.json"
     },
     {
@@ -57,6 +84,13 @@
       "reading": "Desde «The Integral Management Society», el enlace «FG-TIDA, grupo de la UIT-T sobre confianza e identidad» abre «ITU Focus Groups y contexto institucional».",
       "relationTokens": 65,
       "fichaTokens": 77,
+      "tagWeights": {
+        "estandares": 1.0
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/S11.json"
     },
     {
@@ -68,6 +102,13 @@
       "reading": "Desde «The Integral Management Society», el enlace «Perspective Beyond  →» abre «Perspective Beyond: cuándo queda corto un marco».",
       "relationTokens": 59,
       "fichaTokens": 105,
+      "tagWeights": {
+        "perspectiva": 1.0
+      },
+      "clusters": [
+        "imsv"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-mas-alla.json"
     },
     {
@@ -79,6 +120,14 @@
       "reading": "Desde «The Integral Management Society», el enlace «Explorar Nueva Perspectiva: del manifiesto a la práctica  →» abre «Del manifiesto a la práctica».",
       "relationTokens": 66,
       "fichaTokens": 108,
+      "tagWeights": {
+        "aprendizaje": 0.8,
+        "perspectiva": 0.2
+      },
+      "clusters": [
+        "imsv"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-entrada.json"
     },
     {
@@ -90,6 +139,15 @@
       "reading": "Desde «The Integral Management Society», el enlace «Tegrity.AI» abre «Tegrity.AI».",
       "relationTokens": 54,
       "fichaTokens": 129,
+      "tagWeights": {
+        "control-minimo": 0.2222,
+        "decision": 0.2222,
+        "navegacion": 0.5556
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1573.json"
     }
   ]

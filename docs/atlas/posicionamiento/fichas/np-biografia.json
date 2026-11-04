@@ -14,6 +14,7 @@
     "totonacapan"
   ],
   "context": "## Biografía: una trayectoria en diálogo\nLa biografía reúne episodios de aprendizaje, organización y trabajo comunitario. Sus conversaciones ofrecen una escala personal para leer cuándo una experiencia hace cambiar la pregunta que guía una práctica.\nEtiquetas: Aprendizaje y transmisión de capacidades 25.00%; Empresa y gestión 25.00%; Memoria, comunidad y territorio 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-biografia\nDocumento de origen: https://totonacapan.com/?page_id=413\n\n",
+  "readingSource": null,
   "tokens": 119,
   "encoding": "o200k_base",
   "relations": [
@@ -26,6 +27,13 @@
       "reading": "La trayectoria lleva a un caso en que el saber está ligado al lugar y a quienes lo practican.",
       "relationTokens": 40,
       "fichaTokens": 104,
+      "tagWeights": {
+        "memoria-territorio": 1.0
+      },
+      "clusters": [
+        "totonacapan"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-xanath.json"
     },
     {
@@ -37,6 +45,14 @@
       "reading": "La biografía abre el contexto personal y territorial de la experiencia, a partir de su edición pública.",
       "relationTokens": 45,
       "fichaTokens": 128,
+      "tagWeights": {
+        "experimentacion": 0.4444,
+        "memoria-territorio": 0.5556
+      },
+      "clusters": [
+        "imsv"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-sierra.json"
     },
     {
@@ -48,6 +64,14 @@
       "reading": "La serie desarrolla la pregunta por el cambio de perspectiva a partir de las experiencias en la sierra.",
       "relationTokens": 46,
       "fichaTokens": 128,
+      "tagWeights": {
+        "experimentacion": 0.4444,
+        "memoria-territorio": 0.5556
+      },
+      "clusters": [
+        "imsv"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-sierra.json"
     },
     {
@@ -59,6 +83,15 @@
       "reading": "La ficha de trayectoria lleva al pasaje de entrada y a sus conexiones con otros episodios.",
       "relationTokens": 42,
       "fichaTokens": 470,
+      "tagWeights": {
+        "geopolitica": 0.2857,
+        "memoria-territorio": 0.4286,
+        "transformacion": 0.2857
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-001.json"
     },
     {
@@ -70,6 +103,15 @@
       "reading": "La ficha de trayectoria sitúa el prólogo dentro del recorrido territorial e institucional.",
       "relationTokens": 39,
       "fichaTokens": 470,
+      "tagWeights": {
+        "geopolitica": 0.2857,
+        "memoria-territorio": 0.4286,
+        "transformacion": 0.2857
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-001.json"
     },
     {
@@ -81,6 +123,15 @@
       "reading": "Las referencias sensoriales del territorio amplían la lectura de la biografía hacia los oficios, intercambios y prácticas que sostienen la memoria local.",
       "relationTokens": 60,
       "fichaTokens": 435,
+      "tagWeights": {
+        "capacidad-humana": 0.1176,
+        "documentacion": 0.2353,
+        "memoria-territorio": 0.6471
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-252.json"
     },
     {
@@ -92,6 +143,15 @@
       "reading": "Desde «Biografía: una trayectoria en diálogo», el enlace «https://github.com/dakleyer/structural-awareness-contributions» abre «Repositorio principal y contribuciones matemáticas».",
       "relationTokens": 81,
       "fichaTokens": 93,
+      "tagWeights": {
+        "documentacion": 0.1818,
+        "evidencia": 0.2727,
+        "matematicas": 0.5455
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/S09.json"
     }
   ]

@@ -14,6 +14,7 @@
     "dialogos"
   ],
   "context": "## La responsabilidad humana en la optimización\nINTERLOCUTOR (pregunta editorial nueva) — ¿Dónde termina aquí la optimización matemática y empieza la responsabilidad humana?\n\nLECTURA EDITORIAL — El sistema podía ayudar a explorar muchas configuraciones, pero no decidir por sí mismo qué sacrificios operativos resultaban aceptables. Una persona debía interpretar el contexto, elegir prioridades y responder de sus consecuencias. Después, la ejecución devolvía información nueva: reservas corregidas, vehículos disponibles, hojas de ruta, incidencias y otros datos de campo. Había que volver a planificar sin fingir que el mundo seguía en el estado de la primera simulación.\n\nEl trabajo está bien descrito como planificación multiobjetivo basada en escenarios con asignación heurística y compromisos orientados a Pareto. La documentación técnica permite rastrear los mecanismos de comparación y puntuación; no autoriza afirmar que en cada ejecución se calculó exhaustivamente una frontera matemática de Pareto ni atribuir una ventaja cuántica demostrada.\n\nINTERLOCUTOR (pregunta editorial nueva) — ¿Qué conecta esta forma de construir con las preguntas que hoy formulas sobre sistemas y agentes autónomos?\n\nLECTURA EDITORIAL — En GEPLAN la transformación requería unir procesos antes fragmentados. En xSeil, la decisión requería conservar alternativas y conocer las condiciones de ejecución. En las investigaciones posteriores aparece otra pregunta: cuándo una solución razonable deja de serlo porque ha cambiado el contexto que le daba validez. Son trabajos distintos, con evidencia y tecnologías propias; el hilo no es que uno contuviera ya al siguiente, sino la atención cada vez mayor a los límites de una decisión automatizada y a las capacidades humanas que la gobiernan.\nEtiquetas: Casos de uso y aplicaciones 12.50%; Decisiones y responsabilidad 62.50%; Matemáticas 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-053\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20(pregunta%20editorial%20nueva)%20%E2%80%94%20%C2%BFD%C3%B3nde%20termina%20aqu%C3%AD%20la%20optimizaci%C3%B3n%20matem%C3%A1tica\n\n",
+  "readingSource": null,
   "tokens": 492,
   "encoding": "o200k_base",
   "relations": [
@@ -26,6 +27,24 @@
       "reading": "",
       "relationTokens": 19,
       "fichaTokens": 169,
+      "tagWeights": {
+        "aprendizaje": 0.0486,
+        "autoridad": 0.0059,
+        "casos": 0.2265,
+        "control-minimo": 0.0253,
+        "decision": 0.3175,
+        "economia": 0.0862,
+        "empresa": 0.0741,
+        "estandares": 0.0222,
+        "geopolitica": 0.0111,
+        "matematicas": 0.0615,
+        "movilidad": 0.0904,
+        "transformacion": 0.0307
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-decision.json"
     },
     {
@@ -37,6 +56,27 @@
       "reading": "",
       "relationTokens": 18,
       "fichaTokens": 208,
+      "tagWeights": {
+        "aprendizaje": 0.0939,
+        "autoridad": 0.0359,
+        "capacidad-humana": 0.0248,
+        "casos": 0.0239,
+        "decision": 0.4177,
+        "economia": 0.0414,
+        "empresa": 0.0205,
+        "espiritualidad": 0.0152,
+        "experimentacion": 0.005,
+        "geopolitica": 0.0917,
+        "integridad-ia": 0.0446,
+        "matematicas": 0.0131,
+        "memoria-territorio": 0.1218,
+        "perspectiva": 0.0152,
+        "transformacion": 0.0353
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-care.json"
     },
     {
@@ -48,6 +88,16 @@
       "reading": "Mostrar escenarios hace visible dónde permanece la responsabilidad por la decisión.",
       "relationTokens": 35,
       "fichaTokens": 546,
+      "tagWeights": {
+        "casos": 0.1429,
+        "decision": 0.1429,
+        "matematicas": 0.1428,
+        "movilidad": 0.5714
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-052.json"
     },
     {
@@ -59,6 +109,15 @@
       "reading": "Comparten el tema «Decisiones entre escenarios».",
       "relationTokens": 28,
       "fichaTokens": 447,
+      "tagWeights": {
+        "casos": 0.1177,
+        "decision": 0.5882,
+        "economia": 0.2941
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-064.json"
     },
     {
@@ -70,6 +129,15 @@
       "reading": "Comparten el tema «Responsabilidad humana».",
       "relationTokens": 29,
       "fichaTokens": 586,
+      "tagWeights": {
+        "decision": 0.1177,
+        "empresa": 0.2941,
+        "memoria-territorio": 0.5882
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-045.json"
     },
     {
@@ -81,6 +149,14 @@
       "reading": "Comparten el tema «Responsabilidad humana».",
       "relationTokens": 33,
       "fichaTokens": 473,
+      "tagWeights": {
+        "decision": 0.4,
+        "memoria-territorio": 0.6
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-057.json"
     },
     {
@@ -92,6 +168,15 @@
       "reading": "La lectura enlaza «El valor de elegir entre escenarios casi eficientes» con «La responsabilidad humana en la optimización». Permite contrastar Decisiones entre escenarios, Responsabilidad humana.",
       "relationTokens": 59,
       "fichaTokens": 350,
+      "tagWeights": {
+        "casos": 0.5455,
+        "decision": 0.2727,
+        "matematicas": 0.1818
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-110.json"
     }
   ]

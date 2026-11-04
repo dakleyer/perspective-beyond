@@ -9,20 +9,24 @@
     "N1801"
   ],
   "tagWeights": {
-    "autoridad": 0.0833,
-    "capacidad-humana": 0.0833,
-    "decision": 0.1667,
-    "economia": 0.0833,
-    "memoria-territorio": 0.0833,
-    "movilidad": 0.3572,
-    "representacion": 0.1429
+    "autoridad": 0.0589,
+    "capacidad-humana": 0.0589,
+    "decision": 0.1177,
+    "economia": 0.1442,
+    "empresa": 0.0853,
+    "evidencia": 0.0853,
+    "memoria-territorio": 0.0588,
+    "movilidad": 0.2812,
+    "representacion": 0.0244,
+    "transformacion": 0.0853
   },
   "clusters": [
     "net",
     "us"
   ],
-  "context": "## Cadencia de coordinación por lotes\nGroup decisions to make coordination worthwhile within urgency and risk limits.\nEtiquetas: Autoridad, permisos y delegación 8.33%; Capacidad humana y deuda de inteligencia 8.33%; Decisiones y responsabilidad 16.67%; Economía, costes y liquidez 8.33%; Memoria, comunidad y territorio 8.33%; Movilidad e infraestructura 35.72%; Representación y límites formales 14.29%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/batched-coordination-cadence/\n\n",
-  "tokens": 123,
+  "context": "## Cadencia de coordinación por lotes\nGroup decisions to make coordination worthwhile within urgency and risk limits.\nEtiquetas: Autoridad, permisos y delegación 5.89%; Capacidad humana y deuda de inteligencia 5.89%; Decisiones y responsabilidad 11.77%; Economía, costes y liquidez 14.42%; Empresa y gestión 8.53%; Evidencia, procedencia y atribución 8.53%; Memoria, comunidad y territorio 5.88%; Movilidad e infraestructura 28.12%; Representación y límites formales 2.44%; Transformación y continuidad operativa 8.53%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/batched-coordination-cadence/\n\n",
+  "readingSource": null,
+  "tokens": 155,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -33,7 +37,19 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 126,
+      "fichaTokens": 260,
+      "tagWeights": {
+        "autoridad": 0.1177,
+        "capacidad-humana": 0.1177,
+        "decision": 0.2353,
+        "economia": 0.1176,
+        "memoria-territorio": 0.1176,
+        "movilidad": 0.2941
+      },
+      "clusters": [
+        "us"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1498.json"
     },
     {
@@ -44,7 +60,19 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 78,
+      "fichaTokens": 690,
+      "tagWeights": {
+        "economia": 0.1708,
+        "empresa": 0.1707,
+        "evidencia": 0.1707,
+        "movilidad": 0.2683,
+        "representacion": 0.0488,
+        "transformacion": 0.1707
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1801.json"
     },
     {
@@ -56,6 +84,35 @@
       "reading": "Batch coordination and operational buffers can be compared as ways of timing a coupled intervention, provided urgent obligations and response windows remain explicit.",
       "relationTokens": 42,
       "fichaTokens": 250,
+      "tagWeights": {
+        "agentes": 0.1306,
+        "aprendizaje": 0.003,
+        "autoridad": 0.0356,
+        "cambio-regimen": 0.022,
+        "capacidad-humana": 0.0207,
+        "cartografia": 0.0884,
+        "casos": 0.0258,
+        "control-minimo": 0.081,
+        "decision": 0.0617,
+        "documentacion": 0.0791,
+        "economia": 0.0867,
+        "empresa": 0.0445,
+        "evidencia": 0.0425,
+        "experimentacion": 0.0143,
+        "memoria-territorio": 0.0168,
+        "movilidad": 0.1657,
+        "mundo-abierto": 0.0183,
+        "representacion": 0.0124,
+        "transformacion": 0.0509
+      },
+      "clusters": [
+        "mobility",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C44.json"
     }
   ]

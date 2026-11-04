@@ -29,6 +29,7 @@
     "dialogos"
   ],
   "context": "## Riesgo, seguridad y evitación\nDiferenciar riesgo graduado, confianza subjetiva, comprobación y evitación de incertidumbre.\nEtiquetas: Decisiones y responsabilidad 18.43%; Economía, costes y liquidez 7.58%; Evidencia, procedencia y atribución 6.06%; Geopolítica y fronteras 7.57%; Integridad y seguridad de IA 55.81%; Memoria, comunidad y territorio 4.55%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-risk\n\n",
+  "readingSource": null,
   "tokens": 121,
   "encoding": "o200k_base",
   "relations": [
@@ -41,6 +42,14 @@
       "reading": "",
       "relationTokens": 25,
       "fichaTokens": 308,
+      "tagWeights": {
+        "decision": 0.25,
+        "integridad-ia": 0.75
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-142.json"
     },
     {
@@ -52,6 +61,14 @@
       "reading": "",
       "relationTokens": 32,
       "fichaTokens": 312,
+      "tagWeights": {
+        "decision": 0.5,
+        "integridad-ia": 0.5
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-143.json"
     },
     {
@@ -63,6 +80,14 @@
       "reading": "",
       "relationTokens": 24,
       "fichaTokens": 293,
+      "tagWeights": {
+        "decision": 0.7778,
+        "integridad-ia": 0.2222
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-144.json"
     },
     {
@@ -74,6 +99,14 @@
       "reading": "",
       "relationTokens": 29,
       "fichaTokens": 311,
+      "tagWeights": {
+        "decision": 0.5,
+        "integridad-ia": 0.5
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-145.json"
     },
     {
@@ -85,6 +118,14 @@
       "reading": "",
       "relationTokens": 29,
       "fichaTokens": 304,
+      "tagWeights": {
+        "economia": 0.5,
+        "integridad-ia": 0.5
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-151.json"
     },
     {
@@ -96,6 +137,14 @@
       "reading": "",
       "relationTokens": 26,
       "fichaTokens": 443,
+      "tagWeights": {
+        "geopolitica": 0.5,
+        "integridad-ia": 0.5
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-209.json"
     },
     {
@@ -107,6 +156,15 @@
       "reading": "",
       "relationTokens": 31,
       "fichaTokens": 410,
+      "tagWeights": {
+        "economia": 0.3334,
+        "geopolitica": 0.3333,
+        "integridad-ia": 0.3333
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-212.json"
     },
     {
@@ -118,6 +176,13 @@
       "reading": "",
       "relationTokens": 26,
       "fichaTokens": 401,
+      "tagWeights": {
+        "integridad-ia": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-213.json"
     },
     {
@@ -129,6 +194,13 @@
       "reading": "",
       "relationTokens": 27,
       "fichaTokens": 416,
+      "tagWeights": {
+        "integridad-ia": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-218.json"
     },
     {
@@ -140,6 +212,14 @@
       "reading": "",
       "relationTokens": 23,
       "fichaTokens": 430,
+      "tagWeights": {
+        "evidencia": 0.6667,
+        "integridad-ia": 0.3333
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-229.json"
     },
     {
@@ -151,6 +231,14 @@
       "reading": "",
       "relationTokens": 29,
       "fichaTokens": 396,
+      "tagWeights": {
+        "integridad-ia": 0.5,
+        "memoria-territorio": 0.5
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-234.json"
     },
     {
@@ -162,6 +250,27 @@
       "reading": "Proteger a otros exige comparar riesgos y consecuencias.",
       "relationTokens": 26,
       "fichaTokens": 208,
+      "tagWeights": {
+        "aprendizaje": 0.0939,
+        "autoridad": 0.0359,
+        "capacidad-humana": 0.0248,
+        "casos": 0.0239,
+        "decision": 0.4177,
+        "economia": 0.0414,
+        "empresa": 0.0205,
+        "espiritualidad": 0.0152,
+        "experimentacion": 0.005,
+        "geopolitica": 0.0917,
+        "integridad-ia": 0.0446,
+        "matematicas": 0.0131,
+        "memoria-territorio": 0.1218,
+        "perspectiva": 0.0152,
+        "transformacion": 0.0353
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-care.json"
     },
     {
@@ -173,6 +282,31 @@
       "reading": "La seguridad subjetiva no prueba que el peligro desapareciera.",
       "relationTokens": 39,
       "fichaTokens": 258,
+      "tagWeights": {
+        "aprendizaje": 0.2354,
+        "autoridad": 0.0588,
+        "casos": 0.0162,
+        "control-minimo": 0.0103,
+        "decision": 0.157,
+        "documentacion": 0.0114,
+        "economia": 0.0507,
+        "empresa": 0.0151,
+        "espiritualidad": 0.025,
+        "estandares": 0.0142,
+        "evidencia": 0.0076,
+        "experimentacion": 0.0418,
+        "geopolitica": 0.0057,
+        "integridad-ia": 0.0284,
+        "matematicas": 0.169,
+        "memoria-territorio": 0.0227,
+        "mundo-abierto": 0.0057,
+        "perspectiva": 0.1023,
+        "transformacion": 0.0227
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-doubt.json"
     },
     {
@@ -184,6 +318,30 @@
       "reading": "Una norma de protección no es garantía física.",
       "relationTokens": 28,
       "fichaTokens": 254,
+      "tagWeights": {
+        "aprendizaje": 0.034,
+        "autoridad": 0.4256,
+        "capacidad-humana": 0.0104,
+        "casos": 0.0027,
+        "decision": 0.1415,
+        "documentacion": 0.0128,
+        "economia": 0.0465,
+        "empresa": 0.053,
+        "espiritualidad": 0.0099,
+        "estandares": 0.0467,
+        "evidencia": 0.0256,
+        "experimentacion": 0.0128,
+        "geopolitica": 0.0262,
+        "matematicas": 0.0064,
+        "memoria-territorio": 0.0945,
+        "movilidad": 0.0051,
+        "representacion": 0.0143,
+        "transformacion": 0.032
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-governance.json"
     },
     {
@@ -195,6 +353,18 @@
       "reading": "La responsabilidad se evalúa según previsibilidad y alternativas.",
       "relationTokens": 30,
       "fichaTokens": 112,
+      "tagWeights": {
+        "aprendizaje": 0.0833,
+        "autoridad": 0.2436,
+        "decision": 0.5426,
+        "economia": 0.025,
+        "integridad-ia": 0.0722,
+        "perspectiva": 0.0333
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-account.json"
     },
     {
@@ -206,6 +376,16 @@
       "reading": "La tecnología propia puede alterar el orden que la hizo posible.",
       "relationTokens": 37,
       "fichaTokens": 117,
+      "tagWeights": {
+        "autoridad": 0.25,
+        "economia": 0.0834,
+        "geopolitica": 0.4583,
+        "integridad-ia": 0.2083
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-imperial_contradiction.json"
     },
     {
@@ -217,6 +397,19 @@
       "reading": "Cada área ve los peligros que puede nombrar.",
       "relationTokens": 34,
       "fichaTokens": 131,
+      "tagWeights": {
+        "aprendizaje": 0.2262,
+        "autoridad": 0.1905,
+        "decision": 0.0476,
+        "empresa": 0.2262,
+        "evidencia": 0.0952,
+        "perspectiva": 0.131,
+        "transformacion": 0.0833
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-frame_change.json"
     }
   ]

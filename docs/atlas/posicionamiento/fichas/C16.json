@@ -10,23 +10,24 @@
     "T2795"
   ],
   "tagWeights": {
-    "aprendizaje": 0.0318,
-    "autoridad": 0.1058,
-    "control-minimo": 0.0318,
-    "decision": 0.1217,
-    "documentacion": 0.0952,
-    "economia": 0.0317,
-    "empresa": 0.1852,
-    "evidencia": 0.1984,
-    "integridad-ia": 0.0317,
-    "memoria-territorio": 0.1667
+    "aprendizaje": 0.0215,
+    "autoridad": 0.0875,
+    "control-minimo": 0.1673,
+    "decision": 0.0767,
+    "documentacion": 0.2332,
+    "economia": 0.0215,
+    "empresa": 0.2444,
+    "evidencia": 0.0847,
+    "integridad-ia": 0.0215,
+    "memoria-territorio": 0.0417
   },
   "clusters": [
     "eu",
     "net",
     "tegrity"
   ],
-  "context": "## Recuperación por similitud\nRetrieve material close to a query in content or representation.\nEtiquetas: Aprendizaje y transmisión de capacidades 3.18%; Autoridad, permisos y delegación 10.58%; Control mínimo y suficiencia 3.18%; Decisiones y responsabilidad 12.17%; Investigación y documentación técnica 9.52%; Economía, costes y liquidez 3.17%; Empresa y gestión 18.52%; Evidencia, procedencia y atribución 19.84%; Integridad y seguridad de IA 3.17%; Memoria, comunidad y territorio 16.67%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/similarity-based-retrieval/\n\n",
+  "context": "## Recuperación por similitud\nRetrieve material close to a query in content or representation.\nEtiquetas: Aprendizaje y transmisión de capacidades 2.15%; Autoridad, permisos y delegación 8.75%; Control mínimo y suficiencia 16.73%; Decisiones y responsabilidad 7.67%; Investigación y documentación técnica 23.32%; Economía, costes y liquidez 2.15%; Empresa y gestión 24.44%; Evidencia, procedencia y atribución 8.47%; Integridad y seguridad de IA 2.15%; Memoria, comunidad y territorio 4.17%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/similarity-based-retrieval/\n\n",
+  "readingSource": null,
   "tokens": 151,
   "encoding": "o200k_base",
   "relations": [
@@ -38,7 +39,16 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 15,
-      "fichaTokens": 80,
+      "fichaTokens": 211,
+      "tagWeights": {
+        "autoridad": 0.1334,
+        "decision": 0.1333,
+        "empresa": 0.7333
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1570.json"
     },
     {
@@ -49,7 +59,17 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 85,
+      "fichaTokens": 501,
+      "tagWeights": {
+        "control-minimo": 0.4375,
+        "documentacion": 0.3125,
+        "evidencia": 0.125,
+        "memoria-territorio": 0.125
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1831.json"
     },
     {
@@ -60,7 +80,21 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 162,
+      "fichaTokens": 261,
+      "tagWeights": {
+        "aprendizaje": 0.0645,
+        "autoridad": 0.1291,
+        "control-minimo": 0.0645,
+        "decision": 0.0968,
+        "documentacion": 0.3871,
+        "economia": 0.0645,
+        "evidencia": 0.129,
+        "integridad-ia": 0.0645
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2795.json"
     },
     {
@@ -71,7 +105,38 @@
       "kind": "hypothesis",
       "reading": "The semantic-window lineage suggests testing contextual admissibility separately from similarity in product retrieval.",
       "relationTokens": 29,
-      "fichaTokens": 242,
+      "fichaTokens": 268,
+      "tagWeights": {
+        "agentes": 0.0111,
+        "aprendizaje": 0.0104,
+        "autoridad": 0.0306,
+        "cambio-regimen": 0.0667,
+        "cartografia": 0.0818,
+        "casos": 0.0083,
+        "control-minimo": 0.1085,
+        "decision": 0.0392,
+        "documentacion": 0.1045,
+        "economia": 0.0192,
+        "empresa": 0.1172,
+        "estandares": 0.0331,
+        "evidencia": 0.0453,
+        "experimentacion": 0.0203,
+        "integridad-ia": 0.062,
+        "matematicas": 0.0416,
+        "memoria-territorio": 0.015,
+        "movilidad": 0.0819,
+        "perspectiva": 0.0269,
+        "representacion": 0.0111,
+        "transformacion": 0.0653
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C15.json"
     },
     {
@@ -82,7 +147,40 @@
       "kind": "candidate transfer",
       "reading": "Similarity can help retrieve product knowledge, but currency, evidential scope and authority must be qualified separately before it supports an operational commitment.",
       "relationTokens": 42,
-      "fichaTokens": 262,
+      "fichaTokens": 273,
+      "tagWeights": {
+        "agentes": 0.0434,
+        "aprendizaje": 0.0079,
+        "autoridad": 0.1478,
+        "capacidad-humana": 0.018,
+        "cartografia": 0.0148,
+        "casos": 0.0271,
+        "control-minimo": 0.0436,
+        "decision": 0.1698,
+        "documentacion": 0.0784,
+        "economia": 0.0334,
+        "empresa": 0.112,
+        "estandares": 0.0063,
+        "evidencia": 0.0528,
+        "experimentacion": 0.0371,
+        "geopolitica": 0.0013,
+        "integridad-ia": 0.0373,
+        "memoria-territorio": 0.0241,
+        "movilidad": 0.0392,
+        "perspectiva": 0.0068,
+        "representacion": 0.0025,
+        "transformacion": 0.0964
+      },
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "mobility",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C26.json"
     },
     {
@@ -94,6 +192,15 @@
       "reading": "",
       "relationTokens": 18,
       "fichaTokens": 78,
+      "tagWeights": {
+        "autoridad": 0.0667,
+        "decision": 0.0667,
+        "empresa": 0.8666
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G50.json"
     }
   ]

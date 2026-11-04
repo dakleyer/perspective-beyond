@@ -1,5 +1,5 @@
 {
-  "schema": "perspective-beyond/positioning-v1",
+  "schema": "perspective-beyond/positioning-v1.1",
   "edition": "2026-11-04",
   "request": {
     "posicionamiento": "tegrity",
@@ -37,16 +37,16 @@
   },
   "budget": {
     "limit": 2000,
-    "used": 1930,
-    "remaining": 70,
-    "nextBlock": 90,
+    "used": 1932,
+    "remaining": 68,
+    "nextBlock": 106,
     "encoding": "o200k_base",
     "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
   },
   "reachable": 67,
-  "selected": 14,
-  "shown": 15,
-  "omittedByBudget": 53,
+  "selected": 6,
+  "shown": 7,
+  "omittedByBudget": 61,
   "omittedInDiagram": 0,
   "layers": [
     {
@@ -61,16 +61,13 @@
     },
     {
       "distance": 2,
-      "selected": 8,
-      "shown": 8
-    },
-    {
-      "distance": 3,
       "selected": 5,
       "shown": 5
     }
   ],
   "center": "doc-3365ae2ce02200034c-entrada",
+  "localCore": [],
+  "coreDocument": null,
   "nodes": [
     {
       "id": "doc-3365ae2ce02200034c-entrada",
@@ -129,6 +126,7 @@
         "tegrity"
       ],
       "tags": [
+        "agentes",
         "control-minimo",
         "decision",
         "documentacion",
@@ -147,14 +145,15 @@
         "T1230"
       ],
       "tagWeights": {
+        "agentes": 0.0568,
         "control-minimo": 0.0556,
-        "decision": 0.0556,
-        "documentacion": 0.1805,
+        "decision": 0.0555,
+        "documentacion": 0.1932,
         "estandares": 0.25,
-        "evidencia": 0.1805,
-        "navegacion": 0.2778
+        "evidencia": 0.1932,
+        "navegacion": 0.1957
       },
-      "contextTokens": 108,
+      "contextTokens": 119,
       "positionHeaderTokens": 35,
       "distance": 2,
       "parent": "T1573",
@@ -182,7 +181,15 @@
       "tagWeights": {
         "cambio-regimen": 1
       },
-      "contextTokens": 78,
+      "reading": "Document Status — Field Case · Series: Regime Awareness in Adaptive Systems , Paper 1\n\nThis article is a retrospective field-case reconstruction of engineering patterns that preceded the present Regime Awareness framework. It examines whether recurring control patterns across four operational settings can be formulated as a transferable, regime-aware decision architecture. The cases motivate that hypothesis; they do not by themselves establish domain-agnostic validity, predictive performance or causal effectiveness.",
+      "readingSource": {
+        "url": "https://tegrity.ai/evolution-of-regime-awareness-capability/",
+        "section": "Opening paragraphs",
+        "observed": "2026-11-04",
+        "sourceSha256": "b7b6b71fb07bf33fb8bc000f9ed3394aa2d187b13d5f57c6ec49f65c34d3ae98"
+      },
+      "readingSummary": "Document Status — Field Case · Series: Regime Awareness in Adaptive Systems , Paper 1\n\nThis article is a retrospective field-case reconstruction of engineering patterns that preceded the present Regime Awareness framework.",
+      "contextTokens": 163,
       "distance": 2,
       "parent": "T1573",
       "routeEdge": "navigation:position-nav-T1573-T1221",
@@ -199,7 +206,13 @@
         "tegrity"
       ],
       "tags": [
-        "cambio-regimen"
+        "cambio-regimen",
+        "cartografia",
+        "control-minimo",
+        "economia",
+        "integridad-ia",
+        "perspectiva",
+        "transformacion"
       ],
       "summary": "",
       "commit": null,
@@ -207,9 +220,23 @@
       "commitUrl": null,
       "documentId": "doc-431e2eeef604eb7723",
       "tagWeights": {
-        "cambio-regimen": 1
+        "cambio-regimen": 0.283,
+        "cartografia": 0.1321,
+        "control-minimo": 0.1321,
+        "economia": 0.1321,
+        "integridad-ia": 0.1321,
+        "perspectiva": 0.0943,
+        "transformacion": 0.0943
       },
-      "contextTokens": 79,
+      "reading": "This paper develops a theoretical framework for minimalistic early warning under an intentionally severe observational setting: an unknown system, one scalar observable time series, finite and possibly truncated history, no labels, no causal model, and no privileged external variables. The objective is not forecasting, but regime-change awareness: determining whether present observable behavior remains compatible with a recent observable regime and, when it does not, identifying the direction of the observable break.\n\nThe paper introduces a Sufficiently Good Early Warning System as a deliberately restricted class whose strongest guarantee is not perfect signal truth but disciplined signal-action coupling. Its defining safety ideal is Pointwise Non-Inferiority: every authorized non-neutral intervention must be no worse than inaction for every admissible state covered by the action design. This shifts the central guarantee from prediction accuracy to intervention architecture. It also addresses a structural source of Cry Wolf dynamics. False signals may still occur, and human attention costs may remain, but the utility-based incentive to ignore warnings is removed when responding to an authorized signal cannot make the operator worse off.\n\nThe theoretical contribution proceeds in stages. Leibnizian continuity of determination and sufficient representativeness make regime preservation and regime departure distinguishable within a declared observable representation. A practical threshold then induces a non-trivial partition of observable histories and a directional regime-signal functional. When the invariant, baseline, threshold comparison, contextual window, and action mapping are computable, a Bishop-style finite online construction follows. When admissible actions satisfy the declared safety condition and total operational value exceeds total cost, the resulting artifact belongs to the strong Sufficiently Good class. A formal witness is included to establish that this class is not empty, while the domain examples show that the corresponding problem family is potentially broad across financial, digital, industrial, ecological, logistical, and cybersecurity settings.\n\nThe paper’s principal change of perspective concerns the location of the hard problem. Traditional early warning focuses on the tipping point: the instant or zone at which a system changes regime. Without additional identifiability assumptions, distinct latent processes can generate the same finite observations; exact tipping-time identification is therefore not guaranteed in the paper’s minimal observation model. This paper argues that the deeper structural problem is often contextual: what must be observed, over what historical extent, at what resolution, and through which transformation for present regime identity to become decidable? A regime is a structural relation, and a structural relation requires context. The paper therefore defines a Contextual Sufficiency Boundary—informally, a tailing point —as the earliest historical boundary beyond which additional past observations are not required to preserve the regime distinctions relevant to the declared decision problem.\n\nThis reframing does not eliminate the structural difficulty; it relocates and clarifies it. A finite sufficient context may fail to exist, may exist only locally, may be finite for every individual case while remaining unbounded over the problem class, may be non-computably identifiable, or may be too expensive or too slow to acquire and process. More data is not automatically better: excessive history can mix regimes, dilute the current baseline, increase latency, and introduce irrelevant structure. Accordingly, the paper separates five questions that are often conflated: representability, finite contextual sufficiency, computable identification, action safety, and economic-operational feasibility.",
+      "readingSource": {
+        "url": "https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/",
+        "section": "Abstract",
+        "observed": "2026-11-04",
+        "sourceSha256": "f2f4137b83adb4e2c90d2c53a39e50829415b8a210494e1b9d8d3ce0fa7dd96a"
+      },
+      "readingSummary": "This paper develops a theoretical framework for minimalistic early warning under an intentionally severe observational setting: an unknown system, one scalar observable time series, finite and possibly truncated history, no labels, no causal model, and no privileged external variables.",
+      "contextTokens": 798,
       "distance": 2,
       "parent": "T1573",
       "routeEdge": "navigation:position-nav-T1573-T1387",
@@ -238,7 +265,15 @@
         "documentacion": 0.5,
         "evidencia": 0.5
       },
-      "contextTokens": 68,
+      "reading": "The whole program in one read — every idea explained, every series and paper linked, so this page works as both a synthesis and an index you can navigate from.\n\nThis is the deep version of the front door. It explains the one idea and each discipline, restores the independence test and the falsifiable battery, and ends with a full link map. The throughline under everything is structural awareness — diagnosed, recovered, and detected across human transformation and adaptive systems alike. Browse the whole body of work at the Field Notes hub.",
+      "readingSource": {
+        "url": "https://tegrity.ai/structural-awareness-program/",
+        "section": "Opening paragraphs",
+        "observed": "2026-11-04",
+        "sourceSha256": "99dee6d0e535e06fa7daa4b3324b1991306536b1eb6fd80445f6752fb796b5ff"
+      },
+      "readingSummary": "The whole program in one read — every idea explained, every series and paper linked, so this page works as both a synthesis and an index you can navigate from.",
+      "contextTokens": 173,
       "distance": 2,
       "parent": "T1573",
       "routeEdge": "navigation:position-nav-T1573-T1499",
@@ -266,263 +301,23 @@
       "commitUrl": null,
       "documentId": "doc-79ceea8454acf4d719",
       "tagWeights": {
-        "cambio-regimen": 0.2941,
-        "evidencia": 0.1177,
-        "matematicas": 0.2941,
-        "perspectiva": 0.2941
+        "cambio-regimen": 0.2593,
+        "evidencia": 0.1481,
+        "matematicas": 0.4074,
+        "perspectiva": 0.1852
       },
-      "contextTokens": 124,
+      "reading": "From field-derived engineering hypotheses to independent mathematical assessment and empirical validation.\n\nThis is a proposal for assessment, not a claim of proof, validated performance or cross-domain generality.\n\nDocument Status — Field Note · Series: Regime-Aware Systems Tegrity.AI · The Integral Management Society\n\nThis note opens a bounded scientific question to a Swiss university partner: whether the semantic-window formulation is internally coherent, experimentally testable, distinct from existing adaptive-window and change-point families, and plausible enough to justify a formal validation programme. Field history is presented as engineering provenance only; it is not offered as mathematical validation of the new formulation. Throughout, proved results, conditional statements and empirical bets are kept separate.",
+      "readingSource": {
+        "url": "https://tegrity.ai/regime-aware-semantic-windows-mathematical-validation/",
+        "section": "Opening paragraphs",
+        "observed": "2026-11-04",
+        "sourceSha256": "5399efd2bdfdae9a09423f4113cef89f7ca904a9bbef1068e3b24bbbf2314b4b"
+      },
+      "readingSummary": "From field-derived engineering hypotheses to independent mathematical assessment and empirical validation.",
+      "contextTokens": 263,
       "distance": 2,
       "parent": "T1573",
       "routeEdge": "navigation:position-nav-T1573-T1513",
-      "affinity": 1
-    },
-    {
-      "id": "T1709",
-      "type": "ficha",
-      "title": "Research Initiatives",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/research-initiatives-t1709/",
-      "original": "https://tegrity.ai/research-initiatives/",
-      "aliases": [],
-      "clusters": [
-        "tegrity"
-      ],
-      "tags": [
-        "documentacion"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-86e0595b3709434d22",
-      "tagWeights": {
-        "documentacion": 1
-      },
-      "contextTokens": 57,
-      "distance": 2,
-      "parent": "T1573",
-      "routeEdge": "navigation:position-nav-T1573-T1709",
-      "affinity": 1
-    },
-    {
-      "id": "T2729",
-      "type": "ficha",
-      "title": "Minimum Sufficient Control Architecture for AI Enabled Urban Systems",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/minimum-sufficient-control-architecture-for-ai-enabled-urban-systems-t2729/",
-      "original": "https://tegrity.ai/minimum-sufficient-control-architecture-for-ai-enabled-urban-systems/",
-      "aliases": [],
-      "clusters": [
-        "tegrity"
-      ],
-      "tags": [
-        "control-minimo"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-dda05be174434e9a4d",
-      "tagWeights": {
-        "control-minimo": 1
-      },
-      "contextTokens": 83,
-      "distance": 2,
-      "parent": "T1573",
-      "routeEdge": "navigation:position-nav-T1573-T2729",
-      "affinity": 1
-    },
-    {
-      "id": "T2744",
-      "type": "ficha",
-      "title": "From Field Practice to Pre-Standardization: An Extensible Case-Study Framework",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/from-field-practice-to-pre-standardization-an-extensible-case-study-framework-t2744/",
-      "original": "https://tegrity.ai/from-field-practice-to-pre-standardization-an-extensible-case-study-framework/",
-      "aliases": [],
-      "clusters": [
-        "tegrity"
-      ],
-      "tags": [
-        "estandares",
-        "experimentacion"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-a7aaea52566152daee",
-      "tagWeights": {
-        "estandares": 0.5,
-        "experimentacion": 0.5
-      },
-      "contextTokens": 105,
-      "distance": 2,
-      "parent": "T1573",
-      "routeEdge": "navigation:position-nav-T1573-T2744",
-      "affinity": 1
-    },
-    {
-      "id": "G18",
-      "type": "concepto",
-      "title": "Field Notes / notas de campo",
-      "url": "https://dakleyer.github.io/perspective-beyond/concepts/field-notes/",
-      "original": null,
-      "aliases": [],
-      "clusters": [
-        "tegrity"
-      ],
-      "tags": [
-        "documentacion",
-        "evidencia",
-        "navegacion"
-      ],
-      "summary": "Public notes record operational observations, methods and reflections.",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "sourceIds": [
-        "T1230",
-        "T1499"
-      ],
-      "tagWeights": {
-        "documentacion": 0.3611,
-        "evidencia": 0.3611,
-        "navegacion": 0.2778
-      },
-      "contextTokens": 75,
-      "positionHeaderTokens": 36,
-      "distance": 3,
-      "parent": "T1499",
-      "routeEdge": "apoyo:T1499:G18",
-      "affinity": 1
-    },
-    {
-      "id": "G34",
-      "type": "concepto",
-      "title": "Industry Reference Group (IRG)",
-      "url": "https://dakleyer.github.io/perspective-beyond/concepts/industry-reference-group/",
-      "original": null,
-      "aliases": [],
-      "clusters": [
-        "tegrity"
-      ],
-      "tags": [
-        "documentacion",
-        "estandares",
-        "evidencia",
-        "integridad-ia"
-      ],
-      "summary": "The group convenes practical perspectives on agentic AI and its operating conditions.",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "sourceIds": [
-        "T1726",
-        "T1499"
-      ],
-      "tagWeights": {
-        "documentacion": 0.25,
-        "estandares": 0.25,
-        "evidencia": 0.25,
-        "integridad-ia": 0.25
-      },
-      "contextTokens": 91,
-      "positionHeaderTokens": 36,
-      "distance": 3,
-      "parent": "T1499",
-      "routeEdge": "apoyo:T1499:G34",
-      "affinity": 1
-    },
-    {
-      "id": "T1230",
-      "type": "ficha",
-      "title": "Field Notes",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/field-notes-t1230/",
-      "original": "https://tegrity.ai/articles/",
-      "aliases": [],
-      "clusters": [
-        "tegrity"
-      ],
-      "tags": [
-        "documentacion",
-        "evidencia",
-        "navegacion"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-335c68118bc87aefe1",
-      "tagWeights": {
-        "documentacion": 0.2222,
-        "evidencia": 0.2222,
-        "navegacion": 0.5556
-      },
-      "contextTokens": 75,
-      "distance": 3,
-      "parent": "G31",
-      "routeEdge": "apoyo:T1230:G31",
-      "affinity": 1
-    },
-    {
-      "id": "T1379",
-      "type": "ficha",
-      "title": "Existence, Constructive Realizability, Operational Maximality, Safety Governance, and the Contextual Boundary Problem of a “Sufficiently Good” Detector",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/existence-constructive-realizability-operational-maximality-safety-governance--t1379/",
-      "original": "https://tegrity.ai/1379-2/",
-      "aliases": [],
-      "clusters": [
-        "tegrity"
-      ],
-      "tags": [
-        "control-minimo",
-        "integridad-ia"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-daf6149f8b0c351d74",
-      "tagWeights": {
-        "control-minimo": 0.5,
-        "integridad-ia": 0.5
-      },
-      "contextTokens": 112,
-      "distance": 3,
-      "parent": "T1387",
-      "routeEdge": "documento:R197",
-      "affinity": 1
-    },
-    {
-      "id": "T1391",
-      "type": "ficha",
-      "title": "The Limits of AI Oversight",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/the-limits-of-ai-oversight-t1391/",
-      "original": "https://tegrity.ai/the-limits-of-ai-oversight/",
-      "aliases": [],
-      "clusters": [
-        "tegrity"
-      ],
-      "tags": [
-        "autoridad",
-        "control-minimo",
-        "decision",
-        "evidencia"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-4be828e99f81281c6e",
-      "tagWeights": {
-        "autoridad": 0.2222,
-        "control-minimo": 0.3334,
-        "decision": 0.2222,
-        "evidencia": 0.2222
-      },
-      "contextTokens": 101,
-      "distance": 3,
-      "parent": "T2729",
-      "routeEdge": "documento:F022",
       "affinity": 1
     }
   ],
@@ -581,87 +376,6 @@
       "route": true
     },
     {
-      "id": "navigation:position-nav-T1573-T1709",
-      "from": "T1573",
-      "to": "T1709",
-      "kind": "lectura enlazada desde el documento",
-      "reading": "Desde «Tegrity.AI», el enlace «Research Initiatives» abre «Research Initiatives».",
-      "evidence": "https://tegrity.ai/",
-      "route": true
-    },
-    {
-      "id": "navigation:position-nav-T1573-T2729",
-      "from": "T1573",
-      "to": "T2729",
-      "kind": "lectura enlazada desde el documento",
-      "reading": "Desde «Tegrity.AI», el enlace «working paper» abre «Minimum Sufficient Control Architecture for AI Enabled Urban Systems».",
-      "evidence": "https://tegrity.ai/",
-      "route": true
-    },
-    {
-      "id": "navigation:position-nav-T1573-T2744",
-      "from": "T1573",
-      "to": "T2744",
-      "kind": "lectura enlazada desde el documento",
-      "reading": "Desde «Tegrity.AI», el enlace «Worked case and method» abre «From Field Practice to Pre-Standardization: An Extensible Case-Study Framework».",
-      "evidence": "https://tegrity.ai/",
-      "route": true
-    },
-    {
-      "id": "apoyo:T1499:G18",
-      "from": "T1499",
-      "to": "G18",
-      "kind": "documenta el concepto",
-      "reading": "",
-      "evidence": null,
-      "route": true
-    },
-    {
-      "id": "apoyo:T1499:G34",
-      "from": "T1499",
-      "to": "G34",
-      "kind": "documenta el concepto",
-      "reading": "",
-      "evidence": null,
-      "route": true
-    },
-    {
-      "id": "apoyo:T1230:G31",
-      "from": "T1230",
-      "to": "G31",
-      "kind": "documenta el concepto",
-      "reading": "",
-      "evidence": null,
-      "route": true
-    },
-    {
-      "id": "documento:R197",
-      "from": "T1379",
-      "to": "T1387",
-      "kind": "editorial comparison",
-      "reading": "For a complementary reading, see [The maintained early-warning working paper](https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/).",
-      "evidence": null,
-      "route": true
-    },
-    {
-      "id": "documento:F022",
-      "from": "T2729",
-      "to": "T1391",
-      "kind": "candidate transfer",
-      "reading": "Control burden should be compared among configurations that meet the same objective and evidence obligations, including the human response work they create.",
-      "evidence": null,
-      "route": true
-    },
-    {
-      "id": "apoyo:T1230:G18",
-      "from": "T1230",
-      "to": "G18",
-      "kind": "documenta el concepto",
-      "reading": "",
-      "evidence": null,
-      "route": false
-    },
-    {
       "id": "apoyo:T1499:G31",
       "from": "T1499",
       "to": "G31",
@@ -676,15 +390,6 @@
       "to": "T1513",
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The H1–H3 mathematical and empirical validation proposal](https://tegrity.ai/regime-aware-semantic-windows-mathematical-validation/).",
-      "evidence": null,
-      "route": false
-    },
-    {
-      "id": "documento:R203",
-      "from": "T2744",
-      "to": "T2729",
-      "kind": "editorial comparison",
-      "reading": "For a complementary reading, see [The bounded urban-control case](https://tegrity.ai/minimum-sufficient-control-architecture-for-ai-enabled-urban-systems/).",
       "evidence": null,
       "route": false
     }
@@ -732,6 +437,7 @@
         "tegrity"
       ],
       "tags": [
+        "agentes",
         "control-minimo",
         "decision",
         "documentacion",
@@ -750,14 +456,15 @@
         "T1230"
       ],
       "tagWeights": {
+        "agentes": 0.0568,
         "control-minimo": 0.0556,
-        "decision": 0.0556,
-        "documentacion": 0.1805,
+        "decision": 0.0555,
+        "documentacion": 0.1932,
         "estandares": 0.25,
-        "evidencia": 0.1805,
-        "navegacion": 0.2778
+        "evidencia": 0.1932,
+        "navegacion": 0.1957
       },
-      "contextTokens": 108,
+      "contextTokens": 119,
       "positionHeaderTokens": 35,
       "distance": 2,
       "parent": "T1573",
@@ -785,7 +492,15 @@
       "tagWeights": {
         "cambio-regimen": 1
       },
-      "contextTokens": 78,
+      "reading": "Document Status — Field Case · Series: Regime Awareness in Adaptive Systems , Paper 1\n\nThis article is a retrospective field-case reconstruction of engineering patterns that preceded the present Regime Awareness framework. It examines whether recurring control patterns across four operational settings can be formulated as a transferable, regime-aware decision architecture. The cases motivate that hypothesis; they do not by themselves establish domain-agnostic validity, predictive performance or causal effectiveness.",
+      "readingSource": {
+        "url": "https://tegrity.ai/evolution-of-regime-awareness-capability/",
+        "section": "Opening paragraphs",
+        "observed": "2026-11-04",
+        "sourceSha256": "b7b6b71fb07bf33fb8bc000f9ed3394aa2d187b13d5f57c6ec49f65c34d3ae98"
+      },
+      "readingSummary": "Document Status — Field Case · Series: Regime Awareness in Adaptive Systems , Paper 1\n\nThis article is a retrospective field-case reconstruction of engineering patterns that preceded the present Regime Awareness framework.",
+      "contextTokens": 163,
       "distance": 2,
       "parent": "T1573",
       "routeEdge": "navigation:position-nav-T1573-T1221",
@@ -802,7 +517,13 @@
         "tegrity"
       ],
       "tags": [
-        "cambio-regimen"
+        "cambio-regimen",
+        "cartografia",
+        "control-minimo",
+        "economia",
+        "integridad-ia",
+        "perspectiva",
+        "transformacion"
       ],
       "summary": "",
       "commit": null,
@@ -810,9 +531,23 @@
       "commitUrl": null,
       "documentId": "doc-431e2eeef604eb7723",
       "tagWeights": {
-        "cambio-regimen": 1
+        "cambio-regimen": 0.283,
+        "cartografia": 0.1321,
+        "control-minimo": 0.1321,
+        "economia": 0.1321,
+        "integridad-ia": 0.1321,
+        "perspectiva": 0.0943,
+        "transformacion": 0.0943
       },
-      "contextTokens": 79,
+      "reading": "This paper develops a theoretical framework for minimalistic early warning under an intentionally severe observational setting: an unknown system, one scalar observable time series, finite and possibly truncated history, no labels, no causal model, and no privileged external variables. The objective is not forecasting, but regime-change awareness: determining whether present observable behavior remains compatible with a recent observable regime and, when it does not, identifying the direction of the observable break.\n\nThe paper introduces a Sufficiently Good Early Warning System as a deliberately restricted class whose strongest guarantee is not perfect signal truth but disciplined signal-action coupling. Its defining safety ideal is Pointwise Non-Inferiority: every authorized non-neutral intervention must be no worse than inaction for every admissible state covered by the action design. This shifts the central guarantee from prediction accuracy to intervention architecture. It also addresses a structural source of Cry Wolf dynamics. False signals may still occur, and human attention costs may remain, but the utility-based incentive to ignore warnings is removed when responding to an authorized signal cannot make the operator worse off.\n\nThe theoretical contribution proceeds in stages. Leibnizian continuity of determination and sufficient representativeness make regime preservation and regime departure distinguishable within a declared observable representation. A practical threshold then induces a non-trivial partition of observable histories and a directional regime-signal functional. When the invariant, baseline, threshold comparison, contextual window, and action mapping are computable, a Bishop-style finite online construction follows. When admissible actions satisfy the declared safety condition and total operational value exceeds total cost, the resulting artifact belongs to the strong Sufficiently Good class. A formal witness is included to establish that this class is not empty, while the domain examples show that the corresponding problem family is potentially broad across financial, digital, industrial, ecological, logistical, and cybersecurity settings.\n\nThe paper’s principal change of perspective concerns the location of the hard problem. Traditional early warning focuses on the tipping point: the instant or zone at which a system changes regime. Without additional identifiability assumptions, distinct latent processes can generate the same finite observations; exact tipping-time identification is therefore not guaranteed in the paper’s minimal observation model. This paper argues that the deeper structural problem is often contextual: what must be observed, over what historical extent, at what resolution, and through which transformation for present regime identity to become decidable? A regime is a structural relation, and a structural relation requires context. The paper therefore defines a Contextual Sufficiency Boundary—informally, a tailing point —as the earliest historical boundary beyond which additional past observations are not required to preserve the regime distinctions relevant to the declared decision problem.\n\nThis reframing does not eliminate the structural difficulty; it relocates and clarifies it. A finite sufficient context may fail to exist, may exist only locally, may be finite for every individual case while remaining unbounded over the problem class, may be non-computably identifiable, or may be too expensive or too slow to acquire and process. More data is not automatically better: excessive history can mix regimes, dilute the current baseline, increase latency, and introduce irrelevant structure. Accordingly, the paper separates five questions that are often conflated: representability, finite contextual sufficiency, computable identification, action safety, and economic-operational feasibility.",
+      "readingSource": {
+        "url": "https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/",
+        "section": "Abstract",
+        "observed": "2026-11-04",
+        "sourceSha256": "f2f4137b83adb4e2c90d2c53a39e50829415b8a210494e1b9d8d3ce0fa7dd96a"
+      },
+      "readingSummary": "This paper develops a theoretical framework for minimalistic early warning under an intentionally severe observational setting: an unknown system, one scalar observable time series, finite and possibly truncated history, no labels, no causal model, and no privileged external variables.",
+      "contextTokens": 798,
       "distance": 2,
       "parent": "T1573",
       "routeEdge": "navigation:position-nav-T1573-T1387",
@@ -841,7 +576,15 @@
         "documentacion": 0.5,
         "evidencia": 0.5
       },
-      "contextTokens": 68,
+      "reading": "The whole program in one read — every idea explained, every series and paper linked, so this page works as both a synthesis and an index you can navigate from.\n\nThis is the deep version of the front door. It explains the one idea and each discipline, restores the independence test and the falsifiable battery, and ends with a full link map. The throughline under everything is structural awareness — diagnosed, recovered, and detected across human transformation and adaptive systems alike. Browse the whole body of work at the Field Notes hub.",
+      "readingSource": {
+        "url": "https://tegrity.ai/structural-awareness-program/",
+        "section": "Opening paragraphs",
+        "observed": "2026-11-04",
+        "sourceSha256": "99dee6d0e535e06fa7daa4b3324b1991306536b1eb6fd80445f6752fb796b5ff"
+      },
+      "readingSummary": "The whole program in one read — every idea explained, every series and paper linked, so this page works as both a synthesis and an index you can navigate from.",
+      "contextTokens": 173,
       "distance": 2,
       "parent": "T1573",
       "routeEdge": "navigation:position-nav-T1573-T1499",
@@ -869,265 +612,25 @@
       "commitUrl": null,
       "documentId": "doc-79ceea8454acf4d719",
       "tagWeights": {
-        "cambio-regimen": 0.2941,
-        "evidencia": 0.1177,
-        "matematicas": 0.2941,
-        "perspectiva": 0.2941
+        "cambio-regimen": 0.2593,
+        "evidencia": 0.1481,
+        "matematicas": 0.4074,
+        "perspectiva": 0.1852
       },
-      "contextTokens": 124,
+      "reading": "From field-derived engineering hypotheses to independent mathematical assessment and empirical validation.\n\nThis is a proposal for assessment, not a claim of proof, validated performance or cross-domain generality.\n\nDocument Status — Field Note · Series: Regime-Aware Systems Tegrity.AI · The Integral Management Society\n\nThis note opens a bounded scientific question to a Swiss university partner: whether the semantic-window formulation is internally coherent, experimentally testable, distinct from existing adaptive-window and change-point families, and plausible enough to justify a formal validation programme. Field history is presented as engineering provenance only; it is not offered as mathematical validation of the new formulation. Throughout, proved results, conditional statements and empirical bets are kept separate.",
+      "readingSource": {
+        "url": "https://tegrity.ai/regime-aware-semantic-windows-mathematical-validation/",
+        "section": "Opening paragraphs",
+        "observed": "2026-11-04",
+        "sourceSha256": "5399efd2bdfdae9a09423f4113cef89f7ca904a9bbef1068e3b24bbbf2314b4b"
+      },
+      "readingSummary": "From field-derived engineering hypotheses to independent mathematical assessment and empirical validation.",
+      "contextTokens": 263,
       "distance": 2,
       "parent": "T1573",
       "routeEdge": "navigation:position-nav-T1573-T1513",
       "affinity": 1
-    },
-    {
-      "id": "T1709",
-      "type": "ficha",
-      "title": "Research Initiatives",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/research-initiatives-t1709/",
-      "original": "https://tegrity.ai/research-initiatives/",
-      "aliases": [],
-      "clusters": [
-        "tegrity"
-      ],
-      "tags": [
-        "documentacion"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-86e0595b3709434d22",
-      "tagWeights": {
-        "documentacion": 1
-      },
-      "contextTokens": 57,
-      "distance": 2,
-      "parent": "T1573",
-      "routeEdge": "navigation:position-nav-T1573-T1709",
-      "affinity": 1
-    },
-    {
-      "id": "T2729",
-      "type": "ficha",
-      "title": "Minimum Sufficient Control Architecture for AI Enabled Urban Systems",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/minimum-sufficient-control-architecture-for-ai-enabled-urban-systems-t2729/",
-      "original": "https://tegrity.ai/minimum-sufficient-control-architecture-for-ai-enabled-urban-systems/",
-      "aliases": [],
-      "clusters": [
-        "tegrity"
-      ],
-      "tags": [
-        "control-minimo"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-dda05be174434e9a4d",
-      "tagWeights": {
-        "control-minimo": 1
-      },
-      "contextTokens": 83,
-      "distance": 2,
-      "parent": "T1573",
-      "routeEdge": "navigation:position-nav-T1573-T2729",
-      "affinity": 1
-    },
-    {
-      "id": "T2744",
-      "type": "ficha",
-      "title": "From Field Practice to Pre-Standardization: An Extensible Case-Study Framework",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/from-field-practice-to-pre-standardization-an-extensible-case-study-framework-t2744/",
-      "original": "https://tegrity.ai/from-field-practice-to-pre-standardization-an-extensible-case-study-framework/",
-      "aliases": [],
-      "clusters": [
-        "tegrity"
-      ],
-      "tags": [
-        "estandares",
-        "experimentacion"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-a7aaea52566152daee",
-      "tagWeights": {
-        "estandares": 0.5,
-        "experimentacion": 0.5
-      },
-      "contextTokens": 105,
-      "distance": 2,
-      "parent": "T1573",
-      "routeEdge": "navigation:position-nav-T1573-T2744",
-      "affinity": 1
-    },
-    {
-      "id": "G18",
-      "type": "concepto",
-      "title": "Field Notes / notas de campo",
-      "url": "https://dakleyer.github.io/perspective-beyond/concepts/field-notes/",
-      "original": null,
-      "aliases": [],
-      "clusters": [
-        "tegrity"
-      ],
-      "tags": [
-        "documentacion",
-        "evidencia",
-        "navegacion"
-      ],
-      "summary": "Public notes record operational observations, methods and reflections.",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "sourceIds": [
-        "T1230",
-        "T1499"
-      ],
-      "tagWeights": {
-        "documentacion": 0.3611,
-        "evidencia": 0.3611,
-        "navegacion": 0.2778
-      },
-      "contextTokens": 75,
-      "positionHeaderTokens": 36,
-      "distance": 3,
-      "parent": "T1499",
-      "routeEdge": "apoyo:T1499:G18",
-      "affinity": 1
-    },
-    {
-      "id": "G34",
-      "type": "concepto",
-      "title": "Industry Reference Group (IRG)",
-      "url": "https://dakleyer.github.io/perspective-beyond/concepts/industry-reference-group/",
-      "original": null,
-      "aliases": [],
-      "clusters": [
-        "tegrity"
-      ],
-      "tags": [
-        "documentacion",
-        "estandares",
-        "evidencia",
-        "integridad-ia"
-      ],
-      "summary": "The group convenes practical perspectives on agentic AI and its operating conditions.",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "sourceIds": [
-        "T1726",
-        "T1499"
-      ],
-      "tagWeights": {
-        "documentacion": 0.25,
-        "estandares": 0.25,
-        "evidencia": 0.25,
-        "integridad-ia": 0.25
-      },
-      "contextTokens": 91,
-      "positionHeaderTokens": 36,
-      "distance": 3,
-      "parent": "T1499",
-      "routeEdge": "apoyo:T1499:G34",
-      "affinity": 1
-    },
-    {
-      "id": "T1230",
-      "type": "ficha",
-      "title": "Field Notes",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/field-notes-t1230/",
-      "original": "https://tegrity.ai/articles/",
-      "aliases": [],
-      "clusters": [
-        "tegrity"
-      ],
-      "tags": [
-        "documentacion",
-        "evidencia",
-        "navegacion"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-335c68118bc87aefe1",
-      "tagWeights": {
-        "documentacion": 0.2222,
-        "evidencia": 0.2222,
-        "navegacion": 0.5556
-      },
-      "contextTokens": 75,
-      "distance": 3,
-      "parent": "G31",
-      "routeEdge": "apoyo:T1230:G31",
-      "affinity": 1
-    },
-    {
-      "id": "T1379",
-      "type": "ficha",
-      "title": "Existence, Constructive Realizability, Operational Maximality, Safety Governance, and the Contextual Boundary Problem of a “Sufficiently Good” Detector",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/existence-constructive-realizability-operational-maximality-safety-governance--t1379/",
-      "original": "https://tegrity.ai/1379-2/",
-      "aliases": [],
-      "clusters": [
-        "tegrity"
-      ],
-      "tags": [
-        "control-minimo",
-        "integridad-ia"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-daf6149f8b0c351d74",
-      "tagWeights": {
-        "control-minimo": 0.5,
-        "integridad-ia": 0.5
-      },
-      "contextTokens": 112,
-      "distance": 3,
-      "parent": "T1387",
-      "routeEdge": "documento:R197",
-      "affinity": 1
-    },
-    {
-      "id": "T1391",
-      "type": "ficha",
-      "title": "The Limits of AI Oversight",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/the-limits-of-ai-oversight-t1391/",
-      "original": "https://tegrity.ai/the-limits-of-ai-oversight/",
-      "aliases": [],
-      "clusters": [
-        "tegrity"
-      ],
-      "tags": [
-        "autoridad",
-        "control-minimo",
-        "decision",
-        "evidencia"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-4be828e99f81281c6e",
-      "tagWeights": {
-        "autoridad": 0.2222,
-        "control-minimo": 0.3334,
-        "decision": 0.2222,
-        "evidencia": 0.2222
-      },
-      "contextTokens": 101,
-      "distance": 3,
-      "parent": "T2729",
-      "routeEdge": "documento:F022",
-      "affinity": 1
     }
   ],
-  "reading": "# Posicionamiento · Tegrity.AI\nDocumento de origen: https://tegrity.ai/\n\n## Tegrity.AI\nTegrity.AI is an applied research, engineering and pre-standardization group of The Integral Management Society , a Swiss non-profit association based in Geneva. It advances AI Integrity Management through research, architecture, the review and development of standards, and technology for the common good.\nEtiquetas: Control mínimo y suficiencia 22.22%; Decisiones y responsabilidad 22.22%; Índices, contacto y políticas 55.56%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/tegrity-ai-t1573/\nDocumento de origen: https://tegrity.ai/\n\nTegrity.AI → Tegrity.AI · documenta el concepto. \n\n## Tegrity.AI\nThe public research programme covers operational integrity, structural awareness and technical contributions.\nEtiquetas: Control mínimo y suficiencia 5.56%; Decisiones y responsabilidad 5.56%; Investigación y documentación técnica 18.05%; Estándares e interoperabilidad 25.00%; Evidencia, procedencia y atribución 18.05%; Índices, contacto y políticas 27.78%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/tegrity-ai/\n\nTegrity.AI → Regime Awareness: Capability Development Across Four Field Cases · lectura enlazada desde el documento. Desde «Tegrity.AI», el enlace «field cases» abre «Regime Awareness: Capability Development Across Four Field Cases».\nFuente de la relación: https://tegrity.ai/\n\n## Regime Awareness: Capability Development Across Four Field Cases\n\nEtiquetas: Cambios de régimen y alerta temprana 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/regime-awareness-capability-development-across-four-field-cases-t1221/\nDocumento de origen: https://tegrity.ai/evolution-of-regime-awareness-capability/\n\nTegrity.AI → Minimalistic Regime-Aware Early Warning Systems · lectura enlazada desde el documento. Desde «Tegrity.AI», el enlace «Good Enough EWS» abre «Minimalistic Regime-Aware Early Warning Systems».\nFuente de la relación: https://tegrity.ai/\n\n## Minimalistic Regime-Aware Early Warning Systems\n\nEtiquetas: Cambios de régimen y alerta temprana 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/minimalistic-regime-aware-early-warning-systems-t1387/\nDocumento de origen: https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/\n\nTegrity.AI → Structural Awareness · lectura enlazada desde el documento. Desde «Tegrity.AI», el enlace «Structural Awareness synthesis» abre «Structural Awareness».\nFuente de la relación: https://tegrity.ai/\n\n## Structural Awareness\n\nEtiquetas: Investigación y documentación técnica 50.00%; Evidencia, procedencia y atribución 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/structural-awareness-t1499/\nDocumento de origen: https://tegrity.ai/structural-awareness-program/\n\nTegrity.AI → Regime-Aware Semantic Windows: Proposal for Mathematical Assessment and Empirical Validation · lectura enlazada desde el documento. Desde «Tegrity.AI», el enlace «H1–H3 validation proposal» abre «Regime-Aware Semantic Windows: Proposal for Mathematical Assessment and Empirical Validation».\nFuente de la relación: https://tegrity.ai/\n\n## Regime-Aware Semantic Windows: Proposal for Mathematical Assessment and Empirical Validation\n\nEtiquetas: Cambios de régimen y alerta temprana 29.41%; Evidencia, procedencia y atribución 11.77%; Matemáticas 29.41%; Cambio de perspectiva 29.41%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/regime-aware-semantic-windows-proposal-for-mathematical-assessment-and-empiric-t1513/\nDocumento de origen: https://tegrity.ai/regime-aware-semantic-windows-mathematical-validation/\n\nTegrity.AI → Research Initiatives · lectura enlazada desde el documento. Desde «Tegrity.AI», el enlace «Research Initiatives» abre «Research Initiatives».\nFuente de la relación: https://tegrity.ai/\n\n## Research Initiatives\n\nEtiquetas: Investigación y documentación técnica 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/research-initiatives-t1709/\nDocumento de origen: https://tegrity.ai/research-initiatives/\n\nTegrity.AI → Minimum Sufficient Control Architecture for AI Enabled Urban Systems · lectura enlazada desde el documento. Desde «Tegrity.AI», el enlace «working paper» abre «Minimum Sufficient Control Architecture for AI Enabled Urban Systems».\nFuente de la relación: https://tegrity.ai/\n\n## Minimum Sufficient Control Architecture for AI Enabled Urban Systems\n\nEtiquetas: Control mínimo y suficiencia 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/minimum-sufficient-control-architecture-for-ai-enabled-urban-systems-t2729/\nDocumento de origen: https://tegrity.ai/minimum-sufficient-control-architecture-for-ai-enabled-urban-systems/\n\nTegrity.AI → From Field Practice to Pre-Standardization: An Extensible Case-Study Framework · lectura enlazada desde el documento. Desde «Tegrity.AI», el enlace «Worked case and method» abre «From Field Practice to Pre-Standardization: An Extensible Case-Study Framework».\nFuente de la relación: https://tegrity.ai/\n\n## From Field Practice to Pre-Standardization: An Extensible Case-Study Framework\n\nEtiquetas: Estándares e interoperabilidad 50.00%; Experimentación, falsación y contraejemplos 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/from-field-practice-to-pre-standardization-an-extensible-case-study-framework-t2744/\nDocumento de origen: https://tegrity.ai/from-field-practice-to-pre-standardization-an-extensible-case-study-framework/\n\nStructural Awareness → Field Notes / notas de campo · documenta el concepto. \n\n## Field Notes / notas de campo\nPublic notes record operational observations, methods and reflections.\nEtiquetas: Investigación y documentación técnica 36.11%; Evidencia, procedencia y atribución 36.11%; Índices, contacto y políticas 27.78%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/field-notes/\n\nStructural Awareness → Industry Reference Group (IRG) · documenta el concepto. \n\n## Industry Reference Group (IRG)\nThe group convenes practical perspectives on agentic AI and its operating conditions.\nEtiquetas: Investigación y documentación técnica 25.00%; Estándares e interoperabilidad 25.00%; Evidencia, procedencia y atribución 25.00%; Integridad y seguridad de IA 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/industry-reference-group/\n\nField Notes → Tegrity.AI · documenta el concepto. \n\n## Field Notes\n\nEtiquetas: Investigación y documentación técnica 22.22%; Evidencia, procedencia y atribución 22.22%; Índices, contacto y políticas 55.56%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/field-notes-t1230/\nDocumento de origen: https://tegrity.ai/articles/\n\nExistence, Constructive Realizability, Operational Maximality, Safety Governance, and the Contextual Boundary Problem of a “Sufficiently Good” Detector → Minimalistic Regime-Aware Early Warning Systems · editorial comparison. For a complementary reading, see [The maintained early-warning working paper](https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/).\n\n## Existence, Constructive Realizability, Operational Maximality, Safety Governance, and the Contextual Boundary Problem of a “Sufficiently Good” Detector\n\nEtiquetas: Control mínimo y suficiencia 50.00%; Integridad y seguridad de IA 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/existence-constructive-realizability-operational-maximality-safety-governance--t1379/\nDocumento de origen: https://tegrity.ai/1379-2/\n\nMinimum Sufficient Control Architecture for AI Enabled Urban Systems → The Limits of AI Oversight · candidate transfer. Control burden should be compared among configurations that meet the same objective and evidence obligations, including the human response work they create.\n\n## The Limits of AI Oversight\n\nEtiquetas: Autoridad, permisos y delegación 22.22%; Control mínimo y suficiencia 33.34%; Decisiones y responsabilidad 22.22%; Evidencia, procedencia y atribución 22.22%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/the-limits-of-ai-oversight-t1391/\nDocumento de origen: https://tegrity.ai/the-limits-of-ai-oversight/\n\n"
+  "reading": "# Posicionamiento · Tegrity.AI\nDocumento de origen: https://tegrity.ai/\n\n## Tegrity.AI\nTegrity.AI is an applied research, engineering and pre-standardization group of The Integral Management Society , a Swiss non-profit association based in Geneva. It advances AI Integrity Management through research, architecture, the review and development of standards, and technology for the common good.\nEtiquetas: Control mínimo y suficiencia 22.22%; Decisiones y responsabilidad 22.22%; Índices, contacto y políticas 55.56%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/tegrity-ai-t1573/\nDocumento de origen: https://tegrity.ai/\n\nTegrity.AI → Tegrity.AI · documenta el concepto. \n\n## Tegrity.AI\nThe public research programme covers operational integrity, structural awareness and technical contributions.\nEtiquetas: Agentes y coordinación distribuida 5.68%; Control mínimo y suficiencia 5.56%; Decisiones y responsabilidad 5.55%; Investigación y documentación técnica 19.32%; Estándares e interoperabilidad 25.00%; Evidencia, procedencia y atribución 19.32%; Índices, contacto y políticas 19.57%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/tegrity-ai/\n\nTegrity.AI → Regime Awareness: Capability Development Across Four Field Cases · lectura enlazada desde el documento. Desde «Tegrity.AI», el enlace «field cases» abre «Regime Awareness: Capability Development Across Four Field Cases».\nFuente de la relación: https://tegrity.ai/\n\n## Regime Awareness: Capability Development Across Four Field Cases\nDocument Status — Field Case · Series: Regime Awareness in Adaptive Systems , Paper 1\n\nThis article is a retrospective field-case reconstruction of engineering patterns that preceded the present Regime Awareness framework. It examines whether recurring control patterns across four operational settings can be formulated as a transferable, regime-aware decision architecture. The cases motivate that hypothesis; they do not by themselves establish domain-agnostic validity, predictive performance or causal effectiveness.\nEtiquetas: Cambios de régimen y alerta temprana 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/regime-awareness-capability-development-across-four-field-cases-t1221/\nDocumento de origen: https://tegrity.ai/evolution-of-regime-awareness-capability/\n\nTegrity.AI → Minimalistic Regime-Aware Early Warning Systems · lectura enlazada desde el documento. Desde «Tegrity.AI», el enlace «Good Enough EWS» abre «Minimalistic Regime-Aware Early Warning Systems».\nFuente de la relación: https://tegrity.ai/\n\n## Minimalistic Regime-Aware Early Warning Systems\nThis paper develops a theoretical framework for minimalistic early warning under an intentionally severe observational setting: an unknown system, one scalar observable time series, finite and possibly truncated history, no labels, no causal model, and no privileged external variables. The objective is not forecasting, but regime-change awareness: determining whether present observable behavior remains compatible with a recent observable regime and, when it does not, identifying the direction of the observable break.\n\nThe paper introduces a Sufficiently Good Early Warning System as a deliberately restricted class whose strongest guarantee is not perfect signal truth but disciplined signal-action coupling. Its defining safety ideal is Pointwise Non-Inferiority: every authorized non-neutral intervention must be no worse than inaction for every admissible state covered by the action design. This shifts the central guarantee from prediction accuracy to intervention architecture. It also addresses a structural source of Cry Wolf dynamics. False signals may still occur, and human attention costs may remain, but the utility-based incentive to ignore warnings is removed when responding to an authorized signal cannot make the operator worse off.\n\nThe theoretical contribution proceeds in stages. Leibnizian continuity of determination and sufficient representativeness make regime preservation and regime departure distinguishable within a declared observable representation. A practical threshold then induces a non-trivial partition of observable histories and a directional regime-signal functional. When the invariant, baseline, threshold comparison, contextual window, and action mapping are computable, a Bishop-style finite online construction follows. When admissible actions satisfy the declared safety condition and total operational value exceeds total cost, the resulting artifact belongs to the strong Sufficiently Good class. A formal witness is included to establish that this class is not empty, while the domain examples show that the corresponding problem family is potentially broad across financial, digital, industrial, ecological, logistical, and cybersecurity settings.\n\nThe paper’s principal change of perspective concerns the location of the hard problem. Traditional early warning focuses on the tipping point: the instant or zone at which a system changes regime. Without additional identifiability assumptions, distinct latent processes can generate the same finite observations; exact tipping-time identification is therefore not guaranteed in the paper’s minimal observation model. This paper argues that the deeper structural problem is often contextual: what must be observed, over what historical extent, at what resolution, and through which transformation for present regime identity to become decidable? A regime is a structural relation, and a structural relation requires context. The paper therefore defines a Contextual Sufficiency Boundary—informally, a tailing point —as the earliest historical boundary beyond which additional past observations are not required to preserve the regime distinctions relevant to the declared decision problem.\n\nThis reframing does not eliminate the structural difficulty; it relocates and clarifies it. A finite sufficient context may fail to exist, may exist only locally, may be finite for every individual case while remaining unbounded over the problem class, may be non-computably identifiable, or may be too expensive or too slow to acquire and process. More data is not automatically better: excessive history can mix regimes, dilute the current baseline, increase latency, and introduce irrelevant structure. Accordingly, the paper separates five questions that are often conflated: representability, finite contextual sufficiency, computable identification, action safety, and economic-operational feasibility.\nEtiquetas: Cambios de régimen y alerta temprana 28.30%; Cartografía y señales de ecosistema 13.21%; Control mínimo y suficiencia 13.21%; Economía, costes y liquidez 13.21%; Integridad y seguridad de IA 13.21%; Cambio de perspectiva 9.43%; Transformación y continuidad operativa 9.43%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/minimalistic-regime-aware-early-warning-systems-t1387/\nDocumento de origen: https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/\n\nTegrity.AI → Structural Awareness · lectura enlazada desde el documento. Desde «Tegrity.AI», el enlace «Structural Awareness synthesis» abre «Structural Awareness».\nFuente de la relación: https://tegrity.ai/\n\n## Structural Awareness\nThe whole program in one read — every idea explained, every series and paper linked, so this page works as both a synthesis and an index you can navigate from.\n\nThis is the deep version of the front door. It explains the one idea and each discipline, restores the independence test and the falsifiable battery, and ends with a full link map. The throughline under everything is structural awareness — diagnosed, recovered, and detected across human transformation and adaptive systems alike. Browse the whole body of work at the Field Notes hub.\nEtiquetas: Investigación y documentación técnica 50.00%; Evidencia, procedencia y atribución 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/structural-awareness-t1499/\nDocumento de origen: https://tegrity.ai/structural-awareness-program/\n\nTegrity.AI → Regime-Aware Semantic Windows: Proposal for Mathematical Assessment and Empirical Validation · lectura enlazada desde el documento. Desde «Tegrity.AI», el enlace «H1–H3 validation proposal» abre «Regime-Aware Semantic Windows: Proposal for Mathematical Assessment and Empirical Validation».\nFuente de la relación: https://tegrity.ai/\n\n## Regime-Aware Semantic Windows: Proposal for Mathematical Assessment and Empirical Validation\nFrom field-derived engineering hypotheses to independent mathematical assessment and empirical validation.\n\nThis is a proposal for assessment, not a claim of proof, validated performance or cross-domain generality.\n\nDocument Status — Field Note · Series: Regime-Aware Systems Tegrity.AI · The Integral Management Society\n\nThis note opens a bounded scientific question to a Swiss university partner: whether the semantic-window formulation is internally coherent, experimentally testable, distinct from existing adaptive-window and change-point families, and plausible enough to justify a formal validation programme. Field history is presented as engineering provenance only; it is not offered as mathematical validation of the new formulation. Throughout, proved results, conditional statements and empirical bets are kept separate.\nEtiquetas: Cambios de régimen y alerta temprana 25.93%; Evidencia, procedencia y atribución 14.81%; Matemáticas 40.74%; Cambio de perspectiva 18.52%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/regime-aware-semantic-windows-proposal-for-mathematical-assessment-and-empiric-t1513/\nDocumento de origen: https://tegrity.ai/regime-aware-semantic-windows-mathematical-validation/\n\n"
 }

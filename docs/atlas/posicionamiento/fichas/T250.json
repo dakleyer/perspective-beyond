@@ -6,13 +6,20 @@
   "documentId": "doc-c8e1ea99d67fa12439",
   "sourceIds": [],
   "tagWeights": {
-    "cambio-regimen": 1.0
+    "cambio-regimen": 0.7059,
+    "movilidad": 0.2941
   },
   "clusters": [
     "tegrity"
   ],
-  "context": "## Regime Awareness Technology Component Roadmap\n\nEtiquetas: Cambios de régimen y alerta temprana 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/regime-awareness-technology-component-roadmap-t250/\nDocumento de origen: https://tegrity.ai/regime-awareness-roadmap/\n\n",
-  "tokens": 67,
+  "context": "## Regime Awareness Technology Component Roadmap\nRegime Awareness is Tegrity.AI’s concrete technology and operational capability for detecting when the operating conditions, assumptions or control structures behind a system’s recent behaviour are becoming invalid.\n\nIt is being developed as a minimal, domain-agnostic capability that can be adapted across environments where cascading effects, structural fragility and regime shifts matter, including AI systems, industrial operations, supply chains, cybersecurity, finance, logistics and critical infrastructures.\n\nIts core function is to help systems identify when the conditions behind their recent behaviour are no longer valid, so that guardrails, buffers and decision boundaries can be adjusted before instability propagates.\n\nThis matters because most current systems are optimised for stable conditions. They often perform well until the underlying regime changes, at which point models, thresholds, controls and assumptions can quickly become invalid. In many cases, the problem is not the absence of prediction, but the absence of Regime Awareness.\nEtiquetas: Cambios de régimen y alerta temprana 70.59%; Movilidad e infraestructura 29.41%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/regime-awareness-technology-component-roadmap-t250/\nDocumento de origen: https://tegrity.ai/regime-awareness-roadmap/\n\n",
+  "readingSource": {
+    "url": "https://tegrity.ai/regime-awareness-roadmap/",
+    "section": "Opening paragraphs",
+    "observed": "2026-11-04",
+    "sourceSha256": "6284d02eb27cb4fba0e73c1410c587329dd37e30d81bd766eb977d369257886a"
+  },
+  "tokens": 258,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -24,6 +31,27 @@
       "reading": "",
       "relationTokens": 21,
       "fichaTokens": 190,
+      "tagWeights": {
+        "agentes": 0.0216,
+        "autoridad": 0.0108,
+        "cambio-regimen": 0.4707,
+        "cartografia": 0.0725,
+        "casos": 0.0108,
+        "control-minimo": 0.0242,
+        "documentacion": 0.1988,
+        "empresa": 0.0134,
+        "estandares": 0.0216,
+        "evidencia": 0.0216,
+        "matematicas": 0.0216,
+        "movilidad": 0.0696,
+        "representacion": 0.032,
+        "transformacion": 0.0108
+      },
+      "clusters": [
+        "research",
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G06.json"
     },
     {
@@ -34,7 +62,17 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The next semantic-window assessment](https://tegrity.ai/regime-aware-semantic-windows-mathematical-validation/).",
       "relationTokens": 59,
-      "fichaTokens": 124,
+      "fichaTokens": 263,
+      "tagWeights": {
+        "cambio-regimen": 0.2593,
+        "evidencia": 0.1481,
+        "matematicas": 0.4074,
+        "perspectiva": 0.1852
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1513.json"
     }
   ]

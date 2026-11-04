@@ -1,5 +1,5 @@
 {
-  "schema": "perspective-beyond/positioning-v1",
+  "schema": "perspective-beyond/positioning-v1.1",
   "edition": "2026-11-04",
   "request": {
     "posicionamiento": "tegrity",
@@ -37,16 +37,16 @@
   },
   "budget": {
     "limit": 1000,
-    "used": 979,
-    "remaining": 21,
-    "nextBlock": 145,
+    "used": 512,
+    "remaining": 488,
+    "nextBlock": 860,
     "encoding": "o200k_base",
     "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
   },
   "reachable": 67,
-  "selected": 7,
-  "shown": 8,
-  "omittedByBudget": 60,
+  "selected": 3,
+  "shown": 4,
+  "omittedByBudget": 64,
   "omittedInDiagram": 0,
   "layers": [
     {
@@ -61,11 +61,13 @@
     },
     {
       "distance": 2,
-      "selected": 6,
-      "shown": 6
+      "selected": 2,
+      "shown": 2
     }
   ],
   "center": "doc-3365ae2ce02200034c-entrada",
+  "localCore": [],
+  "coreDocument": null,
   "nodes": [
     {
       "id": "doc-3365ae2ce02200034c-entrada",
@@ -124,6 +126,7 @@
         "tegrity"
       ],
       "tags": [
+        "agentes",
         "control-minimo",
         "decision",
         "documentacion",
@@ -142,14 +145,15 @@
         "T1230"
       ],
       "tagWeights": {
+        "agentes": 0.0568,
         "control-minimo": 0.0556,
-        "decision": 0.0556,
-        "documentacion": 0.1805,
+        "decision": 0.0555,
+        "documentacion": 0.1932,
         "estandares": 0.25,
-        "evidencia": 0.1805,
-        "navegacion": 0.2778
+        "evidencia": 0.1932,
+        "navegacion": 0.1957
       },
-      "contextTokens": 108,
+      "contextTokens": 119,
       "positionHeaderTokens": 35,
       "distance": 2,
       "parent": "T1573",
@@ -177,126 +181,18 @@
       "tagWeights": {
         "cambio-regimen": 1
       },
-      "contextTokens": 78,
+      "reading": "Document Status — Field Case · Series: Regime Awareness in Adaptive Systems , Paper 1\n\nThis article is a retrospective field-case reconstruction of engineering patterns that preceded the present Regime Awareness framework. It examines whether recurring control patterns across four operational settings can be formulated as a transferable, regime-aware decision architecture. The cases motivate that hypothesis; they do not by themselves establish domain-agnostic validity, predictive performance or causal effectiveness.",
+      "readingSource": {
+        "url": "https://tegrity.ai/evolution-of-regime-awareness-capability/",
+        "section": "Opening paragraphs",
+        "observed": "2026-11-04",
+        "sourceSha256": "b7b6b71fb07bf33fb8bc000f9ed3394aa2d187b13d5f57c6ec49f65c34d3ae98"
+      },
+      "readingSummary": "Document Status — Field Case · Series: Regime Awareness in Adaptive Systems , Paper 1\n\nThis article is a retrospective field-case reconstruction of engineering patterns that preceded the present Regime Awareness framework.",
+      "contextTokens": 163,
       "distance": 2,
       "parent": "T1573",
       "routeEdge": "navigation:position-nav-T1573-T1221",
-      "affinity": 1
-    },
-    {
-      "id": "T1387",
-      "type": "ficha",
-      "title": "Minimalistic Regime-Aware Early Warning Systems",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/minimalistic-regime-aware-early-warning-systems-t1387/",
-      "original": "https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/",
-      "aliases": [],
-      "clusters": [
-        "tegrity"
-      ],
-      "tags": [
-        "cambio-regimen"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-431e2eeef604eb7723",
-      "tagWeights": {
-        "cambio-regimen": 1
-      },
-      "contextTokens": 79,
-      "distance": 2,
-      "parent": "T1573",
-      "routeEdge": "navigation:position-nav-T1573-T1387",
-      "affinity": 1
-    },
-    {
-      "id": "T1499",
-      "type": "ficha",
-      "title": "Structural Awareness",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/structural-awareness-t1499/",
-      "original": "https://tegrity.ai/structural-awareness-program/",
-      "aliases": [],
-      "clusters": [
-        "tegrity"
-      ],
-      "tags": [
-        "documentacion",
-        "evidencia"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-45cb1f35df27295b6e",
-      "tagWeights": {
-        "documentacion": 0.5,
-        "evidencia": 0.5
-      },
-      "contextTokens": 68,
-      "distance": 2,
-      "parent": "T1573",
-      "routeEdge": "navigation:position-nav-T1573-T1499",
-      "affinity": 1
-    },
-    {
-      "id": "T1513",
-      "type": "ficha",
-      "title": "Regime-Aware Semantic Windows: Proposal for Mathematical Assessment and Empirical Validation",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/regime-aware-semantic-windows-proposal-for-mathematical-assessment-and-empiric-t1513/",
-      "original": "https://tegrity.ai/regime-aware-semantic-windows-mathematical-validation/",
-      "aliases": [],
-      "clusters": [
-        "tegrity"
-      ],
-      "tags": [
-        "cambio-regimen",
-        "evidencia",
-        "matematicas",
-        "perspectiva"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-79ceea8454acf4d719",
-      "tagWeights": {
-        "cambio-regimen": 0.2941,
-        "evidencia": 0.1177,
-        "matematicas": 0.2941,
-        "perspectiva": 0.2941
-      },
-      "contextTokens": 124,
-      "distance": 2,
-      "parent": "T1573",
-      "routeEdge": "navigation:position-nav-T1573-T1513",
-      "affinity": 1
-    },
-    {
-      "id": "T1709",
-      "type": "ficha",
-      "title": "Research Initiatives",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/research-initiatives-t1709/",
-      "original": "https://tegrity.ai/research-initiatives/",
-      "aliases": [],
-      "clusters": [
-        "tegrity"
-      ],
-      "tags": [
-        "documentacion"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-86e0595b3709434d22",
-      "tagWeights": {
-        "documentacion": 1
-      },
-      "contextTokens": 57,
-      "distance": 2,
-      "parent": "T1573",
-      "routeEdge": "navigation:position-nav-T1573-T1709",
       "affinity": 1
     }
   ],
@@ -326,60 +222,6 @@
       "reading": "Desde «Tegrity.AI», el enlace «field cases» abre «Regime Awareness: Capability Development Across Four Field Cases».",
       "evidence": "https://tegrity.ai/",
       "route": true
-    },
-    {
-      "id": "navigation:position-nav-T1573-T1387",
-      "from": "T1573",
-      "to": "T1387",
-      "kind": "lectura enlazada desde el documento",
-      "reading": "Desde «Tegrity.AI», el enlace «Good Enough EWS» abre «Minimalistic Regime-Aware Early Warning Systems».",
-      "evidence": "https://tegrity.ai/",
-      "route": true
-    },
-    {
-      "id": "navigation:position-nav-T1573-T1499",
-      "from": "T1573",
-      "to": "T1499",
-      "kind": "lectura enlazada desde el documento",
-      "reading": "Desde «Tegrity.AI», el enlace «Structural Awareness synthesis» abre «Structural Awareness».",
-      "evidence": "https://tegrity.ai/",
-      "route": true
-    },
-    {
-      "id": "navigation:position-nav-T1573-T1513",
-      "from": "T1573",
-      "to": "T1513",
-      "kind": "lectura enlazada desde el documento",
-      "reading": "Desde «Tegrity.AI», el enlace «H1–H3 validation proposal» abre «Regime-Aware Semantic Windows: Proposal for Mathematical Assessment and Empirical Validation».",
-      "evidence": "https://tegrity.ai/",
-      "route": true
-    },
-    {
-      "id": "navigation:position-nav-T1573-T1709",
-      "from": "T1573",
-      "to": "T1709",
-      "kind": "lectura enlazada desde el documento",
-      "reading": "Desde «Tegrity.AI», el enlace «Research Initiatives» abre «Research Initiatives».",
-      "evidence": "https://tegrity.ai/",
-      "route": true
-    },
-    {
-      "id": "apoyo:T1499:G31",
-      "from": "T1499",
-      "to": "G31",
-      "kind": "documenta el concepto",
-      "reading": "",
-      "evidence": null,
-      "route": false
-    },
-    {
-      "id": "documento:R196",
-      "from": "T1387",
-      "to": "T1513",
-      "kind": "editorial comparison",
-      "reading": "For a complementary reading, see [The H1–H3 mathematical and empirical validation proposal](https://tegrity.ai/regime-aware-semantic-windows-mathematical-validation/).",
-      "evidence": null,
-      "route": false
     }
   ],
   "selection": [
@@ -425,6 +267,7 @@
         "tegrity"
       ],
       "tags": [
+        "agentes",
         "control-minimo",
         "decision",
         "documentacion",
@@ -443,14 +286,15 @@
         "T1230"
       ],
       "tagWeights": {
+        "agentes": 0.0568,
         "control-minimo": 0.0556,
-        "decision": 0.0556,
-        "documentacion": 0.1805,
+        "decision": 0.0555,
+        "documentacion": 0.1932,
         "estandares": 0.25,
-        "evidencia": 0.1805,
-        "navegacion": 0.2778
+        "evidencia": 0.1932,
+        "navegacion": 0.1957
       },
-      "contextTokens": 108,
+      "contextTokens": 119,
       "positionHeaderTokens": 35,
       "distance": 2,
       "parent": "T1573",
@@ -478,128 +322,20 @@
       "tagWeights": {
         "cambio-regimen": 1
       },
-      "contextTokens": 78,
+      "reading": "Document Status — Field Case · Series: Regime Awareness in Adaptive Systems , Paper 1\n\nThis article is a retrospective field-case reconstruction of engineering patterns that preceded the present Regime Awareness framework. It examines whether recurring control patterns across four operational settings can be formulated as a transferable, regime-aware decision architecture. The cases motivate that hypothesis; they do not by themselves establish domain-agnostic validity, predictive performance or causal effectiveness.",
+      "readingSource": {
+        "url": "https://tegrity.ai/evolution-of-regime-awareness-capability/",
+        "section": "Opening paragraphs",
+        "observed": "2026-11-04",
+        "sourceSha256": "b7b6b71fb07bf33fb8bc000f9ed3394aa2d187b13d5f57c6ec49f65c34d3ae98"
+      },
+      "readingSummary": "Document Status — Field Case · Series: Regime Awareness in Adaptive Systems , Paper 1\n\nThis article is a retrospective field-case reconstruction of engineering patterns that preceded the present Regime Awareness framework.",
+      "contextTokens": 163,
       "distance": 2,
       "parent": "T1573",
       "routeEdge": "navigation:position-nav-T1573-T1221",
       "affinity": 1
-    },
-    {
-      "id": "T1387",
-      "type": "ficha",
-      "title": "Minimalistic Regime-Aware Early Warning Systems",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/minimalistic-regime-aware-early-warning-systems-t1387/",
-      "original": "https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/",
-      "aliases": [],
-      "clusters": [
-        "tegrity"
-      ],
-      "tags": [
-        "cambio-regimen"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-431e2eeef604eb7723",
-      "tagWeights": {
-        "cambio-regimen": 1
-      },
-      "contextTokens": 79,
-      "distance": 2,
-      "parent": "T1573",
-      "routeEdge": "navigation:position-nav-T1573-T1387",
-      "affinity": 1
-    },
-    {
-      "id": "T1499",
-      "type": "ficha",
-      "title": "Structural Awareness",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/structural-awareness-t1499/",
-      "original": "https://tegrity.ai/structural-awareness-program/",
-      "aliases": [],
-      "clusters": [
-        "tegrity"
-      ],
-      "tags": [
-        "documentacion",
-        "evidencia"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-45cb1f35df27295b6e",
-      "tagWeights": {
-        "documentacion": 0.5,
-        "evidencia": 0.5
-      },
-      "contextTokens": 68,
-      "distance": 2,
-      "parent": "T1573",
-      "routeEdge": "navigation:position-nav-T1573-T1499",
-      "affinity": 1
-    },
-    {
-      "id": "T1513",
-      "type": "ficha",
-      "title": "Regime-Aware Semantic Windows: Proposal for Mathematical Assessment and Empirical Validation",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/regime-aware-semantic-windows-proposal-for-mathematical-assessment-and-empiric-t1513/",
-      "original": "https://tegrity.ai/regime-aware-semantic-windows-mathematical-validation/",
-      "aliases": [],
-      "clusters": [
-        "tegrity"
-      ],
-      "tags": [
-        "cambio-regimen",
-        "evidencia",
-        "matematicas",
-        "perspectiva"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-79ceea8454acf4d719",
-      "tagWeights": {
-        "cambio-regimen": 0.2941,
-        "evidencia": 0.1177,
-        "matematicas": 0.2941,
-        "perspectiva": 0.2941
-      },
-      "contextTokens": 124,
-      "distance": 2,
-      "parent": "T1573",
-      "routeEdge": "navigation:position-nav-T1573-T1513",
-      "affinity": 1
-    },
-    {
-      "id": "T1709",
-      "type": "ficha",
-      "title": "Research Initiatives",
-      "url": "https://dakleyer.github.io/perspective-beyond/sources/research-initiatives-t1709/",
-      "original": "https://tegrity.ai/research-initiatives/",
-      "aliases": [],
-      "clusters": [
-        "tegrity"
-      ],
-      "tags": [
-        "documentacion"
-      ],
-      "summary": "",
-      "commit": null,
-      "sourcePath": null,
-      "commitUrl": null,
-      "documentId": "doc-86e0595b3709434d22",
-      "tagWeights": {
-        "documentacion": 1
-      },
-      "contextTokens": 57,
-      "distance": 2,
-      "parent": "T1573",
-      "routeEdge": "navigation:position-nav-T1573-T1709",
-      "affinity": 1
     }
   ],
-  "reading": "# Posicionamiento · Tegrity.AI\nDocumento de origen: https://tegrity.ai/\n\n## Tegrity.AI\nTegrity.AI is an applied research, engineering and pre-standardization group of The Integral Management Society , a Swiss non-profit association based in Geneva. It advances AI Integrity Management through research, architecture, the review and development of standards, and technology for the common good.\nEtiquetas: Control mínimo y suficiencia 22.22%; Decisiones y responsabilidad 22.22%; Índices, contacto y políticas 55.56%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/tegrity-ai-t1573/\nDocumento de origen: https://tegrity.ai/\n\nTegrity.AI → Tegrity.AI · documenta el concepto. \n\n## Tegrity.AI\nThe public research programme covers operational integrity, structural awareness and technical contributions.\nEtiquetas: Control mínimo y suficiencia 5.56%; Decisiones y responsabilidad 5.56%; Investigación y documentación técnica 18.05%; Estándares e interoperabilidad 25.00%; Evidencia, procedencia y atribución 18.05%; Índices, contacto y políticas 27.78%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/tegrity-ai/\n\nTegrity.AI → Regime Awareness: Capability Development Across Four Field Cases · lectura enlazada desde el documento. Desde «Tegrity.AI», el enlace «field cases» abre «Regime Awareness: Capability Development Across Four Field Cases».\nFuente de la relación: https://tegrity.ai/\n\n## Regime Awareness: Capability Development Across Four Field Cases\n\nEtiquetas: Cambios de régimen y alerta temprana 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/regime-awareness-capability-development-across-four-field-cases-t1221/\nDocumento de origen: https://tegrity.ai/evolution-of-regime-awareness-capability/\n\nTegrity.AI → Minimalistic Regime-Aware Early Warning Systems · lectura enlazada desde el documento. Desde «Tegrity.AI», el enlace «Good Enough EWS» abre «Minimalistic Regime-Aware Early Warning Systems».\nFuente de la relación: https://tegrity.ai/\n\n## Minimalistic Regime-Aware Early Warning Systems\n\nEtiquetas: Cambios de régimen y alerta temprana 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/minimalistic-regime-aware-early-warning-systems-t1387/\nDocumento de origen: https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/\n\nTegrity.AI → Structural Awareness · lectura enlazada desde el documento. Desde «Tegrity.AI», el enlace «Structural Awareness synthesis» abre «Structural Awareness».\nFuente de la relación: https://tegrity.ai/\n\n## Structural Awareness\n\nEtiquetas: Investigación y documentación técnica 50.00%; Evidencia, procedencia y atribución 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/structural-awareness-t1499/\nDocumento de origen: https://tegrity.ai/structural-awareness-program/\n\nTegrity.AI → Regime-Aware Semantic Windows: Proposal for Mathematical Assessment and Empirical Validation · lectura enlazada desde el documento. Desde «Tegrity.AI», el enlace «H1–H3 validation proposal» abre «Regime-Aware Semantic Windows: Proposal for Mathematical Assessment and Empirical Validation».\nFuente de la relación: https://tegrity.ai/\n\n## Regime-Aware Semantic Windows: Proposal for Mathematical Assessment and Empirical Validation\n\nEtiquetas: Cambios de régimen y alerta temprana 29.41%; Evidencia, procedencia y atribución 11.77%; Matemáticas 29.41%; Cambio de perspectiva 29.41%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/regime-aware-semantic-windows-proposal-for-mathematical-assessment-and-empiric-t1513/\nDocumento de origen: https://tegrity.ai/regime-aware-semantic-windows-mathematical-validation/\n\nTegrity.AI → Research Initiatives · lectura enlazada desde el documento. Desde «Tegrity.AI», el enlace «Research Initiatives» abre «Research Initiatives».\nFuente de la relación: https://tegrity.ai/\n\n## Research Initiatives\n\nEtiquetas: Investigación y documentación técnica 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/research-initiatives-t1709/\nDocumento de origen: https://tegrity.ai/research-initiatives/\n\n"
+  "reading": "# Posicionamiento · Tegrity.AI\nDocumento de origen: https://tegrity.ai/\n\n## Tegrity.AI\nTegrity.AI is an applied research, engineering and pre-standardization group of The Integral Management Society , a Swiss non-profit association based in Geneva. It advances AI Integrity Management through research, architecture, the review and development of standards, and technology for the common good.\nEtiquetas: Control mínimo y suficiencia 22.22%; Decisiones y responsabilidad 22.22%; Índices, contacto y políticas 55.56%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/tegrity-ai-t1573/\nDocumento de origen: https://tegrity.ai/\n\nTegrity.AI → Tegrity.AI · documenta el concepto. \n\n## Tegrity.AI\nThe public research programme covers operational integrity, structural awareness and technical contributions.\nEtiquetas: Agentes y coordinación distribuida 5.68%; Control mínimo y suficiencia 5.56%; Decisiones y responsabilidad 5.55%; Investigación y documentación técnica 19.32%; Estándares e interoperabilidad 25.00%; Evidencia, procedencia y atribución 19.32%; Índices, contacto y políticas 19.57%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/tegrity-ai/\n\nTegrity.AI → Regime Awareness: Capability Development Across Four Field Cases · lectura enlazada desde el documento. Desde «Tegrity.AI», el enlace «field cases» abre «Regime Awareness: Capability Development Across Four Field Cases».\nFuente de la relación: https://tegrity.ai/\n\n## Regime Awareness: Capability Development Across Four Field Cases\nDocument Status — Field Case · Series: Regime Awareness in Adaptive Systems , Paper 1\n\nThis article is a retrospective field-case reconstruction of engineering patterns that preceded the present Regime Awareness framework. It examines whether recurring control patterns across four operational settings can be formulated as a transferable, regime-aware decision architecture. The cases motivate that hypothesis; they do not by themselves establish domain-agnostic validity, predictive performance or causal effectiveness.\nEtiquetas: Cambios de régimen y alerta temprana 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/regime-awareness-capability-development-across-four-field-cases-t1221/\nDocumento de origen: https://tegrity.ai/evolution-of-regime-awareness-capability/\n\n"
 }

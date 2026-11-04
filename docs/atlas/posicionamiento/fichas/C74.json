@@ -9,19 +9,20 @@
     "T1425"
   ],
   "tagWeights": {
-    "aprendizaje": 0.04,
-    "capacidad-humana": 0.515,
-    "decision": 0.04,
-    "economia": 0.185,
-    "empresa": 0.04,
-    "evidencia": 0.08,
-    "experimentacion": 0.04,
-    "memoria-territorio": 0.06
+    "aprendizaje": 0.0271,
+    "capacidad-humana": 0.4257,
+    "decision": 0.0271,
+    "economia": 0.3175,
+    "empresa": 0.027,
+    "evidencia": 0.054,
+    "experimentacion": 0.0811,
+    "memoria-territorio": 0.0405
   },
   "clusters": [
     "tegrity"
   ],
-  "context": "## Ejecución y supervisión necesarias (NEO)\nWork can be required by responsibility, novelty, law or physical constraints.\nEtiquetas: Aprendizaje y transmisión de capacidades 4.00%; Capacidad humana y deuda de inteligencia 51.50%; Decisiones y responsabilidad 4.00%; Economía, costes y liquidez 18.50%; Empresa y gestión 4.00%; Evidencia, procedencia y atribución 8.00%; Experimentación, falsación y contraejemplos 4.00%; Memoria, comunidad y territorio 6.00%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/necessary-execution-and-oversight/\n\n",
+  "context": "## Ejecución y supervisión necesarias (NEO)\nWork can be required by responsibility, novelty, law or physical constraints.\nEtiquetas: Aprendizaje y transmisión de capacidades 2.71%; Capacidad humana y deuda de inteligencia 42.57%; Decisiones y responsabilidad 2.71%; Economía, costes y liquidez 31.75%; Empresa y gestión 2.70%; Evidencia, procedencia y atribución 5.40%; Experimentación, falsación y contraejemplos 8.11%; Memoria, comunidad y territorio 4.05%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/necessary-execution-and-oversight/\n\n",
+  "readingSource": null,
   "tokens": 145,
   "encoding": "o200k_base",
   "relations": [
@@ -33,7 +34,21 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 145,
+      "fichaTokens": 409,
+      "tagWeights": {
+        "aprendizaje": 0.0541,
+        "capacidad-humana": 0.3513,
+        "decision": 0.0541,
+        "economia": 0.1351,
+        "empresa": 0.054,
+        "evidencia": 0.1081,
+        "experimentacion": 0.1622,
+        "memoria-territorio": 0.0811
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1400.json"
     },
     {
@@ -44,7 +59,15 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 91,
+      "fichaTokens": 298,
+      "tagWeights": {
+        "capacidad-humana": 0.5,
+        "economia": 0.5
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1425.json"
     },
     {
@@ -56,6 +79,36 @@
       "reading": "Unpriced clarity may consume human effort, but only the task-level distinction between necessary work and fixable compensation can classify that effort as debt.",
       "relationTokens": 48,
       "fichaTokens": 257,
+      "tagWeights": {
+        "agentes": 0.0227,
+        "aprendizaje": 0.0059,
+        "autoridad": 0.0123,
+        "capacidad-humana": 0.1126,
+        "casos": 0.0221,
+        "control-minimo": 0.0305,
+        "decision": 0.0772,
+        "documentacion": 0.0313,
+        "economia": 0.2329,
+        "empresa": 0.1056,
+        "evidencia": 0.1037,
+        "experimentacion": 0.0145,
+        "integridad-ia": 0.0032,
+        "matematicas": 0.0074,
+        "memoria-territorio": 0.0263,
+        "movilidad": 0.0406,
+        "mundo-abierto": 0.0111,
+        "perspectiva": 0.015,
+        "representacion": 0.0266,
+        "transformacion": 0.0985
+      },
+      "clusters": [
+        "eu",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C32.json"
     },
     {
@@ -66,7 +119,23 @@
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 150,
+      "fichaTokens": 159,
+      "tagWeights": {
+        "aprendizaje": 0.018,
+        "capacidad-humana": 0.4814,
+        "decision": 0.018,
+        "documentacion": 0.0476,
+        "economia": 0.0451,
+        "empresa": 0.0597,
+        "evidencia": 0.1825,
+        "experimentacion": 0.1017,
+        "memoria-territorio": 0.027,
+        "transformacion": 0.019
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G21.json"
     }
   ]

@@ -13,6 +13,7 @@
     "mobility"
   ],
   "context": "## Car Evolution Mobility OS\nCities, authorities and operators already hold the data, the fleets, the routes and the channels. What is added is the layer that turns them into coordinated decisions, in real time.\nEtiquetas: Agentes y coordinación distribuida 16.67%; Movilidad e infraestructura 83.33%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-e1953/\nDocumento de origen: https://jubap.eu/mobility/\n\n",
+  "readingSource": null,
   "tokens": 105,
   "encoding": "o200k_base",
   "relations": [
@@ -24,7 +25,23 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 18,
-      "fichaTokens": 138,
+      "fichaTokens": 149,
+      "tagWeights": {
+        "agentes": 0.1051,
+        "autoridad": 0.0236,
+        "casos": 0.0586,
+        "decision": 0.0847,
+        "documentacion": 0.0389,
+        "economia": 0.0313,
+        "evidencia": 0.1037,
+        "memoria-territorio": 0.0384,
+        "movilidad": 0.5157
+      },
+      "clusters": [
+        "mobility",
+        "net"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G30.json"
     },
     {
@@ -35,7 +52,20 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The current Logistics and Mobility Unit](https://jubap.eu/mobility/).",
       "relationTokens": 52,
-      "fichaTokens": 176,
+      "fichaTokens": 433,
+      "tagWeights": {
+        "aprendizaje": 0.1786,
+        "control-minimo": 0.1429,
+        "decision": 0.0714,
+        "evidencia": 0.0714,
+        "experimentacion": 0.0714,
+        "memoria-territorio": 0.0714,
+        "movilidad": 0.3929
+      },
+      "clusters": [
+        "us"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1494.json"
     },
     {
@@ -46,7 +76,20 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The current Mobility Operating System unit](https://jubap.eu/mobility/).",
       "relationTokens": 40,
-      "fichaTokens": 118,
+      "fichaTokens": 353,
+      "tagWeights": {
+        "agentes": 0.0625,
+        "autoridad": 0.0625,
+        "casos": 0.2188,
+        "decision": 0.0625,
+        "economia": 0.1562,
+        "memoria-territorio": 0.0625,
+        "movilidad": 0.375
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1843.json"
     },
     {
@@ -57,7 +100,19 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [Mobility OS product boundary and architecture](https://jubap.eu/mobility/product/).",
       "relationTokens": 42,
-      "fichaTokens": 117,
+      "fichaTokens": 210,
+      "tagWeights": {
+        "agentes": 0.1111,
+        "autoridad": 0.0556,
+        "decision": 0.1389,
+        "documentacion": 0.1944,
+        "memoria-territorio": 0.0556,
+        "movilidad": 0.4444
+      },
+      "clusters": [
+        "mobility"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1954.json"
     },
     {
@@ -68,7 +123,15 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The xSeil operational lineage](https://jubap.net/jubap-net-xseil-whitepaper/).",
       "relationTokens": 48,
-      "fichaTokens": 82,
+      "fichaTokens": 379,
+      "tagWeights": {
+        "economia": 0.1429,
+        "movilidad": 0.8571
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1247.json"
     },
     {
@@ -79,7 +142,20 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [Tuxpan: urban-mobility engineering in 2010–2011](https://jubap.net/1843-2/).",
       "relationTokens": 52,
-      "fichaTokens": 118,
+      "fichaTokens": 353,
+      "tagWeights": {
+        "agentes": 0.0625,
+        "autoridad": 0.0625,
+        "casos": 0.2188,
+        "decision": 0.0625,
+        "economia": 0.1562,
+        "memoria-territorio": 0.0625,
+        "movilidad": 0.375
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1843.json"
     },
     {
@@ -90,7 +166,16 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [Minimum Sufficient Control for AI-enabled urban systems](https://tegrity.ai/minimum-sufficient-control-architecture-for-ai-enabled-urban-systems/).",
       "relationTokens": 57,
-      "fichaTokens": 83,
+      "fichaTokens": 290,
+      "tagWeights": {
+        "control-minimo": 0.5385,
+        "estandares": 0.2692,
+        "movilidad": 0.1923
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2729.json"
     },
     {
@@ -101,7 +186,15 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The Logistics and Mobility Unit](https://jubap.eu/mobility/).",
       "relationTokens": 36,
-      "fichaTokens": 59,
+      "fichaTokens": 243,
+      "tagWeights": {
+        "agentes": 0.3889,
+        "movilidad": 0.6111
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1886.json"
     },
     {
@@ -112,7 +205,16 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The current Mobility OS application route](https://jubap.eu/mobility/).",
       "relationTokens": 43,
-      "fichaTokens": 83,
+      "fichaTokens": 290,
+      "tagWeights": {
+        "control-minimo": 0.5385,
+        "estandares": 0.2692,
+        "movilidad": 0.1923
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2729.json"
     },
     {
@@ -123,7 +225,19 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The Logistics and Mobility application unit](https://jubap.eu/mobility/).",
       "relationTokens": 37,
-      "fichaTokens": 60,
+      "fichaTokens": 259,
+      "tagWeights": {
+        "agentes": 0.1471,
+        "cambio-regimen": 0.1471,
+        "decision": 0.147,
+        "empresa": 0.2059,
+        "experimentacion": 0.147,
+        "movilidad": 0.2059
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1781.json"
     },
     {
@@ -134,7 +248,14 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The current Logistics and Mobility Unit](https://jubap.eu/mobility/).",
       "relationTokens": 35,
-      "fichaTokens": 55,
+      "fichaTokens": 143,
+      "tagWeights": {
+        "documentacion": 1.0
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1777.json"
     },
     {
@@ -145,7 +266,19 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The wider mission-critical engineering capability](https://jubap.eu/orchestration-capabilities/).",
       "relationTokens": 39,
-      "fichaTokens": 60,
+      "fichaTokens": 259,
+      "tagWeights": {
+        "agentes": 0.1471,
+        "cambio-regimen": 0.1471,
+        "decision": 0.147,
+        "empresa": 0.2059,
+        "experimentacion": 0.147,
+        "movilidad": 0.2059
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1781.json"
     },
     {
@@ -156,7 +289,18 @@
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The field-to-pre-standardization case-study method](https://tegrity.ai/from-field-practice-to-pre-standardization-an-extensible-case-study-framework/).",
       "relationTokens": 63,
-      "fichaTokens": 105,
+      "fichaTokens": 342,
+      "tagWeights": {
+        "autoridad": 0.2,
+        "documentacion": 0.2,
+        "estandares": 0.32,
+        "evidencia": 0.2,
+        "experimentacion": 0.08
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2744.json"
     },
     {
@@ -168,6 +312,15 @@
       "reading": "El ámbito de movilidad permite comparar preguntas de coordinación con una arquitectura operativa actual.",
       "relationTokens": 34,
       "fichaTokens": 503,
+      "tagWeights": {
+        "casos": 0.2222,
+        "decision": 0.2222,
+        "movilidad": 0.5556
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-047.json"
     },
     {
@@ -179,6 +332,18 @@
       "reading": "En Car Evolution, coordinar capacidad existente plantea cómo componer compromisos de actores distintos. El modelo 00F propone un contraste para el caso en que dos decisiones válidas se vuelven incompatibles al compartir capacidad.",
       "relationTokens": 143,
       "fichaTokens": 235,
+      "tagWeights": {
+        "autoridad": 0.2,
+        "casos": 0.25,
+        "control-minimo": 0.25,
+        "decision": 0.2,
+        "empresa": 0.05,
+        "movilidad": 0.05
+      },
+      "clusters": [
+        "research"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-22e22fa636ea1e.json"
     },
     {
@@ -190,6 +355,17 @@
       "reading": "Desde «Car Evolution Mobility OS», el enlace «OÜ JUBAP / JubAp.eu» abre «JubAp.EU».",
       "relationTokens": 59,
       "fichaTokens": 115,
+      "tagWeights": {
+        "decision": 0.1,
+        "empresa": 0.45,
+        "navegacion": 0.05,
+        "perspectiva": 0.15,
+        "transformacion": 0.25
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E2.json"
     },
     {
@@ -201,6 +377,17 @@
       "reading": "Desde «Car Evolution Mobility OS», el enlace «JubAp.Net» abre «JubAp.Net».",
       "relationTokens": 52,
       "fichaTokens": 126,
+      "tagWeights": {
+        "capacidad-humana": 0.35,
+        "documentacion": 0.1,
+        "empresa": 0.25,
+        "navegacion": 0.05,
+        "transformacion": 0.25
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N2.json"
     },
     {
@@ -211,7 +398,15 @@
       "kind": "lectura enlazada desde el documento",
       "reading": "Desde «Car Evolution Mobility OS», el enlace «Mobility Operating System technical account» abre «Mobility Operating System».",
       "relationTokens": 54,
-      "fichaTokens": 59,
+      "fichaTokens": 243,
+      "tagWeights": {
+        "agentes": 0.3889,
+        "movilidad": 0.6111
+      },
+      "clusters": [
+        "eu"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1886.json"
     },
     {
@@ -222,7 +417,20 @@
       "kind": "lectura enlazada desde el documento",
       "reading": "Desde «Car Evolution Mobility OS», el enlace «Tuxpan case» abre «Tuxpan Urban Service Case Study».",
       "relationTokens": 59,
-      "fichaTokens": 118,
+      "fichaTokens": 353,
+      "tagWeights": {
+        "agentes": 0.0625,
+        "autoridad": 0.0625,
+        "casos": 0.2188,
+        "decision": 0.0625,
+        "economia": 0.1562,
+        "memoria-territorio": 0.0625,
+        "movilidad": 0.375
+      },
+      "clusters": [
+        "net"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1843.json"
     },
     {
@@ -234,6 +442,15 @@
       "reading": "Desde «Car Evolution Mobility OS», el enlace «Tegrity.AI» abre «Tegrity.AI».",
       "relationTokens": 56,
       "fichaTokens": 129,
+      "tagWeights": {
+        "control-minimo": 0.2222,
+        "decision": 0.2222,
+        "navegacion": 0.5556
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1573.json"
     },
     {
@@ -245,6 +462,13 @@
       "reading": "Desde «Car Evolution Mobility OS», el enlace «Tegrity.AI» abre «Research Contributions».",
       "relationTokens": 50,
       "fichaTokens": 56,
+      "tagWeights": {
+        "estandares": 1.0
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1687.json"
     },
     {
@@ -255,7 +479,16 @@
       "kind": "lectura enlazada desde el documento",
       "reading": "Desde «Car Evolution Mobility OS», el enlace «Working paper» abre «Minimum Sufficient Control Architecture for AI Enabled Urban Systems».",
       "relationTokens": 63,
-      "fichaTokens": 83,
+      "fichaTokens": 290,
+      "tagWeights": {
+        "control-minimo": 0.5385,
+        "estandares": 0.2692,
+        "movilidad": 0.1923
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2729.json"
     },
     {
@@ -266,7 +499,18 @@
       "kind": "lectura enlazada desde el documento",
       "reading": "Desde «Car Evolution Mobility OS», el enlace «Case-study method» abre «From Field Practice to Pre-Standardization: An Extensible Case-Study Framework».",
       "relationTokens": 76,
-      "fichaTokens": 105,
+      "fichaTokens": 342,
+      "tagWeights": {
+        "autoridad": 0.2,
+        "documentacion": 0.2,
+        "estandares": 0.32,
+        "evidencia": 0.2,
+        "experimentacion": 0.08
+      },
+      "clusters": [
+        "tegrity"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2744.json"
     }
   ]

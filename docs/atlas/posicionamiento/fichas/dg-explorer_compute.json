@@ -18,6 +18,7 @@
     "dialogos"
   ],
   "context": "## Exploración de marcos frente a fuerza computacional\nExplicitar o cambiar una estructura puede reducir trabajo de búsqueda dentro de ella.\nEtiquetas: Decisiones y responsabilidad 12.50%; Experimentación, falsación y contraejemplos 50.00%; Matemáticas 12.50%; Representación y límites formales 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-explorer_compute\n\n",
+  "readingSource": null,
   "tokens": 98,
   "encoding": "o200k_base",
   "relations": [
@@ -30,6 +31,13 @@
       "reading": "",
       "relationTokens": 32,
       "fichaTokens": 376,
+      "tagWeights": {
+        "experimentacion": 1.0
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-292.json"
     },
     {
@@ -41,6 +49,15 @@
       "reading": "",
       "relationTokens": 31,
       "fichaTokens": 390,
+      "tagWeights": {
+        "decision": 0.25,
+        "matematicas": 0.25,
+        "representacion": 0.5
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-293.json"
     },
     {
@@ -52,6 +69,23 @@
       "reading": "Explorar y explotar como operaciones distintas.",
       "relationTokens": 38,
       "fichaTokens": 178,
+      "tagWeights": {
+        "aprendizaje": 0.2413,
+        "capacidad-humana": 0.0267,
+        "decision": 0.0667,
+        "economia": 0.1143,
+        "empresa": 0.0222,
+        "experimentacion": 0.1333,
+        "geopolitica": 0.0333,
+        "integridad-ia": 0.0333,
+        "memoria-territorio": 0.14,
+        "perspectiva": 0.1667,
+        "transformacion": 0.0222
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-modes.json"
     },
     {
@@ -63,6 +97,19 @@
       "reading": "Detectar cambio de marco antes de optimizar.",
       "relationTokens": 39,
       "fichaTokens": 137,
+      "tagWeights": {
+        "autoridad": 0.2083,
+        "decision": 0.1607,
+        "documentacion": 0.0833,
+        "experimentacion": 0.1191,
+        "matematicas": 0.1786,
+        "representacion": 0.0833,
+        "transformacion": 0.1667
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-meta_discrimination.json"
     },
     {
@@ -74,6 +121,21 @@
       "reading": "Buena estructura transversal puede ahorrar búsqueda.",
       "relationTokens": 39,
       "fichaTokens": 151,
+      "tagWeights": {
+        "aprendizaje": 0.0875,
+        "decision": 0.0625,
+        "empresa": 0.3625,
+        "evidencia": 0.025,
+        "matematicas": 0.05,
+        "memoria-territorio": 0.0625,
+        "movilidad": 0.0625,
+        "representacion": 0.1,
+        "transformacion": 0.1875
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "concepto",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-practical_isomorphism.json"
     }
   ]
