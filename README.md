@@ -4,6 +4,12 @@
 
 Perspective Beyond connects the concepts, research, interventions and field cases that inform an architectural approach to action under incomplete evidence. Start with the guide or enter through a concept, case or source. Each relationship has a type, and its source or operating conditions appear where recorded.
 
+## Generate a relationship-radius map
+
+[Open the radius viewer](https://dakleyer.github.io/perspective-beyond/atlas/mapa/) | [See an embedded example](https://dakleyer.github.io/perspective-beyond/atlas/mapa/ejemplo.html) | [Read the URL protocol and CLI](docs/atlas/mapa/README.md)
+
+Start from an Atlas card, a concept, or a source URL. Choose how many relationship hops to follow and weight the topics that matter to the reading. The same calculation produces the interactive map and machine-readable JSON.
+
 ## Edit the atlas
 
 - `narrative/guide.md` holds the long-form reading guide. Link concept and source IDs using double brackets.

@@ -3,6 +3,7 @@ const get = id => document.getElementById(id);
 const modeLabels = {closed:'Cerrado',porous:'Poroso',federated:'Federado'};
 const pageRoot = new URL('./',location.href);
 const readURL = key => new URL('lectura/'+key+'.html',pageRoot).href;
+const radiusURL = (id,red='documentos') => new URL('mapa/?'+new URLSearchParams({centro:id,red}),pageRoot).href;
 const norm = t => t.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 function element(tag, text, cls) {
   const node = document.createElement(tag);
@@ -101,10 +102,11 @@ async function start() {
         box.append(heading,element('p',clusters[membership[item.id]][0]+' · '+item.kind));
         if(delta.editorial_cards[item.id]) box.append(element('p',delta.editorial_cards[item.id].summary));
         if(sourceTags[item.id].length)box.append(element('p',sourceTags[item.id].map(key=>topics[key].label).join(' · ')));
-        box.append(link(item.url,'Abrir original'));
+        box.append(link(item.url,'Abrir original'),document.createTextNode(' · '),link(radiusURL(item.id),'Mapa alrededor de esta ficha'));
       } else {
         heading.append(link(conceptPage(item),item.original_label||item.label));
-        box.append(heading,element('p',item.definition),link(item.url?conceptPage(item):new URL('../?focus='+encodeURIComponent(item.id)+'#atlas',pageRoot),'Ver en el grafo'));
+        box.append(heading,element('p',item.definition),link(item.url?conceptPage(item):new URL('../?focus='+encodeURIComponent(item.id)+'#atlas',pageRoot),'Ver en el grafo'),
+          document.createTextNode(' · '),link(radiusURL(item.id,'ideas'),'Mapa alrededor de este concepto'));
       }
       result.append(box);
     }
