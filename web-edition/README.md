@@ -33,3 +33,11 @@ dist/edicion/archivos.json conserva el tamaño y SHA-256 de cada archivo canóni
 [Metadatos de la publicación](publication.json).
 
 El archivo vacio de control de GitHub Pages conserva su contenido y se sirve mediante la ruta de texto indicada en el inventario de archivos.
+
+## Orientación antes del posicionamiento
+
+[Comprender el Atlas](https://tegrity.ai/atlas-orientation/) · [Mapa superior](https://perspective-beyond-atlas.carvedgem.chatgpt.site/orientacion/) · [Resumen para asistentes](https://perspective-beyond-atlas.carvedgem.chatgpt.site/orientacion/lectura.txt)
+
+Siete áreas agrupan los temas existentes; 36 puentes dirigidos resumen sus relaciones registradas. Las 1.566 fichas y conceptos mantienen su identidad y pueden participar en varias áreas. Once rutas por pregunta proponen dos o tres entradas concretas antes de pedir clúster, pesos y alcance a un visitante nuevo. Las configuraciones ya fijadas por el lector o su URL se conservan.
+
+`orientation.py` genera esta capa al terminar `build_web.py`. `check_orientation.py` comprueba cobertura, correspondencias, relaciones, diversidad de entradas y continuidad de la configuración. El modelo completo conserva la pertenencia de cada pieza y los identificadores de las relaciones agrupadas. El grafo original permanece intacto.

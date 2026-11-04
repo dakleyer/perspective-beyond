@@ -181,5 +181,7 @@ for start in range(0,len(all_html),1000):
 write('sitemap.xml','<?xml version="1.0" encoding="UTF-8"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<sitemap><loc>'+h(ORIGIN+p)+'</loc></sitemap>'for p in sitemaps)+'</sitemapindex>')
 write('robots.txt','User-agent: *\nAllow: /\n\nSitemap: '+ORIGIN+'/sitemap.xml\n')
 write('404.html','<!doctype html><html lang="es"><meta charset="utf-8"><title>Recorrer el Atlas</title><h1>Recorrer el Atlas</h1><p>'+a('/entrada/','Abrir la entrada de lectura del Atlas')+'</p></html>')
+from orientation import build as build_orientation
+build_orientation(ROOT)
 print(json.dumps(edition|{'newHTMLPages':len(html_paths),'totalFiles':sum(p.is_file()for p in OUT.rglob('*'))},ensure_ascii=False,indent=2))
 

@@ -1,0 +1,2383 @@
+{
+  "schema": "perspective-beyond/orientation-v1",
+  "sourceGraphSha256": "8733a98ca9844a1b5f85096f6b68c910bda9d1aed95e0192c359522a1a641ece",
+  "edition": "2026-11-04-mantenimiento-mapa-1",
+  "purpose": "Entender el corpus y elegir un posicionamiento antes de configurar el asistente.",
+  "publicEntry": "https://tegrity.ai/atlas-orientation/",
+  "configurationRule": "Conserva el objetivo, punto de entrada, modo, etiquetas, pesos y alcance ya indicados por el usuario o por su URL. En un modo cerrado, ofrece solamente fichas del clúster permitido. No vuelvas a pedir una selección ya resuelta.",
+  "flow": [
+    "Comprender el mapa superior",
+    "Formular la pregunta del visitante",
+    "Elegir un área y dos o tres fichas",
+    "Ajustar perspectiva, alcance y tokens",
+    "Abrir la lectura y revisar el posicionamiento"
+  ],
+  "distinction": {
+    "areas": "Qué pregunta o mecanismo quieres explorar.",
+    "clusters": "En qué contexto institucional, de práctica o de investigación aparece.",
+    "fichas": "Qué textos y casos sostienen esa lectura.",
+    "posicionamiento": "El documento o ficha concreto desde el que se empieza a recorrer."
+  },
+  "counts": {
+    "fichas": 1294,
+    "concepts": 272,
+    "relations": 11832,
+    "clusters": 10,
+    "tags": 29
+  },
+  "areas": [
+    {
+      "id": "perspectiva",
+      "title": "Cambiar la pregunta",
+      "question": "¿Qué estamos dejando fuera al formular el problema?",
+      "description": "Marcos de observación, representaciones, límites del conocimiento y traducción entre dominios.",
+      "tags": [
+        "perspectiva",
+        "representacion",
+        "mundo-abierto",
+        "cartografia"
+      ],
+      "seeds": [
+        "D-285",
+        "E1731",
+        "T1499"
+      ],
+      "primaryCount": 82,
+      "memberCount": 498,
+      "internalRelations": 94,
+      "clusters": {
+        "dialogos": 77,
+        "research": 364,
+        "imsv": 8,
+        "tegrity": 82,
+        "eu": 63,
+        "net": 74,
+        "latinoempresa": 31,
+        "us": 55,
+        "mobility": 14,
+        "totonacapan": 1
+      }
+    },
+    {
+      "id": "formalizacion",
+      "title": "Formalizar y contrastar",
+      "question": "¿Qué estructura se puede formular y qué observación permite examinarla?",
+      "description": "Modelos matemáticos, indeterminación, experimentos y procedencia de la evidencia.",
+      "tags": [
+        "matematicas",
+        "experimentacion",
+        "evidencia",
+        "documentacion"
+      ],
+      "seeds": [
+        "N1817",
+        "N1828",
+        "sac-0b460b7d138063"
+      ],
+      "primaryCount": 597,
+      "memberCount": 1047,
+      "internalRelations": 2568,
+      "clusters": {
+        "research": 773,
+        "tegrity": 152,
+        "dialogos": 102,
+        "latinoempresa": 52,
+        "eu": 92,
+        "net": 124,
+        "imsv": 3,
+        "us": 83,
+        "mobility": 27,
+        "totonacapan": 3
+      }
+    },
+    {
+      "id": "gobierno",
+      "title": "Gobernar decisiones",
+      "question": "¿Quién puede decidir y qué control resulta suficiente?",
+      "description": "Autoridad, delegación, responsabilidad, integridad de IA, estándares y legitimidad.",
+      "tags": [
+        "autoridad",
+        "decision",
+        "control-minimo",
+        "integridad-ia",
+        "estandares",
+        "legitimidad"
+      ],
+      "seeds": [
+        "T2729",
+        "GH021",
+        "T1475"
+      ],
+      "primaryCount": 287,
+      "memberCount": 822,
+      "internalRelations": 834,
+      "clusters": {
+        "research": 433,
+        "dialogos": 225,
+        "tegrity": 143,
+        "net": 122,
+        "imsv": 5,
+        "latinoempresa": 53,
+        "eu": 98,
+        "us": 81,
+        "mobility": 24,
+        "totonacapan": 1
+      }
+    },
+    {
+      "id": "intervencion",
+      "title": "Hacer que suceda",
+      "question": "¿Cómo pasar de la intención a una capacidad que funciona?",
+      "description": "Transformación, creación de valor, coordinación distribuida, movilidad y trabajo de campo.",
+      "tags": [
+        "empresa",
+        "transformacion",
+        "agentes",
+        "movilidad",
+        "compromisos",
+        "casos"
+      ],
+      "seeds": [
+        "E1628",
+        "N1274",
+        "N1805",
+        "U2"
+      ],
+      "primaryCount": 252,
+      "memberCount": 674,
+      "internalRelations": 701,
+      "clusters": {
+        "research": 296,
+        "mobility": 32,
+        "net": 143,
+        "eu": 108,
+        "dialogos": 158,
+        "tegrity": 141,
+        "totonacapan": 3,
+        "latinoempresa": 54,
+        "us": 93,
+        "imsv": 9
+      }
+    },
+    {
+      "id": "capacidad",
+      "title": "Conservar y transmitir capacidad",
+      "question": "¿Qué saben hacer las personas y cómo puede continuar esa capacidad?",
+      "description": "Conocimiento tácito, aprendizaje, deuda de inteligencia humana, comunidad y experiencia vivida.",
+      "tags": [
+        "capacidad-humana",
+        "aprendizaje",
+        "memoria-territorio",
+        "espiritualidad",
+        "encuentros"
+      ],
+      "seeds": [
+        "N1287",
+        "T874",
+        "T1472",
+        "np-coaching",
+        "D-018"
+      ],
+      "primaryCount": 178,
+      "memberCount": 492,
+      "internalRelations": 476,
+      "clusters": {
+        "dialogos": 228,
+        "imsv": 9,
+        "research": 128,
+        "totonacapan": 7,
+        "tegrity": 116,
+        "latinoempresa": 51,
+        "net": 108,
+        "us": 84,
+        "eu": 80,
+        "mobility": 23
+      }
+    },
+    {
+      "id": "adaptacion",
+      "title": "Sostener valor y adaptación",
+      "question": "¿Qué cambia de régimen y qué permite seguir operando?",
+      "description": "Economía, liquidez, alertas tempranas, restricciones y adaptación ante condiciones cambiantes.",
+      "tags": [
+        "economia",
+        "cambio-regimen",
+        "geopolitica",
+        "empresa",
+        "mundo-abierto"
+      ],
+      "seeds": [
+        "T1387",
+        "N1826",
+        "E1654",
+        "D-137"
+      ],
+      "primaryCount": 155,
+      "memberCount": 678,
+      "internalRelations": 349,
+      "clusters": {
+        "dialogos": 215,
+        "tegrity": 143,
+        "research": 281,
+        "imsv": 6,
+        "eu": 104,
+        "us": 91,
+        "net": 131,
+        "latinoempresa": 49,
+        "mobility": 22,
+        "totonacapan": 2
+      }
+    },
+    {
+      "id": "fuentes",
+      "title": "Encontrar las fuentes",
+      "question": "¿Dónde está el documento y cómo se recorre el corpus?",
+      "description": "Entradas, índices y localizadores de fuentes. Es una ayuda de navegación para los otros recorridos.",
+      "tags": [
+        "navegacion"
+      ],
+      "seeds": [
+        "N250",
+        "np-biografia"
+      ],
+      "primaryCount": 15,
+      "memberCount": 35,
+      "internalRelations": 0,
+      "clusters": {
+        "net": 9,
+        "eu": 9,
+        "us": 8,
+        "tegrity": 12,
+        "research": 5,
+        "latinoempresa": 1
+      }
+    }
+  ],
+  "bridges": [
+    {
+      "from": "adaptacion",
+      "to": "capacidad",
+      "count": 138,
+      "kinds": {
+        "documenta el concepto": 38,
+        "hypothesis": 2,
+        "candidate transfer": 4,
+        "analogy only": 3,
+        "editorial comparison": 2,
+        "lectura por concepto": 13,
+        "contrasta incentivos y efectos agregados": 1,
+        "referencia de la fuente": 19,
+        "conexión de la edición": 20,
+        "lectura por conceptos compartidos": 18,
+        "lectura editorial": 2,
+        "exige contraste": 1,
+        "necesita medición": 1,
+        "conserva el proceso de": 1,
+        "exige separar": 1,
+        "hace observable": 1,
+        "distingue niveles de": 1,
+        "restringe bienes antes comunes": 1,
+        "relación de ampliación v0.9": 5,
+        "relación de ampliación v0.10": 2,
+        "relación transversal propuesta v0.12": 2
+      },
+      "examples": [
+        {
+          "id": "concepto:F015",
+          "from": "C32",
+          "to": "C74",
+          "kind": "analogy only",
+          "reading": "Unpriced clarity may consume human effort, but only the task-level distinction between necessary work and fixable compensation can classify that effort as debt.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:G075",
+          "from": "C32",
+          "to": "C39",
+          "kind": "candidate transfer",
+          "reading": "The human cost of clarity includes keeping intervention capacity available, maintaining it and qualifying alternative information routes, not only time spent on a case.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:dgc-10",
+          "from": "dg-options",
+          "to": "dg-inner",
+          "kind": "lectura editorial",
+          "reading": "La atención permite advertir posibilidades antes de reaccionar desde una costumbre.",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "from": "adaptacion",
+      "to": "formalizacion",
+      "count": 263,
+      "kinds": {
+        "documenta el concepto": 33,
+        "candidate transfer": 3,
+        "documented use": 3,
+        "analogy only": 3,
+        "editorial comparison": 5,
+        "puente editorial": 1,
+        "formaliza el problema económico": 1,
+        "referencia de la fuente": 199,
+        "ruta de lectura": 2,
+        "conexión de la edición": 6,
+        "lectura por conceptos compartidos": 1,
+        "conceptual bridge": 4,
+        "hypothesis": 1,
+        "relación de ampliación v0.9": 1
+      },
+      "examples": [
+        {
+          "id": "concepto:D031",
+          "from": "C32",
+          "to": "C23",
+          "kind": "candidate transfer",
+          "reading": "The cost and disruption of validating assumptions can be made explicit within a reframing mandate.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:F013",
+          "from": "C32",
+          "to": "C69",
+          "kind": "analogy only",
+          "reading": "The cost of obtaining clarity and the contribution of the capability being examined require separate measures and independent interpretations.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:G086",
+          "from": "C32",
+          "to": "C47",
+          "kind": "candidate transfer",
+          "reading": "A cost-of-clarity comparison should expose its price and precision assumptions and retain the regions where directed evidence or a conventional route is preferable.",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "from": "adaptacion",
+      "to": "fuentes",
+      "count": 1,
+      "kinds": {
+        "referencia de la fuente": 1
+      },
+      "examples": [
+        {
+          "id": "documento:sac-rel-2798e861475bb7",
+          "from": "sac-e81dcdb1021761",
+          "to": "T1573",
+          "kind": "referencia de la fuente",
+          "reading": "La fuente enlaza esta lectura en «Open questions» con el rótulo «Tegrity.AI».",
+          "evidence": "https://github.com/dakleyer/structural-awareness-contributions/blob/db6d444867a27510c3e640e3e71904ae11b01fe4/research/regime-awareness/PROGRAMME_CONTEXT.md"
+        }
+      ]
+    },
+    {
+      "from": "adaptacion",
+      "to": "gobierno",
+      "count": 190,
+      "kinds": {
+        "documenta el concepto": 44,
+        "documented use": 3,
+        "candidate transfer": 3,
+        "hypothesis": 2,
+        "editorial comparison": 4,
+        "contraste": 1,
+        "lectura comparada": 1,
+        "lectura por concepto": 6,
+        "referencia de la fuente": 80,
+        "ruta de lectura": 1,
+        "conexión de la edición": 18,
+        "lectura por conceptos compartidos": 7,
+        "analogy only": 2,
+        "conceptual bridge": 6,
+        "lectura editorial": 1,
+        "busca facilitar": 1,
+        "pide pruebas de": 1,
+        "tuerce incentivos de": 1,
+        "puede elegirse desde": 1,
+        "separa perdón de": 1,
+        "miedo a sustituir la estructura": 1,
+        "control no garantiza legitimidad": 1,
+        "contrapone autenticidad y conservación": 1,
+        "relaciona poder y autocontrol": 1,
+        "relación de ampliación v0.10": 2
+      },
+      "examples": [
+        {
+          "id": "concepto:A021",
+          "from": "C93",
+          "to": "C94",
+          "kind": "analogy only",
+          "reading": "Decision-level dispersion and downstream coupling make the coordination-entropy discussion more precise by separating agreement burden from the propagation of a blocked decision.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:A031",
+          "from": "C98",
+          "to": "C84",
+          "kind": "analogy only",
+          "reading": "A reversible provisional declaration can help discover a route between current and target states, while keeping exploration separate from an irreversible ownership or retirement decision.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:D041",
+          "from": "C40",
+          "to": "C28",
+          "kind": "candidate transfer",
+          "reading": "The early-warning distinction between detection and response could clarify when an additional control helps or burdens operations.",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "from": "adaptacion",
+      "to": "intervencion",
+      "count": 144,
+      "kinds": {
+        "documenta el concepto": 41,
+        "analogy only": 6,
+        "candidate transfer": 4,
+        "documented use": 4,
+        "hypothesis": 1,
+        "editorial comparison": 7,
+        "lectura por concepto": 7,
+        "referencia de la fuente": 27,
+        "conexión de la edición": 24,
+        "lectura por conceptos compartidos": 8,
+        "puente de lectura": 3,
+        "lectura comparada de mecanismos": 1,
+        "conceptual bridge": 5,
+        "lectura editorial": 1,
+        "condiciona": 1,
+        "puede consumir": 1,
+        "requiere base material": 1,
+        "pregunta quién produce y quién cobra": 1,
+        "relación de ampliación v0.9": 1
+      },
+      "examples": [
+        {
+          "id": "concepto:A032",
+          "from": "C98",
+          "to": "C49",
+          "kind": "candidate transfer",
+          "reading": "The minimum-information lens turns an attractive target into an actionable transition question: what must be known, decided and authorized for the next move to become possible?",
+          "evidence": null
+        },
+        {
+          "id": "concepto:F036",
+          "from": "C83",
+          "to": "C03",
+          "kind": "analogy only",
+          "reading": "Upstream work should produce a focusable mission and explicit residual uncertainty before execution is compressed, with the cost of that preparation visible.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:dgc-11",
+          "from": "dg-economy",
+          "to": "dg-decision",
+          "kind": "lectura editorial",
+          "reading": "El coste de una opción y las obligaciones que deja abiertas condicionan la decisión.",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "from": "adaptacion",
+      "to": "perspectiva",
+      "count": 47,
+      "kinds": {
+        "documenta el concepto": 6,
+        "candidate transfer": 1,
+        "editorial comparison": 1,
+        "lectura complementaria": 1,
+        "referencia de la fuente": 26,
+        "conexión de la edición": 6,
+        "lectura por conceptos compartidos": 4,
+        "retroalimenta": 1,
+        "relación de ampliación v0.10": 1
+      },
+      "examples": [
+        {
+          "id": "concepto:dgc-source-R-004",
+          "from": "dg-boundaries",
+          "to": "dg-perspective",
+          "kind": "retroalimenta",
+          "reading": "Lo vivido en otras culturas puede revisar el marco inicial de mirada.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:dgc-source-R-226",
+          "from": "dg-distributed_meaning",
+          "to": "dg-perspective",
+          "kind": "relación de ampliación v0.10",
+          "reading": "Los actores organizan imágenes diferentes del mismo negocio.",
+          "evidence": null
+        },
+        {
+          "id": "documento:D031",
+          "from": "T1421",
+          "to": "E1731",
+          "kind": "candidate transfer",
+          "reading": "The cost and disruption of validating assumptions can be made explicit within a reframing mandate.",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "from": "capacidad",
+      "to": "adaptacion",
+      "count": 108,
+      "kinds": {
+        "documenta el concepto": 33,
+        "candidate transfer": 1,
+        "aplicación": 1,
+        "lectura por concepto": 14,
+        "referencia de la fuente": 9,
+        "conexión de la edición": 19,
+        "lectura por conceptos compartidos": 12,
+        "puente de lectura": 1,
+        "analogy only": 1,
+        "se pone a prueba en": 1,
+        "reformula": 1,
+        "afecta": 1,
+        "traduce": 1,
+        "puede limitar": 1,
+        "recupera genealogía de": 1,
+        "se flexibiliza con": 1,
+        "poder no representar": 1,
+        "hace visible el coste del estatus": 1,
+        "construye autenticidad por integración": 1,
+        "evita repetir la victoria": 1,
+        "relación de ampliación v0.9": 3,
+        "relación de ampliación v0.10": 1,
+        "relación de ampliación v0.11": 2
+      },
+      "examples": [
+        {
+          "id": "concepto:M016",
+          "from": "C36",
+          "to": "C32",
+          "kind": "analogy only",
+          "reading": "The minimum information for an architecture decision may include an operator's situated judgment, making its acquisition a real project cost.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:dgc-source-R-003",
+          "from": "dg-learning",
+          "to": "dg-boundaries",
+          "kind": "se pone a prueba en",
+          "reading": "Los viajes y los encuentros exponen límites de la propia interpretación.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:dgc-source-R-020",
+          "from": "dg-inner",
+          "to": "dg-options",
+          "kind": "reformula",
+          "reading": "Atención al presente y elección futura se influyen mutuamente.",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "from": "capacidad",
+      "to": "formalizacion",
+      "count": 170,
+      "kinds": {
+        "documenta el concepto": 36,
+        "analogy only": 4,
+        "candidate transfer": 5,
+        "editorial comparison": 2,
+        "lectura por concepto": 1,
+        "referencia de la fuente": 90,
+        "conexión de la edición": 10,
+        "lectura por conceptos compartidos": 11,
+        "puente de lectura": 1,
+        "conceptual bridge": 3,
+        "lectura editorial": 1,
+        "recibe instrumentos de": 1,
+        "relación de ampliación v0.9": 4,
+        "relación de ampliación v0.10": 1
+      },
+      "examples": [
+        {
+          "id": "concepto:A027",
+          "from": "C39",
+          "to": "C91",
+          "kind": "candidate transfer",
+          "reading": "The talent-formation model suggests how coherence-carrying capacity could be cultivated and observed through work rather than inferred from credentials or headcount.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:A043",
+          "from": "C36",
+          "to": "C91",
+          "kind": "candidate transfer",
+          "reading": "Tacit-knowledge transmission offers a practical route for making activation capacity less dependent on a few irreplaceable carriers at the critical moment.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:B016",
+          "from": "C106",
+          "to": "C33",
+          "kind": "candidate transfer",
+          "reading": "The attribution protocol could help distinguish symbolic prestige from the budget, ownership and decision rights needed to keep an exploratory capability operational.",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "from": "capacidad",
+      "to": "gobierno",
+      "count": 143,
+      "kinds": {
+        "documenta el concepto": 56,
+        "hypothesis": 2,
+        "editorial comparison": 1,
+        "transmisión": 1,
+        "lectura por concepto": 4,
+        "permite contrastar otra aplicación": 1,
+        "referencia de la fuente": 16,
+        "conexión de la edición": 26,
+        "lectura por conceptos compartidos": 13,
+        "lectura comparada entre clústeres": 1,
+        "analogy only": 1,
+        "candidate transfer": 1,
+        "lectura editorial": 4,
+        "exige": 1,
+        "profundiza": 1,
+        "obliga a precisar": 1,
+        "requiere permisos de": 1,
+        "propone criterios de": 1,
+        "evalúa fin y requisito": 1,
+        "revisa la siguiente batalla": 1,
+        "relación de ampliación v0.9": 4,
+        "relación de ampliación v0.10": 1,
+        "relación de ampliación v0.11": 2,
+        "relación transversal propuesta v0.12": 2
+      },
+      "examples": [
+        {
+          "id": "concepto:B013",
+          "from": "C106",
+          "to": "C110",
+          "kind": "analogy only",
+          "reading": "The frontier cycle raises a governance question for compression and expansion: how can scaling retain the ability to explore without treating every expansion as extraction?",
+          "evidence": null
+        },
+        {
+          "id": "concepto:B014",
+          "from": "C106",
+          "to": "C92",
+          "kind": "hypothesis",
+          "reading": "A possible operational test is whether selective decoupling preserves room for exploration while reducing coordination that blocks action across the network.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:G054",
+          "from": "C39",
+          "to": "C26",
+          "kind": "candidate transfer",
+          "reading": "Human accountability requires effective intervention capacity as well as authority; a nominal approval does not repair an unsupported or time-expired decision.",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "from": "capacidad",
+      "to": "intervencion",
+      "count": 157,
+      "kinds": {
+        "documenta el concepto": 44,
+        "candidate transfer": 8,
+        "hypothesis": 2,
+        "documented use": 3,
+        "analogy only": 11,
+        "editorial comparison": 5,
+        "comparación": 1,
+        "lectura comparada": 1,
+        "lectura por concepto": 6,
+        "puente editorial": 1,
+        "referencia de la fuente": 7,
+        "conexión de la edición": 29,
+        "lectura por conceptos compartidos": 16,
+        "puente de lectura": 1,
+        "lectura comparada de mecanismos": 2,
+        "lectura comparada entre clústeres": 3,
+        "conceptual bridge": 1,
+        "lectura editorial": 1,
+        "plantea el reto de": 1,
+        "requiere distinguir": 1,
+        "modula": 1,
+        "hace visible un límite de": 1,
+        "protege sin apropiarse": 1,
+        "contrasta reconocimiento y trabajo": 1,
+        "registra la pérdida silenciosa": 1,
+        "añade la otra cara de escalar": 1,
+        "comprueba capacidad operativa": 1,
+        "expone extracción de expertos": 1,
+        "relación de ampliación v0.9": 2,
+        "relación de ampliación v0.11": 1,
+        "relación transversal propuesta v0.12": 2
+      },
+      "examples": [
+        {
+          "id": "concepto:A018",
+          "from": "C36",
+          "to": "C90",
+          "kind": "documented use",
+          "reading": "The Texas-to-Mexico case makes regional capability formation tangible through local roles, acceptance criteria and operating records that let the receiving team execute in its own context.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:B015",
+          "from": "C106",
+          "to": "C107",
+          "kind": "analogy only",
+          "reading": "The invisible-talent model offers a useful counterpoint to symbolic celebration: capability remains alive through formation, operational missions and opportunities to exercise judgment.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:B040",
+          "from": "C36",
+          "to": "C58",
+          "kind": "analogy only",
+          "reading": "The ceramics encounter can illustrate situated transmission, while the tacit-knowledge model supplies questions for observing practice and later independent judgment.",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "from": "capacidad",
+      "to": "perspectiva",
+      "count": 34,
+      "kinds": {
+        "documenta el concepto": 7,
+        "fundamento": 1,
+        "comparación": 1,
+        "lectura por concepto": 1,
+        "referencia de la fuente": 3,
+        "conexión de la edición": 8,
+        "lectura por conceptos compartidos": 9,
+        "revisita": 1,
+        "da un punto de partida a": 1,
+        "replantea la pregunta": 1,
+        "relación de ampliación v0.10": 1
+      },
+      "examples": [
+        {
+          "id": "concepto:dgc-source-R-024",
+          "from": "dg-structure",
+          "to": "dg-perspective",
+          "kind": "revisita",
+          "reading": "La investigación actual reelabora preguntas antiguas, sin atribución retroactiva.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:dgc-source-R-053",
+          "from": "dg-identity",
+          "to": "dg-perspective",
+          "kind": "da un punto de partida a",
+          "reading": "La experiencia de sí condiciona el marco de observación.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:dgc-source-R-094",
+          "from": "dg-dialogue_logic",
+          "to": "dg-perspective",
+          "kind": "replantea la pregunta",
+          "reading": "Importa el fin que motivó un dato pedido.",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "from": "formalizacion",
+      "to": "adaptacion",
+      "count": 270,
+      "kinds": {
+        "documenta el concepto": 7,
+        "hypothesis": 4,
+        "candidate transfer": 2,
+        "editorial comparison": 2,
+        "lectura por concepto": 1,
+        "referencia de la fuente": 237,
+        "ruta de lectura": 5,
+        "conexión de la edición": 4,
+        "lectura por conceptos compartidos": 4,
+        "analogy only": 1,
+        "conceptual bridge": 3
+      },
+      "examples": [
+        {
+          "id": "concepto:F025",
+          "from": "C82",
+          "to": "C32",
+          "kind": "analogy only",
+          "reading": "The capture-to-architecture step helps target the minimum information needed for a decision rather than treating complete documentation as the prerequisite for all action.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:G092",
+          "from": "C124",
+          "to": "C32",
+          "kind": "candidate transfer",
+          "reading": "Compare evidence precision and provenance before pricing the procedures; a favorable price assumption must not be reported as an architectural advantage.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:M036",
+          "from": "C12",
+          "to": "C32",
+          "kind": "hypothesis",
+          "reading": "Maintained operational tracking could lower the cost of answering selected questions, provided its own maintenance burden is counted.",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "from": "formalizacion",
+      "to": "capacidad",
+      "count": 284,
+      "kinds": {
+        "documenta el concepto": 33,
+        "candidate transfer": 5,
+        "documented use": 1,
+        "hypothesis": 5,
+        "editorial comparison": 3,
+        "relectura": 1,
+        "lectura por concepto": 2,
+        "contrasta la especificación": 1,
+        "separa dos tipos de medición": 1,
+        "referencia de la fuente": 161,
+        "ruta de lectura": 1,
+        "conexión de la edición": 30,
+        "lectura por conceptos compartidos": 4,
+        "lectura comparada de mecanismos": 2,
+        "lectura comparada entre clústeres": 1,
+        "analogy only": 3,
+        "conceptual bridge": 8,
+        "lectura editorial": 1,
+        "cuestiona supuestos de": 1,
+        "contrasta": 1,
+        "afina distinción de": 1,
+        "puede entrenarse mediante": 1,
+        "se expone a": 1,
+        "separa gesto público de": 1,
+        "ubica el evento previo": 1,
+        "sobrevive a rectificaciones": 1,
+        "muestra el camino del argumento": 1,
+        "prueba desviaciones positivas": 1,
+        "retiene objeciones": 1,
+        "ancla ideas en prácticas": 1,
+        "ancla en resultados": 1,
+        "relación de ampliación v0.9": 2,
+        "relación de ampliación v0.10": 1,
+        "relación de ampliación v0.11": 3,
+        "relación transversal propuesta v0.12": 2
+      },
+      "examples": [
+        {
+          "id": "concepto:A029",
+          "from": "C91",
+          "to": "C77",
+          "kind": "analogy only",
+          "reading": "Carrier availability at an activation threshold and the HID recovery coefficient answer different questions: who can respond now, and what capability returns after the architecture changes.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:A038",
+          "from": "C12",
+          "to": "C75",
+          "kind": "candidate transfer",
+          "reading": "Reusable audit evidence provides a concrete setting for distinguishing avoidable reconstruction from necessary assurance, while measuring the net work of maintaining the shared evidence model.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:D027",
+          "from": "C69",
+          "to": "C70",
+          "kind": "candidate transfer",
+          "reading": "An anti-circularity design would separate evidence of technical contribution from evidence of organizational recognition.",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "from": "formalizacion",
+      "to": "gobierno",
+      "count": 952,
+      "kinds": {
+        "documenta el concepto": 50,
+        "candidate transfer": 8,
+        "analogy only": 13,
+        "hypothesis": 4,
+        "documented use": 2,
+        "editorial comparison": 2,
+        "distingue preguntas formales": 1,
+        "explica el resultado": 1,
+        "separa corrección y prueba": 1,
+        "referencia de la fuente": 792,
+        "ruta de lectura": 7,
+        "conexión de la edición": 21,
+        "lectura por conceptos compartidos": 4,
+        "conceptual bridge": 32,
+        "no debe convertirse en": 1,
+        "relativiza monopolios": 1,
+        "califica qué valida un registro": 1,
+        "incorpora el entorno físico": 1,
+        "distingue atribución y aporte": 1,
+        "formula insolvencia por cumplimiento": 1,
+        "relación de ampliación v0.9": 2,
+        "relación de ampliación v0.10": 1,
+        "relación de ampliación v0.11": 4,
+        "relación transversal propuesta v0.12": 1
+      },
+      "examples": [
+        {
+          "id": "concepto:A039",
+          "from": "C53",
+          "to": "C15",
+          "kind": "candidate transfer",
+          "reading": "Evidence reuse across audits should carry purpose, scope, version and access conditions, so a reusable record does not become an unrestricted or context-free assertion.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:B030",
+          "from": "C68",
+          "to": "C105",
+          "kind": "candidate transfer",
+          "reading": "The maturity model could make the institutional claim more inspectable by asking which practices, memory and responsibilities continue beyond an individual intervention.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:D017",
+          "from": "C24",
+          "to": "C25",
+          "kind": "candidate transfer",
+          "reading": "Portfolio confidence should preserve unresolved critical dependencies rather than average them away across units.",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "from": "formalizacion",
+      "to": "intervencion",
+      "count": 491,
+      "kinds": {
+        "documenta el concepto": 52,
+        "candidate transfer": 18,
+        "hypothesis": 5,
+        "analogy only": 18,
+        "documented use": 6,
+        "editorial comparison": 12,
+        "lectura por concepto": 1,
+        "referencia de la fuente": 320,
+        "ruta de lectura": 7,
+        "conexión de la edición": 17,
+        "puente de lectura": 1,
+        "conceptual bridge": 27,
+        "lectura editorial": 1,
+        "aporta instrumentos": 1,
+        "exige revisar el mapa antes de actuar": 1,
+        "busca portadores de capacidad": 1,
+        "relación transversal propuesta v0.12": 3
+      },
+      "examples": [
+        {
+          "id": "concepto:A019",
+          "from": "C102",
+          "to": "C57",
+          "kind": "analogy only",
+          "reading": "Field capability and programme performance belong to different levels; the Chicontepec integration case adds the contractual, territorial and governance conditions between them.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:B023",
+          "from": "C103",
+          "to": "C51",
+          "kind": "analogy only",
+          "reading": "The HR architecture case offers a concrete comparison: a shared operating core can coexist with locally necessary rules rather than erasing every difference.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:B024",
+          "from": "C103",
+          "to": "C27",
+          "kind": "candidate transfer",
+          "reading": "A generative boundary can inspire an interface design that shares enough context for safe coordination without requiring both sides to adopt an identical internal model.",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "from": "formalizacion",
+      "to": "perspectiva",
+      "count": 292,
+      "kinds": {
+        "documenta el concepto": 3,
+        "candidate transfer": 1,
+        "editorial comparison": 1,
+        "examina la formulación": 1,
+        "referencia de la fuente": 277,
+        "ruta de lectura": 1,
+        "conexión de la edición": 1,
+        "lectura por conceptos compartidos": 3,
+        "conceptual bridge": 2,
+        "organiza varias perspectivas": 1,
+        "relación de ampliación v0.11": 1
+      },
+      "examples": [
+        {
+          "id": "concepto:dgc-source-R-185",
+          "from": "dg-semantic_graph",
+          "to": "dg-perspective",
+          "kind": "organiza varias perspectivas",
+          "reading": "Una etiqueta aislada no conserva conexiones.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:dgc-source-R-289",
+          "from": "dg-epistemic_increment",
+          "to": "dg-inspiration_discipline",
+          "kind": "relación de ampliación v0.11",
+          "reading": "Una idea puede sobrevivir a una revisión.",
+          "evidence": null
+        },
+        {
+          "id": "documento:D062",
+          "from": "T2795",
+          "to": "E1731",
+          "kind": "candidate transfer",
+          "reading": "Assumption validation becomes more inspectable when each frame includes an explicit condition that could overturn it.",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "from": "fuentes",
+      "to": "formalizacion",
+      "count": 2,
+      "kinds": {
+        "documenta el concepto": 2
+      },
+      "examples": [
+        {
+          "id": "apoyo:T1573:C24",
+          "from": "T1573",
+          "to": "C24",
+          "kind": "documenta el concepto",
+          "reading": "",
+          "evidence": null
+        },
+        {
+          "id": "apoyo:T1573:G31",
+          "from": "T1573",
+          "to": "G31",
+          "kind": "documenta el concepto",
+          "reading": "",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "from": "fuentes",
+      "to": "gobierno",
+      "count": 2,
+      "kinds": {
+        "documenta el concepto": 1,
+        "ruta de lectura": 1
+      },
+      "examples": [
+        {
+          "id": "documento:sac-rel-122a34aff08c7e",
+          "from": "sac-fc241a437f549d",
+          "to": "sac-987cc3e29f01d1",
+          "kind": "ruta de lectura",
+          "reading": "El índice de la carpeta sitúa este documento dentro de su línea de trabajo.",
+          "evidence": "https://github.com/dakleyer/structural-awareness-contributions/blob/db6d444867a27510c3e640e3e71904ae11b01fe4/submissions/unece-wp5/2026-riviera-maya-msc/WP5_Riviera_Maya_MSC_Case_Note.docx"
+        },
+        {
+          "id": "apoyo:T1573:C25",
+          "from": "T1573",
+          "to": "C25",
+          "kind": "documenta el concepto",
+          "reading": "",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "from": "fuentes",
+      "to": "intervencion",
+      "count": 1,
+      "kinds": {
+        "candidate transfer": 1
+      },
+      "examples": [
+        {
+          "id": "documento:D017",
+          "from": "T1573",
+          "to": "E1654",
+          "kind": "candidate transfer",
+          "reading": "Portfolio confidence should preserve unresolved critical dependencies rather than average them away across units.",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "from": "gobierno",
+      "to": "adaptacion",
+      "count": 121,
+      "kinds": {
+        "documenta el concepto": 23,
+        "analogy only": 6,
+        "documented use": 1,
+        "candidate transfer": 3,
+        "hypothesis": 2,
+        "editorial comparison": 5,
+        "lectura por concepto": 7,
+        "referencia de la fuente": 53,
+        "conexión de la edición": 7,
+        "lectura por conceptos compartidos": 6,
+        "conceptual bridge": 1,
+        "limita y protege": 1,
+        "atraviesa": 1,
+        "interroga": 1,
+        "puede explotar": 1,
+        "puede transferir poder hacia": 1,
+        "puede transformarse en cuota": 1,
+        "tensiona la soberanía": 1
+      },
+      "examples": [
+        {
+          "id": "concepto:D044",
+          "from": "C25",
+          "to": "C32",
+          "kind": "hypothesis",
+          "reading": "A bounded diagnostic could test when additional determination still has material decision value before the intervention window closes.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:F018",
+          "from": "C15",
+          "to": "C40",
+          "kind": "analogy only",
+          "reading": "A regime signal matters operationally only when its evidence, response window and authorized action are specified, not merely when another alarm layer is added.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:dgc-source-R-008",
+          "from": "dg-care",
+          "to": "dg-options",
+          "kind": "limita y protege",
+          "reading": "La libertad propia se ejerce junto a responsabilidades hacia otros.",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "from": "gobierno",
+      "to": "capacidad",
+      "count": 157,
+      "kinds": {
+        "documenta el concepto": 45,
+        "analogy only": 3,
+        "documented use": 3,
+        "candidate transfer": 4,
+        "editorial comparison": 3,
+        "comparación": 1,
+        "lectura por concepto": 5,
+        "compara el uso de registros de procedencia": 1,
+        "referencia de la fuente": 31,
+        "conexión de la edición": 30,
+        "lectura por conceptos compartidos": 8,
+        "hypothesis": 1,
+        "lectura editorial": 1,
+        "revela": 1,
+        "devuelve voz a": 1,
+        "desvela": 1,
+        "conecta": 1,
+        "acota la autoridad de": 1,
+        "puede cerrarse prematuramente ante": 1,
+        "se revisa mediante": 1,
+        "requiere un mapa de": 1,
+        "puede fructificar a través de": 1,
+        "dialoga con": 1,
+        "conserva abierta": 1,
+        "no equivale a": 1,
+        "reabre la pregunta por": 1,
+        "separa identidad de tendencia": 1,
+        "separa preguntas y veredicto": 1,
+        "admite ensayo sin castigo": 1,
+        "contrasta examen y anonimato": 1,
+        "relación de ampliación v0.10": 1,
+        "relación de ampliación v0.11": 2,
+        "relación transversal propuesta v0.12": 1
+      },
+      "examples": [
+        {
+          "id": "concepto:F003",
+          "from": "C71",
+          "to": "C75",
+          "kind": "documented use",
+          "reading": "The oversight-threshold study tests whether added review and reconciliation outweigh removed work, rather than treating guardrail count as a measure of debt.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:F029",
+          "from": "C86",
+          "to": "C75",
+          "kind": "hypothesis",
+          "reading": "A common decision core may reduce human-as-API work, provided the cost of maintaining and qualifying that core is included in the comparison.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:dgc-18",
+          "from": "dg-trust",
+          "to": "dg-tacit",
+          "kind": "lectura editorial",
+          "reading": "La confianza facilita que circule el juicio práctico entre personas.",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "from": "gobierno",
+      "to": "formalizacion",
+      "count": 819,
+      "kinds": {
+        "documenta el concepto": 61,
+        "candidate transfer": 5,
+        "analogy only": 23,
+        "documented use": 5,
+        "editorial comparison": 5,
+        "localiza el desacople": 1,
+        "compara qué obliga a recalcular": 1,
+        "referencia de la fuente": 664,
+        "ruta de lectura": 9,
+        "conexión de la edición": 15,
+        "lectura por conceptos compartidos": 2,
+        "puente de lectura": 3,
+        "hypothesis": 2,
+        "conceptual bridge": 17,
+        "reconstruye vínculos entre marcos": 1,
+        "relación de ampliación v0.11": 4,
+        "relación transversal propuesta v0.12": 1
+      },
+      "examples": [
+        {
+          "id": "concepto:A005",
+          "from": "C71",
+          "to": "C80",
+          "kind": "analogy only",
+          "reading": "The rejected turnstile is a field example of why control value must include its effect on the operating flow, alongside the work and risk it removes.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:A013",
+          "from": "C25",
+          "to": "C80",
+          "kind": "analogy only",
+          "reading": "Good-enough occupancy is decision-specific: evidence sufficient for coordination must be requalified before it is reused for accounting, enforcement or another commitment.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:A023",
+          "from": "C94",
+          "to": "C80",
+          "kind": "analogy only",
+          "reading": "Reach-weighted latency can operationalize one aspect of informational friction, but the causal loss from a divergent map must still be separated from necessary waiting and other delays.",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "from": "gobierno",
+      "to": "fuentes",
+      "count": 2,
+      "kinds": {
+        "referencia de la fuente": 2
+      },
+      "examples": [
+        {
+          "id": "documento:sac-rel-10bd2204f52044",
+          "from": "sac-987cc3e29f01d1",
+          "to": "sac-fc241a437f549d",
+          "kind": "referencia de la fuente",
+          "reading": "La fuente enlaza esta lectura en «Files» con el rótulo «WP5_Riviera_Maya_MSC_Case_Note.docx».",
+          "evidence": "https://github.com/dakleyer/structural-awareness-contributions/blob/c6a8fb07b13a308ff06929c778bd497dc79ea824/submissions/unece-wp5/2026-riviera-maya-msc/README.md"
+        },
+        {
+          "id": "documento:sac-rel-5573786bd9597b",
+          "from": "sac-8823151afbf839",
+          "to": "sac-fc241a437f549d",
+          "kind": "referencia de la fuente",
+          "reading": "La fuente enlaza esta lectura en «Archivo completo de enlaces del corte» con el rótulo «WP5_Riviera_Maya_MSC_Case_Note.docx».",
+          "evidence": "https://github.com/dakleyer/structural-awareness-contributions/blob/26eb9ee1e5cccb348abe26a71f37d18a947af6bb/standards/minimum-sufficient-control/ADDITIONAL_WORK_README.md"
+        }
+      ]
+    },
+    {
+      "from": "gobierno",
+      "to": "intervencion",
+      "count": 300,
+      "kinds": {
+        "documenta el concepto": 78,
+        "analogy only": 36,
+        "hypothesis": 3,
+        "candidate transfer": 20,
+        "documented use": 4,
+        "editorial comparison": 8,
+        "desarrollo": 1,
+        "lectura por concepto": 5,
+        "revisa la ley original": 1,
+        "pregunta de diseño comparable": 1,
+        "referencia de la fuente": 102,
+        "conexión de la edición": 8,
+        "lectura por conceptos compartidos": 13,
+        "puente de lectura": 1,
+        "conceptual bridge": 10,
+        "lectura editorial": 1,
+        "no garantiza": 1,
+        "requiere": 1,
+        "sostiene": 1,
+        "ayuda a comprobar": 1,
+        "selecciona dónde concentrar": 1,
+        "no presupone intervención": 1,
+        "precede a la intervención": 1,
+        "selecciona caminos practicables": 1
+      },
+      "examples": [
+        {
+          "id": "concepto:A010",
+          "from": "C62",
+          "to": "C38",
+          "kind": "analogy only",
+          "reading": "Tuxpan's adoption layer can be compared with JUBAP's internal facilitation model: the operating practice must become usable and transmissible inside the receiving organization.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:A025",
+          "from": "C95",
+          "to": "C85",
+          "kind": "candidate transfer",
+          "reading": "A mobilisation threshold may inform Tiger Team activation, but accumulated load must be read together with mission focus, authority, available attention and a credible exit.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:A026",
+          "from": "C92",
+          "to": "C90",
+          "kind": "analogy only",
+          "reading": "Selective coupling offers a way to discuss the transition between focused intervention and organizational absorption without treating immediate full integration as the default.",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "from": "gobierno",
+      "to": "perspectiva",
+      "count": 119,
+      "kinds": {
+        "documenta el concepto": 3,
+        "analogy only": 1,
+        "aplicación": 1,
+        "antecedente": 1,
+        "lectura por concepto": 1,
+        "referencia de la fuente": 104,
+        "conexión de la edición": 4,
+        "lectura por conceptos compartidos": 2,
+        "puente de lectura": 1,
+        "define lo que puede verse": 1
+      },
+      "examples": [
+        {
+          "id": "concepto:dgc-source-R-158",
+          "from": "dg-frame_change",
+          "to": "dg-perspective",
+          "kind": "define lo que puede verse",
+          "reading": "La categoría antecede a las soluciones autorizadas.",
+          "evidence": null
+        },
+        {
+          "id": "documento:G077",
+          "from": "L005",
+          "to": "GH005",
+          "kind": "analogy only",
+          "reading": "A technical analogy is partial, question-preserving meaning transfer: coordination can require enough shared interpretation without identical internal ontologies.",
+          "evidence": null
+        },
+        {
+          "id": "documento:dg-082",
+          "from": "D-062",
+          "to": "D-067",
+          "kind": "lectura por concepto",
+          "reading": "Comparten el tema «Nueva Perspectiva».",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "from": "intervencion",
+      "to": "adaptacion",
+      "count": 108,
+      "kinds": {
+        "documenta el concepto": 26,
+        "candidate transfer": 4,
+        "hypothesis": 2,
+        "analogy only": 8,
+        "editorial comparison": 5,
+        "lectura comparada": 1,
+        "lectura por concepto": 4,
+        "referencia de la fuente": 30,
+        "conexión de la edición": 10,
+        "lectura por conceptos compartidos": 6,
+        "lectura comparada de mecanismos": 1,
+        "conceptual bridge": 6,
+        "corrige su relato": 1,
+        "traduce o pierde": 1,
+        "puede perder autonomía ante": 1,
+        "detecta KPI contra efecto total": 1,
+        "relación transversal propuesta v0.12": 1
+      },
+      "examples": [
+        {
+          "id": "concepto:D030",
+          "from": "C58",
+          "to": "C32",
+          "kind": "analogy only",
+          "reading": "The calibration example makes the minimum-information problem concrete: an application inventory alone may not reveal what would be lost.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:F040",
+          "from": "C85",
+          "to": "C89",
+          "kind": "candidate transfer",
+          "reading": "A Tiger Team evaluation should include activation, learning and closure costs, while distinguishing necessary mission work from avoidable compensation.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:F053",
+          "from": "C10",
+          "to": "C32",
+          "kind": "analogy only",
+          "reading": "The GEPLAN field account illustrates how incident investigation exposed the operational information that implementation initially lacked.",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "from": "intervencion",
+      "to": "capacidad",
+      "count": 130,
+      "kinds": {
+        "documenta el concepto": 53,
+        "candidate transfer": 8,
+        "hypothesis": 5,
+        "analogy only": 10,
+        "editorial comparison": 8,
+        "transmisión": 1,
+        "lectura por concepto": 6,
+        "referencia de la fuente": 8,
+        "conexión de la edición": 16,
+        "lectura por conceptos compartidos": 5,
+        "puente de lectura": 1,
+        "conceptual bridge": 1,
+        "lectura editorial": 3,
+        "se transmite mediante": 1,
+        "puede servir a": 1,
+        "pone a prueba": 1,
+        "relación de ampliación v0.10": 1,
+        "relación transversal propuesta v0.12": 1
+      },
+      "examples": [
+        {
+          "id": "concepto:A015",
+          "from": "C100",
+          "to": "C70",
+          "kind": "analogy only",
+          "reading": "The corridor invites a bounded attribution study of where a capability is created, maintained and capitalized, rather than inferring its value from the location that books the revenue.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:B003",
+          "from": "C56",
+          "to": "C36",
+          "kind": "analogy only",
+          "reading": "Preserving an artifact is only one layer; the tacit-knowledge model explains how observation, rehearsal and apprenticeship can preserve the judgment needed to use it.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:B005",
+          "from": "C56",
+          "to": "C77",
+          "kind": "hypothesis",
+          "reading": "The preservation rationale motivates a testable question, while the HID measurement programme explicitly keeps recovery and irreversibility as hypotheses awaiting field evidence.",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "from": "intervencion",
+      "to": "formalizacion",
+      "count": 436,
+      "kinds": {
+        "documenta el concepto": 98,
+        "hypothesis": 6,
+        "candidate transfer": 22,
+        "analogy only": 32,
+        "documented use": 6,
+        "editorial comparison": 20,
+        "lectura por concepto": 2,
+        "referencia de la fuente": 223,
+        "ruta de lectura": 3,
+        "conexión de la edición": 3,
+        "puente de lectura": 1,
+        "conceptual bridge": 19,
+        "relación transversal propuesta v0.12": 1
+      },
+      "examples": [
+        {
+          "id": "concepto:A006",
+          "from": "C10",
+          "to": "C69",
+          "kind": "analogy only",
+          "reading": "The independent occupancy channel illustrates the measurement discipline behind separating operational evidence from strategically asserted claims, while retaining each instrument's error model.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:A009",
+          "from": "C99",
+          "to": "C50",
+          "kind": "documented use",
+          "reading": "Read the engineering case alongside this field note to distinguish the architectural mechanism from the territorial learning that shaped its deployment.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:A016",
+          "from": "C100",
+          "to": "C69",
+          "kind": "candidate transfer",
+          "reading": "A cross-border follow-up should establish whether the same capability was retained, transferred, duplicated or lost before applying an attribution-gap explanation.",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "from": "intervencion",
+      "to": "fuentes",
+      "count": 1,
+      "kinds": {
+        "editorial comparison": 1
+      },
+      "examples": [
+        {
+          "id": "documento:R119",
+          "from": "N2086",
+          "to": "T1573",
+          "kind": "editorial comparison",
+          "reading": "For a complementary reading, see [The Operational Integrity research architecture](https://tegrity.ai/).",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "from": "intervencion",
+      "to": "gobierno",
+      "count": 336,
+      "kinds": {
+        "documenta el concepto": 90,
+        "analogy only": 31,
+        "candidate transfer": 11,
+        "documented use": 3,
+        "editorial comparison": 18,
+        "lectura de campo": 1,
+        "ampliación": 1,
+        "lectura comparada": 1,
+        "lectura por concepto": 5,
+        "se apoya en la delegación trazable": 1,
+        "referencia de la fuente": 117,
+        "conexión de la edición": 20,
+        "lectura por conceptos compartidos": 10,
+        "puente de lectura": 1,
+        "hypothesis": 2,
+        "conceptual bridge": 16,
+        "lectura editorial": 1,
+        "debe responder ante": 1,
+        "habilita": 1,
+        "depende de": 1,
+        "se contrasta en": 1,
+        "se comprueba en": 1,
+        "hace comprobable": 1,
+        "relación de ampliación v0.10": 1
+      },
+      "examples": [
+        {
+          "id": "concepto:B001",
+          "from": "C56",
+          "to": "C37",
+          "kind": "documented use",
+          "reading": "The institutional account gains an operational counterpart in the Tiger Team model, which distinguishes commercial activation from participation in a wider frontier mission.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:B039",
+          "from": "C45",
+          "to": "C81",
+          "kind": "analogy only",
+          "reading": "The case raises a composition question: locally plausible actions can still require a system-level check of relationships, authority and changed context.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:D007",
+          "from": "C03",
+          "to": "C07",
+          "kind": "candidate transfer",
+          "reading": "Residual-focused search could complement Mobility OS repair by revisiting only the part whose validity has changed.",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "from": "intervencion",
+      "to": "perspectiva",
+      "count": 46,
+      "kinds": {
+        "documenta el concepto": 7,
+        "hypothesis": 1,
+        "candidate transfer": 1,
+        "documented use": 1,
+        "editorial comparison": 1,
+        "síntesis": 1,
+        "lectura por concepto": 2,
+        "referencia de la fuente": 25,
+        "conexión de la edición": 5,
+        "lectura por conceptos compartidos": 2
+      },
+      "examples": [
+        {
+          "id": "documento:D006",
+          "from": "N2082",
+          "to": "E1731",
+          "kind": "hypothesis",
+          "reading": "Human-set priorities may affect the shape of a penalty, not only its weight; xSeil makes that distinction inspectable.",
+          "evidence": null
+        },
+        {
+          "id": "documento:G018",
+          "from": "GH018",
+          "to": "E1731",
+          "kind": "candidate transfer",
+          "reading": "A value opportunity becomes actionable through its relevance to a declared objective and an admissible transition, rather than through uncertainty reduction alone.",
+          "evidence": null
+        },
+        {
+          "id": "documento:G083",
+          "from": "GH061",
+          "to": "GH062",
+          "kind": "documented use",
+          "reading": "The cartography overlay adds an encounter gate to the two-provider model; its four observers and geometric score are separate from physical resources and realized mission output.",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "from": "perspectiva",
+      "to": "adaptacion",
+      "count": 54,
+      "kinds": {
+        "documenta el concepto": 9,
+        "candidate transfer": 1,
+        "analogy only": 1,
+        "editorial comparison": 1,
+        "comparación": 1,
+        "lectura comparada": 2,
+        "lectura por concepto": 1,
+        "referencia de la fuente": 28,
+        "conexión de la edición": 6,
+        "lectura por conceptos compartidos": 2,
+        "lectura editorial": 1,
+        "relación de ampliación v0.11": 1
+      },
+      "examples": [
+        {
+          "id": "concepto:dgc-02",
+          "from": "dg-perspective",
+          "to": "dg-options",
+          "kind": "lectura editorial",
+          "reading": "Ver la situación desde otra posición puede ampliar las alternativas que se consideran.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:dgc-source-R-273",
+          "from": "dg-transformation_speech",
+          "to": "dg-distributed_meaning",
+          "kind": "relación de ampliación v0.11",
+          "reading": "El significado también depende del lector.",
+          "evidence": null
+        },
+        {
+          "id": "documento:G009",
+          "from": "GH009",
+          "to": "T1421",
+          "kind": "candidate transfer",
+          "reading": "Qualified reuse can reduce the cost of clarity only after source production, discovery, integration, per-use verification and renewal costs are counted.",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "from": "perspectiva",
+      "to": "capacidad",
+      "count": 49,
+      "kinds": {
+        "documenta el concepto": 14,
+        "origen": 1,
+        "referencia de la fuente": 7,
+        "conexión de la edición": 15,
+        "lectura por conceptos compartidos": 5,
+        "lectura editorial": 1,
+        "abre": 1,
+        "exige una narración cuidadosa de": 1,
+        "relación de ampliación v0.10": 2,
+        "relación de ampliación v0.11": 2
+      },
+      "examples": [
+        {
+          "id": "concepto:dgc-01",
+          "from": "dg-perspective",
+          "to": "dg-observe",
+          "kind": "lectura editorial",
+          "reading": "Un cambio de posición permite observar relaciones que la primera descripción dejaba fuera.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:dgc-source-R-001",
+          "from": "dg-perspective",
+          "to": "dg-observe",
+          "kind": "abre",
+          "reading": "Un cambio de perspectiva empieza al cuestionar lo que la primera mirada deja fuera.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:dgc-source-R-124",
+          "from": "dg-field_origin",
+          "to": "dg-community",
+          "kind": "exige una narración cuidadosa de",
+          "reading": "No estigmatizar comunidades al recuperar experiencias traumáticas.",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "from": "perspectiva",
+      "to": "formalizacion",
+      "count": 240,
+      "kinds": {
+        "documenta el concepto": 22,
+        "analogy only": 3,
+        "documented use": 2,
+        "candidate transfer": 1,
+        "editorial comparison": 1,
+        "custodia": 1,
+        "lectura por concepto": 1,
+        "da paso a una pregunta de utilidad": 1,
+        "compara el valor de una respuesta parcial": 1,
+        "referencia de la fuente": 182,
+        "ruta de lectura": 16,
+        "conexión de la edición": 2,
+        "puente de lectura": 1,
+        "conceptual bridge": 6
+      },
+      "examples": [
+        {
+          "id": "documento:G012",
+          "from": "GH012",
+          "to": "N1835",
+          "kind": "analogy only",
+          "reading": "Event-triggered promotion can be compared retrospectively with relabeling cascades, provided event identity and the times of capture, knowledge and reinterpretation remain distinct.",
+          "evidence": null
+        },
+        {
+          "id": "documento:G016",
+          "from": "GH016",
+          "to": "T1484",
+          "kind": "documented use",
+          "reading": "The programme bridge extends the map–flow reading while keeping analytical closure distinct from causal isolation and its provisional topology separate from established results.",
+          "evidence": null
+        },
+        {
+          "id": "documento:G028",
+          "from": "GH028",
+          "to": "T1499",
+          "kind": "documented use",
+          "reading": "The integrated Foundation separates bounded representation from loss of qualification as conditions change; the two problems interact without being identical.",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "from": "perspectiva",
+      "to": "gobierno",
+      "count": 136,
+      "kinds": {
+        "documenta el concepto": 15,
+        "analogy only": 1,
+        "puente editorial": 1,
+        "referencia de la fuente": 97,
+        "conexión de la edición": 7,
+        "lectura por conceptos compartidos": 6,
+        "documented use": 1,
+        "conceptual bridge": 4,
+        "relación de ampliación v0.10": 1,
+        "relación de ampliación v0.11": 3
+      },
+      "examples": [
+        {
+          "id": "concepto:G081",
+          "from": "C112",
+          "to": "C114",
+          "kind": "documented use",
+          "reading": "Part I’s expressive and weak-information results lead to a separate utility and reconstruction problem; recognizing a limit does not supply the missing decoder.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:dgc-source-R-224",
+          "from": "dg-unfalsified_frame",
+          "to": "dg-internalized_control",
+          "kind": "relación de ampliación v0.10",
+          "reading": "Una norma heredada puede presentarse como elección propia.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:dgc-source-R-258",
+          "from": "dg-inspiration_discipline",
+          "to": "dg-research_dialogue",
+          "kind": "relación de ampliación v0.11",
+          "reading": "Convertir intuición en hipótesis.",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "from": "perspectiva",
+      "to": "intervencion",
+      "count": 67,
+      "kinds": {
+        "documenta el concepto": 10,
+        "analogy only": 3,
+        "documented use": 1,
+        "editorial comparison": 1,
+        "comparación": 1,
+        "lectura por concepto": 1,
+        "referencia de la fuente": 40,
+        "conexión de la edición": 6,
+        "lectura por conceptos compartidos": 1,
+        "conceptual bridge": 1,
+        "da sentido a": 1,
+        "reencuentra después escala organizativa": 1
+      },
+      "examples": [
+        {
+          "id": "concepto:dgc-source-R-030",
+          "from": "dg-perspective",
+          "to": "dg-continuity",
+          "kind": "da sentido a",
+          "reading": "La línea de pensamiento puede hacerse visible sin convertir el pasado en doctrina.",
+          "evidence": null
+        },
+        {
+          "id": "concepto:dgc-source-R-125",
+          "from": "dg-field_origin",
+          "to": "dg-transform",
+          "kind": "reencuentra después escala organizativa",
+          "reading": "La genealogía no se inicia en Nestlé o AICM.",
+          "evidence": null
+        },
+        {
+          "id": "documento:G011",
+          "from": "GH011",
+          "to": "U1496",
+          "kind": "analogy only",
+          "reading": "Distributed field observations can be combined meaningfully only after their question, event, scope and time references have been aligned.",
+          "evidence": null
+        }
+      ]
+    }
+  ],
+  "intents": [
+    {
+      "id": "transformacion",
+      "question": "Una transformación está bloqueada: ¿por dónde intervenir?",
+      "areas": [
+        "perspectiva",
+        "intervencion"
+      ],
+      "seeds": [
+        "E1628",
+        "E1731",
+        "N1274"
+      ],
+      "reason": "Primero cambia el nivel de observación; después conecta una intervención concreta con la capacidad de ejecución."
+    },
+    {
+      "id": "racionalizacion",
+      "question": "Hay complejidad y capacidades desaprovechadas: ¿cómo encontrar valor?",
+      "areas": [
+        "intervencion",
+        "adaptacion"
+      ],
+      "seeds": [
+        "E1704",
+        "E1662",
+        "E1654"
+      ],
+      "reason": "Relaciona racionalización y descubrimiento de valor con un caso empresarial documentado."
+    },
+    {
+      "id": "tacito",
+      "question": "La modernización está perdiendo el saber de quienes operan.",
+      "areas": [
+        "capacidad",
+        "intervencion"
+      ],
+      "seeds": [
+        "N1287",
+        "T874",
+        "T1472"
+      ],
+      "reason": "Empieza por el conocimiento tácito; contrástalo con deuda de inteligencia humana y atribución de la capacidad."
+    },
+    {
+      "id": "autoridad",
+      "question": "Un agente puede actuar, pero ¿qué autoridad y control necesita?",
+      "areas": [
+        "gobierno",
+        "formalizacion"
+      ],
+      "seeds": [
+        "T2729",
+        "GH021",
+        "T1499"
+      ],
+      "reason": "Abre la arquitectura de control suficiente y sus condiciones antes de ampliar hacia la conciencia estructural."
+    },
+    {
+      "id": "logistica",
+      "question": "¿Cómo coordinar muchas entidades operativas en tiempo real?",
+      "areas": [
+        "intervencion",
+        "adaptacion"
+      ],
+      "seeds": [
+        "N864",
+        "N1805",
+        "N1803"
+      ],
+      "reason": "Compara la inteligencia logística de GEPLAN con los mecanismos de orquestación y ruteo de xSeil."
+    },
+    {
+      "id": "regimen",
+      "question": "Las reglas han cambiado: ¿qué señales permiten responder a tiempo?",
+      "areas": [
+        "adaptacion",
+        "gobierno"
+      ],
+      "seeds": [
+        "T1387",
+        "N1826",
+        "N1831"
+      ],
+      "reason": "Combina detección suficiente de cambio con liquidez y cascadas de factores en un caso."
+    },
+    {
+      "id": "matematicas",
+      "question": "Quiero examinar la formulación matemática y sus límites.",
+      "areas": [
+        "formalizacion",
+        "perspectiva"
+      ],
+      "seeds": [
+        "N1817",
+        "N1815",
+        "sac-0b460b7d138063"
+      ],
+      "reason": "Empieza por Companion Paper II v2.1 (N1817), que consolida la formulación y la contabilidad de recursos. N1815 conserva la nota v5 anterior como antecedente de esa revisión. Después examina las dimensiones de indeterminación que la representación deja abiertas."
+    },
+    {
+      "id": "pensamiento",
+      "question": "Quiero entender la forma de pensar de Iván Abril.",
+      "areas": [
+        "perspectiva",
+        "capacidad"
+      ],
+      "seeds": [
+        "D-285",
+        "np-coaching",
+        "D-137"
+      ],
+      "reason": "Abre una reflexión sobre el oficio del arquitecto y sigue hacia experiencia, aprendizaje y promesas económicas."
+    },
+    {
+      "id": "comunidad",
+      "question": "¿Cómo se transmite conocimiento entre personas y comunidades?",
+      "areas": [
+        "capacidad",
+        "perspectiva"
+      ],
+      "seeds": [
+        "np-coaching",
+        "N1287",
+        "D-018"
+      ],
+      "reason": "Examina aprendizaje vivido, conocimiento tácito y experiencia espiritual mediante sus contextos propios."
+    },
+    {
+      "id": "integracion",
+      "question": "¿Cómo convertir una operación entre empresas en ejecución y valor?",
+      "areas": [
+        "intervencion",
+        "gobierno"
+      ],
+      "seeds": [
+        "U2",
+        "E1662",
+        "N1274"
+      ],
+      "reason": "Empieza por integración empresarial y continúa por valor existente y coordinación de equipos."
+    },
+    {
+      "id": "atribucion",
+      "question": "Una IA parece rendir bien: ¿quién está aportando la capacidad?",
+      "areas": [
+        "capacidad",
+        "gobierno"
+      ],
+      "seeds": [
+        "T1472",
+        "T1475",
+        "T874"
+      ],
+      "reason": "Relaciona atribución, su protocolo de medición y la deuda de inteligencia humana."
+    }
+  ],
+  "clusters": {
+    "eu": "JubAp.eu",
+    "net": "JubAp.Net",
+    "us": "JubAp.us",
+    "tegrity": "Tegrity.AI",
+    "imsv": "Integral Management",
+    "totonacapan": "Instituto del Totonacapan",
+    "mobility": "Logistics and Mobility",
+    "latinoempresa": "LatinoEmpresa",
+    "research": "Investigación y estándares",
+    "dialogos": "Diálogos"
+  },
+  "topics": {
+    "matematicas": "Matemáticas",
+    "empresa": "Empresa y gestión",
+    "espiritualidad": "Espiritualidad y vida interior",
+    "perspectiva": "Cambio de perspectiva",
+    "representacion": "Representación y límites formales",
+    "mundo-abierto": "Mundo abierto e indeterminación",
+    "evidencia": "Evidencia, procedencia y atribución",
+    "autoridad": "Autoridad, permisos y delegación",
+    "control-minimo": "Control mínimo y suficiencia",
+    "cambio-regimen": "Cambios de régimen y alerta temprana",
+    "agentes": "Agentes y coordinación distribuida",
+    "cartografia": "Cartografía y señales de ecosistema",
+    "capacidad-humana": "Capacidad humana y deuda de inteligencia",
+    "experimentacion": "Experimentación, falsación y contraejemplos",
+    "integridad-ia": "Integridad y seguridad de IA",
+    "economia": "Economía, costes y liquidez",
+    "movilidad": "Movilidad e infraestructura",
+    "estandares": "Estándares e interoperabilidad",
+    "transformacion": "Transformación y continuidad operativa",
+    "memoria-territorio": "Memoria, comunidad y territorio",
+    "aprendizaje": "Aprendizaje y transmisión de capacidades",
+    "decision": "Decisiones y responsabilidad",
+    "geopolitica": "Geopolítica y fronteras",
+    "casos": "Casos de uso y aplicaciones",
+    "documentacion": "Investigación y documentación técnica",
+    "navegacion": "Índices, contacto y políticas",
+    "compromisos": "Compromisos y capacidad disponible",
+    "legitimidad": "Legitimidad y principios",
+    "encuentros": "Infraestructura de encuentros"
+  },
+  "entryCards": {
+    "E1628": {
+      "id": "E1628",
+      "title": "The JUBAP Framework",
+      "clusters": [
+        "eu"
+      ],
+      "web": "https://perspective-beyond-atlas.carvedgem.chatgpt.site/fichas/E1628/",
+      "original": "https://jubap.eu/the-jubap-framework/",
+      "documentId": "doc-f2e4ace78fdbc4aded"
+    },
+    "E1731": {
+      "id": "E1731",
+      "title": "Reframing Value Creation",
+      "clusters": [
+        "eu"
+      ],
+      "web": "https://perspective-beyond-atlas.carvedgem.chatgpt.site/fichas/E1731/",
+      "original": "https://jubap.eu/reframing-value-creation/",
+      "documentId": "doc-4998b3d102aa89fd7f"
+    },
+    "N1274": {
+      "id": "N1274",
+      "title": "Tiger Team Models",
+      "clusters": [
+        "net"
+      ],
+      "web": "https://perspective-beyond-atlas.carvedgem.chatgpt.site/fichas/N1274/",
+      "original": "https://jubap.net/tiger-team-models/",
+      "documentId": "doc-e5c993c074c54f2957"
+    },
+    "E1704": {
+      "id": "E1704",
+      "title": "Rationalization.AI",
+      "clusters": [
+        "eu"
+      ],
+      "web": "https://perspective-beyond-atlas.carvedgem.chatgpt.site/fichas/E1704/",
+      "original": "https://jubap.eu/the-ai-wave-and-rationalization-from-useful-to-essential/",
+      "documentId": "doc-d18e98f8c622a0dbce"
+    },
+    "E1662": {
+      "id": "E1662",
+      "title": "THE DIAMOND INSIDE FRAMEWORK",
+      "clusters": [
+        "eu"
+      ],
+      "web": "https://perspective-beyond-atlas.carvedgem.chatgpt.site/fichas/E1662/",
+      "original": "https://jubap.eu/the-diamond-inside-framework/",
+      "documentId": "doc-d21d93f69ad55c7f28"
+    },
+    "E1654": {
+      "id": "E1654",
+      "title": "Case Study: Rationalization in Luxury",
+      "clusters": [
+        "eu"
+      ],
+      "web": "https://perspective-beyond-atlas.carvedgem.chatgpt.site/fichas/E1654/",
+      "original": "https://jubap.eu/1654-2/",
+      "documentId": "doc-c34269358237772547"
+    },
+    "N1287": {
+      "id": "N1287",
+      "title": "Tacit Knowledge Management in Distributed Tiger Teams",
+      "clusters": [
+        "net"
+      ],
+      "web": "https://perspective-beyond-atlas.carvedgem.chatgpt.site/fichas/N1287/",
+      "original": "https://jubap.net/tacit-knowledge-management-in-distributed-tiger-teams/",
+      "documentId": "doc-b7d0fa436932b4159a"
+    },
+    "T874": {
+      "id": "T874",
+      "title": "Human Intelligence Debt",
+      "clusters": [
+        "tegrity"
+      ],
+      "web": "https://perspective-beyond-atlas.carvedgem.chatgpt.site/fichas/T874/",
+      "original": "https://tegrity.ai/human-intelligence-debt/",
+      "documentId": "doc-a68c59b41898c09161"
+    },
+    "T1472": {
+      "id": "T1472",
+      "title": "The Attribution Gap and Capability Loss",
+      "clusters": [
+        "tegrity"
+      ],
+      "web": "https://perspective-beyond-atlas.carvedgem.chatgpt.site/fichas/T1472/",
+      "original": "https://tegrity.ai/the-attribution-gap-and-capability-loss/",
+      "documentId": "doc-36f1aa80210a3166fd"
+    },
+    "T2729": {
+      "id": "T2729",
+      "title": "Minimum Sufficient Control Architecture for AI Enabled Urban Systems",
+      "clusters": [
+        "tegrity"
+      ],
+      "web": "https://perspective-beyond-atlas.carvedgem.chatgpt.site/fichas/T2729/",
+      "original": "https://tegrity.ai/minimum-sufficient-control-architecture-for-ai-enabled-urban-systems/",
+      "documentId": "doc-dda05be174434e9a4d"
+    },
+    "GH021": {
+      "id": "GH021",
+      "title": "Minimum Sufficient Control Architecture (MSCA) — Canonical Architecture",
+      "clusters": [
+        "research"
+      ],
+      "web": "https://perspective-beyond-atlas.carvedgem.chatgpt.site/fichas/GH021/",
+      "original": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md",
+      "documentId": "doc-62b3281fbc392214d4"
+    },
+    "T1499": {
+      "id": "T1499",
+      "title": "Structural Awareness",
+      "clusters": [
+        "tegrity"
+      ],
+      "web": "https://perspective-beyond-atlas.carvedgem.chatgpt.site/fichas/T1499/",
+      "original": "https://tegrity.ai/structural-awareness-program/",
+      "documentId": "doc-45cb1f35df27295b6e"
+    },
+    "N864": {
+      "id": "N864",
+      "title": "GEPLAN – Mission-Critical Logistics Intelligence for PEMEX (2006-)",
+      "clusters": [
+        "net"
+      ],
+      "web": "https://perspective-beyond-atlas.carvedgem.chatgpt.site/fichas/N864/",
+      "original": "https://jubap.net/geplan-mission-critical-logistics-intelligence-for-pemex-2006/",
+      "documentId": "doc-600e1bb5269bd6a180"
+    },
+    "N1805": {
+      "id": "N1805",
+      "title": "xSeil orchestration",
+      "clusters": [
+        "net"
+      ],
+      "web": "https://perspective-beyond-atlas.carvedgem.chatgpt.site/fichas/N1805/",
+      "original": "https://jubap.net/xseil-orchestration/",
+      "documentId": "doc-7623f7089eace86ac4"
+    },
+    "N1803": {
+      "id": "N1803",
+      "title": "xSeil VRP",
+      "clusters": [
+        "net"
+      ],
+      "web": "https://perspective-beyond-atlas.carvedgem.chatgpt.site/fichas/N1803/",
+      "original": "https://jubap.net/xseil-vrp/",
+      "documentId": "doc-1cffae9dc49a7982d0"
+    },
+    "T1387": {
+      "id": "T1387",
+      "title": "Minimalistic Regime-Aware Early Warning Systems",
+      "clusters": [
+        "tegrity"
+      ],
+      "web": "https://perspective-beyond-atlas.carvedgem.chatgpt.site/fichas/T1387/",
+      "original": "https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/",
+      "documentId": "doc-431e2eeef604eb7723"
+    },
+    "N1826": {
+      "id": "N1826",
+      "title": "Phylons Liquidity Orquestration",
+      "clusters": [
+        "net"
+      ],
+      "web": "https://perspective-beyond-atlas.carvedgem.chatgpt.site/fichas/N1826/",
+      "original": "https://jubap.net/phylons-liquidity-orquestration/",
+      "documentId": "doc-001c719f1662721819"
+    },
+    "N1831": {
+      "id": "N1831",
+      "title": "Phylons predictive factors cascade",
+      "clusters": [
+        "net"
+      ],
+      "web": "https://perspective-beyond-atlas.carvedgem.chatgpt.site/fichas/N1831/",
+      "original": "https://jubap.net/phylons-predictive-factors-cascade/",
+      "documentId": "doc-1c9f745c429738967c"
+    },
+    "N1817": {
+      "id": "N1817",
+      "title": "xSeil quantum formulation. Companion paper",
+      "clusters": [
+        "net"
+      ],
+      "web": "https://perspective-beyond-atlas.carvedgem.chatgpt.site/fichas/N1817/",
+      "original": "https://jubap.net/xseil-quantum-formulation-companion-paper/",
+      "documentId": "doc-cd36c909216fbf6532"
+    },
+    "N1815": {
+      "id": "N1815",
+      "title": "xSeil potential quantum formulation",
+      "clusters": [
+        "net"
+      ],
+      "web": "https://perspective-beyond-atlas.carvedgem.chatgpt.site/fichas/N1815/",
+      "original": "https://jubap.net/xseil-quantum-formulation/",
+      "documentId": "doc-8d8ee7ce98cd23cc7e"
+    },
+    "sac-0b460b7d138063": {
+      "id": "sac-0b460b7d138063",
+      "title": "Ecosystem Awareness — Three Dimensions of Indeterminacy",
+      "clusters": [
+        "research"
+      ],
+      "web": "https://perspective-beyond-atlas.carvedgem.chatgpt.site/fichas/sac-0b460b7d138063/",
+      "original": "https://github.com/dakleyer/structural-awareness-contributions/blob/db6d444867a27510c3e640e3e71904ae11b01fe4/research/ecosystem-awareness/baseline/THREE_DIMENSIONS_OF_INDETERMINACY_WORKING_TECHNICAL_ARCHITECTURE.part01.md",
+      "documentId": "doc-9f2a5d2bf9832e63cf"
+    },
+    "D-285": {
+      "id": "D-285",
+      "title": "Un arquitecto no puede saber toda la jerga de todos los oficios",
+      "clusters": [
+        "dialogos"
+      ],
+      "web": "https://perspective-beyond-atlas.carvedgem.chatgpt.site/fichas/D-285/",
+      "original": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-285.html",
+      "documentId": "doc-2a9e93a51531de1fce"
+    },
+    "np-coaching": {
+      "id": "np-coaching",
+      "title": "Coaching Transpersonal: aprender en comunidad",
+      "clusters": [
+        "imsv"
+      ],
+      "web": "https://perspective-beyond-atlas.carvedgem.chatgpt.site/fichas/np-coaching/",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/coaching-transpersonal/",
+      "documentId": "doc-b1f655d51915d8d1ef"
+    },
+    "D-137": {
+      "id": "D-137",
+      "title": "El dinero sostiene una promesa que necesita ser creíble",
+      "clusters": [
+        "dialogos"
+      ],
+      "web": "https://perspective-beyond-atlas.carvedgem.chatgpt.site/fichas/D-137/",
+      "original": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-137.html",
+      "documentId": "doc-ac142f49b2f8e4fa3b"
+    },
+    "D-018": {
+      "id": "D-018",
+      "title": "Espiritualidad sin imponer una doctrina",
+      "clusters": [
+        "dialogos"
+      ],
+      "web": "https://perspective-beyond-atlas.carvedgem.chatgpt.site/fichas/D-018/",
+      "original": "https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20(pregunta%20editorial%20nueva)%20%E2%80%94%20%C2%BFY%20qu%C3%A9%20lugar%20queda%20para%20la",
+      "documentId": "doc-41f3a410d217128630"
+    },
+    "U2": {
+      "id": "U2",
+      "title": "JubAp.US",
+      "clusters": [
+        "us"
+      ],
+      "web": "https://perspective-beyond-atlas.carvedgem.chatgpt.site/fichas/U2/",
+      "original": "https://jubap.us/",
+      "documentId": "doc-4133165018517e2690"
+    },
+    "T1475": {
+      "id": "T1475",
+      "title": "Attribution Gap Measurement Protocol",
+      "clusters": [
+        "tegrity"
+      ],
+      "web": "https://perspective-beyond-atlas.carvedgem.chatgpt.site/fichas/T1475/",
+      "original": "https://tegrity.ai/attribution-gap-meassurement-protocol/",
+      "documentId": "doc-ebd3cf35f99f2935cc"
+    }
+  }
+}

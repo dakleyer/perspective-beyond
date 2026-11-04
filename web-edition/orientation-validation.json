@@ -1,0 +1,461 @@
+{
+  "checks": 10049,
+  "passed": 10049,
+  "areas": 7,
+  "bridges": 36,
+  "coveredPieces": 1566,
+  "originalRelations": 11832,
+  "internalRelations": 5022,
+  "interAreaRelations": 6810,
+  "distinctCandidateEntries": 27,
+  "maximumReusedEntry": 2,
+  "routes": [
+    {
+      "id": "transformacion",
+      "question": "Una transformación está bloqueada: ¿por dónde intervenir?",
+      "candidateEntries": [
+        "E1628",
+        "E1731",
+        "N1274"
+      ],
+      "graphDistances": [
+        1,
+        2
+      ],
+      "supportPaths": [
+        [
+          {
+            "id": "documento:np-r21",
+            "kind": "documento"
+          }
+        ],
+        [
+          {
+            "id": "apoyo:E1628:C37",
+            "kind": "apoyo"
+          },
+          {
+            "id": "apoyo:N1274:C37",
+            "kind": "apoyo"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "racionalizacion",
+      "question": "Hay complejidad y capacidades desaprovechadas: ¿cómo encontrar valor?",
+      "candidateEntries": [
+        "E1704",
+        "E1662",
+        "E1654"
+      ],
+      "graphDistances": [
+        2,
+        2
+      ],
+      "supportPaths": [
+        [
+          {
+            "id": "documento:A035",
+            "kind": "documento"
+          },
+          {
+            "id": "documento:R077",
+            "kind": "documento"
+          }
+        ],
+        [
+          {
+            "id": "apoyo:E1704:C08",
+            "kind": "apoyo"
+          },
+          {
+            "id": "apoyo:E1654:C08",
+            "kind": "apoyo"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "tacito",
+      "question": "La modernización está perdiendo el saber de quienes operan.",
+      "candidateEntries": [
+        "N1287",
+        "T874",
+        "T1472"
+      ],
+      "graphDistances": [
+        2,
+        2
+      ],
+      "supportPaths": [
+        [
+          {
+            "id": "documento:F039",
+            "kind": "documento"
+          },
+          {
+            "id": "documento:R169",
+            "kind": "documento"
+          }
+        ],
+        [
+          {
+            "id": "apoyo:N1287:C56",
+            "kind": "apoyo"
+          },
+          {
+            "id": "apoyo:T1472:C56",
+            "kind": "apoyo"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "autoridad",
+      "question": "Un agente puede actuar, pero ¿qué autoridad y control necesita?",
+      "candidateEntries": [
+        "T2729",
+        "GH021",
+        "T1499"
+      ],
+      "graphDistances": [
+        1,
+        2
+      ],
+      "supportPaths": [
+        [
+          {
+            "id": "documento:sac-rel-e7fd297561b31e",
+            "kind": "documento"
+          }
+        ],
+        [
+          {
+            "id": "navigation:position-nav-T1573-T2729",
+            "kind": "navegacion"
+          },
+          {
+            "id": "navigation:position-nav-T1573-T1499",
+            "kind": "navegacion"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "logistica",
+      "question": "¿Cómo coordinar muchas entidades operativas en tiempo real?",
+      "candidateEntries": [
+        "N864",
+        "N1805",
+        "N1803"
+      ],
+      "graphDistances": [
+        4,
+        3
+      ],
+      "supportPaths": [
+        [
+          {
+            "id": "apoyo:N864:C12",
+            "kind": "apoyo"
+          },
+          {
+            "id": "apoyo:T2807:C12",
+            "kind": "apoyo"
+          },
+          {
+            "id": "apoyo:T2807:C44",
+            "kind": "apoyo"
+          },
+          {
+            "id": "apoyo:N1805:C44",
+            "kind": "apoyo"
+          }
+        ],
+        [
+          {
+            "id": "apoyo:N864:C12",
+            "kind": "apoyo"
+          },
+          {
+            "id": "apoyo:GH001:C12",
+            "kind": "apoyo"
+          },
+          {
+            "id": "documento:sac-rel-3afa4e5e2940df",
+            "kind": "documento"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "regimen",
+      "question": "Las reglas han cambiado: ¿qué señales permiten responder a tiempo?",
+      "candidateEntries": [
+        "T1387",
+        "N1826",
+        "N1831"
+      ],
+      "graphDistances": [
+        3,
+        2
+      ],
+      "supportPaths": [
+        [
+          {
+            "id": "apoyo:T1387:C15",
+            "kind": "apoyo"
+          },
+          {
+            "id": "apoyo:N1831:C15",
+            "kind": "apoyo"
+          },
+          {
+            "id": "documento:R105",
+            "kind": "documento"
+          }
+        ],
+        [
+          {
+            "id": "apoyo:T1387:C15",
+            "kind": "apoyo"
+          },
+          {
+            "id": "apoyo:N1831:C15",
+            "kind": "apoyo"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "matematicas",
+      "question": "Quiero examinar la formulación matemática y sus límites.",
+      "candidateEntries": [
+        "N1817",
+        "N1815",
+        "sac-0b460b7d138063"
+      ],
+      "graphDistances": [
+        2,
+        4
+      ],
+      "supportPaths": [
+        [
+          {
+            "id": "apoyo:N1817:C48",
+            "kind": "apoyo"
+          },
+          {
+            "id": "apoyo:N1815:C48",
+            "kind": "apoyo"
+          }
+        ],
+        [
+          {
+            "id": "apoyo:N1817:C15",
+            "kind": "apoyo"
+          },
+          {
+            "id": "apoyo:T2729:C15",
+            "kind": "apoyo"
+          },
+          {
+            "id": "documento:sac-rel-1dbcec2bd14432",
+            "kind": "documento"
+          },
+          {
+            "id": "documento:sac-rel-d2b09fc1167af8",
+            "kind": "documento"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "pensamiento",
+      "question": "Quiero entender la forma de pensar de Iván Abril.",
+      "candidateEntries": [
+        "D-285",
+        "np-coaching",
+        "D-137"
+      ],
+      "graphDistances": [
+        5,
+        3
+      ],
+      "supportPaths": [
+        [
+          {
+            "id": "documento:dialogue-expansion-D-285-D-067",
+            "kind": "documento"
+          },
+          {
+            "id": "documento:dg-181",
+            "kind": "documento"
+          },
+          {
+            "id": "documento:np-r02",
+            "kind": "documento"
+          },
+          {
+            "id": "documento:np-r03",
+            "kind": "documento"
+          },
+          {
+            "id": "documento:np-r04",
+            "kind": "documento"
+          }
+        ],
+        [
+          {
+            "id": "apoyo:D-285:dg-transform",
+            "kind": "apoyo"
+          },
+          {
+            "id": "concepto:dgc-source-R-013",
+            "kind": "concepto"
+          },
+          {
+            "id": "apoyo:D-137:dg-trust",
+            "kind": "apoyo"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "comunidad",
+      "question": "¿Cómo se transmite conocimiento entre personas y comunidades?",
+      "candidateEntries": [
+        "np-coaching",
+        "N1287",
+        "D-018"
+      ],
+      "graphDistances": [
+        5,
+        6
+      ],
+      "supportPaths": [
+        [
+          {
+            "id": "documento:np-r04",
+            "kind": "documento"
+          },
+          {
+            "id": "documento:np-r03",
+            "kind": "documento"
+          },
+          {
+            "id": "documento:np-r02",
+            "kind": "documento"
+          },
+          {
+            "id": "documento:np-r26",
+            "kind": "documento"
+          },
+          {
+            "id": "documento:F063",
+            "kind": "documento"
+          }
+        ],
+        [
+          {
+            "id": "documento:np-r04",
+            "kind": "documento"
+          },
+          {
+            "id": "documento:np-r03",
+            "kind": "documento"
+          },
+          {
+            "id": "documento:np-r02",
+            "kind": "documento"
+          },
+          {
+            "id": "documento:dialogue-bridge-D-296-np-manifiesto",
+            "kind": "documento"
+          },
+          {
+            "id": "documento:map-maintenance-20261104-004",
+            "kind": "documento"
+          },
+          {
+            "id": "documento:dialogue-expansion-D-275-D-018",
+            "kind": "documento"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "integracion",
+      "question": "¿Cómo convertir una operación entre empresas en ejecución y valor?",
+      "candidateEntries": [
+        "U2",
+        "E1662",
+        "N1274"
+      ],
+      "graphDistances": [
+        3,
+        3
+      ],
+      "supportPaths": [
+        [
+          {
+            "id": "navigation:position-nav-E2-U2",
+            "kind": "navegacion"
+          },
+          {
+            "id": "navigation:position-nav-E2-E1731",
+            "kind": "navegacion"
+          },
+          {
+            "id": "documento:R023",
+            "kind": "documento"
+          }
+        ],
+        [
+          {
+            "id": "navigation:position-nav-U2-E1628",
+            "kind": "navegacion"
+          },
+          {
+            "id": "apoyo:E1628:C37",
+            "kind": "apoyo"
+          },
+          {
+            "id": "apoyo:N1274:C37",
+            "kind": "apoyo"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "atribucion",
+      "question": "Una IA parece rendir bien: ¿quién está aportando la capacidad?",
+      "candidateEntries": [
+        "T1472",
+        "T1475",
+        "T874"
+      ],
+      "graphDistances": [
+        1,
+        1
+      ],
+      "supportPaths": [
+        [
+          {
+            "id": "documento:F006",
+            "kind": "documento"
+          }
+        ],
+        [
+          {
+            "id": "documento:M034",
+            "kind": "documento"
+          }
+        ]
+      ]
+    }
+  ],
+  "sourceGraphSha256": "8733a98ca9844a1b5f85096f6b68c910bda9d1aed95e0192c359522a1a641ece",
+  "pass": true
+}

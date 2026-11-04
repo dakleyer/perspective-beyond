@@ -52,3 +52,7 @@ Un archivo compacto reúne textos, relaciones, referencias y configuración de u
 [Entrada para asistentes](https://perspective-beyond-atlas.carvedgem.chatgpt.site/entrada/) · [Atlas completo en HTML](https://perspective-beyond-atlas.carvedgem.chatgpt.site/) · [Reproducción y procedencia](web-edition/README.md)
 
 La edición web reproduce todos los archivos públicos del Atlas y añade páginas HTML enlazadas para leer fichas, conceptos, documentos y relaciones. GitHub conserva la fuente canónica.
+
+## Comprender el Atlas antes de elegir dónde entrar
+
+[Atlas Orientation](https://tegrity.ai/atlas-orientation/) reúne las grandes preguntas del corpus y propone puntos de entrada concretos. [Modelo y protocolo](web-edition/README.md#orientación-antes-del-posicionamiento).
