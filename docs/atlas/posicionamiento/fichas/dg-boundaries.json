@@ -25,24 +25,26 @@
     "D-298"
   ],
   "tagWeights": {
-    "aprendizaje": 0.0162,
-    "autoridad": 0.0568,
-    "decision": 0.0194,
+    "aprendizaje": 0.0144,
+    "autoridad": 0.0451,
+    "decision": 0.0175,
     "documentacion": 0.0432,
     "economia": 0.0952,
-    "empresa": 0.0093,
-    "geopolitica": 0.5083,
+    "empresa": 0.0074,
+    "encuentros": 0.0333,
+    "geopolitica": 0.4965,
+    "legitimidad": 0.0083,
     "memoria-territorio": 0.1401,
-    "perspectiva": 0.0555,
-    "representacion": 0.0309,
-    "transformacion": 0.0251
+    "perspectiva": 0.0556,
+    "representacion": 0.0201,
+    "transformacion": 0.0233
   },
   "clusters": [
     "dialogos"
   ],
-  "context": "## Fronteras y encuentros\nMoverse entre culturas, países, oficios e instituciones y escuchar diferencias.\nEtiquetas: Aprendizaje y transmisión de capacidades 1.62%; Autoridad, permisos y delegación 5.68%; Decisiones y responsabilidad 1.94%; Investigación y documentación técnica 4.32%; Economía, costes y liquidez 9.52%; Empresa y gestión 0.93%; Geopolítica y fronteras 50.83%; Memoria, comunidad y territorio 14.01%; Cambio de perspectiva 5.55%; Representación y límites formales 3.09%; Transformación y continuidad operativa 2.51%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-boundaries\n\n",
+  "context": "## Fronteras y encuentros\nMoverse entre culturas, países, oficios e instituciones y escuchar diferencias.\nEtiquetas: Aprendizaje y transmisión de capacidades 1.44%; Autoridad, permisos y delegación 4.51%; Decisiones y responsabilidad 1.75%; Investigación y documentación técnica 4.32%; Economía, costes y liquidez 9.52%; Empresa y gestión 0.74%; Infraestructura de encuentros 3.33%; Geopolítica y fronteras 49.65%; Legitimidad y principios 0.83%; Memoria, comunidad y territorio 14.01%; Cambio de perspectiva 5.56%; Representación y límites formales 2.01%; Transformación y continuidad operativa 2.33%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-boundaries\n\n",
   "readingSource": null,
-  "tokens": 162,
+  "tokens": 181,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -262,10 +264,11 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 290,
+      "fichaTokens": 299,
       "tagWeights": {
-        "autoridad": 0.5,
-        "geopolitica": 0.5
+        "autoridad": 0.4,
+        "encuentros": 0.2,
+        "geopolitica": 0.4
       },
       "clusters": [
         "dialogos"
@@ -281,11 +284,13 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 288,
+      "fichaTokens": 307,
       "tagWeights": {
-        "autoridad": 0.2222,
-        "geopolitica": 0.2222,
-        "representacion": 0.5556
+        "autoridad": 0.1444,
+        "encuentros": 0.2,
+        "geopolitica": 0.1444,
+        "legitimidad": 0.15,
+        "representacion": 0.3612
       },
       "clusters": [
         "dialogos"
@@ -340,14 +345,15 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 432,
+      "fichaTokens": 441,
       "tagWeights": {
-        "aprendizaje": 0.1667,
-        "autoridad": 0.1667,
-        "decision": 0.1667,
-        "empresa": 0.1667,
-        "geopolitica": 0.1666,
-        "transformacion": 0.1666
+        "aprendizaje": 0.1334,
+        "autoridad": 0.1334,
+        "decision": 0.1333,
+        "empresa": 0.1333,
+        "encuentros": 0.2,
+        "geopolitica": 0.1333,
+        "transformacion": 0.1333
       },
       "clusters": [
         "dialogos"
@@ -541,18 +547,20 @@
       "kind": "atraviesa",
       "reading": "Los vínculos nacen entre fronteras culturales y disciplinares.",
       "relationTokens": 28,
-      "fichaTokens": 154,
+      "fichaTokens": 173,
       "tagWeights": {
         "aprendizaje": 0.0926,
-        "autoridad": 0.0247,
-        "decision": 0.3056,
-        "empresa": 0.0555,
+        "autoridad": 0.016,
+        "decision": 0.2986,
+        "empresa": 0.0417,
+        "encuentros": 0.05,
         "estandares": 0.0741,
-        "geopolitica": 0.0691,
+        "geopolitica": 0.0605,
+        "legitimidad": 0.0167,
         "memoria-territorio": 0.2519,
-        "movilidad": 0.0278,
+        "movilidad": 0.0208,
         "perspectiva": 0.037,
-        "representacion": 0.0617
+        "representacion": 0.0401
       },
       "clusters": [
         "dialogos"
@@ -568,12 +576,13 @@
       "kind": "traduce",
       "reading": "Encontrar al otro requiere reconocer distintos códigos culturales.",
       "relationTokens": 25,
-      "fichaTokens": 108,
+      "fichaTokens": 117,
       "tagWeights": {
         "aprendizaje": 0.2,
-        "autoridad": 0.1,
+        "autoridad": 0.08,
         "documentacion": 0.1556,
-        "geopolitica": 0.3444,
+        "encuentros": 0.04,
+        "geopolitica": 0.3244,
         "memoria-territorio": 0.2
       },
       "clusters": [

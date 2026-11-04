@@ -47,7 +47,7 @@
   ],
   "tagWeights": {
     "aprendizaje": 0.1588,
-    "autoridad": 0.0842,
+    "autoridad": 0.0804,
     "casos": 0.0218,
     "decision": 0.0998,
     "economia": 0.2746,
@@ -56,6 +56,7 @@
     "estandares": 0.0274,
     "geopolitica": 0.0839,
     "integridad-ia": 0.0527,
+    "legitimidad": 0.0038,
     "memoria-territorio": 0.0293,
     "perspectiva": 0.0556,
     "representacion": 0.0171,
@@ -64,9 +65,9 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Libertad y opciones\nConservar capacidad real de elegir, especialmente bajo incertidumbre.\nEtiquetas: Aprendizaje y transmisión de capacidades 15.88%; Autoridad, permisos y delegación 8.42%; Casos de uso y aplicaciones 2.18%; Decisiones y responsabilidad 9.98%; Economía, costes y liquidez 27.46%; Empresa y gestión 6.72%; Espiritualidad y vida interior 0.73%; Estándares e interoperabilidad 2.74%; Geopolítica y fronteras 8.39%; Integridad y seguridad de IA 5.27%; Memoria, comunidad y territorio 2.93%; Cambio de perspectiva 5.56%; Representación y límites formales 1.71%; Transformación y continuidad operativa 2.03%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-options\n\n",
+  "context": "## Libertad y opciones\nConservar capacidad real de elegir, especialmente bajo incertidumbre.\nEtiquetas: Aprendizaje y transmisión de capacidades 15.88%; Autoridad, permisos y delegación 8.04%; Casos de uso y aplicaciones 2.18%; Decisiones y responsabilidad 9.98%; Economía, costes y liquidez 27.46%; Empresa y gestión 6.72%; Espiritualidad y vida interior 0.73%; Estándares e interoperabilidad 2.74%; Geopolítica y fronteras 8.39%; Integridad y seguridad de IA 5.27%; Legitimidad y principios 0.38%; Memoria, comunidad y territorio 2.93%; Cambio de perspectiva 5.56%; Representación y límites formales 1.71%; Transformación y continuidad operativa 2.03%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-options\n\n",
   "readingSource": null,
-  "tokens": 192,
+  "tokens": 202,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -478,9 +479,10 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 18,
-      "fichaTokens": 325,
+      "fichaTokens": 335,
       "tagWeights": {
-        "autoridad": 1.0
+        "autoridad": 0.85,
+        "legitimidad": 0.15
       },
       "clusters": [
         "dialogos"
@@ -843,16 +845,17 @@
       "kind": "lectura editorial",
       "reading": "Los recursos disponibles determinan qué alternativas pueden hacerse efectivas.",
       "relationTokens": 27,
-      "fichaTokens": 239,
+      "fichaTokens": 250,
       "tagWeights": {
-        "aprendizaje": 0.0689,
+        "aprendizaje": 0.0688,
         "autoridad": 0.0119,
         "capacidad-humana": 0.0161,
         "casos": 0.0204,
+        "compromisos": 0.0119,
         "control-minimo": 0.0108,
-        "decision": 0.1092,
-        "economia": 0.5189,
-        "empresa": 0.032,
+        "decision": 0.1077,
+        "economia": 0.513,
+        "empresa": 0.0291,
         "estandares": 0.0095,
         "evidencia": 0.0095,
         "geopolitica": 0.0766,
@@ -862,7 +865,7 @@
         "movilidad": 0.0142,
         "perspectiva": 0.0119,
         "representacion": 0.0159,
-        "transformacion": 0.0119
+        "transformacion": 0.0104
       },
       "clusters": [
         "dialogos"
@@ -878,18 +881,19 @@
       "kind": "lectura editorial",
       "reading": "La atención permite advertir posibilidades antes de reaccionar desde una costumbre.",
       "relationTokens": 28,
-      "fichaTokens": 181,
+      "fichaTokens": 191,
       "tagWeights": {
-        "aprendizaje": 0.4344,
-        "autoridad": 0.0405,
-        "casos": 0.0173,
+        "aprendizaje": 0.4331,
+        "autoridad": 0.0368,
+        "casos": 0.0174,
         "decision": 0.1533,
         "economia": 0.0779,
         "empresa": 0.0078,
-        "espiritualidad": 0.1232,
+        "espiritualidad": 0.1202,
         "estandares": 0.0208,
         "geopolitica": 0.0176,
-        "integridad-ia": 0.0173,
+        "integridad-ia": 0.0174,
+        "legitimidad": 0.0078,
         "memoria-territorio": 0.017,
         "perspectiva": 0.0573,
         "transformacion": 0.0156
@@ -908,16 +912,17 @@
       "kind": "requiere",
       "reading": "La libertad de elección depende también de recursos y margen económico.",
       "relationTokens": 26,
-      "fichaTokens": 239,
+      "fichaTokens": 250,
       "tagWeights": {
-        "aprendizaje": 0.0689,
+        "aprendizaje": 0.0688,
         "autoridad": 0.0119,
         "capacidad-humana": 0.0161,
         "casos": 0.0204,
+        "compromisos": 0.0119,
         "control-minimo": 0.0108,
-        "decision": 0.1092,
-        "economia": 0.5189,
-        "empresa": 0.032,
+        "decision": 0.1077,
+        "economia": 0.513,
+        "empresa": 0.0291,
         "estandares": 0.0095,
         "evidencia": 0.0095,
         "geopolitica": 0.0766,
@@ -927,7 +932,7 @@
         "movilidad": 0.0142,
         "perspectiva": 0.0119,
         "representacion": 0.0159,
-        "transformacion": 0.0119
+        "transformacion": 0.0104
       },
       "clusters": [
         "dialogos"
@@ -975,18 +980,19 @@
       "kind": "reformula",
       "reading": "Atención al presente y elección futura se influyen mutuamente.",
       "relationTokens": 25,
-      "fichaTokens": 181,
+      "fichaTokens": 191,
       "tagWeights": {
-        "aprendizaje": 0.4344,
-        "autoridad": 0.0405,
-        "casos": 0.0173,
+        "aprendizaje": 0.4331,
+        "autoridad": 0.0368,
+        "casos": 0.0174,
         "decision": 0.1533,
         "economia": 0.0779,
         "empresa": 0.0078,
-        "espiritualidad": 0.1232,
+        "espiritualidad": 0.1202,
         "estandares": 0.0208,
         "geopolitica": 0.0176,
-        "integridad-ia": 0.0173,
+        "integridad-ia": 0.0174,
+        "legitimidad": 0.0078,
         "memoria-territorio": 0.017,
         "perspectiva": 0.0573,
         "transformacion": 0.0156
@@ -1066,14 +1072,15 @@
       "kind": "puede inmovilizar",
       "reading": "Una capacidad comprometida no está disponible para otro fin.",
       "relationTokens": 30,
-      "fichaTokens": 120,
+      "fichaTokens": 131,
       "tagWeights": {
         "aprendizaje": 0.1786,
-        "decision": 0.235,
-        "economia": 0.4614,
-        "empresa": 0.05,
+        "compromisos": 0.05,
+        "decision": 0.2288,
+        "economia": 0.4364,
+        "empresa": 0.0375,
         "geopolitica": 0.05,
-        "transformacion": 0.025
+        "transformacion": 0.0187
       },
       "clusters": [
         "dialogos"

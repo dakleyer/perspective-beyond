@@ -17,22 +17,24 @@
   ],
   "tagWeights": {
     "aprendizaje": 0.0926,
-    "autoridad": 0.0247,
-    "decision": 0.3056,
-    "empresa": 0.0555,
+    "autoridad": 0.016,
+    "decision": 0.2986,
+    "empresa": 0.0417,
+    "encuentros": 0.05,
     "estandares": 0.0741,
-    "geopolitica": 0.0691,
+    "geopolitica": 0.0605,
+    "legitimidad": 0.0167,
     "memoria-territorio": 0.2519,
-    "movilidad": 0.0278,
+    "movilidad": 0.0208,
     "perspectiva": 0.037,
-    "representacion": 0.0617
+    "representacion": 0.0401
   },
   "clusters": [
     "dialogos"
   ],
-  "context": "## Encuentros significativos\nInfraestructuras de conversación y acompañamiento que permiten conectar capacidades humanas sin imponer resultados.\nEtiquetas: Aprendizaje y transmisión de capacidades 9.26%; Autoridad, permisos y delegación 2.47%; Decisiones y responsabilidad 30.56%; Empresa y gestión 5.55%; Estándares e interoperabilidad 7.41%; Geopolítica y fronteras 6.91%; Memoria, comunidad y territorio 25.19%; Movilidad e infraestructura 2.78%; Cambio de perspectiva 3.70%; Representación y límites formales 6.17%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-encounters\n\n",
+  "context": "## Encuentros significativos\nInfraestructuras de conversación y acompañamiento que permiten conectar capacidades humanas sin imponer resultados.\nEtiquetas: Aprendizaje y transmisión de capacidades 9.26%; Autoridad, permisos y delegación 1.60%; Decisiones y responsabilidad 29.86%; Empresa y gestión 4.17%; Infraestructura de encuentros 5.00%; Estándares e interoperabilidad 7.41%; Geopolítica y fronteras 6.05%; Legitimidad y principios 1.67%; Memoria, comunidad y territorio 25.19%; Movilidad e infraestructura 2.08%; Cambio de perspectiva 3.70%; Representación y límites formales 4.01%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-encounters\n\n",
   "readingSource": null,
-  "tokens": 154,
+  "tokens": 173,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -61,11 +63,12 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 341,
+      "fichaTokens": 350,
       "tagWeights": {
-        "decision": 0.25,
-        "empresa": 0.5,
-        "movilidad": 0.25
+        "decision": 0.1875,
+        "empresa": 0.375,
+        "encuentros": 0.25,
+        "movilidad": 0.1875
       },
       "clusters": [
         "dialogos"
@@ -118,11 +121,13 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 288,
+      "fichaTokens": 307,
       "tagWeights": {
-        "autoridad": 0.2222,
-        "geopolitica": 0.2222,
-        "representacion": 0.5556
+        "autoridad": 0.1444,
+        "encuentros": 0.2,
+        "geopolitica": 0.1444,
+        "legitimidad": 0.15,
+        "representacion": 0.3612
       },
       "clusters": [
         "dialogos"
@@ -213,21 +218,24 @@
       "kind": "necesita",
       "reading": "Una conversación valiosa se apoya en reciprocidad y límites claros.",
       "relationTokens": 27,
-      "fichaTokens": 186,
+      "fichaTokens": 216,
       "tagWeights": {
-        "aprendizaje": 0.1158,
-        "autoridad": 0.0304,
+        "aprendizaje": 0.1145,
+        "autoridad": 0.0227,
         "capacidad-humana": 0.0309,
         "casos": 0.0118,
-        "decision": 0.3999,
-        "economia": 0.0738,
-        "empresa": 0.1011,
+        "compromisos": 0.0092,
+        "decision": 0.3864,
+        "economia": 0.0669,
+        "empresa": 0.0953,
+        "encuentros": 0.0167,
         "evidencia": 0.0185,
-        "geopolitica": 0.0226,
-        "memoria-territorio": 0.0841,
-        "movilidad": 0.0093,
+        "geopolitica": 0.0214,
+        "legitimidad": 0.0167,
+        "memoria-territorio": 0.0824,
+        "movilidad": 0.0069,
         "perspectiva": 0.0424,
-        "transformacion": 0.0594
+        "transformacion": 0.0573
       },
       "clusters": [
         "dialogos"
@@ -273,17 +281,18 @@
       "kind": "requiere",
       "reading": "Una infraestructura ligera puede reducir costes de conexión humana.",
       "relationTokens": 24,
-      "fichaTokens": 161,
+      "fichaTokens": 170,
       "tagWeights": {
         "aprendizaje": 0.0675,
         "autoridad": 0.0125,
         "capacidad-humana": 0.0139,
         "casos": 0.0374,
-        "decision": 0.0582,
+        "decision": 0.0543,
         "economia": 0.1164,
-        "empresa": 0.1233,
+        "empresa": 0.1155,
+        "encuentros": 0.0156,
         "memoria-territorio": 0.0368,
-        "movilidad": 0.4253,
+        "movilidad": 0.4214,
         "perspectiva": 0.0402,
         "transformacion": 0.0685
       },
@@ -301,19 +310,21 @@
       "kind": "atraviesa",
       "reading": "Los vínculos nacen entre fronteras culturales y disciplinares.",
       "relationTokens": 28,
-      "fichaTokens": 162,
+      "fichaTokens": 181,
       "tagWeights": {
-        "aprendizaje": 0.0162,
-        "autoridad": 0.0568,
-        "decision": 0.0194,
+        "aprendizaje": 0.0144,
+        "autoridad": 0.0451,
+        "decision": 0.0175,
         "documentacion": 0.0432,
         "economia": 0.0952,
-        "empresa": 0.0093,
-        "geopolitica": 0.5083,
+        "empresa": 0.0074,
+        "encuentros": 0.0333,
+        "geopolitica": 0.4965,
+        "legitimidad": 0.0083,
         "memoria-territorio": 0.1401,
-        "perspectiva": 0.0555,
-        "representacion": 0.0309,
-        "transformacion": 0.0251
+        "perspectiva": 0.0556,
+        "representacion": 0.0201,
+        "transformacion": 0.0233
       },
       "clusters": [
         "dialogos"

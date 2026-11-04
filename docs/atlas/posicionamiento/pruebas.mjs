@@ -4,7 +4,7 @@ import {readPosition,positionMap,positionParams,nodeText,edgeText,resolvePositio
 const g=JSON.parse(fs.readFileSync(new URL('../mapa/grafo.json',import.meta.url),'utf8')),all=new Map(g.nodes.map(n=>[n.id,n])),results=[];
 function test(name,fn){fn();results.push({name,pass:true});}
 function run(query){return positionMap(g,readPosition(new URLSearchParams(query),g));}
-test('Every ficha has one source document',()=>{const refs=g.documents.flatMap(d=>d.fichas);assert.equal(refs.length,1291);assert.equal(new Set(refs).size,1291);});
+test('Every ficha has one source document',()=>{const refs=g.documents.flatMap(d=>d.fichas),count=g.nodes.filter(n=>n.type==='ficha').length;assert.equal(refs.length,count);assert.equal(new Set(refs).size,count);});
 test('Every composition sums to 100 percent',()=>{for(const n of g.nodes)assert(Math.abs(Object.values(n.tagWeights).reduce((a,b)=>a+b,0)-1)<1e-9,n.id);});
 test('The biography contains multiple fichas',()=>assert(g.documents.find(d=>d.url.includes('totonacapan.com/?page_id=413')).fichas.length>80));
 test('A specific ficha is a specific entry',()=>assert.deepEqual(resolvePosition(g,'D-285').seeds,['D-285']));

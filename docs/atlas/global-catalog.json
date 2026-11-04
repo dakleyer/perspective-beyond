@@ -1,6 +1,6 @@
 {
   "id": "urn:ota:perspective-beyond",
-  "edition": "2026-11-04",
+  "edition": "2026-11-04-mantenimiento-mapa-1",
   "canonical": "../data/atlas.json",
   "canonical_sha256": "5e37a308dc5d57011d4884dc95dcc7b26223f1c383ad9c3a8bf2367e15a7fb49",
   "clusters": {
@@ -1356,7 +1356,10 @@
     "D-295": "dialogos",
     "D-296": "dialogos",
     "D-297": "dialogos",
-    "D-298": "dialogos"
+    "D-298": "dialogos",
+    "np-hospitalidad": "totonacapan",
+    "np-perfiles-frontera": "totonacapan",
+    "np-censo-practicas": "totonacapan"
   },
   "sources": [
     {
@@ -8449,6 +8452,30 @@
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-298.html",
       "kind": "ficha de diálogo",
       "site": "dakleyer.github.io"
+    },
+    {
+      "id": "np-hospitalidad",
+      "title": "La Posada: una infraestructura para el encuentro",
+      "url": "https://totonacapan.com/?page_id=222",
+      "kind": "ficha de lectura documental",
+      "site": "totonacapan.com",
+      "slug": "np-hospitalidad"
+    },
+    {
+      "id": "np-perfiles-frontera",
+      "title": "Perfiles de frontera: de la experiencia a la institución",
+      "url": "https://totonacapan.com/?page_id=223",
+      "kind": "ficha de lectura documental",
+      "site": "totonacapan.com",
+      "slug": "np-perfiles-frontera"
+    },
+    {
+      "id": "np-censo-practicas",
+      "title": "Censo de Artes y Oficios: describir condiciones de continuidad",
+      "url": "https://totonacapan.com/?page_id=49",
+      "kind": "ficha de lectura documental",
+      "site": "totonacapan.com",
+      "slug": "np-censo-practicas"
     }
   ],
   "editorial_cards": {
@@ -25422,6 +25449,39 @@
       "url": "../sources/car-evolution-mobility-os-e1953/",
       "summary": "Cities, authorities and operators already hold the data, the fleets, the routes and the channels. What is added is the layer that turns them into coordinated decisions, in real time.",
       "question": ""
+    },
+    "np-hospitalidad": {
+      "url": "https://totonacapan.com/?page_id=222",
+      "summary": "El asunto que trae una persona orienta la infraestructura que le permite continuar. La Posada reúne herramientas, memoria, referencias y conversaciones pertinentes; su valor aparece al reconocer qué necesita quien llega. El ensayo relaciona hospitalidad física y digital con el taller y la curaduría del encuentro. Permite pensar una institución desde su capacidad de recibir, conectar y mantener disponible una ayuda concreta.",
+      "question": "¿Qué condiciones hacen posible un encuentro útil para el asunto de quien llega?",
+      "provenance": {
+        "url": "https://totonacapan.com/?page_id=222",
+        "source_sha256": "5589259235f8cfa8b4cee5647d48d07da0048adbe5f5afb61e3ebdca4778e2fe",
+        "observed": "2026-11-04",
+        "kind": "lectura editorial de texto público"
+      }
+    },
+    "np-perfiles-frontera": {
+      "url": "https://totonacapan.com/?page_id=223",
+      "summary": "Una capacidad se vuelve compartida cuando otras personas pueden aprenderla, utilizarla y continuarla. El ensayo reúne movilidad entre mundos, oficio técnico, lectura del territorio, intermediación, trabajo con incertidumbre e institucionalización. El taller permite observar cómo herramientas, confianza y aprendizaje convierten experiencia individual en una práctica que circula. Esa lectura ofrece una perspectiva para coordinar transformación tecnológica y transmisión de capacidades entre contextos.",
+      "question": "¿Cómo pasa una capacidad individual a una práctica que otros pueden continuar?",
+      "provenance": {
+        "url": "https://totonacapan.com/?page_id=223",
+        "source_sha256": "5a5021bed42de465da9a1a89363893971b455dbefde00515d33ff75b36ded75f",
+        "observed": "2026-11-04",
+        "kind": "lectura editorial de texto público"
+      }
+    },
+    "np-censo-practicas": {
+      "url": "https://totonacapan.com/?page_id=49",
+      "summary": "El diseño del Censo relaciona prácticas, transmisión, materiales, territorio y necesidades expresadas por sus portadores. Admite varios oficios por persona y separa registro, uso estadístico, identificación pública e imágenes mediante decisiones de consentimiento. Su utilidad se plantea como devolución: reconocer dónde se interrumpe el aprendizaje y qué apoyo permitiría continuar. La página presenta un marco en preparación y un ejemplo de ficha para examinar ese diseño.",
+      "question": "¿Qué debe registrar una ficha para ayudar a que un oficio continúe practicándose?",
+      "provenance": {
+        "url": "https://totonacapan.com/?page_id=49",
+        "source_sha256": "5574d3aacf7fbb7e70a87ab7360f8182fa04ac99892a0de3eabb859cd1659f6f",
+        "observed": "2026-11-04",
+        "kind": "lectura editorial de texto público"
+      }
     }
   },
   "relations": [
@@ -89046,6 +89106,270 @@
       "to": "np-biografia",
       "kind": "puente de lectura",
       "reading": "Las referencias sensoriales del territorio amplían la lectura de la biografía hacia los oficios, intercambios y prácticas que sostienen la memoria local."
+    },
+    {
+      "id": "map-maintenance-20261104-001",
+      "from": "D-137",
+      "to": "D-182",
+      "kind": "lectura comparada de mecanismos",
+      "reading": "La confianza en una promesa monetaria y el proyecto de conexión entre pueblos permiten comparar qué condiciones vuelven examinable un compromiso: respaldo, medios y una forma concreta de cumplimiento.",
+      "evidence": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-137.html",
+      "evidence_sources": [
+        "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-137.html",
+        "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-182.html"
+      ]
+    },
+    {
+      "id": "map-maintenance-20261104-002",
+      "from": "D-138",
+      "to": "N1826",
+      "kind": "lectura comparada entre clústeres",
+      "reading": "La reflexión sobre obligaciones futuras analiza cómo se reserva capacidad. Phylons separa intención local y autorización de liquidez compartida: la lectura compara cómo reconocer la capacidad disponible antes de comprometerla.",
+      "evidence": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-138.html",
+      "evidence_sources": [
+        "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-138.html",
+        "https://jubap.net/phylons-liquidity-orquestration/"
+      ]
+    },
+    {
+      "id": "map-maintenance-20261104-003",
+      "from": "D-221",
+      "to": "N1826",
+      "kind": "lectura comparada entre clústeres",
+      "reading": "La selección de iniciativas pregunta qué acción puede comenzar con personas, recursos y facultades reales. La orquestación de liquidez aporta una comparación operativa entre una intención y un compromiso autorizado sobre recursos compartidos.",
+      "evidence": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-221.html",
+      "evidence_sources": [
+        "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-221.html",
+        "https://jubap.net/phylons-liquidity-orquestration/"
+      ]
+    },
+    {
+      "id": "map-maintenance-20261104-004",
+      "from": "D-275",
+      "to": "D-296",
+      "kind": "lectura comparada de mecanismos",
+      "reading": "La explicación pública de una convicción y la impugnación externa de una institución comparten una exigencia: ofrecer razones que otra persona pueda examinar desde su propia posición.",
+      "evidence": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-275.html",
+      "evidence_sources": [
+        "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-275.html",
+        "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-296.html"
+      ]
+    },
+    {
+      "id": "map-maintenance-20261104-005",
+      "from": "D-217",
+      "to": "D-243",
+      "kind": "lectura comparada de mecanismos",
+      "reading": "La validación del registro y la discriminación de sus entradas plantean tareas distintas. Su lectura conjunta sitúa el trabajo humano necesario para reconocer si la representación conserva lo que la decisión exige distinguir.",
+      "evidence": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-217.html",
+      "evidence_sources": [
+        "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-217.html",
+        "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-243.html"
+      ]
+    },
+    {
+      "id": "map-maintenance-20261104-006",
+      "from": "D-203",
+      "to": "D-219",
+      "kind": "lectura comparada de mecanismos",
+      "reading": "Separar una identidad matemática de una tendencia de comportamiento ayuda a precisar también la diferencia entre pérdida de representación e indecidibilidad: cada problema requiere supuestos y operaciones propios.",
+      "evidence": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-203.html",
+      "evidence_sources": [
+        "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-203.html",
+        "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-219.html"
+      ]
+    },
+    {
+      "id": "map-maintenance-20261104-007",
+      "from": "D-297",
+      "to": "D-264",
+      "kind": "lectura comparada de mecanismos",
+      "reading": "La vida de una capacidad continúa mediante atribución, documentación y transmisión. El diseño de salida de la unidad de racionalización permite observar esa continuidad en un proceso que la organización puede sostener por sí misma.",
+      "evidence": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-297.html",
+      "evidence_sources": [
+        "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-297.html",
+        "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-264.html"
+      ]
+    },
+    {
+      "id": "map-maintenance-20261104-008",
+      "from": "D-285",
+      "to": "D-298",
+      "kind": "lectura comparada de mecanismos",
+      "reading": "La traducción entre oficios y la pregunta por el fuego relacionan fenómeno, concepto y palabra. Ambas lecturas examinan qué correspondencia conserva una estructura útil entre lenguajes diferentes.",
+      "evidence": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-285.html",
+      "evidence_sources": [
+        "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-285.html",
+        "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-298.html"
+      ]
+    },
+    {
+      "id": "map-maintenance-20261104-009",
+      "from": "D-236",
+      "to": "D-121",
+      "kind": "lectura comparada de mecanismos",
+      "reading": "El trabajo que sostiene una operación fuera del procedimiento permite preguntar qué esfuerzo aporta juicio necesario y cuál compensa una fragmentación corregible. La distinción orienta qué capacidad conservar y qué carga rediseñar.",
+      "evidence": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-236.html",
+      "evidence_sources": [
+        "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-236.html",
+        "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-121.html"
+      ]
+    },
+    {
+      "id": "map-maintenance-20261104-010",
+      "from": "D-249",
+      "to": "D-253",
+      "kind": "lectura comparada de mecanismos",
+      "reading": "La memoria conserva su utilidad mediante relaciones funcionales. La práctica del oficio permite contrastar ese criterio: materiales, secuencias, portadores y condiciones de uso hacen posible volver a actuar desde lo conservado.",
+      "evidence": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-249.html",
+      "evidence_sources": [
+        "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-249.html",
+        "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-253.html"
+      ]
+    },
+    {
+      "id": "map-maintenance-20261104-011",
+      "from": "D-243",
+      "to": "T1400",
+      "kind": "lectura comparada entre clústeres",
+      "reading": "La pregunta por el coste de supervisar se encuentra con un protocolo que distingue supervisión necesaria, creación de información y trabajo compensatorio evitable, para estudiar qué esfuerzo cambia con una intervención.",
+      "evidence": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-243.html",
+      "evidence_sources": [
+        "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-243.html",
+        "https://tegrity.ai/meassuring-human-intelligence-debt/"
+      ]
+    },
+    {
+      "id": "map-maintenance-20261104-012",
+      "from": "np-hospitalidad",
+      "to": "np-posada",
+      "kind": "lectura comparada de mecanismos",
+      "reading": "El ensayo de la Posada desarrolla el mecanismo que la ficha de encuentro plantea: reconocer el asunto, reunir herramientas y memoria y sostener una relación que ayude a continuar.",
+      "evidence": "https://totonacapan.com/?page_id=222",
+      "evidence_sources": [
+        "https://totonacapan.com/?page_id=222",
+        "https://totonacapan.com/?page_id=411"
+      ]
+    },
+    {
+      "id": "map-maintenance-20261104-013",
+      "from": "np-hospitalidad",
+      "to": "D-090",
+      "kind": "lectura comparada entre clústeres",
+      "reading": "La curaduría de encuentros del ensayo permite leer el diseño de ágoras pequeñas desde la pertinencia del asunto y la disponibilidad de interlocutores, herramientas y tiempo.",
+      "evidence": "https://totonacapan.com/?page_id=222",
+      "evidence_sources": [
+        "https://totonacapan.com/?page_id=222",
+        "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-090.html"
+      ]
+    },
+    {
+      "id": "map-maintenance-20261104-014",
+      "from": "np-hospitalidad",
+      "to": "D-284",
+      "kind": "lectura comparada entre clústeres",
+      "reading": "Cuidar un encuentro y mediar entre actores reúnen comprensión del asunto y confianza. La experiencia de intermediación añade la responsabilidad por las oportunidades que puede abrir una palabra.",
+      "evidence": "https://totonacapan.com/?page_id=222",
+      "evidence_sources": [
+        "https://totonacapan.com/?page_id=222",
+        "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-284.html"
+      ]
+    },
+    {
+      "id": "map-maintenance-20261104-015",
+      "from": "np-perfiles-frontera",
+      "to": "D-253",
+      "kind": "lectura comparada entre clústeres",
+      "reading": "El paso del oficio individual a una continuidad compartida se concreta en conservar materiales, criterios y relaciones con quienes todavía pueden practicar y transmitir el saber.",
+      "evidence": "https://totonacapan.com/?page_id=223",
+      "evidence_sources": [
+        "https://totonacapan.com/?page_id=223",
+        "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-253.html"
+      ]
+    },
+    {
+      "id": "map-maintenance-20261104-016",
+      "from": "np-perfiles-frontera",
+      "to": "D-285",
+      "kind": "lectura comparada entre clústeres",
+      "reading": "El perfil de frontera reúne traducción entre mundos y capacidad técnica. La función del arquitecto permite examinar cómo coordinar esos conocimientos especializados mediante correspondencias operativas.",
+      "evidence": "https://totonacapan.com/?page_id=223",
+      "evidence_sources": [
+        "https://totonacapan.com/?page_id=223",
+        "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-285.html"
+      ]
+    },
+    {
+      "id": "map-maintenance-20261104-017",
+      "from": "np-perfiles-frontera",
+      "to": "U1492",
+      "kind": "lectura comparada entre clústeres",
+      "reading": "El ensayo territorial y la integración empresarial permiten comparar cómo una capacidad circula entre lugares cuando se transmiten contexto, confianza y posibilidades efectivas de ejecutar.",
+      "evidence": "https://totonacapan.com/?page_id=223",
+      "evidence_sources": [
+        "https://totonacapan.com/?page_id=223",
+        "https://jubap.us/distributed-operational-intelligence-across-the-americas/"
+      ]
+    },
+    {
+      "id": "map-maintenance-20261104-018",
+      "from": "np-censo-practicas",
+      "to": "np-xanath",
+      "kind": "lectura comparada de mecanismos",
+      "reading": "El diseño de la ficha del Censo aporta preguntas concretas sobre transmisión, materiales y condiciones de uso para la lectura de un conocimiento que se practica en su territorio.",
+      "evidence": "https://totonacapan.com/?page_id=49",
+      "evidence_sources": [
+        "https://totonacapan.com/?page_id=49",
+        "https://totonacapan.com/?page_id=413"
+      ]
+    },
+    {
+      "id": "map-maintenance-20261104-019",
+      "from": "np-censo-practicas",
+      "to": "D-253",
+      "kind": "lectura comparada entre clústeres",
+      "reading": "Registrar quién enseña, con qué materiales y bajo qué condiciones relaciona el inventario con la posibilidad de volver a hacer y transmitir una práctica.",
+      "evidence": "https://totonacapan.com/?page_id=49",
+      "evidence_sources": [
+        "https://totonacapan.com/?page_id=49",
+        "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-253.html"
+      ]
+    },
+    {
+      "id": "map-maintenance-20261104-020",
+      "from": "np-censo-practicas",
+      "to": "D-296",
+      "kind": "lectura comparada entre clústeres",
+      "reading": "El consentimiento diferenciado y la posibilidad de impugnar desde fuera permiten examinar cómo participan y conservan voz las personas a quienes afecta una institución.",
+      "evidence": "https://totonacapan.com/?page_id=49",
+      "evidence_sources": [
+        "https://totonacapan.com/?page_id=49",
+        "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-296.html"
+      ]
+    },
+    {
+      "id": "map-maintenance-20261104-021",
+      "from": "np-censo-practicas",
+      "to": "np-perfiles-frontera",
+      "kind": "lectura comparada de mecanismos",
+      "reading": "Los bloques del Censo describen condiciones de transmisión; el ensayo de perfiles muestra cómo esas condiciones pueden convertir una experiencia individual en práctica compartida.",
+      "evidence": "https://totonacapan.com/?page_id=49",
+      "evidence_sources": [
+        "https://totonacapan.com/?page_id=49",
+        "https://totonacapan.com/?page_id=223"
+      ]
+    },
+    {
+      "id": "map-maintenance-20261104-022",
+      "from": "np-hospitalidad",
+      "to": "np-perfiles-frontera",
+      "kind": "lectura comparada de mecanismos",
+      "reading": "La infraestructura de encuentro sostiene el intercambio por el que un oficio, una herramienta y una relación de confianza pueden convertirse en una capacidad compartida.",
+      "evidence": "https://totonacapan.com/?page_id=222",
+      "evidence_sources": [
+        "https://totonacapan.com/?page_id=222",
+        "https://totonacapan.com/?page_id=223"
+      ]
     }
   ],
   "concepts": [
@@ -95866,7 +96190,8 @@
         "D-267",
         "D-284",
         "D-285",
-        "D-286"
+        "D-286",
+        "np-perfiles-frontera"
       ],
       "clusters": [
         "dialogos",
@@ -95963,7 +96288,8 @@
         "D-272",
         "D-274",
         "D-276",
-        "D-277"
+        "D-277",
+        "np-hospitalidad"
       ],
       "clusters": [
         "dialogos",
@@ -95971,7 +96297,8 @@
         "imsv",
         "net",
         "research",
-        "tegrity"
+        "tegrity",
+        "totonacapan"
       ]
     },
     "representacion": {
@@ -96494,7 +96821,9 @@
         "D-268",
         "D-283",
         "D-285",
-        "D-291"
+        "D-291",
+        "np-perfiles-frontera",
+        "np-censo-practicas"
       ],
       "clusters": [
         "dialogos",
@@ -96505,6 +96834,7 @@
         "net",
         "research",
         "tegrity",
+        "totonacapan",
         "us"
       ]
     },
@@ -98284,7 +98614,8 @@
         "D-286",
         "D-287",
         "D-288",
-        "D-297"
+        "D-297",
+        "np-perfiles-frontera"
       ],
       "clusters": [
         "dialogos",
@@ -98412,7 +98743,10 @@
         "D-283",
         "D-286",
         "D-294",
-        "D-297"
+        "D-297",
+        "np-hospitalidad",
+        "np-perfiles-frontera",
+        "np-censo-practicas"
       ],
       "clusters": [
         "dialogos",
@@ -98573,7 +98907,10 @@
         "D-285",
         "D-286",
         "D-287",
-        "D-295"
+        "D-295",
+        "np-hospitalidad",
+        "np-perfiles-frontera",
+        "np-censo-practicas"
       ],
       "clusters": [
         "dialogos",
@@ -99603,7 +99940,9 @@
         "sac-db7dac1cf5bebf",
         "D-243",
         "D-252",
-        "D-290"
+        "D-290",
+        "np-hospitalidad",
+        "np-censo-practicas"
       ],
       "clusters": [
         "dialogos",
@@ -99613,6 +99952,7 @@
         "net",
         "research",
         "tegrity",
+        "totonacapan",
         "us"
       ]
     },
@@ -99654,6 +99994,57 @@
         "research",
         "tegrity",
         "us"
+      ]
+    },
+    "compromisos": {
+      "label": "Compromisos y capacidad disponible",
+      "reading": "Leer qué capacidad queda efectivamente disponible después de sostener promesas, obligaciones y autorizaciones.",
+      "sources": [
+        "N1826",
+        "D-137",
+        "D-138",
+        "D-182",
+        "D-221",
+        "D-237"
+      ],
+      "clusters": [
+        "dialogos",
+        "net"
+      ]
+    },
+    "legitimidad": {
+      "label": "Legitimidad y principios",
+      "reading": "Relacionar razones, principios y posibilidades de impugnación con los requisitos y potestades de una institución.",
+      "sources": [
+        "D-114",
+        "D-120",
+        "D-169",
+        "D-170",
+        "D-171",
+        "D-275",
+        "D-296",
+        "np-censo-practicas"
+      ],
+      "clusters": [
+        "dialogos",
+        "totonacapan"
+      ]
+    },
+    "encuentros": {
+      "label": "Infraestructura de encuentros",
+      "reading": "Reconocer las condiciones, herramientas y mediaciones que permiten encontrarse, comprender un asunto y continuar trabajando.",
+      "sources": [
+        "np-posada",
+        "D-090",
+        "D-109",
+        "D-120",
+        "D-284",
+        "np-hospitalidad",
+        "np-perfiles-frontera"
+      ],
+      "clusters": [
+        "dialogos",
+        "totonacapan"
       ]
     }
   },
@@ -100135,6 +100526,7 @@
     "N1826": [
       "agentes",
       "autoridad",
+      "compromisos",
       "control-minimo",
       "decision",
       "documentacion",
@@ -101396,6 +101788,7 @@
       "memoria-territorio"
     ],
     "np-posada": [
+      "encuentros",
       "movilidad",
       "transformacion"
     ],
@@ -105081,6 +105474,7 @@
     "D-090": [
       "decision",
       "empresa",
+      "encuentros",
       "movilidad"
     ],
     "D-091": [
@@ -105158,6 +105552,7 @@
     ],
     "D-109": [
       "autoridad",
+      "encuentros",
       "geopolitica"
     ],
     "D-110": [
@@ -105185,6 +105580,7 @@
     "D-114": [
       "autoridad",
       "decision",
+      "legitimidad",
       "memoria-territorio",
       "transformacion"
     ],
@@ -105211,7 +105607,9 @@
     ],
     "D-120": [
       "autoridad",
+      "encuentros",
       "geopolitica",
+      "legitimidad",
       "representacion"
     ],
     "D-121": [
@@ -105301,10 +105699,12 @@
       "geopolitica"
     ],
     "D-137": [
+      "compromisos",
       "decision",
       "economia"
     ],
     "D-138": [
+      "compromisos",
       "economia",
       "empresa",
       "transformacion"
@@ -105429,14 +105829,17 @@
     ],
     "D-169": [
       "autoridad",
-      "estandares"
+      "estandares",
+      "legitimidad"
     ],
     "D-170": [
-      "autoridad"
+      "autoridad",
+      "legitimidad"
     ],
     "D-171": [
       "autoridad",
-      "decision"
+      "decision",
+      "legitimidad"
     ],
     "D-172": [
       "autoridad",
@@ -105482,6 +105885,7 @@
     ],
     "D-182": [
       "casos",
+      "compromisos",
       "decision",
       "movilidad"
     ],
@@ -105642,6 +106046,7 @@
     "D-221": [
       "aprendizaje",
       "casos",
+      "compromisos",
       "decision",
       "empresa",
       "transformacion"
@@ -105712,6 +106117,7 @@
     ],
     "D-237": [
       "autoridad",
+      "compromisos",
       "empresa",
       "evidencia"
     ],
@@ -105874,7 +106280,8 @@
     "D-275": [
       "aprendizaje",
       "autoridad",
-      "espiritualidad"
+      "espiritualidad",
+      "legitimidad"
     ],
     "D-276": [
       "decision",
@@ -105912,6 +106319,7 @@
       "autoridad",
       "decision",
       "empresa",
+      "encuentros",
       "geopolitica",
       "transformacion"
     ],
@@ -105973,7 +106381,8 @@
     ],
     "D-296": [
       "autoridad",
-      "decision"
+      "decision",
+      "legitimidad"
     ],
     "D-297": [
       "autoridad",
@@ -105983,6 +106392,28 @@
     ],
     "D-298": [
       "geopolitica"
+    ],
+    "np-hospitalidad": [
+      "aprendizaje",
+      "documentacion",
+      "encuentros",
+      "memoria-territorio",
+      "perspectiva"
+    ],
+    "np-perfiles-frontera": [
+      "aprendizaje",
+      "empresa",
+      "encuentros",
+      "evidencia",
+      "memoria-territorio",
+      "transformacion"
+    ],
+    "np-censo-practicas": [
+      "aprendizaje",
+      "documentacion",
+      "evidencia",
+      "legitimidad",
+      "memoria-territorio"
     ]
   },
   "github": {
@@ -106108,9 +106539,12 @@
         "federated": "entrada/totonacapan/federado.txt",
         "catalog": "fuentes/totonacapan.txt",
         "porous": {
+          "map-maintenance-20261104-017": "entrada/totonacapan/poroso-map-maintenance-20261104-017.txt",
           "np-r24": "entrada/totonacapan/poroso-np-r24.txt",
           "np-r27": "entrada/totonacapan/poroso-np-r27.txt",
-          "dg-178": "entrada/totonacapan/poroso-dg-178.txt"
+          "dg-178": "entrada/totonacapan/poroso-dg-178.txt",
+          "map-maintenance-20261104-013": "entrada/totonacapan/poroso-map-maintenance-20261104-013.txt",
+          "map-maintenance-20261104-014": "entrada/totonacapan/poroso-map-maintenance-20261104-014.txt"
         }
       },
       "mobility": {
@@ -106690,12 +107124,13 @@
       "movilidad": 0.4375
     },
     "N1826": {
-      "agentes": 0.2258,
-      "autoridad": 0.129,
-      "control-minimo": 0.0645,
-      "decision": 0.0968,
-      "documentacion": 0.129,
-      "economia": 0.3549
+      "agentes": 0.1807,
+      "autoridad": 0.1032,
+      "compromisos": 0.2,
+      "control-minimo": 0.0516,
+      "decision": 0.0774,
+      "documentacion": 0.1032,
+      "economia": 0.2839
     },
     "N1828": {
       "decision": 0.25,
@@ -107953,8 +108388,9 @@
       "memoria-territorio": 1.0
     },
     "np-posada": {
-      "movilidad": 0.5,
-      "transformacion": 0.5
+      "encuentros": 0.25,
+      "movilidad": 0.375,
+      "transformacion": 0.375
     },
     "np-formacion": {
       "aprendizaje": 0.5455,
@@ -111636,9 +112072,10 @@
       "decision": 1.0
     },
     "D-090": {
-      "decision": 0.25,
-      "empresa": 0.5,
-      "movilidad": 0.25
+      "decision": 0.1875,
+      "empresa": 0.375,
+      "encuentros": 0.25,
+      "movilidad": 0.1875
     },
     "D-091": {
       "aprendizaje": 1.0
@@ -111714,8 +112151,9 @@
       "memoria-territorio": 1.0
     },
     "D-109": {
-      "autoridad": 0.5,
-      "geopolitica": 0.5
+      "autoridad": 0.4,
+      "encuentros": 0.2,
+      "geopolitica": 0.4
     },
     "D-110": {
       "casos": 0.5455,
@@ -111740,10 +112178,11 @@
       "memoria-territorio": 0.6364
     },
     "D-114": {
-      "autoridad": 0.1539,
-      "decision": 0.3846,
-      "memoria-territorio": 0.3077,
-      "transformacion": 0.1538
+      "autoridad": 0.1308,
+      "decision": 0.3269,
+      "legitimidad": 0.15,
+      "memoria-territorio": 0.2616,
+      "transformacion": 0.1307
     },
     "D-115": {
       "autoridad": 0.1667,
@@ -111767,9 +112206,11 @@
       "transformacion": 0.3637
     },
     "D-120": {
-      "autoridad": 0.2222,
-      "geopolitica": 0.2222,
-      "representacion": 0.5556
+      "autoridad": 0.1444,
+      "encuentros": 0.2,
+      "geopolitica": 0.1444,
+      "legitimidad": 0.15,
+      "representacion": 0.3612
     },
     "D-121": {
       "aprendizaje": 0.1818,
@@ -111858,13 +112299,15 @@
       "geopolitica": 0.2857
     },
     "D-137": {
-      "decision": 0.25,
-      "economia": 0.75
+      "compromisos": 0.25,
+      "decision": 0.1875,
+      "economia": 0.5625
     },
     "D-138": {
-      "economia": 0.25,
-      "empresa": 0.5,
-      "transformacion": 0.25
+      "compromisos": 0.25,
+      "economia": 0.1875,
+      "empresa": 0.375,
+      "transformacion": 0.1875
     },
     "D-139": {
       "decision": 1.0
@@ -111985,15 +112428,18 @@
       "economia": 0.7143
     },
     "D-169": {
-      "autoridad": 0.4286,
-      "estandares": 0.5714
+      "autoridad": 0.3429,
+      "estandares": 0.4571,
+      "legitimidad": 0.2
     },
     "D-170": {
-      "autoridad": 1.0
+      "autoridad": 0.85,
+      "legitimidad": 0.15
     },
     "D-171": {
-      "autoridad": 0.75,
-      "decision": 0.25
+      "autoridad": 0.5625,
+      "decision": 0.1875,
+      "legitimidad": 0.25
     },
     "D-172": {
       "autoridad": 0.375,
@@ -112038,9 +112484,10 @@
       "transformacion": 0.3125
     },
     "D-182": {
-      "casos": 0.2,
-      "decision": 0.3,
-      "movilidad": 0.5
+      "casos": 0.16,
+      "compromisos": 0.2,
+      "decision": 0.24,
+      "movilidad": 0.4
     },
     "D-183": {
       "matematicas": 1.0
@@ -112197,11 +112644,12 @@
       "aprendizaje": 1.0
     },
     "D-221": {
-      "aprendizaje": 0.1539,
-      "casos": 0.1539,
-      "decision": 0.1538,
-      "empresa": 0.3846,
-      "transformacion": 0.1538
+      "aprendizaje": 0.1308,
+      "casos": 0.1308,
+      "compromisos": 0.15,
+      "decision": 0.1308,
+      "empresa": 0.3269,
+      "transformacion": 0.1307
     },
     "D-222": {
       "economia": 1.0
@@ -112268,9 +112716,10 @@
       "evidencia": 1.0
     },
     "D-237": {
-      "autoridad": 0.25,
-      "empresa": 0.5,
-      "evidencia": 0.25
+      "autoridad": 0.2125,
+      "compromisos": 0.15,
+      "empresa": 0.425,
+      "evidencia": 0.2125
     },
     "D-238": {
       "aprendizaje": 1.0
@@ -112429,9 +112878,10 @@
       "perspectiva": 0.5
     },
     "D-275": {
-      "aprendizaje": 0.1539,
-      "autoridad": 0.4615,
-      "espiritualidad": 0.3846
+      "aprendizaje": 0.1154,
+      "autoridad": 0.3461,
+      "espiritualidad": 0.2885,
+      "legitimidad": 0.25
     },
     "D-276": {
       "decision": 0.2222,
@@ -112465,12 +112915,13 @@
       "memoria-territorio": 0.6
     },
     "D-284": {
-      "aprendizaje": 0.1667,
-      "autoridad": 0.1667,
-      "decision": 0.1667,
-      "empresa": 0.1667,
-      "geopolitica": 0.1666,
-      "transformacion": 0.1666
+      "aprendizaje": 0.1334,
+      "autoridad": 0.1334,
+      "decision": 0.1333,
+      "empresa": 0.1333,
+      "encuentros": 0.2,
+      "geopolitica": 0.1333,
+      "transformacion": 0.1333
     },
     "D-285": {
       "aprendizaje": 0.05,
@@ -112529,8 +112980,9 @@
       "economia": 0.7143
     },
     "D-296": {
-      "autoridad": 0.5,
-      "decision": 0.5
+      "autoridad": 0.35,
+      "decision": 0.35,
+      "legitimidad": 0.3
     },
     "D-297": {
       "autoridad": 0.2222,
@@ -112540,6 +112992,28 @@
     },
     "D-298": {
       "geopolitica": 1.0
+    },
+    "np-hospitalidad": {
+      "aprendizaje": 0.2,
+      "documentacion": 0.1,
+      "encuentros": 0.35,
+      "memoria-territorio": 0.2,
+      "perspectiva": 0.15
+    },
+    "np-perfiles-frontera": {
+      "aprendizaje": 0.2,
+      "empresa": 0.1,
+      "encuentros": 0.2,
+      "evidencia": 0.1,
+      "memoria-territorio": 0.2,
+      "transformacion": 0.2
+    },
+    "np-censo-practicas": {
+      "aprendizaje": 0.2,
+      "documentacion": 0.15,
+      "evidencia": 0.15,
+      "legitimidad": 0.2,
+      "memoria-territorio": 0.3
     }
   },
   "tag_weight_overrides": {
@@ -112571,6 +113045,132 @@
       "matematicas": 0.1,
       "representacion": 0.2,
       "transformacion": 0.25
+    },
+    "np-hospitalidad": {
+      "aprendizaje": 0.2,
+      "documentacion": 0.1,
+      "encuentros": 0.35,
+      "memoria-territorio": 0.2,
+      "perspectiva": 0.15
+    },
+    "np-perfiles-frontera": {
+      "aprendizaje": 0.2,
+      "empresa": 0.1,
+      "encuentros": 0.2,
+      "evidencia": 0.1,
+      "memoria-territorio": 0.2,
+      "transformacion": 0.2
+    },
+    "np-censo-practicas": {
+      "aprendizaje": 0.2,
+      "documentacion": 0.15,
+      "evidencia": 0.15,
+      "legitimidad": 0.2,
+      "memoria-territorio": 0.3
+    },
+    "D-137": {
+      "compromisos": 0.25,
+      "decision": 0.1875,
+      "economia": 0.5625
+    },
+    "D-138": {
+      "compromisos": 0.25,
+      "economia": 0.1875,
+      "empresa": 0.375,
+      "transformacion": 0.1875
+    },
+    "D-182": {
+      "casos": 0.16,
+      "compromisos": 0.2,
+      "decision": 0.24,
+      "movilidad": 0.4
+    },
+    "D-221": {
+      "aprendizaje": 0.1308,
+      "casos": 0.1308,
+      "compromisos": 0.15,
+      "decision": 0.1308,
+      "empresa": 0.3269,
+      "transformacion": 0.1307
+    },
+    "D-237": {
+      "autoridad": 0.2125,
+      "compromisos": 0.15,
+      "empresa": 0.425,
+      "evidencia": 0.2125
+    },
+    "N1826": {
+      "agentes": 0.1807,
+      "autoridad": 0.1032,
+      "compromisos": 0.2,
+      "control-minimo": 0.0516,
+      "decision": 0.0774,
+      "documentacion": 0.1032,
+      "economia": 0.2839
+    },
+    "D-169": {
+      "autoridad": 0.3429,
+      "estandares": 0.4571,
+      "legitimidad": 0.2
+    },
+    "D-170": {
+      "autoridad": 0.85,
+      "legitimidad": 0.15
+    },
+    "D-171": {
+      "autoridad": 0.5625,
+      "decision": 0.1875,
+      "legitimidad": 0.25
+    },
+    "D-275": {
+      "aprendizaje": 0.1154,
+      "autoridad": 0.3461,
+      "espiritualidad": 0.2885,
+      "legitimidad": 0.25
+    },
+    "D-296": {
+      "autoridad": 0.35,
+      "decision": 0.35,
+      "legitimidad": 0.3
+    },
+    "D-114": {
+      "autoridad": 0.1308,
+      "decision": 0.3269,
+      "legitimidad": 0.15,
+      "memoria-territorio": 0.2616,
+      "transformacion": 0.1307
+    },
+    "D-120": {
+      "autoridad": 0.1444,
+      "encuentros": 0.2,
+      "geopolitica": 0.1444,
+      "legitimidad": 0.15,
+      "representacion": 0.3612
+    },
+    "D-090": {
+      "decision": 0.1875,
+      "empresa": 0.375,
+      "encuentros": 0.25,
+      "movilidad": 0.1875
+    },
+    "D-109": {
+      "autoridad": 0.4,
+      "encuentros": 0.2,
+      "geopolitica": 0.4
+    },
+    "D-284": {
+      "aprendizaje": 0.1334,
+      "autoridad": 0.1334,
+      "decision": 0.1333,
+      "empresa": 0.1333,
+      "encuentros": 0.2,
+      "geopolitica": 0.1333,
+      "transformacion": 0.1333
+    },
+    "np-posada": {
+      "encuentros": 0.25,
+      "movilidad": 0.375,
+      "transformacion": 0.375
     }
   },
   "tag_weight_method": {
@@ -113072,6 +113672,183 @@
         "url": "https://jubap.eu/mobility/",
         "sha256": "904aa64ca86dcf3227cd9e99fb9bb637de26e12252df59be6112693714ee899d",
         "links": 8
+      }
+    ]
+  },
+  "map_maintenance": {
+    "date": "2026-11-04",
+    "source_edition": "Diálogos v0.12 · 298 fichas",
+    "added_sources": [
+      "np-hospitalidad",
+      "np-perfiles-frontera",
+      "np-censo-practicas"
+    ],
+    "added_relations": [
+      "map-maintenance-20261104-001",
+      "map-maintenance-20261104-002",
+      "map-maintenance-20261104-003",
+      "map-maintenance-20261104-004",
+      "map-maintenance-20261104-005",
+      "map-maintenance-20261104-006",
+      "map-maintenance-20261104-007",
+      "map-maintenance-20261104-008",
+      "map-maintenance-20261104-009",
+      "map-maintenance-20261104-010",
+      "map-maintenance-20261104-011",
+      "map-maintenance-20261104-012",
+      "map-maintenance-20261104-013",
+      "map-maintenance-20261104-014",
+      "map-maintenance-20261104-015",
+      "map-maintenance-20261104-016",
+      "map-maintenance-20261104-017",
+      "map-maintenance-20261104-018",
+      "map-maintenance-20261104-019",
+      "map-maintenance-20261104-020",
+      "map-maintenance-20261104-021",
+      "map-maintenance-20261104-022"
+    ],
+    "new_topics": [
+      "compromisos",
+      "legitimidad",
+      "encuentros"
+    ],
+    "tag_adjustments": [
+      {
+        "source": "D-137",
+        "title": "El dinero sostiene una promesa que necesita ser creíble",
+        "added": {
+          "compromisos": 0.25
+        },
+        "previous_tags_retained": true
+      },
+      {
+        "source": "D-138",
+        "title": "El futuro comprometido puede vaciar la capacidad disponible",
+        "added": {
+          "compromisos": 0.25
+        },
+        "previous_tags_retained": true
+      },
+      {
+        "source": "D-182",
+        "title": "Una promesa de movilidad empieza a existir cuando tiene horarios",
+        "added": {
+          "compromisos": 0.2
+        },
+        "previous_tags_retained": true
+      },
+      {
+        "source": "D-221",
+        "title": "La iniciativa que no se puede mover ya consume recursos",
+        "added": {
+          "compromisos": 0.15
+        },
+        "previous_tags_retained": true
+      },
+      {
+        "source": "D-237",
+        "title": "Obedecer todas las reglas puede hacer imposible el resultado",
+        "added": {
+          "compromisos": 0.15
+        },
+        "previous_tags_retained": true
+      },
+      {
+        "source": "N1826",
+        "title": "Phylons Liquidity Orquestration",
+        "added": {
+          "compromisos": 0.2
+        },
+        "previous_tags_retained": true
+      },
+      {
+        "source": "D-169",
+        "title": "Una ley tiene principios; un expediente exige requisitos",
+        "added": {
+          "legitimidad": 0.2
+        },
+        "previous_tags_retained": true
+      },
+      {
+        "source": "D-170",
+        "title": "O como, o lleno formatos",
+        "added": {
+          "legitimidad": 0.15
+        },
+        "previous_tags_retained": true
+      },
+      {
+        "source": "D-171",
+        "title": "El débil falla requisitos; el poder falla principios",
+        "added": {
+          "legitimidad": 0.25
+        },
+        "previous_tags_retained": true
+      },
+      {
+        "source": "D-275",
+        "title": "La experiencia espiritual no da autoridad para exigir obediencia",
+        "added": {
+          "legitimidad": 0.25
+        },
+        "previous_tags_retained": true
+      },
+      {
+        "source": "D-296",
+        "title": "Una ética institucional también puede ser impugnada desde fuera",
+        "added": {
+          "legitimidad": 0.3
+        },
+        "previous_tags_retained": true
+      },
+      {
+        "source": "D-114",
+        "title": "Consejeros no son gobernantes, y un nombre no es un mandato",
+        "added": {
+          "legitimidad": 0.15
+        },
+        "previous_tags_retained": true
+      },
+      {
+        "source": "D-120",
+        "title": "Facilitar encuentros sin arrogarse la representación",
+        "added": {
+          "legitimidad": 0.15,
+          "encuentros": 0.2
+        },
+        "previous_tags_retained": true
+      },
+      {
+        "source": "D-090",
+        "title": "Ágoras pequeñas para encuentros que importan",
+        "added": {
+          "encuentros": 0.25
+        },
+        "previous_tags_retained": true
+      },
+      {
+        "source": "D-109",
+        "title": "Una institución que traduce sin perder su voz",
+        "added": {
+          "encuentros": 0.2
+        },
+        "previous_tags_retained": true
+      },
+      {
+        "source": "D-284",
+        "title": "El agente triple: mediar sin perder la propia palabra",
+        "added": {
+          "encuentros": 0.2
+        },
+        "previous_tags_retained": true
+      },
+      {
+        "source": "np-posada",
+        "title": "La posada como lugar de encuentro",
+        "added": {
+          "encuentros": 0.25
+        },
+        "previous_tags_retained": true
       }
     ]
   }

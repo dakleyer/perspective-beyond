@@ -1,0 +1,101 @@
+{
+  "before": "f269656e8e6ce937f833bb7946430d654d6e0356",
+  "after": "9fb18fcd1bcb2e41f865060e011246274dba281f",
+  "checks": [
+    {
+      "file": "docs/data/atlas.json",
+      "equal": true,
+      "sha256": "5e37a308dc5d57011d4884dc95dcc7b26223f1c383ad9c3a8bf2367e15a7fb49"
+    },
+    {
+      "file": "docs/atlas/global-catalog.json",
+      "part": "sources",
+      "before_count": 1013,
+      "after_count": 1013,
+      "equal": true,
+      "before_sha256": "47a76ff459ccea87519d79096c81fa6d37ed2d90c5b09e0fd8037677847ff618",
+      "after_sha256": "47a76ff459ccea87519d79096c81fa6d37ed2d90c5b09e0fd8037677847ff618"
+    },
+    {
+      "file": "docs/atlas/global-catalog.json",
+      "part": "relations",
+      "before_count": 8105,
+      "after_count": 8105,
+      "equal": true,
+      "before_sha256": "a7920c764ce72d084443d1eb813dfafa7644072a0685f36491d37283776edb02",
+      "after_sha256": "a7920c764ce72d084443d1eb813dfafa7644072a0685f36491d37283776edb02"
+    },
+    {
+      "file": "docs/atlas/global-catalog.json",
+      "part": "concepts",
+      "before_count": 93,
+      "after_count": 93,
+      "equal": true,
+      "before_sha256": "0a5de6f28f7e9ef91d6061c081343a5cc9966fdea1bb3af2baf23c1c61d04cca",
+      "after_sha256": "0a5de6f28f7e9ef91d6061c081343a5cc9966fdea1bb3af2baf23c1c61d04cca"
+    },
+    {
+      "file": "docs/atlas/global-catalog.json",
+      "part": "concept_relations",
+      "before_count": 346,
+      "after_count": 346,
+      "equal": true,
+      "before_sha256": "0376efe6c7be7b9a2d41b4118610e6f0a94197addc6216e3bdebaddb4d49c2ef",
+      "after_sha256": "0376efe6c7be7b9a2d41b4118610e6f0a94197addc6216e3bdebaddb4d49c2ef"
+    },
+    {
+      "file": "docs/atlas/dialogos/publico.json",
+      "part": "cards",
+      "before_count": 298,
+      "after_count": 298,
+      "equal": true,
+      "before_sha256": "bab5bfa22ad2a147e1df253cc739328ecb9896ddee873679c6c5341118479cec",
+      "after_sha256": "bab5bfa22ad2a147e1df253cc739328ecb9896ddee873679c6c5341118479cec"
+    },
+    {
+      "file": "docs/atlas/dialogos/publico.json",
+      "part": "concepts",
+      "before_count": 93,
+      "after_count": 93,
+      "equal": true,
+      "before_sha256": "ccdfee0b0153ec1966032132e2076e758acdb6be12db0d8c05fc6eeb71acbc89",
+      "after_sha256": "ccdfee0b0153ec1966032132e2076e758acdb6be12db0d8c05fc6eeb71acbc89"
+    },
+    {
+      "file": "docs/atlas/dialogos/publico.json",
+      "part": "relations",
+      "before_count": 322,
+      "after_count": 322,
+      "equal": true,
+      "before_sha256": "4fc8853beb4b114fa56ca65deade8c6f6c533fb4d979e4e3018bf34543e9a20c",
+      "after_sha256": "4fc8853beb4b114fa56ca65deade8c6f6c533fb4d979e4e3018bf34543e9a20c"
+    },
+    {
+      "file": "docs/atlas/mapa/grafo.json",
+      "part": "edges",
+      "before_count": 11810,
+      "after_count": 11810,
+      "equal": true,
+      "before_sha256": "aaf380b3869e36466f494bdb857f9622edae8da4925fc73e6e5f14f65f9200ce",
+      "after_sha256": "aaf380b3869e36466f494bdb857f9622edae8da4925fc73e6e5f14f65f9200ce"
+    },
+    {
+      "part": "ficha identities",
+      "before_count": 1291,
+      "after_count": 1291,
+      "equal": true,
+      "sha256": "cc8d7d639a01b6c71dea247f72e1e5f4bed7a9e8085c2b1d98e88b70dd11801c"
+    },
+    {
+      "part": "concepto identities",
+      "before_count": 272,
+      "after_count": 272,
+      "equal": true,
+      "sha256": "a2d8125ff29125dd5f0ebce95c4885a5b7842908093ce718daeaf084e005e8a7"
+    }
+  ],
+  "removed_nodes": [],
+  "added_nodes": [],
+  "navigation_separate": 46,
+  "all_substrate_equal": true
+}

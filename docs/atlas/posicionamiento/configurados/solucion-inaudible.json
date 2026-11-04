@@ -1,6 +1,6 @@
 {
   "schema": "perspective-beyond/positioning-v1.1",
-  "edition": "2026-11-04",
+  "edition": "2026-11-04-mantenimiento-mapa-1",
   "request": {
     "posicionamiento": "D-271",
     "tokens": 3000,
@@ -48,16 +48,16 @@
   },
   "budget": {
     "limit": 3000,
-    "used": 2613,
-    "remaining": 387,
+    "used": 2643,
+    "remaining": 357,
     "nextBlock": 424,
     "encoding": "o200k_base",
     "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
   },
-  "reachable": 1535,
+  "reachable": 1538,
   "selected": 7,
   "shown": 8,
-  "omittedByBudget": 1528,
+  "omittedByBudget": 1531,
   "omittedInDiagram": 0,
   "layers": [
     {
@@ -340,11 +340,14 @@
         "autoridad",
         "capacidad-humana",
         "casos",
+        "compromisos",
         "decision",
         "economia",
         "empresa",
+        "encuentros",
         "evidencia",
         "geopolitica",
+        "legitimidad",
         "memoria-territorio",
         "movilidad",
         "perspectiva",
@@ -384,26 +387,29 @@
         "D-296"
       ],
       "tagWeights": {
-        "aprendizaje": 0.1158,
-        "autoridad": 0.0304,
+        "aprendizaje": 0.1145,
+        "autoridad": 0.0227,
         "capacidad-humana": 0.0309,
         "casos": 0.0118,
-        "decision": 0.3999,
-        "economia": 0.0738,
-        "empresa": 0.1011,
+        "compromisos": 0.0092,
+        "decision": 0.3864,
+        "economia": 0.0669,
+        "empresa": 0.0953,
+        "encuentros": 0.0167,
         "evidencia": 0.0185,
-        "geopolitica": 0.0226,
-        "memoria-territorio": 0.0841,
-        "movilidad": 0.0093,
+        "geopolitica": 0.0214,
+        "legitimidad": 0.0167,
+        "memoria-territorio": 0.0824,
+        "movilidad": 0.0069,
         "perspectiva": 0.0424,
-        "transformacion": 0.0594
+        "transformacion": 0.0573
       },
-      "contextTokens": 186,
+      "contextTokens": 216,
       "positionHeaderTokens": 37,
       "distance": 2,
       "parent": "D-271",
       "routeEdge": "apoyo:D-271:dg-trust",
-      "affinity": 0.07176
+      "affinity": 0.07124000000000001
     }
   ],
   "edges": [
@@ -711,11 +717,14 @@
         "autoridad",
         "capacidad-humana",
         "casos",
+        "compromisos",
         "decision",
         "economia",
         "empresa",
+        "encuentros",
         "evidencia",
         "geopolitica",
+        "legitimidad",
         "memoria-territorio",
         "movilidad",
         "perspectiva",
@@ -755,27 +764,30 @@
         "D-296"
       ],
       "tagWeights": {
-        "aprendizaje": 0.1158,
-        "autoridad": 0.0304,
+        "aprendizaje": 0.1145,
+        "autoridad": 0.0227,
         "capacidad-humana": 0.0309,
         "casos": 0.0118,
-        "decision": 0.3999,
-        "economia": 0.0738,
-        "empresa": 0.1011,
+        "compromisos": 0.0092,
+        "decision": 0.3864,
+        "economia": 0.0669,
+        "empresa": 0.0953,
+        "encuentros": 0.0167,
         "evidencia": 0.0185,
-        "geopolitica": 0.0226,
-        "memoria-territorio": 0.0841,
-        "movilidad": 0.0093,
+        "geopolitica": 0.0214,
+        "legitimidad": 0.0167,
+        "memoria-territorio": 0.0824,
+        "movilidad": 0.0069,
         "perspectiva": 0.0424,
-        "transformacion": 0.0594
+        "transformacion": 0.0573
       },
-      "contextTokens": 186,
+      "contextTokens": 216,
       "positionHeaderTokens": 37,
       "distance": 2,
       "parent": "D-271",
       "routeEdge": "apoyo:D-271:dg-trust",
-      "affinity": 0.07176
+      "affinity": 0.07124000000000001
     }
   ],
-  "reading": "# Posicionamiento · La solución pudo decirse muchas veces y seguir siendo inaudible\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-271.html\n\n## La solución pudo decirse muchas veces y seguir siendo inaudible\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Cómo reconocer una solución que ya circula entre las personas, pero que nadie toma en serio?\nREFLEXIÓN DEL DIÁLOGO (voz original solo en citas, resto elaboración editorial) — Hay una frase del manifiesto que enlaza el coaching, el trabajo de campo y la arquitectura empresarial: en las empresas, «la verdadera causa y la verdadera solución de las situaciones ha sido dicha sucintamente por muchos en varias ocasiones». El problema no siempre es que falten datos o que nadie haya propuesto nada. A veces las palabras existen, pero el entorno las ha clasificado como una ocurrencia irrelevante.\n\nIván propone una pista paradójica: la idea pudo ser pronunciada incluso por su propio descubridor sin que este la tomara en serio. No porque la solución esté comprobada, sino porque la conversación, los roles, las rivalidades y el marco habitual impiden examinarla. La tarea del facilitador es volver a escuchar la proposición, su contexto, las evidencias y las resistencias que despertó.\n\nNo hay que confundir el silencio institucional con prueba automática de verdad: una idea repetida también puede ser falsa. La diferencia está en crear un recorrido de prueba en el que lo ya dicho pueda recuperar estatus de hipótesis y ser contrastado. Esta ficha conserva la intuición original y la separa de una idealización del «trabajador que siempre tenía razón».\nEtiquetas: Decisiones y responsabilidad 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-271\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-271.html\n\nLa solución pudo decirse muchas veces y seguir siendo inaudible → La ciencia también puede excluir una idea dejándola sin interlocutor · conexión de la edición. La lectura enlaza «La solución pudo decirse muchas veces y seguir siendo inaudible» con «La ciencia también puede excluir una idea dejándola sin interlocutor».\n\n## La ciencia también puede excluir una idea dejándola sin interlocutor\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Puede una hipótesis ser descartada socialmente antes de ser refutada científicamente?\nREFLEXIÓN DEL DIÁLOGO (voces y estatutos señalados en origen) — En la misma conversación del 10 de mayo aparece una comparación histórica incómoda. Antes, la persecución abierta de la herejía hacía visible el poder que prohibía; hoy, decía Iván, un comité, una revista o una comunidad pueden simplemente ignorar o dejar fuera una propuesta. La censura por omisión no necesita un decreto ni un castigo espectacular. Produce silencio, falta de interlocución y, a veces, la apariencia de que nunca hubo una pregunta.\n\nLa objeción tiene dos partes que no conviene confundir. La primera es institucional: ¿quién decide qué merece ser examinado y bajo qué condiciones? La segunda es epistémica: ignorar un argumento no es lo mismo que refutarlo. Pero de ello no se sigue que toda idea rechazada tenga razón. Muchos trabajos merecen ser rechazados por errores, falta de prueba o irrelevancia. La puerta abierta no puede sustituir el deber de contrastar.\n\nLa hipótesis añade un peligro al cuadro de la «normalidad» ya tratado en D-147: el sistema de reconocimiento puede reforzar sus propias fronteras sin siquiera tener que defenderlas explícitamente. El antídoto de Iván no es pedir fe en su propuesta, sino conseguir interlocución crítica, condiciones públicas de refutación y un lugar donde el rechazo pueda explicarse.\nEtiquetas: Autoridad, permisos y delegación 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-258\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-258.html\n\nLa ciencia también puede excluir una idea dejándola sin interlocutor → El infierno epistemológico de vivir en lo normal · conexión de la edición. La lectura enlaza «La ciencia también puede excluir una idea dejándola sin interlocutor» con «El infierno epistemológico de vivir en lo normal».\n\n## El infierno epistemológico de vivir en lo normal\nINTERLOCUTOR (pregunta editorial) — ¿Por qué lo que mejor conocemos puede impedirnos reconocer que el marco ya cambió?\nREFLEXIÓN DEL ESCRITO (síntesis editorial) — Iván llama «infierno epistemológico de la normalidad» a la situación en que estar cerca de muchos otros se toma como prueba de estar en lo correcto. La campana central crea por sí sola una ilusión de validación; después la conformidad social añade otra capa de imitación. Su hipótesis distingue tres fuerzas: multitud de causas que producen dispersión aproximadamente normal, socialidad que compacta la campana y psicología individual que la ensancha cuando la repetición lleva a creer en un destino particular. Lo corrigió expresamente en el diálogo: la psicología amplía, la presión social comprime. Quien lanza tres caras seguidas puede empezar a sentirse «el que siempre obtiene cara» y actuar de acuerdo con ello. El sufrimiento de salirse del centro y la seguridad de estar acompañado mantienen un régimen incluso cuando no hay razones para considerarlo verdadero.\nEtiquetas: Cambio de perspectiva 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-147\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-147.html\n\nLa solución pudo decirse muchas veces y seguir siendo inaudible → Mirar lo que falta · documenta el concepto. \n\n## Mirar lo que falta\nPreguntarse por lo invisible para quien solo ve indicadores, organigramas o resultados.\nEtiquetas: Aprendizaje y transmisión de capacidades 8.35%; Cambios de régimen y alerta temprana 5.40%; Capacidad humana y deuda de inteligencia 5.26%; Decisiones y responsabilidad 12.03%; Empresa y gestión 14.92%; Espiritualidad y vida interior 3.76%; Evidencia, procedencia y atribución 0.26%; Geopolítica y fronteras 7.90%; Matemáticas 13.93%; Memoria, comunidad y territorio 5.26%; Cambio de perspectiva 16.62%; Representación y límites formales 1.05%; Transformación y continuidad operativa 5.26%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-observe\n\nLa inspiración no sustituye a la escuadra y el cartabón → Mirar lo que falta · documenta el concepto. \n\n## La inspiración no sustituye a la escuadra y el cartabón\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Cómo reconocer una intuición fértil sin convertirla automáticamente en conocimiento?\nREFLEXIÓN DEL DIÁLOGO (voz original solo en citas, resto elaboración editorial) — El manifiesto distingue dos errores opuestos. Uno es pasar años dentro de un esquema creyendo que avanzar dentro de él equivale a superarlo. El otro consiste en recibir una intuición y llevarla a la práctica como «corazonadas» sin examinar sus consecuencias. La Nueva Perspectiva del texto no es una licencia para decidir porque algo se siente cierto; propone abrir el marco de percepción y volver después al trabajo de comprobación.\n\nIván describe ese segundo movimiento con una imagen suya que merece conservarse: el modelo «saca \"la escuadra y el cartabón\" y se pone a medir y tomar referencias». La inspiración reordena el problema; el oficio racional contrasta hechos, verifica resultados, madura la respuesta y, si es necesario, inicia otra vez el proceso. Una emoción intensa puede señalar algo interesante, pero no sustituye la contrastación.\n\nHay aquí una exigencia más severa que la retórica habitual de creatividad empresarial. Si el nuevo ángulo no explica mejor lo observado, no soporta las objeciones o solo funciona suprimiendo datos incómodos, todavía no basta. La afirmación universal que acompaña al método en el manifiesto sigue sin demostración general; precisamente por eso el momento de medir es irrenunciable.\nEtiquetas: Cambio de perspectiva 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-269\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-269.html\n\nLa solución pudo decirse muchas veces y seguir siendo inaudible → Once departamentos y una visión incompleta · conexión de la edición. La lectura enlaza «La solución pudo decirse muchas veces y seguir siendo inaudible» con «Once departamentos y una visión incompleta». Permite contrastar Mirar lo que falta.\n\n## Once departamentos y una visión incompleta\nINTERLOCUTOR — ¿Qué te ocurrió cuando descubriste que un reporte útil podía desaparecer en once departamentos y hojas de Excel?\nIVÁN —\nEso sí, muy a mi pesar, esos reportes eran generados en Excel y luego copiados manualmente, celda por celda, a otro Excel… exactamente igual. Y cuando digo exactamente, no es una metáfora. El mismo reporte, idéntico, viajaba de un departamento a otro: llegué a contar hasta once—cada uno del tamaño de un edificio— donde equipos enteros de escribanos se dedicaban a transcribir una y otra vez los mismos datos, sin cuestionarlos y sin conocer el origen y el destino poco más allá del eslabón anterior y posterior de la cadena. \nIncluso yo mismo no supe el destino final y paré de interesarme después del departamento onceavo. Comprendí que, si esperaba visibilidad o reconocimiento por mis habilidades tecnológicas, lo estaba buscando en el lugar equivocado. Todos esos equipos dependían del GEPLAN, pero ni lo sabían ni les resultaba relevante. Si por alguna razón el sistema llegara a fallar, podrían tardar meses en notarlo, y aun así, probablemente culparían a alguien más y continuarían con su rutina, como si nada hubiera pasado.\nEn todo caso, decidí continuar el programa que había planteado. Y no especialmente por mí sino porque ante todo sentía que me debía a mi equipo, que, por otra parte, era de ensueño.\nEtiquetas: Empresa y gestión 50.00%; Cambio de perspectiva 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-029\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20%C2%BFQu%C3%A9%20te%20ocurri%C3%B3%20cuando%20descubriste%20que%20un%20reporte%20%C3%BAtil\n\nLa solución pudo decirse muchas veces y seguir siendo inaudible → Confianza y equipos · documenta el concepto. \n\n## Confianza y equipos\nReconocer las apuestas, tensiones y contribuciones de colaboradores concretos.\nEtiquetas: Aprendizaje y transmisión de capacidades 11.58%; Autoridad, permisos y delegación 3.04%; Capacidad humana y deuda de inteligencia 3.09%; Casos de uso y aplicaciones 1.18%; Decisiones y responsabilidad 39.99%; Economía, costes y liquidez 7.38%; Empresa y gestión 10.11%; Evidencia, procedencia y atribución 1.85%; Geopolítica y fronteras 2.26%; Memoria, comunidad y territorio 8.41%; Movilidad e infraestructura 0.93%; Cambio de perspectiva 4.24%; Transformación y continuidad operativa 5.94%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-trust\n\n"
+  "reading": "# Posicionamiento · La solución pudo decirse muchas veces y seguir siendo inaudible\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-271.html\n\n## La solución pudo decirse muchas veces y seguir siendo inaudible\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Cómo reconocer una solución que ya circula entre las personas, pero que nadie toma en serio?\nREFLEXIÓN DEL DIÁLOGO (voz original solo en citas, resto elaboración editorial) — Hay una frase del manifiesto que enlaza el coaching, el trabajo de campo y la arquitectura empresarial: en las empresas, «la verdadera causa y la verdadera solución de las situaciones ha sido dicha sucintamente por muchos en varias ocasiones». El problema no siempre es que falten datos o que nadie haya propuesto nada. A veces las palabras existen, pero el entorno las ha clasificado como una ocurrencia irrelevante.\n\nIván propone una pista paradójica: la idea pudo ser pronunciada incluso por su propio descubridor sin que este la tomara en serio. No porque la solución esté comprobada, sino porque la conversación, los roles, las rivalidades y el marco habitual impiden examinarla. La tarea del facilitador es volver a escuchar la proposición, su contexto, las evidencias y las resistencias que despertó.\n\nNo hay que confundir el silencio institucional con prueba automática de verdad: una idea repetida también puede ser falsa. La diferencia está en crear un recorrido de prueba en el que lo ya dicho pueda recuperar estatus de hipótesis y ser contrastado. Esta ficha conserva la intuición original y la separa de una idealización del «trabajador que siempre tenía razón».\nEtiquetas: Decisiones y responsabilidad 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-271\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-271.html\n\nLa solución pudo decirse muchas veces y seguir siendo inaudible → La ciencia también puede excluir una idea dejándola sin interlocutor · conexión de la edición. La lectura enlaza «La solución pudo decirse muchas veces y seguir siendo inaudible» con «La ciencia también puede excluir una idea dejándola sin interlocutor».\n\n## La ciencia también puede excluir una idea dejándola sin interlocutor\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Puede una hipótesis ser descartada socialmente antes de ser refutada científicamente?\nREFLEXIÓN DEL DIÁLOGO (voces y estatutos señalados en origen) — En la misma conversación del 10 de mayo aparece una comparación histórica incómoda. Antes, la persecución abierta de la herejía hacía visible el poder que prohibía; hoy, decía Iván, un comité, una revista o una comunidad pueden simplemente ignorar o dejar fuera una propuesta. La censura por omisión no necesita un decreto ni un castigo espectacular. Produce silencio, falta de interlocución y, a veces, la apariencia de que nunca hubo una pregunta.\n\nLa objeción tiene dos partes que no conviene confundir. La primera es institucional: ¿quién decide qué merece ser examinado y bajo qué condiciones? La segunda es epistémica: ignorar un argumento no es lo mismo que refutarlo. Pero de ello no se sigue que toda idea rechazada tenga razón. Muchos trabajos merecen ser rechazados por errores, falta de prueba o irrelevancia. La puerta abierta no puede sustituir el deber de contrastar.\n\nLa hipótesis añade un peligro al cuadro de la «normalidad» ya tratado en D-147: el sistema de reconocimiento puede reforzar sus propias fronteras sin siquiera tener que defenderlas explícitamente. El antídoto de Iván no es pedir fe en su propuesta, sino conseguir interlocución crítica, condiciones públicas de refutación y un lugar donde el rechazo pueda explicarse.\nEtiquetas: Autoridad, permisos y delegación 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-258\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-258.html\n\nLa ciencia también puede excluir una idea dejándola sin interlocutor → El infierno epistemológico de vivir en lo normal · conexión de la edición. La lectura enlaza «La ciencia también puede excluir una idea dejándola sin interlocutor» con «El infierno epistemológico de vivir en lo normal».\n\n## El infierno epistemológico de vivir en lo normal\nINTERLOCUTOR (pregunta editorial) — ¿Por qué lo que mejor conocemos puede impedirnos reconocer que el marco ya cambió?\nREFLEXIÓN DEL ESCRITO (síntesis editorial) — Iván llama «infierno epistemológico de la normalidad» a la situación en que estar cerca de muchos otros se toma como prueba de estar en lo correcto. La campana central crea por sí sola una ilusión de validación; después la conformidad social añade otra capa de imitación. Su hipótesis distingue tres fuerzas: multitud de causas que producen dispersión aproximadamente normal, socialidad que compacta la campana y psicología individual que la ensancha cuando la repetición lleva a creer en un destino particular. Lo corrigió expresamente en el diálogo: la psicología amplía, la presión social comprime. Quien lanza tres caras seguidas puede empezar a sentirse «el que siempre obtiene cara» y actuar de acuerdo con ello. El sufrimiento de salirse del centro y la seguridad de estar acompañado mantienen un régimen incluso cuando no hay razones para considerarlo verdadero.\nEtiquetas: Cambio de perspectiva 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-147\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-147.html\n\nLa solución pudo decirse muchas veces y seguir siendo inaudible → Mirar lo que falta · documenta el concepto. \n\n## Mirar lo que falta\nPreguntarse por lo invisible para quien solo ve indicadores, organigramas o resultados.\nEtiquetas: Aprendizaje y transmisión de capacidades 8.35%; Cambios de régimen y alerta temprana 5.40%; Capacidad humana y deuda de inteligencia 5.26%; Decisiones y responsabilidad 12.03%; Empresa y gestión 14.92%; Espiritualidad y vida interior 3.76%; Evidencia, procedencia y atribución 0.26%; Geopolítica y fronteras 7.90%; Matemáticas 13.93%; Memoria, comunidad y territorio 5.26%; Cambio de perspectiva 16.62%; Representación y límites formales 1.05%; Transformación y continuidad operativa 5.26%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-observe\n\nLa inspiración no sustituye a la escuadra y el cartabón → Mirar lo que falta · documenta el concepto. \n\n## La inspiración no sustituye a la escuadra y el cartabón\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Cómo reconocer una intuición fértil sin convertirla automáticamente en conocimiento?\nREFLEXIÓN DEL DIÁLOGO (voz original solo en citas, resto elaboración editorial) — El manifiesto distingue dos errores opuestos. Uno es pasar años dentro de un esquema creyendo que avanzar dentro de él equivale a superarlo. El otro consiste en recibir una intuición y llevarla a la práctica como «corazonadas» sin examinar sus consecuencias. La Nueva Perspectiva del texto no es una licencia para decidir porque algo se siente cierto; propone abrir el marco de percepción y volver después al trabajo de comprobación.\n\nIván describe ese segundo movimiento con una imagen suya que merece conservarse: el modelo «saca \"la escuadra y el cartabón\" y se pone a medir y tomar referencias». La inspiración reordena el problema; el oficio racional contrasta hechos, verifica resultados, madura la respuesta y, si es necesario, inicia otra vez el proceso. Una emoción intensa puede señalar algo interesante, pero no sustituye la contrastación.\n\nHay aquí una exigencia más severa que la retórica habitual de creatividad empresarial. Si el nuevo ángulo no explica mejor lo observado, no soporta las objeciones o solo funciona suprimiendo datos incómodos, todavía no basta. La afirmación universal que acompaña al método en el manifiesto sigue sin demostración general; precisamente por eso el momento de medir es irrenunciable.\nEtiquetas: Cambio de perspectiva 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-269\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-269.html\n\nLa solución pudo decirse muchas veces y seguir siendo inaudible → Once departamentos y una visión incompleta · conexión de la edición. La lectura enlaza «La solución pudo decirse muchas veces y seguir siendo inaudible» con «Once departamentos y una visión incompleta». Permite contrastar Mirar lo que falta.\n\n## Once departamentos y una visión incompleta\nINTERLOCUTOR — ¿Qué te ocurrió cuando descubriste que un reporte útil podía desaparecer en once departamentos y hojas de Excel?\nIVÁN —\nEso sí, muy a mi pesar, esos reportes eran generados en Excel y luego copiados manualmente, celda por celda, a otro Excel… exactamente igual. Y cuando digo exactamente, no es una metáfora. El mismo reporte, idéntico, viajaba de un departamento a otro: llegué a contar hasta once—cada uno del tamaño de un edificio— donde equipos enteros de escribanos se dedicaban a transcribir una y otra vez los mismos datos, sin cuestionarlos y sin conocer el origen y el destino poco más allá del eslabón anterior y posterior de la cadena. \nIncluso yo mismo no supe el destino final y paré de interesarme después del departamento onceavo. Comprendí que, si esperaba visibilidad o reconocimiento por mis habilidades tecnológicas, lo estaba buscando en el lugar equivocado. Todos esos equipos dependían del GEPLAN, pero ni lo sabían ni les resultaba relevante. Si por alguna razón el sistema llegara a fallar, podrían tardar meses en notarlo, y aun así, probablemente culparían a alguien más y continuarían con su rutina, como si nada hubiera pasado.\nEn todo caso, decidí continuar el programa que había planteado. Y no especialmente por mí sino porque ante todo sentía que me debía a mi equipo, que, por otra parte, era de ensueño.\nEtiquetas: Empresa y gestión 50.00%; Cambio de perspectiva 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-029\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20%C2%BFQu%C3%A9%20te%20ocurri%C3%B3%20cuando%20descubriste%20que%20un%20reporte%20%C3%BAtil\n\nLa solución pudo decirse muchas veces y seguir siendo inaudible → Confianza y equipos · documenta el concepto. \n\n## Confianza y equipos\nReconocer las apuestas, tensiones y contribuciones de colaboradores concretos.\nEtiquetas: Aprendizaje y transmisión de capacidades 11.45%; Autoridad, permisos y delegación 2.27%; Capacidad humana y deuda de inteligencia 3.09%; Casos de uso y aplicaciones 1.18%; Compromisos y capacidad disponible 0.92%; Decisiones y responsabilidad 38.64%; Economía, costes y liquidez 6.69%; Empresa y gestión 9.53%; Infraestructura de encuentros 1.67%; Evidencia, procedencia y atribución 1.85%; Geopolítica y fronteras 2.14%; Legitimidad y principios 1.67%; Memoria, comunidad y territorio 8.24%; Movilidad e infraestructura 0.69%; Cambio de perspectiva 4.24%; Transformación y continuidad operativa 5.73%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-trust\n\n"
 }

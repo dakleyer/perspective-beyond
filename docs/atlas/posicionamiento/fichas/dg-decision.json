@@ -25,25 +25,26 @@
     "D-221"
   ],
   "tagWeights": {
-    "aprendizaje": 0.0486,
+    "aprendizaje": 0.0474,
     "autoridad": 0.0059,
-    "casos": 0.2265,
+    "casos": 0.223,
+    "compromisos": 0.0194,
     "control-minimo": 0.0253,
-    "decision": 0.3175,
+    "decision": 0.3128,
     "economia": 0.0862,
-    "empresa": 0.0741,
+    "empresa": 0.0709,
     "estandares": 0.0222,
     "geopolitica": 0.0111,
-    "matematicas": 0.0615,
-    "movilidad": 0.0904,
-    "transformacion": 0.0307
+    "matematicas": 0.0616,
+    "movilidad": 0.0848,
+    "transformacion": 0.0294
   },
   "clusters": [
     "dialogos"
   ],
-  "context": "## Decisiones entre escenarios\nHacer visibles alternativas y compromisos sin sustituir el juicio humano.\nEtiquetas: Aprendizaje y transmisión de capacidades 4.86%; Autoridad, permisos y delegación 0.59%; Casos de uso y aplicaciones 22.65%; Control mínimo y suficiencia 2.53%; Decisiones y responsabilidad 31.75%; Economía, costes y liquidez 8.62%; Empresa y gestión 7.41%; Estándares e interoperabilidad 2.22%; Geopolítica y fronteras 1.11%; Matemáticas 6.15%; Movilidad e infraestructura 9.04%; Transformación y continuidad operativa 3.07%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-decision\n\n",
+  "context": "## Decisiones entre escenarios\nHacer visibles alternativas y compromisos sin sustituir el juicio humano.\nEtiquetas: Aprendizaje y transmisión de capacidades 4.74%; Autoridad, permisos y delegación 0.59%; Casos de uso y aplicaciones 22.30%; Compromisos y capacidad disponible 1.94%; Control mínimo y suficiencia 2.53%; Decisiones y responsabilidad 31.28%; Economía, costes y liquidez 8.62%; Empresa y gestión 7.09%; Estándares e interoperabilidad 2.22%; Geopolítica y fronteras 1.11%; Matemáticas 6.16%; Movilidad e infraestructura 8.48%; Transformación y continuidad operativa 2.94%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-decision\n\n",
   "readingSource": null,
-  "tokens": 169,
+  "tokens": 180,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -364,11 +365,12 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 361,
+      "fichaTokens": 372,
       "tagWeights": {
-        "casos": 0.2,
-        "decision": 0.3,
-        "movilidad": 0.5
+        "casos": 0.16,
+        "compromisos": 0.2,
+        "decision": 0.24,
+        "movilidad": 0.4
       },
       "clusters": [
         "dialogos"
@@ -404,13 +406,14 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 483,
+      "fichaTokens": 494,
       "tagWeights": {
-        "aprendizaje": 0.1539,
-        "casos": 0.1539,
-        "decision": 0.1538,
-        "empresa": 0.3846,
-        "transformacion": 0.1538
+        "aprendizaje": 0.1308,
+        "casos": 0.1308,
+        "compromisos": 0.15,
+        "decision": 0.1308,
+        "empresa": 0.3269,
+        "transformacion": 0.1307
       },
       "clusters": [
         "dialogos"
@@ -455,16 +458,17 @@
       "kind": "lectura editorial",
       "reading": "El coste de una opción y las obligaciones que deja abiertas condicionan la decisión.",
       "relationTokens": 31,
-      "fichaTokens": 239,
+      "fichaTokens": 250,
       "tagWeights": {
-        "aprendizaje": 0.0689,
+        "aprendizaje": 0.0688,
         "autoridad": 0.0119,
         "capacidad-humana": 0.0161,
         "casos": 0.0204,
+        "compromisos": 0.0119,
         "control-minimo": 0.0108,
-        "decision": 0.1092,
-        "economia": 0.5189,
-        "empresa": 0.032,
+        "decision": 0.1077,
+        "economia": 0.513,
+        "empresa": 0.0291,
         "estandares": 0.0095,
         "evidencia": 0.0095,
         "geopolitica": 0.0766,
@@ -474,7 +478,7 @@
         "movilidad": 0.0142,
         "perspectiva": 0.0119,
         "representacion": 0.0159,
-        "transformacion": 0.0119
+        "transformacion": 0.0104
       },
       "clusters": [
         "dialogos"
@@ -490,16 +494,17 @@
       "kind": "condiciona",
       "reading": "La escasez obliga a comparar alternativas y compromisos.",
       "relationTokens": 27,
-      "fichaTokens": 239,
+      "fichaTokens": 250,
       "tagWeights": {
-        "aprendizaje": 0.0689,
+        "aprendizaje": 0.0688,
         "autoridad": 0.0119,
         "capacidad-humana": 0.0161,
         "casos": 0.0204,
+        "compromisos": 0.0119,
         "control-minimo": 0.0108,
-        "decision": 0.1092,
-        "economia": 0.5189,
-        "empresa": 0.032,
+        "decision": 0.1077,
+        "economia": 0.513,
+        "empresa": 0.0291,
         "estandares": 0.0095,
         "evidencia": 0.0095,
         "geopolitica": 0.0766,
@@ -509,7 +514,7 @@
         "movilidad": 0.0142,
         "perspectiva": 0.0119,
         "representacion": 0.0159,
-        "transformacion": 0.0119
+        "transformacion": 0.0104
       },
       "clusters": [
         "dialogos"
@@ -586,18 +591,20 @@
       "kind": "se contrasta en",
       "reading": "Una alternativa prometedora debe probarse en la ejecución real.",
       "relationTokens": 26,
-      "fichaTokens": 196,
+      "fichaTokens": 217,
       "tagWeights": {
         "aprendizaje": 0.059,
-        "autoridad": 0.1499,
+        "autoridad": 0.1375,
         "capacidad-humana": 0.0216,
         "casos": 0.0166,
+        "compromisos": 0.0068,
         "decision": 0.1127,
         "economia": 0.0848,
-        "empresa": 0.1523,
-        "estandares": 0.026,
-        "evidencia": 0.0417,
+        "empresa": 0.1489,
+        "estandares": 0.0208,
+        "evidencia": 0.04,
         "integridad-ia": 0.0455,
+        "legitimidad": 0.0159,
         "matematicas": 0.0519,
         "memoria-territorio": 0.0065,
         "movilidad": 0.1628,
@@ -617,18 +624,19 @@
       "kind": "ayuda a comprobar",
       "reading": "Importa distinguir intención y resultado.",
       "relationTokens": 22,
-      "fichaTokens": 202,
+      "fichaTokens": 213,
       "tagWeights": {
         "aprendizaje": 0.0552,
         "autoridad": 0.0761,
-        "casos": 0.0111,
-        "decision": 0.4409,
+        "casos": 0.0089,
+        "compromisos": 0.0111,
+        "decision": 0.4376,
         "economia": 0.1355,
         "empresa": 0.0486,
         "evidencia": 0.0185,
         "matematicas": 0.0868,
-        "memoria-territorio": 0.007,
-        "movilidad": 0.0347,
+        "memoria-territorio": 0.0069,
+        "movilidad": 0.0292,
         "mundo-abierto": 0.0139,
         "perspectiva": 0.037,
         "representacion": 0.0278,
@@ -648,13 +656,14 @@
       "kind": "separa factibilidad de prioridad",
       "reading": "Algo ejecutable puede no ser la mejor acción en el sistema.",
       "relationTokens": 35,
-      "fichaTokens": 121,
+      "fichaTokens": 132,
       "tagWeights": {
-        "aprendizaje": 0.077,
-        "casos": 0.0769,
-        "decision": 0.0769,
-        "empresa": 0.6923,
-        "transformacion": 0.0769
+        "aprendizaje": 0.0654,
+        "casos": 0.0654,
+        "compromisos": 0.075,
+        "decision": 0.0654,
+        "empresa": 0.6635,
+        "transformacion": 0.0653
       },
       "clusters": [
         "dialogos"

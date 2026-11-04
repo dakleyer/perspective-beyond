@@ -51,20 +51,21 @@
     "D-295"
   ],
   "tagWeights": {
-    "aprendizaje": 0.2354,
-    "autoridad": 0.0588,
+    "aprendizaje": 0.2345,
+    "autoridad": 0.0562,
     "casos": 0.0162,
     "control-minimo": 0.0103,
     "decision": 0.157,
     "documentacion": 0.0114,
     "economia": 0.0507,
     "empresa": 0.0151,
-    "espiritualidad": 0.025,
+    "espiritualidad": 0.0228,
     "estandares": 0.0142,
     "evidencia": 0.0076,
     "experimentacion": 0.0418,
     "geopolitica": 0.0057,
     "integridad-ia": 0.0284,
+    "legitimidad": 0.0057,
     "matematicas": 0.169,
     "memoria-territorio": 0.0227,
     "mundo-abierto": 0.0057,
@@ -74,9 +75,9 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Duda, pruebas y conocimiento corregible\nPreguntar qué sabemos, cómo lo sabemos y qué prueba podría obligarnos a cambiar de idea.\nEtiquetas: Aprendizaje y transmisión de capacidades 23.54%; Autoridad, permisos y delegación 5.88%; Casos de uso y aplicaciones 1.62%; Control mínimo y suficiencia 1.03%; Decisiones y responsabilidad 15.70%; Investigación y documentación técnica 1.14%; Economía, costes y liquidez 5.07%; Empresa y gestión 1.51%; Espiritualidad y vida interior 2.50%; Estándares e interoperabilidad 1.42%; Evidencia, procedencia y atribución 0.76%; Experimentación, falsación y contraejemplos 4.18%; Geopolítica y fronteras 0.57%; Integridad y seguridad de IA 2.84%; Matemáticas 16.90%; Memoria, comunidad y territorio 2.27%; Mundo abierto e indeterminación 0.57%; Cambio de perspectiva 10.23%; Transformación y continuidad operativa 2.27%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-doubt\n\n",
+  "context": "## Duda, pruebas y conocimiento corregible\nPreguntar qué sabemos, cómo lo sabemos y qué prueba podría obligarnos a cambiar de idea.\nEtiquetas: Aprendizaje y transmisión de capacidades 23.45%; Autoridad, permisos y delegación 5.62%; Casos de uso y aplicaciones 1.62%; Control mínimo y suficiencia 1.03%; Decisiones y responsabilidad 15.70%; Investigación y documentación técnica 1.14%; Economía, costes y liquidez 5.07%; Empresa y gestión 1.51%; Espiritualidad y vida interior 2.28%; Estándares e interoperabilidad 1.42%; Evidencia, procedencia y atribución 0.76%; Experimentación, falsación y contraejemplos 4.18%; Geopolítica y fronteras 0.57%; Integridad y seguridad de IA 2.84%; Legitimidad y principios 0.57%; Matemáticas 16.90%; Memoria, comunidad y territorio 2.27%; Mundo abierto e indeterminación 0.57%; Cambio de perspectiva 10.23%; Transformación y continuidad operativa 2.27%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-doubt\n\n",
   "readingSource": null,
-  "tokens": 258,
+  "tokens": 268,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -821,11 +822,12 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 414,
+      "fichaTokens": 424,
       "tagWeights": {
-        "aprendizaje": 0.1539,
-        "autoridad": 0.4615,
-        "espiritualidad": 0.3846
+        "aprendizaje": 0.1154,
+        "autoridad": 0.3461,
+        "espiritualidad": 0.2885,
+        "legitimidad": 0.25
       },
       "clusters": [
         "dialogos"
@@ -1041,26 +1043,28 @@
       "kind": "acota la autoridad de",
       "reading": "Un resultado probado localmente no confiere potestad general de decidir.",
       "relationTokens": 36,
-      "fichaTokens": 254,
+      "fichaTokens": 273,
       "tagWeights": {
-        "aprendizaje": 0.034,
-        "autoridad": 0.4256,
+        "aprendizaje": 0.0321,
+        "autoridad": 0.4057,
         "capacidad-humana": 0.0104,
         "casos": 0.0027,
-        "decision": 0.1415,
+        "decision": 0.1337,
         "documentacion": 0.0128,
         "economia": 0.0465,
-        "empresa": 0.053,
-        "espiritualidad": 0.0099,
-        "estandares": 0.0467,
-        "evidencia": 0.0256,
+        "empresa": 0.0522,
+        "encuentros": 0.0154,
+        "espiritualidad": 0.0074,
+        "estandares": 0.0438,
+        "evidencia": 0.0257,
         "experimentacion": 0.0128,
-        "geopolitica": 0.0262,
+        "geopolitica": 0.0208,
+        "legitimidad": 0.0333,
         "matematicas": 0.0064,
-        "memoria-territorio": 0.0945,
+        "memoria-territorio": 0.0933,
         "movilidad": 0.0051,
-        "representacion": 0.0143,
-        "transformacion": 0.032
+        "representacion": 0.0093,
+        "transformacion": 0.0306
       },
       "clusters": [
         "dialogos"
@@ -1101,16 +1105,17 @@
       "kind": "necesita medición",
       "reading": "Distinguir bienestar creado de costes y dependencias desplazadas.",
       "relationTokens": 33,
-      "fichaTokens": 239,
+      "fichaTokens": 250,
       "tagWeights": {
-        "aprendizaje": 0.0689,
+        "aprendizaje": 0.0688,
         "autoridad": 0.0119,
         "capacidad-humana": 0.0161,
         "casos": 0.0204,
+        "compromisos": 0.0119,
         "control-minimo": 0.0108,
-        "decision": 0.1092,
-        "economia": 0.5189,
-        "empresa": 0.032,
+        "decision": 0.1077,
+        "economia": 0.513,
+        "empresa": 0.0291,
         "estandares": 0.0095,
         "evidencia": 0.0095,
         "geopolitica": 0.0766,
@@ -1120,7 +1125,7 @@
         "movilidad": 0.0142,
         "perspectiva": 0.0119,
         "representacion": 0.0159,
-        "transformacion": 0.0119
+        "transformacion": 0.0104
       },
       "clusters": [
         "dialogos"
@@ -1159,18 +1164,19 @@
       "kind": "se revisa mediante",
       "reading": "Las hipótesis requieren contraste con la conducta.",
       "relationTokens": 29,
-      "fichaTokens": 202,
+      "fichaTokens": 213,
       "tagWeights": {
         "aprendizaje": 0.0552,
         "autoridad": 0.0761,
-        "casos": 0.0111,
-        "decision": 0.4409,
+        "casos": 0.0089,
+        "compromisos": 0.0111,
+        "decision": 0.4376,
         "economia": 0.1355,
         "empresa": 0.0486,
         "evidencia": 0.0185,
         "matematicas": 0.0868,
-        "memoria-territorio": 0.007,
-        "movilidad": 0.0347,
+        "memoria-territorio": 0.0069,
+        "movilidad": 0.0292,
         "mundo-abierto": 0.0139,
         "perspectiva": 0.037,
         "representacion": 0.0278,
@@ -1243,14 +1249,16 @@
       "kind": "conserva abierta",
       "reading": "Un acto administrativo no prueba una verdad filosófica.",
       "relationTokens": 33,
-      "fichaTokens": 133,
+      "fichaTokens": 154,
       "tagWeights": {
         "aprendizaje": 0.0625,
-        "autoridad": 0.6004,
-        "decision": 0.0938,
-        "empresa": 0.0625,
-        "estandares": 0.1496,
-        "evidencia": 0.0312
+        "autoridad": 0.5241,
+        "compromisos": 0.0187,
+        "decision": 0.0672,
+        "empresa": 0.0531,
+        "estandares": 0.1353,
+        "evidencia": 0.0266,
+        "legitimidad": 0.1125
       },
       "clusters": [
         "dialogos"
@@ -1286,18 +1294,19 @@
       "kind": "separa identidad de tendencia",
       "reading": "Una igualdad contable no valida por sí misma una hipótesis sobre felicidad.",
       "relationTokens": 36,
-      "fichaTokens": 202,
+      "fichaTokens": 213,
       "tagWeights": {
         "aprendizaje": 0.0552,
         "autoridad": 0.0761,
-        "casos": 0.0111,
-        "decision": 0.4409,
+        "casos": 0.0089,
+        "compromisos": 0.0111,
+        "decision": 0.4376,
         "economia": 0.1355,
         "empresa": 0.0486,
         "evidencia": 0.0185,
         "matematicas": 0.0868,
-        "memoria-territorio": 0.007,
-        "movilidad": 0.0347,
+        "memoria-territorio": 0.0069,
+        "movilidad": 0.0292,
         "mundo-abierto": 0.0139,
         "perspectiva": 0.037,
         "representacion": 0.0278,
@@ -1511,12 +1520,13 @@
       "kind": "relación de ampliación v0.11",
       "reading": "La corazonada no sustituye la prueba.",
       "relationTokens": 36,
-      "fichaTokens": 99,
+      "fichaTokens": 109,
       "tagWeights": {
-        "aprendizaje": 0.0513,
-        "autoridad": 0.1538,
-        "espiritualidad": 0.1282,
-        "perspectiva": 0.6667
+        "aprendizaje": 0.0385,
+        "autoridad": 0.1154,
+        "espiritualidad": 0.0962,
+        "legitimidad": 0.0833,
+        "perspectiva": 0.6666
       },
       "clusters": [
         "dialogos"

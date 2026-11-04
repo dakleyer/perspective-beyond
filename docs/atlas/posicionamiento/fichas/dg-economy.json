@@ -49,14 +49,15 @@
     "D-295"
   ],
   "tagWeights": {
-    "aprendizaje": 0.0689,
+    "aprendizaje": 0.0688,
     "autoridad": 0.0119,
     "capacidad-humana": 0.0161,
     "casos": 0.0204,
+    "compromisos": 0.0119,
     "control-minimo": 0.0108,
-    "decision": 0.1092,
-    "economia": 0.5189,
-    "empresa": 0.032,
+    "decision": 0.1077,
+    "economia": 0.513,
+    "empresa": 0.0291,
     "estandares": 0.0095,
     "evidencia": 0.0095,
     "geopolitica": 0.0766,
@@ -66,14 +67,14 @@
     "movilidad": 0.0142,
     "perspectiva": 0.0119,
     "representacion": 0.0159,
-    "transformacion": 0.0119
+    "transformacion": 0.0104
   },
   "clusters": [
     "dialogos"
   ],
-  "context": "## Economía y escasez\nAnalizar recursos finitos, costes ocultos, riqueza y capacidad de actuación.\nEtiquetas: Aprendizaje y transmisión de capacidades 6.89%; Autoridad, permisos y delegación 1.19%; Capacidad humana y deuda de inteligencia 1.61%; Casos de uso y aplicaciones 2.04%; Control mínimo y suficiencia 1.08%; Decisiones y responsabilidad 10.92%; Economía, costes y liquidez 51.89%; Empresa y gestión 3.20%; Estándares e interoperabilidad 0.95%; Evidencia, procedencia y atribución 0.95%; Geopolítica y fronteras 7.66%; Integridad y seguridad de IA 3.31%; Matemáticas 1.49%; Memoria, comunidad y territorio 1.43%; Movilidad e infraestructura 1.42%; Cambio de perspectiva 1.19%; Representación y límites formales 1.59%; Transformación y continuidad operativa 1.19%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-economy\n\n",
+  "context": "## Economía y escasez\nAnalizar recursos finitos, costes ocultos, riqueza y capacidad de actuación.\nEtiquetas: Aprendizaje y transmisión de capacidades 6.88%; Autoridad, permisos y delegación 1.19%; Capacidad humana y deuda de inteligencia 1.61%; Casos de uso y aplicaciones 2.04%; Compromisos y capacidad disponible 1.19%; Control mínimo y suficiencia 1.08%; Decisiones y responsabilidad 10.77%; Economía, costes y liquidez 51.30%; Empresa y gestión 2.91%; Estándares e interoperabilidad 0.95%; Evidencia, procedencia y atribución 0.95%; Geopolítica y fronteras 7.66%; Integridad y seguridad de IA 3.31%; Matemáticas 1.49%; Memoria, comunidad y territorio 1.43%; Movilidad e infraestructura 1.42%; Cambio de perspectiva 1.19%; Representación y límites formales 1.59%; Transformación y continuidad operativa 1.04%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-economy\n\n",
   "readingSource": null,
-  "tokens": 239,
+  "tokens": 250,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -478,10 +479,11 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 321,
+      "fichaTokens": 332,
       "tagWeights": {
-        "decision": 0.25,
-        "economia": 0.75
+        "compromisos": 0.25,
+        "decision": 0.1875,
+        "economia": 0.5625
       },
       "clusters": [
         "dialogos"
@@ -497,11 +499,12 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 334,
+      "fichaTokens": 345,
       "tagWeights": {
-        "economia": 0.25,
-        "empresa": 0.5,
-        "transformacion": 0.25
+        "compromisos": 0.25,
+        "economia": 0.1875,
+        "empresa": 0.375,
+        "transformacion": 0.1875
       },
       "clusters": [
         "dialogos"
@@ -900,10 +903,10 @@
       "kind": "lectura editorial",
       "reading": "Los recursos disponibles determinan qué alternativas pueden hacerse efectivas.",
       "relationTokens": 27,
-      "fichaTokens": 192,
+      "fichaTokens": 202,
       "tagWeights": {
         "aprendizaje": 0.1588,
-        "autoridad": 0.0842,
+        "autoridad": 0.0804,
         "casos": 0.0218,
         "decision": 0.0998,
         "economia": 0.2746,
@@ -912,6 +915,7 @@
         "estandares": 0.0274,
         "geopolitica": 0.0839,
         "integridad-ia": 0.0527,
+        "legitimidad": 0.0038,
         "memoria-territorio": 0.0293,
         "perspectiva": 0.0556,
         "representacion": 0.0171,
@@ -931,20 +935,21 @@
       "kind": "lectura editorial",
       "reading": "El coste de una opción y las obligaciones que deja abiertas condicionan la decisión.",
       "relationTokens": 31,
-      "fichaTokens": 169,
+      "fichaTokens": 180,
       "tagWeights": {
-        "aprendizaje": 0.0486,
+        "aprendizaje": 0.0474,
         "autoridad": 0.0059,
-        "casos": 0.2265,
+        "casos": 0.223,
+        "compromisos": 0.0194,
         "control-minimo": 0.0253,
-        "decision": 0.3175,
+        "decision": 0.3128,
         "economia": 0.0862,
-        "empresa": 0.0741,
+        "empresa": 0.0709,
         "estandares": 0.0222,
         "geopolitica": 0.0111,
-        "matematicas": 0.0615,
-        "movilidad": 0.0904,
-        "transformacion": 0.0307
+        "matematicas": 0.0616,
+        "movilidad": 0.0848,
+        "transformacion": 0.0294
       },
       "clusters": [
         "dialogos"
@@ -960,10 +965,10 @@
       "kind": "requiere",
       "reading": "La libertad de elección depende también de recursos y margen económico.",
       "relationTokens": 26,
-      "fichaTokens": 192,
+      "fichaTokens": 202,
       "tagWeights": {
         "aprendizaje": 0.1588,
-        "autoridad": 0.0842,
+        "autoridad": 0.0804,
         "casos": 0.0218,
         "decision": 0.0998,
         "economia": 0.2746,
@@ -972,6 +977,7 @@
         "estandares": 0.0274,
         "geopolitica": 0.0839,
         "integridad-ia": 0.0527,
+        "legitimidad": 0.0038,
         "memoria-territorio": 0.0293,
         "perspectiva": 0.0556,
         "representacion": 0.0171,
@@ -991,20 +997,21 @@
       "kind": "condiciona",
       "reading": "La escasez obliga a comparar alternativas y compromisos.",
       "relationTokens": 27,
-      "fichaTokens": 169,
+      "fichaTokens": 180,
       "tagWeights": {
-        "aprendizaje": 0.0486,
+        "aprendizaje": 0.0474,
         "autoridad": 0.0059,
-        "casos": 0.2265,
+        "casos": 0.223,
+        "compromisos": 0.0194,
         "control-minimo": 0.0253,
-        "decision": 0.3175,
+        "decision": 0.3128,
         "economia": 0.0862,
-        "empresa": 0.0741,
+        "empresa": 0.0709,
         "estandares": 0.0222,
         "geopolitica": 0.0111,
-        "matematicas": 0.0615,
-        "movilidad": 0.0904,
-        "transformacion": 0.0307
+        "matematicas": 0.0616,
+        "movilidad": 0.0848,
+        "transformacion": 0.0294
       },
       "clusters": [
         "dialogos"
@@ -1020,22 +1027,23 @@
       "kind": "necesita medición",
       "reading": "Distinguir bienestar creado de costes y dependencias desplazadas.",
       "relationTokens": 33,
-      "fichaTokens": 258,
+      "fichaTokens": 268,
       "tagWeights": {
-        "aprendizaje": 0.2354,
-        "autoridad": 0.0588,
+        "aprendizaje": 0.2345,
+        "autoridad": 0.0562,
         "casos": 0.0162,
         "control-minimo": 0.0103,
         "decision": 0.157,
         "documentacion": 0.0114,
         "economia": 0.0507,
         "empresa": 0.0151,
-        "espiritualidad": 0.025,
+        "espiritualidad": 0.0228,
         "estandares": 0.0142,
         "evidencia": 0.0076,
         "experimentacion": 0.0418,
         "geopolitica": 0.0057,
         "integridad-ia": 0.0284,
+        "legitimidad": 0.0057,
         "matematicas": 0.169,
         "memoria-territorio": 0.0227,
         "mundo-abierto": 0.0057,
@@ -1056,14 +1064,15 @@
       "kind": "sostiene representaciones de",
       "reading": "Las garantías y la confianza permiten intercambios.",
       "relationTokens": 30,
-      "fichaTokens": 120,
+      "fichaTokens": 131,
       "tagWeights": {
         "aprendizaje": 0.1786,
-        "decision": 0.235,
-        "economia": 0.4614,
-        "empresa": 0.05,
+        "compromisos": 0.05,
+        "decision": 0.2288,
+        "economia": 0.4364,
+        "empresa": 0.0375,
         "geopolitica": 0.05,
-        "transformacion": 0.025
+        "transformacion": 0.0187
       },
       "clusters": [
         "dialogos"
@@ -1101,17 +1110,18 @@
       "kind": "requiere base material",
       "reading": "La promesa informacional debe contarse junto a energía, chips y logística.",
       "relationTokens": 33,
-      "fichaTokens": 161,
+      "fichaTokens": 170,
       "tagWeights": {
         "aprendizaje": 0.0675,
         "autoridad": 0.0125,
         "capacidad-humana": 0.0139,
         "casos": 0.0374,
-        "decision": 0.0582,
+        "decision": 0.0543,
         "economia": 0.1164,
-        "empresa": 0.1233,
+        "empresa": 0.1155,
+        "encuentros": 0.0156,
         "memoria-territorio": 0.0368,
-        "movilidad": 0.4253,
+        "movilidad": 0.4214,
         "perspectiva": 0.0402,
         "transformacion": 0.0685
       },
@@ -1151,14 +1161,15 @@
       "kind": "admite promesas con liquidez variable",
       "reading": "Una decisión o una garantía puede afectar el intercambio sin ser efectivo.",
       "relationTokens": 37,
-      "fichaTokens": 120,
+      "fichaTokens": 131,
       "tagWeights": {
         "aprendizaje": 0.1786,
-        "decision": 0.235,
-        "economia": 0.4614,
-        "empresa": 0.05,
+        "compromisos": 0.05,
+        "decision": 0.2288,
+        "economia": 0.4364,
+        "empresa": 0.0375,
         "geopolitica": 0.05,
-        "transformacion": 0.025
+        "transformacion": 0.0187
       },
       "clusters": [
         "dialogos"

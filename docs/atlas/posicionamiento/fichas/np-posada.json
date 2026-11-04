@@ -6,15 +6,16 @@
   "documentId": "doc-b54ac6cef5d7db5901",
   "sourceIds": [],
   "tagWeights": {
-    "movilidad": 0.5,
-    "transformacion": 0.5
+    "encuentros": 0.25,
+    "movilidad": 0.375,
+    "transformacion": 0.375
   },
   "clusters": [
     "totonacapan"
   ],
-  "context": "## La posada como lugar de encuentro\nLa historia institucional presenta la posada como una infraestructura donde se cruzan personas, noticias, oficios y experiencias. Su continuidad permite examinar qué hace posible que esos intercambios tengan vida más allá de una visita.\nEtiquetas: Movilidad e infraestructura 50.00%; Transformación y continuidad operativa 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-posada\nDocumento de origen: https://totonacapan.com/?page_id=411\n\n",
+  "context": "## La posada como lugar de encuentro\nLa historia institucional presenta la posada como una infraestructura donde se cruzan personas, noticias, oficios y experiencias. Su continuidad permite examinar qué hace posible que esos intercambios tengan vida más allá de una visita.\nEtiquetas: Infraestructura de encuentros 25.00%; Movilidad e infraestructura 37.50%; Transformación y continuidad operativa 37.50%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-posada\nDocumento de origen: https://totonacapan.com/?page_id=411\n\n",
   "readingSource": null,
-  "tokens": 117,
+  "tokens": 126,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -53,6 +54,28 @@
       ],
       "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-formacion.json"
+    },
+    {
+      "id": "documento:map-maintenance-20261104-012",
+      "to": "np-hospitalidad",
+      "title": "La Posada: una infraestructura para el encuentro",
+      "direction": "entrante",
+      "kind": "lectura comparada de mecanismos",
+      "reading": "El ensayo de la Posada desarrolla el mecanismo que la ficha de encuentro plantea: reconocer el asunto, reunir herramientas y memoria y sostener una relación que ayude a continuar.",
+      "relationTokens": 77,
+      "fichaTokens": 172,
+      "tagWeights": {
+        "aprendizaje": 0.2,
+        "documentacion": 0.1,
+        "encuentros": 0.35,
+        "memoria-territorio": 0.2,
+        "perspectiva": 0.15
+      },
+      "clusters": [
+        "totonacapan"
+      ],
+      "type": "ficha",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-hospitalidad.json"
     }
   ]
 }

@@ -16,18 +16,20 @@
   ],
   "tagWeights": {
     "aprendizaje": 0.0625,
-    "autoridad": 0.6004,
-    "decision": 0.0938,
-    "empresa": 0.0625,
-    "estandares": 0.1496,
-    "evidencia": 0.0312
+    "autoridad": 0.5241,
+    "compromisos": 0.0187,
+    "decision": 0.0672,
+    "empresa": 0.0531,
+    "estandares": 0.1353,
+    "evidencia": 0.0266,
+    "legitimidad": 0.1125
   },
   "clusters": [
     "dialogos"
   ],
-  "context": "## Principios, requisitos y deuda de legitimidad\nExaminar la distancia entre fines de la ley y formas de probar cumplimiento, así como la asimetría de poder para imponer criterios.\nEtiquetas: Aprendizaje y transmisión de capacidades 6.25%; Autoridad, permisos y delegación 60.04%; Decisiones y responsabilidad 9.38%; Empresa y gestión 6.25%; Estándares e interoperabilidad 14.96%; Evidencia, procedencia y atribución 3.12%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-legitimacy_gap\n\n",
+  "context": "## Principios, requisitos y deuda de legitimidad\nExaminar la distancia entre fines de la ley y formas de probar cumplimiento, así como la asimetría de poder para imponer criterios.\nEtiquetas: Aprendizaje y transmisión de capacidades 6.25%; Autoridad, permisos y delegación 52.41%; Compromisos y capacidad disponible 1.87%; Decisiones y responsabilidad 6.72%; Empresa y gestión 5.31%; Estándares e interoperabilidad 13.53%; Evidencia, procedencia y atribución 2.66%; Legitimidad y principios 11.25%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-legitimacy_gap\n\n",
   "readingSource": null,
-  "tokens": 133,
+  "tokens": 154,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -38,10 +40,11 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 334,
+      "fichaTokens": 344,
       "tagWeights": {
-        "autoridad": 0.4286,
-        "estandares": 0.5714
+        "autoridad": 0.3429,
+        "estandares": 0.4571,
+        "legitimidad": 0.2
       },
       "clusters": [
         "dialogos"
@@ -57,9 +60,10 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 325,
+      "fichaTokens": 335,
       "tagWeights": {
-        "autoridad": 1.0
+        "autoridad": 0.85,
+        "legitimidad": 0.15
       },
       "clusters": [
         "dialogos"
@@ -75,10 +79,11 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 27,
-      "fichaTokens": 358,
+      "fichaTokens": 368,
       "tagWeights": {
-        "autoridad": 0.75,
-        "decision": 0.25
+        "autoridad": 0.5625,
+        "decision": 0.1875,
+        "legitimidad": 0.25
       },
       "clusters": [
         "dialogos"
@@ -132,11 +137,12 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 427,
+      "fichaTokens": 438,
       "tagWeights": {
-        "autoridad": 0.25,
-        "empresa": 0.5,
-        "evidencia": 0.25
+        "autoridad": 0.2125,
+        "compromisos": 0.15,
+        "empresa": 0.425,
+        "evidencia": 0.2125
       },
       "clusters": [
         "dialogos"
@@ -170,10 +176,11 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 379,
+      "fichaTokens": 389,
       "tagWeights": {
-        "autoridad": 0.5,
-        "decision": 0.5
+        "autoridad": 0.35,
+        "decision": 0.35,
+        "legitimidad": 0.3
       },
       "clusters": [
         "dialogos"
@@ -189,26 +196,28 @@
       "kind": "interroga su justificación",
       "reading": "La conformidad no demuestra cumplimiento de principios.",
       "relationTokens": 31,
-      "fichaTokens": 254,
+      "fichaTokens": 273,
       "tagWeights": {
-        "aprendizaje": 0.034,
-        "autoridad": 0.4256,
+        "aprendizaje": 0.0321,
+        "autoridad": 0.4057,
         "capacidad-humana": 0.0104,
         "casos": 0.0027,
-        "decision": 0.1415,
+        "decision": 0.1337,
         "documentacion": 0.0128,
         "economia": 0.0465,
-        "empresa": 0.053,
-        "espiritualidad": 0.0099,
-        "estandares": 0.0467,
-        "evidencia": 0.0256,
+        "empresa": 0.0522,
+        "encuentros": 0.0154,
+        "espiritualidad": 0.0074,
+        "estandares": 0.0438,
+        "evidencia": 0.0257,
         "experimentacion": 0.0128,
-        "geopolitica": 0.0262,
+        "geopolitica": 0.0208,
+        "legitimidad": 0.0333,
         "matematicas": 0.0064,
-        "memoria-territorio": 0.0945,
+        "memoria-territorio": 0.0933,
         "movilidad": 0.0051,
-        "representacion": 0.0143,
-        "transformacion": 0.032
+        "representacion": 0.0093,
+        "transformacion": 0.0306
       },
       "clusters": [
         "dialogos"
@@ -224,18 +233,20 @@
       "kind": "puede desplazar",
       "reading": "El coste de la prueba compite con la capacidad de ejecución.",
       "relationTokens": 31,
-      "fichaTokens": 196,
+      "fichaTokens": 217,
       "tagWeights": {
         "aprendizaje": 0.059,
-        "autoridad": 0.1499,
+        "autoridad": 0.1375,
         "capacidad-humana": 0.0216,
         "casos": 0.0166,
+        "compromisos": 0.0068,
         "decision": 0.1127,
         "economia": 0.0848,
-        "empresa": 0.1523,
-        "estandares": 0.026,
-        "evidencia": 0.0417,
+        "empresa": 0.1489,
+        "estandares": 0.0208,
+        "evidencia": 0.04,
         "integridad-ia": 0.0455,
+        "legitimidad": 0.0159,
         "matematicas": 0.0519,
         "memoria-territorio": 0.0065,
         "movilidad": 0.1628,
@@ -255,13 +266,14 @@
       "kind": "pide rendición de cuentas a",
       "reading": "El criterio de prueba debe alcanzar a quien define requisitos.",
       "relationTokens": 33,
-      "fichaTokens": 112,
+      "fichaTokens": 122,
       "tagWeights": {
-        "aprendizaje": 0.0833,
-        "autoridad": 0.2436,
-        "decision": 0.5426,
+        "aprendizaje": 0.0834,
+        "autoridad": 0.2098,
+        "decision": 0.5213,
         "economia": 0.025,
         "integridad-ia": 0.0722,
+        "legitimidad": 0.055,
         "perspectiva": 0.0333
       },
       "clusters": [
@@ -278,22 +290,23 @@
       "kind": "conserva abierta",
       "reading": "Un acto administrativo no prueba una verdad filosófica.",
       "relationTokens": 33,
-      "fichaTokens": 258,
+      "fichaTokens": 268,
       "tagWeights": {
-        "aprendizaje": 0.2354,
-        "autoridad": 0.0588,
+        "aprendizaje": 0.2345,
+        "autoridad": 0.0562,
         "casos": 0.0162,
         "control-minimo": 0.0103,
         "decision": 0.157,
         "documentacion": 0.0114,
         "economia": 0.0507,
         "empresa": 0.0151,
-        "espiritualidad": 0.025,
+        "espiritualidad": 0.0228,
         "estandares": 0.0142,
         "evidencia": 0.0076,
         "experimentacion": 0.0418,
         "geopolitica": 0.0057,
         "integridad-ia": 0.0284,
+        "legitimidad": 0.0057,
         "matematicas": 0.169,
         "memoria-territorio": 0.0227,
         "mundo-abierto": 0.0057,
@@ -361,12 +374,13 @@
       "kind": "formula insolvencia por cumplimiento",
       "reading": "No existe camino conforme que preserve el resultado.",
       "relationTokens": 37,
-      "fichaTokens": 106,
+      "fichaTokens": 117,
       "tagWeights": {
-        "autoridad": 0.1945,
+        "autoridad": 0.182,
+        "compromisos": 0.05,
         "decision": 0.1111,
-        "empresa": 0.1667,
-        "evidencia": 0.5277
+        "empresa": 0.1417,
+        "evidencia": 0.5152
       },
       "clusters": [
         "dialogos"
@@ -402,10 +416,11 @@
       "kind": "relación transversal propuesta v0.12",
       "reading": "Principios externos frente a regla interna.",
       "relationTokens": 35,
-      "fichaTokens": 73,
+      "fichaTokens": 83,
       "tagWeights": {
-        "autoridad": 0.5,
-        "decision": 0.5
+        "autoridad": 0.35,
+        "decision": 0.35,
+        "legitimidad": 0.3
       },
       "clusters": [
         "dialogos"

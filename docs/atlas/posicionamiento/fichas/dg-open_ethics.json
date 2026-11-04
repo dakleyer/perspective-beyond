@@ -8,15 +8,16 @@
     "D-296"
   ],
   "tagWeights": {
-    "autoridad": 0.5,
-    "decision": 0.5
+    "autoridad": 0.35,
+    "decision": 0.35,
+    "legitimidad": 0.3
   },
   "clusters": [
     "dialogos"
   ],
-  "context": "## Ética impugnable por personas externas\nLos mecanismos de examen pueden admitir observaciones externas incluso de no miembros.\nEtiquetas: Autoridad, permisos y delegación 50.00%; Decisiones y responsabilidad 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-open_ethics\n\n",
+  "context": "## Ética impugnable por personas externas\nLos mecanismos de examen pueden admitir observaciones externas incluso de no miembros.\nEtiquetas: Autoridad, permisos y delegación 35.00%; Decisiones y responsabilidad 35.00%; Legitimidad y principios 30.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-open_ethics\n\n",
   "readingSource": null,
-  "tokens": 73,
+  "tokens": 83,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -27,10 +28,11 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 27,
-      "fichaTokens": 379,
+      "fichaTokens": 389,
       "tagWeights": {
-        "autoridad": 0.5,
-        "decision": 0.5
+        "autoridad": 0.35,
+        "decision": 0.35,
+        "legitimidad": 0.3
       },
       "clusters": [
         "dialogos"
@@ -46,26 +48,28 @@
       "kind": "relación transversal propuesta v0.12",
       "reading": "Examen que no depende de membresía.",
       "relationTokens": 32,
-      "fichaTokens": 254,
+      "fichaTokens": 273,
       "tagWeights": {
-        "aprendizaje": 0.034,
-        "autoridad": 0.4256,
+        "aprendizaje": 0.0321,
+        "autoridad": 0.4057,
         "capacidad-humana": 0.0104,
         "casos": 0.0027,
-        "decision": 0.1415,
+        "decision": 0.1337,
         "documentacion": 0.0128,
         "economia": 0.0465,
-        "empresa": 0.053,
-        "espiritualidad": 0.0099,
-        "estandares": 0.0467,
-        "evidencia": 0.0256,
+        "empresa": 0.0522,
+        "encuentros": 0.0154,
+        "espiritualidad": 0.0074,
+        "estandares": 0.0438,
+        "evidencia": 0.0257,
         "experimentacion": 0.0128,
-        "geopolitica": 0.0262,
+        "geopolitica": 0.0208,
+        "legitimidad": 0.0333,
         "matematicas": 0.0064,
-        "memoria-territorio": 0.0945,
+        "memoria-territorio": 0.0933,
         "movilidad": 0.0051,
-        "representacion": 0.0143,
-        "transformacion": 0.032
+        "representacion": 0.0093,
+        "transformacion": 0.0306
       },
       "clusters": [
         "dialogos"
@@ -81,13 +85,14 @@
       "kind": "relación transversal propuesta v0.12",
       "reading": "Reclamación y apelación requieren procedimientos.",
       "relationTokens": 31,
-      "fichaTokens": 112,
+      "fichaTokens": 122,
       "tagWeights": {
-        "aprendizaje": 0.0833,
-        "autoridad": 0.2436,
-        "decision": 0.5426,
+        "aprendizaje": 0.0834,
+        "autoridad": 0.2098,
+        "decision": 0.5213,
         "economia": 0.025,
         "integridad-ia": 0.0722,
+        "legitimidad": 0.055,
         "perspectiva": 0.0333
       },
       "clusters": [
@@ -104,14 +109,16 @@
       "kind": "relación transversal propuesta v0.12",
       "reading": "Principios externos frente a regla interna.",
       "relationTokens": 35,
-      "fichaTokens": 133,
+      "fichaTokens": 154,
       "tagWeights": {
         "aprendizaje": 0.0625,
-        "autoridad": 0.6004,
-        "decision": 0.0938,
-        "empresa": 0.0625,
-        "estandares": 0.1496,
-        "evidencia": 0.0312
+        "autoridad": 0.5241,
+        "compromisos": 0.0187,
+        "decision": 0.0672,
+        "empresa": 0.0531,
+        "estandares": 0.1353,
+        "evidencia": 0.0266,
+        "legitimidad": 0.1125
       },
       "clusters": [
         "dialogos"

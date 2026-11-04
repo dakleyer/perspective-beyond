@@ -46,31 +46,33 @@
     "D-297"
   ],
   "tagWeights": {
-    "aprendizaje": 0.034,
-    "autoridad": 0.4256,
+    "aprendizaje": 0.0321,
+    "autoridad": 0.4057,
     "capacidad-humana": 0.0104,
     "casos": 0.0027,
-    "decision": 0.1415,
+    "decision": 0.1337,
     "documentacion": 0.0128,
     "economia": 0.0465,
-    "empresa": 0.053,
-    "espiritualidad": 0.0099,
-    "estandares": 0.0467,
-    "evidencia": 0.0256,
+    "empresa": 0.0522,
+    "encuentros": 0.0154,
+    "espiritualidad": 0.0074,
+    "estandares": 0.0438,
+    "evidencia": 0.0257,
     "experimentacion": 0.0128,
-    "geopolitica": 0.0262,
+    "geopolitica": 0.0208,
+    "legitimidad": 0.0333,
     "matematicas": 0.0064,
-    "memoria-territorio": 0.0945,
+    "memoria-territorio": 0.0933,
     "movilidad": 0.0051,
-    "representacion": 0.0143,
-    "transformacion": 0.032
+    "representacion": 0.0093,
+    "transformacion": 0.0306
   },
   "clusters": [
     "dialogos"
   ],
-  "context": "## Gobernanza y legitimidad\nDelimitar quién observa, aconseja, consiente, decide y ejecuta, con evidencias y mandatos claros.\nEtiquetas: Aprendizaje y transmisión de capacidades 3.40%; Autoridad, permisos y delegación 42.56%; Capacidad humana y deuda de inteligencia 1.04%; Casos de uso y aplicaciones 0.27%; Decisiones y responsabilidad 14.15%; Investigación y documentación técnica 1.28%; Economía, costes y liquidez 4.65%; Empresa y gestión 5.30%; Espiritualidad y vida interior 0.99%; Estándares e interoperabilidad 4.67%; Evidencia, procedencia y atribución 2.56%; Experimentación, falsación y contraejemplos 1.28%; Geopolítica y fronteras 2.62%; Matemáticas 0.64%; Memoria, comunidad y territorio 9.45%; Movilidad e infraestructura 0.51%; Representación y límites formales 1.43%; Transformación y continuidad operativa 3.20%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-governance\n\n",
+  "context": "## Gobernanza y legitimidad\nDelimitar quién observa, aconseja, consiente, decide y ejecuta, con evidencias y mandatos claros.\nEtiquetas: Aprendizaje y transmisión de capacidades 3.21%; Autoridad, permisos y delegación 40.57%; Capacidad humana y deuda de inteligencia 1.04%; Casos de uso y aplicaciones 0.27%; Decisiones y responsabilidad 13.37%; Investigación y documentación técnica 1.28%; Economía, costes y liquidez 4.65%; Empresa y gestión 5.22%; Infraestructura de encuentros 1.54%; Espiritualidad y vida interior 0.74%; Estándares e interoperabilidad 4.38%; Evidencia, procedencia y atribución 2.57%; Experimentación, falsación y contraejemplos 1.28%; Geopolítica y fronteras 2.08%; Legitimidad y principios 3.33%; Matemáticas 0.64%; Memoria, comunidad y territorio 9.33%; Movilidad e infraestructura 0.51%; Representación y límites formales 0.93%; Transformación y continuidad operativa 3.06%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-governance\n\n",
   "readingSource": null,
-  "tokens": 254,
+  "tokens": 273,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -81,10 +83,11 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 290,
+      "fichaTokens": 299,
       "tagWeights": {
-        "autoridad": 0.5,
-        "geopolitica": 0.5
+        "autoridad": 0.4,
+        "encuentros": 0.2,
+        "geopolitica": 0.4
       },
       "clusters": [
         "dialogos"
@@ -140,12 +143,13 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 27,
-      "fichaTokens": 309,
+      "fichaTokens": 319,
       "tagWeights": {
-        "autoridad": 0.1539,
-        "decision": 0.3846,
-        "memoria-territorio": 0.3077,
-        "transformacion": 0.1538
+        "autoridad": 0.1308,
+        "decision": 0.3269,
+        "legitimidad": 0.15,
+        "memoria-territorio": 0.2616,
+        "transformacion": 0.1307
       },
       "clusters": [
         "dialogos"
@@ -200,11 +204,13 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 288,
+      "fichaTokens": 307,
       "tagWeights": {
-        "autoridad": 0.2222,
-        "geopolitica": 0.2222,
-        "representacion": 0.5556
+        "autoridad": 0.1444,
+        "encuentros": 0.2,
+        "geopolitica": 0.1444,
+        "legitimidad": 0.15,
+        "representacion": 0.3612
       },
       "clusters": [
         "dialogos"
@@ -377,10 +383,11 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 334,
+      "fichaTokens": 344,
       "tagWeights": {
-        "autoridad": 0.4286,
-        "estandares": 0.5714
+        "autoridad": 0.3429,
+        "estandares": 0.4571,
+        "legitimidad": 0.2
       },
       "clusters": [
         "dialogos"
@@ -396,10 +403,11 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 358,
+      "fichaTokens": 368,
       "tagWeights": {
-        "autoridad": 0.75,
-        "decision": 0.25
+        "autoridad": 0.5625,
+        "decision": 0.1875,
+        "legitimidad": 0.25
       },
       "clusters": [
         "dialogos"
@@ -722,11 +730,12 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 414,
+      "fichaTokens": 424,
       "tagWeights": {
-        "aprendizaje": 0.1539,
-        "autoridad": 0.4615,
-        "espiritualidad": 0.3846
+        "aprendizaje": 0.1154,
+        "autoridad": 0.3461,
+        "espiritualidad": 0.2885,
+        "legitimidad": 0.25
       },
       "clusters": [
         "dialogos"
@@ -760,14 +769,15 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 432,
+      "fichaTokens": 441,
       "tagWeights": {
-        "aprendizaje": 0.1667,
-        "autoridad": 0.1667,
-        "decision": 0.1667,
-        "empresa": 0.1667,
-        "geopolitica": 0.1666,
-        "transformacion": 0.1666
+        "aprendizaje": 0.1334,
+        "autoridad": 0.1334,
+        "decision": 0.1333,
+        "empresa": 0.1333,
+        "encuentros": 0.2,
+        "geopolitica": 0.1333,
+        "transformacion": 0.1333
       },
       "clusters": [
         "dialogos"
@@ -801,10 +811,11 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 379,
+      "fichaTokens": 389,
       "tagWeights": {
-        "autoridad": 0.5,
-        "decision": 0.5
+        "autoridad": 0.35,
+        "decision": 0.35,
+        "legitimidad": 0.3
       },
       "clusters": [
         "dialogos"
@@ -841,12 +852,13 @@
       "kind": "obliga a precisar",
       "reading": "La traducción institucional necesita reglas de autenticidad.",
       "relationTokens": 26,
-      "fichaTokens": 108,
+      "fichaTokens": 117,
       "tagWeights": {
         "aprendizaje": 0.2,
-        "autoridad": 0.1,
+        "autoridad": 0.08,
         "documentacion": 0.1556,
-        "geopolitica": 0.3444,
+        "encuentros": 0.04,
+        "geopolitica": 0.3244,
         "memoria-territorio": 0.2
       },
       "clusters": [
@@ -863,22 +875,24 @@
       "kind": "sostiene",
       "reading": "Mandatos y derechos claros preservan capacidades más allá de individuos.",
       "relationTokens": 27,
-      "fichaTokens": 201,
+      "fichaTokens": 222,
       "tagWeights": {
         "aprendizaje": 0.0854,
-        "autoridad": 0.0274,
+        "autoridad": 0.0264,
         "capacidad-humana": 0.0278,
         "casos": 0.0136,
-        "decision": 0.0681,
-        "economia": 0.0544,
-        "empresa": 0.1382,
+        "compromisos": 0.0109,
+        "decision": 0.0656,
+        "economia": 0.0516,
+        "empresa": 0.1327,
         "evidencia": 0.0203,
-        "experimentacion": 0.0217,
+        "experimentacion": 0.0218,
         "geopolitica": 0.0197,
-        "memoria-territorio": 0.1624,
+        "legitimidad": 0.0065,
+        "memoria-territorio": 0.1604,
         "movilidad": 0.0199,
         "perspectiva": 0.0217,
-        "transformacion": 0.3194
+        "transformacion": 0.3157
       },
       "clusters": [
         "dialogos"
@@ -926,22 +940,23 @@
       "kind": "acota la autoridad de",
       "reading": "Un resultado probado localmente no confiere potestad general de decidir.",
       "relationTokens": 36,
-      "fichaTokens": 258,
+      "fichaTokens": 268,
       "tagWeights": {
-        "aprendizaje": 0.2354,
-        "autoridad": 0.0588,
+        "aprendizaje": 0.2345,
+        "autoridad": 0.0562,
         "casos": 0.0162,
         "control-minimo": 0.0103,
         "decision": 0.157,
         "documentacion": 0.0114,
         "economia": 0.0507,
         "empresa": 0.0151,
-        "espiritualidad": 0.025,
+        "espiritualidad": 0.0228,
         "estandares": 0.0142,
         "evidencia": 0.0076,
         "experimentacion": 0.0418,
         "geopolitica": 0.0057,
         "integridad-ia": 0.0284,
+        "legitimidad": 0.0057,
         "matematicas": 0.169,
         "memoria-territorio": 0.0227,
         "mundo-abierto": 0.0057,
@@ -962,21 +977,24 @@
       "kind": "hace visible",
       "reading": "El gobierno comprobable evita promesas de representación infundadas.",
       "relationTokens": 28,
-      "fichaTokens": 186,
+      "fichaTokens": 216,
       "tagWeights": {
-        "aprendizaje": 0.1158,
-        "autoridad": 0.0304,
+        "aprendizaje": 0.1145,
+        "autoridad": 0.0227,
         "capacidad-humana": 0.0309,
         "casos": 0.0118,
-        "decision": 0.3999,
-        "economia": 0.0738,
-        "empresa": 0.1011,
+        "compromisos": 0.0092,
+        "decision": 0.3864,
+        "economia": 0.0669,
+        "empresa": 0.0953,
+        "encuentros": 0.0167,
         "evidencia": 0.0185,
-        "geopolitica": 0.0226,
-        "memoria-territorio": 0.0841,
-        "movilidad": 0.0093,
+        "geopolitica": 0.0214,
+        "legitimidad": 0.0167,
+        "memoria-territorio": 0.0824,
+        "movilidad": 0.0069,
         "perspectiva": 0.0424,
-        "transformacion": 0.0594
+        "transformacion": 0.0573
       },
       "clusters": [
         "dialogos"
@@ -1043,13 +1061,14 @@
       "kind": "concreta",
       "reading": "La legitimidad requiere responder por decisiones y reparar.",
       "relationTokens": 23,
-      "fichaTokens": 112,
+      "fichaTokens": 122,
       "tagWeights": {
-        "aprendizaje": 0.0833,
-        "autoridad": 0.2436,
-        "decision": 0.5426,
+        "aprendizaje": 0.0834,
+        "autoridad": 0.2098,
+        "decision": 0.5213,
         "economia": 0.025,
         "integridad-ia": 0.0722,
+        "legitimidad": 0.055,
         "perspectiva": 0.0333
       },
       "clusters": [
@@ -1089,14 +1108,16 @@
       "kind": "interroga su justificación",
       "reading": "La conformidad no demuestra cumplimiento de principios.",
       "relationTokens": 31,
-      "fichaTokens": 133,
+      "fichaTokens": 154,
       "tagWeights": {
         "aprendizaje": 0.0625,
-        "autoridad": 0.6004,
-        "decision": 0.0938,
-        "empresa": 0.0625,
-        "estandares": 0.1496,
-        "evidencia": 0.0312
+        "autoridad": 0.5241,
+        "compromisos": 0.0187,
+        "decision": 0.0672,
+        "empresa": 0.0531,
+        "estandares": 0.1353,
+        "evidencia": 0.0266,
+        "legitimidad": 0.1125
       },
       "clusters": [
         "dialogos"
@@ -1133,17 +1154,18 @@
       "kind": "selecciona dónde concentrar",
       "reading": "Centros de cómputo y alternativas federadas responden a incentivos diversos.",
       "relationTokens": 36,
-      "fichaTokens": 161,
+      "fichaTokens": 170,
       "tagWeights": {
         "aprendizaje": 0.0675,
         "autoridad": 0.0125,
         "capacidad-humana": 0.0139,
         "casos": 0.0374,
-        "decision": 0.0582,
+        "decision": 0.0543,
         "economia": 0.1164,
-        "empresa": 0.1233,
+        "empresa": 0.1155,
+        "encuentros": 0.0156,
         "memoria-territorio": 0.0368,
-        "movilidad": 0.4253,
+        "movilidad": 0.4214,
         "perspectiva": 0.0402,
         "transformacion": 0.0685
       },
@@ -1182,12 +1204,13 @@
       "kind": "distingue atribución y aporte",
       "reading": "Una función conforme puede frustrar el fin común.",
       "relationTokens": 34,
-      "fichaTokens": 106,
+      "fichaTokens": 117,
       "tagWeights": {
-        "autoridad": 0.1945,
+        "autoridad": 0.182,
+        "compromisos": 0.05,
         "decision": 0.1111,
-        "empresa": 0.1667,
-        "evidencia": 0.5277
+        "empresa": 0.1417,
+        "evidencia": 0.5152
       },
       "clusters": [
         "dialogos"
@@ -1307,14 +1330,15 @@
       "kind": "relación transversal propuesta v0.12",
       "reading": "Intermediación frente a varios mandatos.",
       "relationTokens": 32,
-      "fichaTokens": 122,
+      "fichaTokens": 131,
       "tagWeights": {
-        "aprendizaje": 0.1667,
-        "autoridad": 0.1667,
-        "decision": 0.1667,
-        "empresa": 0.1667,
-        "geopolitica": 0.1666,
-        "transformacion": 0.1666
+        "aprendizaje": 0.1334,
+        "autoridad": 0.1334,
+        "decision": 0.1333,
+        "empresa": 0.1333,
+        "encuentros": 0.2,
+        "geopolitica": 0.1333,
+        "transformacion": 0.1333
       },
       "clusters": [
         "dialogos"
@@ -1330,10 +1354,11 @@
       "kind": "relación transversal propuesta v0.12",
       "reading": "Examen que no depende de membresía.",
       "relationTokens": 32,
-      "fichaTokens": 73,
+      "fichaTokens": 83,
       "tagWeights": {
-        "autoridad": 0.5,
-        "decision": 0.5
+        "autoridad": 0.35,
+        "decision": 0.35,
+        "legitimidad": 0.3
       },
       "clusters": [
         "dialogos"

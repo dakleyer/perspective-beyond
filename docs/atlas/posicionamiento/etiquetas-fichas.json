@@ -491,12 +491,13 @@
       "movilidad": 0.4375
     },
     "N1826": {
-      "agentes": 0.2258,
-      "autoridad": 0.129,
-      "control-minimo": 0.0645,
-      "decision": 0.0968,
-      "documentacion": 0.129,
-      "economia": 0.3549
+      "agentes": 0.1807,
+      "autoridad": 0.1032,
+      "compromisos": 0.2,
+      "control-minimo": 0.0516,
+      "decision": 0.0774,
+      "documentacion": 0.1032,
+      "economia": 0.2839
     },
     "N1828": {
       "decision": 0.25,
@@ -1754,8 +1755,9 @@
       "memoria-territorio": 1.0
     },
     "np-posada": {
-      "movilidad": 0.5,
-      "transformacion": 0.5
+      "encuentros": 0.25,
+      "movilidad": 0.375,
+      "transformacion": 0.375
     },
     "np-formacion": {
       "aprendizaje": 0.5455,
@@ -5437,9 +5439,10 @@
       "decision": 1.0
     },
     "D-090": {
-      "decision": 0.25,
-      "empresa": 0.5,
-      "movilidad": 0.25
+      "decision": 0.1875,
+      "empresa": 0.375,
+      "encuentros": 0.25,
+      "movilidad": 0.1875
     },
     "D-091": {
       "aprendizaje": 1.0
@@ -5515,8 +5518,9 @@
       "memoria-territorio": 1.0
     },
     "D-109": {
-      "autoridad": 0.5,
-      "geopolitica": 0.5
+      "autoridad": 0.4,
+      "encuentros": 0.2,
+      "geopolitica": 0.4
     },
     "D-110": {
       "casos": 0.5455,
@@ -5541,10 +5545,11 @@
       "memoria-territorio": 0.6364
     },
     "D-114": {
-      "autoridad": 0.1539,
-      "decision": 0.3846,
-      "memoria-territorio": 0.3077,
-      "transformacion": 0.1538
+      "autoridad": 0.1308,
+      "decision": 0.3269,
+      "legitimidad": 0.15,
+      "memoria-territorio": 0.2616,
+      "transformacion": 0.1307
     },
     "D-115": {
       "autoridad": 0.1667,
@@ -5568,9 +5573,11 @@
       "transformacion": 0.3637
     },
     "D-120": {
-      "autoridad": 0.2222,
-      "geopolitica": 0.2222,
-      "representacion": 0.5556
+      "autoridad": 0.1444,
+      "encuentros": 0.2,
+      "geopolitica": 0.1444,
+      "legitimidad": 0.15,
+      "representacion": 0.3612
     },
     "D-121": {
       "aprendizaje": 0.1818,
@@ -5659,13 +5666,15 @@
       "geopolitica": 0.2857
     },
     "D-137": {
-      "decision": 0.25,
-      "economia": 0.75
+      "compromisos": 0.25,
+      "decision": 0.1875,
+      "economia": 0.5625
     },
     "D-138": {
-      "economia": 0.25,
-      "empresa": 0.5,
-      "transformacion": 0.25
+      "compromisos": 0.25,
+      "economia": 0.1875,
+      "empresa": 0.375,
+      "transformacion": 0.1875
     },
     "D-139": {
       "decision": 1.0
@@ -5786,15 +5795,18 @@
       "economia": 0.7143
     },
     "D-169": {
-      "autoridad": 0.4286,
-      "estandares": 0.5714
+      "autoridad": 0.3429,
+      "estandares": 0.4571,
+      "legitimidad": 0.2
     },
     "D-170": {
-      "autoridad": 1.0
+      "autoridad": 0.85,
+      "legitimidad": 0.15
     },
     "D-171": {
-      "autoridad": 0.75,
-      "decision": 0.25
+      "autoridad": 0.5625,
+      "decision": 0.1875,
+      "legitimidad": 0.25
     },
     "D-172": {
       "autoridad": 0.375,
@@ -5839,9 +5851,10 @@
       "transformacion": 0.3125
     },
     "D-182": {
-      "casos": 0.2,
-      "decision": 0.3,
-      "movilidad": 0.5
+      "casos": 0.16,
+      "compromisos": 0.2,
+      "decision": 0.24,
+      "movilidad": 0.4
     },
     "D-183": {
       "matematicas": 1.0
@@ -5998,11 +6011,12 @@
       "aprendizaje": 1.0
     },
     "D-221": {
-      "aprendizaje": 0.1539,
-      "casos": 0.1539,
-      "decision": 0.1538,
-      "empresa": 0.3846,
-      "transformacion": 0.1538
+      "aprendizaje": 0.1308,
+      "casos": 0.1308,
+      "compromisos": 0.15,
+      "decision": 0.1308,
+      "empresa": 0.3269,
+      "transformacion": 0.1307
     },
     "D-222": {
       "economia": 1.0
@@ -6069,9 +6083,10 @@
       "evidencia": 1.0
     },
     "D-237": {
-      "autoridad": 0.25,
-      "empresa": 0.5,
-      "evidencia": 0.25
+      "autoridad": 0.2125,
+      "compromisos": 0.15,
+      "empresa": 0.425,
+      "evidencia": 0.2125
     },
     "D-238": {
       "aprendizaje": 1.0
@@ -6230,9 +6245,10 @@
       "perspectiva": 0.5
     },
     "D-275": {
-      "aprendizaje": 0.1539,
-      "autoridad": 0.4615,
-      "espiritualidad": 0.3846
+      "aprendizaje": 0.1154,
+      "autoridad": 0.3461,
+      "espiritualidad": 0.2885,
+      "legitimidad": 0.25
     },
     "D-276": {
       "decision": 0.2222,
@@ -6266,12 +6282,13 @@
       "memoria-territorio": 0.6
     },
     "D-284": {
-      "aprendizaje": 0.1667,
-      "autoridad": 0.1667,
-      "decision": 0.1667,
-      "empresa": 0.1667,
-      "geopolitica": 0.1666,
-      "transformacion": 0.1666
+      "aprendizaje": 0.1334,
+      "autoridad": 0.1334,
+      "decision": 0.1333,
+      "empresa": 0.1333,
+      "encuentros": 0.2,
+      "geopolitica": 0.1333,
+      "transformacion": 0.1333
     },
     "D-285": {
       "aprendizaje": 0.05,
@@ -6330,8 +6347,9 @@
       "economia": 0.7143
     },
     "D-296": {
-      "autoridad": 0.5,
-      "decision": 0.5
+      "autoridad": 0.35,
+      "decision": 0.35,
+      "legitimidad": 0.3
     },
     "D-297": {
       "autoridad": 0.2222,
@@ -6341,6 +6359,28 @@
     },
     "D-298": {
       "geopolitica": 1.0
+    },
+    "np-hospitalidad": {
+      "aprendizaje": 0.2,
+      "documentacion": 0.1,
+      "encuentros": 0.35,
+      "memoria-territorio": 0.2,
+      "perspectiva": 0.15
+    },
+    "np-perfiles-frontera": {
+      "aprendizaje": 0.2,
+      "empresa": 0.1,
+      "encuentros": 0.2,
+      "evidencia": 0.1,
+      "memoria-territorio": 0.2,
+      "transformacion": 0.2
+    },
+    "np-censo-practicas": {
+      "aprendizaje": 0.2,
+      "documentacion": 0.15,
+      "evidencia": 0.15,
+      "legitimidad": 0.2,
+      "memoria-territorio": 0.3
     }
   }
 }

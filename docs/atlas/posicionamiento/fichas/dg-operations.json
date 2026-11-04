@@ -30,15 +30,17 @@
   ],
   "tagWeights": {
     "aprendizaje": 0.059,
-    "autoridad": 0.1499,
+    "autoridad": 0.1375,
     "capacidad-humana": 0.0216,
     "casos": 0.0166,
+    "compromisos": 0.0068,
     "decision": 0.1127,
     "economia": 0.0848,
-    "empresa": 0.1523,
-    "estandares": 0.026,
-    "evidencia": 0.0417,
+    "empresa": 0.1489,
+    "estandares": 0.0208,
+    "evidencia": 0.04,
     "integridad-ia": 0.0455,
+    "legitimidad": 0.0159,
     "matematicas": 0.0519,
     "memoria-territorio": 0.0065,
     "movilidad": 0.1628,
@@ -47,9 +49,9 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Operación real\nDiseñar sistemas que se mantengan útiles cuando encuentran territorio, procesos y personas.\nEtiquetas: Aprendizaje y transmisión de capacidades 5.90%; Autoridad, permisos y delegación 14.99%; Capacidad humana y deuda de inteligencia 2.16%; Casos de uso y aplicaciones 1.66%; Decisiones y responsabilidad 11.27%; Economía, costes y liquidez 8.48%; Empresa y gestión 15.23%; Estándares e interoperabilidad 2.60%; Evidencia, procedencia y atribución 4.17%; Integridad y seguridad de IA 4.55%; Matemáticas 5.19%; Memoria, comunidad y territorio 0.65%; Movilidad e infraestructura 16.28%; Transformación y continuidad operativa 6.87%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-operations\n\n",
+  "context": "## Operación real\nDiseñar sistemas que se mantengan útiles cuando encuentran territorio, procesos y personas.\nEtiquetas: Aprendizaje y transmisión de capacidades 5.90%; Autoridad, permisos y delegación 13.75%; Capacidad humana y deuda de inteligencia 2.16%; Casos de uso y aplicaciones 1.66%; Compromisos y capacidad disponible 0.68%; Decisiones y responsabilidad 11.27%; Economía, costes y liquidez 8.48%; Empresa y gestión 14.89%; Estándares e interoperabilidad 2.08%; Evidencia, procedencia y atribución 4.00%; Integridad y seguridad de IA 4.55%; Legitimidad y principios 1.59%; Matemáticas 5.19%; Memoria, comunidad y territorio 0.65%; Movilidad e infraestructura 16.28%; Transformación y continuidad operativa 6.87%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-operations\n\n",
   "readingSource": null,
-  "tokens": 196,
+  "tokens": 217,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -273,10 +275,11 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 20,
-      "fichaTokens": 334,
+      "fichaTokens": 344,
       "tagWeights": {
-        "autoridad": 0.4286,
-        "estandares": 0.5714
+        "autoridad": 0.3429,
+        "estandares": 0.4571,
+        "legitimidad": 0.2
       },
       "clusters": [
         "dialogos"
@@ -292,9 +295,10 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 17,
-      "fichaTokens": 325,
+      "fichaTokens": 335,
       "tagWeights": {
-        "autoridad": 1.0
+        "autoridad": 0.85,
+        "legitimidad": 0.15
       },
       "clusters": [
         "dialogos"
@@ -387,11 +391,12 @@
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 427,
+      "fichaTokens": 438,
       "tagWeights": {
-        "autoridad": 0.25,
-        "empresa": 0.5,
-        "evidencia": 0.25
+        "autoridad": 0.2125,
+        "compromisos": 0.15,
+        "empresa": 0.425,
+        "evidencia": 0.2125
       },
       "clusters": [
         "dialogos"
@@ -513,17 +518,18 @@
       "kind": "lectura editorial",
       "reading": "La infraestructura habilita el trabajo que puede sostenerse en condiciones reales.",
       "relationTokens": 28,
-      "fichaTokens": 161,
+      "fichaTokens": 170,
       "tagWeights": {
         "aprendizaje": 0.0675,
         "autoridad": 0.0125,
         "capacidad-humana": 0.0139,
         "casos": 0.0374,
-        "decision": 0.0582,
+        "decision": 0.0543,
         "economia": 0.1164,
-        "empresa": 0.1233,
+        "empresa": 0.1155,
+        "encuentros": 0.0156,
         "memoria-territorio": 0.0368,
-        "movilidad": 0.4253,
+        "movilidad": 0.4214,
         "perspectiva": 0.0402,
         "transformacion": 0.0685
       },
@@ -541,24 +547,26 @@
       "kind": "lectura editorial",
       "reading": "La intervención tiene que entrar en una operación que sigue funcionando.",
       "relationTokens": 24,
-      "fichaTokens": 213,
+      "fichaTokens": 233,
       "tagWeights": {
-        "aprendizaje": 0.2525,
-        "autoridad": 0.0102,
+        "aprendizaje": 0.2509,
+        "autoridad": 0.0093,
         "capacidad-humana": 0.0093,
-        "casos": 0.0108,
+        "casos": 0.0101,
+        "compromisos": 0.0043,
         "control-minimo": 0.0095,
-        "decision": 0.0398,
+        "decision": 0.0382,
         "economia": 0.0167,
-        "empresa": 0.3123,
+        "empresa": 0.3097,
+        "encuentros": 0.0057,
         "evidencia": 0.0014,
-        "geopolitica": 0.0048,
+        "geopolitica": 0.0038,
         "matematicas": 0.0029,
         "memoria-territorio": 0.0315,
         "movilidad": 0.0206,
         "perspectiva": 0.04,
         "representacion": 0.0057,
-        "transformacion": 0.232
+        "transformacion": 0.2304
       },
       "clusters": [
         "dialogos"
@@ -574,17 +582,18 @@
       "kind": "habilita",
       "reading": "Una base fiable hace posibles procesos y trabajo coordinado.",
       "relationTokens": 24,
-      "fichaTokens": 161,
+      "fichaTokens": 170,
       "tagWeights": {
         "aprendizaje": 0.0675,
         "autoridad": 0.0125,
         "capacidad-humana": 0.0139,
         "casos": 0.0374,
-        "decision": 0.0582,
+        "decision": 0.0543,
         "economia": 0.1164,
-        "empresa": 0.1233,
+        "empresa": 0.1155,
+        "encuentros": 0.0156,
         "memoria-territorio": 0.0368,
-        "movilidad": 0.4253,
+        "movilidad": 0.4214,
         "perspectiva": 0.0402,
         "transformacion": 0.0685
       },
@@ -602,24 +611,26 @@
       "kind": "no garantiza",
       "reading": "El uso real del sistema revela qué prácticas organizativas deben cambiar.",
       "relationTokens": 25,
-      "fichaTokens": 213,
+      "fichaTokens": 233,
       "tagWeights": {
-        "aprendizaje": 0.2525,
-        "autoridad": 0.0102,
+        "aprendizaje": 0.2509,
+        "autoridad": 0.0093,
         "capacidad-humana": 0.0093,
-        "casos": 0.0108,
+        "casos": 0.0101,
+        "compromisos": 0.0043,
         "control-minimo": 0.0095,
-        "decision": 0.0398,
+        "decision": 0.0382,
         "economia": 0.0167,
-        "empresa": 0.3123,
+        "empresa": 0.3097,
+        "encuentros": 0.0057,
         "evidencia": 0.0014,
-        "geopolitica": 0.0048,
+        "geopolitica": 0.0038,
         "matematicas": 0.0029,
         "memoria-territorio": 0.0315,
         "movilidad": 0.0206,
         "perspectiva": 0.04,
         "representacion": 0.0057,
-        "transformacion": 0.232
+        "transformacion": 0.2304
       },
       "clusters": [
         "dialogos"
@@ -671,20 +682,21 @@
       "kind": "se contrasta en",
       "reading": "Una alternativa prometedora debe probarse en la ejecución real.",
       "relationTokens": 26,
-      "fichaTokens": 169,
+      "fichaTokens": 180,
       "tagWeights": {
-        "aprendizaje": 0.0486,
+        "aprendizaje": 0.0474,
         "autoridad": 0.0059,
-        "casos": 0.2265,
+        "casos": 0.223,
+        "compromisos": 0.0194,
         "control-minimo": 0.0253,
-        "decision": 0.3175,
+        "decision": 0.3128,
         "economia": 0.0862,
-        "empresa": 0.0741,
+        "empresa": 0.0709,
         "estandares": 0.0222,
         "geopolitica": 0.0111,
-        "matematicas": 0.0615,
-        "movilidad": 0.0904,
-        "transformacion": 0.0307
+        "matematicas": 0.0616,
+        "movilidad": 0.0848,
+        "transformacion": 0.0294
       },
       "clusters": [
         "dialogos"
@@ -700,14 +712,16 @@
       "kind": "puede desplazar",
       "reading": "El coste de la prueba compite con la capacidad de ejecución.",
       "relationTokens": 31,
-      "fichaTokens": 133,
+      "fichaTokens": 154,
       "tagWeights": {
         "aprendizaje": 0.0625,
-        "autoridad": 0.6004,
-        "decision": 0.0938,
-        "empresa": 0.0625,
-        "estandares": 0.1496,
-        "evidencia": 0.0312
+        "autoridad": 0.5241,
+        "compromisos": 0.0187,
+        "decision": 0.0672,
+        "empresa": 0.0531,
+        "estandares": 0.1353,
+        "evidencia": 0.0266,
+        "legitimidad": 0.1125
       },
       "clusters": [
         "dialogos"
@@ -751,22 +765,23 @@
       "kind": "se comprueba en",
       "reading": "La encajonadora funciona o no funciona.",
       "relationTokens": 28,
-      "fichaTokens": 218,
+      "fichaTokens": 229,
       "tagWeights": {
-        "aprendizaje": 0.0295,
+        "aprendizaje": 0.0276,
         "autoridad": 0.0417,
         "capacidad-humana": 0.0128,
-        "casos": 0.0555,
-        "decision": 0.0795,
+        "casos": 0.0503,
+        "compromisos": 0.0292,
+        "decision": 0.0725,
         "economia": 0.1389,
-        "empresa": 0.1285,
+        "empresa": 0.1237,
         "evidencia": 0.1389,
         "experimentacion": 0.0534,
         "geopolitica": 0.0555,
         "integridad-ia": 0.0278,
         "memoria-territorio": 0.0401,
-        "movilidad": 0.1146,
-        "transformacion": 0.0833
+        "movilidad": 0.1062,
+        "transformacion": 0.0814
       },
       "clusters": [
         "dialogos"

@@ -44,16 +44,39 @@
       "kind": "comparación",
       "reading": "La reserva y la posada permiten comparar qué condiciones conservan o propician un encuentro.",
       "relationTokens": 38,
-      "fichaTokens": 117,
+      "fichaTokens": 126,
       "tagWeights": {
-        "movilidad": 0.5,
-        "transformacion": 0.5
+        "encuentros": 0.25,
+        "movilidad": 0.375,
+        "transformacion": 0.375
       },
       "clusters": [
         "totonacapan"
       ],
       "type": "ficha",
       "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-posada.json"
+    },
+    {
+      "id": "documento:map-maintenance-20261104-018",
+      "to": "np-censo-practicas",
+      "title": "Censo de Artes y Oficios: describir condiciones de continuidad",
+      "direction": "entrante",
+      "kind": "lectura comparada de mecanismos",
+      "reading": "El diseño de la ficha del Censo aporta preguntas concretas sobre transmisión, materiales y condiciones de uso para la lectura de un conocimiento que se practica en su territorio.",
+      "relationTokens": 80,
+      "fichaTokens": 193,
+      "tagWeights": {
+        "aprendizaje": 0.2,
+        "documentacion": 0.15,
+        "evidencia": 0.15,
+        "legitimidad": 0.2,
+        "memoria-territorio": 0.3
+      },
+      "clusters": [
+        "totonacapan"
+      ],
+      "type": "ficha",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-censo-practicas.json"
     }
   ]
 }

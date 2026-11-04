@@ -32,6 +32,9 @@ TOPICS = {
     "casos": ("Casos de uso y aplicaciones", r"case stud|caso de uso|model case|use case|aplicacion|scenario|escenario|case notes"),
     "documentacion": ("Investigación y documentación técnica", r"research portfol|research initiative|annex|anexo|verification|verificacion|reconciliation|conciliacion|revision|review|documen|source and concordance|corpus|working note"),
     "navegacion": ("Índices, contacto y políticas", r"^(?:privacy policy|legal notice|contact|case studies|field notes|jubap(?:\.(?:eu|us|net))?|tegrity\.ai)$"),
+    "compromisos": ("Compromisos y capacidad disponible", r"committed capacity|capacidad comprometida|capacidad disponible|organizational encumbrance|liquidez compartida|shared.liquidity|obligaciones futuras|garantia.*promesa"),
+    "legitimidad": ("Legitimidad y principios", r"legitimidad|legitimacy|impugn|principios.*requisitos|razones.*examinar|consentimiento|consent"),
+    "encuentros": ("Infraestructura de encuentros", r"infraestructura.*encuentro|curaduria.*encuentro|posada|hospitalidad|hospitality|agoras|microengagement|perfiles de frontera"),
 }
 
 

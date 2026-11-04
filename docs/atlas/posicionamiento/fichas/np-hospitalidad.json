@@ -1,0 +1,112 @@
+{
+  "id": "np-hospitalidad",
+  "type": "ficha",
+  "title": "La Posada: una infraestructura para el encuentro",
+  "url": "https://totonacapan.com/?page_id=222",
+  "documentId": "doc-2f52793aeb65b38593",
+  "sourceIds": [],
+  "tagWeights": {
+    "aprendizaje": 0.2,
+    "documentacion": 0.1,
+    "encuentros": 0.35,
+    "memoria-territorio": 0.2,
+    "perspectiva": 0.15
+  },
+  "clusters": [
+    "totonacapan"
+  ],
+  "context": "## La Posada: una infraestructura para el encuentro\nEl asunto que trae una persona orienta la infraestructura que le permite continuar. La Posada reúne herramientas, memoria, referencias y conversaciones pertinentes; su valor aparece al reconocer qué necesita quien llega. El ensayo relaciona hospitalidad física y digital con el taller y la curaduría del encuentro. Permite pensar una institución desde su capacidad de recibir, conectar y mantener disponible una ayuda concreta.\nEtiquetas: Aprendizaje y transmisión de capacidades 20.00%; Investigación y documentación técnica 10.00%; Infraestructura de encuentros 35.00%; Memoria, comunidad y territorio 20.00%; Cambio de perspectiva 15.00%\nFicha: https://totonacapan.com/?page_id=222\nDocumento de origen: https://totonacapan.com/?page_id=222\n\n",
+  "readingSource": null,
+  "tokens": 172,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "documento:map-maintenance-20261104-012",
+      "to": "np-posada",
+      "title": "La posada como lugar de encuentro",
+      "direction": "saliente",
+      "kind": "lectura comparada de mecanismos",
+      "reading": "El ensayo de la Posada desarrolla el mecanismo que la ficha de encuentro plantea: reconocer el asunto, reunir herramientas y memoria y sostener una relación que ayude a continuar.",
+      "relationTokens": 77,
+      "fichaTokens": 126,
+      "tagWeights": {
+        "encuentros": 0.25,
+        "movilidad": 0.375,
+        "transformacion": 0.375
+      },
+      "clusters": [
+        "totonacapan"
+      ],
+      "type": "ficha",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-posada.json"
+    },
+    {
+      "id": "documento:map-maintenance-20261104-013",
+      "to": "D-090",
+      "title": "Ágoras pequeñas para encuentros que importan",
+      "direction": "saliente",
+      "kind": "lectura comparada entre clústeres",
+      "reading": "La curaduría de encuentros del ensayo permite leer el diseño de ágoras pequeñas desde la pertinencia del asunto y la disponibilidad de interlocutores, herramientas y tiempo.",
+      "relationTokens": 80,
+      "fichaTokens": 350,
+      "tagWeights": {
+        "decision": 0.1875,
+        "empresa": 0.375,
+        "encuentros": 0.25,
+        "movilidad": 0.1875
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-090.json"
+    },
+    {
+      "id": "documento:map-maintenance-20261104-014",
+      "to": "D-284",
+      "title": "El agente triple: mediar sin perder la propia palabra",
+      "direction": "saliente",
+      "kind": "lectura comparada entre clústeres",
+      "reading": "Cuidar un encuentro y mediar entre actores reúnen comprensión del asunto y confianza. La experiencia de intermediación añade la responsabilidad por las oportunidades que puede abrir una palabra.",
+      "relationTokens": 84,
+      "fichaTokens": 441,
+      "tagWeights": {
+        "aprendizaje": 0.1334,
+        "autoridad": 0.1334,
+        "decision": 0.1333,
+        "empresa": 0.1333,
+        "encuentros": 0.2,
+        "geopolitica": 0.1333,
+        "transformacion": 0.1333
+      },
+      "clusters": [
+        "dialogos"
+      ],
+      "type": "ficha",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-284.json"
+    },
+    {
+      "id": "documento:map-maintenance-20261104-022",
+      "to": "np-perfiles-frontera",
+      "title": "Perfiles de frontera: de la experiencia a la institución",
+      "direction": "saliente",
+      "kind": "lectura comparada de mecanismos",
+      "reading": "La infraestructura de encuentro sostiene el intercambio por el que un oficio, una herramienta y una relación de confianza pueden convertirse en una capacidad compartida.",
+      "relationTokens": 74,
+      "fichaTokens": 195,
+      "tagWeights": {
+        "aprendizaje": 0.2,
+        "empresa": 0.1,
+        "encuentros": 0.2,
+        "evidencia": 0.1,
+        "memoria-territorio": 0.2,
+        "transformacion": 0.2
+      },
+      "clusters": [
+        "totonacapan"
+      ],
+      "type": "ficha",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-perfiles-frontera.json"
+    }
+  ]
+}
