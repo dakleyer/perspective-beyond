@@ -1,4 +1,5 @@
 // Browser and CLI use the same versioned traversal.
+import {parseFocusWeights} from '../session-config.mjs';
 export const VERSION = 'perspective-beyond/radius-v1';
 export const DEFAULTS = Object.freeze({centro:'T1499', radio:2, max:16, red:'documentos', sentido:'ambas'});
 const compare = (a,b) => a<b ? -1 : a>b ? 1 : 0;
@@ -20,20 +21,10 @@ function integer(params, name, min, max) {
 export function readRequest(params, topics) {
   const centro=(params.get('centro')??DEFAULTS.centro).trim();
   if(!centro)throw Error('Elige una ficha, concepto o URL de origen.');
-  const weights=new Map();
   const supplied=params.getAll('peso');
-  if(supplied.length>Object.keys(topics).length)throw Error('Hay más pesos que etiquetas disponibles.');
-  for(const item of supplied) {
-    const split=item.lastIndexOf(':');
-    const key=item.slice(0,split).replace(/^tema:/,'');
-    const value=item.slice(split+1).trim().replace(',','.');
-    const number=Number(value);
-    if(split<1||!Object.hasOwn(topics,key)||!/^\d+(?:\.\d+)?$/.test(value)||
-      !Number.isFinite(number)||number<=0||number>10000)
-      throw Error(`Peso no válido: ${item}. Usa una etiqueta del Atlas y un número positivo.`);
-    if(weights.has(key))throw Error(`Hay dos pesos para ${topics[key]}.`);
-    weights.set(key,number);
-  }
+  const parsed=parseFocusWeights(supplied.map(token=>/^tema:/i.test(token)?token:'tema:'+token),Object.keys(topics).map(key=>'tema:'+key),Object.keys(topics).length);
+  if(parsed.errors.length)throw Error(parsed.errors.join(' '));
+  const weights=new Map([...parsed.weights].map(([key,value])=>[key.slice(5),value]));
   const strict=params.get('solo')==='1';
   if(strict&&!weights.size)throw Error('Añade al menos un peso para limitar por etiquetas.');
   const sorted=[...weights].sort(([a],[b])=>compare(a,b));

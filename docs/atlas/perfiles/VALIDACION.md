@@ -1,5 +1,26 @@
 # Perspective Beyond · Pruebas con asistentes
 
+## Nuevas conversaciones sin contexto previo · 4 de noviembre de 2026
+
+Cinco agentes nuevos recibieron únicamente una URL pública, una pregunta de visitante y la petición de registrar sus lecturas. Se crearon sin historial del hilo. En un caso hubo una segunda intervención para elegir la configuración. Las respuestas se contrastaron con las fuentes citadas y con la selección que debía conservar cada entrada.
+
+| Visita | Configuración y pregunta | Lectura observada |
+| --- | --- | --- |
+| A | Embajador, Diálogos cerrado; dos etiquetas 70:30; cuatro frases, ejemplo cotidiano y pregunta final. Equipos que compran herramientas y definen problemas distintos. | Encontró «Dices cloud y acabas comprando cloud», «Una empresa vive en varias ideas de negocio» y «Diez minutos mirando desde el lugar de otro». Explicó cómo la definición del problema orienta la solución; propuso observar juntos un pedido. Respetó las cuatro frases. Detectó que una clave llevaba una mayúscula y aplicó solo el peso restante según las instrucciones entonces publicadas. |
+| B | Investigador Federado; matemáticas 0,5 y empresa 0,3; filtro exclusivo; partir del rechazo de una entrada y explicar control de acceso. | Recuperó el reparto 62,5 % / 37,5 %. Distinguió pertenencia al dominio, decisión y rechazo; leyó un estudio OAuth/OIDC fijado a commit y conservó la separación entre documentación de 2025–2026 y el antecedente de 2016. |
+| C | Consultor Poroso, Diálogos → JubAp.Net; pesos 150:20; dos opciones y una observación semanal sobre transmisión de soluciones entre áreas. El visitante pidió añadir movilidad. | Recuperó el puente de la solución inaudible al saber práctico de Tiger Teams y el reparto 88,2 % / 11,8 %. Propuso recuperar una solución atascada y practicarla entre áreas. Mantuvo la selección del puente al responder a la petición de movilidad. |
+| D | Rol personalizado de tutor; espiritualidad 100 %, filtro exclusivo, tres párrafos, imagen cotidiana y enlaces titulados. Comprometerse con un papel sin quedar encerrado en él. | Localizó siete fichas elegibles y desarrolló su respuesta desde atención, convivencia y razones compartidas. Usó la imagen de un delantal y una observación semanal, señaladas como elaboración propia. Conservó el formato de tres párrafos. |
+| E | Entrada general; después Consultor Federado, Diálogos 60 % e Integral Management 40 %, dos observaciones y experimento semanal. Un grupo que reproduce las rutinas del fundador. | Primero pidió la selección en un solo mensaje. Después distinguió operar una estructura de reconstruir sus supuestos y conectó esa idea con el manifiesto y los aprendizajes de Nueva Perspectiva. Propuso una variación de la rutina que otra persona pudiera resolver. |
+
+### Ajustes derivados de estas lecturas
+
+- Las diferencias de mayúsculas en claves conocidas se resuelven contra su escritura canónica. Una etiqueta desconocida, duplicada o fuera del alcance pide corrección; el selector conserva pendiente el reparto en lugar de sustituirlo por otro.
+- La entrada cerrada de Diálogos pasa de aproximadamente 505 KB a 8 KB. Enlaza el catálogo íntegro por separado y un índice breve con 93 entradas conceptuales. El contenido de las 298 reflexiones y de las fuentes del corpus se conserva.
+- Las instrucciones comunes piden explicar primero la idea y su mecanismo, usar títulos legibles en los enlaces e integrar las fechas donde aclaren una afirmación. El registro técnico se presenta aparte cuando el lector lo pide.
+- Veinte comprobaciones de funciones verifican normalización, números, duplicados, claves desconocidas, alcance y conservación de selecciones anteriores del mapa. [Resultados de las funciones](pruebas-funciones.json).
+
+El lector web empleado en estas conversaciones devolvió errores para algunas URLs de Pages. Los agentes recuperaron los textos públicos por HTTP y registraron ese recorrido. La entrada conserva la ruta equivalente de GitHub para lectores de texto.
+
 El 4 de noviembre de 2026 se probaron cinco agentes en contextos separados. Los agentes recibieron una URL pública y una pregunta de visitante. Las comprobaciones observaron si podían abrir el material, conservar la configuración, escoger fuentes dentro del alcance y distinguir la aportación original de una lectura editorial o de una aplicación propuesta durante la conversación.
 
 [Selector del Atlas](https://dakleyer.github.io/perspective-beyond/atlas/#asistente) · [Guía y perfiles](https://dakleyer.github.io/perspective-beyond/atlas/guide.html) · [Protocolo del mapa](https://github.com/dakleyer/perspective-beyond/tree/main/docs/atlas/mapa#readme)

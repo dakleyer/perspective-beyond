@@ -1,0 +1,85 @@
+{
+  "tests": 20,
+  "results": [
+    {
+      "name": "Canonical keys retain 70:30",
+      "pass": true
+    },
+    {
+      "name": "Mixed case retains both weights",
+      "pass": true
+    },
+    {
+      "name": "Unknown key produces a correction request",
+      "pass": true
+    },
+    {
+      "name": "A repeated key is caught after normalization",
+      "pass": true
+    },
+    {
+      "name": "Decimal comma is retained numerically",
+      "pass": true
+    },
+    {
+      "name": "Invalid numbers are rejected",
+      "pass": true
+    },
+    {
+      "name": "Twenty selections is the maximum",
+      "pass": true
+    },
+    {
+      "name": "Ambiguous folded identifiers are rejected",
+      "pass": true
+    },
+    {
+      "name": "Empty weight list stays empty",
+      "pass": true
+    },
+    {
+      "name": "Scope is checked against available keys",
+      "pass": true
+    },
+    {
+      "name": "Existing radius selection: centro=T1499&radio=2&max=16&red=ideas&peso=matematicas:0.5&peso=empresa:0.3",
+      "pass": true
+    },
+    {
+      "name": "Existing radius selection: centro=D-285&radio=1&max=16&red=ideas",
+      "pass": true
+    },
+    {
+      "name": "Existing radius selection: centro=D-297&radio=2&max=24&red=documentos",
+      "pass": true
+    },
+    {
+      "name": "Existing radius selection: centro=dg-perspective&radio=2&max=30&red=ideas",
+      "pass": true
+    },
+    {
+      "name": "Existing radius selection: centro=D-271&radio=2&max=16&red=ideas&sentido=salientes",
+      "pass": true
+    },
+    {
+      "name": "Existing radius selection: centro=D-271&radio=2&max=16&red=ideas&sentido=entrantes",
+      "pass": true
+    },
+    {
+      "name": "Existing radius selection: centro=D-278&radio=2&max=16&red=ideas&peso=matematicas:0.5&peso=empresa:0.3&solo=1",
+      "pass": true
+    },
+    {
+      "name": "Existing radius selection: centro=https%3A%2F%2Fdakleyer.github.io%2Fperspective-beyond%2Fatlas%2Fdialogos%2Ftextos%2Fd-285.html&radio=1&red=ideas",
+      "pass": true
+    },
+    {
+      "name": "Radius weights accept canonical spelling with mixed case",
+      "pass": true
+    },
+    {
+      "name": "Radius preserves its existing maximum topic count",
+      "pass": true
+    }
+  ]
+}

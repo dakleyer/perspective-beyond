@@ -1,4 +1,5 @@
 'use strict';
+import {parseFocusWeights} from './session-config.mjs';
 const get = id => document.getElementById(id);
 const modeLabels = {closed:'Cerrado',porous:'Poroso',federated:'Federado'};
 const pageRoot = new URL('./',location.href);
@@ -67,9 +68,8 @@ async function start() {
   const profile = get('focus-profile'), target = get('focus-target'), focusRows = get('focus-rows');
   const profiles = ['parejo','transversal','personalizado'];
   const weights = new Map();
-  const initialWeights = params.getAll('peso').slice(0,20);
   onlyTopics.checked = params.get('solo')==='1';
-  let focusItems = new Map(), focusScope = '', restoreFocus = true;
+  let focusItems = new Map(), focusScope = '', restoreFocus = true, restoreError = '';
   if (profiles.includes(params.get('enfoque'))) profile.value = params.get('enfoque');
   if(onlyTopics.checked)profile.value='personalizado';
   query.value = params.get('buscar') || '';
@@ -195,11 +195,9 @@ async function start() {
     for (const key of weights.keys()) if(!focusItems.has(key)) weights.delete(key);
     if (restoreFocus) {
       restoreFocus=false;
-      for(const token of initialWeights){
-        const at=token.lastIndexOf(':');
-        const key=token.slice(0,at), weight=Number(token.slice(at+1));
-        if(focusItems.has(key)&&Number.isFinite(weight)&&weight>=0&&weight<=10000)weights.set(key,weight);
-      }
+      const parsed=parseFocusWeights(params.getAll('peso'),focusItems.keys());
+      restoreError=parsed.errors.join(' ');
+      if(!restoreError)for(const [key,weight] of parsed.weights)weights.set(key,weight);
       if(weights.size)profile.value='personalizado';
     }
     drawWeightRows();
@@ -276,7 +274,9 @@ async function start() {
       (start?'\nPunto de partida ['+start.id+']: '+start.title+'. Ficha: '+sourcePage(start)+'. Original: '+examinedOriginal(start)+
         '. Usa esta fuente si es pertinente a la pregunta.':'')+
       (customText?'\nInstrucción del lector: '+customText:'')+
-      '\nAplica esta configuración. Separa el original, la relación editorial y tu interpretación. '+
+      '\nAplica esta configuración. Explica primero la idea con lenguaje claro y enlaces titulados. '+
+      'Integra la procedencia y la fecha donde ayuden a entenderla; presenta los ejemplos propios como propuestas. '+
+      'Reserva los identificadores internos y el registro técnico para cuando el lector los pida. '+
       'Si todavía no hay una pregunta, pregunta qué quiere explorar el lector.\n\nGuía: '+
       new URL('guide.html',pageRoot).href+'\nLecturas permitidas:\n'+
       s.active.map(k=>'- '+clusters[k][0]+': '+readURL(k)).join('\n');
@@ -328,7 +328,7 @@ async function start() {
     const f=weighting();
     const scoped=filteredSession(s,f);
     const start=startingRecord(s,f);
-    const invalidFilter=onlyTopics.checked&&!f.strict;
+    const invalidFilter=onlyTopics.checked&&!f.strict,invalidConfig=Boolean(restoreError);
     get('focus-editor').hidden=profile.value!=='personalizado';
     onlyTopics.disabled=!f.topicKeys?.length&&!onlyTopics.checked;
     const rendered=new Map(f.items.map(item=>[item.key,percent(item.tenths)]));
@@ -337,6 +337,11 @@ async function start() {
       ?'Añade un peso positivo para una etiqueta temática de este alcance o desactiva la selección exclusiva.'
       :profile.value==='personalizado'&&!f.items.length
       ?'Añade un peso positivo para personalizar la lectura. Ahora se reparte de forma pareja.' : focusInstruction(f);
+    if(invalidConfig){
+      const revise=element('button','Volver a elegir los pesos','secondary');revise.type='button';
+      revise.addEventListener('click',()=>{restoreError='';weights.clear();drawWeightRows();render();target.focus();});
+      get('focus-preview').replaceChildren(document.createTextNode(restoreError+' '),revise);
+    }
     get('bridge-field').hidden=mode.value!=='porous';
     get('scope').textContent=s.active.map(k=>clusters[k][0]).join(' · ')+
       (invalidFilter?' · falta una etiqueta temática válida':' · '+scoped.sources.length+' fichas y fuentes');
@@ -351,11 +356,11 @@ async function start() {
     } else if(contextId) {
       get('starting-point').textContent='La ficha de partida queda fuera de esta selección.';
     }
-    for(const id of ['copy-url','copy-config','copy','download'])get(id).disabled=invalidFilter;
-    for(const id of ['entry-url','entry-mirror','web-entry'])get(id).hidden=invalidFilter;
+    for(const id of ['copy-url','copy-config','copy','download'])get(id).disabled=invalidFilter||invalidConfig;
+    for(const id of ['entry-url','entry-mirror','web-entry'])get(id).hidden=invalidFilter||invalidConfig;
     get('prompt').value='';
     get('status').textContent='';
-    if(invalidFilter)return;
+    if(invalidFilter||invalidConfig)return;
     get('entry-url').href=textEntry(f,pageRoot,start);
     get('entry-mirror').href=textEntry(f,rawRoot,start);
     get('web-entry').href=webEntry(f,start);
