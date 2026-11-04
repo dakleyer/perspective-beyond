@@ -1,0 +1,832 @@
+{
+  "id": "urn:ota:perspective-beyond",
+  "edition": "2026-11-04",
+  "canonical": "../data/atlas.json",
+  "canonical_sha256": "5e37a308dc5d57011d4884dc95dcc7b26223f1c383ad9c3a8bf2367e15a7fb49",
+  "clusters": {
+    "eu": [
+      "JubAp.eu",
+      "Estrategia, transformación y arquitectura",
+      "https://jubap.eu/reframing-value-creation/",
+      "E1731"
+    ],
+    "net": [
+      "JubAp.Net",
+      "Ingeniería de frontera y Tiger Teams",
+      "https://jubap.net/tacit-knowledge-management-in-distributed-tiger-teams/",
+      "N1287"
+    ],
+    "us": [
+      "JubAp.us",
+      "Integración y ejecución entre territorios",
+      "https://jubap.us/surviving-capability-why-the-field-celebrates-what-the-theory-condemns/",
+      "U1792"
+    ],
+    "tegrity": [
+      "Tegrity.AI",
+      "Integridad de IA y conciencia estructural",
+      "https://tegrity.ai/structural-awareness-program/",
+      "T1499"
+    ],
+    "imsv": [
+      "Integral Management",
+      "Nueva Perspectiva y Acción Integral",
+      "https://integralmanagement.ch/nueva-perspectiva/",
+      "np-manifiesto"
+    ],
+    "totonacapan": [
+      "Instituto del Totonacapan",
+      "Territorio, trayectoria y transmisión de saber",
+      "https://totonacapan.com/?page_id=413",
+      "np-biografia"
+    ],
+    "mobility": [
+      "Logistics and Mobility",
+      "Coordinación de movilidad y Car Evolution",
+      "https://jubap.eu/mobility/",
+      "E1953"
+    ],
+    "latinoempresa": [
+      "LatinoEmpresa",
+      "Instituciones de frontera y empresa",
+      "https://www.latinoempresa.com/",
+      "L002"
+    ],
+    "research": [
+      "Investigación y estándares",
+      "Repositorios, estudios y referencias técnicas",
+      "https://dakleyer.github.io/perspective-beyond/sources/",
+      "S11"
+    ]
+  },
+  "source_cluster": {
+    "E2": "eu",
+    "E3": "eu",
+    "E208": "eu",
+    "E250": "eu",
+    "E977": "eu",
+    "E1221": "eu",
+    "E1478": "eu",
+    "E1874": "eu",
+    "E1923": "mobility",
+    "E1940": "mobility",
+    "E1941": "mobility",
+    "E1942": "mobility",
+    "E1953": "mobility",
+    "E1954": "mobility",
+    "E1955": "mobility",
+    "E1956": "mobility",
+    "E1957": "mobility",
+    "E1958": "mobility",
+    "E1959": "mobility",
+    "E1524": "eu",
+    "E1526": "eu",
+    "E1535": "eu",
+    "E1538": "eu",
+    "E1541": "eu",
+    "E1554": "eu",
+    "E1557": "eu",
+    "E1560": "eu",
+    "E1563": "eu",
+    "E1567": "eu",
+    "E1570": "eu",
+    "E1628": "eu",
+    "E1630": "eu",
+    "E1633": "eu",
+    "E1636": "eu",
+    "E1654": "eu",
+    "E1662": "eu",
+    "E1704": "eu",
+    "E1706": "eu",
+    "E1729": "eu",
+    "E1731": "eu",
+    "E1777": "eu",
+    "E1781": "eu",
+    "E1886": "eu",
+    "N2": "net",
+    "N3": "net",
+    "N208": "net",
+    "N250": "net",
+    "N977": "net",
+    "N1221": "net",
+    "N1478": "net",
+    "N864": "net",
+    "N1246": "net",
+    "N1247": "net",
+    "N1258": "net",
+    "N1261": "net",
+    "N1263": "net",
+    "N1265": "net",
+    "N1267": "net",
+    "N1270": "net",
+    "N1272": "net",
+    "N1274": "net",
+    "N1276": "net",
+    "N1279": "net",
+    "N1281": "net",
+    "N1283": "net",
+    "N1285": "net",
+    "N1287": "net",
+    "N1289": "net",
+    "N1292": "net",
+    "N1295": "net",
+    "N1296": "net",
+    "N1328": "net",
+    "N1441": "net",
+    "N1468": "net",
+    "N1801": "net",
+    "N1803": "net",
+    "N1805": "net",
+    "N1815": "net",
+    "N1817": "net",
+    "N1819": "net",
+    "N1822": "net",
+    "N1826": "net",
+    "N1828": "net",
+    "N1831": "net",
+    "N1833": "net",
+    "N1835": "net",
+    "N1843": "net",
+    "N1876": "net",
+    "N2082": "net",
+    "N2086": "net",
+    "U2": "us",
+    "U3": "us",
+    "U208": "us",
+    "U250": "us",
+    "U977": "us",
+    "U1221": "us",
+    "U1478": "us",
+    "U1312": "us",
+    "U1317": "us",
+    "U1322": "us",
+    "U1325": "us",
+    "U1492": "us",
+    "U1494": "us",
+    "U1496": "us",
+    "U1498": "us",
+    "U1681": "us",
+    "U1792": "us",
+    "T2": "tegrity",
+    "T3": "tegrity",
+    "T208": "tegrity",
+    "T250": "tegrity",
+    "T977": "tegrity",
+    "T1230": "tegrity",
+    "T1513": "tegrity",
+    "T1518": "tegrity",
+    "T1562": "tegrity",
+    "T1573": "tegrity",
+    "T1687": "tegrity",
+    "T1709": "tegrity",
+    "T1726": "tegrity",
+    "T2694": "tegrity",
+    "T373": "tegrity",
+    "T385": "tegrity",
+    "T387": "tegrity",
+    "T389": "tegrity",
+    "T874": "tegrity",
+    "T878": "tegrity",
+    "T886": "tegrity",
+    "T888": "tegrity",
+    "T897": "tegrity",
+    "T902": "tegrity",
+    "T1221": "tegrity",
+    "T1378": "tegrity",
+    "T1379": "tegrity",
+    "T1387": "tegrity",
+    "T1391": "tegrity",
+    "T1396": "tegrity",
+    "T1399": "tegrity",
+    "T1400": "tegrity",
+    "T1411": "tegrity",
+    "T1415": "tegrity",
+    "T1417": "tegrity",
+    "T1419": "tegrity",
+    "T1421": "tegrity",
+    "T1423": "tegrity",
+    "T1425": "tegrity",
+    "T1427": "tegrity",
+    "T1472": "tegrity",
+    "T1474": "tegrity",
+    "T1475": "tegrity",
+    "T1484": "tegrity",
+    "T1487": "tegrity",
+    "T1491": "tegrity",
+    "T1494": "tegrity",
+    "T1499": "tegrity",
+    "T1522": "tegrity",
+    "T2729": "tegrity",
+    "T2744": "tegrity",
+    "T2776": "tegrity",
+    "T2780": "tegrity",
+    "T2784": "tegrity",
+    "T2788": "tegrity",
+    "T2792": "tegrity",
+    "T2795": "tegrity",
+    "T2799": "tegrity",
+    "T2803": "tegrity",
+    "T2807": "tegrity",
+    "T2811": "tegrity",
+    "T2814": "tegrity",
+    "T2818": "tegrity",
+    "T2822": "tegrity",
+    "T2931": "tegrity",
+    "T3068": "tegrity",
+    "T3083": "tegrity",
+    "L001": "latinoempresa",
+    "L002": "latinoempresa",
+    "L003": "latinoempresa",
+    "L004": "latinoempresa",
+    "L005": "latinoempresa",
+    "L006": "latinoempresa",
+    "L007": "latinoempresa",
+    "L008": "latinoempresa",
+    "L009": "latinoempresa",
+    "L010": "latinoempresa",
+    "L011": "latinoempresa",
+    "GH001": "research",
+    "GH002": "research",
+    "GH003": "research",
+    "GH004": "research",
+    "GH005": "research",
+    "GH006": "research",
+    "GH007": "research",
+    "GH008": "research",
+    "GH009": "research",
+    "GH010": "research",
+    "GH011": "research",
+    "GH012": "research",
+    "GH013": "research",
+    "GH014": "research",
+    "GH015": "research",
+    "GH016": "research",
+    "GH017": "research",
+    "GH018": "research",
+    "GH019": "research",
+    "GH020": "research",
+    "GH021": "research",
+    "GH022": "research",
+    "GH023": "research",
+    "GH024": "research",
+    "GH025": "research",
+    "GH026": "research",
+    "GH027": "research",
+    "GH028": "research",
+    "GH029": "research",
+    "GH030": "research",
+    "GH031": "research",
+    "GH032": "research",
+    "GH033": "research",
+    "GH034": "research",
+    "GH035": "research",
+    "GH036": "research",
+    "GH037": "research",
+    "GH038": "research",
+    "GH039": "research",
+    "GH040": "research",
+    "GH041": "research",
+    "GH042": "research",
+    "GH043": "research",
+    "GH044": "research",
+    "GH045": "research",
+    "GH046": "research",
+    "GH047": "research",
+    "GH048": "research",
+    "GH049": "research",
+    "GH050": "research",
+    "GH051": "research",
+    "GH052": "research",
+    "GH053": "research",
+    "GH054": "research",
+    "GH055": "research",
+    "GH056": "research",
+    "GH057": "research",
+    "GH058": "research",
+    "GH059": "research",
+    "GH060": "research",
+    "GH061": "research",
+    "GH062": "research",
+    "GH063": "research",
+    "GH064": "research",
+    "GH065": "research",
+    "GH066": "research",
+    "GH067": "research",
+    "GH068": "research",
+    "GH069": "research",
+    "GH070": "research",
+    "GH071": "research",
+    "GH072": "research",
+    "GH073": "research",
+    "GH074": "research",
+    "GH075": "research",
+    "GH076": "research",
+    "GH077": "research",
+    "GH078": "research",
+    "GH079": "research",
+    "S05": "research",
+    "S06": "research",
+    "S07": "research",
+    "S09": "research",
+    "S11": "research",
+    "S14": "imsv",
+    "S16": "research",
+    "S17": "research",
+    "S18": "research",
+    "S19": "research",
+    "S20": "research",
+    "S21": "research",
+    "S22": "research",
+    "S23": "research",
+    "np-entrada": "imsv",
+    "np-manifiesto": "imsv",
+    "np-experiencia": "imsv",
+    "np-sierra": "imsv",
+    "np-coaching": "imsv",
+    "np-microempresas": "imsv",
+    "np-lectura-manifiesto": "imsv",
+    "np-jump-up": "imsv",
+    "np-pemex": "imsv",
+    "np-ado": "imsv",
+    "np-encajonadora": "imsv",
+    "np-aicm": "imsv",
+    "np-accion": "imsv",
+    "np-aprendizajes": "imsv",
+    "np-archivo": "imsv",
+    "np-mas-alla": "imsv",
+    "np-accion-metodo": "imsv",
+    "np-biografia": "totonacapan",
+    "np-xanath": "totonacapan",
+    "np-posada": "totonacapan",
+    "np-formacion": "totonacapan"
+  },
+  "sources": [
+    {
+      "id": "np-entrada",
+      "title": "Del manifiesto a la práctica",
+      "url": "https://integralmanagement.ch/nueva-perspectiva/",
+      "kind": "ficha editorial",
+      "site": "integralmanagement.ch"
+    },
+    {
+      "id": "np-manifiesto",
+      "title": "El manifiesto original de Nueva Perspectiva",
+      "url": "https://integralmanagement.ch/nueva-perspectiva/manifiesto/",
+      "kind": "ficha editorial",
+      "site": "integralmanagement.ch"
+    },
+    {
+      "id": "np-experiencia",
+      "title": "¿Qué ocurrió primero: la experiencia o la idea?",
+      "url": "https://integralmanagement.ch/nueva-perspectiva/experiencia-e-idea/",
+      "kind": "ficha editorial",
+      "site": "integralmanagement.ch"
+    },
+    {
+      "id": "np-sierra",
+      "title": "La sierra del Totonacapan: el origen vivencial",
+      "url": "https://integralmanagement.ch/nueva-perspectiva/sierra-del-totonacapan/",
+      "kind": "ficha editorial",
+      "site": "integralmanagement.ch"
+    },
+    {
+      "id": "np-coaching",
+      "title": "Coaching Transpersonal: aprender en comunidad",
+      "url": "https://integralmanagement.ch/nueva-perspectiva/coaching-transpersonal/",
+      "kind": "ficha editorial",
+      "site": "integralmanagement.ch"
+    },
+    {
+      "id": "np-microempresas",
+      "title": "Microempresarios: mirar el negocio desde otra silla",
+      "url": "https://integralmanagement.ch/nueva-perspectiva/microempresarios/",
+      "kind": "ficha editorial",
+      "site": "integralmanagement.ch"
+    },
+    {
+      "id": "np-lectura-manifiesto",
+      "title": "El manifiesto, leído en diálogo",
+      "url": "https://integralmanagement.ch/nueva-perspectiva/leer-el-manifiesto/",
+      "kind": "ficha editorial",
+      "site": "integralmanagement.ch"
+    },
+    {
+      "id": "np-jump-up",
+      "title": "Del cambio de perspectiva al plan JUMP UP",
+      "url": "https://integralmanagement.ch/nueva-perspectiva/jump-up/",
+      "kind": "ficha editorial",
+      "site": "integralmanagement.ch"
+    },
+    {
+      "id": "np-pemex",
+      "title": "PEMEX y TETSA: personas, seguridad y operación",
+      "url": "https://integralmanagement.ch/nueva-perspectiva/pemex-tetsa/",
+      "kind": "ficha editorial",
+      "site": "integralmanagement.ch"
+    },
+    {
+      "id": "np-ado",
+      "title": "ADO: Consciencia Plena, Pulsera Rosa y andenes",
+      "url": "https://integralmanagement.ch/nueva-perspectiva/ado-consciencia-plena/",
+      "kind": "ficha editorial",
+      "site": "integralmanagement.ch"
+    },
+    {
+      "id": "np-encajonadora",
+      "title": "La encajonadora: un problema técnico y muchas perspectivas",
+      "url": "https://integralmanagement.ch/nueva-perspectiva/encajonadora/",
+      "kind": "ficha editorial",
+      "site": "integralmanagement.ch"
+    },
+    {
+      "id": "np-aicm",
+      "title": "AICM y Crea Camino: transformar desde la experiencia",
+      "url": "https://integralmanagement.ch/nueva-perspectiva/aicm-crea-camino/",
+      "kind": "ficha editorial",
+      "site": "integralmanagement.ch"
+    },
+    {
+      "id": "np-accion",
+      "title": "Acción Integral: muchas prácticas, una pregunta compartida",
+      "url": "https://integralmanagement.ch/nueva-perspectiva/accion-integral/",
+      "kind": "ficha editorial",
+      "site": "integralmanagement.ch"
+    },
+    {
+      "id": "np-aprendizajes",
+      "title": "¿Qué enseñaron estas experiencias?",
+      "url": "https://integralmanagement.ch/nueva-perspectiva/aprendizajes/",
+      "kind": "ficha editorial",
+      "site": "integralmanagement.ch"
+    },
+    {
+      "id": "np-archivo",
+      "title": "Conservar el conocimiento y seguir conversando",
+      "url": "https://integralmanagement.ch/nueva-perspectiva/archivo-y-dialogo/",
+      "kind": "ficha editorial",
+      "site": "integralmanagement.ch"
+    },
+    {
+      "id": "np-mas-alla",
+      "title": "Perspective Beyond: cuándo queda corto un marco",
+      "url": "https://integralmanagement.ch/publicaciones/art-imsv-07/",
+      "kind": "ficha editorial",
+      "site": "integralmanagement.ch"
+    },
+    {
+      "id": "np-accion-metodo",
+      "title": "Acción Integral: la capacidad de actuar entre personas y sistemas",
+      "url": "https://integralmanagement.ch/publicaciones/art-imsv-09/",
+      "kind": "ficha editorial",
+      "site": "integralmanagement.ch"
+    },
+    {
+      "id": "np-biografia",
+      "title": "Biografía: una trayectoria en diálogo",
+      "url": "https://totonacapan.com/?page_id=413",
+      "kind": "ficha editorial",
+      "site": "totonacapan.com"
+    },
+    {
+      "id": "np-xanath",
+      "title": "Xanath y el conocimiento que se practica",
+      "url": "https://totonacapan.com/?page_id=413",
+      "kind": "ficha editorial",
+      "site": "totonacapan.com"
+    },
+    {
+      "id": "np-posada",
+      "title": "La posada como lugar de encuentro",
+      "url": "https://totonacapan.com/?page_id=411",
+      "kind": "ficha editorial",
+      "site": "totonacapan.com"
+    },
+    {
+      "id": "np-formacion",
+      "title": "Formación Integral: del maestro al aprendizaje digital",
+      "url": "https://totonacapan.com/?page_id=411",
+      "kind": "ficha editorial",
+      "site": "totonacapan.com"
+    }
+  ],
+  "editorial_cards": {
+    "np-entrada": {
+      "url": "../constelacion/#ficha-entrada",
+      "summary": "Identificar qué relaciones quedan fuera de la atención cuando un problema persiste pese a que conocemos sus componentes. La serie sigue esa pregunta por el manifiesto, la formación y los casos.",
+      "question": "¿Qué permanece invisible con la definición habitual del problema?"
+    },
+    "np-manifiesto": {
+      "url": "../constelacion/#ficha-manifiesto",
+      "summary": "El sistema mental organiza percepciones, recuerdos, emociones e intereses mediante relaciones. Una idea nueva puede reordenar esas relaciones. El texto pide examinar después su coherencia y sus efectos.",
+      "question": "¿Qué observación permitiría contrastar la nueva perspectiva?"
+    },
+    "np-experiencia": {
+      "url": "../constelacion/#ficha-experiencia",
+      "summary": "La reflexión escrita ordenó un patrón que ya se observaba en prácticas humanas y organizativas. Las experiencias se solaparon, de modo que el aprendizaje circuló entre la formulación y el trabajo de campo.",
+      "question": "¿Qué sabemos por el testimonio y qué quedó registrado en documentos de la época?"
+    },
+    "np-sierra": {
+      "url": "../constelacion/#ficha-sierra",
+      "summary": "Los encuentros comunitarios plantearon cómo una persona puede querer cambiar y seguir reproduciendo la situación que quiere transformar. Quienes acompañaban la experiencia también ponían a prueba su propia mirada.",
+      "question": "¿Qué cambiaría en el diagnóstico si quien acompaña examinara su propia posición?"
+    },
+    "np-coaching": {
+      "url": "../constelacion/#ficha-coaching",
+      "summary": "Los talleres en Xalapa y Coatepec recurrieron a la observación de la experiencia, la atención y los cambios de rol. El participante podía examinar lo que le ocurría antes de adoptar la explicación de otra persona.",
+      "question": "¿Qué puede describir la persona después del ejercicio que antes le costaba advertir?"
+    },
+    "np-microempresas": {
+      "url": "../constelacion/#ficha-microempresas",
+      "summary": "El Programa de Desarrollo Organizacional proponía observar el mismo negocio como cliente, trabajador, proveedor o vecino. Comparar esas miradas permite descubrir una contradicción entre la promesa del negocio y lo que sucede al visitarlo o trabajar allí.",
+      "question": "¿Qué ajuste pequeño haría visible una mejora para uno de esos actores?"
+    },
+    "np-lectura-manifiesto": {
+      "url": "../constelacion/#ficha-lectura-manifiesto",
+      "summary": "La lectura distingue deseo, acción, consecuencia y satisfacción. Una nueva idea merece examen racional, observaciones y contraste, para saber si cambió la situación o solo la manera de describirla.",
+      "question": "¿Qué señal mostraría que el nuevo marco orienta una decisión mejor?"
+    },
+    "np-jump-up": {
+      "url": "../constelacion/#ficha-jump-up",
+      "summary": "Focus ON permite examinar cómo se afectan entre sí los intereses, las capacidades, los objetivos y los bloqueos. JUMP UP convierte esa lectura en una acción que un equipo puede empezar y seguir en la operación.",
+      "question": "¿Quién puede dar el primer paso y qué efecto observará el equipo?"
+    },
+    "np-pemex": {
+      "url": "../constelacion/#ficha-pemex",
+      "summary": "El capítulo examina atención, estrés, hábitos de los operadores y condiciones técnicas de seguridad. Distingue esas experiencias de los sistemas logísticos y de gestión que coexistieron en el entorno petrolero.",
+      "question": "¿Qué condición del trabajo explica mejor una conducta que los procedimientos por sí solos no describen?"
+    },
+    "np-ado": {
+      "url": "../constelacion/#ficha-ado",
+      "summary": "El conocimiento de quienes operaban andenes o atendían a pasajeros podía convertirse en propuestas concretas. Pulsera Rosa muestra cómo observar la experiencia de una pasajera cambia la manera de formular una cuestión de seguridad.",
+      "question": "¿Qué habría que observar por separado en la idea, en una prueba y en su uso real?"
+    },
+    "np-encajonadora": {
+      "url": "../constelacion/#ficha-encajonadora",
+      "summary": "Producción, calidad y mantenimiento veían la misma máquina desde responsabilidades diferentes. Para intervenir se necesitaba comprender a la vez sus fallos materiales y cómo interactuaban las respuestas de las áreas.",
+      "question": "¿Qué decisión técnica cambia cuando se hacen visibles las dependencias entre equipos?"
+    },
+    "np-aicm": {
+      "url": "../constelacion/#ficha-aicm",
+      "summary": "En un contexto incierto, los talleres aprovecharon la experiencia de trabajadores para formular propuestas de mejora. Convertir una idea en iniciativa requería responsables, indicadores y un camino de ejecución.",
+      "question": "¿Qué capacidad útil en varios futuros puede ponerse en práctica desde ahora?"
+    },
+    "np-accion": {
+      "url": "../constelacion/#ficha-accion",
+      "summary": "El capítulo conecta formación, gobierno de procesos, integración técnica y trabajo organizativo. Casos distintos permiten comparar qué se aprende al relacionar conocimientos que estaban repartidos entre personas, sistemas y áreas.",
+      "question": "¿Qué conocimiento debe poder combinar el equipo para actuar sobre un problema compartido?"
+    },
+    "np-aprendizajes": {
+      "url": "../constelacion/#ficha-aprendizajes",
+      "summary": "Una mejora requiere una acción concreta, alguien que pueda sostenerla y una observación posterior. El capítulo diferencia los bloqueos de perspectiva de restricciones materiales que necesitan recursos, mantenimiento o cambios de proceso.",
+      "question": "¿Qué prueba distingue una limitación del marco de una limitación material?"
+    },
+    "np-archivo": {
+      "url": "../constelacion/#ficha-archivo",
+      "summary": "El archivo conserva variantes, preguntas y aportaciones con su procedencia. Así se puede reconstruir cómo cambió una interpretación y qué parte proviene de un testimonio, un documento o una lectura posterior.",
+      "question": "¿Qué versión, pasaje y contribución permiten a otra persona comprobar lo que se afirma?"
+    },
+    "np-mas-alla": {
+      "url": "../constelacion/#ficha-mas-alla",
+      "summary": "Un marco permite medir y decidir, pero responde a las preguntas para las que fue construido. Si cambian las condiciones, conviene revisar qué presupuestos siguen vigentes antes de mejorar la respuesta existente.",
+      "question": "¿Qué cambio de condiciones dejaría fuera de lugar la pregunta que hoy guía la decisión?"
+    },
+    "np-accion-metodo": {
+      "url": "../constelacion/#ficha-accion-metodo",
+      "summary": "La cooperación requiere que la información, el juicio y las responsabilidades lleguen a quienes realizan el trabajo. El programa DO y JUMP UP ofrecen maneras concretas de pasar de una observación compartida a una decisión que pueda sostenerse.",
+      "question": "¿Qué condición de la operación debe cambiar para que la intención se convierta en práctica?"
+    },
+    "np-biografia": {
+      "url": "../constelacion/#ficha-biografia",
+      "summary": "La biografía reúne episodios de aprendizaje, organización y trabajo comunitario. Sus conversaciones ofrecen una escala personal para leer cuándo una experiencia hace cambiar la pregunta que guía una práctica.",
+      "question": "¿Qué aprendizaje nace de un episodio concreto y en qué contexto vuelve a aparecer?"
+    },
+    "np-xanath": {
+      "url": "../constelacion/#ficha-xanath",
+      "summary": "La conversación sobre Xanath invita a observar cómo territorio, oficio y personas sostienen saberes que se transmiten mediante práctica. La custodia comienza por reconocer a quienes portan ese conocimiento.",
+      "question": "¿Qué condiciones ayudan a que el saber se siga practicando donde nació?"
+    },
+    "np-posada": {
+      "url": "../constelacion/#ficha-posada",
+      "summary": "La historia institucional presenta la posada como una infraestructura donde se cruzan personas, noticias, oficios y experiencias. Su continuidad permite examinar qué hace posible que esos intercambios tengan vida más allá de una visita.",
+      "question": "¿Qué hace del encuentro una relación que puede continuar?"
+    },
+    "np-formacion": {
+      "url": "../constelacion/#ficha-formacion",
+      "summary": "La historia territorial vincula comunidades de práctica, aprendizaje con un maestro y acceso digital. Un medio de transmisión gana valor cuando permite a la persona ejercitar y continuar lo aprendido.",
+      "question": "¿Qué relación humana permite transformar el acceso a información en una capacidad?"
+    },
+    "E1628": {
+      "url": "../constelacion/#ficha-jubap-framework",
+      "summary": "El marco combina el cambio de nivel de observación de UP con el filtro de acciones de JUMP. Las preguntas sobre participación, desbloqueo, movimiento observable y propagación ayudan a elegir por dónde empezar.",
+      "question": "¿Qué intervención pueden asumir las personas y cómo se sabrá si su efecto se propaga?"
+    },
+    "E1731": {
+      "url": "../constelacion/#ficha-reframing",
+      "summary": "El cambio de marco permite reconocer valor que ya existe en recursos, prácticas y relaciones. Una intervención puede comenzar por reorganizar esas capacidades y darles una forma que la organización pueda usar.",
+      "question": "¿Qué valor operativo ya existe y qué condición impide aprovecharlo?"
+    },
+    "E1636": {
+      "url": "../constelacion/#ficha-nestle",
+      "summary": "El caso permite examinar cómo una intervención se integró en prácticas de mejora, mantenimiento y gestión ya presentes. La atención al punto de bloqueo ayuda a relacionar marcos que por separado explicaban solo una parte del problema.",
+      "question": "¿Qué práctica existente puede servir de base a una mejora que alcance a otros equipos?"
+    }
+  },
+  "relations": [
+    {
+      "id": "np-r01",
+      "from": "np-entrada",
+      "to": "np-manifiesto",
+      "kind": "fundamento",
+      "reading": "La formulación original desarrolla el papel de las relaciones entre los elementos del sistema mental."
+    },
+    {
+      "id": "np-r02",
+      "from": "np-manifiesto",
+      "to": "np-experiencia",
+      "kind": "origen",
+      "reading": "La conversación permite situar la experiencia previa a la formulación escrita."
+    },
+    {
+      "id": "np-r03",
+      "from": "np-experiencia",
+      "to": "np-sierra",
+      "kind": "trayectoria",
+      "reading": "La sierra concreta una de las experiencias que precedieron o acompañaron la formulación."
+    },
+    {
+      "id": "np-r04",
+      "from": "np-sierra",
+      "to": "np-coaching",
+      "kind": "continuidad",
+      "reading": "La observación de la experiencia vuelve a aparecer en un entorno abierto de formación."
+    },
+    {
+      "id": "np-r05",
+      "from": "np-coaching",
+      "to": "np-microempresas",
+      "kind": "aplicación",
+      "reading": "El cambio de rol se convierte en una observación concreta de un negocio."
+    },
+    {
+      "id": "np-r06",
+      "from": "np-microempresas",
+      "to": "np-lectura-manifiesto",
+      "kind": "contraste",
+      "reading": "La comparación entre papeles permite examinar la diferencia entre una idea nueva y una decisión comprobable."
+    },
+    {
+      "id": "np-r07",
+      "from": "np-lectura-manifiesto",
+      "to": "np-jump-up",
+      "kind": "desarrollo",
+      "reading": "El examen racional de una nueva mirada encuentra una expresión práctica en el diseño de la intervención."
+    },
+    {
+      "id": "np-r08",
+      "from": "np-jump-up",
+      "to": "np-pemex",
+      "kind": "lectura de campo",
+      "reading": "Leer los bloqueos exige observar a la vez procedimientos, seguridad y experiencia de quienes operan."
+    },
+    {
+      "id": "np-r09",
+      "from": "np-pemex",
+      "to": "np-ado",
+      "kind": "comparación",
+      "reading": "Ambos relatos distinguen las condiciones de operación de lo que trabajadores y usuarios pueden observar."
+    },
+    {
+      "id": "np-r10",
+      "from": "np-ado",
+      "to": "np-encajonadora",
+      "kind": "comparación",
+      "reading": "Cambiar el punto de observación revela condiciones que las responsabilidades parciales no muestran."
+    },
+    {
+      "id": "np-r11",
+      "from": "np-encajonadora",
+      "to": "np-aicm",
+      "kind": "comparación",
+      "reading": "El caso aeroportuario permite examinar, a otra escala, cómo el conocimiento de la operación llega a propuestas ejecutables."
+    },
+    {
+      "id": "np-r12",
+      "from": "np-aicm",
+      "to": "np-accion",
+      "kind": "síntesis",
+      "reading": "La acción de quienes conocen el trabajo se sitúa junto a otras prácticas de integración."
+    },
+    {
+      "id": "np-r13",
+      "from": "np-accion",
+      "to": "np-aprendizajes",
+      "kind": "síntesis",
+      "reading": "Se extraen criterios observables de intervención y se conservan las diferencias entre los casos."
+    },
+    {
+      "id": "np-r14",
+      "from": "np-aprendizajes",
+      "to": "np-archivo",
+      "kind": "custodia",
+      "reading": "La posibilidad de revisar un aprendizaje requiere guardar su procedencia y los cambios de interpretación."
+    },
+    {
+      "id": "np-r15",
+      "from": "np-archivo",
+      "to": "np-entrada",
+      "kind": "relectura",
+      "reading": "El índice permite volver al punto de partida desde la evidencia acumulada."
+    },
+    {
+      "id": "np-r16",
+      "from": "np-manifiesto",
+      "to": "np-mas-alla",
+      "kind": "desarrollo",
+      "reading": "El ensayo vuelve sobre las condiciones que delimitan qué puede ver un marco."
+    },
+    {
+      "id": "np-r17",
+      "from": "np-accion",
+      "to": "np-accion-metodo",
+      "kind": "ampliación",
+      "reading": "El ensayo desarrolla el paso entre aprendizaje, responsabilidades y acción sostenida."
+    },
+    {
+      "id": "np-r18",
+      "from": "np-biografia",
+      "to": "np-xanath",
+      "kind": "trayectoria",
+      "reading": "La trayectoria lleva a un caso en que el saber está ligado al lugar y a quienes lo practican."
+    },
+    {
+      "id": "np-r19",
+      "from": "np-xanath",
+      "to": "np-posada",
+      "kind": "comparación",
+      "reading": "La reserva y la posada permiten comparar qué condiciones conservan o propician un encuentro."
+    },
+    {
+      "id": "np-r20",
+      "from": "np-posada",
+      "to": "np-formacion",
+      "kind": "transmisión",
+      "reading": "Los lugares de encuentro y los programas de aprendizaje permiten seguir cómo continúa una práctica."
+    },
+    {
+      "id": "np-r21",
+      "from": "E1628",
+      "to": "E1731",
+      "kind": "aplicación",
+      "reading": "La ampliación del marco orienta la búsqueda de capacidades ya disponibles."
+    },
+    {
+      "id": "np-r22",
+      "from": "E1731",
+      "to": "E1636",
+      "kind": "comparación",
+      "reading": "El caso permite examinar cómo una intervención se apoya en capacidades y prácticas existentes."
+    },
+    {
+      "id": "np-r23",
+      "from": "np-sierra",
+      "to": "np-biografia",
+      "kind": "contexto territorial",
+      "reading": "La biografía abre el contexto personal y territorial de la experiencia, a partir de su edición pública."
+    },
+    {
+      "id": "np-r24",
+      "from": "np-biografia",
+      "to": "np-sierra",
+      "kind": "contexto metodológico",
+      "reading": "La serie desarrolla la pregunta por el cambio de perspectiva a partir de las experiencias en la sierra."
+    },
+    {
+      "id": "np-r25",
+      "from": "np-accion-metodo",
+      "to": "E1628",
+      "kind": "desarrollo práctico",
+      "reading": "La guía profesional desarrolla JUMP UP en términos de diagnóstico, selección y propagación de una intervención."
+    },
+    {
+      "id": "np-r26",
+      "from": "E1628",
+      "to": "np-manifiesto",
+      "kind": "antecedente",
+      "reading": "El marco identifica Nueva Perspectiva como raíz de su modo de cambiar el nivel de observación."
+    },
+    {
+      "id": "np-r27",
+      "from": "np-formacion",
+      "to": "np-accion-metodo",
+      "kind": "transmisión",
+      "reading": "El ensayo lleva la transmisión de saber a la cooperación y la acción entre personas y sistemas."
+    },
+    {
+      "id": "np-r28",
+      "from": "E1636",
+      "to": "np-encajonadora",
+      "kind": "lectura complementaria",
+      "reading": "Ambos relatos permiten comparar interdependencias entre áreas, respetando la identificación y el alcance de cada fuente."
+    }
+  ]
+}
