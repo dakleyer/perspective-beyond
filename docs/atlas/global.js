@@ -123,7 +123,7 @@ async function start() {
         heading.append(link(sourcePage(item),item.title));
         box.append(heading,element('p',clusters[membership[item.id]][0]+' · '+item.kind));
         if(delta.editorial_cards[item.id]) box.append(element('p',delta.editorial_cards[item.id].summary));
-        if(sourceTags[item.id].length)box.append(element('p',sourceTags[item.id].map(key=>topics[key].label+(delta.source_tag_weights?.[item.id]?.[key]!=null?' '+(delta.source_tag_weights[item.id][key]*100).toLocaleString('es',{maximumFractionDigits:1})+' %':'')).join(' · ')));
+        if(sourceTags[item.id].length)box.append(element('p',sourceTags[item.id].map(key=>topics[key].label+(delta.source_tag_weights?.[item.id]?.[key]!=null?' '+(delta.source_tag_weights[item.id][key]*100).toLocaleString('es',{maximumFractionDigits:2})+' %':'')).join(' · ')));
         const entry=new URL('./#asistente',pageRoot);
         entry.search=new URLSearchParams({site:membership[item.id],modo:'closed',config:'1',rol:'lector',
           lectura:'paraphrase',enfoque:'parejo',desde:item.id});

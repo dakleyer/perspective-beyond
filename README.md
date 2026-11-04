@@ -34,3 +34,9 @@ El cálculo público está en `docs/atlas/positioning.mjs`. La CLI admite `posic
 - Run `python build.py` with Python 3.10 or later, then commit the regenerated `docs/` files. GitHub Pages publishes from `main:/docs`.
 
 GitHub research links preserve the commit referenced by the edition or source record. The edition metadata is in `data/edition.json`.
+
+## Revisar la conservación y los enlaces
+
+[Revisión histórica y de navegación · 4 de noviembre de 2026](docs/atlas/mapa/REVISION-20261104-2.md)
+
+Desde un clon del repositorio, `node tools/check-atlas-history.mjs` comprueba las fichas, relaciones y asociaciones de todas las ediciones anteriores. `node tools/check-atlas-history.mjs --self-test` ejecuta sus siete controles. `python tools/check-atlas-links.py` revisa los archivos y anclas de los enlaces internos publicados. Ambos leen los objetos de Git sin escribir copias del contenido.
