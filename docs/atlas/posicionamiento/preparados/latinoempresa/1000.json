@@ -1,0 +1,152 @@
+{
+  "schema": "perspective-beyond/positioning-v1",
+  "edition": "2026-11-04",
+  "request": {
+    "posicionamiento": "latinoempresa",
+    "tokens": 1000,
+    "max": 60,
+    "rol": "lector",
+    "lectura": "explore",
+    "enfoque": "parejo",
+    "instruccion": "",
+    "red": "ideas",
+    "sentido": "ambas",
+    "modo": "closed",
+    "site": "latinoempresa",
+    "puente": null,
+    "solo": false,
+    "pesos": []
+  },
+  "position": {
+    "id": "doc-a8815477310ede26d2",
+    "title": "Narrativa, centro y frontera: por qué los modelos simples fallan cuando llega la implementación",
+    "url": "https://latinoempresa.com/post/narrativa-centro-y-frontera-por-qué-los-modelos-simples-fallan-cuando-llega-la-implementación",
+    "fichas": [
+      "L002"
+    ],
+    "aliases": [
+      "https://www.latinoempresa.com/post/narrativa-centro-y-frontera-por-qué-los-modelos-simples-fallan-cuando-llega-la-implementación"
+    ],
+    "header": "# Posicionamiento · Narrativa, centro y frontera: por qué los modelos simples fallan cuando llega la implementación\nDocumento de origen: https://latinoempresa.com/post/narrativa-centro-y-frontera-por-qué-los-modelos-simples-fallan-cuando-llega-la-implementación\n\n",
+    "headerTokens": 65,
+    "type": "documento",
+    "focus": "L002",
+    "seeds": [
+      "L002"
+    ]
+  },
+  "budget": {
+    "limit": 1000,
+    "used": 199,
+    "remaining": 801,
+    "nextBlock": null,
+    "encoding": "o200k_base",
+    "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
+  },
+  "reachable": 1,
+  "selected": 1,
+  "shown": 2,
+  "omittedByBudget": 0,
+  "omittedInDiagram": 0,
+  "layers": [
+    {
+      "distance": 0,
+      "selected": 0,
+      "shown": 1
+    },
+    {
+      "distance": 1,
+      "selected": 1,
+      "shown": 1
+    }
+  ],
+  "center": "doc-a8815477310ede26d2-entrada",
+  "nodes": [
+    {
+      "id": "doc-a8815477310ede26d2-entrada",
+      "title": "Narrativa, centro y frontera: por qué los modelos simples fallan cuando llega la implementación",
+      "type": "documento",
+      "url": "https://latinoempresa.com/post/narrativa-centro-y-frontera-por-qué-los-modelos-simples-fallan-cuando-llega-la-implementación",
+      "original": "https://latinoempresa.com/post/narrativa-centro-y-frontera-por-qué-los-modelos-simples-fallan-cuando-llega-la-implementación",
+      "summary": "Documento desde el que se abre este posicionamiento.",
+      "tags": [],
+      "tagWeights": {},
+      "clusters": [
+        "latinoempresa"
+      ],
+      "distance": 0,
+      "parent": null
+    },
+    {
+      "id": "L002",
+      "type": "ficha",
+      "title": "Narrativa, centro y frontera: por qué los modelos simples fallan cuando llega la implementación",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/narrativa-centro-y-frontera-por-que-los-modelos-simples-fallan-cuando-llega-la-l002/",
+      "original": "https://www.latinoempresa.com/post/narrativa-centro-y-frontera-por-qué-los-modelos-simples-fallan-cuando-llega-la-implementación",
+      "aliases": [],
+      "clusters": [
+        "latinoempresa"
+      ],
+      "tags": [
+        "evidencia",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-a8815477310ede26d2",
+      "tagWeights": {
+        "evidencia": 0.2857,
+        "transformacion": 0.7143
+      },
+      "contextTokens": 134,
+      "distance": 1,
+      "parent": "doc-a8815477310ede26d2-entrada",
+      "routeEdge": null,
+      "affinity": 1
+    }
+  ],
+  "edges": [
+    {
+      "id": "contiene:doc-a8815477310ede26d2-entrada:L002",
+      "from": "doc-a8815477310ede26d2-entrada",
+      "to": "L002",
+      "kind": "ficha del documento",
+      "reading": "Esta ficha abre la lectura desde el documento de origen.",
+      "route": true
+    }
+  ],
+  "selection": [
+    {
+      "id": "L002",
+      "type": "ficha",
+      "title": "Narrativa, centro y frontera: por qué los modelos simples fallan cuando llega la implementación",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/narrativa-centro-y-frontera-por-que-los-modelos-simples-fallan-cuando-llega-la-l002/",
+      "original": "https://www.latinoempresa.com/post/narrativa-centro-y-frontera-por-qué-los-modelos-simples-fallan-cuando-llega-la-implementación",
+      "aliases": [],
+      "clusters": [
+        "latinoempresa"
+      ],
+      "tags": [
+        "evidencia",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-a8815477310ede26d2",
+      "tagWeights": {
+        "evidencia": 0.2857,
+        "transformacion": 0.7143
+      },
+      "contextTokens": 134,
+      "distance": 1,
+      "parent": "doc-a8815477310ede26d2-entrada",
+      "routeEdge": null,
+      "affinity": 1
+    }
+  ],
+  "reading": "# Posicionamiento · Narrativa, centro y frontera: por qué los modelos simples fallan cuando llega la implementación\nDocumento de origen: https://latinoempresa.com/post/narrativa-centro-y-frontera-por-qué-los-modelos-simples-fallan-cuando-llega-la-implementación\n\n## Narrativa, centro y frontera: por qué los modelos simples fallan cuando llega la implementación\n\nEtiquetas: Evidencia, procedencia y atribución 28.57%; Transformación y continuidad operativa 71.43%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/narrativa-centro-y-frontera-por-que-los-modelos-simples-fallan-cuando-llega-la-l002/\nDocumento de origen: https://www.latinoempresa.com/post/narrativa-centro-y-frontera-por-qué-los-modelos-simples-fallan-cuando-llega-la-implementación\n\n"
+}

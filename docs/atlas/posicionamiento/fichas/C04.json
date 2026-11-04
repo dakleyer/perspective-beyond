@@ -1,0 +1,62 @@
+{
+  "id": "C04",
+  "type": "concepto",
+  "title": "Cambio colateral",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/collateral-change/",
+  "documentId": null,
+  "sourceIds": [
+    "U1325",
+    "N2082"
+  ],
+  "tagWeights": {
+    "casos": 0.3125,
+    "documentacion": 0.0625,
+    "economia": 0.0625,
+    "empresa": 0.125,
+    "experimentacion": 0.125,
+    "movilidad": 0.1875,
+    "transformacion": 0.125
+  },
+  "clusters": [
+    "net",
+    "us"
+  ],
+  "context": "## Cambio colateral\nA repair can disturb commitments outside the initiating problem.\nEtiquetas: Casos de uso y aplicaciones 31.25%; Investigación y documentación técnica 6.25%; Economía, costes y liquidez 6.25%; Empresa y gestión 12.50%; Experimentación, falsación y contraejemplos 12.50%; Movilidad e infraestructura 18.75%; Transformación y continuidad operativa 12.50%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/collateral-change/\n\n",
+  "tokens": 113,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:U1325:C04",
+      "to": "U1325",
+      "title": "Case Study: DMG MORI — Multilevel Post-Merger Integration, International Supply Chain Control & Mission-Critical Industrial Delivery (2013 – 2016)",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 45,
+      "fichaTokens": 167,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1325.json"
+    },
+    {
+      "id": "apoyo:N2082:C04",
+      "to": "N2082",
+      "title": "xSeil: Scenario-Based Planning and Human-Governed Computation",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 118,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N2082.json"
+    },
+    {
+      "id": "concepto:D002",
+      "to": "C03",
+      "title": "Reparación acotada",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "Bounded repair in xSeil suggests a way to limit collateral change when an industrial delivery plan is disrupted.",
+      "relationTokens": 36,
+      "fichaTokens": 185,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C03.json"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "id": "C96",
+  "type": "concepto",
+  "title": "Signo de la desviación",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/sign-of-deviation/",
+  "documentId": null,
+  "sourceIds": [
+    "U1494",
+    "U1496",
+    "U1498",
+    "T1487",
+    "E1560",
+    "T1491",
+    "U1792"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.0214,
+    "autoridad": 0.0238,
+    "capacidad-humana": 0.0238,
+    "casos": 0.0696,
+    "control-minimo": 0.0286,
+    "decision": 0.1014,
+    "documentacion": 0.0476,
+    "economia": 0.0649,
+    "empresa": 0.092,
+    "evidencia": 0.1058,
+    "experimentacion": 0.0143,
+    "memoria-territorio": 0.0886,
+    "movilidad": 0.0357,
+    "perspectiva": 0.1905,
+    "transformacion": 0.092
+  },
+  "clusters": [
+    "eu",
+    "tegrity",
+    "us"
+  ],
+  "context": "## Signo de la desviación\nCompare a departure from procedure with an independently stated outcome.\nEtiquetas: Aprendizaje y transmisión de capacidades 2.14%; Autoridad, permisos y delegación 2.38%; Capacidad humana y deuda de inteligencia 2.38%; Casos de uso y aplicaciones 6.96%; Control mínimo y suficiencia 2.86%; Decisiones y responsabilidad 10.14%; Investigación y documentación técnica 4.76%; Economía, costes y liquidez 6.49%; Empresa y gestión 9.20%; Evidencia, procedencia y atribución 10.58%; Experimentación, falsación y contraejemplos 1.43%; Memoria, comunidad y territorio 8.86%; Movilidad e infraestructura 3.57%; Cambio de perspectiva 19.05%; Transformación y continuidad operativa 9.20%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/sign-of-deviation/\n\n",
+  "tokens": 204,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:U1494:C96",
+      "to": "U1494",
+      "title": "Barcelona, Cuba, California, Veracruz: Urban Mobility, Swarm Intelligence and Constraint-Driven Architecture",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 33,
+      "fichaTokens": 176,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1494.json"
+    },
+    {
+      "id": "apoyo:U1496:C96",
+      "to": "U1496",
+      "title": "Field Intelligence in Chicontepec and the Texas–Mérida Corridor",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 151,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1496.json"
+    },
+    {
+      "id": "apoyo:U1498:C96",
+      "to": "U1498",
+      "title": "Entropy, Capability Activation and Sociotechnical Engineering",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 126,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1498.json"
+    },
+    {
+      "id": "apoyo:T1487:C96",
+      "to": "T1487",
+      "title": "Optimization, Coherence, and the Frame",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 83,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1487.json"
+    },
+    {
+      "id": "apoyo:E1560:C96",
+      "to": "E1560",
+      "title": "Supply Chain Rationalization & Process Mining",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 101,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1560.json"
+    },
+    {
+      "id": "apoyo:T1491:C96",
+      "to": "T1491",
+      "title": "Why Selection Cannot See It",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 62,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1491.json"
+    },
+    {
+      "id": "apoyo:U1792:C96",
+      "to": "U1792",
+      "title": "Surviving Capability: Why the Field Celebrates What the Theory Condemns",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 158,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1792.json"
+    },
+    {
+      "id": "concepto:A007",
+      "to": "C80",
+      "title": "Resultado upstream independiente",
+      "direction": "saliente",
+      "kind": "documented use",
+      "reading": "The same network can contain harmful local optimization and useful off-map adaptation; their sign becomes clear only after the upstream outcome and its recipient are specified.",
+      "relationTokens": 43,
+      "fichaTokens": 241,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C80.json"
+    },
+    {
+      "id": "concepto:A020",
+      "to": "C12",
+      "title": "Procedencia auditable",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "Field workarounds become more informative when linked to process traces that show their trigger, authorization and effect on the receiving operation.",
+      "relationTokens": 40,
+      "fichaTokens": 276,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C12.json"
+    },
+    {
+      "id": "concepto:A028",
+      "to": "C80",
+      "title": "Resultado upstream independiente",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "Off-path frequency is a screening measure; load-bearing positive deviation requires evidence that the upstream outcome depended on that path.",
+      "relationTokens": 37,
+      "fichaTokens": 241,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C80.json"
+    },
+    {
+      "id": "concepto:A036",
+      "to": "C99",
+      "title": "Adaptación de arquitectura entre territorios",
+      "direction": "entrante",
+      "kind": "documented use",
+      "reading": "The companion bridge note qualifies Lesson 6: preserve the capability that works under constraint, while testing its architecture rather than treating scarcity itself as a design advantage.",
+      "relationTokens": 49,
+      "fichaTokens": 238,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C99.json"
+    }
+  ]
+}

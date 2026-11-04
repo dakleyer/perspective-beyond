@@ -1,0 +1,53 @@
+{
+  "id": "GH076",
+  "type": "ficha",
+  "title": "L-08 — Laboratorio de precisión, procedencia y costes para FH-C",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/l-08-laboratorio-de-precision-procedencia-y-costes-para-fh-c-gh076/",
+  "documentId": "doc-6c6e6f8030c13971f0",
+  "sourceIds": [],
+  "tagWeights": {
+    "economia": 0.5,
+    "evidencia": 0.5
+  },
+  "clusters": [
+    "research"
+  ],
+  "context": "## L-08 — Laboratorio de precisión, procedencia y costes para FH-C\n\nEtiquetas: Economía, costes y liquidez 50.00%; Evidencia, procedencia y atribución 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/l-08-laboratorio-de-precision-procedencia-y-costes-para-fh-c-gh076/\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/0d2d77d73a0f42d643ba96fd5294eda0d1a0cff1/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1/L08_METHOD_AND_RESULTS.md\n\n",
+  "tokens": 172,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH076:C32",
+      "to": "C32",
+      "title": "Coste de claridad",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 257,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C32.json"
+    },
+    {
+      "id": "apoyo:GH076:C124",
+      "to": "C124",
+      "title": "Adquisición de evidencia falible y emparejada",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 35,
+      "fichaTokens": 109,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C124.json"
+    },
+    {
+      "id": "documento:G092",
+      "to": "T1421",
+      "title": "How to Measure the Cost of Not Knowing",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "Compare evidence precision and provenance before pricing the procedures; a favorable price assumption must not be reported as an architectural advantage.",
+      "relationTokens": 52,
+      "fichaTokens": 96,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1421.json"
+    }
+  ]
+}

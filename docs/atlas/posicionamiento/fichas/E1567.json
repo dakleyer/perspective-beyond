@@ -1,0 +1,222 @@
+{
+  "id": "E1567",
+  "type": "ficha",
+  "title": "Piece Identity & Inventory Orchestration",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/piece-identity-inventory-orchestration-e1567/",
+  "documentId": "doc-5c3faf4f245ed571a0",
+  "sourceIds": [],
+  "tagWeights": {
+    "agentes": 0.3125,
+    "autoridad": 0.125,
+    "control-minimo": 0.125,
+    "decision": 0.1875,
+    "evidencia": 0.125,
+    "transformacion": 0.125
+  },
+  "clusters": [
+    "eu"
+  ],
+  "context": "## Piece Identity & Inventory Orchestration\n\nEtiquetas: Agentes y coordinación distribuida 31.25%; Autoridad, permisos y delegación 12.50%; Control mínimo y suficiencia 12.50%; Decisiones y responsabilidad 18.75%; Evidencia, procedencia y atribución 12.50%; Transformación y continuidad operativa 12.50%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/piece-identity-inventory-orchestration-e1567/\nDocumento de origen: https://jubap.eu/luxury-piece-identity-dynamic-inventory-orchestration/\n\n",
+  "tokens": 130,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:E1567:C12",
+      "to": "C12",
+      "title": "Procedencia auditable",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 276,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C12.json"
+    },
+    {
+      "id": "apoyo:E1567:C13",
+      "to": "C13",
+      "title": "Reconstrucción por dependencias",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 111,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C13.json"
+    },
+    {
+      "id": "apoyo:E1567:C14",
+      "to": "C14",
+      "title": "Identidad estable",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 223,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C14.json"
+    },
+    {
+      "id": "apoyo:E1567:C25",
+      "to": "C25",
+      "title": "Suficiencia para una decisión",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 293,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C25.json"
+    },
+    {
+      "id": "apoyo:E1567:C26",
+      "to": "C26",
+      "title": "Autoridad de decisión",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 262,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C26.json"
+    },
+    {
+      "id": "apoyo:E1567:C29",
+      "to": "C29",
+      "title": "Propuesta y compromiso",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 244,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C29.json"
+    },
+    {
+      "id": "apoyo:E1567:C103",
+      "to": "C103",
+      "title": "Arquitectura de integración generativa",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 228,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C103.json"
+    },
+    {
+      "id": "apoyo:E1567:C117",
+      "to": "C117",
+      "title": "Marco semántico común de una intersección",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 208,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C117.json"
+    },
+    {
+      "id": "documento:D010",
+      "to": "N1835",
+      "title": "Phylons relabeling cascades",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "Dependency-aware rebuilding could make corrections to piece identity auditable without erasing the custody history.",
+      "relationTokens": 38,
+      "fichaTokens": 74,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1835.json"
+    },
+    {
+      "id": "documento:D013",
+      "to": "N1826",
+      "title": "Phylons Liquidity Orquestration",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "A stable object identity can support several operational views without collapsing their distinct permissions and responsibilities.",
+      "relationTokens": 37,
+      "fichaTokens": 112,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1826.json"
+    },
+    {
+      "id": "documento:D018",
+      "to": "T2795",
+      "title": "Annex 4 — Canonical Requirements and Test Contract",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "Location, authenticity and sale authority require different evidence scopes, even when they refer to the same physical piece.",
+      "relationTokens": 44,
+      "fichaTokens": 162,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2795.json"
+    },
+    {
+      "id": "documento:D022",
+      "to": "N1826",
+      "title": "Phylons Liquidity Orquestration",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "A proposal–reservation–authorization–commitment sequence could clarify the authority boundary of piece allocation.",
+      "relationTokens": 39,
+      "fichaTokens": 112,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1826.json"
+    },
+    {
+      "id": "documento:D054",
+      "to": "E1954",
+      "title": "Car Evolution Mobility OS – Product Annex",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "Identity, temporary allocation and responsibility transfer are distinct modeling questions in both piece and mobility orchestration.",
+      "relationTokens": 38,
+      "fichaTokens": 117,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1954.json"
+    },
+    {
+      "id": "documento:B027",
+      "to": "L005",
+      "title": "Dos maneras de cruzar un mundo Arquitecturas que empobrecen vs arquitecturas que multiplican",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "For piece identity, a shared identifier is useful only when provenance and operating meaning survive the interfaces through which the piece is tracked.",
+      "relationTokens": 57,
+      "fichaTokens": 161,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/L005.json"
+    },
+    {
+      "id": "documento:G013",
+      "to": "GH013",
+      "title": "Structural Awareness — Collective Residual Intersections and Recognizable Opportunities",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "A task-specific collective property could support a minimal handoff, but it must not erase the piece identity and provenance needed by the receiving decision.",
+      "relationTokens": 52,
+      "fichaTokens": 219,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH013.json"
+    },
+    {
+      "id": "documento:R044",
+      "to": "E1563",
+      "title": "Event Intelligence",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Piece identity and custody through the event lifecycle](https://jubap.eu/luxury-piece-identity-dynamic-inventory-orchestration/).",
+      "relationTokens": 50,
+      "fichaTokens": 92,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1563.json"
+    },
+    {
+      "id": "documento:R047",
+      "to": "E1570",
+      "title": "Luxury Recommendation",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Linking identifiers across distributed product knowledge](https://jubap.eu/luxury-recommendation-intelligence/).",
+      "relationTokens": 44,
+      "fichaTokens": 80,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1570.json"
+    },
+    {
+      "id": "documento:R048",
+      "to": "U1322",
+      "title": "Case Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Evidence lineage across organizational boundaries](https://jubap.us/case-study-weatherford-multi-level-information-management-for-oilfield-supplier-management/).",
+      "relationTokens": 63,
+      "fichaTokens": 116,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1322.json"
+    }
+  ]
+}

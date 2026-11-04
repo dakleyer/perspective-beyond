@@ -1,0 +1,124 @@
+{
+  "id": "C83",
+  "type": "concepto",
+  "title": "Tres costes de producir claridad",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/three-costs-of-producing-clarity/",
+  "documentId": null,
+  "sourceIds": [
+    "N1292",
+    "T1417",
+    "T1427",
+    "E1628"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.1,
+    "autoridad": 0.0718,
+    "control-minimo": 0.0826,
+    "decision": 0.1352,
+    "documentacion": 0.0385,
+    "economia": 0.2806,
+    "empresa": 0.0333,
+    "evidencia": 0.0333,
+    "memoria-territorio": 0.0294,
+    "perspectiva": 0.0385,
+    "transformacion": 0.1568
+  },
+  "clusters": [
+    "eu",
+    "net",
+    "tegrity"
+  ],
+  "context": "## Tres costes de producir claridad\nAccount for discovery, authorised constitution and operational absorption.\nEtiquetas: Aprendizaje y transmisión de capacidades 10.00%; Autoridad, permisos y delegación 7.18%; Control mínimo y suficiencia 8.26%; Decisiones y responsabilidad 13.52%; Investigación y documentación técnica 3.85%; Economía, costes y liquidez 28.06%; Empresa y gestión 3.33%; Evidencia, procedencia y atribución 3.33%; Memoria, comunidad y territorio 2.94%; Cambio de perspectiva 3.85%; Transformación y continuidad operativa 15.68%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/three-costs-of-producing-clarity/\n\n",
+  "tokens": 160,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:N1292:C83",
+      "to": "N1292",
+      "title": "Tiger Team Compression Model",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 115,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1292.json"
+    },
+    {
+      "id": "apoyo:T1417:C83",
+      "to": "T1417",
+      "title": "When You Have to Decide Before You Can Discover",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 91,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1417.json"
+    },
+    {
+      "id": "apoyo:T1427:C83",
+      "to": "T1427",
+      "title": "The Minimal Information a Transformation Needs",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 111,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1427.json"
+    },
+    {
+      "id": "apoyo:E1628:C83",
+      "to": "E1628",
+      "title": "The JUBAP Framework",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 152,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1628.json"
+    },
+    {
+      "id": "concepto:F012",
+      "to": "C89",
+      "title": "Coste total de una intervención",
+      "direction": "saliente",
+      "kind": "documented use",
+      "reading": "A transformation business case should include the costs of looking, making binding declarations and absorbing their consequences, not only implementation expenditure.",
+      "relationTokens": 40,
+      "fichaTokens": 183,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C89.json"
+    },
+    {
+      "id": "concepto:F036",
+      "to": "C03",
+      "title": "Reparación acotada",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "Upstream work should produce a focusable mission and explicit residual uncertainty before execution is compressed, with the cost of that preparation visible.",
+      "relationTokens": 41,
+      "fichaTokens": 185,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C03.json"
+    },
+    {
+      "id": "concepto:F057",
+      "to": "C61",
+      "title": "Secuencia JUBAP",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "Focus ON can distinguish an observable operating obstacle from a still-unmade declaration of ownership, scope or priority that the diagnosis cannot simply discover.",
+      "relationTokens": 42,
+      "fichaTokens": 205,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C61.json"
+    },
+    {
+      "id": "concepto:B480",
+      "to": "G22",
+      "title": "Informational Friction / coste de claridad",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 172,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G22.json"
+    }
+  ]
+}

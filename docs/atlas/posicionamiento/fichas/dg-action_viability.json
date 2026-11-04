@@ -1,0 +1,147 @@
+{
+  "id": "dg-action_viability",
+  "type": "concepto",
+  "title": "Acción viable y valor que se propaga",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-action_viability",
+  "documentId": null,
+  "sourceIds": [
+    "D-221",
+    "D-265"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.077,
+    "casos": 0.0769,
+    "decision": 0.0769,
+    "empresa": 0.6923,
+    "transformacion": 0.0769
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Acción viable y valor que se propaga\nSeparar iniciativas adoptables, desbloqueadas y movibles de un backlog nominal y contrastar efectos sobre la cadena completa, no sólo sobre un KPI local.\nEtiquetas: Aprendizaje y transmisión de capacidades 7.70%; Casos de uso y aplicaciones 7.69%; Decisiones y responsabilidad 7.69%; Empresa y gestión 69.23%; Transformación y continuidad operativa 7.69%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-action_viability\n\n",
+  "tokens": 121,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-221:dg-action_viability",
+      "to": "D-221",
+      "title": "La iniciativa que no se puede mover ya consume recursos",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 483,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-221.json"
+    },
+    {
+      "id": "apoyo:D-265:dg-action_viability",
+      "to": "D-265",
+      "title": "El diamante tecnológico puede estar funcionando dentro de la empresa y seguir invisible",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 370,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-265.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-148",
+      "to": "dg-transform",
+      "title": "Transformación organizativa",
+      "direction": "saliente",
+      "kind": "filtra iniciativas ejecutables",
+      "reading": "Joinable, Unblocked y Movable distinguen trabajo listo de backlog simbólico.",
+      "relationTokens": 38,
+      "fichaTokens": 213,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-transform.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-149",
+      "to": "dg-production",
+      "title": "Producción material y continuadores invisibles",
+      "direction": "saliente",
+      "kind": "sigue valor entre equipos",
+      "reading": "Propagating pide verificar efectos en la cadena de valor.",
+      "relationTokens": 36,
+      "fichaTokens": 218,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-production.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-150",
+      "to": "dg-decision",
+      "title": "Decisiones entre escenarios",
+      "direction": "saliente",
+      "kind": "separa factibilidad de prioridad",
+      "reading": "Algo ejecutable puede no ser la mejor acción en el sistema.",
+      "relationTokens": 35,
+      "fichaTokens": 169,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-decision.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-151",
+      "to": "dg-capture",
+      "title": "Captura de opciones e incentivos regresivos",
+      "direction": "saliente",
+      "kind": "detecta KPI contra efecto total",
+      "reading": "Mejorar un indicador local puede causar desperdicio aguas abajo.",
+      "relationTokens": 39,
+      "fichaTokens": 180,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-capture.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-152",
+      "to": "dg-formalization_event",
+      "title": "La frontera entre mundo y registro",
+      "direction": "entrante",
+      "kind": "exige revisar el mapa antes de actuar",
+      "reading": "El backlog puede modelar mal restricciones y dependencias operativas.",
+      "relationTokens": 37,
+      "fichaTokens": 137,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-formalization_event.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-160",
+      "to": "dg-frame_change",
+      "title": "Marcos que autorizan opciones y compras",
+      "direction": "entrante",
+      "kind": "selecciona caminos practicables",
+      "reading": "La viabilidad depende de permisos y capacidades.",
+      "relationTokens": 33,
+      "fichaTokens": 131,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-frame_change.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-175",
+      "to": "dg-capability_loss",
+      "title": "Poda, memoria y capacidades zombis",
+      "direction": "entrante",
+      "kind": "comprueba capacidad operativa",
+      "reading": "El backlog no debe depender de capacidades zombis.",
+      "relationTokens": 34,
+      "fichaTokens": 142,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-capability_loss.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-242",
+      "to": "dg-exit_architecture",
+      "title": "Arquitectura de salida y capacidad transferida",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.10",
+      "reading": "Soluciones reales, no solo inventario ni propuesta.",
+      "relationTokens": 39,
+      "fichaTokens": 106,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-exit_architecture.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-263",
+      "to": "dg-fulfillment_boundary",
+      "title": "Maximizar frente a cumplir un propósito",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.11",
+      "reading": "Saber cuándo terminó el trabajo.",
+      "relationTokens": 33,
+      "fichaTokens": 88,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-fulfillment_boundary.json"
+    }
+  ]
+}

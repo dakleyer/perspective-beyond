@@ -1,0 +1,92 @@
+{
+  "id": "G49",
+  "type": "concepto",
+  "title": "HR de lujo y planificación de turnos",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/luxury-hr-and-shift-planning/",
+  "documentId": null,
+  "sourceIds": [
+    "U1312"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.0769,
+    "capacidad-humana": 0.0769,
+    "casos": 0.1923,
+    "empresa": 0.3462,
+    "representacion": 0.0769,
+    "transformacion": 0.2308
+  },
+  "clusters": [
+    "us"
+  ],
+  "context": "## HR de lujo y planificación de turnos\nA field case connects HR system rationalisation to the operating constraints of scheduling.\nEtiquetas: Aprendizaje y transmisión de capacidades 7.69%; Capacidad humana y deuda de inteligencia 7.69%; Casos de uso y aplicaciones 19.23%; Empresa y gestión 34.62%; Representación y límites formales 7.69%; Transformación y continuidad operativa 23.08%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/luxury-hr-and-shift-planning/\n\n",
+  "tokens": 120,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:U1312:G49",
+      "to": "U1312",
+      "title": "Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 31,
+      "fichaTokens": 150,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1312.json"
+    },
+    {
+      "id": "concepto:B617",
+      "to": "C02",
+      "title": "Restricciones de turnos",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 172,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C02.json"
+    },
+    {
+      "id": "concepto:B618",
+      "to": "C22",
+      "title": "Gobierno de escenarios",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 187,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C22.json"
+    },
+    {
+      "id": "concepto:B619",
+      "to": "C31",
+      "title": "Información constitutiva",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 242,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C31.json"
+    },
+    {
+      "id": "concepto:B620",
+      "to": "C44",
+      "title": "Arbitraje de recursos",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 250,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C44.json"
+    },
+    {
+      "id": "concepto:B621",
+      "to": "G27",
+      "title": "xSeil y problemas de asignación",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 93,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G27.json"
+    }
+  ]
+}

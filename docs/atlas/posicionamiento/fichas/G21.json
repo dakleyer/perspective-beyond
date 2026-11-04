@@ -1,0 +1,174 @@
+{
+  "id": "G21",
+  "type": "concepto",
+  "title": "Human Intelligence Debt (HID)",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/human-intelligence-debt/",
+  "documentId": null,
+  "sourceIds": [
+    "T874",
+    "T1400",
+    "T1399"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.0267,
+    "capacidad-humana": 0.4472,
+    "decision": 0.0267,
+    "economia": 0.04,
+    "empresa": 0.0933,
+    "evidencia": 0.2482,
+    "experimentacion": 0.0266,
+    "memoria-territorio": 0.04,
+    "transformacion": 0.0513
+  },
+  "clusters": [
+    "tegrity"
+  ],
+  "context": "## Human Intelligence Debt (HID)\nRemediable gaps can require recurring human work to sustain an operation.\nEtiquetas: Aprendizaje y transmisión de capacidades 2.67%; Capacidad humana y deuda de inteligencia 44.72%; Decisiones y responsabilidad 2.67%; Economía, costes y liquidez 4.00%; Empresa y gestión 9.33%; Evidencia, procedencia y atribución 24.82%; Experimentación, falsación y contraejemplos 2.66%; Memoria, comunidad y territorio 4.00%; Transformación y continuidad operativa 5.13%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/human-intelligence-debt/\n\n",
+  "tokens": 150,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:T874:G21",
+      "to": "T874",
+      "title": "Human Intelligence Debt",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 82,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T874.json"
+    },
+    {
+      "id": "apoyo:T1400:G21",
+      "to": "T1400",
+      "title": "Measuring Human Intelligence Debt",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 145,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1400.json"
+    },
+    {
+      "id": "apoyo:T1399:G21",
+      "to": "T1399",
+      "title": "Evidence Notes for the Proposed Human Intelligence Debt Study",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 108,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1399.json"
+    },
+    {
+      "id": "concepto:B472",
+      "to": "C73",
+      "title": "Unidad de medida de HID",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 170,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C73.json"
+    },
+    {
+      "id": "concepto:B473",
+      "to": "C74",
+      "title": "Ejecución y supervisión necesarias (NEO)",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 145,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C74.json"
+    },
+    {
+      "id": "concepto:B474",
+      "to": "C75",
+      "title": "Trabajo compensatorio evitable (ACW)",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 207,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C75.json"
+    },
+    {
+      "id": "concepto:B475",
+      "to": "C76",
+      "title": "Contribución informativa genuina (GIC)",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 139,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C76.json"
+    },
+    {
+      "id": "concepto:B476",
+      "to": "C77",
+      "title": "Coeficiente de recuperación de capacidad (ρ)",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 175,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C77.json"
+    },
+    {
+      "id": "concepto:B477",
+      "to": "G22",
+      "title": "Informational Friction / coste de claridad",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 172,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G22.json"
+    },
+    {
+      "id": "concepto:B482",
+      "to": "G22",
+      "title": "Informational Friction / coste de claridad",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 172,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G22.json"
+    },
+    {
+      "id": "concepto:P13",
+      "to": "G23",
+      "title": "Attribution Gap",
+      "direction": "entrante",
+      "kind": "hypothesis",
+      "reading": "",
+      "relationTokens": 15,
+      "fichaTokens": 143,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G23.json"
+    },
+    {
+      "id": "concepto:P14",
+      "to": "C32",
+      "title": "Coste de claridad",
+      "direction": "entrante",
+      "kind": "hypothesis",
+      "reading": "",
+      "relationTokens": 16,
+      "fichaTokens": 257,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C32.json"
+    },
+    {
+      "id": "concepto:P15",
+      "to": "C77",
+      "title": "Coeficiente de recuperación de capacidad (ρ)",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 175,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C77.json"
+    }
+  ]
+}

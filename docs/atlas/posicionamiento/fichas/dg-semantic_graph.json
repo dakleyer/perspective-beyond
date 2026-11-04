@@ -1,0 +1,247 @@
+{
+  "id": "dg-semantic_graph",
+  "type": "concepto",
+  "title": "Conocimiento como red de relaciones y procedencia",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-semantic_graph",
+  "documentId": null,
+  "sourceIds": [
+    "D-240",
+    "D-247",
+    "D-249",
+    "D-267",
+    "D-268",
+    "D-283",
+    "D-285",
+    "D-291"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.0229,
+    "decision": 0.0625,
+    "economia": 0.0417,
+    "empresa": 0.1063,
+    "evidencia": 0.2673,
+    "experimentacion": 0.0625,
+    "matematicas": 0.0125,
+    "memoria-territorio": 0.2472,
+    "perspectiva": 0.0625,
+    "representacion": 0.025,
+    "transformacion": 0.0896
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Conocimiento como red de relaciones y procedencia\nUn pensamiento se conserva mediante relaciones, casos, objeciones y trayectorias trazables, más que una palabra aislada.\nEtiquetas: Aprendizaje y transmisión de capacidades 2.29%; Decisiones y responsabilidad 6.25%; Economía, costes y liquidez 4.17%; Empresa y gestión 10.63%; Evidencia, procedencia y atribución 26.73%; Experimentación, falsación y contraejemplos 6.25%; Matemáticas 1.25%; Memoria, comunidad y territorio 24.72%; Cambio de perspectiva 6.25%; Representación y límites formales 2.50%; Transformación y continuidad operativa 8.96%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-semantic_graph\n\n",
+  "tokens": 181,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-240:dg-semantic_graph",
+      "to": "D-240",
+      "title": "Una palabra se copia; las relaciones entre ideas cuentan otra historia",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 475,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-240.json"
+    },
+    {
+      "id": "apoyo:D-247:dg-semantic_graph",
+      "to": "D-247",
+      "title": "La nueva Babel puede funcionar demasiado bien antes de dejar de ser fiable",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 449,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-247.json"
+    },
+    {
+      "id": "apoyo:D-249:dg-semantic_graph",
+      "to": "D-249",
+      "title": "Una memoria en estrella puede perder su centro sin dejar de funcionar",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 441,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-249.json"
+    },
+    {
+      "id": "apoyo:D-267:dg-semantic_graph",
+      "to": "D-267",
+      "title": "Una constelación de pensamiento contiene clusters conectados, no departamentos cerrados",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 32,
+      "fichaTokens": 405,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-267.json"
+    },
+    {
+      "id": "apoyo:D-268:dg-semantic_graph",
+      "to": "D-268",
+      "title": "Un bot que interpreta mi pensamiento debe saber regresar al archivo original",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 393,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-268.json"
+    },
+    {
+      "id": "apoyo:D-283:dg-semantic_graph",
+      "to": "D-283",
+      "title": "Una serie rigurosa deja examinar cada eslabón por separado",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 419,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-283.json"
+    },
+    {
+      "id": "apoyo:D-285:dg-semantic_graph",
+      "to": "D-285",
+      "title": "Un arquitecto no puede saber toda la jerga de todos los oficios",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 32,
+      "fichaTokens": 439,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-285.json"
+    },
+    {
+      "id": "apoyo:D-291:dg-semantic_graph",
+      "to": "D-291",
+      "title": "La inteligencia artificial también puede ser una máquina de escribir",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 377,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-291.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-185",
+      "to": "dg-perspective",
+      "title": "Nueva Perspectiva",
+      "direction": "saliente",
+      "kind": "organiza varias perspectivas",
+      "reading": "Una etiqueta aislada no conserva conexiones.",
+      "relationTokens": 27,
+      "fichaTokens": 190,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-perspective.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-186",
+      "to": "dg-dialogue_logic",
+      "title": "Diálogo pertinente y lógica propuesta",
+      "direction": "saliente",
+      "kind": "retiene objeciones",
+      "reading": "La trayectoria importa tanto como el resultado.",
+      "relationTokens": 31,
+      "fichaTokens": 93,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-dialogue_logic.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-187",
+      "to": "dg-institutional_custody",
+      "title": "Custodia de comunidades de práctica",
+      "direction": "saliente",
+      "kind": "ancla ideas en prácticas",
+      "reading": "Los relatos regresan a portadores y lugares.",
+      "relationTokens": 33,
+      "fichaTokens": 128,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-institutional_custody.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-188",
+      "to": "dg-evidence_recognition",
+      "title": "Valor del trabajo y pruebas de capacidad",
+      "direction": "saliente",
+      "kind": "ancla en resultados",
+      "reading": "Sin fuentes el grafo es un catálogo de lemas.",
+      "relationTokens": 35,
+      "fichaTokens": 126,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-evidence_recognition.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-189",
+      "to": "dg-frame_change",
+      "title": "Marcos que autorizan opciones y compras",
+      "direction": "entrante",
+      "kind": "reconstruye vínculos entre marcos",
+      "reading": "Reframing cambia relaciones, no solo términos.",
+      "relationTokens": 37,
+      "fichaTokens": 131,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-frame_change.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-206",
+      "to": "dg-babel_trust",
+      "title": "Babel semántica y economía de la atención",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.9",
+      "reading": "El grafo debe regresar a fuentes y condiciones.",
+      "relationTokens": 40,
+      "fichaTokens": 98,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-babel_trust.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-209",
+      "to": "dg-memory_topology",
+      "title": "Topología de memoria y nodos centrales",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.9",
+      "reading": "Los vínculos y su centralidad sostienen sentido.",
+      "relationTokens": 39,
+      "fichaTokens": 100,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-memory_topology.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-249",
+      "to": "dg-constellation_protocol",
+      "title": "Constelaciones, clusters y modos de lectura",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.10",
+      "reading": "Fichas con relaciones, fuentes y retornos.",
+      "relationTokens": 40,
+      "fichaTokens": 104,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-constellation_protocol.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-286",
+      "to": "dg-epistemic_increment",
+      "title": "Demostrar o refutar paso por paso",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.11",
+      "reading": "Fichas conectadas sin dependencia obligatoria.",
+      "relationTokens": 38,
+      "fichaTokens": 101,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-epistemic_increment.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-294",
+      "to": "dg-practical_isomorphism",
+      "title": "Isomorfismos entre dominios y deuda de arquitectura",
+      "direction": "entrante",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "Las relaciones importan más que las etiquetas.",
+      "relationTokens": 39,
+      "fichaTokens": 151,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-practical_isomorphism.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-302",
+      "to": "dg-ai_writing_boundary",
+      "title": "Máquina de escribir, pensamiento y autoría",
+      "direction": "entrante",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "Retornar al registro de ideas originales.",
+      "relationTokens": 36,
+      "fichaTokens": 88,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-ai_writing_boundary.json"
+    }
+  ]
+}

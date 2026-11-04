@@ -1,0 +1,166 @@
+{
+  "id": "GH008",
+  "type": "ficha",
+  "title": "Open-World Agent Encounters: A Uniform Decision Frontier",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/GH008.html",
+  "documentId": "doc-5e917c2f38b4def026",
+  "sourceIds": [],
+  "tagWeights": {
+    "control-minimo": 0.2,
+    "decision": 0.36,
+    "experimentacion": 0.04,
+    "matematicas": 0.16,
+    "mundo-abierto": 0.24
+  },
+  "clusters": [
+    "research"
+  ],
+  "context": "## Open-World Agent Encounters: A Uniform Decision Frontier\nContenido de la fuente: 1. The problem: a protocol is not an omniscient decision procedure · 2. Formal objects and the meaning of “sufficiently large” · 3. Theorem OW-1 — no uniform infallible interaction decider.\nEtiquetas: Control mínimo y suficiencia 20.00%; Decisiones y responsabilidad 36.00%; Experimentación, falsación y contraejemplos 4.00%; Matemáticas 16.00%; Mundo abierto e indeterminación 24.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/GH008.html\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/structural-awareness/OPEN_WORLD_AGENTIC_INTERACTION_INDETERMINACY_L1_EXTENSION_v0.1.md\n\n",
+  "tokens": 221,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH008:C25",
+      "to": "C25",
+      "title": "Suficiencia para una decisión",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 293,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C25.json"
+    },
+    {
+      "id": "apoyo:GH008:C111",
+      "to": "C111",
+      "title": "No cierre efectivo del mundo abierto",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 135,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C111.json"
+    },
+    {
+      "id": "documento:G008",
+      "to": "N1803",
+      "title": "xSeil VRP",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "A finite routing run can be valid within its declared frame without certifying all future operating conditions; open-world limits do not make every bounded VRP undecidable.",
+      "relationTokens": 53,
+      "fichaTokens": 111,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1803.json"
+    },
+    {
+      "id": "documento:sac-rel-062f4941286991",
+      "to": "GH001",
+      "title": "Structural Awareness Programme",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «What this part is» con el rótulo «Open-World Agent Encounters: A Uniform Decision Frontier — L1 extension v0.4».",
+      "relationTokens": 109,
+      "fichaTokens": 179,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH001.json"
+    },
+    {
+      "id": "documento:sac-rel-14009664f79c52",
+      "to": "GH005",
+      "title": "Metasyntactic Architecture for Open Ecosystems",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «3. Foundation I: computability, effective non-closure and repeated runs» con el rótulo «SA-MATH-OW-01».",
+      "relationTokens": 138,
+      "fichaTokens": 240,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH005.json"
+    },
+    {
+      "id": "documento:sac-rel-36765988441bdf",
+      "to": "GH026",
+      "title": "A/B/C/D Semantics and Mathematical Plausibility of Scoped Requalification",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Open-World Agent Encounters: A Uniform Decision Frontier» con el rótulo «canonical A/B/C/D semantics».",
+      "relationTokens": 138,
+      "fichaTokens": 216,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH026.json"
+    },
+    {
+      "id": "documento:sac-rel-fd02f0ca5ee380",
+      "to": "GH028",
+      "title": "Ecosystem Awareness — Integrated Foundational Theory of Bounded Uncertainty and Ecosystem Change",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «7. Relation to L1 and to the current Structural Awareness corpus» con el rótulo «Foundational Theory v0.5».",
+      "relationTokens": 143,
+      "fichaTokens": 244,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH028.json"
+    },
+    {
+      "id": "documento:sac-rel-a30e148dcf7aba",
+      "to": "GH036",
+      "title": "Annex 01J — Ecosystem Signalling: Selective Disclosure, Distributed Opportunity and Choreographed Repositioning",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «7. Relation to L1 and to the current Structural Awareness corpus» con el rótulo «current signalling annex 01J».",
+      "relationTokens": 148,
+      "fichaTokens": 211,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH036.json"
+    },
+    {
+      "id": "documento:sac-rel-8179fc2c7997b4",
+      "to": "GH005",
+      "title": "Metasyntactic Architecture for Open Ecosystems",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Mathematical continuation: meaning transfer through A/A′» con el rótulo «From A to A′: Open Meaning and Semantic Transfer Between Agent Ecosystems».",
+      "relationTokens": 141,
+      "fichaTokens": 240,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH005.json"
+    },
+    {
+      "id": "documento:sac-rel-b4a9c10b550845",
+      "to": "GH004",
+      "title": "Structural Awareness — Mathematical Research Reading Route",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Structural Awareness — Mathematical Research Reading Route» con el rótulo «L1 uniform decision frontier paper».",
+      "relationTokens": 111,
+      "fichaTokens": 155,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH004.json"
+    },
+    {
+      "id": "documento:sac-rel-9d891e2852c96c",
+      "to": "GH014",
+      "title": "Structural Awareness — Cross-Agent Residual Intersection and Online Opportunity",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Structural Awareness — Cross-Agent Residual Intersection and Online Opportunity» con el rótulo «L1».",
+      "relationTokens": 128,
+      "fichaTokens": 230,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH014.json"
+    },
+    {
+      "id": "documento:sac-rel-ac5e5add57cebd",
+      "to": "GH011",
+      "title": "Structural Awareness — Common Blind-Spot Cartography and Opportunity Arrival",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Structural Awareness — Common Blind-Spot Cartography and Opportunity Arrival» con el rótulo «L1 OW-9».",
+      "relationTokens": 133,
+      "fichaTokens": 229,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH011.json"
+    },
+    {
+      "id": "documento:sac-rel-ed32f212b6c73f",
+      "to": "GH015",
+      "title": "Structural Awareness — Operational Residual and Online Context Plasticity",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Structural Awareness — Operational Residual and Online Context Plasticity» con el rótulo «L1 (OW-1, OW-9)».",
+      "relationTokens": 142,
+      "fichaTokens": 176,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH015.json"
+    }
+  ]
+}

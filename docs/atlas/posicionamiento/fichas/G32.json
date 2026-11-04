@@ -1,0 +1,91 @@
+{
+  "id": "G32",
+  "type": "concepto",
+  "title": "IMSV",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/the-integral-management-society/",
+  "documentId": null,
+  "sourceIds": [
+    "S14",
+    "T1499"
+  ],
+  "tagWeights": {
+    "documentacion": 0.25,
+    "empresa": 0.5,
+    "evidencia": 0.25
+  },
+  "clusters": [
+    "imsv",
+    "tegrity"
+  ],
+  "context": "## IMSV\nThe society provides a context for stewardship, knowledge preservation and technical exchange.\nEtiquetas: Investigación y documentación técnica 25.00%; Empresa y gestión 50.00%; Evidencia, procedencia y atribución 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/the-integral-management-society/\n\n",
+  "tokens": 75,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:S14:G32",
+      "to": "S14",
+      "title": "The Integral Management Society",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 14,
+      "fichaTokens": 76,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/S14.json"
+    },
+    {
+      "id": "apoyo:T1499:G32",
+      "to": "T1499",
+      "title": "Structural Awareness",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 12,
+      "fichaTokens": 68,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1499.json"
+    },
+    {
+      "id": "concepto:B534",
+      "to": "G31",
+      "title": "Tegrity.AI",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 13,
+      "fichaTokens": 108,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G31.json"
+    },
+    {
+      "id": "concepto:B536",
+      "to": "C56",
+      "title": "Custodia institucional",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 11,
+      "fichaTokens": 197,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C56.json"
+    },
+    {
+      "id": "concepto:B537",
+      "to": "G31",
+      "title": "Tegrity.AI",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 13,
+      "fichaTokens": 108,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G31.json"
+    },
+    {
+      "id": "concepto:B538",
+      "to": "G20",
+      "title": "Escalera de evidencia y madurez",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 16,
+      "fichaTokens": 78,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G20.json"
+    }
+  ]
+}

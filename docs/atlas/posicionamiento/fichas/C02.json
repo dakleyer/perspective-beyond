@@ -1,0 +1,161 @@
+{
+  "id": "C02",
+  "type": "concepto",
+  "title": "Restricciones de turnos",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/shift-constraints/",
+  "documentId": null,
+  "sourceIds": [
+    "U1312",
+    "N1801",
+    "T1415",
+    "E1563",
+    "GH038"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.0654,
+    "autoridad": 0.05,
+    "capacidad-humana": 0.162,
+    "casos": 0.0385,
+    "control-minimo": 0.05,
+    "decision": 0.1,
+    "economia": 0.0267,
+    "empresa": 0.0692,
+    "memoria-territorio": 0.05,
+    "movilidad": 0.1429,
+    "representacion": 0.1992,
+    "transformacion": 0.0461
+  },
+  "clusters": [
+    "eu",
+    "net",
+    "research",
+    "tegrity",
+    "us"
+  ],
+  "context": "## Restricciones de turnos\nA staffing assignment must respect availability, rest, coverage and work rules.\nEtiquetas: Aprendizaje y transmisión de capacidades 6.54%; Autoridad, permisos y delegación 5.00%; Capacidad humana y deuda de inteligencia 16.20%; Casos de uso y aplicaciones 3.85%; Control mínimo y suficiencia 5.00%; Decisiones y responsabilidad 10.00%; Economía, costes y liquidez 2.67%; Empresa y gestión 6.92%; Memoria, comunidad y territorio 5.00%; Movilidad e infraestructura 14.29%; Representación y límites formales 19.92%; Transformación y continuidad operativa 4.61%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/shift-constraints/\n\n",
+  "tokens": 172,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:U1312:C02",
+      "to": "U1312",
+      "title": "Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 150,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1312.json"
+    },
+    {
+      "id": "apoyo:N1801:C02",
+      "to": "N1801",
+      "title": "xSeil Functionality Analisis",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 78,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1801.json"
+    },
+    {
+      "id": "apoyo:T1415:C02",
+      "to": "T1415",
+      "title": "When Asking the Question Changes the Answer",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 104,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1415.json"
+    },
+    {
+      "id": "apoyo:E1563:C02",
+      "to": "E1563",
+      "title": "Event Intelligence",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 15,
+      "fichaTokens": 92,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1563.json"
+    },
+    {
+      "id": "apoyo:GH038:C02",
+      "to": "GH038",
+      "title": "01K-A01 — Human Capacity / Human Intelligence Debt Reusable Component Specification",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 188,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH038.json"
+    },
+    {
+      "id": "concepto:D001",
+      "to": "C01",
+      "title": "Precomputación de factibilidad",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "The xSeil approach to precomputing feasible combinations could inform a bounded workforce-planning experiment.",
+      "relationTokens": 36,
+      "fichaTokens": 119,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C01.json"
+    },
+    {
+      "id": "concepto:D025",
+      "to": "C31",
+      "title": "Información constitutiva",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "Some scheduling questions require an accountable declaration of ownership or policy before further data collection can resolve them.",
+      "relationTokens": 33,
+      "fichaTokens": 242,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C31.json"
+    },
+    {
+      "id": "concepto:D053",
+      "to": "C18",
+      "title": "Señales de demanda",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "Event-level demand signals could be explored as contextual inputs to boutique workforce planning.",
+      "relationTokens": 30,
+      "fichaTokens": 178,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C18.json"
+    },
+    {
+      "id": "concepto:G038",
+      "to": "C119",
+      "title": "Compromisos concurrentes de capacidad humana",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "A scheduling design should distinguish aggregate available hours from a feasible assignment that respects deadlines, competence and precedence.",
+      "relationTokens": 38,
+      "fichaTokens": 130,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C119.json"
+    },
+    {
+      "id": "concepto:B507",
+      "to": "G27",
+      "title": "xSeil y problemas de asignación",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 93,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G27.json"
+    },
+    {
+      "id": "concepto:B617",
+      "to": "G49",
+      "title": "HR de lujo y planificación de turnos",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 120,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G49.json"
+    }
+  ]
+}

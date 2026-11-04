@@ -1,0 +1,62 @@
+{
+  "id": "C109",
+  "type": "concepto",
+  "title": "Doble inserción operativa de portadores",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/dual-operational-embeddedness/",
+  "documentId": null,
+  "sourceIds": [
+    "L006",
+    "U1496"
+  ],
+  "tagWeights": {
+    "autoridad": 0.1364,
+    "decision": 0.2031,
+    "economia": 0.0667,
+    "empresa": 0.0667,
+    "evidencia": 0.1333,
+    "memoria-territorio": 0.2363,
+    "transformacion": 0.1575
+  },
+  "clusters": [
+    "latinoempresa",
+    "us"
+  ],
+  "context": "## Doble inserción operativa de portadores\nPeople or networks operating in two settings can sustain translation and continuity.\nEtiquetas: Autoridad, permisos y delegación 13.64%; Decisiones y responsabilidad 20.31%; Economía, costes y liquidez 6.67%; Empresa y gestión 6.67%; Evidencia, procedencia y atribución 13.33%; Memoria, comunidad y territorio 23.63%; Transformación y continuidad operativa 15.75%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/dual-operational-embeddedness/\n\n",
+  "tokens": 126,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:L006:C109",
+      "to": "L006",
+      "title": "Instituciones de frontera: Cuando emprender es construir un puente entre mundos.",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 32,
+      "fichaTokens": 149,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/L006.json"
+    },
+    {
+      "id": "apoyo:U1496:C109",
+      "to": "U1496",
+      "title": "Field Intelligence in Chicontepec and the Texas–Mérida Corridor",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 32,
+      "fichaTokens": 151,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1496.json"
+    },
+    {
+      "id": "concepto:B028",
+      "to": "C57",
+      "title": "Continuidad distribuida",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "The industrial-corridor account offers a way to examine dual embeddedness through actual translation of operating requirements, rather than geography alone.",
+      "relationTokens": 44,
+      "fichaTokens": 290,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C57.json"
+    }
+  ]
+}

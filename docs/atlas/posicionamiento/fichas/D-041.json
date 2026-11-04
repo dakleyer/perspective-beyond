@@ -1,0 +1,131 @@
+{
+  "id": "D-041",
+  "type": "ficha",
+  "title": "La generación de las rotondas",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-041",
+  "documentId": "doc-41f3a410d217128630",
+  "sourceIds": [],
+  "tagWeights": {
+    "decision": 0.3636,
+    "economia": 0.4546,
+    "geopolitica": 0.1818
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## La generación de las rotondas\nINTERLOCUTOR (pregunta editorial nueva) — ¿Dónde entra la economía en esa lectura? ¿Se trata de denunciar a una generación o de comprender las condiciones de sus decisiones?\nLECTURA EDITORIAL — El mismo ensayo explora la promesa de seguridad, el encarecimiento relativo de la vivienda, la dificultad de acumular patrimonio y el coste intergeneracional de ciertas decisiones públicas. Parte de experiencias y comparaciones familiares, pero distingue esas imágenes de las series estadísticas que harían falta para probar una tesis general. La pregunta biográfica es más amplia: cuánto margen de decisión conservan las personas cuando un sistema les ofrece estabilidad a cambio de no cuestionar sus supuestos.\nINTERLOCUTOR (pregunta editorial nueva) — ¿Cómo dialoga eso con tus experiencias posteriores entre México y Europa?\nRECUPERACIÓN DE CONVERSACIONES (síntesis editorial) — En los intercambios de julio y septiembre de 2026 sobre innovación desarrollada bajo restricciones, Iván volvió a una preocupación cercana: las capacidades que existen en un territorio pueden ser invisibles para las categorías con que otro territorio evalúa el progreso. Estudiar esas experiencias exige evidencia, reconocimiento de autorías locales y cuidado para no hablar en nombre de comunidades o instituciones sin su mandato. La geopolítica queda aquí como una disciplina de contexto y de humildad: observar las reglas que sostienen la cooperación y recordar que sus efectos sobre personas concretas nunca están garantizados para siempre.\nEtiquetas: Decisiones y responsabilidad 36.36%; Economía, costes y liquidez 45.46%; Geopolítica y fronteras 18.18%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-041\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20(pregunta%20editorial%20nueva)%20%E2%80%94%20%C2%BFD%C3%B3nde%20entra%20la%20econom%C3%ADa%20en%20esa\n\n",
+  "tokens": 440,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-041:dg-economy",
+      "to": "dg-economy",
+      "title": "Economía y escasez",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 239,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-economy.json"
+    },
+    {
+      "id": "apoyo:D-041:dg-geopolitics",
+      "to": "dg-geopolitics",
+      "title": "Geopolítica vivida",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 138,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-geopolitics.json"
+    },
+    {
+      "id": "documento:dg-058",
+      "to": "D-013",
+      "title": "La escala como promesa y como riesgo",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Economía y escasez».",
+      "relationTokens": 33,
+      "fichaTokens": 658,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-013.json"
+    },
+    {
+      "id": "documento:dg-059",
+      "to": "D-048",
+      "title": "El coste de multiplicar proyectos",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Economía y escasez».",
+      "relationTokens": 31,
+      "fichaTokens": 521,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-048.json"
+    },
+    {
+      "id": "documento:dg-172",
+      "to": "D-040",
+      "title": "La guerra contada por las personas",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Geopolítica vivida».",
+      "relationTokens": 31,
+      "fichaTokens": 570,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-040.json"
+    },
+    {
+      "id": "documento:dg-173",
+      "to": "D-033",
+      "title": "Entrar en Bosnia sin un plan",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Geopolítica vivida».",
+      "relationTokens": 31,
+      "fichaTokens": 565,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-033.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-209-D-041",
+      "to": "D-209",
+      "title": "El imperio fabrica la tecnología que después le da miedo",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «El imperio fabrica la tecnología que después le da miedo» con «La generación de las rotondas». Permite contrastar Geopolítica vivida.",
+      "relationTokens": 62,
+      "fichaTokens": 443,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-209.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-041-D-150",
+      "to": "D-150",
+      "title": "La paz mental de una generación también tuvo precio",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Geopolítica vivida, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 48,
+      "fichaTokens": 331,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-150.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-041-D-105",
+      "to": "D-105",
+      "title": "Ormuz: distinguir explicación, incentivo e intención",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Geopolítica vivida, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 48,
+      "fichaTokens": 327,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-105.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-041-D-212",
+      "to": "D-212",
+      "title": "La coacción puede esconderse en el crédito o explotar en la supervivencia",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Geopolítica vivida, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 55,
+      "fichaTokens": 410,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-212.json"
+    }
+  ]
+}

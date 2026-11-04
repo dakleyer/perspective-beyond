@@ -1,0 +1,151 @@
+{
+  "id": "C53",
+  "type": "concepto",
+  "title": "Preparación de auditoría",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/audit-readiness/",
+  "documentId": null,
+  "sourceIds": [
+    "T2795",
+    "U1317",
+    "U1322",
+    "N1276",
+    "GH049"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.0688,
+    "autoridad": 0.0954,
+    "casos": 0.081,
+    "control-minimo": 0.059,
+    "decision": 0.0619,
+    "documentacion": 0.0571,
+    "economia": 0.019,
+    "empresa": 0.1571,
+    "evidencia": 0.1107,
+    "experimentacion": 0.0867,
+    "integridad-ia": 0.0524,
+    "matematicas": 0.0067,
+    "memoria-territorio": 0.0133,
+    "transformacion": 0.1309
+  },
+  "clusters": [
+    "net",
+    "research",
+    "tegrity",
+    "us"
+  ],
+  "context": "## Preparación de auditoría\nPrepare process evidence and response capability for a defined review.\nEtiquetas: Aprendizaje y transmisión de capacidades 6.88%; Autoridad, permisos y delegación 9.54%; Casos de uso y aplicaciones 8.10%; Control mínimo y suficiencia 5.90%; Decisiones y responsabilidad 6.19%; Investigación y documentación técnica 5.71%; Economía, costes y liquidez 1.90%; Empresa y gestión 15.71%; Evidencia, procedencia y atribución 11.07%; Experimentación, falsación y contraejemplos 8.67%; Integridad y seguridad de IA 5.24%; Matemáticas 0.67%; Memoria, comunidad y territorio 1.33%; Transformación y continuidad operativa 13.09%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/audit-readiness/\n\n",
+  "tokens": 192,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:T2795:C53",
+      "to": "T2795",
+      "title": "Annex 4 — Canonical Requirements and Test Contract",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 162,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2795.json"
+    },
+    {
+      "id": "apoyo:U1317:C53",
+      "to": "U1317",
+      "title": "Case Study: Texas-to-Mexico Oilfield Services Transformation: Knowledge Transfer, Industrialization, and Compliance",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 34,
+      "fichaTokens": 189,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1317.json"
+    },
+    {
+      "id": "apoyo:U1322:C53",
+      "to": "U1322",
+      "title": "Case Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 116,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1322.json"
+    },
+    {
+      "id": "apoyo:N1276:C53",
+      "to": "N1276",
+      "title": "Tiger Team Maturity Model",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 100,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1276.json"
+    },
+    {
+      "id": "apoyo:GH049:C53",
+      "to": "GH049",
+      "title": "00K-A23 — Canonical Requirement-Conformance Sufficiency for P1–P6 — v0.1",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 36,
+      "fichaTokens": 273,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH049.json"
+    },
+    {
+      "id": "concepto:D019",
+      "to": "C43",
+      "title": "Vigencia y caducidad",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "Readiness depends on evidence remaining valid and actionable within the operating decision window.",
+      "relationTokens": 32,
+      "fichaTokens": 219,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C43.json"
+    },
+    {
+      "id": "concepto:D072",
+      "to": "C38",
+      "title": "Aprendizaje interno repetible",
+      "direction": "saliente",
+      "kind": "documented use",
+      "reading": "The industrialization case describes quality-system and audit-readiness work that can illustrate observable maturity practices without claiming a certified maturity level.",
+      "relationTokens": 41,
+      "fichaTokens": 191,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C38.json"
+    },
+    {
+      "id": "concepto:A039",
+      "to": "C15",
+      "title": "Admisibilidad contextual",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "Evidence reuse across audits should carry purpose, scope, version and access conditions, so a reusable record does not become an unrestricted or context-free assertion.",
+      "relationTokens": 43,
+      "fichaTokens": 242,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C15.json"
+    },
+    {
+      "id": "concepto:G049",
+      "to": "C25",
+      "title": "Suficiencia para una decisión",
+      "direction": "entrante",
+      "kind": "documented use",
+      "reading": "A completed checklist is not a global sufficiency theorem; the requirement-conformance analysis preserves the exact implications that remain unclosed.",
+      "relationTokens": 42,
+      "fichaTokens": 293,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C25.json"
+    },
+    {
+      "id": "concepto:B633",
+      "to": "G52",
+      "title": "Weatherford / trazabilidad de proveedor",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 83,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G52.json"
+    }
+  ]
+}

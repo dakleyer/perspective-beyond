@@ -1,0 +1,87 @@
+{
+  "id": "C98",
+  "type": "concepto",
+  "title": "Bloqueo de mapas actual y objetivo",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/current-and-target-map-lock/",
+  "documentId": null,
+  "sourceIds": [
+    "U1792",
+    "T1417",
+    "T1427"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.1333,
+    "casos": 0.0513,
+    "control-minimo": 0.0588,
+    "decision": 0.0588,
+    "economia": 0.3298,
+    "empresa": 0.0513,
+    "evidencia": 0.0769,
+    "memoria-territorio": 0.0905,
+    "transformacion": 0.1493
+  },
+  "clusters": [
+    "tegrity",
+    "us"
+  ],
+  "context": "## Bloqueo de mapas actual y objetivo\nBoth the current-state representation and a legitimate route to the target may be inadequate.\nEtiquetas: Aprendizaje y transmisión de capacidades 13.33%; Casos de uso y aplicaciones 5.13%; Control mínimo y suficiencia 5.88%; Decisiones y responsabilidad 5.88%; Economía, costes y liquidez 32.98%; Empresa y gestión 5.13%; Evidencia, procedencia y atribución 7.69%; Memoria, comunidad y territorio 9.05%; Transformación y continuidad operativa 14.93%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/current-and-target-map-lock/\n\n",
+  "tokens": 147,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:U1792:C98",
+      "to": "U1792",
+      "title": "Surviving Capability: Why the Field Celebrates What the Theory Condemns",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 32,
+      "fichaTokens": 158,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1792.json"
+    },
+    {
+      "id": "apoyo:T1417:C98",
+      "to": "T1417",
+      "title": "When You Have to Decide Before You Can Discover",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 91,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1417.json"
+    },
+    {
+      "id": "apoyo:T1427:C98",
+      "to": "T1427",
+      "title": "The Minimal Information a Transformation Needs",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 111,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1427.json"
+    },
+    {
+      "id": "concepto:A031",
+      "to": "C84",
+      "title": "Declaración provisional reversible",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "A reversible provisional declaration can help discover a route between current and target states, while keeping exploration separate from an irreversible ownership or retirement decision.",
+      "relationTokens": 44,
+      "fichaTokens": 172,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C84.json"
+    },
+    {
+      "id": "concepto:A032",
+      "to": "C49",
+      "title": "Modelo mínimo de caso",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "The minimum-information lens turns an attractive target into an actionable transition question: what must be known, decided and authorized for the next move to become possible?",
+      "relationTokens": 47,
+      "fichaTokens": 231,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C49.json"
+    }
+  ]
+}

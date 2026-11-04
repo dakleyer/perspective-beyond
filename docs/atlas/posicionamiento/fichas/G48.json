@@ -1,0 +1,92 @@
+{
+  "id": "G48",
+  "type": "concepto",
+  "title": "Racionalización de sistemas en lujo",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/luxury-systems-rationalisation/",
+  "documentId": null,
+  "sourceIds": [
+    "E1654"
+  ],
+  "tagWeights": {
+    "casos": 0.1936,
+    "control-minimo": 0.0645,
+    "decision": 0.0968,
+    "empresa": 0.3548,
+    "evidencia": 0.0968,
+    "transformacion": 0.1935
+  },
+  "clusters": [
+    "eu"
+  ],
+  "context": "## Racionalización de sistemas en lujo\nThe luxury portfolio case examines architecture decisions across differentiated Maisons.\nEtiquetas: Casos de uso y aplicaciones 19.36%; Control mínimo y suficiencia 6.45%; Decisiones y responsabilidad 9.68%; Empresa y gestión 35.48%; Evidencia, procedencia y atribución 9.68%; Transformación y continuidad operativa 19.35%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/luxury-systems-rationalisation/\n\n",
+  "tokens": 111,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:E1654:G48",
+      "to": "E1654",
+      "title": "Case Study: Rationalization in Luxury",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 119,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1654.json"
+    },
+    {
+      "id": "concepto:B612",
+      "to": "C08",
+      "title": "Retiro de aplicaciones",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 177,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C08.json"
+    },
+    {
+      "id": "concepto:B613",
+      "to": "C20",
+      "title": "Capacidad reutilizable",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 254,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C20.json"
+    },
+    {
+      "id": "concepto:B614",
+      "to": "C25",
+      "title": "Suficiencia para una decisión",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 293,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C25.json"
+    },
+    {
+      "id": "concepto:B615",
+      "to": "C67",
+      "title": "Decisión de arquitectura",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 246,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C67.json"
+    },
+    {
+      "id": "concepto:B616",
+      "to": "G23",
+      "title": "Attribution Gap",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 15,
+      "fichaTokens": 143,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G23.json"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "id": "C18",
+  "type": "concepto",
+  "title": "Señales de demanda",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/demand-signals/",
+  "documentId": null,
+  "sourceIds": [
+    "E1563",
+    "N1833",
+    "N1801",
+    "U1312",
+    "E1524"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.0154,
+    "autoridad": 0.05,
+    "capacidad-humana": 0.0154,
+    "casos": 0.0692,
+    "control-minimo": 0.0462,
+    "decision": 0.0808,
+    "documentacion": 0.0307,
+    "empresa": 0.2692,
+    "evidencia": 0.0307,
+    "memoria-territorio": 0.0808,
+    "movilidad": 0.1429,
+    "representacion": 0.1225,
+    "transformacion": 0.0462
+  },
+  "clusters": [
+    "eu",
+    "net",
+    "us"
+  ],
+  "context": "## Señales de demanda\nObservations can inform what users or operations need.\nEtiquetas: Aprendizaje y transmisión de capacidades 1.54%; Autoridad, permisos y delegación 5.00%; Capacidad humana y deuda de inteligencia 1.54%; Casos de uso y aplicaciones 6.92%; Control mínimo y suficiencia 4.62%; Decisiones y responsabilidad 8.08%; Investigación y documentación técnica 3.07%; Empresa y gestión 26.92%; Evidencia, procedencia y atribución 3.07%; Memoria, comunidad y territorio 8.08%; Movilidad e infraestructura 14.29%; Representación y límites formales 12.25%; Transformación y continuidad operativa 4.62%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/demand-signals/\n\n",
+  "tokens": 178,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:E1563:C18",
+      "to": "E1563",
+      "title": "Event Intelligence",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 14,
+      "fichaTokens": 92,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1563.json"
+    },
+    {
+      "id": "apoyo:N1833:C18",
+      "to": "N1833",
+      "title": "Phylons dynamic combinations",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 117,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1833.json"
+    },
+    {
+      "id": "apoyo:N1801:C18",
+      "to": "N1801",
+      "title": "xSeil Functionality Analisis",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 78,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1801.json"
+    },
+    {
+      "id": "apoyo:U1312:C18",
+      "to": "U1312",
+      "title": "Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 150,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1312.json"
+    },
+    {
+      "id": "apoyo:E1524:C18",
+      "to": "E1524",
+      "title": "Montblanc — Lightweight Product Intelligence for Luxury In-Store Conversion",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 90,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1524.json"
+    },
+    {
+      "id": "concepto:D012",
+      "to": "C17",
+      "title": "Horizontes de memoria",
+      "direction": "entrante",
+      "kind": "hypothesis",
+      "reading": "Multiple memory horizons could help distinguish an event-specific reaction from a durable client preference.",
+      "relationTokens": 29,
+      "fichaTokens": 165,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C17.json"
+    },
+    {
+      "id": "concepto:D052",
+      "to": "C14",
+      "title": "Identidad estable",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "Simple attribution joins can make event signals more useful before adding complex analytics.",
+      "relationTokens": 26,
+      "fichaTokens": 223,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C14.json"
+    },
+    {
+      "id": "concepto:D053",
+      "to": "C02",
+      "title": "Restricciones de turnos",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "Event-level demand signals could be explored as contextual inputs to boutique workforce planning.",
+      "relationTokens": 30,
+      "fichaTokens": 172,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C02.json"
+    },
+    {
+      "id": "concepto:D069",
+      "to": "C66",
+      "title": "Señales de no compra",
+      "direction": "entrante",
+      "kind": "documented use",
+      "reading": "The Montblanc MVP and the event-intelligence proposal both examine signals that sales records alone do not preserve.",
+      "relationTokens": 37,
+      "fichaTokens": 98,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C66.json"
+    },
+    {
+      "id": "concepto:B521",
+      "to": "G29",
+      "title": "Event Intelligence / Supply Chain",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 15,
+      "fichaTokens": 56,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G29.json"
+    }
+  ]
+}

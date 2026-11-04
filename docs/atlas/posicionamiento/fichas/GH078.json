@@ -1,0 +1,86 @@
+{
+  "id": "GH078",
+  "type": "ficha",
+  "title": "L-09 — Remove accidental public-label leakage without rewriting source examples",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/l-09-remove-accidental-public-label-leakage-without-rewriting-source-examples-gh078/",
+  "documentId": "doc-17f79bed02b7dcc294",
+  "sourceIds": [],
+  "tagWeights": {
+    "evidencia": 0.3333,
+    "experimentacion": 0.6667
+  },
+  "clusters": [
+    "research"
+  ],
+  "context": "## L-09 — Remove accidental public-label leakage without rewriting source examples\n\nEtiquetas: Evidencia, procedencia y atribución 33.33%; Experimentación, falsación y contraejemplos 66.67%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/l-09-remove-accidental-public-label-leakage-without-rewriting-source-examples-gh078/\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/d41e2d4064dcdff4b4a2e80eb45b61c63f53e4dd/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1/L09_MATCHED_PUBLIC_VIEW_PROTOCOL.md\n\n",
+  "tokens": 175,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH078:C46",
+      "to": "C46",
+      "title": "Ablación de mecanismos",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 236,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C46.json"
+    },
+    {
+      "id": "apoyo:GH078:C124",
+      "to": "C124",
+      "title": "Adquisición de evidencia falible y emparejada",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 32,
+      "fichaTokens": 109,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C124.json"
+    },
+    {
+      "id": "apoyo:GH078:C125",
+      "to": "C125",
+      "title": "Fuga de etiquetas de una fixture",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 101,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C125.json"
+    },
+    {
+      "id": "apoyo:GH078:G17",
+      "to": "G17",
+      "title": "Benchmarks DDS y ablaciones",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 204,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G17.json"
+    },
+    {
+      "id": "documento:G094",
+      "to": "T2803",
+      "title": "Annex 6 — Ablation, Sufficiency and Extensibility",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "Matched public-view counterworlds can test whether a reported acquisition benefit comes from new evidence rather than accidental fixture-label leakage.",
+      "relationTokens": 56,
+      "fichaTokens": 114,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2803.json"
+    },
+    {
+      "id": "documento:G100",
+      "to": "GH077",
+      "title": "G-02 — Independent Q-audit evidence, not a Boolean declaration",
+      "direction": "entrante",
+      "kind": "documented use",
+      "reading": "A fallible audit mechanism and a public-label leakage control address different confounders; both must remain visible in a fair comparison.",
+      "relationTokens": 58,
+      "fichaTokens": 179,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH077.json"
+    }
+  ]
+}

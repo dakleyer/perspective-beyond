@@ -1,0 +1,144 @@
+{
+  "id": "E1633",
+  "type": "ficha",
+  "title": "Case Study: AICM",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-aicm-e1633/",
+  "documentId": "doc-af1a95d4ae4382fede",
+  "sourceIds": [],
+  "tagWeights": {
+    "casos": 0.2941,
+    "control-minimo": 0.1765,
+    "integridad-ia": 0.1177,
+    "movilidad": 0.2941,
+    "perspectiva": 0.1176
+  },
+  "clusters": [
+    "eu"
+  ],
+  "context": "## Case Study: AICM\n\nEtiquetas: Casos de uso y aplicaciones 29.41%; Control mínimo y suficiencia 17.65%; Integridad y seguridad de IA 11.77%; Movilidad e infraestructura 29.41%; Cambio de perspectiva 11.76%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-study-aicm-e1633/\nDocumento de origen: https://jubap.eu/aicm-mexico-city-airport-transformation/\n\n",
+  "tokens": 107,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:E1633:C37",
+      "to": "C37",
+      "title": "Activación de misión",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 250,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C37.json"
+    },
+    {
+      "id": "apoyo:E1633:C41",
+      "to": "C41",
+      "title": "Control mínimo suficiente",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 225,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C41.json"
+    },
+    {
+      "id": "apoyo:E1633:C61",
+      "to": "C61",
+      "title": "Secuencia JUBAP",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 205,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C61.json"
+    },
+    {
+      "id": "apoyo:E1633:C64",
+      "to": "C64",
+      "title": "Cambio de perspectiva humano",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 220,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C64.json"
+    },
+    {
+      "id": "apoyo:E1633:C81",
+      "to": "C81",
+      "title": "Frontera de integridad operacional",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 228,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C81.json"
+    },
+    {
+      "id": "documento:D039",
+      "to": "N1272",
+      "title": "The Anthropology of Tiger Team Activation",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "Mission activation offers a comparison for how the AICM programme connected a new perspective with concrete collective responsibility.",
+      "relationTokens": 38,
+      "fichaTokens": 126,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1272.json"
+    },
+    {
+      "id": "documento:D066",
+      "to": "E1630",
+      "title": "Case Study: HT",
+      "direction": "saliente",
+      "kind": "documented use",
+      "reading": "The AICM programme explicitly describes an adapted JUBAP route; the human-transformation article explains the perspective mechanism without establishing that every technique was used there.",
+      "relationTokens": 47,
+      "fichaTokens": 79,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1630.json"
+    },
+    {
+      "id": "documento:G021",
+      "to": "GH021",
+      "title": "Minimum Sufficient Control Architecture (MSCA) — Canonical Architecture",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "MSCA could provide a later review structure for a bounded airport intervention: the protected outcome, justified control burden and authorized response must be explicit.",
+      "relationTokens": 52,
+      "fichaTokens": 200,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH021.json"
+    },
+    {
+      "id": "documento:R002",
+      "to": "E1628",
+      "title": "The JUBAP Framework",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The AICM transformation programme](https://jubap.eu/aicm-mexico-city-airport-transformation/).",
+      "relationTokens": 48,
+      "fichaTokens": 152,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1628.json"
+    },
+    {
+      "id": "documento:R007",
+      "to": "E1731",
+      "title": "Reframing Value Creation",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Strategic reframing of an existing capability base](https://jubap.eu/reframing-value-creation/).",
+      "relationTokens": 46,
+      "fichaTokens": 154,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1731.json"
+    },
+    {
+      "id": "documento:R022",
+      "to": "E1731",
+      "title": "Reframing Value Creation",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [AICM: reframing the workforce as strategic capacity](https://jubap.eu/aicm-mexico-city-airport-transformation/).",
+      "relationTokens": 53,
+      "fichaTokens": 154,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1731.json"
+    }
+  ]
+}

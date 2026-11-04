@@ -1,0 +1,100 @@
+{
+  "id": "C87",
+  "type": "concepto",
+  "title": "Madurez definida y autoevaluada",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/defined-and-self-assessed-maturity/",
+  "documentId": null,
+  "sourceIds": [
+    "N1276",
+    "T1475",
+    "T1400"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.0873,
+    "autoridad": 0.0606,
+    "capacidad-humana": 0.1733,
+    "casos": 0.0267,
+    "decision": 0.0533,
+    "economia": 0.08,
+    "empresa": 0.0533,
+    "evidencia": 0.2206,
+    "experimentacion": 0.0267,
+    "memoria-territorio": 0.0667,
+    "transformacion": 0.1515
+  },
+  "clusters": [
+    "net",
+    "tegrity"
+  ],
+  "context": "## Madurez definida y autoevaluada\nA practice can describe maturity through procedures and learning.\nEtiquetas: Aprendizaje y transmisión de capacidades 8.73%; Autoridad, permisos y delegación 6.06%; Capacidad humana y deuda de inteligencia 17.33%; Casos de uso y aplicaciones 2.67%; Decisiones y responsabilidad 5.33%; Economía, costes y liquidez 8.00%; Empresa y gestión 5.33%; Evidencia, procedencia y atribución 22.06%; Experimentación, falsación y contraejemplos 2.67%; Memoria, comunidad y territorio 6.67%; Transformación y continuidad operativa 15.15%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/defined-and-self-assessed-maturity/\n\n",
+  "tokens": 172,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:N1276:C87",
+      "to": "N1276",
+      "title": "Tiger Team Maturity Model",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 100,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1276.json"
+    },
+    {
+      "id": "apoyo:T1475:C87",
+      "to": "T1475",
+      "title": "Attribution Gap Measurement Protocol",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 132,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1475.json"
+    },
+    {
+      "id": "apoyo:T1400:C87",
+      "to": "T1400",
+      "title": "Measuring Human Intelligence Debt",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 145,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1400.json"
+    },
+    {
+      "id": "concepto:F044",
+      "to": "C69",
+      "title": "Evidencia de contribución",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "The stated Level 3 position is a methodological self-assessment, which should remain separate from certification and independently measured intervention performance.",
+      "relationTokens": 42,
+      "fichaTokens": 289,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C69.json"
+    },
+    {
+      "id": "concepto:F045",
+      "to": "C75",
+      "title": "Trabajo compensatorio evitable (ACW)",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "Validated task measurement can strengthen intervention evidence without by itself upgrading a defined Tiger Team model to quantitatively managed maturity.",
+      "relationTokens": 44,
+      "fichaTokens": 207,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C75.json"
+    },
+    {
+      "id": "concepto:B469",
+      "to": "G20",
+      "title": "Escalera de evidencia y madurez",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 78,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G20.json"
+    }
+  ]
+}

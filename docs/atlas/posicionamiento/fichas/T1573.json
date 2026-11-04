@@ -1,0 +1,197 @@
+{
+  "id": "T1573",
+  "type": "ficha",
+  "title": "Tegrity.AI",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/tegrity-ai-t1573/",
+  "documentId": "doc-3365ae2ce02200034c",
+  "sourceIds": [],
+  "tagWeights": {
+    "control-minimo": 0.2222,
+    "decision": 0.2222,
+    "navegacion": 0.5556
+  },
+  "clusters": [
+    "tegrity"
+  ],
+  "context": "## Tegrity.AI\nTegrity.AI is an applied research, engineering and pre-standardization group of The Integral Management Society , a Swiss non-profit association based in Geneva. It advances AI Integrity Management through research, architecture, the review and development of standards, and technology for the common good.\nEtiquetas: Control mínimo y suficiencia 22.22%; Decisiones y responsabilidad 22.22%; Índices, contacto y políticas 55.56%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/tegrity-ai-t1573/\nDocumento de origen: https://tegrity.ai/\n\n",
+  "tokens": 129,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:T1573:C24",
+      "to": "C24",
+      "title": "Incertidumbre crítica",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 207,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C24.json"
+    },
+    {
+      "id": "apoyo:T1573:C25",
+      "to": "C25",
+      "title": "Suficiencia para una decisión",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 293,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C25.json"
+    },
+    {
+      "id": "apoyo:T1573:G31",
+      "to": "G31",
+      "title": "Tegrity.AI",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 108,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G31.json"
+    },
+    {
+      "id": "documento:D017",
+      "to": "E1654",
+      "title": "Case Study: Rationalization in Luxury",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "Portfolio confidence should preserve unresolved critical dependencies rather than average them away across units.",
+      "relationTokens": 32,
+      "fichaTokens": 119,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1654.json"
+    },
+    {
+      "id": "documento:R119",
+      "to": "N2086",
+      "title": "From Frontier Engineering to Ecosystem Awareness — Twenty Years of Architectural Continuity",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The Operational Integrity research architecture](https://tegrity.ai/).",
+      "relationTokens": 44,
+      "fichaTokens": 117,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N2086.json"
+    },
+    {
+      "id": "documento:sac-rel-2798e861475bb7",
+      "to": "sac-e81dcdb1021761",
+      "title": "Regime Awareness: the problem I am working on",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Open questions» con el rótulo «Tegrity.AI».",
+      "relationTokens": 99,
+      "fichaTokens": 159,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-e81dcdb1021761.json"
+    },
+    {
+      "id": "navigation:position-nav-T1573-S14",
+      "to": "S14",
+      "title": "The Integral Management Society",
+      "direction": "saliente",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «Tegrity.AI», el enlace «The Integral Management Society» abre «The Integral Management Society».",
+      "relationTokens": 52,
+      "fichaTokens": 76,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/S14.json"
+    },
+    {
+      "id": "navigation:position-nav-T1573-T2729",
+      "to": "T2729",
+      "title": "Minimum Sufficient Control Architecture for AI Enabled Urban Systems",
+      "direction": "saliente",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «Tegrity.AI», el enlace «working paper» abre «Minimum Sufficient Control Architecture for AI Enabled Urban Systems».",
+      "relationTokens": 62,
+      "fichaTokens": 83,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2729.json"
+    },
+    {
+      "id": "navigation:position-nav-T1573-T2744",
+      "to": "T2744",
+      "title": "From Field Practice to Pre-Standardization: An Extensible Case-Study Framework",
+      "direction": "saliente",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «Tegrity.AI», el enlace «Worked case and method» abre «From Field Practice to Pre-Standardization: An Extensible Case-Study Framework».",
+      "relationTokens": 76,
+      "fichaTokens": 105,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2744.json"
+    },
+    {
+      "id": "navigation:position-nav-T1573-T1221",
+      "to": "T1221",
+      "title": "Regime Awareness: Capability Development Across Four Field Cases",
+      "direction": "saliente",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «Tegrity.AI», el enlace «field cases» abre «Regime Awareness: Capability Development Across Four Field Cases».",
+      "relationTokens": 62,
+      "fichaTokens": 78,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1221.json"
+    },
+    {
+      "id": "navigation:position-nav-T1573-T1387",
+      "to": "T1387",
+      "title": "Minimalistic Regime-Aware Early Warning Systems",
+      "direction": "saliente",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «Tegrity.AI», el enlace «Good Enough EWS» abre «Minimalistic Regime-Aware Early Warning Systems».",
+      "relationTokens": 62,
+      "fichaTokens": 79,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1387.json"
+    },
+    {
+      "id": "navigation:position-nav-T1573-T1513",
+      "to": "T1513",
+      "title": "Regime-Aware Semantic Windows: Proposal for Mathematical Assessment and Empirical Validation",
+      "direction": "saliente",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «Tegrity.AI», el enlace «H1–H3 validation proposal» abre «Regime-Aware Semantic Windows: Proposal for Mathematical Assessment and Empirical Validation».",
+      "relationTokens": 77,
+      "fichaTokens": 124,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1513.json"
+    },
+    {
+      "id": "navigation:position-nav-T1573-T1709",
+      "to": "T1709",
+      "title": "Research Initiatives",
+      "direction": "saliente",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «Tegrity.AI», el enlace «Research Initiatives» abre «Research Initiatives».",
+      "relationTokens": 49,
+      "fichaTokens": 57,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1709.json"
+    },
+    {
+      "id": "navigation:position-nav-T1573-T1499",
+      "to": "T1499",
+      "title": "Structural Awareness",
+      "direction": "saliente",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «Tegrity.AI», el enlace «Structural Awareness synthesis» abre «Structural Awareness».",
+      "relationTokens": 47,
+      "fichaTokens": 68,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1499.json"
+    },
+    {
+      "id": "navigation:position-nav-S14-T1573",
+      "to": "S14",
+      "title": "The Integral Management Society",
+      "direction": "entrante",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «The Integral Management Society», el enlace «Tegrity.AI» abre «Tegrity.AI».",
+      "relationTokens": 54,
+      "fichaTokens": 76,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/S14.json"
+    },
+    {
+      "id": "navigation:position-nav-E1953-T1573",
+      "to": "E1953",
+      "title": "Car Evolution Mobility OS",
+      "direction": "entrante",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «Car Evolution Mobility OS», el enlace «Tegrity.AI» abre «Tegrity.AI».",
+      "relationTokens": 56,
+      "fichaTokens": 105,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1953.json"
+    }
+  ]
+}

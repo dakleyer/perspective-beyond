@@ -1,0 +1,84 @@
+{
+  "id": "C01",
+  "type": "concepto",
+  "title": "Precomputación de factibilidad",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/feasibility-precomputation/",
+  "documentId": null,
+  "sourceIds": [
+    "N1801",
+    "U1312"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.0385,
+    "capacidad-humana": 0.0384,
+    "casos": 0.0961,
+    "empresa": 0.1731,
+    "movilidad": 0.3572,
+    "representacion": 0.1813,
+    "transformacion": 0.1154
+  },
+  "clusters": [
+    "net",
+    "us"
+  ],
+  "context": "## Precomputación de factibilidad\nPrepare admissible combinations before evaluating the live state.\nEtiquetas: Aprendizaje y transmisión de capacidades 3.85%; Capacidad humana y deuda de inteligencia 3.84%; Casos de uso y aplicaciones 9.61%; Empresa y gestión 17.31%; Movilidad e infraestructura 35.72%; Representación y límites formales 18.13%; Transformación y continuidad operativa 11.54%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/feasibility-precomputation/\n\n",
+  "tokens": 119,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:N1801:C01",
+      "to": "N1801",
+      "title": "xSeil Functionality Analisis",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 78,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1801.json"
+    },
+    {
+      "id": "apoyo:U1312:C01",
+      "to": "U1312",
+      "title": "Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 150,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1312.json"
+    },
+    {
+      "id": "concepto:D001",
+      "to": "C02",
+      "title": "Restricciones de turnos",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "The xSeil approach to precomputing feasible combinations could inform a bounded workforce-planning experiment.",
+      "relationTokens": 36,
+      "fichaTokens": 172,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C02.json"
+    },
+    {
+      "id": "concepto:B506",
+      "to": "G27",
+      "title": "xSeil y problemas de asignación",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 93,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G27.json"
+    },
+    {
+      "id": "concepto:B564",
+      "to": "G38",
+      "title": "Corpus público y trazabilidad cruzada",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 88,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G38.json"
+    }
+  ]
+}

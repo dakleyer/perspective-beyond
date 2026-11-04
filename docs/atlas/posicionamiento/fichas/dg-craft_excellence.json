@@ -1,0 +1,102 @@
+{
+  "id": "dg-craft_excellence",
+  "type": "concepto",
+  "title": "Oficio, detalle y excelencia operativa",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-craft_excellence",
+  "documentId": null,
+  "sourceIds": [
+    "D-241",
+    "D-265"
+  ],
+  "tagWeights": {
+    "capacidad-humana": 0.0769,
+    "empresa": 0.6539,
+    "experimentacion": 0.1538,
+    "memoria-territorio": 0.1154
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Oficio, detalle y excelencia operativa\nEl lujo puede expresar disciplina de precisión y transmisión tecnológica; separar apariencia de barreras reales de oficio.\nEtiquetas: Capacidad humana y deuda de inteligencia 7.69%; Empresa y gestión 65.39%; Experimentación, falsación y contraejemplos 15.38%; Memoria, comunidad y territorio 11.54%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-craft_excellence\n\n",
+  "tokens": 105,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-241:dg-craft_excellence",
+      "to": "D-241",
+      "title": "El lujo empieza donde el detalle deja de ser adorno",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 467,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-241.json"
+    },
+    {
+      "id": "apoyo:D-265:dg-craft_excellence",
+      "to": "D-265",
+      "title": "El diamante tecnológico puede estar funcionando dentro de la empresa y seguir invisible",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 370,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-265.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-191",
+      "to": "dg-tacit",
+      "title": "Conocimiento tácito",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.9",
+      "reading": "Se apoya en oficio y conocimiento no explicitado.",
+      "relationTokens": 34,
+      "fichaTokens": 166,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-tacit.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-192",
+      "to": "dg-production",
+      "title": "Producción material y continuadores invisibles",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.9",
+      "reading": "El producto material depende de un sistema de operaciones.",
+      "relationTokens": 37,
+      "fichaTokens": 218,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-production.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-193",
+      "to": "dg-evidence_recognition",
+      "title": "Valor del trabajo y pruebas de capacidad",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.9",
+      "reading": "La excelencia requiere pruebas del trabajo hecho.",
+      "relationTokens": 34,
+      "fichaTokens": 126,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-evidence_recognition.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-196",
+      "to": "dg-innovation_memory",
+      "title": "Creatividad de urgencia y memoria de innovación",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.9",
+      "reading": "La creatividad y la excelencia necesitan estructuras repetibles.",
+      "relationTokens": 38,
+      "fichaTokens": 144,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-innovation_memory.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-220",
+      "to": "dg-federated_custody",
+      "title": "Custodias distribuidas y memoria viva",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.9",
+      "reading": "Los oficios continúan mediante transmisión concreta.",
+      "relationTokens": 36,
+      "fichaTokens": 128,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-federated_custody.json"
+    }
+  ]
+}

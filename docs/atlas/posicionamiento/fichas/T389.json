@@ -1,0 +1,63 @@
+{
+  "id": "T389",
+  "type": "ficha",
+  "title": "From Complicated to Complex: The AI Safety Paradox",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/from-complicated-to-complex-the-ai-safety-paradox-t389/",
+  "documentId": "doc-f69384f65eeae5f6e7",
+  "sourceIds": [],
+  "tagWeights": {
+    "integridad-ia": 1.0
+  },
+  "clusters": [
+    "tegrity"
+  ],
+  "context": "## From Complicated to Complex: The AI Safety Paradox\n\nEtiquetas: Integridad y seguridad de IA 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/from-complicated-to-complex-the-ai-safety-paradox-t389/\nDocumento de origen: https://tegrity.ai/from-complicated-to-complex-the-ai-safety-paradox/\n\n",
+  "tokens": 80,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:T389:C45",
+      "to": "C45",
+      "title": "Fallo de composición",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 240,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C45.json"
+    },
+    {
+      "id": "apoyo:T389:C81",
+      "to": "C81",
+      "title": "Frontera de integridad operacional",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 228,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C81.json"
+    },
+    {
+      "id": "documento:F019",
+      "to": "T2776",
+      "title": "When the Controls Work but the System Fails",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "Component-level compliance does not establish ecosystem-level integrity when independently governed actors compose their decisions under changing conditions.",
+      "relationTokens": 45,
+      "fichaTokens": 87,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2776.json"
+    },
+    {
+      "id": "documento:R166",
+      "to": "T2776",
+      "title": "When the Controls Work but the System Fails",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Six constructed system-level failure scenarios](https://tegrity.ai/when-the-controls-work-but-the-system-fails/).",
+      "relationTokens": 56,
+      "fichaTokens": 87,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2776.json"
+    }
+  ]
+}

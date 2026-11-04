@@ -1,0 +1,109 @@
+{
+  "id": "D-162",
+  "type": "ficha",
+  "title": "El valor que se actúa no es necesariamente el valor que se declara",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-162",
+  "documentId": "doc-46b04c3d3f2a018ac1",
+  "sourceIds": [],
+  "tagWeights": {
+    "decision": 0.4,
+    "economia": 0.2,
+    "evidencia": 0.4
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## El valor que se actúa no es necesariamente el valor que se declara\nINTERLOCUTOR (pregunta editorial, no pronunciada necesariamente) — ¿Qué vale más como evidencia de una preferencia: lo que una persona explica o aquello que sostiene con sus decisiones?\nREFLEXIÓN DEL DIÁLOGO (reconstrucción editorial cotejada con el escrito) — Iván no propone llamar hipócrita a quien contradice su discurso. Introduce una separación más incómoda: valor explicado, valor deseado, valor actuado y valor que otros atribuyen. Una persona puede defender la salud, comprar un bien de estatus y dedicar gran parte de su energía a preservar una relación o una posición. Esas acciones no prueban por sí solas una preferencia eterna, pero muestran qué costes acepta pagar en un contexto. No basta con decir que el sujeto «se equivoca» porque no maximiza la utilidad que un observador le asignó. Tal vez está comprando aceptación, continuidad biográfica o protección de su identidad. El ejercicio es descriptivo y económico: averiguar cuál era la moneda relevante para esa decisión y qué alternativa real se percibía. Hay que conservar la diferencia entre comprender la función de una conducta y justificar sus consecuencias. La ficha extiende la experiencia previa del error de atribución: medir la distancia entre declaración y elección es un paso; entender qué valor se estaba defendiendo es otro.\nEtiquetas: Decisiones y responsabilidad 40.00%; Economía, costes y liquidez 20.00%; Evidencia, procedencia y atribución 40.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-162\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-162.html\n\n",
+  "tokens": 377,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-162:dg-economy",
+      "to": "dg-economy",
+      "title": "Economía y escasez",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 239,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-economy.json"
+    },
+    {
+      "id": "apoyo:D-162:dg-identity",
+      "to": "dg-identity",
+      "title": "Identidad, roles y posicionamiento",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 234,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-identity.json"
+    },
+    {
+      "id": "apoyo:D-162:dg-value_acted",
+      "to": "dg-value_acted",
+      "title": "Valor actuado y monedas de identidad",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 120,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-value_acted.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-162-D-139",
+      "to": "D-139",
+      "title": "Lo que creemos que haremos y lo que hacemos no siempre coincide",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «El valor que se actúa no es necesariamente el valor que se declara» con «Lo que creemos que haremos y lo que hacemos no siempre coincide». Permite contrastar Identidad, roles y posicionamiento.",
+      "relationTokens": 82,
+      "fichaTokens": 317,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-139.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-162-D-140",
+      "to": "D-140",
+      "title": "Los bienes de estatus y la economía de la mirada ajena",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «El valor que se actúa no es necesariamente el valor que se declara» con «Los bienes de estatus y la economía de la mirada ajena». Permite contrastar Economía y escasez, Identidad, roles y posicionamiento.",
+      "relationTokens": 88,
+      "fichaTokens": 331,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-140.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-162-D-122",
+      "to": "D-122",
+      "title": "El yo como aquello que intentamos preservar",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «El valor que se actúa no es necesariamente el valor que se declara» con «El yo como aquello que intentamos preservar». Permite contrastar Identidad, roles y posicionamiento.",
+      "relationTokens": 72,
+      "fichaTokens": 318,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-122.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-162-D-164",
+      "to": "D-164",
+      "title": "El mercado de identidad tiene sus propios precios",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Valor actuado y monedas de identidad, Identidad, roles y posicionamiento, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 64,
+      "fichaTokens": 344,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-164.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-162-D-214",
+      "to": "D-214",
+      "title": "La invisibilidad local puede ser una forma de riqueza",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Valor actuado y monedas de identidad, Identidad, roles y posicionamiento desde las situaciones que describe cada texto.",
+      "relationTokens": 60,
+      "fichaTokens": 389,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-214.json"
+    }
+  ]
+}

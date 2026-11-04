@@ -1,0 +1,91 @@
+{
+  "id": "G33",
+  "type": "concepto",
+  "title": "JUBAP (ecosistema de intervención)",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/jubap-intervention-ecosystem/",
+  "documentId": null,
+  "sourceIds": [
+    "N2"
+  ],
+  "tagWeights": {
+    "capacidad-humana": 0.35,
+    "documentacion": 0.1,
+    "empresa": 0.25,
+    "navegacion": 0.05,
+    "transformacion": 0.25
+  },
+  "clusters": [
+    "net"
+  ],
+  "context": "## JUBAP (ecosistema de intervención)\nThe JubAp units contribute complementary field and architectural practices across regions.\nEtiquetas: Capacidad humana y deuda de inteligencia 35.00%; Investigación y documentación técnica 10.00%; Empresa y gestión 25.00%; Índices, contacto y políticas 5.00%; Transformación y continuidad operativa 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/jubap-intervention-ecosystem/\n\n",
+  "tokens": 102,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:N2:G33",
+      "to": "N2",
+      "title": "JubAp.Net",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 126,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N2.json"
+    },
+    {
+      "id": "concepto:B535",
+      "to": "G31",
+      "title": "Tegrity.AI",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 108,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G31.json"
+    },
+    {
+      "id": "concepto:B539",
+      "to": "G24",
+      "title": "JUBAP / secuencia de intervención",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 143,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G24.json"
+    },
+    {
+      "id": "concepto:B540",
+      "to": "G25",
+      "title": "Tiger Teams",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 109,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G25.json"
+    },
+    {
+      "id": "concepto:B541",
+      "to": "G18",
+      "title": "Field Notes / notas de campo",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 75,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G18.json"
+    },
+    {
+      "id": "concepto:B542",
+      "to": "G31",
+      "title": "Tegrity.AI",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 108,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G31.json"
+    }
+  ]
+}

@@ -5,7 +5,7 @@ const modeLabels = {closed:'Cerrado',porous:'Poroso',federated:'Federado'};
 const pageRoot = new URL('./',location.href);
 const rawRoot = 'https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/';
 const readURL = key => new URL('lectura/'+key+'.html',pageRoot).href;
-const radiusURL = (id,red='documentos') => new URL('mapa/?'+new URLSearchParams({centro:id,red}),pageRoot).href;
+const radiusURL = (id,red='ideas') => new URL('posicionamiento/?'+new URLSearchParams({posicionamiento:id,tokens:2000,red}),pageRoot).href;
 const norm = t => t.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 function element(tag, text, cls) {
   const node = document.createElement(tag);
@@ -25,7 +25,7 @@ async function json(url) {
 }
 
 async function start() {
-  const delta = await json('global-catalog.json');
+  const delta = await json('global-catalog.json?v=posicionamiento-1');
   const base = await json(delta.canonical);
   base.concepts.push(...(delta.concepts||[]));
   base.relations.push(...(delta.concept_relations||[]));
@@ -66,6 +66,10 @@ async function start() {
   const filter = get('filter'), kind = get('kind'), query = get('query');
   const topicFilter = get('topic-filter'), onlyTopics = get('only-topics');
   const profile = get('focus-profile'), target = get('focus-target'), focusRows = get('focus-rows');
+  const positionField=get('positioning'),tokenBudget=get('token-budget');
+  const defaultPosition=key=>delta.positioning?.defaultDocuments[key]??pageRoot.href;
+  positionField.value=params.get('posicionamiento')||contextId||defaultPosition(defaultSite);
+  tokenBudget.value=params.get('tokens')||'2000';
   const profiles = ['parejo','transversal','personalizado'];
   const weights = new Map();
   onlyTopics.checked = params.get('solo')==='1';
@@ -119,7 +123,7 @@ async function start() {
         heading.append(link(sourcePage(item),item.title));
         box.append(heading,element('p',clusters[membership[item.id]][0]+' · '+item.kind));
         if(delta.editorial_cards[item.id]) box.append(element('p',delta.editorial_cards[item.id].summary));
-        if(sourceTags[item.id].length)box.append(element('p',sourceTags[item.id].map(key=>topics[key].label).join(' · ')));
+        if(sourceTags[item.id].length)box.append(element('p',sourceTags[item.id].map(key=>topics[key].label+(delta.source_tag_weights?.[item.id]?.[key]!=null?' '+(delta.source_tag_weights[item.id][key]*100).toLocaleString('es',{maximumFractionDigits:1})+' %':'')).join(' · ')));
         const entry=new URL('./#asistente',pageRoot);
         entry.search=new URLSearchParams({site:membership[item.id],modo:'closed',config:'1',rol:'lector',
           lectura:'paraphrase',enfoque:'parejo',desde:item.id});
@@ -153,6 +157,8 @@ async function start() {
     }
     bridge.replaceChildren(...options);
     if ([...bridge.options].some(o=>o.value===params.get('puente'))) bridge.value=params.get('puente');
+    if(positionField.dataset.origin&&positionField.dataset.origin!==origin.value)positionField.value=defaultPosition(origin.value);
+    positionField.dataset.origin=origin.value;
     render();
   }
   function session() {
@@ -257,9 +263,11 @@ async function start() {
         f.topicKeys.map(key=>new URL('temas/'+key+'.txt',pageRoot).href).join(' · '):'');
   }
   function startingRecord(s,f) {
-    if(!contextId||!Object.hasOwn(byId,contextId)||!s.active.includes(membership[contextId]))return null;
-    if(f.strict&&!f.topicKeys.some(key=>sourceTags[contextId].includes(key)))return null;
-    return byId[contextId];
+    const value=positionField.value.trim();
+    const record=byId[value]||records.find(r=>r.url===value||delta.editorial_cards[r.id]?.published_text_url===value);
+    if(!record||!s.active.includes(membership[record.id]))return null;
+    if(f.strict&&!f.topicKeys.some(key=>sourceTags[record.id].includes(key)))return null;
+    return record;
   }
   function instructions(s,f,start=startingRecord(s,f)) {
     const originLabel=origin.value==='all'?'toda la constelación':clusters[origin.value][0];
@@ -270,6 +278,7 @@ async function start() {
     const [purposeLabel,purposeRule]=purposes[purpose.value];
     const customText=custom.value.trim();
     return 'Abre la entrada de Perspective Beyond: '+textEntry(f,pageRoot,start)+'\nOrigen: '+originLabel+' · Modo: '+modeLabels[mode.value]+'. '+
+      '\nPosicionamiento: '+positionField.value.trim()+' · Presupuesto de lectura: '+tokenBudget.value+' tokens. '+
       rules+bridgeText+'\nRol: '+roleLabel+'. '+roleRule+'\nPropósito: '+purposeLabel+'. '+purposeRule+'\n'+focusInstruction(f)+
       (start?'\nPunto de partida ['+start.id+']: '+start.title+'. Ficha: '+sourcePage(start)+'. Original: '+examinedOriginal(start)+
         '. Usa esta fuente si es pertinente a la pregunta.':'')+
@@ -288,9 +297,11 @@ async function start() {
     url.searchParams.set('enfoque',f.profile);
     for(const item of f.items)url.searchParams.append('peso',item.key+':'+item.weight);
     if(f.strict)url.searchParams.set('solo','1');
-    if(start)url.searchParams.set('desde',start.id);
+    if(start&&positionField.value.trim()===start.id)url.searchParams.set('desde',start.id);
     const customText=custom.value.trim();
     if(customText)url.searchParams.set('instruccion',customText);
+    if(positionField.value.trim())url.searchParams.set('posicionamiento',positionField.value.trim());
+    url.searchParams.set('tokens',tokenBudget.value);
     return url.href;
   }
   function textEntry(f=weighting(),root=pageRoot,start=contextId?startingRecord(session(),f):null) {
@@ -328,7 +339,7 @@ async function start() {
     const f=weighting();
     const scoped=filteredSession(s,f);
     const start=startingRecord(s,f);
-    const invalidFilter=onlyTopics.checked&&!f.strict,invalidConfig=Boolean(restoreError);
+    const invalidFilter=onlyTopics.checked&&!f.strict,invalidConfig=Boolean(restoreError)||!positionField.value.trim()||!tokenBudget.validity.valid;
     get('focus-editor').hidden=profile.value!=='personalizado';
     onlyTopics.disabled=!f.topicKeys?.length&&!onlyTopics.checked;
     const rendered=new Map(f.items.map(item=>[item.key,percent(item.tenths)]));
@@ -347,20 +358,22 @@ async function start() {
       (invalidFilter?' · falta una etiqueta temática válida':' · '+scoped.sources.length+' fichas y fuentes');
     get('role-help').textContent=roles[role.value][1];
     get('starting-point').replaceChildren();
-    get('starting-point').hidden=!contextId;
-    if(contextId&&invalidFilter) {
+    get('starting-point').hidden=!positionField.value.trim();
+    if(positionField.value.trim()&&invalidFilter) {
       get('starting-point').textContent='El punto de partida se comprobará al completar la selección.';
     } else if(start) {
       get('starting-point').append('Punto de partida · ',link(sourcePage(start),start.title),
         ' · ',link(radiusURL(start.id,'ideas'),'Mapa de la ficha'));
-    } else if(contextId) {
-      get('starting-point').textContent='La ficha de partida queda fuera de esta selección.';
+    } else if(positionField.value.trim()) {
+      get('starting-point').textContent='Posicionamiento: '+positionField.value.trim();
     }
     for(const id of ['copy-url','copy-config','copy','download'])get(id).disabled=invalidFilter||invalidConfig;
     for(const id of ['entry-url','entry-mirror','web-entry'])get(id).hidden=invalidFilter||invalidConfig;
     get('prompt').value='';
     get('status').textContent='';
     if(invalidFilter||invalidConfig)return;
+    const map=new URL('posicionamiento/',pageRoot);map.search=new URL(webEntry(f,start)).search;
+    get('position-map').href=map.href;
     get('entry-url').href=textEntry(f,pageRoot,start);
     get('entry-mirror').href=textEntry(f,rawRoot,start);
     get('web-entry').href=webEntry(f,start);
@@ -377,6 +390,7 @@ async function start() {
     render();
   });
   custom.addEventListener('input',render);
+  positionField.addEventListener('input',render);tokenBudget.addEventListener('input',render);
   get('focus-add').addEventListener('click',()=>{
     const key=target.value;
     if(!focusItems.has(key)||(!weights.has(key)&&weights.size>=20))return;

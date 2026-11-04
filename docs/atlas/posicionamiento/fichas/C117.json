@@ -1,0 +1,141 @@
+{
+  "id": "C117",
+  "type": "concepto",
+  "title": "Marco semántico común de una intersección",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/shared-semantics-for-an-intersection/",
+  "documentId": null,
+  "sourceIds": [
+    "GH011",
+    "GH013",
+    "L005",
+    "U1496",
+    "E1567",
+    "GH014"
+  ],
+  "tagWeights": {
+    "agentes": 0.1471,
+    "autoridad": 0.0208,
+    "cartografia": 0.0556,
+    "control-minimo": 0.0579,
+    "decision": 0.0905,
+    "economia": 0.05,
+    "empresa": 0.0222,
+    "evidencia": 0.1152,
+    "experimentacion": 0.0259,
+    "matematicas": 0.056,
+    "memoria-territorio": 0.0333,
+    "mundo-abierto": 0.1667,
+    "representacion": 0.034,
+    "transformacion": 0.1248
+  },
+  "clusters": [
+    "eu",
+    "latinoempresa",
+    "research",
+    "us"
+  ],
+  "context": "## Marco semántico común de una intersección\nObservers can compose predicates when question, domain, event, provenance and time match.\nEtiquetas: Agentes y coordinación distribuida 14.71%; Autoridad, permisos y delegación 2.08%; Cartografía y señales de ecosistema 5.56%; Control mínimo y suficiencia 5.79%; Decisiones y responsabilidad 9.05%; Economía, costes y liquidez 5.00%; Empresa y gestión 2.22%; Evidencia, procedencia y atribución 11.52%; Experimentación, falsación y contraejemplos 2.59%; Matemáticas 5.60%; Memoria, comunidad y territorio 3.33%; Mundo abierto e indeterminación 16.67%; Representación y límites formales 3.40%; Transformación y continuidad operativa 12.48%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/shared-semantics-for-an-intersection/\n\n",
+  "tokens": 208,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH011:C117",
+      "to": "GH011",
+      "title": "Structural Awareness — Common Blind-Spot Cartography and Opportunity Arrival",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 229,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH011.json"
+    },
+    {
+      "id": "apoyo:GH013:C117",
+      "to": "GH013",
+      "title": "Structural Awareness — Collective Residual Intersections and Recognizable Opportunities",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 219,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH013.json"
+    },
+    {
+      "id": "apoyo:L005:C117",
+      "to": "L005",
+      "title": "Dos maneras de cruzar un mundo Arquitecturas que empobrecen vs arquitecturas que multiplican",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 38,
+      "fichaTokens": 161,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/L005.json"
+    },
+    {
+      "id": "apoyo:U1496:C117",
+      "to": "U1496",
+      "title": "Field Intelligence in Chicontepec and the Texas–Mérida Corridor",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 33,
+      "fichaTokens": 151,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1496.json"
+    },
+    {
+      "id": "apoyo:E1567:C117",
+      "to": "E1567",
+      "title": "Piece Identity & Inventory Orchestration",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 130,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1567.json"
+    },
+    {
+      "id": "apoyo:GH014:C117",
+      "to": "GH014",
+      "title": "Structural Awareness — Cross-Agent Residual Intersection and Online Opportunity",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 230,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH014.json"
+    },
+    {
+      "id": "concepto:G011",
+      "to": "C57",
+      "title": "Continuidad distribuida",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "Distributed field observations can be combined meaningfully only after their question, event, scope and time references have been aligned.",
+      "relationTokens": 42,
+      "fichaTokens": 290,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C57.json"
+    },
+    {
+      "id": "concepto:G013",
+      "to": "C14",
+      "title": "Identidad estable",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "A task-specific collective property could support a minimal handoff, but it must not erase the piece identity and provenance needed by the receiving decision.",
+      "relationTokens": 46,
+      "fichaTokens": 223,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C14.json"
+    },
+    {
+      "id": "concepto:G014",
+      "to": "C103",
+      "title": "Arquitectura de integración generativa",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "A nonempty shared region does not itself prove generative value; the link from the joint property to a usable capability must be established separately.",
+      "relationTokens": 50,
+      "fichaTokens": 228,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C103.json"
+    }
+  ]
+}

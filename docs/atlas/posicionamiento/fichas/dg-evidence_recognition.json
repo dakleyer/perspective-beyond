@@ -1,0 +1,195 @@
+{
+  "id": "dg-evidence_recognition",
+  "type": "concepto",
+  "title": "Valor del trabajo y pruebas de capacidad",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-evidence_recognition",
+  "documentId": null,
+  "sourceIds": [
+    "D-229",
+    "D-230",
+    "D-231",
+    "D-260",
+    "D-291"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.2,
+    "autoridad": 0.1,
+    "decision": 0.2,
+    "evidencia": 0.2333,
+    "integridad-ia": 0.0667,
+    "memoria-territorio": 0.2
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Valor del trabajo y pruebas de capacidad\nEl reconocimiento puede castigar producción verificable; examinar obras y resultados, no solo credenciales.\nEtiquetas: Aprendizaje y transmisión de capacidades 20.00%; Autoridad, permisos y delegación 10.00%; Decisiones y responsabilidad 20.00%; Evidencia, procedencia y atribución 23.33%; Integridad y seguridad de IA 6.67%; Memoria, comunidad y territorio 20.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-evidence_recognition\n\n",
+  "tokens": 126,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-229:dg-evidence_recognition",
+      "to": "D-229",
+      "title": "Trabajar los talentos puede salir a perder",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 430,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-229.json"
+    },
+    {
+      "id": "apoyo:D-230:dg-evidence_recognition",
+      "to": "D-230",
+      "title": "Una credencial habla de ti; una obra permite examinarte",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 432,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-230.json"
+    },
+    {
+      "id": "apoyo:D-231:dg-evidence_recognition",
+      "to": "D-231",
+      "title": "Entregó una investigación; el profesor ni siquiera la leyó",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 419,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-231.json"
+    },
+    {
+      "id": "apoyo:D-260:dg-evidence_recognition",
+      "to": "D-260",
+      "title": "No prolongues mi recuerdo: investiga si lo que digo pasó",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 388,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-260.json"
+    },
+    {
+      "id": "apoyo:D-291:dg-evidence_recognition",
+      "to": "D-291",
+      "title": "La inteligencia artificial también puede ser una máquina de escribir",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 377,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-291.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-168",
+      "to": "dg-production",
+      "title": "Producción material y continuadores invisibles",
+      "direction": "saliente",
+      "kind": "contrasta reconocimiento y trabajo",
+      "reading": "Puede castigarse la evidencia útil.",
+      "relationTokens": 30,
+      "fichaTokens": 218,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-production.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-169",
+      "to": "dg-legitimacy_gap",
+      "title": "Principios, requisitos y deuda de legitimidad",
+      "direction": "saliente",
+      "kind": "evalúa fin y requisito",
+      "reading": "Un plazo no mide necesariamente aprendizaje.",
+      "relationTokens": 31,
+      "fichaTokens": 133,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-legitimacy_gap.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-170",
+      "to": "dg-learning",
+      "title": "Aprendizaje autodirigido",
+      "direction": "saliente",
+      "kind": "somete capacidades a examen",
+      "reading": "Proyectos y transferencias complementan títulos.",
+      "relationTokens": 31,
+      "fichaTokens": 200,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-learning.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-171",
+      "to": "dg-doubt",
+      "title": "Duda, pruebas y conocimiento corregible",
+      "direction": "saliente",
+      "kind": "admite refutación",
+      "reading": "La obra también puede fallar pruebas.",
+      "relationTokens": 30,
+      "fichaTokens": 258,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-doubt.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-181",
+      "to": "dg-cross_frame_coherence",
+      "title": "Contribución, atribución e insolvencia por cumplimiento",
+      "direction": "entrante",
+      "kind": "prueba desviaciones positivas",
+      "reading": "Una excepción necesita evidencia causal, no solo anomalía.",
+      "relationTokens": 36,
+      "fichaTokens": 106,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-cross_frame_coherence.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-188",
+      "to": "dg-semantic_graph",
+      "title": "Conocimiento como red de relaciones y procedencia",
+      "direction": "entrante",
+      "kind": "ancla en resultados",
+      "reading": "Sin fuentes el grafo es un catálogo de lemas.",
+      "relationTokens": 35,
+      "fichaTokens": 181,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-semantic_graph.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-193",
+      "to": "dg-craft_excellence",
+      "title": "Oficio, detalle y excelencia operativa",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.9",
+      "reading": "La excelencia requiere pruebas del trabajo hecho.",
+      "relationTokens": 34,
+      "fichaTokens": 105,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-craft_excellence.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-235",
+      "to": "dg-field_revisit",
+      "title": "Memoria de campo sometida a cotejo",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.10",
+      "reading": "Testimonio y evidencia independiente se registran por separado.",
+      "relationTokens": 38,
+      "fichaTokens": 93,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-field_revisit.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-268",
+      "to": "dg-unheard_evidence",
+      "title": "La respuesta ya pronunciada pero no escuchada",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.11",
+      "reading": "Contrastar antes de elevar la propuesta.",
+      "relationTokens": 35,
+      "fichaTokens": 71,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-unheard_evidence.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-304",
+      "to": "dg-ai_writing_boundary",
+      "title": "Máquina de escribir, pensamiento y autoría",
+      "direction": "entrante",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "La fluidez no prueba autoría.",
+      "relationTokens": 34,
+      "fichaTokens": 88,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-ai_writing_boundary.json"
+    }
+  ]
+}

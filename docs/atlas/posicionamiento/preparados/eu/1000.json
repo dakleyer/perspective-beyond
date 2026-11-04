@@ -1,0 +1,593 @@
+{
+  "schema": "perspective-beyond/positioning-v1",
+  "edition": "2026-11-04",
+  "request": {
+    "posicionamiento": "eu",
+    "tokens": 1000,
+    "max": 60,
+    "rol": "lector",
+    "lectura": "explore",
+    "enfoque": "parejo",
+    "instruccion": "",
+    "red": "ideas",
+    "sentido": "ambas",
+    "modo": "closed",
+    "site": "eu",
+    "puente": null,
+    "solo": false,
+    "pesos": []
+  },
+  "position": {
+    "id": "doc-63aa9c575ad7473553",
+    "title": "JubAp.EU",
+    "url": "https://jubap.eu/",
+    "fichas": [
+      "E2"
+    ],
+    "aliases": [
+      "https://jubap.eu/"
+    ],
+    "header": "# Posicionamiento · JubAp.EU\nDocumento de origen: https://jubap.eu/\n\n",
+    "headerTokens": 20,
+    "type": "documento",
+    "focus": "E2",
+    "seeds": [
+      "E2"
+    ]
+  },
+  "budget": {
+    "limit": 1000,
+    "used": 927,
+    "remaining": 73,
+    "nextBlock": 189,
+    "encoding": "o200k_base",
+    "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
+  },
+  "reachable": 28,
+  "selected": 6,
+  "shown": 7,
+  "omittedByBudget": 22,
+  "omittedInDiagram": 0,
+  "layers": [
+    {
+      "distance": 0,
+      "selected": 0,
+      "shown": 1
+    },
+    {
+      "distance": 1,
+      "selected": 1,
+      "shown": 1
+    },
+    {
+      "distance": 2,
+      "selected": 3,
+      "shown": 3
+    },
+    {
+      "distance": 3,
+      "selected": 2,
+      "shown": 2
+    }
+  ],
+  "center": "doc-63aa9c575ad7473553-entrada",
+  "nodes": [
+    {
+      "id": "doc-63aa9c575ad7473553-entrada",
+      "title": "JubAp.EU",
+      "type": "documento",
+      "url": "https://jubap.eu/",
+      "original": "https://jubap.eu/",
+      "summary": "Documento desde el que se abre este posicionamiento.",
+      "tags": [],
+      "tagWeights": {},
+      "clusters": [
+        "eu"
+      ],
+      "distance": 0,
+      "parent": null
+    },
+    {
+      "id": "E2",
+      "type": "ficha",
+      "title": "JubAp.EU",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/jubap-eu-e2/",
+      "original": "https://jubap.eu/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "decision",
+        "empresa",
+        "navegacion",
+        "perspectiva",
+        "transformacion"
+      ],
+      "summary": "JubAp.eu supports high-stakes socio-technical transformations where technology, operating model or organizational decisions define long-term viability.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-63aa9c575ad7473553",
+      "tagWeights": {
+        "decision": 0.1,
+        "empresa": 0.45,
+        "navegacion": 0.05,
+        "perspectiva": 0.15,
+        "transformacion": 0.25
+      },
+      "contextTokens": 115,
+      "distance": 1,
+      "parent": "doc-63aa9c575ad7473553-entrada",
+      "routeEdge": null,
+      "affinity": 1
+    },
+    {
+      "id": "E1221",
+      "type": "ficha",
+      "title": "Field Notes",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/field-notes-e1221/",
+      "original": "https://jubap.eu/field-notes/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "navegacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-bd9004cfedb4291c84",
+      "tagWeights": {
+        "navegacion": 1
+      },
+      "contextTokens": 56,
+      "distance": 2,
+      "parent": "E2",
+      "routeEdge": "navigation:position-nav-E2-E1221",
+      "affinity": 1
+    },
+    {
+      "id": "E1628",
+      "type": "ficha",
+      "title": "The JUBAP Framework",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-jubap-framework",
+      "original": "https://jubap.eu/the-jubap-framework/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "autoridad",
+        "control-minimo",
+        "decision",
+        "documentacion",
+        "economia",
+        "perspectiva"
+      ],
+      "summary": "El marco combina el cambio de nivel de observación de UP con el filtro de acciones de JUMP. Las preguntas sobre participación, desbloqueo, movimiento observable y propagación ayudan a elegir por dónde empezar.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-f2e4ace78fdbc4aded",
+      "tagWeights": {
+        "autoridad": 0.1539,
+        "control-minimo": 0.1539,
+        "decision": 0.2308,
+        "documentacion": 0.1538,
+        "economia": 0.1538,
+        "perspectiva": 0.1538
+      },
+      "contextTokens": 152,
+      "distance": 2,
+      "parent": "E2",
+      "routeEdge": "navigation:position-nav-E2-E1628",
+      "affinity": 1
+    },
+    {
+      "id": "E1731",
+      "type": "ficha",
+      "title": "Reframing Value Creation",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-reframing",
+      "original": "https://jubap.eu/reframing-value-creation/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "casos",
+        "control-minimo",
+        "decision",
+        "documentacion",
+        "economia",
+        "empresa",
+        "perspectiva"
+      ],
+      "summary": "El cambio de marco permite reconocer valor que ya existe en recursos, prácticas y relaciones. Una intervención puede comenzar por reorganizar esas capacidades y darles una forma que la organización pueda usar.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-4998b3d102aa89fd7f",
+      "tagWeights": {
+        "casos": 0.1053,
+        "control-minimo": 0.1053,
+        "decision": 0.1053,
+        "documentacion": 0.1053,
+        "economia": 0.1052,
+        "empresa": 0.2105,
+        "perspectiva": 0.2631
+      },
+      "contextTokens": 154,
+      "distance": 2,
+      "parent": "E2",
+      "routeEdge": "navigation:position-nav-E2-E1731",
+      "affinity": 1
+    },
+    {
+      "id": "E1630",
+      "type": "ficha",
+      "title": "Case Study: HT",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-ht-e1630/",
+      "original": "https://jubap.eu/human-transformation/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "capacidad-humana",
+        "casos",
+        "perspectiva"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-543b0477030043bc1a",
+      "tagWeights": {
+        "capacidad-humana": 0.2222,
+        "casos": 0.5556,
+        "perspectiva": 0.2222
+      },
+      "contextTokens": 79,
+      "distance": 3,
+      "parent": "E1628",
+      "routeEdge": "documento:R005",
+      "affinity": 1
+    },
+    {
+      "id": "E1633",
+      "type": "ficha",
+      "title": "Case Study: AICM",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-aicm-e1633/",
+      "original": "https://jubap.eu/aicm-mexico-city-airport-transformation/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "casos",
+        "control-minimo",
+        "integridad-ia",
+        "movilidad",
+        "perspectiva"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-af1a95d4ae4382fede",
+      "tagWeights": {
+        "casos": 0.2941,
+        "control-minimo": 0.1765,
+        "integridad-ia": 0.1177,
+        "movilidad": 0.2941,
+        "perspectiva": 0.1176
+      },
+      "contextTokens": 107,
+      "distance": 3,
+      "parent": "E1628",
+      "routeEdge": "documento:R002",
+      "affinity": 1
+    }
+  ],
+  "edges": [
+    {
+      "id": "contiene:doc-63aa9c575ad7473553-entrada:E2",
+      "from": "doc-63aa9c575ad7473553-entrada",
+      "to": "E2",
+      "kind": "ficha del documento",
+      "reading": "Esta ficha abre la lectura desde el documento de origen.",
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-E2-E1221",
+      "from": "E2",
+      "to": "E1221",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «JubAp.EU», el enlace «Last articles» abre «Field Notes».",
+      "evidence": "https://jubap.eu/",
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-E2-E1628",
+      "from": "E2",
+      "to": "E1628",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «JubAp.EU», el enlace «Jump Up Business Action Plan» abre «The JUBAP Framework».",
+      "evidence": "https://jubap.eu/",
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-E2-E1731",
+      "from": "E2",
+      "to": "E1731",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «JubAp.EU», el enlace «strategic-reframing account» abre «Reframing Value Creation».",
+      "evidence": "https://jubap.eu/",
+      "route": true
+    },
+    {
+      "id": "documento:R005",
+      "from": "E1628",
+      "to": "E1630",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Human transformation: the perspective engine](https://jubap.eu/human-transformation/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:R002",
+      "from": "E1628",
+      "to": "E1633",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The AICM transformation programme](https://jubap.eu/aicm-mexico-city-airport-transformation/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:D066",
+      "from": "E1633",
+      "to": "E1630",
+      "kind": "documented use",
+      "reading": "The AICM programme explicitly describes an adapted JUBAP route; the human-transformation article explains the perspective mechanism without establishing that every technique was used there.",
+      "evidence": null,
+      "route": false
+    },
+    {
+      "id": "documento:R007",
+      "from": "E1633",
+      "to": "E1731",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Strategic reframing of an existing capability base](https://jubap.eu/reframing-value-creation/).",
+      "evidence": null,
+      "route": false
+    },
+    {
+      "id": "documento:R022",
+      "from": "E1731",
+      "to": "E1633",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [AICM: reframing the workforce as strategic capacity](https://jubap.eu/aicm-mexico-city-airport-transformation/).",
+      "evidence": null,
+      "route": false
+    },
+    {
+      "id": "documento:np-r21",
+      "from": "E1628",
+      "to": "E1731",
+      "kind": "aplicación",
+      "reading": "La ampliación del marco orienta la búsqueda de capacidades ya disponibles.",
+      "evidence": null,
+      "route": false
+    }
+  ],
+  "selection": [
+    {
+      "id": "E2",
+      "type": "ficha",
+      "title": "JubAp.EU",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/jubap-eu-e2/",
+      "original": "https://jubap.eu/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "decision",
+        "empresa",
+        "navegacion",
+        "perspectiva",
+        "transformacion"
+      ],
+      "summary": "JubAp.eu supports high-stakes socio-technical transformations where technology, operating model or organizational decisions define long-term viability.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-63aa9c575ad7473553",
+      "tagWeights": {
+        "decision": 0.1,
+        "empresa": 0.45,
+        "navegacion": 0.05,
+        "perspectiva": 0.15,
+        "transformacion": 0.25
+      },
+      "contextTokens": 115,
+      "distance": 1,
+      "parent": "doc-63aa9c575ad7473553-entrada",
+      "routeEdge": null,
+      "affinity": 1
+    },
+    {
+      "id": "E1221",
+      "type": "ficha",
+      "title": "Field Notes",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/field-notes-e1221/",
+      "original": "https://jubap.eu/field-notes/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "navegacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-bd9004cfedb4291c84",
+      "tagWeights": {
+        "navegacion": 1
+      },
+      "contextTokens": 56,
+      "distance": 2,
+      "parent": "E2",
+      "routeEdge": "navigation:position-nav-E2-E1221",
+      "affinity": 1
+    },
+    {
+      "id": "E1628",
+      "type": "ficha",
+      "title": "The JUBAP Framework",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-jubap-framework",
+      "original": "https://jubap.eu/the-jubap-framework/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "autoridad",
+        "control-minimo",
+        "decision",
+        "documentacion",
+        "economia",
+        "perspectiva"
+      ],
+      "summary": "El marco combina el cambio de nivel de observación de UP con el filtro de acciones de JUMP. Las preguntas sobre participación, desbloqueo, movimiento observable y propagación ayudan a elegir por dónde empezar.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-f2e4ace78fdbc4aded",
+      "tagWeights": {
+        "autoridad": 0.1539,
+        "control-minimo": 0.1539,
+        "decision": 0.2308,
+        "documentacion": 0.1538,
+        "economia": 0.1538,
+        "perspectiva": 0.1538
+      },
+      "contextTokens": 152,
+      "distance": 2,
+      "parent": "E2",
+      "routeEdge": "navigation:position-nav-E2-E1628",
+      "affinity": 1
+    },
+    {
+      "id": "E1731",
+      "type": "ficha",
+      "title": "Reframing Value Creation",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-reframing",
+      "original": "https://jubap.eu/reframing-value-creation/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "casos",
+        "control-minimo",
+        "decision",
+        "documentacion",
+        "economia",
+        "empresa",
+        "perspectiva"
+      ],
+      "summary": "El cambio de marco permite reconocer valor que ya existe en recursos, prácticas y relaciones. Una intervención puede comenzar por reorganizar esas capacidades y darles una forma que la organización pueda usar.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-4998b3d102aa89fd7f",
+      "tagWeights": {
+        "casos": 0.1053,
+        "control-minimo": 0.1053,
+        "decision": 0.1053,
+        "documentacion": 0.1053,
+        "economia": 0.1052,
+        "empresa": 0.2105,
+        "perspectiva": 0.2631
+      },
+      "contextTokens": 154,
+      "distance": 2,
+      "parent": "E2",
+      "routeEdge": "navigation:position-nav-E2-E1731",
+      "affinity": 1
+    },
+    {
+      "id": "E1630",
+      "type": "ficha",
+      "title": "Case Study: HT",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-ht-e1630/",
+      "original": "https://jubap.eu/human-transformation/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "capacidad-humana",
+        "casos",
+        "perspectiva"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-543b0477030043bc1a",
+      "tagWeights": {
+        "capacidad-humana": 0.2222,
+        "casos": 0.5556,
+        "perspectiva": 0.2222
+      },
+      "contextTokens": 79,
+      "distance": 3,
+      "parent": "E1628",
+      "routeEdge": "documento:R005",
+      "affinity": 1
+    },
+    {
+      "id": "E1633",
+      "type": "ficha",
+      "title": "Case Study: AICM",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-aicm-e1633/",
+      "original": "https://jubap.eu/aicm-mexico-city-airport-transformation/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "casos",
+        "control-minimo",
+        "integridad-ia",
+        "movilidad",
+        "perspectiva"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-af1a95d4ae4382fede",
+      "tagWeights": {
+        "casos": 0.2941,
+        "control-minimo": 0.1765,
+        "integridad-ia": 0.1177,
+        "movilidad": 0.2941,
+        "perspectiva": 0.1176
+      },
+      "contextTokens": 107,
+      "distance": 3,
+      "parent": "E1628",
+      "routeEdge": "documento:R002",
+      "affinity": 1
+    }
+  ],
+  "reading": "# Posicionamiento · JubAp.EU\nDocumento de origen: https://jubap.eu/\n\n## JubAp.EU\nJubAp.eu supports high-stakes socio-technical transformations where technology, operating model or organizational decisions define long-term viability.\nEtiquetas: Decisiones y responsabilidad 10.00%; Empresa y gestión 45.00%; Índices, contacto y políticas 5.00%; Cambio de perspectiva 15.00%; Transformación y continuidad operativa 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-eu-e2/\nDocumento de origen: https://jubap.eu/\n\nJubAp.EU → Field Notes · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «Last articles» abre «Field Notes».\nFuente de la relación: https://jubap.eu/\n\n## Field Notes\n\nEtiquetas: Índices, contacto y políticas 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/field-notes-e1221/\nDocumento de origen: https://jubap.eu/field-notes/\n\nJubAp.EU → The JUBAP Framework · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «Jump Up Business Action Plan» abre «The JUBAP Framework».\nFuente de la relación: https://jubap.eu/\n\n## The JUBAP Framework\nEl marco combina el cambio de nivel de observación de UP con el filtro de acciones de JUMP. Las preguntas sobre participación, desbloqueo, movimiento observable y propagación ayudan a elegir por dónde empezar.\nEtiquetas: Autoridad, permisos y delegación 15.39%; Control mínimo y suficiencia 15.39%; Decisiones y responsabilidad 23.08%; Investigación y documentación técnica 15.38%; Economía, costes y liquidez 15.38%; Cambio de perspectiva 15.38%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-jubap-framework\nDocumento de origen: https://jubap.eu/the-jubap-framework/\n\nJubAp.EU → Reframing Value Creation · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «strategic-reframing account» abre «Reframing Value Creation».\nFuente de la relación: https://jubap.eu/\n\n## Reframing Value Creation\nEl cambio de marco permite reconocer valor que ya existe en recursos, prácticas y relaciones. Una intervención puede comenzar por reorganizar esas capacidades y darles una forma que la organización pueda usar.\nEtiquetas: Casos de uso y aplicaciones 10.53%; Control mínimo y suficiencia 10.53%; Decisiones y responsabilidad 10.53%; Investigación y documentación técnica 10.53%; Economía, costes y liquidez 10.52%; Empresa y gestión 21.05%; Cambio de perspectiva 26.31%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-reframing\nDocumento de origen: https://jubap.eu/reframing-value-creation/\n\nThe JUBAP Framework → Case Study: HT · editorial comparison. For a complementary reading, see [Human transformation: the perspective engine](https://jubap.eu/human-transformation/).\n\n## Case Study: HT\n\nEtiquetas: Capacidad humana y deuda de inteligencia 22.22%; Casos de uso y aplicaciones 55.56%; Cambio de perspectiva 22.22%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-study-ht-e1630/\nDocumento de origen: https://jubap.eu/human-transformation/\n\nThe JUBAP Framework → Case Study: AICM · editorial comparison. For a complementary reading, see [The AICM transformation programme](https://jubap.eu/aicm-mexico-city-airport-transformation/).\n\n## Case Study: AICM\n\nEtiquetas: Casos de uso y aplicaciones 29.41%; Control mínimo y suficiencia 17.65%; Integridad y seguridad de IA 11.77%; Movilidad e infraestructura 29.41%; Cambio de perspectiva 11.76%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-study-aicm-e1633/\nDocumento de origen: https://jubap.eu/aicm-mexico-city-airport-transformation/\n\n"
+}

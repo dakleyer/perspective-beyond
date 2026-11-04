@@ -1,0 +1,74 @@
+{
+  "id": "D-026",
+  "type": "ficha",
+  "title": "Arnoldo: carácter, humor y confianza",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-026",
+  "documentId": "doc-41f3a410d217128630",
+  "sourceIds": [],
+  "tagWeights": {
+    "decision": 1.0
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Arnoldo: carácter, humor y confianza\nINTERLOCUTOR — Detengámonos en Arnoldo. ¿Cómo era él cuando se cerraba la puerta del despacho?\nIVÁN —\nCon cierta diplomacia le expliqué a Arnoldo la situación, aunque él, en realidad, ya estaba perfectamente al tanto. Arnoldo tenía el aire de un capitán de siete mares. Había nacido rico, luego se hizo pobre, luego rico de nuevo… pero en aquel entonces solo soñaba con dejar la empresa e irse con su barco a Cancún a descansar.\nSin embargo, estaba atrapado en tierra seca. Tenía un palacio prácticamente del tamaño de una montaña, pero al no vender el negocio a tiempo, pasaba los días encerrado en su despacho, con una cola continua de personas que venían a verlo. No había gestión de visitas: cualquiera podía ponerse a esperar. Empleados, amigos, familia —mucha familia— pidiendo favores; adversarios, chismosos de todo tipo. \n—No puedo tirarme ni un pedo —decía.\nINTERLOCUTOR — ¿Cómo funcionaba esa forma suya de dirigir, controlando y contrastando todo?\nIVÁN —\nSu estilo de gestión podría describirse como un micro-management estratégico. Daba la misma instrucción a varias personas y contrastaba los resultados. No podía evitarlo; no conocía otro modo. Delegar demasiado era peligroso en un entorno donde, independientemente del beneficio generado, la expansión constante requería solicitar más créditos, operar con fideicomisos interpuestos, y asumir que cualquier incidente mal atendido podía significar perder un contrato, un embargo de cuentas o una demanda judicial.\nAmigo de la vida, trataba de disfrutar al máximo cada conversación. Quizás pensaba: “Si cuento muchos chistes en mis reuniones, los que están afuera en la cola se desesperarán y se irán”. \nLuego probó con la meditación y el Feng Shui. Bajito y barrigón, fue tomando con los años un aire a lo señor Miyagi de Karate kid, con frases de sabiduría simple y directa, adaptadas al México profundo.\nEtiquetas: Decisiones y responsabilidad 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-026\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20Deteng%C3%A1monos%20en%20Arnoldo.%20%C2%BFC%C3%B3mo%20era%20%C3%A9l%20cuando%20se%20cerraba\n\n",
+  "tokens": 558,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-026:dg-trust",
+      "to": "dg-trust",
+      "title": "Confianza y equipos",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 186,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-trust.json"
+    },
+    {
+      "id": "apoyo:D-026:dg-care",
+      "to": "dg-care",
+      "title": "Responsabilidad humana",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 208,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-care.json"
+    },
+    {
+      "id": "documento:dg-118",
+      "to": "D-022",
+      "title": "Papantla: confianza, territorio y personas",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Responsabilidad humana».",
+      "relationTokens": 32,
+      "fichaTokens": 500,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-022.json"
+    },
+    {
+      "id": "documento:dg-119",
+      "to": "D-034",
+      "title": "Tuzla y Sarajevo: conocer la guerra desde dentro",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Responsabilidad humana».",
+      "relationTokens": 33,
+      "fichaTokens": 438,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-034.json"
+    },
+    {
+      "id": "documento:dg-153",
+      "to": "D-027",
+      "title": "Lo que queda en la voz de Arnoldo",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Confianza y equipos».",
+      "relationTokens": 33,
+      "fichaTokens": 577,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-027.json"
+    }
+  ]
+}

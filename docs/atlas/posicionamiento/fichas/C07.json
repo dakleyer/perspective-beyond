@@ -1,0 +1,151 @@
+{
+  "id": "C07",
+  "type": "concepto",
+  "title": "Poda segura de búsqueda",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/safe-search-pruning/",
+  "documentId": null,
+  "sourceIds": [
+    "E1954",
+    "GH059",
+    "N1833",
+    "E1654",
+    "T1475"
+  ],
+  "tagWeights": {
+    "agentes": 0.0167,
+    "autoridad": 0.0167,
+    "capacidad-humana": 0.048,
+    "casos": 0.0855,
+    "control-minimo": 0.1591,
+    "decision": 0.1911,
+    "documentacion": 0.0724,
+    "economia": 0.024,
+    "empresa": 0.087,
+    "evidencia": 0.1141,
+    "memoria-territorio": 0.0634,
+    "movilidad": 0.0833,
+    "transformacion": 0.0387
+  },
+  "clusters": [
+    "eu",
+    "mobility",
+    "net",
+    "research",
+    "tegrity"
+  ],
+  "context": "## Poda segura de búsqueda\nA demonstrated feasibility property can rule out candidates before evaluation.\nEtiquetas: Agentes y coordinación distribuida 1.67%; Autoridad, permisos y delegación 1.67%; Capacidad humana y deuda de inteligencia 4.80%; Casos de uso y aplicaciones 8.55%; Control mínimo y suficiencia 15.91%; Decisiones y responsabilidad 19.11%; Investigación y documentación técnica 7.24%; Economía, costes y liquidez 2.40%; Empresa y gestión 8.70%; Evidencia, procedencia y atribución 11.41%; Memoria, comunidad y territorio 6.34%; Movilidad e infraestructura 8.33%; Transformación y continuidad operativa 3.87%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/safe-search-pruning/\n\n",
+  "tokens": 180,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:E1954:C07",
+      "to": "E1954",
+      "title": "Car Evolution Mobility OS – Product Annex",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 117,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1954.json"
+    },
+    {
+      "id": "apoyo:GH059:C07",
+      "to": "GH059",
+      "title": "Código de calificación exacta",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 144,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH059.json"
+    },
+    {
+      "id": "apoyo:N1833:C07",
+      "to": "N1833",
+      "title": "Phylons dynamic combinations",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 117,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1833.json"
+    },
+    {
+      "id": "apoyo:E1654:C07",
+      "to": "E1654",
+      "title": "Case Study: Rationalization in Luxury",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 119,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1654.json"
+    },
+    {
+      "id": "apoyo:T1475:C07",
+      "to": "T1475",
+      "title": "Attribution Gap Measurement Protocol",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 132,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1475.json"
+    },
+    {
+      "id": "concepto:D004",
+      "to": "C08",
+      "title": "Retiro de aplicaciones",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "The distinction between safe pruning and heuristic ranking clarifies why application retirement requires its own evidence.",
+      "relationTokens": 32,
+      "fichaTokens": 177,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C08.json"
+    },
+    {
+      "id": "concepto:D007",
+      "to": "C03",
+      "title": "Reparación acotada",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "Residual-focused search could complement Mobility OS repair by revisiting only the part whose validity has changed.",
+      "relationTokens": 36,
+      "fichaTokens": 185,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C03.json"
+    },
+    {
+      "id": "concepto:M025",
+      "to": "C69",
+      "title": "Evidencia de contribución",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "A safe search-pruning rule does not justify treating low usage or recognition as evidence that a business capability is dispensable.",
+      "relationTokens": 39,
+      "fichaTokens": 289,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C69.json"
+    },
+    {
+      "id": "concepto:G059",
+      "to": "C25",
+      "title": "Suficiencia para una decisión",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "A pruning guard should preserve the exact conditions supporting rejection; rounding must not turn inconsistent evidence into a certificate that removes a valid candidate.",
+      "relationTokens": 43,
+      "fichaTokens": 293,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C25.json"
+    },
+    {
+      "id": "concepto:B511",
+      "to": "G27",
+      "title": "xSeil y problemas de asignación",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 93,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G27.json"
+    }
+  ]
+}

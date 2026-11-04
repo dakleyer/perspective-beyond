@@ -1,0 +1,86 @@
+{
+  "id": "D-027",
+  "type": "ficha",
+  "title": "Lo que queda en la voz de Arnoldo",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-027",
+  "documentId": "doc-41f3a410d217128630",
+  "sourceIds": [],
+  "tagWeights": {
+    "decision": 0.4,
+    "memoria-territorio": 0.6
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Lo que queda en la voz de Arnoldo\nINTERLOCUTOR — ¿Qué te dijo Arnoldo que todavía puedes oír con su voz?\nIVÁN —\nSabía perfectamente lo que valían 500 millones o 50 pesos y se adecuaba al contexto:\n—¡Eso es un chingo de lana!\nSin embargo, nunca cuestionó ni uno solo de mis presupuestos. Sospecho que incluso le gustaba entregarme los cheques. Otra frase suya que Carmen nunca olvidó:\n—Dile a ese cabrón que te compre una casa.\nINTERLOCUTOR — ¿Cómo recuerdas su muerte y aquella última batalla profesional juntos?\nIVÁN —\nArnoldo murió joven cuándo el cáncer de páncreas se añadió a la cola de sus visitantes imprevistos.\nAquella sería nuestra última batalla juntos, y esta vez, le propuse extender la intervención no solo a TETSA, sino también a Petróleos Mexicanos usando sus influencias. Por un lado, yo estaba tratando de preparar mi estrategia de salida de TETSA hacia futuros proyectos y por otro, no se podía cambiar el sistema interno sin implicar una porción del entramado PEMEX. Es difícil para un europeo hacerse una idea de lo que ello significa porque no existe nada comparable. Aquí no existen empresas para-estatales como ejes neurálgicos de la economía y el gobierno. Hablamos de que solo sus contribuciones al estado representaban la mitad del presupuesto federal de la octava economía del mundo. No es solo una empresa sino de un auténtico sistema-país. Las “ciudades PEMEX” no eran una metáfora: eran sistemas urbanos reales donde cada mañana miles de empresas contratistas y centenares de miles de trabajadores se movían en una sinfonía organizada con procesos casi completamente analógicos, o en el mejor de los casos, usando Excel. Vaya, un milagro de ingeniería orquestado con ofimática doméstica.\nDiseñé mi labor como consultor principal, coordinando algunos consultores y empresas externas que acabaron formando parte del equipo. Habían distintos workstreams —reingeniería, certificación, integración de departamentos—.\nEtiquetas: Decisiones y responsabilidad 40.00%; Memoria, comunidad y territorio 60.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-027\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20%C2%BFQu%C3%A9%20te%20dijo%20Arnoldo%20que%20todav%C3%ADa%20puedes%20o%C3%ADr%20con\n\n",
+  "tokens": 577,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-027:dg-trust",
+      "to": "dg-trust",
+      "title": "Confianza y equipos",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 186,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-trust.json"
+    },
+    {
+      "id": "apoyo:D-027:dg-legacy",
+      "to": "dg-legacy",
+      "title": "Memoria y legado",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 126,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-legacy.json"
+    },
+    {
+      "id": "documento:dg-020",
+      "to": "D-001",
+      "title": "Dos familias, varios oficios, una convergencia",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Memoria y legado».",
+      "relationTokens": 36,
+      "fichaTokens": 470,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-001.json"
+    },
+    {
+      "id": "documento:dg-021",
+      "to": "D-042",
+      "title": "David: la vida cambia de escala",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Memoria y legado».",
+      "relationTokens": 32,
+      "fichaTokens": 336,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-042.json"
+    },
+    {
+      "id": "documento:dg-153",
+      "to": "D-026",
+      "title": "Arnoldo: carácter, humor y confianza",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Confianza y equipos».",
+      "relationTokens": 33,
+      "fichaTokens": 558,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-026.json"
+    },
+    {
+      "id": "documento:dg-154",
+      "to": "D-030",
+      "title": "Las personas que sostuvieron el cambio",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Confianza y equipos».",
+      "relationTokens": 32,
+      "fichaTokens": 490,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-030.json"
+    }
+  ]
+}

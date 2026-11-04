@@ -1,0 +1,74 @@
+{
+  "id": "C05",
+  "type": "concepto",
+  "title": "Compromiso indivisible",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/indivisible-commitment/",
+  "documentId": null,
+  "sourceIds": [
+    "N1803",
+    "E1563"
+  ],
+  "tagWeights": {
+    "autoridad": 0.125,
+    "casos": 0.0667,
+    "control-minimo": 0.0667,
+    "decision": 0.1916,
+    "memoria-territorio": 0.1916,
+    "movilidad": 0.1667,
+    "mundo-abierto": 0.0667,
+    "representacion": 0.125
+  },
+  "clusters": [
+    "eu",
+    "net"
+  ],
+  "context": "## Compromiso indivisible\nA group or obligation may have to be assigned as a unit.\nEtiquetas: Autoridad, permisos y delegación 12.50%; Casos de uso y aplicaciones 6.67%; Control mínimo y suficiencia 6.67%; Decisiones y responsabilidad 19.16%; Memoria, comunidad y territorio 19.16%; Movilidad e infraestructura 16.67%; Mundo abierto e indeterminación 6.67%; Representación y límites formales 12.50%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/indivisible-commitment/\n\n",
+  "tokens": 131,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:N1803:C05",
+      "to": "N1803",
+      "title": "xSeil VRP",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 111,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1803.json"
+    },
+    {
+      "id": "apoyo:E1563:C05",
+      "to": "E1563",
+      "title": "Event Intelligence",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 15,
+      "fichaTokens": 92,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1563.json"
+    },
+    {
+      "id": "concepto:D003",
+      "to": "C06",
+      "title": "Compatibilidad global",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "The atomic-group distinction in transport offers a useful lens for defining indivisible commitments in luxury events.",
+      "relationTokens": 32,
+      "fichaTokens": 234,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C06.json"
+    },
+    {
+      "id": "concepto:B509",
+      "to": "G27",
+      "title": "xSeil y problemas de asignación",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 93,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G27.json"
+    }
+  ]
+}

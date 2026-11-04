@@ -1,0 +1,108 @@
+{
+  "id": "D-101",
+  "type": "ficha",
+  "title": "La incomodidad que una solución puede fabricar",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-101",
+  "documentId": "doc-789a0989f8a47b018e",
+  "sourceIds": [],
+  "tagWeights": {
+    "economia": 0.5,
+    "perspectiva": 0.5
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## La incomodidad que una solución puede fabricar\nINTERLOCUTOR (pregunta editorial) — ¿Todo servicio nuevo resuelve una necesidad que existía antes de venderlo?\nLECTURA DEL DIÁLOGO (síntesis editorial) — La imagen de las rotondas es un argumento cultural, no una anécdota vial ni una prueba de que toda obra sea inútil. Iván describe desde la Vall d’Uixó rutas que parecen directas desde la montaña y que en la práctica se vuelven sucesiones de rotondas, pueblos semejantes y decorados casi de Barbie. La rotonda funciona como metáfora de una época que confundió administrar el movimiento con decidir el destino: todo señalizado, ordenado, repetible, con poca necesidad de preguntar quién sostiene el decorado. Sobre esa base introduce una sospecha más dura: una solución técnica puede multiplicar fricciones y necesidades de mantenimiento hasta convertirlas en trabajo y dependencia normalizados. No dice que las rotondas causen por sí solas ese proceso; denuncia el salto intelectual por el que un mecanismo local se vuelve ideología de organización social.\nEtiquetas: Economía, costes y liquidez 50.00%; Cambio de perspectiva 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-101\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-101.html\n\n",
+  "tokens": 306,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-101:dg-perspective",
+      "to": "dg-perspective",
+      "title": "Nueva Perspectiva",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 190,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-perspective.json"
+    },
+    {
+      "id": "apoyo:D-101:dg-options",
+      "to": "dg-options",
+      "title": "Libertad y opciones",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 192,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-options.json"
+    },
+    {
+      "id": "apoyo:D-101:dg-economy",
+      "to": "dg-economy",
+      "title": "Economía y escasez",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 239,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-economy.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-186-D-101",
+      "to": "D-186",
+      "title": "Una maison puede esperar a la Generación Z y descubrir que ya no existe en su imaginación",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Una maison puede esperar a la Generación Z y descubrir que ya no existe en su imaginación» con «La incomodidad que una solución puede fabricar».",
+      "relationTokens": 70,
+      "fichaTokens": 435,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-186.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-200-D-101",
+      "to": "D-200",
+      "title": "Salir de un mercado puede costar más que entrar en él",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Salir de un mercado puede costar más que entrar en él» con «La incomodidad que una solución puede fabricar».",
+      "relationTokens": 58,
+      "fichaTokens": 380,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-200.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-101-D-063",
+      "to": "D-063",
+      "title": "Cuando el dinero reduce las opciones",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Libertad y opciones, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 46,
+      "fichaTokens": 379,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-063.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-101-D-048",
+      "to": "D-048",
+      "title": "El coste de multiplicar proyectos",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Libertad y opciones, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 46,
+      "fichaTokens": 521,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-048.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-101-D-197",
+      "to": "D-197",
+      "title": "El mercado puede crear escasez donde antes había abundancia",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Libertad y opciones, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 52,
+      "fichaTokens": 395,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-197.json"
+    }
+  ]
+}

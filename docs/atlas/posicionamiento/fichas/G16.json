@@ -1,0 +1,104 @@
+{
+  "id": "G16",
+  "type": "concepto",
+  "title": "Hipótesis H1–H6",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/hypotheses-h1h6/",
+  "documentId": null,
+  "sourceIds": [
+    "GH025"
+  ],
+  "tagWeights": {
+    "autoridad": 0.087,
+    "cartografia": 0.0869,
+    "control-minimo": 0.2609,
+    "decision": 0.1739,
+    "documentacion": 0.1739,
+    "experimentacion": 0.1739,
+    "integridad-ia": 0.0435
+  },
+  "clusters": [
+    "research"
+  ],
+  "context": "## Hipótesis H1–H6\nThe research contract separates hypotheses to be examined from requirements imposed on an architecture.\nEtiquetas: Autoridad, permisos y delegación 8.70%; Cartografía y señales de ecosistema 8.69%; Control mínimo y suficiencia 26.09%; Decisiones y responsabilidad 17.39%; Investigación y documentación técnica 17.39%; Experimentación, falsación y contraejemplos 17.39%; Integridad y seguridad de IA 4.35%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/hypotheses-h1h6/\n\n",
+  "tokens": 131,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH025:G16",
+      "to": "GH025",
+      "title": "Canonical Requirements: S1–S14, Sufficiency Conditions, Hypotheses and KPIs",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 35,
+      "fichaTokens": 247,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH025.json"
+    },
+    {
+      "id": "concepto:B447",
+      "to": "G17",
+      "title": "Benchmarks DDS y ablaciones",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 204,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G17.json"
+    },
+    {
+      "id": "concepto:B448",
+      "to": "C47",
+      "title": "Comparación justa",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 204,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C47.json"
+    },
+    {
+      "id": "concepto:B449",
+      "to": "C49",
+      "title": "Modelo mínimo de caso",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 231,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C49.json"
+    },
+    {
+      "id": "concepto:B450",
+      "to": "G20",
+      "title": "Escalera de evidencia y madurez",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 78,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G20.json"
+    },
+    {
+      "id": "concepto:B453",
+      "to": "G17",
+      "title": "Benchmarks DDS y ablaciones",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 204,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G17.json"
+    },
+    {
+      "id": "concepto:B543",
+      "to": "G34",
+      "title": "Industry Reference Group (IRG)",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 91,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G34.json"
+    }
+  ]
+}

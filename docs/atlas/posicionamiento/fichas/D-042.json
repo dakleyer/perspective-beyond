@@ -1,0 +1,109 @@
+{
+  "id": "D-042",
+  "type": "ficha",
+  "title": "David: la vida cambia de escala",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-042",
+  "documentId": "doc-41f3a410d217128630",
+  "sourceIds": [],
+  "tagWeights": {
+    "decision": 0.2222,
+    "geopolitica": 0.4445,
+    "memoria-territorio": 0.3333
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## David: la vida cambia de escala\nINTERLOCUTOR — Catorce años después de Bosnia, introduces otra escena absolutamente personal. ¿Qué recuerdas del nacimiento de David?\nIVÁN —\nDAVID\n14 años después me encontraba en el Hospital Santa Elena, en poza rica, una ciudad pemex más en el caliente veracruz. Me disponía a dar la bienvenida a este mundo a nuestro primer hijo David. La valiente y siempre hermosa Carmen, al otro lado de una cortina azul que no le dejaba ver que la estaban partiendo en dos. Una cesárea del todo innecesaria. David salió de su abdomen y nos miramos por un instante: “Ah! No sabía que eras tú! viejo amigo” Mi mente se llenó por completo con aquella frase por alguna razón. Sentí claramente que conocía a aquella persona desde hacía mucho tiempo, que ya habíamos vivido miles de aventuras juntos y que otras tantas estaban aún por llegar.\nEtiquetas: Decisiones y responsabilidad 22.22%; Geopolítica y fronteras 44.45%; Memoria, comunidad y territorio 33.33%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-042\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20Catorce%20a%C3%B1os%20despu%C3%A9s%20de%20Bosnia%2C%20introduces%20otra%20escena%20absolutamente\n\n",
+  "tokens": 336,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-042:dg-care",
+      "to": "dg-care",
+      "title": "Responsabilidad humana",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 208,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-care.json"
+    },
+    {
+      "id": "apoyo:D-042:dg-legacy",
+      "to": "dg-legacy",
+      "title": "Memoria y legado",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 126,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-legacy.json"
+    },
+    {
+      "id": "documento:dg-021",
+      "to": "D-027",
+      "title": "Lo que queda en la voz de Arnoldo",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Memoria y legado».",
+      "relationTokens": 32,
+      "fichaTokens": 577,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-027.json"
+    },
+    {
+      "id": "documento:dg-022",
+      "to": "D-074",
+      "title": "Genaro, Buil y la prudencia ante las fuentes",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Memoria y legado».",
+      "relationTokens": 35,
+      "fichaTokens": 400,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-074.json"
+    },
+    {
+      "id": "documento:dg-123",
+      "to": "D-040",
+      "title": "La guerra contada por las personas",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Responsabilidad humana».",
+      "relationTokens": 29,
+      "fichaTokens": 570,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-040.json"
+    },
+    {
+      "id": "documento:dg-124",
+      "to": "D-045",
+      "title": "Comunidades y consecuencias de la industria",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Responsabilidad humana».",
+      "relationTokens": 29,
+      "fichaTokens": 586,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-045.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-042-D-077",
+      "to": "D-077",
+      "title": "Preguntas abiertas: infancia, familia y raíces",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Memoria y legado, Responsabilidad humana desde las situaciones que describe cada texto.",
+      "relationTokens": 45,
+      "fichaTokens": 326,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-077.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-042-D-119",
+      "to": "D-119",
+      "title": "1898: una historia de pérdidas y de oficios, no de gloria imperial",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Memoria y legado, Responsabilidad humana desde las situaciones que describe cada texto.",
+      "relationTokens": 53,
+      "fichaTokens": 321,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-119.json"
+    }
+  ]
+}

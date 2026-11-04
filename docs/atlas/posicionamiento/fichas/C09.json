@@ -1,0 +1,111 @@
+{
+  "id": "C09",
+  "type": "concepto",
+  "title": "Ampliación de observación",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/observation-expansion/",
+  "documentId": null,
+  "sourceIds": [
+    "E1554",
+    "N1801",
+    "E1560",
+    "T1522"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.0635,
+    "autoridad": 0.0385,
+    "control-minimo": 0.0375,
+    "decision": 0.1492,
+    "empresa": 0.2979,
+    "evidencia": 0.0742,
+    "movilidad": 0.1786,
+    "representacion": 0.0714,
+    "transformacion": 0.0892
+  },
+  "clusters": [
+    "eu",
+    "net",
+    "tegrity"
+  ],
+  "context": "## Ampliación de observación\nAcquire a signal or source that could change a specific decision.\nEtiquetas: Aprendizaje y transmisión de capacidades 6.35%; Autoridad, permisos y delegación 3.85%; Control mínimo y suficiencia 3.75%; Decisiones y responsabilidad 14.92%; Empresa y gestión 29.79%; Evidencia, procedencia y atribución 7.42%; Movilidad e infraestructura 17.86%; Representación y límites formales 7.14%; Transformación y continuidad operativa 8.92%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/observation-expansion/\n\n",
+  "tokens": 140,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:E1554:C09",
+      "to": "E1554",
+      "title": "Japan Enterprise Architecture Function",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 107,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1554.json"
+    },
+    {
+      "id": "apoyo:N1801:C09",
+      "to": "N1801",
+      "title": "xSeil Functionality Analisis",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 78,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1801.json"
+    },
+    {
+      "id": "apoyo:E1560:C09",
+      "to": "E1560",
+      "title": "Supply Chain Rationalization & Process Mining",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 101,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1560.json"
+    },
+    {
+      "id": "apoyo:T1522:C09",
+      "to": "T1522",
+      "title": "About Cats, Boxes and Enterprise Management Decisions",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 104,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1522.json"
+    },
+    {
+      "id": "concepto:D008",
+      "to": "C10",
+      "title": "Observabilidad del proceso",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "Evidence-gated widening offers a design question for process discovery: when does another data source materially change the decision?",
+      "relationTokens": 37,
+      "fichaTokens": 235,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C10.json"
+    },
+    {
+      "id": "concepto:D026",
+      "to": "C31",
+      "title": "Información constitutiva",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "Classifying what is missing can prevent a repository project from repeatedly asking for facts that no authority has yet established.",
+      "relationTokens": 37,
+      "fichaTokens": 242,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C31.json"
+    },
+    {
+      "id": "concepto:B393",
+      "to": "G03",
+      "title": "Mundo, registro y contexto perdido",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 155,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G03.json"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "D-034",
+  "type": "ficha",
+  "title": "Tuzla y Sarajevo: conocer la guerra desde dentro",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-034",
+  "documentId": "doc-41f3a410d217128630",
+  "sourceIds": [],
+  "tagWeights": {
+    "decision": 0.1111,
+    "geopolitica": 0.8889
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Tuzla y Sarajevo: conocer la guerra desde dentro\nINTERLOCUTOR — ¿Cómo eran las personas y los lugares que encontraste entre Tuzla y Sarajevo?\nIVÁN —\nUnos días más tarde, llegué a Tuzla. Me alojé en la universidad. Los estudiantes seguían allí desde hacía años, muchos sin noticias de sus familias. Me preguntaban una y otra vez si había comunicación con tal o cual ciudad. Mi sueño era que aquel encuentro internacional que había sido suspendido por la guerra pudiera celebrarse finalmente, uniendo a jóvenes bosnios, croatas, serbios, musulmanes. Pero entendí que, en ese momento, no estaban preparados. No hacía falta ir hasta allí para darse cuenta, pero pensé que si ellos me veían llegar quizás perderían el miedo. Al otro lado había alguien de verdad dispuesto a escucharlos.\nDesde allí, viajé a Sarajevo. Me alojé en casa de un lugareño, y al día siguiente vi que un grupo de un organismo internacional que llegaba al famoso Hotel Holiday Inn, el mismo que había albergado a los periodistas durante la guerra, en la Avenida de los Francotiradores. Me puse en la cola, obtuve una habitación, nadie hizo preguntas. Desde allí llamé a casa. “Papá, estoy en Sarajevo”. No recuerdo qué me respondió.\nLo mejor de aquellos viajes era la desconexión. La sensación de estar completamente allí. Sentirme independiente. Por primera vez, no tenía una nube de opiniones ajenas flotando sobre mis decisiones. Era liberador.\nEtiquetas: Decisiones y responsabilidad 11.11%; Geopolítica y fronteras 88.89%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-034\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20%C2%BFC%C3%B3mo%20eran%20las%20personas%20y%20los%20lugares%20que%20encontraste\n\n",
+  "tokens": 438,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-034:dg-geopolitics",
+      "to": "dg-geopolitics",
+      "title": "Geopolítica vivida",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 138,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-geopolitics.json"
+    },
+    {
+      "id": "apoyo:D-034:dg-care",
+      "to": "dg-care",
+      "title": "Responsabilidad humana",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 208,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-care.json"
+    },
+    {
+      "id": "documento:dg-119",
+      "to": "D-026",
+      "title": "Arnoldo: carácter, humor y confianza",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Responsabilidad humana».",
+      "relationTokens": 33,
+      "fichaTokens": 558,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-026.json"
+    },
+    {
+      "id": "documento:dg-120",
+      "to": "D-036",
+      "title": "El cuerpo, la noche y el peligro",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Responsabilidad humana».",
+      "relationTokens": 34,
+      "fichaTokens": 426,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-036.json"
+    },
+    {
+      "id": "documento:dg-169",
+      "to": "D-033",
+      "title": "Entrar en Bosnia sin un plan",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Geopolítica vivida».",
+      "relationTokens": 34,
+      "fichaTokens": 565,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-033.json"
+    },
+    {
+      "id": "documento:dg-170",
+      "to": "D-037",
+      "title": "Miedo, valentía y búsqueda",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Geopolítica vivida».",
+      "relationTokens": 35,
+      "fichaTokens": 518,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-037.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-034-D-040",
+      "to": "D-040",
+      "title": "La guerra contada por las personas",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Geopolítica vivida, Responsabilidad humana desde las situaciones que describe cada texto.",
+      "relationTokens": 48,
+      "fichaTokens": 570,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-040.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-034-D-119",
+      "to": "D-119",
+      "title": "1898: una historia de pérdidas y de oficios, no de gloria imperial",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Geopolítica vivida, Responsabilidad humana desde las situaciones que describe cada texto.",
+      "relationTokens": 58,
+      "fichaTokens": 321,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-119.json"
+    }
+  ]
+}

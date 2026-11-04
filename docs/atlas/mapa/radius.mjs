@@ -69,7 +69,7 @@ export function calculate(graph, request) {
   const center=resolveCenter(graph,request.centro);
   const nodes=new Map(graph.nodes.map(node=>[node.id,node]));
   const affinity=new Map(graph.nodes.map(node=>[
-    node.id,request.pesos.reduce((score,peso)=>score+(node.tags.includes(peso.tag)?peso.normalized:0),0)
+    node.id,request.pesos.reduce((score,peso)=>score+(node.tagWeights?.[peso.tag]??(node.tags.includes(peso.tag)?1:0))*peso.normalized,0)
   ]));
   const matches=id=>!request.solo||affinity.get(id)>0;
   const typeAllowed=id=>request.red==='ideas'||nodes.get(id).type==='ficha';

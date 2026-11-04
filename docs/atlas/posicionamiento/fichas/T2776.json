@@ -1,0 +1,185 @@
+{
+  "id": "T2776",
+  "type": "ficha",
+  "title": "When the Controls Work but the System Fails",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/when-the-controls-work-but-the-system-fails-t2776/",
+  "documentId": "doc-fe7bbe6341559decaf",
+  "sourceIds": [],
+  "tagWeights": {
+    "cartografia": 0.5,
+    "integridad-ia": 0.5
+  },
+  "clusters": [
+    "tegrity"
+  ],
+  "context": "## When the Controls Work but the System Fails\n\nEtiquetas: Cartografía y señales de ecosistema 50.00%; Integridad y seguridad de IA 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/when-the-controls-work-but-the-system-fails-t2776/\nDocumento de origen: https://tegrity.ai/when-the-controls-work-but-the-system-fails/\n\n",
+  "tokens": 87,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:T2776:C45",
+      "to": "C45",
+      "title": "Fallo de composición",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 240,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C45.json"
+    },
+    {
+      "id": "apoyo:T2776:C80",
+      "to": "C80",
+      "title": "Resultado upstream independiente",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 241,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C80.json"
+    },
+    {
+      "id": "apoyo:T2776:C81",
+      "to": "C81",
+      "title": "Frontera de integridad operacional",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 228,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C81.json"
+    },
+    {
+      "id": "apoyo:T2776:G05",
+      "to": "G05",
+      "title": "Ecosystem Awareness (EA)",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 152,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G05.json"
+    },
+    {
+      "id": "apoyo:T2776:G36",
+      "to": "G36",
+      "title": "Fallo composicional de controles locales",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 245,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G36.json"
+    },
+    {
+      "id": "documento:F019",
+      "to": "T389",
+      "title": "From Complicated to Complex: The AI Safety Paradox",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "Component-level compliance does not establish ecosystem-level integrity when independently governed actors compose their decisions under changing conditions.",
+      "relationTokens": 45,
+      "fichaTokens": 80,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T389.json"
+    },
+    {
+      "id": "documento:A040",
+      "to": "U1325",
+      "title": "Case Study: DMG MORI — Multilevel Post-Merger Integration, International Supply Chain Control & Mission-Critical Industrial Delivery (2013 – 2016)",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "Industrial delivery is complete only when the composed chain supports customer production readiness; passing each local control does not establish that end-to-end outcome.",
+      "relationTokens": 75,
+      "fichaTokens": 167,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1325.json"
+    },
+    {
+      "id": "documento:B039",
+      "to": "L009",
+      "title": "¿Quién controla a quién? Cuando los agentes de inteligencia artificial comenzaron a actuar por su cuenta",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "The case raises a composition question: locally plausible actions can still require a system-level check of relationships, authority and changed context.",
+      "relationTokens": 57,
+      "fichaTokens": 159,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/L009.json"
+    },
+    {
+      "id": "documento:R098",
+      "to": "N1822",
+      "title": "xSeil agentic features",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [When locally valid controls do not establish global sufficiency](https://tegrity.ai/when-the-controls-work-but-the-system-fails/).",
+      "relationTokens": 55,
+      "fichaTokens": 75,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1822.json"
+    },
+    {
+      "id": "documento:R132",
+      "to": "N1283",
+      "title": "Tiger Teams Model and AI Integrity Management Systems",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The system-level limits of locally correct controls](https://tegrity.ai/when-the-controls-work-but-the-system-fails/).",
+      "relationTokens": 55,
+      "fichaTokens": 97,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1283.json"
+    },
+    {
+      "id": "documento:R166",
+      "to": "T389",
+      "title": "From Complicated to Complex: The AI Safety Paradox",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Six constructed system-level failure scenarios](https://tegrity.ai/when-the-controls-work-but-the-system-fails/).",
+      "relationTokens": 56,
+      "fichaTokens": 80,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T389.json"
+    },
+    {
+      "id": "documento:R204",
+      "to": "T2931",
+      "title": "Summary — When the Controls Work but the System Fails",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [A concise summary of the Ecosystem Awareness case](https://tegrity.ai/when-the-controls-work-but-the-system-fails-summary/).",
+      "relationTokens": 60,
+      "fichaTokens": 79,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2931.json"
+    },
+    {
+      "id": "documento:R205",
+      "to": "T2931",
+      "title": "Summary — When the Controls Work but the System Fails",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The full foundation article](https://tegrity.ai/when-the-controls-work-but-the-system-fails/).",
+      "relationTokens": 54,
+      "fichaTokens": 79,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2931.json"
+    },
+    {
+      "id": "documento:R220",
+      "to": "T3083",
+      "title": "From Endured Dependence to Chosen Solidarity",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The Ecosystem Awareness foundation and its limits](https://tegrity.ai/when-the-controls-work-but-the-system-fails/).",
+      "relationTokens": 57,
+      "fichaTokens": 88,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T3083.json"
+    },
+    {
+      "id": "documento:R226",
+      "to": "N2086",
+      "title": "From Frontier Engineering to Ecosystem Awareness — Twenty Years of Architectural Continuity",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The Ecosystem Awareness foundation article](https://tegrity.ai/when-the-controls-work-but-the-system-fails/).",
+      "relationTokens": 59,
+      "fichaTokens": 117,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N2086.json"
+    }
+  ]
+}

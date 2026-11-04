@@ -1,0 +1,63 @@
+{
+  "id": "E1956",
+  "type": "ficha",
+  "title": "Car Evolution Mobility OS – Competition",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-competition-e1956/",
+  "documentId": "doc-cd532553a03b05d052",
+  "sourceIds": [],
+  "tagWeights": {
+    "movilidad": 1.0
+  },
+  "clusters": [
+    "mobility"
+  ],
+  "context": "## Car Evolution Mobility OS – Competition\n\nEtiquetas: Movilidad e infraestructura 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-competition-e1956/\nDocumento de origen: https://jubap.eu/mobility/competition/\n\n",
+  "tokens": 64,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:E1956:C47",
+      "to": "C47",
+      "title": "Comparación justa",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 204,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C47.json"
+    },
+    {
+      "id": "apoyo:E1956:C50",
+      "to": "C50",
+      "title": "Estado de una afirmación",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 295,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C50.json"
+    },
+    {
+      "id": "documento:M045",
+      "to": "T2788",
+      "title": "Annex 2 — Plausibility and Technological Comparison",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "Positioning can compare problem classes, while any performance claim requires its own matched task, competent baseline and executed evidence.",
+      "relationTokens": 45,
+      "fichaTokens": 98,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2788.json"
+    },
+    {
+      "id": "documento:R151",
+      "to": "N1803",
+      "title": "xSeil VRP",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The industrial rich-VRP problem definition](https://jubap.net/xseil-vrp/).",
+      "relationTokens": 43,
+      "fichaTokens": 111,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1803.json"
+    }
+  ]
+}

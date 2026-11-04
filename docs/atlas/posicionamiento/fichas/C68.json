@@ -1,0 +1,112 @@
+{
+  "id": "C68",
+  "type": "concepto",
+  "title": "Madurez observable",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/observable-maturity/",
+  "documentId": null,
+  "sourceIds": [
+    "L006",
+    "N1276",
+    "E1636",
+    "T2799"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.101,
+    "autoridad": 0.1136,
+    "casos": 0.0714,
+    "decision": 0.0682,
+    "documentacion": 0.1786,
+    "empresa": 0.1389,
+    "evidencia": 0.101,
+    "memoria-territorio": 0.0682,
+    "transformacion": 0.1591
+  },
+  "clusters": [
+    "eu",
+    "latinoempresa",
+    "net",
+    "tegrity"
+  ],
+  "context": "## Madurez observable\nRepeated practice and learning provide evidence of maturity.\nEtiquetas: Aprendizaje y transmisión de capacidades 10.10%; Autoridad, permisos y delegación 11.36%; Casos de uso y aplicaciones 7.14%; Decisiones y responsabilidad 6.82%; Investigación y documentación técnica 17.86%; Empresa y gestión 13.89%; Evidencia, procedencia y atribución 10.10%; Memoria, comunidad y territorio 6.82%; Transformación y continuidad operativa 15.91%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/observable-maturity/\n\n",
+  "tokens": 134,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:L006:C68",
+      "to": "L006",
+      "title": "Instituciones de frontera: Cuando emprender es construir un puente entre mundos.",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 149,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/L006.json"
+    },
+    {
+      "id": "apoyo:N1276:C68",
+      "to": "N1276",
+      "title": "Tiger Team Maturity Model",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 16,
+      "fichaTokens": 100,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1276.json"
+    },
+    {
+      "id": "apoyo:E1636:C68",
+      "to": "E1636",
+      "title": "Nestlé North America — Where JUBAP Was Named",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 144,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1636.json"
+    },
+    {
+      "id": "apoyo:T2799:C68",
+      "to": "T2799",
+      "title": "Annex 5 — Six Positive Paths and Quality Plans",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 95,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2799.json"
+    },
+    {
+      "id": "concepto:D033",
+      "to": "C38",
+      "title": "Aprendizaje interno repetible",
+      "direction": "entrante",
+      "kind": "documented use",
+      "reading": "The Nestlé account describes codification and internal facilitator training, practices that can be compared with repeatability and learning in the maturity model.",
+      "relationTokens": 41,
+      "fichaTokens": 191,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C38.json"
+    },
+    {
+      "id": "concepto:M013",
+      "to": "C50",
+      "title": "Estado de una afirmación",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "Maturity claims become more inspectable when each transition is tied to observable execution, exception handling and handover evidence.",
+      "relationTokens": 36,
+      "fichaTokens": 295,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C50.json"
+    },
+    {
+      "id": "concepto:B030",
+      "to": "C105",
+      "title": "Legitimidad en ambos lados de una interfaz",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "The maturity model could make the institutional claim more inspectable by asking which practices, memory and responsibilities continue beyond an individual intervention.",
+      "relationTokens": 42,
+      "fichaTokens": 164,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C105.json"
+    }
+  ]
+}

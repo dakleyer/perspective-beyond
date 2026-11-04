@@ -1,0 +1,98 @@
+{
+  "id": "D-096",
+  "type": "ficha",
+  "title": "Ventanas semánticas: pronosticar sin cerrar la incertidumbre",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-096",
+  "documentId": "doc-57214ce74a1d938618",
+  "sourceIds": [],
+  "tagWeights": {
+    "casos": 0.3334,
+    "decision": 0.3333,
+    "matematicas": 0.3333
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Ventanas semánticas: pronosticar sin cerrar la incertidumbre\nINTERLOCUTOR (pregunta editorial) — ¿Podemos representar trayectorias posibles sin obligar a que cada estado encaje en una categoría rígida?\nLECTURA DEL DIÁLOGO (síntesis editorial) — La «ventana semántica» no es simplemente una ventana móvil o una partición difusa de estados. Iván la definió como el contexto histórico **mínimo, consistente y puro respecto de un régimen** que permite distinguir la continuación de ese régimen de una transición estructural. Si se toma una ventana fija que mezcla datos anteriores y posteriores al cambio, se contamina la línea de base y el pronóstico puede parecer preciso mientras responde a dos mundos incompatibles. Su exploración de conjuntos difusos, entropía y predicción busca representar fronteras de contexto sin fingir que están dadas de antemano. El desafío práctico es descubrir cuándo hay información suficiente para emitir una inferencia y cuándo el propio contexto dejó de ser aplicable. Los contrastes retrospectivos son un punto de partida; la prueba fuera de muestra y la ventaja sobre métodos comparables siguen abiertas.\nEtiquetas: Casos de uso y aplicaciones 33.34%; Decisiones y responsabilidad 33.33%; Matemáticas 33.33%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-096\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-096.html\n\n",
+  "tokens": 322,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-096:dg-math",
+      "to": "dg-math",
+      "title": "Pensamiento matemático",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 177,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-math.json"
+    },
+    {
+      "id": "apoyo:D-096:dg-decision",
+      "to": "dg-decision",
+      "title": "Decisiones entre escenarios",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 169,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-decision.json"
+    },
+    {
+      "id": "apoyo:D-096:dg-doubt",
+      "to": "dg-doubt",
+      "title": "Duda, pruebas y conocimiento corregible",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 258,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-doubt.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-266-D-096",
+      "to": "D-266",
+      "title": "¿Y si el punto de partida fuera lo no definible?",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «¿Y si el punto de partida fuera lo no definible?» con «Ventanas semánticas: pronosticar sin cerrar la incertidumbre». Permite contrastar Pensamiento matemático, Duda, pruebas y conocimiento corregible.",
+      "relationTokens": 87,
+      "fichaTokens": 406,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-266.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-096-D-097",
+      "to": "D-097",
+      "title": "Tres observaciones que no caben en una decisión",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Pensamiento matemático, Duda, pruebas y conocimiento corregible desde las situaciones que describe cada texto.",
+      "relationTokens": 63,
+      "fichaTokens": 298,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-097.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-096-D-110",
+      "to": "D-110",
+      "title": "El valor de elegir entre escenarios casi eficientes",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Pensamiento matemático desde las situaciones que describe cada texto.",
+      "relationTokens": 52,
+      "fichaTokens": 350,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-110.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-096-D-052",
+      "to": "D-052",
+      "title": "xSeil: mostrar alternativas, no una orden",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Pensamiento matemático desde las situaciones que describe cada texto.",
+      "relationTokens": 54,
+      "fichaTokens": 546,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-052.json"
+    }
+  ]
+}

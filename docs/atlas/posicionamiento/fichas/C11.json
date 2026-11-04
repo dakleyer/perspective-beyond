@@ -1,0 +1,193 @@
+{
+  "id": "C11",
+  "type": "concepto",
+  "title": "Tiempo del hecho y del conocimiento",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/event-time-and-knowledge-time/",
+  "documentId": null,
+  "sourceIds": [
+    "N1835",
+    "U1322",
+    "N1289",
+    "T2799",
+    "GH012",
+    "GH066"
+  ],
+  "tagWeights": {
+    "agentes": 0.0397,
+    "casos": 0.0873,
+    "control-minimo": 0.0079,
+    "documentacion": 0.1865,
+    "economia": 0.0303,
+    "empresa": 0.1789,
+    "evidencia": 0.3582,
+    "experimentacion": 0.0079,
+    "matematicas": 0.0318,
+    "mundo-abierto": 0.0397,
+    "representacion": 0.0318
+  },
+  "clusters": [
+    "net",
+    "research",
+    "tegrity",
+    "us"
+  ],
+  "context": "## Tiempo del hecho y del conocimiento\nSeparate when an event occurred from when its evidence became available.\nEtiquetas: Agentes y coordinación distribuida 3.97%; Casos de uso y aplicaciones 8.73%; Control mínimo y suficiencia 0.79%; Investigación y documentación técnica 18.65%; Economía, costes y liquidez 3.03%; Empresa y gestión 17.89%; Evidencia, procedencia y atribución 35.82%; Experimentación, falsación y contraejemplos 0.79%; Matemáticas 3.18%; Mundo abierto e indeterminación 3.97%; Representación y límites formales 3.18%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/event-time-and-knowledge-time/\n\n",
+  "tokens": 163,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:N1835:C11",
+      "to": "N1835",
+      "title": "Phylons relabeling cascades",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 74,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1835.json"
+    },
+    {
+      "id": "apoyo:U1322:C11",
+      "to": "U1322",
+      "title": "Case Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 116,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1322.json"
+    },
+    {
+      "id": "apoyo:N1289:C11",
+      "to": "N1289",
+      "title": "Information Management as Operational Tracking",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 88,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1289.json"
+    },
+    {
+      "id": "apoyo:T2799:C11",
+      "to": "T2799",
+      "title": "Annex 5 — Six Positive Paths and Quality Plans",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 95,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2799.json"
+    },
+    {
+      "id": "apoyo:GH012:C11",
+      "to": "GH012",
+      "title": "Structural Awareness — Collective Residual Intersection and Event-Triggered Promotion",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 214,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH012.json"
+    },
+    {
+      "id": "apoyo:GH066:C11",
+      "to": "GH066",
+      "title": "Dual-time, provenance-bound certificate contract — SA-O2/O5 → EA review",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 180,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH066.json"
+    },
+    {
+      "id": "concepto:D009",
+      "to": "C12",
+      "title": "Procedencia auditable",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "Event time and knowledge time should remain distinct when reconstructing an audit decision.",
+      "relationTokens": 30,
+      "fichaTokens": 276,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C12.json"
+    },
+    {
+      "id": "concepto:M017",
+      "to": "C12",
+      "title": "Procedencia auditable",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "Operational tracking can preserve both the decision-time view and the later corrected view instead of silently replacing one with the other.",
+      "relationTokens": 38,
+      "fichaTokens": 276,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C12.json"
+    },
+    {
+      "id": "concepto:M026",
+      "to": "C47",
+      "title": "Comparación justa",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "A fair replay should reveal late evidence only when it became available and score the original decision separately from its later repair.",
+      "relationTokens": 37,
+      "fichaTokens": 204,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C47.json"
+    },
+    {
+      "id": "concepto:G012",
+      "to": "C115",
+      "title": "Registro previo a admisión y promoción posterior",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "Event-triggered promotion can be compared retrospectively with relabeling cascades, provided event identity and the times of capture, knowledge and reinterpretation remain distinct.",
+      "relationTokens": 51,
+      "fichaTokens": 154,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C115.json"
+    },
+    {
+      "id": "concepto:G066",
+      "to": "C122",
+      "title": "Validez histórica y validez al uso",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "A later rule may support historical reinterpretation while being expired or unauthorized for a new action; event time and current-use validity must be checked separately.",
+      "relationTokens": 48,
+      "fichaTokens": 94,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C122.json"
+    },
+    {
+      "id": "concepto:B514",
+      "to": "G28",
+      "title": "Phylons y reconstrucción temporal",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 104,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G28.json"
+    },
+    {
+      "id": "concepto:B631",
+      "to": "G52",
+      "title": "Weatherford / trazabilidad de proveedor",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 83,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G52.json"
+    },
+    {
+      "id": "concepto:P21",
+      "to": "G28",
+      "title": "Phylons y reconstrucción temporal",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 104,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G28.json"
+    }
+  ]
+}

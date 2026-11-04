@@ -1,0 +1,88 @@
+{
+  "id": "D-190",
+  "type": "ficha",
+  "title": "No llamemos economía de la información a una industria que todavía consume tanta energía",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-190",
+  "documentId": "doc-f2a6c3717b850096c1",
+  "sourceIds": [],
+  "tagWeights": {
+    "aprendizaje": 0.381,
+    "economia": 0.2857,
+    "empresa": 0.2381,
+    "movilidad": 0.0952
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## No llamemos economía de la información a una industria que todavía consume tanta energía\nINTERLOCUTOR (pregunta editorial, no pronunciada necesariamente) — ¿Ha sustituido la información a la base material, o solamente la coordina mejor?\nREFLEXIÓN DE LA CONVERSACIÓN (reconstrucción cotejada, no literal) — La objeción de Iván no era negar el peso económico de los datos. Era desconfiar de una historia demasiado ordenada: agricultura, industria, consumo, información. El consumo no apareció como una fuente de energía o una infraestructura autosuficiente; puede entenderse también como una forma de absorber y orientar la enorme capacidad de producción industrial. Y lo que hoy llamamos economía de la información continúa apoyado en redes eléctricas, semiconductores, centros de datos, minerales, transporte, refrigeración y capital físico.\n\nLa IA está produciendo rentas, valor de coordinación y nuevas maneras de explotar sistemas complejos. Pero ¿eso prueba ya un régimen productivo autónomo? Iván ensayó una analogía deliberadamente abierta: quizá estamos explorando minas de un recurso comparable al carbón antes de que la Revolución Industrial reorganizara toda la sociedad. Encontrar una mina rentable no significa que el cambio de régimen esté consumado.\n\nLa distinción no se resuelve por vocabulario. Habría que separar capacidad de cómputo, valor generado por mejor coordinación, coste energético total y transformaciones reales de productividad. La tesis fuerte es que la inteligencia no elimina su soporte termodinámico: lo organiza, lo comprime o lo aprovecha.\nEtiquetas: Aprendizaje y transmisión de capacidades 38.10%; Economía, costes y liquidez 28.57%; Empresa y gestión 23.81%; Movilidad e infraestructura 9.52%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-190\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-190.html\n\n",
+  "tokens": 422,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-190:dg-economy",
+      "to": "dg-economy",
+      "title": "Economía y escasez",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 239,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-economy.json"
+    },
+    {
+      "id": "apoyo:D-190:dg-infra",
+      "to": "dg-infra",
+      "title": "Infraestructura habilitadora",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 161,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-infra.json"
+    },
+    {
+      "id": "apoyo:D-190:dg-structure",
+      "to": "dg-structure",
+      "title": "Conciencia estructural",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 256,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-structure.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-190-D-095",
+      "to": "D-095",
+      "title": "Capacidad informacional, complejidad y exergía",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «No llamemos economía de la información a una industria que todavía consume tanta energía» con «Capacidad informacional, complejidad y exergía». Permite contrastar Economía y escasez, Conciencia estructural.",
+      "relationTokens": 85,
+      "fichaTokens": 350,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-095.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-190-D-100",
+      "to": "D-100",
+      "title": "¿Cuánto cuesta saber lo suficiente para decidir?",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «No llamemos economía de la información a una industria que todavía consume tanta energía» con «¿Cuánto cuesta saber lo suficiente para decidir?». Permite contrastar Economía y escasez.",
+      "relationTokens": 76,
+      "fichaTokens": 311,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-100.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-190-D-135",
+      "to": "D-135",
+      "title": "El mercado es también una tecnología de coordinación",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «No llamemos economía de la información a una industria que todavía consume tanta energía» con «El mercado es también una tecnología de coordinación». Permite contrastar Economía y escasez, Infraestructura habilitadora, Conciencia estructural.",
+      "relationTokens": 83,
+      "fichaTokens": 282,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-135.json"
+    }
+  ]
+}

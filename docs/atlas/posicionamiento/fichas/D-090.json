@@ -1,0 +1,87 @@
+{
+  "id": "D-090",
+  "type": "ficha",
+  "title": "Ágoras pequeñas para encuentros que importan",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-090",
+  "documentId": "doc-d3ac3029f5c418e0f6",
+  "sourceIds": [],
+  "tagWeights": {
+    "decision": 0.25,
+    "empresa": 0.5,
+    "movilidad": 0.25
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Ágoras pequeñas para encuentros que importan\nINTERLOCUTOR (pregunta editorial) — ¿Y si la tecnología ayudara a que dos personas se encuentren cuando tiene sentido, sin exigirles crear una empresa o hacerse famosas?\nLECTURA DEL DIÁLOGO (síntesis editorial) — No se trataba de otra red social ni de un sistema que premia publicar, recibir likes o escalar un pitch. Iván imaginó una aplicación de «microengagement» asistida por IA que detectara resonancias profundas y propusiera encuentros humanos precisos, de baja frecuencia y alta pertinencia. Su frase operacional sería: «estás en esta fase; te conviene hablar con esta persona; sigue viviendo tu proceso». El contraste con el hackathon es deliberado: no obligar a producir en un fin de semana la empresa que cambiará el mundo. Lo importante no es que la plataforma sepa qué deben decirse o qué resultado han de conseguir, sino que exista el ágora. Iván reconoce que no tiene la solución de esas conversaciones; su apuesta es que un mundo capaz de crear estos encuentros es más fértil que otro sin ellos. Acompañar el proceso sin apropiarse de la idea ni de la relación es parte esencial del diseño.\nEtiquetas: Decisiones y responsabilidad 25.00%; Empresa y gestión 50.00%; Movilidad e infraestructura 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-090\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-090.html\n\n",
+  "tokens": 341,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-090:dg-infra",
+      "to": "dg-infra",
+      "title": "Infraestructura habilitadora",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 161,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-infra.json"
+    },
+    {
+      "id": "apoyo:D-090:dg-trust",
+      "to": "dg-trust",
+      "title": "Confianza y equipos",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 186,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-trust.json"
+    },
+    {
+      "id": "apoyo:D-090:dg-encounters",
+      "to": "dg-encounters",
+      "title": "Encuentros significativos",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 154,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-encounters.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-226-D-090",
+      "to": "D-226",
+      "title": "Solo cuestionas tu marco cuando mantenerlo duele más",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Solo cuestionas tu marco cuando mantenerlo duele más» con «Ágoras pequeñas para encuentros que importan».",
+      "relationTokens": 56,
+      "fichaTokens": 410,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-226.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-248-D-090",
+      "to": "D-248",
+      "title": "El explorador no va a ganar la narración convirtiéndose en influencer",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «El explorador no va a ganar la narración convirtiéndose en influencer» con «Ágoras pequeñas para encuentros que importan».",
+      "relationTokens": 62,
+      "fichaTokens": 409,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-248.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-090-D-127",
+      "to": "D-127",
+      "title": "Los detalles que atraviesan la barrera",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Encuentros significativos, Confianza y equipos desde las situaciones que describe cada texto.",
+      "relationTokens": 49,
+      "fichaTokens": 294,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-127.json"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": "C84",
+  "type": "concepto",
+  "title": "Declaración provisional reversible",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/reversible-provisional-statement/",
+  "documentId": null,
+  "sourceIds": [
+    "N1279",
+    "T1417",
+    "T1415",
+    "U1792"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.1625,
+    "autoridad": 0.0625,
+    "casos": 0.0385,
+    "control-minimo": 0.0625,
+    "decision": 0.1042,
+    "economia": 0.1885,
+    "empresa": 0.0385,
+    "evidencia": 0.0577,
+    "integridad-ia": 0.0416,
+    "memoria-territorio": 0.0384,
+    "representacion": 0.0625,
+    "transformacion": 0.1426
+  },
+  "clusters": [
+    "net",
+    "tegrity",
+    "us"
+  ],
+  "context": "## Declaración provisional reversible\nA bounded working assumption can support investigation before commitment.\nEtiquetas: Aprendizaje y transmisión de capacidades 16.25%; Autoridad, permisos y delegación 6.25%; Casos de uso y aplicaciones 3.85%; Control mínimo y suficiencia 6.25%; Decisiones y responsabilidad 10.42%; Economía, costes y liquidez 18.85%; Empresa y gestión 3.85%; Evidencia, procedencia y atribución 5.77%; Integridad y seguridad de IA 4.16%; Memoria, comunidad y territorio 3.84%; Representación y límites formales 6.25%; Transformación y continuidad operativa 14.26%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/reversible-provisional-statement/\n\n",
+  "tokens": 172,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:N1279:C84",
+      "to": "N1279",
+      "title": "Tiger Team Governance Principles",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 16,
+      "fichaTokens": 100,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1279.json"
+    },
+    {
+      "id": "apoyo:T1417:C84",
+      "to": "T1417",
+      "title": "When You Have to Decide Before You Can Discover",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 91,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1417.json"
+    },
+    {
+      "id": "apoyo:T1415:C84",
+      "to": "T1415",
+      "title": "When Asking the Question Changes the Answer",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 104,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1415.json"
+    },
+    {
+      "id": "apoyo:U1792:C84",
+      "to": "U1792",
+      "title": "Surviving Capability: Why the Field Celebrates What the Theory Condemns",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 158,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1792.json"
+    },
+    {
+      "id": "concepto:F011",
+      "to": "C31",
+      "title": "Información constitutiva",
+      "direction": "entrante",
+      "kind": "documented use",
+      "reading": "A bounded provisional declaration can enable discovery without being mistaken for the binding ownership decision that the investigation is meant to inform.",
+      "relationTokens": 36,
+      "fichaTokens": 242,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C31.json"
+    },
+    {
+      "id": "concepto:F034",
+      "to": "C37",
+      "title": "Activación de misión",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "A focused intervention can begin with a bounded discovery mandate without confusing provisional assumptions with the binding decisions required for production change.",
+      "relationTokens": 36,
+      "fichaTokens": 250,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C37.json"
+    },
+    {
+      "id": "concepto:A031",
+      "to": "C98",
+      "title": "Bloqueo de mapas actual y objetivo",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "A reversible provisional declaration can help discover a route between current and target states, while keeping exploration separate from an irreversible ownership or retirement decision.",
+      "relationTokens": 44,
+      "fichaTokens": 147,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C98.json"
+    },
+    {
+      "id": "concepto:B481",
+      "to": "G22",
+      "title": "Informational Friction / coste de claridad",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 172,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G22.json"
+    }
+  ]
+}

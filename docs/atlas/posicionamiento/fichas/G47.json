@@ -1,0 +1,89 @@
+{
+  "id": "G47",
+  "type": "concepto",
+  "title": "Nestlé North America / origen JUBAP",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/nestle-north-america-and-jubap-origins/",
+  "documentId": null,
+  "sourceIds": [
+    "E1636"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.2222,
+    "empresa": 0.5556,
+    "evidencia": 0.2222
+  },
+  "clusters": [
+    "eu"
+  ],
+  "context": "## Nestlé North America / origen JUBAP\nThe field case records the line from a shift in perspective to coordinated transformation action.\nEtiquetas: Aprendizaje y transmisión de capacidades 22.22%; Empresa y gestión 55.56%; Evidencia, procedencia y atribución 22.22%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/nestle-north-america-and-jubap-origins/\n\n",
+  "tokens": 94,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:E1636:G47",
+      "to": "E1636",
+      "title": "Nestlé North America — Where JUBAP Was Named",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 144,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1636.json"
+    },
+    {
+      "id": "concepto:B607",
+      "to": "G24",
+      "title": "JUBAP / secuencia de intervención",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 143,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G24.json"
+    },
+    {
+      "id": "concepto:B608",
+      "to": "C38",
+      "title": "Aprendizaje interno repetible",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 191,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C38.json"
+    },
+    {
+      "id": "concepto:B609",
+      "to": "C62",
+      "title": "Indicadores de resistencia",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 166,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C62.json"
+    },
+    {
+      "id": "concepto:B610",
+      "to": "C63",
+      "title": "Liberación y análisis causal",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 162,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C63.json"
+    },
+    {
+      "id": "concepto:B611",
+      "to": "G25",
+      "title": "Tiger Teams",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 109,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G25.json"
+    }
+  ]
+}

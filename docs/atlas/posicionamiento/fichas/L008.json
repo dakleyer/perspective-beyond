@@ -1,0 +1,86 @@
+{
+  "id": "L008",
+  "type": "ficha",
+  "title": "GEPLAN – Inteligencia Logística para Entornos Críticos de PEMEX 2006-",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/geplan-inteligencia-logistica-para-entornos-criticos-de-pemex-2006-l008/",
+  "documentId": "doc-f35152ee923d13d99e",
+  "sourceIds": [],
+  "tagWeights": {
+    "evidencia": 0.2857,
+    "movilidad": 0.7143
+  },
+  "clusters": [
+    "latinoempresa"
+  ],
+  "context": "## GEPLAN – Inteligencia Logística para Entornos Críticos de PEMEX 2006-\n\nEtiquetas: Evidencia, procedencia y atribución 28.57%; Movilidad e infraestructura 71.43%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/geplan-inteligencia-logistica-para-entornos-criticos-de-pemex-2006-l008/\nDocumento de origen: https://www.latinoempresa.com/post/tegrity-ai-caso-de-estudio-geplan-inteligencia-logística-para-entornos-críticos-de-pemex-2006\n\n",
+  "tokens": 129,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:L008:C12",
+      "to": "C12",
+      "title": "Procedencia auditable",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 32,
+      "fichaTokens": 276,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C12.json"
+    },
+    {
+      "id": "apoyo:L008:C20",
+      "to": "C20",
+      "title": "Capacidad reutilizable",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 32,
+      "fichaTokens": 254,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C20.json"
+    },
+    {
+      "id": "apoyo:L008:C49",
+      "to": "C49",
+      "title": "Modelo mínimo de caso",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 32,
+      "fichaTokens": 231,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C49.json"
+    },
+    {
+      "id": "apoyo:L008:C54",
+      "to": "C54",
+      "title": "Valor descubierto",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 259,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C54.json"
+    },
+    {
+      "id": "documento:B036",
+      "to": "N864",
+      "title": "GEPLAN – Mission-Critical Logistics Intelligence for PEMEX (2006-)",
+      "direction": "saliente",
+      "kind": "documented use",
+      "reading": "The LatinoEmpresa account supplies further context for the same GEPLAN lineage; the internal case remains the navigation destination, not a separate replication.",
+      "relationTokens": 67,
+      "fichaTokens": 124,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N864.json"
+    },
+    {
+      "id": "documento:B037",
+      "to": "N1265",
+      "title": "JubAp.Net’s GEPLAN Case before SaaS and IoT Revolutions",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "The pre-SaaS note can connect modular delivery with the reported operating-value loop, while keeping released resources distinct from independently verified net returns.",
+      "relationTokens": 68,
+      "fichaTokens": 111,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1265.json"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "dg-media_reality",
+  "type": "concepto",
+  "title": "Producción de realidad mediada",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-media_reality",
+  "documentId": null,
+  "sourceIds": [
+    "D-246"
+  ],
+  "tagWeights": {
+    "aprendizaje": 1.0
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Producción de realidad mediada\nNarrativas cerradas son producidas profesionalmente y pueden responder a incentivos simultáneos de poder, medios y audiencia.\nEtiquetas: Aprendizaje y transmisión de capacidades 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-media_reality\n\n",
+  "tokens": 73,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-246:dg-media_reality",
+      "to": "D-246",
+      "title": "La dictadura perfecta: profesionales que venden una realidad ya montada",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 440,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-246.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-202",
+      "to": "dg-behavior_protocol",
+      "title": "Protocolo conductual de plataformas",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.9",
+      "reading": "La audiencia también responde a incentivos del relato.",
+      "relationTokens": 34,
+      "fichaTokens": 98,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-behavior_protocol.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-203",
+      "to": "dg-frame_change",
+      "title": "Marcos que autorizan opciones y compras",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.9",
+      "reading": "El montaje controla qué opciones y causas parecen disponibles.",
+      "relationTokens": 34,
+      "fichaTokens": 131,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-frame_change.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-204",
+      "to": "dg-civilization_interface",
+      "title": "Interfaces civilizatorias y autoridad",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.9",
+      "reading": "La televisión puede mediar comprensión colectiva.",
+      "relationTokens": 31,
+      "fichaTokens": 106,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-civilization_interface.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-205",
+      "to": "dg-babel_trust",
+      "title": "Babel semántica y economía de la atención",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.9",
+      "reading": "Una explicación verosímil no prueba que sea fiel.",
+      "relationTokens": 39,
+      "fichaTokens": 98,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-babel_trust.json"
+    }
+  ]
+}

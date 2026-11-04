@@ -1,0 +1,108 @@
+{
+  "id": "D-144",
+  "type": "ficha",
+  "title": "Explicar una conducta no elimina automáticamente la responsabilidad",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-144",
+  "documentId": "doc-0db5a9a8653539497b",
+  "sourceIds": [],
+  "tagWeights": {
+    "decision": 0.7778,
+    "integridad-ia": 0.2222
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Explicar una conducta no elimina automáticamente la responsabilidad\nINTERLOCUTOR (pregunta editorial) — Si comprendemos por qué alguien evitó un peligro, ¿eso basta para concluir que no debía actuar de otro modo?\nREFLEXIÓN DEL ESCRITO (síntesis editorial) — La consecuencia ética del cuchillo no se resuelve diciendo que el autoengaño existe. Iván separa cuatro afirmaciones: la persona estaba angustiada; le costaba procesar el riesgo; evitó aprender o comparar porque hacerlo dolía; no es responsable de las consecuencias. Las tres primeras podrían ser verdaderas sin que la cuarta lo sea. Su pregunta decisiva es temporal: ¿qué hizo antes la persona para llegar a no saber aquello que era importante saber? Una disculpa sincera o un bloqueo real en el último instante no borra por sí mismo meses de evitación voluntaria, sobre todo cuando otros dependían de esa decisión. Explicar un mecanismo psicológico sirve para comprender dónde intervenir y para graduar responsabilidad; no para transformar automáticamente la incapacidad de mirar en inocencia.\nEtiquetas: Decisiones y responsabilidad 77.78%; Integridad y seguridad de IA 22.22%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-144\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-144.html\n\n",
+  "tokens": 293,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-144:dg-care",
+      "to": "dg-care",
+      "title": "Responsabilidad humana",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 208,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-care.json"
+    },
+    {
+      "id": "apoyo:D-144:dg-risk",
+      "to": "dg-risk",
+      "title": "Riesgo, seguridad y evitación",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 121,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-risk.json"
+    },
+    {
+      "id": "apoyo:D-144:dg-account",
+      "to": "dg-account",
+      "title": "Responsabilidad y reparación",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 112,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-account.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-277-D-144",
+      "to": "D-277",
+      "title": "Una explicación consciente puede llegar después de la conducta",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Una explicación consciente puede llegar después de la conducta» con «Explicar una conducta no elimina automáticamente la responsabilidad». Permite contrastar Responsabilidad y reparación.",
+      "relationTokens": 61,
+      "fichaTokens": 413,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-277.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-142-D-144",
+      "to": "D-142",
+      "title": "La seguridad que se decide y deja de comprobarse",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Riesgo, seguridad y evitación, Responsabilidad humana desde las situaciones que describe cada texto.",
+      "relationTokens": 51,
+      "fichaTokens": 308,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-142.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-143-D-144",
+      "to": "D-143",
+      "title": "El cuchillo de plástico puede recibir el miedo que no dirigimos al afilado",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Riesgo, seguridad y evitación, Responsabilidad humana desde las situaciones que describe cada texto.",
+      "relationTokens": 58,
+      "fichaTokens": 312,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-143.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-144-D-145",
+      "to": "D-145",
+      "title": "La ignorancia que no se pudo evitar y la que se cultivó",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Responsabilidad y reparación, Riesgo, seguridad y evitación desde las situaciones que describe cada texto.",
+      "relationTokens": 56,
+      "fichaTokens": 311,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-145.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-144-D-154",
+      "to": "D-154",
+      "title": "Pedir perdón modifica el relato; reparar modifica el daño",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Responsabilidad y reparación, Responsabilidad humana desde las situaciones que describe cada texto.",
+      "relationTokens": 50,
+      "fichaTokens": 286,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-154.json"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "D-142",
+  "type": "ficha",
+  "title": "La seguridad que se decide y deja de comprobarse",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-142",
+  "documentId": "doc-947c16289ffe94b103",
+  "sourceIds": [],
+  "tagWeights": {
+    "decision": 0.25,
+    "integridad-ia": 0.75
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## La seguridad que se decide y deja de comprobarse\nINTERLOCUTOR (pregunta editorial) — ¿Es lo mismo tener un riesgo bajo que haber decidido mentalmente que ya no hay riesgo?\nREFLEXIÓN DEL ESCRITO (síntesis editorial) — La paradoja del riesgo binario tiene una escena central: una persona coloca el carrito de un bebé en el paso de peatones antes de comprobar que se aproxima un coche. La obligación jurídica de detenerse del conductor se convierte mentalmente en una garantía física de que se detendrá. Iván observa que, para poder actuar, a menudo simplificamos probabilidades continuas en «seguro» o «inseguro»; después dejamos de mirar las condiciones. Declarar algo seguro puede eliminar precisamente la atención que lo hacía razonablemente seguro; declararlo inseguro puede bloquear una actividad manejable. La conclusión no es calcular obsesivamente cada riesgo, sino aplicar una comprobación mínima y seguir actuando sin negar la incertidumbre. En el texto también conecta este mecanismo con experiencias graves de corrupción policial en México: categorías aprendidas de protección o peligro pueden sobrevivir a evidencias contrarias.\nEtiquetas: Decisiones y responsabilidad 25.00%; Integridad y seguridad de IA 75.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-142\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-142.html\n\n",
+  "tokens": 308,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-142:dg-care",
+      "to": "dg-care",
+      "title": "Responsabilidad humana",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 208,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-care.json"
+    },
+    {
+      "id": "apoyo:D-142:dg-doubt",
+      "to": "dg-doubt",
+      "title": "Duda, pruebas y conocimiento corregible",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 258,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-doubt.json"
+    },
+    {
+      "id": "apoyo:D-142:dg-risk",
+      "to": "dg-risk",
+      "title": "Riesgo, seguridad y evitación",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 121,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-risk.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-118-D-142",
+      "to": "D-118",
+      "title": "Publicar no demuestra que alguien recibió ni actuó",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Responsabilidad humana, Duda, pruebas y conocimiento corregible desde las situaciones que describe cada texto.",
+      "relationTokens": 53,
+      "fichaTokens": 263,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-118.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-142-D-144",
+      "to": "D-144",
+      "title": "Explicar una conducta no elimina automáticamente la responsabilidad",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Riesgo, seguridad y evitación, Responsabilidad humana desde las situaciones que describe cada texto.",
+      "relationTokens": 51,
+      "fichaTokens": 293,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-144.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-142-D-143",
+      "to": "D-143",
+      "title": "El cuchillo de plástico puede recibir el miedo que no dirigimos al afilado",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Riesgo, seguridad y evitación, Responsabilidad humana desde las situaciones que describe cada texto.",
+      "relationTokens": 59,
+      "fichaTokens": 312,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-143.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-142-D-145",
+      "to": "D-145",
+      "title": "La ignorancia que no se pudo evitar y la que se cultivó",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Riesgo, seguridad y evitación, Duda, pruebas y conocimiento corregible desde las situaciones que describe cada texto.",
+      "relationTokens": 61,
+      "fichaTokens": 311,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-145.json"
+    }
+  ]
+}

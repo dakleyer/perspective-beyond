@@ -1,0 +1,53 @@
+{
+  "id": "T1474",
+  "type": "ficha",
+  "title": "Bridge: The Attribution Gap and Capability Loss",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/bridge-the-attribution-gap-and-capability-loss-t1474/",
+  "documentId": "doc-fd9d7feca6d146325c",
+  "sourceIds": [],
+  "tagWeights": {
+    "capacidad-humana": 0.5,
+    "evidencia": 0.5
+  },
+  "clusters": [
+    "tegrity"
+  ],
+  "context": "## Bridge: The Attribution Gap and Capability Loss\n\nEtiquetas: Capacidad humana y deuda de inteligencia 50.00%; Evidencia, procedencia y atribución 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/bridge-the-attribution-gap-and-capability-loss-t1474/\nDocumento de origen: https://tegrity.ai/bridge-the-attribution-gap-and-capability-loss/\n\n",
+  "tokens": 88,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "documento:R184",
+      "to": "T1400",
+      "title": "Measuring Human Intelligence Debt",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The separate Human Intelligence Debt measurement proposal](https://tegrity.ai/meassuring-human-intelligence-debt/).",
+      "relationTokens": 47,
+      "fichaTokens": 145,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1400.json"
+    },
+    {
+      "id": "documento:sac-rel-cb585f3a4c8d02",
+      "to": "GH037",
+      "title": "Annex 01K — Human Capacity / Human Intelligence Debt",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Annex B — Cross-series bridge map» con el rótulo «Attribution Gap ↔ HID».",
+      "relationTokens": 132,
+      "fichaTokens": 264,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH037.json"
+    },
+    {
+      "id": "navigation:position-nav-E2-T1474",
+      "to": "E2",
+      "title": "JubAp.EU",
+      "direction": "entrante",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «JubAp.EU», el enlace «attribution-and-capability bridge» abre «Bridge: The Attribution Gap and Capability Loss».",
+      "relationTokens": 62,
+      "fichaTokens": 115,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E2.json"
+    }
+  ]
+}

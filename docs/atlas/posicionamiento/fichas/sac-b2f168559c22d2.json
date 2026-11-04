@@ -1,0 +1,241 @@
+{
+  "id": "sac-b2f168559c22d2",
+  "type": "ficha",
+  "title": "Annex 00I-A01 — AWS Step Functions / RDS implementation trajectories for Semantic TOCTOU",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-b2f168559c22d2.html",
+  "documentId": "doc-8b4981a832305f6209",
+  "sourceIds": [],
+  "tagWeights": {
+    "cambio-regimen": 0.3334,
+    "documentacion": 0.3333,
+    "transformacion": 0.3333
+  },
+  "clusters": [
+    "research"
+  ],
+  "context": "## Annex 00I-A01 — AWS Step Functions / RDS implementation trajectories for Semantic TOCTOU\nContenido de la fuente: Executive view — three minutes · 1. What each AWS component does — non-specialist reading · 2. Technical architecture and one critical fairness correction.\nEtiquetas: Cambios de régimen y alerta temprana 33.34%; Investigación y documentación técnica 33.33%; Transformación y continuidad operativa 33.33%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-b2f168559c22d2.html\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/64fa9f3d777c30860b92ffa7e4440ef4b7193ca8/research/ecosystem-awareness/baseline/00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md\n\n",
+  "tokens": 203,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "documento:sac-rel-2c2279b60711ff",
+      "to": "GH017",
+      "title": "Ecosystem Positioning",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «What problem this architecture addresses» con el rótulo «AWS Step Functions / Amazon RDS implementation profile».",
+      "relationTokens": 118,
+      "fichaTokens": 261,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH017.json"
+    },
+    {
+      "id": "documento:sac-rel-b002e39be577f1",
+      "to": "sac-e9c094fb344aaa",
+      "title": "Auditoría de conservación — 88 documentos enlazados desde Ecosystem Awareness",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Registro por archivo» con el rótulo «00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md».",
+      "relationTokens": 154,
+      "fichaTokens": 174,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-e9c094fb344aaa.json"
+    },
+    {
+      "id": "documento:sac-rel-838a1616e410eb",
+      "to": "sac-e15a5ba3769d28",
+      "title": "Conservación de contenido — 82 documentos enlazados desde Ecosystem Positioning",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Revisión archivo por archivo» con el rótulo «00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md».",
+      "relationTokens": 156,
+      "fichaTokens": 178,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-e15a5ba3769d28.json"
+    },
+    {
+      "id": "documento:sac-rel-3a6f6b6921e879",
+      "to": "sac-81dd6d86597814",
+      "title": "Deployment Differential Study (DDS) — Canonical Method Index v0.1",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «8. Current DDS profile and support registry» con el rótulo «00I AWS Step Functions/RDS».",
+      "relationTokens": 135,
+      "fichaTokens": 193,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-81dd6d86597814.json"
+    },
+    {
+      "id": "documento:sac-rel-46df0a59fd7685",
+      "to": "sac-f777326c4ffcaf",
+      "title": "Deployment Differential Study (DDS) — Stage A: Specification Discovery / Challenge–Trajectory Profile v0.1",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «11. Stage A examples and global registry» con el rótulo «00I AWS Step Functions/RDS».",
+      "relationTokens": 145,
+      "fichaTokens": 172,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-f777326c4ffcaf.json"
+    },
+    {
+      "id": "documento:sac-rel-a1516313df23f3",
+      "to": "sac-087bbc064c2db1",
+      "title": "DDS Stage A — VNext",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Where each annex leads» con el rótulo «00I_A01_AWS_STEP_FUNCTIONS_RDS».",
+      "relationTokens": 131,
+      "fichaTokens": 218,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-087bbc064c2db1.json"
+    },
+    {
+      "id": "documento:sac-rel-84554539d474ec",
+      "to": "sac-991dbae1df8f3a",
+      "title": "Ecosystem Awareness — entry-point router",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Reference scenarios and executable route» con el rótulo «00I-A01 AWS Step Functions/RDS».",
+      "relationTokens": 117,
+      "fichaTokens": 181,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-991dbae1df8f3a.json"
+    },
+    {
+      "id": "documento:sac-rel-14e5244ba13f74",
+      "to": "sac-71980a714b8b9b",
+      "title": "Reference scenarios — preserved reader route",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Reference scenarios and executable route» con el rótulo «00I-A01 AWS Step Functions/RDS».",
+      "relationTokens": 132,
+      "fichaTokens": 157,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-71980a714b8b9b.json"
+    },
+    {
+      "id": "documento:sac-rel-35b32e04c5523e",
+      "to": "S16",
+      "title": "Visual Guide — Structural / Ecosystem Awareness Corpus",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «5. Reference scenarios and implementation profiles» con el rótulo «00I-A01 AWS».",
+      "relationTokens": 122,
+      "fichaTokens": 208,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/S16.json"
+    },
+    {
+      "id": "documento:sac-rel-8e5c50d7f59513",
+      "to": "sac-a5fd75bedc9aee",
+      "title": "Ecosystem Awareness / Positioning — Living Workplan",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «First positioning fixtures after W2 freeze» con el rótulo «00I-A01 AWS Step Functions / RDS».",
+      "relationTokens": 120,
+      "fichaTokens": 205,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-a5fd75bedc9aee.json"
+    },
+    {
+      "id": "documento:sac-rel-d96d3fde24655c",
+      "to": "GH045",
+      "title": "00I · Freeze Edition",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Annex 00I-A01 — AWS Step Functions / RDS implementation trajectories for Semantic TOCTOU» con el rótulo «00I — Semantic TOCTOU / “The Patch That Undid the Fix” v0.3 Draft».",
+      "relationTokens": 167,
+      "fichaTokens": 200,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH045.json"
+    },
+    {
+      "id": "documento:sac-rel-756a9a3ef88c61",
+      "to": "sac-624690a5e38645",
+      "title": "00I-AWS — implementation skeleton package",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Annex 00I-A01 — AWS Step Functions / RDS implementation trajectories for Semantic TOCTOU» con el rótulo «00I-AWS fixture package».",
+      "relationTokens": 157,
+      "fichaTokens": 129,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-624690a5e38645.json"
+    },
+    {
+      "id": "documento:sac-rel-58a81c77f6e1c0",
+      "to": "sac-81dd6d86597814",
+      "title": "Deployment Differential Study (DDS) — Canonical Method Index v0.1",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Annex 00I-A01 — AWS Step Functions / RDS implementation trajectories for Semantic TOCTOU» con el rótulo «DDS Canonical Method Index».",
+      "relationTokens": 162,
+      "fichaTokens": 193,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-81dd6d86597814.json"
+    },
+    {
+      "id": "documento:sac-rel-ec416ba0359d8b",
+      "to": "sac-f777326c4ffcaf",
+      "title": "Deployment Differential Study (DDS) — Stage A: Specification Discovery / Challenge–Trajectory Profile v0.1",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Annex 00I-A01 — AWS Step Functions / RDS implementation trajectories for Semantic TOCTOU» con el rótulo «Stage A challenge–trajectory contract».",
+      "relationTokens": 169,
+      "fichaTokens": 172,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-f777326c4ffcaf.json"
+    },
+    {
+      "id": "documento:sac-rel-535249ed9e88b2",
+      "to": "GH045",
+      "title": "00I · Freeze Edition",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «00I — Reference Failure Scenario and Quality-Gate Plan: Semantic TOCTOU (\"The Patch That Undid the Fix\")» con el rótulo «00I-A01 — AWS Step Functions / RDS implementation trajectories».",
+      "relationTokens": 156,
+      "fichaTokens": 200,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH045.json"
+    },
+    {
+      "id": "documento:sac-rel-d63e475fe86217",
+      "to": "sac-a1f04a7b0a20c7",
+      "title": "00L-00I — Traza de papel emparejada",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Traza temporal: observación frente a oráculo» con el rótulo «perfil AWS».",
+      "relationTokens": 164,
+      "fichaTokens": 208,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-a1f04a7b0a20c7.json"
+    },
+    {
+      "id": "documento:sac-rel-0ad097df9b1ada",
+      "to": "sac-61b5e17bf4ba4b",
+      "title": "00L-A01 — Inventario de afirmaciones de los nueve perfiles",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Rutas exactas para auditar la procedencia» con el rótulo «AWS Step Functions/RDS v0.2».",
+      "relationTokens": 178,
+      "fichaTokens": 211,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-61b5e17bf4ba4b.json"
+    },
+    {
+      "id": "documento:sac-rel-868a4173eaa780",
+      "to": "sac-c3831fbc3d853f",
+      "title": "Ecosystem Awareness — canonical corpus",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Implementation-profile matrix» con el rótulo «00I-A01 — AWS Step Functions / RDS v0.2 Draft».",
+      "relationTokens": 124,
+      "fichaTokens": 184,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-c3831fbc3d853f.json"
+    },
+    {
+      "id": "documento:sac-rel-4b7574ecb84387",
+      "to": "sac-624690a5e38645",
+      "title": "00I-AWS — implementation skeleton package",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «00I-AWS — implementation skeleton package» con el rótulo «00I-A01 AWS Step Functions / RDS v0.2 Draft».",
+      "relationTokens": 133,
+      "fichaTokens": 129,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-624690a5e38645.json"
+    },
+    {
+      "id": "documento:sac-rel-d52dcb55aea872",
+      "to": "sac-ae5cfdf16d6d42",
+      "title": "Preserved non-canonical working inputs",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Archivo completo de enlaces del corte» con el rótulo «Annex 00I-A01 — AWS Step Functions / RDS implementation trajectories for Semantic TOCTOU».",
+      "relationTokens": 142,
+      "fichaTokens": 175,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-ae5cfdf16d6d42.json"
+    }
+  ]
+}

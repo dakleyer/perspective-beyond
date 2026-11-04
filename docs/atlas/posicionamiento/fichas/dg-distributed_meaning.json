@@ -1,0 +1,154 @@
+{
+  "id": "dg-distributed_meaning",
+  "type": "concepto",
+  "title": "Sentido compartido pero no poseído",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-distributed_meaning",
+  "documentId": null,
+  "sourceIds": [
+    "D-255",
+    "D-256",
+    "D-263",
+    "D-267",
+    "D-298"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.05,
+    "autoridad": 0.0923,
+    "decision": 0.05,
+    "empresa": 0.25,
+    "evidencia": 0.05,
+    "geopolitica": 0.2,
+    "memoria-territorio": 0.1077,
+    "perspectiva": 0.15,
+    "transformacion": 0.05
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Sentido compartido pero no poseído\nEl significado de una empresa, una marca o una institución también vive en las interpretaciones y acuerdos de terceros.\nEtiquetas: Aprendizaje y transmisión de capacidades 5.00%; Autoridad, permisos y delegación 9.23%; Decisiones y responsabilidad 5.00%; Empresa y gestión 25.00%; Evidencia, procedencia y atribución 5.00%; Geopolítica y fronteras 20.00%; Memoria, comunidad y territorio 10.77%; Cambio de perspectiva 15.00%; Transformación y continuidad operativa 5.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-distributed_meaning\n\n",
+  "tokens": 156,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-255:dg-distributed_meaning",
+      "to": "D-255",
+      "title": "Ser dueño del negocio no te hace dueño de la idea que otros tienen de él",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 32,
+      "fichaTokens": 420,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-255.json"
+    },
+    {
+      "id": "apoyo:D-256:dg-distributed_meaning",
+      "to": "D-256",
+      "title": "Diez minutos mirando desde el lugar de otro pueden descubrir lo que la dirección no ve",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 33,
+      "fichaTokens": 418,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-256.json"
+    },
+    {
+      "id": "apoyo:D-263:dg-distributed_meaning",
+      "to": "D-263",
+      "title": "La legitimidad cultural no entra en el inventario de activos que se venden",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 31,
+      "fichaTokens": 384,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-263.json"
+    },
+    {
+      "id": "apoyo:D-267:dg-distributed_meaning",
+      "to": "D-267",
+      "title": "Una constelación de pensamiento contiene clusters conectados, no departamentos cerrados",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 31,
+      "fichaTokens": 405,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-267.json"
+    },
+    {
+      "id": "apoyo:D-298:dg-distributed_meaning",
+      "to": "D-298",
+      "title": "El fuego puede ser compartido como concepto sin tener una palabra común",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 358,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-298.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-225",
+      "to": "dg-trust",
+      "title": "Confianza y equipos",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.10",
+      "reading": "La expectativa de otros crea y limita confianza.",
+      "relationTokens": 32,
+      "fichaTokens": 186,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-trust.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-226",
+      "to": "dg-perspective",
+      "title": "Nueva Perspectiva",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.10",
+      "reading": "Los actores organizan imágenes diferentes del mismo negocio.",
+      "relationTokens": 33,
+      "fichaTokens": 190,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-perspective.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-227",
+      "to": "dg-community",
+      "title": "Comunidades y territorio",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.10",
+      "reading": "El significado patrimonial exige participación y autorización.",
+      "relationTokens": 32,
+      "fichaTokens": 187,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-community.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-228",
+      "to": "dg-federated_custody",
+      "title": "Custodias distribuidas y memoria viva",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.10",
+      "reading": "La custodia no equivale a apropiación cultural.",
+      "relationTokens": 38,
+      "fichaTokens": 128,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-federated_custody.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-273",
+      "to": "dg-transformation_speech",
+      "title": "Transmitir una idea que cambia al interlocutor",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.11",
+      "reading": "El significado también depende del lector.",
+      "relationTokens": 35,
+      "fichaTokens": 73,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-transformation_speech.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-321",
+      "to": "dg-concept_translation",
+      "title": "Fenómeno, concepto y palabra",
+      "direction": "entrante",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "Un mismo hecho puede recibir categorías distintas.",
+      "relationTokens": 33,
+      "fichaTokens": 65,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-concept_translation.json"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "id": "D-005",
+  "type": "ficha",
+  "title": "Escasez, crecimiento y libertad real",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-005",
+  "documentId": "doc-41f3a410d217128630",
+  "sourceIds": [],
+  "tagWeights": {
+    "casos": 0.2,
+    "decision": 0.2,
+    "economia": 0.2,
+    "estandares": 0.4
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Escasez, crecimiento y libertad real\nINTERLOCUTOR (pregunta editorial nueva) — ¿Qué cambia cuando pasas de observar esa escasez a tener que administrar, con otras personas, recursos concretos y limitados?\n\nLECTURA EDITORIAL — En Formación Integral la limitación económica era propia: una idea culturalmente fértil no bastaba para pagar el despliegue elegido. En GEPLAN, las limitaciones eran compartidas: rutas, vehículos, tiempo, información y coordinación de una red industrial. En los trabajos posteriores de planificación reapareció el mismo problema bajo otra forma: no basta con imaginar una mejor configuración; hay que saber si es realizable, quién puede llevarla a cabo y qué pierde o gana cada participante.\n\nEn las conversaciones de octubre de 2026 retomaste esta cuestión al estudiar sociedades y redes organizativas que pueden aumentar su producción y, sin embargo, acumular tareas de coordinación, oportunidades bloqueadas y esfuerzos humanos evitables. La «deuda de inteligencia humana» es una hipótesis de investigación con supuestos y pruebas por contrastar, no una cantidad medida para toda la economía.\n\nLa pregunta económica que atraviesa la vida no es solamente «¿cuánto hemos producido?», sino «¿qué posibilidades reales hemos abierto, para quién y a qué coste?». Esa es una lectura editorial que reúne preguntas planteadas en épocas distintas; no una doctrina que Iván tuviera ya formulada a los catorce años.\nEtiquetas: Casos de uso y aplicaciones 20.00%; Decisiones y responsabilidad 20.00%; Economía, costes y liquidez 20.00%; Estándares e interoperabilidad 40.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-005\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20(pregunta%20editorial%20nueva)%20%E2%80%94%20%C2%BFQu%C3%A9%20cambia%20cuando%20pasas%20de%20observar\n\n",
+  "tokens": 442,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-005:dg-options",
+      "to": "dg-options",
+      "title": "Libertad y opciones",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 192,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-options.json"
+    },
+    {
+      "id": "apoyo:D-005:dg-economy",
+      "to": "dg-economy",
+      "title": "Economía y escasez",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 239,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-economy.json"
+    },
+    {
+      "id": "apoyo:D-005:dg-decision",
+      "to": "dg-decision",
+      "title": "Decisiones entre escenarios",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 169,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-decision.json"
+    },
+    {
+      "id": "documento:dg-045",
+      "to": "D-003",
+      "title": "Independencia: trabajo, cuentas y viajes",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Libertad y opciones».",
+      "relationTokens": 34,
+      "fichaTokens": 539,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-003.json"
+    },
+    {
+      "id": "documento:dg-046",
+      "to": "D-011",
+      "title": "Cuando Nokia cerró: cambiar de rumbo",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Libertad y opciones».",
+      "relationTokens": 33,
+      "fichaTokens": 636,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-011.json"
+    },
+    {
+      "id": "documento:dg-056",
+      "to": "D-004",
+      "title": "La economía como manera de mirar",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Economía y escasez».",
+      "relationTokens": 32,
+      "fichaTokens": 601,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-004.json"
+    },
+    {
+      "id": "documento:dg-057",
+      "to": "D-013",
+      "title": "La escala como promesa y como riesgo",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Economía y escasez».",
+      "relationTokens": 34,
+      "fichaTokens": 658,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-013.json"
+    },
+    {
+      "id": "documento:dg-064",
+      "to": "D-017",
+      "title": "Estar presente y prever consecuencias",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Decisiones entre escenarios».",
+      "relationTokens": 30,
+      "fichaTokens": 449,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-017.json"
+    },
+    {
+      "id": "documento:dg-070",
+      "to": "D-078",
+      "title": "Preguntas abiertas: equipos, errores y decisiones",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Decisiones entre escenarios».",
+      "relationTokens": 33,
+      "fichaTokens": 303,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-078.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-197-D-005",
+      "to": "D-197",
+      "title": "El mercado puede crear escasez donde antes había abundancia",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «El mercado puede crear escasez donde antes había abundancia» con «Escasez, crecimiento y libertad real». Permite contrastar Economía y escasez, Libertad y opciones.",
+      "relationTokens": 71,
+      "fichaTokens": 395,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-197.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-270-D-005",
+      "to": "D-270",
+      "title": "Maximizar no es necesariamente lograr",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Maximizar no es necesariamente lograr» con «Escasez, crecimiento y libertad real». Permite contrastar Economía y escasez.",
+      "relationTokens": 56,
+      "fichaTokens": 411,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-270.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-288-D-005",
+      "to": "D-288",
+      "title": "Cambiar quién posee la manzana no alimenta al siguiente árbol",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Cambiar quién posee la manzana no alimenta al siguiente árbol» con «Escasez, crecimiento y libertad real».",
+      "relationTokens": 58,
+      "fichaTokens": 421,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-288.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-005-D-196",
+      "to": "D-196",
+      "title": "Rascarse la espalda también puede entrar en el mercado",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Libertad y opciones, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 55,
+      "fichaTokens": 392,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-196.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-005-D-050",
+      "to": "D-050",
+      "title": "Cuando lo útil no se convierte en empresa",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 47,
+      "fichaTokens": 763,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-050.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-005-D-107",
+      "to": "D-107",
+      "title": "Pensar la neutralidad como una opción estratégica",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Libertad y opciones desde las situaciones que describe cada texto.",
+      "relationTokens": 47,
+      "fichaTokens": 298,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-107.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-100-D-005",
+      "to": "D-100",
+      "title": "¿Cuánto cuesta saber lo suficiente para decidir?",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 48,
+      "fichaTokens": 311,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-100.json"
+    }
+  ]
+}

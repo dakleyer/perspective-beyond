@@ -84,6 +84,11 @@ def build(canonical_bytes, catalog_bytes):
 
 def write_graph(output, canonical_bytes, catalog_bytes):
     graph = build(canonical_bytes, catalog_bytes)
+    if json.loads(catalog_bytes).get("source_tag_weights"):
+        import sys
+        sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+        from position_data import enrich_graph
+        graph = enrich_graph(graph, json.loads(catalog_bytes))
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(graph, ensure_ascii=False, separators=(",", ":")) + "\n",
                       encoding="utf-8", newline="\n")

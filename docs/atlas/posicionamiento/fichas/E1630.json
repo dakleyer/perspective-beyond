@@ -1,0 +1,120 @@
+{
+  "id": "E1630",
+  "type": "ficha",
+  "title": "Case Study: HT",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-ht-e1630/",
+  "documentId": "doc-543b0477030043bc1a",
+  "sourceIds": [],
+  "tagWeights": {
+    "capacidad-humana": 0.2222,
+    "casos": 0.5556,
+    "perspectiva": 0.2222
+  },
+  "clusters": [
+    "eu"
+  ],
+  "context": "## Case Study: HT\n\nEtiquetas: Capacidad humana y deuda de inteligencia 22.22%; Casos de uso y aplicaciones 55.56%; Cambio de perspectiva 22.22%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-study-ht-e1630/\nDocumento de origen: https://jubap.eu/human-transformation/\n\n",
+  "tokens": 79,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:E1630:C35",
+      "to": "C35",
+      "title": "Carga de coordinación",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 16,
+      "fichaTokens": 207,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C35.json"
+    },
+    {
+      "id": "apoyo:E1630:C39",
+      "to": "C39",
+      "title": "Capacidad humana utilizable",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 210,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C39.json"
+    },
+    {
+      "id": "apoyo:E1630:C61",
+      "to": "C61",
+      "title": "Secuencia JUBAP",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 205,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C61.json"
+    },
+    {
+      "id": "apoyo:E1630:C64",
+      "to": "C64",
+      "title": "Cambio de perspectiva humano",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 16,
+      "fichaTokens": 220,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C64.json"
+    },
+    {
+      "id": "documento:D040",
+      "to": "T1378",
+      "title": "Architectural Entropy: How Mediated Systems Spend Human “Exergy” and the Partial Irreversibility of Human Intelligence Debt",
+      "direction": "saliente",
+      "kind": "hypothesis",
+      "reading": "A testable question is whether newly perceived options become usable only when the operating architecture also permits action.",
+      "relationTokens": 53,
+      "fichaTokens": 130,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1378.json"
+    },
+    {
+      "id": "documento:D066",
+      "to": "E1633",
+      "title": "Case Study: AICM",
+      "direction": "entrante",
+      "kind": "documented use",
+      "reading": "The AICM programme explicitly describes an adapted JUBAP route; the human-transformation article explains the perspective mechanism without establishing that every technique was used there.",
+      "relationTokens": 47,
+      "fichaTokens": 107,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1633.json"
+    },
+    {
+      "id": "documento:R005",
+      "to": "E1628",
+      "title": "The JUBAP Framework",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Human transformation: the perspective engine](https://jubap.eu/human-transformation/).",
+      "relationTokens": 39,
+      "fichaTokens": 152,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1628.json"
+    },
+    {
+      "id": "documento:R008",
+      "to": "N1272",
+      "title": "The Anthropology of Tiger Team Activation",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [How a mission activates a Tiger Team](https://jubap.net/the-anthropology-of-tiger-team-activation/).",
+      "relationTokens": 48,
+      "fichaTokens": 126,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1272.json"
+    },
+    {
+      "id": "documento:R009",
+      "to": "T874",
+      "title": "Human Intelligence Debt",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Human Intelligence Debt: a separate architectural question](https://tegrity.ai/human-intelligence-debt/).",
+      "relationTokens": 41,
+      "fichaTokens": 82,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T874.json"
+    }
+  ]
+}

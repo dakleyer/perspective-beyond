@@ -1,0 +1,173 @@
+{
+  "id": "dg-scarcity_design",
+  "type": "concepto",
+  "title": "Dimensiones creadas de escasez",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-scarcity_design",
+  "documentId": null,
+  "sourceIds": [
+    "D-197",
+    "D-198",
+    "D-200",
+    "D-261",
+    "D-262",
+    "D-295"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.0476,
+    "autoridad": 0.0833,
+    "economia": 0.658,
+    "memoria-territorio": 0.1,
+    "representacion": 0.1111
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Dimensiones creadas de escasez\nObservar cómo exclusividad, cercas, permisos y requisitos convierten abundancia en nuevas transacciones.\nEtiquetas: Aprendizaje y transmisión de capacidades 4.76%; Autoridad, permisos y delegación 8.33%; Economía, costes y liquidez 65.80%; Memoria, comunidad y territorio 10.00%; Representación y límites formales 11.11%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-scarcity_design\n\n",
+  "tokens": 117,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-197:dg-scarcity_design",
+      "to": "D-197",
+      "title": "El mercado puede crear escasez donde antes había abundancia",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 395,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-197.json"
+    },
+    {
+      "id": "apoyo:D-198:dg-scarcity_design",
+      "to": "D-198",
+      "title": "Un cenote no se vuelve valioso solo cuando alguien lo cerca",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 385,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-198.json"
+    },
+    {
+      "id": "apoyo:D-200:dg-scarcity_design",
+      "to": "D-200",
+      "title": "Salir de un mercado puede costar más que entrar en él",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 380,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-200.json"
+    },
+    {
+      "id": "apoyo:D-261:dg-scarcity_design",
+      "to": "D-261",
+      "title": "La Bolsa puede estar comprando reservas que no parecen mercancías",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 398,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-261.json"
+    },
+    {
+      "id": "apoyo:D-262:dg-scarcity_design",
+      "to": "D-262",
+      "title": "Una red libre puede convertirse en reserva cuando todos creen que solo cuatro la poseen",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 31,
+      "fichaTokens": 395,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-262.json"
+    },
+    {
+      "id": "apoyo:D-295:dg-scarcity_design",
+      "to": "D-295",
+      "title": "Un algoritmo democrático no elimina el pan, la gasolina ni el tiempo",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 420,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-295.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-113",
+      "to": "dg-economy",
+      "title": "Economía y escasez",
+      "direction": "saliente",
+      "kind": "produce nuevas transacciones",
+      "reading": "Los requisitos y límites son parte de lo que se ofrece y se cobra.",
+      "relationTokens": 35,
+      "fichaTokens": 239,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-economy.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-114",
+      "to": "dg-options",
+      "title": "Libertad y opciones",
+      "direction": "saliente",
+      "kind": "puede multiplicar barreras a",
+      "reading": "Más decisiones y más requisitos pueden coexistir con menor capacidad efectiva.",
+      "relationTokens": 34,
+      "fichaTokens": 192,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-options.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-115",
+      "to": "dg-community",
+      "title": "Comunidades y territorio",
+      "direction": "saliente",
+      "kind": "restringe bienes antes comunes",
+      "reading": "Cenotes y playas cercados muestran una frontera entre uso y mercancía.",
+      "relationTokens": 35,
+      "fichaTokens": 187,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-community.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-117",
+      "to": "dg-cultural_friction",
+      "title": "Costes culturales de entrada y salida",
+      "direction": "entrante",
+      "kind": "propaga requisitos",
+      "reading": "Mercados intensivos en restricciones absorben bienes de mundos anteriores.",
+      "relationTokens": 34,
+      "fichaTokens": 79,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-cultural_friction.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-157",
+      "to": "dg-rent_separation",
+      "title": "Renta por posesión frente a valor productivo",
+      "direction": "entrante",
+      "kind": "hace de la escasez una condición de poder",
+      "reading": "La arquitectura de colateral cambia el acceso.",
+      "relationTokens": 40,
+      "fichaTokens": 75,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-rent_separation.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-236",
+      "to": "dg-intangible_reserves",
+      "title": "Reservas intangibles, interfaces y precio",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.10",
+      "reading": "La exclusividad puede ser construida por normas y expectativas.",
+      "relationTokens": 40,
+      "fichaTokens": 89,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-intangible_reserves.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-312",
+      "to": "dg-market_transparency",
+      "title": "Transparencia informacional y circulación productiva",
+      "direction": "entrante",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "Escasez informacional distinta de material.",
+      "relationTokens": 36,
+      "fichaTokens": 77,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-market_transparency.json"
+    }
+  ]
+}

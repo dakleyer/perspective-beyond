@@ -1,0 +1,63 @@
+{
+  "id": "C95",
+  "type": "concepto",
+  "title": "Umbral de movilización",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/mobilisation-threshold/",
+  "documentId": null,
+  "sourceIds": [
+    "U1498",
+    "N1272"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.0667,
+    "autoridad": 0.1501,
+    "capacidad-humana": 0.0833,
+    "decision": 0.2333,
+    "economia": 0.15,
+    "memoria-territorio": 0.0833,
+    "perspectiva": 0.0667,
+    "transformacion": 0.1666
+  },
+  "clusters": [
+    "net",
+    "us"
+  ],
+  "context": "## Umbral de movilización\nIdentify the observed load and conditions at which coordination intensifies.\nEtiquetas: Aprendizaje y transmisión de capacidades 6.67%; Autoridad, permisos y delegación 15.01%; Capacidad humana y deuda de inteligencia 8.33%; Decisiones y responsabilidad 23.33%; Economía, costes y liquidez 15.00%; Memoria, comunidad y territorio 8.33%; Cambio de perspectiva 6.67%; Transformación y continuidad operativa 16.66%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/mobilisation-threshold/\n\n",
+  "tokens": 130,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:U1498:C95",
+      "to": "U1498",
+      "title": "Entropy, Capability Activation and Sociotechnical Engineering",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 126,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1498.json"
+    },
+    {
+      "id": "apoyo:N1272:C95",
+      "to": "N1272",
+      "title": "The Anthropology of Tiger Team Activation",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 126,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1272.json"
+    },
+    {
+      "id": "concepto:A025",
+      "to": "C85",
+      "title": "Activación y cierre de misión",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "A mobilisation threshold may inform Tiger Team activation, but accumulated load must be read together with mission focus, authority, available attention and a credible exit.",
+      "relationTokens": 45,
+      "fichaTokens": 235,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C85.json"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "dg-transformation_speech",
+  "type": "concepto",
+  "title": "Transmitir una idea que cambia al interlocutor",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-transformation_speech",
+  "documentId": null,
+  "sourceIds": [
+    "D-276"
+  ],
+  "tagWeights": {
+    "decision": 0.2222,
+    "perspectiva": 0.7778
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Transmitir una idea que cambia al interlocutor\nComunicar una perspectiva requiere contexto, examen y espacio para reformular roles.\nEtiquetas: Decisiones y responsabilidad 22.22%; Cambio de perspectiva 77.78%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-transformation_speech\n\n",
+  "tokens": 73,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-276:dg-transformation_speech",
+      "to": "D-276",
+      "title": "Entender una nueva perspectiva también puede exigir transformarse",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 402,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-276.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-269",
+      "to": "dg-trust",
+      "title": "Confianza y equipos",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.11",
+      "reading": "La recepción cambia con la confianza.",
+      "relationTokens": 31,
+      "fichaTokens": 186,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-trust.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-270",
+      "to": "dg-field_origin",
+      "title": "Trabajo de campo de Nueva Perspectiva",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.11",
+      "reading": "Aprendizaje de talleres de cambio.",
+      "relationTokens": 36,
+      "fichaTokens": 90,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-field_origin.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-271",
+      "to": "dg-perspective",
+      "title": "Nueva Perspectiva",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.11",
+      "reading": "Reformulación del receptor.",
+      "relationTokens": 29,
+      "fichaTokens": 190,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-perspective.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-272",
+      "to": "dg-governance",
+      "title": "Gobernanza y legitimidad",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.11",
+      "reading": "Acompañar no da licencia para manipular.",
+      "relationTokens": 36,
+      "fichaTokens": 254,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-governance.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-273",
+      "to": "dg-distributed_meaning",
+      "title": "Sentido compartido pero no poseído",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.11",
+      "reading": "El significado también depende del lector.",
+      "relationTokens": 35,
+      "fichaTokens": 156,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-distributed_meaning.json"
+    }
+  ]
+}

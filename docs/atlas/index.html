@@ -27,14 +27,14 @@ input,select,textarea{max-width:100%;border:1px solid #938b7c;background:white;c
 .focus-row input{width:100%}.focus-target{width:min(100%,31rem)}
 @media(max-width:33rem){.focus-row{grid-template-columns:minmax(0,1fr) 5rem auto}.focus-row button{grid-column:1/-1;justify-self:start}}
 </style>
-<script type="module" src="global.js?v=lectura-3"></script>
+<script type="module" src="global.js?v=posicionamiento-1"></script>
 </head>
 <body><main>
 <header>
 <p class="label">Perspective Beyond · Atlas de Pensamiento Abierto</p>
 <h1>Atlas global</h1>
 <p class="lead">Explora una sola constelación de ideas, casos y fuentes. Cada clúster ofrece un punto de entrada al mismo corpus, desde Nueva Perspectiva y el Totonacapan hasta la transformación, la ingeniería y la investigación.</p>
-<nav class="nav" aria-label="Entradas del Atlas"><a class="button" href="#asistente">Conecta tu asistente</a><a href="i/">Entradas y códigos QR</a><a href="#explorar">Buscar fichas y conceptos</a><a href="mapa/">Crear un mapa de relaciones</a><a href="../#atlas">Abrir el grafo conceptual</a><a href="../constelacion/#mapa">Mapa de Nueva Perspectiva</a><a href="dialogos/">Diálogos en red</a><a href="github/">Structural Awareness en GitHub</a></nav>
+<nav class="nav" aria-label="Entradas del Atlas"><a class="button" href="#asistente">Conecta tu asistente</a><a href="i/">Posicionamientos y códigos QR</a><a href="#explorar">Buscar fichas y conceptos</a><a href="posicionamiento/">Abrir un mini mapa</a><a href="../#atlas">Abrir el grafo conceptual</a><a href="../constelacion/#mapa">Mapa de Nueva Perspectiva</a><a href="dialogos/">Diálogos en red</a><a href="github/">Structural Awareness en GitHub</a></nav>
 <p id="metrics" class="metric" role="status">Cargando el catálogo público…</p>
 </header>
 <section id="explorar" class="panel" aria-labelledby="explore-title">
@@ -51,6 +51,9 @@ input,select,textarea{max-width:100%;border:1px solid #938b7c;background:white;c
 <p>Pega una sola URL en tu asistente. La entrada general le permite preguntarte cómo quieres trabajar. La URL configurada lleva tus elecciones y puedes añadir la pregunta en el mismo mensaje.</p>
 <p><a href="entrada.txt">Abrir la entrada general en texto</a> · <a href="https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/entrada.txt">Texto en GitHub</a> · <a href="guide.html">Guía y perfiles de ejemplo</a> · <a href="atlas-portable.txt" download>Descargar el catálogo portable</a></p>
 <form id="setup" hidden>
+<div class="grid"><div><label for="positioning">Posicionamiento · documento de entrada</label><input id="positioning" placeholder="Documento, ficha o URL de origen"></div><div><label for="token-budget">Presupuesto de tokens para el mini mapa</label><input id="token-budget" type="number" min="64" max="2000000" value="2000" required></div></div>
+<p class="hint">El posicionamiento puede ser la landing de una web o un documento concreto. Sus fichas tienen su propia composición porcentual de etiquetas. Tus pesos orientan el recorrido y el presupuesto determina cuánto entra en la lectura.</p>
+<p><a id="position-map" href="posicionamiento/">Abrir este posicionamiento como mini mapa</a></p>
 <div class="grid">
 <div><label for="origin">Clúster de origen</label><select id="origin"></select></div>
 <div><label for="mode">Alcance</label><select id="mode"><option value="closed">Cerrado</option><option value="porous">Poroso</option><option value="federated">Federado</option></select></div>

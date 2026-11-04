@@ -1,0 +1,100 @@
+{
+  "id": "C73",
+  "type": "concepto",
+  "title": "Unidad de medida de HID",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/human-intelligence-debt-measurement-unit/",
+  "documentId": null,
+  "sourceIds": [
+    "GH037",
+    "T874",
+    "T1400"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.0584,
+    "autoridad": 0.0079,
+    "capacidad-humana": 0.4203,
+    "control-minimo": 0.0317,
+    "decision": 0.0902,
+    "documentacion": 0.0397,
+    "economia": 0.0479,
+    "empresa": 0.1013,
+    "evidencia": 0.12,
+    "experimentacion": 0.0267,
+    "memoria-territorio": 0.0559
+  },
+  "clusters": [
+    "research",
+    "tegrity"
+  ],
+  "context": "## Unidad de medida de HID\nDeclare the object, population and denominator of the measurement.\nEtiquetas: Aprendizaje y transmisión de capacidades 5.84%; Autoridad, permisos y delegación 0.79%; Capacidad humana y deuda de inteligencia 42.03%; Control mínimo y suficiencia 3.17%; Decisiones y responsabilidad 9.02%; Investigación y documentación técnica 3.97%; Economía, costes y liquidez 4.79%; Empresa y gestión 10.13%; Evidencia, procedencia y atribución 12.00%; Experimentación, falsación y contraejemplos 2.67%; Memoria, comunidad y territorio 5.59%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/human-intelligence-debt-measurement-unit/\n\n",
+  "tokens": 170,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH037:C73",
+      "to": "GH037",
+      "title": "Annex 01K — Human Capacity / Human Intelligence Debt",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 264,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH037.json"
+    },
+    {
+      "id": "apoyo:T874:C73",
+      "to": "T874",
+      "title": "Human Intelligence Debt",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 16,
+      "fichaTokens": 82,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T874.json"
+    },
+    {
+      "id": "apoyo:T1400:C73",
+      "to": "T1400",
+      "title": "Measuring Human Intelligence Debt",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 145,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1400.json"
+    },
+    {
+      "id": "concepto:F001",
+      "to": "C75",
+      "title": "Trabajo compensatorio evitable (ACW)",
+      "direction": "saliente",
+      "kind": "documented use",
+      "reading": "The task-level protocol operationalizes the earlier role-based framework; its time ratios should not be compared with operator ratios without an explicit conversion model.",
+      "relationTokens": 47,
+      "fichaTokens": 207,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C75.json"
+    },
+    {
+      "id": "concepto:G037",
+      "to": "C39",
+      "title": "Capacidad humana utilizable",
+      "direction": "saliente",
+      "kind": "documented use",
+      "reading": "The 01K extension imports the HID research line while keeping runtime response capacity distinct from instrument-gated architectural debt measurement.",
+      "relationTokens": 39,
+      "fichaTokens": 210,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C39.json"
+    },
+    {
+      "id": "concepto:B472",
+      "to": "G21",
+      "title": "Human Intelligence Debt (HID)",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 150,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G21.json"
+    }
+  ]
+}

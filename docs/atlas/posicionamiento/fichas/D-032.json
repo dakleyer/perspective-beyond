@@ -1,0 +1,98 @@
+{
+  "id": "D-032",
+  "type": "ficha",
+  "title": "Bosnia: el regreso de la memoria",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-032",
+  "documentId": "doc-41f3a410d217128630",
+  "sourceIds": [],
+  "tagWeights": {
+    "aprendizaje": 0.125,
+    "geopolitica": 0.5625,
+    "memoria-territorio": 0.3125
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Bosnia: el regreso de la memoria\nINTERLOCUTOR — En mitad del relato laboral vuelves a Bosnia. ¿Por qué te asalta ahora aquel viaje?\nIVÁN —\nBOSNIA HERZEGOVINA\nDurante muchos años, solo con cerrar los ojos, me aparecían escenas de algún lugar del pasado: caminando por las calles de Budapest o escalando el Triglav De manera involuntaria lo evocaba con mayor lujo de detalles que la propia realidad a mi alrededor. \nEn aquellos viajes, cada día —y a veces cada hora— habían sido una aventura. No obstante, por alguna razón, poco a poco, pasajes enteros dejaron de venir a mi mente de manera natural y al cabo de los años se convirtieron en algo difuminado, a veces inconexo. Algo como lo que llaman, simplemente un recuerdo. \nDicen que cada vez que cambia la personalidad, los recuerdos se reestructuran. Y eso parecía estar ocurriéndome a los 35 años. Ahora, en Veracruz, cerraba los ojos y ya no aparecían imágenes del pasado, solo los sonidos del presente: las chachalacas, los grillos, y una sinfonía de animales ruidosos que se entrelazaban con la densidad del paisaje. Si abría los ojos todo era verde con cientos de matices que emergían entre la humedad extrema y asfixiante. Ese era mi nuevo hogar.\nEtiquetas: Aprendizaje y transmisión de capacidades 12.50%; Geopolítica y fronteras 56.25%; Memoria, comunidad y territorio 31.25%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-032\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20En%20mitad%20del%20relato%20laboral%20vuelves%20a%20Bosnia.%20%C2%BFPor\n\n",
+  "tokens": 429,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-032:dg-inner",
+      "to": "dg-inner",
+      "title": "Atención y sentido",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 181,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-inner.json"
+    },
+    {
+      "id": "apoyo:D-032:dg-boundaries",
+      "to": "dg-boundaries",
+      "title": "Fronteras y encuentros",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 162,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-boundaries.json"
+    },
+    {
+      "id": "documento:dg-030",
+      "to": "D-012",
+      "title": "Un trabajo sin territorio fijo",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Fronteras y encuentros».",
+      "relationTokens": 29,
+      "fichaTokens": 340,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-012.json"
+    },
+    {
+      "id": "documento:dg-031",
+      "to": "D-033",
+      "title": "Entrar en Bosnia sin un plan",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Fronteras y encuentros».",
+      "relationTokens": 32,
+      "fichaTokens": 565,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-033.json"
+    },
+    {
+      "id": "documento:dg-145",
+      "to": "D-018",
+      "title": "Espiritualidad sin imponer una doctrina",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Atención y sentido».",
+      "relationTokens": 30,
+      "fichaTokens": 285,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-018.json"
+    },
+    {
+      "id": "documento:dg-146",
+      "to": "D-035",
+      "title": "La libertad de tomar una decisión propia",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Atención y sentido».",
+      "relationTokens": 31,
+      "fichaTokens": 588,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-035.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-290-D-032",
+      "to": "D-290",
+      "title": "Tener un DNI no agota lo que significa ser de un país",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Tener un DNI no agota lo que significa ser de un país» con «Bosnia: el regreso de la memoria». Permite contrastar Fronteras y encuentros.",
+      "relationTokens": 69,
+      "fichaTokens": 381,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-290.json"
+    }
+  ]
+}

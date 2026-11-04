@@ -1,0 +1,60 @@
+{
+  "id": "G53",
+  "type": "concepto",
+  "title": "Logic Fields",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/logic-fields/",
+  "documentId": null,
+  "sourceIds": [
+    "GH004",
+    "GH016"
+  ],
+  "tagWeights": {
+    "cartografia": 0.25,
+    "evidencia": 0.0527,
+    "experimentacion": 0.1053,
+    "matematicas": 0.2368,
+    "perspectiva": 0.25,
+    "representacion": 0.1052
+  },
+  "clusters": [
+    "research"
+  ],
+  "context": "## Logic Fields\nLogic Fields is a foundational lens in the initial map for the conditions under which distinctions and inferences remain meaningful.\nEtiquetas: Cartografía y señales de ecosistema 25.00%; Evidencia, procedencia y atribución 5.27%; Experimentación, falsación y contraejemplos 10.53%; Matemáticas 23.68%; Cambio de perspectiva 25.00%; Representación y límites formales 10.52%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/logic-fields/\n\n",
+  "tokens": 115,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH004:G53",
+      "to": "GH004",
+      "title": "Structural Awareness — Mathematical Research Reading Route",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 155,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH004.json"
+    },
+    {
+      "id": "apoyo:GH016:G53",
+      "to": "GH016",
+      "title": "Programme Bridge Note — Map, Flow, Epistemic Distance and the Lineage to Ecosystem Positioning",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 31,
+      "fichaTokens": 176,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH016.json"
+    },
+    {
+      "id": "concepto:P01",
+      "to": "G02",
+      "title": "The Given Universe Axiom",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 13,
+      "fichaTokens": 161,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G02.json"
+    }
+  ]
+}

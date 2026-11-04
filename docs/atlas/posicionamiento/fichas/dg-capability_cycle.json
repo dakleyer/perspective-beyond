@@ -1,0 +1,68 @@
+{
+  "id": "dg-capability_cycle",
+  "type": "concepto",
+  "title": "Vida completa de una capacidad",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-capability_cycle",
+  "documentId": null,
+  "sourceIds": [
+    "D-297"
+  ],
+  "tagWeights": {
+    "autoridad": 0.2222,
+    "capacidad-humana": 0.2222,
+    "memoria-territorio": 0.3334,
+    "transformacion": 0.2222
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Vida completa de una capacidad\nExplorar, atribuir, preservar, enseñar y transferir es más amplio que registrar propiedad intelectual.\nEtiquetas: Autoridad, permisos y delegación 22.22%; Capacidad humana y deuda de inteligencia 22.22%; Memoria, comunidad y territorio 33.34%; Transformación y continuidad operativa 22.22%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-capability_cycle\n\n",
+  "tokens": 101,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-297:dg-capability_cycle",
+      "to": "D-297",
+      "title": "La propiedad intelectual protege una etapa, no toda la vida de una capacidad",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 403,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-297.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-317",
+      "to": "dg-continuity",
+      "title": "Continuidad de capacidades",
+      "direction": "saliente",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "No pérdida de saber transferible.",
+      "relationTokens": 26,
+      "fichaTokens": 201,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-continuity.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-318",
+      "to": "dg-institutional_custody",
+      "title": "Custodia de comunidades de práctica",
+      "direction": "saliente",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "Más que derechos formales de IP.",
+      "relationTokens": 29,
+      "fichaTokens": 128,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-institutional_custody.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-319",
+      "to": "dg-tacit",
+      "title": "Conocimiento tácito",
+      "direction": "saliente",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "La práctica exige transmisión.",
+      "relationTokens": 24,
+      "fichaTokens": 166,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-tacit.json"
+    }
+  ]
+}

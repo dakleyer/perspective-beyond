@@ -1,0 +1,86 @@
+{
+  "id": "D-105",
+  "type": "ficha",
+  "title": "Ormuz: distinguir explicación, incentivo e intención",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-105",
+  "documentId": "doc-394cc3dbbc4c11f973",
+  "sourceIds": [],
+  "tagWeights": {
+    "economia": 0.75,
+    "geopolitica": 0.25
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Ormuz: distinguir explicación, incentivo e intención\nINTERLOCUTOR (pregunta editorial) — Cuando un actor se beneficia de una crisis, ¿qué podemos concluir sobre su intención?\nLECTURA DEL DIÁLOGO (síntesis editorial) — El análisis de Ormuz de Iván no se reduce a averiguar quién ganaría una batalla naval ni a enumerar beneficiarios financieros. Plantea que un actor relativamente débil puede lograr una derrota estratégica del otro si obliga a negociar con él las condiciones de normalización de un paso, un mercado o una cadena de energía. La pregunta cambia de «¿quién puede conquistar?» a «¿quién puede impedir que la normalidad funcione?». Entre las rutas posibles de Estados Unidos considera el control directo del estrecho o el liderazgo de una coalición; del lado iraní examina permisos selectivos de navegación e incentivos a terceros. Petróleo, liquidez, crédito, sentimiento de mercado y energía para la IA quedan interconectados. Son escenarios e inferencias sobre incentivos, no constataciones de intenciones secretas ni previsiones verificadas: el rigor consiste en distinguir el mecanismo de negación, las alternativas y la evidencia que permitiría discriminarlas.\nEtiquetas: Economía, costes y liquidez 75.00%; Geopolítica y fronteras 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-105\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-105.html\n\n",
+  "tokens": 327,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-105:dg-economy",
+      "to": "dg-economy",
+      "title": "Economía y escasez",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 239,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-economy.json"
+    },
+    {
+      "id": "apoyo:D-105:dg-geopolitics",
+      "to": "dg-geopolitics",
+      "title": "Geopolítica vivida",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 138,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-geopolitics.json"
+    },
+    {
+      "id": "apoyo:D-105:dg-doubt",
+      "to": "dg-doubt",
+      "title": "Duda, pruebas y conocimiento corregible",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 258,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-doubt.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-212-D-105",
+      "to": "D-212",
+      "title": "La coacción puede esconderse en el crédito o explotar en la supervivencia",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «La coacción puede esconderse en el crédito o explotar en la supervivencia» con «Ormuz: distinguir explicación, incentivo e intención». Permite contrastar Geopolítica vivida, Economía y escasez.",
+      "relationTokens": 82,
+      "fichaTokens": 410,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-212.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-041-D-105",
+      "to": "D-041",
+      "title": "La generación de las rotondas",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Geopolítica vivida, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 48,
+      "fichaTokens": 440,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-041.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-105-D-150",
+      "to": "D-150",
+      "title": "La paz mental de una generación también tuvo precio",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Geopolítica vivida, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 50,
+      "fichaTokens": 331,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-150.json"
+    }
+  ]
+}

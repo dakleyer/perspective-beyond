@@ -1,0 +1,99 @@
+{
+  "id": "G44",
+  "type": "concepto",
+  "title": "Quiet Four Thousand",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/quiet-four-thousand/",
+  "documentId": null,
+  "sourceIds": [
+    "GH017"
+  ],
+  "tagWeights": {
+    "agentes": 0.1081,
+    "autoridad": 0.0541,
+    "cambio-regimen": 0.0541,
+    "cartografia": 0.1622,
+    "casos": 0.0541,
+    "control-minimo": 0.0811,
+    "documentacion": 0.027,
+    "empresa": 0.027,
+    "estandares": 0.1081,
+    "evidencia": 0.1081,
+    "matematicas": 0.1081,
+    "movilidad": 0.054,
+    "transformacion": 0.054
+  },
+  "clusters": [
+    "research"
+  ],
+  "context": "## Quiet Four Thousand\nA named corpus scenario examines change and capability under conditions that can be hard to see from aggregate records.\nEtiquetas: Agentes y coordinación distribuida 10.81%; Autoridad, permisos y delegación 5.41%; Cambios de régimen y alerta temprana 5.41%; Cartografía y señales de ecosistema 16.22%; Casos de uso y aplicaciones 5.41%; Control mínimo y suficiencia 8.11%; Investigación y documentación técnica 2.70%; Empresa y gestión 2.70%; Estándares e interoperabilidad 10.81%; Evidencia, procedencia y atribución 10.81%; Matemáticas 10.81%; Movilidad e infraestructura 5.40%; Transformación y continuidad operativa 5.40%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/quiet-four-thousand/\n\n",
+  "tokens": 187,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH017:G44",
+      "to": "GH017",
+      "title": "Ecosystem Positioning",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 16,
+      "fichaTokens": 261,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH017.json"
+    },
+    {
+      "id": "concepto:B593",
+      "to": "G06",
+      "title": "Regime Awareness (RA)",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 15,
+      "fichaTokens": 190,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G06.json"
+    },
+    {
+      "id": "concepto:B594",
+      "to": "G12",
+      "title": "Early Warning Systems (EWS)",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 16,
+      "fichaTokens": 66,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G12.json"
+    },
+    {
+      "id": "concepto:B595",
+      "to": "C40",
+      "title": "Alerta y respuesta",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 13,
+      "fichaTokens": 149,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C40.json"
+    },
+    {
+      "id": "concepto:B596",
+      "to": "C72",
+      "title": "Ventana de respuesta",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 13,
+      "fichaTokens": 194,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C72.json"
+    },
+    {
+      "id": "concepto:B597",
+      "to": "C50",
+      "title": "Estado de una afirmación",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 14,
+      "fichaTokens": 295,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C50.json"
+    }
+  ]
+}

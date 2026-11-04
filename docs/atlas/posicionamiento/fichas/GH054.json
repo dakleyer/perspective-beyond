@@ -1,0 +1,343 @@
+{
+  "id": "GH054",
+  "type": "ficha",
+  "title": "UC-EA-03 — Architecture-Validation Profile — Human Oversight under Bounded Effective Capacity and Non-curative Approval — v0.4 — Maintenance Freeze",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/GH054.html",
+  "documentId": "doc-d5149de3d78979469d",
+  "sourceIds": [],
+  "tagWeights": {
+    "autoridad": 0.1053,
+    "capacidad-humana": 0.1053,
+    "casos": 0.2105,
+    "decision": 0.1053,
+    "evidencia": 0.2105,
+    "experimentacion": 0.2631
+  },
+  "clusters": [
+    "research"
+  ],
+  "context": "## UC-EA-03 — Architecture-Validation Profile — Human Oversight under Bounded Effective Capacity and Non-curative Approval — v0.4 — Maintenance Freeze\nContenido de la fuente: 0\\. Identification and traceability · 1\\. Functional interaction · 2\\. Parent Case Study facts inherited unchanged.\nEtiquetas: Autoridad, permisos y delegación 10.53%; Capacidad humana y deuda de inteligencia 10.53%; Casos de uso y aplicaciones 21.05%; Decisiones y responsabilidad 10.53%; Evidencia, procedencia y atribución 21.05%; Experimentación, falsación y contraejemplos 26.31%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/GH054.html\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/ecosystem-awareness/baseline/UC-EA-03_v0.5_WORKING_SUCCESSOR.md\n\n",
+  "tokens": 233,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH054:C26",
+      "to": "C26",
+      "title": "Autoridad de decisión",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 44,
+      "fichaTokens": 262,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C26.json"
+    },
+    {
+      "id": "apoyo:GH054:C39",
+      "to": "C39",
+      "title": "Capacidad humana utilizable",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 45,
+      "fichaTokens": 210,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C39.json"
+    },
+    {
+      "id": "documento:G054",
+      "to": "N1281",
+      "title": "The Human Side of Tiger Teams",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "Human accountability requires effective intervention capacity as well as authority; a nominal approval does not repair an unsupported or time-expired decision.",
+      "relationTokens": 68,
+      "fichaTokens": 101,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1281.json"
+    },
+    {
+      "id": "documento:sac-rel-455fc79f09d690",
+      "to": "sac-d651356ec58c92",
+      "title": "Corpus Document Control — DC-GH-01",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «14.13 Disposition of every existing review candidate» con el rótulo «UC-EA-03_v0.4_MAINTENANCE_FREEZE.md».",
+      "relationTokens": 137,
+      "fichaTokens": 161,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-d651356ec58c92.json"
+    },
+    {
+      "id": "documento:sac-rel-84164a744eb45d",
+      "to": "GH017",
+      "title": "Ecosystem Positioning",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Architecture-validation use cases» con el rótulo «UC-EA-03».",
+      "relationTokens": 125,
+      "fichaTokens": 261,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH017.json"
+    },
+    {
+      "id": "documento:sac-rel-ddd2fdbd18d3bf",
+      "to": "sac-d880e648029a1e",
+      "title": "Continuación del plan — lectura del README y fundamentos",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Los 46 expedientes y sus enlaces» con el rótulo «UC-EA-03_v0.4_MAINTENANCE_FREEZE.md».",
+      "relationTokens": 150,
+      "fichaTokens": 173,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-d880e648029a1e.json"
+    },
+    {
+      "id": "documento:sac-rel-ce5f42ad800afa",
+      "to": "sac-e15a5ba3769d28",
+      "title": "Conservación de contenido — 82 documentos enlazados desde Ecosystem Positioning",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Revisión archivo por archivo» con el rótulo «UC-EA-03_v0.4_MAINTENANCE_FREEZE.md».",
+      "relationTokens": 164,
+      "fichaTokens": 178,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-e15a5ba3769d28.json"
+    },
+    {
+      "id": "documento:sac-rel-8bd938911e4b79",
+      "to": "sac-087bbc064c2db1",
+      "title": "DDS Stage A — VNext",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Appendix A. All102 priority recommendations — documentary dispositions» con el rótulo «research/ecosystem-awareness/baseline/UC-EA-03_v0.5_WORKING_SUCCESSOR.md».",
+      "relationTokens": 162,
+      "fichaTokens": 218,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-087bbc064c2db1.json"
+    },
+    {
+      "id": "documento:sac-rel-3f3c4b9b7a9538",
+      "to": "sac-7e1b08f14828a5",
+      "title": "Annex 01E — Ecosystem Awareness / Model Case Study interface: Delegated Authority OS under Context Change",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «4. Four diagnostic lenses, one extensible parent» con el rótulo «UC-EA-03».",
+      "relationTokens": 164,
+      "fichaTokens": 227,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-7e1b08f14828a5.json"
+    },
+    {
+      "id": "documento:sac-rel-65eeb77ee826ab",
+      "to": "GH039",
+      "title": "01K-A01 — Human Capacity / HID Component Verification Record v0.1",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «1. Source reconciliation performed» con el rótulo «UC-EA-03».",
+      "relationTokens": 157,
+      "fichaTokens": 261,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH039.json"
+    },
+    {
+      "id": "documento:sac-rel-07cb346b35e9d5",
+      "to": "GH037",
+      "title": "Annex 01K — Human Capacity / Human Intelligence Debt",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «31. Relationship to UC-EA-03 and R01 Human Escalation / Whispering» con el rótulo «UC-EA-03».",
+      "relationTokens": 166,
+      "fichaTokens": 264,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH037.json"
+    },
+    {
+      "id": "documento:sac-rel-45079246cf9d47",
+      "to": "sac-f9a37faa7de7f5",
+      "title": "DAOS → Ecosystem Awareness: four use-case validation profiles",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «1. Start with the right artefact» con el rótulo «UC‑EA‑03 — effective human oversight».",
+      "relationTokens": 152,
+      "fichaTokens": 206,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-f9a37faa7de7f5.json"
+    },
+    {
+      "id": "documento:sac-rel-2bc467a13ab7c0",
+      "to": "sac-f1d0ae5f3a200a",
+      "title": "Historical EA parent reading index — preserved source",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Use cases / validation profiles» con el rótulo «UC‑EA‑03 — effective human oversight».",
+      "relationTokens": 146,
+      "fichaTokens": 201,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-f1d0ae5f3a200a.json"
+    },
+    {
+      "id": "documento:sac-rel-03c52c0075627a",
+      "to": "sac-210b855421674d",
+      "title": "Historical EA reading map — preserved source",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Validation and falsification route» con el rótulo «UC-EA-03».",
+      "relationTokens": 139,
+      "fichaTokens": 193,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-210b855421674d.json"
+    },
+    {
+      "id": "documento:sac-rel-aef4cf1c188b8f",
+      "to": "sac-c3831fbc3d853f",
+      "title": "Ecosystem Awareness — canonical corpus",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Validation profiles — one case, four diagnostic lenses» con el rótulo «UC-EA-03 — effective human oversight».",
+      "relationTokens": 135,
+      "fichaTokens": 184,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-c3831fbc3d853f.json"
+    },
+    {
+      "id": "documento:sac-rel-ac91640a22d613",
+      "to": "sac-b7152016fe53d8",
+      "title": "Revisión del README del corpus técnico de Ecosystem Awareness",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «113 — Keep the full retired 00J source reachable beside its maintained family profile» con el rótulo «UC-EA-03 v0.5 working successor».",
+      "relationTokens": 153,
+      "fichaTokens": 175,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-b7152016fe53d8.json"
+    },
+    {
+      "id": "documento:sac-rel-b3f71cfbf76a05",
+      "to": "sac-8243127d88be4e",
+      "title": "Ficha de revisión de UC-EA-03",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Ficha de revisión de UC-EA-03» con el rótulo «Fuente».",
+      "relationTokens": 140,
+      "fichaTokens": 154,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-8243127d88be4e.json"
+    },
+    {
+      "id": "documento:sac-rel-4e4ebf317fba5b",
+      "to": "sac-1767646cbcfbc4",
+      "title": "Revisión de UC-EA-03 — cuándo la supervisión humana puede ayudar",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Revisión de UC-EA-03 — cuándo la supervisión humana puede ayudar» con el rótulo «Fuente congelada v0.4».",
+      "relationTokens": 159,
+      "fichaTokens": 165,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-1767646cbcfbc4.json"
+    },
+    {
+      "id": "documento:sac-rel-0c8494469add95",
+      "to": "S19",
+      "title": "TIDA — Delegated Authority OS under Context Change",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Annex C — References» con el rótulo «Parent Case Study package».",
+      "relationTokens": 145,
+      "fichaTokens": 189,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/S19.json"
+    },
+    {
+      "id": "documento:sac-rel-9599f0bdd2ee49",
+      "to": "S20",
+      "title": "Annex I — TIDA — Delegated Authority OS under Context Change - Minimal Operational Case Outline",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Annex C — References» con el rótulo «Annex I — Minimal Operational Case».",
+      "relationTokens": 156,
+      "fichaTokens": 229,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/S20.json"
+    },
+    {
+      "id": "documento:sac-rel-7066786da60a4f",
+      "to": "sac-add7c06901b122",
+      "title": "Annex II — Why the Minimal Case Is Extensible",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Annex C — References» con el rótulo «Annex II — Case Extensibility».",
+      "relationTokens": 149,
+      "fichaTokens": 190,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-add7c06901b122.json"
+    },
+    {
+      "id": "documento:sac-rel-1f81f2683751ea",
+      "to": "sac-a421ef9243621c",
+      "title": "Annex III — Challenges Exposed by the Case",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Annex C — References» con el rótulo «Annex III — Challenges Exposed by the Case».",
+      "relationTokens": 150,
+      "fichaTokens": 160,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-a421ef9243621c.json"
+    },
+    {
+      "id": "documento:sac-rel-74ec96a2695aea",
+      "to": "sac-15e5e7c804c9ae",
+      "title": "Annex IV — FG-TIDA Terms of Reference Mapping and Traceability",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Annex C — References» con el rótulo «Annex IV — FG-TIDA Terms of Reference Mapping and Traceability».",
+      "relationTokens": 158,
+      "fichaTokens": 189,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-15e5e7c804c9ae.json"
+    },
+    {
+      "id": "documento:sac-rel-76548419e785b7",
+      "to": "sac-1767646cbcfbc4",
+      "title": "Revisión de UC-EA-03 — cuándo la supervisión humana puede ayudar",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura con el rótulo «The existing sole review workspace».",
+      "relationTokens": 141,
+      "fichaTokens": 165,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-1767646cbcfbc4.json"
+    },
+    {
+      "id": "documento:sac-rel-69e9d42490c80e",
+      "to": "sac-0001429476af16",
+      "title": "Use-Case Portfolio — Canonical Requirements Coverage Map — v0.1",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «2. Portfolio inventory» con el rótulo «UC-EA-03».",
+      "relationTokens": 153,
+      "fichaTokens": 170,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-0001429476af16.json"
+    },
+    {
+      "id": "documento:sac-rel-28bd07160d18cc",
+      "to": "sac-6d0ff44ed5cddd",
+      "title": "Ecosystem Awareness — DAOS-derived validation profiles",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Read the complete profiles» con el rótulo «UC‑EA‑03 v0.4 — human oversight under bounded effective capacity».",
+      "relationTokens": 146,
+      "fichaTokens": 145,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-6d0ff44ed5cddd.json"
+    },
+    {
+      "id": "documento:sac-rel-f1c42382dc845c",
+      "to": "sac-ae5cfdf16d6d42",
+      "title": "Preserved non-canonical working inputs",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Archivo completo de enlaces del corte» con el rótulo «UC-EA-03 — Architecture-Validation Profile — Human Oversight under Bounded Effective Capacity and Non-cur».",
+      "relationTokens": 155,
+      "fichaTokens": 175,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-ae5cfdf16d6d42.json"
+    },
+    {
+      "id": "documento:sac-rel-b344238c0c2c1c",
+      "to": "sac-d40c38672b5047",
+      "title": "DAOS → Ecosystem Awareness: four use-case validation profiles",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «1. Start with the right artefact» con el rótulo «UC‑EA‑03 — effective human oversight».",
+      "relationTokens": 158,
+      "fichaTokens": 210,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-d40c38672b5047.json"
+    },
+    {
+      "id": "documento:sac-rel-350fd09a1f7c17",
+      "to": "sac-d690ab24bfbb41",
+      "title": "Annex 01E — Ecosystem Awareness / Model Case Study interface: Delegated Authority OS under Context Change",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «4. Four diagnostic lenses, one extensible parent» con el rótulo «UC-EA-03».",
+      "relationTokens": 163,
+      "fichaTokens": 222,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-d690ab24bfbb41.json"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "D-097",
+  "type": "ficha",
+  "title": "Tres observaciones que no caben en una decisión",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-097",
+  "documentId": "doc-ed3d2ebc6a50fabf26",
+  "sourceIds": [],
+  "tagWeights": {
+    "casos": 0.2,
+    "decision": 0.6,
+    "matematicas": 0.2
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Tres observaciones que no caben en una decisión\nINTERLOCUTOR (pregunta editorial) — Si cada par de explicaciones parece compatible, ¿podemos concluir que todas lo son conjuntamente?\nLECTURA DEL DIÁLOGO (síntesis editorial) — El ejemplo técnico de Iván fuerza una distinción lógica concreta: restricciones que parecen compatibles tomadas por pares pueden no tener solución común al considerarse juntas. Por eso aprobar una batería de controles locales o validar cada relación aislada no constituye una prueba de satisfacibilidad global. La pregunta no es filosófica en sentido decorativo: qué estados y observaciones deben modelarse, qué familia de restricciones se está componiendo y qué contraejemplo permite refutar la suficiencia de una observación. De ahí el puente con UC21: los componentes pueden cumplir aquello para lo que fueron diseñados y el sistema aun así fallar por una dependencia que solo existe en la composición. Su valor está en establecer la necesidad de un criterio conjunto, no en pronunciar «holismo» frente a «reduccionismo».\nEtiquetas: Casos de uso y aplicaciones 20.00%; Decisiones y responsabilidad 60.00%; Matemáticas 20.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-097\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-097.html\n\n",
+  "tokens": 298,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-097:dg-math",
+      "to": "dg-math",
+      "title": "Pensamiento matemático",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 177,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-math.json"
+    },
+    {
+      "id": "apoyo:D-097:dg-decision",
+      "to": "dg-decision",
+      "title": "Decisiones entre escenarios",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 169,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-decision.json"
+    },
+    {
+      "id": "apoyo:D-097:dg-doubt",
+      "to": "dg-doubt",
+      "title": "Duda, pruebas y conocimiento corregible",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 258,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-doubt.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-217-D-097",
+      "to": "D-217",
+      "title": "Un JSON correcto puede describir una vaca que no estaba allí",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Un JSON correcto puede describir una vaca que no estaba allí» con «Tres observaciones que no caben en una decisión». Permite contrastar Pensamiento matemático, Duda, pruebas y conocimiento corregible.",
+      "relationTokens": 80,
+      "fichaTokens": 438,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-217.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-052-D-097",
+      "to": "D-052",
+      "title": "xSeil: mostrar alternativas, no una orden",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Pensamiento matemático desde las situaciones que describe cada texto.",
+      "relationTokens": 50,
+      "fichaTokens": 546,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-052.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-096-D-097",
+      "to": "D-096",
+      "title": "Ventanas semánticas: pronosticar sin cerrar la incertidumbre",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Pensamiento matemático, Duda, pruebas y conocimiento corregible desde las situaciones que describe cada texto.",
+      "relationTokens": 63,
+      "fichaTokens": 322,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-096.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-097-D-110",
+      "to": "D-110",
+      "title": "El valor de elegir entre escenarios casi eficientes",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Pensamiento matemático desde las situaciones que describe cada texto.",
+      "relationTokens": 48,
+      "fichaTokens": 350,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-110.json"
+    }
+  ]
+}

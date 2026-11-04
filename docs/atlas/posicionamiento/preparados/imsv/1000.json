@@ -1,0 +1,503 @@
+{
+  "schema": "perspective-beyond/positioning-v1",
+  "edition": "2026-11-04",
+  "request": {
+    "posicionamiento": "imsv",
+    "tokens": 1000,
+    "max": 60,
+    "rol": "lector",
+    "lectura": "explore",
+    "enfoque": "parejo",
+    "instruccion": "",
+    "red": "ideas",
+    "sentido": "ambas",
+    "modo": "closed",
+    "site": "imsv",
+    "puente": null,
+    "solo": false,
+    "pesos": []
+  },
+  "position": {
+    "id": "doc-e198b1540263bd17cd",
+    "title": "The Integral Management Society",
+    "url": "https://integralmanagement.ch/",
+    "fichas": [
+      "S14"
+    ],
+    "aliases": [
+      "https://integralmanagement.ch/"
+    ],
+    "header": "# Posicionamiento · The Integral Management Society\nDocumento de origen: https://integralmanagement.ch/\n\n",
+    "headerTokens": 21,
+    "type": "documento",
+    "focus": "S14",
+    "seeds": [
+      "S14"
+    ]
+  },
+  "budget": {
+    "limit": 1000,
+    "used": 894,
+    "remaining": 106,
+    "nextBlock": 171,
+    "encoding": "o200k_base",
+    "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
+  },
+  "reachable": 18,
+  "selected": 6,
+  "shown": 7,
+  "omittedByBudget": 12,
+  "omittedInDiagram": 0,
+  "layers": [
+    {
+      "distance": 0,
+      "selected": 0,
+      "shown": 1
+    },
+    {
+      "distance": 1,
+      "selected": 1,
+      "shown": 1
+    },
+    {
+      "distance": 2,
+      "selected": 2,
+      "shown": 2
+    },
+    {
+      "distance": 3,
+      "selected": 2,
+      "shown": 2
+    },
+    {
+      "distance": 4,
+      "selected": 1,
+      "shown": 1
+    }
+  ],
+  "center": "doc-e198b1540263bd17cd-entrada",
+  "nodes": [
+    {
+      "id": "doc-e198b1540263bd17cd-entrada",
+      "title": "The Integral Management Society",
+      "type": "documento",
+      "url": "https://integralmanagement.ch/",
+      "original": "https://integralmanagement.ch/",
+      "summary": "Documento desde el que se abre este posicionamiento.",
+      "tags": [],
+      "tagWeights": {},
+      "clusters": [
+        "imsv"
+      ],
+      "distance": 0,
+      "parent": null
+    },
+    {
+      "id": "S14",
+      "type": "ficha",
+      "title": "The Integral Management Society",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/the-integral-management-society-s14/",
+      "original": "https://integralmanagement.ch/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "empresa"
+      ],
+      "summary": "Una sociedad científica dedicada a comprender la complejidad, preservar las capacidades esenciales y abrir nuevas posibilidades de adaptación.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-e198b1540263bd17cd",
+      "tagWeights": {
+        "empresa": 1
+      },
+      "contextTokens": 76,
+      "distance": 1,
+      "parent": "doc-e198b1540263bd17cd-entrada",
+      "routeEdge": null,
+      "affinity": 1
+    },
+    {
+      "id": "np-entrada",
+      "type": "ficha",
+      "title": "Del manifiesto a la práctica",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-entrada",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "aprendizaje",
+        "perspectiva"
+      ],
+      "summary": "Identificar qué relaciones quedan fuera de la atención cuando un problema persiste pese a que conocemos sus componentes. La serie sigue esa pregunta por el manifiesto, la formación y los casos.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-5daaf7203a2eb21821",
+      "tagWeights": {
+        "aprendizaje": 0.8,
+        "perspectiva": 0.2
+      },
+      "contextTokens": 108,
+      "distance": 2,
+      "parent": "S14",
+      "routeEdge": "navigation:position-nav-S14-np-entrada",
+      "affinity": 1
+    },
+    {
+      "id": "np-mas-alla",
+      "type": "ficha",
+      "title": "Perspective Beyond: cuándo queda corto un marco",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-mas-alla",
+      "original": "https://integralmanagement.ch/publicaciones/art-imsv-07/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "perspectiva"
+      ],
+      "summary": "Un marco permite medir y decidir, pero responde a las preguntas para las que fue construido. Si cambian las condiciones, conviene revisar qué presupuestos siguen vigentes antes de mejorar la respuesta existente.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-80c825aa303fb83d02",
+      "tagWeights": {
+        "perspectiva": 1
+      },
+      "contextTokens": 105,
+      "distance": 2,
+      "parent": "S14",
+      "routeEdge": "navigation:position-nav-S14-np-mas-alla",
+      "affinity": 1
+    },
+    {
+      "id": "np-archivo",
+      "type": "ficha",
+      "title": "Conservar el conocimiento y seguir conversando",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-archivo",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/archivo-y-dialogo/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "documentacion",
+        "evidencia",
+        "memoria-territorio"
+      ],
+      "summary": "El archivo conserva variantes, preguntas y aportaciones con su procedencia. Así se puede reconstruir cómo cambió una interpretación y qué parte proviene de un testimonio, un documento o una lectura posterior.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-32e17bd7cfabf6b58d",
+      "tagWeights": {
+        "documentacion": 0.3334,
+        "evidencia": 0.3333,
+        "memoria-territorio": 0.3333
+      },
+      "contextTokens": 132,
+      "distance": 3,
+      "parent": "np-entrada",
+      "routeEdge": "documento:np-r15",
+      "affinity": 1
+    },
+    {
+      "id": "np-manifiesto",
+      "type": "ficha",
+      "title": "El manifiesto original de Nueva Perspectiva",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-manifiesto",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/manifiesto/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "perspectiva"
+      ],
+      "summary": "El sistema mental organiza percepciones, recuerdos, emociones e intereses mediante relaciones. Una idea nueva puede reordenar esas relaciones. El texto pide examinar después su coherencia y sus efectos.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-0498e150d27f3140df",
+      "tagWeights": {
+        "perspectiva": 1
+      },
+      "contextTokens": 105,
+      "distance": 3,
+      "parent": "np-entrada",
+      "routeEdge": "documento:np-r01",
+      "affinity": 1
+    },
+    {
+      "id": "np-aprendizajes",
+      "type": "ficha",
+      "title": "¿Qué enseñaron estas experiencias?",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-aprendizajes",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/aprendizajes/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "perspectiva",
+        "representacion"
+      ],
+      "summary": "Una mejora requiere una acción concreta, alguien que pueda sostenerla y una observación posterior. El capítulo diferencia los bloqueos de perspectiva de restricciones materiales que necesitan recursos, mantenimiento o cambios de proceso.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-926e08d192bdfd48cf",
+      "tagWeights": {
+        "perspectiva": 0.5,
+        "representacion": 0.5
+      },
+      "contextTokens": 116,
+      "distance": 4,
+      "parent": "np-archivo",
+      "routeEdge": "documento:np-r14",
+      "affinity": 1
+    }
+  ],
+  "edges": [
+    {
+      "id": "contiene:doc-e198b1540263bd17cd-entrada:S14",
+      "from": "doc-e198b1540263bd17cd-entrada",
+      "to": "S14",
+      "kind": "ficha del documento",
+      "reading": "Esta ficha abre la lectura desde el documento de origen.",
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-S14-np-entrada",
+      "from": "S14",
+      "to": "np-entrada",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «The Integral Management Society», el enlace «Explorar Nueva Perspectiva: del manifiesto a la práctica  →» abre «Del manifiesto a la práctica».",
+      "evidence": "https://integralmanagement.ch/",
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-S14-np-mas-alla",
+      "from": "S14",
+      "to": "np-mas-alla",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «The Integral Management Society», el enlace «Perspective Beyond  →» abre «Perspective Beyond: cuándo queda corto un marco».",
+      "evidence": "https://integralmanagement.ch/",
+      "route": true
+    },
+    {
+      "id": "documento:np-r15",
+      "from": "np-archivo",
+      "to": "np-entrada",
+      "kind": "relectura",
+      "reading": "El índice permite volver al punto de partida desde la evidencia acumulada.",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:np-r01",
+      "from": "np-entrada",
+      "to": "np-manifiesto",
+      "kind": "fundamento",
+      "reading": "La formulación original desarrolla el papel de las relaciones entre los elementos del sistema mental.",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:np-r14",
+      "from": "np-aprendizajes",
+      "to": "np-archivo",
+      "kind": "custodia",
+      "reading": "La posibilidad de revisar un aprendizaje requiere guardar su procedencia y los cambios de interpretación.",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:np-r16",
+      "from": "np-manifiesto",
+      "to": "np-mas-alla",
+      "kind": "desarrollo",
+      "reading": "El ensayo vuelve sobre las condiciones que delimitan qué puede ver un marco.",
+      "evidence": null,
+      "route": false
+    }
+  ],
+  "selection": [
+    {
+      "id": "S14",
+      "type": "ficha",
+      "title": "The Integral Management Society",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/the-integral-management-society-s14/",
+      "original": "https://integralmanagement.ch/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "empresa"
+      ],
+      "summary": "Una sociedad científica dedicada a comprender la complejidad, preservar las capacidades esenciales y abrir nuevas posibilidades de adaptación.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-e198b1540263bd17cd",
+      "tagWeights": {
+        "empresa": 1
+      },
+      "contextTokens": 76,
+      "distance": 1,
+      "parent": "doc-e198b1540263bd17cd-entrada",
+      "routeEdge": null,
+      "affinity": 1
+    },
+    {
+      "id": "np-entrada",
+      "type": "ficha",
+      "title": "Del manifiesto a la práctica",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-entrada",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "aprendizaje",
+        "perspectiva"
+      ],
+      "summary": "Identificar qué relaciones quedan fuera de la atención cuando un problema persiste pese a que conocemos sus componentes. La serie sigue esa pregunta por el manifiesto, la formación y los casos.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-5daaf7203a2eb21821",
+      "tagWeights": {
+        "aprendizaje": 0.8,
+        "perspectiva": 0.2
+      },
+      "contextTokens": 108,
+      "distance": 2,
+      "parent": "S14",
+      "routeEdge": "navigation:position-nav-S14-np-entrada",
+      "affinity": 1
+    },
+    {
+      "id": "np-mas-alla",
+      "type": "ficha",
+      "title": "Perspective Beyond: cuándo queda corto un marco",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-mas-alla",
+      "original": "https://integralmanagement.ch/publicaciones/art-imsv-07/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "perspectiva"
+      ],
+      "summary": "Un marco permite medir y decidir, pero responde a las preguntas para las que fue construido. Si cambian las condiciones, conviene revisar qué presupuestos siguen vigentes antes de mejorar la respuesta existente.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-80c825aa303fb83d02",
+      "tagWeights": {
+        "perspectiva": 1
+      },
+      "contextTokens": 105,
+      "distance": 2,
+      "parent": "S14",
+      "routeEdge": "navigation:position-nav-S14-np-mas-alla",
+      "affinity": 1
+    },
+    {
+      "id": "np-archivo",
+      "type": "ficha",
+      "title": "Conservar el conocimiento y seguir conversando",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-archivo",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/archivo-y-dialogo/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "documentacion",
+        "evidencia",
+        "memoria-territorio"
+      ],
+      "summary": "El archivo conserva variantes, preguntas y aportaciones con su procedencia. Así se puede reconstruir cómo cambió una interpretación y qué parte proviene de un testimonio, un documento o una lectura posterior.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-32e17bd7cfabf6b58d",
+      "tagWeights": {
+        "documentacion": 0.3334,
+        "evidencia": 0.3333,
+        "memoria-territorio": 0.3333
+      },
+      "contextTokens": 132,
+      "distance": 3,
+      "parent": "np-entrada",
+      "routeEdge": "documento:np-r15",
+      "affinity": 1
+    },
+    {
+      "id": "np-manifiesto",
+      "type": "ficha",
+      "title": "El manifiesto original de Nueva Perspectiva",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-manifiesto",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/manifiesto/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "perspectiva"
+      ],
+      "summary": "El sistema mental organiza percepciones, recuerdos, emociones e intereses mediante relaciones. Una idea nueva puede reordenar esas relaciones. El texto pide examinar después su coherencia y sus efectos.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-0498e150d27f3140df",
+      "tagWeights": {
+        "perspectiva": 1
+      },
+      "contextTokens": 105,
+      "distance": 3,
+      "parent": "np-entrada",
+      "routeEdge": "documento:np-r01",
+      "affinity": 1
+    },
+    {
+      "id": "np-aprendizajes",
+      "type": "ficha",
+      "title": "¿Qué enseñaron estas experiencias?",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-aprendizajes",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/aprendizajes/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "perspectiva",
+        "representacion"
+      ],
+      "summary": "Una mejora requiere una acción concreta, alguien que pueda sostenerla y una observación posterior. El capítulo diferencia los bloqueos de perspectiva de restricciones materiales que necesitan recursos, mantenimiento o cambios de proceso.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-926e08d192bdfd48cf",
+      "tagWeights": {
+        "perspectiva": 0.5,
+        "representacion": 0.5
+      },
+      "contextTokens": 116,
+      "distance": 4,
+      "parent": "np-archivo",
+      "routeEdge": "documento:np-r14",
+      "affinity": 1
+    }
+  ],
+  "reading": "# Posicionamiento · The Integral Management Society\nDocumento de origen: https://integralmanagement.ch/\n\n## The Integral Management Society\nUna sociedad científica dedicada a comprender la complejidad, preservar las capacidades esenciales y abrir nuevas posibilidades de adaptación.\nEtiquetas: Empresa y gestión 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/the-integral-management-society-s14/\nDocumento de origen: https://integralmanagement.ch/\n\nThe Integral Management Society → Del manifiesto a la práctica · lectura enlazada desde el documento. Desde «The Integral Management Society», el enlace «Explorar Nueva Perspectiva: del manifiesto a la práctica  →» abre «Del manifiesto a la práctica».\nFuente de la relación: https://integralmanagement.ch/\n\n## Del manifiesto a la práctica\nIdentificar qué relaciones quedan fuera de la atención cuando un problema persiste pese a que conocemos sus componentes. La serie sigue esa pregunta por el manifiesto, la formación y los casos.\nEtiquetas: Aprendizaje y transmisión de capacidades 80.00%; Cambio de perspectiva 20.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-entrada\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/\n\nThe Integral Management Society → Perspective Beyond: cuándo queda corto un marco · lectura enlazada desde el documento. Desde «The Integral Management Society», el enlace «Perspective Beyond  →» abre «Perspective Beyond: cuándo queda corto un marco».\nFuente de la relación: https://integralmanagement.ch/\n\n## Perspective Beyond: cuándo queda corto un marco\nUn marco permite medir y decidir, pero responde a las preguntas para las que fue construido. Si cambian las condiciones, conviene revisar qué presupuestos siguen vigentes antes de mejorar la respuesta existente.\nEtiquetas: Cambio de perspectiva 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-mas-alla\nDocumento de origen: https://integralmanagement.ch/publicaciones/art-imsv-07/\n\nConservar el conocimiento y seguir conversando → Del manifiesto a la práctica · relectura. El índice permite volver al punto de partida desde la evidencia acumulada.\n\n## Conservar el conocimiento y seguir conversando\nEl archivo conserva variantes, preguntas y aportaciones con su procedencia. Así se puede reconstruir cómo cambió una interpretación y qué parte proviene de un testimonio, un documento o una lectura posterior.\nEtiquetas: Investigación y documentación técnica 33.34%; Evidencia, procedencia y atribución 33.33%; Memoria, comunidad y territorio 33.33%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-archivo\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/archivo-y-dialogo/\n\nDel manifiesto a la práctica → El manifiesto original de Nueva Perspectiva · fundamento. La formulación original desarrolla el papel de las relaciones entre los elementos del sistema mental.\n\n## El manifiesto original de Nueva Perspectiva\nEl sistema mental organiza percepciones, recuerdos, emociones e intereses mediante relaciones. Una idea nueva puede reordenar esas relaciones. El texto pide examinar después su coherencia y sus efectos.\nEtiquetas: Cambio de perspectiva 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-manifiesto\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/manifiesto/\n\n¿Qué enseñaron estas experiencias? → Conservar el conocimiento y seguir conversando · custodia. La posibilidad de revisar un aprendizaje requiere guardar su procedencia y los cambios de interpretación.\n\n## ¿Qué enseñaron estas experiencias?\nUna mejora requiere una acción concreta, alguien que pueda sostenerla y una observación posterior. El capítulo diferencia los bloqueos de perspectiva de restricciones materiales que necesitan recursos, mantenimiento o cambios de proceso.\nEtiquetas: Cambio de perspectiva 50.00%; Representación y límites formales 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-aprendizajes\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/aprendizajes/\n\n"
+}

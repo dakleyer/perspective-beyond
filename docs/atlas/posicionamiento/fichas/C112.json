@@ -1,0 +1,63 @@
+{
+  "id": "C112",
+  "type": "concepto",
+  "title": "Metapropiedad cualificada del residual",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/qualified-properties-of-the-residual/",
+  "documentId": null,
+  "sourceIds": [
+    "GH005",
+    "GH009"
+  ],
+  "tagWeights": {
+    "control-minimo": 0.2049,
+    "decision": 0.0625,
+    "economia": 0.0371,
+    "evidencia": 0.0497,
+    "matematicas": 0.1053,
+    "mundo-abierto": 0.1736,
+    "perspectiva": 0.0185,
+    "representacion": 0.2859,
+    "transformacion": 0.0625
+  },
+  "clusters": [
+    "research"
+  ],
+  "context": "## Metapropiedad cualificada del residual\nEvidence can support a bounded claim about the unresolved remainder.\nEtiquetas: Control mínimo y suficiencia 20.49%; Decisiones y responsabilidad 6.25%; Economía, costes y liquidez 3.71%; Evidencia, procedencia y atribución 4.97%; Matemáticas 10.53%; Mundo abierto e indeterminación 17.36%; Cambio de perspectiva 1.85%; Representación y límites formales 28.59%; Transformación y continuidad operativa 6.25%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/qualified-properties-of-the-residual/\n\n",
+  "tokens": 139,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH005:C112",
+      "to": "GH005",
+      "title": "Metasyntactic Architecture for Open Ecosystems",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 240,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH005.json"
+    },
+    {
+      "id": "apoyo:GH009:C112",
+      "to": "GH009",
+      "title": "Structural Awareness — The Value of an Unresolved Frontier and Two-Phase Contextual Requalification",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 34,
+      "fichaTokens": 247,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH009.json"
+    },
+    {
+      "id": "concepto:G081",
+      "to": "C114",
+      "title": "Diagnóstico de insuficiencia frente a reconstrucción",
+      "direction": "saliente",
+      "kind": "documented use",
+      "reading": "Part I’s expressive and weak-information results lead to a separate utility and reconstruction problem; recognizing a limit does not supply the missing decoder.",
+      "relationTokens": 50,
+      "fichaTokens": 212,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C114.json"
+    }
+  ]
+}

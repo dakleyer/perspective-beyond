@@ -1,0 +1,111 @@
+{
+  "id": "C92",
+  "type": "concepto",
+  "title": "Acoplamiento selectivo entre sistemas",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/selective-coupling/",
+  "documentId": null,
+  "sourceIds": [
+    "U1498",
+    "N1292",
+    "N1279",
+    "L003"
+  ],
+  "tagWeights": {
+    "autoridad": 0.1375,
+    "capacidad-humana": 0.0417,
+    "decision": 0.2834,
+    "economia": 0.075,
+    "empresa": 0.0333,
+    "evidencia": 0.0333,
+    "integridad-ia": 0.0417,
+    "memoria-territorio": 0.1666,
+    "transformacion": 0.1875
+  },
+  "clusters": [
+    "latinoempresa",
+    "net",
+    "us"
+  ],
+  "context": "## Acoplamiento selectivo entre sistemas\nConnect systems in stages to expose capabilities to new demands while retaining adaptation space.\nEtiquetas: Autoridad, permisos y delegación 13.75%; Capacidad humana y deuda de inteligencia 4.17%; Decisiones y responsabilidad 28.34%; Economía, costes y liquidez 7.50%; Empresa y gestión 3.33%; Evidencia, procedencia y atribución 3.33%; Integridad y seguridad de IA 4.17%; Memoria, comunidad y territorio 16.66%; Transformación y continuidad operativa 18.75%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/selective-coupling/\n\n",
+  "tokens": 147,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:U1498:C92",
+      "to": "U1498",
+      "title": "Entropy, Capability Activation and Sociotechnical Engineering",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 126,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1498.json"
+    },
+    {
+      "id": "apoyo:N1292:C92",
+      "to": "N1292",
+      "title": "Tiger Team Compression Model",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 115,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1292.json"
+    },
+    {
+      "id": "apoyo:N1279:C92",
+      "to": "N1279",
+      "title": "Tiger Team Governance Principles",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 100,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1279.json"
+    },
+    {
+      "id": "apoyo:L003:C92",
+      "to": "L003",
+      "title": "El cliclo de la frontera: de Exploradores a Explotadores",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 107,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/L003.json"
+    },
+    {
+      "id": "concepto:A026",
+      "to": "C90",
+      "title": "Capacidad interna después de la salida",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "Selective coupling offers a way to discuss the transition between focused intervention and organizational absorption without treating immediate full integration as the default.",
+      "relationTokens": 44,
+      "fichaTokens": 213,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C90.json"
+    },
+    {
+      "id": "concepto:A044",
+      "to": "C26",
+      "title": "Autoridad de decisión",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "Selective coupling becomes an actionable design question only when authority, escalation, operating limits and exit conditions are explicit at the interface.",
+      "relationTokens": 41,
+      "fichaTokens": 262,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C26.json"
+    },
+    {
+      "id": "concepto:B014",
+      "to": "C106",
+      "title": "Ciclo exploración–explotación",
+      "direction": "entrante",
+      "kind": "hypothesis",
+      "reading": "A possible operational test is whether selective decoupling preserves room for exploration while reducing coordination that blocks action across the network.",
+      "relationTokens": 43,
+      "fichaTokens": 158,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C106.json"
+    }
+  ]
+}

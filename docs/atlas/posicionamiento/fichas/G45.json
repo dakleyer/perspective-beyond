@@ -1,0 +1,88 @@
+{
+  "id": "G45",
+  "type": "concepto",
+  "title": "The Patch that Undid the Fix",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/the-patch-that-undid-the-fix/",
+  "documentId": null,
+  "sourceIds": [
+    "GH017"
+  ],
+  "tagWeights": {
+    "agentes": 0.1081,
+    "autoridad": 0.0541,
+    "cambio-regimen": 0.0541,
+    "cartografia": 0.1622,
+    "casos": 0.0541,
+    "control-minimo": 0.0811,
+    "documentacion": 0.027,
+    "empresa": 0.027,
+    "estandares": 0.1081,
+    "evidencia": 0.1081,
+    "matematicas": 0.1081,
+    "movilidad": 0.054,
+    "transformacion": 0.054
+  },
+  "clusters": [
+    "research"
+  ],
+  "context": "## The Patch that Undid the Fix\nA patch scenario examines downstream consequences of local changes.\nEtiquetas: Agentes y coordinación distribuida 10.81%; Autoridad, permisos y delegación 5.41%; Cambios de régimen y alerta temprana 5.41%; Cartografía y señales de ecosistema 16.22%; Casos de uso y aplicaciones 5.41%; Control mínimo y suficiencia 8.11%; Investigación y documentación técnica 2.70%; Empresa y gestión 2.70%; Estándares e interoperabilidad 10.81%; Evidencia, procedencia y atribución 10.81%; Matemáticas 10.81%; Movilidad e infraestructura 5.40%; Transformación y continuidad operativa 5.40%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/the-patch-that-undid-the-fix/\n\n",
+  "tokens": 185,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH017:G45",
+      "to": "GH017",
+      "title": "Ecosystem Positioning",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 261,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH017.json"
+    },
+    {
+      "id": "concepto:B598",
+      "to": "C03",
+      "title": "Reparación acotada",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 185,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C03.json"
+    },
+    {
+      "id": "concepto:B599",
+      "to": "C13",
+      "title": "Reconstrucción por dependencias",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 111,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C13.json"
+    },
+    {
+      "id": "concepto:B600",
+      "to": "C45",
+      "title": "Fallo de composición",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 240,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C45.json"
+    },
+    {
+      "id": "concepto:B601",
+      "to": "G10",
+      "title": "Epistemic handoff / transferencia contextual",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 129,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G10.json"
+    }
+  ]
+}

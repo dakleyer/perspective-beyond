@@ -1,0 +1,66 @@
+{
+  "id": "dg-market_transparency",
+  "type": "concepto",
+  "title": "Transparencia informacional y circulación productiva",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-market_transparency",
+  "documentId": null,
+  "sourceIds": [
+    "D-295"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.2857,
+    "economia": 0.7143
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Transparencia informacional y circulación productiva\nUn mercado con mejor información aún necesita producción, tiempo, riesgo e intercambio físico.\nEtiquetas: Aprendizaje y transmisión de capacidades 28.57%; Economía, costes y liquidez 71.43%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-market_transparency\n\n",
+  "tokens": 77,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-295:dg-market_transparency",
+      "to": "D-295",
+      "title": "Un algoritmo democrático no elimina el pan, la gasolina ni el tiempo",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 420,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-295.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-311",
+      "to": "dg-economy",
+      "title": "Economía y escasez",
+      "direction": "saliente",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "Mercados e intercambio real.",
+      "relationTokens": 30,
+      "fichaTokens": 239,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-economy.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-312",
+      "to": "dg-scarcity_design",
+      "title": "Dimensiones creadas de escasez",
+      "direction": "saliente",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "Escasez informacional distinta de material.",
+      "relationTokens": 36,
+      "fichaTokens": 117,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-scarcity_design.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-313",
+      "to": "dg-doubt",
+      "title": "Duda, pruebas y conocimiento corregible",
+      "direction": "saliente",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "La hipótesis incorpora excepciones.",
+      "relationTokens": 34,
+      "fichaTokens": 258,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-doubt.json"
+    }
+  ]
+}

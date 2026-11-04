@@ -1,0 +1,66 @@
+{
+  "id": "dg-reversibility",
+  "type": "concepto",
+  "title": "Información disponible e inversión constructible",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-reversibility",
+  "documentId": null,
+  "sourceIds": [
+    "D-250"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.8182,
+    "matematicas": 0.1818
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Información disponible e inversión constructible\nLa reversión de una transformación exige procedimiento e información auxiliar, no solo una flecha algebraica.\nEtiquetas: Aprendizaje y transmisión de capacidades 81.82%; Matemáticas 18.18%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-reversibility\n\n",
+  "tokens": 75,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-250:dg-reversibility",
+      "to": "D-250",
+      "title": "Una inversa escrita no puede reconstruir la información que falta",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 408,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-250.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-212",
+      "to": "dg-math",
+      "title": "Pensamiento matemático",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.9",
+      "reading": "La inversa depende de hipótesis constructivas.",
+      "relationTokens": 31,
+      "fichaTokens": 177,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-math.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-213",
+      "to": "dg-formalization_event",
+      "title": "La frontera entre mundo y registro",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.9",
+      "reading": "La inversión requiere información conservada.",
+      "relationTokens": 30,
+      "fichaTokens": 137,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-formalization_event.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-214",
+      "to": "dg-meta_discrimination",
+      "title": "Carga de validar sistemas y sus entradas",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.9",
+      "reading": "Un verificador no recupera los datos ausentes.",
+      "relationTokens": 36,
+      "fichaTokens": 137,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-meta_discrimination.json"
+    }
+  ]
+}

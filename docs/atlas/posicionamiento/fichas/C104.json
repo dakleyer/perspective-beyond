@@ -1,0 +1,62 @@
+{
+  "id": "C104",
+  "type": "concepto",
+  "title": "Arquitectura de integración reductiva",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/reductive-integration/",
+  "documentId": null,
+  "sourceIds": [
+    "L005",
+    "E1538"
+  ],
+  "tagWeights": {
+    "casos": 0.0527,
+    "control-minimo": 0.1638,
+    "decision": 0.1637,
+    "economia": 0.0526,
+    "empresa": 0.1315,
+    "evidencia": 0.1111,
+    "transformacion": 0.3246
+  },
+  "clusters": [
+    "eu",
+    "latinoempresa"
+  ],
+  "context": "## Arquitectura de integración reductiva\nHomogenisation can remove functions or options carried by local differences.\nEtiquetas: Casos de uso y aplicaciones 5.27%; Control mínimo y suficiencia 16.38%; Decisiones y responsabilidad 16.37%; Economía, costes y liquidez 5.26%; Empresa y gestión 13.15%; Evidencia, procedencia y atribución 11.11%; Transformación y continuidad operativa 32.46%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/reductive-integration/\n\n",
+  "tokens": 119,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:L005:C104",
+      "to": "L005",
+      "title": "Dos maneras de cruzar un mundo Arquitecturas que empobrecen vs arquitecturas que multiplican",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 34,
+      "fichaTokens": 161,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/L005.json"
+    },
+    {
+      "id": "apoyo:E1538:C104",
+      "to": "E1538",
+      "title": "Southeast Asia Shadow IT and Lakehouse model Rationalization",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 135,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1538.json"
+    },
+    {
+      "id": "concepto:B025",
+      "to": "C20",
+      "title": "Capacidad reutilizable",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "Rationalization should distinguish retiring a redundant implementation from destroying a useful capability; simplification alone does not identify a reductive integration.",
+      "relationTokens": 41,
+      "fichaTokens": 254,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C20.json"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "id": "C86",
+  "type": "concepto",
+  "title": "Núcleo común con evidencia cualificada",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/shared-core-of-qualified-evidence/",
+  "documentId": null,
+  "sourceIds": [
+    "N1289",
+    "N1296",
+    "T1391",
+    "T385",
+    "T2795",
+    "T1400",
+    "GH041"
+  ],
+  "tagWeights": {
+    "agentes": 0.042,
+    "aprendizaje": 0.0251,
+    "autoridad": 0.0644,
+    "capacidad-humana": 0.04,
+    "cartografia": 0.042,
+    "control-minimo": 0.0803,
+    "decision": 0.0922,
+    "documentacion": 0.0408,
+    "economia": 0.0567,
+    "empresa": 0.0764,
+    "evidencia": 0.1968,
+    "experimentacion": 0.0114,
+    "integridad-ia": 0.1577,
+    "memoria-territorio": 0.0171,
+    "transformacion": 0.0571
+  },
+  "clusters": [
+    "net",
+    "research",
+    "tegrity"
+  ],
+  "context": "## Núcleo común con evidencia cualificada\nA common decision surface retains evidence provenance, version and limits.\nEtiquetas: Agentes y coordinación distribuida 4.20%; Aprendizaje y transmisión de capacidades 2.51%; Autoridad, permisos y delegación 6.44%; Capacidad humana y deuda de inteligencia 4.00%; Cartografía y señales de ecosistema 4.20%; Control mínimo y suficiencia 8.03%; Decisiones y responsabilidad 9.22%; Investigación y documentación técnica 4.08%; Economía, costes y liquidez 5.67%; Empresa y gestión 7.64%; Evidencia, procedencia y atribución 19.68%; Experimentación, falsación y contraejemplos 1.14%; Integridad y seguridad de IA 15.77%; Memoria, comunidad y territorio 1.71%; Transformación y continuidad operativa 5.71%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/shared-core-of-qualified-evidence/\n\n",
+  "tokens": 214,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:N1289:C86",
+      "to": "N1289",
+      "title": "Information Management as Operational Tracking",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 88,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1289.json"
+    },
+    {
+      "id": "apoyo:N1296:C86",
+      "to": "N1296",
+      "title": "Distributed Tiger Teams VS Freelancer Swarms",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 127,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1296.json"
+    },
+    {
+      "id": "apoyo:T1391:C86",
+      "to": "T1391",
+      "title": "The Limits of AI Oversight",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 101,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1391.json"
+    },
+    {
+      "id": "apoyo:T385:C86",
+      "to": "T385",
+      "title": "AI Integrity Architecture: Toward Expert-System Envelopes Around Statistical AI",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 110,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T385.json"
+    },
+    {
+      "id": "apoyo:T2795:C86",
+      "to": "T2795",
+      "title": "Annex 4 — Canonical Requirements and Test Contract",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 162,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2795.json"
+    },
+    {
+      "id": "apoyo:T1400:C86",
+      "to": "T1400",
+      "title": "Measuring Human Intelligence Debt",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 145,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1400.json"
+    },
+    {
+      "id": "apoyo:GH041:C86",
+      "to": "GH041",
+      "title": "Ecosystem Awareness — General Functional Interfaces & Agentic Security — v0.5 Integrated",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 33,
+      "fichaTokens": 203,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH041.json"
+    },
+    {
+      "id": "concepto:F017",
+      "to": "C59",
+      "title": "Explicación trazable",
+      "direction": "entrante",
+      "kind": "documented use",
+      "reading": "A perfectly traceable rule chain cannot recover a decision-relevant distinction that input formation has already removed.",
+      "relationTokens": 37,
+      "fichaTokens": 138,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C59.json"
+    },
+    {
+      "id": "concepto:F028",
+      "to": "C25",
+      "title": "Suficiencia para una decisión",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "A shared operational record should preserve evidence status and receiving-decision authority instead of turning agreement into a claim of established fact.",
+      "relationTokens": 44,
+      "fichaTokens": 293,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C25.json"
+    },
+    {
+      "id": "concepto:F029",
+      "to": "C75",
+      "title": "Trabajo compensatorio evitable (ACW)",
+      "direction": "saliente",
+      "kind": "hypothesis",
+      "reading": "A common decision core may reduce human-as-API work, provided the cost of maintaining and qualifying that core is included in the comparison.",
+      "relationTokens": 48,
+      "fichaTokens": 207,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C75.json"
+    },
+    {
+      "id": "concepto:G041",
+      "to": "C82",
+      "title": "Traducción de captura a arquitectura",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "A qualified handoff could preserve the provenance and limits of operational analysis as it becomes architecture and is reused by another decision process.",
+      "relationTokens": 44,
+      "fichaTokens": 245,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C82.json"
+    }
+  ]
+}

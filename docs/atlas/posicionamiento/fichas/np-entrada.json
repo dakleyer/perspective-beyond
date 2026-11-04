@@ -1,0 +1,53 @@
+{
+  "id": "np-entrada",
+  "type": "ficha",
+  "title": "Del manifiesto a la práctica",
+  "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-entrada",
+  "documentId": "doc-5daaf7203a2eb21821",
+  "sourceIds": [],
+  "tagWeights": {
+    "aprendizaje": 0.8,
+    "perspectiva": 0.2
+  },
+  "clusters": [
+    "imsv"
+  ],
+  "context": "## Del manifiesto a la práctica\nIdentificar qué relaciones quedan fuera de la atención cuando un problema persiste pese a que conocemos sus componentes. La serie sigue esa pregunta por el manifiesto, la formación y los casos.\nEtiquetas: Aprendizaje y transmisión de capacidades 80.00%; Cambio de perspectiva 20.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-entrada\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/\n\n",
+  "tokens": 108,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "documento:np-r01",
+      "to": "np-manifiesto",
+      "title": "El manifiesto original de Nueva Perspectiva",
+      "direction": "saliente",
+      "kind": "fundamento",
+      "reading": "La formulación original desarrolla el papel de las relaciones entre los elementos del sistema mental.",
+      "relationTokens": 36,
+      "fichaTokens": 105,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-manifiesto.json"
+    },
+    {
+      "id": "documento:np-r15",
+      "to": "np-archivo",
+      "title": "Conservar el conocimiento y seguir conversando",
+      "direction": "entrante",
+      "kind": "relectura",
+      "reading": "El índice permite volver al punto de partida desde la evidencia acumulada.",
+      "relationTokens": 34,
+      "fichaTokens": 132,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-archivo.json"
+    },
+    {
+      "id": "navigation:position-nav-S14-np-entrada",
+      "to": "S14",
+      "title": "The Integral Management Society",
+      "direction": "entrante",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «The Integral Management Society», el enlace «Explorar Nueva Perspectiva: del manifiesto a la práctica  →» abre «Del manifiesto a la práctica».",
+      "relationTokens": 66,
+      "fichaTokens": 76,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/S14.json"
+    }
+  ]
+}

@@ -16,6 +16,14 @@ Start from an Atlas card, a concept, or a source URL. Choose how many relationsh
 
 Each entry carries a configuration for the same Atlas. Published configurations have a versioned URL and a plain-text entry for assistants.
 
+## Posicionamiento y mini mapas
+
+Un posicionamiento es un documento de entrada, como la landing de una web. El documento tiene fichas; las fichas tienen composiciones porcentuales de etiquetas y relaciones con otras fichas y conceptos. La combinación del visitante y un presupuesto de tokens abren un mini mapa cuya lectura crece al ampliar ese presupuesto.
+
+[Abrir un posicionamiento](https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/) · [Protocolo y modelo](docs/atlas/posicionamiento/README.md) · [Paquetes preparados](https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/preparados/) · [Datos y porcentajes](docs/atlas/posicionamiento/etiquetas-fichas.json).
+
+El cálculo público está en `docs/atlas/positioning.mjs`. La CLI admite `posicionamiento`, `tokens` y pesos de etiquetas. El grafo conserva el documento de origen de cada ficha y los costes de lectura calculados con `o200k_base`.
+
 ## Edit the atlas
 
 - `narrative/guide.md` holds the long-form reading guide. Link concept and source IDs using double brackets.

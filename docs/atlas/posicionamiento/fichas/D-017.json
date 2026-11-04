@@ -1,0 +1,98 @@
+{
+  "id": "D-017",
+  "type": "ficha",
+  "title": "Estar presente y prever consecuencias",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-017",
+  "documentId": "doc-41f3a410d217128630",
+  "sourceIds": [],
+  "tagWeights": {
+    "aprendizaje": 0.2222,
+    "casos": 0.5556,
+    "decision": 0.2222
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Estar presente y prever consecuencias\nINTERLOCUTOR (pregunta editorial nueva) — ¿No es una contradicción hablar de atención al presente y, a la vez, dedicar la vida a anticipar escenarios, riesgos y consecuencias?\nRECUPERACIÓN DE CONVERSACIÓN (05/02/2026; síntesis con expresión literal) — Iván corrigió una interpretación pasiva del wu wei y empleó la expresión «acción plena». Para él, atender el presente no exigía borrar el pasado ni dejar de imaginar futuros. La cuestión era actuar sin quedar cautivo de una sola obligación imaginada, pudiendo observar las alternativas con mayor claridad y ecuanimidad. Esa reflexión dialoga con su interés por la liquidez estructural: conservar opciones no significa negarse a decidir; significa reconocer cuándo una decisión es realmente nuestra y qué posibilidades sacrifica.\nINTERLOCUTOR (pregunta editorial nueva) — ¿Cómo se hizo visible esta búsqueda más allá de tu experiencia personal?\nLECTURA DOCUMENTAL — Formación Integral, Acción Integral y las comunidades de práctica de Xalapa y Coatepec incorporaron, en distintas etapas, ejercicios de introspección, atención plena, visualización, dramatización y cambio de perspectiva. En 2016 Iván describía en su perfil profesional formación en técnicas de visualización, meditación y dramaterapia para empresas. La reconstrucción histórica de Nueva Perspectiva conserva el trabajo de facilitadores y participantes, sin confundir actividades de formación humana con psicoterapia ni afirmar efectos clínicos que no estén documentados.\nEtiquetas: Aprendizaje y transmisión de capacidades 22.22%; Casos de uso y aplicaciones 55.56%; Decisiones y responsabilidad 22.22%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-017\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20(pregunta%20editorial%20nueva)%20%E2%80%94%20%C2%BFNo%20es%20una%20contradicci%C3%B3n%20hablar%20de\n\n",
+  "tokens": 449,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-017:dg-decision",
+      "to": "dg-decision",
+      "title": "Decisiones entre escenarios",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 169,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-decision.json"
+    },
+    {
+      "id": "apoyo:D-017:dg-inner",
+      "to": "dg-inner",
+      "title": "Atención y sentido",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 181,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-inner.json"
+    },
+    {
+      "id": "documento:dg-064",
+      "to": "D-005",
+      "title": "Escasez, crecimiento y libertad real",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Decisiones entre escenarios».",
+      "relationTokens": 30,
+      "fichaTokens": 442,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-005.json"
+    },
+    {
+      "id": "documento:dg-065",
+      "to": "D-047",
+      "title": "Movilidad, cítricos y soluciones prácticas",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Decisiones entre escenarios».",
+      "relationTokens": 31,
+      "fichaTokens": 503,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-047.json"
+    },
+    {
+      "id": "documento:dg-143",
+      "to": "D-016",
+      "title": "La atención como práctica de libertad",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Atención y sentido».",
+      "relationTokens": 28,
+      "fichaTokens": 394,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-016.json"
+    },
+    {
+      "id": "documento:dg-144",
+      "to": "D-018",
+      "title": "Espiritualidad sin imponer una doctrina",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Atención y sentido».",
+      "relationTokens": 29,
+      "fichaTokens": 285,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-018.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-238-D-017",
+      "to": "D-238",
+      "title": "El background importa tanto como el foco",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «El background importa tanto como el foco» con «Estar presente y prever consecuencias». Permite contrastar Atención y sentido.",
+      "relationTokens": 50,
+      "fichaTokens": 402,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-238.json"
+    }
+  ]
+}

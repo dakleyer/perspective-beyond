@@ -1,0 +1,150 @@
+{
+  "id": "dg-mission",
+  "type": "concepto",
+  "title": "Misión, cooperación y frutos indirectos",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-mission",
+  "documentId": null,
+  "sourceIds": [
+    "D-160",
+    "D-161",
+    "D-210",
+    "D-273"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.0833,
+    "decision": 0.25,
+    "estandares": 0.1667,
+    "geopolitica": 0.25,
+    "memoria-territorio": 0.1072,
+    "transformacion": 0.1428
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Misión, cooperación y frutos indirectos\nDistinguir intención, tarea inmediata, efectos indirectos y libertad de cooperación a distintas escalas.\nEtiquetas: Aprendizaje y transmisión de capacidades 8.33%; Decisiones y responsabilidad 25.00%; Estándares e interoperabilidad 16.67%; Geopolítica y fronteras 25.00%; Memoria, comunidad y territorio 10.72%; Transformación y continuidad operativa 14.28%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-mission\n\n",
+  "tokens": 122,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-160:dg-mission",
+      "to": "D-160",
+      "title": "La fecundidad de una misión puede aparecer lejos de su resultado inmediato",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 363,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-160.json"
+    },
+    {
+      "id": "apoyo:D-161:dg-mission",
+      "to": "D-161",
+      "title": "De la interdependencia padecida a una cooperación elegida",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 327,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-161.json"
+    },
+    {
+      "id": "apoyo:D-210:dg-mission",
+      "to": "D-210",
+      "title": "La autenticidad quema; la hipocresía conserva",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 413,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-210.json"
+    },
+    {
+      "id": "apoyo:D-273:dg-mission",
+      "to": "D-273",
+      "title": "Varias vidas profesionales pueden sostener un mismo propósito",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 415,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-273.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-071",
+      "to": "dg-community",
+      "title": "Comunidades y territorio",
+      "direction": "saliente",
+      "kind": "puede fructificar a través de",
+      "reading": "Consecuencias nacen de otros actores y tiempos.",
+      "relationTokens": 32,
+      "fichaTokens": 187,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-community.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-072",
+      "to": "dg-account",
+      "title": "Responsabilidad y reparación",
+      "direction": "saliente",
+      "kind": "necesita distinguirse de",
+      "reading": "Un efecto posterior no prueba intención o mérito exclusivo.",
+      "relationTokens": 29,
+      "fichaTokens": 112,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-account.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-073",
+      "to": "dg-commitment",
+      "title": "Garantías, deudas y compromisos",
+      "direction": "saliente",
+      "kind": "interroga",
+      "reading": "Cooperar libremente requiere poder elegir obligaciones.",
+      "relationTokens": 30,
+      "fichaTokens": 120,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-commitment.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-074",
+      "to": "dg-inner",
+      "title": "Atención y sentido",
+      "direction": "saliente",
+      "kind": "dialoga con",
+      "reading": "La finalidad de una acción contiene una dimensión humana.",
+      "relationTokens": 27,
+      "fichaTokens": 181,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-inner.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-136",
+      "to": "dg-imperial_contradiction",
+      "title": "Poder, innovación y agotamiento de sentido",
+      "direction": "entrante",
+      "kind": "contrapone autenticidad y conservación",
+      "reading": "Sostener un propósito exige aceptar sus costes y contradicciones.",
+      "relationTokens": 39,
+      "fichaTokens": 117,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-imperial_contradiction.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-219",
+      "to": "dg-federated_custody",
+      "title": "Custodias distribuidas y memoria viva",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.9",
+      "reading": "La colaboración tiene que servir a fines concretos.",
+      "relationTokens": 37,
+      "fichaTokens": 128,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-federated_custody.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-261",
+      "to": "dg-fulfillment_boundary",
+      "title": "Maximizar frente a cumplir un propósito",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.11",
+      "reading": "Reconocer la finalidad real.",
+      "relationTokens": 33,
+      "fichaTokens": 88,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-fulfillment_boundary.json"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "C110",
+  "type": "concepto",
+  "title": "Compresión y expansión de la intervención",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/intervention-compression-and-expansion/",
+  "documentId": null,
+  "sourceIds": [
+    "GH024",
+    "N1292",
+    "L003"
+  ],
+  "tagWeights": {
+    "autoridad": 0.0815,
+    "capacidad-humana": 0.0185,
+    "cartografia": 0.1482,
+    "control-minimo": 0.0926,
+    "decision": 0.2482,
+    "economia": 0.0444,
+    "empresa": 0.0444,
+    "evidencia": 0.0444,
+    "memoria-territorio": 0.1667,
+    "transformacion": 0.1111
+  },
+  "clusters": [
+    "latinoempresa",
+    "net",
+    "research"
+  ],
+  "context": "## Compresión y expansión de la intervención\nOpening options, focused execution and organisational absorption need different structures.\nEtiquetas: Autoridad, permisos y delegación 8.15%; Capacidad humana y deuda de inteligencia 1.85%; Cartografía y señales de ecosistema 14.82%; Control mínimo y suficiencia 9.26%; Decisiones y responsabilidad 24.82%; Economía, costes y liquidez 4.44%; Empresa y gestión 4.44%; Evidencia, procedencia y atribución 4.44%; Memoria, comunidad y territorio 16.67%; Transformación y continuidad operativa 11.11%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/intervention-compression-and-expansion/\n\n",
+  "tokens": 157,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH024:C110",
+      "to": "GH024",
+      "title": "Canonical MSCA Operation & Repositioning — Gradient, Re-contracting and Metamorphic Role Control",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 35,
+      "fichaTokens": 205,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH024.json"
+    },
+    {
+      "id": "apoyo:N1292:C110",
+      "to": "N1292",
+      "title": "Tiger Team Compression Model",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 115,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1292.json"
+    },
+    {
+      "id": "apoyo:L003:C110",
+      "to": "L003",
+      "title": "El cliclo de la frontera: de Exploradores a Explotadores",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 107,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/L003.json"
+    },
+    {
+      "id": "concepto:B013",
+      "to": "C106",
+      "title": "Ciclo exploración–explotación",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "The frontier cycle raises a governance question for compression and expansion: how can scaling retain the ability to explore without treating every expansion as extraction?",
+      "relationTokens": 47,
+      "fichaTokens": 158,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C106.json"
+    },
+    {
+      "id": "concepto:G024",
+      "to": "C26",
+      "title": "Autoridad de decisión",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "Phase changes can be reviewed as role and mandate transitions, distinguishing permitted realignment from a new objective or contract.",
+      "relationTokens": 38,
+      "fichaTokens": 262,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C26.json"
+    }
+  ]
+}

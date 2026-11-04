@@ -1,0 +1,2256 @@
+{
+  "schema": "perspective-beyond/positioning-v1",
+  "edition": "2026-11-04",
+  "request": {
+    "posicionamiento": "tegrity",
+    "tokens": 4000,
+    "max": 60,
+    "rol": "lector",
+    "lectura": "explore",
+    "enfoque": "parejo",
+    "instruccion": "",
+    "red": "ideas",
+    "sentido": "ambas",
+    "modo": "closed",
+    "site": "tegrity",
+    "puente": null,
+    "solo": false,
+    "pesos": []
+  },
+  "position": {
+    "id": "doc-3365ae2ce02200034c",
+    "title": "Tegrity.AI",
+    "url": "https://tegrity.ai/",
+    "fichas": [
+      "T1573"
+    ],
+    "aliases": [
+      "https://tegrity.ai/"
+    ],
+    "header": "# Posicionamiento · Tegrity.AI\nDocumento de origen: https://tegrity.ai/\n\n",
+    "headerTokens": 21,
+    "type": "documento",
+    "focus": "T1573",
+    "seeds": [
+      "T1573"
+    ]
+  },
+  "budget": {
+    "limit": 4000,
+    "used": 3952,
+    "remaining": 48,
+    "nextBlock": 170,
+    "encoding": "o200k_base",
+    "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
+  },
+  "reachable": 67,
+  "selected": 29,
+  "shown": 30,
+  "omittedByBudget": 38,
+  "omittedInDiagram": 0,
+  "layers": [
+    {
+      "distance": 0,
+      "selected": 0,
+      "shown": 1
+    },
+    {
+      "distance": 1,
+      "selected": 1,
+      "shown": 1
+    },
+    {
+      "distance": 2,
+      "selected": 8,
+      "shown": 8
+    },
+    {
+      "distance": 3,
+      "selected": 10,
+      "shown": 10
+    },
+    {
+      "distance": 4,
+      "selected": 9,
+      "shown": 9
+    },
+    {
+      "distance": 5,
+      "selected": 1,
+      "shown": 1
+    }
+  ],
+  "center": "doc-3365ae2ce02200034c-entrada",
+  "nodes": [
+    {
+      "id": "doc-3365ae2ce02200034c-entrada",
+      "title": "Tegrity.AI",
+      "type": "documento",
+      "url": "https://tegrity.ai/",
+      "original": "https://tegrity.ai/",
+      "summary": "Documento desde el que se abre este posicionamiento.",
+      "tags": [],
+      "tagWeights": {},
+      "clusters": [
+        "tegrity"
+      ],
+      "distance": 0,
+      "parent": null
+    },
+    {
+      "id": "T1573",
+      "type": "ficha",
+      "title": "Tegrity.AI",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/tegrity-ai-t1573/",
+      "original": "https://tegrity.ai/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "control-minimo",
+        "decision",
+        "navegacion"
+      ],
+      "summary": "Tegrity.AI is an applied research, engineering and pre-standardization group of The Integral Management Society , a Swiss non-profit association based in Geneva. It advances AI Integrity Management through research, architecture, the review and development of standards, and technology for the common good.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-3365ae2ce02200034c",
+      "tagWeights": {
+        "control-minimo": 0.2222,
+        "decision": 0.2222,
+        "navegacion": 0.5556
+      },
+      "contextTokens": 129,
+      "distance": 1,
+      "parent": "doc-3365ae2ce02200034c-entrada",
+      "routeEdge": null,
+      "affinity": 1
+    },
+    {
+      "id": "G31",
+      "type": "concepto",
+      "title": "Tegrity.AI",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/tegrity-ai/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "control-minimo",
+        "decision",
+        "documentacion",
+        "estandares",
+        "evidencia",
+        "navegacion"
+      ],
+      "summary": "The public research programme covers operational integrity, structural awareness and technical contributions.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "T1573",
+        "T1687",
+        "T1499",
+        "T1230"
+      ],
+      "tagWeights": {
+        "control-minimo": 0.0556,
+        "decision": 0.0556,
+        "documentacion": 0.1805,
+        "estandares": 0.25,
+        "evidencia": 0.1805,
+        "navegacion": 0.2778
+      },
+      "contextTokens": 108,
+      "positionHeaderTokens": 35,
+      "distance": 2,
+      "parent": "T1573",
+      "routeEdge": "apoyo:T1573:G31",
+      "affinity": 1
+    },
+    {
+      "id": "T1221",
+      "type": "ficha",
+      "title": "Regime Awareness: Capability Development Across Four Field Cases",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/regime-awareness-capability-development-across-four-field-cases-t1221/",
+      "original": "https://tegrity.ai/evolution-of-regime-awareness-capability/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "cambio-regimen"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-b3caaa1c986520a04a",
+      "tagWeights": {
+        "cambio-regimen": 1
+      },
+      "contextTokens": 78,
+      "distance": 2,
+      "parent": "T1573",
+      "routeEdge": "navigation:position-nav-T1573-T1221",
+      "affinity": 1
+    },
+    {
+      "id": "T1387",
+      "type": "ficha",
+      "title": "Minimalistic Regime-Aware Early Warning Systems",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/minimalistic-regime-aware-early-warning-systems-t1387/",
+      "original": "https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "cambio-regimen"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-431e2eeef604eb7723",
+      "tagWeights": {
+        "cambio-regimen": 1
+      },
+      "contextTokens": 79,
+      "distance": 2,
+      "parent": "T1573",
+      "routeEdge": "navigation:position-nav-T1573-T1387",
+      "affinity": 1
+    },
+    {
+      "id": "T1499",
+      "type": "ficha",
+      "title": "Structural Awareness",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/structural-awareness-t1499/",
+      "original": "https://tegrity.ai/structural-awareness-program/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "documentacion",
+        "evidencia"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-45cb1f35df27295b6e",
+      "tagWeights": {
+        "documentacion": 0.5,
+        "evidencia": 0.5
+      },
+      "contextTokens": 68,
+      "distance": 2,
+      "parent": "T1573",
+      "routeEdge": "navigation:position-nav-T1573-T1499",
+      "affinity": 1
+    },
+    {
+      "id": "T1513",
+      "type": "ficha",
+      "title": "Regime-Aware Semantic Windows: Proposal for Mathematical Assessment and Empirical Validation",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/regime-aware-semantic-windows-proposal-for-mathematical-assessment-and-empiric-t1513/",
+      "original": "https://tegrity.ai/regime-aware-semantic-windows-mathematical-validation/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "cambio-regimen",
+        "evidencia",
+        "matematicas",
+        "perspectiva"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-79ceea8454acf4d719",
+      "tagWeights": {
+        "cambio-regimen": 0.2941,
+        "evidencia": 0.1177,
+        "matematicas": 0.2941,
+        "perspectiva": 0.2941
+      },
+      "contextTokens": 124,
+      "distance": 2,
+      "parent": "T1573",
+      "routeEdge": "navigation:position-nav-T1573-T1513",
+      "affinity": 1
+    },
+    {
+      "id": "T1709",
+      "type": "ficha",
+      "title": "Research Initiatives",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/research-initiatives-t1709/",
+      "original": "https://tegrity.ai/research-initiatives/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "documentacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-86e0595b3709434d22",
+      "tagWeights": {
+        "documentacion": 1
+      },
+      "contextTokens": 57,
+      "distance": 2,
+      "parent": "T1573",
+      "routeEdge": "navigation:position-nav-T1573-T1709",
+      "affinity": 1
+    },
+    {
+      "id": "T2729",
+      "type": "ficha",
+      "title": "Minimum Sufficient Control Architecture for AI Enabled Urban Systems",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/minimum-sufficient-control-architecture-for-ai-enabled-urban-systems-t2729/",
+      "original": "https://tegrity.ai/minimum-sufficient-control-architecture-for-ai-enabled-urban-systems/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "control-minimo"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-dda05be174434e9a4d",
+      "tagWeights": {
+        "control-minimo": 1
+      },
+      "contextTokens": 83,
+      "distance": 2,
+      "parent": "T1573",
+      "routeEdge": "navigation:position-nav-T1573-T2729",
+      "affinity": 1
+    },
+    {
+      "id": "T2744",
+      "type": "ficha",
+      "title": "From Field Practice to Pre-Standardization: An Extensible Case-Study Framework",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/from-field-practice-to-pre-standardization-an-extensible-case-study-framework-t2744/",
+      "original": "https://tegrity.ai/from-field-practice-to-pre-standardization-an-extensible-case-study-framework/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "estandares",
+        "experimentacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-a7aaea52566152daee",
+      "tagWeights": {
+        "estandares": 0.5,
+        "experimentacion": 0.5
+      },
+      "contextTokens": 105,
+      "distance": 2,
+      "parent": "T1573",
+      "routeEdge": "navigation:position-nav-T1573-T2744",
+      "affinity": 1
+    },
+    {
+      "id": "G18",
+      "type": "concepto",
+      "title": "Field Notes / notas de campo",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/field-notes/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "documentacion",
+        "evidencia",
+        "navegacion"
+      ],
+      "summary": "Public notes record operational observations, methods and reflections.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "T1230",
+        "T1499"
+      ],
+      "tagWeights": {
+        "documentacion": 0.3611,
+        "evidencia": 0.3611,
+        "navegacion": 0.2778
+      },
+      "contextTokens": 75,
+      "positionHeaderTokens": 36,
+      "distance": 3,
+      "parent": "T1499",
+      "routeEdge": "apoyo:T1499:G18",
+      "affinity": 1
+    },
+    {
+      "id": "G34",
+      "type": "concepto",
+      "title": "Industry Reference Group (IRG)",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/industry-reference-group/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "documentacion",
+        "estandares",
+        "evidencia",
+        "integridad-ia"
+      ],
+      "summary": "The group convenes practical perspectives on agentic AI and its operating conditions.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "T1726",
+        "T1499"
+      ],
+      "tagWeights": {
+        "documentacion": 0.25,
+        "estandares": 0.25,
+        "evidencia": 0.25,
+        "integridad-ia": 0.25
+      },
+      "contextTokens": 91,
+      "positionHeaderTokens": 36,
+      "distance": 3,
+      "parent": "T1499",
+      "routeEdge": "apoyo:T1499:G34",
+      "affinity": 1
+    },
+    {
+      "id": "T1230",
+      "type": "ficha",
+      "title": "Field Notes",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/field-notes-t1230/",
+      "original": "https://tegrity.ai/articles/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "documentacion",
+        "evidencia",
+        "navegacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-335c68118bc87aefe1",
+      "tagWeights": {
+        "documentacion": 0.2222,
+        "evidencia": 0.2222,
+        "navegacion": 0.5556
+      },
+      "contextTokens": 75,
+      "distance": 3,
+      "parent": "G31",
+      "routeEdge": "apoyo:T1230:G31",
+      "affinity": 1
+    },
+    {
+      "id": "T1379",
+      "type": "ficha",
+      "title": "Existence, Constructive Realizability, Operational Maximality, Safety Governance, and the Contextual Boundary Problem of a “Sufficiently Good” Detector",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/existence-constructive-realizability-operational-maximality-safety-governance--t1379/",
+      "original": "https://tegrity.ai/1379-2/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "control-minimo",
+        "integridad-ia"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-daf6149f8b0c351d74",
+      "tagWeights": {
+        "control-minimo": 0.5,
+        "integridad-ia": 0.5
+      },
+      "contextTokens": 112,
+      "distance": 3,
+      "parent": "T1387",
+      "routeEdge": "documento:R197",
+      "affinity": 1
+    },
+    {
+      "id": "T1391",
+      "type": "ficha",
+      "title": "The Limits of AI Oversight",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/the-limits-of-ai-oversight-t1391/",
+      "original": "https://tegrity.ai/the-limits-of-ai-oversight/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "autoridad",
+        "control-minimo",
+        "decision",
+        "evidencia"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-4be828e99f81281c6e",
+      "tagWeights": {
+        "autoridad": 0.2222,
+        "control-minimo": 0.3334,
+        "decision": 0.2222,
+        "evidencia": 0.2222
+      },
+      "contextTokens": 101,
+      "distance": 3,
+      "parent": "T2729",
+      "routeEdge": "documento:F022",
+      "affinity": 1
+    },
+    {
+      "id": "T1494",
+      "type": "ficha",
+      "title": "The Outlook",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/the-outlook-t1494/",
+      "original": "https://tegrity.ai/the-outlook/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "cartografia"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-8ccfe0d6d8985fec92",
+      "tagWeights": {
+        "cartografia": 1
+      },
+      "contextTokens": 55,
+      "distance": 3,
+      "parent": "T1499",
+      "routeEdge": "documento:R189",
+      "affinity": 1
+    },
+    {
+      "id": "T1687",
+      "type": "ficha",
+      "title": "Research Contributions",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/research-contributions-t1687/",
+      "original": "https://tegrity.ai/research-contributions/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "estandares"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-43ce3cb4fcb52e03ec",
+      "tagWeights": {
+        "estandares": 1
+      },
+      "contextTokens": 56,
+      "distance": 3,
+      "parent": "G31",
+      "routeEdge": "apoyo:T1687:G31",
+      "affinity": 1
+    },
+    {
+      "id": "T250",
+      "type": "ficha",
+      "title": "Regime Awareness Technology Component Roadmap",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/regime-awareness-technology-component-roadmap-t250/",
+      "original": "https://tegrity.ai/regime-awareness-roadmap/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "cambio-regimen"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-c8e1ea99d67fa12439",
+      "tagWeights": {
+        "cambio-regimen": 1
+      },
+      "contextTokens": 67,
+      "distance": 3,
+      "parent": "T1513",
+      "routeEdge": "documento:R200",
+      "affinity": 1
+    },
+    {
+      "id": "T2811",
+      "type": "ficha",
+      "title": "Annex 8 — Meaning, Contribution and Limits",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/annex-8-meaning-contribution-and-limits-t2811/",
+      "original": "https://tegrity.ai/when-the-controls-work-annex-8-meaning-contribution-and-limits/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "documentacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-2c2d5b7dd03325f63d",
+      "tagWeights": {
+        "documentacion": 1
+      },
+      "contextTokens": 81,
+      "distance": 3,
+      "parent": "T1499",
+      "routeEdge": "documento:M042",
+      "affinity": 1
+    },
+    {
+      "id": "T387",
+      "type": "ficha",
+      "title": "Structural Limits of Current AI Integrity Under Regime Change",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/structural-limits-of-current-ai-integrity-under-regime-change-t387/",
+      "original": "https://tegrity.ai/structural-limits-of-current-ai-integrity-under-regime-change/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "cambio-regimen",
+        "integridad-ia"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-cb3fd1a4927ab92a0a",
+      "tagWeights": {
+        "cambio-regimen": 0.4545,
+        "integridad-ia": 0.5455
+      },
+      "contextTokens": 96,
+      "distance": 3,
+      "parent": "T1387",
+      "routeEdge": "documento:F018",
+      "affinity": 1
+    },
+    {
+      "id": "G26",
+      "type": "concepto",
+      "title": "Arquitectura transmisible a implementadores",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/transferable-implementation-architecture/",
+      "original": null,
+      "aliases": [],
+      "clusters": [],
+      "tags": [
+        "documentacion"
+      ],
+      "summary": "Specify roles, interfaces, evidence and conditions so an implementer can reconstruct the operating logic.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [],
+      "tagWeights": {
+        "documentacion": 1
+      },
+      "contextTokens": 63,
+      "positionHeaderTokens": 40,
+      "distance": 4,
+      "parent": "G34",
+      "routeEdge": "concepto:B545",
+      "affinity": 1
+    },
+    {
+      "id": "T1396",
+      "type": "ficha",
+      "title": "What Cannot Be Recovered Must Be Managed. Cross-series bridge: Human Intelligence Gap with AI Integrity Management",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/what-cannot-be-recovered-must-be-managed-cross-series-bridge-human-intelligenc-t1396/",
+      "original": "https://tegrity.ai/what-cannot-be-recovered-must-be-managed-cross-series-bridge-human-intelligence-gap-with-ai-integrity-management/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "aprendizaje",
+        "capacidad-humana",
+        "decision",
+        "empresa",
+        "integridad-ia",
+        "memoria-territorio"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-0249d5e971a797f8f3",
+      "tagWeights": {
+        "aprendizaje": 0.0953,
+        "capacidad-humana": 0.2381,
+        "decision": 0.0952,
+        "empresa": 0.2381,
+        "integridad-ia": 0.2381,
+        "memoria-territorio": 0.0952
+      },
+      "contextTokens": 161,
+      "distance": 4,
+      "parent": "T1391",
+      "routeEdge": "documento:R168",
+      "affinity": 1
+    },
+    {
+      "id": "T1400",
+      "type": "ficha",
+      "title": "Measuring Human Intelligence Debt",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/measuring-human-intelligence-debt-t1400/",
+      "original": "https://tegrity.ai/meassuring-human-intelligence-debt/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "aprendizaje",
+        "capacidad-humana",
+        "decision",
+        "economia",
+        "empresa",
+        "evidencia",
+        "experimentacion",
+        "memoria-territorio"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-4ee0cbf5a517cb4a17",
+      "tagWeights": {
+        "aprendizaje": 0.08,
+        "capacidad-humana": 0.28,
+        "decision": 0.08,
+        "economia": 0.12,
+        "empresa": 0.08,
+        "evidencia": 0.16,
+        "experimentacion": 0.08,
+        "memoria-territorio": 0.12
+      },
+      "contextTokens": 145,
+      "distance": 4,
+      "parent": "T1494",
+      "routeEdge": "documento:M037",
+      "affinity": 1
+    },
+    {
+      "id": "T1491",
+      "type": "ficha",
+      "title": "Why Selection Cannot See It",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/why-selection-cannot-see-it-t1491/",
+      "original": "https://tegrity.ai/why-selection-cannot-see-it/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "perspectiva"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-baa0803f3c1e8231b8",
+      "tagWeights": {
+        "perspectiva": 1
+      },
+      "contextTokens": 62,
+      "distance": 4,
+      "parent": "T1494",
+      "routeEdge": "documento:F010",
+      "affinity": 1
+    },
+    {
+      "id": "T1726",
+      "type": "ficha",
+      "title": "Industry Reference Group",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/industry-reference-group-t1726/",
+      "original": "https://tegrity.ai/industry-reference-group/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "estandares",
+        "integridad-ia"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-bf1ec9241ad153434b",
+      "tagWeights": {
+        "estandares": 0.5,
+        "integridad-ia": 0.5
+      },
+      "contextTokens": 68,
+      "distance": 4,
+      "parent": "G34",
+      "routeEdge": "apoyo:T1726:G34",
+      "affinity": 1
+    },
+    {
+      "id": "T2803",
+      "type": "ficha",
+      "title": "Annex 6 — Ablation, Sufficiency and Extensibility",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/annex-6-ablation-sufficiency-and-extensibility-t2803/",
+      "original": "https://tegrity.ai/when-the-controls-work-annex-6-ablation-sufficiency-and-extensibility/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "control-minimo",
+        "documentacion",
+        "experimentacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-f9c732ea4fc0778099",
+      "tagWeights": {
+        "control-minimo": 0.2941,
+        "documentacion": 0.2941,
+        "experimentacion": 0.4118
+      },
+      "contextTokens": 114,
+      "distance": 4,
+      "parent": "T2811",
+      "routeEdge": "documento:R212",
+      "affinity": 1
+    },
+    {
+      "id": "T2814",
+      "type": "ficha",
+      "title": "Annex 9 — Claims and Evidence Appendix",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/annex-9-claims-and-evidence-appendix-t2814/",
+      "original": "https://tegrity.ai/when-the-controls-work-annex-9-claims-and-evidence-appendix/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "documentacion",
+        "evidencia"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-99b64238fb794ab0e7",
+      "tagWeights": {
+        "documentacion": 0.3846,
+        "evidencia": 0.6154
+      },
+      "contextTokens": 95,
+      "distance": 4,
+      "parent": "T2811",
+      "routeEdge": "documento:R214",
+      "affinity": 1
+    },
+    {
+      "id": "T385",
+      "type": "ficha",
+      "title": "AI Integrity Architecture: Toward Expert-System Envelopes Around Statistical AI",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/ai-integrity-architecture-toward-expert-system-envelopes-around-statistical-ai-t385/",
+      "original": "https://tegrity.ai/ai-integrity-architecture-toward-expert-system-envelopes-around-statistical-ai/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "evidencia",
+        "integridad-ia"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-fa687f604847765f99",
+      "tagWeights": {
+        "evidencia": 0.2857,
+        "integridad-ia": 0.7143
+      },
+      "contextTokens": 110,
+      "distance": 4,
+      "parent": "T387",
+      "routeEdge": "documento:R164",
+      "affinity": 1
+    },
+    {
+      "id": "T874",
+      "type": "ficha",
+      "title": "Human Intelligence Debt",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/human-intelligence-debt-t874/",
+      "original": "https://tegrity.ai/human-intelligence-debt/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "capacidad-humana",
+        "empresa",
+        "evidencia"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-a68c59b41898c09161",
+      "tagWeights": {
+        "capacidad-humana": 0.6,
+        "empresa": 0.2,
+        "evidencia": 0.2
+      },
+      "contextTokens": 82,
+      "distance": 4,
+      "parent": "T1391",
+      "routeEdge": "documento:R167",
+      "affinity": 1
+    },
+    {
+      "id": "C74",
+      "type": "concepto",
+      "title": "Ejecución y supervisión necesarias (NEO)",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/necessary-execution-and-oversight/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "aprendizaje",
+        "capacidad-humana",
+        "decision",
+        "economia",
+        "empresa",
+        "evidencia",
+        "experimentacion",
+        "memoria-territorio"
+      ],
+      "summary": "Work can be required by responsibility, novelty, law or physical constraints.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "T1400",
+        "T1425"
+      ],
+      "tagWeights": {
+        "aprendizaje": 0.04,
+        "capacidad-humana": 0.515,
+        "decision": 0.04,
+        "economia": 0.185,
+        "empresa": 0.04,
+        "evidencia": 0.08,
+        "experimentacion": 0.04,
+        "memoria-territorio": 0.06
+      },
+      "contextTokens": 145,
+      "positionHeaderTokens": 44,
+      "distance": 5,
+      "parent": "T1400",
+      "routeEdge": "apoyo:T1400:C74",
+      "affinity": 1
+    }
+  ],
+  "edges": [
+    {
+      "id": "contiene:doc-3365ae2ce02200034c-entrada:T1573",
+      "from": "doc-3365ae2ce02200034c-entrada",
+      "to": "T1573",
+      "kind": "ficha del documento",
+      "reading": "Esta ficha abre la lectura desde el documento de origen.",
+      "route": true
+    },
+    {
+      "id": "apoyo:T1573:G31",
+      "from": "T1573",
+      "to": "G31",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-T1573-T1221",
+      "from": "T1573",
+      "to": "T1221",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «Tegrity.AI», el enlace «field cases» abre «Regime Awareness: Capability Development Across Four Field Cases».",
+      "evidence": "https://tegrity.ai/",
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-T1573-T1387",
+      "from": "T1573",
+      "to": "T1387",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «Tegrity.AI», el enlace «Good Enough EWS» abre «Minimalistic Regime-Aware Early Warning Systems».",
+      "evidence": "https://tegrity.ai/",
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-T1573-T1499",
+      "from": "T1573",
+      "to": "T1499",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «Tegrity.AI», el enlace «Structural Awareness synthesis» abre «Structural Awareness».",
+      "evidence": "https://tegrity.ai/",
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-T1573-T1513",
+      "from": "T1573",
+      "to": "T1513",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «Tegrity.AI», el enlace «H1–H3 validation proposal» abre «Regime-Aware Semantic Windows: Proposal for Mathematical Assessment and Empirical Validation».",
+      "evidence": "https://tegrity.ai/",
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-T1573-T1709",
+      "from": "T1573",
+      "to": "T1709",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «Tegrity.AI», el enlace «Research Initiatives» abre «Research Initiatives».",
+      "evidence": "https://tegrity.ai/",
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-T1573-T2729",
+      "from": "T1573",
+      "to": "T2729",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «Tegrity.AI», el enlace «working paper» abre «Minimum Sufficient Control Architecture for AI Enabled Urban Systems».",
+      "evidence": "https://tegrity.ai/",
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-T1573-T2744",
+      "from": "T1573",
+      "to": "T2744",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «Tegrity.AI», el enlace «Worked case and method» abre «From Field Practice to Pre-Standardization: An Extensible Case-Study Framework».",
+      "evidence": "https://tegrity.ai/",
+      "route": true
+    },
+    {
+      "id": "apoyo:T1499:G18",
+      "from": "T1499",
+      "to": "G18",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "apoyo:T1499:G34",
+      "from": "T1499",
+      "to": "G34",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "apoyo:T1230:G31",
+      "from": "T1230",
+      "to": "G31",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:R197",
+      "from": "T1379",
+      "to": "T1387",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The maintained early-warning working paper](https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:F022",
+      "from": "T2729",
+      "to": "T1391",
+      "kind": "candidate transfer",
+      "reading": "Control burden should be compared among configurations that meet the same objective and evidence obligations, including the human response work they create.",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:R189",
+      "from": "T1494",
+      "to": "T1499",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The four-series Structural Awareness programme](https://tegrity.ai/structural-awareness-program/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "apoyo:T1687:G31",
+      "from": "T1687",
+      "to": "G31",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:R200",
+      "from": "T250",
+      "to": "T1513",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The next semantic-window assessment](https://tegrity.ai/regime-aware-semantic-windows-mathematical-validation/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:M042",
+      "from": "T2811",
+      "to": "T1499",
+      "kind": "analogy only",
+      "reading": "A shared conceptual programme does not make evidence from one research branch a validation of the others.",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:F018",
+      "from": "T387",
+      "to": "T1387",
+      "kind": "analogy only",
+      "reading": "A regime signal matters operationally only when its evidence, response window and authorized action are specified, not merely when another alarm layer is added.",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "concepto:B545",
+      "from": "G34",
+      "to": "G26",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:R168",
+      "from": "T1396",
+      "to": "T1391",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The structural limits of AI oversight](https://tegrity.ai/the-limits-of-ai-oversight/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:M037",
+      "from": "T1494",
+      "to": "T1400",
+      "kind": "candidate transfer",
+      "reading": "The programme's forecasts become testable only when their indicators, populations, time windows and disconfirming outcomes are specified.",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:F010",
+      "from": "T1491",
+      "to": "T1494",
+      "kind": "hypothesis",
+      "reading": "The forecast becomes testable by asking whether automation creates more compensatory work in processes already dependent on off-map reconciliation.",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "apoyo:T1726:G34",
+      "from": "T1726",
+      "to": "G34",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:R212",
+      "from": "T2803",
+      "to": "T2811",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [What the results establish and what remains open](https://tegrity.ai/when-the-controls-work-annex-8-meaning-contribution-and-limits/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:R214",
+      "from": "T2811",
+      "to": "T2814",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The claim-and-evidence reading key](https://tegrity.ai/when-the-controls-work-annex-9-claims-and-evidence-appendix/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:R164",
+      "from": "T385",
+      "to": "T387",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The structural limits of integrity under regime change](https://tegrity.ai/structural-limits-of-current-ai-integrity-under-regime-change/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:R167",
+      "from": "T1391",
+      "to": "T874",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The Human Intelligence Debt definitions](https://tegrity.ai/human-intelligence-debt/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "apoyo:T1400:C74",
+      "from": "T1400",
+      "to": "C74",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "apoyo:T1230:G18",
+      "from": "T1230",
+      "to": "G18",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "route": false
+    },
+    {
+      "id": "apoyo:T1499:G31",
+      "from": "T1499",
+      "to": "G31",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "route": false
+    },
+    {
+      "id": "documento:M041",
+      "from": "T2803",
+      "to": "T1400",
+      "kind": "candidate transfer",
+      "reading": "Task simulations could vary integration, data quality and expert support separately to examine which assumptions drive a human-work counterfactual.",
+      "evidence": null,
+      "route": false
+    },
+    {
+      "id": "documento:F001",
+      "from": "T874",
+      "to": "T1400",
+      "kind": "documented use",
+      "reading": "The task-level protocol operationalizes the earlier role-based framework; its time ratios should not be compared with operator ratios without an explicit conversion model.",
+      "evidence": null,
+      "route": false
+    },
+    {
+      "id": "documento:F003",
+      "from": "T1391",
+      "to": "T1400",
+      "kind": "documented use",
+      "reading": "The oversight-threshold study tests whether added review and reconciliation outweigh removed work, rather than treating guardrail count as a measure of debt.",
+      "evidence": null,
+      "route": false
+    },
+    {
+      "id": "documento:F017",
+      "from": "T385",
+      "to": "T1391",
+      "kind": "documented use",
+      "reading": "A perfectly traceable rule chain cannot recover a decision-relevant distinction that input formation has already removed.",
+      "evidence": null,
+      "route": false
+    },
+    {
+      "id": "documento:R165",
+      "from": "T387",
+      "to": "T1387",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Minimalistic Regime-Aware Early Warning Systems](https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/).",
+      "evidence": null,
+      "route": false
+    },
+    {
+      "id": "documento:R169",
+      "from": "T874",
+      "to": "T1400",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Measuring Human Intelligence Debt](https://tegrity.ai/meassuring-human-intelligence-debt/).",
+      "evidence": null,
+      "route": false
+    },
+    {
+      "id": "documento:R196",
+      "from": "T1387",
+      "to": "T1513",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The H1–H3 mathematical and empirical validation proposal](https://tegrity.ai/regime-aware-semantic-windows-mathematical-validation/).",
+      "evidence": null,
+      "route": false
+    },
+    {
+      "id": "documento:R203",
+      "from": "T2744",
+      "to": "T2729",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The bounded urban-control case](https://tegrity.ai/minimum-sufficient-control-architecture-for-ai-enabled-urban-systems/).",
+      "evidence": null,
+      "route": false
+    }
+  ],
+  "selection": [
+    {
+      "id": "T1573",
+      "type": "ficha",
+      "title": "Tegrity.AI",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/tegrity-ai-t1573/",
+      "original": "https://tegrity.ai/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "control-minimo",
+        "decision",
+        "navegacion"
+      ],
+      "summary": "Tegrity.AI is an applied research, engineering and pre-standardization group of The Integral Management Society , a Swiss non-profit association based in Geneva. It advances AI Integrity Management through research, architecture, the review and development of standards, and technology for the common good.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-3365ae2ce02200034c",
+      "tagWeights": {
+        "control-minimo": 0.2222,
+        "decision": 0.2222,
+        "navegacion": 0.5556
+      },
+      "contextTokens": 129,
+      "distance": 1,
+      "parent": "doc-3365ae2ce02200034c-entrada",
+      "routeEdge": null,
+      "affinity": 1
+    },
+    {
+      "id": "G31",
+      "type": "concepto",
+      "title": "Tegrity.AI",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/tegrity-ai/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "control-minimo",
+        "decision",
+        "documentacion",
+        "estandares",
+        "evidencia",
+        "navegacion"
+      ],
+      "summary": "The public research programme covers operational integrity, structural awareness and technical contributions.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "T1573",
+        "T1687",
+        "T1499",
+        "T1230"
+      ],
+      "tagWeights": {
+        "control-minimo": 0.0556,
+        "decision": 0.0556,
+        "documentacion": 0.1805,
+        "estandares": 0.25,
+        "evidencia": 0.1805,
+        "navegacion": 0.2778
+      },
+      "contextTokens": 108,
+      "positionHeaderTokens": 35,
+      "distance": 2,
+      "parent": "T1573",
+      "routeEdge": "apoyo:T1573:G31",
+      "affinity": 1
+    },
+    {
+      "id": "T1221",
+      "type": "ficha",
+      "title": "Regime Awareness: Capability Development Across Four Field Cases",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/regime-awareness-capability-development-across-four-field-cases-t1221/",
+      "original": "https://tegrity.ai/evolution-of-regime-awareness-capability/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "cambio-regimen"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-b3caaa1c986520a04a",
+      "tagWeights": {
+        "cambio-regimen": 1
+      },
+      "contextTokens": 78,
+      "distance": 2,
+      "parent": "T1573",
+      "routeEdge": "navigation:position-nav-T1573-T1221",
+      "affinity": 1
+    },
+    {
+      "id": "T1387",
+      "type": "ficha",
+      "title": "Minimalistic Regime-Aware Early Warning Systems",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/minimalistic-regime-aware-early-warning-systems-t1387/",
+      "original": "https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "cambio-regimen"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-431e2eeef604eb7723",
+      "tagWeights": {
+        "cambio-regimen": 1
+      },
+      "contextTokens": 79,
+      "distance": 2,
+      "parent": "T1573",
+      "routeEdge": "navigation:position-nav-T1573-T1387",
+      "affinity": 1
+    },
+    {
+      "id": "T1499",
+      "type": "ficha",
+      "title": "Structural Awareness",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/structural-awareness-t1499/",
+      "original": "https://tegrity.ai/structural-awareness-program/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "documentacion",
+        "evidencia"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-45cb1f35df27295b6e",
+      "tagWeights": {
+        "documentacion": 0.5,
+        "evidencia": 0.5
+      },
+      "contextTokens": 68,
+      "distance": 2,
+      "parent": "T1573",
+      "routeEdge": "navigation:position-nav-T1573-T1499",
+      "affinity": 1
+    },
+    {
+      "id": "T1513",
+      "type": "ficha",
+      "title": "Regime-Aware Semantic Windows: Proposal for Mathematical Assessment and Empirical Validation",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/regime-aware-semantic-windows-proposal-for-mathematical-assessment-and-empiric-t1513/",
+      "original": "https://tegrity.ai/regime-aware-semantic-windows-mathematical-validation/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "cambio-regimen",
+        "evidencia",
+        "matematicas",
+        "perspectiva"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-79ceea8454acf4d719",
+      "tagWeights": {
+        "cambio-regimen": 0.2941,
+        "evidencia": 0.1177,
+        "matematicas": 0.2941,
+        "perspectiva": 0.2941
+      },
+      "contextTokens": 124,
+      "distance": 2,
+      "parent": "T1573",
+      "routeEdge": "navigation:position-nav-T1573-T1513",
+      "affinity": 1
+    },
+    {
+      "id": "T1709",
+      "type": "ficha",
+      "title": "Research Initiatives",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/research-initiatives-t1709/",
+      "original": "https://tegrity.ai/research-initiatives/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "documentacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-86e0595b3709434d22",
+      "tagWeights": {
+        "documentacion": 1
+      },
+      "contextTokens": 57,
+      "distance": 2,
+      "parent": "T1573",
+      "routeEdge": "navigation:position-nav-T1573-T1709",
+      "affinity": 1
+    },
+    {
+      "id": "T2729",
+      "type": "ficha",
+      "title": "Minimum Sufficient Control Architecture for AI Enabled Urban Systems",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/minimum-sufficient-control-architecture-for-ai-enabled-urban-systems-t2729/",
+      "original": "https://tegrity.ai/minimum-sufficient-control-architecture-for-ai-enabled-urban-systems/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "control-minimo"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-dda05be174434e9a4d",
+      "tagWeights": {
+        "control-minimo": 1
+      },
+      "contextTokens": 83,
+      "distance": 2,
+      "parent": "T1573",
+      "routeEdge": "navigation:position-nav-T1573-T2729",
+      "affinity": 1
+    },
+    {
+      "id": "T2744",
+      "type": "ficha",
+      "title": "From Field Practice to Pre-Standardization: An Extensible Case-Study Framework",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/from-field-practice-to-pre-standardization-an-extensible-case-study-framework-t2744/",
+      "original": "https://tegrity.ai/from-field-practice-to-pre-standardization-an-extensible-case-study-framework/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "estandares",
+        "experimentacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-a7aaea52566152daee",
+      "tagWeights": {
+        "estandares": 0.5,
+        "experimentacion": 0.5
+      },
+      "contextTokens": 105,
+      "distance": 2,
+      "parent": "T1573",
+      "routeEdge": "navigation:position-nav-T1573-T2744",
+      "affinity": 1
+    },
+    {
+      "id": "G18",
+      "type": "concepto",
+      "title": "Field Notes / notas de campo",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/field-notes/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "documentacion",
+        "evidencia",
+        "navegacion"
+      ],
+      "summary": "Public notes record operational observations, methods and reflections.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "T1230",
+        "T1499"
+      ],
+      "tagWeights": {
+        "documentacion": 0.3611,
+        "evidencia": 0.3611,
+        "navegacion": 0.2778
+      },
+      "contextTokens": 75,
+      "positionHeaderTokens": 36,
+      "distance": 3,
+      "parent": "T1499",
+      "routeEdge": "apoyo:T1499:G18",
+      "affinity": 1
+    },
+    {
+      "id": "G34",
+      "type": "concepto",
+      "title": "Industry Reference Group (IRG)",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/industry-reference-group/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "documentacion",
+        "estandares",
+        "evidencia",
+        "integridad-ia"
+      ],
+      "summary": "The group convenes practical perspectives on agentic AI and its operating conditions.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "T1726",
+        "T1499"
+      ],
+      "tagWeights": {
+        "documentacion": 0.25,
+        "estandares": 0.25,
+        "evidencia": 0.25,
+        "integridad-ia": 0.25
+      },
+      "contextTokens": 91,
+      "positionHeaderTokens": 36,
+      "distance": 3,
+      "parent": "T1499",
+      "routeEdge": "apoyo:T1499:G34",
+      "affinity": 1
+    },
+    {
+      "id": "T1230",
+      "type": "ficha",
+      "title": "Field Notes",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/field-notes-t1230/",
+      "original": "https://tegrity.ai/articles/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "documentacion",
+        "evidencia",
+        "navegacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-335c68118bc87aefe1",
+      "tagWeights": {
+        "documentacion": 0.2222,
+        "evidencia": 0.2222,
+        "navegacion": 0.5556
+      },
+      "contextTokens": 75,
+      "distance": 3,
+      "parent": "G31",
+      "routeEdge": "apoyo:T1230:G31",
+      "affinity": 1
+    },
+    {
+      "id": "T1379",
+      "type": "ficha",
+      "title": "Existence, Constructive Realizability, Operational Maximality, Safety Governance, and the Contextual Boundary Problem of a “Sufficiently Good” Detector",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/existence-constructive-realizability-operational-maximality-safety-governance--t1379/",
+      "original": "https://tegrity.ai/1379-2/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "control-minimo",
+        "integridad-ia"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-daf6149f8b0c351d74",
+      "tagWeights": {
+        "control-minimo": 0.5,
+        "integridad-ia": 0.5
+      },
+      "contextTokens": 112,
+      "distance": 3,
+      "parent": "T1387",
+      "routeEdge": "documento:R197",
+      "affinity": 1
+    },
+    {
+      "id": "T1391",
+      "type": "ficha",
+      "title": "The Limits of AI Oversight",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/the-limits-of-ai-oversight-t1391/",
+      "original": "https://tegrity.ai/the-limits-of-ai-oversight/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "autoridad",
+        "control-minimo",
+        "decision",
+        "evidencia"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-4be828e99f81281c6e",
+      "tagWeights": {
+        "autoridad": 0.2222,
+        "control-minimo": 0.3334,
+        "decision": 0.2222,
+        "evidencia": 0.2222
+      },
+      "contextTokens": 101,
+      "distance": 3,
+      "parent": "T2729",
+      "routeEdge": "documento:F022",
+      "affinity": 1
+    },
+    {
+      "id": "T1494",
+      "type": "ficha",
+      "title": "The Outlook",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/the-outlook-t1494/",
+      "original": "https://tegrity.ai/the-outlook/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "cartografia"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-8ccfe0d6d8985fec92",
+      "tagWeights": {
+        "cartografia": 1
+      },
+      "contextTokens": 55,
+      "distance": 3,
+      "parent": "T1499",
+      "routeEdge": "documento:R189",
+      "affinity": 1
+    },
+    {
+      "id": "T1687",
+      "type": "ficha",
+      "title": "Research Contributions",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/research-contributions-t1687/",
+      "original": "https://tegrity.ai/research-contributions/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "estandares"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-43ce3cb4fcb52e03ec",
+      "tagWeights": {
+        "estandares": 1
+      },
+      "contextTokens": 56,
+      "distance": 3,
+      "parent": "G31",
+      "routeEdge": "apoyo:T1687:G31",
+      "affinity": 1
+    },
+    {
+      "id": "T250",
+      "type": "ficha",
+      "title": "Regime Awareness Technology Component Roadmap",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/regime-awareness-technology-component-roadmap-t250/",
+      "original": "https://tegrity.ai/regime-awareness-roadmap/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "cambio-regimen"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-c8e1ea99d67fa12439",
+      "tagWeights": {
+        "cambio-regimen": 1
+      },
+      "contextTokens": 67,
+      "distance": 3,
+      "parent": "T1513",
+      "routeEdge": "documento:R200",
+      "affinity": 1
+    },
+    {
+      "id": "T2811",
+      "type": "ficha",
+      "title": "Annex 8 — Meaning, Contribution and Limits",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/annex-8-meaning-contribution-and-limits-t2811/",
+      "original": "https://tegrity.ai/when-the-controls-work-annex-8-meaning-contribution-and-limits/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "documentacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-2c2d5b7dd03325f63d",
+      "tagWeights": {
+        "documentacion": 1
+      },
+      "contextTokens": 81,
+      "distance": 3,
+      "parent": "T1499",
+      "routeEdge": "documento:M042",
+      "affinity": 1
+    },
+    {
+      "id": "T387",
+      "type": "ficha",
+      "title": "Structural Limits of Current AI Integrity Under Regime Change",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/structural-limits-of-current-ai-integrity-under-regime-change-t387/",
+      "original": "https://tegrity.ai/structural-limits-of-current-ai-integrity-under-regime-change/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "cambio-regimen",
+        "integridad-ia"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-cb3fd1a4927ab92a0a",
+      "tagWeights": {
+        "cambio-regimen": 0.4545,
+        "integridad-ia": 0.5455
+      },
+      "contextTokens": 96,
+      "distance": 3,
+      "parent": "T1387",
+      "routeEdge": "documento:F018",
+      "affinity": 1
+    },
+    {
+      "id": "G26",
+      "type": "concepto",
+      "title": "Arquitectura transmisible a implementadores",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/transferable-implementation-architecture/",
+      "original": null,
+      "aliases": [],
+      "clusters": [],
+      "tags": [
+        "documentacion"
+      ],
+      "summary": "Specify roles, interfaces, evidence and conditions so an implementer can reconstruct the operating logic.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [],
+      "tagWeights": {
+        "documentacion": 1
+      },
+      "contextTokens": 63,
+      "positionHeaderTokens": 40,
+      "distance": 4,
+      "parent": "G34",
+      "routeEdge": "concepto:B545",
+      "affinity": 1
+    },
+    {
+      "id": "T1396",
+      "type": "ficha",
+      "title": "What Cannot Be Recovered Must Be Managed. Cross-series bridge: Human Intelligence Gap with AI Integrity Management",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/what-cannot-be-recovered-must-be-managed-cross-series-bridge-human-intelligenc-t1396/",
+      "original": "https://tegrity.ai/what-cannot-be-recovered-must-be-managed-cross-series-bridge-human-intelligence-gap-with-ai-integrity-management/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "aprendizaje",
+        "capacidad-humana",
+        "decision",
+        "empresa",
+        "integridad-ia",
+        "memoria-territorio"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-0249d5e971a797f8f3",
+      "tagWeights": {
+        "aprendizaje": 0.0953,
+        "capacidad-humana": 0.2381,
+        "decision": 0.0952,
+        "empresa": 0.2381,
+        "integridad-ia": 0.2381,
+        "memoria-territorio": 0.0952
+      },
+      "contextTokens": 161,
+      "distance": 4,
+      "parent": "T1391",
+      "routeEdge": "documento:R168",
+      "affinity": 1
+    },
+    {
+      "id": "T1400",
+      "type": "ficha",
+      "title": "Measuring Human Intelligence Debt",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/measuring-human-intelligence-debt-t1400/",
+      "original": "https://tegrity.ai/meassuring-human-intelligence-debt/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "aprendizaje",
+        "capacidad-humana",
+        "decision",
+        "economia",
+        "empresa",
+        "evidencia",
+        "experimentacion",
+        "memoria-territorio"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-4ee0cbf5a517cb4a17",
+      "tagWeights": {
+        "aprendizaje": 0.08,
+        "capacidad-humana": 0.28,
+        "decision": 0.08,
+        "economia": 0.12,
+        "empresa": 0.08,
+        "evidencia": 0.16,
+        "experimentacion": 0.08,
+        "memoria-territorio": 0.12
+      },
+      "contextTokens": 145,
+      "distance": 4,
+      "parent": "T1494",
+      "routeEdge": "documento:M037",
+      "affinity": 1
+    },
+    {
+      "id": "T1491",
+      "type": "ficha",
+      "title": "Why Selection Cannot See It",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/why-selection-cannot-see-it-t1491/",
+      "original": "https://tegrity.ai/why-selection-cannot-see-it/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "perspectiva"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-baa0803f3c1e8231b8",
+      "tagWeights": {
+        "perspectiva": 1
+      },
+      "contextTokens": 62,
+      "distance": 4,
+      "parent": "T1494",
+      "routeEdge": "documento:F010",
+      "affinity": 1
+    },
+    {
+      "id": "T1726",
+      "type": "ficha",
+      "title": "Industry Reference Group",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/industry-reference-group-t1726/",
+      "original": "https://tegrity.ai/industry-reference-group/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "estandares",
+        "integridad-ia"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-bf1ec9241ad153434b",
+      "tagWeights": {
+        "estandares": 0.5,
+        "integridad-ia": 0.5
+      },
+      "contextTokens": 68,
+      "distance": 4,
+      "parent": "G34",
+      "routeEdge": "apoyo:T1726:G34",
+      "affinity": 1
+    },
+    {
+      "id": "T2803",
+      "type": "ficha",
+      "title": "Annex 6 — Ablation, Sufficiency and Extensibility",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/annex-6-ablation-sufficiency-and-extensibility-t2803/",
+      "original": "https://tegrity.ai/when-the-controls-work-annex-6-ablation-sufficiency-and-extensibility/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "control-minimo",
+        "documentacion",
+        "experimentacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-f9c732ea4fc0778099",
+      "tagWeights": {
+        "control-minimo": 0.2941,
+        "documentacion": 0.2941,
+        "experimentacion": 0.4118
+      },
+      "contextTokens": 114,
+      "distance": 4,
+      "parent": "T2811",
+      "routeEdge": "documento:R212",
+      "affinity": 1
+    },
+    {
+      "id": "T2814",
+      "type": "ficha",
+      "title": "Annex 9 — Claims and Evidence Appendix",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/annex-9-claims-and-evidence-appendix-t2814/",
+      "original": "https://tegrity.ai/when-the-controls-work-annex-9-claims-and-evidence-appendix/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "documentacion",
+        "evidencia"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-99b64238fb794ab0e7",
+      "tagWeights": {
+        "documentacion": 0.3846,
+        "evidencia": 0.6154
+      },
+      "contextTokens": 95,
+      "distance": 4,
+      "parent": "T2811",
+      "routeEdge": "documento:R214",
+      "affinity": 1
+    },
+    {
+      "id": "T385",
+      "type": "ficha",
+      "title": "AI Integrity Architecture: Toward Expert-System Envelopes Around Statistical AI",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/ai-integrity-architecture-toward-expert-system-envelopes-around-statistical-ai-t385/",
+      "original": "https://tegrity.ai/ai-integrity-architecture-toward-expert-system-envelopes-around-statistical-ai/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "evidencia",
+        "integridad-ia"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-fa687f604847765f99",
+      "tagWeights": {
+        "evidencia": 0.2857,
+        "integridad-ia": 0.7143
+      },
+      "contextTokens": 110,
+      "distance": 4,
+      "parent": "T387",
+      "routeEdge": "documento:R164",
+      "affinity": 1
+    },
+    {
+      "id": "T874",
+      "type": "ficha",
+      "title": "Human Intelligence Debt",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/human-intelligence-debt-t874/",
+      "original": "https://tegrity.ai/human-intelligence-debt/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "capacidad-humana",
+        "empresa",
+        "evidencia"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-a68c59b41898c09161",
+      "tagWeights": {
+        "capacidad-humana": 0.6,
+        "empresa": 0.2,
+        "evidencia": 0.2
+      },
+      "contextTokens": 82,
+      "distance": 4,
+      "parent": "T1391",
+      "routeEdge": "documento:R167",
+      "affinity": 1
+    },
+    {
+      "id": "C74",
+      "type": "concepto",
+      "title": "Ejecución y supervisión necesarias (NEO)",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/necessary-execution-and-oversight/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "aprendizaje",
+        "capacidad-humana",
+        "decision",
+        "economia",
+        "empresa",
+        "evidencia",
+        "experimentacion",
+        "memoria-territorio"
+      ],
+      "summary": "Work can be required by responsibility, novelty, law or physical constraints.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "T1400",
+        "T1425"
+      ],
+      "tagWeights": {
+        "aprendizaje": 0.04,
+        "capacidad-humana": 0.515,
+        "decision": 0.04,
+        "economia": 0.185,
+        "empresa": 0.04,
+        "evidencia": 0.08,
+        "experimentacion": 0.04,
+        "memoria-territorio": 0.06
+      },
+      "contextTokens": 145,
+      "positionHeaderTokens": 44,
+      "distance": 5,
+      "parent": "T1400",
+      "routeEdge": "apoyo:T1400:C74",
+      "affinity": 1
+    }
+  ],
+  "reading": "# Posicionamiento · Tegrity.AI\nDocumento de origen: https://tegrity.ai/\n\n## Tegrity.AI\nTegrity.AI is an applied research, engineering and pre-standardization group of The Integral Management Society , a Swiss non-profit association based in Geneva. It advances AI Integrity Management through research, architecture, the review and development of standards, and technology for the common good.\nEtiquetas: Control mínimo y suficiencia 22.22%; Decisiones y responsabilidad 22.22%; Índices, contacto y políticas 55.56%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/tegrity-ai-t1573/\nDocumento de origen: https://tegrity.ai/\n\nTegrity.AI → Tegrity.AI · documenta el concepto. \n\n## Tegrity.AI\nThe public research programme covers operational integrity, structural awareness and technical contributions.\nEtiquetas: Control mínimo y suficiencia 5.56%; Decisiones y responsabilidad 5.56%; Investigación y documentación técnica 18.05%; Estándares e interoperabilidad 25.00%; Evidencia, procedencia y atribución 18.05%; Índices, contacto y políticas 27.78%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/tegrity-ai/\n\nTegrity.AI → Regime Awareness: Capability Development Across Four Field Cases · lectura enlazada desde el documento. Desde «Tegrity.AI», el enlace «field cases» abre «Regime Awareness: Capability Development Across Four Field Cases».\nFuente de la relación: https://tegrity.ai/\n\n## Regime Awareness: Capability Development Across Four Field Cases\n\nEtiquetas: Cambios de régimen y alerta temprana 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/regime-awareness-capability-development-across-four-field-cases-t1221/\nDocumento de origen: https://tegrity.ai/evolution-of-regime-awareness-capability/\n\nTegrity.AI → Minimalistic Regime-Aware Early Warning Systems · lectura enlazada desde el documento. Desde «Tegrity.AI», el enlace «Good Enough EWS» abre «Minimalistic Regime-Aware Early Warning Systems».\nFuente de la relación: https://tegrity.ai/\n\n## Minimalistic Regime-Aware Early Warning Systems\n\nEtiquetas: Cambios de régimen y alerta temprana 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/minimalistic-regime-aware-early-warning-systems-t1387/\nDocumento de origen: https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/\n\nTegrity.AI → Structural Awareness · lectura enlazada desde el documento. Desde «Tegrity.AI», el enlace «Structural Awareness synthesis» abre «Structural Awareness».\nFuente de la relación: https://tegrity.ai/\n\n## Structural Awareness\n\nEtiquetas: Investigación y documentación técnica 50.00%; Evidencia, procedencia y atribución 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/structural-awareness-t1499/\nDocumento de origen: https://tegrity.ai/structural-awareness-program/\n\nTegrity.AI → Regime-Aware Semantic Windows: Proposal for Mathematical Assessment and Empirical Validation · lectura enlazada desde el documento. Desde «Tegrity.AI», el enlace «H1–H3 validation proposal» abre «Regime-Aware Semantic Windows: Proposal for Mathematical Assessment and Empirical Validation».\nFuente de la relación: https://tegrity.ai/\n\n## Regime-Aware Semantic Windows: Proposal for Mathematical Assessment and Empirical Validation\n\nEtiquetas: Cambios de régimen y alerta temprana 29.41%; Evidencia, procedencia y atribución 11.77%; Matemáticas 29.41%; Cambio de perspectiva 29.41%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/regime-aware-semantic-windows-proposal-for-mathematical-assessment-and-empiric-t1513/\nDocumento de origen: https://tegrity.ai/regime-aware-semantic-windows-mathematical-validation/\n\nTegrity.AI → Research Initiatives · lectura enlazada desde el documento. Desde «Tegrity.AI», el enlace «Research Initiatives» abre «Research Initiatives».\nFuente de la relación: https://tegrity.ai/\n\n## Research Initiatives\n\nEtiquetas: Investigación y documentación técnica 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/research-initiatives-t1709/\nDocumento de origen: https://tegrity.ai/research-initiatives/\n\nTegrity.AI → Minimum Sufficient Control Architecture for AI Enabled Urban Systems · lectura enlazada desde el documento. Desde «Tegrity.AI», el enlace «working paper» abre «Minimum Sufficient Control Architecture for AI Enabled Urban Systems».\nFuente de la relación: https://tegrity.ai/\n\n## Minimum Sufficient Control Architecture for AI Enabled Urban Systems\n\nEtiquetas: Control mínimo y suficiencia 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/minimum-sufficient-control-architecture-for-ai-enabled-urban-systems-t2729/\nDocumento de origen: https://tegrity.ai/minimum-sufficient-control-architecture-for-ai-enabled-urban-systems/\n\nTegrity.AI → From Field Practice to Pre-Standardization: An Extensible Case-Study Framework · lectura enlazada desde el documento. Desde «Tegrity.AI», el enlace «Worked case and method» abre «From Field Practice to Pre-Standardization: An Extensible Case-Study Framework».\nFuente de la relación: https://tegrity.ai/\n\n## From Field Practice to Pre-Standardization: An Extensible Case-Study Framework\n\nEtiquetas: Estándares e interoperabilidad 50.00%; Experimentación, falsación y contraejemplos 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/from-field-practice-to-pre-standardization-an-extensible-case-study-framework-t2744/\nDocumento de origen: https://tegrity.ai/from-field-practice-to-pre-standardization-an-extensible-case-study-framework/\n\nStructural Awareness → Field Notes / notas de campo · documenta el concepto. \n\n## Field Notes / notas de campo\nPublic notes record operational observations, methods and reflections.\nEtiquetas: Investigación y documentación técnica 36.11%; Evidencia, procedencia y atribución 36.11%; Índices, contacto y políticas 27.78%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/field-notes/\n\nStructural Awareness → Industry Reference Group (IRG) · documenta el concepto. \n\n## Industry Reference Group (IRG)\nThe group convenes practical perspectives on agentic AI and its operating conditions.\nEtiquetas: Investigación y documentación técnica 25.00%; Estándares e interoperabilidad 25.00%; Evidencia, procedencia y atribución 25.00%; Integridad y seguridad de IA 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/industry-reference-group/\n\nField Notes → Tegrity.AI · documenta el concepto. \n\n## Field Notes\n\nEtiquetas: Investigación y documentación técnica 22.22%; Evidencia, procedencia y atribución 22.22%; Índices, contacto y políticas 55.56%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/field-notes-t1230/\nDocumento de origen: https://tegrity.ai/articles/\n\nExistence, Constructive Realizability, Operational Maximality, Safety Governance, and the Contextual Boundary Problem of a “Sufficiently Good” Detector → Minimalistic Regime-Aware Early Warning Systems · editorial comparison. For a complementary reading, see [The maintained early-warning working paper](https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/).\n\n## Existence, Constructive Realizability, Operational Maximality, Safety Governance, and the Contextual Boundary Problem of a “Sufficiently Good” Detector\n\nEtiquetas: Control mínimo y suficiencia 50.00%; Integridad y seguridad de IA 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/existence-constructive-realizability-operational-maximality-safety-governance--t1379/\nDocumento de origen: https://tegrity.ai/1379-2/\n\nMinimum Sufficient Control Architecture for AI Enabled Urban Systems → The Limits of AI Oversight · candidate transfer. Control burden should be compared among configurations that meet the same objective and evidence obligations, including the human response work they create.\n\n## The Limits of AI Oversight\n\nEtiquetas: Autoridad, permisos y delegación 22.22%; Control mínimo y suficiencia 33.34%; Decisiones y responsabilidad 22.22%; Evidencia, procedencia y atribución 22.22%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/the-limits-of-ai-oversight-t1391/\nDocumento de origen: https://tegrity.ai/the-limits-of-ai-oversight/\n\nThe Outlook → Structural Awareness · editorial comparison. For a complementary reading, see [The four-series Structural Awareness programme](https://tegrity.ai/structural-awareness-program/).\n\n## The Outlook\n\nEtiquetas: Cartografía y señales de ecosistema 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/the-outlook-t1494/\nDocumento de origen: https://tegrity.ai/the-outlook/\n\nResearch Contributions → Tegrity.AI · documenta el concepto. \n\n## Research Contributions\n\nEtiquetas: Estándares e interoperabilidad 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/research-contributions-t1687/\nDocumento de origen: https://tegrity.ai/research-contributions/\n\nRegime Awareness Technology Component Roadmap → Regime-Aware Semantic Windows: Proposal for Mathematical Assessment and Empirical Validation · editorial comparison. For a complementary reading, see [The next semantic-window assessment](https://tegrity.ai/regime-aware-semantic-windows-mathematical-validation/).\n\n## Regime Awareness Technology Component Roadmap\n\nEtiquetas: Cambios de régimen y alerta temprana 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/regime-awareness-technology-component-roadmap-t250/\nDocumento de origen: https://tegrity.ai/regime-awareness-roadmap/\n\nAnnex 8 — Meaning, Contribution and Limits → Structural Awareness · analogy only. A shared conceptual programme does not make evidence from one research branch a validation of the others.\n\n## Annex 8 — Meaning, Contribution and Limits\n\nEtiquetas: Investigación y documentación técnica 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/annex-8-meaning-contribution-and-limits-t2811/\nDocumento de origen: https://tegrity.ai/when-the-controls-work-annex-8-meaning-contribution-and-limits/\n\nStructural Limits of Current AI Integrity Under Regime Change → Minimalistic Regime-Aware Early Warning Systems · analogy only. A regime signal matters operationally only when its evidence, response window and authorized action are specified, not merely when another alarm layer is added.\n\n## Structural Limits of Current AI Integrity Under Regime Change\n\nEtiquetas: Cambios de régimen y alerta temprana 45.45%; Integridad y seguridad de IA 54.55%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/structural-limits-of-current-ai-integrity-under-regime-change-t387/\nDocumento de origen: https://tegrity.ai/structural-limits-of-current-ai-integrity-under-regime-change/\n\nIndustry Reference Group (IRG) → Arquitectura transmisible a implementadores · conceptual bridge. \n\n## Arquitectura transmisible a implementadores\nSpecify roles, interfaces, evidence and conditions so an implementer can reconstruct the operating logic.\nEtiquetas: Investigación y documentación técnica 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/transferable-implementation-architecture/\n\nWhat Cannot Be Recovered Must Be Managed. Cross-series bridge: Human Intelligence Gap with AI Integrity Management → The Limits of AI Oversight · editorial comparison. For a complementary reading, see [The structural limits of AI oversight](https://tegrity.ai/the-limits-of-ai-oversight/).\n\n## What Cannot Be Recovered Must Be Managed. Cross-series bridge: Human Intelligence Gap with AI Integrity Management\n\nEtiquetas: Aprendizaje y transmisión de capacidades 9.53%; Capacidad humana y deuda de inteligencia 23.81%; Decisiones y responsabilidad 9.52%; Empresa y gestión 23.81%; Integridad y seguridad de IA 23.81%; Memoria, comunidad y territorio 9.52%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/what-cannot-be-recovered-must-be-managed-cross-series-bridge-human-intelligenc-t1396/\nDocumento de origen: https://tegrity.ai/what-cannot-be-recovered-must-be-managed-cross-series-bridge-human-intelligence-gap-with-ai-integrity-management/\n\nThe Outlook → Measuring Human Intelligence Debt · candidate transfer. The programme's forecasts become testable only when their indicators, populations, time windows and disconfirming outcomes are specified.\n\n## Measuring Human Intelligence Debt\n\nEtiquetas: Aprendizaje y transmisión de capacidades 8.00%; Capacidad humana y deuda de inteligencia 28.00%; Decisiones y responsabilidad 8.00%; Economía, costes y liquidez 12.00%; Empresa y gestión 8.00%; Evidencia, procedencia y atribución 16.00%; Experimentación, falsación y contraejemplos 8.00%; Memoria, comunidad y territorio 12.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/measuring-human-intelligence-debt-t1400/\nDocumento de origen: https://tegrity.ai/meassuring-human-intelligence-debt/\n\nWhy Selection Cannot See It → The Outlook · hypothesis. The forecast becomes testable by asking whether automation creates more compensatory work in processes already dependent on off-map reconciliation.\n\n## Why Selection Cannot See It\n\nEtiquetas: Cambio de perspectiva 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/why-selection-cannot-see-it-t1491/\nDocumento de origen: https://tegrity.ai/why-selection-cannot-see-it/\n\nIndustry Reference Group → Industry Reference Group (IRG) · documenta el concepto. \n\n## Industry Reference Group\n\nEtiquetas: Estándares e interoperabilidad 50.00%; Integridad y seguridad de IA 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/industry-reference-group-t1726/\nDocumento de origen: https://tegrity.ai/industry-reference-group/\n\nAnnex 6 — Ablation, Sufficiency and Extensibility → Annex 8 — Meaning, Contribution and Limits · editorial comparison. For a complementary reading, see [What the results establish and what remains open](https://tegrity.ai/when-the-controls-work-annex-8-meaning-contribution-and-limits/).\n\n## Annex 6 — Ablation, Sufficiency and Extensibility\n\nEtiquetas: Control mínimo y suficiencia 29.41%; Investigación y documentación técnica 29.41%; Experimentación, falsación y contraejemplos 41.18%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/annex-6-ablation-sufficiency-and-extensibility-t2803/\nDocumento de origen: https://tegrity.ai/when-the-controls-work-annex-6-ablation-sufficiency-and-extensibility/\n\nAnnex 8 — Meaning, Contribution and Limits → Annex 9 — Claims and Evidence Appendix · editorial comparison. For a complementary reading, see [The claim-and-evidence reading key](https://tegrity.ai/when-the-controls-work-annex-9-claims-and-evidence-appendix/).\n\n## Annex 9 — Claims and Evidence Appendix\n\nEtiquetas: Investigación y documentación técnica 38.46%; Evidencia, procedencia y atribución 61.54%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/annex-9-claims-and-evidence-appendix-t2814/\nDocumento de origen: https://tegrity.ai/when-the-controls-work-annex-9-claims-and-evidence-appendix/\n\nAI Integrity Architecture: Toward Expert-System Envelopes Around Statistical AI → Structural Limits of Current AI Integrity Under Regime Change · editorial comparison. For a complementary reading, see [The structural limits of integrity under regime change](https://tegrity.ai/structural-limits-of-current-ai-integrity-under-regime-change/).\n\n## AI Integrity Architecture: Toward Expert-System Envelopes Around Statistical AI\n\nEtiquetas: Evidencia, procedencia y atribución 28.57%; Integridad y seguridad de IA 71.43%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/ai-integrity-architecture-toward-expert-system-envelopes-around-statistical-ai-t385/\nDocumento de origen: https://tegrity.ai/ai-integrity-architecture-toward-expert-system-envelopes-around-statistical-ai/\n\nThe Limits of AI Oversight → Human Intelligence Debt · editorial comparison. For a complementary reading, see [The Human Intelligence Debt definitions](https://tegrity.ai/human-intelligence-debt/).\n\n## Human Intelligence Debt\n\nEtiquetas: Capacidad humana y deuda de inteligencia 60.00%; Empresa y gestión 20.00%; Evidencia, procedencia y atribución 20.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/human-intelligence-debt-t874/\nDocumento de origen: https://tegrity.ai/human-intelligence-debt/\n\nMeasuring Human Intelligence Debt → Ejecución y supervisión necesarias (NEO) · documenta el concepto. \n\n## Ejecución y supervisión necesarias (NEO)\nWork can be required by responsibility, novelty, law or physical constraints.\nEtiquetas: Aprendizaje y transmisión de capacidades 4.00%; Capacidad humana y deuda de inteligencia 51.50%; Decisiones y responsabilidad 4.00%; Economía, costes y liquidez 18.50%; Empresa y gestión 4.00%; Evidencia, procedencia y atribución 8.00%; Experimentación, falsación y contraejemplos 4.00%; Memoria, comunidad y territorio 6.00%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/necessary-execution-and-oversight/\n\n"
+}

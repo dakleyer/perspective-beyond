@@ -1,0 +1,197 @@
+{
+  "id": "dg-meta_discrimination",
+  "type": "concepto",
+  "title": "Carga de validar sistemas y sus entradas",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-meta_discrimination",
+  "documentId": null,
+  "sourceIds": [
+    "D-243",
+    "D-244",
+    "D-245",
+    "D-278",
+    "D-280",
+    "D-293"
+  ],
+  "tagWeights": {
+    "autoridad": 0.2083,
+    "decision": 0.1607,
+    "documentacion": 0.0833,
+    "experimentacion": 0.1191,
+    "matematicas": 0.1786,
+    "representacion": 0.0833,
+    "transformacion": 0.1667
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Carga de validar sistemas y sus entradas\nLa complejidad de discriminar entradas, contaminaciones y configuraciones puede trasladarse a una nueva capa de supervisión.\nEtiquetas: Autoridad, permisos y delegación 20.83%; Decisiones y responsabilidad 16.07%; Investigación y documentación técnica 8.33%; Experimentación, falsación y contraejemplos 11.91%; Matemáticas 17.86%; Representación y límites formales 8.33%; Transformación y continuidad operativa 16.67%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-meta_discrimination\n\n",
+  "tokens": 137,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-243:dg-meta_discrimination",
+      "to": "D-243",
+      "title": "El supervisor humano no es barato porque solo revise dos casillas",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 442,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-243.json"
+    },
+    {
+      "id": "apoyo:D-244:dg-meta_discrimination",
+      "to": "D-244",
+      "title": "Una contradicción puede contagiar máquinas antes de que nadie vea el desastre",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 430,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-244.json"
+    },
+    {
+      "id": "apoyo:D-245:dg-meta_discrimination",
+      "to": "D-245",
+      "title": "Llamarlo «AI firewall» no te concede saber qué está filtrando",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 31,
+      "fichaTokens": 430,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-245.json"
+    },
+    {
+      "id": "apoyo:D-278:dg-meta_discrimination",
+      "to": "D-278",
+      "title": "Rechazar una entrada también es tomar una decisión",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 404,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-278.json"
+    },
+    {
+      "id": "apoyo:D-280:dg-meta_discrimination",
+      "to": "D-280",
+      "title": "El investigador también ocupa el lugar del oráculo",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 411,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-280.json"
+    },
+    {
+      "id": "apoyo:D-293:dg-meta_discrimination",
+      "to": "D-293",
+      "title": "El cómputo masivo intenta comprar volumen donde falta estructura",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 390,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-293.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-197",
+      "to": "dg-governance",
+      "title": "Gobernanza y legitimidad",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.9",
+      "reading": "Supervisar exige comprender la frontera del sistema.",
+      "relationTokens": 32,
+      "fichaTokens": 254,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-governance.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-198",
+      "to": "dg-doubt",
+      "title": "Duda, pruebas y conocimiento corregible",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.9",
+      "reading": "La cota propuesta es una hipótesis pendiente de prueba.",
+      "relationTokens": 38,
+      "fichaTokens": 258,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-doubt.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-199",
+      "to": "dg-formalization_event",
+      "title": "La frontera entre mundo y registro",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.9",
+      "reading": "Admitir datos requiere conocer cómo se definen.",
+      "relationTokens": 34,
+      "fichaTokens": 137,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-formalization_event.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-200",
+      "to": "dg-structure",
+      "title": "Conciencia estructural",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.9",
+      "reading": "Las contradicciones pueden propagarse entre máquinas.",
+      "relationTokens": 31,
+      "fichaTokens": 256,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-structure.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-201",
+      "to": "dg-operations",
+      "title": "Operación real",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.9",
+      "reading": "Gobernar depende de linaje y uso real.",
+      "relationTokens": 31,
+      "fichaTokens": 196,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-operations.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-214",
+      "to": "dg-reversibility",
+      "title": "Información disponible e inversión constructible",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.9",
+      "reading": "Un verificador no recupera los datos ausentes.",
+      "relationTokens": 36,
+      "fichaTokens": 75,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-reversibility.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-274",
+      "to": "dg-validity_boundary",
+      "title": "Límite entre entrada, pertenencia y respuesta",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.11",
+      "reading": "Admisión y propiedad son controles distintos.",
+      "relationTokens": 38,
+      "fichaTokens": 87,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-validity_boundary.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-280",
+      "to": "dg-human_oracle",
+      "title": "Trabajo humano de delimitar el problema",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.11",
+      "reading": "El alcance también se valida.",
+      "relationTokens": 32,
+      "fichaTokens": 90,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-human_oracle.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-306",
+      "to": "dg-explorer_compute",
+      "title": "Exploración de marcos frente a fuerza computacional",
+      "direction": "entrante",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "Detectar cambio de marco antes de optimizar.",
+      "relationTokens": 39,
+      "fichaTokens": 98,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-explorer_compute.json"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "C76",
+  "type": "concepto",
+  "title": "Contribución informativa genuina (GIC)",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/genuine-informational-contribution/",
+  "documentId": null,
+  "sourceIds": [
+    "N1246",
+    "T1400"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.2186,
+    "capacidad-humana": 0.2115,
+    "decision": 0.04,
+    "economia": 0.06,
+    "empresa": 0.1114,
+    "evidencia": 0.1871,
+    "experimentacion": 0.04,
+    "memoria-territorio": 0.1314
+  },
+  "clusters": [
+    "net",
+    "tegrity"
+  ],
+  "context": "## Contribución informativa genuina (GIC)\nPeople produce situated information, knowledge or judgment.\nEtiquetas: Aprendizaje y transmisión de capacidades 21.86%; Capacidad humana y deuda de inteligencia 21.15%; Decisiones y responsabilidad 4.00%; Economía, costes y liquidez 6.00%; Empresa y gestión 11.14%; Evidencia, procedencia y atribución 18.71%; Experimentación, falsación y contraejemplos 4.00%; Memoria, comunidad y territorio 13.14%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/genuine-informational-contribution/\n\n",
+  "tokens": 139,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:N1246:C76",
+      "to": "N1246",
+      "title": "The Formación Integral © JubAp.Net (JubAp.Net) School of Invisible Talent",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 36,
+      "fichaTokens": 142,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1246.json"
+    },
+    {
+      "id": "apoyo:T1400:C76",
+      "to": "T1400",
+      "title": "Measuring Human Intelligence Debt",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 145,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1400.json"
+    },
+    {
+      "id": "concepto:F056",
+      "to": "C70",
+      "title": "Atribución organizativa",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "Genuine contribution should be classified at the task episode, not inferred from a person's title, credentials or membership in an elite team.",
+      "relationTokens": 46,
+      "fichaTokens": 186,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C70.json"
+    },
+    {
+      "id": "concepto:B475",
+      "to": "G21",
+      "title": "Human Intelligence Debt (HID)",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 150,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G21.json"
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "id": "G09",
+  "type": "concepto",
+  "title": "Cualificación para una decisión concreta",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/qualification-for-a-concrete-decision/",
+  "documentId": null,
+  "sourceIds": [
+    "GH025"
+  ],
+  "tagWeights": {
+    "autoridad": 0.087,
+    "cartografia": 0.0869,
+    "control-minimo": 0.2609,
+    "decision": 0.1739,
+    "documentacion": 0.1739,
+    "experimentacion": 0.1739,
+    "integridad-ia": 0.0435
+  },
+  "clusters": [
+    "research"
+  ],
+  "context": "## Cualificación para una decisión concreta\nEvaluate what evidence suffices for an action with a stated context and owner.\nEtiquetas: Autoridad, permisos y delegación 8.70%; Cartografía y señales de ecosistema 8.69%; Control mínimo y suficiencia 26.09%; Decisiones y responsabilidad 17.39%; Investigación y documentación técnica 17.39%; Experimentación, falsación y contraejemplos 17.39%; Integridad y seguridad de IA 4.35%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/qualification-for-a-concrete-decision/\n\n",
+  "tokens": 130,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH025:G09",
+      "to": "GH025",
+      "title": "Canonical Requirements: S1–S14, Sufficiency Conditions, Hypotheses and KPIs",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 34,
+      "fichaTokens": 247,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH025.json"
+    },
+    {
+      "id": "concepto:B387",
+      "to": "G02",
+      "title": "The Given Universe Axiom",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 161,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G02.json"
+    },
+    {
+      "id": "concepto:B392",
+      "to": "G03",
+      "title": "Mundo, registro y contexto perdido",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 155,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G03.json"
+    },
+    {
+      "id": "concepto:B399",
+      "to": "G05",
+      "title": "Ecosystem Awareness (EA)",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 152,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G05.json"
+    },
+    {
+      "id": "concepto:B417",
+      "to": "C25",
+      "title": "Suficiencia para una decisión",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 293,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C25.json"
+    },
+    {
+      "id": "concepto:B418",
+      "to": "C50",
+      "title": "Estado de una afirmación",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 295,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C50.json"
+    },
+    {
+      "id": "concepto:B419",
+      "to": "C12",
+      "title": "Procedencia auditable",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 276,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C12.json"
+    },
+    {
+      "id": "concepto:B420",
+      "to": "C15",
+      "title": "Admisibilidad contextual",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 242,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C15.json"
+    },
+    {
+      "id": "concepto:B421",
+      "to": "G05",
+      "title": "Ecosystem Awareness (EA)",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 152,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G05.json"
+    },
+    {
+      "id": "concepto:B439",
+      "to": "G13",
+      "title": "Requisitos canónicos S1–S14",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 130,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G13.json"
+    },
+    {
+      "id": "concepto:B524",
+      "to": "G29",
+      "title": "Event Intelligence / Supply Chain",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 56,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G29.json"
+    },
+    {
+      "id": "concepto:B558",
+      "to": "G37",
+      "title": "No observabilidad y aislamiento prudente",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 246,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G37.json"
+    },
+    {
+      "id": "concepto:B570",
+      "to": "G39",
+      "title": "Escenario de 100 millones de tokens",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 191,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G39.json"
+    },
+    {
+      "id": "concepto:B587",
+      "to": "G42",
+      "title": "Navegación semántica para asistentes",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 89,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G42.json"
+    },
+    {
+      "id": "concepto:B626",
+      "to": "G50",
+      "title": "Recomendación de productos de lujo",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 78,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G50.json"
+    }
+  ]
+}

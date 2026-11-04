@@ -1,0 +1,91 @@
+{
+  "id": "G34",
+  "type": "concepto",
+  "title": "Industry Reference Group (IRG)",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/industry-reference-group/",
+  "documentId": null,
+  "sourceIds": [
+    "T1726",
+    "T1499"
+  ],
+  "tagWeights": {
+    "documentacion": 0.25,
+    "estandares": 0.25,
+    "evidencia": 0.25,
+    "integridad-ia": 0.25
+  },
+  "clusters": [
+    "tegrity"
+  ],
+  "context": "## Industry Reference Group (IRG)\nThe group convenes practical perspectives on agentic AI and its operating conditions.\nEtiquetas: Investigación y documentación técnica 25.00%; Estándares e interoperabilidad 25.00%; Evidencia, procedencia y atribución 25.00%; Integridad y seguridad de IA 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/industry-reference-group/\n\n",
+  "tokens": 91,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:T1726:G34",
+      "to": "T1726",
+      "title": "Industry Reference Group",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 68,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1726.json"
+    },
+    {
+      "id": "apoyo:T1499:G34",
+      "to": "T1499",
+      "title": "Structural Awareness",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 68,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1499.json"
+    },
+    {
+      "id": "concepto:B543",
+      "to": "G16",
+      "title": "Hipótesis H1–H6",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 131,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G16.json"
+    },
+    {
+      "id": "concepto:B544",
+      "to": "G20",
+      "title": "Escalera de evidencia y madurez",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 78,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G20.json"
+    },
+    {
+      "id": "concepto:B545",
+      "to": "G26",
+      "title": "Arquitectura transmisible a implementadores",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 63,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G26.json"
+    },
+    {
+      "id": "concepto:B546",
+      "to": "G35",
+      "title": "Preestandarización y contribuciones UIT",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 79,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G35.json"
+    }
+  ]
+}

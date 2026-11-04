@@ -1,0 +1,112 @@
+{
+  "id": "C105",
+  "type": "concepto",
+  "title": "Legitimidad en ambos lados de una interfaz",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/legitimacy-across-an-interface/",
+  "documentId": null,
+  "sourceIds": [
+    "L006",
+    "N1276",
+    "U1317",
+    "N1279"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.0621,
+    "autoridad": 0.1928,
+    "casos": 0.0417,
+    "decision": 0.1349,
+    "empresa": 0.0417,
+    "evidencia": 0.0455,
+    "experimentacion": 0.0416,
+    "integridad-ia": 0.0416,
+    "memoria-territorio": 0.0848,
+    "transformacion": 0.3133
+  },
+  "clusters": [
+    "latinoempresa",
+    "net",
+    "us"
+  ],
+  "context": "## Legitimidad en ambos lados de una interfaz\nA carrier needs enough recognition in both communities to sustain translation.\nEtiquetas: Aprendizaje y transmisión de capacidades 6.21%; Autoridad, permisos y delegación 19.28%; Casos de uso y aplicaciones 4.17%; Decisiones y responsabilidad 13.49%; Empresa y gestión 4.17%; Evidencia, procedencia y atribución 4.55%; Experimentación, falsación y contraejemplos 4.16%; Integridad y seguridad de IA 4.16%; Memoria, comunidad y territorio 8.48%; Transformación y continuidad operativa 31.33%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/legitimacy-across-an-interface/\n\n",
+  "tokens": 164,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:L006:C105",
+      "to": "L006",
+      "title": "Instituciones de frontera: Cuando emprender es construir un puente entre mundos.",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 32,
+      "fichaTokens": 149,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/L006.json"
+    },
+    {
+      "id": "apoyo:N1276:C105",
+      "to": "N1276",
+      "title": "Tiger Team Maturity Model",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 100,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1276.json"
+    },
+    {
+      "id": "apoyo:U1317:C105",
+      "to": "U1317",
+      "title": "Case Study: Texas-to-Mexico Oilfield Services Transformation: Knowledge Transfer, Industrialization, and Compliance",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 38,
+      "fichaTokens": 189,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1317.json"
+    },
+    {
+      "id": "apoyo:N1279:C105",
+      "to": "N1279",
+      "title": "Tiger Team Governance Principles",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 100,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1279.json"
+    },
+    {
+      "id": "concepto:B029",
+      "to": "C27",
+      "title": "Transferencia de contexto",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "Cross-border legitimacy can support knowledge transfer, but the receiving operation still needs explicit roles, technical readiness and acceptance conditions.",
+      "relationTokens": 41,
+      "fichaTokens": 257,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C27.json"
+    },
+    {
+      "id": "concepto:B030",
+      "to": "C68",
+      "title": "Madurez observable",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "The maturity model could make the institutional claim more inspectable by asking which practices, memory and responsibilities continue beyond an individual intervention.",
+      "relationTokens": 42,
+      "fichaTokens": 134,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C68.json"
+    },
+    {
+      "id": "concepto:B033",
+      "to": "C26",
+      "title": "Autoridad de decisión",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "Legitimacy on both sides of a boundary can enable translation, but it does not itself grant authority to commit either side.",
+      "relationTokens": 43,
+      "fichaTokens": 262,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C26.json"
+    }
+  ]
+}

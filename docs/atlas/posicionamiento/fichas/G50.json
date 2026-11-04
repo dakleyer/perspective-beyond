@@ -1,0 +1,101 @@
+{
+  "id": "G50",
+  "type": "concepto",
+  "title": "Recomendación de productos de lujo",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/luxury-product-recommendation/",
+  "documentId": null,
+  "sourceIds": [
+    "E1570",
+    "E1524"
+  ],
+  "tagWeights": {
+    "autoridad": 0.1111,
+    "decision": 0.1111,
+    "empresa": 0.7778
+  },
+  "clusters": [
+    "eu"
+  ],
+  "context": "## Recomendación de productos de lujo\nThe retail case explores product guidance and demand signals within store constraints.\nEtiquetas: Autoridad, permisos y delegación 11.11%; Decisiones y responsabilidad 11.11%; Empresa y gestión 77.78%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/luxury-product-recommendation/\n\n",
+  "tokens": 78,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:E1570:G50",
+      "to": "E1570",
+      "title": "Luxury Recommendation",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 80,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1570.json"
+    },
+    {
+      "id": "apoyo:E1524:G50",
+      "to": "E1524",
+      "title": "Montblanc — Lightweight Product Intelligence for Luxury In-Store Conversion",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 90,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1524.json"
+    },
+    {
+      "id": "concepto:B622",
+      "to": "C16",
+      "title": "Recuperación por similitud",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 151,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C16.json"
+    },
+    {
+      "id": "concepto:B623",
+      "to": "C15",
+      "title": "Admisibilidad contextual",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 242,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C15.json"
+    },
+    {
+      "id": "concepto:B624",
+      "to": "C21",
+      "title": "Canal local",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 15,
+      "fichaTokens": 87,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C21.json"
+    },
+    {
+      "id": "concepto:B625",
+      "to": "C29",
+      "title": "Propuesta y compromiso",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 244,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C29.json"
+    },
+    {
+      "id": "concepto:B626",
+      "to": "G09",
+      "title": "Cualificación para una decisión concreta",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 130,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G09.json"
+    }
+  ]
+}

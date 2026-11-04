@@ -1,0 +1,53 @@
+{
+  "id": "N1822",
+  "type": "ficha",
+  "title": "xSeil agentic features",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/xseil-agentic-features-n1822/",
+  "documentId": "doc-ae91b86a373ea7544d",
+  "sourceIds": [],
+  "tagWeights": {
+    "agentes": 0.5,
+    "movilidad": 0.5
+  },
+  "clusters": [
+    "net"
+  ],
+  "context": "## xSeil agentic features\n\nEtiquetas: Agentes y coordinación distribuida 50.00%; Movilidad e infraestructura 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/xseil-agentic-features-n1822/\nDocumento de origen: https://jubap.net/xseil-agentic-features/\n\n",
+  "tokens": 75,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "documento:R096",
+      "to": "N1805",
+      "title": "xSeil orchestration",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Pre-Agentic Orchestration: the canonical paper](https://jubap.net/xseil-agentic-features/).",
+      "relationTokens": 48,
+      "fichaTokens": 72,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1805.json"
+    },
+    {
+      "id": "documento:R097",
+      "to": "T2729",
+      "title": "Minimum Sufficient Control Architecture for AI Enabled Urban Systems",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [A retrospective MSCA reading of xSeil](https://tegrity.ai/minimum-sufficient-control-architecture-for-ai-enabled-urban-systems/).",
+      "relationTokens": 59,
+      "fichaTokens": 83,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2729.json"
+    },
+    {
+      "id": "documento:R098",
+      "to": "T2776",
+      "title": "When the Controls Work but the System Fails",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [When locally valid controls do not establish global sufficiency](https://tegrity.ai/when-the-controls-work-but-the-system-fails/).",
+      "relationTokens": 55,
+      "fichaTokens": 87,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2776.json"
+    }
+  ]
+}

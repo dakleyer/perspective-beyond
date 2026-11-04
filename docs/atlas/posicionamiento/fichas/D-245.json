@@ -1,0 +1,173 @@
+{
+  "id": "D-245",
+  "type": "ficha",
+  "title": "Llamarlo «AI firewall» no te concede saber qué está filtrando",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-245",
+  "documentId": "doc-85a7a1834a4589ee8d",
+  "sourceIds": [],
+  "tagWeights": {
+    "autoridad": 1.0
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Llamarlo «AI firewall» no te concede saber qué está filtrando\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Cómo pretende gobernar un sistema de IA un filtro que ignora de dónde vienen y adónde van sus datos?\nREFLEXIÓN DEL DIÁLOGO (voz atribuida mediante documento o contexto, distinta de transcripción literal salvo citas señaladas) — Aquí Iván abandona la notación y regresa a su trabajo diario. Enumera capas que una empresa va añadiendo: sistemas conectados, data warehouse, data lake, lakehouse, big data, IA sobre los datos y, al final, una plataforma de AI governance. Cada capa promete ordenar a la anterior. Pero cuando se pretende instalar la última, aparece la misma pregunta que estaba pendiente desde el principio: quién es dueño del dato, quién lo custodia, cómo llegó allí, por dónde circula y qué decisiones depende de él.\n\nLa intervención original es frontal: «You can't pretend that you are governing because you start a firewall, and it's called firewall». Un catálogo automático puede detectar tipos evidentes, pero eso no equivale a comprender las condiciones reales de una organización. Iván dice que volver a clasificar miles de casos mal comprendidos consume horas humanas y conocimiento de arquitectura; su preocupación no es una marca de software sino la diferencia entre etiquetar y gobernar.\n\nLa implicación no es que todos los firewalls de IA sean inútiles. Es que la barrera puede verificar solamente aquello cuya procedencia, significado, responsabilidades y límites de uso han sido correctamente definidos. Cuando esa información falta, el sistema de seguridad recibe una deuda anterior y se anuncia como solución nueva. La frontera del control no nace al instalar un producto: nace al conocer el sistema que pretende controlar.\nEtiquetas: Autoridad, permisos y delegación 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-245\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-245.html\n\n",
+  "tokens": 430,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-245:dg-operations",
+      "to": "dg-operations",
+      "title": "Operación real",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 196,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-operations.json"
+    },
+    {
+      "id": "apoyo:D-245:dg-structure",
+      "to": "dg-structure",
+      "title": "Conciencia estructural",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 256,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-structure.json"
+    },
+    {
+      "id": "apoyo:D-245:dg-governance",
+      "to": "dg-governance",
+      "title": "Gobernanza y legitimidad",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 254,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-governance.json"
+    },
+    {
+      "id": "apoyo:D-245:dg-meta_discrimination",
+      "to": "dg-meta_discrimination",
+      "title": "Carga de validar sistemas y sus entradas",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 31,
+      "fichaTokens": 137,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-meta_discrimination.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-245-D-099",
+      "to": "D-099",
+      "title": "Lo que el mapa no representa puede cambiar la decisión",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Llamarlo «AI firewall» no te concede saber qué está filtrando» con «Lo que el mapa no representa puede cambiar la decisión». Permite contrastar Conciencia estructural.",
+      "relationTokens": 75,
+      "fichaTokens": 261,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-099.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-245-D-116",
+      "to": "D-116",
+      "title": "Un control puede aprobar y el sistema seguir fallando",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Llamarlo «AI firewall» no te concede saber qué está filtrando» con «Un control puede aprobar y el sistema seguir fallando». Permite contrastar Conciencia estructural.",
+      "relationTokens": 75,
+      "fichaTokens": 299,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-116.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-245-D-118",
+      "to": "D-118",
+      "title": "Publicar no demuestra que alguien recibió ni actuó",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Llamarlo «AI firewall» no te concede saber qué está filtrando» con «Publicar no demuestra que alguien recibió ni actuó». Permite contrastar Gobernanza y legitimidad.",
+      "relationTokens": 76,
+      "fichaTokens": 263,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-118.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-245-D-152",
+      "to": "D-152",
+      "title": "Un papel compartido puede controlar más que diez firmas",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Llamarlo «AI firewall» no te concede saber qué está filtrando» con «Un papel compartido puede controlar más que diez firmas». Permite contrastar Gobernanza y legitimidad, Operación real.",
+      "relationTokens": 80,
+      "fichaTokens": 297,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-152.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-245-D-153",
+      "to": "D-153",
+      "title": "El control ceremonial se parece a un sistema de control",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Llamarlo «AI firewall» no te concede saber qué está filtrando» con «El control ceremonial se parece a un sistema de control». Permite contrastar Gobernanza y legitimidad, Conciencia estructural.",
+      "relationTokens": 81,
+      "fichaTokens": 317,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-153.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-245-D-223",
+      "to": "D-223",
+      "title": "Dices «cloud» y acabas comprando cloud",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Llamarlo «AI firewall» no te concede saber qué está filtrando» con «Dices «cloud» y acabas comprando cloud».",
+      "relationTokens": 68,
+      "fichaTokens": 451,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-223.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-243-D-245",
+      "to": "D-243",
+      "title": "El supervisor humano no es barato porque solo revise dos casillas",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Carga de validar sistemas y sus entradas, Gobernanza y legitimidad desde las situaciones que describe cada texto.",
+      "relationTokens": 62,
+      "fichaTokens": 442,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-243.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-244-D-245",
+      "to": "D-244",
+      "title": "Una contradicción puede contagiar máquinas antes de que nadie vea el desastre",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Carga de validar sistemas y sus entradas, Conciencia estructural desde las situaciones que describe cada texto.",
+      "relationTokens": 63,
+      "fichaTokens": 430,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-244.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-245-D-293",
+      "to": "D-293",
+      "title": "El cómputo masivo intenta comprar volumen donde falta estructura",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Carga de validar sistemas y sus entradas, Conciencia estructural desde las situaciones que describe cada texto.",
+      "relationTokens": 62,
+      "fichaTokens": 390,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-293.json"
+    },
+    {
+      "id": "documento:dialogue-bridge-D-245-T1499",
+      "to": "T1499",
+      "title": "Structural Awareness",
+      "direction": "saliente",
+      "kind": "puente de lectura",
+      "reading": "La pregunta por custodia, circulación y decisiones dependientes de los datos ofrece una entrada empresarial a la conciencia de la estructura que un control de IA pretende gobernar.",
+      "relationTokens": 56,
+      "fichaTokens": 68,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1499.json"
+    }
+  ]
+}

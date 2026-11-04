@@ -1,0 +1,70 @@
+{
+  "id": "C21",
+  "type": "concepto",
+  "title": "Canal local",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/local-channel/",
+  "documentId": null,
+  "sourceIds": [
+    "E1570",
+    "E1535"
+  ],
+  "tagWeights": {
+    "autoridad": 0.1111,
+    "decision": 0.1778,
+    "empresa": 0.4445,
+    "memoria-territorio": 0.1,
+    "transformacion": 0.1666
+  },
+  "clusters": [
+    "eu"
+  ],
+  "context": "## Canal local\nAn interaction environment has its own practices and constraints.\nEtiquetas: Autoridad, permisos y delegación 11.11%; Decisiones y responsabilidad 17.78%; Empresa y gestión 44.45%; Memoria, comunidad y territorio 10.00%; Transformación y continuidad operativa 16.66%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/local-channel/\n\n",
+  "tokens": 87,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:E1570:C21",
+      "to": "E1570",
+      "title": "Luxury Recommendation",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 12,
+      "fichaTokens": 80,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1570.json"
+    },
+    {
+      "id": "apoyo:E1535:C21",
+      "to": "E1535",
+      "title": "China Tech Visibility & Rationalization",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 16,
+      "fichaTokens": 100,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1535.json"
+    },
+    {
+      "id": "concepto:D015",
+      "to": "C20",
+      "title": "Capacidad reutilizable",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "Regional transfer works best when the reusable capability is separated from the channel that first hosted it.",
+      "relationTokens": 29,
+      "fichaTokens": 254,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C20.json"
+    },
+    {
+      "id": "concepto:B624",
+      "to": "G50",
+      "title": "Recomendación de productos de lujo",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 15,
+      "fichaTokens": 78,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G50.json"
+    }
+  ]
+}

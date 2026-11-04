@@ -1,0 +1,125 @@
+{
+  "id": "dg-inspiration_discipline",
+  "type": "concepto",
+  "title": "Inspiración sometida a comprobación",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-inspiration_discipline",
+  "documentId": null,
+  "sourceIds": [
+    "D-269",
+    "D-272",
+    "D-275"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.0513,
+    "autoridad": 0.1538,
+    "espiritualidad": 0.1282,
+    "perspectiva": 0.6667
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Inspiración sometida a comprobación\nLa reordenación debe madurarse racionalmente, mantener los datos y superar revisión.\nEtiquetas: Aprendizaje y transmisión de capacidades 5.13%; Autoridad, permisos y delegación 15.38%; Espiritualidad y vida interior 12.82%; Cambio de perspectiva 66.67%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-inspiration_discipline\n\n",
+  "tokens": 99,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-269:dg-inspiration_discipline",
+      "to": "D-269",
+      "title": "La inspiración no sustituye a la escuadra y el cartabón",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 391,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-269.json"
+    },
+    {
+      "id": "apoyo:D-272:dg-inspiration_discipline",
+      "to": "D-272",
+      "title": "Una nueva perspectiva conserva los datos y cambia sus relaciones",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 378,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-272.json"
+    },
+    {
+      "id": "apoyo:D-275:dg-inspiration_discipline",
+      "to": "D-275",
+      "title": "La experiencia espiritual no da autoridad para exigir obediencia",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 414,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-275.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-254",
+      "to": "dg-perspective",
+      "title": "Nueva Perspectiva",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.11",
+      "reading": "La nueva mirada requiere comprobación.",
+      "relationTokens": 29,
+      "fichaTokens": 190,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-perspective.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-255",
+      "to": "dg-doubt",
+      "title": "Duda, pruebas y conocimiento corregible",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.11",
+      "reading": "La corazonada no sustituye la prueba.",
+      "relationTokens": 36,
+      "fichaTokens": 258,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-doubt.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-256",
+      "to": "dg-unfalsified_frame",
+      "title": "Marco mental que también oculta sus límites",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.11",
+      "reading": "La aparente obviedad es revisable.",
+      "relationTokens": 36,
+      "fichaTokens": 94,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-unfalsified_frame.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-257",
+      "to": "dg-inner",
+      "title": "Atención y sentido",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.11",
+      "reading": "Separar emoción y razón pública.",
+      "relationTokens": 28,
+      "fichaTokens": 181,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-inner.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-258",
+      "to": "dg-research_dialogue",
+      "title": "Diálogo de investigación y prueba acotada",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.11",
+      "reading": "Convertir intuición en hipótesis.",
+      "relationTokens": 35,
+      "fichaTokens": 150,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-research_dialogue.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-289",
+      "to": "dg-epistemic_increment",
+      "title": "Demostrar o refutar paso por paso",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.11",
+      "reading": "Una idea puede sobrevivir a una revisión.",
+      "relationTokens": 35,
+      "fichaTokens": 101,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-epistemic_increment.json"
+    }
+  ]
+}

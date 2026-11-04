@@ -1,0 +1,87 @@
+{
+  "id": "GH077",
+  "type": "ficha",
+  "title": "G-02 — Independent Q-audit evidence, not a Boolean declaration",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/g-02-independent-q-audit-evidence-not-a-boolean-declaration-gh077/",
+  "documentId": "doc-90c28334eed4672ffa",
+  "sourceIds": [],
+  "tagWeights": {
+    "evidencia": 0.4375,
+    "experimentacion": 0.25,
+    "matematicas": 0.3125
+  },
+  "clusters": [
+    "research"
+  ],
+  "context": "## G-02 — Independent Q-audit evidence, not a Boolean declaration\n\nEtiquetas: Evidencia, procedencia y atribución 43.75%; Experimentación, falsación y contraejemplos 25.00%; Matemáticas 31.25%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/g-02-independent-q-audit-evidence-not-a-boolean-declaration-gh077/\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/d37545493c1ddc2e90e555a10e58dcbab9e23f7b/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1/G02_AUDIT_OBSERVATION_PROTOCOL.md\n\n",
+  "tokens": 179,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH077:C69",
+      "to": "C69",
+      "title": "Evidencia de contribución",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 289,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C69.json"
+    },
+    {
+      "id": "apoyo:GH077:C124",
+      "to": "C124",
+      "title": "Adquisición de evidencia falible y emparejada",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 33,
+      "fichaTokens": 109,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C124.json"
+    },
+    {
+      "id": "apoyo:GH077:C125",
+      "to": "C125",
+      "title": "Fuga de etiquetas de una fixture",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 101,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C125.json"
+    },
+    {
+      "id": "apoyo:GH077:G17",
+      "to": "G17",
+      "title": "Benchmarks DDS y ablaciones",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 204,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G17.json"
+    },
+    {
+      "id": "documento:G093",
+      "to": "T2814",
+      "title": "Annex 9 — Claims and Evidence Appendix",
+      "direction": "saliente",
+      "kind": "documented use",
+      "reading": "An audited-Q claim becomes testable when audit observations, fallibility, scope and cost are explicit, rather than supplied as a favorable Boolean flag.",
+      "relationTokens": 56,
+      "fichaTokens": 95,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2814.json"
+    },
+    {
+      "id": "documento:G100",
+      "to": "GH078",
+      "title": "L-09 — Remove accidental public-label leakage without rewriting source examples",
+      "direction": "saliente",
+      "kind": "documented use",
+      "reading": "A fallible audit mechanism and a public-label leakage control address different confounders; both must remain visible in a fair comparison.",
+      "relationTokens": 58,
+      "fichaTokens": 175,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH078.json"
+    }
+  ]
+}

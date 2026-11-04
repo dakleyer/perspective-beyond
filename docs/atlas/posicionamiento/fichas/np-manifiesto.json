@@ -1,0 +1,96 @@
+{
+  "id": "np-manifiesto",
+  "type": "ficha",
+  "title": "El manifiesto original de Nueva Perspectiva",
+  "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-manifiesto",
+  "documentId": "doc-0498e150d27f3140df",
+  "sourceIds": [],
+  "tagWeights": {
+    "perspectiva": 1.0
+  },
+  "clusters": [
+    "imsv"
+  ],
+  "context": "## El manifiesto original de Nueva Perspectiva\nEl sistema mental organiza percepciones, recuerdos, emociones e intereses mediante relaciones. Una idea nueva puede reordenar esas relaciones. El texto pide examinar después su coherencia y sus efectos.\nEtiquetas: Cambio de perspectiva 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-manifiesto\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/manifiesto/\n\n",
+  "tokens": 105,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "documento:np-r01",
+      "to": "np-entrada",
+      "title": "Del manifiesto a la práctica",
+      "direction": "entrante",
+      "kind": "fundamento",
+      "reading": "La formulación original desarrolla el papel de las relaciones entre los elementos del sistema mental.",
+      "relationTokens": 36,
+      "fichaTokens": 108,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-entrada.json"
+    },
+    {
+      "id": "documento:np-r02",
+      "to": "np-experiencia",
+      "title": "¿Qué ocurrió primero: la experiencia o la idea?",
+      "direction": "saliente",
+      "kind": "origen",
+      "reading": "La conversación permite situar la experiencia previa a la formulación escrita.",
+      "relationTokens": 38,
+      "fichaTokens": 133,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-experiencia.json"
+    },
+    {
+      "id": "documento:np-r16",
+      "to": "np-mas-alla",
+      "title": "Perspective Beyond: cuándo queda corto un marco",
+      "direction": "saliente",
+      "kind": "desarrollo",
+      "reading": "El ensayo vuelve sobre las condiciones que delimitan qué puede ver un marco.",
+      "relationTokens": 36,
+      "fichaTokens": 105,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-mas-alla.json"
+    },
+    {
+      "id": "documento:np-r26",
+      "to": "E1628",
+      "title": "The JUBAP Framework",
+      "direction": "entrante",
+      "kind": "antecedente",
+      "reading": "El marco identifica Nueva Perspectiva como raíz de su modo de cambiar el nivel de observación.",
+      "relationTokens": 39,
+      "fichaTokens": 152,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1628.json"
+    },
+    {
+      "id": "documento:dg-180",
+      "to": "D-067",
+      "title": "Nueva Perspectiva: cambiar el punto de observación",
+      "direction": "saliente",
+      "kind": "puente editorial",
+      "reading": "El manifiesto se puede leer junto a la reconstrucción biográfica del cambio de observación.",
+      "relationTokens": 44,
+      "fichaTokens": 583,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-067.json"
+    },
+    {
+      "id": "documento:dg-181",
+      "to": "D-067",
+      "title": "Nueva Perspectiva: cambiar el punto de observación",
+      "direction": "entrante",
+      "kind": "puente editorial",
+      "reading": "El original desarrolla la idea del sistema mental que el diálogo permite explorar.",
+      "relationTokens": 39,
+      "fichaTokens": 583,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-067.json"
+    },
+    {
+      "id": "documento:dialogue-bridge-D-296-np-manifiesto",
+      "to": "D-296",
+      "title": "Una ética institucional también puede ser impugnada desde fuera",
+      "direction": "entrante",
+      "kind": "puente de lectura",
+      "reading": "La posibilidad de impugnar una norma desde fuera permite leer Nueva Perspectiva desde la posición de quien recibe las consecuencias de una institución.",
+      "relationTokens": 54,
+      "fichaTokens": 379,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-296.json"
+    }
+  ]
+}

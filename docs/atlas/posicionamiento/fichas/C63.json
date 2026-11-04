@@ -1,0 +1,193 @@
+{
+  "id": "C63",
+  "type": "concepto",
+  "title": "Liberación y análisis causal",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/release-and-causal-inquiry/",
+  "documentId": null,
+  "sourceIds": [
+    "E1628",
+    "E1636",
+    "L007",
+    "N1285",
+    "N1272",
+    "T1417"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.1815,
+    "autoridad": 0.0479,
+    "casos": 0.0476,
+    "control-minimo": 0.0257,
+    "decision": 0.1321,
+    "documentacion": 0.0256,
+    "economia": 0.1955,
+    "empresa": 0.1481,
+    "evidencia": 0.037,
+    "perspectiva": 0.0479,
+    "transformacion": 0.1111
+  },
+  "clusters": [
+    "eu",
+    "latinoempresa",
+    "net",
+    "tegrity"
+  ],
+  "context": "## Liberación y análisis causal\nLocate a drag point and investigate what sustains it before intervening.\nEtiquetas: Aprendizaje y transmisión de capacidades 18.15%; Autoridad, permisos y delegación 4.79%; Casos de uso y aplicaciones 4.76%; Control mínimo y suficiencia 2.57%; Decisiones y responsabilidad 13.21%; Investigación y documentación técnica 2.56%; Economía, costes y liquidez 19.55%; Empresa y gestión 14.81%; Evidencia, procedencia y atribución 3.70%; Cambio de perspectiva 4.79%; Transformación y continuidad operativa 11.11%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/release-and-causal-inquiry/\n\n",
+  "tokens": 162,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:E1628:C63",
+      "to": "E1628",
+      "title": "The JUBAP Framework",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 152,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1628.json"
+    },
+    {
+      "id": "apoyo:E1636:C63",
+      "to": "E1636",
+      "title": "Nestlé North America — Where JUBAP Was Named",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 144,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1636.json"
+    },
+    {
+      "id": "apoyo:L007:C63",
+      "to": "L007",
+      "title": "LA TRANSFORMACIÓN EMPRESARIAL A CORTO PLAZO ES POSIBLE.",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 31,
+      "fichaTokens": 111,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/L007.json"
+    },
+    {
+      "id": "apoyo:N1285:C63",
+      "to": "N1285",
+      "title": "The Coordination Entropy Trap in Large Scale Programs",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 99,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1285.json"
+    },
+    {
+      "id": "apoyo:N1272:C63",
+      "to": "N1272",
+      "title": "The Anthropology of Tiger Team Activation",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 126,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1272.json"
+    },
+    {
+      "id": "apoyo:T1417:C63",
+      "to": "T1417",
+      "title": "When You Have to Decide Before You Can Discover",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 91,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1417.json"
+    },
+    {
+      "id": "concepto:D034",
+      "to": "C35",
+      "title": "Carga de coordinación",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "The liberation strategy and compressed accountability both focus attention, but operate through different social and organizational mechanisms.",
+      "relationTokens": 33,
+      "fichaTokens": 207,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C35.json"
+    },
+    {
+      "id": "concepto:D065",
+      "to": "C62",
+      "title": "Indicadores de resistencia",
+      "direction": "entrante",
+      "kind": "documented use",
+      "reading": "The Nestlé account describes how the dashboard, liberation strategy and six-domain root-cause tool were used as a sequence.",
+      "relationTokens": 38,
+      "fichaTokens": 166,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C62.json"
+    },
+    {
+      "id": "concepto:F060",
+      "to": "C26",
+      "title": "Autoridad de decisión",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "Leverage-point selection can focus mission activation, but neither a perspective workshop nor an activation ritual substitutes for explicit authority and closure conditions.",
+      "relationTokens": 40,
+      "fichaTokens": 262,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C26.json"
+    },
+    {
+      "id": "concepto:B034",
+      "to": "C61",
+      "title": "Secuencia JUBAP",
+      "direction": "saliente",
+      "kind": "documented use",
+      "reading": "The early JUMP UP account adds historical detail to the action filter behind today’s JUBAP sequence of perspective, precision and propagation.",
+      "relationTokens": 42,
+      "fichaTokens": 205,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C61.json"
+    },
+    {
+      "id": "concepto:B035",
+      "to": "C29",
+      "title": "Propuesta y compromiso",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "A small, already-enabled intervention can be compared with bounded exploration, provided it is not mistaken for authorization to commit the full transformation.",
+      "relationTokens": 40,
+      "fichaTokens": 244,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C29.json"
+    },
+    {
+      "id": "concepto:B045",
+      "to": "C61",
+      "title": "Secuencia JUBAP",
+      "direction": "entrante",
+      "kind": "documented use",
+      "reading": "For a historical explanation of the action filter, the early JUMP UP article shows why a precise intervention depends on preparation and practical entry conditions.",
+      "relationTokens": 43,
+      "fichaTokens": 205,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C61.json"
+    },
+    {
+      "id": "concepto:B489",
+      "to": "G24",
+      "title": "JUBAP / secuencia de intervención",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 143,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G24.json"
+    },
+    {
+      "id": "concepto:B610",
+      "to": "G47",
+      "title": "Nestlé North America / origen JUBAP",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 94,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G47.json"
+    }
+  ]
+}

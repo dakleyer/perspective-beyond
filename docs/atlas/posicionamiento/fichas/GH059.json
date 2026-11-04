@@ -1,0 +1,53 @@
+{
+  "id": "GH059",
+  "type": "ficha",
+  "title": "Código de calificación exacta",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/codigo-de-calificacion-exacta-gh059/",
+  "documentId": "doc-f797f3d7f12b563ea1",
+  "sourceIds": [],
+  "tagWeights": {
+    "control-minimo": 0.5,
+    "decision": 0.5
+  },
+  "clusters": [
+    "research"
+  ],
+  "context": "## Código de calificación exacta\n\nEtiquetas: Control mínimo y suficiencia 50.00%; Decisiones y responsabilidad 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/codigo-de-calificacion-exacta-gh059/\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/scoped-closure-metacognition-v0.1/metacognition.py\n\n",
+  "tokens": 144,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH059:C07",
+      "to": "C07",
+      "title": "Poda segura de búsqueda",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 180,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C07.json"
+    },
+    {
+      "id": "apoyo:GH059:C25",
+      "to": "C25",
+      "title": "Suficiencia para una decisión",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 293,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C25.json"
+    },
+    {
+      "id": "documento:G059",
+      "to": "N1833",
+      "title": "Phylons dynamic combinations",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "A pruning guard should preserve the exact conditions supporting rejection; rounding must not turn inconsistent evidence into a certificate that removes a valid candidate.",
+      "relationTokens": 42,
+      "fichaTokens": 117,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1833.json"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "id": "G20",
+  "type": "concepto",
+  "title": "Escalera de evidencia y madurez",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/evidence-and-maturity-ladder/",
+  "documentId": null,
+  "sourceIds": [
+    "S09",
+    "T1499"
+  ],
+  "tagWeights": {
+    "documentacion": 0.3409,
+    "evidencia": 0.3863,
+    "matematicas": 0.2728
+  },
+  "clusters": [
+    "research",
+    "tegrity"
+  ],
+  "context": "## Escalera de evidencia y madurez\nSeparate description, proposal, demonstration, test and independent validation.\nEtiquetas: Investigación y documentación técnica 34.09%; Evidencia, procedencia y atribución 38.63%; Matemáticas 27.28%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/evidence-and-maturity-ladder/\n\n",
+  "tokens": 78,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:S09:G20",
+      "to": "S09",
+      "title": "Repositorio principal y contribuciones matemáticas",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 93,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/S09.json"
+    },
+    {
+      "id": "apoyo:T1499:G20",
+      "to": "T1499",
+      "title": "Structural Awareness",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 68,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1499.json"
+    },
+    {
+      "id": "concepto:B442",
+      "to": "G14",
+      "title": "Condiciones T1–T4",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 125,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G14.json"
+    },
+    {
+      "id": "concepto:B450",
+      "to": "G16",
+      "title": "Hipótesis H1–H6",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 131,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G16.json"
+    },
+    {
+      "id": "concepto:B466",
+      "to": "G19",
+      "title": "Contribuciones matemáticas",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 181,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G19.json"
+    },
+    {
+      "id": "concepto:B467",
+      "to": "C50",
+      "title": "Estado de una afirmación",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 295,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C50.json"
+    },
+    {
+      "id": "concepto:B468",
+      "to": "C55",
+      "title": "Preestandarización",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 121,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C55.json"
+    },
+    {
+      "id": "concepto:B469",
+      "to": "C87",
+      "title": "Madurez definida y autoevaluada",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 172,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C87.json"
+    },
+    {
+      "id": "concepto:B470",
+      "to": "G17",
+      "title": "Benchmarks DDS y ablaciones",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 204,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G17.json"
+    },
+    {
+      "id": "concepto:B471",
+      "to": "G35",
+      "title": "Preestandarización y contribuciones UIT",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 79,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G35.json"
+    },
+    {
+      "id": "concepto:B504",
+      "to": "G26",
+      "title": "Arquitectura transmisible a implementadores",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 63,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G26.json"
+    },
+    {
+      "id": "concepto:B538",
+      "to": "G32",
+      "title": "IMSV",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 16,
+      "fichaTokens": 75,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G32.json"
+    },
+    {
+      "id": "concepto:B544",
+      "to": "G34",
+      "title": "Industry Reference Group (IRG)",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 91,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G34.json"
+    },
+    {
+      "id": "concepto:B550",
+      "to": "G35",
+      "title": "Preestandarización y contribuciones UIT",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 79,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G35.json"
+    },
+    {
+      "id": "concepto:B582",
+      "to": "G41",
+      "title": "Escuela de criterio y comunidades de práctica",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 122,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G41.json"
+    },
+    {
+      "id": "concepto:B592",
+      "to": "G43",
+      "title": "Cyber Napoleon",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 16,
+      "fichaTokens": 181,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G43.json"
+    }
+  ]
+}

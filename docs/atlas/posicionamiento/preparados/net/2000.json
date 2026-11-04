@@ -1,0 +1,1090 @@
+{
+  "schema": "perspective-beyond/positioning-v1",
+  "edition": "2026-11-04",
+  "request": {
+    "posicionamiento": "net",
+    "tokens": 2000,
+    "max": 60,
+    "rol": "lector",
+    "lectura": "explore",
+    "enfoque": "parejo",
+    "instruccion": "",
+    "red": "ideas",
+    "sentido": "ambas",
+    "modo": "closed",
+    "site": "net",
+    "puente": null,
+    "solo": false,
+    "pesos": []
+  },
+  "position": {
+    "id": "doc-4b88133cc260c8d3a0",
+    "title": "JubAp.Net",
+    "url": "https://jubap.net/",
+    "fichas": [
+      "N2"
+    ],
+    "aliases": [
+      "https://jubap.net/"
+    ],
+    "header": "# Posicionamiento · JubAp.Net\nDocumento de origen: https://jubap.net/\n\n",
+    "headerTokens": 19,
+    "type": "documento",
+    "focus": "N2",
+    "seeds": [
+      "N2"
+    ]
+  },
+  "budget": {
+    "limit": 2000,
+    "used": 1998,
+    "remaining": 2,
+    "nextBlock": 84,
+    "encoding": "o200k_base",
+    "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
+  },
+  "reachable": 40,
+  "selected": 13,
+  "shown": 14,
+  "omittedByBudget": 27,
+  "omittedInDiagram": 0,
+  "layers": [
+    {
+      "distance": 0,
+      "selected": 0,
+      "shown": 1
+    },
+    {
+      "distance": 1,
+      "selected": 1,
+      "shown": 1
+    },
+    {
+      "distance": 2,
+      "selected": 4,
+      "shown": 4
+    },
+    {
+      "distance": 3,
+      "selected": 3,
+      "shown": 3
+    },
+    {
+      "distance": 4,
+      "selected": 5,
+      "shown": 5
+    }
+  ],
+  "center": "doc-4b88133cc260c8d3a0-entrada",
+  "nodes": [
+    {
+      "id": "doc-4b88133cc260c8d3a0-entrada",
+      "title": "JubAp.Net",
+      "type": "documento",
+      "url": "https://jubap.net/",
+      "original": "https://jubap.net/",
+      "summary": "Documento desde el que se abre este posicionamiento.",
+      "tags": [],
+      "tagWeights": {},
+      "clusters": [
+        "net"
+      ],
+      "distance": 0,
+      "parent": null
+    },
+    {
+      "id": "N2",
+      "type": "ficha",
+      "title": "JubAp.Net",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/jubap-net-n2/",
+      "original": "https://jubap.net/",
+      "aliases": [],
+      "clusters": [
+        "net"
+      ],
+      "tags": [
+        "capacidad-humana",
+        "documentacion",
+        "empresa",
+        "navegacion",
+        "transformacion"
+      ],
+      "summary": "JubAp.Net is an engineering and operations unit with roots in the Barcelona Nokia R&D environment, built around critical systems and applied across different technology waves and industrial contexts.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-4b88133cc260c8d3a0",
+      "tagWeights": {
+        "capacidad-humana": 0.35,
+        "documentacion": 0.1,
+        "empresa": 0.25,
+        "navegacion": 0.05,
+        "transformacion": 0.25
+      },
+      "contextTokens": 126,
+      "distance": 1,
+      "parent": "doc-4b88133cc260c8d3a0-entrada",
+      "routeEdge": null,
+      "affinity": 1
+    },
+    {
+      "id": "G33",
+      "type": "concepto",
+      "title": "JUBAP (ecosistema de intervención)",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/jubap-intervention-ecosystem/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "net"
+      ],
+      "tags": [
+        "capacidad-humana",
+        "documentacion",
+        "empresa",
+        "navegacion",
+        "transformacion"
+      ],
+      "summary": "The JubAp units contribute complementary field and architectural practices across regions.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "N2"
+      ],
+      "tagWeights": {
+        "capacidad-humana": 0.35,
+        "documentacion": 0.1,
+        "empresa": 0.25,
+        "navegacion": 0.05,
+        "transformacion": 0.25
+      },
+      "contextTokens": 102,
+      "positionHeaderTokens": 42,
+      "distance": 2,
+      "parent": "N2",
+      "routeEdge": "apoyo:N2:G33",
+      "affinity": 1
+    },
+    {
+      "id": "N1295",
+      "type": "ficha",
+      "title": "JubAp.Net Tiger Team Model",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/jubap-net-tiger-team-model-n1295/",
+      "original": "https://jubap.net/jupap-net-tiger-team-model/",
+      "aliases": [],
+      "clusters": [
+        "net"
+      ],
+      "tags": [
+        "autoridad",
+        "decision",
+        "evidencia",
+        "experimentacion",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-7b2200123c3a62e1a6",
+      "tagWeights": {
+        "autoridad": 0.1334,
+        "decision": 0.2,
+        "evidencia": 0.1333,
+        "experimentacion": 0.1333,
+        "transformacion": 0.4
+      },
+      "contextTokens": 117,
+      "distance": 2,
+      "parent": "N2",
+      "routeEdge": "navigation:position-nav-N2-N1295",
+      "affinity": 1
+    },
+    {
+      "id": "N2086",
+      "type": "ficha",
+      "title": "From Frontier Engineering to Ecosystem Awareness — Twenty Years of Architectural Continuity",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/from-frontier-engineering-to-ecosystem-awareness-twenty-years-of-architectural-n2086/",
+      "original": "https://jubap.net/frontier-engineering-ecosystem-awareness-architectural-continuity/",
+      "aliases": [],
+      "clusters": [
+        "net"
+      ],
+      "tags": [
+        "cartografia",
+        "evidencia",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-8dfc7cb01e713e39ef",
+      "tagWeights": {
+        "cartografia": 0.3846,
+        "evidencia": 0.2308,
+        "transformacion": 0.3846
+      },
+      "contextTokens": 117,
+      "distance": 2,
+      "parent": "N2",
+      "routeEdge": "navigation:position-nav-N2-N2086",
+      "affinity": 1
+    },
+    {
+      "id": "N250",
+      "type": "ficha",
+      "title": "Case Studies",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-studies-n250/",
+      "original": "https://jubap.net/case-studies/",
+      "aliases": [],
+      "clusters": [
+        "net"
+      ],
+      "tags": [
+        "casos",
+        "navegacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-cd74cd72646e57c145",
+      "tagWeights": {
+        "casos": 0.5,
+        "navegacion": 0.5
+      },
+      "contextTokens": 66,
+      "distance": 2,
+      "parent": "N2",
+      "routeEdge": "navigation:position-nav-N2-N250",
+      "affinity": 1
+    },
+    {
+      "id": "G25",
+      "type": "concepto",
+      "title": "Tiger Teams",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/tiger-teams/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "net"
+      ],
+      "tags": [
+        "autoridad",
+        "control-minimo",
+        "decision",
+        "evidencia",
+        "memoria-territorio",
+        "transformacion"
+      ],
+      "summary": "Focused teams combine architecture, engineering, governance and operational delivery around a mission.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "N1267",
+        "N1296"
+      ],
+      "tagWeights": {
+        "autoridad": 0.0667,
+        "control-minimo": 0.0667,
+        "decision": 0.1,
+        "evidencia": 0.0666,
+        "memoria-territorio": 0.125,
+        "transformacion": 0.575
+      },
+      "contextTokens": 109,
+      "positionHeaderTokens": 32,
+      "distance": 3,
+      "parent": "G33",
+      "routeEdge": "concepto:B540",
+      "affinity": 1
+    },
+    {
+      "id": "N1267",
+      "type": "ficha",
+      "title": "JubAp.Net Distributed Tiger Team Model – origins –",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/jubap-net-distributed-tiger-team-model-origins-n1267/",
+      "original": "https://jubap.net/jubap-net-distributed-tiger-team-model-origins/",
+      "aliases": [],
+      "clusters": [
+        "net"
+      ],
+      "tags": [
+        "memoria-territorio",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-253ed7736f47ec1d73",
+      "tagWeights": {
+        "memoria-territorio": 0.25,
+        "transformacion": 0.75
+      },
+      "contextTokens": 92,
+      "distance": 3,
+      "parent": "N1295",
+      "routeEdge": "documento:R124",
+      "affinity": 1
+    },
+    {
+      "id": "N1441",
+      "type": "ficha",
+      "title": "JubAp.Net Frontier Operations Role in the IMSV.org Circle",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/jubap-net-frontier-operations-role-in-the-imsv-org-circle-n1441/",
+      "original": "https://jubap.net/jubap-net-role-in-imsv-org-frontier-engineering-and-operations-circle/",
+      "aliases": [],
+      "clusters": [
+        "net"
+      ],
+      "tags": [
+        "empresa",
+        "evidencia",
+        "memoria-territorio"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-9d0606907a9bc74418",
+      "tagWeights": {
+        "empresa": 0.3334,
+        "evidencia": 0.3333,
+        "memoria-territorio": 0.3333
+      },
+      "contextTokens": 111,
+      "distance": 3,
+      "parent": "N2086",
+      "routeEdge": "documento:R116",
+      "affinity": 1
+    },
+    {
+      "id": "G41",
+      "type": "concepto",
+      "title": "Escuela de criterio y comunidades de práctica",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/school-of-judgment-and-communities-of-practice/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "net"
+      ],
+      "tags": [
+        "aprendizaje",
+        "capacidad-humana",
+        "empresa",
+        "evidencia",
+        "memoria-territorio",
+        "transformacion"
+      ],
+      "summary": "Practitioners develop and transmit judgment through situated work and reflection.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "N1246",
+        "N1267"
+      ],
+      "tagWeights": {
+        "aprendizaje": 0.1785,
+        "capacidad-humana": 0.0715,
+        "empresa": 0.0715,
+        "evidencia": 0.1071,
+        "memoria-territorio": 0.1964,
+        "transformacion": 0.375
+      },
+      "contextTokens": 122,
+      "positionHeaderTokens": 46,
+      "distance": 4,
+      "parent": "N1267",
+      "routeEdge": "apoyo:N1267:G41",
+      "affinity": 1
+    },
+    {
+      "id": "N1258",
+      "type": "ficha",
+      "title": "JubAp.Net GEPLAN and the Hidden Logistics Lab Behind PEMEX Operations",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/jubap-net-geplan-and-the-hidden-logistics-lab-behind-pemex-operations-n1258/",
+      "original": "https://jubap.net/before-digital-transformation-had-a-name-jubap-net-geplan-and-the-hidden-logistics-lab-behind-pemex-operations/",
+      "aliases": [],
+      "clusters": [
+        "net"
+      ],
+      "tags": [
+        "economia",
+        "memoria-territorio",
+        "movilidad"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-e4143172aa60675841",
+      "tagWeights": {
+        "economia": 0.2222,
+        "memoria-territorio": 0.2222,
+        "movilidad": 0.5556
+      },
+      "contextTokens": 130,
+      "distance": 4,
+      "parent": "N1267",
+      "routeEdge": "documento:R082",
+      "affinity": 1
+    },
+    {
+      "id": "N1261",
+      "type": "ficha",
+      "title": "Before Digital Nomads, There Were Distributed Tiger Teams",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/before-digital-nomads-there-were-distributed-tiger-teams-n1261/",
+      "original": "https://jubap.net/before-digital-nomads-there-were-distributed-tiger-teams/",
+      "aliases": [],
+      "clusters": [
+        "net"
+      ],
+      "tags": [
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-35b41e984873e18602",
+      "tagWeights": {
+        "transformacion": 1
+      },
+      "contextTokens": 90,
+      "distance": 4,
+      "parent": "N1267",
+      "routeEdge": "documento:R123",
+      "affinity": 1
+    },
+    {
+      "id": "N1270",
+      "type": "ficha",
+      "title": "JubAp.Net Tiger Teams and Institutional Frontier Ecosystems",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/jubap-net-tiger-teams-and-institutional-frontier-ecosystems-n1270/",
+      "original": "https://jubap.net/jubap-net-tiger-teams-and-institutional-frontier-ecosystems/",
+      "aliases": [],
+      "clusters": [
+        "net"
+      ],
+      "tags": [
+        "memoria-territorio",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-66a5c0b21719f8c6d9",
+      "tagWeights": {
+        "memoria-territorio": 0.2857,
+        "transformacion": 0.7143
+      },
+      "contextTokens": 101,
+      "distance": 4,
+      "parent": "N1441",
+      "routeEdge": "documento:R125",
+      "affinity": 1
+    },
+    {
+      "id": "N1296",
+      "type": "ficha",
+      "title": "Distributed Tiger Teams VS Freelancer Swarms",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/distributed-tiger-teams-vs-freelancer-swarms-n1296/",
+      "original": "https://jubap.net/distributed-tiger-teams-vs-freelancer-swarms/",
+      "aliases": [],
+      "clusters": [
+        "net"
+      ],
+      "tags": [
+        "autoridad",
+        "control-minimo",
+        "decision",
+        "evidencia",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-55a253c1a814ece195",
+      "tagWeights": {
+        "autoridad": 0.1334,
+        "control-minimo": 0.1333,
+        "decision": 0.2,
+        "evidencia": 0.1333,
+        "transformacion": 0.4
+      },
+      "contextTokens": 127,
+      "distance": 4,
+      "parent": "G25",
+      "routeEdge": "apoyo:N1296:G25",
+      "affinity": 1
+    }
+  ],
+  "edges": [
+    {
+      "id": "contiene:doc-4b88133cc260c8d3a0-entrada:N2",
+      "from": "doc-4b88133cc260c8d3a0-entrada",
+      "to": "N2",
+      "kind": "ficha del documento",
+      "reading": "Esta ficha abre la lectura desde el documento de origen.",
+      "route": true
+    },
+    {
+      "id": "apoyo:N2:G33",
+      "from": "N2",
+      "to": "G33",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-N2-N1295",
+      "from": "N2",
+      "to": "N1295",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «JubAp.Net», el enlace «Tiger Team operating model» abre «JubAp.Net Tiger Team Model».",
+      "evidence": "https://jubap.net/",
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-N2-N2086",
+      "from": "N2",
+      "to": "N2086",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «JubAp.Net», el enlace «architectural-continuity account» abre «From Frontier Engineering to Ecosystem Awareness — Twenty Years of Architectural Continuity».",
+      "evidence": "https://jubap.net/",
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-N2-N250",
+      "from": "N2",
+      "to": "N250",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «JubAp.Net», el enlace «Explore our Case Studies» abre «Case Studies».",
+      "evidence": "https://jubap.net/",
+      "route": true
+    },
+    {
+      "id": "concepto:B540",
+      "from": "G33",
+      "to": "G25",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:R124",
+      "from": "N1267",
+      "to": "N1295",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The consolidated Tiger Team operating model](https://jubap.net/jupap-net-tiger-team-model/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:R116",
+      "from": "N1441",
+      "to": "N2086",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Twenty years of architectural continuity](https://jubap.net/frontier-engineering-ecosystem-awareness-architectural-continuity/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "apoyo:N1267:G41",
+      "from": "N1267",
+      "to": "G41",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:R082",
+      "from": "N1258",
+      "to": "N1267",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The field origins of the Tiger Team model](https://jubap.net/jubap-net-distributed-tiger-team-model-origins/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:R123",
+      "from": "N1261",
+      "to": "N1267",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The field-embedded origins of the model](https://jubap.net/jubap-net-distributed-tiger-team-model-origins/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:R125",
+      "from": "N1270",
+      "to": "N1441",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [JubAp.Net in the IMSV.org institutional architecture](https://jubap.net/jubap-net-role-in-imsv-org-frontier-engineering-and-operations-circle/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "apoyo:N1296:G25",
+      "from": "N1296",
+      "to": "G25",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "apoyo:N1267:G25",
+      "from": "N1267",
+      "to": "G25",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "route": false
+    }
+  ],
+  "selection": [
+    {
+      "id": "N2",
+      "type": "ficha",
+      "title": "JubAp.Net",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/jubap-net-n2/",
+      "original": "https://jubap.net/",
+      "aliases": [],
+      "clusters": [
+        "net"
+      ],
+      "tags": [
+        "capacidad-humana",
+        "documentacion",
+        "empresa",
+        "navegacion",
+        "transformacion"
+      ],
+      "summary": "JubAp.Net is an engineering and operations unit with roots in the Barcelona Nokia R&D environment, built around critical systems and applied across different technology waves and industrial contexts.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-4b88133cc260c8d3a0",
+      "tagWeights": {
+        "capacidad-humana": 0.35,
+        "documentacion": 0.1,
+        "empresa": 0.25,
+        "navegacion": 0.05,
+        "transformacion": 0.25
+      },
+      "contextTokens": 126,
+      "distance": 1,
+      "parent": "doc-4b88133cc260c8d3a0-entrada",
+      "routeEdge": null,
+      "affinity": 1
+    },
+    {
+      "id": "G33",
+      "type": "concepto",
+      "title": "JUBAP (ecosistema de intervención)",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/jubap-intervention-ecosystem/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "net"
+      ],
+      "tags": [
+        "capacidad-humana",
+        "documentacion",
+        "empresa",
+        "navegacion",
+        "transformacion"
+      ],
+      "summary": "The JubAp units contribute complementary field and architectural practices across regions.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "N2"
+      ],
+      "tagWeights": {
+        "capacidad-humana": 0.35,
+        "documentacion": 0.1,
+        "empresa": 0.25,
+        "navegacion": 0.05,
+        "transformacion": 0.25
+      },
+      "contextTokens": 102,
+      "positionHeaderTokens": 42,
+      "distance": 2,
+      "parent": "N2",
+      "routeEdge": "apoyo:N2:G33",
+      "affinity": 1
+    },
+    {
+      "id": "N1295",
+      "type": "ficha",
+      "title": "JubAp.Net Tiger Team Model",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/jubap-net-tiger-team-model-n1295/",
+      "original": "https://jubap.net/jupap-net-tiger-team-model/",
+      "aliases": [],
+      "clusters": [
+        "net"
+      ],
+      "tags": [
+        "autoridad",
+        "decision",
+        "evidencia",
+        "experimentacion",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-7b2200123c3a62e1a6",
+      "tagWeights": {
+        "autoridad": 0.1334,
+        "decision": 0.2,
+        "evidencia": 0.1333,
+        "experimentacion": 0.1333,
+        "transformacion": 0.4
+      },
+      "contextTokens": 117,
+      "distance": 2,
+      "parent": "N2",
+      "routeEdge": "navigation:position-nav-N2-N1295",
+      "affinity": 1
+    },
+    {
+      "id": "N2086",
+      "type": "ficha",
+      "title": "From Frontier Engineering to Ecosystem Awareness — Twenty Years of Architectural Continuity",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/from-frontier-engineering-to-ecosystem-awareness-twenty-years-of-architectural-n2086/",
+      "original": "https://jubap.net/frontier-engineering-ecosystem-awareness-architectural-continuity/",
+      "aliases": [],
+      "clusters": [
+        "net"
+      ],
+      "tags": [
+        "cartografia",
+        "evidencia",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-8dfc7cb01e713e39ef",
+      "tagWeights": {
+        "cartografia": 0.3846,
+        "evidencia": 0.2308,
+        "transformacion": 0.3846
+      },
+      "contextTokens": 117,
+      "distance": 2,
+      "parent": "N2",
+      "routeEdge": "navigation:position-nav-N2-N2086",
+      "affinity": 1
+    },
+    {
+      "id": "N250",
+      "type": "ficha",
+      "title": "Case Studies",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-studies-n250/",
+      "original": "https://jubap.net/case-studies/",
+      "aliases": [],
+      "clusters": [
+        "net"
+      ],
+      "tags": [
+        "casos",
+        "navegacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-cd74cd72646e57c145",
+      "tagWeights": {
+        "casos": 0.5,
+        "navegacion": 0.5
+      },
+      "contextTokens": 66,
+      "distance": 2,
+      "parent": "N2",
+      "routeEdge": "navigation:position-nav-N2-N250",
+      "affinity": 1
+    },
+    {
+      "id": "G25",
+      "type": "concepto",
+      "title": "Tiger Teams",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/tiger-teams/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "net"
+      ],
+      "tags": [
+        "autoridad",
+        "control-minimo",
+        "decision",
+        "evidencia",
+        "memoria-territorio",
+        "transformacion"
+      ],
+      "summary": "Focused teams combine architecture, engineering, governance and operational delivery around a mission.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "N1267",
+        "N1296"
+      ],
+      "tagWeights": {
+        "autoridad": 0.0667,
+        "control-minimo": 0.0667,
+        "decision": 0.1,
+        "evidencia": 0.0666,
+        "memoria-territorio": 0.125,
+        "transformacion": 0.575
+      },
+      "contextTokens": 109,
+      "positionHeaderTokens": 32,
+      "distance": 3,
+      "parent": "G33",
+      "routeEdge": "concepto:B540",
+      "affinity": 1
+    },
+    {
+      "id": "N1267",
+      "type": "ficha",
+      "title": "JubAp.Net Distributed Tiger Team Model – origins –",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/jubap-net-distributed-tiger-team-model-origins-n1267/",
+      "original": "https://jubap.net/jubap-net-distributed-tiger-team-model-origins/",
+      "aliases": [],
+      "clusters": [
+        "net"
+      ],
+      "tags": [
+        "memoria-territorio",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-253ed7736f47ec1d73",
+      "tagWeights": {
+        "memoria-territorio": 0.25,
+        "transformacion": 0.75
+      },
+      "contextTokens": 92,
+      "distance": 3,
+      "parent": "N1295",
+      "routeEdge": "documento:R124",
+      "affinity": 1
+    },
+    {
+      "id": "N1441",
+      "type": "ficha",
+      "title": "JubAp.Net Frontier Operations Role in the IMSV.org Circle",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/jubap-net-frontier-operations-role-in-the-imsv-org-circle-n1441/",
+      "original": "https://jubap.net/jubap-net-role-in-imsv-org-frontier-engineering-and-operations-circle/",
+      "aliases": [],
+      "clusters": [
+        "net"
+      ],
+      "tags": [
+        "empresa",
+        "evidencia",
+        "memoria-territorio"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-9d0606907a9bc74418",
+      "tagWeights": {
+        "empresa": 0.3334,
+        "evidencia": 0.3333,
+        "memoria-territorio": 0.3333
+      },
+      "contextTokens": 111,
+      "distance": 3,
+      "parent": "N2086",
+      "routeEdge": "documento:R116",
+      "affinity": 1
+    },
+    {
+      "id": "G41",
+      "type": "concepto",
+      "title": "Escuela de criterio y comunidades de práctica",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/school-of-judgment-and-communities-of-practice/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "net"
+      ],
+      "tags": [
+        "aprendizaje",
+        "capacidad-humana",
+        "empresa",
+        "evidencia",
+        "memoria-territorio",
+        "transformacion"
+      ],
+      "summary": "Practitioners develop and transmit judgment through situated work and reflection.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "N1246",
+        "N1267"
+      ],
+      "tagWeights": {
+        "aprendizaje": 0.1785,
+        "capacidad-humana": 0.0715,
+        "empresa": 0.0715,
+        "evidencia": 0.1071,
+        "memoria-territorio": 0.1964,
+        "transformacion": 0.375
+      },
+      "contextTokens": 122,
+      "positionHeaderTokens": 46,
+      "distance": 4,
+      "parent": "N1267",
+      "routeEdge": "apoyo:N1267:G41",
+      "affinity": 1
+    },
+    {
+      "id": "N1258",
+      "type": "ficha",
+      "title": "JubAp.Net GEPLAN and the Hidden Logistics Lab Behind PEMEX Operations",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/jubap-net-geplan-and-the-hidden-logistics-lab-behind-pemex-operations-n1258/",
+      "original": "https://jubap.net/before-digital-transformation-had-a-name-jubap-net-geplan-and-the-hidden-logistics-lab-behind-pemex-operations/",
+      "aliases": [],
+      "clusters": [
+        "net"
+      ],
+      "tags": [
+        "economia",
+        "memoria-territorio",
+        "movilidad"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-e4143172aa60675841",
+      "tagWeights": {
+        "economia": 0.2222,
+        "memoria-territorio": 0.2222,
+        "movilidad": 0.5556
+      },
+      "contextTokens": 130,
+      "distance": 4,
+      "parent": "N1267",
+      "routeEdge": "documento:R082",
+      "affinity": 1
+    },
+    {
+      "id": "N1261",
+      "type": "ficha",
+      "title": "Before Digital Nomads, There Were Distributed Tiger Teams",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/before-digital-nomads-there-were-distributed-tiger-teams-n1261/",
+      "original": "https://jubap.net/before-digital-nomads-there-were-distributed-tiger-teams/",
+      "aliases": [],
+      "clusters": [
+        "net"
+      ],
+      "tags": [
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-35b41e984873e18602",
+      "tagWeights": {
+        "transformacion": 1
+      },
+      "contextTokens": 90,
+      "distance": 4,
+      "parent": "N1267",
+      "routeEdge": "documento:R123",
+      "affinity": 1
+    },
+    {
+      "id": "N1270",
+      "type": "ficha",
+      "title": "JubAp.Net Tiger Teams and Institutional Frontier Ecosystems",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/jubap-net-tiger-teams-and-institutional-frontier-ecosystems-n1270/",
+      "original": "https://jubap.net/jubap-net-tiger-teams-and-institutional-frontier-ecosystems/",
+      "aliases": [],
+      "clusters": [
+        "net"
+      ],
+      "tags": [
+        "memoria-territorio",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-66a5c0b21719f8c6d9",
+      "tagWeights": {
+        "memoria-territorio": 0.2857,
+        "transformacion": 0.7143
+      },
+      "contextTokens": 101,
+      "distance": 4,
+      "parent": "N1441",
+      "routeEdge": "documento:R125",
+      "affinity": 1
+    },
+    {
+      "id": "N1296",
+      "type": "ficha",
+      "title": "Distributed Tiger Teams VS Freelancer Swarms",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/distributed-tiger-teams-vs-freelancer-swarms-n1296/",
+      "original": "https://jubap.net/distributed-tiger-teams-vs-freelancer-swarms/",
+      "aliases": [],
+      "clusters": [
+        "net"
+      ],
+      "tags": [
+        "autoridad",
+        "control-minimo",
+        "decision",
+        "evidencia",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-55a253c1a814ece195",
+      "tagWeights": {
+        "autoridad": 0.1334,
+        "control-minimo": 0.1333,
+        "decision": 0.2,
+        "evidencia": 0.1333,
+        "transformacion": 0.4
+      },
+      "contextTokens": 127,
+      "distance": 4,
+      "parent": "G25",
+      "routeEdge": "apoyo:N1296:G25",
+      "affinity": 1
+    }
+  ],
+  "reading": "# Posicionamiento · JubAp.Net\nDocumento de origen: https://jubap.net/\n\n## JubAp.Net\nJubAp.Net is an engineering and operations unit with roots in the Barcelona Nokia R&D environment, built around critical systems and applied across different technology waves and industrial contexts.\nEtiquetas: Capacidad humana y deuda de inteligencia 35.00%; Investigación y documentación técnica 10.00%; Empresa y gestión 25.00%; Índices, contacto y políticas 5.00%; Transformación y continuidad operativa 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-net-n2/\nDocumento de origen: https://jubap.net/\n\nJubAp.Net → JUBAP (ecosistema de intervención) · documenta el concepto. \n\n## JUBAP (ecosistema de intervención)\nThe JubAp units contribute complementary field and architectural practices across regions.\nEtiquetas: Capacidad humana y deuda de inteligencia 35.00%; Investigación y documentación técnica 10.00%; Empresa y gestión 25.00%; Índices, contacto y políticas 5.00%; Transformación y continuidad operativa 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/jubap-intervention-ecosystem/\n\nJubAp.Net → JubAp.Net Tiger Team Model · lectura enlazada desde el documento. Desde «JubAp.Net», el enlace «Tiger Team operating model» abre «JubAp.Net Tiger Team Model».\nFuente de la relación: https://jubap.net/\n\n## JubAp.Net Tiger Team Model\n\nEtiquetas: Autoridad, permisos y delegación 13.34%; Decisiones y responsabilidad 20.00%; Evidencia, procedencia y atribución 13.33%; Experimentación, falsación y contraejemplos 13.33%; Transformación y continuidad operativa 40.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-net-tiger-team-model-n1295/\nDocumento de origen: https://jubap.net/jupap-net-tiger-team-model/\n\nJubAp.Net → From Frontier Engineering to Ecosystem Awareness — Twenty Years of Architectural Continuity · lectura enlazada desde el documento. Desde «JubAp.Net», el enlace «architectural-continuity account» abre «From Frontier Engineering to Ecosystem Awareness — Twenty Years of Architectural Continuity».\nFuente de la relación: https://jubap.net/\n\n## From Frontier Engineering to Ecosystem Awareness — Twenty Years of Architectural Continuity\n\nEtiquetas: Cartografía y señales de ecosistema 38.46%; Evidencia, procedencia y atribución 23.08%; Transformación y continuidad operativa 38.46%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/from-frontier-engineering-to-ecosystem-awareness-twenty-years-of-architectural-n2086/\nDocumento de origen: https://jubap.net/frontier-engineering-ecosystem-awareness-architectural-continuity/\n\nJubAp.Net → Case Studies · lectura enlazada desde el documento. Desde «JubAp.Net», el enlace «Explore our Case Studies» abre «Case Studies».\nFuente de la relación: https://jubap.net/\n\n## Case Studies\n\nEtiquetas: Casos de uso y aplicaciones 50.00%; Índices, contacto y políticas 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-studies-n250/\nDocumento de origen: https://jubap.net/case-studies/\n\nJUBAP (ecosistema de intervención) → Tiger Teams · conceptual bridge. \n\n## Tiger Teams\nFocused teams combine architecture, engineering, governance and operational delivery around a mission.\nEtiquetas: Autoridad, permisos y delegación 6.67%; Control mínimo y suficiencia 6.67%; Decisiones y responsabilidad 10.00%; Evidencia, procedencia y atribución 6.66%; Memoria, comunidad y territorio 12.50%; Transformación y continuidad operativa 57.50%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/tiger-teams/\n\nJubAp.Net Distributed Tiger Team Model – origins – → JubAp.Net Tiger Team Model · editorial comparison. For a complementary reading, see [The consolidated Tiger Team operating model](https://jubap.net/jupap-net-tiger-team-model/).\n\n## JubAp.Net Distributed Tiger Team Model – origins –\n\nEtiquetas: Memoria, comunidad y territorio 25.00%; Transformación y continuidad operativa 75.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-net-distributed-tiger-team-model-origins-n1267/\nDocumento de origen: https://jubap.net/jubap-net-distributed-tiger-team-model-origins/\n\nJubAp.Net Frontier Operations Role in the IMSV.org Circle → From Frontier Engineering to Ecosystem Awareness — Twenty Years of Architectural Continuity · editorial comparison. For a complementary reading, see [Twenty years of architectural continuity](https://jubap.net/frontier-engineering-ecosystem-awareness-architectural-continuity/).\n\n## JubAp.Net Frontier Operations Role in the IMSV.org Circle\n\nEtiquetas: Empresa y gestión 33.34%; Evidencia, procedencia y atribución 33.33%; Memoria, comunidad y territorio 33.33%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-net-frontier-operations-role-in-the-imsv-org-circle-n1441/\nDocumento de origen: https://jubap.net/jubap-net-role-in-imsv-org-frontier-engineering-and-operations-circle/\n\nJubAp.Net Distributed Tiger Team Model – origins – → Escuela de criterio y comunidades de práctica · documenta el concepto. \n\n## Escuela de criterio y comunidades de práctica\nPractitioners develop and transmit judgment through situated work and reflection.\nEtiquetas: Aprendizaje y transmisión de capacidades 17.85%; Capacidad humana y deuda de inteligencia 7.15%; Empresa y gestión 7.15%; Evidencia, procedencia y atribución 10.71%; Memoria, comunidad y territorio 19.64%; Transformación y continuidad operativa 37.50%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/school-of-judgment-and-communities-of-practice/\n\nJubAp.Net GEPLAN and the Hidden Logistics Lab Behind PEMEX Operations → JubAp.Net Distributed Tiger Team Model – origins – · editorial comparison. For a complementary reading, see [The field origins of the Tiger Team model](https://jubap.net/jubap-net-distributed-tiger-team-model-origins/).\n\n## JubAp.Net GEPLAN and the Hidden Logistics Lab Behind PEMEX Operations\n\nEtiquetas: Economía, costes y liquidez 22.22%; Memoria, comunidad y territorio 22.22%; Movilidad e infraestructura 55.56%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-net-geplan-and-the-hidden-logistics-lab-behind-pemex-operations-n1258/\nDocumento de origen: https://jubap.net/before-digital-transformation-had-a-name-jubap-net-geplan-and-the-hidden-logistics-lab-behind-pemex-operations/\n\nBefore Digital Nomads, There Were Distributed Tiger Teams → JubAp.Net Distributed Tiger Team Model – origins – · editorial comparison. For a complementary reading, see [The field-embedded origins of the model](https://jubap.net/jubap-net-distributed-tiger-team-model-origins/).\n\n## Before Digital Nomads, There Were Distributed Tiger Teams\n\nEtiquetas: Transformación y continuidad operativa 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/before-digital-nomads-there-were-distributed-tiger-teams-n1261/\nDocumento de origen: https://jubap.net/before-digital-nomads-there-were-distributed-tiger-teams/\n\nJubAp.Net Tiger Teams and Institutional Frontier Ecosystems → JubAp.Net Frontier Operations Role in the IMSV.org Circle · editorial comparison. For a complementary reading, see [JubAp.Net in the IMSV.org institutional architecture](https://jubap.net/jubap-net-role-in-imsv-org-frontier-engineering-and-operations-circle/).\n\n## JubAp.Net Tiger Teams and Institutional Frontier Ecosystems\n\nEtiquetas: Memoria, comunidad y territorio 28.57%; Transformación y continuidad operativa 71.43%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-net-tiger-teams-and-institutional-frontier-ecosystems-n1270/\nDocumento de origen: https://jubap.net/jubap-net-tiger-teams-and-institutional-frontier-ecosystems/\n\nDistributed Tiger Teams VS Freelancer Swarms → Tiger Teams · documenta el concepto. \n\n## Distributed Tiger Teams VS Freelancer Swarms\n\nEtiquetas: Autoridad, permisos y delegación 13.34%; Control mínimo y suficiencia 13.33%; Decisiones y responsabilidad 20.00%; Evidencia, procedencia y atribución 13.33%; Transformación y continuidad operativa 40.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/distributed-tiger-teams-vs-freelancer-swarms-n1296/\nDocumento de origen: https://jubap.net/distributed-tiger-teams-vs-freelancer-swarms/\n\n"
+}

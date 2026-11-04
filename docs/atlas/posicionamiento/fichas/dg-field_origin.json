@@ -1,0 +1,102 @@
+{
+  "id": "dg-field_origin",
+  "type": "concepto",
+  "title": "Trabajo de campo de Nueva Perspectiva",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-field_origin",
+  "documentId": null,
+  "sourceIds": [
+    "D-205",
+    "D-254",
+    "D-276"
+  ],
+  "tagWeights": {
+    "decision": 0.1852,
+    "memoria-territorio": 0.1,
+    "perspectiva": 0.7148
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Trabajo de campo de Nueva Perspectiva\nRecuperar la sierra del Totonacapan y los grupos de cuarto y quinto paso como origen testimonial del enfoque.\nEtiquetas: Decisiones y responsabilidad 18.52%; Memoria, comunidad y territorio 10.00%; Cambio de perspectiva 71.48%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-field_origin\n\n",
+  "tokens": 90,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-205:dg-field_origin",
+      "to": "D-205",
+      "title": "Nueva Perspectiva no nació en una sala de juntas",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 367,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-205.json"
+    },
+    {
+      "id": "apoyo:D-254:dg-field_origin",
+      "to": "D-254",
+      "title": "El método nace de una paradoja: la perspectiva que decide también tiene puntos ciegos",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 34,
+      "fichaTokens": 437,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-254.json"
+    },
+    {
+      "id": "apoyo:D-276:dg-field_origin",
+      "to": "D-276",
+      "title": "Entender una nueva perspectiva también puede exigir transformarse",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 402,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-276.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-123",
+      "to": "dg-perspective",
+      "title": "Nueva Perspectiva",
+      "direction": "saliente",
+      "kind": "arraiga en experiencia previa a",
+      "reading": "Los grupos de sierra y la experiencia vital precedieron a la formulación corporativa.",
+      "relationTokens": 39,
+      "fichaTokens": 190,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-perspective.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-124",
+      "to": "dg-community",
+      "title": "Comunidades y territorio",
+      "direction": "saliente",
+      "kind": "exige una narración cuidadosa de",
+      "reading": "No estigmatizar comunidades al recuperar experiencias traumáticas.",
+      "relationTokens": 34,
+      "fichaTokens": 187,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-community.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-125",
+      "to": "dg-transform",
+      "title": "Transformación organizativa",
+      "direction": "saliente",
+      "kind": "reencuentra después escala organizativa",
+      "reading": "La genealogía no se inicia en Nestlé o AICM.",
+      "relationTokens": 37,
+      "fichaTokens": 213,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-transform.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-270",
+      "to": "dg-transformation_speech",
+      "title": "Transmitir una idea que cambia al interlocutor",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.11",
+      "reading": "Aprendizaje de talleres de cambio.",
+      "relationTokens": 36,
+      "fichaTokens": 73,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-transformation_speech.json"
+    }
+  ]
+}

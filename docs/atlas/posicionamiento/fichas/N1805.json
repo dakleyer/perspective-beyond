@@ -1,0 +1,86 @@
+{
+  "id": "N1805",
+  "type": "ficha",
+  "title": "xSeil orchestration",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/xseil-orchestration-n1805/",
+  "documentId": "doc-7623f7089eace86ac4",
+  "sourceIds": [],
+  "tagWeights": {
+    "agentes": 0.5,
+    "movilidad": 0.5
+  },
+  "clusters": [
+    "net"
+  ],
+  "context": "## xSeil orchestration\n\nEtiquetas: Agentes y coordinación distribuida 50.00%; Movilidad e infraestructura 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/xseil-orchestration-n1805/\nDocumento de origen: https://jubap.net/xseil-orchestration/\n\n",
+  "tokens": 72,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:N1805:C06",
+      "to": "C06",
+      "title": "Compatibilidad global",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 16,
+      "fichaTokens": 234,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C06.json"
+    },
+    {
+      "id": "apoyo:N1805:C44",
+      "to": "C44",
+      "title": "Arbitraje de recursos",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 250,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C44.json"
+    },
+    {
+      "id": "apoyo:N1805:C45",
+      "to": "C45",
+      "title": "Fallo de composición",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 240,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C45.json"
+    },
+    {
+      "id": "documento:G023",
+      "to": "GH023",
+      "title": "MSCA Ecosystem Composition & Control — Ecosystem Cartography of Objective-Bound Architectures",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "The later cartography distinguishes semantic compatibility from shared-resource dependence, a useful retrospective lens on xSeil’s state-dependent allocation.",
+      "relationTokens": 53,
+      "fichaTokens": 199,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH023.json"
+    },
+    {
+      "id": "documento:G071",
+      "to": "GH023",
+      "title": "MSCA Ecosystem Composition & Control — Ecosystem Cartography of Objective-Bound Architectures",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "The historical allocation mechanism can inspire a later cartographic treatment of shared dependencies without being relabeled as an MSCA deployment.",
+      "relationTokens": 52,
+      "fichaTokens": 199,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH023.json"
+    },
+    {
+      "id": "documento:R096",
+      "to": "N1822",
+      "title": "xSeil agentic features",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Pre-Agentic Orchestration: the canonical paper](https://jubap.net/xseil-agentic-features/).",
+      "relationTokens": 48,
+      "fichaTokens": 75,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1822.json"
+    }
+  ]
+}

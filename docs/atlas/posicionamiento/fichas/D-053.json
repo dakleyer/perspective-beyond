@@ -1,0 +1,98 @@
+{
+  "id": "D-053",
+  "type": "ficha",
+  "title": "La responsabilidad humana en la optimización",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-053",
+  "documentId": "doc-41f3a410d217128630",
+  "sourceIds": [],
+  "tagWeights": {
+    "casos": 0.125,
+    "decision": 0.625,
+    "matematicas": 0.25
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## La responsabilidad humana en la optimización\nINTERLOCUTOR (pregunta editorial nueva) — ¿Dónde termina aquí la optimización matemática y empieza la responsabilidad humana?\n\nLECTURA EDITORIAL — El sistema podía ayudar a explorar muchas configuraciones, pero no decidir por sí mismo qué sacrificios operativos resultaban aceptables. Una persona debía interpretar el contexto, elegir prioridades y responder de sus consecuencias. Después, la ejecución devolvía información nueva: reservas corregidas, vehículos disponibles, hojas de ruta, incidencias y otros datos de campo. Había que volver a planificar sin fingir que el mundo seguía en el estado de la primera simulación.\n\nEl trabajo está bien descrito como planificación multiobjetivo basada en escenarios con asignación heurística y compromisos orientados a Pareto. La documentación técnica permite rastrear los mecanismos de comparación y puntuación; no autoriza afirmar que en cada ejecución se calculó exhaustivamente una frontera matemática de Pareto ni atribuir una ventaja cuántica demostrada.\n\nINTERLOCUTOR (pregunta editorial nueva) — ¿Qué conecta esta forma de construir con las preguntas que hoy formulas sobre sistemas y agentes autónomos?\n\nLECTURA EDITORIAL — En GEPLAN la transformación requería unir procesos antes fragmentados. En xSeil, la decisión requería conservar alternativas y conocer las condiciones de ejecución. En las investigaciones posteriores aparece otra pregunta: cuándo una solución razonable deja de serlo porque ha cambiado el contexto que le daba validez. Son trabajos distintos, con evidencia y tecnologías propias; el hilo no es que uno contuviera ya al siguiente, sino la atención cada vez mayor a los límites de una decisión automatizada y a las capacidades humanas que la gobiernan.\nEtiquetas: Casos de uso y aplicaciones 12.50%; Decisiones y responsabilidad 62.50%; Matemáticas 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-053\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20(pregunta%20editorial%20nueva)%20%E2%80%94%20%C2%BFD%C3%B3nde%20termina%20aqu%C3%AD%20la%20optimizaci%C3%B3n%20matem%C3%A1tica\n\n",
+  "tokens": 492,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-053:dg-decision",
+      "to": "dg-decision",
+      "title": "Decisiones entre escenarios",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 169,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-decision.json"
+    },
+    {
+      "id": "apoyo:D-053:dg-care",
+      "to": "dg-care",
+      "title": "Responsabilidad humana",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 208,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-care.json"
+    },
+    {
+      "id": "documento:dg-006",
+      "to": "D-052",
+      "title": "xSeil: mostrar alternativas, no una orden",
+      "direction": "entrante",
+      "kind": "lectura comparada",
+      "reading": "Mostrar escenarios hace visible dónde permanece la responsabilidad por la decisión.",
+      "relationTokens": 35,
+      "fichaTokens": 546,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-052.json"
+    },
+    {
+      "id": "documento:dg-068",
+      "to": "D-064",
+      "title": "Liquidez para cuidar responsabilidades",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Decisiones entre escenarios».",
+      "relationTokens": 28,
+      "fichaTokens": 447,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-064.json"
+    },
+    {
+      "id": "documento:dg-125",
+      "to": "D-045",
+      "title": "Comunidades y consecuencias de la industria",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Responsabilidad humana».",
+      "relationTokens": 29,
+      "fichaTokens": 586,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-045.json"
+    },
+    {
+      "id": "documento:dg-126",
+      "to": "D-057",
+      "title": "Xanath: participar sin atribuirse lo ajeno",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Responsabilidad humana».",
+      "relationTokens": 33,
+      "fichaTokens": 473,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-057.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-110-D-053",
+      "to": "D-110",
+      "title": "El valor de elegir entre escenarios casi eficientes",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «El valor de elegir entre escenarios casi eficientes» con «La responsabilidad humana en la optimización». Permite contrastar Decisiones entre escenarios, Responsabilidad humana.",
+      "relationTokens": 59,
+      "fichaTokens": 350,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-110.json"
+    }
+  ]
+}

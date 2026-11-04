@@ -1,0 +1,144 @@
+{
+  "id": "E1729",
+  "type": "ficha",
+  "title": "HR & Processess Rationalization",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/hr-processess-rationalization-e1729/",
+  "documentId": "doc-8bf685a1cf3c02348e",
+  "sourceIds": [],
+  "tagWeights": {
+    "control-minimo": 0.125,
+    "decision": 0.125,
+    "economia": 0.125,
+    "empresa": 0.3125,
+    "transformacion": 0.3125
+  },
+  "clusters": [
+    "eu"
+  ],
+  "context": "## HR & Processess Rationalization\n\nEtiquetas: Control mínimo y suficiencia 12.50%; Decisiones y responsabilidad 12.50%; Economía, costes y liquidez 12.50%; Empresa y gestión 31.25%; Transformación y continuidad operativa 31.25%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/hr-processess-rationalization-e1729/\nDocumento de origen: https://jubap.eu/hr-processess-rationalization/\n\n",
+  "tokens": 102,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:E1729:C25",
+      "to": "C25",
+      "title": "Suficiencia para una decisión",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 293,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C25.json"
+    },
+    {
+      "id": "apoyo:E1729:C32",
+      "to": "C32",
+      "title": "Coste de claridad",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 257,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C32.json"
+    },
+    {
+      "id": "apoyo:E1729:C34",
+      "to": "C34",
+      "title": "Contrafactual de carga humana",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 203,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C34.json"
+    },
+    {
+      "id": "apoyo:E1729:C54",
+      "to": "C54",
+      "title": "Valor descubierto",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 16,
+      "fichaTokens": 259,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C54.json"
+    },
+    {
+      "id": "documento:D028",
+      "to": "T1400",
+      "title": "Measuring Human Intelligence Debt",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "Capacity estimates can be strengthened by grading the evidence behind each automation counterfactual.",
+      "relationTokens": 32,
+      "fichaTokens": 145,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1400.json"
+    },
+    {
+      "id": "documento:D044",
+      "to": "T2795",
+      "title": "Annex 4 — Canonical Requirements and Test Contract",
+      "direction": "entrante",
+      "kind": "hypothesis",
+      "reading": "A bounded diagnostic could test when additional determination still has material decision value before the intervention window closes.",
+      "relationTokens": 40,
+      "fichaTokens": 162,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2795.json"
+    },
+    {
+      "id": "documento:R018",
+      "to": "E1654",
+      "title": "Case Study: Rationalization in Luxury",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The luxury-group rationalization case](https://jubap.eu/1654-2/).",
+      "relationTokens": 44,
+      "fichaTokens": 119,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1654.json"
+    },
+    {
+      "id": "documento:R019",
+      "to": "T1400",
+      "title": "Measuring Human Intelligence Debt",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [A research protocol for measuring Human Intelligence Debt](https://tegrity.ai/meassuring-human-intelligence-debt/).",
+      "relationTokens": 46,
+      "fichaTokens": 145,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1400.json"
+    },
+    {
+      "id": "documento:R020",
+      "to": "U1312",
+      "title": "Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Americas workforce and scheduling architecture](https://jubap.us/luxury-group-hr-information-system-rationalization-smart-scheduling-capabilities-deployment/).",
+      "relationTokens": 65,
+      "fichaTokens": 150,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1312.json"
+    },
+    {
+      "id": "documento:R053",
+      "to": "U1312",
+      "title": "Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Capacity, value and rationalization mandates](https://jubap.eu/hr-processess-rationalization/).",
+      "relationTokens": 54,
+      "fichaTokens": 150,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1312.json"
+    },
+    {
+      "id": "documento:R134",
+      "to": "N1285",
+      "title": "The Coordination Entropy Trap in Large Scale Programs",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Capacity and operating-model rationalization](https://jubap.eu/hr-processess-rationalization/).",
+      "relationTokens": 47,
+      "fichaTokens": 99,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1285.json"
+    }
+  ]
+}

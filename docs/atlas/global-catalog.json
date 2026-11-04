@@ -25392,6 +25392,36 @@
           "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-298.html"
         }
       ]
+    },
+    "E2": {
+      "url": "../sources/jubap-eu-e2/",
+      "summary": "JubAp.eu supports high-stakes socio-technical transformations where technology, operating model or organizational decisions define long-term viability.",
+      "question": ""
+    },
+    "N2": {
+      "url": "../sources/jubap-net-n2/",
+      "summary": "JubAp.Net is an engineering and operations unit with roots in the Barcelona Nokia R&D environment, built around critical systems and applied across different technology waves and industrial contexts.",
+      "question": ""
+    },
+    "U2": {
+      "url": "../sources/jubap-us-u2/",
+      "summary": "Carve-outs, post-merger integration, joint ventures and SPVs. Operating models that connect people, information and execution.",
+      "question": ""
+    },
+    "T1573": {
+      "url": "../sources/tegrity-ai-t1573/",
+      "summary": "Tegrity.AI is an applied research, engineering and pre-standardization group of The Integral Management Society , a Swiss non-profit association based in Geneva. It advances AI Integrity Management through research, architecture, the review and development of standards, and technology for the common good.",
+      "question": ""
+    },
+    "S14": {
+      "url": "../sources/the-integral-management-society-s14/",
+      "summary": "Una sociedad científica dedicada a comprender la complejidad, preservar las capacidades esenciales y abrir nuevas posibilidades de adaptación.",
+      "question": ""
+    },
+    "E1953": {
+      "url": "../sources/car-evolution-mobility-os-e1953/",
+      "summary": "Cities, authorities and operators already hold the data, the fleets, the routes and the channels. What is added is the layer that turns them into coordinated decisions, in real time.",
+      "question": ""
     }
   },
   "relations": [
@@ -95637,6 +95667,7 @@
         "D-279",
         "D-280",
         "D-282",
+        "D-285",
         "D-293"
       ],
       "clusters": [
@@ -95649,6 +95680,7 @@
     "empresa": {
       "label": "Empresa y gestión",
       "sources": [
+        "E2",
         "E1524",
         "E1535",
         "E1538",
@@ -95663,6 +95695,7 @@
         "E1706",
         "E1729",
         "E1731",
+        "N2",
         "N1246",
         "N1265",
         "N1283",
@@ -95670,6 +95703,7 @@
         "N1289",
         "N1292",
         "N1441",
+        "U2",
         "U1312",
         "U1317",
         "U1322",
@@ -95833,6 +95867,7 @@
     "perspectiva": {
       "label": "Cambio de perspectiva",
       "sources": [
+        "E2",
         "E1628",
         "E1630",
         "E1633",
@@ -96023,6 +96058,7 @@
         "sac-aa29b1c74f3e1a",
         "D-120",
         "D-197",
+        "D-285",
         "D-293"
       ],
       "clusters": [
@@ -97001,6 +97037,7 @@
       "label": "Capacidad humana y deuda de inteligencia",
       "sources": [
         "E1630",
+        "N2",
         "N1246",
         "N1281",
         "N1287",
@@ -97909,6 +97946,7 @@
     "transformacion": {
       "label": "Transformación y continuidad operativa",
       "sources": [
+        "E2",
         "E1874",
         "E1526",
         "E1535",
@@ -97921,6 +97959,7 @@
         "E1704",
         "E1706",
         "E1729",
+        "N2",
         "N1261",
         "N1265",
         "N1267",
@@ -97937,6 +97976,7 @@
         "N1296",
         "N1468",
         "N2086",
+        "U2",
         "U1312",
         "U1317",
         "U1325",
@@ -98254,6 +98294,7 @@
         "N1246",
         "N1272",
         "N1276",
+        "U2",
         "U1312",
         "U1317",
         "U1494",
@@ -98408,6 +98449,7 @@
     "decision": {
       "label": "Decisiones y responsabilidad",
       "sources": [
+        "E2",
         "E1954",
         "E1959",
         "E1535",
@@ -98436,6 +98478,7 @@
         "N1826",
         "N1833",
         "N1843",
+        "U2",
         "U1317",
         "U1492",
         "U1494",
@@ -98917,6 +98960,7 @@
         "E1628",
         "E1731",
         "E1777",
+        "N2",
         "N1826",
         "N1833",
         "N2082",
@@ -99450,7 +99494,11 @@
   },
   "source_tags": {
     "E2": [
-      "navegacion"
+      "decision",
+      "empresa",
+      "navegacion",
+      "perspectiva",
+      "transformacion"
     ],
     "E3": [
       "navegacion"
@@ -99664,7 +99712,11 @@
       "movilidad"
     ],
     "N2": [
-      "navegacion"
+      "capacidad-humana",
+      "documentacion",
+      "empresa",
+      "navegacion",
+      "transformacion"
     ],
     "N3": [
       "navegacion"
@@ -99892,7 +99944,11 @@
       "transformacion"
     ],
     "U2": [
-      "navegacion"
+      "aprendizaje",
+      "decision",
+      "empresa",
+      "navegacion",
+      "transformacion"
     ],
     "U3": [
       "navegacion"
@@ -105542,6 +105598,8 @@
       "aprendizaje",
       "empresa",
       "evidencia",
+      "matematicas",
+      "representacion",
       "transformacion"
     ],
     "D-286": [
@@ -105834,5 +105892,6710 @@
     "public_data": "dialogos/publico.json",
     "texts": "dialogos/textos/",
     "institutional_entry": "https://integralmanagement.ch/nueva-perspectiva/dialogos/"
+  },
+  "source_tag_weights": {
+    "E2": {
+      "decision": 0.1,
+      "empresa": 0.45,
+      "navegacion": 0.05,
+      "perspectiva": 0.15,
+      "transformacion": 0.25
+    },
+    "E3": {
+      "navegacion": 1.0
+    },
+    "E208": {
+      "navegacion": 1.0
+    },
+    "E250": {
+      "casos": 0.5,
+      "navegacion": 0.5
+    },
+    "E977": {
+      "navegacion": 1.0
+    },
+    "E1221": {
+      "navegacion": 1.0
+    },
+    "E1478": {
+      "navegacion": 1.0
+    },
+    "E1874": {
+      "transformacion": 1.0
+    },
+    "E1923": {
+      "movilidad": 1.0
+    },
+    "E1940": {
+      "documentacion": 0.3571,
+      "movilidad": 0.6429
+    },
+    "E1941": {
+      "movilidad": 1.0
+    },
+    "E1942": {
+      "movilidad": 1.0
+    },
+    "E1953": {
+      "agentes": 0.1667,
+      "movilidad": 0.8333
+    },
+    "E1954": {
+      "agentes": 0.0833,
+      "autoridad": 0.0833,
+      "decision": 0.125,
+      "documentacion": 0.2084,
+      "memoria-territorio": 0.0833,
+      "movilidad": 0.4167
+    },
+    "E1955": {
+      "evidencia": 0.3571,
+      "movilidad": 0.6429
+    },
+    "E1956": {
+      "movilidad": 1.0
+    },
+    "E1957": {
+      "movilidad": 1.0
+    },
+    "E1958": {
+      "agentes": 0.1111,
+      "evidencia": 0.3333,
+      "movilidad": 0.5556
+    },
+    "E1959": {
+      "agentes": 0.087,
+      "casos": 0.087,
+      "decision": 0.0869,
+      "evidencia": 0.2174,
+      "memoria-territorio": 0.0869,
+      "movilidad": 0.4348
+    },
+    "E1524": {
+      "empresa": 1.0
+    },
+    "E1526": {
+      "estandares": 0.4,
+      "transformacion": 0.6
+    },
+    "E1535": {
+      "decision": 0.1334,
+      "empresa": 0.3333,
+      "memoria-territorio": 0.2,
+      "transformacion": 0.3333
+    },
+    "E1538": {
+      "casos": 0.1053,
+      "control-minimo": 0.1053,
+      "decision": 0.1053,
+      "economia": 0.1052,
+      "empresa": 0.2631,
+      "transformacion": 0.3158
+    },
+    "E1541": {
+      "autoridad": 0.1177,
+      "control-minimo": 0.1765,
+      "decision": 0.1176,
+      "empresa": 0.2941,
+      "transformacion": 0.2941
+    },
+    "E1554": {
+      "aprendizaje": 0.1539,
+      "autoridad": 0.1539,
+      "decision": 0.1538,
+      "empresa": 0.3846,
+      "evidencia": 0.1538
+    },
+    "E1557": {
+      "casos": 0.0909,
+      "decision": 0.0909,
+      "economia": 0.0909,
+      "empresa": 0.4091,
+      "memoria-territorio": 0.0909,
+      "transformacion": 0.2273
+    },
+    "E1560": {
+      "decision": 0.1429,
+      "empresa": 0.3571,
+      "evidencia": 0.1429,
+      "transformacion": 0.3571
+    },
+    "E1563": {
+      "autoridad": 0.25,
+      "decision": 0.25,
+      "memoria-territorio": 0.25,
+      "representacion": 0.25
+    },
+    "E1567": {
+      "agentes": 0.3125,
+      "autoridad": 0.125,
+      "control-minimo": 0.125,
+      "decision": 0.1875,
+      "evidencia": 0.125,
+      "transformacion": 0.125
+    },
+    "E1570": {
+      "autoridad": 0.2222,
+      "decision": 0.2222,
+      "empresa": 0.5556
+    },
+    "E1628": {
+      "autoridad": 0.1539,
+      "control-minimo": 0.1539,
+      "decision": 0.2308,
+      "documentacion": 0.1538,
+      "economia": 0.1538,
+      "perspectiva": 0.1538
+    },
+    "E1630": {
+      "capacidad-humana": 0.2222,
+      "casos": 0.5556,
+      "perspectiva": 0.2222
+    },
+    "E1633": {
+      "casos": 0.2941,
+      "control-minimo": 0.1765,
+      "integridad-ia": 0.1177,
+      "movilidad": 0.2941,
+      "perspectiva": 0.1176
+    },
+    "E1636": {
+      "aprendizaje": 0.2222,
+      "empresa": 0.5556,
+      "evidencia": 0.2222
+    },
+    "E1654": {
+      "casos": 0.1936,
+      "control-minimo": 0.0645,
+      "decision": 0.0968,
+      "empresa": 0.3548,
+      "evidencia": 0.0968,
+      "transformacion": 0.1935
+    },
+    "E1662": {
+      "control-minimo": 0.25,
+      "economia": 0.25,
+      "evidencia": 0.25,
+      "memoria-territorio": 0.25
+    },
+    "E1704": {
+      "casos": 0.1666,
+      "empresa": 0.4167,
+      "transformacion": 0.4167
+    },
+    "E1706": {
+      "empresa": 0.5,
+      "transformacion": 0.5
+    },
+    "E1729": {
+      "control-minimo": 0.125,
+      "decision": 0.125,
+      "economia": 0.125,
+      "empresa": 0.3125,
+      "transformacion": 0.3125
+    },
+    "E1731": {
+      "casos": 0.1053,
+      "control-minimo": 0.1053,
+      "decision": 0.1053,
+      "documentacion": 0.1053,
+      "economia": 0.1052,
+      "empresa": 0.2105,
+      "perspectiva": 0.2631
+    },
+    "E1777": {
+      "documentacion": 1.0
+    },
+    "E1781": {
+      "agentes": 1.0
+    },
+    "E1886": {
+      "movilidad": 1.0
+    },
+    "N2": {
+      "capacidad-humana": 0.35,
+      "documentacion": 0.1,
+      "empresa": 0.25,
+      "navegacion": 0.05,
+      "transformacion": 0.25
+    },
+    "N3": {
+      "navegacion": 1.0
+    },
+    "N208": {
+      "navegacion": 1.0
+    },
+    "N250": {
+      "casos": 0.5,
+      "navegacion": 0.5
+    },
+    "N977": {
+      "navegacion": 1.0
+    },
+    "N1221": {
+      "navegacion": 1.0
+    },
+    "N1478": {
+      "navegacion": 1.0
+    },
+    "N864": {
+      "autoridad": 0.1818,
+      "decision": 0.1818,
+      "evidencia": 0.1818,
+      "movilidad": 0.4546
+    },
+    "N1246": {
+      "aprendizaje": 0.3571,
+      "capacidad-humana": 0.1429,
+      "empresa": 0.1429,
+      "evidencia": 0.2143,
+      "memoria-territorio": 0.1428
+    },
+    "N1247": {
+      "economia": 0.25,
+      "movilidad": 0.75
+    },
+    "N1258": {
+      "economia": 0.2222,
+      "memoria-territorio": 0.2222,
+      "movilidad": 0.5556
+    },
+    "N1261": {
+      "transformacion": 1.0
+    },
+    "N1263": {
+      "integridad-ia": 1.0
+    },
+    "N1265": {
+      "empresa": 0.5,
+      "transformacion": 0.5
+    },
+    "N1267": {
+      "memoria-territorio": 0.25,
+      "transformacion": 0.75
+    },
+    "N1270": {
+      "memoria-territorio": 0.2857,
+      "transformacion": 0.7143
+    },
+    "N1272": {
+      "aprendizaje": 0.1334,
+      "autoridad": 0.1334,
+      "decision": 0.1333,
+      "economia": 0.1333,
+      "perspectiva": 0.1333,
+      "transformacion": 0.3333
+    },
+    "N1274": {
+      "control-minimo": 0.375,
+      "transformacion": 0.625
+    },
+    "N1276": {
+      "aprendizaje": 0.1818,
+      "autoridad": 0.1818,
+      "evidencia": 0.1818,
+      "transformacion": 0.4546
+    },
+    "N1279": {
+      "autoridad": 0.25,
+      "decision": 0.1667,
+      "integridad-ia": 0.1666,
+      "transformacion": 0.4167
+    },
+    "N1281": {
+      "autoridad": 0.1818,
+      "capacidad-humana": 0.1818,
+      "decision": 0.1818,
+      "transformacion": 0.4546
+    },
+    "N1283": {
+      "empresa": 0.3125,
+      "integridad-ia": 0.375,
+      "transformacion": 0.3125
+    },
+    "N1285": {
+      "casos": 0.2857,
+      "decision": 0.4286,
+      "economia": 0.2857
+    },
+    "N1287": {
+      "capacidad-humana": 0.2069,
+      "casos": 0.069,
+      "decision": 0.069,
+      "economia": 0.069,
+      "empresa": 0.1724,
+      "evidencia": 0.0689,
+      "memoria-territorio": 0.1379,
+      "transformacion": 0.2069
+    },
+    "N1289": {
+      "economia": 0.1818,
+      "empresa": 0.4546,
+      "evidencia": 0.3636
+    },
+    "N1292": {
+      "autoridad": 0.1334,
+      "decision": 0.1334,
+      "economia": 0.1333,
+      "empresa": 0.1333,
+      "evidencia": 0.1333,
+      "transformacion": 0.3333
+    },
+    "N1295": {
+      "autoridad": 0.1334,
+      "decision": 0.2,
+      "evidencia": 0.1333,
+      "experimentacion": 0.1333,
+      "transformacion": 0.4
+    },
+    "N1296": {
+      "autoridad": 0.1334,
+      "control-minimo": 0.1333,
+      "decision": 0.2,
+      "evidencia": 0.1333,
+      "transformacion": 0.4
+    },
+    "N1328": {
+      "evidencia": 1.0
+    },
+    "N1441": {
+      "empresa": 0.3334,
+      "evidencia": 0.3333,
+      "memoria-territorio": 0.3333
+    },
+    "N1468": {
+      "transformacion": 1.0
+    },
+    "N1801": {
+      "movilidad": 0.7143,
+      "representacion": 0.2857
+    },
+    "N1803": {
+      "casos": 0.1334,
+      "control-minimo": 0.1334,
+      "decision": 0.1333,
+      "memoria-territorio": 0.1333,
+      "movilidad": 0.3333,
+      "mundo-abierto": 0.1333
+    },
+    "N1805": {
+      "agentes": 0.5,
+      "movilidad": 0.5
+    },
+    "N1815": {
+      "movilidad": 1.0
+    },
+    "N1817": {
+      "movilidad": 1.0
+    },
+    "N1819": {
+      "economia": 0.25,
+      "movilidad": 0.75
+    },
+    "N1822": {
+      "agentes": 0.5,
+      "movilidad": 0.5
+    },
+    "N1826": {
+      "autoridad": 0.1429,
+      "control-minimo": 0.1429,
+      "decision": 0.2143,
+      "documentacion": 0.1428,
+      "economia": 0.3571
+    },
+    "N1828": {
+      "matematicas": 1.0
+    },
+    "N1831": {
+      "evidencia": 0.5,
+      "memoria-territorio": 0.5
+    },
+    "N1833": {
+      "casos": 0.1539,
+      "control-minimo": 0.2308,
+      "decision": 0.1539,
+      "documentacion": 0.1538,
+      "evidencia": 0.1538,
+      "memoria-territorio": 0.1538
+    },
+    "N1835": {
+      "evidencia": 1.0
+    },
+    "N1843": {
+      "agentes": 0.1053,
+      "autoridad": 0.1053,
+      "casos": 0.2631,
+      "decision": 0.1053,
+      "memoria-territorio": 0.1052,
+      "movilidad": 0.3158
+    },
+    "N1876": {
+      "evidencia": 0.6875,
+      "movilidad": 0.3125
+    },
+    "N2082": {
+      "casos": 0.375,
+      "documentacion": 0.125,
+      "economia": 0.125,
+      "movilidad": 0.375
+    },
+    "N2086": {
+      "cartografia": 0.3846,
+      "evidencia": 0.2308,
+      "transformacion": 0.3846
+    },
+    "U2": {
+      "aprendizaje": 0.1,
+      "decision": 0.1,
+      "empresa": 0.4,
+      "navegacion": 0.05,
+      "transformacion": 0.35
+    },
+    "U3": {
+      "navegacion": 1.0
+    },
+    "U208": {
+      "navegacion": 1.0
+    },
+    "U250": {
+      "casos": 0.5,
+      "navegacion": 0.5
+    },
+    "U977": {
+      "navegacion": 1.0
+    },
+    "U1221": {
+      "navegacion": 1.0
+    },
+    "U1478": {
+      "navegacion": 1.0
+    },
+    "U1312": {
+      "aprendizaje": 0.0769,
+      "capacidad-humana": 0.0769,
+      "casos": 0.1923,
+      "empresa": 0.3462,
+      "representacion": 0.0769,
+      "transformacion": 0.2308
+    },
+    "U1317": {
+      "aprendizaje": 0.0667,
+      "autoridad": 0.0667,
+      "casos": 0.1667,
+      "decision": 0.1,
+      "empresa": 0.1666,
+      "experimentacion": 0.1666,
+      "memoria-territorio": 0.0667,
+      "transformacion": 0.2
+    },
+    "U1322": {
+      "casos": 0.2381,
+      "empresa": 0.619,
+      "evidencia": 0.1429
+    },
+    "U1325": {
+      "casos": 0.25,
+      "empresa": 0.25,
+      "experimentacion": 0.25,
+      "transformacion": 0.25
+    },
+    "U1492": {
+      "decision": 0.3334,
+      "memoria-territorio": 0.3333,
+      "transformacion": 0.3333
+    },
+    "U1494": {
+      "aprendizaje": 0.15,
+      "control-minimo": 0.2,
+      "decision": 0.1,
+      "evidencia": 0.1,
+      "experimentacion": 0.1,
+      "memoria-territorio": 0.1,
+      "movilidad": 0.25
+    },
+    "U1496": {
+      "decision": 0.1334,
+      "economia": 0.1333,
+      "empresa": 0.1333,
+      "evidencia": 0.2667,
+      "memoria-territorio": 0.2,
+      "transformacion": 0.1333
+    },
+    "U1498": {
+      "autoridad": 0.1667,
+      "capacidad-humana": 0.1667,
+      "decision": 0.3333,
+      "economia": 0.1667,
+      "memoria-territorio": 0.1666
+    },
+    "U1681": {
+      "autoridad": 0.1818,
+      "casos": 0.4546,
+      "decision": 0.1818,
+      "transformacion": 0.1818
+    },
+    "U1792": {
+      "casos": 0.1539,
+      "economia": 0.1539,
+      "empresa": 0.1538,
+      "evidencia": 0.2308,
+      "memoria-territorio": 0.1538,
+      "transformacion": 0.1538
+    },
+    "T2": {
+      "navegacion": 1.0
+    },
+    "T3": {
+      "navegacion": 1.0
+    },
+    "T208": {
+      "navegacion": 1.0
+    },
+    "T250": {
+      "cambio-regimen": 1.0
+    },
+    "T977": {
+      "navegacion": 1.0
+    },
+    "T1230": {
+      "documentacion": 0.2222,
+      "evidencia": 0.2222,
+      "navegacion": 0.5556
+    },
+    "T1513": {
+      "cambio-regimen": 0.2941,
+      "evidencia": 0.1177,
+      "matematicas": 0.2941,
+      "perspectiva": 0.2941
+    },
+    "T1518": {
+      "evidencia": 1.0
+    },
+    "T1562": {
+      "cambio-regimen": 1.0
+    },
+    "T1573": {
+      "control-minimo": 0.2222,
+      "decision": 0.2222,
+      "navegacion": 0.5556
+    },
+    "T1687": {
+      "estandares": 1.0
+    },
+    "T1709": {
+      "documentacion": 1.0
+    },
+    "T1726": {
+      "estandares": 0.5,
+      "integridad-ia": 0.5
+    },
+    "T2694": {
+      "evidencia": 0.5,
+      "memoria-territorio": 0.5
+    },
+    "T373": {
+      "integridad-ia": 1.0
+    },
+    "T385": {
+      "evidencia": 0.2857,
+      "integridad-ia": 0.7143
+    },
+    "T387": {
+      "cambio-regimen": 0.4545,
+      "integridad-ia": 0.5455
+    },
+    "T389": {
+      "integridad-ia": 1.0
+    },
+    "T874": {
+      "capacidad-humana": 0.6,
+      "empresa": 0.2,
+      "evidencia": 0.2
+    },
+    "T878": {
+      "autoridad": 0.1053,
+      "decision": 0.1052,
+      "empresa": 0.4737,
+      "integridad-ia": 0.3158
+    },
+    "T886": {
+      "autoridad": 0.1429,
+      "decision": 0.1429,
+      "empresa": 0.3571,
+      "integridad-ia": 0.3571
+    },
+    "T888": {
+      "empresa": 0.4545,
+      "integridad-ia": 0.5455
+    },
+    "T897": {
+      "capacidad-humana": 1.0
+    },
+    "T902": {
+      "capacidad-humana": 0.5556,
+      "casos": 0.2222,
+      "evidencia": 0.2222
+    },
+    "T1221": {
+      "cambio-regimen": 1.0
+    },
+    "T1378": {
+      "capacidad-humana": 0.5455,
+      "economia": 0.4545
+    },
+    "T1379": {
+      "control-minimo": 0.5,
+      "integridad-ia": 0.5
+    },
+    "T1387": {
+      "cambio-regimen": 1.0
+    },
+    "T1391": {
+      "autoridad": 0.2222,
+      "control-minimo": 0.3334,
+      "decision": 0.2222,
+      "evidencia": 0.2222
+    },
+    "T1396": {
+      "aprendizaje": 0.0953,
+      "capacidad-humana": 0.2381,
+      "decision": 0.0952,
+      "empresa": 0.2381,
+      "integridad-ia": 0.2381,
+      "memoria-territorio": 0.0952
+    },
+    "T1399": {
+      "capacidad-humana": 0.4615,
+      "evidencia": 0.3846,
+      "transformacion": 0.1539
+    },
+    "T1400": {
+      "aprendizaje": 0.08,
+      "capacidad-humana": 0.28,
+      "decision": 0.08,
+      "economia": 0.12,
+      "empresa": 0.08,
+      "evidencia": 0.16,
+      "experimentacion": 0.08,
+      "memoria-territorio": 0.12
+    },
+    "T1411": {
+      "transformacion": 1.0
+    },
+    "T1415": {
+      "aprendizaje": 0.25,
+      "control-minimo": 0.25,
+      "decision": 0.25,
+      "representacion": 0.25
+    },
+    "T1417": {
+      "aprendizaje": 0.4,
+      "economia": 0.6
+    },
+    "T1419": {
+      "casos": 0.5,
+      "decision": 0.5
+    },
+    "T1421": {
+      "documentacion": 0.1818,
+      "economia": 0.5455,
+      "evidencia": 0.2727
+    },
+    "T1423": {
+      "economia": 0.5,
+      "evidencia": 0.5
+    },
+    "T1425": {
+      "capacidad-humana": 0.75,
+      "economia": 0.25
+    },
+    "T1427": {
+      "control-minimo": 0.1765,
+      "decision": 0.1765,
+      "economia": 0.2353,
+      "memoria-territorio": 0.1176,
+      "transformacion": 0.2941
+    },
+    "T1472": {
+      "aprendizaje": 0.0667,
+      "autoridad": 0.0667,
+      "capacidad-humana": 0.2,
+      "casos": 0.0667,
+      "decision": 0.1,
+      "economia": 0.1,
+      "empresa": 0.0667,
+      "evidencia": 0.2666,
+      "memoria-territorio": 0.0666
+    },
+    "T1474": {
+      "capacidad-humana": 0.5,
+      "evidencia": 0.5
+    },
+    "T1475": {
+      "capacidad-humana": 0.24,
+      "casos": 0.08,
+      "decision": 0.08,
+      "economia": 0.12,
+      "empresa": 0.08,
+      "evidencia": 0.32,
+      "memoria-territorio": 0.08
+    },
+    "T1484": {
+      "control-minimo": 0.1429,
+      "decision": 0.2143,
+      "documentacion": 0.1429,
+      "economia": 0.1428,
+      "empresa": 0.1428,
+      "evidencia": 0.2143
+    },
+    "T1487": {
+      "casos": 0.3334,
+      "documentacion": 0.3333,
+      "perspectiva": 0.3333
+    },
+    "T1491": {
+      "perspectiva": 1.0
+    },
+    "T1494": {
+      "cartografia": 1.0
+    },
+    "T1499": {
+      "documentacion": 0.5,
+      "evidencia": 0.5
+    },
+    "T1522": {
+      "aprendizaje": 0.1,
+      "control-minimo": 0.15,
+      "decision": 0.3,
+      "empresa": 0.45
+    },
+    "T2729": {
+      "control-minimo": 1.0
+    },
+    "T2744": {
+      "estandares": 0.5,
+      "experimentacion": 0.5
+    },
+    "T2776": {
+      "cartografia": 0.5,
+      "integridad-ia": 0.5
+    },
+    "T2780": {
+      "documentacion": 1.0
+    },
+    "T2784": {
+      "casos": 0.5455,
+      "documentacion": 0.4545
+    },
+    "T2788": {
+      "documentacion": 0.7143,
+      "evidencia": 0.2857
+    },
+    "T2792": {
+      "autoridad": 0.2222,
+      "decision": 0.2222,
+      "documentacion": 0.5556
+    },
+    "T2795": {
+      "aprendizaje": 0.0953,
+      "autoridad": 0.0953,
+      "control-minimo": 0.0952,
+      "decision": 0.1429,
+      "documentacion": 0.2857,
+      "economia": 0.0952,
+      "evidencia": 0.0952,
+      "integridad-ia": 0.0952
+    },
+    "T2799": {
+      "casos": 0.2857,
+      "documentacion": 0.7143
+    },
+    "T2803": {
+      "control-minimo": 0.2941,
+      "documentacion": 0.2941,
+      "experimentacion": 0.4118
+    },
+    "T2807": {
+      "autoridad": 0.1111,
+      "decision": 0.1111,
+      "documentacion": 0.2778,
+      "evidencia": 0.1111,
+      "transformacion": 0.3889
+    },
+    "T2811": {
+      "documentacion": 1.0
+    },
+    "T2814": {
+      "documentacion": 0.3846,
+      "evidencia": 0.6154
+    },
+    "T2818": {
+      "documentacion": 0.4546,
+      "estandares": 0.1818,
+      "evidencia": 0.1818,
+      "memoria-territorio": 0.1818
+    },
+    "T2822": {
+      "documentacion": 1.0
+    },
+    "T2931": {
+      "control-minimo": 1.0
+    },
+    "T3068": {
+      "decision": 1.0
+    },
+    "T3083": {
+      "autoridad": 0.5,
+      "decision": 0.5
+    },
+    "L001": {
+      "decision": 0.2,
+      "empresa": 0.5,
+      "memoria-territorio": 0.3
+    },
+    "L002": {
+      "evidencia": 0.2857,
+      "transformacion": 0.7143
+    },
+    "L003": {
+      "decision": 0.5,
+      "memoria-territorio": 0.5
+    },
+    "L004": {
+      "estandares": 0.1539,
+      "evidencia": 0.1539,
+      "geopolitica": 0.3846,
+      "memoria-territorio": 0.1538,
+      "transformacion": 0.1538
+    },
+    "L005": {
+      "control-minimo": 0.2222,
+      "decision": 0.2222,
+      "evidencia": 0.2222,
+      "transformacion": 0.3334
+    },
+    "L006": {
+      "autoridad": 0.2728,
+      "decision": 0.2727,
+      "memoria-territorio": 0.2727,
+      "transformacion": 0.1818
+    },
+    "L007": {
+      "aprendizaje": 0.3334,
+      "empresa": 0.3333,
+      "transformacion": 0.3333
+    },
+    "L008": {
+      "evidencia": 0.2857,
+      "movilidad": 0.7143
+    },
+    "L009": {
+      "agentes": 0.3846,
+      "autoridad": 0.1539,
+      "decision": 0.1539,
+      "evidencia": 0.1538,
+      "integridad-ia": 0.1538
+    },
+    "L010": {
+      "aprendizaje": 0.5,
+      "decision": 0.2,
+      "memoria-territorio": 0.3
+    },
+    "L011": {
+      "evidencia": 1.0
+    },
+    "GH001": {
+      "cambio-regimen": 0.0625,
+      "capacidad-humana": 0.0625,
+      "cartografia": 0.25,
+      "economia": 0.0625,
+      "evidencia": 0.125,
+      "matematicas": 0.4375
+    },
+    "GH002": {
+      "cambio-regimen": 0.0834,
+      "capacidad-humana": 0.0833,
+      "cartografia": 0.0833,
+      "economia": 0.5834,
+      "empresa": 0.0833,
+      "evidencia": 0.0833
+    },
+    "GH003": {
+      "evidencia": 1.0
+    },
+    "GH004": {
+      "evidencia": 0.1053,
+      "experimentacion": 0.2105,
+      "matematicas": 0.4737,
+      "representacion": 0.2105
+    },
+    "GH005": {
+      "control-minimo": 0.1875,
+      "decision": 0.125,
+      "evidencia": 0.0625,
+      "matematicas": 0.0625,
+      "mundo-abierto": 0.125,
+      "representacion": 0.3125,
+      "transformacion": 0.125
+    },
+    "GH006": {
+      "aprendizaje": 0.0769,
+      "control-minimo": 0.1154,
+      "decision": 0.0769,
+      "economia": 0.1923,
+      "matematicas": 0.3462,
+      "representacion": 0.1923
+    },
+    "GH007": {
+      "documentacion": 0.1739,
+      "economia": 0.2174,
+      "evidencia": 0.2609,
+      "matematicas": 0.3478
+    },
+    "GH008": {
+      "control-minimo": 0.2,
+      "decision": 0.36,
+      "experimentacion": 0.04,
+      "matematicas": 0.16,
+      "mundo-abierto": 0.24
+    },
+    "GH009": {
+      "control-minimo": 0.2222,
+      "economia": 0.0741,
+      "evidencia": 0.037,
+      "matematicas": 0.1482,
+      "mundo-abierto": 0.2222,
+      "perspectiva": 0.037,
+      "representacion": 0.2593
+    },
+    "GH010": {
+      "cambio-regimen": 0.2,
+      "documentacion": 0.2,
+      "evidencia": 0.2,
+      "matematicas": 0.4
+    },
+    "GH011": {
+      "cartografia": 0.3333,
+      "economia": 0.1667,
+      "experimentacion": 0.0417,
+      "mundo-abierto": 0.2083,
+      "representacion": 0.1667,
+      "transformacion": 0.0833
+    },
+    "GH012": {
+      "agentes": 0.2381,
+      "control-minimo": 0.0476,
+      "documentacion": 0.0476,
+      "experimentacion": 0.0476,
+      "matematicas": 0.1905,
+      "mundo-abierto": 0.2381,
+      "representacion": 0.1905
+    },
+    "GH013": {
+      "agentes": 0.3846,
+      "evidencia": 0.077,
+      "experimentacion": 0.0769,
+      "matematicas": 0.0769,
+      "mundo-abierto": 0.3846
+    },
+    "GH014": {
+      "agentes": 0.1852,
+      "experimentacion": 0.037,
+      "matematicas": 0.2593,
+      "mundo-abierto": 0.4074,
+      "representacion": 0.037,
+      "transformacion": 0.0741
+    },
+    "GH015": {
+      "documentacion": 0.0769,
+      "matematicas": 0.0769,
+      "mundo-abierto": 0.8462
+    },
+    "GH016": {
+      "cartografia": 0.5,
+      "perspectiva": 0.5
+    },
+    "GH017": {
+      "agentes": 0.1081,
+      "autoridad": 0.0541,
+      "cambio-regimen": 0.0541,
+      "cartografia": 0.1622,
+      "casos": 0.0541,
+      "control-minimo": 0.0811,
+      "documentacion": 0.027,
+      "empresa": 0.027,
+      "estandares": 0.1081,
+      "evidencia": 0.1081,
+      "matematicas": 0.1081,
+      "movilidad": 0.054,
+      "transformacion": 0.054
+    },
+    "GH018": {
+      "agentes": 0.4546,
+      "cambio-regimen": 0.0909,
+      "control-minimo": 0.1818,
+      "decision": 0.1818,
+      "mundo-abierto": 0.0909
+    },
+    "GH019": {
+      "cambio-regimen": 0.5,
+      "documentacion": 0.5
+    },
+    "GH020": {
+      "cambio-regimen": 0.3572,
+      "documentacion": 0.3571,
+      "economia": 0.0714,
+      "evidencia": 0.1429,
+      "integridad-ia": 0.0714
+    },
+    "GH021": {
+      "cambio-regimen": 0.04,
+      "control-minimo": 0.72,
+      "integridad-ia": 0.08,
+      "representacion": 0.16
+    },
+    "GH022": {
+      "autoridad": 0.5,
+      "control-minimo": 0.3333,
+      "decision": 0.1667
+    },
+    "GH023": {
+      "cartografia": 0.2381,
+      "control-minimo": 0.6667,
+      "mundo-abierto": 0.0476,
+      "representacion": 0.0476
+    },
+    "GH024": {
+      "autoridad": 0.1111,
+      "capacidad-humana": 0.0556,
+      "cartografia": 0.4444,
+      "control-minimo": 0.2778,
+      "decision": 0.1111
+    },
+    "GH025": {
+      "autoridad": 0.087,
+      "cartografia": 0.0869,
+      "control-minimo": 0.2609,
+      "decision": 0.1739,
+      "documentacion": 0.1739,
+      "experimentacion": 0.1739,
+      "integridad-ia": 0.0435
+    },
+    "GH026": {
+      "control-minimo": 0.2778,
+      "decision": 0.1111,
+      "matematicas": 0.2778,
+      "mundo-abierto": 0.0555,
+      "representacion": 0.2778
+    },
+    "GH027": {
+      "cartografia": 0.8333,
+      "mundo-abierto": 0.1667
+    },
+    "GH028": {
+      "cartografia": 0.24,
+      "documentacion": 0.08,
+      "economia": 0.16,
+      "experimentacion": 0.12,
+      "matematicas": 0.12,
+      "mundo-abierto": 0.28
+    },
+    "GH029": {
+      "cartografia": 0.2174,
+      "estandares": 0.0435,
+      "evidencia": 0.087,
+      "matematicas": 0.0869,
+      "mundo-abierto": 0.3043,
+      "representacion": 0.0435,
+      "transformacion": 0.2174
+    },
+    "GH030": {
+      "cambio-regimen": 0.2381,
+      "cartografia": 0.0476,
+      "control-minimo": 0.0953,
+      "documentacion": 0.1905,
+      "economia": 0.1905,
+      "evidencia": 0.0476,
+      "experimentacion": 0.0952,
+      "perspectiva": 0.0952
+    },
+    "GH031": {
+      "autoridad": 0.0526,
+      "cartografia": 0.2632,
+      "control-minimo": 0.3684,
+      "documentacion": 0.2632,
+      "evidencia": 0.0526
+    },
+    "GH032": {
+      "cambio-regimen": 0.36,
+      "cartografia": 0.2,
+      "control-minimo": 0.04,
+      "documentacion": 0.2,
+      "empresa": 0.04,
+      "representacion": 0.16
+    },
+    "GH033": {
+      "cambio-regimen": 0.25,
+      "cartografia": 0.1,
+      "control-minimo": 0.25,
+      "decision": 0.05,
+      "documentacion": 0.25,
+      "economia": 0.05,
+      "experimentacion": 0.05
+    },
+    "GH034": {
+      "agentes": 0.1667,
+      "cartografia": 0.2,
+      "control-minimo": 0.0333,
+      "decision": 0.1667,
+      "documentacion": 0.1667,
+      "perspectiva": 0.0333,
+      "representacion": 0.1666,
+      "transformacion": 0.0667
+    },
+    "GH035": {
+      "agentes": 0.2381,
+      "autoridad": 0.3333,
+      "decision": 0.0953,
+      "documentacion": 0.2381,
+      "economia": 0.0476,
+      "geopolitica": 0.0476
+    },
+    "GH036": {
+      "autoridad": 0.0526,
+      "cartografia": 0.6316,
+      "control-minimo": 0.0526,
+      "documentacion": 0.2632
+    },
+    "GH037": {
+      "aprendizaje": 0.0952,
+      "autoridad": 0.0238,
+      "capacidad-humana": 0.381,
+      "control-minimo": 0.0952,
+      "decision": 0.1905,
+      "documentacion": 0.1191,
+      "economia": 0.0238,
+      "empresa": 0.0238,
+      "memoria-territorio": 0.0476
+    },
+    "GH038": {
+      "capacidad-humana": 0.7333,
+      "economia": 0.1334,
+      "representacion": 0.1333
+    },
+    "GH039": {
+      "autoridad": 0.1379,
+      "capacidad-humana": 0.2759,
+      "decision": 0.1379,
+      "documentacion": 0.2758,
+      "empresa": 0.0345,
+      "evidencia": 0.069,
+      "experimentacion": 0.0345,
+      "matematicas": 0.0345
+    },
+    "GH040": {
+      "capacidad-humana": 0.3333,
+      "documentacion": 0.2084,
+      "economia": 0.2083,
+      "evidencia": 0.0417,
+      "experimentacion": 0.2083
+    },
+    "GH041": {
+      "agentes": 0.2941,
+      "cartografia": 0.2941,
+      "evidencia": 0.1177,
+      "integridad-ia": 0.2941
+    },
+    "GH042": {
+      "cambio-regimen": 0.3077,
+      "decision": 0.0769,
+      "evidencia": 0.0769,
+      "movilidad": 0.4616,
+      "representacion": 0.0769
+    },
+    "GH043": {
+      "cartografia": 0.1538,
+      "casos": 0.1923,
+      "control-minimo": 0.0385,
+      "documentacion": 0.0385,
+      "evidencia": 0.0769,
+      "mundo-abierto": 0.0385,
+      "representacion": 0.1538,
+      "transformacion": 0.3077
+    },
+    "GH044": {
+      "autoridad": 0.3333,
+      "casos": 0.2778,
+      "decision": 0.1111,
+      "empresa": 0.0556,
+      "integridad-ia": 0.2222
+    },
+    "GH045": {
+      "cambio-regimen": 0.3077,
+      "casos": 0.0769,
+      "decision": 0.5385,
+      "evidencia": 0.0769
+    },
+    "GH046": {
+      "casos": 0.3333,
+      "evidencia": 0.6,
+      "experimentacion": 0.0667
+    },
+    "GH047": {
+      "cambio-regimen": 0.0333,
+      "cartografia": 0.1667,
+      "casos": 0.1667,
+      "documentacion": 0.2667,
+      "estandares": 0.0333,
+      "evidencia": 0.0333,
+      "experimentacion": 0.2667,
+      "mundo-abierto": 0.0333
+    },
+    "GH048": {
+      "autoridad": 0.0357,
+      "control-minimo": 0.1429,
+      "decision": 0.1429,
+      "evidencia": 0.1428,
+      "experimentacion": 0.0714,
+      "integridad-ia": 0.1786,
+      "matematicas": 0.2857
+    },
+    "GH049": {
+      "autoridad": 0.1333,
+      "control-minimo": 0.2,
+      "decision": 0.0667,
+      "evidencia": 0.1333,
+      "experimentacion": 0.2667,
+      "integridad-ia": 0.1667,
+      "matematicas": 0.0333
+    },
+    "GH050": {
+      "casos": 0.4,
+      "decision": 0.1,
+      "integridad-ia": 0.5
+    },
+    "GH051": {
+      "cambio-regimen": 0.0625,
+      "cartografia": 0.25,
+      "documentacion": 0.25,
+      "memoria-territorio": 0.125,
+      "perspectiva": 0.3125
+    },
+    "GH052": {
+      "autoridad": 0.04,
+      "cambio-regimen": 0.2,
+      "casos": 0.16,
+      "control-minimo": 0.2,
+      "evidencia": 0.2,
+      "experimentacion": 0.2
+    },
+    "GH053": {
+      "casos": 0.129,
+      "control-minimo": 0.0645,
+      "decision": 0.0645,
+      "evidencia": 0.2581,
+      "experimentacion": 0.1613,
+      "geopolitica": 0.1613,
+      "representacion": 0.1613
+    },
+    "GH054": {
+      "autoridad": 0.1053,
+      "capacidad-humana": 0.1053,
+      "casos": 0.2105,
+      "decision": 0.1053,
+      "evidencia": 0.2105,
+      "experimentacion": 0.2631
+    },
+    "GH055": {
+      "casos": 0.2222,
+      "evidencia": 0.2222,
+      "experimentacion": 0.2778,
+      "representacion": 0.2778
+    },
+    "GH056": {
+      "cartografia": 0.4,
+      "documentacion": 0.4,
+      "evidencia": 0.2
+    },
+    "GH057": {
+      "agentes": 0.1539,
+      "control-minimo": 0.1538,
+      "estandares": 0.3077,
+      "evidencia": 0.1538,
+      "integridad-ia": 0.1923,
+      "transformacion": 0.0385
+    },
+    "GH058": {
+      "aprendizaje": 0.0953,
+      "control-minimo": 0.0952,
+      "decision": 0.2857,
+      "economia": 0.0476,
+      "evidencia": 0.1905,
+      "experimentacion": 0.0476,
+      "mundo-abierto": 0.2381
+    },
+    "GH059": {
+      "control-minimo": 0.5,
+      "decision": 0.5
+    },
+    "GH060": {
+      "experimentacion": 1.0
+    },
+    "GH061": {
+      "agentes": 1.0
+    },
+    "GH062": {
+      "cartografia": 1.0
+    },
+    "GH063": {
+      "agentes": 0.5,
+      "aprendizaje": 0.5
+    },
+    "GH064": {
+      "control-minimo": 0.3529,
+      "documentacion": 0.1177,
+      "matematicas": 0.5294
+    },
+    "GH065": {
+      "control-minimo": 1.0
+    },
+    "GH066": {
+      "documentacion": 0.3571,
+      "evidencia": 0.6429
+    },
+    "GH067": {
+      "agentes": 0.7143,
+      "evidencia": 0.2857
+    },
+    "GH068": {
+      "documentacion": 1.0
+    },
+    "GH069": {
+      "aprendizaje": 0.0417,
+      "control-minimo": 0.3333,
+      "decision": 0.0833,
+      "documentacion": 0.0417,
+      "economia": 0.2083,
+      "evidencia": 0.0417,
+      "mundo-abierto": 0.2083,
+      "transformacion": 0.0417
+    },
+    "GH070": {
+      "agentes": 0.4545,
+      "economia": 0.5455
+    },
+    "GH071": {
+      "economia": 0.5,
+      "mundo-abierto": 0.5
+    },
+    "GH072": {
+      "documentacion": 0.4167,
+      "experimentacion": 0.4167,
+      "transformacion": 0.1666
+    },
+    "GH073": {
+      "autoridad": 0.1429,
+      "decision": 0.1429,
+      "evidencia": 0.3571,
+      "experimentacion": 0.3571
+    },
+    "GH074": {
+      "control-minimo": 0.5,
+      "experimentacion": 0.5
+    },
+    "GH075": {
+      "evidencia": 1.0
+    },
+    "GH076": {
+      "economia": 0.5,
+      "evidencia": 0.5
+    },
+    "GH077": {
+      "evidencia": 0.4375,
+      "experimentacion": 0.25,
+      "matematicas": 0.3125
+    },
+    "GH078": {
+      "evidencia": 0.3333,
+      "experimentacion": 0.6667
+    },
+    "GH079": {
+      "autoridad": 0.125,
+      "decision": 0.125,
+      "documentacion": 0.3125,
+      "experimentacion": 0.3125,
+      "transformacion": 0.125
+    },
+    "S05": {
+      "agentes": 0.1667,
+      "autoridad": 0.3333,
+      "cartografia": 0.1667,
+      "integridad-ia": 0.1667,
+      "transformacion": 0.1666
+    },
+    "S06": {
+      "control-minimo": 0.4546,
+      "documentacion": 0.3636,
+      "evidencia": 0.1818
+    },
+    "S07": {
+      "cambio-regimen": 0.7333,
+      "documentacion": 0.2667
+    },
+    "S09": {
+      "documentacion": 0.1818,
+      "evidencia": 0.2727,
+      "matematicas": 0.5455
+    },
+    "S11": {
+      "estandares": 1.0
+    },
+    "S14": {
+      "empresa": 1.0
+    },
+    "S16": {
+      "cartografia": 0.3333,
+      "casos": 0.0667,
+      "documentacion": 0.3333,
+      "estandares": 0.0667,
+      "evidencia": 0.0667,
+      "experimentacion": 0.0667,
+      "transformacion": 0.0666
+    },
+    "S17": {
+      "estandares": 0.6429,
+      "movilidad": 0.3571
+    },
+    "S18": {
+      "estandares": 0.5,
+      "movilidad": 0.5
+    },
+    "S19": {
+      "autoridad": 0.3571,
+      "cambio-regimen": 0.0357,
+      "documentacion": 0.1429,
+      "estandares": 0.3214,
+      "evidencia": 0.1429
+    },
+    "S20": {
+      "autoridad": 0.5416,
+      "cambio-regimen": 0.0417,
+      "documentacion": 0.0417,
+      "estandares": 0.0417,
+      "movilidad": 0.1667,
+      "representacion": 0.1666
+    },
+    "S21": {
+      "estandares": 1.0
+    },
+    "S22": {
+      "control-minimo": 0.4118,
+      "documentacion": 0.2353,
+      "estandares": 0.3529
+    },
+    "S23": {
+      "estandares": 1.0
+    },
+    "np-entrada": {
+      "aprendizaje": 0.8,
+      "perspectiva": 0.2
+    },
+    "np-manifiesto": {
+      "perspectiva": 1.0
+    },
+    "np-experiencia": {
+      "aprendizaje": 0.4445,
+      "empresa": 0.4444,
+      "perspectiva": 0.1111
+    },
+    "np-sierra": {
+      "experimentacion": 0.4444,
+      "memoria-territorio": 0.5556
+    },
+    "np-coaching": {
+      "aprendizaje": 0.2857,
+      "espiritualidad": 0.3572,
+      "memoria-territorio": 0.3571
+    },
+    "np-microempresas": {
+      "empresa": 1.0
+    },
+    "np-lectura-manifiesto": {
+      "decision": 0.5,
+      "perspectiva": 0.5
+    },
+    "np-jump-up": {
+      "perspectiva": 0.3846,
+      "transformacion": 0.6154
+    },
+    "np-pemex": {
+      "empresa": 0.25,
+      "integridad-ia": 0.5,
+      "movilidad": 0.25
+    },
+    "np-ado": {
+      "espiritualidad": 0.5556,
+      "integridad-ia": 0.4444
+    },
+    "np-encajonadora": {
+      "decision": 0.4444,
+      "perspectiva": 0.5556
+    },
+    "np-aicm": {
+      "aprendizaje": 0.4444,
+      "movilidad": 0.5556
+    },
+    "np-accion": {
+      "aprendizaje": 0.3334,
+      "empresa": 0.3333,
+      "transformacion": 0.3333
+    },
+    "np-aprendizajes": {
+      "perspectiva": 0.5,
+      "representacion": 0.5
+    },
+    "np-archivo": {
+      "documentacion": 0.3334,
+      "evidencia": 0.3333,
+      "memoria-territorio": 0.3333
+    },
+    "np-mas-alla": {
+      "perspectiva": 1.0
+    },
+    "np-accion-metodo": {
+      "aprendizaje": 0.2222,
+      "decision": 0.5556,
+      "transformacion": 0.2222
+    },
+    "np-biografia": {
+      "aprendizaje": 0.25,
+      "empresa": 0.25,
+      "memoria-territorio": 0.5
+    },
+    "np-xanath": {
+      "memoria-territorio": 1.0
+    },
+    "np-posada": {
+      "movilidad": 0.5,
+      "transformacion": 0.5
+    },
+    "np-formacion": {
+      "aprendizaje": 0.5455,
+      "memoria-territorio": 0.4545
+    },
+    "D-001": {
+      "geopolitica": 0.2857,
+      "memoria-territorio": 0.4286,
+      "transformacion": 0.2857
+    },
+    "D-002": {
+      "aprendizaje": 0.3333,
+      "empresa": 0.6667
+    },
+    "D-003": {
+      "economia": 0.5,
+      "geopolitica": 0.5
+    },
+    "D-004": {
+      "aprendizaje": 0.1818,
+      "economia": 0.8182
+    },
+    "D-005": {
+      "casos": 0.2,
+      "decision": 0.2,
+      "economia": 0.2,
+      "estandares": 0.4
+    },
+    "D-006": {
+      "geopolitica": 0.5,
+      "perspectiva": 0.5
+    },
+    "D-007": {
+      "movilidad": 1.0
+    },
+    "D-008": {
+      "aprendizaje": 0.25,
+      "movilidad": 0.75
+    },
+    "D-009": {
+      "movilidad": 0.5,
+      "perspectiva": 0.5
+    },
+    "D-010": {
+      "capacidad-humana": 0.2222,
+      "decision": 0.5556,
+      "movilidad": 0.2222
+    },
+    "D-011": {
+      "aprendizaje": 0.2222,
+      "empresa": 0.5556,
+      "transformacion": 0.2222
+    },
+    "D-012": {
+      "geopolitica": 0.2857,
+      "memoria-territorio": 0.7143
+    },
+    "D-013": {
+      "aprendizaje": 0.25,
+      "economia": 0.25,
+      "empresa": 0.25,
+      "transformacion": 0.25
+    },
+    "D-014": {
+      "aprendizaje": 0.4,
+      "decision": 0.1334,
+      "empresa": 0.1333,
+      "memoria-territorio": 0.2,
+      "transformacion": 0.1333
+    },
+    "D-015": {
+      "aprendizaje": 0.25,
+      "empresa": 0.25,
+      "perspectiva": 0.25,
+      "transformacion": 0.25
+    },
+    "D-016": {
+      "aprendizaje": 0.4286,
+      "decision": 0.2857,
+      "espiritualidad": 0.2857
+    },
+    "D-017": {
+      "aprendizaje": 0.2222,
+      "casos": 0.5556,
+      "decision": 0.2222
+    },
+    "D-018": {
+      "aprendizaje": 0.125,
+      "decision": 0.125,
+      "empresa": 0.25,
+      "espiritualidad": 0.5
+    },
+    "D-019": {
+      "empresa": 0.5,
+      "transformacion": 0.5
+    },
+    "D-020": {
+      "aprendizaje": 0.1818,
+      "empresa": 0.1818,
+      "movilidad": 0.4546,
+      "transformacion": 0.1818
+    },
+    "D-021": {
+      "aprendizaje": 0.3334,
+      "capacidad-humana": 0.3333,
+      "decision": 0.3333
+    },
+    "D-022": {
+      "decision": 0.1667,
+      "geopolitica": 0.4444,
+      "memoria-territorio": 0.3889
+    },
+    "D-023": {
+      "capacidad-humana": 0.3333,
+      "economia": 0.6667
+    },
+    "D-024": {
+      "aprendizaje": 0.3334,
+      "empresa": 0.3333,
+      "transformacion": 0.3333
+    },
+    "D-025": {
+      "aprendizaje": 0.2222,
+      "empresa": 0.5556,
+      "transformacion": 0.2222
+    },
+    "D-026": {
+      "decision": 1.0
+    },
+    "D-027": {
+      "decision": 0.4,
+      "memoria-territorio": 0.6
+    },
+    "D-028": {
+      "movilidad": 1.0
+    },
+    "D-029": {
+      "empresa": 0.5,
+      "perspectiva": 0.5
+    },
+    "D-030": {
+      "decision": 0.4,
+      "memoria-territorio": 0.6
+    },
+    "D-031": {
+      "aprendizaje": 0.3334,
+      "empresa": 0.3333,
+      "transformacion": 0.3333
+    },
+    "D-032": {
+      "aprendizaje": 0.125,
+      "geopolitica": 0.5625,
+      "memoria-territorio": 0.3125
+    },
+    "D-033": {
+      "geopolitica": 1.0
+    },
+    "D-034": {
+      "decision": 0.1111,
+      "geopolitica": 0.8889
+    },
+    "D-035": {
+      "aprendizaje": 0.2,
+      "decision": 0.8
+    },
+    "D-036": {
+      "aprendizaje": 0.5,
+      "decision": 0.5
+    },
+    "D-037": {
+      "geopolitica": 1.0
+    },
+    "D-038": {
+      "aprendizaje": 0.5,
+      "decision": 0.5
+    },
+    "D-039": {
+      "aprendizaje": 0.2727,
+      "espiritualidad": 0.7273
+    },
+    "D-040": {
+      "aprendizaje": 0.5,
+      "decision": 0.25,
+      "geopolitica": 0.25
+    },
+    "D-041": {
+      "decision": 0.3636,
+      "economia": 0.4546,
+      "geopolitica": 0.1818
+    },
+    "D-042": {
+      "decision": 0.2222,
+      "geopolitica": 0.4445,
+      "memoria-territorio": 0.3333
+    },
+    "D-043": {
+      "aprendizaje": 0.1539,
+      "empresa": 0.6923,
+      "transformacion": 0.1538
+    },
+    "D-044": {
+      "capacidad-humana": 0.5,
+      "decision": 0.5
+    },
+    "D-045": {
+      "decision": 0.1177,
+      "empresa": 0.2941,
+      "memoria-territorio": 0.5882
+    },
+    "D-046": {
+      "decision": 0.125,
+      "empresa": 0.5,
+      "memoria-territorio": 0.375
+    },
+    "D-047": {
+      "casos": 0.2222,
+      "decision": 0.2222,
+      "movilidad": 0.5556
+    },
+    "D-048": {
+      "economia": 1.0
+    },
+    "D-049": {
+      "aprendizaje": 0.5,
+      "decision": 0.1667,
+      "empresa": 0.1667,
+      "transformacion": 0.1666
+    },
+    "D-050": {
+      "casos": 0.1429,
+      "decision": 0.3571,
+      "economia": 0.1429,
+      "empresa": 0.3571
+    },
+    "D-051": {
+      "economia": 0.5,
+      "geopolitica": 0.5
+    },
+    "D-052": {
+      "casos": 0.1429,
+      "decision": 0.1429,
+      "matematicas": 0.1428,
+      "movilidad": 0.5714
+    },
+    "D-053": {
+      "casos": 0.125,
+      "decision": 0.625,
+      "matematicas": 0.25
+    },
+    "D-054": {
+      "matematicas": 1.0
+    },
+    "D-055": {
+      "aprendizaje": 0.5,
+      "matematicas": 0.5
+    },
+    "D-056": {
+      "cambio-regimen": 0.4545,
+      "matematicas": 0.5455
+    },
+    "D-057": {
+      "decision": 0.4,
+      "memoria-territorio": 0.6
+    },
+    "D-058": {
+      "capacidad-humana": 0.4,
+      "memoria-territorio": 0.6
+    },
+    "D-059": {
+      "capacidad-humana": 1.0
+    },
+    "D-060": {
+      "capacidad-humana": 0.3333,
+      "empresa": 0.6667
+    },
+    "D-061": {
+      "decision": 0.25,
+      "memoria-territorio": 0.75
+    },
+    "D-062": {
+      "decision": 0.5,
+      "perspectiva": 0.5
+    },
+    "D-063": {
+      "economia": 1.0
+    },
+    "D-064": {
+      "casos": 0.1177,
+      "decision": 0.5882,
+      "economia": 0.2941
+    },
+    "D-065": {
+      "decision": 0.1818,
+      "geopolitica": 0.8182
+    },
+    "D-066": {
+      "aprendizaje": 0.1538,
+      "espiritualidad": 0.6154,
+      "memoria-territorio": 0.2308
+    },
+    "D-067": {
+      "empresa": 0.2353,
+      "perspectiva": 0.7647
+    },
+    "D-068": {
+      "aprendizaje": 0.4,
+      "memoria-territorio": 0.6
+    },
+    "D-069": {
+      "aprendizaje": 0.5,
+      "empresa": 0.2,
+      "transformacion": 0.3
+    },
+    "D-070": {
+      "empresa": 0.6667,
+      "transformacion": 0.3333
+    },
+    "D-071": {
+      "aprendizaje": 0.3636,
+      "decision": 0.1818,
+      "transformacion": 0.4546
+    },
+    "D-072": {
+      "capacidad-humana": 0.25,
+      "empresa": 0.5,
+      "transformacion": 0.25
+    },
+    "D-073": {
+      "cambio-regimen": 0.5714,
+      "decision": 0.2857,
+      "perspectiva": 0.1429
+    },
+    "D-074": {
+      "memoria-territorio": 0.6,
+      "transformacion": 0.4
+    },
+    "D-075": {
+      "geopolitica": 0.6667,
+      "memoria-territorio": 0.3333
+    },
+    "D-076": {
+      "memoria-territorio": 1.0
+    },
+    "D-077": {
+      "decision": 0.4,
+      "memoria-territorio": 0.6
+    },
+    "D-078": {
+      "aprendizaje": 0.1,
+      "casos": 0.2,
+      "decision": 0.7
+    },
+    "D-079": {
+      "aprendizaje": 0.25,
+      "decision": 0.5,
+      "transformacion": 0.25
+    },
+    "D-080": {
+      "aprendizaje": 0.2857,
+      "espiritualidad": 0.7143
+    },
+    "D-081": {
+      "perspectiva": 0.5,
+      "transformacion": 0.5
+    },
+    "sac-cffa3ecea82a50": {
+      "economia": 1.0
+    },
+    "sac-565e317ab13937": {
+      "cartografia": 0.3333,
+      "documentacion": 0.6667
+    },
+    "sac-3665ca8c129ba4": {
+      "agentes": 0.0909,
+      "autoridad": 0.3637,
+      "cartografia": 0.0909,
+      "documentacion": 0.3636,
+      "mundo-abierto": 0.0909
+    },
+    "sac-0ef093ce10e843": {
+      "cartografia": 0.3572,
+      "documentacion": 0.3571,
+      "evidencia": 0.2857
+    },
+    "sac-56f0b233abc1dd": {
+      "cartografia": 0.3077,
+      "casos": 0.3846,
+      "documentacion": 0.3077
+    },
+    "sac-b5feaad0ba34b6": {
+      "cartografia": 0.2222,
+      "casos": 0.2778,
+      "control-minimo": 0.2778,
+      "documentacion": 0.2222
+    },
+    "sac-ef3fb2d6b1fd9f": {
+      "cartografia": 0.5,
+      "documentacion": 0.5
+    },
+    "sac-e2eb9b6b5604f5": {
+      "documentacion": 0.3636,
+      "evidencia": 0.4546,
+      "experimentacion": 0.0909,
+      "matematicas": 0.0909
+    },
+    "sac-580dee78c8efe0": {
+      "documentacion": 0.2222,
+      "evidencia": 0.4444,
+      "experimentacion": 0.0556,
+      "representacion": 0.2222,
+      "transformacion": 0.0556
+    },
+    "sac-a30b7e92ec6dab": {
+      "documentacion": 0.6429,
+      "empresa": 0.0714,
+      "experimentacion": 0.2857
+    },
+    "sac-27b3d5acf19d6a": {
+      "cartografia": 0.3333,
+      "documentacion": 0.6667
+    },
+    "sac-ce2ef5f7848f09": {
+      "cartografia": 0.3077,
+      "documentacion": 0.3077,
+      "evidencia": 0.3846
+    },
+    "sac-ef0119c997ad77": {
+      "evidencia": 0.9,
+      "experimentacion": 0.1
+    },
+    "sac-d880e648029a1e": {
+      "cartografia": 0.1111,
+      "decision": 0.1111,
+      "documentacion": 0.7778
+    },
+    "sac-b7a348d567c7fb": {
+      "documentacion": 0.5556,
+      "experimentacion": 0.4444
+    },
+    "sac-d651356ec58c92": {
+      "autoridad": 0.2353,
+      "documentacion": 0.5294,
+      "representacion": 0.2353
+    },
+    "sac-9c624b17a13f9a": {
+      "casos": 0.6666,
+      "documentacion": 0.1667,
+      "transformacion": 0.1667
+    },
+    "sac-312c09582acce0": {
+      "decision": 0.3636,
+      "documentacion": 0.4546,
+      "geopolitica": 0.0909,
+      "memoria-territorio": 0.0909
+    },
+    "sac-d582a7791d95da": {
+      "documentacion": 0.7895,
+      "evidencia": 0.2105
+    },
+    "sac-930043e957ac1b": {
+      "cartografia": 0.1429,
+      "documentacion": 0.7143,
+      "matematicas": 0.1428
+    },
+    "sac-129b34f5d3c52c": {
+      "cartografia": 0.0625,
+      "documentacion": 0.6875,
+      "evidencia": 0.25
+    },
+    "sac-d8d0022a2c6bbb": {
+      "cartografia": 0.3125,
+      "casos": 0.0625,
+      "experimentacion": 0.0625,
+      "movilidad": 0.0625,
+      "transformacion": 0.5
+    },
+    "sac-c7955976b3aedd": {
+      "cartografia": 0.2941,
+      "casos": 0.2353,
+      "documentacion": 0.2941,
+      "estandares": 0.0589,
+      "experimentacion": 0.0588,
+      "movilidad": 0.0588
+    },
+    "sac-fe7f2e516aab4b": {
+      "documentacion": 1.0
+    },
+    "sac-e9c094fb344aaa": {
+      "cartografia": 0.3572,
+      "documentacion": 0.5714,
+      "memoria-territorio": 0.0714
+    },
+    "sac-e15a5ba3769d28": {
+      "cartografia": 0.25,
+      "documentacion": 0.4,
+      "memoria-territorio": 0.35
+    },
+    "sac-5746cd248e8639": {
+      "control-minimo": 0.5625,
+      "memoria-territorio": 0.4375
+    },
+    "sac-828c7c8a86a30a": {
+      "documentacion": 0.2941,
+      "estandares": 0.2353,
+      "evidencia": 0.2353,
+      "representacion": 0.2353
+    },
+    "sac-c84b524fd9888f": {
+      "cambio-regimen": 0.6,
+      "control-minimo": 0.2,
+      "memoria-territorio": 0.2
+    },
+    "sac-b20787a3a906d4": {
+      "documentacion": 1.0
+    },
+    "sac-dc52a078aa9622": {
+      "documentacion": 1.0
+    },
+    "sac-a6c3384f7ddf1c": {
+      "decision": 0.1111,
+      "documentacion": 0.4445,
+      "estandares": 0.4444
+    },
+    "sac-e963c71ba92d62": {
+      "cambio-regimen": 0.2174,
+      "control-minimo": 0.2174,
+      "documentacion": 0.2174,
+      "transformacion": 0.3478
+    },
+    "sac-4ab3a53f0c1334": {
+      "documentacion": 1.0
+    },
+    "sac-04b73b1e472617": {
+      "documentacion": 0.5556,
+      "transformacion": 0.4444
+    },
+    "sac-4067facdcd8703": {
+      "documentacion": 0.6364,
+      "evidencia": 0.3636
+    },
+    "sac-e960a8ac12d956": {
+      "decision": 0.0909,
+      "mundo-abierto": 0.9091
+    },
+    "sac-cc1d3b02348467": {
+      "evidencia": 0.5,
+      "representacion": 0.5
+    },
+    "sac-77b74efd9ef828": {
+      "cartografia": 0.5556,
+      "documentacion": 0.4444
+    },
+    "sac-1aa386144aa792": {
+      "cartografia": 0.5556,
+      "documentacion": 0.4444
+    },
+    "sac-59aa5cef20e1c8": {
+      "cartografia": 0.5556,
+      "documentacion": 0.4444
+    },
+    "sac-e805fb4b12ba78": {
+      "cartografia": 0.5556,
+      "documentacion": 0.4444
+    },
+    "sac-afcdcf01bc1ee7": {
+      "cartografia": 1.0
+    },
+    "sac-118d56a6f90578": {
+      "cartografia": 1.0
+    },
+    "sac-35db7d39197424": {
+      "cambio-regimen": 0.04,
+      "cartografia": 0.16,
+      "casos": 0.04,
+      "documentacion": 0.6,
+      "evidencia": 0.16
+    },
+    "sac-6a7b17cd2c016d": {
+      "control-minimo": 0.4546,
+      "decision": 0.0909,
+      "documentacion": 0.0909,
+      "estandares": 0.0909,
+      "evidencia": 0.0909,
+      "experimentacion": 0.0909,
+      "integridad-ia": 0.0909
+    },
+    "sac-4fe36815288306": {
+      "cartografia": 0.3333,
+      "control-minimo": 0.5333,
+      "evidencia": 0.0667,
+      "experimentacion": 0.0667
+    },
+    "sac-8e668dea6d3790": {
+      "experimentacion": 1.0
+    },
+    "sac-db3d2384b1f503": {
+      "cartografia": 0.3333,
+      "documentacion": 0.6667
+    },
+    "sac-db14ca21e01417": {
+      "casos": 0.1786,
+      "decision": 0.1429,
+      "documentacion": 0.1786,
+      "evidencia": 0.1428,
+      "experimentacion": 0.3214,
+      "transformacion": 0.0357
+    },
+    "sac-f912d02f0c99f5": {
+      "cartografia": 0.5,
+      "documentacion": 0.5
+    },
+    "sac-d3fe74554daf28": {
+      "cartografia": 0.1852,
+      "decision": 0.1482,
+      "documentacion": 0.2963,
+      "evidencia": 0.037,
+      "experimentacion": 0.037,
+      "representacion": 0.1482,
+      "transformacion": 0.1481
+    },
+    "sac-a95e2c700431b6": {
+      "estandares": 0.3125,
+      "experimentacion": 0.6875
+    },
+    "sac-76cfcaf1a77d98": {
+      "cartografia": 0.3333,
+      "documentacion": 0.6667
+    },
+    "sac-fabbf6f7608261": {
+      "decision": 0.1429,
+      "documentacion": 0.1786,
+      "estandares": 0.1786,
+      "evidencia": 0.1428,
+      "experimentacion": 0.3214,
+      "transformacion": 0.0357
+    },
+    "sac-6d651c5752c6eb": {
+      "cartografia": 0.1724,
+      "casos": 0.1724,
+      "control-minimo": 0.0345,
+      "estandares": 0.0345,
+      "evidencia": 0.2759,
+      "experimentacion": 0.2758,
+      "representacion": 0.0345
+    },
+    "sac-2f41bb91e03c0e": {
+      "cartografia": 0.2353,
+      "documentacion": 0.5294,
+      "experimentacion": 0.2353
+    },
+    "sac-a0dc19e6e289b1": {
+      "cartografia": 0.3572,
+      "evidencia": 0.2857,
+      "experimentacion": 0.3571
+    },
+    "sac-67ff3fe3ede318": {
+      "documentacion": 0.3572,
+      "empresa": 0.0714,
+      "transformacion": 0.5714
+    },
+    "sac-50072d5f792fc6": {
+      "cambio-regimen": 0.0714,
+      "documentacion": 0.3572,
+      "transformacion": 0.5714
+    },
+    "sac-97ad6bba995df1": {
+      "experimentacion": 1.0
+    },
+    "sac-7c77f3db6cd07f": {
+      "capacidad-humana": 0.3333,
+      "casos": 0.4167,
+      "decision": 0.0834,
+      "empresa": 0.0833,
+      "mundo-abierto": 0.0833
+    },
+    "sac-4c03d40789b30b": {
+      "casos": 1.0
+    },
+    "sac-1c76a6a1c55ec0": {
+      "control-minimo": 0.05,
+      "documentacion": 0.4,
+      "experimentacion": 0.05,
+      "movilidad": 0.25,
+      "transformacion": 0.25
+    },
+    "sac-baa3d045ed948a": {
+      "documentacion": 0.25,
+      "experimentacion": 0.05,
+      "integridad-ia": 0.2,
+      "movilidad": 0.25,
+      "transformacion": 0.25
+    },
+    "sac-e9073c5c02afab": {
+      "documentacion": 1.0
+    },
+    "sac-22e22fa636ea1e": {
+      "autoridad": 0.2,
+      "casos": 0.25,
+      "control-minimo": 0.25,
+      "decision": 0.2,
+      "empresa": 0.05,
+      "movilidad": 0.05
+    },
+    "sac-b3153abd3e6aec": {
+      "cambio-regimen": 0.0714,
+      "documentacion": 0.3572,
+      "transformacion": 0.5714
+    },
+    "sac-9d8a01be1241a5": {
+      "documentacion": 1.0
+    },
+    "sac-97b5beb663d047": {
+      "documentacion": 0.1111,
+      "evidencia": 0.4445,
+      "experimentacion": 0.4444
+    },
+    "sac-e87eba54bd178b": {
+      "casos": 0.4,
+      "control-minimo": 0.1,
+      "experimentacion": 0.5
+    },
+    "sac-7d7472405c7347": {
+      "aprendizaje": 0.5714,
+      "experimentacion": 0.1429,
+      "matematicas": 0.1429,
+      "mundo-abierto": 0.1428
+    },
+    "sac-2a4b1724b76ee9": {
+      "documentacion": 1.0
+    },
+    "sac-a766181d87d5cc": {
+      "casos": 1.0
+    },
+    "sac-cfda83e8e547e0": {
+      "autoridad": 0.2778,
+      "documentacion": 0.2778,
+      "transformacion": 0.4444
+    },
+    "sac-011b40f2a0f218": {
+      "autoridad": 0.2778,
+      "documentacion": 0.2778,
+      "transformacion": 0.4444
+    },
+    "sac-42280e4dbced05": {
+      "autoridad": 1.0
+    },
+    "sac-2ac8da7fc4d39e": {
+      "autoridad": 0.2857,
+      "casos": 0.3572,
+      "empresa": 0.0714,
+      "evidencia": 0.2857
+    },
+    "sac-b2f168559c22d2": {
+      "cambio-regimen": 0.3334,
+      "documentacion": 0.3333,
+      "transformacion": 0.3333
+    },
+    "sac-3981ada268b1de": {
+      "documentacion": 1.0
+    },
+    "sac-1de49f78faf23d": {
+      "autoridad": 0.0625,
+      "cambio-regimen": 0.0625,
+      "casos": 0.3125,
+      "control-minimo": 0.3125,
+      "decision": 0.25
+    },
+    "sac-7d3403a07d798c": {
+      "evidencia": 0.2857,
+      "experimentacion": 0.3572,
+      "transformacion": 0.3571
+    },
+    "sac-4fc2459015552f": {
+      "documentacion": 1.0
+    },
+    "sac-b9874e452271c3": {
+      "estandares": 0.4444,
+      "evidencia": 0.5556
+    },
+    "sac-0d8be8db5558af": {
+      "decision": 0.25,
+      "documentacion": 0.5,
+      "evidencia": 0.25
+    },
+    "sac-96749f86c02615": {
+      "decision": 0.0714,
+      "documentacion": 0.8572,
+      "mundo-abierto": 0.0714
+    },
+    "sac-2b493f1f16d9ee": {
+      "evidencia": 1.0
+    },
+    "sac-b7c2146470af97": {
+      "estandares": 0.0715,
+      "evidencia": 0.2857,
+      "experimentacion": 0.0714,
+      "transformacion": 0.5714
+    },
+    "sac-7efc3911e0a789": {
+      "evidencia": 1.0
+    },
+    "sac-f69707c059be52": {
+      "autoridad": 0.037,
+      "casos": 0.1852,
+      "decision": 0.2593,
+      "estandares": 0.037,
+      "evidencia": 0.2963,
+      "representacion": 0.1852
+    },
+    "sac-53992db4f8e30e": {
+      "autoridad": 0.05,
+      "control-minimo": 0.05,
+      "documentacion": 0.2,
+      "experimentacion": 0.25,
+      "integridad-ia": 0.25,
+      "mundo-abierto": 0.2
+    },
+    "sac-ff1613bfa0876c": {
+      "casos": 0.2353,
+      "documentacion": 0.2353,
+      "experimentacion": 0.2353,
+      "integridad-ia": 0.2941
+    },
+    "sac-c00a10f63b1554": {
+      "control-minimo": 0.0526,
+      "estandares": 0.2632,
+      "experimentacion": 0.421,
+      "integridad-ia": 0.2632
+    },
+    "sac-595d52cb014906": {
+      "control-minimo": 0.4,
+      "experimentacion": 0.1,
+      "integridad-ia": 0.5
+    },
+    "sac-3875c8d505fa24": {
+      "autoridad": 0.125,
+      "decision": 0.125,
+      "evidencia": 0.125,
+      "integridad-ia": 0.625
+    },
+    "sac-4e53f7d0f8643e": {
+      "autoridad": 0.1,
+      "evidencia": 0.4,
+      "integridad-ia": 0.5
+    },
+    "sac-788a18accd4403": {
+      "autoridad": 0.2,
+      "experimentacion": 0.55,
+      "integridad-ia": 0.25
+    },
+    "sac-d5a53433206dfe": {
+      "experimentacion": 0.5,
+      "integridad-ia": 0.5
+    },
+    "sac-13c170dd2f2af7": {
+      "experimentacion": 0.1667,
+      "integridad-ia": 0.8333
+    },
+    "sac-e14b201a2aaf09": {
+      "control-minimo": 0.1818,
+      "experimentacion": 0.2273,
+      "geopolitica": 0.3636,
+      "integridad-ia": 0.2273
+    },
+    "sac-591a7fd8d2e1e3": {
+      "autoridad": 0.4546,
+      "experimentacion": 0.0909,
+      "integridad-ia": 0.4545
+    },
+    "sac-e1eaa115330c06": {
+      "experimentacion": 0.5,
+      "integridad-ia": 0.5
+    },
+    "sac-0c77c157bb60c9": {
+      "experimentacion": 0.1667,
+      "integridad-ia": 0.8333
+    },
+    "sac-76e10312a62e90": {
+      "documentacion": 0.3125,
+      "evidencia": 0.0625,
+      "experimentacion": 0.3125,
+      "integridad-ia": 0.3125
+    },
+    "sac-e18d2150e7bb31": {
+      "evidencia": 0.0714,
+      "experimentacion": 0.5714,
+      "integridad-ia": 0.3572
+    },
+    "sac-f469946a28f863": {
+      "autoridad": 0.0526,
+      "control-minimo": 0.2105,
+      "evidencia": 0.2105,
+      "experimentacion": 0.2632,
+      "integridad-ia": 0.2632
+    },
+    "sac-f8ceb155de32db": {
+      "documentacion": 0.3478,
+      "experimentacion": 0.2174,
+      "integridad-ia": 0.2174,
+      "matematicas": 0.2174
+    },
+    "sac-2914b1f35d53cd": {
+      "autoridad": 0.0357,
+      "control-minimo": 0.1429,
+      "decision": 0.1429,
+      "evidencia": 0.1428,
+      "experimentacion": 0.0357,
+      "integridad-ia": 0.1786,
+      "matematicas": 0.1786,
+      "mundo-abierto": 0.1428
+    },
+    "sac-2a1b4504d823b6": {
+      "evidencia": 0.421,
+      "experimentacion": 0.0526,
+      "integridad-ia": 0.2632,
+      "matematicas": 0.2632
+    },
+    "sac-795b9432747e81": {
+      "evidencia": 0.0625,
+      "experimentacion": 0.0625,
+      "integridad-ia": 0.3125,
+      "matematicas": 0.5,
+      "representacion": 0.0625
+    },
+    "sac-0d374b6ab041cf": {
+      "decision": 0.2667,
+      "evidencia": 0.0667,
+      "integridad-ia": 0.3333,
+      "matematicas": 0.3333
+    },
+    "sac-1c6c52d42864c0": {
+      "experimentacion": 0.0476,
+      "geopolitica": 0.1905,
+      "integridad-ia": 0.2381,
+      "matematicas": 0.5238
+    },
+    "sac-2bc6fcebcf131e": {
+      "aprendizaje": 0.1905,
+      "decision": 0.1905,
+      "documentacion": 0.2381,
+      "evidencia": 0.0476,
+      "integridad-ia": 0.2381,
+      "matematicas": 0.0476,
+      "representacion": 0.0476
+    },
+    "sac-7bc234456fb8cc": {
+      "casos": 0.5714,
+      "experimentacion": 0.0714,
+      "integridad-ia": 0.3572
+    },
+    "sac-f74c667e74355c": {
+      "autoridad": 0.0417,
+      "control-minimo": 0.2083,
+      "documentacion": 0.2917,
+      "experimentacion": 0.2083,
+      "integridad-ia": 0.2083,
+      "mundo-abierto": 0.0417
+    },
+    "sac-b6e0900bf06d59": {
+      "integridad-ia": 1.0
+    },
+    "sac-92c7a6d4db502e": {
+      "control-minimo": 0.5,
+      "integridad-ia": 0.5
+    },
+    "sac-6b47f344995e6a": {
+      "evidencia": 0.5,
+      "integridad-ia": 0.5
+    },
+    "sac-93e648aeeb79c9": {
+      "integridad-ia": 1.0
+    },
+    "sac-a1f04a7b0a20c7": {
+      "experimentacion": 0.1667,
+      "integridad-ia": 0.8333
+    },
+    "sac-13e475684b147b": {
+      "evidencia": 0.5,
+      "integridad-ia": 0.5
+    },
+    "sac-7f7d014cc47f1e": {
+      "integridad-ia": 1.0
+    },
+    "sac-61b5e17bf4ba4b": {
+      "evidencia": 0.5833,
+      "integridad-ia": 0.4167
+    },
+    "sac-457fc4d3be82da": {
+      "integridad-ia": 1.0
+    },
+    "sac-3c6052df4ed429": {
+      "integridad-ia": 1.0
+    },
+    "sac-14b686462db17a": {
+      "documentacion": 0.5,
+      "integridad-ia": 0.5
+    },
+    "sac-4b5a786577bfe2": {
+      "documentacion": 0.6154,
+      "integridad-ia": 0.3846
+    },
+    "sac-5487286ee55387": {
+      "cartografia": 0.3077,
+      "documentacion": 0.3077,
+      "integridad-ia": 0.3846
+    },
+    "sac-7a6b002c5d747d": {
+      "integridad-ia": 0.3846,
+      "transformacion": 0.6154
+    },
+    "sac-eb69849a612eda": {
+      "experimentacion": 0.6154,
+      "integridad-ia": 0.3846
+    },
+    "sac-d491bff10d7ef4": {
+      "experimentacion": 0.5,
+      "integridad-ia": 0.5
+    },
+    "sac-9efa6e10309b5b": {
+      "documentacion": 0.3572,
+      "experimentacion": 0.2857,
+      "integridad-ia": 0.3571
+    },
+    "sac-a0f6af02fee9c4": {
+      "documentacion": 0.2,
+      "experimentacion": 0.4,
+      "integridad-ia": 0.4
+    },
+    "sac-7bb4215023667c": {
+      "documentacion": 0.3636,
+      "experimentacion": 0.0909,
+      "integridad-ia": 0.4546,
+      "transformacion": 0.0909
+    },
+    "sac-6339322b18608b": {
+      "documentacion": 1.0
+    },
+    "sac-c164b75ae06e0b": {
+      "evidencia": 0.1,
+      "experimentacion": 0.4,
+      "integridad-ia": 0.5
+    },
+    "sac-42b1cc54adba23": {
+      "evidencia": 1.0
+    },
+    "sac-f274742ce0c925": {
+      "casos": 0.5,
+      "control-minimo": 0.5
+    },
+    "sac-1391acc0df3700": {
+      "integridad-ia": 1.0
+    },
+    "sac-57db8caa7a7163": {
+      "cartografia": 0.3333,
+      "documentacion": 0.6667
+    },
+    "sac-bc77526e6e8a85": {
+      "decision": 0.2105,
+      "documentacion": 0.2632,
+      "evidencia": 0.2105,
+      "experimentacion": 0.2632,
+      "transformacion": 0.0526
+    },
+    "sac-ad4a64af9cd7ed": {
+      "control-minimo": 0.3333,
+      "evidencia": 0.6667
+    },
+    "sac-af7cb4663c35e2": {
+      "documentacion": 0.5,
+      "evidencia": 0.4,
+      "transformacion": 0.1
+    },
+    "sac-0117e985d4a397": {
+      "cartografia": 0.3333,
+      "documentacion": 0.6667
+    },
+    "sac-342de568d046b2": {
+      "documentacion": 0.8333,
+      "evidencia": 0.1667
+    },
+    "sac-41da2ffe3f0b60": {
+      "cartografia": 0.5,
+      "documentacion": 0.5
+    },
+    "sac-73f75408856630": {
+      "documentacion": 0.8333,
+      "transformacion": 0.1667
+    },
+    "sac-2514c11157f4ae": {
+      "aprendizaje": 0.0625,
+      "cartografia": 0.3125,
+      "economia": 0.0625,
+      "experimentacion": 0.5,
+      "representacion": 0.0625
+    },
+    "sac-b1524cc23320cf": {
+      "cartografia": 0.3333,
+      "documentacion": 0.6667
+    },
+    "sac-67720e9767e87d": {
+      "documentacion": 0.8333,
+      "evidencia": 0.1667
+    },
+    "sac-6863efec2b0809": {
+      "documentacion": 0.4445,
+      "evidencia": 0.4444,
+      "transformacion": 0.1111
+    },
+    "sac-161c4bf7c385ae": {
+      "documentacion": 0.6087,
+      "economia": 0.2174,
+      "evidencia": 0.1739
+    },
+    "sac-a24ec678e3ad7e": {
+      "documentacion": 0.5,
+      "evidencia": 0.5
+    },
+    "sac-28528846abbc94": {
+      "autoridad": 0.2273,
+      "control-minimo": 0.4091,
+      "evidencia": 0.3636
+    },
+    "sac-73bfbb2c16fd2c": {
+      "cartografia": 0.3333,
+      "documentacion": 0.6667
+    },
+    "sac-469c6ea2ffcfab": {
+      "cambio-regimen": 0.4546,
+      "documentacion": 0.4545,
+      "transformacion": 0.0909
+    },
+    "sac-1c81369709f9e1": {
+      "cartografia": 0.3333,
+      "documentacion": 0.6667
+    },
+    "sac-be7a09e2eb93d8": {
+      "documentacion": 0.7143,
+      "representacion": 0.1429,
+      "transformacion": 0.1428
+    },
+    "sac-7e1b08f14828a5": {
+      "autoridad": 0.3104,
+      "cambio-regimen": 0.1724,
+      "cartografia": 0.1724,
+      "casos": 0.1724,
+      "documentacion": 0.1724
+    },
+    "sac-cc4245b1b8d0a1": {
+      "cartografia": 0.2273,
+      "documentacion": 0.3636,
+      "estandares": 0.3636,
+      "representacion": 0.0455
+    },
+    "sac-6ea6daaed15f4a": {
+      "documentacion": 0.5,
+      "estandares": 0.5
+    },
+    "sac-80af6b19755231": {
+      "documentacion": 0.4444,
+      "evidencia": 0.5556
+    },
+    "sac-a50c3a674137ea": {
+      "decision": 1.0
+    },
+    "sac-f8448e3a5dbef3": {
+      "documentacion": 1.0
+    },
+    "sac-529b5bb3e7fc65": {
+      "casos": 0.1667,
+      "documentacion": 0.1667,
+      "transformacion": 0.6666
+    },
+    "sac-f2c11eac138e89": {
+      "aprendizaje": 0.1,
+      "capacidad-humana": 0.1,
+      "control-minimo": 0.1,
+      "economia": 0.5,
+      "empresa": 0.1,
+      "matematicas": 0.1
+    },
+    "sac-e0a923c2cf7271": {
+      "control-minimo": 0.1429,
+      "decision": 0.1429,
+      "documentacion": 0.1428,
+      "economia": 0.5714
+    },
+    "sac-1f46d3e833f390": {
+      "decision": 0.625,
+      "documentacion": 0.125,
+      "economia": 0.125,
+      "empresa": 0.125
+    },
+    "sac-a04fd951e2594e": {
+      "cartografia": 0.5,
+      "mundo-abierto": 0.5
+    },
+    "sac-c980ddc8106886": {
+      "aprendizaje": 0.2,
+      "cartografia": 0.2,
+      "decision": 0.2,
+      "memoria-territorio": 0.2,
+      "transformacion": 0.2
+    },
+    "sac-0ba202cff034fb": {
+      "capacidad-humana": 0.3334,
+      "economia": 0.3333,
+      "evidencia": 0.3333
+    },
+    "sac-652ec5309e7fe1": {
+      "documentacion": 0.5,
+      "experimentacion": 0.5
+    },
+    "sac-1f94030c2d7e45": {
+      "capacidad-humana": 0.1429,
+      "documentacion": 0.1428,
+      "evidencia": 0.7143
+    },
+    "sac-ece1d7e0688e34": {
+      "documentacion": 1.0
+    },
+    "sac-e4c14cb16ea08b": {
+      "documentacion": 0.4444,
+      "evidencia": 0.5556
+    },
+    "sac-39491d5374fd2f": {
+      "decision": 0.3333,
+      "documentacion": 0.0834,
+      "experimentacion": 0.4167,
+      "memoria-territorio": 0.0833,
+      "transformacion": 0.0833
+    },
+    "sac-5762a096eca7bf": {
+      "documentacion": 1.0
+    },
+    "sac-9b004c49c035b4": {
+      "documentacion": 0.3572,
+      "evidencia": 0.2857,
+      "perspectiva": 0.3571
+    },
+    "sac-47df5ff6202e42": {
+      "evidencia": 1.0
+    },
+    "sac-b4feabd985882a": {
+      "casos": 0.6667,
+      "evidencia": 0.3333
+    },
+    "sac-601c4f47868ee9": {
+      "evidencia": 1.0
+    },
+    "sac-af8029086d1f69": {
+      "aprendizaje": 0.3637,
+      "decision": 0.0909,
+      "documentacion": 0.0909,
+      "economia": 0.0909,
+      "matematicas": 0.3636
+    },
+    "sac-42caa5fc3ef51f": {
+      "matematicas": 1.0
+    },
+    "sac-e82a7af097d5c9": {
+      "documentacion": 1.0
+    },
+    "sac-cb4a147aeeb5c5": {
+      "documentacion": 0.2778,
+      "economia": 0.2222,
+      "evidencia": 0.2778,
+      "experimentacion": 0.2222
+    },
+    "sac-521a6500ce481a": {
+      "agentes": 0.25,
+      "decision": 0.25,
+      "documentacion": 0.0625,
+      "economia": 0.3125,
+      "experimentacion": 0.0625,
+      "matematicas": 0.0625
+    },
+    "sac-ab5e4c392d62a2": {
+      "capacidad-humana": 0.2632,
+      "evidencia": 0.2632,
+      "experimentacion": 0.2631,
+      "transformacion": 0.2105
+    },
+    "sac-09d639cacbfe18": {
+      "evidencia": 0.4444,
+      "experimentacion": 0.5556
+    },
+    "sac-3510f1c52e0eae": {
+      "documentacion": 0.1667,
+      "experimentacion": 0.8333
+    },
+    "sac-89a4b8d295fd0d": {
+      "decision": 0.8,
+      "documentacion": 0.2
+    },
+    "sac-326d5c5984a8f7": {
+      "documentacion": 1.0
+    },
+    "sac-3c12e965972431": {
+      "documentacion": 0.4444,
+      "economia": 0.5556
+    },
+    "sac-f742f2bad66f4f": {
+      "documentacion": 0.4444,
+      "estandares": 0.5556
+    },
+    "sac-9938544a7caf8a": {
+      "aprendizaje": 0.4,
+      "economia": 0.5,
+      "experimentacion": 0.1
+    },
+    "sac-b06de949790393": {
+      "documentacion": 0.4706,
+      "economia": 0.2941,
+      "experimentacion": 0.2353
+    },
+    "sac-e211065da094e1": {
+      "documentacion": 1.0
+    },
+    "sac-2a1a9471298c1c": {
+      "documentacion": 0.3846,
+      "evidencia": 0.6154
+    },
+    "sac-e50d9c42437da0": {
+      "economia": 0.1429,
+      "experimentacion": 0.1428,
+      "mundo-abierto": 0.7143
+    },
+    "sac-37d9e2a27544bc": {
+      "decision": 0.2857,
+      "documentacion": 0.3572,
+      "economia": 0.3571
+    },
+    "sac-ac83b6a9fc4879": {
+      "decision": 0.4,
+      "documentacion": 0.1,
+      "experimentacion": 0.5
+    },
+    "sac-76d01581e03dcc": {
+      "capacidad-humana": 0.125,
+      "economia": 0.625,
+      "evidencia": 0.125,
+      "transformacion": 0.125
+    },
+    "sac-03ad0bbda5b1a7": {
+      "economia": 0.2778,
+      "evidencia": 0.0556,
+      "experimentacion": 0.6111,
+      "transformacion": 0.0555
+    },
+    "sac-583a438ca1a12a": {
+      "documentacion": 0.2857,
+      "economia": 0.3572,
+      "experimentacion": 0.3571
+    },
+    "sac-a2dfd298249232": {
+      "economia": 0.6666,
+      "evidencia": 0.1667,
+      "geopolitica": 0.1667
+    },
+    "sac-6586b6ab12ff59": {
+      "economia": 0.0909,
+      "estandares": 0.0909,
+      "experimentacion": 0.3636,
+      "representacion": 0.4546
+    },
+    "sac-1c5844ebf05b30": {
+      "agentes": 0.3846,
+      "economia": 0.077,
+      "evidencia": 0.0769,
+      "experimentacion": 0.0769,
+      "matematicas": 0.3077,
+      "movilidad": 0.0769
+    },
+    "sac-65af76c6c2d129": {
+      "decision": 0.3334,
+      "economia": 0.3333,
+      "experimentacion": 0.3333
+    },
+    "sac-8da865fbb1716b": {
+      "aprendizaje": 1.0
+    },
+    "sac-2458291c6b7815": {
+      "aprendizaje": 0.3636,
+      "control-minimo": 0.2273,
+      "decision": 0.2273,
+      "matematicas": 0.1818
+    },
+    "sac-9563901726c752": {
+      "aprendizaje": 0.5,
+      "economia": 0.5
+    },
+    "sac-e1437a500c586d": {
+      "documentacion": 1.0
+    },
+    "sac-a44288296eec84": {
+      "documentacion": 1.0
+    },
+    "sac-f6d2b74af01d29": {
+      "documentacion": 1.0
+    },
+    "sac-d131dab80b74e7": {
+      "cartografia": 0.3333,
+      "documentacion": 0.6667
+    },
+    "sac-acfe214504554c": {
+      "documentacion": 0.25,
+      "empresa": 0.25,
+      "estandares": 0.25,
+      "transformacion": 0.25
+    },
+    "sac-57406939cc2b9f": {
+      "agentes": 0.0385,
+      "autoridad": 0.1538,
+      "cartografia": 0.3462,
+      "control-minimo": 0.2692,
+      "documentacion": 0.1923
+    },
+    "sac-d98f301f2a7761": {
+      "cartografia": 0.3846,
+      "documentacion": 0.6154
+    },
+    "sac-d3ea89fa24c3fb": {
+      "capacidad-humana": 0.2857,
+      "cartografia": 0.3572,
+      "documentacion": 0.2857,
+      "transformacion": 0.0714
+    },
+    "sac-febe29b481e0ee": {
+      "documentacion": 0.3334,
+      "evidencia": 0.3333,
+      "representacion": 0.3333
+    },
+    "sac-d6ff68724ebc67": {
+      "capacidad-humana": 0.6429,
+      "documentacion": 0.3571
+    },
+    "sac-12727192a1d5a4": {
+      "capacidad-humana": 0.625,
+      "decision": 0.125,
+      "documentacion": 0.125,
+      "estandares": 0.125
+    },
+    "sac-5e56903b8f4f56": {
+      "cartografia": 0.5,
+      "integridad-ia": 0.5
+    },
+    "sac-71d5fc3b7356c7": {
+      "autoridad": 0.1429,
+      "matematicas": 0.7143,
+      "mundo-abierto": 0.1428
+    },
+    "sac-d2ec5e2878303a": {
+      "documentacion": 0.1667,
+      "evidencia": 0.6666,
+      "matematicas": 0.1667
+    },
+    "sac-49d857749f6c32": {
+      "empresa": 0.1667,
+      "matematicas": 0.8333
+    },
+    "sac-0598cc11c6e4a9": {
+      "cartografia": 0.625,
+      "documentacion": 0.125,
+      "empresa": 0.125,
+      "estandares": 0.125
+    },
+    "sac-732a02b235f4c7": {
+      "cartografia": 0.8333,
+      "economia": 0.1667
+    },
+    "sac-0d3ca7252387f7": {
+      "documentacion": 1.0
+    },
+    "sac-1be738906e8cc7": {
+      "autoridad": 0.0588,
+      "cartografia": 0.2353,
+      "documentacion": 0.7059
+    },
+    "sac-0affcbd93c6aaa": {
+      "cartografia": 0.6667,
+      "documentacion": 0.3333
+    },
+    "sac-0ac95cbe310129": {
+      "cartografia": 1.0
+    },
+    "sac-d1e6944976908c": {
+      "cartografia": 0.6667,
+      "documentacion": 0.3333
+    },
+    "sac-a01d9196ebab7d": {
+      "cartografia": 0.5,
+      "documentacion": 0.5
+    },
+    "sac-e60a499cc996e4": {
+      "estandares": 1.0
+    },
+    "sac-187632303127d2": {
+      "cartografia": 0.4706,
+      "documentacion": 0.2353,
+      "experimentacion": 0.2941
+    },
+    "sac-bfb30b73f75fae": {
+      "cartografia": 0.5556,
+      "documentacion": 0.4444
+    },
+    "sac-cf50fdeec09cc5": {
+      "decision": 0.0625,
+      "documentacion": 0.3125,
+      "empresa": 0.0625,
+      "experimentacion": 0.3125,
+      "transformacion": 0.25
+    },
+    "sac-bb53522acfad06": {
+      "decision": 0.3334,
+      "estandares": 0.3333,
+      "evidencia": 0.3333
+    },
+    "sac-0ff07bde155ff2": {
+      "documentacion": 1.0
+    },
+    "sac-fe8cba9b30a1dd": {
+      "documentacion": 1.0
+    },
+    "sac-ec8935b6cc3134": {
+      "aprendizaje": 0.25,
+      "decision": 0.0625,
+      "economia": 0.4375,
+      "perspectiva": 0.25
+    },
+    "sac-c17598c110d056": {
+      "agentes": 0.1667,
+      "cartografia": 0.8333
+    },
+    "sac-b4c7863a642607": {
+      "agentes": 0.0833,
+      "cartografia": 0.4167,
+      "estandares": 0.0833,
+      "experimentacion": 0.4167
+    },
+    "sac-25ef0348a6a697": {
+      "cartografia": 0.2632,
+      "decision": 0.0526,
+      "documentacion": 0.421,
+      "experimentacion": 0.2632
+    },
+    "sac-fa0587dd357af5": {
+      "agentes": 0.2941,
+      "cartografia": 0.4706,
+      "documentacion": 0.2353
+    },
+    "sac-71eee5ed7b79e9": {
+      "cartografia": 0.4706,
+      "control-minimo": 0.2941,
+      "documentacion": 0.2353
+    },
+    "sac-31e74f6b7c3316": {
+      "cartografia": 0.75,
+      "documentacion": 0.25
+    },
+    "sac-a967ec7cdcdd0a": {
+      "cartografia": 0.4706,
+      "documentacion": 0.2353,
+      "estandares": 0.2941
+    },
+    "sac-190c1650712294": {
+      "documentacion": 1.0
+    },
+    "sac-22c25190eb27aa": {
+      "evidencia": 1.0
+    },
+    "sac-58a35726d2adbb": {
+      "experimentacion": 1.0
+    },
+    "sac-d132e1d8138a74": {
+      "documentacion": 1.0
+    },
+    "sac-2afd960fa37389": {
+      "cambio-regimen": 0.0625,
+      "cartografia": 0.3125,
+      "control-minimo": 0.0625,
+      "documentacion": 0.3125,
+      "evidencia": 0.25
+    },
+    "sac-bb6c1e36bb4a99": {
+      "cartografia": 0.4,
+      "documentacion": 0.6
+    },
+    "sac-f9a37faa7de7f5": {
+      "cartografia": 0.4167,
+      "decision": 0.0833,
+      "experimentacion": 0.4167,
+      "movilidad": 0.0833
+    },
+    "sac-97d1e6c21b467f": {
+      "documentacion": 0.2353,
+      "estandares": 0.4706,
+      "transformacion": 0.2941
+    },
+    "sac-f1d0ae5f3a200a": {
+      "cambio-regimen": 0.0715,
+      "cartografia": 0.2857,
+      "control-minimo": 0.0714,
+      "documentacion": 0.5,
+      "experimentacion": 0.0714
+    },
+    "sac-210b855421674d": {
+      "cartografia": 0.2857,
+      "documentacion": 0.2857,
+      "estandares": 0.0715,
+      "experimentacion": 0.0714,
+      "transformacion": 0.2857
+    },
+    "sac-697603464aa01e": {
+      "autoridad": 0.0667,
+      "cartografia": 0.3333,
+      "estandares": 0.3333,
+      "evidencia": 0.2667
+    },
+    "sac-9bacd0368de25d": {
+      "evidencia": 1.0
+    },
+    "sac-a10c222e23ee65": {
+      "cartografia": 0.3077,
+      "documentacion": 0.3077,
+      "transformacion": 0.3846
+    },
+    "sac-89b7403c08b841": {
+      "experimentacion": 1.0
+    },
+    "sac-b0a98b6771abf5": {
+      "evidencia": 1.0
+    },
+    "sac-3c8ea7466ea1d4": {
+      "documentacion": 1.0
+    },
+    "sac-b31279ac2342f7": {
+      "documentacion": 0.5,
+      "experimentacion": 0.5
+    },
+    "sac-8f9ecd4ce3f0ae": {
+      "decision": 0.8333,
+      "evidencia": 0.1667
+    },
+    "sac-9a87915cffb17f": {
+      "cartografia": 0.5,
+      "documentacion": 0.5
+    },
+    "sac-31df3dcd447841": {
+      "decision": 0.5,
+      "transformacion": 0.5
+    },
+    "sac-53f86d92085856": {
+      "cartografia": 0.3077,
+      "documentacion": 0.3077,
+      "experimentacion": 0.3846
+    },
+    "sac-9e2d32b7e0bf31": {
+      "decision": 0.3636,
+      "evidencia": 0.0909,
+      "experimentacion": 0.4546,
+      "memoria-territorio": 0.0909
+    },
+    "sac-2bd057dbd33be7": {
+      "cartografia": 0.3077,
+      "documentacion": 0.3077,
+      "experimentacion": 0.3846
+    },
+    "sac-331133c3c39e11": {
+      "documentacion": 0.2667,
+      "experimentacion": 0.7333
+    },
+    "sac-c9e0017cd2e7f8": {
+      "evidencia": 0.4444,
+      "experimentacion": 0.5556
+    },
+    "sac-517a08f57b5e92": {
+      "decision": 0.3636,
+      "evidencia": 0.0909,
+      "experimentacion": 0.4546,
+      "memoria-territorio": 0.0909
+    },
+    "sac-66a8111023207e": {
+      "documentacion": 1.0
+    },
+    "sac-d741a83b61d6bf": {
+      "documentacion": 1.0
+    },
+    "sac-b95ef1c013778a": {
+      "cartografia": 0.2222,
+      "documentacion": 0.2222,
+      "experimentacion": 0.2778,
+      "transformacion": 0.2778
+    },
+    "sac-1f96266b6a8191": {
+      "documentacion": 1.0
+    },
+    "sac-d9bb84896cf148": {
+      "evidencia": 0.1667,
+      "experimentacion": 0.8333
+    },
+    "sac-13bff36a77a162": {
+      "decision": 0.5,
+      "documentacion": 0.5
+    },
+    "sac-a2bad774f79432": {
+      "cartografia": 0.3077,
+      "documentacion": 0.3077,
+      "experimentacion": 0.3846
+    },
+    "sac-bb2013dfdd0bb9": {
+      "documentacion": 0.3333,
+      "experimentacion": 0.3333,
+      "representacion": 0.2667,
+      "transformacion": 0.0667
+    },
+    "sac-83a6dc98bd7be7": {
+      "decision": 0.3077,
+      "evidencia": 0.0769,
+      "experimentacion": 0.6154
+    },
+    "sac-fe54d72aa4583b": {
+      "cartografia": 0.3333,
+      "documentacion": 0.6667
+    },
+    "sac-da13fee92dc22e": {
+      "decision": 0.2105,
+      "documentacion": 0.2632,
+      "evidencia": 0.2105,
+      "experimentacion": 0.2632,
+      "transformacion": 0.0526
+    },
+    "sac-4c8a12026d8f2e": {
+      "cambio-regimen": 0.5556,
+      "evidencia": 0.4444
+    },
+    "sac-624690a5e38645": {
+      "transformacion": 1.0
+    },
+    "sac-432a84271ce32e": {
+      "evidencia": 0.8,
+      "transformacion": 0.2
+    },
+    "sac-1fec4b31272035": {
+      "evidencia": 0.8889,
+      "experimentacion": 0.1111
+    },
+    "sac-5a43298e8a0ad4": {
+      "cartografia": 0.3333,
+      "documentacion": 0.6667
+    },
+    "sac-12a6508b9ff441": {
+      "decision": 0.2105,
+      "documentacion": 0.2632,
+      "evidencia": 0.2105,
+      "experimentacion": 0.2632,
+      "transformacion": 0.0526
+    },
+    "sac-06eb19b4ec44cc": {
+      "evidencia": 0.6667,
+      "experimentacion": 0.3333
+    },
+    "sac-b68f1a1115e8cd": {
+      "cartografia": 0.3077,
+      "documentacion": 0.3077,
+      "integridad-ia": 0.3846
+    },
+    "sac-4b7fba62f30451": {
+      "estandares": 0.2778,
+      "experimentacion": 0.4444,
+      "integridad-ia": 0.2778
+    },
+    "sac-ebfda381fab606": {
+      "cartografia": 0.3077,
+      "documentacion": 0.3077,
+      "integridad-ia": 0.3846
+    },
+    "sac-0898db51143453": {
+      "estandares": 0.3334,
+      "experimentacion": 0.3333,
+      "integridad-ia": 0.3333
+    },
+    "sac-4d1c1feeffdc4d": {
+      "cartografia": 0.3077,
+      "documentacion": 0.3077,
+      "integridad-ia": 0.3846
+    },
+    "sac-b1bab1ea94565e": {
+      "estandares": 0.3334,
+      "experimentacion": 0.3333,
+      "integridad-ia": 0.3333
+    },
+    "sac-b20da2814b7ba5": {
+      "cartografia": 0.25,
+      "documentacion": 0.75
+    },
+    "sac-413bb6b1609a4e": {
+      "documentacion": 0.3333,
+      "evidencia": 0.0667,
+      "experimentacion": 0.2667,
+      "integridad-ia": 0.3333
+    },
+    "sac-b6af8e3b58cd35": {
+      "documentacion": 0.3334,
+      "evidencia": 0.0303,
+      "experimentacion": 0.3333,
+      "integridad-ia": 0.1515,
+      "transformacion": 0.1515
+    },
+    "sac-102a6c36b35c52": {
+      "autoridad": 0.1429,
+      "documentacion": 0.1428,
+      "experimentacion": 0.7143
+    },
+    "sac-de6e3d083ed6a5": {
+      "integridad-ia": 1.0
+    },
+    "sac-74298fb20aa45f": {
+      "estandares": 0.3125,
+      "experimentacion": 0.3125,
+      "integridad-ia": 0.3125,
+      "matematicas": 0.0625
+    },
+    "sac-9678bcbf91dba7": {
+      "cartografia": 0.3077,
+      "documentacion": 0.3077,
+      "integridad-ia": 0.3846
+    },
+    "sac-b46366d7a9467c": {
+      "estandares": 0.3334,
+      "experimentacion": 0.3333,
+      "integridad-ia": 0.3333
+    },
+    "sac-0ec6cecf3889af": {
+      "cartografia": 0.3077,
+      "documentacion": 0.3077,
+      "integridad-ia": 0.3846
+    },
+    "sac-44eee3f431cfef": {
+      "experimentacion": 0.5,
+      "integridad-ia": 0.5
+    },
+    "sac-b92a085a1eb5a2": {
+      "cartografia": 0.3077,
+      "documentacion": 0.3077,
+      "integridad-ia": 0.3846
+    },
+    "sac-1f10e41552ed2c": {
+      "experimentacion": 0.4444,
+      "integridad-ia": 0.5556
+    },
+    "sac-b52768e464fb52": {
+      "cartografia": 0.3077,
+      "documentacion": 0.3077,
+      "experimentacion": 0.3846
+    },
+    "sac-53d8cbbb03cfab": {
+      "cartografia": 0.2222,
+      "documentacion": 0.2222,
+      "integridad-ia": 0.2778,
+      "representacion": 0.2778
+    },
+    "sac-6b5b5d3bdb5909": {
+      "cartografia": 0.3077,
+      "casos": 0.3846,
+      "documentacion": 0.3077
+    },
+    "sac-ddc9ac4154b695": {
+      "cartografia": 0.1739,
+      "casos": 0.2174,
+      "documentacion": 0.1739,
+      "integridad-ia": 0.2174,
+      "transformacion": 0.2174
+    },
+    "sac-49de1910416ae8": {
+      "cartografia": 0.2222,
+      "documentacion": 0.2222,
+      "evidencia": 0.2778,
+      "integridad-ia": 0.2778
+    },
+    "sac-465a8a64f3eb2c": {
+      "experimentacion": 0.5833,
+      "matematicas": 0.4167
+    },
+    "sac-df6dcf969e6cf8": {
+      "evidencia": 0.3572,
+      "integridad-ia": 0.3571,
+      "matematicas": 0.2857
+    },
+    "sac-ed7ec859255f91": {
+      "experimentacion": 0.5,
+      "representacion": 0.5
+    },
+    "sac-da6526fac9f8e3": {
+      "documentacion": 1.0
+    },
+    "sac-c0d3e3cc86caf5": {
+      "control-minimo": 0.5,
+      "integridad-ia": 0.5
+    },
+    "sac-377e29c0d5d8a2": {
+      "documentacion": 0.4,
+      "evidencia": 0.2,
+      "experimentacion": 0.35,
+      "matematicas": 0.05
+    },
+    "sac-a32bc76e68ba02": {
+      "cartografia": 0.2222,
+      "documentacion": 0.2222,
+      "experimentacion": 0.2778,
+      "integridad-ia": 0.2778
+    },
+    "sac-643153979aed52": {
+      "experimentacion": 0.6875,
+      "integridad-ia": 0.3125
+    },
+    "sac-ef63b825e6d95e": {
+      "cartografia": 0.3333,
+      "documentacion": 0.6667
+    },
+    "sac-f6a477afc70a19": {
+      "decision": 0.2105,
+      "documentacion": 0.2632,
+      "evidencia": 0.2105,
+      "experimentacion": 0.2632,
+      "transformacion": 0.0526
+    },
+    "sac-7627f09e2f9139": {
+      "cartografia": 0.1818,
+      "documentacion": 0.3636,
+      "evidencia": 0.2273,
+      "integridad-ia": 0.2273
+    },
+    "sac-7d1481eec1fd63": {
+      "experimentacion": 0.6429,
+      "integridad-ia": 0.3571
+    },
+    "sac-e7b17406bf7dbf": {
+      "cartografia": 0.5,
+      "documentacion": 0.5
+    },
+    "sac-ac7f7df996aed2": {
+      "experimentacion": 1.0
+    },
+    "sac-3d7b2490129017": {
+      "autoridad": 0.1,
+      "evidencia": 0.4,
+      "experimentacion": 0.5
+    },
+    "sac-af84245bc7c344": {
+      "evidencia": 0.4444,
+      "experimentacion": 0.5556
+    },
+    "sac-017478afffff4b": {
+      "cartografia": 0.3333,
+      "documentacion": 0.6667
+    },
+    "sac-a73cb32236b4df": {
+      "decision": 0.2105,
+      "documentacion": 0.2632,
+      "evidencia": 0.2105,
+      "experimentacion": 0.2632,
+      "transformacion": 0.0526
+    },
+    "sac-ac6fd5620cdf17": {
+      "cartografia": 0.3572,
+      "empresa": 0.0714,
+      "mundo-abierto": 0.2857,
+      "representacion": 0.2857
+    },
+    "sac-963852afbaaab7": {
+      "cartografia": 0.4706,
+      "documentacion": 0.2353,
+      "experimentacion": 0.2941
+    },
+    "sac-9f26ee43df5875": {
+      "documentacion": 1.0
+    },
+    "sac-bbf87ddf5e9908": {
+      "transformacion": 1.0
+    },
+    "sac-35cbcf64a56c9b": {
+      "cartografia": 0.4706,
+      "documentacion": 0.2353,
+      "experimentacion": 0.2941
+    },
+    "sac-3a0ce8a7d11fa0": {
+      "cartografia": 0.4706,
+      "documentacion": 0.2353,
+      "experimentacion": 0.2941
+    },
+    "sac-bcc77a0493bf21": {
+      "cartografia": 1.0
+    },
+    "sac-857cbb9f4ba27f": {
+      "estandares": 0.5556,
+      "representacion": 0.4444
+    },
+    "sac-ae5cfdf16d6d42": {
+      "decision": 0.3334,
+      "documentacion": 0.3333,
+      "estandares": 0.3333
+    },
+    "sac-64c9e2a191bb70": {
+      "agentes": 0.037,
+      "cambio-regimen": 0.2593,
+      "cartografia": 0.2963,
+      "control-minimo": 0.037,
+      "estandares": 0.1482,
+      "evidencia": 0.1852,
+      "mundo-abierto": 0.037
+    },
+    "sac-c3831fbc3d853f": {
+      "cartografia": 0.3125,
+      "casos": 0.0625,
+      "documentacion": 0.3125,
+      "matematicas": 0.25,
+      "transformacion": 0.0625
+    },
+    "sac-b7152016fe53d8": {
+      "cartografia": 0.3125,
+      "documentacion": 0.5625,
+      "empresa": 0.0625,
+      "transformacion": 0.0625
+    },
+    "sac-75acd19c4a143a": {
+      "experimentacion": 0.3572,
+      "matematicas": 0.3571,
+      "transformacion": 0.2857
+    },
+    "sac-1702c650f2738c": {
+      "documentacion": 0.6667,
+      "experimentacion": 0.3333
+    },
+    "sac-d765ad5c2bf276": {
+      "decision": 0.1429,
+      "documentacion": 0.1786,
+      "evidencia": 0.1428,
+      "experimentacion": 0.3214,
+      "matematicas": 0.1786,
+      "transformacion": 0.0357
+    },
+    "sac-ff8c24991e0c96": {
+      "documentacion": 0.1667,
+      "experimentacion": 0.8333
+    },
+    "sac-78e68dc6f79f1a": {
+      "casos": 0.4667,
+      "documentacion": 0.0667,
+      "economia": 0.3333,
+      "matematicas": 0.0667,
+      "representacion": 0.0666
+    },
+    "sac-9d73f93f3a264e": {
+      "documentacion": 0.6667,
+      "experimentacion": 0.3333
+    },
+    "sac-55bd3ec9afed7c": {
+      "casos": 0.2083,
+      "decision": 0.1667,
+      "documentacion": 0.2083,
+      "evidencia": 0.1667,
+      "experimentacion": 0.2083,
+      "transformacion": 0.0417
+    },
+    "sac-a2b302c89d34d4": {
+      "decision": 0.1818,
+      "economia": 0.1818,
+      "empresa": 0.0455,
+      "evidencia": 0.1818,
+      "mundo-abierto": 0.0455,
+      "representacion": 0.3636
+    },
+    "sac-739edd157c6082": {
+      "representacion": 1.0
+    },
+    "sac-698ad366265aba": {
+      "documentacion": 0.5,
+      "experimentacion": 0.5
+    },
+    "sac-1523f3ed3087db": {
+      "documentacion": 1.0
+    },
+    "sac-a4bdaef7e22022": {
+      "decision": 0.4444,
+      "documentacion": 0.5556
+    },
+    "sac-b9a02bd1076e98": {
+      "economia": 0.8,
+      "evidencia": 0.1,
+      "experimentacion": 0.1
+    },
+    "sac-3bd47e70e1652a": {
+      "documentacion": 0.7273,
+      "evidencia": 0.0909,
+      "experimentacion": 0.0909,
+      "representacion": 0.0909
+    },
+    "sac-13c000dfb48ce9": {
+      "capacidad-humana": 0.2778,
+      "documentacion": 0.2222,
+      "economia": 0.2778,
+      "experimentacion": 0.2222
+    },
+    "sac-a41b45397c4cc9": {
+      "capacidad-humana": 0.3846,
+      "documentacion": 0.3077,
+      "experimentacion": 0.3077
+    },
+    "sac-31a34d57236749": {
+      "capacidad-humana": 0.3846,
+      "documentacion": 0.3077,
+      "experimentacion": 0.3077
+    },
+    "sac-3ae88d95fcdf1f": {
+      "documentacion": 0.5,
+      "experimentacion": 0.5
+    },
+    "sac-ed775d91b97f86": {
+      "capacidad-humana": 0.2941,
+      "casos": 0.2353,
+      "decision": 0.2353,
+      "documentacion": 0.0589,
+      "economia": 0.0588,
+      "empresa": 0.0588,
+      "experimentacion": 0.0588
+    },
+    "sac-2c4c7daa63b2e3": {
+      "capacidad-humana": 0.2941,
+      "decision": 0.0589,
+      "documentacion": 0.2941,
+      "economia": 0.0588,
+      "representacion": 0.2941
+    },
+    "sac-40137fd6035cd7": {
+      "documentacion": 0.2778,
+      "evidencia": 0.4444,
+      "representacion": 0.2778
+    },
+    "sac-db77227c2df688": {
+      "capacidad-humana": 0.3572,
+      "experimentacion": 0.2857,
+      "representacion": 0.3571
+    },
+    "sac-0092a70264aeb9": {
+      "documentacion": 0.5,
+      "representacion": 0.5
+    },
+    "sac-25b1abdf7d9a40": {
+      "documentacion": 0.4546,
+      "empresa": 0.0909,
+      "representacion": 0.4545
+    },
+    "sac-cc8d7ab3597d33": {
+      "casos": 0.2667,
+      "documentacion": 0.3333,
+      "economia": 0.0667,
+      "representacion": 0.3333
+    },
+    "sac-8d45e24ce17370": {
+      "documentacion": 0.3077,
+      "economia": 0.3846,
+      "experimentacion": 0.3077
+    },
+    "sac-96a0f939f7a0b2": {
+      "economia": 0.3334,
+      "empresa": 0.3333,
+      "experimentacion": 0.3333
+    },
+    "sac-784115a1c46820": {
+      "casos": 1.0
+    },
+    "sac-65ce3ec74fb002": {
+      "documentacion": 0.5,
+      "representacion": 0.5
+    },
+    "sac-82e8a4e2bd2f84": {
+      "documentacion": 0.3572,
+      "experimentacion": 0.3571,
+      "representacion": 0.2857
+    },
+    "sac-94b1ab188c7104": {
+      "documentacion": 0.3077,
+      "experimentacion": 0.3077,
+      "representacion": 0.3846
+    },
+    "sac-23e1170a2baf07": {
+      "documentacion": 1.0
+    },
+    "sac-60ea1399e48eb6": {
+      "documentacion": 0.5556,
+      "transformacion": 0.4444
+    },
+    "sac-33624cb63bce70": {
+      "matematicas": 0.5,
+      "transformacion": 0.5
+    },
+    "sac-8b8be638d0c303": {
+      "experimentacion": 1.0
+    },
+    "sac-3aaf4a715a6554": {
+      "casos": 0.6666,
+      "matematicas": 0.1667,
+      "representacion": 0.1667
+    },
+    "sac-ef99d90a86305f": {
+      "autoridad": 1.0
+    },
+    "sac-b54914540ac066": {
+      "documentacion": 0.1667,
+      "evidencia": 0.6666,
+      "representacion": 0.1667
+    },
+    "sac-c458caf516fa3d": {
+      "capacidad-humana": 0.3572,
+      "casos": 0.2857,
+      "decision": 0.0715,
+      "economia": 0.0714,
+      "evidencia": 0.0714,
+      "experimentacion": 0.0714,
+      "representacion": 0.0714
+    },
+    "sac-1691b171d05679": {
+      "autoridad": 0.0714,
+      "cambio-regimen": 0.0714,
+      "cartografia": 0.3572,
+      "decision": 0.0714,
+      "estandares": 0.0714,
+      "evidencia": 0.3572
+    },
+    "sac-4828186e4a0a22": {
+      "documentacion": 0.4706,
+      "evidencia": 0.2941,
+      "experimentacion": 0.2353
+    },
+    "sac-cd6a7daabcffaa": {
+      "documentacion": 0.5,
+      "experimentacion": 0.5
+    },
+    "sac-93023e82471e1e": {
+      "documentacion": 0.6667,
+      "experimentacion": 0.3333
+    },
+    "sac-823e158f1a0177": {
+      "documentacion": 1.0
+    },
+    "sac-91cc76ff2abfd9": {
+      "documentacion": 1.0
+    },
+    "sac-743a64c6e9792b": {
+      "documentacion": 0.8,
+      "experimentacion": 0.2
+    },
+    "sac-73675c9d23ba39": {
+      "documentacion": 1.0
+    },
+    "sac-fd6c0606998575": {
+      "documentacion": 0.8,
+      "representacion": 0.2
+    },
+    "sac-d7a7c8b2d9b0b0": {
+      "cartografia": 0.8333,
+      "decision": 0.1667
+    },
+    "sac-dec29f41dc5880": {
+      "autoridad": 0.1,
+      "cartografia": 0.5,
+      "documentacion": 0.1,
+      "estandares": 0.1,
+      "experimentacion": 0.1,
+      "geopolitica": 0.1
+    },
+    "sac-ca6e836ef0501d": {
+      "evidencia": 0.5,
+      "transformacion": 0.5
+    },
+    "sac-608d98e8174fdd": {
+      "evidencia": 0.5,
+      "transformacion": 0.5
+    },
+    "sac-abd8feae277d4e": {
+      "evidencia": 0.5,
+      "transformacion": 0.5
+    },
+    "sac-28c7a84fe1fd5c": {
+      "evidencia": 1.0
+    },
+    "sac-fcba99119293eb": {
+      "documentacion": 1.0
+    },
+    "sac-91f6b30b438eae": {
+      "documentacion": 0.5,
+      "experimentacion": 0.5
+    },
+    "sac-8c13601228c8f0": {
+      "documentacion": 0.5,
+      "experimentacion": 0.5
+    },
+    "sac-47e077f25a5f6c": {
+      "documentacion": 0.5,
+      "experimentacion": 0.5
+    },
+    "sac-f1238ee31a48c8": {
+      "cartografia": 0.5,
+      "evidencia": 0.1,
+      "representacion": 0.4
+    },
+    "sac-ce80e88b066f15": {
+      "autoridad": 0.5,
+      "experimentacion": 0.5
+    },
+    "sac-53bb1d4c608072": {
+      "documentacion": 0.3334,
+      "estandares": 0.3333,
+      "experimentacion": 0.3333
+    },
+    "sac-0b1c3b79f2ca91": {
+      "decision": 0.5,
+      "estandares": 0.5
+    },
+    "sac-7b074cc4ec22f9": {
+      "evidencia": 0.875,
+      "representacion": 0.125
+    },
+    "sac-12cb3379f4dd58": {
+      "documentacion": 1.0
+    },
+    "sac-ae0fd5d7c0b18c": {
+      "representacion": 1.0
+    },
+    "sac-61291c48546b7c": {
+      "documentacion": 0.5,
+      "experimentacion": 0.5
+    },
+    "sac-0ee7f1023b3545": {
+      "documentacion": 0.1111,
+      "evidencia": 0.8889
+    },
+    "sac-d8146f1cd854d5": {
+      "casos": 0.6666,
+      "decision": 0.1667,
+      "matematicas": 0.1667
+    },
+    "sac-48e8d2eda90072": {
+      "cartografia": 0.0476,
+      "documentacion": 0.5238,
+      "evidencia": 0.1905,
+      "mundo-abierto": 0.0476,
+      "representacion": 0.1905
+    },
+    "sac-e78b39eb56693a": {
+      "documentacion": 0.3889,
+      "evidencia": 0.6111
+    },
+    "sac-93e103da6086e0": {
+      "documentacion": 0.3636,
+      "evidencia": 0.2273,
+      "experimentacion": 0.1818,
+      "geopolitica": 0.2273
+    },
+    "sac-e0918714fdee05": {
+      "documentacion": 1.0
+    },
+    "sac-5e18875e7b0b00": {
+      "cartografia": 0.2778,
+      "documentacion": 0.2222,
+      "evidencia": 0.0556,
+      "experimentacion": 0.0555,
+      "representacion": 0.3889
+    },
+    "sac-70cfa612947190": {
+      "control-minimo": 0.7143,
+      "evidencia": 0.1429,
+      "experimentacion": 0.1428
+    },
+    "sac-1985fdeb3b13cd": {
+      "evidencia": 0.4706,
+      "experimentacion": 0.2941,
+      "matematicas": 0.2353
+    },
+    "sac-0230e8d192f4c7": {
+      "documentacion": 1.0
+    },
+    "sac-f15fe7dc3dd1a2": {
+      "cartografia": 0.4546,
+      "decision": 0.0909,
+      "documentacion": 0.4545
+    },
+    "sac-e62ad4708a846f": {
+      "documentacion": 0.3333,
+      "experimentacion": 0.6667
+    },
+    "sac-76b67501d8fc06": {
+      "cartografia": 0.6471,
+      "documentacion": 0.2941,
+      "evidencia": 0.0588
+    },
+    "sac-c131fbf55dc2f4": {
+      "documentacion": 0.2,
+      "evidencia": 0.8
+    },
+    "sac-36a6e614f4ec9c": {
+      "documentacion": 1.0
+    },
+    "sac-fc0596381c6aea": {
+      "documentacion": 0.5,
+      "experimentacion": 0.5
+    },
+    "sac-e9c6b8795dba34": {
+      "autoridad": 0.0556,
+      "cambio-regimen": 0.2778,
+      "cartografia": 0.2778,
+      "control-minimo": 0.0555,
+      "documentacion": 0.2778,
+      "movilidad": 0.0555
+    },
+    "sac-39f248e149ac14": {
+      "capacidad-humana": 0.625,
+      "casos": 0.125,
+      "control-minimo": 0.125,
+      "mundo-abierto": 0.125
+    },
+    "sac-d4e0ded10784ec": {
+      "capacidad-humana": 0.4546,
+      "documentacion": 0.0909,
+      "evidencia": 0.3636,
+      "representacion": 0.0909
+    },
+    "sac-80bf5781100be5": {
+      "documentacion": 0.3077,
+      "evidencia": 0.3846,
+      "experimentacion": 0.3077
+    },
+    "sac-c3815061a35daf": {
+      "documentacion": 0.3077,
+      "economia": 0.3846,
+      "experimentacion": 0.3077
+    },
+    "sac-3a4d2e2748cedb": {
+      "casos": 0.2353,
+      "economia": 0.2353,
+      "empresa": 0.2353,
+      "evidencia": 0.2941
+    },
+    "sac-5685b8d87834be": {
+      "documentacion": 0.3077,
+      "economia": 0.3846,
+      "experimentacion": 0.3077
+    },
+    "sac-31c1c32e32d701": {
+      "casos": 0.3334,
+      "economia": 0.3333,
+      "empresa": 0.3333
+    },
+    "sac-10621844786c87": {
+      "documentacion": 0.3077,
+      "economia": 0.3846,
+      "experimentacion": 0.3077
+    },
+    "sac-f33ee6d05eb2a2": {
+      "casos": 0.5,
+      "economia": 0.5
+    },
+    "sac-47059691e76757": {
+      "documentacion": 0.5,
+      "experimentacion": 0.5
+    },
+    "sac-c026809161043d": {
+      "documentacion": 1.0
+    },
+    "sac-cb7aa7b84ab6aa": {
+      "casos": 0.6666,
+      "documentacion": 0.1667,
+      "matematicas": 0.1667
+    },
+    "sac-5351e7a6b9bfc2": {
+      "documentacion": 0.3077,
+      "economia": 0.3846,
+      "experimentacion": 0.3077
+    },
+    "sac-5c51bd6d380d88": {
+      "decision": 0.0909,
+      "economia": 0.0909,
+      "empresa": 0.0909,
+      "experimentacion": 0.3637,
+      "representacion": 0.3636
+    },
+    "sac-4135c8ebb7fa28": {
+      "casos": 1.0
+    },
+    "sac-153ecd999c481b": {
+      "documentacion": 0.5,
+      "representacion": 0.5
+    },
+    "sac-c1b914d4bd8355": {
+      "documentacion": 1.0
+    },
+    "sac-8bdc657ee2f41b": {
+      "documentacion": 0.3077,
+      "economia": 0.3846,
+      "experimentacion": 0.3077
+    },
+    "sac-40c77b4a523e43": {
+      "economia": 0.1,
+      "empresa": 0.1,
+      "evidencia": 0.4,
+      "experimentacion": 0.4
+    },
+    "sac-139d0d22a41f8f": {
+      "casos": 1.0
+    },
+    "sac-2c9fe7fe7bffd2": {
+      "documentacion": 0.5,
+      "representacion": 0.5
+    },
+    "sac-45537c5fc09795": {
+      "decision": 0.2222,
+      "economia": 0.2222,
+      "empresa": 0.0556,
+      "evidencia": 0.2222,
+      "mundo-abierto": 0.0556,
+      "representacion": 0.2222
+    },
+    "sac-4c8f1dc5d74810": {
+      "documentacion": 1.0
+    },
+    "sac-03e62ee55e3ebf": {
+      "documentacion": 0.5,
+      "experimentacion": 0.5
+    },
+    "sac-fa12c6094a6b64": {
+      "documentacion": 1.0
+    },
+    "sac-1fca75729f4ea6": {
+      "documentacion": 0.5,
+      "experimentacion": 0.5
+    },
+    "sac-113cf3896aeb97": {
+      "decision": 0.2222,
+      "economia": 0.2222,
+      "empresa": 0.0556,
+      "evidencia": 0.2222,
+      "mundo-abierto": 0.0556,
+      "representacion": 0.2222
+    },
+    "sac-f7421f8b6cebbc": {
+      "documentacion": 1.0
+    },
+    "sac-4b138d2fafcdce": {
+      "documentacion": 0.5,
+      "experimentacion": 0.5
+    },
+    "sac-29b0ba4052bd03": {
+      "documentacion": 1.0
+    },
+    "sac-ac9489f2ea7700": {
+      "documentacion": 0.5,
+      "experimentacion": 0.5
+    },
+    "sac-3e6736e1cc8e8e": {
+      "documentacion": 0.5,
+      "experimentacion": 0.5
+    },
+    "sac-6d3b5ba83d7f0f": {
+      "documentacion": 0.3077,
+      "economia": 0.3846,
+      "experimentacion": 0.3077
+    },
+    "sac-ff995977394348": {
+      "decision": 0.2105,
+      "economia": 0.0527,
+      "empresa": 0.0526,
+      "evidencia": 0.4211,
+      "experimentacion": 0.0526,
+      "representacion": 0.2105
+    },
+    "sac-543841d9b44b02": {
+      "casos": 0.1667,
+      "evidencia": 0.8333
+    },
+    "sac-5418394c2aed53": {
+      "documentacion": 0.5,
+      "representacion": 0.5
+    },
+    "sac-29a16f42acf1b6": {
+      "capacidad-humana": 0.3125,
+      "decision": 0.25,
+      "documentacion": 0.0625,
+      "evidencia": 0.3125,
+      "representacion": 0.0625
+    },
+    "sac-6b26a02b744d4d": {
+      "documentacion": 0.1667,
+      "evidencia": 0.6666,
+      "representacion": 0.1667
+    },
+    "sac-f657580a1f9189": {
+      "documentacion": 0.3334,
+      "economia": 0.3333,
+      "representacion": 0.3333
+    },
+    "sac-0c3e9ed6b294cd": {
+      "casos": 0.0715,
+      "decision": 0.0714,
+      "documentacion": 0.5714,
+      "memoria-territorio": 0.2857
+    },
+    "sac-0f137d3b4465a3": {
+      "documentacion": 1.0
+    },
+    "sac-d7a9350626247e": {
+      "documentacion": 0.1667,
+      "evidencia": 0.6666,
+      "representacion": 0.1667
+    },
+    "sac-c82cb70b56169e": {
+      "documentacion": 0.3077,
+      "economia": 0.3846,
+      "experimentacion": 0.3077
+    },
+    "sac-03c5435cc00764": {
+      "economia": 0.1,
+      "empresa": 0.1,
+      "evidencia": 0.4,
+      "experimentacion": 0.4
+    },
+    "sac-ed5098a806fa77": {
+      "casos": 1.0
+    },
+    "sac-622a0f7295dec5": {
+      "documentacion": 0.5,
+      "representacion": 0.5
+    },
+    "sac-af16e7a293d7dc": {
+      "capacidad-humana": 0.8333,
+      "casos": 0.1667
+    },
+    "sac-1e36201e57a81a": {
+      "documentacion": 0.1667,
+      "evidencia": 0.6666,
+      "representacion": 0.1667
+    },
+    "sac-f105de6a98254f": {
+      "decision": 0.2222,
+      "economia": 0.2222,
+      "empresa": 0.0556,
+      "evidencia": 0.2222,
+      "mundo-abierto": 0.0556,
+      "representacion": 0.2222
+    },
+    "sac-70ecf83cdd2f86": {
+      "documentacion": 1.0
+    },
+    "sac-3040fbf10b38c2": {
+      "documentacion": 0.5,
+      "experimentacion": 0.5
+    },
+    "sac-b2a2965ad59564": {
+      "documentacion": 1.0
+    },
+    "sac-a164324eafa49d": {
+      "documentacion": 0.5,
+      "mundo-abierto": 0.5
+    },
+    "sac-d3fd5def0a6b75": {
+      "experimentacion": 0.1667,
+      "matematicas": 0.8333
+    },
+    "sac-e2bfcc06e158d2": {
+      "decision": 0.0909,
+      "documentacion": 0.4546,
+      "evidencia": 0.3636,
+      "representacion": 0.0909
+    },
+    "sac-6d6d3e7ea4bbf3": {
+      "documentacion": 0.5,
+      "experimentacion": 0.5
+    },
+    "sac-8a2a9c2cf04c3d": {
+      "cambio-regimen": 0.0909,
+      "control-minimo": 0.0909,
+      "economia": 0.4546,
+      "matematicas": 0.3636
+    },
+    "sac-41a095aeeecef1": {
+      "documentacion": 0.1,
+      "evidencia": 0.4,
+      "matematicas": 0.4,
+      "representacion": 0.1
+    },
+    "sac-c88bca498a8ce3": {
+      "documentacion": 1.0
+    },
+    "sac-cb0f029301066f": {
+      "capacidad-humana": 0.2941,
+      "casos": 0.2353,
+      "decision": 0.2353,
+      "documentacion": 0.0589,
+      "economia": 0.0588,
+      "empresa": 0.0588,
+      "experimentacion": 0.0588
+    },
+    "sac-a8f6267bea5a93": {
+      "capacidad-humana": 0.3125,
+      "decision": 0.0625,
+      "documentacion": 0.3125,
+      "representacion": 0.3125
+    },
+    "sac-37dee88d9dfa18": {
+      "documentacion": 0.2778,
+      "evidencia": 0.4444,
+      "representacion": 0.2778
+    },
+    "sac-268f3b0a090f6c": {
+      "capacidad-humana": 0.3572,
+      "experimentacion": 0.2857,
+      "representacion": 0.3571
+    },
+    "sac-0152665d8c37bd": {
+      "documentacion": 0.4706,
+      "experimentacion": 0.2353,
+      "representacion": 0.2941
+    },
+    "sac-eef1fb6039bde8": {
+      "documentacion": 0.4546,
+      "empresa": 0.0909,
+      "representacion": 0.4545
+    },
+    "sac-8bcca6529583cb": {
+      "casos": 0.2667,
+      "documentacion": 0.3333,
+      "economia": 0.0667,
+      "representacion": 0.3333
+    },
+    "sac-76fcbd7ed08662": {
+      "documentacion": 0.1667,
+      "evidencia": 0.6666,
+      "representacion": 0.1667
+    },
+    "sac-e1422d907407a2": {
+      "capacidad-humana": 0.3572,
+      "casos": 0.2857,
+      "decision": 0.0715,
+      "economia": 0.0714,
+      "evidencia": 0.0714,
+      "experimentacion": 0.0714,
+      "representacion": 0.0714
+    },
+    "sac-9ec5bdc99fe43e": {
+      "capacidad-humana": 0.625,
+      "casos": 0.125,
+      "control-minimo": 0.125,
+      "mundo-abierto": 0.125
+    },
+    "sac-161861b3656021": {
+      "capacidad-humana": 0.4546,
+      "documentacion": 0.0909,
+      "evidencia": 0.3636,
+      "representacion": 0.0909
+    },
+    "sac-bd07732c99ab11": {
+      "documentacion": 0.5,
+      "experimentacion": 0.5
+    },
+    "sac-55a10415f1ceb6": {
+      "casos": 0.2353,
+      "economia": 0.2353,
+      "empresa": 0.2353,
+      "evidencia": 0.2941
+    },
+    "sac-d2e58f0f3d091b": {
+      "casos": 0.3334,
+      "economia": 0.3333,
+      "empresa": 0.3333
+    },
+    "sac-fa67278b28c363": {
+      "casos": 1.0
+    },
+    "sac-ec187e0b18f90d": {
+      "experimentacion": 1.0
+    },
+    "sac-48278af622a66e": {
+      "documentacion": 0.6667,
+      "experimentacion": 0.3333
+    },
+    "sac-a10e02075a1791": {
+      "decision": 0.2105,
+      "documentacion": 0.2632,
+      "evidencia": 0.2105,
+      "experimentacion": 0.2632,
+      "transformacion": 0.0526
+    },
+    "sac-5aa788281576d7": {
+      "documentacion": 0.1429,
+      "matematicas": 0.1428,
+      "representacion": 0.7143
+    },
+    "sac-f495a2c6782a5f": {
+      "documentacion": 0.4445,
+      "evidencia": 0.4444,
+      "experimentacion": 0.1111
+    },
+    "sac-4ec8961c9a845f": {
+      "economia": 0.4,
+      "experimentacion": 0.1,
+      "matematicas": 0.5
+    },
+    "sac-cb863915c6bf98": {
+      "integridad-ia": 0.2,
+      "matematicas": 0.8
+    },
+    "sac-d018158d29dcfc": {
+      "documentacion": 0.2,
+      "matematicas": 0.8
+    },
+    "sac-1cdd9e2001ef64": {
+      "documentacion": 1.0
+    },
+    "sac-bff177a4037033": {
+      "documentacion": 0.4546,
+      "integridad-ia": 0.0909,
+      "matematicas": 0.4545
+    },
+    "sac-1aff68016eadad": {
+      "matematicas": 1.0
+    },
+    "sac-673531ee6348b2": {
+      "documentacion": 0.6667,
+      "experimentacion": 0.3333
+    },
+    "sac-71a3ffbd027536": {
+      "economia": 0.0909,
+      "matematicas": 0.4546,
+      "transformacion": 0.4545
+    },
+    "sac-840ab7eb0b6cf0": {
+      "documentacion": 0.4706,
+      "integridad-ia": 0.2353,
+      "matematicas": 0.2941
+    },
+    "sac-71bc6aa48797b9": {
+      "evidencia": 0.1429,
+      "matematicas": 0.7143,
+      "representacion": 0.1428
+    },
+    "sac-ce17c4171daf9c": {
+      "economia": 0.5,
+      "matematicas": 0.5
+    },
+    "sac-2f56366e0ed6d1": {
+      "capacidad-humana": 0.3125,
+      "decision": 0.25,
+      "documentacion": 0.0625,
+      "evidencia": 0.3125,
+      "representacion": 0.0625
+    },
+    "sac-a3f5ef46619826": {
+      "documentacion": 0.1667,
+      "evidencia": 0.6666,
+      "representacion": 0.1667
+    },
+    "sac-5a1e71341a7ce6": {
+      "matematicas": 1.0
+    },
+    "sac-bf44a57f863889": {
+      "documentacion": 1.0
+    },
+    "sac-a0380ebecbf744": {
+      "documentacion": 0.1667,
+      "evidencia": 0.6666,
+      "representacion": 0.1667
+    },
+    "sac-20b387a93bad8e": {
+      "capacidad-humana": 0.8333,
+      "casos": 0.1667
+    },
+    "sac-bd0b880e4e557f": {
+      "documentacion": 0.1667,
+      "evidencia": 0.6666,
+      "representacion": 0.1667
+    },
+    "sac-b2ef5746123913": {
+      "experimentacion": 0.1667,
+      "matematicas": 0.8333
+    },
+    "sac-d8d346a0f0a18c": {
+      "decision": 0.0909,
+      "documentacion": 0.4546,
+      "evidencia": 0.3636,
+      "representacion": 0.0909
+    },
+    "sac-ea0e0716af26ce": {
+      "documentacion": 1.0
+    },
+    "sac-36179547345190": {
+      "documentacion": 0.3077,
+      "experimentacion": 0.3077,
+      "representacion": 0.3846
+    },
+    "sac-0548f78acef17c": {
+      "documentacion": 1.0
+    },
+    "sac-5a5ee13c63bf1a": {
+      "evidencia": 0.2,
+      "matematicas": 0.55,
+      "representacion": 0.25
+    },
+    "sac-5704d5c0472657": {
+      "documentacion": 1.0
+    },
+    "sac-253b7b1644529f": {
+      "evidencia": 1.0
+    },
+    "sac-6eaba3696d2229": {
+      "representacion": 1.0
+    },
+    "sac-1c30bd39f49fcd": {
+      "documentacion": 1.0
+    },
+    "sac-120ccc9cdbac3b": {
+      "decision": 0.0385,
+      "documentacion": 0.1539,
+      "estandares": 0.1538,
+      "evidencia": 0.1538,
+      "experimentacion": 0.4615,
+      "representacion": 0.0385
+    },
+    "sac-0fc32f84f88801": {
+      "documentacion": 0.4,
+      "experimentacion": 0.6
+    },
+    "sac-77f35d7aa816fc": {
+      "documentacion": 0.2353,
+      "evidencia": 0.0588,
+      "experimentacion": 0.7059
+    },
+    "sac-302f79a75d626b": {
+      "experimentacion": 1.0
+    },
+    "sac-64f9ba0c9a5a83": {
+      "evidencia": 1.0
+    },
+    "sac-25d0daa93d6dc4": {
+      "documentacion": 1.0
+    },
+    "sac-ed2501ed257957": {
+      "decision": 0.3636,
+      "evidencia": 0.0909,
+      "experimentacion": 0.4546,
+      "representacion": 0.0909
+    },
+    "sac-c7f2631781ef9b": {
+      "estandares": 0.8333,
+      "experimentacion": 0.1667
+    },
+    "sac-0e15439e147148": {
+      "documentacion": 0.6667,
+      "experimentacion": 0.3333
+    },
+    "sac-bfb218046c4d20": {
+      "decision": 0.1667,
+      "documentacion": 0.2083,
+      "estandares": 0.2083,
+      "evidencia": 0.1667,
+      "experimentacion": 0.2083,
+      "transformacion": 0.0417
+    },
+    "sac-25ab59c56dd6b3": {
+      "documentacion": 1.0
+    },
+    "sac-ccf74393eeb7ed": {
+      "documentacion": 0.5,
+      "experimentacion": 0.5
+    },
+    "sac-842e012fc7d601": {
+      "economia": 0.8333,
+      "experimentacion": 0.1667
+    },
+    "sac-85b581fd7a5e46": {
+      "economia": 0.2,
+      "matematicas": 0.8
+    },
+    "sac-dfba7074eba6a2": {
+      "experimentacion": 1.0
+    },
+    "sac-0b9dedc5a132dc": {
+      "evidencia": 1.0
+    },
+    "sac-0b460b7d138063": {
+      "cartografia": 0.3333,
+      "empresa": 0.0667,
+      "mundo-abierto": 0.3333,
+      "representacion": 0.2667
+    },
+    "sac-74a6a3164efff2": {
+      "cambio-regimen": 0.1818,
+      "control-minimo": 0.1818,
+      "decision": 0.0455,
+      "estandares": 0.1818,
+      "evidencia": 0.1818,
+      "experimentacion": 0.2273
+    },
+    "sac-8243127d88be4e": {
+      "cartografia": 0.3333,
+      "documentacion": 0.6667
+    },
+    "sac-1767646cbcfbc4": {
+      "documentacion": 0.5556,
+      "evidencia": 0.4444
+    },
+    "sac-0001429476af16": {
+      "autoridad": 0.5,
+      "decision": 0.5
+    },
+    "sac-455a584c5bd11b": {
+      "cartografia": 0.2,
+      "casos": 0.16,
+      "evidencia": 0.32,
+      "experimentacion": 0.32
+    },
+    "sac-6d0ff44ed5cddd": {
+      "cartografia": 0.5,
+      "experimentacion": 0.5
+    },
+    "sac-a2d985b38408b1": {
+      "cartografia": 0.5,
+      "documentacion": 0.5
+    },
+    "sac-613b4fc106d800": {
+      "matematicas": 1.0
+    },
+    "sac-f8dff58ae1530f": {
+      "decision": 0.4445,
+      "documentacion": 0.1111,
+      "matematicas": 0.4444
+    },
+    "sac-9ff863b7a910ff": {
+      "decision": 0.4,
+      "documentacion": 0.5,
+      "mundo-abierto": 0.1
+    },
+    "sac-7a2a9e7cca1bef": {
+      "autoridad": 0.3125,
+      "decision": 0.0625,
+      "empresa": 0.0625,
+      "estandares": 0.3125,
+      "representacion": 0.25
+    },
+    "sac-8fe80b703d4af4": {
+      "decision": 0.875,
+      "experimentacion": 0.125
+    },
+    "sac-3281a3f3c6afe9": {
+      "decision": 1.0
+    },
+    "sac-1932d86d87dec9": {
+      "control-minimo": 1.0
+    },
+    "sac-d1e271b1cb92e6": {
+      "autoridad": 0.2917,
+      "cambio-regimen": 0.0417,
+      "casos": 0.1666,
+      "control-minimo": 0.2083,
+      "decision": 0.1666,
+      "evidencia": 0.0417,
+      "experimentacion": 0.0417,
+      "representacion": 0.0417
+    },
+    "sac-76cf2cbe65541b": {
+      "documentacion": 0.625,
+      "empresa": 0.1667,
+      "matematicas": 0.0417,
+      "representacion": 0.1666
+    },
+    "sac-ec08e632df24eb": {
+      "decision": 0.1667,
+      "estandares": 0.6666,
+      "mundo-abierto": 0.1667
+    },
+    "sac-49e3732953a654": {
+      "cartografia": 0.0556,
+      "decision": 0.0556,
+      "documentacion": 0.2778,
+      "evidencia": 0.0555,
+      "mundo-abierto": 0.2778,
+      "perspectiva": 0.2222,
+      "transformacion": 0.0555
+    },
+    "sac-1b3629a775e076": {
+      "experimentacion": 1.0
+    },
+    "sac-3e5af6eedcb6d1": {
+      "documentacion": 1.0
+    },
+    "sac-83078733adb08f": {
+      "cartografia": 0.3334,
+      "control-minimo": 0.3333,
+      "mundo-abierto": 0.3333
+    },
+    "sac-fd71c2bca1eaea": {
+      "experimentacion": 1.0
+    },
+    "sac-c31c9f6af747fd": {
+      "evidencia": 0.5556,
+      "experimentacion": 0.4444
+    },
+    "sac-d2eaa56cd633ad": {
+      "evidencia": 0.8333,
+      "experimentacion": 0.1667
+    },
+    "sac-746eec2340ef34": {
+      "evidencia": 1.0
+    },
+    "sac-52848b7e06d656": {
+      "decision": 0.8,
+      "experimentacion": 0.2
+    },
+    "sac-3339feb076934d": {
+      "documentacion": 1.0
+    },
+    "sac-299ec2232dce0a": {
+      "autoridad": 0.3125,
+      "cambio-regimen": 0.3125,
+      "cartografia": 0.0625,
+      "decision": 0.0625,
+      "documentacion": 0.0625,
+      "estandares": 0.0625,
+      "evidencia": 0.0625,
+      "matematicas": 0.0625
+    },
+    "sac-785e9887d3eafb": {
+      "cambio-regimen": 0.1,
+      "documentacion": 0.8,
+      "evidencia": 0.1
+    },
+    "sac-853481afe009ec": {
+      "decision": 1.0
+    },
+    "sac-3812d30d9921ad": {
+      "decision": 0.5,
+      "experimentacion": 0.5
+    },
+    "sac-a3a12f00f642be": {
+      "evidencia": 0.4167,
+      "experimentacion": 0.5833
+    },
+    "sac-7d8a004f9a27a2": {
+      "aprendizaje": 1.0
+    },
+    "sac-a9d3dc74778d8d": {
+      "documentacion": 0.1,
+      "evidencia": 0.5,
+      "memoria-territorio": 0.4
+    },
+    "sac-c461c53bd2f443": {
+      "decision": 1.0
+    },
+    "sac-3496424f519a74": {
+      "evidencia": 1.0
+    },
+    "sac-522b5e17a033d0": {
+      "documentacion": 0.2857,
+      "evidencia": 0.3572,
+      "representacion": 0.0714,
+      "transformacion": 0.2857
+    },
+    "sac-07cba0fef19c40": {
+      "economia": 0.1,
+      "evidencia": 0.1,
+      "experimentacion": 0.8
+    },
+    "sac-de9e8e9ada6c57": {
+      "documentacion": 1.0
+    },
+    "sac-be5501567db8bd": {
+      "documentacion": 1.0
+    },
+    "sac-2958e5930efdcd": {
+      "evidencia": 0.3846,
+      "memoria-territorio": 0.6154
+    },
+    "sac-3218ad6d4fdbeb": {
+      "decision": 0.2,
+      "experimentacion": 0.8
+    },
+    "sac-62129c5e57a8c7": {
+      "decision": 1.0
+    },
+    "sac-f8694405788c1c": {
+      "documentacion": 1.0
+    },
+    "sac-bfa7147b8109cd": {
+      "experimentacion": 1.0
+    },
+    "sac-2ee03c180fd47e": {
+      "documentacion": 0.1667,
+      "estandares": 0.1667,
+      "experimentacion": 0.6666
+    },
+    "sac-e2b49717b20932": {
+      "documentacion": 0.1,
+      "empresa": 0.4,
+      "mundo-abierto": 0.5
+    },
+    "sac-e80616d86946a5": {
+      "documentacion": 0.1667,
+      "evidencia": 0.8333
+    },
+    "sac-f8fa98f5781247": {
+      "documentacion": 1.0
+    },
+    "sac-a09169599d178c": {
+      "documentacion": 1.0
+    },
+    "sac-d29ecc36fc3ef8": {
+      "decision": 0.0909,
+      "documentacion": 0.3636,
+      "memoria-territorio": 0.0909,
+      "transformacion": 0.4546
+    },
+    "sac-ab6c1315a14c0c": {
+      "documentacion": 0.0909,
+      "evidencia": 0.7273,
+      "experimentacion": 0.0909,
+      "memoria-territorio": 0.0909
+    },
+    "sac-11d06571d310b5": {
+      "decision": 0.6154,
+      "documentacion": 0.3846
+    },
+    "sac-c779cbb6298b17": {
+      "documentacion": 1.0
+    },
+    "sac-81dd6d86597814": {
+      "economia": 0.1429,
+      "empresa": 0.1429,
+      "evidencia": 0.5714,
+      "transformacion": 0.1428
+    },
+    "sac-f777326c4ffcaf": {
+      "documentacion": 0.5,
+      "evidencia": 0.5
+    },
+    "sac-087bbc064c2db1": {
+      "documentacion": 0.25,
+      "evidencia": 0.25,
+      "experimentacion": 0.25,
+      "representacion": 0.25
+    },
+    "sac-de25c076f8d5c3": {
+      "casos": 0.5,
+      "control-minimo": 0.5
+    },
+    "sac-0e3e2d87ad13ba": {
+      "autoridad": 0.3636,
+      "documentacion": 0.4546,
+      "experimentacion": 0.0909,
+      "transformacion": 0.0909
+    },
+    "sac-dbddc2c213299c": {
+      "autoridad": 0.4,
+      "economia": 0.1,
+      "transformacion": 0.5
+    },
+    "sac-31c5add4fe1a12": {
+      "control-minimo": 0.2,
+      "decision": 0.2,
+      "evidencia": 0.2,
+      "geopolitica": 0.2,
+      "perspectiva": 0.2
+    },
+    "sac-60daf120684e1f": {
+      "decision": 0.3333,
+      "documentacion": 0.0834,
+      "evidencia": 0.0833,
+      "experimentacion": 0.4167,
+      "integridad-ia": 0.0833
+    },
+    "sac-29ff1853fce1b4": {
+      "documentacion": 0.5833,
+      "experimentacion": 0.4167
+    },
+    "sac-a3f46f1eae98b8": {
+      "documentacion": 0.4445,
+      "evidencia": 0.1111,
+      "experimentacion": 0.4444
+    },
+    "sac-f6598cd6b2c34e": {
+      "documentacion": 1.0
+    },
+    "sac-a2ef67eb1f9925": {
+      "documentacion": 1.0
+    },
+    "sac-419c0f0f619457": {
+      "matematicas": 1.0
+    },
+    "sac-d5bfc471a2b06f": {
+      "documentacion": 1.0
+    },
+    "sac-eab1a84ceff1cf": {
+      "agentes": 0.4546,
+      "autoridad": 0.0909,
+      "decision": 0.4545
+    },
+    "sac-d40c38672b5047": {
+      "cartografia": 0.4167,
+      "decision": 0.0833,
+      "experimentacion": 0.4167,
+      "movilidad": 0.0833
+    },
+    "sac-d690ab24bfbb41": {
+      "autoridad": 0.3104,
+      "cambio-regimen": 0.1724,
+      "cartografia": 0.1724,
+      "casos": 0.1724,
+      "documentacion": 0.1724
+    },
+    "sac-dc752fdfce5520": {
+      "casos": 0.5,
+      "documentacion": 0.0714,
+      "estandares": 0.0714,
+      "evidencia": 0.3572
+    },
+    "sac-46f342a69a0710": {
+      "estandares": 1.0
+    },
+    "sac-c8eff249292ac7": {
+      "documentacion": 0.3333,
+      "estandares": 0.6667
+    },
+    "sac-972bbd0c4945ab": {
+      "documentacion": 0.3846,
+      "estandares": 0.6154
+    },
+    "sac-99291d027f3934": {
+      "cartografia": 0.1429,
+      "casos": 0.5714,
+      "decision": 0.1429,
+      "estandares": 0.1428
+    },
+    "sac-0824f82b51d104": {
+      "cartografia": 0.0769,
+      "documentacion": 0.8462,
+      "evidencia": 0.0769
+    },
+    "sac-570921775080f7": {
+      "cartografia": 0.2941,
+      "documentacion": 0.2353,
+      "estandares": 0.4706
+    },
+    "sac-86f3196916802b": {
+      "documentacion": 0.7059,
+      "estandares": 0.2353,
+      "representacion": 0.0588
+    },
+    "sac-8cf3754d34bc6c": {
+      "estandares": 1.0
+    },
+    "sac-816112181358db": {
+      "autoridad": 0.0556,
+      "casos": 0.0555,
+      "documentacion": 0.6667,
+      "estandares": 0.2222
+    },
+    "sac-6e447f8268bc02": {
+      "cambio-regimen": 0.1667,
+      "estandares": 0.8333
+    },
+    "sac-069959d3f56c22": {
+      "autoridad": 0.1429,
+      "estandares": 0.7143,
+      "evidencia": 0.1428
+    },
+    "sac-52d38dd2297004": {
+      "estandares": 1.0
+    },
+    "sac-277faacda54900": {
+      "documentacion": 0.2353,
+      "estandares": 0.4706,
+      "evidencia": 0.2941
+    },
+    "sac-c16dfd693e0a63": {
+      "cartografia": 0.3125,
+      "estandares": 0.6875
+    },
+    "sac-113a458111a4f8": {
+      "cartografia": 0.2273,
+      "documentacion": 0.3636,
+      "estandares": 0.3636,
+      "representacion": 0.0455
+    },
+    "sac-c213c512540a60": {
+      "documentacion": 0.3333,
+      "estandares": 0.6667
+    },
+    "sac-1bd5a063027868": {
+      "decision": 0.5,
+      "estandares": 0.5
+    },
+    "sac-6727a213a7542a": {
+      "estandares": 1.0
+    },
+    "sac-499b559561cbfa": {
+      "documentacion": 0.3636,
+      "economia": 0.0909,
+      "estandares": 0.0909,
+      "movilidad": 0.4546
+    },
+    "sac-b402e322994af5": {
+      "matematicas": 1.0
+    },
+    "sac-c1fc248ec5c917": {
+      "evidencia": 0.6666,
+      "experimentacion": 0.1667,
+      "mundo-abierto": 0.1667
+    },
+    "sac-89cbc71072009e": {
+      "matematicas": 1.0
+    },
+    "sac-cc35e18cbe3967": {
+      "cartografia": 0.6667,
+      "documentacion": 0.3333
+    },
+    "sac-991dbae1df8f3a": {
+      "cartografia": 0.4167,
+      "casos": 0.0834,
+      "estandares": 0.0833,
+      "experimentacion": 0.0833,
+      "matematicas": 0.3333
+    },
+    "sac-00b7a258f0bf81": {
+      "cartografia": 0.2632,
+      "documentacion": 0.2632,
+      "empresa": 0.0526,
+      "transformacion": 0.421
+    },
+    "sac-b4f044647b6f42": {
+      "documentacion": 0.5556,
+      "experimentacion": 0.4444
+    },
+    "sac-69878e9fd1b5db": {
+      "documentacion": 0.5,
+      "evidencia": 0.5
+    },
+    "sac-c35cc6399ab42c": {
+      "autoridad": 0.1818,
+      "decision": 0.1818,
+      "documentacion": 0.5454,
+      "economia": 0.0455,
+      "experimentacion": 0.0455
+    },
+    "sac-fe8749abf5adf8": {
+      "cartografia": 0.2381,
+      "documentacion": 0.381,
+      "evidencia": 0.0476,
+      "experimentacion": 0.0476,
+      "integridad-ia": 0.0476,
+      "movilidad": 0.2381
+    },
+    "sac-cc9c0afbc397f0": {
+      "decision": 0.2,
+      "documentacion": 0.55,
+      "evidencia": 0.2,
+      "integridad-ia": 0.05
+    },
+    "sac-7fc0a70b424c5c": {
+      "cartografia": 0.5,
+      "documentacion": 0.5
+    },
+    "sac-71980a714b8b9b": {
+      "casos": 1.0
+    },
+    "sac-a5fd75bedc9aee": {
+      "cartografia": 0.2632,
+      "documentacion": 0.3684,
+      "estandares": 0.0527,
+      "experimentacion": 0.0526,
+      "representacion": 0.2105,
+      "transformacion": 0.0526
+    },
+    "sac-9f80130e2cd182": {
+      "cambio-regimen": 0.8333,
+      "memoria-territorio": 0.1667
+    },
+    "sac-e81dcdb1021761": {
+      "agentes": 0.1429,
+      "cambio-regimen": 0.7143,
+      "evidencia": 0.1428
+    },
+    "sac-9e6e6f39769638": {
+      "cambio-regimen": 0.4167,
+      "documentacion": 0.4167,
+      "empresa": 0.0833,
+      "transformacion": 0.0833
+    },
+    "sac-fc918d6d2945b0": {
+      "documentacion": 0.7778,
+      "matematicas": 0.2222
+    },
+    "sac-d6607b7d38e9c8": {
+      "agentes": 0.0476,
+      "documentacion": 0.1905,
+      "evidencia": 0.1905,
+      "experimentacion": 0.0476,
+      "matematicas": 0.2381,
+      "mundo-abierto": 0.0476,
+      "representacion": 0.2381
+    },
+    "sac-754404a5464599": {
+      "control-minimo": 0.5,
+      "documentacion": 0.5
+    },
+    "sac-96e53a1e0cc7eb": {
+      "control-minimo": 0.4546,
+      "documentacion": 0.0909,
+      "evidencia": 0.3636,
+      "transformacion": 0.0909
+    },
+    "sac-c5640824a356e5": {
+      "autoridad": 0.2941,
+      "control-minimo": 0.2353,
+      "documentacion": 0.4706
+    },
+    "sac-e2578cb0124cca": {
+      "autoridad": 0.3333,
+      "documentacion": 0.0667,
+      "estandares": 0.0667,
+      "evidencia": 0.2667,
+      "transformacion": 0.2666
+    },
+    "sac-c5243396acf301": {
+      "control-minimo": 0.5,
+      "movilidad": 0.4375,
+      "representacion": 0.0625
+    },
+    "sac-dcf0eddbf8db7d": {
+      "control-minimo": 0.3333,
+      "documentacion": 0.6667
+    },
+    "sac-976e393e6cdc9c": {
+      "control-minimo": 0.5,
+      "documentacion": 0.5
+    },
+    "sac-b7e42a633084a9": {
+      "control-minimo": 0.3333,
+      "documentacion": 0.6667
+    },
+    "sac-b8f16f2b69e82b": {
+      "documentacion": 1.0
+    },
+    "sac-46c4c09c06c37f": {
+      "control-minimo": 0.5,
+      "documentacion": 0.5
+    },
+    "sac-6c59e864efb5c4": {
+      "control-minimo": 0.4546,
+      "documentacion": 0.4545,
+      "transformacion": 0.0909
+    },
+    "sac-8823151afbf839": {
+      "control-minimo": 0.7143,
+      "documentacion": 0.1429,
+      "memoria-territorio": 0.1428
+    },
+    "sac-dc1ba322bb2549": {
+      "control-minimo": 0.8333,
+      "estandares": 0.1667
+    },
+    "sac-c1ac0cdd2709a8": {
+      "autoridad": 0.2,
+      "control-minimo": 0.36,
+      "documentacion": 0.2,
+      "empresa": 0.04,
+      "evidencia": 0.16,
+      "transformacion": 0.04
+    },
+    "sac-d40c7ece1146b1": {
+      "estandares": 1.0
+    },
+    "sac-edf6f87b1c9058": {
+      "autoridad": 0.3334,
+      "cambio-regimen": 0.3333,
+      "estandares": 0.3333
+    },
+    "sac-add7c06901b122": {
+      "documentacion": 1.0
+    },
+    "sac-a421ef9243621c": {
+      "documentacion": 1.0
+    },
+    "sac-15e5e7c804c9ae": {
+      "documentacion": 0.3334,
+      "estandares": 0.3333,
+      "evidencia": 0.3333
+    },
+    "sac-84a9d3fd7854e5": {
+      "documentacion": 0.6154,
+      "estandares": 0.3846
+    },
+    "sac-4bc71d975bf84d": {
+      "control-minimo": 0.5556,
+      "documentacion": 0.4444
+    },
+    "sac-ebbabcb7ca63fa": {
+      "cambio-regimen": 0.8333,
+      "estandares": 0.1667
+    },
+    "sac-34e178ec20f0c9": {
+      "estandares": 1.0
+    },
+    "sac-1c896aa4393d04": {
+      "cambio-regimen": 0.2105,
+      "cartografia": 0.0527,
+      "estandares": 0.4737,
+      "mundo-abierto": 0.0526,
+      "representacion": 0.2105
+    },
+    "sac-aa29b1c74f3e1a": {
+      "casos": 0.1724,
+      "control-minimo": 0.1724,
+      "estandares": 0.2759,
+      "evidencia": 0.1724,
+      "integridad-ia": 0.1724,
+      "representacion": 0.0345
+    },
+    "sac-84bd503d7066f9": {
+      "documentacion": 1.0
+    },
+    "sac-cc572e5bbb3323": {
+      "documentacion": 0.4444,
+      "empresa": 0.5556
+    },
+    "sac-bab23c36b17baa": {
+      "documentacion": 0.4444,
+      "empresa": 0.5556
+    },
+    "sac-e56ea8b7faa0b1": {
+      "estandares": 0.5,
+      "mundo-abierto": 0.5
+    },
+    "sac-987cc3e29f01d1": {
+      "estandares": 1.0
+    },
+    "sac-fc241a437f549d": {
+      "documentacion": 0.4444,
+      "navegacion": 0.5556
+    },
+    "sac-db7dac1cf5bebf": {
+      "documentacion": 0.7059,
+      "estandares": 0.2941
+    },
+    "D-082": {
+      "aprendizaje": 0.5,
+      "matematicas": 0.5
+    },
+    "D-083": {
+      "aprendizaje": 0.5,
+      "perspectiva": 0.5
+    },
+    "D-084": {
+      "capacidad-humana": 0.4,
+      "memoria-territorio": 0.6
+    },
+    "D-085": {
+      "memoria-territorio": 1.0
+    },
+    "D-086": {
+      "aprendizaje": 1.0
+    },
+    "D-087": {
+      "aprendizaje": 0.2857,
+      "economia": 0.7143
+    },
+    "D-088": {
+      "aprendizaje": 0.3334,
+      "decision": 0.3333,
+      "economia": 0.3333
+    },
+    "D-089": {
+      "decision": 1.0
+    },
+    "D-090": {
+      "decision": 0.25,
+      "empresa": 0.5,
+      "movilidad": 0.25
+    },
+    "D-091": {
+      "aprendizaje": 1.0
+    },
+    "D-092": {
+      "aprendizaje": 0.2857,
+      "espiritualidad": 0.7143
+    },
+    "D-093": {
+      "aprendizaje": 1.0
+    },
+    "D-094": {
+      "matematicas": 1.0
+    },
+    "D-095": {
+      "aprendizaje": 0.5,
+      "economia": 0.375,
+      "matematicas": 0.125
+    },
+    "D-096": {
+      "casos": 0.3334,
+      "decision": 0.3333,
+      "matematicas": 0.3333
+    },
+    "D-097": {
+      "casos": 0.2,
+      "decision": 0.6,
+      "matematicas": 0.2
+    },
+    "D-098": {
+      "aprendizaje": 1.0
+    },
+    "D-099": {
+      "decision": 1.0
+    },
+    "D-100": {
+      "casos": 0.1818,
+      "control-minimo": 0.4546,
+      "decision": 0.1818,
+      "economia": 0.1818
+    },
+    "D-101": {
+      "economia": 0.5,
+      "perspectiva": 0.5
+    },
+    "D-102": {
+      "aprendizaje": 0.2222,
+      "economia": 0.2222,
+      "integridad-ia": 0.5556
+    },
+    "D-103": {
+      "geopolitica": 1.0
+    },
+    "D-104": {
+      "geopolitica": 0.5,
+      "perspectiva": 0.5
+    },
+    "D-105": {
+      "economia": 0.75,
+      "geopolitica": 0.25
+    },
+    "D-106": {
+      "geopolitica": 0.4,
+      "memoria-territorio": 0.6
+    },
+    "D-107": {
+      "casos": 0.2,
+      "decision": 0.2,
+      "economia": 0.4,
+      "geopolitica": 0.2
+    },
+    "D-108": {
+      "memoria-territorio": 1.0
+    },
+    "D-109": {
+      "autoridad": 0.5,
+      "geopolitica": 0.5
+    },
+    "D-110": {
+      "casos": 0.5455,
+      "decision": 0.2727,
+      "matematicas": 0.1818
+    },
+    "D-111": {
+      "autoridad": 0.1818,
+      "capacidad-humana": 0.1818,
+      "memoria-territorio": 0.6364
+    },
+    "D-112": {
+      "aprendizaje": 0.1429,
+      "autoridad": 0.2857,
+      "capacidad-humana": 0.1429,
+      "decision": 0.1428,
+      "memoria-territorio": 0.2857
+    },
+    "D-113": {
+      "aprendizaje": 0.1818,
+      "autoridad": 0.1818,
+      "memoria-territorio": 0.6364
+    },
+    "D-114": {
+      "autoridad": 0.1539,
+      "decision": 0.3846,
+      "memoria-territorio": 0.3077,
+      "transformacion": 0.1538
+    },
+    "D-115": {
+      "autoridad": 0.1667,
+      "empresa": 0.6666,
+      "transformacion": 0.1667
+    },
+    "D-116": {
+      "aprendizaje": 1.0
+    },
+    "D-117": {
+      "matematicas": 1.0
+    },
+    "D-118": {
+      "autoridad": 0.5,
+      "decision": 0.5
+    },
+    "D-119": {
+      "decision": 0.1818,
+      "geopolitica": 0.1818,
+      "memoria-territorio": 0.2727,
+      "transformacion": 0.3637
+    },
+    "D-120": {
+      "autoridad": 0.2222,
+      "geopolitica": 0.2222,
+      "representacion": 0.5556
+    },
+    "D-121": {
+      "aprendizaje": 0.1818,
+      "capacidad-humana": 0.4546,
+      "decision": 0.1818,
+      "economia": 0.1818
+    },
+    "D-122": {
+      "aprendizaje": 0.5,
+      "perspectiva": 0.5
+    },
+    "D-123": {
+      "aprendizaje": 0.5,
+      "perspectiva": 0.5
+    },
+    "D-124": {
+      "aprendizaje": 0.1667,
+      "control-minimo": 0.3333,
+      "empresa": 0.1667,
+      "perspectiva": 0.1667,
+      "transformacion": 0.1666
+    },
+    "D-125": {
+      "aprendizaje": 0.1818,
+      "capacidad-humana": 0.1818,
+      "empresa": 0.4546,
+      "transformacion": 0.1818
+    },
+    "D-126": {
+      "aprendizaje": 0.1177,
+      "decision": 0.1177,
+      "empresa": 0.5294,
+      "perspectiva": 0.1176,
+      "transformacion": 0.1176
+    },
+    "D-127": {
+      "aprendizaje": 0.5,
+      "decision": 0.5
+    },
+    "D-128": {
+      "aprendizaje": 1.0
+    },
+    "D-129": {
+      "aprendizaje": 0.25,
+      "decision": 0.25,
+      "empresa": 0.25,
+      "transformacion": 0.25
+    },
+    "D-130": {
+      "aprendizaje": 0.3334,
+      "empresa": 0.2222,
+      "perspectiva": 0.2222,
+      "transformacion": 0.2222
+    },
+    "D-131": {
+      "aprendizaje": 0.2941,
+      "casos": 0.1177,
+      "decision": 0.1765,
+      "empresa": 0.1176,
+      "transformacion": 0.2941
+    },
+    "D-132": {
+      "aprendizaje": 0.1053,
+      "autoridad": 0.1053,
+      "casos": 0.1053,
+      "decision": 0.1052,
+      "empresa": 0.4737,
+      "transformacion": 0.1052
+    },
+    "D-133": {
+      "aprendizaje": 0.2222,
+      "decision": 0.2222,
+      "economia": 0.5556
+    },
+    "D-134": {
+      "capacidad-humana": 0.2222,
+      "decision": 0.2222,
+      "economia": 0.5556
+    },
+    "D-135": {
+      "economia": 0.5,
+      "movilidad": 0.5
+    },
+    "D-136": {
+      "economia": 0.7143,
+      "geopolitica": 0.2857
+    },
+    "D-137": {
+      "decision": 0.25,
+      "economia": 0.75
+    },
+    "D-138": {
+      "economia": 0.25,
+      "empresa": 0.5,
+      "transformacion": 0.25
+    },
+    "D-139": {
+      "decision": 1.0
+    },
+    "D-140": {
+      "decision": 0.3571,
+      "economia": 0.6429
+    },
+    "D-141": {
+      "economia": 1.0
+    },
+    "D-142": {
+      "decision": 0.25,
+      "integridad-ia": 0.75
+    },
+    "D-143": {
+      "decision": 0.5,
+      "integridad-ia": 0.5
+    },
+    "D-144": {
+      "decision": 0.7778,
+      "integridad-ia": 0.2222
+    },
+    "D-145": {
+      "decision": 0.5,
+      "integridad-ia": 0.5
+    },
+    "D-146": {
+      "aprendizaje": 1.0
+    },
+    "D-147": {
+      "perspectiva": 1.0
+    },
+    "D-148": {
+      "aprendizaje": 0.3334,
+      "empresa": 0.3333,
+      "transformacion": 0.3333
+    },
+    "D-149": {
+      "aprendizaje": 0.1429,
+      "empresa": 0.4286,
+      "movilidad": 0.1429,
+      "perspectiva": 0.1428,
+      "transformacion": 0.1428
+    },
+    "D-150": {
+      "economia": 0.5,
+      "geopolitica": 0.5
+    },
+    "D-151": {
+      "economia": 0.5,
+      "integridad-ia": 0.5
+    },
+    "D-152": {
+      "autoridad": 0.2857,
+      "decision": 0.7143
+    },
+    "D-153": {
+      "autoridad": 0.25,
+      "decision": 0.25,
+      "empresa": 0.5
+    },
+    "D-154": {
+      "autoridad": 0.4,
+      "decision": 0.6
+    },
+    "D-155": {
+      "autoridad": 0.2857,
+      "decision": 0.7143
+    },
+    "D-156": {
+      "autoridad": 0.5,
+      "decision": 0.5
+    },
+    "D-157": {
+      "memoria-territorio": 0.6667,
+      "perspectiva": 0.3333
+    },
+    "D-158": {
+      "decision": 1.0
+    },
+    "D-159": {
+      "decision": 1.0
+    },
+    "D-160": {
+      "aprendizaje": 0.3333,
+      "estandares": 0.6667
+    },
+    "D-161": {
+      "decision": 1.0
+    },
+    "D-162": {
+      "decision": 0.4,
+      "economia": 0.2,
+      "evidencia": 0.4
+    },
+    "D-163": {
+      "aprendizaje": 0.25,
+      "decision": 0.25,
+      "transformacion": 0.5
+    },
+    "D-164": {
+      "economia": 1.0
+    },
+    "D-165": {
+      "experimentacion": 1.0
+    },
+    "D-166": {
+      "autoridad": 0.5,
+      "experimentacion": 0.5
+    },
+    "D-167": {
+      "aprendizaje": 0.5,
+      "experimentacion": 0.5
+    },
+    "D-168": {
+      "autoridad": 0.2857,
+      "economia": 0.7143
+    },
+    "D-169": {
+      "autoridad": 0.4286,
+      "estandares": 0.5714
+    },
+    "D-170": {
+      "autoridad": 1.0
+    },
+    "D-171": {
+      "autoridad": 0.75,
+      "decision": 0.25
+    },
+    "D-172": {
+      "autoridad": 0.375,
+      "estandares": 0.625
+    },
+    "D-173": {
+      "aprendizaje": 1.0
+    },
+    "D-174": {
+      "aprendizaje": 0.5,
+      "decision": 0.5
+    },
+    "D-175": {
+      "decision": 0.4,
+      "economia": 0.2,
+      "empresa": 0.4
+    },
+    "D-176": {
+      "decision": 0.75,
+      "economia": 0.25
+    },
+    "D-177": {
+      "economia": 1.0
+    },
+    "D-178": {
+      "autoridad": 0.5,
+      "decision": 0.5
+    },
+    "D-179": {
+      "economia": 0.3333,
+      "geopolitica": 0.6667
+    },
+    "D-180": {
+      "aprendizaje": 0.2,
+      "empresa": 0.6,
+      "transformacion": 0.2
+    },
+    "D-181": {
+      "casos": 0.3125,
+      "empresa": 0.25,
+      "movilidad": 0.125,
+      "transformacion": 0.3125
+    },
+    "D-182": {
+      "casos": 0.2,
+      "decision": 0.3,
+      "movilidad": 0.5
+    },
+    "D-183": {
+      "matematicas": 1.0
+    },
+    "D-184": {
+      "perspectiva": 1.0
+    },
+    "D-185": {
+      "decision": 1.0
+    },
+    "D-186": {
+      "aprendizaje": 0.1667,
+      "economia": 0.3333,
+      "empresa": 0.1667,
+      "memoria-territorio": 0.1667,
+      "transformacion": 0.1666
+    },
+    "D-187": {
+      "memoria-territorio": 0.25,
+      "movilidad": 0.75
+    },
+    "D-188": {
+      "decision": 0.5,
+      "economia": 0.5
+    },
+    "D-189": {
+      "autoridad": 0.375,
+      "estandares": 0.625
+    },
+    "D-190": {
+      "aprendizaje": 0.381,
+      "economia": 0.2857,
+      "empresa": 0.2381,
+      "movilidad": 0.0952
+    },
+    "D-191": {
+      "economia": 0.3334,
+      "movilidad": 0.3333,
+      "transformacion": 0.3333
+    },
+    "D-192": {
+      "autoridad": 0.2,
+      "economia": 0.6,
+      "movilidad": 0.2
+    },
+    "D-193": {
+      "economia": 0.3333,
+      "estandares": 0.6667
+    },
+    "D-194": {
+      "aprendizaje": 0.3334,
+      "empresa": 0.3333,
+      "transformacion": 0.3333
+    },
+    "D-195": {
+      "autoridad": 0.5,
+      "economia": 0.5
+    },
+    "D-196": {
+      "casos": 0.3334,
+      "decision": 0.3333,
+      "economia": 0.3333
+    },
+    "D-197": {
+      "economia": 0.3333,
+      "representacion": 0.6667
+    },
+    "D-198": {
+      "economia": 0.4,
+      "memoria-territorio": 0.6
+    },
+    "D-199": {
+      "economia": 1.0
+    },
+    "D-200": {
+      "economia": 1.0
+    },
+    "D-201": {
+      "decision": 0.4,
+      "economia": 0.6
+    },
+    "D-202": {
+      "decision": 0.2,
+      "economia": 0.8
+    },
+    "D-203": {
+      "decision": 0.25,
+      "economia": 0.25,
+      "matematicas": 0.5
+    },
+    "D-204": {
+      "aprendizaje": 0.5,
+      "autoridad": 0.5
+    },
+    "D-205": {
+      "memoria-territorio": 0.3,
+      "perspectiva": 0.7
+    },
+    "D-206": {
+      "aprendizaje": 0.3334,
+      "empresa": 0.3333,
+      "transformacion": 0.3333
+    },
+    "D-207": {
+      "aprendizaje": 0.3334,
+      "autoridad": 0.3333,
+      "economia": 0.3333
+    },
+    "D-208": {
+      "aprendizaje": 0.5,
+      "autoridad": 0.5
+    },
+    "D-209": {
+      "geopolitica": 0.5,
+      "integridad-ia": 0.5
+    },
+    "D-210": {
+      "geopolitica": 1.0
+    },
+    "D-211": {
+      "autoridad": 1.0
+    },
+    "D-212": {
+      "economia": 0.3334,
+      "geopolitica": 0.3333,
+      "integridad-ia": 0.3333
+    },
+    "D-213": {
+      "integridad-ia": 1.0
+    },
+    "D-214": {
+      "aprendizaje": 1.0
+    },
+    "D-215": {
+      "aprendizaje": 1.0
+    },
+    "D-216": {
+      "matematicas": 1.0
+    },
+    "D-217": {
+      "decision": 0.5,
+      "matematicas": 0.5
+    },
+    "D-218": {
+      "integridad-ia": 1.0
+    },
+    "D-219": {
+      "aprendizaje": 0.3125,
+      "decision": 0.125,
+      "matematicas": 0.3125,
+      "mundo-abierto": 0.25
+    },
+    "D-220": {
+      "aprendizaje": 1.0
+    },
+    "D-221": {
+      "aprendizaje": 0.1539,
+      "casos": 0.1539,
+      "decision": 0.1538,
+      "empresa": 0.3846,
+      "transformacion": 0.1538
+    },
+    "D-222": {
+      "economia": 1.0
+    },
+    "D-223": {
+      "aprendizaje": 0.25,
+      "empresa": 0.25,
+      "perspectiva": 0.25,
+      "transformacion": 0.25
+    },
+    "D-224": {
+      "autoridad": 0.3333,
+      "evidencia": 0.6667
+    },
+    "D-225": {
+      "decision": 0.3333,
+      "perspectiva": 0.6667
+    },
+    "D-226": {
+      "empresa": 1.0
+    },
+    "D-227": {
+      "capacidad-humana": 0.2222,
+      "memoria-territorio": 0.7778
+    },
+    "D-228": {
+      "aprendizaje": 0.2222,
+      "empresa": 0.2222,
+      "memoria-territorio": 0.3334,
+      "transformacion": 0.2222
+    },
+    "D-229": {
+      "evidencia": 0.6667,
+      "integridad-ia": 0.3333
+    },
+    "D-230": {
+      "aprendizaje": 0.5,
+      "decision": 0.5
+    },
+    "D-231": {
+      "aprendizaje": 0.5,
+      "autoridad": 0.5
+    },
+    "D-232": {
+      "aprendizaje": 0.3333,
+      "empresa": 0.1334,
+      "memoria-territorio": 0.1333,
+      "transformacion": 0.4
+    },
+    "D-233": {
+      "autoridad": 0.5,
+      "memoria-territorio": 0.5
+    },
+    "D-234": {
+      "integridad-ia": 0.5,
+      "memoria-territorio": 0.5
+    },
+    "D-235": {
+      "autoridad": 0.3334,
+      "decision": 0.3333,
+      "evidencia": 0.3333
+    },
+    "D-236": {
+      "evidencia": 1.0
+    },
+    "D-237": {
+      "autoridad": 0.25,
+      "empresa": 0.5,
+      "evidencia": 0.25
+    },
+    "D-238": {
+      "aprendizaje": 1.0
+    },
+    "D-239": {
+      "aprendizaje": 0.3334,
+      "empresa": 0.3333,
+      "transformacion": 0.3333
+    },
+    "D-240": {
+      "evidencia": 0.25,
+      "experimentacion": 0.5,
+      "perspectiva": 0.25
+    },
+    "D-241": {
+      "capacidad-humana": 0.1538,
+      "empresa": 0.3077,
+      "experimentacion": 0.3077,
+      "memoria-territorio": 0.2308
+    },
+    "D-242": {
+      "aprendizaje": 0.4286,
+      "capacidad-humana": 0.1429,
+      "empresa": 0.1429,
+      "memoria-territorio": 0.1428,
+      "transformacion": 0.1428
+    },
+    "D-243": {
+      "autoridad": 0.25,
+      "documentacion": 0.5,
+      "matematicas": 0.25
+    },
+    "D-244": {
+      "transformacion": 1.0
+    },
+    "D-245": {
+      "autoridad": 1.0
+    },
+    "D-246": {
+      "aprendizaje": 1.0
+    },
+    "D-247": {
+      "economia": 0.3334,
+      "evidencia": 0.3333,
+      "transformacion": 0.3333
+    },
+    "D-248": {
+      "economia": 1.0
+    },
+    "D-249": {
+      "aprendizaje": 0.1334,
+      "evidencia": 0.1333,
+      "memoria-territorio": 0.6,
+      "transformacion": 0.1333
+    },
+    "D-250": {
+      "aprendizaje": 0.8182,
+      "matematicas": 0.1818
+    },
+    "D-251": {
+      "autoridad": 0.1334,
+      "geopolitica": 0.1333,
+      "memoria-territorio": 0.7333
+    },
+    "D-252": {
+      "capacidad-humana": 0.1176,
+      "documentacion": 0.2353,
+      "memoria-territorio": 0.6471
+    },
+    "D-253": {
+      "capacidad-humana": 0.1667,
+      "memoria-territorio": 0.6666,
+      "transformacion": 0.1667
+    },
+    "D-254": {
+      "decision": 0.3333,
+      "perspectiva": 0.6667
+    },
+    "D-255": {
+      "decision": 0.25,
+      "empresa": 0.5,
+      "perspectiva": 0.25
+    },
+    "D-256": {
+      "aprendizaje": 0.25,
+      "empresa": 0.25,
+      "perspectiva": 0.25,
+      "transformacion": 0.25
+    },
+    "D-257": {
+      "perspectiva": 1.0
+    },
+    "D-258": {
+      "autoridad": 1.0
+    },
+    "D-259": {
+      "geopolitica": 0.1667,
+      "memoria-territorio": 0.6666,
+      "transformacion": 0.1667
+    },
+    "D-260": {
+      "memoria-territorio": 1.0
+    },
+    "D-261": {
+      "economia": 1.0
+    },
+    "D-262": {
+      "autoridad": 0.5,
+      "economia": 0.5
+    },
+    "D-263": {
+      "autoridad": 0.4615,
+      "memoria-territorio": 0.5385
+    },
+    "D-264": {
+      "aprendizaje": 0.2174,
+      "autoridad": 0.0869,
+      "empresa": 0.2609,
+      "transformacion": 0.4348
+    },
+    "D-265": {
+      "empresa": 1.0
+    },
+    "D-266": {
+      "matematicas": 1.0
+    },
+    "D-267": {
+      "empresa": 0.5,
+      "evidencia": 0.25,
+      "perspectiva": 0.25
+    },
+    "D-268": {
+      "evidencia": 0.2222,
+      "memoria-territorio": 0.7778
+    },
+    "D-269": {
+      "perspectiva": 1.0
+    },
+    "D-270": {
+      "aprendizaje": 0.3334,
+      "decision": 0.3333,
+      "economia": 0.3333
+    },
+    "D-271": {
+      "decision": 1.0
+    },
+    "D-272": {
+      "perspectiva": 1.0
+    },
+    "D-273": {
+      "memoria-territorio": 0.4286,
+      "transformacion": 0.5714
+    },
+    "D-274": {
+      "aprendizaje": 0.5,
+      "perspectiva": 0.5
+    },
+    "D-275": {
+      "aprendizaje": 0.1539,
+      "autoridad": 0.4615,
+      "espiritualidad": 0.3846
+    },
+    "D-276": {
+      "decision": 0.2222,
+      "perspectiva": 0.7778
+    },
+    "D-277": {
+      "aprendizaje": 0.3334,
+      "decision": 0.3333,
+      "perspectiva": 0.3333
+    },
+    "D-278": {
+      "decision": 0.7143,
+      "matematicas": 0.2857
+    },
+    "D-279": {
+      "matematicas": 1.0
+    },
+    "D-280": {
+      "experimentacion": 0.7143,
+      "matematicas": 0.2857
+    },
+    "D-281": {
+      "autoridad": 1.0
+    },
+    "D-282": {
+      "experimentacion": 0.625,
+      "matematicas": 0.375
+    },
+    "D-283": {
+      "evidencia": 0.4,
+      "memoria-territorio": 0.6
+    },
+    "D-284": {
+      "aprendizaje": 0.1667,
+      "autoridad": 0.1667,
+      "decision": 0.1667,
+      "empresa": 0.1667,
+      "geopolitica": 0.1666,
+      "transformacion": 0.1666
+    },
+    "D-285": {
+      "aprendizaje": 0.05,
+      "empresa": 0.35,
+      "evidencia": 0.05,
+      "matematicas": 0.1,
+      "representacion": 0.2,
+      "transformacion": 0.25
+    },
+    "D-286": {
+      "aprendizaje": 0.125,
+      "decision": 0.125,
+      "empresa": 0.375,
+      "memoria-territorio": 0.125,
+      "movilidad": 0.125,
+      "transformacion": 0.125
+    },
+    "D-287": {
+      "aprendizaje": 0.1667,
+      "decision": 0.5,
+      "experimentacion": 0.1667,
+      "transformacion": 0.1666
+    },
+    "D-288": {
+      "economia": 0.3334,
+      "experimentacion": 0.3333,
+      "transformacion": 0.3333
+    },
+    "D-289": {
+      "autoridad": 1.0
+    },
+    "D-290": {
+      "documentacion": 0.7778,
+      "geopolitica": 0.2222
+    },
+    "D-291": {
+      "decision": 0.5,
+      "evidencia": 0.5
+    },
+    "D-292": {
+      "experimentacion": 1.0
+    },
+    "D-293": {
+      "decision": 0.25,
+      "matematicas": 0.25,
+      "representacion": 0.5
+    },
+    "D-294": {
+      "casos": 0.2857,
+      "economia": 0.1429,
+      "memoria-territorio": 0.2143,
+      "movilidad": 0.3571
+    },
+    "D-295": {
+      "aprendizaje": 0.2857,
+      "economia": 0.7143
+    },
+    "D-296": {
+      "autoridad": 0.5,
+      "decision": 0.5
+    },
+    "D-297": {
+      "autoridad": 0.2222,
+      "capacidad-humana": 0.2222,
+      "memoria-territorio": 0.3334,
+      "transformacion": 0.2222
+    },
+    "D-298": {
+      "geopolitica": 1.0
+    }
+  },
+  "tag_weight_overrides": {
+    "E2": {
+      "decision": 0.1,
+      "empresa": 0.45,
+      "navegacion": 0.05,
+      "perspectiva": 0.15,
+      "transformacion": 0.25
+    },
+    "N2": {
+      "capacidad-humana": 0.35,
+      "documentacion": 0.1,
+      "empresa": 0.25,
+      "navegacion": 0.05,
+      "transformacion": 0.25
+    },
+    "U2": {
+      "aprendizaje": 0.1,
+      "decision": 0.1,
+      "empresa": 0.4,
+      "navegacion": 0.05,
+      "transformacion": 0.35
+    },
+    "D-285": {
+      "aprendizaje": 0.05,
+      "empresa": 0.35,
+      "evidencia": 0.05,
+      "matematicas": 0.1,
+      "representacion": 0.2,
+      "transformacion": 0.25
+    }
+  },
+  "tag_weight_method": {
+    "schema": "perspective-beyond/tag-composition-v1",
+    "unit": "proportion",
+    "sum": 1,
+    "method": "Perfil editorial de lectura. Las composiciones automáticas ponderan señales en título (4), resumen (3) y conceptos vinculados (1), con una base positiva por etiqueta previa. Los perfiles editoriales explícitos prevalecen. Redondeo a 10000 unidades.",
+    "editorial_overrides": [
+      "E2",
+      "N2",
+      "U2",
+      "D-285"
+    ],
+    "editable": true
+  },
+  "positioning": {
+    "schema": "perspective-beyond/positioning-v1",
+    "url": "posicionamiento/",
+    "defaultTokens": 2000,
+    "defaultSources": {
+      "eu": "E2",
+      "net": "N2",
+      "us": "U2",
+      "tegrity": "T1573",
+      "imsv": "S14",
+      "totonacapan": "np-biografia",
+      "mobility": "E1953",
+      "latinoempresa": "L002",
+      "research": "GH049",
+      "dialogos": "D-067"
+    },
+    "defaultDocuments": {
+      "eu": "https://jubap.eu/",
+      "net": "https://jubap.net/",
+      "us": "https://jubap.us/",
+      "tegrity": "https://tegrity.ai/",
+      "imsv": "https://integralmanagement.ch/",
+      "totonacapan": "https://totonacapan.com/?page_id=413",
+      "mobility": "https://jubap.eu/mobility/",
+      "latinoempresa": "https://www.latinoempresa.com/post/narrativa-centro-y-frontera-por-qué-los-modelos-simples-fallan-cuando-llega-la-implementación",
+      "research": "https://github.com/dakleyer/structural-awareness-contributions/blob/5b0ac924b8646215348e58076230c42f499e8823/research/ecosystem-awareness/baseline/00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md",
+      "dialogos": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-067.html"
+    },
+    "navigation": [
+      {
+        "id": "position-nav-E2-E1731",
+        "from": "E2",
+        "to": "E1731",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «JubAp.EU», el enlace «strategic-reframing account» abre «Reframing Value Creation».",
+        "evidence": "https://jubap.eu/",
+        "href": "https://jubap.eu/reframing-value-creation/"
+      },
+      {
+        "id": "position-nav-E2-T1474",
+        "from": "E2",
+        "to": "T1474",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «JubAp.EU», el enlace «attribution-and-capability bridge» abre «Bridge: The Attribution Gap and Capability Loss».",
+        "evidence": "https://jubap.eu/",
+        "href": "https://tegrity.ai/bridge-the-attribution-gap-and-capability-loss/"
+      },
+      {
+        "id": "position-nav-E2-E1628",
+        "from": "E2",
+        "to": "E1628",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «JubAp.EU», el enlace «Jump Up Business Action Plan» abre «The JUBAP Framework».",
+        "evidence": "https://jubap.eu/",
+        "href": "https://jubap.eu/the-jubap-framework/"
+      },
+      {
+        "id": "position-nav-E2-N2",
+        "from": "E2",
+        "to": "N2",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «JubAp.EU», el enlace «JubAp.Net» abre «JubAp.Net».",
+        "evidence": "https://jubap.eu/",
+        "href": "https://JubAp.net"
+      },
+      {
+        "id": "position-nav-E2-U2",
+        "from": "E2",
+        "to": "U2",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «JubAp.EU», el enlace «JubAp.us» abre «JubAp.US».",
+        "evidence": "https://jubap.eu/",
+        "href": "https://JubAp.us"
+      },
+      {
+        "id": "position-nav-E2-T1726",
+        "from": "E2",
+        "to": "T1726",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «JubAp.EU», el enlace «Tegrity.AI Industry Reference Group» abre «Industry Reference Group».",
+        "evidence": "https://jubap.eu/",
+        "href": "https://tegrity.ai/industry-reference-group/"
+      },
+      {
+        "id": "position-nav-E2-T1687",
+        "from": "E2",
+        "to": "T1687",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «JubAp.EU», el enlace «Explore contributions, technical exchanges and work in development →» abre «Research Contributions».",
+        "evidence": "https://jubap.eu/",
+        "href": "https://tegrity.ai/research-contributions/"
+      },
+      {
+        "id": "position-nav-E2-E1221",
+        "from": "E2",
+        "to": "E1221",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «JubAp.EU», el enlace «Last articles» abre «Field Notes».",
+        "evidence": "https://jubap.eu/",
+        "href": "https://jubap.eu/field-notes/"
+      },
+      {
+        "id": "position-nav-N2-N1295",
+        "from": "N2",
+        "to": "N1295",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «JubAp.Net», el enlace «Tiger Team operating model» abre «JubAp.Net Tiger Team Model».",
+        "evidence": "https://jubap.net/",
+        "href": "https://jubap.net/jupap-net-tiger-team-model/"
+      },
+      {
+        "id": "position-nav-N2-N2086",
+        "from": "N2",
+        "to": "N2086",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «JubAp.Net», el enlace «architectural-continuity account» abre «From Frontier Engineering to Ecosystem Awareness — Twenty Years of Architectural Continuity».",
+        "evidence": "https://jubap.net/",
+        "href": "https://jubap.net/frontier-engineering-ecosystem-awareness-architectural-continuity/"
+      },
+      {
+        "id": "position-nav-N2-N250",
+        "from": "N2",
+        "to": "N250",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «JubAp.Net», el enlace «Explore our Case Studies» abre «Case Studies».",
+        "evidence": "https://jubap.net/",
+        "href": "https://jubap.net/case-studies/"
+      },
+      {
+        "id": "position-nav-N2-T1687",
+        "from": "N2",
+        "to": "T1687",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «JubAp.Net», el enlace «See the public contribution record» abre «Research Contributions».",
+        "evidence": "https://jubap.net/",
+        "href": "https://tegrity.ai/research-contributions/"
+      },
+      {
+        "id": "position-nav-N2-E1628",
+        "from": "N2",
+        "to": "E1628",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «JubAp.Net», el enlace «Jump Up Business Action Plan» abre «The JUBAP Framework».",
+        "evidence": "https://jubap.net/",
+        "href": "https://jubap.eu/the-jubap-framework/"
+      },
+      {
+        "id": "position-nav-N2-E2",
+        "from": "N2",
+        "to": "E2",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «JubAp.Net», el enlace «JubAp.EU» abre «JubAp.EU».",
+        "evidence": "https://jubap.net/",
+        "href": "https://JubAp.eu"
+      },
+      {
+        "id": "position-nav-N2-U2",
+        "from": "N2",
+        "to": "U2",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «JubAp.Net», el enlace «JubAp.US» abre «JubAp.US».",
+        "evidence": "https://jubap.net/",
+        "href": "https://JubAp.us"
+      },
+      {
+        "id": "position-nav-N2-T1726",
+        "from": "N2",
+        "to": "T1726",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «JubAp.Net», el enlace «Tegrity.AI Industry Reference Group» abre «Industry Reference Group».",
+        "evidence": "https://jubap.net/",
+        "href": "https://tegrity.ai/industry-reference-group/"
+      },
+      {
+        "id": "position-nav-U2-E1628",
+        "from": "U2",
+        "to": "E1628",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «JubAp.US», el enlace «Jump Up Business Action Plan» abre «The JUBAP Framework».",
+        "evidence": "https://jubap.us/",
+        "href": "https://jubap.eu/the-jubap-framework/"
+      },
+      {
+        "id": "position-nav-U2-U1325",
+        "from": "U2",
+        "to": "U1325",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «JubAp.US», el enlace «DMG MORI Post-merger integration, international supply-chain control and mission-critical industrial delivery. Read the case study  ↗» abre «Case Study: DMG MORI — Multilevel Post-Merger Integration, International Supply Chain Control & Mission-Critical Industrial Delivery (2013 – 2016)».",
+        "evidence": "https://jubap.us/",
+        "href": "https://jubap.us/case-study-dmg-mori-multilevel-post-merger-integration-international-supply-chain-control-mission-critical-industrial-delivery-2013-2016/"
+      },
+      {
+        "id": "position-nav-U2-U1322",
+        "from": "U2",
+        "to": "U1322",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «JubAp.US», el enlace «Weatherford Multi-level supplier information, audit readiness and evidence architecture. Read the case study  ↗» abre «Case Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management».",
+        "evidence": "https://jubap.us/",
+        "href": "https://jubap.us/case-study-weatherford-multi-level-information-management-for-oilfield-supplier-management/"
+      },
+      {
+        "id": "position-nav-U2-U1317",
+        "from": "U2",
+        "to": "U1317",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «JubAp.US», el enlace «Superior Performance Texas-to-Mexico knowledge transfer, operations integration and industrialization. Read the case study  ↗» abre «Case Study: Texas-to-Mexico Oilfield Services Transformation: Knowledge Transfer, Industrialization, and Compliance».",
+        "evidence": "https://jubap.us/",
+        "href": "https://jubap.us/case-study-texas-to-mexico-oilfield-services-transformation-knowledge-transfer-industrialization-and-compliance/"
+      },
+      {
+        "id": "position-nav-U2-U1681",
+        "from": "U2",
+        "to": "U1681",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «JubAp.US», el enlace «Chicontepec Megaproject SPV structuring, supplier integration and compliance within a complex energy ecosystem. Read the case study  ↗» abre «Case Study: Chicontepec Megaproject».",
+        "evidence": "https://jubap.us/",
+        "href": "https://jubap.us/case-study-chicontepec-megaproject/"
+      },
+      {
+        "id": "position-nav-U2-U1312",
+        "from": "U2",
+        "to": "U1312",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «JubAp.US», el enlace «Luxury Group HR information-system rationalization and workforce capability architecture. Read the case study  ↗» abre «Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment».",
+        "evidence": "https://jubap.us/",
+        "href": "https://jubap.us/luxury-group-hr-information-system-rationalization-smart-scheduling-capabilities-deployment/"
+      },
+      {
+        "id": "position-nav-U2-U250",
+        "from": "U2",
+        "to": "U250",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «JubAp.US», el enlace «Explore our Case Studies» abre «Case Studies».",
+        "evidence": "https://jubap.us/",
+        "href": "https://jubap.us/case-studies/"
+      },
+      {
+        "id": "position-nav-U2-U1492",
+        "from": "U2",
+        "to": "U1492",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «JubAp.US», el enlace «Distributed American Innovation account» abre «Distributed Operational Intelligence Across the Americas».",
+        "evidence": "https://jubap.us/",
+        "href": "https://jubap.us/distributed-operational-intelligence-across-the-americas/"
+      },
+      {
+        "id": "position-nav-T1573-S14",
+        "from": "T1573",
+        "to": "S14",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «Tegrity.AI», el enlace «The Integral Management Society» abre «The Integral Management Society».",
+        "evidence": "https://tegrity.ai/",
+        "href": "https://integralmanagement.ch/"
+      },
+      {
+        "id": "position-nav-T1573-T2729",
+        "from": "T1573",
+        "to": "T2729",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «Tegrity.AI», el enlace «working paper» abre «Minimum Sufficient Control Architecture for AI Enabled Urban Systems».",
+        "evidence": "https://tegrity.ai/",
+        "href": "https://tegrity.ai/minimum-sufficient-control-architecture-for-ai-enabled-urban-systems/"
+      },
+      {
+        "id": "position-nav-T1573-T2744",
+        "from": "T1573",
+        "to": "T2744",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «Tegrity.AI», el enlace «Worked case and method» abre «From Field Practice to Pre-Standardization: An Extensible Case-Study Framework».",
+        "evidence": "https://tegrity.ai/",
+        "href": "https://tegrity.ai/from-field-practice-to-pre-standardization-an-extensible-case-study-framework/"
+      },
+      {
+        "id": "position-nav-T1573-T1221",
+        "from": "T1573",
+        "to": "T1221",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «Tegrity.AI», el enlace «field cases» abre «Regime Awareness: Capability Development Across Four Field Cases».",
+        "evidence": "https://tegrity.ai/",
+        "href": "https://tegrity.ai/evolution-of-regime-awareness-capability/"
+      },
+      {
+        "id": "position-nav-T1573-T1387",
+        "from": "T1573",
+        "to": "T1387",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «Tegrity.AI», el enlace «Good Enough EWS» abre «Minimalistic Regime-Aware Early Warning Systems».",
+        "evidence": "https://tegrity.ai/",
+        "href": "https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/"
+      },
+      {
+        "id": "position-nav-T1573-T1513",
+        "from": "T1573",
+        "to": "T1513",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «Tegrity.AI», el enlace «H1–H3 validation proposal» abre «Regime-Aware Semantic Windows: Proposal for Mathematical Assessment and Empirical Validation».",
+        "evidence": "https://tegrity.ai/",
+        "href": "https://tegrity.ai/regime-aware-semantic-windows-mathematical-validation/"
+      },
+      {
+        "id": "position-nav-T1573-T1709",
+        "from": "T1573",
+        "to": "T1709",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «Tegrity.AI», el enlace «Research Initiatives» abre «Research Initiatives».",
+        "evidence": "https://tegrity.ai/",
+        "href": "https://tegrity.ai/research-initiatives/"
+      },
+      {
+        "id": "position-nav-T1573-T1499",
+        "from": "T1573",
+        "to": "T1499",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «Tegrity.AI», el enlace «Structural Awareness synthesis» abre «Structural Awareness».",
+        "evidence": "https://tegrity.ai/",
+        "href": "https://tegrity.ai/structural-awareness-program/"
+      },
+      {
+        "id": "position-nav-S14-T1709",
+        "from": "S14",
+        "to": "T1709",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «The Integral Management Society», el enlace «programa» abre «Research Initiatives».",
+        "evidence": "https://integralmanagement.ch/",
+        "href": "https://tegrity.ai/research-initiatives/"
+      },
+      {
+        "id": "position-nav-S14-S11",
+        "from": "S14",
+        "to": "S11",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «The Integral Management Society», el enlace «FG-TIDA, grupo de la UIT-T sobre confianza e identidad» abre «ITU Focus Groups y contexto institucional».",
+        "evidence": "https://integralmanagement.ch/",
+        "href": "https://www.itu.int/en/ITU-T/focusgroups/tida/Pages/default.aspx"
+      },
+      {
+        "id": "position-nav-S14-np-mas-alla",
+        "from": "S14",
+        "to": "np-mas-alla",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «The Integral Management Society», el enlace «Perspective Beyond  →» abre «Perspective Beyond: cuándo queda corto un marco».",
+        "evidence": "https://integralmanagement.ch/",
+        "href": "https://integralmanagement.ch/publicaciones/art-imsv-07/"
+      },
+      {
+        "id": "position-nav-S14-np-entrada",
+        "from": "S14",
+        "to": "np-entrada",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «The Integral Management Society», el enlace «Explorar Nueva Perspectiva: del manifiesto a la práctica  →» abre «Del manifiesto a la práctica».",
+        "evidence": "https://integralmanagement.ch/",
+        "href": "https://integralmanagement.ch/nueva-perspectiva/"
+      },
+      {
+        "id": "position-nav-S14-T1573",
+        "from": "S14",
+        "to": "T1573",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «The Integral Management Society», el enlace «Tegrity.AI» abre «Tegrity.AI».",
+        "evidence": "https://integralmanagement.ch/",
+        "href": "https://tegrity.ai/"
+      },
+      {
+        "id": "position-nav-np-biografia-S09",
+        "from": "np-biografia",
+        "to": "S09",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «Biografía: una trayectoria en diálogo», el enlace «https://github.com/dakleyer/structural-awareness-contributions» abre «Repositorio principal y contribuciones matemáticas».",
+        "evidence": "https://totonacapan.com/?page_id=413",
+        "href": "https://github.com/dakleyer/structural-awareness-contributions"
+      },
+      {
+        "id": "position-nav-E1953-E2",
+        "from": "E1953",
+        "to": "E2",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «Car Evolution Mobility OS», el enlace «OÜ JUBAP / JubAp.eu» abre «JubAp.EU».",
+        "evidence": "https://jubap.eu/mobility/",
+        "href": "https://jubap.eu/"
+      },
+      {
+        "id": "position-nav-E1953-N2",
+        "from": "E1953",
+        "to": "N2",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «Car Evolution Mobility OS», el enlace «JubAp.Net» abre «JubAp.Net».",
+        "evidence": "https://jubap.eu/mobility/",
+        "href": "https://jubap.net/"
+      },
+      {
+        "id": "position-nav-E1953-E1886",
+        "from": "E1953",
+        "to": "E1886",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «Car Evolution Mobility OS», el enlace «Mobility Operating System technical account» abre «Mobility Operating System».",
+        "evidence": "https://jubap.eu/mobility/",
+        "href": "https://jubap.eu/car-pooling-orchestration/"
+      },
+      {
+        "id": "position-nav-E1953-N1843",
+        "from": "E1953",
+        "to": "N1843",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «Car Evolution Mobility OS», el enlace «Tuxpan case» abre «Tuxpan Urban Service Case Study».",
+        "evidence": "https://jubap.eu/mobility/",
+        "href": "https://jubap.net/1843-2/"
+      },
+      {
+        "id": "position-nav-E1953-T1573",
+        "from": "E1953",
+        "to": "T1573",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «Car Evolution Mobility OS», el enlace «Tegrity.AI» abre «Tegrity.AI».",
+        "evidence": "https://jubap.eu/mobility/",
+        "href": "https://tegrity.ai/"
+      },
+      {
+        "id": "position-nav-E1953-T1687",
+        "from": "E1953",
+        "to": "T1687",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «Car Evolution Mobility OS», el enlace «Tegrity.AI» abre «Research Contributions».",
+        "evidence": "https://jubap.eu/mobility/",
+        "href": "https://tegrity.ai/research-contributions/"
+      },
+      {
+        "id": "position-nav-E1953-T2729",
+        "from": "E1953",
+        "to": "T2729",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «Car Evolution Mobility OS», el enlace «Working paper» abre «Minimum Sufficient Control Architecture for AI Enabled Urban Systems».",
+        "evidence": "https://jubap.eu/mobility/",
+        "href": "https://tegrity.ai/minimum-sufficient-control-architecture-for-ai-enabled-urban-systems/"
+      },
+      {
+        "id": "position-nav-E1953-T2744",
+        "from": "E1953",
+        "to": "T2744",
+        "kind": "lectura enlazada desde el documento",
+        "reading": "Desde «Car Evolution Mobility OS», el enlace «Case-study method» abre «From Field Practice to Pre-Standardization: An Extensible Case-Study Framework».",
+        "evidence": "https://jubap.eu/mobility/",
+        "href": "https://tegrity.ai/from-field-practice-to-pre-standardization-an-extensible-case-study-framework/"
+      }
+    ],
+    "observations": [
+      {
+        "source": "E2",
+        "url": "https://jubap.eu/",
+        "sha256": "e222a48c8e0da14913fe56db30a672a9a620b02997baf29fff85fbaf81a5b55d",
+        "links": 8
+      },
+      {
+        "source": "N2",
+        "url": "https://jubap.net/",
+        "sha256": "94f88f0b5a61c5b1e157445a53527c855a986e6263d22bd3638eda56c7072b43",
+        "links": 8
+      },
+      {
+        "source": "U2",
+        "url": "https://jubap.us/",
+        "sha256": "9ca4e51fa262fcbed5177a04bedf480e23ab8711090945aa1a6a45e3dd97f43d",
+        "links": 8
+      },
+      {
+        "source": "T1573",
+        "url": "https://tegrity.ai/",
+        "sha256": "36a84127563b1a017fe6eb3cb7ee17a30b21a068abe60115ff7722f05bbbc8b6",
+        "links": 8
+      },
+      {
+        "source": "S14",
+        "url": "https://integralmanagement.ch/",
+        "sha256": "18e09b4fcbfd0b6b05967bb5fc2904d56bb6b5c1b8b2dc0cc3f20100647239e5",
+        "links": 5
+      },
+      {
+        "source": "np-biografia",
+        "url": "https://totonacapan.com/?page_id=413",
+        "sha256": "2b56769cf1fbc258d65125ecbbb9a97718cf7959cde5c1473ab9dc76375bc107",
+        "links": 1
+      },
+      {
+        "source": "E1953",
+        "url": "https://jubap.eu/mobility/",
+        "sha256": "904aa64ca86dcf3227cd9e99fb9bb637de26e12252df59be6112693714ee899d",
+        "links": 8
+      }
+    ]
   }
 }

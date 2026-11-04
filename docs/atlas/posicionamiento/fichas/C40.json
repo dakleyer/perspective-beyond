@@ -1,0 +1,156 @@
+{
+  "id": "C40",
+  "type": "concepto",
+  "title": "Alerta y respuesta",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/detection-and-response/",
+  "documentId": null,
+  "sourceIds": [
+    "GH032",
+    "T1387",
+    "E1541",
+    "T387"
+  ],
+  "tagWeights": {
+    "autoridad": 0.0294,
+    "cambio-regimen": 0.4536,
+    "cartografia": 0.05,
+    "control-minimo": 0.0542,
+    "decision": 0.0294,
+    "documentacion": 0.05,
+    "empresa": 0.0835,
+    "integridad-ia": 0.1364,
+    "representacion": 0.04,
+    "transformacion": 0.0735
+  },
+  "clusters": [
+    "eu",
+    "research",
+    "tegrity"
+  ],
+  "context": "## Alerta y respuesta\nA warning detects a possible deviation and a response acts on it.\nEtiquetas: Autoridad, permisos y delegación 2.94%; Cambios de régimen y alerta temprana 45.36%; Cartografía y señales de ecosistema 5.00%; Control mínimo y suficiencia 5.42%; Decisiones y responsabilidad 2.94%; Investigación y documentación técnica 5.00%; Empresa y gestión 8.35%; Integridad y seguridad de IA 13.64%; Representación y límites formales 4.00%; Transformación y continuidad operativa 7.35%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/detection-and-response/\n\n",
+  "tokens": 149,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH032:C40",
+      "to": "GH032",
+      "title": "Annex 01C — Ecosystem Awareness / Regime Awareness architectural relation",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 221,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH032.json"
+    },
+    {
+      "id": "apoyo:T1387:C40",
+      "to": "T1387",
+      "title": "Minimalistic Regime-Aware Early Warning Systems",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 79,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1387.json"
+    },
+    {
+      "id": "apoyo:E1541:C40",
+      "to": "E1541",
+      "title": "Luxury Operations Integration in an Overcompliance Environment — Middle East Case",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 133,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1541.json"
+    },
+    {
+      "id": "apoyo:T387:C40",
+      "to": "T387",
+      "title": "Structural Limits of Current AI Integrity Under Regime Change",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 96,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T387.json"
+    },
+    {
+      "id": "concepto:D041",
+      "to": "C28",
+      "title": "Capacidad efectiva de respuesta",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "The early-warning distinction between detection and response could clarify when an additional control helps or burdens operations.",
+      "relationTokens": 33,
+      "fichaTokens": 223,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C28.json"
+    },
+    {
+      "id": "concepto:F018",
+      "to": "C15",
+      "title": "Admisibilidad contextual",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "A regime signal matters operationally only when its evidence, response window and authorized action are specified, not merely when another alarm layer is added.",
+      "relationTokens": 41,
+      "fichaTokens": 242,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C15.json"
+    },
+    {
+      "id": "concepto:G032",
+      "to": "C28",
+      "title": "Capacidad efectiva de respuesta",
+      "direction": "saliente",
+      "kind": "documented use",
+      "reading": "Regime evidence becomes operationally useful only when its timing and qualification support a feasible, authorized response.",
+      "relationTokens": 34,
+      "fichaTokens": 223,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C28.json"
+    },
+    {
+      "id": "concepto:B406",
+      "to": "G06",
+      "title": "Regime Awareness (RA)",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 16,
+      "fichaTokens": 190,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G06.json"
+    },
+    {
+      "id": "concepto:B433",
+      "to": "G12",
+      "title": "Early Warning Systems (EWS)",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 66,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G12.json"
+    },
+    {
+      "id": "concepto:B526",
+      "to": "G30",
+      "title": "Mobility OS / coordinación distribuida",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 138,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G30.json"
+    },
+    {
+      "id": "concepto:B595",
+      "to": "G44",
+      "title": "Quiet Four Thousand",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 13,
+      "fichaTokens": 187,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G44.json"
+    }
+  ]
+}

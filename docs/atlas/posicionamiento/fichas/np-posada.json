@@ -1,0 +1,42 @@
+{
+  "id": "np-posada",
+  "type": "ficha",
+  "title": "La posada como lugar de encuentro",
+  "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-posada",
+  "documentId": "doc-b54ac6cef5d7db5901",
+  "sourceIds": [],
+  "tagWeights": {
+    "movilidad": 0.5,
+    "transformacion": 0.5
+  },
+  "clusters": [
+    "totonacapan"
+  ],
+  "context": "## La posada como lugar de encuentro\nLa historia institucional presenta la posada como una infraestructura donde se cruzan personas, noticias, oficios y experiencias. Su continuidad permite examinar qué hace posible que esos intercambios tengan vida más allá de una visita.\nEtiquetas: Movilidad e infraestructura 50.00%; Transformación y continuidad operativa 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-posada\nDocumento de origen: https://totonacapan.com/?page_id=411\n\n",
+  "tokens": 117,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "documento:np-r19",
+      "to": "np-xanath",
+      "title": "Xanath y el conocimiento que se practica",
+      "direction": "entrante",
+      "kind": "comparación",
+      "reading": "La reserva y la posada permiten comparar qué condiciones conservan o propician un encuentro.",
+      "relationTokens": 38,
+      "fichaTokens": 104,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-xanath.json"
+    },
+    {
+      "id": "documento:np-r20",
+      "to": "np-formacion",
+      "title": "Formación Integral: del maestro al aprendizaje digital",
+      "direction": "saliente",
+      "kind": "transmisión",
+      "reading": "Los lugares de encuentro y los programas de aprendizaje permiten seguir cómo continúa una práctica.",
+      "relationTokens": 35,
+      "fichaTokens": 112,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-formacion.json"
+    }
+  ]
+}

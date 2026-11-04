@@ -1,0 +1,88 @@
+{
+  "id": "dg-rent_separation",
+  "type": "concepto",
+  "title": "Renta por posesión frente a valor productivo",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-rent_separation",
+  "documentId": null,
+  "sourceIds": [
+    "D-222",
+    "D-261"
+  ],
+  "tagWeights": {
+    "economia": 1.0
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Renta por posesión frente a valor productivo\nSeparar rendimiento por propiedad de colateral, producción y distribución; los cambios de régimen monetario son hipótesis.\nEtiquetas: Economía, costes y liquidez 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-rent_separation\n\n",
+  "tokens": 75,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-222:dg-rent_separation",
+      "to": "D-222",
+      "title": "Si el oro gana al capital productivo, ¿qué economía estamos construyendo?",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 35,
+      "fichaTokens": 464,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-222.json"
+    },
+    {
+      "id": "apoyo:D-261:dg-rent_separation",
+      "to": "D-261",
+      "title": "La Bolsa puede estar comprando reservas que no parecen mercancías",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 398,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-261.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-155",
+      "to": "dg-economy",
+      "title": "Economía y escasez",
+      "direction": "saliente",
+      "kind": "distingue reserva de producción",
+      "reading": "El precio del activo y el valor productivo son preguntas distintas.",
+      "relationTokens": 35,
+      "fichaTokens": 239,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-economy.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-156",
+      "to": "dg-production",
+      "title": "Producción material y continuadores invisibles",
+      "direction": "saliente",
+      "kind": "pregunta quién produce y quién cobra",
+      "reading": "La renta por posesión puede desplazarse del trabajo productivo.",
+      "relationTokens": 40,
+      "fichaTokens": 218,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-production.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-157",
+      "to": "dg-scarcity_design",
+      "title": "Dimensiones creadas de escasez",
+      "direction": "saliente",
+      "kind": "hace de la escasez una condición de poder",
+      "reading": "La arquitectura de colateral cambia el acceso.",
+      "relationTokens": 40,
+      "fichaTokens": 117,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-scarcity_design.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-238",
+      "to": "dg-intangible_reserves",
+      "title": "Reservas intangibles, interfaces y precio",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.10",
+      "reading": "Una licencia o permiso puede capturar rentas de acceso.",
+      "relationTokens": 42,
+      "fichaTokens": 89,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-intangible_reserves.json"
+    }
+  ]
+}

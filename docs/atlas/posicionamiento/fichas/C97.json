@@ -1,0 +1,176 @@
+{
+  "id": "C97",
+  "type": "concepto",
+  "title": "Compensación de externalidades de red",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/network-externality-compensation/",
+  "documentId": null,
+  "sourceIds": [
+    "GH040",
+    "T902",
+    "U1496",
+    "U1792",
+    "T1472",
+    "E1628",
+    "L011"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.0095,
+    "autoridad": 0.0315,
+    "capacidad-humana": 0.1556,
+    "casos": 0.0633,
+    "control-minimo": 0.022,
+    "decision": 0.0663,
+    "documentacion": 0.0517,
+    "economia": 0.107,
+    "empresa": 0.0505,
+    "evidencia": 0.2897,
+    "experimentacion": 0.0298,
+    "memoria-territorio": 0.0601,
+    "perspectiva": 0.022,
+    "transformacion": 0.041
+  },
+  "clusters": [
+    "eu",
+    "latinoempresa",
+    "research",
+    "tegrity",
+    "us"
+  ],
+  "context": "## Compensación de externalidades de red\nRecognise or support a contributor whose value is captured elsewhere in a network.\nEtiquetas: Aprendizaje y transmisión de capacidades 0.95%; Autoridad, permisos y delegación 3.15%; Capacidad humana y deuda de inteligencia 15.56%; Casos de uso y aplicaciones 6.33%; Control mínimo y suficiencia 2.20%; Decisiones y responsabilidad 6.63%; Investigación y documentación técnica 5.17%; Economía, costes y liquidez 10.70%; Empresa y gestión 5.05%; Evidencia, procedencia y atribución 28.97%; Experimentación, falsación y contraejemplos 2.98%; Memoria, comunidad y territorio 6.01%; Cambio de perspectiva 2.20%; Transformación y continuidad operativa 4.10%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/network-externality-compensation/\n\n",
+  "tokens": 203,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH040:C97",
+      "to": "GH040",
+      "title": "Annex 01K-A02 — Human Intelligence Debt: aceleración económica y experimentos de segundo orden",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 37,
+      "fichaTokens": 226,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH040.json"
+    },
+    {
+      "id": "apoyo:T902:C97",
+      "to": "T902",
+      "title": "The Human Intelligence Debt Dilemma: A Game-Theoretic Account of Why Rational Agents Build Irrational Architectures",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 39,
+      "fichaTokens": 143,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T902.json"
+    },
+    {
+      "id": "apoyo:U1496:C97",
+      "to": "U1496",
+      "title": "Field Intelligence in Chicontepec and the Texas–Mérida Corridor",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 31,
+      "fichaTokens": 151,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1496.json"
+    },
+    {
+      "id": "apoyo:U1792:C97",
+      "to": "U1792",
+      "title": "Surviving Capability: Why the Field Celebrates What the Theory Condemns",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 32,
+      "fichaTokens": 158,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1792.json"
+    },
+    {
+      "id": "apoyo:T1472:C97",
+      "to": "T1472",
+      "title": "The Attribution Gap and Capability Loss",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 156,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1472.json"
+    },
+    {
+      "id": "apoyo:E1628:C97",
+      "to": "E1628",
+      "title": "The JUBAP Framework",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 152,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1628.json"
+    },
+    {
+      "id": "apoyo:L011:C97",
+      "to": "L011",
+      "title": "Petroleo no Convencional. Afectación al paisaje y ecosistema superficial en el Proyecto Chicontepec",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 40,
+      "fichaTokens": 119,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/L011.json"
+    },
+    {
+      "id": "concepto:A033",
+      "to": "C33",
+      "title": "Contribución y reconocimiento",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "The transfer-compensation example shows why network value may require funding the contributing node even when its local ledger understates the benefit it creates elsewhere.",
+      "relationTokens": 46,
+      "fichaTokens": 200,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C33.json"
+    },
+    {
+      "id": "concepto:A045",
+      "to": "C61",
+      "title": "Secuencia JUBAP",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "The network example suggests a JUBAP leverage point in the funding and transfer rule itself: make the contributing node sustainable so the wider service can work.",
+      "relationTokens": 48,
+      "fichaTokens": 205,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C61.json"
+    },
+    {
+      "id": "concepto:B042",
+      "to": "C102",
+      "title": "Nivel y frontera del resultado",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "The historical Chicontepec account helps separate local capability formation from programme-level and territorial outcomes; improvement at one level cannot stand in for the others.",
+      "relationTokens": 48,
+      "fichaTokens": 190,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C102.json"
+    },
+    {
+      "id": "concepto:G040",
+      "to": "C33",
+      "title": "Contribución y reconocimiento",
+      "direction": "entrante",
+      "kind": "hypothesis",
+      "reading": "The second-order HID programme can extend the incentive question by testing how contribution recognition and withdrawal rights change feasible collective outcomes.",
+      "relationTokens": 40,
+      "fichaTokens": 200,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C33.json"
+    },
+    {
+      "id": "concepto:G074",
+      "to": "C33",
+      "title": "Contribución y reconocimiento",
+      "direction": "entrante",
+      "kind": "hypothesis",
+      "reading": "A later economic question is whether correcting attribution changes effective withdrawal and allocation rights, rather than only symbolic credit.",
+      "relationTokens": 38,
+      "fichaTokens": 200,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C33.json"
+    }
+  ]
+}

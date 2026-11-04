@@ -1,0 +1,102 @@
+{
+  "id": "dg-exit_architecture",
+  "type": "concepto",
+  "title": "Arquitectura de salida y capacidad transferida",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-exit_architecture",
+  "documentId": null,
+  "sourceIds": [
+    "D-264",
+    "D-265"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.1087,
+    "autoridad": 0.0435,
+    "empresa": 0.6304,
+    "transformacion": 0.2174
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Arquitectura de salida y capacidad transferida\nUna intervención de transformación tiene éxito cuando deja decisiones y procesos sostenibles sin depender indefinidamente de la unidad impulsora.\nEtiquetas: Aprendizaje y transmisión de capacidades 10.87%; Autoridad, permisos y delegación 4.35%; Empresa y gestión 63.04%; Transformación y continuidad operativa 21.74%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-exit_architecture\n\n",
+  "tokens": 106,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-264:dg-exit_architecture",
+      "to": "D-264",
+      "title": "La unidad de racionalización debe trabajar para dejar de ser necesaria",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 410,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-264.json"
+    },
+    {
+      "id": "apoyo:D-265:dg-exit_architecture",
+      "to": "D-265",
+      "title": "El diamante tecnológico puede estar funcionando dentro de la empresa y seguir invisible",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 370,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-265.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-240",
+      "to": "dg-transform",
+      "title": "Transformación organizativa",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.10",
+      "reading": "Transformar incluye transferir el funcionamiento posterior.",
+      "relationTokens": 33,
+      "fichaTokens": 213,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-transform.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-241",
+      "to": "dg-continuity",
+      "title": "Continuidad de capacidades",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.10",
+      "reading": "Proceso sostenido sin oficina permanente.",
+      "relationTokens": 32,
+      "fichaTokens": 201,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-continuity.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-242",
+      "to": "dg-action_viability",
+      "title": "Acción viable y valor que se propaga",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.10",
+      "reading": "Soluciones reales, no solo inventario ni propuesta.",
+      "relationTokens": 39,
+      "fichaTokens": 121,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-action_viability.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-243",
+      "to": "dg-capability_loss",
+      "title": "Poda, memoria y capacidades zombis",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.10",
+      "reading": "La salida debe preservar capacidad y evitar una poda ciega.",
+      "relationTokens": 40,
+      "fichaTokens": 142,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-capability_loss.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-244",
+      "to": "dg-governance",
+      "title": "Gobernanza y legitimidad",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.10",
+      "reading": "Responsabilidades transferidas y decisión ejecutable.",
+      "relationTokens": 34,
+      "fichaTokens": 254,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-governance.json"
+    }
+  ]
+}

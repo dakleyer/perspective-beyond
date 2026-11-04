@@ -1,0 +1,120 @@
+{
+  "id": "G22",
+  "type": "concepto",
+  "title": "Informational Friction / coste de claridad",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/informational-friction-and-cost-of-clarity/",
+  "documentId": null,
+  "sourceIds": [
+    "T1484",
+    "T1472"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.0334,
+    "autoridad": 0.0334,
+    "capacidad-humana": 0.1,
+    "casos": 0.0334,
+    "control-minimo": 0.0714,
+    "decision": 0.1572,
+    "documentacion": 0.0714,
+    "economia": 0.1214,
+    "empresa": 0.1047,
+    "evidencia": 0.2404,
+    "memoria-territorio": 0.0333
+  },
+  "clusters": [
+    "tegrity"
+  ],
+  "context": "## Informational Friction / coste de claridad\nInformation movement and producing decision-ready clarity consume work in different ways.\nEtiquetas: Aprendizaje y transmisión de capacidades 3.34%; Autoridad, permisos y delegación 3.34%; Capacidad humana y deuda de inteligencia 10.00%; Casos de uso y aplicaciones 3.34%; Control mínimo y suficiencia 7.14%; Decisiones y responsabilidad 15.72%; Investigación y documentación técnica 7.14%; Economía, costes y liquidez 12.14%; Empresa y gestión 10.47%; Evidencia, procedencia y atribución 24.04%; Memoria, comunidad y territorio 3.33%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/informational-friction-and-cost-of-clarity/\n\n",
+  "tokens": 172,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:T1484:G22",
+      "to": "T1484",
+      "title": "The Map and The Flow",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 110,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1484.json"
+    },
+    {
+      "id": "apoyo:T1472:G22",
+      "to": "T1472",
+      "title": "The Attribution Gap and Capability Loss",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 156,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1472.json"
+    },
+    {
+      "id": "concepto:B477",
+      "to": "G21",
+      "title": "Human Intelligence Debt (HID)",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 150,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G21.json"
+    },
+    {
+      "id": "concepto:B478",
+      "to": "C32",
+      "title": "Coste de claridad",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 257,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C32.json"
+    },
+    {
+      "id": "concepto:B479",
+      "to": "C35",
+      "title": "Carga de coordinación",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 207,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C35.json"
+    },
+    {
+      "id": "concepto:B480",
+      "to": "C83",
+      "title": "Tres costes de producir claridad",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 160,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C83.json"
+    },
+    {
+      "id": "concepto:B481",
+      "to": "C84",
+      "title": "Declaración provisional reversible",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 172,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C84.json"
+    },
+    {
+      "id": "concepto:B482",
+      "to": "G21",
+      "title": "Human Intelligence Debt (HID)",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 150,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G21.json"
+    }
+  ]
+}

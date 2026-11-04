@@ -1,0 +1,109 @@
+{
+  "id": "D-047",
+  "type": "ficha",
+  "title": "Movilidad, cítricos y soluciones prácticas",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-047",
+  "documentId": "doc-41f3a410d217128630",
+  "sourceIds": [],
+  "tagWeights": {
+    "casos": 0.2222,
+    "decision": 0.2222,
+    "movilidad": 0.5556
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Movilidad, cítricos y soluciones prácticas\nINTERLOCUTOR — ¿Qué otros sectores se abrieron fuera del proyecto petrolero?\nIVÁN —\nProyectos paralelos y expansión intersectorial | The Integral Management Society (2010–2018)\nUbicación: México (Tuxpan, región Golfo), colaboraciones con España\nEn paralelo a los grandes programas asociados a Pemex, durante esta etapa lideré también una serie de proyectos independientes y sectorialmente diversos, que surgieron gracias al posicionamiento alcanzado en la región y a una red creciente de contactos institucionales y empresariales. Estos trabajos ampliaron significativamente mi campo de acción hacia áreas como transporte urbano, agroexportación, software aplicado y energía minorista.\nCasos destacados:\nINTERLOCUTOR — ¿Qué proyectos recuerdas en cítricos, movilidad y control volumétrico?\nIVÁN —\nB&S Grupo Exportador (Citrus):\nProyecto de reingeniería de procesos y certificación operativa para una empresa con actividad logística y agroindustrial, orientada a la exportación de cítricos hacia cuatro continentes. Implementamos mejoras en trazabilidad, gestión documental, y preparación para auditorías internacionales.\nSUT – Servicio Urbano de Tuxpan:\nDiseñamos un sistema personalizado para la reoptimización de rutas de transporte urbano, adaptando algoritmos a la infraestructura vial real y las dinámicas de movilidad local. Fue uno de los primeros ejercicios de digitalización operativa aplicada al transporte público en esa región.\nSistema de control volumétrico para estaciones de servicio:\nDesarrollamos un sistema de monitoreo e integración para estaciones de servicio vinculadas al ecosistema Pemex, que permitía controlar el volumen de despacho, trazabilidad y cumplimiento fiscal. Este sistema conectaba software de campo con estructuras de reporte y conciliación operativa.\nEtiquetas: Casos de uso y aplicaciones 22.22%; Decisiones y responsabilidad 22.22%; Movilidad e infraestructura 55.56%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-047\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20%C2%BFQu%C3%A9%20otros%20sectores%20se%20abrieron%20fuera%20del%20proyecto%20petrolero\n\n",
+  "tokens": 503,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-047:dg-decision",
+      "to": "dg-decision",
+      "title": "Decisiones entre escenarios",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 169,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-decision.json"
+    },
+    {
+      "id": "apoyo:D-047:dg-operations",
+      "to": "dg-operations",
+      "title": "Operación real",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 196,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-operations.json"
+    },
+    {
+      "id": "documento:dg-065",
+      "to": "D-017",
+      "title": "Estar presente y prever consecuencias",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Decisiones entre escenarios».",
+      "relationTokens": 31,
+      "fichaTokens": 449,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-017.json"
+    },
+    {
+      "id": "documento:dg-066",
+      "to": "D-050",
+      "title": "Cuando lo útil no se convierte en empresa",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Decisiones entre escenarios».",
+      "relationTokens": 33,
+      "fichaTokens": 763,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-050.json"
+    },
+    {
+      "id": "documento:dg-096",
+      "to": "D-043",
+      "title": "Transformar empresas mientras siguen operando",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Operación real».",
+      "relationTokens": 31,
+      "fichaTokens": 923,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-043.json"
+    },
+    {
+      "id": "documento:dg-097",
+      "to": "D-052",
+      "title": "xSeil: mostrar alternativas, no una orden",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Operación real».",
+      "relationTokens": 34,
+      "fichaTokens": 546,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-052.json"
+    },
+    {
+      "id": "documento:dg-186",
+      "to": "E1953",
+      "title": "Car Evolution Mobility OS",
+      "direction": "saliente",
+      "kind": "puente editorial",
+      "reading": "El ámbito de movilidad permite comparar preguntas de coordinación con una arquitectura operativa actual.",
+      "relationTokens": 34,
+      "fichaTokens": 105,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1953.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-182-D-047",
+      "to": "D-182",
+      "title": "Una promesa de movilidad empieza a existir cuando tiene horarios",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Una promesa de movilidad empieza a existir cuando tiene horarios» con «Movilidad, cítricos y soluciones prácticas». Permite contrastar Decisiones entre escenarios.",
+      "relationTokens": 65,
+      "fichaTokens": 361,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-182.json"
+    }
+  ]
+}

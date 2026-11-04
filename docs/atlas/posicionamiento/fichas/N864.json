@@ -1,0 +1,187 @@
+{
+  "id": "N864",
+  "type": "ficha",
+  "title": "GEPLAN – Mission-Critical Logistics Intelligence for PEMEX (2006-)",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/geplan-mission-critical-logistics-intelligence-for-pemex-2006-n864/",
+  "documentId": "doc-600e1bb5269bd6a180",
+  "sourceIds": [],
+  "tagWeights": {
+    "autoridad": 0.1818,
+    "decision": 0.1818,
+    "evidencia": 0.1818,
+    "movilidad": 0.4546
+  },
+  "clusters": [
+    "net"
+  ],
+  "context": "## GEPLAN – Mission-Critical Logistics Intelligence for PEMEX (2006-)\n\nEtiquetas: Autoridad, permisos y delegación 18.18%; Decisiones y responsabilidad 18.18%; Evidencia, procedencia y atribución 18.18%; Movilidad e infraestructura 45.46%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/geplan-mission-critical-logistics-intelligence-for-pemex-2006-n864/\nDocumento de origen: https://jubap.net/geplan-mission-critical-logistics-intelligence-for-pemex-2006/\n\n",
+  "tokens": 124,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:N864:C12",
+      "to": "C12",
+      "title": "Procedencia auditable",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 276,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C12.json"
+    },
+    {
+      "id": "apoyo:N864:C19",
+      "to": "C19",
+      "title": "Reglas con dueño y versión",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 200,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C19.json"
+    },
+    {
+      "id": "apoyo:N864:C26",
+      "to": "C26",
+      "title": "Autoridad de decisión",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 262,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C26.json"
+    },
+    {
+      "id": "apoyo:N864:C49",
+      "to": "C49",
+      "title": "Modelo mínimo de caso",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 231,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C49.json"
+    },
+    {
+      "id": "apoyo:N864:C59",
+      "to": "C59",
+      "title": "Explicación trazable",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 138,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C59.json"
+    },
+    {
+      "id": "documento:D014",
+      "to": "E1554",
+      "title": "Japan Enterprise Architecture Function",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "Both cases make a repository useful by linking information to maintained rules, ownership and decisions.",
+      "relationTokens": 41,
+      "fichaTokens": 107,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1554.json"
+    },
+    {
+      "id": "documento:D035",
+      "to": "T1391",
+      "title": "The Limits of AI Oversight",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "The GEPLAN interface illustrates why human authority needs usable decision context, not merely a confirmation button.",
+      "relationTokens": 45,
+      "fichaTokens": 101,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1391.json"
+    },
+    {
+      "id": "documento:B036",
+      "to": "L008",
+      "title": "GEPLAN – Inteligencia Logística para Entornos Críticos de PEMEX 2006-",
+      "direction": "entrante",
+      "kind": "documented use",
+      "reading": "The LatinoEmpresa account supplies further context for the same GEPLAN lineage; the internal case remains the navigation destination, not a separate replication.",
+      "relationTokens": 67,
+      "fichaTokens": 129,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/L008.json"
+    },
+    {
+      "id": "documento:R063",
+      "to": "U1681",
+      "title": "Case Study: Chicontepec Megaproject",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [GEPLAN: the engineering layer in the Chicontepec environment](https://jubap.net/geplan-mission-critical-logistics-intelligence-for-pemex-2006/).",
+      "relationTokens": 74,
+      "fichaTokens": 110,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1681.json"
+    },
+    {
+      "id": "documento:R078",
+      "to": "N1263",
+      "title": "JubAp.Net 2019 Suite: From Embedded Suites to Operational AI Integrity",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [From GEPLAN to the enterprise suite](https://jubap.net/jubap-net-geplan-suite-from-embedded-suites-to-operational-ai-integrity/).",
+      "relationTokens": 75,
+      "fichaTokens": 98,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1263.json"
+    },
+    {
+      "id": "documento:R079",
+      "to": "N1258",
+      "title": "JubAp.Net GEPLAN and the Hidden Logistics Lab Behind PEMEX Operations",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The field laboratory behind GEPLAN](https://jubap.net/before-digital-transformation-had-a-name-jubap-net-geplan-and-the-hidden-logistics-lab-behind-pemex-operations/).",
+      "relationTokens": 85,
+      "fichaTokens": 130,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1258.json"
+    },
+    {
+      "id": "documento:R080",
+      "to": "N1265",
+      "title": "JubAp.Net’s GEPLAN Case before SaaS and IoT Revolutions",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Engineering before cloud and commercial APIs](https://jubap.net/engineering-value-creation-before-the-cloud-jubap-nets-geplan-case-before-saas-and-iot-revolutions/).",
+      "relationTokens": 81,
+      "fichaTokens": 111,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1265.json"
+    },
+    {
+      "id": "documento:R081",
+      "to": "U1681",
+      "title": "Case Study: Chicontepec Megaproject",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [SPV and cross-border operating-model work in Chicontepec](https://jubap.us/case-study-chicontepec-megaproject/).",
+      "relationTokens": 69,
+      "fichaTokens": 110,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1681.json"
+    },
+    {
+      "id": "documento:R137",
+      "to": "N1289",
+      "title": "Information Management as Operational Tracking",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [GEPLAN: tracking connected to operational decisions](https://jubap.net/geplan-mission-critical-logistics-intelligence-for-pemex-2006/).",
+      "relationTokens": 64,
+      "fichaTokens": 88,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1289.json"
+    },
+    {
+      "id": "documento:R192",
+      "to": "T1221",
+      "title": "Regime Awareness: Capability Development Across Four Field Cases",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The GEPLAN operational record](https://jubap.net/geplan-mission-critical-logistics-intelligence-for-pemex-2006/).",
+      "relationTokens": 66,
+      "fichaTokens": 78,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1221.json"
+    }
+  ]
+}

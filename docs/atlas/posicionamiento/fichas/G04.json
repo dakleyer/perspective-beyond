@@ -1,0 +1,216 @@
+{
+  "id": "G04",
+  "type": "concepto",
+  "title": "Ecosystem Positioning",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/ecosystem-positioning/",
+  "documentId": null,
+  "sourceIds": [
+    "GH017",
+    "GH034",
+    "GH033"
+  ],
+  "tagWeights": {
+    "agentes": 0.0916,
+    "autoridad": 0.018,
+    "cambio-regimen": 0.1014,
+    "cartografia": 0.1541,
+    "casos": 0.018,
+    "control-minimo": 0.1215,
+    "decision": 0.0722,
+    "documentacion": 0.1479,
+    "economia": 0.0167,
+    "empresa": 0.009,
+    "estandares": 0.036,
+    "evidencia": 0.036,
+    "experimentacion": 0.0167,
+    "matematicas": 0.036,
+    "movilidad": 0.018,
+    "perspectiva": 0.0111,
+    "representacion": 0.0555,
+    "transformacion": 0.0403
+  },
+  "clusters": [
+    "research"
+  ],
+  "context": "## Ecosystem Positioning\nAllocate qualification and responsibility across participants in an ecosystem.\nEtiquetas: Agentes y coordinación distribuida 9.16%; Autoridad, permisos y delegación 1.80%; Cambios de régimen y alerta temprana 10.14%; Cartografía y señales de ecosistema 15.41%; Casos de uso y aplicaciones 1.80%; Control mínimo y suficiencia 12.15%; Decisiones y responsabilidad 7.22%; Investigación y documentación técnica 14.79%; Economía, costes y liquidez 1.67%; Empresa y gestión 0.90%; Estándares e interoperabilidad 3.60%; Evidencia, procedencia y atribución 3.60%; Experimentación, falsación y contraejemplos 1.67%; Matemáticas 3.60%; Movilidad e infraestructura 1.80%; Cambio de perspectiva 1.11%; Representación y límites formales 5.55%; Transformación y continuidad operativa 4.03%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/ecosystem-positioning/\n\n",
+  "tokens": 232,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH017:G04",
+      "to": "GH017",
+      "title": "Ecosystem Positioning",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 261,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH017.json"
+    },
+    {
+      "id": "apoyo:GH034:G04",
+      "to": "GH034",
+      "title": "Annex 01H — Participant-Local Ecosystem Positioning and Decision-Scoped Epistemic Opportunity",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 33,
+      "fichaTokens": 256,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH034.json"
+    },
+    {
+      "id": "apoyo:GH033:G04",
+      "to": "GH033",
+      "title": "Annex 01D — EA / MSCA / Regime Awareness operation-composition profile",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 231,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH033.json"
+    },
+    {
+      "id": "concepto:B382",
+      "to": "G01",
+      "title": "Structural Awareness",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 12,
+      "fichaTokens": 230,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G01.json"
+    },
+    {
+      "id": "concepto:B394",
+      "to": "G05",
+      "title": "Ecosystem Awareness (EA)",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 152,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G05.json"
+    },
+    {
+      "id": "concepto:B395",
+      "to": "G06",
+      "title": "Regime Awareness (RA)",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 190,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G06.json"
+    },
+    {
+      "id": "concepto:B396",
+      "to": "G07",
+      "title": "Minimum Sufficient Control Architecture (MSCA)",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 209,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G07.json"
+    },
+    {
+      "id": "concepto:B397",
+      "to": "G11",
+      "title": "Gobernanza de autoridad delegada",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 240,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G11.json"
+    },
+    {
+      "id": "concepto:B398",
+      "to": "G40",
+      "title": "Chaos Smart City",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 14,
+      "fichaTokens": 203,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G40.json"
+    },
+    {
+      "id": "concepto:B443",
+      "to": "G15",
+      "title": "Principios P1–P6",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 112,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G15.json"
+    },
+    {
+      "id": "concepto:B530",
+      "to": "G31",
+      "title": "Tegrity.AI",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 15,
+      "fichaTokens": 108,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G31.json"
+    },
+    {
+      "id": "concepto:B553",
+      "to": "G36",
+      "title": "Fallo composicional de controles locales",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 245,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G36.json"
+    },
+    {
+      "id": "concepto:B573",
+      "to": "G40",
+      "title": "Chaos Smart City",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 13,
+      "fichaTokens": 203,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G40.json"
+    },
+    {
+      "id": "concepto:B630",
+      "to": "G51",
+      "title": "Robótica Greater China / integración operativa",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 79,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G51.json"
+    },
+    {
+      "id": "concepto:P05",
+      "to": "G01",
+      "title": "Structural Awareness",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 12,
+      "fichaTokens": 230,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G01.json"
+    },
+    {
+      "id": "concepto:P06",
+      "to": "G05",
+      "title": "Ecosystem Awareness (EA)",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 152,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G05.json"
+    }
+  ]
+}

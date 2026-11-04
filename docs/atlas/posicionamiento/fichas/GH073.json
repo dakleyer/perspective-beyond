@@ -1,0 +1,55 @@
+{
+  "id": "GH073",
+  "type": "ficha",
+  "title": "ACC — Source-anchored narrative acceptance experiments (v0.1)",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/acc-source-anchored-narrative-acceptance-experiments-v0-1-gh073/",
+  "documentId": "doc-b7f7f1e918f05a187b",
+  "sourceIds": [],
+  "tagWeights": {
+    "autoridad": 0.1429,
+    "decision": 0.1429,
+    "evidencia": 0.3571,
+    "experimentacion": 0.3571
+  },
+  "clusters": [
+    "research"
+  ],
+  "context": "## ACC — Source-anchored narrative acceptance experiments (v0.1)\n\nEtiquetas: Autoridad, permisos y delegación 14.29%; Decisiones y responsabilidad 14.29%; Evidencia, procedencia y atribución 35.71%; Experimentación, falsación y contraejemplos 35.71%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/acc-source-anchored-narrative-acceptance-experiments-v0-1-gh073/\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/4cd76d9676ac2902fc008096444c49b263d98d43/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1/README.md\n\n",
+  "tokens": 187,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH073:C26",
+      "to": "C26",
+      "title": "Autoridad de decisión",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 262,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C26.json"
+    },
+    {
+      "id": "apoyo:GH073:C113",
+      "to": "C113",
+      "title": "Existencia, encuentro y oportunidad ejecutable",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 31,
+      "fichaTokens": 220,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C113.json"
+    },
+    {
+      "id": "documento:G089",
+      "to": "T3083",
+      "title": "From Endured Dependence to Chosen Solidarity",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "Chosen solidarity needs an admissible transition with resources and consent, not merely a desirable end state or an aggregate score.",
+      "relationTokens": 54,
+      "fichaTokens": 88,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T3083.json"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "T1230",
+  "type": "ficha",
+  "title": "Field Notes",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/field-notes-t1230/",
+  "documentId": "doc-335c68118bc87aefe1",
+  "sourceIds": [],
+  "tagWeights": {
+    "documentacion": 0.2222,
+    "evidencia": 0.2222,
+    "navegacion": 0.5556
+  },
+  "clusters": [
+    "tegrity"
+  ],
+  "context": "## Field Notes\n\nEtiquetas: Investigación y documentación técnica 22.22%; Evidencia, procedencia y atribución 22.22%; Índices, contacto y políticas 55.56%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/field-notes-t1230/\nDocumento de origen: https://tegrity.ai/articles/\n\n",
+  "tokens": 75,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:T1230:G18",
+      "to": "G18",
+      "title": "Field Notes / notas de campo",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 16,
+      "fichaTokens": 75,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G18.json"
+    },
+    {
+      "id": "apoyo:T1230:G31",
+      "to": "G31",
+      "title": "Tegrity.AI",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 15,
+      "fichaTokens": 108,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G31.json"
+    },
+    {
+      "id": "apoyo:T1230:G38",
+      "to": "G38",
+      "title": "Corpus público y trazabilidad cruzada",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 88,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G38.json"
+    },
+    {
+      "id": "apoyo:T1230:G42",
+      "to": "G42",
+      "title": "Navegación semántica para asistentes",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 89,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G42.json"
+    },
+    {
+      "id": "documento:sac-rel-a600e8a9774cc8",
+      "to": "GH001",
+      "title": "Structural Awareness Programme",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Why these series belong together» con el rótulo «Tegrity.AI Field Notes».",
+      "relationTokens": 89,
+      "fichaTokens": 179,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH001.json"
+    },
+    {
+      "id": "documento:sac-rel-86ad56a58e20d1",
+      "to": "GH002",
+      "title": "Structural Awareness Programme",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Where to go next» con el rótulo «Field Notes».",
+      "relationTokens": 97,
+      "fichaTokens": 199,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH002.json"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "E1958",
+  "type": "ficha",
+  "title": "Car Evolution Mobility OS – Evidence Cases 01-02",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-evidence-cases-01-02-e1958/",
+  "documentId": "doc-2206fdd056590a7fea",
+  "sourceIds": [],
+  "tagWeights": {
+    "agentes": 0.1111,
+    "evidencia": 0.3333,
+    "movilidad": 0.5556
+  },
+  "clusters": [
+    "mobility"
+  ],
+  "context": "## Car Evolution Mobility OS – Evidence Cases 01-02\n\nEtiquetas: Agentes y coordinación distribuida 11.11%; Evidencia, procedencia y atribución 33.33%; Movilidad e infraestructura 55.56%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-evidence-cases-01-02-e1958/\nDocumento de origen: https://jubap.eu/mobility/evidence/case-01-02-valencia/\n\n",
+  "tokens": 107,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:E1958:C12",
+      "to": "C12",
+      "title": "Procedencia auditable",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 276,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C12.json"
+    },
+    {
+      "id": "apoyo:E1958:C50",
+      "to": "C50",
+      "title": "Estado de una afirmación",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 295,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C50.json"
+    },
+    {
+      "id": "apoyo:E1958:G30",
+      "to": "G30",
+      "title": "Mobility OS / coordinación distribuida",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 138,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G30.json"
+    },
+    {
+      "id": "documento:D064",
+      "to": "N1876",
+      "title": "xSeil 2016 to 2018 Provenance Delivery and Code Evidence",
+      "direction": "entrante",
+      "kind": "documented use",
+      "reading": "The paired exhibits should link to the provenance of the reconstructed mechanism while keeping their illustrative setting explicit.",
+      "relationTokens": 51,
+      "fichaTokens": 111,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1876.json"
+    },
+    {
+      "id": "documento:R095",
+      "to": "N1803",
+      "title": "xSeil VRP",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Grouping and bounded repair: the paired exhibits](https://jubap.eu/mobility/evidence/case-01-02-valencia/).",
+      "relationTokens": 57,
+      "fichaTokens": 111,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1803.json"
+    },
+    {
+      "id": "documento:R146",
+      "to": "E1954",
+      "title": "Car Evolution Mobility OS – Product Annex",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Planning and bounded repair: cases 01–02](https://jubap.eu/mobility/evidence/case-01-02-valencia/).",
+      "relationTokens": 61,
+      "fichaTokens": 117,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1954.json"
+    },
+    {
+      "id": "documento:R148",
+      "to": "N1803",
+      "title": "xSeil VRP",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The routing and grouping constraints behind the exhibit](https://jubap.net/xseil-vrp/).",
+      "relationTokens": 49,
+      "fichaTokens": 111,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1803.json"
+    }
+  ]
+}

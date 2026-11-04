@@ -1,0 +1,162 @@
+{
+  "id": "D-279",
+  "type": "ficha",
+  "title": "Una entrada fuera del dominio puede producir una salida aparentemente útil",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-279",
+  "documentId": "doc-af37ae05531df734c0",
+  "sourceIds": [],
+  "tagWeights": {
+    "matematicas": 1.0
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Una entrada fuera del dominio puede producir una salida aparentemente útil\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Una exclusión en la especificación significa que la máquina nunca podrá responder a ese dato?\nREFLEXIÓN DEL DIÁLOGO (voz original solo en citas, resto elaboración editorial) — Iván imagina una máquina definida para aceptar números naturales y pregunta qué ocurre si se la alimenta con números de un dominio más amplio. Su objeción aparece en inglés en la transcripción: «maybe not valid entries give valid answers». Lo que intenta separar es la frontera contractual del problema —el universo sobre el que se prometen propiedades— y el comportamiento efectivo de un programa ante un caso no contemplado.\n\nLa intuición es de arquitecto de sistemas: en el campo, un componente recibe datos de otra aplicación, de un usuario o de una interfaz cuyos supuestos no coinciden con los propios. Algunas entradas fuera de la especificación pueden producir resultados plausibles; otras fallan visiblemente, y otras contaminan cálculos posteriores. Un éxito aparente no amplía automáticamente la garantía del algoritmo ni prueba una decidibilidad universal.\n\nEsta distinción se vuelve importante cuando el resultado circula con una etiqueta de autoridad. El siguiente sistema no ve necesariamente la condición que hizo inválida la entrada anterior. Pero el texto conserva también su límite: para sostener una afirmación general sobre todas las máquinas haría falta una construcción formal precisa. La experiencia de interoperabilidad no sustituye la demostración de un teorema sobre computabilidad.\nEtiquetas: Matemáticas 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-279\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-279.html\n\n",
+  "tokens": 377,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-279:dg-math",
+      "to": "dg-math",
+      "title": "Pensamiento matemático",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 177,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-math.json"
+    },
+    {
+      "id": "apoyo:D-279:dg-operations",
+      "to": "dg-operations",
+      "title": "Operación real",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 196,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-operations.json"
+    },
+    {
+      "id": "apoyo:D-279:dg-formalization_event",
+      "to": "dg-formalization_event",
+      "title": "La frontera entre mundo y registro",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 137,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-formalization_event.json"
+    },
+    {
+      "id": "apoyo:D-279:dg-validity_boundary",
+      "to": "dg-validity_boundary",
+      "title": "Límite entre entrada, pertenencia y respuesta",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 87,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-validity_boundary.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-279-D-116",
+      "to": "D-116",
+      "title": "Un control puede aprobar y el sistema seguir fallando",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Una entrada fuera del dominio puede producir una salida aparentemente útil» con «Un control puede aprobar y el sistema seguir fallando».",
+      "relationTokens": 58,
+      "fichaTokens": 299,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-116.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-279-D-180",
+      "to": "D-180",
+      "title": "La encajonadora no obedece a una teoría de gestión",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Una entrada fuera del dominio puede producir una salida aparentemente útil» con «La encajonadora no obedece a una teoría de gestión». Permite contrastar Operación real.",
+      "relationTokens": 74,
+      "fichaTokens": 352,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-180.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-279-D-216",
+      "to": "D-216",
+      "title": "El instante que una cosa del mundo se convierte en dato",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Una entrada fuera del dominio puede producir una salida aparentemente útil» con «El instante que una cosa del mundo se convierte en dato». Permite contrastar Pensamiento matemático, La frontera entre mundo y registro.",
+      "relationTokens": 76,
+      "fichaTokens": 425,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-216.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-279-D-217",
+      "to": "D-217",
+      "title": "Un JSON correcto puede describir una vaca que no estaba allí",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Una entrada fuera del dominio puede producir una salida aparentemente útil» con «Un JSON correcto puede describir una vaca que no estaba allí». Permite contrastar Pensamiento matemático, La frontera entre mundo y registro.",
+      "relationTokens": 80,
+      "fichaTokens": 438,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-217.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-279-D-243",
+      "to": "D-243",
+      "title": "El supervisor humano no es barato porque solo revise dos casillas",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Una entrada fuera del dominio puede producir una salida aparentemente útil» con «El supervisor humano no es barato porque solo revise dos casillas». Permite contrastar Pensamiento matemático.",
+      "relationTokens": 71,
+      "fichaTokens": 442,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-243.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-279-D-244",
+      "to": "D-244",
+      "title": "Una contradicción puede contagiar máquinas antes de que nadie vea el desastre",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Una entrada fuera del dominio puede producir una salida aparentemente útil» con «Una contradicción puede contagiar máquinas antes de que nadie vea el desastre». Permite contrastar La frontera entre mundo y registro.",
+      "relationTokens": 77,
+      "fichaTokens": 430,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-244.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-279-D-278",
+      "to": "D-278",
+      "title": "Rechazar una entrada también es tomar una decisión",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Una entrada fuera del dominio puede producir una salida aparentemente útil» con «Rechazar una entrada también es tomar una decisión». Permite contrastar Límite entre entrada, pertenencia y respuesta, Pensamiento matemático, La frontera entre mundo y registro.",
+      "relationTokens": 85,
+      "fichaTokens": 404,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-278.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-218-D-279",
+      "to": "D-218",
+      "title": "La piedra que nunca entró al ordenador también fue tratada",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar La frontera entre mundo y registro, Operación real desde las situaciones que describe cada texto.",
+      "relationTokens": 54,
+      "fichaTokens": 416,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-218.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-279-D-266",
+      "to": "D-266",
+      "title": "¿Y si el punto de partida fuera lo no definible?",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar La frontera entre mundo y registro, Pensamiento matemático desde las situaciones que describe cada texto.",
+      "relationTokens": 56,
+      "fichaTokens": 406,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-266.json"
+    }
+  ]
+}

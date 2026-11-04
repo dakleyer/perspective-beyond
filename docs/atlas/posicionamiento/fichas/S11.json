@@ -1,0 +1,74 @@
+{
+  "id": "S11",
+  "type": "ficha",
+  "title": "ITU Focus Groups y contexto institucional",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/itu-focus-groups-y-contexto-institucional-s11/",
+  "documentId": "doc-41c6da39d3e4af89c0",
+  "sourceIds": [],
+  "tagWeights": {
+    "estandares": 1.0
+  },
+  "clusters": [
+    "research"
+  ],
+  "context": "## ITU Focus Groups y contexto institucional\n\nEtiquetas: Estándares e interoperabilidad 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/itu-focus-groups-y-contexto-institucional-s11/\nDocumento de origen: https://www.itu.int/en/ITU-T/focusgroups/tida/Pages/default.aspx\n\n",
+  "tokens": 77,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:S11:G35",
+      "to": "G35",
+      "title": "Preestandarización y contribuciones UIT",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 79,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G35.json"
+    },
+    {
+      "id": "documento:sac-rel-f65467ee6360f8",
+      "to": "GH017",
+      "title": "Ecosystem Positioning",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «External review / pre-standardization entry» con el rótulo «ITU-T Focus Group on Trust and Identity for Humans and Agentic AI (FG-TIDA)».",
+      "relationTokens": 117,
+      "fichaTokens": 261,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH017.json"
+    },
+    {
+      "id": "documento:sac-rel-95602dac2cee70",
+      "to": "sac-972bbd0c4945ab",
+      "title": "Annex 01G — FG-TIDA Theme #13 Working Group / Charter Preparation Draft",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «0.1 What is FG-TIDA?» con el rótulo «FG-TIDA».",
+      "relationTokens": 138,
+      "fichaTokens": 204,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-972bbd0c4945ab.json"
+    },
+    {
+      "id": "documento:sac-rel-d507df6b5a0556",
+      "to": "sac-e81dcdb1021761",
+      "title": "Regime Awareness: the problem I am working on",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Relevance to agentic-AI trust discussions» con el rótulo «ITU-T Focus Group on Trustworthy and Intelligent Digital Agents».",
+      "relationTokens": 114,
+      "fichaTokens": 159,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-e81dcdb1021761.json"
+    },
+    {
+      "id": "navigation:position-nav-S14-S11",
+      "to": "S14",
+      "title": "The Integral Management Society",
+      "direction": "entrante",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «The Integral Management Society», el enlace «FG-TIDA, grupo de la UIT-T sobre confianza e identidad» abre «ITU Focus Groups y contexto institucional».",
+      "relationTokens": 65,
+      "fichaTokens": 76,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/S14.json"
+    }
+  ]
+}

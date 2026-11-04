@@ -1,0 +1,261 @@
+{
+  "id": "N1835",
+  "type": "ficha",
+  "title": "Phylons relabeling cascades",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/phylons-relabeling-cascades-n1835/",
+  "documentId": "doc-ed24c3ef0140a94479",
+  "sourceIds": [],
+  "tagWeights": {
+    "evidencia": 1.0
+  },
+  "clusters": [
+    "net"
+  ],
+  "context": "## Phylons relabeling cascades\n\nEtiquetas: Evidencia, procedencia y atribución 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/phylons-relabeling-cascades-n1835/\nDocumento de origen: https://jubap.net/phylons-relabeling-cascades/\n\n",
+  "tokens": 74,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:N1835:C11",
+      "to": "C11",
+      "title": "Tiempo del hecho y del conocimiento",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 163,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C11.json"
+    },
+    {
+      "id": "apoyo:N1835:C12",
+      "to": "C12",
+      "title": "Procedencia auditable",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 276,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C12.json"
+    },
+    {
+      "id": "apoyo:N1835:C13",
+      "to": "C13",
+      "title": "Reconstrucción por dependencias",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 111,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C13.json"
+    },
+    {
+      "id": "apoyo:N1835:C42",
+      "to": "C42",
+      "title": "Versión del contexto",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 220,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C42.json"
+    },
+    {
+      "id": "apoyo:N1835:C43",
+      "to": "C43",
+      "title": "Vigencia y caducidad",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 219,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C43.json"
+    },
+    {
+      "id": "apoyo:N1835:C47",
+      "to": "C47",
+      "title": "Comparación justa",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 204,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C47.json"
+    },
+    {
+      "id": "apoyo:N1835:C115",
+      "to": "C115",
+      "title": "Registro previo a admisión y promoción posterior",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 154,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C115.json"
+    },
+    {
+      "id": "apoyo:N1835:C122",
+      "to": "C122",
+      "title": "Validez histórica y validez al uso",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 94,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C122.json"
+    },
+    {
+      "id": "apoyo:N1835:G28",
+      "to": "G28",
+      "title": "Phylons y reconstrucción temporal",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 104,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G28.json"
+    },
+    {
+      "id": "documento:D009",
+      "to": "U1322",
+      "title": "Case Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "Event time and knowledge time should remain distinct when reconstructing an audit decision.",
+      "relationTokens": 42,
+      "fichaTokens": 116,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1322.json"
+    },
+    {
+      "id": "documento:D010",
+      "to": "E1567",
+      "title": "Piece Identity & Inventory Orchestration",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "Dependency-aware rebuilding could make corrections to piece identity auditable without erasing the custody history.",
+      "relationTokens": 38,
+      "fichaTokens": 130,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1567.json"
+    },
+    {
+      "id": "documento:M017",
+      "to": "N1289",
+      "title": "Information Management as Operational Tracking",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "Operational tracking can preserve both the decision-time view and the later corrected view instead of silently replacing one with the other.",
+      "relationTokens": 41,
+      "fichaTokens": 88,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1289.json"
+    },
+    {
+      "id": "documento:M026",
+      "to": "T2799",
+      "title": "Annex 5 — Six Positive Paths and Quality Plans",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "A fair replay should reveal late evidence only when it became available and score the original decision separately from its later repair.",
+      "relationTokens": 46,
+      "fichaTokens": 95,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2799.json"
+    },
+    {
+      "id": "documento:G012",
+      "to": "GH012",
+      "title": "Structural Awareness — Collective Residual Intersection and Event-Triggered Promotion",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "Event-triggered promotion can be compared retrospectively with relabeling cascades, provided event identity and the times of capture, knowledge and reinterpretation remain distinct.",
+      "relationTokens": 57,
+      "fichaTokens": 214,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH012.json"
+    },
+    {
+      "id": "documento:G045",
+      "to": "GH045",
+      "title": "00I · Freeze Edition",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "A revision-aware pipeline should bind action to the qualified version it actually relies on, not merely record that a later relabeling occurred.",
+      "relationTokens": 45,
+      "fichaTokens": 200,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH045.json"
+    },
+    {
+      "id": "documento:G066",
+      "to": "GH066",
+      "title": "Dual-time, provenance-bound certificate contract — SA-O2/O5 → EA review",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "A later rule may support historical reinterpretation while being expired or unauthorized for a new action; event time and current-use validity must be checked separately.",
+      "relationTokens": 58,
+      "fichaTokens": 180,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH066.json"
+    },
+    {
+      "id": "documento:R109",
+      "to": "N1831",
+      "title": "Phylons predictive factors cascade",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Revision-aware event semantics and relabeling](https://jubap.net/phylons-relabeling-cascades/).",
+      "relationTokens": 51,
+      "fichaTokens": 85,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1831.json"
+    },
+    {
+      "id": "documento:R110",
+      "to": "N1833",
+      "title": "Phylons dynamic combinations",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Dependency-aware rebuilding after event revision](https://jubap.net/phylons-relabeling-cascades/).",
+      "relationTokens": 48,
+      "fichaTokens": 117,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1833.json"
+    },
+    {
+      "id": "documento:R112",
+      "to": "T1513",
+      "title": "Regime-Aware Semantic Windows: Proposal for Mathematical Assessment and Empirical Validation",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Past-only validation and re-anchoring](https://tegrity.ai/regime-aware-semantic-windows-mathematical-validation/).",
+      "relationTokens": 63,
+      "fichaTokens": 124,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1513.json"
+    },
+    {
+      "id": "documento:R198",
+      "to": "T1513",
+      "title": "Regime-Aware Semantic Windows: Proposal for Mathematical Assessment and Empirical Validation",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Event time, knowledge time and causal evaluation](https://jubap.net/phylons-relabeling-cascades/).",
+      "relationTokens": 60,
+      "fichaTokens": 124,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1513.json"
+    },
+    {
+      "id": "documento:sac-rel-ac2285865126df",
+      "to": "sac-1de49f78faf23d",
+      "title": "00I — Success Model Case: Action-Time Requalification — v0.1",
+      "direction": "entrante",
+      "kind": "compara qué obliga a recalcular",
+      "reading": "Los cambios de etiquetas en Phylons permiten comparar una regla de recálculo con la pregunta de 00I sobre la vigencia de una autorización. El objeto de la decisión cambia entre los dos casos.",
+      "relationTokens": 143,
+      "fichaTokens": 218,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-1de49f78faf23d.json"
+    },
+    {
+      "id": "documento:sac-rel-dac333ddf5dc74",
+      "to": "GH001",
+      "title": "Structural Awareness Programme",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Phylons» con el rótulo «Revision-Aware Event Semantics and Relabeling Cascades».",
+      "relationTokens": 98,
+      "fichaTokens": 179,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH001.json"
+    }
+  ]
+}

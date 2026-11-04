@@ -1,0 +1,163 @@
+{
+  "id": "D-029",
+  "type": "ficha",
+  "title": "Once departamentos y una visión incompleta",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-029",
+  "documentId": "doc-41f3a410d217128630",
+  "sourceIds": [],
+  "tagWeights": {
+    "empresa": 0.5,
+    "perspectiva": 0.5
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Once departamentos y una visión incompleta\nINTERLOCUTOR — ¿Qué te ocurrió cuando descubriste que un reporte útil podía desaparecer en once departamentos y hojas de Excel?\nIVÁN —\nEso sí, muy a mi pesar, esos reportes eran generados en Excel y luego copiados manualmente, celda por celda, a otro Excel… exactamente igual. Y cuando digo exactamente, no es una metáfora. El mismo reporte, idéntico, viajaba de un departamento a otro: llegué a contar hasta once—cada uno del tamaño de un edificio— donde equipos enteros de escribanos se dedicaban a transcribir una y otra vez los mismos datos, sin cuestionarlos y sin conocer el origen y el destino poco más allá del eslabón anterior y posterior de la cadena. \nIncluso yo mismo no supe el destino final y paré de interesarme después del departamento onceavo. Comprendí que, si esperaba visibilidad o reconocimiento por mis habilidades tecnológicas, lo estaba buscando en el lugar equivocado. Todos esos equipos dependían del GEPLAN, pero ni lo sabían ni les resultaba relevante. Si por alguna razón el sistema llegara a fallar, podrían tardar meses en notarlo, y aun así, probablemente culparían a alguien más y continuarían con su rutina, como si nada hubiera pasado.\nEn todo caso, decidí continuar el programa que había planteado. Y no especialmente por mí sino porque ante todo sentía que me debía a mi equipo, que, por otra parte, era de ensueño.\nEtiquetas: Empresa y gestión 50.00%; Cambio de perspectiva 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-029\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20%C2%BFQu%C3%A9%20te%20ocurri%C3%B3%20cuando%20descubriste%20que%20un%20reporte%20%C3%BAtil\n\n",
+  "tokens": 444,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-029:dg-observe",
+      "to": "dg-observe",
+      "title": "Mirar lo que falta",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 189,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-observe.json"
+    },
+    {
+      "id": "apoyo:D-029:dg-structure",
+      "to": "dg-structure",
+      "title": "Conciencia estructural",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 256,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-structure.json"
+    },
+    {
+      "id": "documento:dg-004",
+      "to": "D-073",
+      "title": "Del régimen de operación a la conciencia estructural",
+      "direction": "saliente",
+      "kind": "lectura comparada",
+      "reading": "Las miradas parciales de distintos departamentos permiten preguntar qué relaciones pierde una descripción de la estructura.",
+      "relationTokens": 41,
+      "fichaTokens": 637,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-073.json"
+    },
+    {
+      "id": "documento:dg-072",
+      "to": "D-019",
+      "title": "Chicontepec: entender antes de automatizar",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Mirar lo que falta».",
+      "relationTokens": 34,
+      "fichaTokens": 461,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-019.json"
+    },
+    {
+      "id": "documento:dg-073",
+      "to": "D-054",
+      "title": "Matemáticas: preguntar antes de elegir escuela",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Mirar lo que falta».",
+      "relationTokens": 32,
+      "fichaTokens": 422,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-054.json"
+    },
+    {
+      "id": "documento:dg-161",
+      "to": "D-025",
+      "title": "Instalar un sistema no basta",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Conciencia estructural».",
+      "relationTokens": 29,
+      "fichaTokens": 645,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-025.json"
+    },
+    {
+      "id": "documento:dg-162",
+      "to": "D-031",
+      "title": "Auditorías, certificación y hábitos reales",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Conciencia estructural».",
+      "relationTokens": 31,
+      "fichaTokens": 443,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-031.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-271-D-029",
+      "to": "D-271",
+      "title": "La solución pudo decirse muchas veces y seguir siendo inaudible",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «La solución pudo decirse muchas veces y seguir siendo inaudible» con «Once departamentos y una visión incompleta». Permite contrastar Mirar lo que falta.",
+      "relationTokens": 66,
+      "fichaTokens": 379,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-271.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-286-D-029",
+      "to": "D-286",
+      "title": "El enjambre de sistemitas es una deuda de gestión",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «El enjambre de sistemitas es una deuda de gestión» con «Once departamentos y una visión incompleta».",
+      "relationTokens": 52,
+      "fichaTokens": 430,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-286.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-029-D-116",
+      "to": "D-116",
+      "title": "Un control puede aprobar y el sistema seguir fallando",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Mirar lo que falta, Conciencia estructural desde las situaciones que describe cada texto.",
+      "relationTokens": 48,
+      "fichaTokens": 299,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-116.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-029-D-099",
+      "to": "D-099",
+      "title": "Lo que el mapa no representa puede cambiar la decisión",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Mirar lo que falta, Conciencia estructural desde las situaciones que describe cada texto.",
+      "relationTokens": 48,
+      "fichaTokens": 261,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-099.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-056-D-029",
+      "to": "D-056",
+      "title": "Del límite matemático al cambio de contexto",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Mirar lo que falta, Conciencia estructural desde las situaciones que describe cada texto.",
+      "relationTokens": 46,
+      "fichaTokens": 510,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-056.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-285-D-029",
+      "to": "D-285",
+      "title": "Un arquitecto no puede saber toda la jerga de todos los oficios",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Mirar lo que falta, Conciencia estructural desde las situaciones que describe cada texto.",
+      "relationTokens": 53,
+      "fichaTokens": 439,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-285.json"
+    }
+  ]
+}

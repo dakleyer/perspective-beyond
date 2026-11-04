@@ -1,0 +1,100 @@
+{
+  "id": "dg-axiom_reversal",
+  "type": "concepto",
+  "title": "Explorar axiomas desde lo indefinible",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-axiom_reversal",
+  "documentId": null,
+  "sourceIds": [
+    "D-266",
+    "D-282"
+  ],
+  "tagWeights": {
+    "experimentacion": 0.3125,
+    "matematicas": 0.6875
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Explorar axiomas desde lo indefinible\nPropuesta de examinar lo no definible como punto de partida y cuestionar la naturalización del universo formal dado.\nEtiquetas: Experimentación, falsación y contraejemplos 31.25%; Matemáticas 68.75%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-axiom_reversal\n\n",
+  "tokens": 87,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-266:dg-axiom_reversal",
+      "to": "D-266",
+      "title": "¿Y si el punto de partida fuera lo no definible?",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 406,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-266.json"
+    },
+    {
+      "id": "apoyo:D-282:dg-axiom_reversal",
+      "to": "D-282",
+      "title": "Pedir un contraejemplo es una parte del pensamiento original",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 411,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-282.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-245",
+      "to": "dg-math",
+      "title": "Pensamiento matemático",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.10",
+      "reading": "Propuesta sobre definibilidad y universos formales.",
+      "relationTokens": 35,
+      "fichaTokens": 177,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-math.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-246",
+      "to": "dg-formalization_event",
+      "title": "La frontera entre mundo y registro",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.10",
+      "reading": "Pregunta anterior a la entrada del mundo en dominio.",
+      "relationTokens": 37,
+      "fichaTokens": 137,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-formalization_event.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-247",
+      "to": "dg-doubt",
+      "title": "Duda, pruebas y conocimiento corregible",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.10",
+      "reading": "Exige distinguir hipótesis de demostración.",
+      "relationTokens": 37,
+      "fichaTokens": 258,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-doubt.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-248",
+      "to": "dg-epistemic_silence",
+      "title": "Exclusión por omisión de interlocución",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.10",
+      "reading": "Las fronteras de investigación pueden dejar preguntas fuera.",
+      "relationTokens": 38,
+      "fichaTokens": 98,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-epistemic_silence.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-278",
+      "to": "dg-validity_boundary",
+      "title": "Límite entre entrada, pertenencia y respuesta",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.11",
+      "reading": "Revisar el dominio supuesto.",
+      "relationTokens": 36,
+      "fichaTokens": 87,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-validity_boundary.json"
+    }
+  ]
+}

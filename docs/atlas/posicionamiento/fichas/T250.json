@@ -1,0 +1,41 @@
+{
+  "id": "T250",
+  "type": "ficha",
+  "title": "Regime Awareness Technology Component Roadmap",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/regime-awareness-technology-component-roadmap-t250/",
+  "documentId": "doc-c8e1ea99d67fa12439",
+  "sourceIds": [],
+  "tagWeights": {
+    "cambio-regimen": 1.0
+  },
+  "clusters": [
+    "tegrity"
+  ],
+  "context": "## Regime Awareness Technology Component Roadmap\n\nEtiquetas: Cambios de régimen y alerta temprana 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/regime-awareness-technology-component-roadmap-t250/\nDocumento de origen: https://tegrity.ai/regime-awareness-roadmap/\n\n",
+  "tokens": 67,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:T250:G06",
+      "to": "G06",
+      "title": "Regime Awareness (RA)",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 190,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G06.json"
+    },
+    {
+      "id": "documento:R200",
+      "to": "T1513",
+      "title": "Regime-Aware Semantic Windows: Proposal for Mathematical Assessment and Empirical Validation",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The next semantic-window assessment](https://tegrity.ai/regime-aware-semantic-windows-mathematical-validation/).",
+      "relationTokens": 59,
+      "fichaTokens": 124,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1513.json"
+    }
+  ]
+}

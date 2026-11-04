@@ -1,0 +1,64 @@
+{
+  "id": "T1726",
+  "type": "ficha",
+  "title": "Industry Reference Group",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/industry-reference-group-t1726/",
+  "documentId": "doc-bf1ec9241ad153434b",
+  "sourceIds": [],
+  "tagWeights": {
+    "estandares": 0.5,
+    "integridad-ia": 0.5
+  },
+  "clusters": [
+    "tegrity"
+  ],
+  "context": "## Industry Reference Group\n\nEtiquetas: Estándares e interoperabilidad 50.00%; Integridad y seguridad de IA 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/industry-reference-group-t1726/\nDocumento de origen: https://tegrity.ai/industry-reference-group/\n\n",
+  "tokens": 68,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:T1726:G34",
+      "to": "G34",
+      "title": "Industry Reference Group (IRG)",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 91,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G34.json"
+    },
+    {
+      "id": "documento:R216",
+      "to": "T2818",
+      "title": "Annex 10 — Collaboration Guide",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The AI Integrity Management Industry Reference Group](https://tegrity.ai/industry-reference-group/).",
+      "relationTokens": 41,
+      "fichaTokens": 107,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2818.json"
+    },
+    {
+      "id": "navigation:position-nav-E2-T1726",
+      "to": "E2",
+      "title": "JubAp.EU",
+      "direction": "entrante",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «JubAp.EU», el enlace «Tegrity.AI Industry Reference Group» abre «Industry Reference Group».",
+      "relationTokens": 54,
+      "fichaTokens": 115,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E2.json"
+    },
+    {
+      "id": "navigation:position-nav-N2-T1726",
+      "to": "N2",
+      "title": "JubAp.Net",
+      "direction": "entrante",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «JubAp.Net», el enlace «Tegrity.AI Industry Reference Group» abre «Industry Reference Group».",
+      "relationTokens": 52,
+      "fichaTokens": 126,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N2.json"
+    }
+  ]
+}

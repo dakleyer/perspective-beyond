@@ -1,0 +1,83 @@
+{
+  "id": "C125",
+  "type": "concepto",
+  "title": "Fuga de etiquetas de una fixture",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/fixture-label-leakage/",
+  "documentId": null,
+  "sourceIds": [
+    "GH078",
+    "T2803",
+    "GH077"
+  ],
+  "tagWeights": {
+    "control-minimo": 0.098,
+    "documentacion": 0.098,
+    "evidencia": 0.2569,
+    "experimentacion": 0.4429,
+    "matematicas": 0.1042
+  },
+  "clusters": [
+    "research",
+    "tegrity"
+  ],
+  "context": "## Fuga de etiquetas de una fixture\nPublic fixture features can accidentally reveal a label reserved for evaluation.\nEtiquetas: Control mínimo y suficiencia 9.80%; Investigación y documentación técnica 9.80%; Evidencia, procedencia y atribución 25.69%; Experimentación, falsación y contraejemplos 44.29%; Matemáticas 10.42%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/fixture-label-leakage/\n\n",
+  "tokens": 101,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH078:C125",
+      "to": "GH078",
+      "title": "L-09 — Remove accidental public-label leakage without rewriting source examples",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 175,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH078.json"
+    },
+    {
+      "id": "apoyo:T2803:C125",
+      "to": "T2803",
+      "title": "Annex 6 — Ablation, Sufficiency and Extensibility",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 114,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2803.json"
+    },
+    {
+      "id": "apoyo:GH077:C125",
+      "to": "GH077",
+      "title": "G-02 — Independent Q-audit evidence, not a Boolean declaration",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 179,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH077.json"
+    },
+    {
+      "id": "concepto:G094",
+      "to": "C46",
+      "title": "Ablación de mecanismos",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "Matched public-view counterworlds can test whether a reported acquisition benefit comes from new evidence rather than accidental fixture-label leakage.",
+      "relationTokens": 41,
+      "fichaTokens": 236,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C46.json"
+    },
+    {
+      "id": "concepto:G100",
+      "to": "C124",
+      "title": "Adquisición de evidencia falible y emparejada",
+      "direction": "entrante",
+      "kind": "documented use",
+      "reading": "A fallible audit mechanism and a public-label leakage control address different confounders; both must remain visible in a fair comparison.",
+      "relationTokens": 49,
+      "fichaTokens": 109,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C124.json"
+    }
+  ]
+}

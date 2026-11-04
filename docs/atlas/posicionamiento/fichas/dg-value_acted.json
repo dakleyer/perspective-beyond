@@ -1,0 +1,127 @@
+{
+  "id": "dg-value_acted",
+  "type": "concepto",
+  "title": "Valor actuado y monedas de identidad",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-value_acted",
+  "documentId": null,
+  "sourceIds": [
+    "D-162",
+    "D-164",
+    "D-168",
+    "D-214"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.25,
+    "autoridad": 0.0714,
+    "decision": 0.1,
+    "economia": 0.4786,
+    "evidencia": 0.1
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Valor actuado y monedas de identidad\nDistinguir valor declarado, deseado, atribuido y revelado por decisiones; examinar el precio de identidad y reconocimiento.\nEtiquetas: Aprendizaje y transmisión de capacidades 25.00%; Autoridad, permisos y delegación 7.14%; Decisiones y responsabilidad 10.00%; Economía, costes y liquidez 47.86%; Evidencia, procedencia y atribución 10.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-value_acted\n\n",
+  "tokens": 120,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-162:dg-value_acted",
+      "to": "D-162",
+      "title": "El valor que se actúa no es necesariamente el valor que se declara",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 377,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-162.json"
+    },
+    {
+      "id": "apoyo:D-164:dg-value_acted",
+      "to": "D-164",
+      "title": "El mercado de identidad tiene sus propios precios",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 344,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-164.json"
+    },
+    {
+      "id": "apoyo:D-168:dg-value_acted",
+      "to": "D-168",
+      "title": "Cuando alguien define tu bienestar, la economía ya es política",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 339,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-168.json"
+    },
+    {
+      "id": "apoyo:D-214:dg-value_acted",
+      "to": "D-214",
+      "title": "La invisibilidad local puede ser una forma de riqueza",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 389,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-214.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-075",
+      "to": "dg-identity",
+      "title": "Identidad, roles y posicionamiento",
+      "direction": "saliente",
+      "kind": "hace observable",
+      "reading": "La autointerpretación se contrasta con las elecciones que preservan identidad.",
+      "relationTokens": 35,
+      "fichaTokens": 234,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-identity.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-076",
+      "to": "dg-economy",
+      "title": "Economía y escasez",
+      "direction": "saliente",
+      "kind": "amplía su moneda",
+      "reading": "Precio monetario no agota los intercambios de reconocimiento.",
+      "relationTokens": 32,
+      "fichaTokens": 239,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-economy.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-077",
+      "to": "dg-measure",
+      "title": "Medir decisiones y consecuencias",
+      "direction": "saliente",
+      "kind": "pide pruebas de",
+      "reading": "La acción debe observarse sin confundir correlación con causa.",
+      "relationTokens": 31,
+      "fichaTokens": 202,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-measure.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-141",
+      "to": "dg-invisible_autonomy",
+      "title": "Autonomía invisible y pertenencia",
+      "direction": "entrante",
+      "kind": "hace visible el coste del estatus",
+      "reading": "La riqueza que obliga a representar puede reducir libertad.",
+      "relationTokens": 34,
+      "fichaTokens": 99,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-invisible_autonomy.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-262",
+      "to": "dg-fulfillment_boundary",
+      "title": "Maximizar frente a cumplir un propósito",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.11",
+      "reading": "El propósito puede no reflejarse en precio.",
+      "relationTokens": 36,
+      "fichaTokens": 88,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-fulfillment_boundary.json"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": "C115",
+  "type": "concepto",
+  "title": "Registro previo a admisión y promoción posterior",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/record-before-admission/",
+  "documentId": null,
+  "sourceIds": [
+    "GH012",
+    "GH015",
+    "N1835",
+    "N1289",
+    "GH066"
+  ],
+  "tagWeights": {
+    "agentes": 0.0476,
+    "control-minimo": 0.0095,
+    "documentacion": 0.0963,
+    "economia": 0.0364,
+    "empresa": 0.0909,
+    "evidencia": 0.4013,
+    "experimentacion": 0.0095,
+    "matematicas": 0.0535,
+    "mundo-abierto": 0.2169,
+    "representacion": 0.0381
+  },
+  "clusters": [
+    "net",
+    "research"
+  ],
+  "context": "## Registro previo a admisión y promoción posterior\nPreserve an authorised trace before its classification for possible later admission.\nEtiquetas: Agentes y coordinación distribuida 4.76%; Control mínimo y suficiencia 0.95%; Investigación y documentación técnica 9.63%; Economía, costes y liquidez 3.64%; Empresa y gestión 9.09%; Evidencia, procedencia y atribución 40.13%; Experimentación, falsación y contraejemplos 0.95%; Matemáticas 5.35%; Mundo abierto e indeterminación 21.69%; Representación y límites formales 3.81%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/record-before-admission/\n\n",
+  "tokens": 154,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH012:C115",
+      "to": "GH012",
+      "title": "Structural Awareness — Collective Residual Intersection and Event-Triggered Promotion",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 214,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH012.json"
+    },
+    {
+      "id": "apoyo:GH015:C115",
+      "to": "GH015",
+      "title": "Structural Awareness — Operational Residual and Online Context Plasticity",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 176,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH015.json"
+    },
+    {
+      "id": "apoyo:N1835:C115",
+      "to": "N1835",
+      "title": "Phylons relabeling cascades",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 74,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1835.json"
+    },
+    {
+      "id": "apoyo:N1289:C115",
+      "to": "N1289",
+      "title": "Information Management as Operational Tracking",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 88,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1289.json"
+    },
+    {
+      "id": "apoyo:GH066:C115",
+      "to": "GH066",
+      "title": "Dual-time, provenance-bound certificate contract — SA-O2/O5 → EA review",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 32,
+      "fichaTokens": 180,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH066.json"
+    },
+    {
+      "id": "concepto:G012",
+      "to": "C11",
+      "title": "Tiempo del hecho y del conocimiento",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "Event-triggered promotion can be compared retrospectively with relabeling cascades, provided event identity and the times of capture, knowledge and reinterpretation remain distinct.",
+      "relationTokens": 51,
+      "fichaTokens": 163,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C11.json"
+    },
+    {
+      "id": "concepto:G015",
+      "to": "C82",
+      "title": "Traducción de captura a arquitectura",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "Operational tracking could retain permitted unresolved traces before lossy admission, so that later qualification can revisit evidence that actually exists.",
+      "relationTokens": 42,
+      "fichaTokens": 245,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C82.json"
+    },
+    {
+      "id": "concepto:G082",
+      "to": "C122",
+      "title": "Validez histórica y validez al uso",
+      "direction": "saliente",
+      "kind": "documented use",
+      "reading": "The dual-time contract makes a later implementation obligation explicit: historical reinterpretation and current permission to rely on a certificate must be evaluated separately.",
+      "relationTokens": 48,
+      "fichaTokens": 94,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C122.json"
+    }
+  ]
+}

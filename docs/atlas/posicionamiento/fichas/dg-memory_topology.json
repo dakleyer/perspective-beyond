@@ -1,0 +1,68 @@
+{
+  "id": "dg-memory_topology",
+  "type": "concepto",
+  "title": "Topología de memoria y nodos centrales",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-memory_topology",
+  "documentId": null,
+  "sourceIds": [
+    "D-249"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.1334,
+    "evidencia": 0.1333,
+    "memoria-territorio": 0.6,
+    "transformacion": 0.1333
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Topología de memoria y nodos centrales\nConservar elementos no garantiza conservar la importancia funcional de sus relaciones bajo actualización.\nEtiquetas: Aprendizaje y transmisión de capacidades 13.34%; Evidencia, procedencia y atribución 13.33%; Memoria, comunidad y territorio 60.00%; Transformación y continuidad operativa 13.33%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-memory_topology\n\n",
+  "tokens": 100,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-249:dg-memory_topology",
+      "to": "D-249",
+      "title": "Una memoria en estrella puede perder su centro sin dejar de funcionar",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 441,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-249.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-209",
+      "to": "dg-semantic_graph",
+      "title": "Conocimiento como red de relaciones y procedencia",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.9",
+      "reading": "Los vínculos y su centralidad sostienen sentido.",
+      "relationTokens": 39,
+      "fichaTokens": 181,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-semantic_graph.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-210",
+      "to": "dg-continuity",
+      "title": "Continuidad de capacidades",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.9",
+      "reading": "Actualizar sin conservar relaciones borra continuidad.",
+      "relationTokens": 32,
+      "fichaTokens": 201,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-continuity.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-211",
+      "to": "dg-learning",
+      "title": "Aprendizaje autodirigido",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.9",
+      "reading": "Aprender requiere distinguir lo nuclear de lo accesorio.",
+      "relationTokens": 37,
+      "fichaTokens": 200,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-learning.json"
+    }
+  ]
+}

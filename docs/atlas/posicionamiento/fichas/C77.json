@@ -1,0 +1,159 @@
+{
+  "id": "C77",
+  "type": "concepto",
+  "title": "Coeficiente de recuperación de capacidad (ρ)",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/capacity-recovery-coefficient/",
+  "documentId": null,
+  "sourceIds": [
+    "T1400",
+    "T1378",
+    "N1287",
+    "U1498",
+    "L001"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.016,
+    "autoridad": 0.0333,
+    "capacidad-humana": 0.2398,
+    "casos": 0.0138,
+    "decision": 0.1365,
+    "economia": 0.162,
+    "empresa": 0.1505,
+    "evidencia": 0.0458,
+    "experimentacion": 0.016,
+    "memoria-territorio": 0.1449,
+    "transformacion": 0.0414
+  },
+  "clusters": [
+    "latinoempresa",
+    "net",
+    "tegrity",
+    "us"
+  ],
+  "context": "## Coeficiente de recuperación de capacidad (ρ)\nEstimate the share of released capacity that returns to genuine contribution.\nEtiquetas: Aprendizaje y transmisión de capacidades 1.60%; Autoridad, permisos y delegación 3.33%; Capacidad humana y deuda de inteligencia 23.98%; Casos de uso y aplicaciones 1.38%; Decisiones y responsabilidad 13.65%; Economía, costes y liquidez 16.20%; Empresa y gestión 15.05%; Evidencia, procedencia y atribución 4.58%; Experimentación, falsación y contraejemplos 1.60%; Memoria, comunidad y territorio 14.49%; Transformación y continuidad operativa 4.14%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/capacity-recovery-coefficient/\n\n",
+  "tokens": 175,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:T1400:C77",
+      "to": "T1400",
+      "title": "Measuring Human Intelligence Debt",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 145,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1400.json"
+    },
+    {
+      "id": "apoyo:T1378:C77",
+      "to": "T1378",
+      "title": "Architectural Entropy: How Mediated Systems Spend Human “Exergy” and the Partial Irreversibility of Human Intelligence Debt",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 44,
+      "fichaTokens": 130,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1378.json"
+    },
+    {
+      "id": "apoyo:N1287:C77",
+      "to": "N1287",
+      "title": "Tacit Knowledge Management in Distributed Tiger Teams",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 153,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1287.json"
+    },
+    {
+      "id": "apoyo:U1498:C77",
+      "to": "U1498",
+      "title": "Entropy, Capability Activation and Sociotechnical Engineering",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 126,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1498.json"
+    },
+    {
+      "id": "apoyo:L001:C77",
+      "to": "L001",
+      "title": "The Integral Management Society : Institución de frontera desde 1898",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 31,
+      "fichaTokens": 119,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/L001.json"
+    },
+    {
+      "id": "concepto:F002",
+      "to": "C39",
+      "title": "Capacidad humana utilizable",
+      "direction": "entrante",
+      "kind": "documented use",
+      "reading": "The recovery coefficient turns the atrophy claim into a bounded question: how much released capacity becomes genuine contribution again for the same capability and cohort?",
+      "relationTokens": 48,
+      "fichaTokens": 210,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C39.json"
+    },
+    {
+      "id": "concepto:F039",
+      "to": "C36",
+      "title": "Transmisión de juicio tácito",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "A practice-based transmission programme could provide the capability-recovery arm of an HID intervention, separately from the integration fix that releases time.",
+      "relationTokens": 48,
+      "fichaTokens": 221,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C36.json"
+    },
+    {
+      "id": "concepto:A029",
+      "to": "C91",
+      "title": "Condiciones de activación de capacidad",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "Carrier availability at an activation threshold and the HID recovery coefficient answer different questions: who can respond now, and what capability returns after the architecture changes.",
+      "relationTokens": 51,
+      "fichaTokens": 240,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C91.json"
+    },
+    {
+      "id": "concepto:B005",
+      "to": "C56",
+      "title": "Custodia institucional",
+      "direction": "entrante",
+      "kind": "hypothesis",
+      "reading": "The preservation rationale motivates a testable question, while the HID measurement programme explicitly keeps recovery and irreversibility as hypotheses awaiting field evidence.",
+      "relationTokens": 44,
+      "fichaTokens": 197,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C56.json"
+    },
+    {
+      "id": "concepto:B476",
+      "to": "G21",
+      "title": "Human Intelligence Debt (HID)",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 150,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G21.json"
+    },
+    {
+      "id": "concepto:P15",
+      "to": "G21",
+      "title": "Human Intelligence Debt (HID)",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 150,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G21.json"
+    }
+  ]
+}

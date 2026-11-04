@@ -1,0 +1,97 @@
+{
+  "id": "C93",
+  "type": "concepto",
+  "title": "Dispersión del acuerdo decisorio",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/decision-agreement-dispersion/",
+  "documentId": null,
+  "sourceIds": [
+    "U1498",
+    "N1285",
+    "T1423"
+  ],
+  "tagWeights": {
+    "autoridad": 0.0556,
+    "capacidad-humana": 0.0556,
+    "casos": 0.0952,
+    "decision": 0.254,
+    "economia": 0.3175,
+    "evidencia": 0.1666,
+    "memoria-territorio": 0.0555
+  },
+  "clusters": [
+    "net",
+    "tegrity",
+    "us"
+  ],
+  "context": "## Dispersión del acuerdo decisorio\nCount parties whose agreement is an actual gate for an atomic decision.\nEtiquetas: Autoridad, permisos y delegación 5.56%; Capacidad humana y deuda de inteligencia 5.56%; Casos de uso y aplicaciones 9.52%; Decisiones y responsabilidad 25.40%; Economía, costes y liquidez 31.75%; Evidencia, procedencia y atribución 16.66%; Memoria, comunidad y territorio 5.55%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/decision-agreement-dispersion/\n\n",
+  "tokens": 128,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:U1498:C93",
+      "to": "U1498",
+      "title": "Entropy, Capability Activation and Sociotechnical Engineering",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 126,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1498.json"
+    },
+    {
+      "id": "apoyo:N1285:C93",
+      "to": "N1285",
+      "title": "The Coordination Entropy Trap in Large Scale Programs",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 99,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1285.json"
+    },
+    {
+      "id": "apoyo:T1423:C93",
+      "to": "T1423",
+      "title": "Is Clarity Getting More Expensive?",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 84,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1423.json"
+    },
+    {
+      "id": "concepto:A021",
+      "to": "C94",
+      "title": "Alcance de bloqueo de una decisión",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "Decision-level dispersion and downstream coupling make the coordination-entropy discussion more precise by separating agreement burden from the propagation of a blocked decision.",
+      "relationTokens": 45,
+      "fichaTokens": 151,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C94.json"
+    },
+    {
+      "id": "concepto:A022",
+      "to": "C32",
+      "title": "Coste de claridad",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "The agreement-load model offers a local test of rising clarity cost, provided the actual sign-off topology is measured rather than assumed to require full pairwise consensus.",
+      "relationTokens": 47,
+      "fichaTokens": 257,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C32.json"
+    },
+    {
+      "id": "concepto:P25",
+      "to": "C94",
+      "title": "Alcance de bloqueo de una decisión",
+      "direction": "saliente",
+      "kind": "hypothesis",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 151,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C94.json"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "id": "dg-institutional_custody",
+  "type": "concepto",
+  "title": "Custodia de comunidades de práctica",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-institutional_custody",
+  "documentId": null,
+  "sourceIds": [
+    "D-227",
+    "D-228",
+    "D-253",
+    "D-297"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.0556,
+    "autoridad": 0.0555,
+    "capacidad-humana": 0.1528,
+    "empresa": 0.0555,
+    "memoria-territorio": 0.5278,
+    "transformacion": 0.1528
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Custodia de comunidades de práctica\nSaberes, protocolos y maneras de transmisión viven fuera de la entidad jurídica; autenticidad como preservación e integración.\nEtiquetas: Aprendizaje y transmisión de capacidades 5.56%; Autoridad, permisos y delegación 5.55%; Capacidad humana y deuda de inteligencia 15.28%; Empresa y gestión 5.55%; Memoria, comunidad y territorio 52.78%; Transformación y continuidad operativa 15.28%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-institutional_custody\n\n",
+  "tokens": 128,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-227:dg-institutional_custody",
+      "to": "D-227",
+      "title": "La institución existe fuera de sus oficinas",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 426,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-227.json"
+    },
+    {
+      "id": "apoyo:D-228:dg-institutional_custody",
+      "to": "D-228",
+      "title": "La autenticidad no solo se preserva: se construye",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 440,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-228.json"
+    },
+    {
+      "id": "apoyo:D-253:dg-institutional_custody",
+      "to": "D-253",
+      "title": "Custodiar un saber no es encerrarlo: hay que poder volver a hacerlo",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 432,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-253.json"
+    },
+    {
+      "id": "apoyo:D-297:dg-institutional_custody",
+      "to": "D-297",
+      "title": "La propiedad intelectual protege una etapa, no toda la vida de una capacidad",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 403,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-297.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-164",
+      "to": "dg-community",
+      "title": "Comunidades y territorio",
+      "direction": "saliente",
+      "kind": "localiza los saberes vivos",
+      "reading": "Las prácticas desbordan la asociación.",
+      "relationTokens": 27,
+      "fichaTokens": 187,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-community.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-165",
+      "to": "dg-continuity",
+      "title": "Continuidad de capacidades",
+      "direction": "saliente",
+      "kind": "protege sin apropiarse",
+      "reading": "Transmitir no equivale a poseer un pueblo.",
+      "relationTokens": 29,
+      "fichaTokens": 201,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-continuity.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-166",
+      "to": "dg-tacit",
+      "title": "Conocimiento tácito",
+      "direction": "saliente",
+      "kind": "custodia aprendizaje situado",
+      "reading": "La técnica también vive en personas y rituales.",
+      "relationTokens": 27,
+      "fichaTokens": 166,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-tacit.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-167",
+      "to": "dg-culture",
+      "title": "Protocultura, autoría y conocimiento emergente",
+      "direction": "saliente",
+      "kind": "construye autenticidad por integración",
+      "reading": "Preservación e innovación pueden sostenerse mutuamente.",
+      "relationTokens": 37,
+      "fichaTokens": 204,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-culture.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-187",
+      "to": "dg-semantic_graph",
+      "title": "Conocimiento como red de relaciones y procedencia",
+      "direction": "entrante",
+      "kind": "ancla ideas en prácticas",
+      "reading": "Los relatos regresan a portadores y lugares.",
+      "relationTokens": 33,
+      "fichaTokens": 181,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-semantic_graph.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-190",
+      "to": "dg-capability_loss",
+      "title": "Poda, memoria y capacidades zombis",
+      "direction": "entrante",
+      "kind": "comparte la preservación",
+      "reading": "Oficios y empresas pierden saberes aun con archivos.",
+      "relationTokens": 33,
+      "fichaTokens": 142,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-capability_loss.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-216",
+      "to": "dg-federated_custody",
+      "title": "Custodias distribuidas y memoria viva",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.9",
+      "reading": "Custodiar no confiere representación ajena.",
+      "relationTokens": 35,
+      "fichaTokens": 128,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-federated_custody.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-318",
+      "to": "dg-capability_cycle",
+      "title": "Vida completa de una capacidad",
+      "direction": "entrante",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "Más que derechos formales de IP.",
+      "relationTokens": 29,
+      "fichaTokens": 101,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-capability_cycle.json"
+    }
+  ]
+}

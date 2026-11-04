@@ -1,0 +1,176 @@
+{
+  "id": "D-181",
+  "type": "ficha",
+  "title": "Cinco mil aplicaciones y el trabajo que evitaba la caída",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-181",
+  "documentId": "doc-68071225562f281b5f",
+  "sourceIds": [],
+  "tagWeights": {
+    "casos": 0.3125,
+    "empresa": 0.25,
+    "movilidad": 0.125,
+    "transformacion": 0.3125
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Cinco mil aplicaciones y el trabajo que evitaba la caída\nINTERLOCUTOR (pregunta editorial, no pronunciada necesariamente) — ¿Quién sostiene de verdad una empresa cuya continuidad depende de miles de soluciones que nadie ve en el organigrama?\nREFLEXIÓN DEL DIÁLOGO (reconstrucción editorial cotejada con el escrito) — Iván relata una observación profesional en Richemont: en una organización de alrededor de cincuenta mil personas, esperaba encontrar menos de mil aplicaciones y su inventario de trabajo le mostró del orden de cinco mil. Son cifras recordadas por el autor y no una auditoría institucional reproducida aquí. Más importante que el número es el cambio de escala del problema. Cada aplicación puede tener interfaces, datos, parches, usuarios, responsables y procedimientos manuales que mantienen viva una capacidad; destruirla por pensar que es redundante puede descubrir demasiado tarde quién sostenía el proceso. Desde fuera puede parecer que una institución se mantiene por su estrategia o su prestigio; desde dentro sobreviven incontables continuadores, operadores y reparadores. Reconocerlos no significa aceptar cualquier legado tecnológico. Es exigir que la racionalización pruebe continuidad, dependencias y sustitución efectiva antes de declarar que una pieza sobraba. La producción incluye evitar el colapso, aunque ese trabajo no aparezca en la narración oficial.\nEtiquetas: Casos de uso y aplicaciones 31.25%; Empresa y gestión 25.00%; Movilidad e infraestructura 12.50%; Transformación y continuidad operativa 31.25%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-181\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-181.html\n\n",
+  "tokens": 367,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-181:dg-infra",
+      "to": "dg-infra",
+      "title": "Infraestructura habilitadora",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 161,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-infra.json"
+    },
+    {
+      "id": "apoyo:D-181:dg-continuity",
+      "to": "dg-continuity",
+      "title": "Continuidad de capacidades",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 201,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-continuity.json"
+    },
+    {
+      "id": "apoyo:D-181:dg-production",
+      "to": "dg-production",
+      "title": "Producción material y continuadores invisibles",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 218,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-production.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-181-D-010",
+      "to": "D-010",
+      "title": "La responsabilidad que casi nadie ve",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Cinco mil aplicaciones y el trabajo que evitaba la caída» con «La responsabilidad que casi nadie ve». Permite contrastar Infraestructura habilitadora.",
+      "relationTokens": 62,
+      "fichaTokens": 310,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-010.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-181-D-043",
+      "to": "D-043",
+      "title": "Transformar empresas mientras siguen operando",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Cinco mil aplicaciones y el trabajo que evitaba la caída» con «Transformar empresas mientras siguen operando».",
+      "relationTokens": 54,
+      "fichaTokens": 923,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-043.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-181-D-059",
+      "to": "D-059",
+      "title": "La experiencia que nunca se escribió",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Cinco mil aplicaciones y el trabajo que evitaba la caída» con «La experiencia que nunca se escribió».",
+      "relationTokens": 52,
+      "fichaTokens": 368,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-059.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-181-D-072",
+      "to": "D-072",
+      "title": "Conservar una capacidad más allá de su creador",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Cinco mil aplicaciones y el trabajo que evitaba la caída» con «Conservar una capacidad más allá de su creador». Permite contrastar Continuidad de capacidades.",
+      "relationTokens": 69,
+      "fichaTokens": 542,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-072.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-229-D-181",
+      "to": "D-229",
+      "title": "Trabajar los talentos puede salir a perder",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Trabajar los talentos puede salir a perder» con «Cinco mil aplicaciones y el trabajo que evitaba la caída». Permite contrastar Producción material y continuadores invisibles.",
+      "relationTokens": 68,
+      "fichaTokens": 430,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-229.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-235-D-181",
+      "to": "D-235",
+      "title": "El mejor informe puede salvar el puesto y perder la operación",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «El mejor informe puede salvar el puesto y perder la operación» con «Cinco mil aplicaciones y el trabajo que evitaba la caída».",
+      "relationTokens": 61,
+      "fichaTokens": 450,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-235.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-264-D-181",
+      "to": "D-264",
+      "title": "La unidad de racionalización debe trabajar para dejar de ser necesaria",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «La unidad de racionalización debe trabajar para dejar de ser necesaria» con «Cinco mil aplicaciones y el trabajo que evitaba la caída». Permite contrastar Continuidad de capacidades.",
+      "relationTokens": 72,
+      "fichaTokens": 410,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-264.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-265-D-181",
+      "to": "D-265",
+      "title": "El diamante tecnológico puede estar funcionando dentro de la empresa y seguir invisible",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «El diamante tecnológico puede estar funcionando dentro de la empresa y seguir invisible» con «Cinco mil aplicaciones y el trabajo que evitaba la caída».",
+      "relationTokens": 67,
+      "fichaTokens": 370,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-265.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-181-D-187",
+      "to": "D-187",
+      "title": "Una generación construyó la infraestructura; otra recibió la interfaz",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Producción material y continuadores invisibles, Infraestructura habilitadora desde las situaciones que describe cada texto.",
+      "relationTokens": 59,
+      "fichaTokens": 393,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-187.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-181-D-191",
+      "to": "D-191",
+      "title": "Una inteligencia puede hacer operable la fragilidad sin convertirla en resiliencia",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Infraestructura habilitadora, Continuidad de capacidades desde las situaciones que describe cada texto.",
+      "relationTokens": 58,
+      "fichaTokens": 387,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-191.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-181-D-288",
+      "to": "D-288",
+      "title": "Cambiar quién posee la manzana no alimenta al siguiente árbol",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Producción material y continuadores invisibles, Continuidad de capacidades desde las situaciones que describe cada texto.",
+      "relationTokens": 59,
+      "fichaTokens": 421,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-288.json"
+    }
+  ]
+}

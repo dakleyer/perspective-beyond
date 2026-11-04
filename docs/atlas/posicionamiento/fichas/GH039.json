@@ -1,0 +1,213 @@
+{
+  "id": "GH039",
+  "type": "ficha",
+  "title": "01K-A01 — Human Capacity / HID Component Verification Record v0.1",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/GH039.html",
+  "documentId": "doc-742182de311350edf2",
+  "sourceIds": [],
+  "tagWeights": {
+    "autoridad": 0.1379,
+    "capacidad-humana": 0.2759,
+    "decision": 0.1379,
+    "documentacion": 0.2758,
+    "empresa": 0.0345,
+    "evidencia": 0.069,
+    "experimentacion": 0.0345,
+    "matematicas": 0.0345
+  },
+  "clusters": [
+    "research"
+  ],
+  "context": "## 01K-A01 — Human Capacity / HID Component Verification Record v0.1\nLa revisión contrasta los estados de disponibilidad humana del componente con su especificación y con las interfaces que lo consumen. Para escalar una decisión importan la competencia, el permiso y el tiempo restante. La deuda de inteligencia humana se observa con una medida separada.\nEtiquetas: Autoridad, permisos y delegación 13.79%; Capacidad humana y deuda de inteligencia 27.59%; Decisiones y responsabilidad 13.79%; Investigación y documentación técnica 27.58%; Empresa y gestión 3.45%; Evidencia, procedencia y atribución 6.90%; Experimentación, falsación y contraejemplos 3.45%; Matemáticas 3.45%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/GH039.html\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_VERIFICATION_v0.1.md\n\n",
+  "tokens": 261,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH039:C50",
+      "to": "C50",
+      "title": "Estado de una afirmación",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 295,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C50.json"
+    },
+    {
+      "id": "apoyo:GH039:C69",
+      "to": "C69",
+      "title": "Evidencia de contribución",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 289,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C69.json"
+    },
+    {
+      "id": "documento:G039",
+      "to": "T2814",
+      "title": "Annex 9 — Claims and Evidence Appendix",
+      "direction": "saliente",
+      "kind": "documented use",
+      "reading": "The component verification record is useful technical evidence when its same-author scope and unresolved independent-validation obligations remain attached.",
+      "relationTokens": 50,
+      "fichaTokens": 95,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2814.json"
+    },
+    {
+      "id": "documento:sac-rel-c985f05ff38713",
+      "to": "GH038",
+      "title": "01K-A01 — Human Capacity / Human Intelligence Debt Reusable Component Specification",
+      "direction": "saliente",
+      "kind": "contrasta la especificación",
+      "reading": "Las comprobaciones recorren los estados y vectores definidos en el contrato del componente.",
+      "relationTokens": 133,
+      "fichaTokens": 188,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH038.json"
+    },
+    {
+      "id": "documento:sac-rel-ac39f7e57cf78f",
+      "to": "T1400",
+      "title": "Measuring Human Intelligence Debt",
+      "direction": "saliente",
+      "kind": "separa dos tipos de medición",
+      "reading": "La medición de deuda observa carga acumulada y desperdicio de juicio humano. La verificación del componente pregunta si la escalada es viable en el momento.",
+      "relationTokens": 138,
+      "fichaTokens": 145,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1400.json"
+    },
+    {
+      "id": "documento:sac-rel-1621da4f83c421",
+      "to": "sac-087bbc064c2db1",
+      "title": "DDS Stage A — VNext",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Appendix A. All102 priority recommendations — documentary dispositions» con el rótulo «research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_VERIFICATION_v0.1.md».",
+      "relationTokens": 152,
+      "fichaTokens": 218,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-087bbc064c2db1.json"
+    },
+    {
+      "id": "documento:sac-rel-0baca1f3cda883",
+      "to": "GH037",
+      "title": "Annex 01K — Human Capacity / Human Intelligence Debt",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «1. Source reconciliation performed» con el rótulo «01K — Human Capacity / Human Intelligence Debt».",
+      "relationTokens": 140,
+      "fichaTokens": 264,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH037.json"
+    },
+    {
+      "id": "documento:sac-rel-3b263e4ed78777",
+      "to": "GH041",
+      "title": "Ecosystem Awareness — General Functional Interfaces & Agentic Security — v0.5 Integrated",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «1. Source reconciliation performed» con el rótulo «04 — General Functional Interfaces / EHD».",
+      "relationTokens": 145,
+      "fichaTokens": 203,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH041.json"
+    },
+    {
+      "id": "documento:sac-rel-ccf25163104057",
+      "to": "GH036",
+      "title": "Annex 01J — Ecosystem Signalling: Selective Disclosure, Distributed Opportunity and Choreographed Repositioning",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «1. Source reconciliation performed» con el rótulo «01J — Ecosystem Signalling».",
+      "relationTokens": 150,
+      "fichaTokens": 211,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH036.json"
+    },
+    {
+      "id": "documento:sac-rel-821e05d29524b2",
+      "to": "GH032",
+      "title": "Annex 01C — Ecosystem Awareness / Regime Awareness architectural relation",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «1. Source reconciliation performed» con el rótulo «01C — EA ↔ Regime Awareness».",
+      "relationTokens": 143,
+      "fichaTokens": 221,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH032.json"
+    },
+    {
+      "id": "documento:sac-rel-8582d427939b2a",
+      "to": "GH031",
+      "title": "Annex 01B — Ecosystem Awareness / Minimum Sufficient Control Architecture interface",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «1. Source reconciliation performed» con el rótulo «01B — EA ↔ MSCA».",
+      "relationTokens": 143,
+      "fichaTokens": 210,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH031.json"
+    },
+    {
+      "id": "documento:sac-rel-d9c8c137b99fff",
+      "to": "GH021",
+      "title": "Minimum Sufficient Control Architecture (MSCA) — Canonical Architecture",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «1. Source reconciliation performed» con el rótulo «Canonical MSCA Architecture».",
+      "relationTokens": 137,
+      "fichaTokens": 200,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH021.json"
+    },
+    {
+      "id": "documento:sac-rel-e227cbb43b9722",
+      "to": "GH024",
+      "title": "Canonical MSCA Operation & Repositioning — Gradient, Re-contracting and Metamorphic Role Control",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «1. Source reconciliation performed» con el rótulo «Canonical MSCA Operation & Repositioning».",
+      "relationTokens": 149,
+      "fichaTokens": 205,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH024.json"
+    },
+    {
+      "id": "documento:sac-rel-65eeb77ee826ab",
+      "to": "GH054",
+      "title": "UC-EA-03 — Architecture-Validation Profile — Human Oversight under Bounded Effective Capacity and Non-curative Approval — v0.4 — Maintenance Freeze",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «1. Source reconciliation performed» con el rótulo «UC-EA-03».",
+      "relationTokens": 157,
+      "fichaTokens": 233,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH054.json"
+    },
+    {
+      "id": "documento:sac-rel-a9c23e34e9a4ff",
+      "to": "sac-9ec5bdc99fe43e",
+      "title": "R01 — Human escalation and whispering, mechanism by mechanism",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «1. Source reconciliation performed» con el rótulo «R01 Human Escalation / Whispering».",
+      "relationTokens": 141,
+      "fichaTokens": 208,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-9ec5bdc99fe43e.json"
+    },
+    {
+      "id": "documento:sac-rel-a294b40756307a",
+      "to": "sac-2afd960fa37389",
+      "title": "Ecosystem Awareness — Canonical Corpus Manifest",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «A.4c Human Capacity / Human Intelligence Debt extension and reusable component package (outside the contr» con el rótulo «01K_A01_HUMAN_CAPACITY_HID_COMPONENT_VERIFICATION_v0.1.md».",
+      "relationTokens": 149,
+      "fichaTokens": 205,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-2afd960fa37389.json"
+    },
+    {
+      "id": "documento:sac-rel-97f00f2dd93c37",
+      "to": "sac-c3831fbc3d853f",
+      "title": "Ecosystem Awareness — canonical corpus",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Foundational source and extension annexes» con el rótulo «verification record».",
+      "relationTokens": 111,
+      "fichaTokens": 184,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-c3831fbc3d853f.json"
+    }
+  ]
+}

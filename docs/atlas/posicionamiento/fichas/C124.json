@@ -1,0 +1,118 @@
+{
+  "id": "C124",
+  "type": "concepto",
+  "title": "Adquisición de evidencia falible y emparejada",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/fallible-matched-evidence-acquisition/",
+  "documentId": null,
+  "sourceIds": [
+    "GH076",
+    "GH077",
+    "T1421",
+    "T2814",
+    "GH078"
+  ],
+  "tagWeights": {
+    "documentacion": 0.1133,
+    "economia": 0.2091,
+    "evidencia": 0.4318,
+    "experimentacion": 0.1833,
+    "matematicas": 0.0625
+  },
+  "clusters": [
+    "research",
+    "tegrity"
+  ],
+  "context": "## Adquisición de evidencia falible y emparejada\nRecord coverage, error, cost and provenance when gathering evidence.\nEtiquetas: Investigación y documentación técnica 11.33%; Economía, costes y liquidez 20.91%; Evidencia, procedencia y atribución 43.18%; Experimentación, falsación y contraejemplos 18.33%; Matemáticas 6.25%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/fallible-matched-evidence-acquisition/\n\n",
+  "tokens": 109,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH076:C124",
+      "to": "GH076",
+      "title": "L-08 — Laboratorio de precisión, procedencia y costes para FH-C",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 35,
+      "fichaTokens": 172,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH076.json"
+    },
+    {
+      "id": "apoyo:GH077:C124",
+      "to": "GH077",
+      "title": "G-02 — Independent Q-audit evidence, not a Boolean declaration",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 33,
+      "fichaTokens": 179,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH077.json"
+    },
+    {
+      "id": "apoyo:T1421:C124",
+      "to": "T1421",
+      "title": "How to Measure the Cost of Not Knowing",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 96,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1421.json"
+    },
+    {
+      "id": "apoyo:T2814:C124",
+      "to": "T2814",
+      "title": "Annex 9 — Claims and Evidence Appendix",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 95,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2814.json"
+    },
+    {
+      "id": "apoyo:GH078:C124",
+      "to": "GH078",
+      "title": "L-09 — Remove accidental public-label leakage without rewriting source examples",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 32,
+      "fichaTokens": 175,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH078.json"
+    },
+    {
+      "id": "concepto:G092",
+      "to": "C32",
+      "title": "Coste de claridad",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "Compare evidence precision and provenance before pricing the procedures; a favorable price assumption must not be reported as an architectural advantage.",
+      "relationTokens": 43,
+      "fichaTokens": 257,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C32.json"
+    },
+    {
+      "id": "concepto:G093",
+      "to": "C69",
+      "title": "Evidencia de contribución",
+      "direction": "saliente",
+      "kind": "documented use",
+      "reading": "An audited-Q claim becomes testable when audit observations, fallibility, scope and cost are explicit, rather than supplied as a favorable Boolean flag.",
+      "relationTokens": 50,
+      "fichaTokens": 289,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C69.json"
+    },
+    {
+      "id": "concepto:G100",
+      "to": "C125",
+      "title": "Fuga de etiquetas de una fixture",
+      "direction": "saliente",
+      "kind": "documented use",
+      "reading": "A fallible audit mechanism and a public-label leakage control address different confounders; both must remain visible in a fair comparison.",
+      "relationTokens": 49,
+      "fichaTokens": 101,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C125.json"
+    }
+  ]
+}

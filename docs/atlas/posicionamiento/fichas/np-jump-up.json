@@ -1,0 +1,42 @@
+{
+  "id": "np-jump-up",
+  "type": "ficha",
+  "title": "Del cambio de perspectiva al plan JUMP UP",
+  "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-jump-up",
+  "documentId": "doc-ff9d2edaecf0774aed",
+  "sourceIds": [],
+  "tagWeights": {
+    "perspectiva": 0.3846,
+    "transformacion": 0.6154
+  },
+  "clusters": [
+    "imsv"
+  ],
+  "context": "## Del cambio de perspectiva al plan JUMP UP\nFocus ON permite examinar cómo se afectan entre sí los intereses, las capacidades, los objetivos y los bloqueos. JUMP UP convierte esa lectura en una acción que un equipo puede empezar y seguir en la operación.\nEtiquetas: Cambio de perspectiva 38.46%; Transformación y continuidad operativa 61.54%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-jump-up\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/jump-up/\n\n",
+  "tokens": 120,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "documento:np-r07",
+      "to": "np-lectura-manifiesto",
+      "title": "El manifiesto, leído en diálogo",
+      "direction": "entrante",
+      "kind": "desarrollo",
+      "reading": "El examen racional de una nueva mirada encuentra una expresión práctica en el diseño de la intervención.",
+      "relationTokens": 38,
+      "fichaTokens": 118,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-lectura-manifiesto.json"
+    },
+    {
+      "id": "documento:np-r08",
+      "to": "np-pemex",
+      "title": "PEMEX y TETSA: personas, seguridad y operación",
+      "direction": "saliente",
+      "kind": "lectura de campo",
+      "reading": "Leer los bloqueos exige observar a la vez procedimientos, seguridad y experiencia de quienes operan.",
+      "relationTokens": 46,
+      "fichaTokens": 131,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-pemex.json"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "dg-ai_writing_boundary",
+  "type": "concepto",
+  "title": "Máquina de escribir, pensamiento y autoría",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-ai_writing_boundary",
+  "documentId": null,
+  "sourceIds": [
+    "D-291"
+  ],
+  "tagWeights": {
+    "decision": 0.5,
+    "evidencia": 0.5
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Máquina de escribir, pensamiento y autoría\nLa IA puede ayudar a volver comunicable una idea sin que la fluidez de su prosa pruebe quién la concibió.\nEtiquetas: Decisiones y responsabilidad 50.00%; Evidencia, procedencia y atribución 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-ai_writing_boundary\n\n",
+  "tokens": 88,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-291:dg-ai_writing_boundary",
+      "to": "D-291",
+      "title": "La inteligencia artificial también puede ser una máquina de escribir",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 377,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-291.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-302",
+      "to": "dg-semantic_graph",
+      "title": "Conocimiento como red de relaciones y procedencia",
+      "direction": "saliente",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "Retornar al registro de ideas originales.",
+      "relationTokens": 36,
+      "fichaTokens": 181,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-semantic_graph.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-303",
+      "to": "dg-research_dialogue",
+      "title": "Diálogo de investigación y prueba acotada",
+      "direction": "saliente",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "Distinguir intervención y elaboración.",
+      "relationTokens": 35,
+      "fichaTokens": 150,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-research_dialogue.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-304",
+      "to": "dg-evidence_recognition",
+      "title": "Valor del trabajo y pruebas de capacidad",
+      "direction": "saliente",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "La fluidez no prueba autoría.",
+      "relationTokens": 34,
+      "fichaTokens": 126,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-evidence_recognition.json"
+    }
+  ]
+}

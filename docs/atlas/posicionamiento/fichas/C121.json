@@ -1,0 +1,63 @@
+{
+  "id": "C121",
+  "type": "concepto",
+  "title": "Ahorro por reutilización cualificada",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/savings-from-qualified-reuse/",
+  "documentId": null,
+  "sourceIds": [
+    "GH009",
+    "T1421"
+  ],
+  "tagWeights": {
+    "control-minimo": 0.1111,
+    "documentacion": 0.0909,
+    "economia": 0.3098,
+    "evidencia": 0.1549,
+    "matematicas": 0.0741,
+    "mundo-abierto": 0.1111,
+    "perspectiva": 0.0185,
+    "representacion": 0.1296
+  },
+  "clusters": [
+    "research",
+    "tegrity"
+  ],
+  "context": "## Ahorro por reutilización cualificada\nReuse can save effort when scope, permissions and validity are checked.\nEtiquetas: Control mínimo y suficiencia 11.11%; Investigación y documentación técnica 9.09%; Economía, costes y liquidez 30.98%; Evidencia, procedencia y atribución 15.49%; Matemáticas 7.41%; Mundo abierto e indeterminación 11.11%; Cambio de perspectiva 1.85%; Representación y límites formales 12.96%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/savings-from-qualified-reuse/\n\n",
+  "tokens": 129,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH009:C121",
+      "to": "GH009",
+      "title": "Structural Awareness — The Value of an Unresolved Frontier and Two-Phase Contextual Requalification",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 34,
+      "fichaTokens": 247,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH009.json"
+    },
+    {
+      "id": "apoyo:T1421:C121",
+      "to": "T1421",
+      "title": "How to Measure the Cost of Not Knowing",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 96,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1421.json"
+    },
+    {
+      "id": "concepto:G009",
+      "to": "C32",
+      "title": "Coste de claridad",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "Qualified reuse can reduce the cost of clarity only after source production, discovery, integration, per-use verification and renewal costs are counted.",
+      "relationTokens": 43,
+      "fichaTokens": 257,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C32.json"
+    }
+  ]
+}

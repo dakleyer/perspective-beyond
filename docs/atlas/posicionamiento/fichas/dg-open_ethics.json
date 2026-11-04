@@ -1,0 +1,66 @@
+{
+  "id": "dg-open_ethics",
+  "type": "concepto",
+  "title": "Ética impugnable por personas externas",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-open_ethics",
+  "documentId": null,
+  "sourceIds": [
+    "D-296"
+  ],
+  "tagWeights": {
+    "autoridad": 0.5,
+    "decision": 0.5
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Ética impugnable por personas externas\nLos mecanismos de examen pueden admitir observaciones externas incluso de no miembros.\nEtiquetas: Autoridad, permisos y delegación 50.00%; Decisiones y responsabilidad 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-open_ethics\n\n",
+  "tokens": 73,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-296:dg-open_ethics",
+      "to": "D-296",
+      "title": "Una ética institucional también puede ser impugnada desde fuera",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 379,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-296.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-314",
+      "to": "dg-governance",
+      "title": "Gobernanza y legitimidad",
+      "direction": "saliente",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "Examen que no depende de membresía.",
+      "relationTokens": 32,
+      "fichaTokens": 254,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-governance.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-315",
+      "to": "dg-account",
+      "title": "Responsabilidad y reparación",
+      "direction": "saliente",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "Reclamación y apelación requieren procedimientos.",
+      "relationTokens": 31,
+      "fichaTokens": 112,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-account.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-316",
+      "to": "dg-legitimacy_gap",
+      "title": "Principios, requisitos y deuda de legitimidad",
+      "direction": "saliente",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "Principios externos frente a regla interna.",
+      "relationTokens": 35,
+      "fichaTokens": 133,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-legitimacy_gap.json"
+    }
+  ]
+}

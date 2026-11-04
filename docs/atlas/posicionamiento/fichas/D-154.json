@@ -1,0 +1,130 @@
+{
+  "id": "D-154",
+  "type": "ficha",
+  "title": "Pedir perdón modifica el relato; reparar modifica el daño",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-154",
+  "documentId": "doc-6f2e7bb17bfa1aae48",
+  "sourceIds": [],
+  "tagWeights": {
+    "autoridad": 0.4,
+    "decision": 0.6
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Pedir perdón modifica el relato; reparar modifica el daño\nINTERLOCUTOR (pregunta editorial) — ¿Por qué reconocer públicamente un error no siempre basta para responder por sus consecuencias?\nREFLEXIÓN DEL ESCRITO (síntesis editorial) — En su ensayo sobre la monarquía, Iván separa perdón y reparación como operaciones diferentes. Pedir perdón puede modificar la interpretación pública de lo sucedido; si el responsable conserva las ventajas y la víctima soporta íntegramente el daño, la distribución real no ha cambiado. La disculpa puede funcionar entonces como *branding moral*. Una reparación requiere efectos: restitución, compensación, renuncia a ventajas, aceptación de consecuencias, cambio de conducta o garantías de no repetición. No propone castigo automático: insiste en que el acto no puede quedar separado artificialmente de quien lo realizó. La reflexión trasciende la monarquía, pero nace de la pregunta política por una inviolabilidad que puede impedir completar el ciclo de atribución, respuesta y reparación.\nEtiquetas: Autoridad, permisos y delegación 40.00%; Decisiones y responsabilidad 60.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-154\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-154.html\n\n",
+  "tokens": 286,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-154:dg-care",
+      "to": "dg-care",
+      "title": "Responsabilidad humana",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 208,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-care.json"
+    },
+    {
+      "id": "apoyo:D-154:dg-governance",
+      "to": "dg-governance",
+      "title": "Gobernanza y legitimidad",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 254,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-governance.json"
+    },
+    {
+      "id": "apoyo:D-154:dg-account",
+      "to": "dg-account",
+      "title": "Responsabilidad y reparación",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 112,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-account.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-174-D-154",
+      "to": "D-174",
+      "title": "Perdonar puede cancelar una deuda sobre el futuro",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Perdonar puede cancelar una deuda sobre el futuro» con «Pedir perdón modifica el relato; reparar modifica el daño». Permite contrastar Responsabilidad y reparación.",
+      "relationTokens": 69,
+      "fichaTokens": 345,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-174.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-275-D-154",
+      "to": "D-275",
+      "title": "La experiencia espiritual no da autoridad para exigir obediencia",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «La experiencia espiritual no da autoridad para exigir obediencia» con «Pedir perdón modifica el relato; reparar modifica el daño». Permite contrastar Gobernanza y legitimidad.",
+      "relationTokens": 70,
+      "fichaTokens": 414,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-275.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-118-D-154",
+      "to": "D-118",
+      "title": "Publicar no demuestra que alguien recibió ni actuó",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Responsabilidad humana, Gobernanza y legitimidad desde las situaciones que describe cada texto.",
+      "relationTokens": 52,
+      "fichaTokens": 263,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-118.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-144-D-154",
+      "to": "D-144",
+      "title": "Explicar una conducta no elimina automáticamente la responsabilidad",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Responsabilidad y reparación, Responsabilidad humana desde las situaciones que describe cada texto.",
+      "relationTokens": 50,
+      "fichaTokens": 293,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-144.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-154-D-171",
+      "to": "D-171",
+      "title": "El débil falla requisitos; el poder falla principios",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Responsabilidad y reparación, Gobernanza y legitimidad desde las situaciones que describe cada texto.",
+      "relationTokens": 53,
+      "fichaTokens": 358,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-171.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-154-D-156",
+      "to": "D-156",
+      "title": "Un pedestal puede privar de libertad a quien parece favorecer",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Responsabilidad y reparación, Gobernanza y legitimidad desde las situaciones que describe cada texto.",
+      "relationTokens": 54,
+      "fichaTokens": 289,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-156.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-155-D-154",
+      "to": "D-155",
+      "title": "Ser responsable también es una forma de dignidad",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Responsabilidad y reparación, Gobernanza y legitimidad desde las situaciones que describe cada texto.",
+      "relationTokens": 52,
+      "fichaTokens": 282,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-155.json"
+    }
+  ]
+}

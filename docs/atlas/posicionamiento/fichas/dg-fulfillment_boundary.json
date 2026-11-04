@@ -1,0 +1,89 @@
+{
+  "id": "dg-fulfillment_boundary",
+  "type": "concepto",
+  "title": "Maximizar frente a cumplir un propósito",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-fulfillment_boundary",
+  "documentId": null,
+  "sourceIds": [
+    "D-270"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.3334,
+    "decision": 0.3333,
+    "economia": 0.3333
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Maximizar frente a cumplir un propósito\nDiferencia entre crecer en una métrica relativa y reconocer un objetivo realmente cumplido.\nEtiquetas: Aprendizaje y transmisión de capacidades 33.34%; Decisiones y responsabilidad 33.33%; Economía, costes y liquidez 33.33%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-fulfillment_boundary\n\n",
+  "tokens": 88,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-270:dg-fulfillment_boundary",
+      "to": "D-270",
+      "title": "Maximizar no es necesariamente lograr",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 411,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-270.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-259",
+      "to": "dg-measure",
+      "title": "Medir decisiones y consecuencias",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.11",
+      "reading": "Definir cumplimiento antes que crecimiento.",
+      "relationTokens": 31,
+      "fichaTokens": 202,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-measure.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-260",
+      "to": "dg-economy",
+      "title": "Economía y escasez",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.11",
+      "reading": "Maximización y satisfacción no son sinónimas.",
+      "relationTokens": 34,
+      "fichaTokens": 239,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-economy.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-261",
+      "to": "dg-mission",
+      "title": "Misión, cooperación y frutos indirectos",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.11",
+      "reading": "Reconocer la finalidad real.",
+      "relationTokens": 33,
+      "fichaTokens": 122,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-mission.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-262",
+      "to": "dg-value_acted",
+      "title": "Valor actuado y monedas de identidad",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.11",
+      "reading": "El propósito puede no reflejarse en precio.",
+      "relationTokens": 36,
+      "fichaTokens": 120,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-value_acted.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-263",
+      "to": "dg-action_viability",
+      "title": "Acción viable y valor que se propaga",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.11",
+      "reading": "Saber cuándo terminó el trabajo.",
+      "relationTokens": 33,
+      "fichaTokens": 121,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-action_viability.json"
+    }
+  ]
+}

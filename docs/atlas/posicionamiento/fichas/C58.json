@@ -1,0 +1,174 @@
+{
+  "id": "C58",
+  "type": "concepto",
+  "title": "Conocimiento de dominio",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/domain-knowledge/",
+  "documentId": null,
+  "sourceIds": [
+    "E1557",
+    "N1258",
+    "N1287",
+    "N1441",
+    "T1427",
+    "U1496",
+    "L001",
+    "L010"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.0625,
+    "capacidad-humana": 0.0259,
+    "casos": 0.02,
+    "control-minimo": 0.0221,
+    "decision": 0.1087,
+    "economia": 0.0938,
+    "empresa": 0.1935,
+    "evidencia": 0.0836,
+    "memoria-territorio": 0.2127,
+    "movilidad": 0.0695,
+    "transformacion": 0.1077
+  },
+  "clusters": [
+    "eu",
+    "latinoempresa",
+    "net",
+    "tegrity",
+    "us"
+  ],
+  "context": "## Conocimiento de dominio\nSituated expertise identifies constraints and exceptions a general model may miss.\nEtiquetas: Aprendizaje y transmisión de capacidades 6.25%; Capacidad humana y deuda de inteligencia 2.59%; Casos de uso y aplicaciones 2.00%; Control mínimo y suficiencia 2.21%; Decisiones y responsabilidad 10.87%; Economía, costes y liquidez 9.38%; Empresa y gestión 19.35%; Evidencia, procedencia y atribución 8.36%; Memoria, comunidad y territorio 21.27%; Movilidad e infraestructura 6.95%; Transformación y continuidad operativa 10.77%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/domain-knowledge/\n\n",
+  "tokens": 158,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:E1557:C58",
+      "to": "E1557",
+      "title": "Watchmaking Manufacturing Rationalization",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 114,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1557.json"
+    },
+    {
+      "id": "apoyo:N1258:C58",
+      "to": "N1258",
+      "title": "JubAp.Net GEPLAN and the Hidden Logistics Lab Behind PEMEX Operations",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 130,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1258.json"
+    },
+    {
+      "id": "apoyo:N1287:C58",
+      "to": "N1287",
+      "title": "Tacit Knowledge Management in Distributed Tiger Teams",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 153,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1287.json"
+    },
+    {
+      "id": "apoyo:N1441:C58",
+      "to": "N1441",
+      "title": "JubAp.Net Frontier Operations Role in the IMSV.org Circle",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 111,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1441.json"
+    },
+    {
+      "id": "apoyo:T1427:C58",
+      "to": "T1427",
+      "title": "The Minimal Information a Transformation Needs",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 111,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1427.json"
+    },
+    {
+      "id": "apoyo:U1496:C58",
+      "to": "U1496",
+      "title": "Field Intelligence in Chicontepec and the Texas–Mérida Corridor",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 151,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1496.json"
+    },
+    {
+      "id": "apoyo:L001:C58",
+      "to": "L001",
+      "title": "The Integral Management Society : Institución de frontera desde 1898",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 119,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/L001.json"
+    },
+    {
+      "id": "apoyo:L010:C58",
+      "to": "L010",
+      "title": "Maestría en la técnica: Talleristas artesanos mexicanos en España.",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 126,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/L010.json"
+    },
+    {
+      "id": "concepto:D030",
+      "to": "C32",
+      "title": "Coste de claridad",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "The calibration example makes the minimum-information problem concrete: an application inventory alone may not reveal what would be lost.",
+      "relationTokens": 35,
+      "fichaTokens": 257,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C32.json"
+    },
+    {
+      "id": "concepto:A017",
+      "to": "C99",
+      "title": "Adaptación de arquitectura entre territorios",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "The regional supplier fabric can be read alongside GEPLAN's field laboratory as capability formation through repeated operational problems, not simply technology adoption from outside.",
+      "relationTokens": 44,
+      "fichaTokens": 238,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C99.json"
+    },
+    {
+      "id": "concepto:B002",
+      "to": "C56",
+      "title": "Custodia institucional",
+      "direction": "entrante",
+      "kind": "documented use",
+      "reading": "Frontier engineering can feed selected artifacts into institutional stewardship, with lineage, scope and readiness retained before broader reuse.",
+      "relationTokens": 33,
+      "fichaTokens": 197,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C56.json"
+    },
+    {
+      "id": "concepto:B040",
+      "to": "C36",
+      "title": "Transmisión de juicio tácito",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "The ceramics encounter can illustrate situated transmission, while the tacit-knowledge model supplies questions for observing practice and later independent judgment.",
+      "relationTokens": 41,
+      "fichaTokens": 221,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C36.json"
+    }
+  ]
+}

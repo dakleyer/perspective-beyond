@@ -1,0 +1,108 @@
+{
+  "id": "T1425",
+  "type": "ficha",
+  "title": "What Goes Unpriced Is Paid in Human Intelligence",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/what-goes-unpriced-is-paid-in-human-intelligence-t1425/",
+  "documentId": "doc-2a028429693a39c123",
+  "sourceIds": [],
+  "tagWeights": {
+    "capacidad-humana": 0.75,
+    "economia": 0.25
+  },
+  "clusters": [
+    "tegrity"
+  ],
+  "context": "## What Goes Unpriced Is Paid in Human Intelligence\n\nEtiquetas: Capacidad humana y deuda de inteligencia 75.00%; Economía, costes y liquidez 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/what-goes-unpriced-is-paid-in-human-intelligence-t1425/\nDocumento de origen: https://tegrity.ai/what-goes-unpriced-is-paid-in-human-intelligence/\n\n",
+  "tokens": 91,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:T1425:C32",
+      "to": "C32",
+      "title": "Coste de claridad",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 257,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C32.json"
+    },
+    {
+      "id": "apoyo:T1425:C39",
+      "to": "C39",
+      "title": "Capacidad humana utilizable",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 210,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C39.json"
+    },
+    {
+      "id": "apoyo:T1425:C74",
+      "to": "C74",
+      "title": "Ejecución y supervisión necesarias (NEO)",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 145,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C74.json"
+    },
+    {
+      "id": "documento:F015",
+      "to": "T1400",
+      "title": "Measuring Human Intelligence Debt",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "Unpriced clarity may consume human effort, but only the task-level distinction between necessary work and fixable compensation can classify that effort as debt.",
+      "relationTokens": 46,
+      "fichaTokens": 145,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1400.json"
+    },
+    {
+      "id": "documento:G075",
+      "to": "GH038",
+      "title": "01K-A01 — Human Capacity / Human Intelligence Debt Reusable Component Specification",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "The human cost of clarity includes keeping intervention capacity available, maintaining it and qualifying alternative information routes, not only time spent on a case.",
+      "relationTokens": 57,
+      "fichaTokens": 188,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH038.json"
+    },
+    {
+      "id": "documento:R181",
+      "to": "T874",
+      "title": "Human Intelligence Debt",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Human Intelligence Debt: definitions and scope](https://tegrity.ai/human-intelligence-debt/).",
+      "relationTokens": 45,
+      "fichaTokens": 82,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T874.json"
+    },
+    {
+      "id": "documento:sac-rel-a4d78bfb532fcc",
+      "to": "sac-31c5add4fe1a12",
+      "title": "DDS Potential Contributions Register",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «8.2 Other article sources» con el rótulo «Published source».",
+      "relationTokens": 110,
+      "fichaTokens": 186,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-31c5add4fe1a12.json"
+    },
+    {
+      "id": "documento:sac-rel-81c0e5f304d5d5",
+      "to": "GH037",
+      "title": "Annex 01K — Human Capacity / Human Intelligence Debt",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Annex B — Cross-series bridge map» con el rótulo «Cost of Clarity → HID».",
+      "relationTokens": 133,
+      "fichaTokens": 264,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH037.json"
+    }
+  ]
+}

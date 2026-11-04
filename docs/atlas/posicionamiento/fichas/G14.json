@@ -1,0 +1,82 @@
+{
+  "id": "G14",
+  "type": "concepto",
+  "title": "Condiciones T1–T4",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/conditions-t1t4/",
+  "documentId": null,
+  "sourceIds": [
+    "GH025"
+  ],
+  "tagWeights": {
+    "autoridad": 0.087,
+    "cartografia": 0.0869,
+    "control-minimo": 0.2609,
+    "decision": 0.1739,
+    "documentacion": 0.1739,
+    "experimentacion": 0.1739,
+    "integridad-ia": 0.0435
+  },
+  "clusters": [
+    "research"
+  ],
+  "context": "## Condiciones T1–T4\nThe theory distinguishes operating conditions that affect the qualification of evidence.\nEtiquetas: Autoridad, permisos y delegación 8.70%; Cartografía y señales de ecosistema 8.69%; Control mínimo y suficiencia 26.09%; Decisiones y responsabilidad 17.39%; Investigación y documentación técnica 17.39%; Experimentación, falsación y contraejemplos 17.39%; Integridad y seguridad de IA 4.35%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/conditions-t1t4/\n\n",
+  "tokens": 125,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH025:G14",
+      "to": "GH025",
+      "title": "Canonical Requirements: S1–S14, Sufficiency Conditions, Hypotheses and KPIs",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 34,
+      "fichaTokens": 247,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH025.json"
+    },
+    {
+      "id": "concepto:B440",
+      "to": "G13",
+      "title": "Requisitos canónicos S1–S14",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 130,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G13.json"
+    },
+    {
+      "id": "concepto:B441",
+      "to": "G17",
+      "title": "Benchmarks DDS y ablaciones",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 204,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G17.json"
+    },
+    {
+      "id": "concepto:B442",
+      "to": "G20",
+      "title": "Escalera de evidencia y madurez",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 78,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G20.json"
+    },
+    {
+      "id": "concepto:B452",
+      "to": "G17",
+      "title": "Benchmarks DDS y ablaciones",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 204,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G17.json"
+    }
+  ]
+}

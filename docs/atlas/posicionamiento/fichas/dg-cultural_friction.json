@@ -1,0 +1,90 @@
+{
+  "id": "dg-cultural_friction",
+  "type": "concepto",
+  "title": "Costes culturales de entrada y salida",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-cultural_friction",
+  "documentId": null,
+  "sourceIds": [
+    "D-199",
+    "D-200",
+    "D-262"
+  ],
+  "tagWeights": {
+    "autoridad": 0.1667,
+    "economia": 0.8333
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Costes culturales de entrada y salida\nLa facilidad de consumir otro mundo puede borrar diferencias y hacer costosa la salida hacia lo propio.\nEtiquetas: Autoridad, permisos y delegación 16.67%; Economía, costes y liquidez 83.33%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-cultural_friction\n\n",
+  "tokens": 79,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-199:dg-cultural_friction",
+      "to": "D-199",
+      "title": "La comida de avión como victoria de la facilidad y derrota de la diferencia",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 393,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-199.json"
+    },
+    {
+      "id": "apoyo:D-200:dg-cultural_friction",
+      "to": "D-200",
+      "title": "Salir de un mercado puede costar más que entrar en él",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 380,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-200.json"
+    },
+    {
+      "id": "apoyo:D-262:dg-cultural_friction",
+      "to": "D-262",
+      "title": "Una red libre puede convertirse en reserva cuando todos creen que solo cuatro la poseen",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 395,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-262.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-116",
+      "to": "dg-culture",
+      "title": "Protocultura, autoría y conocimiento emergente",
+      "direction": "saliente",
+      "kind": "puede homogeneizar",
+      "reading": "Bajar toda incomodidad de entrada puede vaciar diferencias culturales.",
+      "relationTokens": 38,
+      "fichaTokens": 204,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-culture.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-117",
+      "to": "dg-scarcity_design",
+      "title": "Dimensiones creadas de escasez",
+      "direction": "saliente",
+      "kind": "propaga requisitos",
+      "reading": "Mercados intensivos en restricciones absorben bienes de mundos anteriores.",
+      "relationTokens": 34,
+      "fichaTokens": 117,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-scarcity_design.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-118",
+      "to": "dg-capture",
+      "title": "Captura de opciones e incentivos regresivos",
+      "direction": "saliente",
+      "kind": "eleva coste de salida",
+      "reading": "Las opciones nuevas pueden volver costoso conservar la autonomía anterior.",
+      "relationTokens": 36,
+      "fichaTokens": 180,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-capture.json"
+    }
+  ]
+}

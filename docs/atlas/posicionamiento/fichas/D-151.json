@@ -1,0 +1,86 @@
+{
+  "id": "D-151",
+  "type": "ficha",
+  "title": "Permanecer puede tener un valor que la hoja de cálculo no registra",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-151",
+  "documentId": "doc-f1746608a7b0504882",
+  "sourceIds": [],
+  "tagWeights": {
+    "economia": 0.5,
+    "integridad-ia": 0.5
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Permanecer puede tener un valor que la hoja de cálculo no registra\nINTERLOCUTOR (pregunta editorial) — Si una alternativa ofrece más bienestar material, ¿por qué puede seguir siendo racional no elegirla?\nREFLEXIÓN DEL ESCRITO (síntesis editorial) — Permanecer en un sistema puede ser una elección localmente coherente incluso si existen alternativas económicamente mejores. Iván distingue dos funciones: la capacidad de producir o vivir mejor en otro régimen y el valor subjetivo de seguir siendo alguien reconocible en el actual. Salir puede implicar perder oficio, amistades, rutinas, lenguaje, seguridad familiar e identidad, no solo pagar una mudanza. En algunos trabajos remotos la puerta ya estaba abierta; en otros ámbitos el cambio exige una metamorfosis profunda y tiene costos objetivos. Su imagen del decorado de Truman es deliberada: podemos ser simultáneamente actores que sostienen la representación, espectadores que sospechan sus límites y personas que temen perder el papel. Comprender ese valor no equivale a declarar óptima la permanencia ni a negar que ciertos límites sean estructurales.\nEtiquetas: Economía, costes y liquidez 50.00%; Integridad y seguridad de IA 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-151\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-151.html\n\n",
+  "tokens": 304,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-151:dg-options",
+      "to": "dg-options",
+      "title": "Libertad y opciones",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 192,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-options.json"
+    },
+    {
+      "id": "apoyo:D-151:dg-economy",
+      "to": "dg-economy",
+      "title": "Economía y escasez",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 239,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-economy.json"
+    },
+    {
+      "id": "apoyo:D-151:dg-risk",
+      "to": "dg-risk",
+      "title": "Riesgo, seguridad y evitación",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 121,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-risk.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-151-D-212",
+      "to": "D-212",
+      "title": "La coacción puede esconderse en el crédito o explotar en la supervivencia",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Riesgo, seguridad y evitación, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 64,
+      "fichaTokens": 410,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-212.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-151-D-213",
+      "to": "D-213",
+      "title": "La libertad también puede exigirse sufrimiento como demostración",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Riesgo, seguridad y evitación, Libertad y opciones desde las situaciones que describe cada texto.",
+      "relationTokens": 58,
+      "fichaTokens": 401,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-213.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-151-D-063",
+      "to": "D-063",
+      "title": "Cuando el dinero reduce las opciones",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Libertad y opciones, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 51,
+      "fichaTokens": 379,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-063.json"
+    }
+  ]
+}

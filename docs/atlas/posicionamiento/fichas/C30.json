@@ -1,0 +1,93 @@
+{
+  "id": "C30",
+  "type": "concepto",
+  "title": "Abstención responsable",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/responsible-abstention/",
+  "documentId": null,
+  "sourceIds": [
+    "N1279",
+    "T1387"
+  ],
+  "tagWeights": {
+    "autoridad": 0.125,
+    "cambio-regimen": 0.5,
+    "decision": 0.0833,
+    "integridad-ia": 0.0833,
+    "transformacion": 0.2084
+  },
+  "clusters": [
+    "net",
+    "tegrity"
+  ],
+  "context": "## Abstención responsable\nPause an action when declared conditions fail and preserve evidence for escalation.\nEtiquetas: Autoridad, permisos y delegación 12.50%; Cambios de régimen y alerta temprana 50.00%; Decisiones y responsabilidad 8.33%; Integridad y seguridad de IA 8.33%; Transformación y continuidad operativa 20.84%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/responsible-abstention/\n\n",
+  "tokens": 100,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:N1279:C30",
+      "to": "N1279",
+      "title": "Tiger Team Governance Principles",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 15,
+      "fichaTokens": 100,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1279.json"
+    },
+    {
+      "id": "apoyo:T1387:C30",
+      "to": "T1387",
+      "title": "Minimalistic Regime-Aware Early Warning Systems",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 79,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1387.json"
+    },
+    {
+      "id": "concepto:D023",
+      "to": "C28",
+      "title": "Capacidad efectiva de respuesta",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "Responsible abstention begins by declaring which operating conditions no longer justify continuing the intervention.",
+      "relationTokens": 30,
+      "fichaTokens": 223,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C28.json"
+    },
+    {
+      "id": "concepto:B416",
+      "to": "G08",
+      "title": "Objective Envelope",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 11,
+      "fichaTokens": 176,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G08.json"
+    },
+    {
+      "id": "concepto:B429",
+      "to": "G11",
+      "title": "Gobernanza de autoridad delegada",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 16,
+      "fichaTokens": 240,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G11.json"
+    },
+    {
+      "id": "concepto:B556",
+      "to": "G37",
+      "title": "No observabilidad y aislamiento prudente",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 16,
+      "fichaTokens": 246,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G37.json"
+    }
+  ]
+}

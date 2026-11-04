@@ -1,0 +1,137 @@
+{
+  "id": "C71",
+  "type": "concepto",
+  "title": "Carga de control",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/control-burden/",
+  "documentId": null,
+  "sourceIds": [
+    "E1541",
+    "T1391",
+    "U1494",
+    "T2729",
+    "T1400"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.046,
+    "autoridad": 0.068,
+    "capacidad-humana": 0.056,
+    "control-minimo": 0.342,
+    "decision": 0.104,
+    "economia": 0.024,
+    "empresa": 0.0748,
+    "evidencia": 0.0964,
+    "experimentacion": 0.036,
+    "memoria-territorio": 0.044,
+    "movilidad": 0.05,
+    "transformacion": 0.0588
+  },
+  "clusters": [
+    "eu",
+    "tegrity",
+    "us"
+  ],
+  "context": "## Carga de control\nControls introduce costs, constraints and response demands.\nEtiquetas: Aprendizaje y transmisión de capacidades 4.60%; Autoridad, permisos y delegación 6.80%; Capacidad humana y deuda de inteligencia 5.60%; Control mínimo y suficiencia 34.20%; Decisiones y responsabilidad 10.40%; Economía, costes y liquidez 2.40%; Empresa y gestión 7.48%; Evidencia, procedencia y atribución 9.64%; Experimentación, falsación y contraejemplos 3.60%; Memoria, comunidad y territorio 4.40%; Movilidad e infraestructura 5.00%; Transformación y continuidad operativa 5.88%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/control-burden/\n\n",
+  "tokens": 172,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:E1541:C71",
+      "to": "E1541",
+      "title": "Luxury Operations Integration in an Overcompliance Environment — Middle East Case",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 133,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1541.json"
+    },
+    {
+      "id": "apoyo:T1391:C71",
+      "to": "T1391",
+      "title": "The Limits of AI Oversight",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 101,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1391.json"
+    },
+    {
+      "id": "apoyo:U1494:C71",
+      "to": "U1494",
+      "title": "Barcelona, Cuba, California, Veracruz: Urban Mobility, Swarm Intelligence and Constraint-Driven Architecture",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 31,
+      "fichaTokens": 176,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1494.json"
+    },
+    {
+      "id": "apoyo:T2729:C71",
+      "to": "T2729",
+      "title": "Minimum Sufficient Control Architecture for AI Enabled Urban Systems",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 83,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2729.json"
+    },
+    {
+      "id": "apoyo:T1400:C71",
+      "to": "T1400",
+      "title": "Measuring Human Intelligence Debt",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 145,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1400.json"
+    },
+    {
+      "id": "concepto:D043",
+      "to": "C41",
+      "title": "Control mínimo suficiente",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "Control rationalization can be framed as comparing sufficient configurations, rather than minimizing procedures before stating the objective.",
+      "relationTokens": 32,
+      "fichaTokens": 225,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C41.json"
+    },
+    {
+      "id": "concepto:F003",
+      "to": "C75",
+      "title": "Trabajo compensatorio evitable (ACW)",
+      "direction": "saliente",
+      "kind": "documented use",
+      "reading": "The oversight-threshold study tests whether added review and reconciliation outweigh removed work, rather than treating guardrail count as a measure of debt.",
+      "relationTokens": 44,
+      "fichaTokens": 207,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C75.json"
+    },
+    {
+      "id": "concepto:A005",
+      "to": "C80",
+      "title": "Resultado upstream independiente",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "The rejected turnstile is a field example of why control value must include its effect on the operating flow, alongside the work and risk it removes.",
+      "relationTokens": 41,
+      "fichaTokens": 241,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C80.json"
+    },
+    {
+      "id": "concepto:B410",
+      "to": "G07",
+      "title": "Minimum Sufficient Control Architecture (MSCA)",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 209,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G07.json"
+    }
+  ]
+}

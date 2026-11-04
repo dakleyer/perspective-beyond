@@ -1,0 +1,38 @@
+ATLAS DE PENSAMIENTO · POSICIONAMIENTO
+
+Un posicionamiento es un punto de entrada: un documento de origen, su URL o una ficha concreta. El documento contiene fichas. Las fichas tienen composiciones porcentuales de etiquetas y relaciones hacia otras fichas y conceptos.
+
+LEE LA URL ORIGINAL
+posicionamiento elige el documento o la ficha. centro y desde conservan compatibilidad como puntos de entrada. tokens indica el presupuesto de lectura; el valor inicial es 2000. peso se repite con una etiqueta y su peso relativo: peso=tema:empresa:50 y peso=tema:matematicas:50. Se admiten también cluster:, concepto: y voz:. Las claves conocidas se reconocen al ignorar mayúsculas.
+
+modo elige closed (Cerrado), porous (Poroso) o federated (Federado). Cerrado usa solo site. Poroso usa site y el puente dirigido puente. Federado sigue las relaciones entre clústeres. solo=1 filtra las fichas por las etiquetas temáticas elegidas. red elige ideas (fichas y conceptos) o documentos (fichas). sentido elige ambas, salientes o entrantes.
+
+rol, lectura e instruccion conservan el papel del asistente, su propósito y la indicación especial del visitante. Si falta una pregunta, pide qué quiere explorar. Una URL ya configurada conserva sus elecciones.
+
+COMPOSICIÓN Y AFINIDAD
+Los porcentajes de la ficha suman 100 %. Los pesos del posicionamiento se normalizan a 100 %. La afinidad combina ambos: cada peso se multiplica por la proporción de esa etiqueta en la ficha y se suman los resultados. Esas proporciones forman un perfil editorial de lectura editable. Una ficha se usa una sola vez.
+
+LECTURA POR TOKENS
+El presupuesto incluye cabecera, fichas y relaciones de llegada. Se cuenta con o200k_base por bloques. La distancia cuenta conexiones desde el documento. Al ampliar tokens manteniendo el posicionamiento y los pesos se conserva la selección anterior. max limita el diagrama; el texto reading conserva toda la selección incluida en el presupuesto.
+
+FORMAS DE LEER
+- Paquetes ya calculados, desde las entradas iniciales y con presupuestos de 1000, 2000 y 4000 tokens: https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/preparados/index.json
+- Registro de documentos: https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/documentos.json
+- Composiciones de las fichas: https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/etiquetas-fichas.json
+- Cada documento enlaza sus fichas. Cada ficha tiene un JSON con texto de lectura, coste, porcentajes y relaciones a sus vecinas.
+- Para una configuración personalizada, abre el visualizador y descarga su lectura, o ejecuta el cálculo público con el grafo de la edición. Usa reading como contexto de lectura y budget para comprobar el presupuesto.
+
+CALCULO PUBLICO
+https://dakleyer.github.io/perspective-beyond/atlas/positioning.mjs
+https://dakleyer.github.io/perspective-beyond/atlas/mapa/grafo.json
+API: positionMap(graph, readPosition(new URLSearchParams(URL_original.search), graph)).
+CLI: node mapa/cli.mjs "posicionamiento=D-285&tokens=2000&peso=empresa:50&peso=matematicas:50"
+
+Explica primero el pensamiento y su mecanismo con lenguaje claro y enlaces titulados. Integra la procedencia y las fechas donde aclaren una afirmación. Presenta tus ejemplos como propuestas. Los registros técnicos se entregan por separado cuando el visitante los pide.
+
+VISUALIZADOR
+https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/
+PROTOCOLO
+https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/README.md
+ESPEJO DE LECTURA
+Si no puedes abrir Pages, sustituye https://dakleyer.github.io/perspective-beyond/atlas/ por https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/ conservando el camino del archivo. La selección se interpreta desde la URL original del visitante.

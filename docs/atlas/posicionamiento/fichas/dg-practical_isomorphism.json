@@ -1,0 +1,96 @@
+{
+  "id": "dg-practical_isomorphism",
+  "type": "concepto",
+  "title": "Isomorfismos entre dominios y deuda de arquitectura",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-practical_isomorphism",
+  "documentId": null,
+  "sourceIds": [
+    "D-285",
+    "D-286"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.0875,
+    "decision": 0.0625,
+    "empresa": 0.3625,
+    "evidencia": 0.025,
+    "matematicas": 0.05,
+    "memoria-territorio": 0.0625,
+    "movilidad": 0.0625,
+    "representacion": 0.1,
+    "transformacion": 0.1875
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Isomorfismos entre dominios y deuda de arquitectura\nUna mirada transversal comprende estructuras distintas y conecta soluciones sin inventar una jerga total.\nEtiquetas: Aprendizaje y transmisión de capacidades 8.75%; Decisiones y responsabilidad 6.25%; Empresa y gestión 36.25%; Evidencia, procedencia y atribución 2.50%; Matemáticas 5.00%; Memoria, comunidad y territorio 6.25%; Movilidad e infraestructura 6.25%; Representación y límites formales 10.00%; Transformación y continuidad operativa 18.75%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-practical_isomorphism\n\n",
+  "tokens": 151,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-285:dg-practical_isomorphism",
+      "to": "D-285",
+      "title": "Un arquitecto no puede saber toda la jerga de todos los oficios",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 34,
+      "fichaTokens": 439,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-285.json"
+    },
+    {
+      "id": "apoyo:D-286:dg-practical_isomorphism",
+      "to": "D-286",
+      "title": "El enjambre de sistemitas es una deuda de gestión",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 430,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-286.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-293",
+      "to": "dg-structure",
+      "title": "Conciencia estructural",
+      "direction": "saliente",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "Estructuras transversales sin jerga única.",
+      "relationTokens": 36,
+      "fichaTokens": 256,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-structure.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-294",
+      "to": "dg-semantic_graph",
+      "title": "Conocimiento como red de relaciones y procedencia",
+      "direction": "saliente",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "Las relaciones importan más que las etiquetas.",
+      "relationTokens": 39,
+      "fichaTokens": 181,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-semantic_graph.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-295",
+      "to": "dg-transform",
+      "title": "Transformación organizativa",
+      "direction": "saliente",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "Los modelos deben materializarse en operaciones.",
+      "relationTokens": 34,
+      "fichaTokens": 213,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-transform.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-307",
+      "to": "dg-explorer_compute",
+      "title": "Exploración de marcos frente a fuerza computacional",
+      "direction": "entrante",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "Buena estructura transversal puede ahorrar búsqueda.",
+      "relationTokens": 39,
+      "fichaTokens": 98,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-explorer_compute.json"
+    }
+  ]
+}

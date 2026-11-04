@@ -1,0 +1,59 @@
+{
+  "id": "C66",
+  "type": "concepto",
+  "title": "Señales de no compra",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/non-purchase-signals/",
+  "documentId": null,
+  "sourceIds": [
+    "E1524",
+    "E1563"
+  ],
+  "tagWeights": {
+    "autoridad": 0.125,
+    "decision": 0.125,
+    "empresa": 0.5,
+    "memoria-territorio": 0.125,
+    "representacion": 0.125
+  },
+  "clusters": [
+    "eu"
+  ],
+  "context": "## Señales de no compra\nA completed-sale record omits information about choices that did not become sales.\nEtiquetas: Autoridad, permisos y delegación 12.50%; Decisiones y responsabilidad 12.50%; Empresa y gestión 50.00%; Memoria, comunidad y territorio 12.50%; Representación y límites formales 12.50%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/non-purchase-signals/\n\n",
+  "tokens": 98,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:E1524:C66",
+      "to": "E1524",
+      "title": "Montblanc — Lightweight Product Intelligence for Luxury In-Store Conversion",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 90,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1524.json"
+    },
+    {
+      "id": "apoyo:E1563:C66",
+      "to": "E1563",
+      "title": "Event Intelligence",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 15,
+      "fichaTokens": 92,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1563.json"
+    },
+    {
+      "id": "concepto:D069",
+      "to": "C18",
+      "title": "Señales de demanda",
+      "direction": "saliente",
+      "kind": "documented use",
+      "reading": "The Montblanc MVP and the event-intelligence proposal both examine signals that sales records alone do not preserve.",
+      "relationTokens": 37,
+      "fichaTokens": 178,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C18.json"
+    }
+  ]
+}

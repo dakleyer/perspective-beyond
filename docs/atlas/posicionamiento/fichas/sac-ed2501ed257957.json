@@ -1,0 +1,55 @@
+{
+  "id": "sac-ed2501ed257957",
+  "type": "ficha",
+  "title": "R01 oracle auditable trace contract",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-ed2501ed257957.html",
+  "documentId": "doc-a8c02c3d43a6865f68",
+  "sourceIds": [],
+  "tagWeights": {
+    "decision": 0.3636,
+    "evidencia": 0.0909,
+    "experimentacion": 0.4546,
+    "representacion": 0.0909
+  },
+  "clusters": [
+    "research"
+  ],
+  "context": "## R01 oracle auditable trace contract\nContenido de la fuente: 1. Minimum identity · 2. Candidate decision record · 3. Interactive broker record.\nEtiquetas: Decisiones y responsabilidad 36.36%; Evidencia, procedencia y atribución 9.09%; Experimentación, falsación y contraejemplos 45.46%; Representación y límites formales 9.09%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-ed2501ed257957.html\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/ad3db7adc9546bfd7a935b5e67b4c15be5042e75/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/TRACE_CONTRACT.md\n\n",
+  "tokens": 183,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "documento:sac-rel-04cf7595e6d562",
+      "to": "sac-ae5cfdf16d6d42",
+      "title": "Preserved non-canonical working inputs",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «R01 — escenarios, oráculo y trabajos parciales» con el rótulo «Contrato de traza auditable».",
+      "relationTokens": 119,
+      "fichaTokens": 175,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-ae5cfdf16d6d42.json"
+    },
+    {
+      "id": "documento:sac-rel-e36f2eddd93597",
+      "to": "sac-120ccc9cdbac3b",
+      "title": "R01 C02 — neutral oracle / harness",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Reading sequence from registration to result» con el rótulo «Trace contract».",
+      "relationTokens": 114,
+      "fichaTokens": 206,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-120ccc9cdbac3b.json"
+    },
+    {
+      "id": "documento:sac-rel-197cfb75c263cc",
+      "to": "sac-253b7b1644529f",
+      "title": "R01 candidate-isolation contract",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «5. Private evidence disclosure» con el rótulo «ISOLATION_CONTRACT.md».",
+      "relationTokens": 116,
+      "fichaTokens": 146,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-253b7b1644529f.json"
+    }
+  ]
+}

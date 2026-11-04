@@ -1,0 +1,89 @@
+{
+  "id": "dg-intangible_reserves",
+  "type": "concepto",
+  "title": "Reservas intangibles, interfaces y precio",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-intangible_reserves",
+  "documentId": null,
+  "sourceIds": [
+    "D-261",
+    "D-262"
+  ],
+  "tagWeights": {
+    "autoridad": 0.25,
+    "economia": 0.75
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Reservas intangibles, interfaces y precio\nLas finanzas pueden capitalizar control de datos, permisos, accesos y expectativa de exclusividad, aun sin bienes clásicos visibles.\nEtiquetas: Autoridad, permisos y delegación 25.00%; Economía, costes y liquidez 75.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-intangible_reserves\n\n",
+  "tokens": 89,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-261:dg-intangible_reserves",
+      "to": "D-261",
+      "title": "La Bolsa puede estar comprando reservas que no parecen mercancías",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 398,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-261.json"
+    },
+    {
+      "id": "apoyo:D-262:dg-intangible_reserves",
+      "to": "D-262",
+      "title": "Una red libre puede convertirse en reserva cuando todos creen que solo cuatro la poseen",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 32,
+      "fichaTokens": 395,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-262.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-236",
+      "to": "dg-scarcity_design",
+      "title": "Dimensiones creadas de escasez",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.10",
+      "reading": "La exclusividad puede ser construida por normas y expectativas.",
+      "relationTokens": 40,
+      "fichaTokens": 117,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-scarcity_design.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-237",
+      "to": "dg-economy",
+      "title": "Economía y escasez",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.10",
+      "reading": "Valor financiero y uso real pueden divergir.",
+      "relationTokens": 34,
+      "fichaTokens": 239,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-economy.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-238",
+      "to": "dg-rent_separation",
+      "title": "Renta por posesión frente a valor productivo",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.10",
+      "reading": "Una licencia o permiso puede capturar rentas de acceso.",
+      "relationTokens": 42,
+      "fichaTokens": 75,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-rent_separation.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-239",
+      "to": "dg-civilization_interface",
+      "title": "Interfaces civilizatorias y autoridad",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.10",
+      "reading": "Las interfaces pueden concentrar control de relaciones.",
+      "relationTokens": 35,
+      "fichaTokens": 106,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-civilization_interface.json"
+    }
+  ]
+}

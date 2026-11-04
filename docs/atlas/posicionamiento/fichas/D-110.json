@@ -1,0 +1,120 @@
+{
+  "id": "D-110",
+  "type": "ficha",
+  "title": "El valor de elegir entre escenarios casi eficientes",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-110",
+  "documentId": "doc-2f4f7554e1b84bff9b",
+  "sourceIds": [],
+  "tagWeights": {
+    "casos": 0.5455,
+    "decision": 0.2727,
+    "matematicas": 0.1818
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## El valor de elegir entre escenarios casi eficientes\nINTERLOCUTOR (pregunta editorial) — ¿Qué ocurre cuando puntualidad, ocupación, trasbordos, combustible y preferencias no admiten una única solución mejor?\nLECTURA DEL DIÁLOGO (síntesis editorial) — En xSeil el compromiso con el pasajero nacía antes de conocer toda la demanda del día: un billete vendido fijaba hora y punto de recogida, mientras vehículos, reservas y condiciones cambiaban. La arquitectura reconstruida por Iván no perseguía una ruta óptima única. Conservaba memoria de secuencias viables, aplicaba restricciones duras —capacidad, horarios, grupos indivisibles, transbordos permitidos— y comparaba escenarios que priorizaban de modo diferente puntualidad, ocupación, servicios directos, uso de flota y tiempo. Los responsables elegían el compromiso aceptable; después, cada asignación modificaba el estado y obligaba a recalcular las oportunidades restantes. Hojas de ruta dinámicas, datos de campo y reparación acotada cerraban el ciclo entre cálculo y ejecución. El punto intelectual no es pronunciar «Pareto», sino conservar la gobernanza humana de objetivos incompatibles dentro de una computación iterativa, con límites operativos reales y evidencia técnica histórica.\nEtiquetas: Casos de uso y aplicaciones 54.55%; Decisiones y responsabilidad 27.27%; Matemáticas 18.18%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-110\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-110.html\n\n",
+  "tokens": 350,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-110:dg-math",
+      "to": "dg-math",
+      "title": "Pensamiento matemático",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 177,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-math.json"
+    },
+    {
+      "id": "apoyo:D-110:dg-decision",
+      "to": "dg-decision",
+      "title": "Decisiones entre escenarios",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 169,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-decision.json"
+    },
+    {
+      "id": "apoyo:D-110:dg-care",
+      "to": "dg-care",
+      "title": "Responsabilidad humana",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 208,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-care.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-110-D-052",
+      "to": "D-052",
+      "title": "xSeil: mostrar alternativas, no una orden",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «El valor de elegir entre escenarios casi eficientes» con «xSeil: mostrar alternativas, no una orden». Permite contrastar Decisiones entre escenarios, Pensamiento matemático.",
+      "relationTokens": 66,
+      "fichaTokens": 546,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-052.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-110-D-053",
+      "to": "D-053",
+      "title": "La responsabilidad humana en la optimización",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «El valor de elegir entre escenarios casi eficientes» con «La responsabilidad humana en la optimización». Permite contrastar Decisiones entre escenarios, Responsabilidad humana.",
+      "relationTokens": 59,
+      "fichaTokens": 492,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-053.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-182-D-110",
+      "to": "D-182",
+      "title": "Una promesa de movilidad empieza a existir cuando tiene horarios",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Una promesa de movilidad empieza a existir cuando tiene horarios» con «El valor de elegir entre escenarios casi eficientes». Permite contrastar Decisiones entre escenarios.",
+      "relationTokens": 63,
+      "fichaTokens": 361,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-182.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-064-D-110",
+      "to": "D-064",
+      "title": "Liquidez para cuidar responsabilidades",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Responsabilidad humana desde las situaciones que describe cada texto.",
+      "relationTokens": 42,
+      "fichaTokens": 447,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-064.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-096-D-110",
+      "to": "D-096",
+      "title": "Ventanas semánticas: pronosticar sin cerrar la incertidumbre",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Pensamiento matemático desde las situaciones que describe cada texto.",
+      "relationTokens": 52,
+      "fichaTokens": 322,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-096.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-097-D-110",
+      "to": "D-097",
+      "title": "Tres observaciones que no caben en una decisión",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Pensamiento matemático desde las situaciones que describe cada texto.",
+      "relationTokens": 48,
+      "fichaTokens": 298,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-097.json"
+    }
+  ]
+}

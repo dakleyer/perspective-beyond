@@ -1,0 +1,99 @@
+{
+  "id": "D-130",
+  "type": "ficha",
+  "title": "Un juego de roles puede mostrar lo que el organigrama oculta",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-130",
+  "documentId": "doc-9391c947299578b3e7",
+  "sourceIds": [],
+  "tagWeights": {
+    "aprendizaje": 0.3334,
+    "empresa": 0.2222,
+    "perspectiva": 0.2222,
+    "transformacion": 0.2222
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Un juego de roles puede mostrar lo que el organigrama oculta\nINTERLOCUTOR (pregunta editorial) — ¿Por qué representar una situación distinta a la propia podría ayudar a reconocer un bloqueo real?\nREFLEXIÓN DEL ESCRITO (síntesis editorial) — El «juego de vida» de JUMP UP no reproduce literalmente una pelea de departamentos. Iván diseña una escenografía plausible en la que las personas representan papeles diferentes de los que ocupan en la empresa, atraviesan obstáculos y observan cómo sus decisiones afectan al conjunto. Es deliberadamente sutil: si el juego evocara de manera demasiado directa el conflicto real, los participantes levantarían las mismas defensas que mantienen el bloqueo. Después, sin imponerles la analogía, se les pide reconocer por sí mismos la relación con su organización. Puede apoyarse en los ocho pasos de Kotter, pero el aprendizaje decisivo no es memorizar una metodología. Es vivir una perspectiva distinta y volver al problema con una capacidad nueva para proponer salidas.\nEtiquetas: Aprendizaje y transmisión de capacidades 33.34%; Empresa y gestión 22.22%; Cambio de perspectiva 22.22%; Transformación y continuidad operativa 22.22%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-130\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-130.html\n\n",
+  "tokens": 307,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-130:dg-perspective",
+      "to": "dg-perspective",
+      "title": "Nueva Perspectiva",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 190,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-perspective.json"
+    },
+    {
+      "id": "apoyo:D-130:dg-learning",
+      "to": "dg-learning",
+      "title": "Aprendizaje autodirigido",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 200,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-learning.json"
+    },
+    {
+      "id": "apoyo:D-130:dg-transform",
+      "to": "dg-transform",
+      "title": "Transformación organizativa",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 213,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-transform.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-205-D-130",
+      "to": "D-205",
+      "title": "Nueva Perspectiva no nació en una sala de juntas",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Nueva Perspectiva no nació en una sala de juntas» con «Un juego de roles puede mostrar lo que el organigrama oculta». Permite contrastar Nueva Perspectiva.",
+      "relationTokens": 75,
+      "fichaTokens": 367,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-205.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-015-D-130",
+      "to": "D-015",
+      "title": "Una experiencia que sobrevivió al fracaso",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Nueva Perspectiva, Transformación organizativa desde las situaciones que describe cada texto.",
+      "relationTokens": 51,
+      "fichaTokens": 594,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-015.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-130-D-083",
+      "to": "D-083",
+      "title": "Habitar, explorar y preguntar por el marco",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Aprendizaje autodirigido, Nueva Perspectiva desde las situaciones que describe cada texto.",
+      "relationTokens": 56,
+      "fichaTokens": 298,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-083.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-130-D-223",
+      "to": "D-223",
+      "title": "Dices «cloud» y acabas comprando cloud",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Nueva Perspectiva, Transformación organizativa desde las situaciones que describe cada texto.",
+      "relationTokens": 55,
+      "fichaTokens": 451,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-223.json"
+    }
+  ]
+}

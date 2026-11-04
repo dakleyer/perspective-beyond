@@ -1,0 +1,152 @@
+{
+  "id": "D-202",
+  "type": "ficha",
+  "title": "Una foto de tomates no es otro tomate",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-202",
+  "documentId": "doc-916df172a90b4cee96",
+  "sourceIds": [],
+  "tagWeights": {
+    "decision": 0.2,
+    "economia": 0.8
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Una foto de tomates no es otro tomate\nINTERLOCUTOR (pregunta editorial, no pronunciada necesariamente) — ¿Qué conserva alguien cuando termina el día con dinero pero sin el bien que ese dinero representa?\nREFLEXIÓN DEL MANUSCRITO (edición fiel de un escrito original) — Iván imagina dos personas intercambiando patatas y tomates. Es cómodo partir los derechos sobre esos productos en «fotos» que circulen durante el mercado. Pero al final del día surge una dificultad: si tengo los tomates y también una foto que dice que son míos, no he duplicado mi riqueza. La foto importa cuando otra persona conserva el bien y yo conservo el derecho, mientras existe alguna garantía de que no lo consumirá como si fuera suyo.\n\nDesde esa escena intenta construir una explicación del dinero como red de garantías, saldos y deudas netas. El activo de alguien corresponde a una obligación o expectativa de cumplimiento en otro lugar; la confianza, la autoridad y la capacidad de hacer valer la promesa no son accesorios psicológicos sino parte de la arquitectura económica. En sus apuntes, la contabilidad por partida doble sirve para no tratar la misma cosa como dos riquezas distintas.\n\nEsto es una propuesta teórica personal en desarrollo. No debe publicarse como teorema económico reconocido ni como demostración completa de todos los sistemas monetarios. La imagen de los tomates permanece porque obliga a reconocer la diferencia entre un objeto, su representación negociable y la garantía que sostiene esa representación.\nEtiquetas: Decisiones y responsabilidad 20.00%; Economía, costes y liquidez 80.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-202\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-202.html\n\n",
+  "tokens": 380,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-202:dg-economy",
+      "to": "dg-economy",
+      "title": "Economía y escasez",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 239,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-economy.json"
+    },
+    {
+      "id": "apoyo:D-202:dg-measure",
+      "to": "dg-measure",
+      "title": "Medir decisiones y consecuencias",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 202,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-measure.json"
+    },
+    {
+      "id": "apoyo:D-202:dg-commitment",
+      "to": "dg-commitment",
+      "title": "Garantías, deudas y compromisos",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 120,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-commitment.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-202-D-137",
+      "to": "D-137",
+      "title": "El dinero sostiene una promesa que necesita ser creíble",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Una foto de tomates no es otro tomate» con «El dinero sostiene una promesa que necesita ser creíble». Permite contrastar Garantías, deudas y compromisos, Economía y escasez.",
+      "relationTokens": 73,
+      "fichaTokens": 321,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-137.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-202-D-138",
+      "to": "D-138",
+      "title": "El futuro comprometido puede vaciar la capacidad disponible",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Una foto de tomates no es otro tomate» con «El futuro comprometido puede vaciar la capacidad disponible». Permite contrastar Garantías, deudas y compromisos, Economía y escasez.",
+      "relationTokens": 71,
+      "fichaTokens": 334,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-138.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-202-D-152",
+      "to": "D-152",
+      "title": "Un papel compartido puede controlar más que diez firmas",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Una foto de tomates no es otro tomate» con «Un papel compartido puede controlar más que diez firmas». Permite contrastar Medir decisiones y consecuencias.",
+      "relationTokens": 62,
+      "fichaTokens": 297,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-152.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-261-D-202",
+      "to": "D-261",
+      "title": "La Bolsa puede estar comprando reservas que no parecen mercancías",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «La Bolsa puede estar comprando reservas que no parecen mercancías» con «Una foto de tomates no es otro tomate». Permite contrastar Economía y escasez.",
+      "relationTokens": 66,
+      "fichaTokens": 398,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-261.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-133-D-202",
+      "to": "D-133",
+      "title": "La felicidad no se deja contabilizar como un bien",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Medir decisiones y consecuencias, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 50,
+      "fichaTokens": 324,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-133.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-150-D-202",
+      "to": "D-150",
+      "title": "La paz mental de una generación también tuvo precio",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Garantías, deudas y compromisos, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 52,
+      "fichaTokens": 331,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-150.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-201-D-202",
+      "to": "D-201",
+      "title": "Una decisión privada puede ser una moneda de liquidez casi nula",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Garantías, deudas y compromisos, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 56,
+      "fichaTokens": 378,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-201.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-203-D-202",
+      "to": "D-203",
+      "title": "Una ecuación puede ser cierta y la tendencia que le añadimos, no",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Medir decisiones y consecuencias, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 55,
+      "fichaTokens": 392,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-203.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-270-D-202",
+      "to": "D-270",
+      "title": "Maximizar no es necesariamente lograr",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Medir decisiones y consecuencias, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 47,
+      "fichaTokens": 411,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-270.json"
+    }
+  ]
+}

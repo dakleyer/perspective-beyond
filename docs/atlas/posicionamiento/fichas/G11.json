@@ -1,0 +1,174 @@
+{
+  "id": "G11",
+  "type": "concepto",
+  "title": "Gobernanza de autoridad delegada",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/delegated-authority-governance/",
+  "documentId": null,
+  "sourceIds": [
+    "GH035",
+    "S19",
+    "S20",
+    "GH017",
+    "S05"
+  ],
+  "tagWeights": {
+    "agentes": 0.1026,
+    "autoridad": 0.3239,
+    "cambio-regimen": 0.0263,
+    "cartografia": 0.0658,
+    "casos": 0.0108,
+    "control-minimo": 0.0162,
+    "decision": 0.0191,
+    "documentacion": 0.09,
+    "economia": 0.0095,
+    "empresa": 0.0054,
+    "estandares": 0.0943,
+    "evidencia": 0.0502,
+    "geopolitica": 0.0095,
+    "integridad-ia": 0.0333,
+    "matematicas": 0.0216,
+    "movilidad": 0.0441,
+    "representacion": 0.0333,
+    "transformacion": 0.0441
+  },
+  "clusters": [
+    "research"
+  ],
+  "context": "## Gobernanza de autoridad delegada\nAssign who may propose, approve, execute, stop and review effects.\nEtiquetas: Agentes y coordinación distribuida 10.26%; Autoridad, permisos y delegación 32.39%; Cambios de régimen y alerta temprana 2.63%; Cartografía y señales de ecosistema 6.58%; Casos de uso y aplicaciones 1.08%; Control mínimo y suficiencia 1.62%; Decisiones y responsabilidad 1.91%; Investigación y documentación técnica 9.00%; Economía, costes y liquidez 0.95%; Empresa y gestión 0.54%; Estándares e interoperabilidad 9.43%; Evidencia, procedencia y atribución 5.02%; Geopolítica y fronteras 0.95%; Integridad y seguridad de IA 3.33%; Matemáticas 2.16%; Movilidad e infraestructura 4.41%; Representación y límites formales 3.33%; Transformación y continuidad operativa 4.41%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/delegated-authority-governance/\n\n",
+  "tokens": 240,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH035:G11",
+      "to": "GH035",
+      "title": "Annex 01I — Agentic Citizenship Contract: Human-Governed Participation and Constraint Profile",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 33,
+      "fichaTokens": 238,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH035.json"
+    },
+    {
+      "id": "apoyo:S19:G11",
+      "to": "S19",
+      "title": "TIDA — Delegated Authority OS under Context Change",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 189,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/S19.json"
+    },
+    {
+      "id": "apoyo:S20:G11",
+      "to": "S20",
+      "title": "Annex I — TIDA — Delegated Authority OS under Context Change - Minimal Operational Case Outline",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 33,
+      "fichaTokens": 229,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/S20.json"
+    },
+    {
+      "id": "apoyo:GH017:G11",
+      "to": "GH017",
+      "title": "Ecosystem Positioning",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 261,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH017.json"
+    },
+    {
+      "id": "apoyo:S05:G11",
+      "to": "S05",
+      "title": "Ecosystem Awareness — Functional Interfaces & Agentic Security Integration — v0.4",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 31,
+      "fichaTokens": 209,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/S05.json"
+    },
+    {
+      "id": "concepto:B397",
+      "to": "G04",
+      "title": "Ecosystem Positioning",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 232,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G04.json"
+    },
+    {
+      "id": "concepto:B427",
+      "to": "C26",
+      "title": "Autoridad de decisión",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 262,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C26.json"
+    },
+    {
+      "id": "concepto:B428",
+      "to": "C29",
+      "title": "Propuesta y compromiso",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 244,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C29.json"
+    },
+    {
+      "id": "concepto:B429",
+      "to": "C30",
+      "title": "Abstención responsable",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 16,
+      "fichaTokens": 100,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C30.json"
+    },
+    {
+      "id": "concepto:B430",
+      "to": "G07",
+      "title": "Minimum Sufficient Control Architecture (MSCA)",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 209,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G07.json"
+    },
+    {
+      "id": "concepto:B431",
+      "to": "G10",
+      "title": "Epistemic handoff / transferencia contextual",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 129,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G10.json"
+    },
+    {
+      "id": "concepto:B588",
+      "to": "G43",
+      "title": "Cyber Napoleon",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 14,
+      "fichaTokens": 181,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G43.json"
+    }
+  ]
+}

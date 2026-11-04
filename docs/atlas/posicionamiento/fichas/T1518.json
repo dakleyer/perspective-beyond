@@ -1,0 +1,74 @@
+{
+  "id": "T1518",
+  "type": "ficha",
+  "title": "Structural Awareness Foundation Validation",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/structural-awareness-foundation-validation-t1518/",
+  "documentId": "doc-ba0520fb08a9832efb",
+  "sourceIds": [],
+  "tagWeights": {
+    "evidencia": 1.0
+  },
+  "clusters": [
+    "tegrity"
+  ],
+  "context": "## Structural Awareness Foundation Validation\n\nEtiquetas: Evidencia, procedencia y atribución 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/structural-awareness-foundation-validation-t1518/\nDocumento de origen: https://tegrity.ai/structural-awareness-foundation-validation/\n\n",
+  "tokens": 66,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:T1518:C50",
+      "to": "C50",
+      "title": "Estado de una afirmación",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 295,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C50.json"
+    },
+    {
+      "id": "apoyo:T1518:C69",
+      "to": "C69",
+      "title": "Evidencia de contribución",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 289,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C69.json"
+    },
+    {
+      "id": "documento:G004",
+      "to": "GH004",
+      "title": "Structural Awareness — Mathematical Research Reading Route",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "The mathematical reading route helps define a reviewable object: a conditional result, its source assumptions and the separate implementation question.",
+      "relationTokens": 40,
+      "fichaTokens": 155,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH004.json"
+    },
+    {
+      "id": "documento:R199",
+      "to": "T1475",
+      "title": "Attribution Gap Measurement Protocol",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The Attribution Gap measurement protocol](https://tegrity.ai/attribution-gap-meassurement-protocol/).",
+      "relationTokens": 42,
+      "fichaTokens": 132,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1475.json"
+    },
+    {
+      "id": "documento:sac-rel-418c336a36d2fa",
+      "to": "GH037",
+      "title": "Annex 01K — Human Capacity / Human Intelligence Debt",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Annex B — Cross-series bridge map» con el rótulo «Structural Awareness validation bridge».",
+      "relationTokens": 126,
+      "fichaTokens": 264,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH037.json"
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "id": "G05",
+  "type": "concepto",
+  "title": "Ecosystem Awareness (EA)",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/ecosystem-awareness/",
+  "documentId": null,
+  "sourceIds": [
+    "T2776",
+    "GH025",
+    "GH028"
+  ],
+  "tagWeights": {
+    "autoridad": 0.029,
+    "cartografia": 0.2756,
+    "control-minimo": 0.087,
+    "decision": 0.058,
+    "documentacion": 0.0846,
+    "economia": 0.0533,
+    "experimentacion": 0.098,
+    "integridad-ia": 0.1812,
+    "matematicas": 0.04,
+    "mundo-abierto": 0.0933
+  },
+  "clusters": [
+    "research",
+    "tegrity"
+  ],
+  "context": "## Ecosystem Awareness (EA)\nQualify evidence, dependencies, provenance and limits for a defined decision.\nEtiquetas: Autoridad, permisos y delegación 2.90%; Cartografía y señales de ecosistema 27.56%; Control mínimo y suficiencia 8.70%; Decisiones y responsabilidad 5.80%; Investigación y documentación técnica 8.46%; Economía, costes y liquidez 5.33%; Experimentación, falsación y contraejemplos 9.80%; Integridad y seguridad de IA 18.12%; Matemáticas 4.00%; Mundo abierto e indeterminación 9.33%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/ecosystem-awareness/\n\n",
+  "tokens": 152,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:T2776:G05",
+      "to": "T2776",
+      "title": "When the Controls Work but the System Fails",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 87,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2776.json"
+    },
+    {
+      "id": "apoyo:GH025:G05",
+      "to": "GH025",
+      "title": "Canonical Requirements: S1–S14, Sufficiency Conditions, Hypotheses and KPIs",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 33,
+      "fichaTokens": 247,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH025.json"
+    },
+    {
+      "id": "apoyo:GH028:G05",
+      "to": "GH028",
+      "title": "Ecosystem Awareness — Integrated Foundational Theory of Bounded Uncertainty and Ecosystem Change",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 32,
+      "fichaTokens": 244,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH028.json"
+    },
+    {
+      "id": "concepto:B394",
+      "to": "G04",
+      "title": "Ecosystem Positioning",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 232,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G04.json"
+    },
+    {
+      "id": "concepto:B399",
+      "to": "G09",
+      "title": "Cualificación para una decisión concreta",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 130,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G09.json"
+    },
+    {
+      "id": "concepto:B400",
+      "to": "C25",
+      "title": "Suficiencia para una decisión",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 293,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C25.json"
+    },
+    {
+      "id": "concepto:B401",
+      "to": "C12",
+      "title": "Procedencia auditable",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 276,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C12.json"
+    },
+    {
+      "id": "concepto:B402",
+      "to": "C15",
+      "title": "Admisibilidad contextual",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 242,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C15.json"
+    },
+    {
+      "id": "concepto:B403",
+      "to": "G07",
+      "title": "Minimum Sufficient Control Architecture (MSCA)",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 209,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G07.json"
+    },
+    {
+      "id": "concepto:B421",
+      "to": "G09",
+      "title": "Cualificación para una decisión concreta",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 130,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G09.json"
+    },
+    {
+      "id": "concepto:B436",
+      "to": "G13",
+      "title": "Requisitos canónicos S1–S14",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 130,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G13.json"
+    },
+    {
+      "id": "concepto:B444",
+      "to": "G15",
+      "title": "Principios P1–P6",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 112,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G15.json"
+    },
+    {
+      "id": "concepto:B531",
+      "to": "G31",
+      "title": "Tegrity.AI",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 108,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G31.json"
+    },
+    {
+      "id": "concepto:P06",
+      "to": "G04",
+      "title": "Ecosystem Positioning",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 232,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G04.json"
+    },
+    {
+      "id": "concepto:P07",
+      "to": "G06",
+      "title": "Regime Awareness (RA)",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 190,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G06.json"
+    },
+    {
+      "id": "concepto:P08",
+      "to": "G06",
+      "title": "Regime Awareness (RA)",
+      "direction": "entrante",
+      "kind": "hypothesis",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 190,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G06.json"
+    },
+    {
+      "id": "concepto:P09",
+      "to": "G07",
+      "title": "Minimum Sufficient Control Architecture (MSCA)",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 209,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G07.json"
+    }
+  ]
+}

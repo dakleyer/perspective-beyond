@@ -1,0 +1,114 @@
+{
+  "id": "dg-cross_frame_coherence",
+  "type": "concepto",
+  "title": "Contribución, atribución e insolvencia por cumplimiento",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-cross_frame_coherence",
+  "documentId": null,
+  "sourceIds": [
+    "D-235",
+    "D-236",
+    "D-237"
+  ],
+  "tagWeights": {
+    "autoridad": 0.1945,
+    "decision": 0.1111,
+    "empresa": 0.1667,
+    "evidencia": 0.5277
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Contribución, atribución e insolvencia por cumplimiento\nSeparar optimización local, resultado sistémico, desviaciones positivas contrastadas y ausencia de camino conforme.\nEtiquetas: Autoridad, permisos y delegación 19.45%; Decisiones y responsabilidad 11.11%; Empresa y gestión 16.67%; Evidencia, procedencia y atribución 52.77%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-cross_frame_coherence\n\n",
+  "tokens": 106,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-235:dg-cross_frame_coherence",
+      "to": "D-235",
+      "title": "El mejor informe puede salvar el puesto y perder la operación",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 450,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-235.json"
+    },
+    {
+      "id": "apoyo:D-236:dg-cross_frame_coherence",
+      "to": "D-236",
+      "title": "El sistema sobrevive gracias a quien se sale del mapa",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 411,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-236.json"
+    },
+    {
+      "id": "apoyo:D-237:dg-cross_frame_coherence",
+      "to": "D-237",
+      "title": "Obedecer todas las reglas puede hacer imposible el resultado",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 427,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-237.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-177",
+      "to": "dg-governance",
+      "title": "Gobernanza y legitimidad",
+      "direction": "saliente",
+      "kind": "distingue atribución y aporte",
+      "reading": "Una función conforme puede frustrar el fin común.",
+      "relationTokens": 34,
+      "fichaTokens": 254,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-governance.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-178",
+      "to": "dg-formalization_event",
+      "title": "La frontera entre mundo y registro",
+      "direction": "saliente",
+      "kind": "separa mapa y flujo",
+      "reading": "El registro no acredita causación por sí solo.",
+      "relationTokens": 35,
+      "fichaTokens": 137,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-formalization_event.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-179",
+      "to": "dg-production",
+      "title": "Producción material y continuadores invisibles",
+      "direction": "saliente",
+      "kind": "busca portadores de capacidad",
+      "reading": "La producción puede migrar a excepciones.",
+      "relationTokens": 36,
+      "fichaTokens": 218,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-production.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-180",
+      "to": "dg-legitimacy_gap",
+      "title": "Principios, requisitos y deuda de legitimidad",
+      "direction": "saliente",
+      "kind": "formula insolvencia por cumplimiento",
+      "reading": "No existe camino conforme que preserve el resultado.",
+      "relationTokens": 37,
+      "fichaTokens": 133,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-legitimacy_gap.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-181",
+      "to": "dg-evidence_recognition",
+      "title": "Valor del trabajo y pruebas de capacidad",
+      "direction": "saliente",
+      "kind": "prueba desviaciones positivas",
+      "reading": "Una excepción necesita evidencia causal, no solo anomalía.",
+      "relationTokens": 36,
+      "fichaTokens": 126,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-evidence_recognition.json"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "dg-epistemic_increment",
+  "type": "concepto",
+  "title": "Demostrar o refutar paso por paso",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-epistemic_increment",
+  "documentId": null,
+  "sourceIds": [
+    "D-282",
+    "D-283"
+  ],
+  "tagWeights": {
+    "evidencia": 0.2,
+    "experimentacion": 0.3125,
+    "matematicas": 0.1875,
+    "memoria-territorio": 0.3
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Demostrar o refutar paso por paso\nUna serie interrelacionada debe permitir examen independiente de cada hipótesis.\nEtiquetas: Evidencia, procedencia y atribución 20.00%; Experimentación, falsación y contraejemplos 31.25%; Matemáticas 18.75%; Memoria, comunidad y territorio 30.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-epistemic_increment\n\n",
+  "tokens": 101,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-282:dg-epistemic_increment",
+      "to": "D-282",
+      "title": "Pedir un contraejemplo es una parte del pensamiento original",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 411,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-282.json"
+    },
+    {
+      "id": "apoyo:D-283:dg-epistemic_increment",
+      "to": "D-283",
+      "title": "Una serie rigurosa deja examinar cada eslabón por separado",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 419,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-283.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-284",
+      "to": "dg-doubt",
+      "title": "Duda, pruebas y conocimiento corregible",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.11",
+      "reading": "Examen de cada paso.",
+      "relationTokens": 33,
+      "fichaTokens": 258,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-doubt.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-285",
+      "to": "dg-math",
+      "title": "Pensamiento matemático",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.11",
+      "reading": "Demostración por proposición.",
+      "relationTokens": 30,
+      "fichaTokens": 177,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-math.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-286",
+      "to": "dg-semantic_graph",
+      "title": "Conocimiento como red de relaciones y procedencia",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.11",
+      "reading": "Fichas conectadas sin dependencia obligatoria.",
+      "relationTokens": 38,
+      "fichaTokens": 181,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-semantic_graph.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-287",
+      "to": "dg-constellation_protocol",
+      "title": "Constelaciones, clusters y modos de lectura",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.11",
+      "reading": "Navegación con retorno al archivo.",
+      "relationTokens": 36,
+      "fichaTokens": 104,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-constellation_protocol.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-288",
+      "to": "dg-research_dialogue",
+      "title": "Diálogo de investigación y prueba acotada",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.11",
+      "reading": "Separar discusión y resultado.",
+      "relationTokens": 34,
+      "fichaTokens": 150,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-research_dialogue.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-289",
+      "to": "dg-inspiration_discipline",
+      "title": "Inspiración sometida a comprobación",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.11",
+      "reading": "Una idea puede sobrevivir a una revisión.",
+      "relationTokens": 35,
+      "fichaTokens": 99,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-inspiration_discipline.json"
+    }
+  ]
+}

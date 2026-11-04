@@ -1,0 +1,200 @@
+{
+  "id": "D-286",
+  "type": "ficha",
+  "title": "El enjambre de sistemitas es una deuda de gestión",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-286",
+  "documentId": "doc-a7ac2e2d4d9ec01cbd",
+  "sourceIds": [],
+  "tagWeights": {
+    "aprendizaje": 0.125,
+    "decision": 0.125,
+    "empresa": 0.375,
+    "memoria-territorio": 0.125,
+    "movilidad": 0.125,
+    "transformacion": 0.125
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## El enjambre de sistemitas es una deuda de gestión\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Qué pasa cuando cada equipo resuelve su problema y nadie resuelve el conjunto?\nREFLEXIÓN DEL DIÁLOGO (solo expresiones breves cotejadas mediante índice contextual, resto elaboración editorial) — El término de Iván fue visual: sin una arquitectura que traduzca el problema hacia un modelo operativo y sistemas implementables, emerge un «enjambre de sistemitas». Cada aplicación local puede justificar su existencia, pero el total empieza a acumular excepciones, dependencias, trabajo de coordinación, riesgos y necesidades de soporte que ningún proyecto aislado reconoce como su coste.\n\nIván reunía deuda de valor o backlog, deuda técnica, riesgo y cumplimiento —GRC— y coste total —TCO—. No lo veía como una lista de cuatro departamentos sin relación; intuyó que había una dimensión común: «Creo que es una sola métrica concreta y creo que es entendible». El interés está en no inventar todavía esa cifra. Una formulación cuantitativa útil tendría que demostrar que reducir un coste no ha trasladado otro a una zona invisible. De lo contrario, produciría otra métrica ceremonial.\n\nLa pregunta original sigue abierta: ¿puede medirse la deuda estructural que una organización adquiere al multiplicar decisiones técnicamente razonables y organizativamente inconexas? La imagen del enjambre preserva la causa; la cifra esperada queda como hipótesis de diseño, no resultado medido.\nEtiquetas: Aprendizaje y transmisión de capacidades 12.50%; Decisiones y responsabilidad 12.50%; Empresa y gestión 37.50%; Memoria, comunidad y territorio 12.50%; Movilidad e infraestructura 12.50%; Transformación y continuidad operativa 12.50%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-286\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-286.html\n\n",
+  "tokens": 430,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-286:dg-infra",
+      "to": "dg-infra",
+      "title": "Infraestructura habilitadora",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 161,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-infra.json"
+    },
+    {
+      "id": "apoyo:D-286:dg-transform",
+      "to": "dg-transform",
+      "title": "Transformación organizativa",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 213,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-transform.json"
+    },
+    {
+      "id": "apoyo:D-286:dg-measure",
+      "to": "dg-measure",
+      "title": "Medir decisiones y consecuencias",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 202,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-measure.json"
+    },
+    {
+      "id": "apoyo:D-286:dg-capability_loss",
+      "to": "dg-capability_loss",
+      "title": "Poda, memoria y capacidades zombis",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 142,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-capability_loss.json"
+    },
+    {
+      "id": "apoyo:D-286:dg-practical_isomorphism",
+      "to": "dg-practical_isomorphism",
+      "title": "Isomorfismos entre dominios y deuda de arquitectura",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 151,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-practical_isomorphism.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-286-D-025",
+      "to": "D-025",
+      "title": "Instalar un sistema no basta",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «El enjambre de sistemitas es una deuda de gestión» con «Instalar un sistema no basta». Permite contrastar Transformación organizativa.",
+      "relationTokens": 59,
+      "fichaTokens": 645,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-025.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-286-D-029",
+      "to": "D-029",
+      "title": "Once departamentos y una visión incompleta",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «El enjambre de sistemitas es una deuda de gestión» con «Once departamentos y una visión incompleta».",
+      "relationTokens": 52,
+      "fichaTokens": 444,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-029.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-286-D-143",
+      "to": "D-143",
+      "title": "El cuchillo de plástico puede recibir el miedo que no dirigimos al afilado",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «El enjambre de sistemitas es una deuda de gestión» con «El cuchillo de plástico puede recibir el miedo que no dirigimos al afilado».",
+      "relationTokens": 72,
+      "fichaTokens": 312,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-143.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-286-D-180",
+      "to": "D-180",
+      "title": "La encajonadora no obedece a una teoría de gestión",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «El enjambre de sistemitas es una deuda de gestión» con «La encajonadora no obedece a una teoría de gestión». Permite contrastar Transformación organizativa.",
+      "relationTokens": 75,
+      "fichaTokens": 352,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-180.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-286-D-223",
+      "to": "D-223",
+      "title": "Dices «cloud» y acabas comprando cloud",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «El enjambre de sistemitas es una deuda de gestión» con «Dices «cloud» y acabas comprando cloud». Permite contrastar Transformación organizativa.",
+      "relationTokens": 69,
+      "fichaTokens": 451,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-223.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-286-D-233",
+      "to": "D-233",
+      "title": "Una capacidad zombi sigue en el organigrama, no en la realidad",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «El enjambre de sistemitas es una deuda de gestión» con «Una capacidad zombi sigue en el organigrama, no en la realidad». Permite contrastar Poda, memoria y capacidades zombis.",
+      "relationTokens": 81,
+      "fichaTokens": 413,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-233.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-149-D-286",
+      "to": "D-149",
+      "title": "La tecnología podía funcionar, pero la organización aún no quería cambiar",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Infraestructura habilitadora, Transformación organizativa desde las situaciones que describe cada texto.",
+      "relationTokens": 54,
+      "fichaTokens": 343,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-149.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-232-D-286",
+      "to": "D-232",
+      "title": "El éxito también consiste en saber qué capacidad podar",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Poda, memoria y capacidades zombis, Transformación organizativa desde las situaciones que describe cada texto.",
+      "relationTokens": 55,
+      "fichaTokens": 434,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-232.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-285-D-286",
+      "to": "D-285",
+      "title": "Un arquitecto no puede saber toda la jerga de todos los oficios",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Isomorfismos entre dominios y deuda de arquitectura, Transformación organizativa desde las situaciones que describe cada texto.",
+      "relationTokens": 63,
+      "fichaTokens": 439,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-285.json"
+    },
+    {
+      "id": "documento:dialogue-bridge-D-286-E1704",
+      "to": "E1704",
+      "title": "Rationalization.AI",
+      "direction": "saliente",
+      "kind": "puente de lectura",
+      "reading": "El enjambre de sistemas muestra cómo las mejoras locales trasladan costes al conjunto. La racionalización examina dependencias, duplicaciones y capacidad útil antes de añadir otra capa.",
+      "relationTokens": 56,
+      "fichaTokens": 85,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1704.json"
+    },
+    {
+      "id": "documento:dialogue-bridge-D-286-T874",
+      "to": "T874",
+      "title": "Human Intelligence Debt",
+      "direction": "saliente",
+      "kind": "puente de lectura",
+      "reading": "El trabajo humano que compensa aplicaciones desconectadas permite contrastar la deuda de arquitectura con Human Intelligence Debt: esfuerzo de mediación que la solución local no registra.",
+      "relationTokens": 53,
+      "fichaTokens": 82,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T874.json"
+    }
+  ]
+}

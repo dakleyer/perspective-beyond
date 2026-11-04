@@ -1,0 +1,97 @@
+{
+  "id": "D-068",
+  "type": "ficha",
+  "title": "Las Tunas: la innovación con medios escasos",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-068",
+  "documentId": "doc-41f3a410d217128630",
+  "sourceIds": [],
+  "tagWeights": {
+    "aprendizaje": 0.4,
+    "memoria-territorio": 0.6
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Las Tunas: la innovación con medios escasos\nNOTA DEL EDITOR — Se conserva la marca «PARA AGREGAR DESPUÉS» y los separadores del manuscrito; son huellas del estado de la obra, no texto autorizado para la web.\nINTERLOCUTOR — Tu manuscrito deja abierta una sección «Para agregar después». ¿Qué experiencia querías recuperar?\nIVÁN —\nPARA AGREGAR DESPUÉS:\n____\nINTERLOCUTOR — ¿Qué te dejó trabajar con la Universidad de Las Tunas, entre innovación frugal y dificultad institucional?\nIVÁN —\nDurante cuatro meses colaboré con la Universidad de Las Tunas en el desarrollo de soluciones tecnológicas aplicadas a movilidad, agricultura y gestión comunitaria. Fue una experiencia reveladora que me mostró cómo la creatividad local y la innovación frugal podían superar limitaciones materiales. También me expuso a los desafíos de trabajar en entornos con baja transparencia institucional, reforzando mi convicción sobre la importancia de la confianza y la colaboración en la tecnología con impacto social.\n___\nEtiquetas: Aprendizaje y transmisión de capacidades 40.00%; Memoria, comunidad y territorio 60.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-068\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=DI%C3%81LOGO%20XV%20%C2%B7%20Las%20Tunas%20y%20las%20p%C3%A1ginas%20a%C3%BAn%20por%20escribir\n\n",
+  "tokens": 342,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-068:dg-learning",
+      "to": "dg-learning",
+      "title": "Aprendizaje autodirigido",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 200,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-learning.json"
+    },
+    {
+      "id": "apoyo:D-068:dg-community",
+      "to": "dg-community",
+      "title": "Comunidades y territorio",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 187,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-community.json"
+    },
+    {
+      "id": "documento:dg-041",
+      "to": "D-055",
+      "title": "El infinito, la máquina y sus límites",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Aprendizaje autodirigido».",
+      "relationTokens": 37,
+      "fichaTokens": 541,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-055.json"
+    },
+    {
+      "id": "documento:dg-042",
+      "to": "D-079",
+      "title": "Preguntas abiertas: las etapas de 2018–2026",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Aprendizaje autodirigido».",
+      "relationTokens": 42,
+      "fichaTokens": 310,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-079.json"
+    },
+    {
+      "id": "documento:dg-141",
+      "to": "D-066",
+      "title": "Coaching transpersonal, radio y escucha",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Comunidades y territorio».",
+      "relationTokens": 34,
+      "fichaTokens": 463,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-066.json"
+    },
+    {
+      "id": "documento:dg-142",
+      "to": "D-014",
+      "title": "Formación Integral: el entusiasmo y la pérdida",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Comunidades y territorio».",
+      "relationTokens": 34,
+      "fichaTokens": 716,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-014.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-068-D-113",
+      "to": "D-113",
+      "title": "Un piloto real y un archivo que no lo suplante",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Comunidades y territorio, Aprendizaje autodirigido desde las situaciones que describe cada texto.",
+      "relationTokens": 54,
+      "fichaTokens": 287,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-113.json"
+    }
+  ]
+}

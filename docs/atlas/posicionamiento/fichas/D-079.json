@@ -1,0 +1,109 @@
+{
+  "id": "D-079",
+  "type": "ficha",
+  "title": "Preguntas abiertas: las etapas de 2018–2026",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-079",
+  "documentId": "doc-41f3a410d217128630",
+  "sourceIds": [],
+  "tagWeights": {
+    "aprendizaje": 0.25,
+    "decision": 0.5,
+    "transformacion": 0.25
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Preguntas abiertas: las etapas de 2018–2026\n11. INTERLOCUTOR — ¿Qué historia personal falta sobre el cierre de un contrato, un error de cálculo o la decisión de irte de un lugar?\n12. INTERLOCUTOR — ¿Cómo cambió tu vida al nacer Estel y después con los distintos regresos entre Europa, México y Suiza?\n13. INTERLOCUTOR — ¿Qué recuerdas de trabajar en Richemont, LEGO, Nestlé, SGS y otros entornos sin reducirlos a logos o resultados?\n14. INTERLOCUTOR — ¿Qué experiencias en la industria relojera reavivaron para ti la idea de precisión, oficio y aprendizaje maestro–aprendiz?\n15. INTERLOCUTOR — ¿Qué continuidades reales y qué diferencias hay entre las primeras ciberescuelas de Formación Integral y FI 3.0?\nEtiquetas: Aprendizaje y transmisión de capacidades 25.00%; Decisiones y responsabilidad 50.00%; Transformación y continuidad operativa 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-079\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=11.%20INTERLOCUTOR%20%E2%80%94%20%C2%BFQu%C3%A9%20historia%20personal%20falta%20sobre%20el%20cierre%20de\n\n",
+  "tokens": 310,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-079:dg-learning",
+      "to": "dg-learning",
+      "title": "Aprendizaje autodirigido",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 200,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-learning.json"
+    },
+    {
+      "id": "apoyo:D-079:dg-continuity",
+      "to": "dg-continuity",
+      "title": "Continuidad de capacidades",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 201,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-continuity.json"
+    },
+    {
+      "id": "documento:dg-017",
+      "to": "D-074",
+      "title": "Genaro, Buil y la prudencia ante las fuentes",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Continuidad de capacidades».",
+      "relationTokens": 41,
+      "fichaTokens": 400,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-074.json"
+    },
+    {
+      "id": "documento:dg-018",
+      "to": "D-081",
+      "title": "Conservar una línea de pensamiento sin imponerla",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Continuidad de capacidades».",
+      "relationTokens": 38,
+      "fichaTokens": 671,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-081.json"
+    },
+    {
+      "id": "documento:dg-042",
+      "to": "D-068",
+      "title": "Las Tunas: la innovación con medios escasos",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Aprendizaje autodirigido».",
+      "relationTokens": 42,
+      "fichaTokens": 342,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-068.json"
+    },
+    {
+      "id": "documento:dg-043",
+      "to": "D-002",
+      "title": "Sants: aprender antes de tener un método",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Aprendizaje autodirigido».",
+      "relationTokens": 41,
+      "fichaTokens": 478,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-002.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-079-D-249",
+      "to": "D-249",
+      "title": "Una memoria en estrella puede perder su centro sin dejar de funcionar",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Continuidad de capacidades, Aprendizaje autodirigido desde las situaciones que describe cada texto.",
+      "relationTokens": 58,
+      "fichaTokens": 441,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-249.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-079-D-287",
+      "to": "D-287",
+      "title": "El no-podismo también es una decisión de no construir",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Continuidad de capacidades, Aprendizaje autodirigido desde las situaciones que describe cada texto.",
+      "relationTokens": 58,
+      "fichaTokens": 422,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-287.json"
+    }
+  ]
+}

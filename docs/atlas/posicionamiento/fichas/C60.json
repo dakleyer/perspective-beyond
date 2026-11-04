@@ -1,0 +1,159 @@
+{
+  "id": "C60",
+  "type": "concepto",
+  "title": "Remanente no recuperable",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/unrecoverable-remainder/",
+  "documentId": null,
+  "sourceIds": [
+    "T1396",
+    "E1557",
+    "T1522",
+    "N1287",
+    "L002"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.0391,
+    "capacidad-humana": 0.089,
+    "casos": 0.032,
+    "control-minimo": 0.03,
+    "decision": 0.111,
+    "economia": 0.032,
+    "empresa": 0.2539,
+    "evidencia": 0.0709,
+    "integridad-ia": 0.0476,
+    "memoria-territorio": 0.0648,
+    "transformacion": 0.2297
+  },
+  "clusters": [
+    "eu",
+    "latinoempresa",
+    "net",
+    "tegrity"
+  ],
+  "context": "## Remanente no recuperable\nSome distinctions are absent from the available output or record.\nEtiquetas: Aprendizaje y transmisión de capacidades 3.91%; Capacidad humana y deuda de inteligencia 8.90%; Casos de uso y aplicaciones 3.20%; Control mínimo y suficiencia 3.00%; Decisiones y responsabilidad 11.10%; Economía, costes y liquidez 3.20%; Empresa y gestión 25.39%; Evidencia, procedencia y atribución 7.09%; Integridad y seguridad de IA 4.76%; Memoria, comunidad y territorio 6.48%; Transformación y continuidad operativa 22.97%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/unrecoverable-remainder/\n\n",
+  "tokens": 163,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:T1396:C60",
+      "to": "T1396",
+      "title": "What Cannot Be Recovered Must Be Managed. Cross-series bridge: Human Intelligence Gap with AI Integrity Management",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 34,
+      "fichaTokens": 161,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1396.json"
+    },
+    {
+      "id": "apoyo:E1557:C60",
+      "to": "E1557",
+      "title": "Watchmaking Manufacturing Rationalization",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 114,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1557.json"
+    },
+    {
+      "id": "apoyo:T1522:C60",
+      "to": "T1522",
+      "title": "About Cats, Boxes and Enterprise Management Decisions",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 104,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1522.json"
+    },
+    {
+      "id": "apoyo:N1287:C60",
+      "to": "N1287",
+      "title": "Tacit Knowledge Management in Distributed Tiger Teams",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 153,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1287.json"
+    },
+    {
+      "id": "apoyo:L002:C60",
+      "to": "L002",
+      "title": "Narrativa, centro y frontera: por qué los modelos simples fallan cuando llega la implementación",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 32,
+      "fichaTokens": 134,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/L002.json"
+    },
+    {
+      "id": "concepto:M003",
+      "to": "C36",
+      "title": "Transmisión de juicio tácito",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "The calibration case distinguishes knowledge that can be taught through practice from information that an application inventory cannot reconstruct by itself.",
+      "relationTokens": 40,
+      "fichaTokens": 221,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C36.json"
+    },
+    {
+      "id": "concepto:M038",
+      "to": "C31",
+      "title": "Información constitutiva",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "Information that was never institutionally established differs from information that existed but cannot be recovered from the available record.",
+      "relationTokens": 36,
+      "fichaTokens": 242,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C31.json"
+    },
+    {
+      "id": "concepto:F016",
+      "to": "C36",
+      "title": "Transmisión de juicio tácito",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "Where a record cannot reconstruct situated judgment, capability preservation may require a live transmission relationship rather than another layer of documentation.",
+      "relationTokens": 41,
+      "fichaTokens": 221,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C36.json"
+    },
+    {
+      "id": "concepto:B008",
+      "to": "C107",
+      "title": "Compresión narrativa de capacidad",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "Reconstructing what a model omitted is different from recovering a capability that has ceased to be exercised; the bridge note keeps those repair problems distinct.",
+      "relationTokens": 45,
+      "fichaTokens": 228,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C107.json"
+    },
+    {
+      "id": "concepto:B388",
+      "to": "G02",
+      "title": "The Given Universe Axiom",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 161,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G02.json"
+    },
+    {
+      "id": "concepto:B390",
+      "to": "G03",
+      "title": "Mundo, registro y contexto perdido",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 155,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G03.json"
+    }
+  ]
+}

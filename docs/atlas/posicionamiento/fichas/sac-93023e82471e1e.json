@@ -1,0 +1,53 @@
+{
+  "id": "sac-93023e82471e1e",
+  "type": "ficha",
+  "title": "BOT-REVIEW-QUEUE — tareas aún no realizadas por un revisor independiente",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-93023e82471e1e.html",
+  "documentId": "doc-7c6fdf3211c47f79a8",
+  "sourceIds": [],
+  "tagWeights": {
+    "documentacion": 0.6667,
+    "experimentacion": 0.3333
+  },
+  "clusters": [
+    "research"
+  ],
+  "context": "## BOT-REVIEW-QUEUE — tareas aún no realizadas por un revisor independiente\nFuente de la línea «Reducciones, oráculos y extensiones». El enlace abre el documento en su versión registrada.\nEtiquetas: Investigación y documentación técnica 66.67%; Experimentación, falsación y contraejemplos 33.33%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-93023e82471e1e.html\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/bc36c491c92963413ec264c3f9a507d0ba80301f/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/annexes/BOT_APPROXIMATIONS_AND_PARTIAL_RUNS/BOT_INDEPENDENT_REVIEW_QUEUE.md\n\n",
+  "tokens": 192,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "documento:sac-rel-d1c490c9384ccb",
+      "to": "sac-cd6a7daabcffaa",
+      "title": "BOT-AUTORUN — repetición automática, no otro evaluador científico",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «BOT-AUTORUN — repetición automática, no otro evaluador científico» con el rótulo «cola de revisores independientes».",
+      "relationTokens": 159,
+      "fichaTokens": 186,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-cd6a7daabcffaa.json"
+    },
+    {
+      "id": "documento:sac-rel-3fe1c6562094ed",
+      "to": "sac-91cc76ff2abfd9",
+      "title": "Anexo — aproximaciones de bots, pruebas parciales y discusiones",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «BOT-REVIEW-QUEUE — tareas aún no realizadas por un revisor independiente» con el rótulo «Volver al índice».",
+      "relationTokens": 163,
+      "fichaTokens": 180,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-91cc76ff2abfd9.json"
+    },
+    {
+      "id": "documento:sac-rel-872f1eae9e6f41",
+      "to": "sac-91cc76ff2abfd9",
+      "title": "Anexo — aproximaciones de bots, pruebas parciales y discusiones",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Qué puede leerse, y cómo» con el rótulo «BOT-REVIEW-QUEUE — trabajos para un futuro evaluador humano o bot realmente independiente».",
+      "relationTokens": 162,
+      "fichaTokens": 180,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-91cc76ff2abfd9.json"
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "id": "N1279",
+  "type": "ficha",
+  "title": "Tiger Team Governance Principles",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/tiger-team-governance-principles-n1279/",
+  "documentId": "doc-71e2673cf86e6ca4a7",
+  "sourceIds": [],
+  "tagWeights": {
+    "autoridad": 0.25,
+    "decision": 0.1667,
+    "integridad-ia": 0.1666,
+    "transformacion": 0.4167
+  },
+  "clusters": [
+    "net"
+  ],
+  "context": "## Tiger Team Governance Principles\n\nEtiquetas: Autoridad, permisos y delegación 25.00%; Decisiones y responsabilidad 16.67%; Integridad y seguridad de IA 16.66%; Transformación y continuidad operativa 41.67%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/tiger-team-governance-principles-n1279/\nDocumento de origen: https://jubap.net/tiger-team-governance-principles/\n\n",
+  "tokens": 100,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:N1279:C26",
+      "to": "C26",
+      "title": "Autoridad de decisión",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 16,
+      "fichaTokens": 262,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C26.json"
+    },
+    {
+      "id": "apoyo:N1279:C28",
+      "to": "C28",
+      "title": "Capacidad efectiva de respuesta",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 223,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C28.json"
+    },
+    {
+      "id": "apoyo:N1279:C30",
+      "to": "C30",
+      "title": "Abstención responsable",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 15,
+      "fichaTokens": 100,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C30.json"
+    },
+    {
+      "id": "apoyo:N1279:C37",
+      "to": "C37",
+      "title": "Activación de misión",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 16,
+      "fichaTokens": 250,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C37.json"
+    },
+    {
+      "id": "apoyo:N1279:C81",
+      "to": "C81",
+      "title": "Frontera de integridad operacional",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 228,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C81.json"
+    },
+    {
+      "id": "apoyo:N1279:C84",
+      "to": "C84",
+      "title": "Declaración provisional reversible",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 16,
+      "fichaTokens": 172,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C84.json"
+    },
+    {
+      "id": "apoyo:N1279:C92",
+      "to": "C92",
+      "title": "Acoplamiento selectivo entre sistemas",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 147,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C92.json"
+    },
+    {
+      "id": "apoyo:N1279:C105",
+      "to": "C105",
+      "title": "Legitimidad en ambos lados de una interfaz",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 164,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C105.json"
+    },
+    {
+      "id": "documento:D021",
+      "to": "T1391",
+      "title": "The Limits of AI Oversight",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "Decision authority and timely review capacity should be specified separately in the governance contract.",
+      "relationTokens": 30,
+      "fichaTokens": 101,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1391.json"
+    },
+    {
+      "id": "documento:D023",
+      "to": "T1387",
+      "title": "Minimalistic Regime-Aware Early Warning Systems",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "Responsible abstention begins by declaring which operating conditions no longer justify continuing the intervention.",
+      "relationTokens": 34,
+      "fichaTokens": 79,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1387.json"
+    },
+    {
+      "id": "documento:M040",
+      "to": "T2792",
+      "title": "Annex 3 — Foundations, Principles and Derivation",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "A governance principle becomes operational when it specifies an owner, an escalation condition and a clear boundary on authorized action.",
+      "relationTokens": 42,
+      "fichaTokens": 107,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2792.json"
+    },
+    {
+      "id": "documento:F034",
+      "to": "T1417",
+      "title": "When You Have to Decide Before You Can Discover",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "A focused intervention can begin with a bounded discovery mandate without confusing provisional assumptions with the binding decisions required for production change.",
+      "relationTokens": 41,
+      "fichaTokens": 91,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1417.json"
+    },
+    {
+      "id": "documento:F035",
+      "to": "T2795",
+      "title": "Annex 4 — Canonical Requirements and Test Contract",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "The mission contract can make requalification explicit when changed evidence or operating conditions alter the boundary of accountable action.",
+      "relationTokens": 40,
+      "fichaTokens": 162,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2795.json"
+    },
+    {
+      "id": "documento:A044",
+      "to": "U1498",
+      "title": "Entropy, Capability Activation and Sociotechnical Engineering",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "Selective coupling becomes an actionable design question only when authority, escalation, operating limits and exit conditions are explicit at the interface.",
+      "relationTokens": 44,
+      "fichaTokens": 126,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1498.json"
+    },
+    {
+      "id": "documento:B033",
+      "to": "L006",
+      "title": "Instituciones de frontera: Cuando emprender es construir un puente entre mundos.",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "Legitimacy on both sides of a boundary can enable translation, but it does not itself grant authority to commit either side.",
+      "relationTokens": 49,
+      "fichaTokens": 149,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/L006.json"
+    },
+    {
+      "id": "documento:G035",
+      "to": "GH035",
+      "title": "Annex 01I — Agentic Citizenship Contract: Human-Governed Participation and Constraint Profile",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "A candidate goal or useful finding does not enlarge a Tiger Team’s mandate; adoption, authority and participation conditions must be explicit.",
+      "relationTokens": 53,
+      "fichaTokens": 238,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH035.json"
+    },
+    {
+      "id": "documento:R038",
+      "to": "E1554",
+      "title": "Japan Enterprise Architecture Function",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Decision rights and accountable governance](https://jubap.net/tiger-team-governance-principles/).",
+      "relationTokens": 42,
+      "fichaTokens": 107,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1554.json"
+    },
+    {
+      "id": "documento:R126",
+      "to": "N1272",
+      "title": "The Anthropology of Tiger Team Activation",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The Tiger Team governance contract](https://jubap.net/tiger-team-governance-principles/).",
+      "relationTokens": 44,
+      "fichaTokens": 126,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1272.json"
+    },
+    {
+      "id": "documento:R129",
+      "to": "T2744",
+      "title": "From Field Practice to Pre-Standardization: An Extensible Case-Study Framework",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Delegated authority under context change](https://tegrity.ai/from-field-practice-to-pre-standardization-an-extensible-case-study-framework/).",
+      "relationTokens": 60,
+      "fichaTokens": 105,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2744.json"
+    },
+    {
+      "id": "documento:R140",
+      "to": "N1296",
+      "title": "Distributed Tiger Teams VS Freelancer Swarms",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Authority and accountability in the Tiger Team model](https://jubap.net/tiger-team-governance-principles/).",
+      "relationTokens": 48,
+      "fichaTokens": 127,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1296.json"
+    }
+  ]
+}

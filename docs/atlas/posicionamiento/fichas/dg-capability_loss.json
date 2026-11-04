@@ -1,0 +1,163 @@
+{
+  "id": "dg-capability_loss",
+  "type": "concepto",
+  "title": "Poda, memoria y capacidades zombis",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-capability_loss",
+  "documentId": null,
+  "sourceIds": [
+    "D-232",
+    "D-233",
+    "D-234",
+    "D-286"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.1146,
+    "autoridad": 0.125,
+    "decision": 0.0313,
+    "empresa": 0.1271,
+    "integridad-ia": 0.125,
+    "memoria-territorio": 0.3146,
+    "movilidad": 0.0312,
+    "transformacion": 0.1312
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Poda, memoria y capacidades zombis\nLa transformación puede perder combinaciones humanas y técnicas difíciles de rehacer; la victoria anterior es insuficiente.\nEtiquetas: Aprendizaje y transmisión de capacidades 11.46%; Autoridad, permisos y delegación 12.50%; Decisiones y responsabilidad 3.13%; Empresa y gestión 12.71%; Integridad y seguridad de IA 12.50%; Memoria, comunidad y territorio 31.46%; Movilidad e infraestructura 3.12%; Transformación y continuidad operativa 13.12%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-capability_loss\n\n",
+  "tokens": 142,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-232:dg-capability_loss",
+      "to": "D-232",
+      "title": "El éxito también consiste en saber qué capacidad podar",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 434,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-232.json"
+    },
+    {
+      "id": "apoyo:D-233:dg-capability_loss",
+      "to": "D-233",
+      "title": "Una capacidad zombi sigue en el organigrama, no en la realidad",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 31,
+      "fichaTokens": 413,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-233.json"
+    },
+    {
+      "id": "apoyo:D-234:dg-capability_loss",
+      "to": "D-234",
+      "title": "La victoria de ayer puede ser el martillo que te haga perder mañana",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 396,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-234.json"
+    },
+    {
+      "id": "apoyo:D-286:dg-capability_loss",
+      "to": "D-286",
+      "title": "El enjambre de sistemitas es una deuda de gestión",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 430,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-286.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-172",
+      "to": "dg-continuity",
+      "title": "Continuidad de capacidades",
+      "direction": "saliente",
+      "kind": "registra la pérdida silenciosa",
+      "reading": "Una capacidad nominal puede haber dejado de funcionar.",
+      "relationTokens": 29,
+      "fichaTokens": 201,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-continuity.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-173",
+      "to": "dg-transform",
+      "title": "Transformación organizativa",
+      "direction": "saliente",
+      "kind": "añade la otra cara de escalar",
+      "reading": "La poda selecciona y cierra opciones.",
+      "relationTokens": 31,
+      "fichaTokens": 213,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-transform.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-174",
+      "to": "dg-capture",
+      "title": "Captura de opciones e incentivos regresivos",
+      "direction": "saliente",
+      "kind": "evita repetir la victoria",
+      "reading": "La selección puede premiar la respuesta de ayer.",
+      "relationTokens": 34,
+      "fichaTokens": 180,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-capture.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-175",
+      "to": "dg-action_viability",
+      "title": "Acción viable y valor que se propaga",
+      "direction": "saliente",
+      "kind": "comprueba capacidad operativa",
+      "reading": "El backlog no debe depender de capacidades zombis.",
+      "relationTokens": 34,
+      "fichaTokens": 121,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-action_viability.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-176",
+      "to": "dg-frame_change",
+      "title": "Marcos que autorizan opciones y compras",
+      "direction": "saliente",
+      "kind": "revisa la siguiente batalla",
+      "reading": "El régimen puede cambiar aun si el adversario parece igual.",
+      "relationTokens": 35,
+      "fichaTokens": 131,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-frame_change.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-190",
+      "to": "dg-institutional_custody",
+      "title": "Custodia de comunidades de práctica",
+      "direction": "saliente",
+      "kind": "comparte la preservación",
+      "reading": "Oficios y empresas pierden saberes aun con archivos.",
+      "relationTokens": 33,
+      "fichaTokens": 128,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-institutional_custody.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-195",
+      "to": "dg-innovation_memory",
+      "title": "Creatividad de urgencia y memoria de innovación",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.9",
+      "reading": "La memoria institucional previene pérdida de saber.",
+      "relationTokens": 37,
+      "fichaTokens": 144,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-innovation_memory.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-243",
+      "to": "dg-exit_architecture",
+      "title": "Arquitectura de salida y capacidad transferida",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.10",
+      "reading": "La salida debe preservar capacidad y evitar una poda ciega.",
+      "relationTokens": 40,
+      "fichaTokens": 106,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-exit_architecture.json"
+    }
+  ]
+}

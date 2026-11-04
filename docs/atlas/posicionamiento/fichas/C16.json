@@ -1,0 +1,100 @@
+{
+  "id": "C16",
+  "type": "concepto",
+  "title": "Recuperación por similitud",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/similarity-based-retrieval/",
+  "documentId": null,
+  "sourceIds": [
+    "E1570",
+    "N1831",
+    "T2795"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.0318,
+    "autoridad": 0.1058,
+    "control-minimo": 0.0318,
+    "decision": 0.1217,
+    "documentacion": 0.0952,
+    "economia": 0.0317,
+    "empresa": 0.1852,
+    "evidencia": 0.1984,
+    "integridad-ia": 0.0317,
+    "memoria-territorio": 0.1667
+  },
+  "clusters": [
+    "eu",
+    "net",
+    "tegrity"
+  ],
+  "context": "## Recuperación por similitud\nRetrieve material close to a query in content or representation.\nEtiquetas: Aprendizaje y transmisión de capacidades 3.18%; Autoridad, permisos y delegación 10.58%; Control mínimo y suficiencia 3.18%; Decisiones y responsabilidad 12.17%; Investigación y documentación técnica 9.52%; Economía, costes y liquidez 3.17%; Empresa y gestión 18.52%; Evidencia, procedencia y atribución 19.84%; Integridad y seguridad de IA 3.17%; Memoria, comunidad y territorio 16.67%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/similarity-based-retrieval/\n\n",
+  "tokens": 151,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:E1570:C16",
+      "to": "E1570",
+      "title": "Luxury Recommendation",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 15,
+      "fichaTokens": 80,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1570.json"
+    },
+    {
+      "id": "apoyo:N1831:C16",
+      "to": "N1831",
+      "title": "Phylons predictive factors cascade",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 85,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1831.json"
+    },
+    {
+      "id": "apoyo:T2795:C16",
+      "to": "T2795",
+      "title": "Annex 4 — Canonical Requirements and Test Contract",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 162,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2795.json"
+    },
+    {
+      "id": "concepto:D011",
+      "to": "C15",
+      "title": "Admisibilidad contextual",
+      "direction": "entrante",
+      "kind": "hypothesis",
+      "reading": "The semantic-window lineage suggests testing contextual admissibility separately from similarity in product retrieval.",
+      "relationTokens": 29,
+      "fichaTokens": 242,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C15.json"
+    },
+    {
+      "id": "concepto:M004",
+      "to": "C26",
+      "title": "Autoridad de decisión",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "Similarity can help retrieve product knowledge, but currency, evidential scope and authority must be qualified separately before it supports an operational commitment.",
+      "relationTokens": 42,
+      "fichaTokens": 262,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C26.json"
+    },
+    {
+      "id": "concepto:B622",
+      "to": "G50",
+      "title": "Recomendación de productos de lujo",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 78,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G50.json"
+    }
+  ]
+}

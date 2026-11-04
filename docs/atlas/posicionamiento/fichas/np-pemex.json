@@ -1,0 +1,43 @@
+{
+  "id": "np-pemex",
+  "type": "ficha",
+  "title": "PEMEX y TETSA: personas, seguridad y operación",
+  "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-pemex",
+  "documentId": "doc-338ccb609a5fe2b0fe",
+  "sourceIds": [],
+  "tagWeights": {
+    "empresa": 0.25,
+    "integridad-ia": 0.5,
+    "movilidad": 0.25
+  },
+  "clusters": [
+    "imsv"
+  ],
+  "context": "## PEMEX y TETSA: personas, seguridad y operación\nEl capítulo examina atención, estrés, hábitos de los operadores y condiciones técnicas de seguridad. Distingue esas experiencias de los sistemas logísticos y de gestión que coexistieron en el entorno petrolero.\nEtiquetas: Empresa y gestión 25.00%; Integridad y seguridad de IA 50.00%; Movilidad e infraestructura 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-pemex\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/pemex-tetsa/\n\n",
+  "tokens": 131,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "documento:np-r08",
+      "to": "np-jump-up",
+      "title": "Del cambio de perspectiva al plan JUMP UP",
+      "direction": "entrante",
+      "kind": "lectura de campo",
+      "reading": "Leer los bloqueos exige observar a la vez procedimientos, seguridad y experiencia de quienes operan.",
+      "relationTokens": 46,
+      "fichaTokens": 120,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-jump-up.json"
+    },
+    {
+      "id": "documento:np-r09",
+      "to": "np-ado",
+      "title": "ADO: Consciencia Plena, Pulsera Rosa y andenes",
+      "direction": "saliente",
+      "kind": "comparación",
+      "reading": "Ambos relatos distinguen las condiciones de operación de lo que trabajadores y usuarios pueden observar.",
+      "relationTokens": 49,
+      "fichaTokens": 131,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-ado.json"
+    }
+  ]
+}

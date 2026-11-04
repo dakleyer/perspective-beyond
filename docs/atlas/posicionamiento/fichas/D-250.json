@@ -1,0 +1,141 @@
+{
+  "id": "D-250",
+  "type": "ficha",
+  "title": "Una inversa escrita no puede reconstruir la información que falta",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-250",
+  "documentId": "doc-196118ec9d4d3ee010",
+  "sourceIds": [],
+  "tagWeights": {
+    "aprendizaje": 0.8182,
+    "matematicas": 0.1818
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Una inversa escrita no puede reconstruir la información que falta\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Qué significa llamar inversa a una operación si el sistema no conserva la información necesaria para ejecutarla?\nREFLEXIÓN DEL DIÁLOGO (voz atribuida mediante documento o contexto, distinta de transcripción literal salvo citas señaladas) — Iván distinguió una inversa que puede enunciarse sintácticamente de una inversa que se puede construir con los datos realmente disponibles. Si una operación descompone un estado uno→muchos, escribir el símbolo inverso no recupera por arte de notación las distinciones que hicieron posible la salida. Sin información adicional, sostiene en la conversación, lo practicable puede ser una recuperación gradual de grados n→n−1→… en vez de una reconstrucción completa del antecedente.\n\nTambién separó esa dificultad de una correlación uno↔uno: que dos estados estén emparejados o puedan compararse no prueba que exista una transformación de vuelta capaz de regenerar una estructura más rica. Lo provocador es exigir una cuenta explícita de la información conservada, perdida o accesible. La flecha sobre el papel no puede pagar esa cuenta.\n\nEl alcance matemático depende de cómo se defina cada operación y qué información auxiliar se conserva. Hay funciones invertibles y transformaciones reversibles bajo hipótesis precisas; no se afirma una imposibilidad general. Esta conversación importa porque enseña un hábito de pensamiento: en vez de tomar un símbolo de dirección como capacidad física, preguntar por el procedimiento, la información y el coste real de recorrerla.\nEtiquetas: Aprendizaje y transmisión de capacidades 81.82%; Matemáticas 18.18%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-250\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-250.html\n\n",
+  "tokens": 408,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-250:dg-math",
+      "to": "dg-math",
+      "title": "Pensamiento matemático",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 177,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-math.json"
+    },
+    {
+      "id": "apoyo:D-250:dg-doubt",
+      "to": "dg-doubt",
+      "title": "Duda, pruebas y conocimiento corregible",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 258,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-doubt.json"
+    },
+    {
+      "id": "apoyo:D-250:dg-formalization_event",
+      "to": "dg-formalization_event",
+      "title": "La frontera entre mundo y registro",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 137,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-formalization_event.json"
+    },
+    {
+      "id": "apoyo:D-250:dg-reversibility",
+      "to": "dg-reversibility",
+      "title": "Información disponible e inversión constructible",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 75,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-reversibility.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-250-D-094",
+      "to": "D-094",
+      "title": "Gödel, máquinas de Turing y la pregunta de qué queda fuera",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Una inversa escrita no puede reconstruir la información que falta» con «Gödel, máquinas de Turing y la pregunta de qué queda fuera». Permite contrastar Pensamiento matemático, Duda, pruebas y conocimiento corregible.",
+      "relationTokens": 86,
+      "fichaTokens": 338,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-094.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-250-D-095",
+      "to": "D-095",
+      "title": "Capacidad informacional, complejidad y exergía",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Una inversa escrita no puede reconstruir la información que falta» con «Capacidad informacional, complejidad y exergía». Permite contrastar Pensamiento matemático.",
+      "relationTokens": 73,
+      "fichaTokens": 350,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-095.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-250-D-183",
+      "to": "D-183",
+      "title": "La esfera mágica: contar el último elemento también cuesta",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Una inversa escrita no puede reconstruir la información que falta» con «La esfera mágica: contar el último elemento también cuesta». Permite contrastar Pensamiento matemático, Duda, pruebas y conocimiento corregible.",
+      "relationTokens": 80,
+      "fichaTokens": 350,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-183.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-250-D-219",
+      "to": "D-219",
+      "title": "Perder información no es lo mismo que no poder decidir",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Una inversa escrita no puede reconstruir la información que falta» con «Perder información no es lo mismo que no poder decidir». Permite contrastar Pensamiento matemático, Duda, pruebas y conocimiento corregible, La frontera entre mundo y registro.",
+      "relationTokens": 87,
+      "fichaTokens": 482,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-219.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-293-D-250",
+      "to": "D-293",
+      "title": "El cómputo masivo intenta comprar volumen donde falta estructura",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «El cómputo masivo intenta comprar volumen donde falta estructura» con «Una inversa escrita no puede reconstruir la información que falta». Permite contrastar Pensamiento matemático.",
+      "relationTokens": 75,
+      "fichaTokens": 390,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-293.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-217-D-250",
+      "to": "D-217",
+      "title": "Un JSON correcto puede describir una vaca que no estaba allí",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar La frontera entre mundo y registro, Pensamiento matemático, Duda, pruebas y conocimiento corregible desde las situaciones que describe cada texto.",
+      "relationTokens": 66,
+      "fichaTokens": 438,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-217.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-250-D-266",
+      "to": "D-266",
+      "title": "¿Y si el punto de partida fuera lo no definible?",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar La frontera entre mundo y registro, Pensamiento matemático, Duda, pruebas y conocimiento corregible desde las situaciones que describe cada texto.",
+      "relationTokens": 66,
+      "fichaTokens": 406,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-266.json"
+    }
+  ]
+}

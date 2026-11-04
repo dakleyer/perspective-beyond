@@ -1,0 +1,125 @@
+{
+  "id": "C100",
+  "type": "concepto",
+  "title": "Migración y capitalización de capacidad",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/capability-migration-and-value-capture/",
+  "documentId": null,
+  "sourceIds": [
+    "E1662",
+    "U1496",
+    "T1472",
+    "T1475",
+    "U1792"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.0134,
+    "autoridad": 0.0133,
+    "capacidad-humana": 0.088,
+    "casos": 0.0601,
+    "control-minimo": 0.05,
+    "decision": 0.0627,
+    "economia": 0.1514,
+    "empresa": 0.0868,
+    "evidencia": 0.2668,
+    "memoria-territorio": 0.1501,
+    "transformacion": 0.0574
+  },
+  "clusters": [
+    "eu",
+    "tegrity",
+    "us"
+  ],
+  "context": "## Migración y capitalización de capacidad\nCapability creation, carriers, operation and value capture can occur in different places.\nEtiquetas: Aprendizaje y transmisión de capacidades 1.34%; Autoridad, permisos y delegación 1.33%; Capacidad humana y deuda de inteligencia 8.80%; Casos de uso y aplicaciones 6.01%; Control mínimo y suficiencia 5.00%; Decisiones y responsabilidad 6.27%; Economía, costes y liquidez 15.14%; Empresa y gestión 8.68%; Evidencia, procedencia y atribución 26.68%; Memoria, comunidad y territorio 15.01%; Transformación y continuidad operativa 5.74%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/capability-migration-and-value-capture/\n\n",
+  "tokens": 173,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:E1662:C100",
+      "to": "E1662",
+      "title": "THE DIAMOND INSIDE FRAMEWORK",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 100,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1662.json"
+    },
+    {
+      "id": "apoyo:U1496:C100",
+      "to": "U1496",
+      "title": "Field Intelligence in Chicontepec and the Texas–Mérida Corridor",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 151,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1496.json"
+    },
+    {
+      "id": "apoyo:T1472:C100",
+      "to": "T1472",
+      "title": "The Attribution Gap and Capability Loss",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 156,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1472.json"
+    },
+    {
+      "id": "apoyo:T1475:C100",
+      "to": "T1475",
+      "title": "Attribution Gap Measurement Protocol",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 132,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1475.json"
+    },
+    {
+      "id": "apoyo:U1792:C100",
+      "to": "U1792",
+      "title": "Surviving Capability: Why the Field Celebrates What the Theory Condemns",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 31,
+      "fichaTokens": 158,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1792.json"
+    },
+    {
+      "id": "concepto:A015",
+      "to": "C70",
+      "title": "Atribución organizativa",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "The corridor invites a bounded attribution study of where a capability is created, maintained and capitalized, rather than inferring its value from the location that books the revenue.",
+      "relationTokens": 50,
+      "fichaTokens": 186,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C70.json"
+    },
+    {
+      "id": "concepto:A016",
+      "to": "C69",
+      "title": "Evidencia de contribución",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "A cross-border follow-up should establish whether the same capability was retained, transferred, duplicated or lost before applying an attribution-gap explanation.",
+      "relationTokens": 43,
+      "fichaTokens": 289,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C69.json"
+    },
+    {
+      "id": "concepto:A034",
+      "to": "C54",
+      "title": "Valor descubierto",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "The survivor lens sharpens value discovery: identify the useful capability and its carriers before deciding which legacy form should remain, change or disappear.",
+      "relationTokens": 41,
+      "fichaTokens": 259,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C54.json"
+    }
+  ]
+}

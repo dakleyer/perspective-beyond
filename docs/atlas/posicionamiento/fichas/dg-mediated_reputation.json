@@ -1,0 +1,70 @@
+{
+  "id": "dg-mediated_reputation",
+  "type": "concepto",
+  "title": "Mediación multilateral y reputación",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-mediated_reputation",
+  "documentId": null,
+  "sourceIds": [
+    "D-284"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.1667,
+    "autoridad": 0.1667,
+    "decision": 0.1667,
+    "empresa": 0.1667,
+    "geopolitica": 0.1666,
+    "transformacion": 0.1666
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Mediación multilateral y reputación\nUna intervención que traduce expectativas de varios actores puede abrir contratos y comprometer la reputación del mediador.\nEtiquetas: Aprendizaje y transmisión de capacidades 16.67%; Autoridad, permisos y delegación 16.67%; Decisiones y responsabilidad 16.67%; Empresa y gestión 16.67%; Geopolítica y fronteras 16.66%; Transformación y continuidad operativa 16.66%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-mediated_reputation\n\n",
+  "tokens": 122,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-284:dg-mediated_reputation",
+      "to": "D-284",
+      "title": "El agente triple: mediar sin perder la propia palabra",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 432,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-284.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-290",
+      "to": "dg-trust",
+      "title": "Confianza y equipos",
+      "direction": "saliente",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "Reputación como infraestructura de confianza.",
+      "relationTokens": 30,
+      "fichaTokens": 186,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-trust.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-291",
+      "to": "dg-governance",
+      "title": "Gobernanza y legitimidad",
+      "direction": "saliente",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "Intermediación frente a varios mandatos.",
+      "relationTokens": 32,
+      "fichaTokens": 254,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-governance.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-292",
+      "to": "dg-transform",
+      "title": "Transformación organizativa",
+      "direction": "saliente",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "Cambiar proveedores implica cambiar relaciones.",
+      "relationTokens": 29,
+      "fichaTokens": 213,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-transform.json"
+    }
+  ]
+}

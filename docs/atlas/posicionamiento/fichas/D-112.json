@@ -1,0 +1,133 @@
+{
+  "id": "D-112",
+  "type": "ficha",
+  "title": "La IA no es el maestro que juzga el oficio",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-112",
+  "documentId": "doc-fff906045907bf5311",
+  "sourceIds": [],
+  "tagWeights": {
+    "aprendizaje": 0.1429,
+    "autoridad": 0.2857,
+    "capacidad-humana": 0.1429,
+    "decision": 0.1428,
+    "memoria-territorio": 0.2857
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## La IA no es el maestro que juzga el oficio\nINTERLOCUTOR (pregunta editorial) — ¿Cómo introducir IA en una comunidad de práctica sin sustituir la autoridad de quien conoce el oficio?\nLECTURA DEL DIÁLOGO (síntesis editorial) — En la hipótesis de Formación Integral 3.0, el maestro no desaparece para que una IA imite sus respuestas. Iván imagina una situación en la que el experto enseña simultáneamente a un aprendiz humano y a un sistema asistente, corrigiendo a ambos durante la ejecución real del oficio. El humano sigue siendo quien practica, juzga y demuestra competencia; la máquina ayuda a conservar detalles, preguntar y transportar parte del contexto, sin adjudicarse la autoridad del maestro. Lo «integral» no quiere decir sumar cursos o digitalizar manuales, sino transmitir capacidad situada, conocimiento tácito y juicio en condiciones reales. El cambio de dirección es importante: Formación Integral 1.0 maestro→aprendiz; 2.0 mundo→comunidad; 3.0 comunidad→mundo mediante IA, con autoría, permisos y control en manos de los portadores.\nEtiquetas: Aprendizaje y transmisión de capacidades 14.29%; Autoridad, permisos y delegación 28.57%; Capacidad humana y deuda de inteligencia 14.29%; Decisiones y responsabilidad 14.28%; Memoria, comunidad y territorio 28.57%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-112\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-112.html\n\n",
+  "tokens": 350,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-112:dg-learning",
+      "to": "dg-learning",
+      "title": "Aprendizaje autodirigido",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 200,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-learning.json"
+    },
+    {
+      "id": "apoyo:D-112:dg-tacit",
+      "to": "dg-tacit",
+      "title": "Conocimiento tácito",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 166,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-tacit.json"
+    },
+    {
+      "id": "apoyo:D-112:dg-care",
+      "to": "dg-care",
+      "title": "Responsabilidad humana",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 208,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-care.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-208-D-112",
+      "to": "D-208",
+      "title": "Una IA de bolsillo no debería convertirse en otro jefe",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Una IA de bolsillo no debería convertirse en otro jefe» con «La IA no es el maestro que juzga el oficio». Permite contrastar Aprendizaje autodirigido.",
+      "relationTokens": 70,
+      "fichaTokens": 413,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-208.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-243-D-112",
+      "to": "D-243",
+      "title": "El supervisor humano no es barato porque solo revise dos casillas",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «El supervisor humano no es barato porque solo revise dos casillas» con «La IA no es el maestro que juzga el oficio».",
+      "relationTokens": 62,
+      "fichaTokens": 442,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-243.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-253-D-112",
+      "to": "D-253",
+      "title": "Custodiar un saber no es encerrarlo: hay que poder volver a hacerlo",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Custodiar un saber no es encerrarlo: hay que poder volver a hacerlo» con «La IA no es el maestro que juzga el oficio». Permite contrastar Conocimiento tácito.",
+      "relationTokens": 79,
+      "fichaTokens": 432,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-253.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-280-D-112",
+      "to": "D-280",
+      "title": "El investigador también ocupa el lugar del oráculo",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «El investigador también ocupa el lugar del oráculo» con «La IA no es el maestro que juzga el oficio».",
+      "relationTokens": 56,
+      "fichaTokens": 411,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-280.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-021-D-112",
+      "to": "D-021",
+      "title": "Alejandro: encontrar capacidades invisibles",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Conocimiento tácito, Aprendizaje autodirigido desde las situaciones que describe cada texto.",
+      "relationTokens": 51,
+      "fichaTokens": 488,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-021.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-112-D-134",
+      "to": "D-134",
+      "title": "Una habilidad también es un bien, aunque nadie la compre",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Conocimiento tácito, Responsabilidad humana desde las situaciones que describe cada texto.",
+      "relationTokens": 51,
+      "fichaTokens": 327,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-134.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-112-D-121",
+      "to": "D-121",
+      "title": "La deuda de inteligencia humana",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Aprendizaje autodirigido, Responsabilidad humana desde las situaciones que describe cada texto.",
+      "relationTokens": 48,
+      "fichaTokens": 348,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-121.json"
+    }
+  ]
+}

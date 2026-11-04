@@ -1,0 +1,123 @@
+{
+  "id": "C59",
+  "type": "concepto",
+  "title": "Explicación trazable",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/traceable-explanation/",
+  "documentId": null,
+  "sourceIds": [
+    "N2086",
+    "N864",
+    "T385",
+    "T1391",
+    "GH056"
+  ],
+  "tagWeights": {
+    "autoridad": 0.0808,
+    "cartografia": 0.1569,
+    "control-minimo": 0.0667,
+    "decision": 0.0808,
+    "documentacion": 0.08,
+    "evidencia": 0.2241,
+    "integridad-ia": 0.1429,
+    "movilidad": 0.0909,
+    "transformacion": 0.0769
+  },
+  "clusters": [
+    "net",
+    "research",
+    "tegrity"
+  ],
+  "context": "## Explicación trazable\nReconstruct why a recommendation or decision was produced.\nEtiquetas: Autoridad, permisos y delegación 8.08%; Cartografía y señales de ecosistema 15.69%; Control mínimo y suficiencia 6.67%; Decisiones y responsabilidad 8.08%; Investigación y documentación técnica 8.00%; Evidencia, procedencia y atribución 22.41%; Integridad y seguridad de IA 14.29%; Movilidad e infraestructura 9.09%; Transformación y continuidad operativa 7.69%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/traceable-explanation/\n\n",
+  "tokens": 138,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:N2086:C59",
+      "to": "N2086",
+      "title": "From Frontier Engineering to Ecosystem Awareness — Twenty Years of Architectural Continuity",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 117,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N2086.json"
+    },
+    {
+      "id": "apoyo:N864:C59",
+      "to": "N864",
+      "title": "GEPLAN – Mission-Critical Logistics Intelligence for PEMEX (2006-)",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 124,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N864.json"
+    },
+    {
+      "id": "apoyo:T385:C59",
+      "to": "T385",
+      "title": "AI Integrity Architecture: Toward Expert-System Envelopes Around Statistical AI",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 110,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T385.json"
+    },
+    {
+      "id": "apoyo:T1391:C59",
+      "to": "T1391",
+      "title": "The Limits of AI Oversight",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 101,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1391.json"
+    },
+    {
+      "id": "apoyo:GH056:C59",
+      "to": "GH056",
+      "title": "ECOSYSTEM AWARENESS — DEEP CONCEPTUAL LINEAGE AND DERIVATION MAP — v0.1",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 37,
+      "fichaTokens": 181,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH056.json"
+    },
+    {
+      "id": "concepto:D035",
+      "to": "C26",
+      "title": "Autoridad de decisión",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "The GEPLAN interface illustrates why human authority needs usable decision context, not merely a confirmation button.",
+      "relationTokens": 33,
+      "fichaTokens": 262,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C26.json"
+    },
+    {
+      "id": "concepto:F017",
+      "to": "C86",
+      "title": "Núcleo común con evidencia cualificada",
+      "direction": "saliente",
+      "kind": "documented use",
+      "reading": "A perfectly traceable rule chain cannot recover a decision-relevant distinction that input formation has already removed.",
+      "relationTokens": 37,
+      "fichaTokens": 214,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C86.json"
+    },
+    {
+      "id": "concepto:G056",
+      "to": "C12",
+      "title": "Procedencia auditable",
+      "direction": "entrante",
+      "kind": "documented use",
+      "reading": "The conceptual lineage map can make the transition from field mechanism to research question inspectable without turning continuity into independent validation.",
+      "relationTokens": 37,
+      "fichaTokens": 276,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C12.json"
+    }
+  ]
+}

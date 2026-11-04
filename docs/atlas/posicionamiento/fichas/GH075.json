@@ -1,0 +1,52 @@
+{
+  "id": "GH075",
+  "type": "ficha",
+  "title": "G-06 — Trazabilidad de las fuentes de Conscientia / ACC",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/g-06-trazabilidad-de-las-fuentes-de-conscientia-acc-gh075/",
+  "documentId": "doc-45a75065eb15372bc5",
+  "sourceIds": [],
+  "tagWeights": {
+    "evidencia": 1.0
+  },
+  "clusters": [
+    "research"
+  ],
+  "context": "## G-06 — Trazabilidad de las fuentes de Conscientia / ACC\n\nEtiquetas: Evidencia, procedencia y atribución 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/g-06-trazabilidad-de-las-fuentes-de-conscientia-acc-gh075/\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/9dc00e6d92d92f084198e9abc40daaa753747615/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1/G06_SOURCE_PROVENANCE_AUDIT.md\n\n",
+  "tokens": 156,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH075:C12",
+      "to": "C12",
+      "title": "Procedencia auditable",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 276,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C12.json"
+    },
+    {
+      "id": "apoyo:GH075:C69",
+      "to": "C69",
+      "title": "Evidencia de contribución",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 289,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C69.json"
+    },
+    {
+      "id": "documento:G091",
+      "to": "N1876",
+      "title": "xSeil 2016 to 2018 Provenance Delivery and Code Evidence",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "A source reference, a computational use and an attested review are different evidence states; each historical claim should name what was actually observed.",
+      "relationTokens": 64,
+      "fichaTokens": 111,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1876.json"
+    }
+  ]
+}

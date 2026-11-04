@@ -1,0 +1,65 @@
+{
+  "id": "dg-attention_ecology",
+  "type": "concepto",
+  "title": "Ecología del fondo y el foco",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-attention_ecology",
+  "documentId": null,
+  "sourceIds": [
+    "D-238"
+  ],
+  "tagWeights": {
+    "aprendizaje": 1.0
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Ecología del fondo y el foco\nAtención profunda requiere tiempo, trabajo de fondo y reconstrucción de contexto; accesibilidad no equivale a capacidad.\nEtiquetas: Aprendizaje y transmisión de capacidades 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-attention_ecology\n\n",
+  "tokens": 73,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-238:dg-attention_ecology",
+      "to": "D-238",
+      "title": "El background importa tanto como el foco",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 402,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-238.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-182",
+      "to": "dg-inner",
+      "title": "Atención y sentido",
+      "direction": "saliente",
+      "kind": "conecta contexto y atención",
+      "reading": "El fondo sostiene parte del foco.",
+      "relationTokens": 24,
+      "fichaTokens": 181,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-inner.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-183",
+      "to": "dg-learning",
+      "title": "Aprendizaje autodirigido",
+      "direction": "saliente",
+      "kind": "contabiliza reconstrucción",
+      "reading": "Interrupciones pueden exigir rehacer relaciones.",
+      "relationTokens": 30,
+      "fichaTokens": 200,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-learning.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-184",
+      "to": "dg-transform",
+      "title": "Transformación organizativa",
+      "direction": "saliente",
+      "kind": "expone extracción de expertos",
+      "reading": "Disponibilidad constante reduce oportunidad de crear.",
+      "relationTokens": 27,
+      "fichaTokens": 213,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-transform.json"
+    }
+  ]
+}

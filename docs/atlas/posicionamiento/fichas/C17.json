@@ -1,0 +1,113 @@
+{
+  "id": "C17",
+  "type": "concepto",
+  "title": "Horizontes de memoria",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/memory-horizons/",
+  "documentId": null,
+  "sourceIds": [
+    "GH051",
+    "N1833",
+    "E1563",
+    "N1831"
+  ],
+  "tagWeights": {
+    "autoridad": 0.0625,
+    "cambio-regimen": 0.0156,
+    "cartografia": 0.0625,
+    "casos": 0.0385,
+    "control-minimo": 0.0577,
+    "decision": 0.101,
+    "documentacion": 0.101,
+    "evidencia": 0.1634,
+    "memoria-territorio": 0.2572,
+    "perspectiva": 0.0781,
+    "representacion": 0.0625
+  },
+  "clusters": [
+    "eu",
+    "net",
+    "research"
+  ],
+  "context": "## Horizontes de memoria\nUse different time windows for local episodes, persistent patterns and regime shifts.\nEtiquetas: Autoridad, permisos y delegación 6.25%; Cambios de régimen y alerta temprana 1.56%; Cartografía y señales de ecosistema 6.25%; Casos de uso y aplicaciones 3.85%; Control mínimo y suficiencia 5.77%; Decisiones y responsabilidad 10.10%; Investigación y documentación técnica 10.10%; Evidencia, procedencia y atribución 16.34%; Memoria, comunidad y territorio 25.72%; Cambio de perspectiva 7.81%; Representación y límites formales 6.25%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/memory-horizons/\n\n",
+  "tokens": 165,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH051:C17",
+      "to": "GH051",
+      "title": "Ecosystem Awareness III — Semantic Window and Good Enough Early Warning",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 189,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH051.json"
+    },
+    {
+      "id": "apoyo:N1833:C17",
+      "to": "N1833",
+      "title": "Phylons dynamic combinations",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 117,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1833.json"
+    },
+    {
+      "id": "apoyo:E1563:C17",
+      "to": "E1563",
+      "title": "Event Intelligence",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 15,
+      "fichaTokens": 92,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1563.json"
+    },
+    {
+      "id": "apoyo:N1831:C17",
+      "to": "N1831",
+      "title": "Phylons predictive factors cascade",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 85,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1831.json"
+    },
+    {
+      "id": "concepto:D012",
+      "to": "C18",
+      "title": "Señales de demanda",
+      "direction": "saliente",
+      "kind": "hypothesis",
+      "reading": "Multiple memory horizons could help distinguish an event-specific reaction from a durable client preference.",
+      "relationTokens": 29,
+      "fichaTokens": 178,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C18.json"
+    },
+    {
+      "id": "concepto:G051",
+      "to": "C72",
+      "title": "Ventana de respuesta",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "The later semantic-window account reframes historical factor selection around the protected outcome and useful response horizon, rather than maximum retained history.",
+      "relationTokens": 39,
+      "fichaTokens": 194,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C72.json"
+    },
+    {
+      "id": "concepto:B518",
+      "to": "G28",
+      "title": "Phylons y reconstrucción temporal",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 104,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G28.json"
+    }
+  ]
+}

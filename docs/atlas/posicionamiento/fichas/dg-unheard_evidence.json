@@ -1,0 +1,87 @@
+{
+  "id": "dg-unheard_evidence",
+  "type": "concepto",
+  "title": "La respuesta ya pronunciada pero no escuchada",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-unheard_evidence",
+  "documentId": null,
+  "sourceIds": [
+    "D-271"
+  ],
+  "tagWeights": {
+    "decision": 1.0
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## La respuesta ya pronunciada pero no escuchada\nUna hipótesis puede circular en la organización y permanecer desatendida por sus roles, tensiones y prioridades.\nEtiquetas: Decisiones y responsabilidad 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-unheard_evidence\n\n",
+  "tokens": 71,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-271:dg-unheard_evidence",
+      "to": "D-271",
+      "title": "La solución pudo decirse muchas veces y seguir siendo inaudible",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 379,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-271.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-264",
+      "to": "dg-operations",
+      "title": "Operación real",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.11",
+      "reading": "La operación pudo advertir el problema.",
+      "relationTokens": 31,
+      "fichaTokens": 196,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-operations.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-265",
+      "to": "dg-observe",
+      "title": "Mirar lo que falta",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.11",
+      "reading": "Buscar evidencia en la escucha.",
+      "relationTokens": 31,
+      "fichaTokens": 189,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-observe.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-266",
+      "to": "dg-epistemic_silence",
+      "title": "Exclusión por omisión de interlocución",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.11",
+      "reading": "Las ideas pueden quedar sin interlocutor.",
+      "relationTokens": 36,
+      "fichaTokens": 98,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-epistemic_silence.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-267",
+      "to": "dg-trust",
+      "title": "Confianza y equipos",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.11",
+      "reading": "Poder proponer sin temor.",
+      "relationTokens": 30,
+      "fichaTokens": 186,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-trust.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-268",
+      "to": "dg-evidence_recognition",
+      "title": "Valor del trabajo y pruebas de capacidad",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.11",
+      "reading": "Contrastar antes de elevar la propuesta.",
+      "relationTokens": 35,
+      "fichaTokens": 126,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-evidence_recognition.json"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "L009",
+  "type": "ficha",
+  "title": "¿Quién controla a quién? Cuando los agentes de inteligencia artificial comenzaron a actuar por su cuenta",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/quien-controla-a-quien-cuando-los-agentes-de-inteligencia-artificial-comenzaro-l009/",
+  "documentId": "doc-278c55b64142d63c80",
+  "sourceIds": [],
+  "tagWeights": {
+    "agentes": 0.3846,
+    "autoridad": 0.1539,
+    "decision": 0.1539,
+    "evidencia": 0.1538,
+    "integridad-ia": 0.1538
+  },
+  "clusters": [
+    "latinoempresa"
+  ],
+  "context": "## ¿Quién controla a quién? Cuando los agentes de inteligencia artificial comenzaron a actuar por su cuenta\n\nEtiquetas: Agentes y coordinación distribuida 38.46%; Autoridad, permisos y delegación 15.39%; Decisiones y responsabilidad 15.39%; Evidencia, procedencia y atribución 15.38%; Integridad y seguridad de IA 15.38%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/quien-controla-a-quien-cuando-los-agentes-de-inteligencia-artificial-comenzaro-l009/\nDocumento de origen: https://www.latinoempresa.com/post/quién-controla-a-quién-cuando-los-agentes-de-inteligencia-artificial-comenzaron-a-actuar-por-su\n\n",
+  "tokens": 159,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:L009:C26",
+      "to": "C26",
+      "title": "Autoridad de decisión",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 262,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C26.json"
+    },
+    {
+      "id": "apoyo:L009:C29",
+      "to": "C29",
+      "title": "Propuesta y compromiso",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 244,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C29.json"
+    },
+    {
+      "id": "apoyo:L009:C45",
+      "to": "C45",
+      "title": "Fallo de composición",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 240,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C45.json"
+    },
+    {
+      "id": "apoyo:L009:C69",
+      "to": "C69",
+      "title": "Evidencia de contribución",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 31,
+      "fichaTokens": 289,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C69.json"
+    },
+    {
+      "id": "apoyo:L009:C81",
+      "to": "C81",
+      "title": "Frontera de integridad operacional",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 33,
+      "fichaTokens": 228,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C81.json"
+    },
+    {
+      "id": "documento:B038",
+      "to": "T2795",
+      "title": "Annex 4 — Canonical Requirements and Test Contract",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "A peer agent’s assertion of permission should be tested against the actual authority boundary and action contract, not treated as authorization in itself.",
+      "relationTokens": 59,
+      "fichaTokens": 162,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2795.json"
+    },
+    {
+      "id": "documento:B039",
+      "to": "T2776",
+      "title": "When the Controls Work but the System Fails",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "The case raises a composition question: locally plausible actions can still require a system-level check of relationships, authority and changed context.",
+      "relationTokens": 57,
+      "fichaTokens": 87,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2776.json"
+    },
+    {
+      "id": "documento:B048",
+      "to": "T2818",
+      "title": "Annex 10 — Collaboration Guide",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "A public incident account can motivate a collaboration challenge, provided the technical question is rebuilt from primary evidence and evaluated against a stated baseline.",
+      "relationTokens": 56,
+      "fichaTokens": 107,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2818.json"
+    }
+  ]
+}

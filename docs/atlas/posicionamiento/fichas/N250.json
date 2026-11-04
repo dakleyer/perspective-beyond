@@ -1,0 +1,42 @@
+{
+  "id": "N250",
+  "type": "ficha",
+  "title": "Case Studies",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/case-studies-n250/",
+  "documentId": "doc-cd74cd72646e57c145",
+  "sourceIds": [],
+  "tagWeights": {
+    "casos": 0.5,
+    "navegacion": 0.5
+  },
+  "clusters": [
+    "net"
+  ],
+  "context": "## Case Studies\n\nEtiquetas: Casos de uso y aplicaciones 50.00%; Índices, contacto y políticas 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-studies-n250/\nDocumento de origen: https://jubap.net/case-studies/\n\n",
+  "tokens": 66,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "documento:R158",
+      "to": "E1777",
+      "title": "Research Portfolio",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The frontier-engineering case trajectory](https://jubap.net/case-studies/).",
+      "relationTokens": 34,
+      "fichaTokens": 55,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1777.json"
+    },
+    {
+      "id": "navigation:position-nav-N2-N250",
+      "to": "N2",
+      "title": "JubAp.Net",
+      "direction": "entrante",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «JubAp.Net», el enlace «Explore our Case Studies» abre «Case Studies».",
+      "relationTokens": 46,
+      "fichaTokens": 126,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N2.json"
+    }
+  ]
+}

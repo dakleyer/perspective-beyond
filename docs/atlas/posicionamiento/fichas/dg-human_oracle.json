@@ -1,0 +1,101 @@
+{
+  "id": "dg-human_oracle",
+  "type": "concepto",
+  "title": "Trabajo humano de delimitar el problema",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-human_oracle",
+  "documentId": null,
+  "sourceIds": [
+    "D-280",
+    "D-281"
+  ],
+  "tagWeights": {
+    "autoridad": 0.5,
+    "experimentacion": 0.3572,
+    "matematicas": 0.1428
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Trabajo humano de delimitar el problema\nQuien investiga selecciona objetos, axiomas, entradas y marcos semánticos.\nEtiquetas: Autoridad, permisos y delegación 50.00%; Experimentación, falsación y contraejemplos 35.72%; Matemáticas 14.28%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-human_oracle\n\n",
+  "tokens": 90,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-280:dg-human_oracle",
+      "to": "D-280",
+      "title": "El investigador también ocupa el lugar del oráculo",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 411,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-280.json"
+    },
+    {
+      "id": "apoyo:D-281:dg-human_oracle",
+      "to": "D-281",
+      "title": "Antes de cerrar un universo, alguien debe decidir qué entra en él",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 407,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-281.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-279",
+      "to": "dg-validity_boundary",
+      "title": "Límite entre entrada, pertenencia y respuesta",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.11",
+      "reading": "Alguien elige casos y semántica.",
+      "relationTokens": 39,
+      "fichaTokens": 87,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-validity_boundary.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-280",
+      "to": "dg-meta_discrimination",
+      "title": "Carga de validar sistemas y sus entradas",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.11",
+      "reading": "El alcance también se valida.",
+      "relationTokens": 32,
+      "fichaTokens": 137,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-meta_discrimination.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-281",
+      "to": "dg-research_dialogue",
+      "title": "Diálogo de investigación y prueba acotada",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.11",
+      "reading": "El investigador como crítico.",
+      "relationTokens": 32,
+      "fichaTokens": 150,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-research_dialogue.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-282",
+      "to": "dg-governance",
+      "title": "Gobernanza y legitimidad",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.11",
+      "reading": "La selección del marco conlleva responsabilidad.",
+      "relationTokens": 32,
+      "fichaTokens": 254,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-governance.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-283",
+      "to": "dg-doubt",
+      "title": "Duda, pruebas y conocimiento corregible",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.11",
+      "reading": "Se puede elegir mal el perímetro.",
+      "relationTokens": 34,
+      "fichaTokens": 258,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-doubt.json"
+    }
+  ]
+}

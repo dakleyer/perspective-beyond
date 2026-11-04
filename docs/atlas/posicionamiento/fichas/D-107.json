@@ -1,0 +1,110 @@
+{
+  "id": "D-107",
+  "type": "ficha",
+  "title": "Pensar la neutralidad como una opción estratégica",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-107",
+  "documentId": "doc-84e1b3f8901c219b8d",
+  "sourceIds": [],
+  "tagWeights": {
+    "casos": 0.2,
+    "decision": 0.2,
+    "economia": 0.4,
+    "geopolitica": 0.2
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Pensar la neutralidad como una opción estratégica\nINTERLOCUTOR (pregunta editorial) — ¿Puede elegirse un lugar no solo por su economía, sino por la libertad de moverse entre bloques políticos?\nLECTURA DEL DIÁLOGO (síntesis editorial) — En una conversación práctica sobre países donde vivir o investigar, Iván evaluó distintas posiciones de neutralidad, orientación internacional, acceso a instituciones y protección de la actividad científica. El interés de la ficha es el método de elección: un país no es una casilla abstracta en un ranking, sino un conjunto cambiante de permisos, redes, riesgos, idioma, familia y posibilidades de trabajo. Se consideraron alternativas latinoamericanas, caucásicas y asiáticas; ninguna debe presentarse como una decisión definitiva o como diagnóstico actual de seguridad. La dimensión geopolítica entra así en una biografía que es también una arquitectura de opciones personales: preservar movilidad puede tener un valor mayor que maximizar un indicador económico aislado.\nEtiquetas: Casos de uso y aplicaciones 20.00%; Decisiones y responsabilidad 20.00%; Economía, costes y liquidez 40.00%; Geopolítica y fronteras 20.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-107\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-107.html\n\n",
+  "tokens": 298,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-107:dg-options",
+      "to": "dg-options",
+      "title": "Libertad y opciones",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 192,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-options.json"
+    },
+    {
+      "id": "apoyo:D-107:dg-decision",
+      "to": "dg-decision",
+      "title": "Decisiones entre escenarios",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 169,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-decision.json"
+    },
+    {
+      "id": "apoyo:D-107:dg-geopolitics",
+      "to": "dg-geopolitics",
+      "title": "Geopolítica vivida",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 138,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-geopolitics.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-212-D-107",
+      "to": "D-212",
+      "title": "La coacción puede esconderse en el crédito o explotar en la supervivencia",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «La coacción puede esconderse en el crédito o explotar en la supervivencia» con «Pensar la neutralidad como una opción estratégica». Permite contrastar Geopolítica vivida.",
+      "relationTokens": 76,
+      "fichaTokens": 410,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-212.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-005-D-107",
+      "to": "D-005",
+      "title": "Escasez, crecimiento y libertad real",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Libertad y opciones desde las situaciones que describe cada texto.",
+      "relationTokens": 47,
+      "fichaTokens": 442,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-005.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-033-D-107",
+      "to": "D-033",
+      "title": "Entrar en Bosnia sin un plan",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Geopolítica vivida, Libertad y opciones desde las situaciones que describe cada texto.",
+      "relationTokens": 47,
+      "fichaTokens": 565,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-033.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-037-D-107",
+      "to": "D-037",
+      "title": "Miedo, valentía y búsqueda",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Geopolítica vivida, Libertad y opciones desde las situaciones que describe cada texto.",
+      "relationTokens": 47,
+      "fichaTokens": 518,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-037.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-107-D-196",
+      "to": "D-196",
+      "title": "Rascarse la espalda también puede entrar en el mercado",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Libertad y opciones desde las situaciones que describe cada texto.",
+      "relationTokens": 50,
+      "fichaTokens": 392,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-196.json"
+    }
+  ]
+}

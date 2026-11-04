@@ -1,0 +1,221 @@
+{
+  "id": "sac-baa3d045ed948a",
+  "type": "ficha",
+  "title": "Annex 00F-A02 — AWS IoT TwinMaker / IoT Core implementation profile for the smart-city mobility quality plan",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-baa3d045ed948a.html",
+  "documentId": "doc-ed33082042ed8ac318",
+  "sourceIds": [],
+  "tagWeights": {
+    "documentacion": 0.25,
+    "experimentacion": 0.05,
+    "integridad-ia": 0.2,
+    "movilidad": 0.25,
+    "transformacion": 0.25
+  },
+  "clusters": [
+    "research"
+  ],
+  "context": "## Annex 00F-A02 — AWS IoT TwinMaker / IoT Core implementation profile for the smart-city mobility quality plan\nContenido de la fuente: 1. The claim in one sentence · 2. Product and safety boundary · 3. Assessed reference architecture.\nEtiquetas: Investigación y documentación técnica 25.00%; Experimentación, falsación y contraejemplos 5.00%; Integridad y seguridad de IA 20.00%; Movilidad e infraestructura 25.00%; Transformación y continuidad operativa 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-baa3d045ed948a.html\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/64fa9f3d777c30860b92ffa7e4440ef4b7193ca8/research/ecosystem-awareness/baseline/00F_A02_AWS_IOT_TWINMAKER_CORE_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md\n\n",
+  "tokens": 225,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "documento:sac-rel-c02d602f8c21e2",
+      "to": "GH017",
+      "title": "Ecosystem Positioning",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «What problem this architecture addresses» con el rótulo «AWS IoT Core / IoT TwinMaker».",
+      "relationTokens": 123,
+      "fichaTokens": 261,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH017.json"
+    },
+    {
+      "id": "documento:sac-rel-a1f2df651f296c",
+      "to": "sac-e9c094fb344aaa",
+      "title": "Auditoría de conservación — 88 documentos enlazados desde Ecosystem Awareness",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Registro por archivo» con el rótulo «00F_A02_AWS_IOT_TWINMAKER_CORE_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md».",
+      "relationTokens": 161,
+      "fichaTokens": 174,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-e9c094fb344aaa.json"
+    },
+    {
+      "id": "documento:sac-rel-5560490f4f34df",
+      "to": "sac-e15a5ba3769d28",
+      "title": "Conservación de contenido — 82 documentos enlazados desde Ecosystem Positioning",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Revisión archivo por archivo» con el rótulo «00F_A02_AWS_IOT_TWINMAKER_CORE_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md».",
+      "relationTokens": 163,
+      "fichaTokens": 178,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-e15a5ba3769d28.json"
+    },
+    {
+      "id": "documento:sac-rel-4c9a3abaff1aa8",
+      "to": "sac-087bbc064c2db1",
+      "title": "DDS Stage A — VNext",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Where each annex leads» con el rótulo «00F_A02_AWS_IOT_TWINMAKER_CORE».",
+      "relationTokens": 138,
+      "fichaTokens": 218,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-087bbc064c2db1.json"
+    },
+    {
+      "id": "documento:sac-rel-3c33dbc6bae1eb",
+      "to": "sac-991dbae1df8f3a",
+      "title": "Ecosystem Awareness — entry-point router",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «00F in 30 seconds — The City That Stopped Safely» con el rótulo «00F-A02 AWS IoT TwinMaker / IoT Core».",
+      "relationTokens": 135,
+      "fichaTokens": 181,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-991dbae1df8f3a.json"
+    },
+    {
+      "id": "documento:sac-rel-6b93effb4910fc",
+      "to": "sac-71980a714b8b9b",
+      "title": "Reference scenarios — preserved reader route",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «00F in 30 seconds — The City That Stopped Safely» con el rótulo «00F-A02 AWS IoT TwinMaker / IoT Core».",
+      "relationTokens": 150,
+      "fichaTokens": 157,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-71980a714b8b9b.json"
+    },
+    {
+      "id": "documento:sac-rel-36299efc990c78",
+      "to": "sac-6d651c5752c6eb",
+      "title": "Canonical Architecture Benchmark and Reference-Scenario Evidence — Ecosystem Awareness",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «4.1 Current scenario/technology fixtures» con el rótulo «AWS IoT TwinMaker / IoT Core».",
+      "relationTokens": 159,
+      "fichaTokens": 244,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-6d651c5752c6eb.json"
+    },
+    {
+      "id": "documento:sac-rel-f5ee5cfbe67691",
+      "to": "GH042",
+      "title": "Smart-City Mobility Chaos",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Annex 00F-A02 — AWS IoT TwinMaker / IoT Core implementation profile for the smart-city mobility quality p» con el rótulo «00F smart-city mobility case and Q0–Q5 quality plan».",
+      "relationTokens": 165,
+      "fichaTokens": 204,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH042.json"
+    },
+    {
+      "id": "documento:sac-rel-330136f8700fe2",
+      "to": "GH025",
+      "title": "Canonical Requirements: S1–S14, Sufficiency Conditions, Hypotheses and KPIs",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «1. The claim in one sentence» con el rótulo «challenges, sufficiently-good conditions, hypotheses and KPIs».",
+      "relationTokens": 158,
+      "fichaTokens": 247,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH025.json"
+    },
+    {
+      "id": "documento:sac-rel-01ab71ce8d3645",
+      "to": "sac-81dd6d86597814",
+      "title": "Deployment Differential Study (DDS) — Canonical Method Index v0.1",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Annex 00F-A02 — AWS IoT TwinMaker / IoT Core implementation profile for the smart-city mobility quality p» con el rótulo «DDS Canonical Method Index».",
+      "relationTokens": 174,
+      "fichaTokens": 193,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-81dd6d86597814.json"
+    },
+    {
+      "id": "documento:sac-rel-dacf751e4d0d12",
+      "to": "sac-f777326c4ffcaf",
+      "title": "Deployment Differential Study (DDS) — Stage A: Specification Discovery / Challenge–Trajectory Profile v0.1",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Annex 00F-A02 — AWS IoT TwinMaker / IoT Core implementation profile for the smart-city mobility quality p» con el rótulo «Stage A challenge–trajectory contract».",
+      "relationTokens": 181,
+      "fichaTokens": 172,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-f777326c4ffcaf.json"
+    },
+    {
+      "id": "documento:sac-rel-34377635670c6f",
+      "to": "GH042",
+      "title": "Smart-City Mobility Chaos",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «9A.2 Relationship to the implementation profiles» con el rótulo «AWS IoT TwinMaker / IoT Core v0.2 Draft».",
+      "relationTokens": 157,
+      "fichaTokens": 204,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH042.json"
+    },
+    {
+      "id": "documento:sac-rel-556865284c73d1",
+      "to": "sac-61b5e17bf4ba4b",
+      "title": "00L-A01 — Inventario de afirmaciones de los nueve perfiles",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Rutas exactas para auditar la procedencia» con el rótulo «AWS IoT v0.1».",
+      "relationTokens": 181,
+      "fichaTokens": 211,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-61b5e17bf4ba4b.json"
+    },
+    {
+      "id": "documento:sac-rel-9cc73303eb7de5",
+      "to": "sac-2afd960fa37389",
+      "title": "Ecosystem Awareness — Canonical Corpus Manifest",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «A.7 Reference failure scenarios and implementation profiles (outside the controlled release baseline)» con el rótulo «AWS IoT TwinMaker / IoT Core v0.2 Draft».",
+      "relationTokens": 149,
+      "fichaTokens": 205,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-2afd960fa37389.json"
+    },
+    {
+      "id": "documento:sac-rel-d897d2eae70cf8",
+      "to": "sac-c3831fbc3d853f",
+      "title": "Ecosystem Awareness — canonical corpus",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Implementation-profile matrix» con el rótulo «00F-A02 — AWS IoT TwinMaker / IoT Core».",
+      "relationTokens": 127,
+      "fichaTokens": 184,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-c3831fbc3d853f.json"
+    },
+    {
+      "id": "documento:sac-rel-d8526f171fd941",
+      "to": "sac-ae5cfdf16d6d42",
+      "title": "Preserved non-canonical working inputs",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Archivo completo de enlaces del corte» con el rótulo «Annex 00F-A02 — AWS IoT TwinMaker / IoT Core implementation profile for the smart-city mobility quality p».",
+      "relationTokens": 152,
+      "fichaTokens": 175,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-ae5cfdf16d6d42.json"
+    },
+    {
+      "id": "documento:sac-rel-378fdf9bcd5cbc",
+      "to": "sac-499b559561cbfa",
+      "title": "00F — Smart-City Mobility Divergence Completeness & Publication Audit — 24 September 2026",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «00F — Smart-City Mobility Divergence Completeness & Publication Audit — 24 September 2026» con el rótulo «AWS IoT TwinMaker / IoT Core».",
+      "relationTokens": 170,
+      "fichaTokens": 198,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-499b559561cbfa.json"
+    },
+    {
+      "id": "documento:sac-rel-150808e092c6bc",
+      "to": "sac-fe8749abf5adf8",
+      "title": "DDS-S2-EA-01 — Independent S2 mobility / Ecosystem Awareness requirements review (v0.2.2)",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «1. Self-contained source pack — fixed reference cut» con el rótulo «AWS IoT/TwinMaker profile».",
+      "relationTokens": 156,
+      "fichaTokens": 236,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-fe8749abf5adf8.json"
+    }
+  ]
+}

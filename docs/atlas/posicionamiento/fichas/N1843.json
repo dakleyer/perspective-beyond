@@ -1,0 +1,200 @@
+{
+  "id": "N1843",
+  "type": "ficha",
+  "title": "Tuxpan Urban Service Case Study",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/tuxpan-urban-service-case-study-n1843/",
+  "documentId": "doc-d89f282af5e399e073",
+  "sourceIds": [],
+  "tagWeights": {
+    "agentes": 0.1053,
+    "autoridad": 0.1053,
+    "casos": 0.2631,
+    "decision": 0.1053,
+    "memoria-territorio": 0.1052,
+    "movilidad": 0.3158
+  },
+  "clusters": [
+    "net"
+  ],
+  "context": "## Tuxpan Urban Service Case Study\n\nEtiquetas: Agentes y coordinación distribuida 10.53%; Autoridad, permisos y delegación 10.53%; Casos de uso y aplicaciones 26.31%; Decisiones y responsabilidad 10.53%; Memoria, comunidad y territorio 10.52%; Movilidad e infraestructura 31.58%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/tuxpan-urban-service-case-study-n1843/\nDocumento de origen: https://jubap.net/1843-2/\n\n",
+  "tokens": 118,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:N1843:C10",
+      "to": "C10",
+      "title": "Observabilidad del proceso",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 235,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C10.json"
+    },
+    {
+      "id": "apoyo:N1843:C26",
+      "to": "C26",
+      "title": "Autoridad de decisión",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 262,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C26.json"
+    },
+    {
+      "id": "apoyo:N1843:C44",
+      "to": "C44",
+      "title": "Arbitraje de recursos",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 250,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C44.json"
+    },
+    {
+      "id": "apoyo:N1843:C45",
+      "to": "C45",
+      "title": "Fallo de composición",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 240,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C45.json"
+    },
+    {
+      "id": "apoyo:N1843:C50",
+      "to": "C50",
+      "title": "Estado de una afirmación",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 295,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C50.json"
+    },
+    {
+      "id": "apoyo:N1843:C99",
+      "to": "C99",
+      "title": "Adaptación de arquitectura entre territorios",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 238,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C99.json"
+    },
+    {
+      "id": "apoyo:N1843:G30",
+      "to": "G30",
+      "title": "Mobility OS / coordinación distribuida",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 138,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G30.json"
+    },
+    {
+      "id": "documento:M027",
+      "to": "T2795",
+      "title": "Annex 4 — Canonical Requirements and Test Contract",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "Better observation of an urban service does not by itself grant the authority to change an operator's commitments.",
+      "relationTokens": 42,
+      "fichaTokens": 162,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2795.json"
+    },
+    {
+      "id": "documento:A009",
+      "to": "U1494",
+      "title": "Barcelona, Cuba, California, Veracruz: Urban Mobility, Swarm Intelligence and Constraint-Driven Architecture",
+      "direction": "entrante",
+      "kind": "documented use",
+      "reading": "Read the engineering case alongside this field note to distinguish the architectural mechanism from the territorial learning that shaped its deployment.",
+      "relationTokens": 53,
+      "fichaTokens": 176,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1494.json"
+    },
+    {
+      "id": "documento:G042",
+      "to": "GH042",
+      "title": "Smart-City Mobility Chaos",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "The constructed smart-city scenario can inform a new shared-capacity test inspired by Tuxpan, without claiming that its fictional failure occurred in the historical service.",
+      "relationTokens": 48,
+      "fichaTokens": 204,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH042.json"
+    },
+    {
+      "id": "documento:R066",
+      "to": "U1492",
+      "title": "Distributed Operational Intelligence Across the Americas",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The Tuxpan urban-mobility engineering case](https://jubap.net/1843-2/).",
+      "relationTokens": 48,
+      "fichaTokens": 94,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1492.json"
+    },
+    {
+      "id": "documento:R068",
+      "to": "U1494",
+      "title": "Barcelona, Cuba, California, Veracruz: Urban Mobility, Swarm Intelligence and Constraint-Driven Architecture",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Tuxpan: the implementation record](https://jubap.net/1843-2/).",
+      "relationTokens": 58,
+      "fichaTokens": 176,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1494.json"
+    },
+    {
+      "id": "documento:R086",
+      "to": "U1494",
+      "title": "Barcelona, Cuba, California, Veracruz: Urban Mobility, Swarm Intelligence and Constraint-Driven Architecture",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The pan-American and incentive context of Tuxpan](https://jubap.us/barcelona-cuba-california-veracruz-urban-mobility-swarm-intelligence-and-constraint-driven-architecture/).",
+      "relationTokens": 79,
+      "fichaTokens": 176,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1494.json"
+    },
+    {
+      "id": "documento:R087",
+      "to": "E1953",
+      "title": "Car Evolution Mobility OS",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The current Mobility Operating System unit](https://jubap.eu/mobility/).",
+      "relationTokens": 40,
+      "fichaTokens": 105,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1953.json"
+    },
+    {
+      "id": "documento:R143",
+      "to": "E1953",
+      "title": "Car Evolution Mobility OS",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Tuxpan: urban-mobility engineering in 2010–2011](https://jubap.net/1843-2/).",
+      "relationTokens": 52,
+      "fichaTokens": 105,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1953.json"
+    },
+    {
+      "id": "navigation:position-nav-E1953-N1843",
+      "to": "E1953",
+      "title": "Car Evolution Mobility OS",
+      "direction": "entrante",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «Car Evolution Mobility OS», el enlace «Tuxpan case» abre «Tuxpan Urban Service Case Study».",
+      "relationTokens": 59,
+      "fichaTokens": 105,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1953.json"
+    }
+  ]
+}

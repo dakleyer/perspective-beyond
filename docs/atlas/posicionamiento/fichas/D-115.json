@@ -1,0 +1,131 @@
+{
+  "id": "D-115",
+  "type": "ficha",
+  "title": "La asociación investiga; las empresas ejecutan",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-115",
+  "documentId": "doc-8d4cd510f81b02507d",
+  "sourceIds": [],
+  "tagWeights": {
+    "autoridad": 0.1667,
+    "empresa": 0.6666,
+    "transformacion": 0.1667
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## La asociación investiga; las empresas ejecutan\nINTERLOCUTOR (pregunta editorial) — ¿Cómo hacer legible una trayectoria común sin confundir asociación y actividad empresarial?\nLECTURA DEL DIÁLOGO (síntesis editorial) — Iván necesita que una trayectoria que une IA, arquitectura empresarial, cultura y periodismo pueda leerse sin confundir vehículos ni autoridades. IMSV es una asociación suiza sin fin lucrativo con áreas de investigación, cultura y periodismo; Tegrity.AI desarrolla trabajo de investigación de integridad operativa; Latinoempresa comunica y documenta; el Instituto del Totonacapan trabaja en patrimonio vivo y transmisión; JUBAP es el vehículo de ejecución comercial e ingeniería. Las conexiones entre iniciativas no autorizan a trasladar contratos, representación de comunidades, titularidades o ingresos de una entidad a otra. La distinción importa tanto por responsabilidad institucional como por claridad para un lector externo: el origen compartido de una idea no convierte a las organizaciones en la misma organización.\nEtiquetas: Autoridad, permisos y delegación 16.67%; Empresa y gestión 66.66%; Transformación y continuidad operativa 16.67%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-115\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-115.html\n\n",
+  "tokens": 291,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-115:dg-structure",
+      "to": "dg-structure",
+      "title": "Conciencia estructural",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 256,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-structure.json"
+    },
+    {
+      "id": "apoyo:D-115:dg-continuity",
+      "to": "dg-continuity",
+      "title": "Continuidad de capacidades",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 201,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-continuity.json"
+    },
+    {
+      "id": "apoyo:D-115:dg-governance",
+      "to": "dg-governance",
+      "title": "Gobernanza y legitimidad",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 254,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-governance.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-192-D-115",
+      "to": "D-192",
+      "title": "La arquitectura que concentra capital no es necesariamente la que mejor distribuye inteligencia",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «La arquitectura que concentra capital no es necesariamente la que mejor distribuye inteligencia» con «La asociación investiga; las empresas ejecutan». Permite contrastar Gobernanza y legitimidad.",
+      "relationTokens": 72,
+      "fichaTokens": 403,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-192.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-267-D-115",
+      "to": "D-267",
+      "title": "Una constelación de pensamiento contiene clusters conectados, no departamentos cerrados",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Una constelación de pensamiento contiene clusters conectados, no departamentos cerrados» con «La asociación investiga; las empresas ejecutan».",
+      "relationTokens": 64,
+      "fichaTokens": 405,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-267.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-070-D-115",
+      "to": "D-070",
+      "title": "IMSV, JUBAP y el paso a la investigación",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Continuidad de capacidades, Conciencia estructural desde las situaciones que describe cada texto.",
+      "relationTokens": 51,
+      "fichaTokens": 523,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-070.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-114-D-115",
+      "to": "D-114",
+      "title": "Consejeros no son gobernantes, y un nombre no es un mandato",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Continuidad de capacidades, Gobernanza y legitimidad desde las situaciones que describe cada texto.",
+      "relationTokens": 54,
+      "fichaTokens": 309,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-114.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-115-D-244",
+      "to": "D-244",
+      "title": "Una contradicción puede contagiar máquinas antes de que nadie vea el desastre",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Continuidad de capacidades, Conciencia estructural desde las situaciones que describe cada texto.",
+      "relationTokens": 53,
+      "fichaTokens": 430,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-244.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-233-D-115",
+      "to": "D-233",
+      "title": "Una capacidad zombi sigue en el organigrama, no en la realidad",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Conciencia estructural, Gobernanza y legitimidad desde las situaciones que describe cada texto.",
+      "relationTokens": 55,
+      "fichaTokens": 413,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-233.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-264-D-115",
+      "to": "D-264",
+      "title": "La unidad de racionalización debe trabajar para dejar de ser necesaria",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Continuidad de capacidades, Gobernanza y legitimidad desde las situaciones que describe cada texto.",
+      "relationTokens": 52,
+      "fichaTokens": 410,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-264.json"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "id": "C72",
+  "type": "concepto",
+  "title": "Ventana de respuesta",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/response-window/",
+  "documentId": null,
+  "sourceIds": [
+    "N1801",
+    "N1831",
+    "T2795",
+    "T1491",
+    "L011",
+    "GH051"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.0159,
+    "autoridad": 0.0159,
+    "cambio-regimen": 0.0104,
+    "cartografia": 0.0417,
+    "control-minimo": 0.0159,
+    "decision": 0.0238,
+    "documentacion": 0.0893,
+    "economia": 0.0159,
+    "evidencia": 0.2658,
+    "integridad-ia": 0.0159,
+    "memoria-territorio": 0.1042,
+    "movilidad": 0.119,
+    "perspectiva": 0.2187,
+    "representacion": 0.0476
+  },
+  "clusters": [
+    "latinoempresa",
+    "net",
+    "research",
+    "tegrity"
+  ],
+  "context": "## Ventana de respuesta\nAn answer must be understood, authorised and applied within a usable time.\nEtiquetas: Aprendizaje y transmisión de capacidades 1.59%; Autoridad, permisos y delegación 1.59%; Cambios de régimen y alerta temprana 1.04%; Cartografía y señales de ecosistema 4.17%; Control mínimo y suficiencia 1.59%; Decisiones y responsabilidad 2.38%; Investigación y documentación técnica 8.93%; Economía, costes y liquidez 1.59%; Evidencia, procedencia y atribución 26.58%; Integridad y seguridad de IA 1.59%; Memoria, comunidad y territorio 10.42%; Movilidad e infraestructura 11.90%; Cambio de perspectiva 21.87%; Representación y límites formales 4.76%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/response-window/\n\n",
+  "tokens": 194,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:N1801:C72",
+      "to": "N1801",
+      "title": "xSeil Functionality Analisis",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 78,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1801.json"
+    },
+    {
+      "id": "apoyo:N1831:C72",
+      "to": "N1831",
+      "title": "Phylons predictive factors cascade",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 85,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1831.json"
+    },
+    {
+      "id": "apoyo:T2795:C72",
+      "to": "T2795",
+      "title": "Annex 4 — Canonical Requirements and Test Contract",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 162,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2795.json"
+    },
+    {
+      "id": "apoyo:T1491:C72",
+      "to": "T1491",
+      "title": "Why Selection Cannot See It",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 62,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1491.json"
+    },
+    {
+      "id": "apoyo:L011:C72",
+      "to": "L011",
+      "title": "Petroleo no Convencional. Afectación al paisaje y ecosistema superficial en el Proyecto Chicontepec",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 36,
+      "fichaTokens": 119,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/L011.json"
+    },
+    {
+      "id": "apoyo:GH051:C72",
+      "to": "GH051",
+      "title": "Ecosystem Awareness III — Semantic Window and Good Enough Early Warning",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 189,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH051.json"
+    },
+    {
+      "id": "concepto:D047",
+      "to": "C06",
+      "title": "Compatibilidad global",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "An operationally useful solution must meet its response window, not merely exist in the feasible set.",
+      "relationTokens": 31,
+      "fichaTokens": 234,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C06.json"
+    },
+    {
+      "id": "concepto:B043",
+      "to": "C91",
+      "title": "Condiciones de activación de capacidad",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "A deadline is not a readiness condition: a bounded action still needs valid evidence, authority and resources within its declared decision window.",
+      "relationTokens": 41,
+      "fichaTokens": 240,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C91.json"
+    },
+    {
+      "id": "concepto:G051",
+      "to": "C17",
+      "title": "Horizontes de memoria",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "The later semantic-window account reframes historical factor selection around the protected outcome and useful response horizon, rather than maximum retained history.",
+      "relationTokens": 39,
+      "fichaTokens": 165,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C17.json"
+    },
+    {
+      "id": "concepto:B434",
+      "to": "G12",
+      "title": "Early Warning Systems (EWS)",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 66,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G12.json"
+    },
+    {
+      "id": "concepto:B596",
+      "to": "G44",
+      "title": "Quiet Four Thousand",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 13,
+      "fichaTokens": 187,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G44.json"
+    }
+  ]
+}

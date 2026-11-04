@@ -1,0 +1,85 @@
+{
+  "id": "GH003",
+  "type": "ficha",
+  "title": "Claim and Attribution Boundaries",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/GH003.html",
+  "documentId": "doc-514db22ea4ea111e31",
+  "sourceIds": [],
+  "tagWeights": {
+    "evidencia": 1.0
+  },
+  "clusters": [
+    "research"
+  ],
+  "context": "## Claim and Attribution Boundaries\nContenido de la fuente: Current roles and limits · General evidence rules · Publication gate.\nEtiquetas: Evidencia, procedencia y atribución 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/GH003.html\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/governance/CLAIM_BOUNDARIES.md\n\n",
+  "tokens": 121,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH003:C12",
+      "to": "C12",
+      "title": "Procedencia auditable",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 276,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C12.json"
+    },
+    {
+      "id": "apoyo:GH003:C50",
+      "to": "C50",
+      "title": "Estado de una afirmación",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 295,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C50.json"
+    },
+    {
+      "id": "documento:G003",
+      "to": "T2694",
+      "title": "Research and Publication Policy",
+      "direction": "saliente",
+      "kind": "documented use",
+      "reading": "A repository commit and a public document label should travel together so that technical publication is not mistaken for external acceptance or validation.",
+      "relationTokens": 38,
+      "fichaTokens": 74,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2694.json"
+    },
+    {
+      "id": "documento:sac-rel-c4450ce0b090f2",
+      "to": "sac-d651356ec58c92",
+      "title": "Corpus Document Control — DC-GH-01",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «1. Authority, scope and precedence» con el rótulo «Claim and Attribution Boundaries».",
+      "relationTokens": 95,
+      "fichaTokens": 161,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-d651356ec58c92.json"
+    },
+    {
+      "id": "documento:sac-rel-4b74efd0266288",
+      "to": "sac-ae5cfdf16d6d42",
+      "title": "Preserved non-canonical working inputs",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Conservación, reglas y decisiones de publicación» con el rótulo «Límites de afirmaciones y atribución».",
+      "relationTokens": 118,
+      "fichaTokens": 175,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-ae5cfdf16d6d42.json"
+    },
+    {
+      "id": "documento:sac-rel-38ac7fe354ba5a",
+      "to": "GH001",
+      "title": "Structural Awareness Programme",
+      "direction": "saliente",
+      "kind": "ruta de lectura",
+      "reading": "El índice de la carpeta sitúa este documento dentro de su línea de trabajo.",
+      "relationTokens": 84,
+      "fichaTokens": 179,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH001.json"
+    }
+  ]
+}

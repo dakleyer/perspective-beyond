@@ -1,0 +1,135 @@
+{
+  "id": "dg-dialogue_logic",
+  "type": "concepto",
+  "title": "Diálogo pertinente y lógica propuesta",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-dialogue_logic",
+  "documentId": null,
+  "sourceIds": [
+    "D-184",
+    "D-185",
+    "D-220"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.3334,
+    "decision": 0.3333,
+    "perspectiva": 0.3333
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Diálogo pertinente y lógica propuesta\nBuscar una pregunta que aclare el objeto del intercambio sin fingir que se conoce el dato ausente; investigar su formalización y prueba.\nEtiquetas: Aprendizaje y transmisión de capacidades 33.34%; Decisiones y responsabilidad 33.33%; Cambio de perspectiva 33.33%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-dialogue_logic\n\n",
+  "tokens": 93,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-184:dg-dialogue_logic",
+      "to": "D-184",
+      "title": "2015: no solo cómo se llama, sino para qué quieres saberlo",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 361,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-184.json"
+    },
+    {
+      "id": "apoyo:D-185:dg-dialogue_logic",
+      "to": "D-185",
+      "title": "2015: una idea ambiciosa necesita una prueba que otro pueda repetir",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 345,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-185.json"
+    },
+    {
+      "id": "apoyo:D-220:dg-dialogue_logic",
+      "to": "D-220",
+      "title": "Si un diálogo nunca cede nada, quizá es un sermón",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 419,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-220.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-094",
+      "to": "dg-perspective",
+      "title": "Nueva Perspectiva",
+      "direction": "saliente",
+      "kind": "replantea la pregunta",
+      "reading": "Importa el fin que motivó un dato pedido.",
+      "relationTokens": 29,
+      "fichaTokens": 190,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-perspective.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-095",
+      "to": "dg-doubt",
+      "title": "Duda, pruebas y conocimiento corregible",
+      "direction": "saliente",
+      "kind": "exige prueba de",
+      "reading": "Hipótesis alternativa necesita tareas comparables.",
+      "relationTokens": 29,
+      "fichaTokens": 258,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-doubt.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-096",
+      "to": "dg-measure",
+      "title": "Medir decisiones y consecuencias",
+      "direction": "saliente",
+      "kind": "propone criterios de",
+      "reading": "La eficacia del método no se sigue de la ambición declarada.",
+      "relationTokens": 31,
+      "fichaTokens": 202,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-measure.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-097",
+      "to": "dg-culture",
+      "title": "Protocultura, autoría y conocimiento emergente",
+      "direction": "saliente",
+      "kind": "recupera genealogía de",
+      "reading": "Un correo de 2015 es fuente primaria de ideas previas al atlas.",
+      "relationTokens": 40,
+      "fichaTokens": 204,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-culture.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-107",
+      "to": "dg-civilization_interface",
+      "title": "Interfaces civilizatorias y autoridad",
+      "direction": "entrante",
+      "kind": "reabre la pregunta por",
+      "reading": "La IA puede interponer interpretación en lugar de respuesta directa.",
+      "relationTokens": 32,
+      "fichaTokens": 106,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-civilization_interface.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-147",
+      "to": "dg-formalization_event",
+      "title": "La frontera entre mundo y registro",
+      "direction": "entrante",
+      "kind": "muestra el camino del argumento",
+      "reading": "Un diálogo fuerte conserva objeciones y retiradas precisas.",
+      "relationTokens": 33,
+      "fichaTokens": 137,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-formalization_event.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-186",
+      "to": "dg-semantic_graph",
+      "title": "Conocimiento como red de relaciones y procedencia",
+      "direction": "entrante",
+      "kind": "retiene objeciones",
+      "reading": "La trayectoria importa tanto como el resultado.",
+      "relationTokens": 31,
+      "fichaTokens": 181,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-semantic_graph.json"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "C52",
+  "type": "concepto",
+  "title": "Elección de plataforma",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/platform-choice/",
+  "documentId": null,
+  "sourceIds": [
+    "U1312",
+    "U1494",
+    "E1654",
+    "N1263"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.0567,
+    "capacidad-humana": 0.0192,
+    "casos": 0.0965,
+    "control-minimo": 0.0661,
+    "decision": 0.0492,
+    "empresa": 0.1753,
+    "evidencia": 0.0492,
+    "experimentacion": 0.025,
+    "integridad-ia": 0.25,
+    "memoria-territorio": 0.025,
+    "movilidad": 0.0625,
+    "representacion": 0.0192,
+    "transformacion": 0.1061
+  },
+  "clusters": [
+    "eu",
+    "net",
+    "us"
+  ],
+  "context": "## Elección de plataforma\nChoose among integrated, capability-specific and hybrid platforms.\nEtiquetas: Aprendizaje y transmisión de capacidades 5.67%; Capacidad humana y deuda de inteligencia 1.92%; Casos de uso y aplicaciones 9.65%; Control mínimo y suficiencia 6.61%; Decisiones y responsabilidad 4.92%; Empresa y gestión 17.53%; Evidencia, procedencia y atribución 4.92%; Experimentación, falsación y contraejemplos 2.50%; Integridad y seguridad de IA 25.00%; Memoria, comunidad y territorio 2.50%; Movilidad e infraestructura 6.25%; Representación y límites formales 1.92%; Transformación y continuidad operativa 10.61%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/platform-choice/\n\n",
+  "tokens": 181,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:U1312:C52",
+      "to": "U1312",
+      "title": "Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 150,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1312.json"
+    },
+    {
+      "id": "apoyo:U1494:C52",
+      "to": "U1494",
+      "title": "Barcelona, Cuba, California, Veracruz: Urban Mobility, Swarm Intelligence and Constraint-Driven Architecture",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 31,
+      "fichaTokens": 176,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1494.json"
+    },
+    {
+      "id": "apoyo:E1654:C52",
+      "to": "E1654",
+      "title": "Case Study: Rationalization in Luxury",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 119,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1654.json"
+    },
+    {
+      "id": "apoyo:N1263:C52",
+      "to": "N1263",
+      "title": "JubAp.Net 2019 Suite: From Embedded Suites to Operational AI Integrity",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 98,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1263.json"
+    },
+    {
+      "id": "concepto:D071",
+      "to": "C20",
+      "title": "Capacidad reutilizable",
+      "direction": "saliente",
+      "kind": "documented use",
+      "reading": "The workforce case documents a capability baseline and platform-choice framework before the transition to scaled delivery.",
+      "relationTokens": 31,
+      "fichaTokens": 254,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C20.json"
+    },
+    {
+      "id": "concepto:A011",
+      "to": "C20",
+      "title": "Capacidad reutilizable",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "The extensible onboard node and the later enterprise suite illustrate a shared architectural question: which investment can host additional capabilities without recreating the operating foundation?",
+      "relationTokens": 42,
+      "fichaTokens": 254,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C20.json"
+    }
+  ]
+}

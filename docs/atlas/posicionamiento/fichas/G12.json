@@ -1,0 +1,99 @@
+{
+  "id": "G12",
+  "type": "concepto",
+  "title": "Early Warning Systems (EWS)",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/early-warning-systems/",
+  "documentId": null,
+  "sourceIds": [
+    "S07"
+  ],
+  "tagWeights": {
+    "cambio-regimen": 0.7333,
+    "documentacion": 0.2667
+  },
+  "clusters": [
+    "research"
+  ],
+  "context": "## Early Warning Systems (EWS)\nDetect signs that an operating regime or assumption is changing.\nEtiquetas: Cambios de régimen y alerta temprana 73.33%; Investigación y documentación técnica 26.67%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/early-warning-systems/\n\n",
+  "tokens": 66,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:S07:G12",
+      "to": "S07",
+      "title": "Minimalistic Regime-Aware Early Warning Systems — corpus index",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 149,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/S07.json"
+    },
+    {
+      "id": "concepto:B407",
+      "to": "G06",
+      "title": "Regime Awareness (RA)",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 190,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G06.json"
+    },
+    {
+      "id": "concepto:B432",
+      "to": "G06",
+      "title": "Regime Awareness (RA)",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 190,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G06.json"
+    },
+    {
+      "id": "concepto:B433",
+      "to": "C40",
+      "title": "Alerta y respuesta",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 149,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C40.json"
+    },
+    {
+      "id": "concepto:B434",
+      "to": "C72",
+      "title": "Ventana de respuesta",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 194,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C72.json"
+    },
+    {
+      "id": "concepto:B435",
+      "to": "G17",
+      "title": "Benchmarks DDS y ablaciones",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 204,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G17.json"
+    },
+    {
+      "id": "concepto:B594",
+      "to": "G44",
+      "title": "Quiet Four Thousand",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 16,
+      "fichaTokens": 187,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G44.json"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "D-100",
+  "type": "ficha",
+  "title": "¿Cuánto cuesta saber lo suficiente para decidir?",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-100",
+  "documentId": "doc-23e969e54b6a31a734",
+  "sourceIds": [],
+  "tagWeights": {
+    "casos": 0.1818,
+    "control-minimo": 0.4546,
+    "decision": 0.1818,
+    "economia": 0.1818
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## ¿Cuánto cuesta saber lo suficiente para decidir?\nINTERLOCUTOR (pregunta editorial) — ¿Por qué se aprueba a veces una iniciativa antes de conocer el precio de comprenderla?\nLECTURA DEL DIÁLOGO (síntesis editorial) — «Cost of Clarity» nace antes de la aprobación de una iniciativa. Iván plantea que la información mínima necesaria no es un checklist universal: depende de la decisión concreta, sus interfaces y las personas autorizadas a interpretarla. Hay que estimar **cuánto cuesta y qué riesgo entraña conseguir esa claridad** antes de comprometer presupuesto, plazos y responsabilidades. La carencia de información puede revelar un problema de gobernanza aún no decidido, no simplemente una casilla vacía. Su arquitectura separa un plan de calidad ejecutable de una capa protegida de calibración y juicio experto; y distingue el costo de producir la información del costo que se evita al no aprobar mal una iniciativa. El resultado esperado es una medida de preparación informativa y recuperabilidad, no otra petición interminable de documentos.\nEtiquetas: Casos de uso y aplicaciones 18.18%; Control mínimo y suficiencia 45.46%; Decisiones y responsabilidad 18.18%; Economía, costes y liquidez 18.18%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-100\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-100.html\n\n",
+  "tokens": 311,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-100:dg-economy",
+      "to": "dg-economy",
+      "title": "Economía y escasez",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 239,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-economy.json"
+    },
+    {
+      "id": "apoyo:D-100:dg-decision",
+      "to": "dg-decision",
+      "title": "Decisiones entre escenarios",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 169,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-decision.json"
+    },
+    {
+      "id": "apoyo:D-100:dg-doubt",
+      "to": "dg-doubt",
+      "title": "Duda, pruebas y conocimiento corregible",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 258,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-doubt.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-190-D-100",
+      "to": "D-190",
+      "title": "No llamemos economía de la información a una industria que todavía consume tanta energía",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «No llamemos economía de la información a una industria que todavía consume tanta energía» con «¿Cuánto cuesta saber lo suficiente para decidir?». Permite contrastar Economía y escasez.",
+      "relationTokens": 76,
+      "fichaTokens": 422,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-190.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-206-D-100",
+      "to": "D-206",
+      "title": "Un diálogo de investigación no es un diagnóstico disfrazado",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Un diálogo de investigación no es un diagnóstico disfrazado» con «¿Cuánto cuesta saber lo suficiente para decidir?». Permite contrastar Duda, pruebas y conocimiento corregible.",
+      "relationTokens": 71,
+      "fichaTokens": 412,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-206.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-221-D-100",
+      "to": "D-221",
+      "title": "La iniciativa que no se puede mover ya consume recursos",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «La iniciativa que no se puede mover ya consume recursos» con «¿Cuánto cuesta saber lo suficiente para decidir?». Permite contrastar Decisiones entre escenarios.",
+      "relationTokens": 65,
+      "fichaTokens": 483,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-221.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-225-D-100",
+      "to": "D-225",
+      "title": "Un frame es una distribución de opciones, no un eslogan",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Un frame es una distribución de opciones, no un eslogan» con «¿Cuánto cuesta saber lo suficiente para decidir?».",
+      "relationTokens": 60,
+      "fichaTokens": 405,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-225.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-243-D-100",
+      "to": "D-243",
+      "title": "El supervisor humano no es barato porque solo revise dos casillas",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «El supervisor humano no es barato porque solo revise dos casillas» con «¿Cuánto cuesta saber lo suficiente para decidir?». Permite contrastar Duda, pruebas y conocimiento corregible.",
+      "relationTokens": 73,
+      "fichaTokens": 442,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-243.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-293-D-100",
+      "to": "D-293",
+      "title": "El cómputo masivo intenta comprar volumen donde falta estructura",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «El cómputo masivo intenta comprar volumen donde falta estructura» con «¿Cuánto cuesta saber lo suficiente para decidir?».",
+      "relationTokens": 62,
+      "fichaTokens": 390,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-293.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-050-D-100",
+      "to": "D-050",
+      "title": "Cuando lo útil no se convierte en empresa",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 49,
+      "fichaTokens": 763,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-050.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-100-D-196",
+      "to": "D-196",
+      "title": "Rascarse la espalda también puede entrar en el mercado",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 51,
+      "fichaTokens": 392,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-196.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-100-D-005",
+      "to": "D-005",
+      "title": "Escasez, crecimiento y libertad real",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 48,
+      "fichaTokens": 442,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-005.json"
+    }
+  ]
+}

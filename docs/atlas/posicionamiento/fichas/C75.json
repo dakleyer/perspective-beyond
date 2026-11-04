@@ -1,0 +1,231 @@
+{
+  "id": "C75",
+  "type": "concepto",
+  "title": "Trabajo compensatorio evitable (ACW)",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/avoidable-compensatory-work/",
+  "documentId": null,
+  "sourceIds": [
+    "T1400",
+    "T1494",
+    "T874",
+    "T1391",
+    "T897",
+    "T1491",
+    "N1296",
+    "N1276",
+    "U1322"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.0291,
+    "autoridad": 0.0597,
+    "capacidad-humana": 0.2089,
+    "cartografia": 0.1111,
+    "casos": 0.0265,
+    "control-minimo": 0.0519,
+    "decision": 0.0558,
+    "economia": 0.0133,
+    "empresa": 0.0999,
+    "evidencia": 0.1156,
+    "experimentacion": 0.0089,
+    "memoria-territorio": 0.0133,
+    "perspectiva": 0.1111,
+    "transformacion": 0.0949
+  },
+  "clusters": [
+    "net",
+    "tegrity",
+    "us"
+  ],
+  "context": "## Trabajo compensatorio evitable (ACW)\nPeople move, repair or reconcile information to compensate for a remediable gap.\nEtiquetas: Aprendizaje y transmisión de capacidades 2.91%; Autoridad, permisos y delegación 5.97%; Capacidad humana y deuda de inteligencia 20.89%; Cartografía y señales de ecosistema 11.11%; Casos de uso y aplicaciones 2.65%; Control mínimo y suficiencia 5.19%; Decisiones y responsabilidad 5.58%; Economía, costes y liquidez 1.33%; Empresa y gestión 9.99%; Evidencia, procedencia y atribución 11.56%; Experimentación, falsación y contraejemplos 0.89%; Memoria, comunidad y territorio 1.33%; Cambio de perspectiva 11.11%; Transformación y continuidad operativa 9.49%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/avoidable-compensatory-work/\n\n",
+  "tokens": 207,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:T1400:C75",
+      "to": "T1400",
+      "title": "Measuring Human Intelligence Debt",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 145,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1400.json"
+    },
+    {
+      "id": "apoyo:T1494:C75",
+      "to": "T1494",
+      "title": "The Outlook",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 55,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1494.json"
+    },
+    {
+      "id": "apoyo:T874:C75",
+      "to": "T874",
+      "title": "Human Intelligence Debt",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 82,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T874.json"
+    },
+    {
+      "id": "apoyo:T1391:C75",
+      "to": "T1391",
+      "title": "The Limits of AI Oversight",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 101,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1391.json"
+    },
+    {
+      "id": "apoyo:T897:C75",
+      "to": "T897",
+      "title": "The Harvester Multiplication Problem: Capability Fragmentation, Governance Collapse and the Compounding of Human Intelligence Debt",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 38,
+      "fichaTokens": 114,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T897.json"
+    },
+    {
+      "id": "apoyo:T1491:C75",
+      "to": "T1491",
+      "title": "Why Selection Cannot See It",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 62,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1491.json"
+    },
+    {
+      "id": "apoyo:N1296:C75",
+      "to": "N1296",
+      "title": "Distributed Tiger Teams VS Freelancer Swarms",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 127,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1296.json"
+    },
+    {
+      "id": "apoyo:N1276:C75",
+      "to": "N1276",
+      "title": "Tiger Team Maturity Model",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 100,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1276.json"
+    },
+    {
+      "id": "apoyo:U1322:C75",
+      "to": "U1322",
+      "title": "Case Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 31,
+      "fichaTokens": 116,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1322.json"
+    },
+    {
+      "id": "concepto:F001",
+      "to": "C73",
+      "title": "Unidad de medida de HID",
+      "direction": "entrante",
+      "kind": "documented use",
+      "reading": "The task-level protocol operationalizes the earlier role-based framework; its time ratios should not be compared with operator ratios without an explicit conversion model.",
+      "relationTokens": 47,
+      "fichaTokens": 170,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C73.json"
+    },
+    {
+      "id": "concepto:F003",
+      "to": "C71",
+      "title": "Carga de control",
+      "direction": "entrante",
+      "kind": "documented use",
+      "reading": "The oversight-threshold study tests whether added review and reconciliation outweigh removed work, rather than treating guardrail count as a measure of debt.",
+      "relationTokens": 44,
+      "fichaTokens": 172,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C71.json"
+    },
+    {
+      "id": "concepto:F004",
+      "to": "C20",
+      "title": "Capacidad reutilizable",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "Capability multiplicity is a screening signal; avoidable compensatory work must still be established from task episodes and a credible replacement counterfactual.",
+      "relationTokens": 46,
+      "fichaTokens": 254,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C20.json"
+    },
+    {
+      "id": "concepto:F010",
+      "to": "C79",
+      "title": "Pérdida por control sobre mapa divergente",
+      "direction": "entrante",
+      "kind": "hypothesis",
+      "reading": "The forecast becomes testable by asking whether automation creates more compensatory work in processes already dependent on off-map reconciliation.",
+      "relationTokens": 46,
+      "fichaTokens": 195,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C79.json"
+    },
+    {
+      "id": "concepto:F029",
+      "to": "C86",
+      "title": "Núcleo común con evidencia cualificada",
+      "direction": "entrante",
+      "kind": "hypothesis",
+      "reading": "A common decision core may reduce human-as-API work, provided the cost of maintaining and qualifying that core is included in the comparison.",
+      "relationTokens": 48,
+      "fichaTokens": 214,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C86.json"
+    },
+    {
+      "id": "concepto:F045",
+      "to": "C87",
+      "title": "Madurez definida y autoevaluada",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "Validated task measurement can strengthen intervention evidence without by itself upgrading a defined Tiger Team model to quantitatively managed maturity.",
+      "relationTokens": 44,
+      "fichaTokens": 172,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C87.json"
+    },
+    {
+      "id": "concepto:A038",
+      "to": "C12",
+      "title": "Procedencia auditable",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "Reusable audit evidence provides a concrete setting for distinguishing avoidable reconstruction from necessary assurance, while measuring the net work of maintaining the shared evidence model.",
+      "relationTokens": 47,
+      "fichaTokens": 276,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C12.json"
+    },
+    {
+      "id": "concepto:B474",
+      "to": "G21",
+      "title": "Human Intelligence Debt (HID)",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 150,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G21.json"
+    }
+  ]
+}

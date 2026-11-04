@@ -1,0 +1,882 @@
+{
+  "schema": "perspective-beyond/positioning-v1",
+  "edition": "2026-11-04",
+  "request": {
+    "posicionamiento": "us",
+    "tokens": 2000,
+    "max": 60,
+    "rol": "lector",
+    "lectura": "explore",
+    "enfoque": "parejo",
+    "instruccion": "",
+    "red": "ideas",
+    "sentido": "ambas",
+    "modo": "closed",
+    "site": "us",
+    "puente": null,
+    "solo": false,
+    "pesos": []
+  },
+  "position": {
+    "id": "doc-4133165018517e2690",
+    "title": "JubAp.US",
+    "url": "https://jubap.us/",
+    "fichas": [
+      "U2"
+    ],
+    "aliases": [
+      "https://jubap.us/"
+    ],
+    "header": "# Posicionamiento · JubAp.US\nDocumento de origen: https://jubap.us/\n\n",
+    "headerTokens": 19,
+    "type": "documento",
+    "focus": "U2",
+    "seeds": [
+      "U2"
+    ]
+  },
+  "budget": {
+    "limit": 2000,
+    "used": 1886,
+    "remaining": 114,
+    "nextBlock": 224,
+    "encoding": "o200k_base",
+    "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
+  },
+  "reachable": 11,
+  "selected": 10,
+  "shown": 11,
+  "omittedByBudget": 1,
+  "omittedInDiagram": 0,
+  "layers": [
+    {
+      "distance": 0,
+      "selected": 0,
+      "shown": 1
+    },
+    {
+      "distance": 1,
+      "selected": 1,
+      "shown": 1
+    },
+    {
+      "distance": 2,
+      "selected": 7,
+      "shown": 7
+    },
+    {
+      "distance": 3,
+      "selected": 2,
+      "shown": 2
+    }
+  ],
+  "center": "doc-4133165018517e2690-entrada",
+  "nodes": [
+    {
+      "id": "doc-4133165018517e2690-entrada",
+      "title": "JubAp.US",
+      "type": "documento",
+      "url": "https://jubap.us/",
+      "original": "https://jubap.us/",
+      "summary": "Documento desde el que se abre este posicionamiento.",
+      "tags": [],
+      "tagWeights": {},
+      "clusters": [
+        "us"
+      ],
+      "distance": 0,
+      "parent": null
+    },
+    {
+      "id": "U2",
+      "type": "ficha",
+      "title": "JubAp.US",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/jubap-us-u2/",
+      "original": "https://jubap.us/",
+      "aliases": [],
+      "clusters": [
+        "us"
+      ],
+      "tags": [
+        "aprendizaje",
+        "decision",
+        "empresa",
+        "navegacion",
+        "transformacion"
+      ],
+      "summary": "Carve-outs, post-merger integration, joint ventures and SPVs. Operating models that connect people, information and execution.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-4133165018517e2690",
+      "tagWeights": {
+        "aprendizaje": 0.1,
+        "decision": 0.1,
+        "empresa": 0.4,
+        "navegacion": 0.05,
+        "transformacion": 0.35
+      },
+      "contextTokens": 117,
+      "distance": 1,
+      "parent": "doc-4133165018517e2690-entrada",
+      "routeEdge": null,
+      "affinity": 1
+    },
+    {
+      "id": "U1312",
+      "type": "ficha",
+      "title": "Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-luxury-group-hr-information-system-rationalization-smart-scheduling-u1312/",
+      "original": "https://jubap.us/luxury-group-hr-information-system-rationalization-smart-scheduling-capabilities-deployment/",
+      "aliases": [],
+      "clusters": [
+        "us"
+      ],
+      "tags": [
+        "aprendizaje",
+        "capacidad-humana",
+        "casos",
+        "empresa",
+        "representacion",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-2b9ae79941e4c9bc03",
+      "tagWeights": {
+        "aprendizaje": 0.0769,
+        "capacidad-humana": 0.0769,
+        "casos": 0.1923,
+        "empresa": 0.3462,
+        "representacion": 0.0769,
+        "transformacion": 0.2308
+      },
+      "contextTokens": 150,
+      "distance": 2,
+      "parent": "U2",
+      "routeEdge": "navigation:position-nav-U2-U1312",
+      "affinity": 1
+    },
+    {
+      "id": "U1317",
+      "type": "ficha",
+      "title": "Case Study: Texas-to-Mexico Oilfield Services Transformation: Knowledge Transfer, Industrialization, and Compliance",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-texas-to-mexico-oilfield-services-transformation-knowledge-transfer-u1317/",
+      "original": "https://jubap.us/case-study-texas-to-mexico-oilfield-services-transformation-knowledge-transfer-industrialization-and-compliance/",
+      "aliases": [],
+      "clusters": [
+        "us"
+      ],
+      "tags": [
+        "aprendizaje",
+        "autoridad",
+        "casos",
+        "decision",
+        "empresa",
+        "experimentacion",
+        "memoria-territorio",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-77737ec7cd6b404d4d",
+      "tagWeights": {
+        "aprendizaje": 0.0667,
+        "autoridad": 0.0667,
+        "casos": 0.1667,
+        "decision": 0.1,
+        "empresa": 0.1666,
+        "experimentacion": 0.1666,
+        "memoria-territorio": 0.0667,
+        "transformacion": 0.2
+      },
+      "contextTokens": 189,
+      "distance": 2,
+      "parent": "U2",
+      "routeEdge": "navigation:position-nav-U2-U1317",
+      "affinity": 1
+    },
+    {
+      "id": "U1322",
+      "type": "ficha",
+      "title": "Case Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-weatherford-multi-level-information-management-for-oilfield-supplie-u1322/",
+      "original": "https://jubap.us/case-study-weatherford-multi-level-information-management-for-oilfield-supplier-management/",
+      "aliases": [],
+      "clusters": [
+        "us"
+      ],
+      "tags": [
+        "casos",
+        "empresa",
+        "evidencia"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-1d239c367168fe979d",
+      "tagWeights": {
+        "casos": 0.2381,
+        "empresa": 0.619,
+        "evidencia": 0.1429
+      },
+      "contextTokens": 116,
+      "distance": 2,
+      "parent": "U2",
+      "routeEdge": "navigation:position-nav-U2-U1322",
+      "affinity": 1
+    },
+    {
+      "id": "U1325",
+      "type": "ficha",
+      "title": "Case Study: DMG MORI — Multilevel Post-Merger Integration, International Supply Chain Control & Mission-Critical Industrial Delivery (2013 – 2016)",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-dmg-mori-multilevel-post-merger-integration-international-supply-ch-u1325/",
+      "original": "https://jubap.us/case-study-dmg-mori-multilevel-post-merger-integration-international-supply-chain-control-mission-critical-industrial-delivery-2013-2016/",
+      "aliases": [],
+      "clusters": [
+        "us"
+      ],
+      "tags": [
+        "casos",
+        "empresa",
+        "experimentacion",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-9f3c7e5b4ad91dac5e",
+      "tagWeights": {
+        "casos": 0.25,
+        "empresa": 0.25,
+        "experimentacion": 0.25,
+        "transformacion": 0.25
+      },
+      "contextTokens": 167,
+      "distance": 2,
+      "parent": "U2",
+      "routeEdge": "navigation:position-nav-U2-U1325",
+      "affinity": 1
+    },
+    {
+      "id": "U1492",
+      "type": "ficha",
+      "title": "Distributed Operational Intelligence Across the Americas",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/distributed-operational-intelligence-across-the-americas-u1492/",
+      "original": "https://jubap.us/distributed-operational-intelligence-across-the-americas/",
+      "aliases": [],
+      "clusters": [
+        "us"
+      ],
+      "tags": [
+        "decision",
+        "memoria-territorio",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-44d6ba768352369aed",
+      "tagWeights": {
+        "decision": 0.3334,
+        "memoria-territorio": 0.3333,
+        "transformacion": 0.3333
+      },
+      "contextTokens": 94,
+      "distance": 2,
+      "parent": "U2",
+      "routeEdge": "navigation:position-nav-U2-U1492",
+      "affinity": 1
+    },
+    {
+      "id": "U1681",
+      "type": "ficha",
+      "title": "Case Study: Chicontepec Megaproject",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-chicontepec-megaproject-u1681/",
+      "original": "https://jubap.us/case-study-chicontepec-megaproject/",
+      "aliases": [],
+      "clusters": [
+        "us"
+      ],
+      "tags": [
+        "autoridad",
+        "casos",
+        "decision",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-7cf74a1c92226ebd84",
+      "tagWeights": {
+        "autoridad": 0.1818,
+        "casos": 0.4546,
+        "decision": 0.1818,
+        "transformacion": 0.1818
+      },
+      "contextTokens": 110,
+      "distance": 2,
+      "parent": "U2",
+      "routeEdge": "navigation:position-nav-U2-U1681",
+      "affinity": 1
+    },
+    {
+      "id": "U250",
+      "type": "ficha",
+      "title": "Case Studies",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-studies-u250/",
+      "original": "https://jubap.us/case-studies/",
+      "aliases": [],
+      "clusters": [
+        "us"
+      ],
+      "tags": [
+        "casos",
+        "navegacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-2f954185997f95d741",
+      "tagWeights": {
+        "casos": 0.5,
+        "navegacion": 0.5
+      },
+      "contextTokens": 66,
+      "distance": 2,
+      "parent": "U2",
+      "routeEdge": "navigation:position-nav-U2-U250",
+      "affinity": 1
+    },
+    {
+      "id": "G49",
+      "type": "concepto",
+      "title": "HR de lujo y planificación de turnos",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/luxury-hr-and-shift-planning/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "us"
+      ],
+      "tags": [
+        "aprendizaje",
+        "capacidad-humana",
+        "casos",
+        "empresa",
+        "representacion",
+        "transformacion"
+      ],
+      "summary": "A field case connects HR system rationalisation to the operating constraints of scheduling.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "U1312"
+      ],
+      "tagWeights": {
+        "aprendizaje": 0.0769,
+        "capacidad-humana": 0.0769,
+        "casos": 0.1923,
+        "empresa": 0.3462,
+        "representacion": 0.0769,
+        "transformacion": 0.2308
+      },
+      "contextTokens": 120,
+      "positionHeaderTokens": 44,
+      "distance": 3,
+      "parent": "U1312",
+      "routeEdge": "apoyo:U1312:G49",
+      "affinity": 1
+    },
+    {
+      "id": "G52",
+      "type": "concepto",
+      "title": "Weatherford / trazabilidad de proveedor",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/weatherford-supplier-traceability/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "us"
+      ],
+      "tags": [
+        "casos",
+        "empresa",
+        "evidencia"
+      ],
+      "summary": "The case relates supplier decisions to evidence across levels of an oilfield operation.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "U1322"
+      ],
+      "tagWeights": {
+        "casos": 0.2381,
+        "empresa": 0.619,
+        "evidencia": 0.1429
+      },
+      "contextTokens": 83,
+      "positionHeaderTokens": 40,
+      "distance": 3,
+      "parent": "U1322",
+      "routeEdge": "apoyo:U1322:G52",
+      "affinity": 1
+    }
+  ],
+  "edges": [
+    {
+      "id": "contiene:doc-4133165018517e2690-entrada:U2",
+      "from": "doc-4133165018517e2690-entrada",
+      "to": "U2",
+      "kind": "ficha del documento",
+      "reading": "Esta ficha abre la lectura desde el documento de origen.",
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-U2-U1312",
+      "from": "U2",
+      "to": "U1312",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «JubAp.US», el enlace «Luxury Group HR information-system rationalization and workforce capability architecture. Read the case study  ↗» abre «Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment».",
+      "evidence": "https://jubap.us/",
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-U2-U1317",
+      "from": "U2",
+      "to": "U1317",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «JubAp.US», el enlace «Superior Performance Texas-to-Mexico knowledge transfer, operations integration and industrialization. Read the case study  ↗» abre «Case Study: Texas-to-Mexico Oilfield Services Transformation: Knowledge Transfer, Industrialization, and Compliance».",
+      "evidence": "https://jubap.us/",
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-U2-U1322",
+      "from": "U2",
+      "to": "U1322",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «JubAp.US», el enlace «Weatherford Multi-level supplier information, audit readiness and evidence architecture. Read the case study  ↗» abre «Case Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management».",
+      "evidence": "https://jubap.us/",
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-U2-U1325",
+      "from": "U2",
+      "to": "U1325",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «JubAp.US», el enlace «DMG MORI Post-merger integration, international supply-chain control and mission-critical industrial delivery. Read the case study  ↗» abre «Case Study: DMG MORI — Multilevel Post-Merger Integration, International Supply Chain Control & Mission-Critical Industrial Delivery (2013 – 2016)».",
+      "evidence": "https://jubap.us/",
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-U2-U1492",
+      "from": "U2",
+      "to": "U1492",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «JubAp.US», el enlace «Distributed American Innovation account» abre «Distributed Operational Intelligence Across the Americas».",
+      "evidence": "https://jubap.us/",
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-U2-U1681",
+      "from": "U2",
+      "to": "U1681",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «JubAp.US», el enlace «Chicontepec Megaproject SPV structuring, supplier integration and compliance within a complex energy ecosystem. Read the case study  ↗» abre «Case Study: Chicontepec Megaproject».",
+      "evidence": "https://jubap.us/",
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-U2-U250",
+      "from": "U2",
+      "to": "U250",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «JubAp.US», el enlace «Explore our Case Studies» abre «Case Studies».",
+      "evidence": "https://jubap.us/",
+      "route": true
+    },
+    {
+      "id": "apoyo:U1312:G49",
+      "from": "U1312",
+      "to": "G49",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "apoyo:U1322:G52",
+      "from": "U1322",
+      "to": "G52",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:R058",
+      "from": "U1317",
+      "to": "U1322",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Supplier evidence and audit-reactive mapping](https://jubap.us/case-study-weatherford-multi-level-information-management-for-oilfield-supplier-management/).",
+      "evidence": null,
+      "route": false
+    }
+  ],
+  "selection": [
+    {
+      "id": "U2",
+      "type": "ficha",
+      "title": "JubAp.US",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/jubap-us-u2/",
+      "original": "https://jubap.us/",
+      "aliases": [],
+      "clusters": [
+        "us"
+      ],
+      "tags": [
+        "aprendizaje",
+        "decision",
+        "empresa",
+        "navegacion",
+        "transformacion"
+      ],
+      "summary": "Carve-outs, post-merger integration, joint ventures and SPVs. Operating models that connect people, information and execution.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-4133165018517e2690",
+      "tagWeights": {
+        "aprendizaje": 0.1,
+        "decision": 0.1,
+        "empresa": 0.4,
+        "navegacion": 0.05,
+        "transformacion": 0.35
+      },
+      "contextTokens": 117,
+      "distance": 1,
+      "parent": "doc-4133165018517e2690-entrada",
+      "routeEdge": null,
+      "affinity": 1
+    },
+    {
+      "id": "U1312",
+      "type": "ficha",
+      "title": "Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-luxury-group-hr-information-system-rationalization-smart-scheduling-u1312/",
+      "original": "https://jubap.us/luxury-group-hr-information-system-rationalization-smart-scheduling-capabilities-deployment/",
+      "aliases": [],
+      "clusters": [
+        "us"
+      ],
+      "tags": [
+        "aprendizaje",
+        "capacidad-humana",
+        "casos",
+        "empresa",
+        "representacion",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-2b9ae79941e4c9bc03",
+      "tagWeights": {
+        "aprendizaje": 0.0769,
+        "capacidad-humana": 0.0769,
+        "casos": 0.1923,
+        "empresa": 0.3462,
+        "representacion": 0.0769,
+        "transformacion": 0.2308
+      },
+      "contextTokens": 150,
+      "distance": 2,
+      "parent": "U2",
+      "routeEdge": "navigation:position-nav-U2-U1312",
+      "affinity": 1
+    },
+    {
+      "id": "U1317",
+      "type": "ficha",
+      "title": "Case Study: Texas-to-Mexico Oilfield Services Transformation: Knowledge Transfer, Industrialization, and Compliance",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-texas-to-mexico-oilfield-services-transformation-knowledge-transfer-u1317/",
+      "original": "https://jubap.us/case-study-texas-to-mexico-oilfield-services-transformation-knowledge-transfer-industrialization-and-compliance/",
+      "aliases": [],
+      "clusters": [
+        "us"
+      ],
+      "tags": [
+        "aprendizaje",
+        "autoridad",
+        "casos",
+        "decision",
+        "empresa",
+        "experimentacion",
+        "memoria-territorio",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-77737ec7cd6b404d4d",
+      "tagWeights": {
+        "aprendizaje": 0.0667,
+        "autoridad": 0.0667,
+        "casos": 0.1667,
+        "decision": 0.1,
+        "empresa": 0.1666,
+        "experimentacion": 0.1666,
+        "memoria-territorio": 0.0667,
+        "transformacion": 0.2
+      },
+      "contextTokens": 189,
+      "distance": 2,
+      "parent": "U2",
+      "routeEdge": "navigation:position-nav-U2-U1317",
+      "affinity": 1
+    },
+    {
+      "id": "U1322",
+      "type": "ficha",
+      "title": "Case Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-weatherford-multi-level-information-management-for-oilfield-supplie-u1322/",
+      "original": "https://jubap.us/case-study-weatherford-multi-level-information-management-for-oilfield-supplier-management/",
+      "aliases": [],
+      "clusters": [
+        "us"
+      ],
+      "tags": [
+        "casos",
+        "empresa",
+        "evidencia"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-1d239c367168fe979d",
+      "tagWeights": {
+        "casos": 0.2381,
+        "empresa": 0.619,
+        "evidencia": 0.1429
+      },
+      "contextTokens": 116,
+      "distance": 2,
+      "parent": "U2",
+      "routeEdge": "navigation:position-nav-U2-U1322",
+      "affinity": 1
+    },
+    {
+      "id": "U1325",
+      "type": "ficha",
+      "title": "Case Study: DMG MORI — Multilevel Post-Merger Integration, International Supply Chain Control & Mission-Critical Industrial Delivery (2013 – 2016)",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-dmg-mori-multilevel-post-merger-integration-international-supply-ch-u1325/",
+      "original": "https://jubap.us/case-study-dmg-mori-multilevel-post-merger-integration-international-supply-chain-control-mission-critical-industrial-delivery-2013-2016/",
+      "aliases": [],
+      "clusters": [
+        "us"
+      ],
+      "tags": [
+        "casos",
+        "empresa",
+        "experimentacion",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-9f3c7e5b4ad91dac5e",
+      "tagWeights": {
+        "casos": 0.25,
+        "empresa": 0.25,
+        "experimentacion": 0.25,
+        "transformacion": 0.25
+      },
+      "contextTokens": 167,
+      "distance": 2,
+      "parent": "U2",
+      "routeEdge": "navigation:position-nav-U2-U1325",
+      "affinity": 1
+    },
+    {
+      "id": "U1492",
+      "type": "ficha",
+      "title": "Distributed Operational Intelligence Across the Americas",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/distributed-operational-intelligence-across-the-americas-u1492/",
+      "original": "https://jubap.us/distributed-operational-intelligence-across-the-americas/",
+      "aliases": [],
+      "clusters": [
+        "us"
+      ],
+      "tags": [
+        "decision",
+        "memoria-territorio",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-44d6ba768352369aed",
+      "tagWeights": {
+        "decision": 0.3334,
+        "memoria-territorio": 0.3333,
+        "transformacion": 0.3333
+      },
+      "contextTokens": 94,
+      "distance": 2,
+      "parent": "U2",
+      "routeEdge": "navigation:position-nav-U2-U1492",
+      "affinity": 1
+    },
+    {
+      "id": "U1681",
+      "type": "ficha",
+      "title": "Case Study: Chicontepec Megaproject",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-chicontepec-megaproject-u1681/",
+      "original": "https://jubap.us/case-study-chicontepec-megaproject/",
+      "aliases": [],
+      "clusters": [
+        "us"
+      ],
+      "tags": [
+        "autoridad",
+        "casos",
+        "decision",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-7cf74a1c92226ebd84",
+      "tagWeights": {
+        "autoridad": 0.1818,
+        "casos": 0.4546,
+        "decision": 0.1818,
+        "transformacion": 0.1818
+      },
+      "contextTokens": 110,
+      "distance": 2,
+      "parent": "U2",
+      "routeEdge": "navigation:position-nav-U2-U1681",
+      "affinity": 1
+    },
+    {
+      "id": "U250",
+      "type": "ficha",
+      "title": "Case Studies",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-studies-u250/",
+      "original": "https://jubap.us/case-studies/",
+      "aliases": [],
+      "clusters": [
+        "us"
+      ],
+      "tags": [
+        "casos",
+        "navegacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-2f954185997f95d741",
+      "tagWeights": {
+        "casos": 0.5,
+        "navegacion": 0.5
+      },
+      "contextTokens": 66,
+      "distance": 2,
+      "parent": "U2",
+      "routeEdge": "navigation:position-nav-U2-U250",
+      "affinity": 1
+    },
+    {
+      "id": "G49",
+      "type": "concepto",
+      "title": "HR de lujo y planificación de turnos",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/luxury-hr-and-shift-planning/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "us"
+      ],
+      "tags": [
+        "aprendizaje",
+        "capacidad-humana",
+        "casos",
+        "empresa",
+        "representacion",
+        "transformacion"
+      ],
+      "summary": "A field case connects HR system rationalisation to the operating constraints of scheduling.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "U1312"
+      ],
+      "tagWeights": {
+        "aprendizaje": 0.0769,
+        "capacidad-humana": 0.0769,
+        "casos": 0.1923,
+        "empresa": 0.3462,
+        "representacion": 0.0769,
+        "transformacion": 0.2308
+      },
+      "contextTokens": 120,
+      "positionHeaderTokens": 44,
+      "distance": 3,
+      "parent": "U1312",
+      "routeEdge": "apoyo:U1312:G49",
+      "affinity": 1
+    },
+    {
+      "id": "G52",
+      "type": "concepto",
+      "title": "Weatherford / trazabilidad de proveedor",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/weatherford-supplier-traceability/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "us"
+      ],
+      "tags": [
+        "casos",
+        "empresa",
+        "evidencia"
+      ],
+      "summary": "The case relates supplier decisions to evidence across levels of an oilfield operation.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "U1322"
+      ],
+      "tagWeights": {
+        "casos": 0.2381,
+        "empresa": 0.619,
+        "evidencia": 0.1429
+      },
+      "contextTokens": 83,
+      "positionHeaderTokens": 40,
+      "distance": 3,
+      "parent": "U1322",
+      "routeEdge": "apoyo:U1322:G52",
+      "affinity": 1
+    }
+  ],
+  "reading": "# Posicionamiento · JubAp.US\nDocumento de origen: https://jubap.us/\n\n## JubAp.US\nCarve-outs, post-merger integration, joint ventures and SPVs. Operating models that connect people, information and execution.\nEtiquetas: Aprendizaje y transmisión de capacidades 10.00%; Decisiones y responsabilidad 10.00%; Empresa y gestión 40.00%; Índices, contacto y políticas 5.00%; Transformación y continuidad operativa 35.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-us-u2/\nDocumento de origen: https://jubap.us/\n\nJubAp.US → Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment · lectura enlazada desde el documento. Desde «JubAp.US», el enlace «Luxury Group HR information-system rationalization and workforce capability architecture. Read the case study  ↗» abre «Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment».\nFuente de la relación: https://jubap.us/\n\n## Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment\n\nEtiquetas: Aprendizaje y transmisión de capacidades 7.69%; Capacidad humana y deuda de inteligencia 7.69%; Casos de uso y aplicaciones 19.23%; Empresa y gestión 34.62%; Representación y límites formales 7.69%; Transformación y continuidad operativa 23.08%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-study-luxury-group-hr-information-system-rationalization-smart-scheduling-u1312/\nDocumento de origen: https://jubap.us/luxury-group-hr-information-system-rationalization-smart-scheduling-capabilities-deployment/\n\nJubAp.US → Case Study: Texas-to-Mexico Oilfield Services Transformation: Knowledge Transfer, Industrialization, and Compliance · lectura enlazada desde el documento. Desde «JubAp.US», el enlace «Superior Performance Texas-to-Mexico knowledge transfer, operations integration and industrialization. Read the case study  ↗» abre «Case Study: Texas-to-Mexico Oilfield Services Transformation: Knowledge Transfer, Industrialization, and Compliance».\nFuente de la relación: https://jubap.us/\n\n## Case Study: Texas-to-Mexico Oilfield Services Transformation: Knowledge Transfer, Industrialization, and Compliance\n\nEtiquetas: Aprendizaje y transmisión de capacidades 6.67%; Autoridad, permisos y delegación 6.67%; Casos de uso y aplicaciones 16.67%; Decisiones y responsabilidad 10.00%; Empresa y gestión 16.66%; Experimentación, falsación y contraejemplos 16.66%; Memoria, comunidad y territorio 6.67%; Transformación y continuidad operativa 20.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-study-texas-to-mexico-oilfield-services-transformation-knowledge-transfer-u1317/\nDocumento de origen: https://jubap.us/case-study-texas-to-mexico-oilfield-services-transformation-knowledge-transfer-industrialization-and-compliance/\n\nJubAp.US → Case Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management · lectura enlazada desde el documento. Desde «JubAp.US», el enlace «Weatherford Multi-level supplier information, audit readiness and evidence architecture. Read the case study  ↗» abre «Case Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management».\nFuente de la relación: https://jubap.us/\n\n## Case Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management\n\nEtiquetas: Casos de uso y aplicaciones 23.81%; Empresa y gestión 61.90%; Evidencia, procedencia y atribución 14.29%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-study-weatherford-multi-level-information-management-for-oilfield-supplie-u1322/\nDocumento de origen: https://jubap.us/case-study-weatherford-multi-level-information-management-for-oilfield-supplier-management/\n\nJubAp.US → Case Study: DMG MORI — Multilevel Post-Merger Integration, International Supply Chain Control & Mission-Critical Industrial Delivery (2013 – 2016) · lectura enlazada desde el documento. Desde «JubAp.US», el enlace «DMG MORI Post-merger integration, international supply-chain control and mission-critical industrial delivery. Read the case study  ↗» abre «Case Study: DMG MORI — Multilevel Post-Merger Integration, International Supply Chain Control & Mission-Critical Industrial Delivery (2013 – 2016)».\nFuente de la relación: https://jubap.us/\n\n## Case Study: DMG MORI — Multilevel Post-Merger Integration, International Supply Chain Control & Mission-Critical Industrial Delivery (2013 – 2016)\n\nEtiquetas: Casos de uso y aplicaciones 25.00%; Empresa y gestión 25.00%; Experimentación, falsación y contraejemplos 25.00%; Transformación y continuidad operativa 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-study-dmg-mori-multilevel-post-merger-integration-international-supply-ch-u1325/\nDocumento de origen: https://jubap.us/case-study-dmg-mori-multilevel-post-merger-integration-international-supply-chain-control-mission-critical-industrial-delivery-2013-2016/\n\nJubAp.US → Distributed Operational Intelligence Across the Americas · lectura enlazada desde el documento. Desde «JubAp.US», el enlace «Distributed American Innovation account» abre «Distributed Operational Intelligence Across the Americas».\nFuente de la relación: https://jubap.us/\n\n## Distributed Operational Intelligence Across the Americas\n\nEtiquetas: Decisiones y responsabilidad 33.34%; Memoria, comunidad y territorio 33.33%; Transformación y continuidad operativa 33.33%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/distributed-operational-intelligence-across-the-americas-u1492/\nDocumento de origen: https://jubap.us/distributed-operational-intelligence-across-the-americas/\n\nJubAp.US → Case Study: Chicontepec Megaproject · lectura enlazada desde el documento. Desde «JubAp.US», el enlace «Chicontepec Megaproject SPV structuring, supplier integration and compliance within a complex energy ecosystem. Read the case study  ↗» abre «Case Study: Chicontepec Megaproject».\nFuente de la relación: https://jubap.us/\n\n## Case Study: Chicontepec Megaproject\n\nEtiquetas: Autoridad, permisos y delegación 18.18%; Casos de uso y aplicaciones 45.46%; Decisiones y responsabilidad 18.18%; Transformación y continuidad operativa 18.18%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-study-chicontepec-megaproject-u1681/\nDocumento de origen: https://jubap.us/case-study-chicontepec-megaproject/\n\nJubAp.US → Case Studies · lectura enlazada desde el documento. Desde «JubAp.US», el enlace «Explore our Case Studies» abre «Case Studies».\nFuente de la relación: https://jubap.us/\n\n## Case Studies\n\nEtiquetas: Casos de uso y aplicaciones 50.00%; Índices, contacto y políticas 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-studies-u250/\nDocumento de origen: https://jubap.us/case-studies/\n\nCase Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment → HR de lujo y planificación de turnos · documenta el concepto. \n\n## HR de lujo y planificación de turnos\nA field case connects HR system rationalisation to the operating constraints of scheduling.\nEtiquetas: Aprendizaje y transmisión de capacidades 7.69%; Capacidad humana y deuda de inteligencia 7.69%; Casos de uso y aplicaciones 19.23%; Empresa y gestión 34.62%; Representación y límites formales 7.69%; Transformación y continuidad operativa 23.08%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/luxury-hr-and-shift-planning/\n\nCase Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management → Weatherford / trazabilidad de proveedor · documenta el concepto. \n\n## Weatherford / trazabilidad de proveedor\nThe case relates supplier decisions to evidence across levels of an oilfield operation.\nEtiquetas: Casos de uso y aplicaciones 23.81%; Empresa y gestión 61.90%; Evidencia, procedencia y atribución 14.29%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/weatherford-supplier-traceability/\n\n"
+}

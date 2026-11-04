@@ -1,0 +1,154 @@
+{
+  "id": "D-020",
+  "type": "ficha",
+  "title": "De la videoconferencia a GEPLAN",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-020",
+  "documentId": "doc-41f3a410d217128630",
+  "sourceIds": [],
+  "tagWeights": {
+    "aprendizaje": 0.1818,
+    "empresa": 0.1818,
+    "movilidad": 0.4546,
+    "transformacion": 0.1818
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## De la videoconferencia a GEPLAN\nINTERLOCUTOR — ¿Cómo pasaste de instalar videoconferencias a proponer el diseño de un sistema logístico?\nIVÁN —\nFue en ese contexto que la empresa concesionaria del transporte, TETSA, me contrató inicialmente para una tarea puntual: implementar un sistema de videoconferencias entre bases operativas. Pero al entregar ese producto, me animé a proponer algo más ambicioso al propietario: “Si TETSA tuviera un sistema logístico propio, capaz de adaptarse —o incluso predecir— la producción de cada pozo en tiempo real podría tener una ventaja competitiva única que le permitiría ganar contratos por muchos años”.\nArnoldo, un empresario sensato, aceptó el reto. Y con el tiempo no solo lo intentó: confió plenamente en mí. Analizamos y descartamos soluciones comerciales que no se adaptaban a la realidad del terreno, y optamos por desarrollar desde cero un prototipo funcional. Ese prototipo evolucionó hasta convertirse en el núcleo digital de toda la operación logística de PEMEX. Lo llamamos sencillamente GEPLAN: Sistema de GEstión y PLANificación.\nINTERLOCUTOR — Desmontemos el sistema por capas: ¿qué hacía GEPLAN y con qué tecnologías?\nIVÁN —\nGEPLAN tenía varias capas. Por un lado, era un sistema logístico que permitía planificar rutas en territorios sin mapas fiables, integrando tecnologías como Omnitracs para el rastreo satelital, y generando estimaciones de carga y tiempo por pozo y por trayecto. Pero además, funcionaba como una plataforma de comunicaciones, gestión de órdenes de trabajo y monitoreo de eventos en tiempo real: inicio de carga, descarga, trayecto, incidencias.. Estos módulos funcionaban sobre un proto- ERP que también debimos realizar, esto es, un sistema empresarial completo con funciones de almacén, compras, finanzas, recursos humanos y administración. También desarrollamos un sistema de mantenimiento (CMMS) para gestionar la flota de vehículos, anticipando fallos y planificando reparaciones.\nTodo esto se construyó inicialmente en Delphi, luego migrado parcialmente a .NET, y operaba sobre bases de datos como MySQL y PostgreSQL con los desafíos típicos de escalabilidad que podáis imaginar. Fue el primer software que diseñe y a la vez el más completo. Pero el mayor desafío no fue técnico. Fue humano.\nLos usuarios del sistema no tenían cultura digital previa. Así que diseñamos interfaces ultraintuitivas, con principios de usabilidad que yo había aprendido en Nokia pero con botones claros, enormes y en colores con estilo Apple - California. \nA eso se sumaba la diversidad operativa y cultural: múltiples departamentos, formas de trabajo y estructuras de poder que exigían una adaptación constante, como si cada área tuviera su propio idioma organizacional. La presión institucional y humana era altísima. Los resultados que arrojaba el sistema no eran cifras abstractas: definían pagos, bonos de centenares de trabajadores, y la viabilidad operativa de muchos contratistas. Cada número mal interpretado podía generar una crisis. La tensión diaria era máxima.\nEtiquetas: Aprendizaje y transmisión de capacidades 18.18%; Empresa y gestión 18.18%; Movilidad e infraestructura 45.46%; Transformación y continuidad operativa 18.18%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-020\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20%C2%BFC%C3%B3mo%20pasaste%20de%20instalar%20videoconferencias%20a%20proponer%20el%20dise%C3%B1o\n\n",
+  "tokens": 802,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-020:dg-infra",
+      "to": "dg-infra",
+      "title": "Infraestructura habilitadora",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 161,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-infra.json"
+    },
+    {
+      "id": "apoyo:D-020:dg-operations",
+      "to": "dg-operations",
+      "title": "Operación real",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 196,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-operations.json"
+    },
+    {
+      "id": "apoyo:D-020:dg-transform",
+      "to": "dg-transform",
+      "title": "Transformación organizativa",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 213,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-transform.json"
+    },
+    {
+      "id": "documento:dg-087",
+      "to": "D-010",
+      "title": "La responsabilidad que casi nadie ve",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Infraestructura habilitadora».",
+      "relationTokens": 31,
+      "fichaTokens": 310,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-010.json"
+    },
+    {
+      "id": "documento:dg-088",
+      "to": "D-028",
+      "title": "Tres centros de control, una operación",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Infraestructura habilitadora».",
+      "relationTokens": 32,
+      "fichaTokens": 430,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-028.json"
+    },
+    {
+      "id": "documento:dg-091",
+      "to": "D-019",
+      "title": "Chicontepec: entender antes de automatizar",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Operación real».",
+      "relationTokens": 33,
+      "fichaTokens": 461,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-019.json"
+    },
+    {
+      "id": "documento:dg-092",
+      "to": "D-023",
+      "title": "La operación aprende desde dentro",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Operación real».",
+      "relationTokens": 28,
+      "fichaTokens": 513,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-023.json"
+    },
+    {
+      "id": "documento:dg-110",
+      "to": "D-015",
+      "title": "Una experiencia que sobrevivió al fracaso",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Transformación organizativa».",
+      "relationTokens": 31,
+      "fichaTokens": 594,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-015.json"
+    },
+    {
+      "id": "documento:dg-111",
+      "to": "D-024",
+      "title": "De software a transformación organizativa",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Transformación organizativa».",
+      "relationTokens": 30,
+      "fichaTokens": 570,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-024.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-007-D-020",
+      "to": "D-007",
+      "title": "Un centro de investigación que debía funcionar",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Infraestructura habilitadora, Operación real desde las situaciones que describe cada texto.",
+      "relationTokens": 45,
+      "fichaTokens": 380,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-007.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-020-D-149",
+      "to": "D-149",
+      "title": "La tecnología podía funcionar, pero la organización aún no quería cambiar",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Infraestructura habilitadora, Transformación organizativa desde las situaciones que describe cada texto.",
+      "relationTokens": 51,
+      "fichaTokens": 343,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-149.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-043-D-020",
+      "to": "D-043",
+      "title": "Transformar empresas mientras siguen operando",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Operación real, Transformación organizativa desde las situaciones que describe cada texto.",
+      "relationTokens": 44,
+      "fichaTokens": 923,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-043.json"
+    }
+  ]
+}

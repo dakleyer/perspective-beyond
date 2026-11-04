@@ -1,0 +1,83 @@
+{
+  "id": "C13",
+  "type": "concepto",
+  "title": "Reconstrucción por dependencias",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/dependency-aware-reconstruction/",
+  "documentId": null,
+  "sourceIds": [
+    "N1835",
+    "E1567"
+  ],
+  "tagWeights": {
+    "agentes": 0.1563,
+    "autoridad": 0.0625,
+    "control-minimo": 0.0625,
+    "decision": 0.0937,
+    "evidencia": 0.5625,
+    "transformacion": 0.0625
+  },
+  "clusters": [
+    "eu",
+    "net"
+  ],
+  "context": "## Reconstrucción por dependencias\nRecompute descendants affected by a correction and retain independent results.\nEtiquetas: Agentes y coordinación distribuida 15.63%; Autoridad, permisos y delegación 6.25%; Control mínimo y suficiencia 6.25%; Decisiones y responsabilidad 9.37%; Evidencia, procedencia y atribución 56.25%; Transformación y continuidad operativa 6.25%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/dependency-aware-reconstruction/\n\n",
+  "tokens": 111,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:N1835:C13",
+      "to": "N1835",
+      "title": "Phylons relabeling cascades",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 74,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1835.json"
+    },
+    {
+      "id": "apoyo:E1567:C13",
+      "to": "E1567",
+      "title": "Piece Identity & Inventory Orchestration",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 130,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1567.json"
+    },
+    {
+      "id": "concepto:D010",
+      "to": "C12",
+      "title": "Procedencia auditable",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "Dependency-aware rebuilding could make corrections to piece identity auditable without erasing the custody history.",
+      "relationTokens": 33,
+      "fichaTokens": 276,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C12.json"
+    },
+    {
+      "id": "concepto:B516",
+      "to": "G28",
+      "title": "Phylons y reconstrucción temporal",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 104,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G28.json"
+    },
+    {
+      "id": "concepto:B599",
+      "to": "G45",
+      "title": "The Patch that Undid the Fix",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 185,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G45.json"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "C118",
+  "type": "concepto",
+  "title": "Oráculo de referencia acotado",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/bounded-reference-oracle/",
+  "documentId": null,
+  "sourceIds": [
+    "GH047",
+    "T2744"
+  ],
+  "tagWeights": {
+    "cambio-regimen": 0.0167,
+    "cartografia": 0.0833,
+    "casos": 0.0833,
+    "documentacion": 0.1334,
+    "estandares": 0.2666,
+    "evidencia": 0.0167,
+    "experimentacion": 0.3833,
+    "mundo-abierto": 0.0167
+  },
+  "clusters": [
+    "research",
+    "tegrity"
+  ],
+  "context": "## Oráculo de referencia acotado\nAn evaluator may access fixture information withheld from the system under test.\nEtiquetas: Cambios de régimen y alerta temprana 1.67%; Cartografía y señales de ecosistema 8.33%; Casos de uso y aplicaciones 8.33%; Investigación y documentación técnica 13.34%; Estándares e interoperabilidad 26.66%; Evidencia, procedencia y atribución 1.67%; Experimentación, falsación y contraejemplos 38.33%; Mundo abierto e indeterminación 1.67%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/bounded-reference-oracle/\n\n",
+  "tokens": 142,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH047:C118",
+      "to": "GH047",
+      "title": "Annex 00D-A01 — Reference-Scenario Test Artifacts and Bounded Reference-Oracle Construction & Test Design — Ecosystem Awareness",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 43,
+      "fichaTokens": 279,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH047.json"
+    },
+    {
+      "id": "apoyo:T2744:C118",
+      "to": "T2744",
+      "title": "From Field Practice to Pre-Standardization: An Extensible Case-Study Framework",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 31,
+      "fichaTokens": 105,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2744.json"
+    },
+    {
+      "id": "concepto:G047",
+      "to": "C49",
+      "title": "Modelo mínimo de caso",
+      "direction": "saliente",
+      "kind": "documented use",
+      "reading": "The bounded-oracle design makes a case-study test inspectable by separating referee knowledge, candidate observations and the declared failure condition.",
+      "relationTokens": 41,
+      "fichaTokens": 231,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C49.json"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "np-experiencia",
+  "type": "ficha",
+  "title": "¿Qué ocurrió primero: la experiencia o la idea?",
+  "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-experiencia",
+  "documentId": "doc-c14dafd6a67314318b",
+  "sourceIds": [],
+  "tagWeights": {
+    "aprendizaje": 0.4445,
+    "empresa": 0.4444,
+    "perspectiva": 0.1111
+  },
+  "clusters": [
+    "imsv"
+  ],
+  "context": "## ¿Qué ocurrió primero: la experiencia o la idea?\nLa reflexión escrita ordenó un patrón que ya se observaba en prácticas humanas y organizativas. Las experiencias se solaparon, de modo que el aprendizaje circuló entre la formulación y el trabajo de campo.\nEtiquetas: Aprendizaje y transmisión de capacidades 44.45%; Empresa y gestión 44.44%; Cambio de perspectiva 11.11%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-experiencia\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/experiencia-e-idea/\n\n",
+  "tokens": 133,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "documento:np-r02",
+      "to": "np-manifiesto",
+      "title": "El manifiesto original de Nueva Perspectiva",
+      "direction": "entrante",
+      "kind": "origen",
+      "reading": "La conversación permite situar la experiencia previa a la formulación escrita.",
+      "relationTokens": 38,
+      "fichaTokens": 105,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-manifiesto.json"
+    },
+    {
+      "id": "documento:np-r03",
+      "to": "np-sierra",
+      "title": "La sierra del Totonacapan: el origen vivencial",
+      "direction": "saliente",
+      "kind": "trayectoria",
+      "reading": "La sierra concreta una de las experiencias que precedieron o acompañaron la formulación.",
+      "relationTokens": 45,
+      "fichaTokens": 128,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-sierra.json"
+    }
+  ]
+}

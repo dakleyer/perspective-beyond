@@ -1,0 +1,154 @@
+{
+  "id": "G30",
+  "type": "concepto",
+  "title": "Mobility OS / coordinación distribuida",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/mobility-os-and-distributed-coordination/",
+  "documentId": null,
+  "sourceIds": [
+    "E1953",
+    "E1954",
+    "E1958",
+    "E1959",
+    "N1843"
+  ],
+  "tagWeights": {
+    "agentes": 0.1107,
+    "autoridad": 0.0377,
+    "casos": 0.07,
+    "decision": 0.0634,
+    "documentacion": 0.0417,
+    "evidencia": 0.1101,
+    "memoria-territorio": 0.0551,
+    "movilidad": 0.5113
+  },
+  "clusters": [
+    "mobility",
+    "net"
+  ],
+  "context": "## Mobility OS / coordinación distribuida\nMobility OS connects demand, capacity, choices, commitments and execution across actors.\nEtiquetas: Agentes y coordinación distribuida 11.07%; Autoridad, permisos y delegación 3.77%; Casos de uso y aplicaciones 7.00%; Decisiones y responsabilidad 6.34%; Investigación y documentación técnica 4.17%; Evidencia, procedencia y atribución 11.01%; Memoria, comunidad y territorio 5.51%; Movilidad e infraestructura 51.13%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/mobility-os-and-distributed-coordination/\n\n",
+  "tokens": 138,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:E1953:G30",
+      "to": "E1953",
+      "title": "Car Evolution Mobility OS",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 105,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1953.json"
+    },
+    {
+      "id": "apoyo:E1954:G30",
+      "to": "E1954",
+      "title": "Car Evolution Mobility OS – Product Annex",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 117,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1954.json"
+    },
+    {
+      "id": "apoyo:E1958:G30",
+      "to": "E1958",
+      "title": "Car Evolution Mobility OS – Evidence Cases 01-02",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 107,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1958.json"
+    },
+    {
+      "id": "apoyo:E1959:G30",
+      "to": "E1959",
+      "title": "Car Evolution Mobility OS – Evidence Cases 03-07",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 136,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1959.json"
+    },
+    {
+      "id": "apoyo:N1843:G30",
+      "to": "N1843",
+      "title": "Tuxpan Urban Service Case Study",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 118,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1843.json"
+    },
+    {
+      "id": "concepto:B525",
+      "to": "C57",
+      "title": "Continuidad distribuida",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 290,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C57.json"
+    },
+    {
+      "id": "concepto:B526",
+      "to": "C40",
+      "title": "Alerta y respuesta",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 149,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C40.json"
+    },
+    {
+      "id": "concepto:B527",
+      "to": "G10",
+      "title": "Epistemic handoff / transferencia contextual",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 129,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G10.json"
+    },
+    {
+      "id": "concepto:B528",
+      "to": "G06",
+      "title": "Regime Awareness (RA)",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 190,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G06.json"
+    },
+    {
+      "id": "concepto:B529",
+      "to": "G07",
+      "title": "Minimum Sufficient Control Architecture (MSCA)",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 209,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G07.json"
+    },
+    {
+      "id": "concepto:P20",
+      "to": "G27",
+      "title": "xSeil y problemas de asignación",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 93,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G27.json"
+    }
+  ]
+}

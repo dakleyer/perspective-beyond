@@ -1,0 +1,77 @@
+{
+  "id": "G51",
+  "type": "concepto",
+  "title": "Robótica Greater China / integración operativa",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/greater-china-robotics-and-operational-integration/",
+  "documentId": null,
+  "sourceIds": [
+    "E1526"
+  ],
+  "tagWeights": {
+    "estandares": 0.4,
+    "transformacion": 0.6
+  },
+  "clusters": [
+    "eu"
+  ],
+  "context": "## Robótica Greater China / integración operativa\nThe case connects cross-territory manufacturing and robotics capability with operating integration.\nEtiquetas: Estándares e interoperabilidad 40.00%; Transformación y continuidad operativa 60.00%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/greater-china-robotics-and-operational-integration/\n\n",
+  "tokens": 79,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:E1526:G51",
+      "to": "E1526",
+      "title": "Greater China Robotics",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 84,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1526.json"
+    },
+    {
+      "id": "concepto:B627",
+      "to": "C27",
+      "title": "Transferencia de contexto",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 257,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C27.json"
+    },
+    {
+      "id": "concepto:B628",
+      "to": "C57",
+      "title": "Continuidad distribuida",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 290,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C57.json"
+    },
+    {
+      "id": "concepto:B629",
+      "to": "G10",
+      "title": "Epistemic handoff / transferencia contextual",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 129,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G10.json"
+    },
+    {
+      "id": "concepto:B630",
+      "to": "G04",
+      "title": "Ecosystem Positioning",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 232,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G04.json"
+    }
+  ]
+}

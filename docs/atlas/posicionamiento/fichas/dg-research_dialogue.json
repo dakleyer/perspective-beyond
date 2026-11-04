@@ -1,0 +1,176 @@
+{
+  "id": "dg-research_dialogue",
+  "type": "concepto",
+  "title": "Diálogo de investigación y prueba acotada",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-research_dialogue",
+  "documentId": null,
+  "sourceIds": [
+    "D-206",
+    "D-258",
+    "D-281",
+    "D-283",
+    "D-291",
+    "D-292"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.0556,
+    "autoridad": 0.3333,
+    "decision": 0.0833,
+    "empresa": 0.0556,
+    "evidencia": 0.15,
+    "experimentacion": 0.1667,
+    "memoria-territorio": 0.1,
+    "transformacion": 0.0555
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Diálogo de investigación y prueba acotada\nSeparar formulación de preguntas, estudio exploratorio, investigación por factor e intervención opcional.\nEtiquetas: Aprendizaje y transmisión de capacidades 5.56%; Autoridad, permisos y delegación 33.33%; Decisiones y responsabilidad 8.33%; Empresa y gestión 5.56%; Evidencia, procedencia y atribución 15.00%; Experimentación, falsación y contraejemplos 16.67%; Memoria, comunidad y territorio 10.00%; Transformación y continuidad operativa 5.55%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-research_dialogue\n\n",
+  "tokens": 150,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-206:dg-research_dialogue",
+      "to": "D-206",
+      "title": "Un diálogo de investigación no es un diagnóstico disfrazado",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 412,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-206.json"
+    },
+    {
+      "id": "apoyo:D-258:dg-research_dialogue",
+      "to": "D-258",
+      "title": "La ciencia también puede excluir una idea dejándola sin interlocutor",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 408,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-258.json"
+    },
+    {
+      "id": "apoyo:D-281:dg-research_dialogue",
+      "to": "D-281",
+      "title": "Antes de cerrar un universo, alguien debe decidir qué entra en él",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 407,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-281.json"
+    },
+    {
+      "id": "apoyo:D-283:dg-research_dialogue",
+      "to": "D-283",
+      "title": "Una serie rigurosa deja examinar cada eslabón por separado",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 419,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-283.json"
+    },
+    {
+      "id": "apoyo:D-291:dg-research_dialogue",
+      "to": "D-291",
+      "title": "La inteligencia artificial también puede ser una máquina de escribir",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 377,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-291.json"
+    },
+    {
+      "id": "apoyo:D-292:dg-research_dialogue",
+      "to": "D-292",
+      "title": "La IA explota el marco cuando el explorador lo vuelve explícito",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 31,
+      "fichaTokens": 376,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-292.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-126",
+      "to": "dg-doubt",
+      "title": "Duda, pruebas y conocimiento corregible",
+      "direction": "saliente",
+      "kind": "separa preguntas y veredicto",
+      "reading": "Un estudio puede detectar evidencia ausente y negar una hipótesis.",
+      "relationTokens": 40,
+      "fichaTokens": 258,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-doubt.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-127",
+      "to": "dg-transform",
+      "title": "Transformación organizativa",
+      "direction": "saliente",
+      "kind": "no presupone intervención",
+      "reading": "El diálogo y el estudio son resultados propios antes de un contrato aplicado.",
+      "relationTokens": 34,
+      "fichaTokens": 213,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-transform.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-230",
+      "to": "dg-epistemic_silence",
+      "title": "Exclusión por omisión de interlocución",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.10",
+      "reading": "La crítica debe permitir interlocución y rectificación.",
+      "relationTokens": 39,
+      "fichaTokens": 98,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-epistemic_silence.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-258",
+      "to": "dg-inspiration_discipline",
+      "title": "Inspiración sometida a comprobación",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.11",
+      "reading": "Convertir intuición en hipótesis.",
+      "relationTokens": 35,
+      "fichaTokens": 99,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-inspiration_discipline.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-281",
+      "to": "dg-human_oracle",
+      "title": "Trabajo humano de delimitar el problema",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.11",
+      "reading": "El investigador como crítico.",
+      "relationTokens": 32,
+      "fichaTokens": 90,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-human_oracle.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-288",
+      "to": "dg-epistemic_increment",
+      "title": "Demostrar o refutar paso por paso",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.11",
+      "reading": "Separar discusión y resultado.",
+      "relationTokens": 34,
+      "fichaTokens": 101,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-epistemic_increment.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-303",
+      "to": "dg-ai_writing_boundary",
+      "title": "Máquina de escribir, pensamiento y autoría",
+      "direction": "entrante",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "Distinguir intervención y elaboración.",
+      "relationTokens": 35,
+      "fichaTokens": 88,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-ai_writing_boundary.json"
+    }
+  ]
+}

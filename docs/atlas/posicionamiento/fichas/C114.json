@@ -1,0 +1,138 @@
+{
+  "id": "C114",
+  "type": "concepto",
+  "title": "Diagnóstico de insuficiencia frente a reconstrucción",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/diagnosing-insufficiency-and-reconstructing-information/",
+  "documentId": null,
+  "sourceIds": [
+    "E1628",
+    "GH009",
+    "GH030",
+    "GH005",
+    "GH074"
+  ],
+  "tagWeights": {
+    "autoridad": 0.0308,
+    "cambio-regimen": 0.0476,
+    "cartografia": 0.0095,
+    "control-minimo": 0.2318,
+    "decision": 0.0712,
+    "documentacion": 0.0689,
+    "economia": 0.0837,
+    "evidencia": 0.0294,
+    "experimentacion": 0.119,
+    "matematicas": 0.0421,
+    "mundo-abierto": 0.0694,
+    "perspectiva": 0.0572,
+    "representacion": 0.1144,
+    "transformacion": 0.025
+  },
+  "clusters": [
+    "eu",
+    "research"
+  ],
+  "context": "## Diagnóstico de insuficiencia frente a reconstrucción\nShowing that a record is insufficient is different from acquiring a representation that answers the question.\nEtiquetas: Autoridad, permisos y delegación 3.08%; Cambios de régimen y alerta temprana 4.76%; Cartografía y señales de ecosistema 0.95%; Control mínimo y suficiencia 23.18%; Decisiones y responsabilidad 7.12%; Investigación y documentación técnica 6.89%; Economía, costes y liquidez 8.37%; Evidencia, procedencia y atribución 2.94%; Experimentación, falsación y contraejemplos 11.90%; Matemáticas 4.21%; Mundo abierto e indeterminación 6.94%; Cambio de perspectiva 5.72%; Representación y límites formales 11.44%; Transformación y continuidad operativa 2.50%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/diagnosing-insufficiency-and-reconstructing-information/\n\n",
+  "tokens": 212,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:E1628:C114",
+      "to": "E1628",
+      "title": "The JUBAP Framework",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 152,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1628.json"
+    },
+    {
+      "id": "apoyo:GH009:C114",
+      "to": "GH009",
+      "title": "Structural Awareness — The Value of an Unresolved Frontier and Two-Phase Contextual Requalification",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 36,
+      "fichaTokens": 247,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH009.json"
+    },
+    {
+      "id": "apoyo:GH030:C114",
+      "to": "GH030",
+      "title": "Why bounded awareness may prevent mission drift without exhaustive domain knowledge",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 282,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH030.json"
+    },
+    {
+      "id": "apoyo:GH005:C114",
+      "to": "GH005",
+      "title": "Metasyntactic Architecture for Open Ecosystems",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 240,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH005.json"
+    },
+    {
+      "id": "apoyo:GH074:C114",
+      "to": "GH074",
+      "title": "G-04 — Factorial de coordinación y contraste FH-C con mecanismos observables",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 34,
+      "fichaTokens": 175,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH074.json"
+    },
+    {
+      "id": "concepto:G030",
+      "to": "C64",
+      "title": "Cambio de perspectiva humano",
+      "direction": "entrante",
+      "kind": "hypothesis",
+      "reading": "JUBAP’s perspective shift could motivate a test of whether recognizing a frame’s limits protects the mission more effectively than adding unrelated domain detail.",
+      "relationTokens": 46,
+      "fichaTokens": 220,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C64.json"
+    },
+    {
+      "id": "concepto:G072",
+      "to": "C64",
+      "title": "Cambio de perspectiva humano",
+      "direction": "entrante",
+      "kind": "hypothesis",
+      "reading": "The framework’s perspective shift may motivate a later test of epistemic-limit awareness, without making its historical cases evidence that FH-C is already proven.",
+      "relationTokens": 47,
+      "fichaTokens": 220,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C64.json"
+    },
+    {
+      "id": "concepto:G081",
+      "to": "C112",
+      "title": "Metapropiedad cualificada del residual",
+      "direction": "entrante",
+      "kind": "documented use",
+      "reading": "Part I’s expressive and weak-information results lead to a separate utility and reconstruction problem; recognizing a limit does not supply the missing decoder.",
+      "relationTokens": 50,
+      "fichaTokens": 139,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C112.json"
+    },
+    {
+      "id": "concepto:G090",
+      "to": "C46",
+      "title": "Ablación de mecanismos",
+      "direction": "entrante",
+      "kind": "hypothesis",
+      "reading": "A source-native factorial can make a bounded FH-C question more falsifiable without turning a synthetic mechanism into demonstrated real-world causal priority.",
+      "relationTokens": 45,
+      "fichaTokens": 236,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C46.json"
+    }
+  ]
+}

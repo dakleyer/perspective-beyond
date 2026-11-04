@@ -1,0 +1,82 @@
+{
+  "id": "C122",
+  "type": "concepto",
+  "title": "Validez histórica y validez al uso",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/historical-and-at-use-validity/",
+  "documentId": null,
+  "sourceIds": [
+    "GH066",
+    "N1835",
+    "GH015"
+  ],
+  "tagWeights": {
+    "documentacion": 0.1447,
+    "evidencia": 0.5476,
+    "matematicas": 0.0256,
+    "mundo-abierto": 0.2821
+  },
+  "clusters": [
+    "net",
+    "research"
+  ],
+  "context": "## Validez histórica y validez al uso\nA rule can be valid for interpreting a past event and inadequate for a current decision.\nEtiquetas: Investigación y documentación técnica 14.47%; Evidencia, procedencia y atribución 54.76%; Matemáticas 2.56%; Mundo abierto e indeterminación 28.21%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/historical-and-at-use-validity/\n\n",
+  "tokens": 94,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH066:C122",
+      "to": "GH066",
+      "title": "Dual-time, provenance-bound certificate contract — SA-O2/O5 → EA review",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 32,
+      "fichaTokens": 180,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH066.json"
+    },
+    {
+      "id": "apoyo:N1835:C122",
+      "to": "N1835",
+      "title": "Phylons relabeling cascades",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 74,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1835.json"
+    },
+    {
+      "id": "apoyo:GH015:C122",
+      "to": "GH015",
+      "title": "Structural Awareness — Operational Residual and Online Context Plasticity",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 176,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH015.json"
+    },
+    {
+      "id": "concepto:G066",
+      "to": "C11",
+      "title": "Tiempo del hecho y del conocimiento",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "A later rule may support historical reinterpretation while being expired or unauthorized for a new action; event time and current-use validity must be checked separately.",
+      "relationTokens": 48,
+      "fichaTokens": 163,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C11.json"
+    },
+    {
+      "id": "concepto:G082",
+      "to": "C115",
+      "title": "Registro previo a admisión y promoción posterior",
+      "direction": "entrante",
+      "kind": "documented use",
+      "reading": "The dual-time contract makes a later implementation obligation explicit: historical reinterpretation and current permission to rely on a certificate must be evaluated separately.",
+      "relationTokens": 48,
+      "fichaTokens": 154,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C115.json"
+    }
+  ]
+}

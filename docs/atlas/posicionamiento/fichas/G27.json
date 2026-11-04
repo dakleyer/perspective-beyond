@@ -1,0 +1,169 @@
+{
+  "id": "G27",
+  "type": "concepto",
+  "title": "xSeil y problemas de asignación",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/xseil-and-assignment-problems/",
+  "documentId": null,
+  "sourceIds": [
+    "N1247",
+    "N2082",
+    "N1819"
+  ],
+  "tagWeights": {
+    "casos": 0.125,
+    "documentacion": 0.0417,
+    "economia": 0.2083,
+    "movilidad": 0.625
+  },
+  "clusters": [
+    "net"
+  ],
+  "context": "## xSeil y problemas de asignación\nxSeil provides a field lineage for constrained assignment and planning under commitments.\nEtiquetas: Casos de uso y aplicaciones 12.50%; Investigación y documentación técnica 4.17%; Economía, costes y liquidez 20.83%; Movilidad e infraestructura 62.50%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/xseil-and-assignment-problems/\n\n",
+  "tokens": 93,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:N1247:G27",
+      "to": "N1247",
+      "title": "JubAp.Net © xSeil Whitepaper",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 82,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1247.json"
+    },
+    {
+      "id": "apoyo:N2082:G27",
+      "to": "N2082",
+      "title": "xSeil: Scenario-Based Planning and Human-Governed Computation",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 118,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N2082.json"
+    },
+    {
+      "id": "apoyo:N1819:G27",
+      "to": "N1819",
+      "title": "xSeil quantum formulation. Companion paper 2",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 91,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1819.json"
+    },
+    {
+      "id": "concepto:B463",
+      "to": "G19",
+      "title": "Contribuciones matemáticas",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 181,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G19.json"
+    },
+    {
+      "id": "concepto:B506",
+      "to": "C01",
+      "title": "Precomputación de factibilidad",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 119,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C01.json"
+    },
+    {
+      "id": "concepto:B507",
+      "to": "C02",
+      "title": "Restricciones de turnos",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 172,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C02.json"
+    },
+    {
+      "id": "concepto:B508",
+      "to": "C03",
+      "title": "Reparación acotada",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 185,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C03.json"
+    },
+    {
+      "id": "concepto:B509",
+      "to": "C05",
+      "title": "Compromiso indivisible",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 131,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C05.json"
+    },
+    {
+      "id": "concepto:B510",
+      "to": "C06",
+      "title": "Compatibilidad global",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 234,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C06.json"
+    },
+    {
+      "id": "concepto:B511",
+      "to": "C07",
+      "title": "Poda segura de búsqueda",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 180,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C07.json"
+    },
+    {
+      "id": "concepto:B512",
+      "to": "C08",
+      "title": "Retiro de aplicaciones",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 177,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C08.json"
+    },
+    {
+      "id": "concepto:B621",
+      "to": "G49",
+      "title": "HR de lujo y planificación de turnos",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 120,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G49.json"
+    },
+    {
+      "id": "concepto:P20",
+      "to": "G30",
+      "title": "Mobility OS / coordinación distribuida",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 138,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G30.json"
+    }
+  ]
+}

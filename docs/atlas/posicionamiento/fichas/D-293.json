@@ -1,0 +1,208 @@
+{
+  "id": "D-293",
+  "type": "ficha",
+  "title": "El cómputo masivo intenta comprar volumen donde falta estructura",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-293",
+  "documentId": "doc-0bfd6adb09d08b0d80",
+  "sourceIds": [],
+  "tagWeights": {
+    "decision": 0.25,
+    "matematicas": 0.25,
+    "representacion": 0.5
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## El cómputo masivo intenta comprar volumen donde falta estructura\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Puede una buena representación ahorrar búsquedas que una máquina intenta resolver acumulando datos?\nREFLEXIÓN DEL DIÁLOGO (solo expresiones breves cotejadas mediante índice contextual, resto elaboración editorial) — Iván resumió la comparación de forma memorable: «El cómputo masivo intenta comprar con volumen lo que el explorador entrega como estructura». No es una declaración de que la computación a gran escala sea inútil, ni que toda intuición humana supere algoritmos. Contrapone dos caminos para tratar un problema: explorar muchas posibilidades dentro de un espacio fijado o encontrar una representación distinta que cambie qué debe explorarse.\n\nLa experiencia de arquitecturas operativas hace comprensible la analogía. Una aplicación puede necesitar más infraestructura para compensar procesos inconexos; un buen modelo de relaciones puede reducir la carga antes de invertir en ejecución. En investigación de IA, sugiere una hipótesis: detectar cambios de contexto y corregir la definición del problema quizá ahorre parte del cómputo dedicado a optimizar dentro de un mundo ya incorrecto.\n\nPero el resultado queda por probar. Harían falta tareas comparables, presupuestos computacionales observables, calidad de decisiones y casos donde la reestructuración no ayuda. La diferencia no es «humano bueno/máquina mala», sino volumen de búsqueda frente a calidad del espacio de búsqueda.\nEtiquetas: Decisiones y responsabilidad 25.00%; Matemáticas 25.00%; Representación y límites formales 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-293\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-293.html\n\n",
+  "tokens": 390,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-293:dg-math",
+      "to": "dg-math",
+      "title": "Pensamiento matemático",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 177,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-math.json"
+    },
+    {
+      "id": "apoyo:D-293:dg-structure",
+      "to": "dg-structure",
+      "title": "Conciencia estructural",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 256,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-structure.json"
+    },
+    {
+      "id": "apoyo:D-293:dg-measure",
+      "to": "dg-measure",
+      "title": "Medir decisiones y consecuencias",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 202,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-measure.json"
+    },
+    {
+      "id": "apoyo:D-293:dg-meta_discrimination",
+      "to": "dg-meta_discrimination",
+      "title": "Carga de validar sistemas y sus entradas",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 137,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-meta_discrimination.json"
+    },
+    {
+      "id": "apoyo:D-293:dg-explorer_compute",
+      "to": "dg-explorer_compute",
+      "title": "Exploración de marcos frente a fuerza computacional",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 31,
+      "fichaTokens": 98,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-explorer_compute.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-293-D-055",
+      "to": "D-055",
+      "title": "El infinito, la máquina y sus límites",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «El cómputo masivo intenta comprar volumen donde falta estructura» con «El infinito, la máquina y sus límites». Permite contrastar Pensamiento matemático.",
+      "relationTokens": 67,
+      "fichaTokens": 541,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-055.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-293-D-095",
+      "to": "D-095",
+      "title": "Capacidad informacional, complejidad y exergía",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «El cómputo masivo intenta comprar volumen donde falta estructura» con «Capacidad informacional, complejidad y exergía». Permite contrastar Pensamiento matemático, Conciencia estructural.",
+      "relationTokens": 80,
+      "fichaTokens": 350,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-095.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-293-D-100",
+      "to": "D-100",
+      "title": "¿Cuánto cuesta saber lo suficiente para decidir?",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «El cómputo masivo intenta comprar volumen donde falta estructura» con «¿Cuánto cuesta saber lo suficiente para decidir?».",
+      "relationTokens": 62,
+      "fichaTokens": 311,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-100.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-293-D-194",
+      "to": "D-194",
+      "title": "Ni «sistemas» por debajo del negocio ni «complejidad» encerrada en teoría",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «El cómputo masivo intenta comprar volumen donde falta estructura» con «Ni «sistemas» por debajo del negocio ni «complejidad» encerrada en teoría». Permite contrastar Conciencia estructural.",
+      "relationTokens": 91,
+      "fichaTokens": 405,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-194.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-293-D-250",
+      "to": "D-250",
+      "title": "Una inversa escrita no puede reconstruir la información que falta",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «El cómputo masivo intenta comprar volumen donde falta estructura» con «Una inversa escrita no puede reconstruir la información que falta». Permite contrastar Pensamiento matemático.",
+      "relationTokens": 75,
+      "fichaTokens": 408,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-250.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-293-D-254",
+      "to": "D-254",
+      "title": "El método nace de una paradoja: la perspectiva que decide también tiene puntos ciegos",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «El cómputo masivo intenta comprar volumen donde falta estructura» con «El método nace de una paradoja: la perspectiva que decide también tiene puntos ciegos».",
+      "relationTokens": 78,
+      "fichaTokens": 437,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-254.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-244-D-293",
+      "to": "D-244",
+      "title": "Una contradicción puede contagiar máquinas antes de que nadie vea el desastre",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Carga de validar sistemas y sus entradas, Conciencia estructural desde las situaciones que describe cada texto.",
+      "relationTokens": 61,
+      "fichaTokens": 430,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-244.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-245-D-293",
+      "to": "D-245",
+      "title": "Llamarlo «AI firewall» no te concede saber qué está filtrando",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Carga de validar sistemas y sus entradas, Conciencia estructural desde las situaciones que describe cada texto.",
+      "relationTokens": 62,
+      "fichaTokens": 430,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-245.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-280-D-293",
+      "to": "D-280",
+      "title": "El investigador también ocupa el lugar del oráculo",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Carga de validar sistemas y sus entradas, Pensamiento matemático desde las situaciones que describe cada texto.",
+      "relationTokens": 56,
+      "fichaTokens": 411,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-280.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-292-D-293",
+      "to": "D-292",
+      "title": "La IA explota el marco cuando el explorador lo vuelve explícito",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Exploración de marcos frente a fuerza computacional, Conciencia estructural desde las situaciones que describe cada texto.",
+      "relationTokens": 63,
+      "fichaTokens": 376,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-292.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-293-D-278",
+      "to": "D-278",
+      "title": "Rechazar una entrada también es tomar una decisión",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Carga de validar sistemas y sus entradas, Pensamiento matemático desde las situaciones que describe cada texto.",
+      "relationTokens": 57,
+      "fichaTokens": 404,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-278.json"
+    },
+    {
+      "id": "documento:dialogue-bridge-D-293-GH006",
+      "to": "GH006",
+      "title": "Structural Awareness — Mathematical Utility of Metasyntactic Operations",
+      "direction": "saliente",
+      "kind": "puente de lectura",
+      "reading": "La comparación entre explorar un marco y acumular cómputo abre una lectura de las operaciones metasyntácticas: qué cambia al modificar la representación del problema.",
+      "relationTokens": 64,
+      "fichaTokens": 229,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH006.json"
+    }
+  ]
+}

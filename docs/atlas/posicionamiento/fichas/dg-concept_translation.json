@@ -1,0 +1,65 @@
+{
+  "id": "dg-concept_translation",
+  "type": "concepto",
+  "title": "Fenómeno, concepto y palabra",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-concept_translation",
+  "documentId": null,
+  "sourceIds": [
+    "D-298"
+  ],
+  "tagWeights": {
+    "geopolitica": 1.0
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Fenómeno, concepto y palabra\nCompartir un fenómeno no asegura categorías culturales idénticas ni vocablos equivalentes.\nEtiquetas: Geopolítica y fronteras 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-concept_translation\n\n",
+  "tokens": 65,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-298:dg-concept_translation",
+      "to": "D-298",
+      "title": "El fuego puede ser compartido como concepto sin tener una palabra común",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 358,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-298.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-320",
+      "to": "dg-language",
+      "title": "Lenguas y pertenencia",
+      "direction": "saliente",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "Palabra y fenómeno no equivalen.",
+      "relationTokens": 30,
+      "fichaTokens": 108,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-language.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-321",
+      "to": "dg-distributed_meaning",
+      "title": "Sentido compartido pero no poseído",
+      "direction": "saliente",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "Un mismo hecho puede recibir categorías distintas.",
+      "relationTokens": 33,
+      "fichaTokens": 156,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-distributed_meaning.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-322",
+      "to": "dg-boundaries",
+      "title": "Fronteras y encuentros",
+      "direction": "saliente",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "Traducción entre comunidades sin equivalencia presupuesta.",
+      "relationTokens": 33,
+      "fichaTokens": 162,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-boundaries.json"
+    }
+  ]
+}

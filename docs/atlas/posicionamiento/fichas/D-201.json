@@ -1,0 +1,119 @@
+{
+  "id": "D-201",
+  "type": "ficha",
+  "title": "Una decisión privada puede ser una moneda de liquidez casi nula",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-201",
+  "documentId": "doc-ca9289e1ca747dcd36",
+  "sourceIds": [],
+  "tagWeights": {
+    "decision": 0.4,
+    "economia": 0.6
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Una decisión privada puede ser una moneda de liquidez casi nula\nINTERLOCUTOR (pregunta editorial, no pronunciada necesariamente) — ¿Qué relación hay entre aceptar una promesa y hacerla circular como dinero?\nREFLEXIÓN DEL MANUSCRITO (edición fiel de un escrito original) — En el manuscrito, Iván amplía deliberadamente la noción de unidad monetaria. Una moneda tiene valor de cambio porque otro agente acepta algo en su lugar. Pero la aceptación puede ser muy estrecha. Una promesa de limpiar la casa, una palabra intercambiada o mi propia decisión de hacer algo pueden funcionar dentro de una economía de dos personas o incluso de un yo presente y uno futuro. La diferencia con el efectivo no es que las primeras carezcan de consecuencias; es su liquidez, la posibilidad de que otros las acepten y las intercambien.\n\nSu ejemplo es tomar cerveza en un banco del parque o en casa en lugar de comprarla en el bar. Esa alternativa se paga con una «decisión» de liquidez prácticamente nula y, sin embargo, afecta a la demanda y a los precios posibles del bar. No se convierte mágicamente en euros; altera el campo de intercambio.\n\nEs una definición experimental, más amplia que el uso corriente o estadístico de «dinero». Su función en el razonamiento es mostrar que la economía no termina donde acaba la moneda oficial y que los compromisos, incluso internos, tienen grados de circulación y de credibilidad.\nEtiquetas: Decisiones y responsabilidad 40.00%; Economía, costes y liquidez 60.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-201\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-201.html\n\n",
+  "tokens": 378,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-201:dg-economy",
+      "to": "dg-economy",
+      "title": "Economía y escasez",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 239,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-economy.json"
+    },
+    {
+      "id": "apoyo:D-201:dg-trust",
+      "to": "dg-trust",
+      "title": "Confianza y equipos",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 186,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-trust.json"
+    },
+    {
+      "id": "apoyo:D-201:dg-commitment",
+      "to": "dg-commitment",
+      "title": "Garantías, deudas y compromisos",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 120,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-commitment.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-201-D-137",
+      "to": "D-137",
+      "title": "El dinero sostiene una promesa que necesita ser creíble",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Una decisión privada puede ser una moneda de liquidez casi nula» con «El dinero sostiene una promesa que necesita ser creíble». Permite contrastar Economía y escasez, Garantías, deudas y compromisos, Confianza y equipos.",
+      "relationTokens": 88,
+      "fichaTokens": 321,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-137.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-201-D-138",
+      "to": "D-138",
+      "title": "El futuro comprometido puede vaciar la capacidad disponible",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Una decisión privada puede ser una moneda de liquidez casi nula» con «El futuro comprometido puede vaciar la capacidad disponible». Permite contrastar Economía y escasez, Garantías, deudas y compromisos.",
+      "relationTokens": 81,
+      "fichaTokens": 334,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-138.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-201-D-139",
+      "to": "D-139",
+      "title": "Lo que creemos que haremos y lo que hacemos no siempre coincide",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Una decisión privada puede ser una moneda de liquidez casi nula» con «Lo que creemos que haremos y lo que hacemos no siempre coincide». Permite contrastar Confianza y equipos.",
+      "relationTokens": 77,
+      "fichaTokens": 317,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-139.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-140-D-201",
+      "to": "D-140",
+      "title": "Los bienes de estatus y la economía de la mirada ajena",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Confianza y equipos, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 57,
+      "fichaTokens": 331,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-140.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-150-D-201",
+      "to": "D-150",
+      "title": "La paz mental de una generación también tuvo precio",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Garantías, deudas y compromisos, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 57,
+      "fichaTokens": 331,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-150.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-201-D-202",
+      "to": "D-202",
+      "title": "Una foto de tomates no es otro tomate",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Garantías, deudas y compromisos, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 56,
+      "fichaTokens": 380,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-202.json"
+    }
+  ]
+}

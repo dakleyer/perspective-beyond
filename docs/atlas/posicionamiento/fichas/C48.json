@@ -1,0 +1,184 @@
+{
+  "id": "C48",
+  "type": "concepto",
+  "title": "Contabilidad de recursos cuánticos",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/quantum-resource-accounting/",
+  "documentId": null,
+  "sourceIds": [
+    "N1815",
+    "N1817",
+    "N1819",
+    "T2744",
+    "T1513",
+    "T2799",
+    "T2814",
+    "GH027"
+  ],
+  "tagWeights": {
+    "cambio-regimen": 0.0368,
+    "cartografia": 0.1042,
+    "casos": 0.0357,
+    "documentacion": 0.1374,
+    "economia": 0.0312,
+    "estandares": 0.0625,
+    "evidencia": 0.0916,
+    "experimentacion": 0.0625,
+    "matematicas": 0.0368,
+    "movilidad": 0.3437,
+    "mundo-abierto": 0.0208,
+    "perspectiva": 0.0368
+  },
+  "clusters": [
+    "net",
+    "research",
+    "tegrity"
+  ],
+  "context": "## Contabilidad de recursos cuánticos\nInclude state preparation, oracle work, measurements and classical processing.\nEtiquetas: Cambios de régimen y alerta temprana 3.68%; Cartografía y señales de ecosistema 10.42%; Casos de uso y aplicaciones 3.57%; Investigación y documentación técnica 13.74%; Economía, costes y liquidez 3.12%; Estándares e interoperabilidad 6.25%; Evidencia, procedencia y atribución 9.16%; Experimentación, falsación y contraejemplos 6.25%; Matemáticas 3.68%; Movilidad e infraestructura 34.37%; Mundo abierto e indeterminación 2.08%; Cambio de perspectiva 3.68%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/quantum-resource-accounting/\n\n",
+  "tokens": 177,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:N1815:C48",
+      "to": "N1815",
+      "title": "xSeil potential quantum formulation",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 68,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1815.json"
+    },
+    {
+      "id": "apoyo:N1817:C48",
+      "to": "N1817",
+      "title": "xSeil quantum formulation. Companion paper",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 74,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1817.json"
+    },
+    {
+      "id": "apoyo:N1819:C48",
+      "to": "N1819",
+      "title": "xSeil quantum formulation. Companion paper 2",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 91,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1819.json"
+    },
+    {
+      "id": "apoyo:T2744:C48",
+      "to": "T2744",
+      "title": "From Field Practice to Pre-Standardization: An Extensible Case-Study Framework",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 31,
+      "fichaTokens": 105,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2744.json"
+    },
+    {
+      "id": "apoyo:T1513:C48",
+      "to": "T1513",
+      "title": "Regime-Aware Semantic Windows: Proposal for Mathematical Assessment and Empirical Validation",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 124,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1513.json"
+    },
+    {
+      "id": "apoyo:T2799:C48",
+      "to": "T2799",
+      "title": "Annex 5 — Six Positive Paths and Quality Plans",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 95,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2799.json"
+    },
+    {
+      "id": "apoyo:T2814:C48",
+      "to": "T2814",
+      "title": "Annex 9 — Claims and Evidence Appendix",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 95,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2814.json"
+    },
+    {
+      "id": "apoyo:GH027:C48",
+      "to": "GH027",
+      "title": "Can Ecosystem Awareness Work?",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 187,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH027.json"
+    },
+    {
+      "id": "concepto:D061",
+      "to": "C15",
+      "title": "Admisibilidad contextual",
+      "direction": "entrante",
+      "kind": "hypothesis",
+      "reading": "Context qualification can define a research instance, but does not remove the cost of state preparation or establish quantum advantage.",
+      "relationTokens": 37,
+      "fichaTokens": 242,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C15.json"
+    },
+    {
+      "id": "concepto:M021",
+      "to": "C47",
+      "title": "Comparación justa",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "A quantum formulation needs a fixed task and a competent classical baseline with preparation, readout and verification costs included.",
+      "relationTokens": 37,
+      "fichaTokens": 204,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C47.json"
+    },
+    {
+      "id": "concepto:M022",
+      "to": "C50",
+      "title": "Estado de una afirmación",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "Oracle definitions, resource estimates and demonstrated results should carry separate evidence labels rather than sharing a single quantum-performance claim.",
+      "relationTokens": 39,
+      "fichaTokens": 295,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C50.json"
+    },
+    {
+      "id": "concepto:M023",
+      "to": "C49",
+      "title": "Modelo mínimo de caso",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "The deployed substrate can define a bounded research task without turning that task into a model of the entire operating system.",
+      "relationTokens": 38,
+      "fichaTokens": 231,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C49.json"
+    },
+    {
+      "id": "concepto:G027",
+      "to": "C50",
+      "title": "Estado de una afirmación",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "A mathematical formulation and a plausibility argument do not establish engineering feasibility or a demonstrated quantum advantage for the historical routing system.",
+      "relationTokens": 41,
+      "fichaTokens": 295,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C50.json"
+    }
+  ]
+}

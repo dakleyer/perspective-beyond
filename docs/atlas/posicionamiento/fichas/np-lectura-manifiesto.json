@@ -1,0 +1,42 @@
+{
+  "id": "np-lectura-manifiesto",
+  "type": "ficha",
+  "title": "El manifiesto, leído en diálogo",
+  "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-lectura-manifiesto",
+  "documentId": "doc-30ca55893f391b5c59",
+  "sourceIds": [],
+  "tagWeights": {
+    "decision": 0.5,
+    "perspectiva": 0.5
+  },
+  "clusters": [
+    "imsv"
+  ],
+  "context": "## El manifiesto, leído en diálogo\nLa lectura distingue deseo, acción, consecuencia y satisfacción. Una nueva idea merece examen racional, observaciones y contraste, para saber si cambió la situación o solo la manera de describirla.\nEtiquetas: Decisiones y responsabilidad 50.00%; Cambio de perspectiva 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-lectura-manifiesto\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/leer-el-manifiesto/\n\n",
+  "tokens": 118,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "documento:np-r06",
+      "to": "np-microempresas",
+      "title": "Microempresarios: mirar el negocio desde otra silla",
+      "direction": "entrante",
+      "kind": "contraste",
+      "reading": "La comparación entre papeles permite examinar la diferencia entre una idea nueva y una decisión comprobable.",
+      "relationTokens": 42,
+      "fichaTokens": 119,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-microempresas.json"
+    },
+    {
+      "id": "documento:np-r07",
+      "to": "np-jump-up",
+      "title": "Del cambio de perspectiva al plan JUMP UP",
+      "direction": "saliente",
+      "kind": "desarrollo",
+      "reading": "El examen racional de una nueva mirada encuentra una expresión práctica en el diseño de la intervención.",
+      "relationTokens": 38,
+      "fichaTokens": 120,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-jump-up.json"
+    }
+  ]
+}

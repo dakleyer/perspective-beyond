@@ -1,0 +1,63 @@
+{
+  "id": "C111",
+  "type": "concepto",
+  "title": "No cierre efectivo del mundo abierto",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/effective-non-closure-in-an-open-world/",
+  "documentId": null,
+  "sourceIds": [
+    "GH008",
+    "N1803"
+  ],
+  "tagWeights": {
+    "casos": 0.0667,
+    "control-minimo": 0.1667,
+    "decision": 0.2467,
+    "experimentacion": 0.02,
+    "matematicas": 0.08,
+    "memoria-territorio": 0.0667,
+    "movilidad": 0.1666,
+    "mundo-abierto": 0.1866
+  },
+  "clusters": [
+    "net",
+    "research"
+  ],
+  "context": "## No cierre efectivo del mundo abierto\nA finite run can close its record while the semantic question remains open.\nEtiquetas: Casos de uso y aplicaciones 6.67%; Control mínimo y suficiencia 16.67%; Decisiones y responsabilidad 24.67%; Experimentación, falsación y contraejemplos 2.00%; Matemáticas 8.00%; Memoria, comunidad y territorio 6.67%; Movilidad e infraestructura 16.66%; Mundo abierto e indeterminación 18.66%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/effective-non-closure-in-an-open-world/\n\n",
+  "tokens": 135,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH008:C111",
+      "to": "GH008",
+      "title": "Open-World Agent Encounters: A Uniform Decision Frontier",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 221,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH008.json"
+    },
+    {
+      "id": "apoyo:N1803:C111",
+      "to": "N1803",
+      "title": "xSeil VRP",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 111,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1803.json"
+    },
+    {
+      "id": "concepto:G008",
+      "to": "C25",
+      "title": "Suficiencia para una decisión",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "A finite routing run can be valid within its declared frame without certifying all future operating conditions; open-world limits do not make every bounded VRP undecidable.",
+      "relationTokens": 50,
+      "fichaTokens": 293,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C25.json"
+    }
+  ]
+}

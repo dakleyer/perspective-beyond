@@ -1,0 +1,42 @@
+{
+  "id": "np-formacion",
+  "type": "ficha",
+  "title": "Formación Integral: del maestro al aprendizaje digital",
+  "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-formacion",
+  "documentId": "doc-b54ac6cef5d7db5901",
+  "sourceIds": [],
+  "tagWeights": {
+    "aprendizaje": 0.5455,
+    "memoria-territorio": 0.4545
+  },
+  "clusters": [
+    "totonacapan"
+  ],
+  "context": "## Formación Integral: del maestro al aprendizaje digital\nLa historia territorial vincula comunidades de práctica, aprendizaje con un maestro y acceso digital. Un medio de transmisión gana valor cuando permite a la persona ejercitar y continuar lo aprendido.\nEtiquetas: Aprendizaje y transmisión de capacidades 54.55%; Memoria, comunidad y territorio 45.45%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-formacion\nDocumento de origen: https://totonacapan.com/?page_id=411\n\n",
+  "tokens": 112,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "documento:np-r20",
+      "to": "np-posada",
+      "title": "La posada como lugar de encuentro",
+      "direction": "entrante",
+      "kind": "transmisión",
+      "reading": "Los lugares de encuentro y los programas de aprendizaje permiten seguir cómo continúa una práctica.",
+      "relationTokens": 35,
+      "fichaTokens": 117,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-posada.json"
+    },
+    {
+      "id": "documento:np-r27",
+      "to": "np-accion-metodo",
+      "title": "Acción Integral: la capacidad de actuar entre personas y sistemas",
+      "direction": "saliente",
+      "kind": "transmisión",
+      "reading": "El ensayo lleva la transmisión de saber a la cooperación y la acción entre personas y sistemas.",
+      "relationTokens": 42,
+      "fichaTokens": 140,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/np-accion-metodo.json"
+    }
+  ]
+}

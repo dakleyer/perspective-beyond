@@ -1,0 +1,180 @@
+{
+  "id": "sac-d1e271b1cb92e6",
+  "type": "ficha",
+  "title": "CU-HIB-01 — Hibernation and Context Sufficiency: R1 → R2 → R3 (Technical Record)",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-d1e271b1cb92e6.html",
+  "documentId": "doc-b9552347cee55e4b0b",
+  "sourceIds": [],
+  "tagWeights": {
+    "autoridad": 0.2917,
+    "cambio-regimen": 0.0417,
+    "casos": 0.1666,
+    "control-minimo": 0.2083,
+    "decision": 0.1666,
+    "evidencia": 0.0417,
+    "experimentacion": 0.0417,
+    "representacion": 0.0417
+  },
+  "clusters": [
+    "research"
+  ],
+  "context": "## CU-HIB-01 — Hibernation and Context Sufficiency: R1 → R2 → R3 (Technical Record)\nEl escenario examina la reactivación de un privilegio cuando cambia el contexto y una fuente deja de responder. La decisión depende de qué autoridad sigue vigente y qué comprobación puede sostenerse con fuentes disponibles. Es un diseño de investigación para contrastar rutas R1, R2 y R3.\nEtiquetas: Autoridad, permisos y delegación 29.17%; Cambios de régimen y alerta temprana 4.17%; Casos de uso y aplicaciones 16.66%; Control mínimo y suficiencia 20.83%; Decisiones y responsabilidad 16.66%; Evidencia, procedencia y atribución 4.17%; Experimentación, falsación y contraejemplos 4.17%; Representación y límites formales 4.17%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-d1e271b1cb92e6.html\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/09398e0b2bdfdd15da940cf0d5e7670b7b4a2035/research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/CU_HIBERNATION_R123_CONTEXT_VERIFICATION_SOURCE_ASLEEP_v0.1.md\n\n",
+  "tokens": 307,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "documento:sac-rel-7dcd7e79c70a9b",
+      "to": "sac-7d7472405c7347",
+      "title": "00G-HF — Extensión de Napoleón y diseño de los recorridos R1–R3",
+      "direction": "entrante",
+      "kind": "permite contrastar otra aplicación",
+      "reading": "El escenario de hibernación plantea qué comprobaciones continúan siendo posibles cuando una fuente de autoridad deja de estar disponible.",
+      "relationTokens": 153,
+      "fichaTokens": 232,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-7d7472405c7347.json"
+    },
+    {
+      "id": "documento:sac-rel-63e5eae830eba0",
+      "to": "GH022",
+      "title": "ACC Lineage, Identity & Authority Binding Profile",
+      "direction": "saliente",
+      "kind": "aplica la pregunta de vigencia",
+      "reading": "El perfil ACC aporta la relación entre identidad, linaje y autoridad que el caso vuelve a examinar al reactivar.",
+      "relationTokens": 157,
+      "fichaTokens": 177,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH022.json"
+    },
+    {
+      "id": "documento:sac-rel-700ad3c3a78760",
+      "to": "sac-c779cbb6298b17",
+      "title": "DDS — campaigns in development",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «DDS — campaigns in development» con el rótulo «technical suspended-source illustration».",
+      "relationTokens": 125,
+      "fichaTokens": 134,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-c779cbb6298b17.json"
+    },
+    {
+      "id": "documento:sac-rel-9224b454c025a4",
+      "to": "sac-7a2a9e7cca1bef",
+      "title": "China Unicom / FG-TIDA Theme #23 — privilege restoration under changing ecosystem context",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «China Unicom / FG-TIDA Theme #23 — privilege restoration under changing ecosystem context» con el rótulo «technical companion».",
+      "relationTokens": 160,
+      "fichaTokens": 213,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-7a2a9e7cca1bef.json"
+    },
+    {
+      "id": "documento:sac-rel-bd9c4f2ea3f7ed",
+      "to": "sac-1932d86d87dec9",
+      "title": "CU-HIB-01 — Hibernation and Current-Context Sufficiency",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Why ecosystem-level information might be relevant» con el rótulo «CU-HIB-01 detailed evidence/source-suspension cases».",
+      "relationTokens": 171,
+      "fichaTokens": 182,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-1932d86d87dec9.json"
+    },
+    {
+      "id": "documento:sac-rel-c50d5a8c4b9ba2",
+      "to": "sac-1932d86d87dec9",
+      "title": "CU-HIB-01 — Hibernation and Current-Context Sufficiency",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «CU-HIB-01 — Hibernation and Context Sufficiency: R1 → R2 → R3 (Technical Record)» con el rótulo «concise, source-facing hibernation/context-sufficiency note».",
+      "relationTokens": 192,
+      "fichaTokens": 182,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-1932d86d87dec9.json"
+    },
+    {
+      "id": "documento:sac-rel-3f4ac33b65ad08",
+      "to": "GH027",
+      "title": "Can Ecosystem Awareness Work?",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Scope outcomes and predeclared fallback — preserve the original hibernation question» con el rótulo «00N plausibility and T1–T4 criteria».",
+      "relationTokens": 170,
+      "fichaTokens": 187,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH027.json"
+    },
+    {
+      "id": "documento:sac-rel-9ece57d02bd700",
+      "to": "sac-f777326c4ffcaf",
+      "title": "Deployment Differential Study (DDS) — Stage A: Specification Discovery / Challenge–Trajectory Profile v0.1",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Scope outcomes and predeclared fallback — preserve the original hibernation question» con el rótulo «DDS Stage A Challenge/trajectory method».",
+      "relationTokens": 181,
+      "fichaTokens": 172,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-f777326c4ffcaf.json"
+    },
+    {
+      "id": "documento:sac-rel-4b7fabad1ed85a",
+      "to": "GH026",
+      "title": "A/B/C/D Semantics and Mathematical Plausibility of Scoped Requalification",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «4. One brief plausibility connection — not a defence of EA» con el rótulo «00M».",
+      "relationTokens": 168,
+      "fichaTokens": 216,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH026.json"
+    },
+    {
+      "id": "documento:sac-rel-b637955a572cec",
+      "to": "GH025",
+      "title": "Canonical Requirements: S1–S14, Sufficiency Conditions, Hypotheses and KPIs",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «External research applied to this exact case» con el rótulo «S/T sufficiency conditions».",
+      "relationTokens": 170,
+      "fichaTokens": 247,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH025.json"
+    },
+    {
+      "id": "documento:sac-rel-4e64aadbf1f5ca",
+      "to": "sac-299ec2232dce0a",
+      "title": "CU-HIB-01 — Context Change, Privilege Restoration and Ecosystem-Awareness Specifications",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «External research applied to this exact case» con el rótulo «complete prior technical dossier v0.4».",
+      "relationTokens": 172,
+      "fichaTokens": 289,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-299ec2232dce0a.json"
+    },
+    {
+      "id": "documento:sac-rel-a991a0779106d3",
+      "to": "sac-3339feb076934d",
+      "title": "China Unicom Theme #23 campaign — sources, ownership and custody v0.1",
+      "direction": "saliente",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «External research applied to this exact case» con el rótulo «source and custody».",
+      "relationTokens": 165,
+      "fichaTokens": 174,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-3339feb076934d.json"
+    },
+    {
+      "id": "documento:sac-rel-41b1c555caa756",
+      "to": "sac-3e5af6eedcb6d1",
+      "title": "R1→R2→R3-U — first bounded post-freeze recurrence Challenge run card",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «R1→R2→R3-U — first bounded post-freeze recurrence Challenge run card» con el rótulo «focused hibernation example».",
+      "relationTokens": 180,
+      "fichaTokens": 201,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-3e5af6eedcb6d1.json"
+    },
+    {
+      "id": "documento:sac-rel-586d98fd7fa4c2",
+      "to": "sac-299ec2232dce0a",
+      "title": "CU-HIB-01 — Context Change, Privilege Restoration and Ecosystem-Awareness Specifications",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «CU-HIB-01 — Context Change, Privilege Restoration and Ecosystem-Awareness Specifications» con el rótulo «focused hibernation case».",
+      "relationTokens": 181,
+      "fichaTokens": 289,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/sac-299ec2232dce0a.json"
+    }
+  ]
+}

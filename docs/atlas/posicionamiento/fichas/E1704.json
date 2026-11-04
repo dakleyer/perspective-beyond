@@ -1,0 +1,142 @@
+{
+  "id": "E1704",
+  "type": "ficha",
+  "title": "Rationalization.AI",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/rationalization-ai-e1704/",
+  "documentId": "doc-d18e98f8c622a0dbce",
+  "sourceIds": [],
+  "tagWeights": {
+    "casos": 0.1666,
+    "empresa": 0.4167,
+    "transformacion": 0.4167
+  },
+  "clusters": [
+    "eu"
+  ],
+  "context": "## Rationalization.AI\n\nEtiquetas: Casos de uso y aplicaciones 16.66%; Empresa y gestión 41.67%; Transformación y continuidad operativa 41.67%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/rationalization-ai-e1704/\nDocumento de origen: https://jubap.eu/the-ai-wave-and-rationalization-from-useful-to-essential/\n\n",
+  "tokens": 85,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:E1704:C08",
+      "to": "C08",
+      "title": "Retiro de aplicaciones",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 177,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C08.json"
+    },
+    {
+      "id": "apoyo:E1704:C20",
+      "to": "C20",
+      "title": "Capacidad reutilizable",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 254,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C20.json"
+    },
+    {
+      "id": "apoyo:E1704:C28",
+      "to": "C28",
+      "title": "Capacidad efectiva de respuesta",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 223,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C28.json"
+    },
+    {
+      "id": "apoyo:E1704:C34",
+      "to": "C34",
+      "title": "Contrafactual de carga humana",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 203,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C34.json"
+    },
+    {
+      "id": "documento:M006",
+      "to": "T1391",
+      "title": "The Limits of AI Oversight",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "Automation readiness should account for the review and exception-handling work that remains after routine execution is reduced.",
+      "relationTokens": 36,
+      "fichaTokens": 101,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1391.json"
+    },
+    {
+      "id": "documento:A035",
+      "to": "U1792",
+      "title": "Surviving Capability: Why the Field Celebrates What the Theory Condemns",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "Rationalization should distinguish the removable implementation from the useful function it carries, with an accepted continuity or replacement path before retirement.",
+      "relationTokens": 49,
+      "fichaTokens": 158,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1792.json"
+    },
+    {
+      "id": "documento:R015",
+      "to": "T897",
+      "title": "The Harvester Multiplication Problem: Capability Fragmentation, Governance Collapse and the Compounding of Human Intelligence Debt",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The capability-fragmentation problem](https://tegrity.ai/the-harvester-multiplication-problem-capability-fragmentation-governance-collapse-and-the-compounding-of-human-intelligence-debt/).",
+      "relationTokens": 80,
+      "fichaTokens": 114,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T897.json"
+    },
+    {
+      "id": "documento:R016",
+      "to": "T385",
+      "title": "AI Integrity Architecture: Toward Expert-System Envelopes Around Statistical AI",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Architecture for operational AI integrity](https://tegrity.ai/ai-integrity-architecture-toward-expert-system-envelopes-around-statistical-ai/).",
+      "relationTokens": 63,
+      "fichaTokens": 110,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T385.json"
+    },
+    {
+      "id": "documento:R017",
+      "to": "T2729",
+      "title": "Minimum Sufficient Control Architecture for AI Enabled Urban Systems",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Minimum Sufficient Control Architecture](https://tegrity.ai/minimum-sufficient-control-architecture-for-ai-enabled-urban-systems/).",
+      "relationTokens": 54,
+      "fichaTokens": 83,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2729.json"
+    },
+    {
+      "id": "documento:dialogue-bridge-D-286-E1704",
+      "to": "D-286",
+      "title": "El enjambre de sistemitas es una deuda de gestión",
+      "direction": "entrante",
+      "kind": "puente de lectura",
+      "reading": "El enjambre de sistemas muestra cómo las mejoras locales trasladan costes al conjunto. La racionalización examina dependencias, duplicaciones y capacidad útil antes de añadir otra capa.",
+      "relationTokens": 56,
+      "fichaTokens": 430,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-286.json"
+    },
+    {
+      "id": "documento:dialogue-bridge-D-224-E1704",
+      "to": "D-224",
+      "title": "Compraron control y consiguieron exactamente lo contrario",
+      "direction": "entrante",
+      "kind": "puente de lectura",
+      "reading": "La pérdida de control entre solicitudes y aprobaciones permite examinar la racionalización como reconstrucción del flujo de trabajo y de la responsabilidad por sus resultados.",
+      "relationTokens": 49,
+      "fichaTokens": 427,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-224.json"
+    }
+  ]
+}

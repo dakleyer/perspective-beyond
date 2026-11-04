@@ -1,0 +1,199 @@
+{
+  "id": "D-221",
+  "type": "ficha",
+  "title": "La iniciativa que no se puede mover ya consume recursos",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-221",
+  "documentId": "doc-8b6756e706cf01d4ea",
+  "sourceIds": [],
+  "tagWeights": {
+    "aprendizaje": 0.1539,
+    "casos": 0.1539,
+    "decision": 0.1538,
+    "empresa": 0.3846,
+    "transformacion": 0.1538
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## La iniciativa que no se puede mover ya consume recursos\nINTERLOCUTOR (pregunta editorial; no necesariamente pronunciada) — ¿Qué gana una organización al separar las acciones viables de las que sólo existen en el backlog?\nREFLEXIÓN DEL DIÁLOGO (reconstrucción/síntesis; no cita literal) — Una lista de iniciativas no equivale a una cartera de acciones. En el borrador de evolución de JUBAP aparece una distinción de trabajo: una iniciativa puede tener patrocinador, diapositivas y un KPI convincente, pero no tener personas que la adopten, autorización para avanzar, capacidad disponible o un primer movimiento posible. Mantenerla como proyecto «activo» consume atención y puede hacer que la organización planifique un futuro que no tiene cómo ejecutar.\n\nLa propuesta usa un primer filtro —Joinable, Unblocked, Movable— para preguntar quién puede sumarse, qué bloqueo real existe y qué puede comenzar con los recursos y facultades actuales. No equivale a borrar toda iniciativa que hoy esté esperando; puede clasificarse como obligatoria, aparcada, pendiente de decisión o preparada para otra condición. La separación recupera claridad. La segunda pregunta, Propagating, mira más lejos que la facilidad de ejecución: ¿la acción reduce una dependencia o un coste para otra área, transmite capacidad a la cadena de valor y genera efectos que retornan?\n\nEl caso difícil es el proyecto que mejora el indicador local y perjudica la producción total. Tampoco se presume que todo beneficio de propagación esté medido; el borrador propone contrastarlo con receptores y procesos. Aquí JUBAP deja de ser una consigna de agilidad y se formula como una disciplina de limpieza del backlog y de selección de acciones con efecto sistémico. Es una propuesta en desarrollo, no un método ya validado ni un producto publicado.\nEtiquetas: Aprendizaje y transmisión de capacidades 15.39%; Casos de uso y aplicaciones 15.39%; Decisiones y responsabilidad 15.38%; Empresa y gestión 38.46%; Transformación y continuidad operativa 15.38%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-221\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-221.html\n\n",
+  "tokens": 483,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-221:dg-decision",
+      "to": "dg-decision",
+      "title": "Decisiones entre escenarios",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 169,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-decision.json"
+    },
+    {
+      "id": "apoyo:D-221:dg-transform",
+      "to": "dg-transform",
+      "title": "Transformación organizativa",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 213,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-transform.json"
+    },
+    {
+      "id": "apoyo:D-221:dg-production",
+      "to": "dg-production",
+      "title": "Producción material y continuadores invisibles",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 218,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-production.json"
+    },
+    {
+      "id": "apoyo:D-221:dg-action_viability",
+      "to": "dg-action_viability",
+      "title": "Acción viable y valor que se propaga",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 121,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-action_viability.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-221-D-024",
+      "to": "D-024",
+      "title": "De software a transformación organizativa",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «La iniciativa que no se puede mover ya consume recursos» con «De software a transformación organizativa». Permite contrastar Transformación organizativa.",
+      "relationTokens": 57,
+      "fichaTokens": 570,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-024.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-221-D-100",
+      "to": "D-100",
+      "title": "¿Cuánto cuesta saber lo suficiente para decidir?",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «La iniciativa que no se puede mover ya consume recursos» con «¿Cuánto cuesta saber lo suficiente para decidir?». Permite contrastar Decisiones entre escenarios.",
+      "relationTokens": 65,
+      "fichaTokens": 311,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-100.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-221-D-129",
+      "to": "D-129",
+      "title": "La resistencia al cambio tiene sus propias reglas",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «La iniciativa que no se puede mover ya consume recursos» con «La resistencia al cambio tiene sus propias reglas». Permite contrastar Transformación organizativa.",
+      "relationTokens": 61,
+      "fichaTokens": 309,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-129.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-221-D-149",
+      "to": "D-149",
+      "title": "La tecnología podía funcionar, pero la organización aún no quería cambiar",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «La iniciativa que no se puede mover ya consume recursos» con «La tecnología podía funcionar, pero la organización aún no quería cambiar». Permite contrastar Transformación organizativa.",
+      "relationTokens": 69,
+      "fichaTokens": 343,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-149.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-221-D-180",
+      "to": "D-180",
+      "title": "La encajonadora no obedece a una teoría de gestión",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «La iniciativa que no se puede mover ya consume recursos» con «La encajonadora no obedece a una teoría de gestión». Permite contrastar Transformación organizativa, Producción material y continuadores invisibles.",
+      "relationTokens": 82,
+      "fichaTokens": 352,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-180.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-225-D-221",
+      "to": "D-225",
+      "title": "Un frame es una distribución de opciones, no un eslogan",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Un frame es una distribución de opciones, no un eslogan» con «La iniciativa que no se puede mover ya consume recursos».",
+      "relationTokens": 60,
+      "fichaTokens": 405,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-225.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-226-D-221",
+      "to": "D-226",
+      "title": "Solo cuestionas tu marco cuando mantenerlo duele más",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Solo cuestionas tu marco cuando mantenerlo duele más» con «La iniciativa que no se puede mover ya consume recursos».",
+      "relationTokens": 58,
+      "fichaTokens": 410,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-226.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-232-D-221",
+      "to": "D-232",
+      "title": "El éxito también consiste en saber qué capacidad podar",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «El éxito también consiste en saber qué capacidad podar» con «La iniciativa que no se puede mover ya consume recursos». Permite contrastar Transformación organizativa.",
+      "relationTokens": 65,
+      "fichaTokens": 434,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-232.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-242-D-221",
+      "to": "D-242",
+      "title": "México innova apagando incendios; el problema es que el aprendizaje no siempre queda",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «México innova apagando incendios; el problema es que el aprendizaje no siempre queda» con «La iniciativa que no se puede mover ya consume recursos». Permite contrastar Transformación organizativa.",
+      "relationTokens": 81,
+      "fichaTokens": 440,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-242.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-131-D-221",
+      "to": "D-131",
+      "title": "El salto pequeño prepara un cambio de mayor calado",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Transformación organizativa desde las situaciones que describe cada texto.",
+      "relationTokens": 50,
+      "fichaTokens": 337,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-131.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-132-D-221",
+      "to": "D-132",
+      "title": "Cuando gestión del cambio se convierte en un chivo expiatorio",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Transformación organizativa desde las situaciones que describe cada texto.",
+      "relationTokens": 53,
+      "fichaTokens": 348,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-132.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-182-D-221",
+      "to": "D-182",
+      "title": "Una promesa de movilidad empieza a existir cuando tiene horarios",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Producción material y continuadores invisibles, Decisiones entre escenarios desde las situaciones que describe cada texto.",
+      "relationTokens": 55,
+      "fichaTokens": 361,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-182.json"
+    }
+  ]
+}

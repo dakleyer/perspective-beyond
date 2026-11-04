@@ -1,0 +1,462 @@
+{
+  "schema": "perspective-beyond/positioning-v1",
+  "edition": "2026-11-04",
+  "request": {
+    "posicionamiento": "mobility",
+    "tokens": 2000,
+    "max": 60,
+    "rol": "lector",
+    "lectura": "explore",
+    "enfoque": "parejo",
+    "instruccion": "",
+    "red": "ideas",
+    "sentido": "ambas",
+    "modo": "closed",
+    "site": "mobility",
+    "puente": null,
+    "solo": false,
+    "pesos": []
+  },
+  "position": {
+    "id": "doc-509a767ebeba965190",
+    "title": "Car Evolution Mobility OS",
+    "url": "https://jubap.eu/mobility",
+    "fichas": [
+      "E1953"
+    ],
+    "aliases": [
+      "https://jubap.eu/mobility/"
+    ],
+    "header": "# Posicionamiento · Car Evolution Mobility OS\nDocumento de origen: https://jubap.eu/mobility\n\n",
+    "headerTokens": 23,
+    "type": "documento",
+    "focus": "E1953",
+    "seeds": [
+      "E1953"
+    ]
+  },
+  "budget": {
+    "limit": 2000,
+    "used": 755,
+    "remaining": 1245,
+    "nextBlock": null,
+    "encoding": "o200k_base",
+    "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
+  },
+  "reachable": 5,
+  "selected": 5,
+  "shown": 6,
+  "omittedByBudget": 0,
+  "omittedInDiagram": 0,
+  "layers": [
+    {
+      "distance": 0,
+      "selected": 0,
+      "shown": 1
+    },
+    {
+      "distance": 1,
+      "selected": 1,
+      "shown": 1
+    },
+    {
+      "distance": 2,
+      "selected": 1,
+      "shown": 1
+    },
+    {
+      "distance": 3,
+      "selected": 3,
+      "shown": 3
+    }
+  ],
+  "center": "doc-509a767ebeba965190-entrada",
+  "nodes": [
+    {
+      "id": "doc-509a767ebeba965190-entrada",
+      "title": "Car Evolution Mobility OS",
+      "type": "documento",
+      "url": "https://jubap.eu/mobility",
+      "original": "https://jubap.eu/mobility",
+      "summary": "Documento desde el que se abre este posicionamiento.",
+      "tags": [],
+      "tagWeights": {},
+      "clusters": [
+        "mobility"
+      ],
+      "distance": 0,
+      "parent": null
+    },
+    {
+      "id": "E1953",
+      "type": "ficha",
+      "title": "Car Evolution Mobility OS",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-e1953/",
+      "original": "https://jubap.eu/mobility/",
+      "aliases": [],
+      "clusters": [
+        "mobility"
+      ],
+      "tags": [
+        "agentes",
+        "movilidad"
+      ],
+      "summary": "Cities, authorities and operators already hold the data, the fleets, the routes and the channels. What is added is the layer that turns them into coordinated decisions, in real time.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-509a767ebeba965190",
+      "tagWeights": {
+        "agentes": 0.1667,
+        "movilidad": 0.8333
+      },
+      "contextTokens": 105,
+      "distance": 1,
+      "parent": "doc-509a767ebeba965190-entrada",
+      "routeEdge": null,
+      "affinity": 1
+    },
+    {
+      "id": "E1954",
+      "type": "ficha",
+      "title": "Car Evolution Mobility OS – Product Annex",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-product-annex-e1954/",
+      "original": "https://jubap.eu/mobility/product/",
+      "aliases": [],
+      "clusters": [
+        "mobility"
+      ],
+      "tags": [
+        "agentes",
+        "autoridad",
+        "decision",
+        "documentacion",
+        "memoria-territorio",
+        "movilidad"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-aa8648c3b6a0c57a22",
+      "tagWeights": {
+        "agentes": 0.0833,
+        "autoridad": 0.0833,
+        "decision": 0.125,
+        "documentacion": 0.2084,
+        "memoria-territorio": 0.0833,
+        "movilidad": 0.4167
+      },
+      "contextTokens": 117,
+      "distance": 2,
+      "parent": "E1953",
+      "routeEdge": "documento:R141",
+      "affinity": 1
+    },
+    {
+      "id": "E1957",
+      "type": "ficha",
+      "title": "Car Evolution Mobility OS – Materials",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-materials-e1957/",
+      "original": "https://jubap.eu/mobility/materials/",
+      "aliases": [],
+      "clusters": [
+        "mobility"
+      ],
+      "tags": [
+        "movilidad"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-c5df5cf8fc0687c3e6",
+      "tagWeights": {
+        "movilidad": 1
+      },
+      "contextTokens": 64,
+      "distance": 3,
+      "parent": "E1954",
+      "routeEdge": "documento:R152",
+      "affinity": 1
+    },
+    {
+      "id": "E1958",
+      "type": "ficha",
+      "title": "Car Evolution Mobility OS – Evidence Cases 01-02",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-evidence-cases-01-02-e1958/",
+      "original": "https://jubap.eu/mobility/evidence/case-01-02-valencia/",
+      "aliases": [],
+      "clusters": [
+        "mobility"
+      ],
+      "tags": [
+        "agentes",
+        "evidencia",
+        "movilidad"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-2206fdd056590a7fea",
+      "tagWeights": {
+        "agentes": 0.1111,
+        "evidencia": 0.3333,
+        "movilidad": 0.5556
+      },
+      "contextTokens": 107,
+      "distance": 3,
+      "parent": "E1954",
+      "routeEdge": "documento:R146",
+      "affinity": 1
+    },
+    {
+      "id": "E1959",
+      "type": "ficha",
+      "title": "Car Evolution Mobility OS – Evidence Cases 03-07",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-evidence-cases-03-07-e1959/",
+      "original": "https://jubap.eu/mobility/evidence/case-03-07/",
+      "aliases": [],
+      "clusters": [
+        "mobility"
+      ],
+      "tags": [
+        "agentes",
+        "casos",
+        "decision",
+        "evidencia",
+        "memoria-territorio",
+        "movilidad"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-646e61a22719e81d2f",
+      "tagWeights": {
+        "agentes": 0.087,
+        "casos": 0.087,
+        "decision": 0.0869,
+        "evidencia": 0.2174,
+        "memoria-territorio": 0.0869,
+        "movilidad": 0.4348
+      },
+      "contextTokens": 136,
+      "distance": 3,
+      "parent": "E1954",
+      "routeEdge": "documento:R147",
+      "affinity": 1
+    }
+  ],
+  "edges": [
+    {
+      "id": "contiene:doc-509a767ebeba965190-entrada:E1953",
+      "from": "doc-509a767ebeba965190-entrada",
+      "to": "E1953",
+      "kind": "ficha del documento",
+      "reading": "Esta ficha abre la lectura desde el documento de origen.",
+      "route": true
+    },
+    {
+      "id": "documento:R141",
+      "from": "E1953",
+      "to": "E1954",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Mobility OS product boundary and architecture](https://jubap.eu/mobility/product/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:R152",
+      "from": "E1957",
+      "to": "E1954",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The complete product annex](https://jubap.eu/mobility/product/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:R146",
+      "from": "E1954",
+      "to": "E1958",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Planning and bounded repair: cases 01–02](https://jubap.eu/mobility/evidence/case-01-02-valencia/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:R147",
+      "from": "E1954",
+      "to": "E1959",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Policy and integration exhibits: cases 03–07](https://jubap.eu/mobility/evidence/case-03-07/).",
+      "evidence": null,
+      "route": true
+    }
+  ],
+  "selection": [
+    {
+      "id": "E1953",
+      "type": "ficha",
+      "title": "Car Evolution Mobility OS",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-e1953/",
+      "original": "https://jubap.eu/mobility/",
+      "aliases": [],
+      "clusters": [
+        "mobility"
+      ],
+      "tags": [
+        "agentes",
+        "movilidad"
+      ],
+      "summary": "Cities, authorities and operators already hold the data, the fleets, the routes and the channels. What is added is the layer that turns them into coordinated decisions, in real time.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-509a767ebeba965190",
+      "tagWeights": {
+        "agentes": 0.1667,
+        "movilidad": 0.8333
+      },
+      "contextTokens": 105,
+      "distance": 1,
+      "parent": "doc-509a767ebeba965190-entrada",
+      "routeEdge": null,
+      "affinity": 1
+    },
+    {
+      "id": "E1954",
+      "type": "ficha",
+      "title": "Car Evolution Mobility OS – Product Annex",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-product-annex-e1954/",
+      "original": "https://jubap.eu/mobility/product/",
+      "aliases": [],
+      "clusters": [
+        "mobility"
+      ],
+      "tags": [
+        "agentes",
+        "autoridad",
+        "decision",
+        "documentacion",
+        "memoria-territorio",
+        "movilidad"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-aa8648c3b6a0c57a22",
+      "tagWeights": {
+        "agentes": 0.0833,
+        "autoridad": 0.0833,
+        "decision": 0.125,
+        "documentacion": 0.2084,
+        "memoria-territorio": 0.0833,
+        "movilidad": 0.4167
+      },
+      "contextTokens": 117,
+      "distance": 2,
+      "parent": "E1953",
+      "routeEdge": "documento:R141",
+      "affinity": 1
+    },
+    {
+      "id": "E1957",
+      "type": "ficha",
+      "title": "Car Evolution Mobility OS – Materials",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-materials-e1957/",
+      "original": "https://jubap.eu/mobility/materials/",
+      "aliases": [],
+      "clusters": [
+        "mobility"
+      ],
+      "tags": [
+        "movilidad"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-c5df5cf8fc0687c3e6",
+      "tagWeights": {
+        "movilidad": 1
+      },
+      "contextTokens": 64,
+      "distance": 3,
+      "parent": "E1954",
+      "routeEdge": "documento:R152",
+      "affinity": 1
+    },
+    {
+      "id": "E1958",
+      "type": "ficha",
+      "title": "Car Evolution Mobility OS – Evidence Cases 01-02",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-evidence-cases-01-02-e1958/",
+      "original": "https://jubap.eu/mobility/evidence/case-01-02-valencia/",
+      "aliases": [],
+      "clusters": [
+        "mobility"
+      ],
+      "tags": [
+        "agentes",
+        "evidencia",
+        "movilidad"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-2206fdd056590a7fea",
+      "tagWeights": {
+        "agentes": 0.1111,
+        "evidencia": 0.3333,
+        "movilidad": 0.5556
+      },
+      "contextTokens": 107,
+      "distance": 3,
+      "parent": "E1954",
+      "routeEdge": "documento:R146",
+      "affinity": 1
+    },
+    {
+      "id": "E1959",
+      "type": "ficha",
+      "title": "Car Evolution Mobility OS – Evidence Cases 03-07",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-evidence-cases-03-07-e1959/",
+      "original": "https://jubap.eu/mobility/evidence/case-03-07/",
+      "aliases": [],
+      "clusters": [
+        "mobility"
+      ],
+      "tags": [
+        "agentes",
+        "casos",
+        "decision",
+        "evidencia",
+        "memoria-territorio",
+        "movilidad"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-646e61a22719e81d2f",
+      "tagWeights": {
+        "agentes": 0.087,
+        "casos": 0.087,
+        "decision": 0.0869,
+        "evidencia": 0.2174,
+        "memoria-territorio": 0.0869,
+        "movilidad": 0.4348
+      },
+      "contextTokens": 136,
+      "distance": 3,
+      "parent": "E1954",
+      "routeEdge": "documento:R147",
+      "affinity": 1
+    }
+  ],
+  "reading": "# Posicionamiento · Car Evolution Mobility OS\nDocumento de origen: https://jubap.eu/mobility\n\n## Car Evolution Mobility OS\nCities, authorities and operators already hold the data, the fleets, the routes and the channels. What is added is the layer that turns them into coordinated decisions, in real time.\nEtiquetas: Agentes y coordinación distribuida 16.67%; Movilidad e infraestructura 83.33%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-e1953/\nDocumento de origen: https://jubap.eu/mobility/\n\nCar Evolution Mobility OS → Car Evolution Mobility OS – Product Annex · editorial comparison. For a complementary reading, see [Mobility OS product boundary and architecture](https://jubap.eu/mobility/product/).\n\n## Car Evolution Mobility OS – Product Annex\n\nEtiquetas: Agentes y coordinación distribuida 8.33%; Autoridad, permisos y delegación 8.33%; Decisiones y responsabilidad 12.50%; Investigación y documentación técnica 20.84%; Memoria, comunidad y territorio 8.33%; Movilidad e infraestructura 41.67%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-product-annex-e1954/\nDocumento de origen: https://jubap.eu/mobility/product/\n\nCar Evolution Mobility OS – Materials → Car Evolution Mobility OS – Product Annex · editorial comparison. For a complementary reading, see [The complete product annex](https://jubap.eu/mobility/product/).\n\n## Car Evolution Mobility OS – Materials\n\nEtiquetas: Movilidad e infraestructura 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-materials-e1957/\nDocumento de origen: https://jubap.eu/mobility/materials/\n\nCar Evolution Mobility OS – Product Annex → Car Evolution Mobility OS – Evidence Cases 01-02 · editorial comparison. For a complementary reading, see [Planning and bounded repair: cases 01–02](https://jubap.eu/mobility/evidence/case-01-02-valencia/).\n\n## Car Evolution Mobility OS – Evidence Cases 01-02\n\nEtiquetas: Agentes y coordinación distribuida 11.11%; Evidencia, procedencia y atribución 33.33%; Movilidad e infraestructura 55.56%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-evidence-cases-01-02-e1958/\nDocumento de origen: https://jubap.eu/mobility/evidence/case-01-02-valencia/\n\nCar Evolution Mobility OS – Product Annex → Car Evolution Mobility OS – Evidence Cases 03-07 · editorial comparison. For a complementary reading, see [Policy and integration exhibits: cases 03–07](https://jubap.eu/mobility/evidence/case-03-07/).\n\n## Car Evolution Mobility OS – Evidence Cases 03-07\n\nEtiquetas: Agentes y coordinación distribuida 8.70%; Casos de uso y aplicaciones 8.70%; Decisiones y responsabilidad 8.69%; Evidencia, procedencia y atribución 21.74%; Memoria, comunidad y territorio 8.69%; Movilidad e infraestructura 43.48%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-evidence-cases-03-07-e1959/\nDocumento de origen: https://jubap.eu/mobility/evidence/case-03-07/\n\n"
+}

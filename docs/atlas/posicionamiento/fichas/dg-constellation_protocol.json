@@ -1,0 +1,113 @@
+{
+  "id": "dg-constellation_protocol",
+  "type": "concepto",
+  "title": "Constelaciones, clusters y modos de lectura",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-constellation_protocol",
+  "documentId": null,
+  "sourceIds": [
+    "D-267",
+    "D-268"
+  ],
+  "tagWeights": {
+    "empresa": 0.25,
+    "evidencia": 0.2361,
+    "memoria-territorio": 0.3889,
+    "perspectiva": 0.125
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Constelaciones, clusters y modos de lectura\nEl pensamiento general conecta conjuntos comerciales y culturales mediante fichas, relaciones y modos que devuelven al texto canónico.\nEtiquetas: Empresa y gestión 25.00%; Evidencia, procedencia y atribución 23.61%; Memoria, comunidad y territorio 38.89%; Cambio de perspectiva 12.50%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-constellation_protocol\n\n",
+  "tokens": 104,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-267:dg-constellation_protocol",
+      "to": "D-267",
+      "title": "Una constelación de pensamiento contiene clusters conectados, no departamentos cerrados",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 32,
+      "fichaTokens": 405,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-267.json"
+    },
+    {
+      "id": "apoyo:D-268:dg-constellation_protocol",
+      "to": "D-268",
+      "title": "Un bot que interpreta mi pensamiento debe saber regresar al archivo original",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 393,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-268.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-249",
+      "to": "dg-semantic_graph",
+      "title": "Conocimiento como red de relaciones y procedencia",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.10",
+      "reading": "Fichas con relaciones, fuentes y retornos.",
+      "relationTokens": 40,
+      "fichaTokens": 181,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-semantic_graph.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-250",
+      "to": "dg-legacy",
+      "title": "Memoria y legado",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.10",
+      "reading": "Lectores futuros deben poder llegar al original.",
+      "relationTokens": 33,
+      "fichaTokens": 126,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-legacy.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-251",
+      "to": "dg-perspective",
+      "title": "Nueva Perspectiva",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.10",
+      "reading": "Nueva Perspectiva integra clusters conectados.",
+      "relationTokens": 33,
+      "fichaTokens": 190,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-perspective.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-252",
+      "to": "dg-federated_custody",
+      "title": "Custodias distribuidas y memoria viva",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.10",
+      "reading": "Clusters institucionales conservan procedencia y permisos.",
+      "relationTokens": 39,
+      "fichaTokens": 128,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-federated_custody.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-253",
+      "to": "dg-epistemic_silence",
+      "title": "Exclusión por omisión de interlocución",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.10",
+      "reading": "Si no hay fuente, bot debe señalar ausencia y no inventar.",
+      "relationTokens": 42,
+      "fichaTokens": 98,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-epistemic_silence.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-287",
+      "to": "dg-epistemic_increment",
+      "title": "Demostrar o refutar paso por paso",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.11",
+      "reading": "Navegación con retorno al archivo.",
+      "relationTokens": 36,
+      "fichaTokens": 101,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-epistemic_increment.json"
+    }
+  ]
+}

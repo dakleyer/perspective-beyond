@@ -1,0 +1,148 @@
+{
+  "id": "dg-imperial_contradiction",
+  "type": "concepto",
+  "title": "Poder, innovación y agotamiento de sentido",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-imperial_contradiction",
+  "documentId": null,
+  "sourceIds": [
+    "D-209",
+    "D-210",
+    "D-211",
+    "D-212"
+  ],
+  "tagWeights": {
+    "autoridad": 0.25,
+    "economia": 0.0834,
+    "geopolitica": 0.4583,
+    "integridad-ia": 0.2083
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Poder, innovación y agotamiento de sentido\nTensión entre tecnologías nacidas dentro de un orden, miedo a las condiciones que crean, capacidad de controlar interfaces y erosión de la misión declarada.\nEtiquetas: Autoridad, permisos y delegación 25.00%; Economía, costes y liquidez 8.34%; Geopolítica y fronteras 45.83%; Integridad y seguridad de IA 20.83%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-imperial_contradiction\n\n",
+  "tokens": 117,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-209:dg-imperial_contradiction",
+      "to": "D-209",
+      "title": "El imperio fabrica la tecnología que después le da miedo",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 443,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-209.json"
+    },
+    {
+      "id": "apoyo:D-210:dg-imperial_contradiction",
+      "to": "D-210",
+      "title": "La autenticidad quema; la hipocresía conserva",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 413,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-210.json"
+    },
+    {
+      "id": "apoyo:D-211:dg-imperial_contradiction",
+      "to": "D-211",
+      "title": "El control de Internet puede culminar antes de la crisis",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 407,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-211.json"
+    },
+    {
+      "id": "apoyo:D-212:dg-imperial_contradiction",
+      "to": "D-212",
+      "title": "La coacción puede esconderse en el crédito o explotar en la supervivencia",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 32,
+      "fichaTokens": 410,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-212.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-132",
+      "to": "dg-geopolitics",
+      "title": "Geopolítica vivida",
+      "direction": "saliente",
+      "kind": "problematiza el final imperial",
+      "reading": "Poder material e incapacidad para reconocer su misión pueden coexistir.",
+      "relationTokens": 36,
+      "fichaTokens": 138,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-geopolitics.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-133",
+      "to": "dg-culture",
+      "title": "Protocultura, autoría y conocimiento emergente",
+      "direction": "saliente",
+      "kind": "incuba lo que lo transforma",
+      "reading": "El conocimiento innovador emerge también lejos del centro del poder.",
+      "relationTokens": 40,
+      "fichaTokens": 204,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-culture.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-134",
+      "to": "dg-risk",
+      "title": "Riesgo, seguridad y evitación",
+      "direction": "saliente",
+      "kind": "miedo a sustituir la estructura",
+      "reading": "La tecnología propia puede alterar el orden que la hizo posible.",
+      "relationTokens": 37,
+      "fichaTokens": 121,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-risk.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-135",
+      "to": "dg-civilization_interface",
+      "title": "Interfaces civilizatorias y autoridad",
+      "direction": "saliente",
+      "kind": "control no garantiza legitimidad",
+      "reading": "Dominar la interfaz no resuelve la pérdida de sentido.",
+      "relationTokens": 35,
+      "fichaTokens": 106,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-civilization_interface.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-136",
+      "to": "dg-mission",
+      "title": "Misión, cooperación y frutos indirectos",
+      "direction": "saliente",
+      "kind": "contrapone autenticidad y conservación",
+      "reading": "Sostener un propósito exige aceptar sus costes y contradicciones.",
+      "relationTokens": 39,
+      "fichaTokens": 122,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-mission.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-137",
+      "to": "dg-economy",
+      "title": "Economía y escasez",
+      "direction": "saliente",
+      "kind": "distingue coerción de crédito",
+      "reading": "La coacción indirecta tiene trazas distintas de la violencia de supervivencia.",
+      "relationTokens": 38,
+      "fichaTokens": 239,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-economy.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-154",
+      "to": "dg-internalized_control",
+      "title": "Auditoría interior y libertad condicionada",
+      "direction": "saliente",
+      "kind": "relaciona poder y autocontrol",
+      "reading": "La legitimación interior permite que una interfaz gobierne sin orden expresa.",
+      "relationTokens": 39,
+      "fichaTokens": 120,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-internalized_control.json"
+    }
+  ]
+}

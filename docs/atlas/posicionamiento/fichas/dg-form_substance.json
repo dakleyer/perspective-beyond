@@ -1,0 +1,80 @@
+{
+  "id": "dg-form_substance",
+  "type": "concepto",
+  "title": "Formas, fondo y monopolio espiritual",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-form_substance",
+  "documentId": null,
+  "sourceIds": [
+    "D-204",
+    "D-290"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.25,
+    "autoridad": 0.25,
+    "documentacion": 0.3889,
+    "geopolitica": 0.1111
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Formas, fondo y monopolio espiritual\nConservar las formas cuando son útiles sin entregarles el monopolio del significado.\nEtiquetas: Aprendizaje y transmisión de capacidades 25.00%; Autoridad, permisos y delegación 25.00%; Investigación y documentación técnica 38.89%; Geopolítica y fronteras 11.11%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-form_substance\n\n",
+  "tokens": 98,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-204:dg-form_substance",
+      "to": "D-204",
+      "title": "La forma no desaparece: la radicalidad práctica consiste en dejarla sin monopolio",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 33,
+      "fichaTokens": 421,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-204.json"
+    },
+    {
+      "id": "apoyo:D-290:dg-form_substance",
+      "to": "D-290",
+      "title": "Tener un DNI no agota lo que significa ser de un país",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 381,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-290.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-121",
+      "to": "dg-inner",
+      "title": "Atención y sentido",
+      "direction": "saliente",
+      "kind": "separa gesto público de",
+      "reading": "La oración y la intención no tienen por qué depender del símbolo visible.",
+      "relationTokens": 33,
+      "fichaTokens": 181,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-inner.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-122",
+      "to": "dg-governance",
+      "title": "Gobernanza y legitimidad",
+      "direction": "saliente",
+      "kind": "relativiza monopolios",
+      "reading": "No destruir una forma puede quitarle la autoridad exclusiva sobre el fondo.",
+      "relationTokens": 34,
+      "fichaTokens": 254,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-governance.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-301",
+      "to": "dg-rules_membership",
+      "title": "Reglas del Estado y pertenencia vivida",
+      "direction": "entrante",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "La interfaz administrativa no es toda la realidad.",
+      "relationTokens": 36,
+      "fichaTokens": 94,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-rules_membership.json"
+    }
+  ]
+}

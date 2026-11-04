@@ -1,0 +1,108 @@
+{
+  "id": "D-051",
+  "type": "ficha",
+  "title": "El valor creado a ambos lados del Atlántico",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-051",
+  "documentId": "doc-41f3a410d217128630",
+  "sourceIds": [],
+  "tagWeights": {
+    "economia": 0.5,
+    "geopolitica": 0.5
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## El valor creado a ambos lados del Atlántico\nINTERLOCUTOR — ¿Qué te dio trabajar entre México y las cámaras de comercio españolas?\nIVÁN —\n3. Consultoría internacional – Cámaras de comercio de España:\nParalelamente, colaboraba regularmente con organismos de internacionalización, como:\nCámara de Comercio de Valencia,\nCámara de Comercio Española,\nACC1Ó / Catalonia Trade & Investment,\nofreciendo asesoría técnica y estratégica a empresas españolas que buscaban establecerse en América Latina. Esta labor incluía:\nAnálisis de viabilidad técnica y cultural,\nAdaptación de operaciones al entorno local,\nDiagnóstico de procesos y tecnologías,\nConexiones con redes empresariales locales.\nINTERLOCUTOR — ¿Qué has entendido sobre el valor creado que no llegó a convertirse en una empresa escalable?\nIVÁN —\nReflexión estratégica:\nVista en perspectiva, esta fue una etapa de altísimo valor técnico y estratégico, donde se desarrollaron soluciones profundamente útiles, con mercados potenciales masivos. Sin embargo, al estar centrado en la ingeniería, operación y acompañamiento directo, no dediqué el foco necesario a su comercialización ni busqué socios adecuados para escalar. Cada uno de estos proyectos, con estructura y capital, podría haberse convertido en un producto estrella.\nA pesar de ello, fue un periodo extraordinario, en el que mi capacidad operativa, técnica y de creación de soluciones alcanzó su punto más alto, con una visión cada vez más clara de lo que significa diseñar con propósito, impacto y visión sistémica.\nEtiquetas: Economía, costes y liquidez 50.00%; Geopolítica y fronteras 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-051\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20%C2%BFQu%C3%A9%20te%20dio%20trabajar%20entre%20M%C3%A9xico%20y%20las%20c%C3%A1maras\n\n",
+  "tokens": 447,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-051:dg-economy",
+      "to": "dg-economy",
+      "title": "Economía y escasez",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 239,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-economy.json"
+    },
+    {
+      "id": "apoyo:D-051:dg-boundaries",
+      "to": "dg-boundaries",
+      "title": "Fronteras y encuentros",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 162,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-boundaries.json"
+    },
+    {
+      "id": "documento:dg-032",
+      "to": "D-033",
+      "title": "Entrar en Bosnia sin un plan",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Fronteras y encuentros».",
+      "relationTokens": 34,
+      "fichaTokens": 565,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-033.json"
+    },
+    {
+      "id": "documento:dg-033",
+      "to": "D-065",
+      "title": "Salir de Papantla, empezar a escuchar Xalapa",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Fronteras y encuentros».",
+      "relationTokens": 40,
+      "fichaTokens": 498,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-065.json"
+    },
+    {
+      "id": "documento:dg-061",
+      "to": "D-050",
+      "title": "Cuando lo útil no se convierte en empresa",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Economía y escasez».",
+      "relationTokens": 36,
+      "fichaTokens": 763,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-050.json"
+    },
+    {
+      "id": "documento:dg-062",
+      "to": "D-063",
+      "title": "Cuando el dinero reduce las opciones",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Economía y escasez».",
+      "relationTokens": 34,
+      "fichaTokens": 379,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-063.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-003-D-051",
+      "to": "D-003",
+      "title": "Independencia: trabajo, cuentas y viajes",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Fronteras y encuentros, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 51,
+      "fichaTokens": 539,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-003.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-051-D-136",
+      "to": "D-136",
+      "title": "Lo que antes no era mercancía puede convertirse en opción de mercado",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Fronteras y encuentros, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 55,
+      "fichaTokens": 296,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-136.json"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "id": "D-196",
+  "type": "ficha",
+  "title": "Rascarse la espalda también puede entrar en el mercado",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-196",
+  "documentId": "doc-55f4e97e14564fe09e",
+  "sourceIds": [],
+  "tagWeights": {
+    "casos": 0.3334,
+    "decision": 0.3333,
+    "economia": 0.3333
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Rascarse la espalda también puede entrar en el mercado\nINTERLOCUTOR (pregunta editorial, no pronunciada necesariamente) — ¿Empieza una transacción solo cuando dos personas se pagan algo?\nREFLEXIÓN DEL MANUSCRITO (edición fiel de un escrito original) — El ejemplo es de Iván y vale la pena conservarlo sin convertirlo en jerga: una persona puede rascarse la espalda o pagar a un masajista. Si ambas alternativas existen en su campo de decisión, incluso la primera consume tiempo, utiliza una tecnología —su propio cuerpo— y tiene costes de transacción. En su modelo, el agente puede aparecer a la vez como quien compra y quien presta el servicio. La elección ya tiene consecuencias económicas aunque no circule una moneda.\n\nEsta mirada llega hasta la negociación con uno mismo. «Mañana haré dieta» no es igual que «ahora me rasco la espalda». Hay un yo que promete, otro que tendrá que actuar, costes de hacer cumplir el acuerdo y opciones de bienestar que compiten con él. La frontera de un mercado no coincide, por tanto, con el registro de pagos bancarios.\n\nEs una propuesta de modelización, no la afirmación de que la contabilidad nacional deba registrar literalmente cada movimiento corporal. Su mérito está en obligarnos a preguntar qué alternativas, compromisos, tiempo y tecnologías intervienen en una decisión que solemos llamar «privada» o «gratuita». La economía comienza antes de la caja registradora.\nEtiquetas: Casos de uso y aplicaciones 33.34%; Decisiones y responsabilidad 33.33%; Economía, costes y liquidez 33.33%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-196\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-196.html\n\n",
+  "tokens": 392,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-196:dg-options",
+      "to": "dg-options",
+      "title": "Libertad y opciones",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 192,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-options.json"
+    },
+    {
+      "id": "apoyo:D-196:dg-economy",
+      "to": "dg-economy",
+      "title": "Economía y escasez",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 239,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-economy.json"
+    },
+    {
+      "id": "apoyo:D-196:dg-decision",
+      "to": "dg-decision",
+      "title": "Decisiones entre escenarios",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 169,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-decision.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-196-D-133",
+      "to": "D-133",
+      "title": "La felicidad no se deja contabilizar como un bien",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Rascarse la espalda también puede entrar en el mercado» con «La felicidad no se deja contabilizar como un bien». Permite contrastar Economía y escasez.",
+      "relationTokens": 70,
+      "fichaTokens": 324,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-133.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-196-D-134",
+      "to": "D-134",
+      "title": "Una habilidad también es un bien, aunque nadie la compre",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Rascarse la espalda también puede entrar en el mercado» con «Una habilidad también es un bien, aunque nadie la compre». Permite contrastar Economía y escasez.",
+      "relationTokens": 72,
+      "fichaTokens": 327,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-134.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-196-D-135",
+      "to": "D-135",
+      "title": "El mercado es también una tecnología de coordinación",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Rascarse la espalda también puede entrar en el mercado» con «El mercado es también una tecnología de coordinación». Permite contrastar Economía y escasez.",
+      "relationTokens": 66,
+      "fichaTokens": 282,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-135.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-005-D-196",
+      "to": "D-005",
+      "title": "Escasez, crecimiento y libertad real",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Libertad y opciones, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 55,
+      "fichaTokens": 442,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-005.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-048-D-196",
+      "to": "D-048",
+      "title": "El coste de multiplicar proyectos",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Libertad y opciones, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 48,
+      "fichaTokens": 521,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-048.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-050-D-196",
+      "to": "D-050",
+      "title": "Cuando lo útil no se convierte en empresa",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 50,
+      "fichaTokens": 763,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-050.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-063-D-196",
+      "to": "D-063",
+      "title": "Cuando el dinero reduce las opciones",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Libertad y opciones, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 48,
+      "fichaTokens": 379,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-063.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-064-D-196",
+      "to": "D-064",
+      "title": "Liquidez para cuidar responsabilidades",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Libertad y opciones desde las situaciones que describe cada texto.",
+      "relationTokens": 46,
+      "fichaTokens": 447,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-064.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-100-D-196",
+      "to": "D-100",
+      "title": "¿Cuánto cuesta saber lo suficiente para decidir?",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 51,
+      "fichaTokens": 311,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-100.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-107-D-196",
+      "to": "D-107",
+      "title": "Pensar la neutralidad como una opción estratégica",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Libertad y opciones desde las situaciones que describe cada texto.",
+      "relationTokens": 50,
+      "fichaTokens": 298,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-107.json"
+    }
+  ]
+}

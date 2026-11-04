@@ -1,0 +1,62 @@
+{
+  "id": "C101",
+  "type": "concepto",
+  "title": "Cadencia de coordinación por lotes",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/batched-coordination-cadence/",
+  "documentId": null,
+  "sourceIds": [
+    "U1498",
+    "N1801"
+  ],
+  "tagWeights": {
+    "autoridad": 0.0833,
+    "capacidad-humana": 0.0833,
+    "decision": 0.1667,
+    "economia": 0.0833,
+    "memoria-territorio": 0.0833,
+    "movilidad": 0.3572,
+    "representacion": 0.1429
+  },
+  "clusters": [
+    "net",
+    "us"
+  ],
+  "context": "## Cadencia de coordinación por lotes\nGroup decisions to make coordination worthwhile within urgency and risk limits.\nEtiquetas: Autoridad, permisos y delegación 8.33%; Capacidad humana y deuda de inteligencia 8.33%; Decisiones y responsabilidad 16.67%; Economía, costes y liquidez 8.33%; Memoria, comunidad y territorio 8.33%; Movilidad e infraestructura 35.72%; Representación y límites formales 14.29%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/batched-coordination-cadence/\n\n",
+  "tokens": 123,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:U1498:C101",
+      "to": "U1498",
+      "title": "Entropy, Capability Activation and Sociotechnical Engineering",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 126,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1498.json"
+    },
+    {
+      "id": "apoyo:N1801:C101",
+      "to": "N1801",
+      "title": "xSeil Functionality Analisis",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 78,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1801.json"
+    },
+    {
+      "id": "concepto:A024",
+      "to": "C44",
+      "title": "Arbitraje de recursos",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "Batch coordination and operational buffers can be compared as ways of timing a coupled intervention, provided urgent obligations and response windows remain explicit.",
+      "relationTokens": 42,
+      "fichaTokens": 250,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C44.json"
+    }
+  ]
+}

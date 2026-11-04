@@ -1,0 +1,209 @@
+{
+  "id": "dg-frame_change",
+  "type": "concepto",
+  "title": "Marcos que autorizan opciones y compras",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-frame_change",
+  "documentId": null,
+  "sourceIds": [
+    "D-223",
+    "D-224",
+    "D-225",
+    "D-226",
+    "D-239",
+    "D-246",
+    "D-289"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.2262,
+    "autoridad": 0.1905,
+    "decision": 0.0476,
+    "empresa": 0.2262,
+    "evidencia": 0.0952,
+    "perspectiva": 0.131,
+    "transformacion": 0.0833
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Marcos que autorizan opciones y compras\nFrames de autoridad, presupuesto, método, riesgo y éxito delimitan alternativas; cotejar con el trabajo real.\nEtiquetas: Aprendizaje y transmisión de capacidades 22.62%; Autoridad, permisos y delegación 19.05%; Decisiones y responsabilidad 4.76%; Empresa y gestión 22.62%; Evidencia, procedencia y atribución 9.52%; Cambio de perspectiva 13.10%; Transformación y continuidad operativa 8.33%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-frame_change\n\n",
+  "tokens": 131,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-223:dg-frame_change",
+      "to": "D-223",
+      "title": "Dices «cloud» y acabas comprando cloud",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 451,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-223.json"
+    },
+    {
+      "id": "apoyo:D-224:dg-frame_change",
+      "to": "D-224",
+      "title": "Compraron control y consiguieron exactamente lo contrario",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 427,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-224.json"
+    },
+    {
+      "id": "apoyo:D-225:dg-frame_change",
+      "to": "D-225",
+      "title": "Un frame es una distribución de opciones, no un eslogan",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 405,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-225.json"
+    },
+    {
+      "id": "apoyo:D-226:dg-frame_change",
+      "to": "D-226",
+      "title": "Solo cuestionas tu marco cuando mantenerlo duele más",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 410,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-226.json"
+    },
+    {
+      "id": "apoyo:D-239:dg-frame_change",
+      "to": "D-239",
+      "title": "El PowerPoint veintiuno también promete que esta vez sí",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 456,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-239.json"
+    },
+    {
+      "id": "apoyo:D-246:dg-frame_change",
+      "to": "D-246",
+      "title": "La dictadura perfecta: profesionales que venden una realidad ya montada",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 440,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-246.json"
+    },
+    {
+      "id": "apoyo:D-289:dg-frame_change",
+      "to": "D-289",
+      "title": "El Estado puede leerse como un videojuego con muchos bugs",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 371,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-289.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-158",
+      "to": "dg-perspective",
+      "title": "Nueva Perspectiva",
+      "direction": "saliente",
+      "kind": "define lo que puede verse",
+      "reading": "La categoría antecede a las soluciones autorizadas.",
+      "relationTokens": 30,
+      "fichaTokens": 190,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-perspective.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-159",
+      "to": "dg-transform",
+      "title": "Transformación organizativa",
+      "direction": "saliente",
+      "kind": "precede a la intervención",
+      "reading": "Transformar dentro de un mal marco reproduce el problema.",
+      "relationTokens": 31,
+      "fichaTokens": 213,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-transform.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-160",
+      "to": "dg-action_viability",
+      "title": "Acción viable y valor que se propaga",
+      "direction": "saliente",
+      "kind": "selecciona caminos practicables",
+      "reading": "La viabilidad depende de permisos y capacidades.",
+      "relationTokens": 33,
+      "fichaTokens": 121,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-action_viability.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-161",
+      "to": "dg-measure",
+      "title": "Medir decisiones y consecuencias",
+      "direction": "saliente",
+      "kind": "exige medir opciones y riesgos",
+      "reading": "El nuevo marco cambia el espacio de resultados.",
+      "relationTokens": 30,
+      "fichaTokens": 202,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-measure.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-162",
+      "to": "dg-legitimacy_gap",
+      "title": "Principios, requisitos y deuda de legitimidad",
+      "direction": "saliente",
+      "kind": "expone el formalismo",
+      "reading": "Un presupuesto o metodología pueden sustituir el propósito.",
+      "relationTokens": 35,
+      "fichaTokens": 133,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-legitimacy_gap.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-163",
+      "to": "dg-risk",
+      "title": "Riesgo, seguridad y evitación",
+      "direction": "saliente",
+      "kind": "redistribuye los riesgos visibles",
+      "reading": "Cada área ve los peligros que puede nombrar.",
+      "relationTokens": 34,
+      "fichaTokens": 121,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-risk.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-176",
+      "to": "dg-capability_loss",
+      "title": "Poda, memoria y capacidades zombis",
+      "direction": "entrante",
+      "kind": "revisa la siguiente batalla",
+      "reading": "El régimen puede cambiar aun si el adversario parece igual.",
+      "relationTokens": 35,
+      "fichaTokens": 142,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-capability_loss.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-189",
+      "to": "dg-semantic_graph",
+      "title": "Conocimiento como red de relaciones y procedencia",
+      "direction": "saliente",
+      "kind": "reconstruye vínculos entre marcos",
+      "reading": "Reframing cambia relaciones, no solo términos.",
+      "relationTokens": 37,
+      "fichaTokens": 181,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-semantic_graph.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-203",
+      "to": "dg-media_reality",
+      "title": "Producción de realidad mediada",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.9",
+      "reading": "El montaje controla qué opciones y causas parecen disponibles.",
+      "relationTokens": 34,
+      "fichaTokens": 73,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-media_reality.json"
+    }
+  ]
+}

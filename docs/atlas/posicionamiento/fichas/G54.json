@@ -1,0 +1,74 @@
+{
+  "id": "G54",
+  "type": "concepto",
+  "title": "The Map and the Flow",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/the-map-and-the-flow/",
+  "documentId": null,
+  "sourceIds": [
+    "T1484",
+    "GH016"
+  ],
+  "tagWeights": {
+    "cartografia": 0.25,
+    "control-minimo": 0.0715,
+    "decision": 0.1072,
+    "documentacion": 0.0714,
+    "economia": 0.0714,
+    "empresa": 0.0714,
+    "evidencia": 0.1071,
+    "perspectiva": 0.25
+  },
+  "clusters": [
+    "research",
+    "tegrity"
+  ],
+  "context": "## The Map and the Flow\nThe published essay examines what can be lost when a representation of work replaces the flow through which value is produced.\nEtiquetas: Cartografía y señales de ecosistema 25.00%; Control mínimo y suficiencia 7.15%; Decisiones y responsabilidad 10.72%; Investigación y documentación técnica 7.14%; Economía, costes y liquidez 7.14%; Empresa y gestión 7.14%; Evidencia, procedencia y atribución 10.71%; Cambio de perspectiva 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/the-map-and-the-flow/\n\n",
+  "tokens": 134,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:T1484:G54",
+      "to": "T1484",
+      "title": "The Map and The Flow",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 110,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1484.json"
+    },
+    {
+      "id": "apoyo:GH016:G54",
+      "to": "GH016",
+      "title": "Programme Bridge Note — Map, Flow, Epistemic Distance and the Lineage to Ecosystem Positioning",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 34,
+      "fichaTokens": 176,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH016.json"
+    },
+    {
+      "id": "concepto:P03",
+      "to": "G01",
+      "title": "Structural Awareness",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 13,
+      "fichaTokens": 230,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G01.json"
+    },
+    {
+      "id": "concepto:P04",
+      "to": "C79",
+      "title": "Pérdida por control sobre mapa divergente",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 195,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C79.json"
+    }
+  ]
+}

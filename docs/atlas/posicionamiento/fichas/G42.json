@@ -1,0 +1,103 @@
+{
+  "id": "G42",
+  "type": "concepto",
+  "title": "Navegación semántica para asistentes",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/semantic-navigation-for-assistants/",
+  "documentId": null,
+  "sourceIds": [
+    "S09",
+    "T1230"
+  ],
+  "tagWeights": {
+    "documentacion": 0.202,
+    "evidencia": 0.2475,
+    "matematicas": 0.2727,
+    "navegacion": 0.2778
+  },
+  "clusters": [
+    "research",
+    "tegrity"
+  ],
+  "context": "## Navegación semántica para asistentes\nTyped relations and stable links help machines navigate definitions and sources.\nEtiquetas: Investigación y documentación técnica 20.20%; Evidencia, procedencia y atribución 24.75%; Matemáticas 27.27%; Índices, contacto y políticas 27.78%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/semantic-navigation-for-assistants/\n\n",
+  "tokens": 89,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:S09:G42",
+      "to": "S09",
+      "title": "Repositorio principal y contribuciones matemáticas",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 93,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/S09.json"
+    },
+    {
+      "id": "apoyo:T1230:G42",
+      "to": "T1230",
+      "title": "Field Notes",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 75,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1230.json"
+    },
+    {
+      "id": "concepto:B583",
+      "to": "G38",
+      "title": "Corpus público y trazabilidad cruzada",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 88,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G38.json"
+    },
+    {
+      "id": "concepto:B584",
+      "to": "C12",
+      "title": "Procedencia auditable",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 276,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C12.json"
+    },
+    {
+      "id": "concepto:B585",
+      "to": "C50",
+      "title": "Estado de una afirmación",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 295,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C50.json"
+    },
+    {
+      "id": "concepto:B586",
+      "to": "G41",
+      "title": "Escuela de criterio y comunidades de práctica",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 122,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G41.json"
+    },
+    {
+      "id": "concepto:B587",
+      "to": "G09",
+      "title": "Cualificación para una decisión concreta",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 130,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G09.json"
+    }
+  ]
+}

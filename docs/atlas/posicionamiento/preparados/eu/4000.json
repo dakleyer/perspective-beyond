@@ -1,0 +1,2399 @@
+{
+  "schema": "perspective-beyond/positioning-v1",
+  "edition": "2026-11-04",
+  "request": {
+    "posicionamiento": "eu",
+    "tokens": 4000,
+    "max": 60,
+    "rol": "lector",
+    "lectura": "explore",
+    "enfoque": "parejo",
+    "instruccion": "",
+    "red": "ideas",
+    "sentido": "ambas",
+    "modo": "closed",
+    "site": "eu",
+    "puente": null,
+    "solo": false,
+    "pesos": []
+  },
+  "position": {
+    "id": "doc-63aa9c575ad7473553",
+    "title": "JubAp.EU",
+    "url": "https://jubap.eu/",
+    "fichas": [
+      "E2"
+    ],
+    "aliases": [
+      "https://jubap.eu/"
+    ],
+    "header": "# Posicionamiento · JubAp.EU\nDocumento de origen: https://jubap.eu/\n\n",
+    "headerTokens": 20,
+    "type": "documento",
+    "focus": "E2",
+    "seeds": [
+      "E2"
+    ]
+  },
+  "budget": {
+    "limit": 4000,
+    "used": 3928,
+    "remaining": 72,
+    "nextBlock": 98,
+    "encoding": "o200k_base",
+    "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
+  },
+  "reachable": 28,
+  "selected": 27,
+  "shown": 28,
+  "omittedByBudget": 1,
+  "omittedInDiagram": 0,
+  "layers": [
+    {
+      "distance": 0,
+      "selected": 0,
+      "shown": 1
+    },
+    {
+      "distance": 1,
+      "selected": 1,
+      "shown": 1
+    },
+    {
+      "distance": 2,
+      "selected": 3,
+      "shown": 3
+    },
+    {
+      "distance": 3,
+      "selected": 5,
+      "shown": 5
+    },
+    {
+      "distance": 4,
+      "selected": 4,
+      "shown": 4
+    },
+    {
+      "distance": 5,
+      "selected": 10,
+      "shown": 10
+    },
+    {
+      "distance": 6,
+      "selected": 3,
+      "shown": 3
+    },
+    {
+      "distance": 7,
+      "selected": 1,
+      "shown": 1
+    }
+  ],
+  "center": "doc-63aa9c575ad7473553-entrada",
+  "nodes": [
+    {
+      "id": "doc-63aa9c575ad7473553-entrada",
+      "title": "JubAp.EU",
+      "type": "documento",
+      "url": "https://jubap.eu/",
+      "original": "https://jubap.eu/",
+      "summary": "Documento desde el que se abre este posicionamiento.",
+      "tags": [],
+      "tagWeights": {},
+      "clusters": [
+        "eu"
+      ],
+      "distance": 0,
+      "parent": null
+    },
+    {
+      "id": "E2",
+      "type": "ficha",
+      "title": "JubAp.EU",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/jubap-eu-e2/",
+      "original": "https://jubap.eu/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "decision",
+        "empresa",
+        "navegacion",
+        "perspectiva",
+        "transformacion"
+      ],
+      "summary": "JubAp.eu supports high-stakes socio-technical transformations where technology, operating model or organizational decisions define long-term viability.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-63aa9c575ad7473553",
+      "tagWeights": {
+        "decision": 0.1,
+        "empresa": 0.45,
+        "navegacion": 0.05,
+        "perspectiva": 0.15,
+        "transformacion": 0.25
+      },
+      "contextTokens": 115,
+      "distance": 1,
+      "parent": "doc-63aa9c575ad7473553-entrada",
+      "routeEdge": null,
+      "affinity": 1
+    },
+    {
+      "id": "E1221",
+      "type": "ficha",
+      "title": "Field Notes",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/field-notes-e1221/",
+      "original": "https://jubap.eu/field-notes/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "navegacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-bd9004cfedb4291c84",
+      "tagWeights": {
+        "navegacion": 1
+      },
+      "contextTokens": 56,
+      "distance": 2,
+      "parent": "E2",
+      "routeEdge": "navigation:position-nav-E2-E1221",
+      "affinity": 1
+    },
+    {
+      "id": "E1628",
+      "type": "ficha",
+      "title": "The JUBAP Framework",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-jubap-framework",
+      "original": "https://jubap.eu/the-jubap-framework/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "autoridad",
+        "control-minimo",
+        "decision",
+        "documentacion",
+        "economia",
+        "perspectiva"
+      ],
+      "summary": "El marco combina el cambio de nivel de observación de UP con el filtro de acciones de JUMP. Las preguntas sobre participación, desbloqueo, movimiento observable y propagación ayudan a elegir por dónde empezar.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-f2e4ace78fdbc4aded",
+      "tagWeights": {
+        "autoridad": 0.1539,
+        "control-minimo": 0.1539,
+        "decision": 0.2308,
+        "documentacion": 0.1538,
+        "economia": 0.1538,
+        "perspectiva": 0.1538
+      },
+      "contextTokens": 152,
+      "distance": 2,
+      "parent": "E2",
+      "routeEdge": "navigation:position-nav-E2-E1628",
+      "affinity": 1
+    },
+    {
+      "id": "E1731",
+      "type": "ficha",
+      "title": "Reframing Value Creation",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-reframing",
+      "original": "https://jubap.eu/reframing-value-creation/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "casos",
+        "control-minimo",
+        "decision",
+        "documentacion",
+        "economia",
+        "empresa",
+        "perspectiva"
+      ],
+      "summary": "El cambio de marco permite reconocer valor que ya existe en recursos, prácticas y relaciones. Una intervención puede comenzar por reorganizar esas capacidades y darles una forma que la organización pueda usar.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-4998b3d102aa89fd7f",
+      "tagWeights": {
+        "casos": 0.1053,
+        "control-minimo": 0.1053,
+        "decision": 0.1053,
+        "documentacion": 0.1053,
+        "economia": 0.1052,
+        "empresa": 0.2105,
+        "perspectiva": 0.2631
+      },
+      "contextTokens": 154,
+      "distance": 2,
+      "parent": "E2",
+      "routeEdge": "navigation:position-nav-E2-E1731",
+      "affinity": 1
+    },
+    {
+      "id": "E1630",
+      "type": "ficha",
+      "title": "Case Study: HT",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-ht-e1630/",
+      "original": "https://jubap.eu/human-transformation/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "capacidad-humana",
+        "casos",
+        "perspectiva"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-543b0477030043bc1a",
+      "tagWeights": {
+        "capacidad-humana": 0.2222,
+        "casos": 0.5556,
+        "perspectiva": 0.2222
+      },
+      "contextTokens": 79,
+      "distance": 3,
+      "parent": "E1628",
+      "routeEdge": "documento:R005",
+      "affinity": 1
+    },
+    {
+      "id": "E1633",
+      "type": "ficha",
+      "title": "Case Study: AICM",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-aicm-e1633/",
+      "original": "https://jubap.eu/aicm-mexico-city-airport-transformation/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "casos",
+        "control-minimo",
+        "integridad-ia",
+        "movilidad",
+        "perspectiva"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-af1a95d4ae4382fede",
+      "tagWeights": {
+        "casos": 0.2941,
+        "control-minimo": 0.1765,
+        "integridad-ia": 0.1177,
+        "movilidad": 0.2941,
+        "perspectiva": 0.1176
+      },
+      "contextTokens": 107,
+      "distance": 3,
+      "parent": "E1628",
+      "routeEdge": "documento:R002",
+      "affinity": 1
+    },
+    {
+      "id": "E1636",
+      "type": "ficha",
+      "title": "Nestlé North America — Where JUBAP Was Named",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-nestle",
+      "original": "https://jubap.eu/nestle-case-study-where-jubap-was-first-named/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "aprendizaje",
+        "empresa",
+        "evidencia"
+      ],
+      "summary": "El caso permite examinar cómo una intervención se integró en prácticas de mejora, mantenimiento y gestión ya presentes. La atención al punto de bloqueo ayuda a relacionar marcos que por separado explicaban solo una parte del problema.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-891d59c99b50ee9767",
+      "tagWeights": {
+        "aprendizaje": 0.2222,
+        "empresa": 0.5556,
+        "evidencia": 0.2222
+      },
+      "contextTokens": 144,
+      "distance": 3,
+      "parent": "E1628",
+      "routeEdge": "documento:D065",
+      "affinity": 1
+    },
+    {
+      "id": "E1662",
+      "type": "ficha",
+      "title": "THE DIAMOND INSIDE FRAMEWORK",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/the-diamond-inside-framework-e1662/",
+      "original": "https://jubap.eu/the-diamond-inside-framework/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "control-minimo",
+        "economia",
+        "evidencia",
+        "memoria-territorio"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-d21d93f69ad55c7f28",
+      "tagWeights": {
+        "control-minimo": 0.25,
+        "economia": 0.25,
+        "evidencia": 0.25,
+        "memoria-territorio": 0.25
+      },
+      "contextTokens": 100,
+      "distance": 3,
+      "parent": "E1731",
+      "routeEdge": "documento:R023",
+      "affinity": 1
+    },
+    {
+      "id": "G24",
+      "type": "concepto",
+      "title": "JUBAP / secuencia de intervención",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/jubap-intervention-practice/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "aprendizaje",
+        "autoridad",
+        "control-minimo",
+        "decision",
+        "documentacion",
+        "economia",
+        "empresa",
+        "evidencia",
+        "perspectiva"
+      ],
+      "summary": "The practice uses perspective changes and focused interventions to activate capacity within organisations.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "E1628",
+        "E1636"
+      ],
+      "tagWeights": {
+        "aprendizaje": 0.1111,
+        "autoridad": 0.077,
+        "control-minimo": 0.0769,
+        "decision": 0.1154,
+        "documentacion": 0.0769,
+        "economia": 0.0769,
+        "empresa": 0.2778,
+        "evidencia": 0.1111,
+        "perspectiva": 0.0769
+      },
+      "contextTokens": 143,
+      "positionHeaderTokens": 41,
+      "distance": 3,
+      "parent": "E1628",
+      "routeEdge": "apoyo:E1628:G24",
+      "affinity": 1
+    },
+    {
+      "id": "E1524",
+      "type": "ficha",
+      "title": "Montblanc — Lightweight Product Intelligence for Luxury In-Store Conversion",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/montblanc-lightweight-product-intelligence-for-luxury-in-store-conversion-e1524/",
+      "original": "https://jubap.eu/montblanc-lightweight-product-intelligence-for-luxury-in-store-conversion/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "empresa"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-0d09f6eb9814f96587",
+      "tagWeights": {
+        "empresa": 1
+      },
+      "contextTokens": 90,
+      "distance": 4,
+      "parent": "E1662",
+      "routeEdge": "documento:R052",
+      "affinity": 1
+    },
+    {
+      "id": "E1654",
+      "type": "ficha",
+      "title": "Case Study: Rationalization in Luxury",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-rationalization-in-luxury-e1654/",
+      "original": "https://jubap.eu/1654-2/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "casos",
+        "control-minimo",
+        "decision",
+        "empresa",
+        "evidencia",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-c34269358237772547",
+      "tagWeights": {
+        "casos": 0.1936,
+        "control-minimo": 0.0645,
+        "decision": 0.0968,
+        "empresa": 0.3548,
+        "evidencia": 0.0968,
+        "transformacion": 0.1935
+      },
+      "contextTokens": 119,
+      "distance": 4,
+      "parent": "E1662",
+      "routeEdge": "documento:R013",
+      "affinity": 1
+    },
+    {
+      "id": "E1706",
+      "type": "ficha",
+      "title": "Diamond Inside",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/diamond-inside-e1706/",
+      "original": "https://jubap.eu/rationalization-as-value-discovery/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "empresa",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-ea8a22d5c4bc36ba9b",
+      "tagWeights": {
+        "empresa": 0.5,
+        "transformacion": 0.5
+      },
+      "contextTokens": 67,
+      "distance": 4,
+      "parent": "E1662",
+      "routeEdge": "documento:R010",
+      "affinity": 1
+    },
+    {
+      "id": "G47",
+      "type": "concepto",
+      "title": "Nestlé North America / origen JUBAP",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/nestle-north-america-and-jubap-origins/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "aprendizaje",
+        "empresa",
+        "evidencia"
+      ],
+      "summary": "The field case records the line from a shift in perspective to coordinated transformation action.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "E1636"
+      ],
+      "tagWeights": {
+        "aprendizaje": 0.2222,
+        "empresa": 0.5556,
+        "evidencia": 0.2222
+      },
+      "contextTokens": 94,
+      "positionHeaderTokens": 49,
+      "distance": 4,
+      "parent": "E1636",
+      "routeEdge": "apoyo:E1636:G47",
+      "affinity": 1
+    },
+    {
+      "id": "C66",
+      "type": "concepto",
+      "title": "Señales de no compra",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/non-purchase-signals/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "autoridad",
+        "decision",
+        "empresa",
+        "memoria-territorio",
+        "representacion"
+      ],
+      "summary": "A completed-sale record omits information about choices that did not become sales.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "E1524",
+        "E1563"
+      ],
+      "tagWeights": {
+        "autoridad": 0.125,
+        "decision": 0.125,
+        "empresa": 0.5,
+        "memoria-territorio": 0.125,
+        "representacion": 0.125
+      },
+      "contextTokens": 98,
+      "positionHeaderTokens": 36,
+      "distance": 5,
+      "parent": "E1524",
+      "routeEdge": "apoyo:E1524:C66",
+      "affinity": 1
+    },
+    {
+      "id": "E1538",
+      "type": "ficha",
+      "title": "Southeast Asia Shadow IT and Lakehouse model Rationalization",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/southeast-asia-shadow-it-and-lakehouse-model-rationalization-e1538/",
+      "original": "https://jubap.eu/southeast-asia-shadow-it-and-lakehouse-model-rationalization/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "casos",
+        "control-minimo",
+        "decision",
+        "economia",
+        "empresa",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-668d7b51d977431eb7",
+      "tagWeights": {
+        "casos": 0.1053,
+        "control-minimo": 0.1053,
+        "decision": 0.1053,
+        "economia": 0.1052,
+        "empresa": 0.2631,
+        "transformacion": 0.3158
+      },
+      "contextTokens": 135,
+      "distance": 5,
+      "parent": "E1654",
+      "routeEdge": "documento:R024",
+      "affinity": 1
+    },
+    {
+      "id": "E1554",
+      "type": "ficha",
+      "title": "Japan Enterprise Architecture Function",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/japan-enterprise-architecture-function-e1554/",
+      "original": "https://jubap.eu/japan-enterprise-architecture-function/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "aprendizaje",
+        "autoridad",
+        "decision",
+        "empresa",
+        "evidencia"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-96f6857b576b42d966",
+      "tagWeights": {
+        "aprendizaje": 0.1539,
+        "autoridad": 0.1539,
+        "decision": 0.1538,
+        "empresa": 0.3846,
+        "evidencia": 0.1538
+      },
+      "contextTokens": 107,
+      "distance": 5,
+      "parent": "E1654",
+      "routeEdge": "documento:D067",
+      "affinity": 1
+    },
+    {
+      "id": "E1557",
+      "type": "ficha",
+      "title": "Watchmaking Manufacturing Rationalization",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/watchmaking-manufacturing-rationalization-e1557/",
+      "original": "https://jubap.eu/1557-2/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "casos",
+        "decision",
+        "economia",
+        "empresa",
+        "memoria-territorio",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-6dc515897dfb4315f4",
+      "tagWeights": {
+        "casos": 0.0909,
+        "decision": 0.0909,
+        "economia": 0.0909,
+        "empresa": 0.4091,
+        "memoria-territorio": 0.0909,
+        "transformacion": 0.2273
+      },
+      "contextTokens": 114,
+      "distance": 5,
+      "parent": "E1654",
+      "routeEdge": "documento:R026",
+      "affinity": 1
+    },
+    {
+      "id": "E1560",
+      "type": "ficha",
+      "title": "Supply Chain Rationalization & Process Mining",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/supply-chain-rationalization-process-mining-e1560/",
+      "original": "https://jubap.eu/supply-chain-rationalization-process-mining/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "decision",
+        "empresa",
+        "evidencia",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-f9cb655b84f0607b80",
+      "tagWeights": {
+        "decision": 0.1429,
+        "empresa": 0.3571,
+        "evidencia": 0.1429,
+        "transformacion": 0.3571
+      },
+      "contextTokens": 101,
+      "distance": 5,
+      "parent": "E1654",
+      "routeEdge": "documento:D070",
+      "affinity": 1
+    },
+    {
+      "id": "E1563",
+      "type": "ficha",
+      "title": "Event Intelligence",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/event-intelligence-e1563/",
+      "original": "https://jubap.eu/high-end-event-intelligence-demand-orchestration/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "autoridad",
+        "decision",
+        "memoria-territorio",
+        "representacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-62cebd249f929cda33",
+      "tagWeights": {
+        "autoridad": 0.25,
+        "decision": 0.25,
+        "memoria-territorio": 0.25,
+        "representacion": 0.25
+      },
+      "contextTokens": 92,
+      "distance": 5,
+      "parent": "E1524",
+      "routeEdge": "documento:D069",
+      "affinity": 1
+    },
+    {
+      "id": "E1570",
+      "type": "ficha",
+      "title": "Luxury Recommendation",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/luxury-recommendation-e1570/",
+      "original": "https://jubap.eu/luxury-recommendation-intelligence/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "autoridad",
+        "decision",
+        "empresa"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-3894fb21fe8199e41f",
+      "tagWeights": {
+        "autoridad": 0.2222,
+        "decision": 0.2222,
+        "empresa": 0.5556
+      },
+      "contextTokens": 80,
+      "distance": 5,
+      "parent": "E1524",
+      "routeEdge": "documento:R051",
+      "affinity": 1
+    },
+    {
+      "id": "E1729",
+      "type": "ficha",
+      "title": "HR & Processess Rationalization",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/hr-processess-rationalization-e1729/",
+      "original": "https://jubap.eu/hr-processess-rationalization/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "control-minimo",
+        "decision",
+        "economia",
+        "empresa",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-8bf685a1cf3c02348e",
+      "tagWeights": {
+        "control-minimo": 0.125,
+        "decision": 0.125,
+        "economia": 0.125,
+        "empresa": 0.3125,
+        "transformacion": 0.3125
+      },
+      "contextTokens": 102,
+      "distance": 5,
+      "parent": "E1654",
+      "routeEdge": "documento:R018",
+      "affinity": 1
+    },
+    {
+      "id": "G48",
+      "type": "concepto",
+      "title": "Racionalización de sistemas en lujo",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/luxury-systems-rationalisation/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "casos",
+        "control-minimo",
+        "decision",
+        "empresa",
+        "evidencia",
+        "transformacion"
+      ],
+      "summary": "The luxury portfolio case examines architecture decisions across differentiated Maisons.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "E1654"
+      ],
+      "tagWeights": {
+        "casos": 0.1936,
+        "control-minimo": 0.0645,
+        "decision": 0.0968,
+        "empresa": 0.3548,
+        "evidencia": 0.0968,
+        "transformacion": 0.1935
+      },
+      "contextTokens": 111,
+      "positionHeaderTokens": 41,
+      "distance": 5,
+      "parent": "E1654",
+      "routeEdge": "apoyo:E1654:G48",
+      "affinity": 1
+    },
+    {
+      "id": "G50",
+      "type": "concepto",
+      "title": "Recomendación de productos de lujo",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/luxury-product-recommendation/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "autoridad",
+        "decision",
+        "empresa"
+      ],
+      "summary": "The retail case explores product guidance and demand signals within store constraints.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "E1570",
+        "E1524"
+      ],
+      "tagWeights": {
+        "autoridad": 0.1111,
+        "decision": 0.1111,
+        "empresa": 0.7778
+      },
+      "contextTokens": 78,
+      "positionHeaderTokens": 40,
+      "distance": 5,
+      "parent": "E1524",
+      "routeEdge": "apoyo:E1524:G50",
+      "affinity": 1
+    },
+    {
+      "id": "C21",
+      "type": "concepto",
+      "title": "Canal local",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/local-channel/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "autoridad",
+        "decision",
+        "empresa",
+        "memoria-territorio",
+        "transformacion"
+      ],
+      "summary": "An interaction environment has its own practices and constraints.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "E1570",
+        "E1535"
+      ],
+      "tagWeights": {
+        "autoridad": 0.1111,
+        "decision": 0.1778,
+        "empresa": 0.4445,
+        "memoria-territorio": 0.1,
+        "transformacion": 0.1666
+      },
+      "contextTokens": 87,
+      "positionHeaderTokens": 30,
+      "distance": 6,
+      "parent": "E1570",
+      "routeEdge": "apoyo:E1570:C21",
+      "affinity": 1
+    },
+    {
+      "id": "E1535",
+      "type": "ficha",
+      "title": "China Tech Visibility & Rationalization",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/china-tech-visibility-rationalization-e1535/",
+      "original": "https://jubap.eu/china-technology-visibility-and-regional-rationalization/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "decision",
+        "empresa",
+        "memoria-territorio",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-aa56db6a0b9f07ff82",
+      "tagWeights": {
+        "decision": 0.1334,
+        "empresa": 0.3333,
+        "memoria-territorio": 0.2,
+        "transformacion": 0.3333
+      },
+      "contextTokens": 100,
+      "distance": 6,
+      "parent": "E1570",
+      "routeEdge": "documento:D015",
+      "affinity": 1
+    },
+    {
+      "id": "E1567",
+      "type": "ficha",
+      "title": "Piece Identity & Inventory Orchestration",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/piece-identity-inventory-orchestration-e1567/",
+      "original": "https://jubap.eu/luxury-piece-identity-dynamic-inventory-orchestration/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "agentes",
+        "autoridad",
+        "control-minimo",
+        "decision",
+        "evidencia",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-5c3faf4f245ed571a0",
+      "tagWeights": {
+        "agentes": 0.3125,
+        "autoridad": 0.125,
+        "control-minimo": 0.125,
+        "decision": 0.1875,
+        "evidencia": 0.125,
+        "transformacion": 0.125
+      },
+      "contextTokens": 130,
+      "distance": 6,
+      "parent": "E1563",
+      "routeEdge": "documento:R044",
+      "affinity": 1
+    },
+    {
+      "id": "E1526",
+      "type": "ficha",
+      "title": "Greater China Robotics",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/greater-china-robotics-e1526/",
+      "original": "https://jubap.eu/greater-china-robotics-industrial-ecosystem-architectural-bridge/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "estandares",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-177c29d70a3730ad26",
+      "tagWeights": {
+        "estandares": 0.4,
+        "transformacion": 0.6
+      },
+      "contextTokens": 84,
+      "distance": 7,
+      "parent": "E1535",
+      "routeEdge": "documento:R031",
+      "affinity": 1
+    }
+  ],
+  "edges": [
+    {
+      "id": "contiene:doc-63aa9c575ad7473553-entrada:E2",
+      "from": "doc-63aa9c575ad7473553-entrada",
+      "to": "E2",
+      "kind": "ficha del documento",
+      "reading": "Esta ficha abre la lectura desde el documento de origen.",
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-E2-E1221",
+      "from": "E2",
+      "to": "E1221",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «JubAp.EU», el enlace «Last articles» abre «Field Notes».",
+      "evidence": "https://jubap.eu/",
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-E2-E1628",
+      "from": "E2",
+      "to": "E1628",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «JubAp.EU», el enlace «Jump Up Business Action Plan» abre «The JUBAP Framework».",
+      "evidence": "https://jubap.eu/",
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-E2-E1731",
+      "from": "E2",
+      "to": "E1731",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «JubAp.EU», el enlace «strategic-reframing account» abre «Reframing Value Creation».",
+      "evidence": "https://jubap.eu/",
+      "route": true
+    },
+    {
+      "id": "documento:R005",
+      "from": "E1628",
+      "to": "E1630",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Human transformation: the perspective engine](https://jubap.eu/human-transformation/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:R002",
+      "from": "E1628",
+      "to": "E1633",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The AICM transformation programme](https://jubap.eu/aicm-mexico-city-airport-transformation/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:D065",
+      "from": "E1636",
+      "to": "E1628",
+      "kind": "documented use",
+      "reading": "The Nestlé account describes how the dashboard, liberation strategy and six-domain root-cause tool were used as a sequence.",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:R023",
+      "from": "E1731",
+      "to": "E1662",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Diamond Inside: discovering value already present](https://jubap.eu/the-diamond-inside-framework/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "apoyo:E1628:G24",
+      "from": "E1628",
+      "to": "G24",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:R052",
+      "from": "E1524",
+      "to": "E1662",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The Diamond Inside value-discovery framework](https://jubap.eu/the-diamond-inside-framework/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:R013",
+      "from": "E1662",
+      "to": "E1654",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Rationalization across a decentralized luxury group](https://jubap.eu/1654-2/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:R010",
+      "from": "E1662",
+      "to": "E1706",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Rationalization as value discovery](https://jubap.eu/rationalization-as-value-discovery/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "apoyo:E1636:G47",
+      "from": "E1636",
+      "to": "G47",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "apoyo:E1524:C66",
+      "from": "E1524",
+      "to": "C66",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:R024",
+      "from": "E1654",
+      "to": "E1538",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Southeast Asia: discovering the regional shadow portfolio](https://jubap.eu/southeast-asia-shadow-it-and-lakehouse-model-rationalization/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:D067",
+      "from": "E1554",
+      "to": "E1654",
+      "kind": "documented use",
+      "reading": "The Japan case details a local discovery–repository–governance sequence within the broader architecture programme.",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:R026",
+      "from": "E1654",
+      "to": "E1557",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Manufacturing capability federation](https://jubap.eu/1557-2/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:D070",
+      "from": "E1560",
+      "to": "E1654",
+      "kind": "documented use",
+      "reading": "In the supply-chain case, process traces were interpreted as evidence for architecture decisions rather than treated as a complete portfolio answer.",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:D069",
+      "from": "E1524",
+      "to": "E1563",
+      "kind": "documented use",
+      "reading": "The Montblanc MVP and the event-intelligence proposal both examine signals that sales records alone do not preserve.",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:R051",
+      "from": "E1524",
+      "to": "E1570",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [A distributed architecture for product intelligence](https://jubap.eu/luxury-recommendation-intelligence/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:R018",
+      "from": "E1729",
+      "to": "E1654",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The luxury-group rationalization case](https://jubap.eu/1654-2/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "apoyo:E1654:G48",
+      "from": "E1654",
+      "to": "G48",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "apoyo:E1524:G50",
+      "from": "E1524",
+      "to": "G50",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "apoyo:E1570:C21",
+      "from": "E1570",
+      "to": "C21",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:D015",
+      "from": "E1535",
+      "to": "E1570",
+      "kind": "candidate transfer",
+      "reading": "Regional transfer works best when the reusable capability is separated from the channel that first hosted it.",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:R044",
+      "from": "E1563",
+      "to": "E1567",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Piece identity and custody through the event lifecycle](https://jubap.eu/luxury-piece-identity-dynamic-inventory-orchestration/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:R031",
+      "from": "E1535",
+      "to": "E1526",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Architectural translation across the Greater China ecosystem](https://jubap.eu/greater-china-robotics-industrial-ecosystem-architectural-bridge/).",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "apoyo:E1535:C21",
+      "from": "E1535",
+      "to": "C21",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "route": false
+    },
+    {
+      "id": "apoyo:E1563:C66",
+      "from": "E1563",
+      "to": "C66",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "route": false
+    },
+    {
+      "id": "apoyo:E1636:G24",
+      "from": "E1636",
+      "to": "G24",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "route": false
+    },
+    {
+      "id": "apoyo:E1570:G50",
+      "from": "E1570",
+      "to": "G50",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "route": false
+    },
+    {
+      "id": "documento:D029",
+      "from": "E1563",
+      "to": "E1654",
+      "kind": "candidate transfer",
+      "reading": "The event-intelligence proposal suggests a lightweight capability-librarian role for making reuse visible across a portfolio.",
+      "evidence": null,
+      "route": false
+    },
+    {
+      "id": "documento:D066",
+      "from": "E1633",
+      "to": "E1630",
+      "kind": "documented use",
+      "reading": "The AICM programme explicitly describes an adapted JUBAP route; the human-transformation article explains the perspective mechanism without establishing that every technique was used there.",
+      "evidence": null,
+      "route": false
+    },
+    {
+      "id": "documento:R001",
+      "from": "E1628",
+      "to": "E1636",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Nestlé: where the framework was named](https://jubap.eu/nestle-case-study-where-jubap-was-first-named/).",
+      "evidence": null,
+      "route": false
+    },
+    {
+      "id": "documento:R006",
+      "from": "E1636",
+      "to": "E1628",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The JUBAP adaptive transformation framework](https://jubap.eu/the-jubap-framework/).",
+      "evidence": null,
+      "route": false
+    },
+    {
+      "id": "documento:R007",
+      "from": "E1633",
+      "to": "E1731",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Strategic reframing of an existing capability base](https://jubap.eu/reframing-value-creation/).",
+      "evidence": null,
+      "route": false
+    },
+    {
+      "id": "documento:R011",
+      "from": "E1706",
+      "to": "E1662",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The complete Diamond Inside framework](https://jubap.eu/the-diamond-inside-framework/).",
+      "evidence": null,
+      "route": false
+    },
+    {
+      "id": "documento:R022",
+      "from": "E1731",
+      "to": "E1633",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [AICM: reframing the workforce as strategic capacity](https://jubap.eu/aicm-mexico-city-airport-transformation/).",
+      "evidence": null,
+      "route": false
+    },
+    {
+      "id": "documento:R025",
+      "from": "E1654",
+      "to": "E1554",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Japan: building horizontal architecture governance](https://jubap.eu/japan-enterprise-architecture-function/).",
+      "evidence": null,
+      "route": false
+    },
+    {
+      "id": "documento:R030",
+      "from": "E1538",
+      "to": "E1535",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [China: platform-specific visibility and transfer](https://jubap.eu/china-technology-visibility-and-regional-rationalization/).",
+      "evidence": null,
+      "route": false
+    },
+    {
+      "id": "documento:R045",
+      "from": "E1563",
+      "to": "E1570",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Distributed product knowledge and recommendation](https://jubap.eu/luxury-recommendation-intelligence/).",
+      "evidence": null,
+      "route": false
+    },
+    {
+      "id": "documento:R047",
+      "from": "E1567",
+      "to": "E1570",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Linking identifiers across distributed product knowledge](https://jubap.eu/luxury-recommendation-intelligence/).",
+      "evidence": null,
+      "route": false
+    },
+    {
+      "id": "documento:np-r21",
+      "from": "E1628",
+      "to": "E1731",
+      "kind": "aplicación",
+      "reading": "La ampliación del marco orienta la búsqueda de capacidades ya disponibles.",
+      "evidence": null,
+      "route": false
+    },
+    {
+      "id": "documento:np-r22",
+      "from": "E1731",
+      "to": "E1636",
+      "kind": "comparación",
+      "reading": "El caso permite examinar cómo una intervención se apoya en capacidades y prácticas existentes.",
+      "evidence": null,
+      "route": false
+    },
+    {
+      "id": "concepto:B607",
+      "from": "G47",
+      "to": "G24",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "evidence": null,
+      "route": false
+    },
+    {
+      "id": "concepto:B624",
+      "from": "G50",
+      "to": "C21",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "evidence": null,
+      "route": false
+    }
+  ],
+  "selection": [
+    {
+      "id": "E2",
+      "type": "ficha",
+      "title": "JubAp.EU",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/jubap-eu-e2/",
+      "original": "https://jubap.eu/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "decision",
+        "empresa",
+        "navegacion",
+        "perspectiva",
+        "transformacion"
+      ],
+      "summary": "JubAp.eu supports high-stakes socio-technical transformations where technology, operating model or organizational decisions define long-term viability.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-63aa9c575ad7473553",
+      "tagWeights": {
+        "decision": 0.1,
+        "empresa": 0.45,
+        "navegacion": 0.05,
+        "perspectiva": 0.15,
+        "transformacion": 0.25
+      },
+      "contextTokens": 115,
+      "distance": 1,
+      "parent": "doc-63aa9c575ad7473553-entrada",
+      "routeEdge": null,
+      "affinity": 1
+    },
+    {
+      "id": "E1221",
+      "type": "ficha",
+      "title": "Field Notes",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/field-notes-e1221/",
+      "original": "https://jubap.eu/field-notes/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "navegacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-bd9004cfedb4291c84",
+      "tagWeights": {
+        "navegacion": 1
+      },
+      "contextTokens": 56,
+      "distance": 2,
+      "parent": "E2",
+      "routeEdge": "navigation:position-nav-E2-E1221",
+      "affinity": 1
+    },
+    {
+      "id": "E1628",
+      "type": "ficha",
+      "title": "The JUBAP Framework",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-jubap-framework",
+      "original": "https://jubap.eu/the-jubap-framework/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "autoridad",
+        "control-minimo",
+        "decision",
+        "documentacion",
+        "economia",
+        "perspectiva"
+      ],
+      "summary": "El marco combina el cambio de nivel de observación de UP con el filtro de acciones de JUMP. Las preguntas sobre participación, desbloqueo, movimiento observable y propagación ayudan a elegir por dónde empezar.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-f2e4ace78fdbc4aded",
+      "tagWeights": {
+        "autoridad": 0.1539,
+        "control-minimo": 0.1539,
+        "decision": 0.2308,
+        "documentacion": 0.1538,
+        "economia": 0.1538,
+        "perspectiva": 0.1538
+      },
+      "contextTokens": 152,
+      "distance": 2,
+      "parent": "E2",
+      "routeEdge": "navigation:position-nav-E2-E1628",
+      "affinity": 1
+    },
+    {
+      "id": "E1731",
+      "type": "ficha",
+      "title": "Reframing Value Creation",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-reframing",
+      "original": "https://jubap.eu/reframing-value-creation/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "casos",
+        "control-minimo",
+        "decision",
+        "documentacion",
+        "economia",
+        "empresa",
+        "perspectiva"
+      ],
+      "summary": "El cambio de marco permite reconocer valor que ya existe en recursos, prácticas y relaciones. Una intervención puede comenzar por reorganizar esas capacidades y darles una forma que la organización pueda usar.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-4998b3d102aa89fd7f",
+      "tagWeights": {
+        "casos": 0.1053,
+        "control-minimo": 0.1053,
+        "decision": 0.1053,
+        "documentacion": 0.1053,
+        "economia": 0.1052,
+        "empresa": 0.2105,
+        "perspectiva": 0.2631
+      },
+      "contextTokens": 154,
+      "distance": 2,
+      "parent": "E2",
+      "routeEdge": "navigation:position-nav-E2-E1731",
+      "affinity": 1
+    },
+    {
+      "id": "E1630",
+      "type": "ficha",
+      "title": "Case Study: HT",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-ht-e1630/",
+      "original": "https://jubap.eu/human-transformation/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "capacidad-humana",
+        "casos",
+        "perspectiva"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-543b0477030043bc1a",
+      "tagWeights": {
+        "capacidad-humana": 0.2222,
+        "casos": 0.5556,
+        "perspectiva": 0.2222
+      },
+      "contextTokens": 79,
+      "distance": 3,
+      "parent": "E1628",
+      "routeEdge": "documento:R005",
+      "affinity": 1
+    },
+    {
+      "id": "E1633",
+      "type": "ficha",
+      "title": "Case Study: AICM",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-aicm-e1633/",
+      "original": "https://jubap.eu/aicm-mexico-city-airport-transformation/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "casos",
+        "control-minimo",
+        "integridad-ia",
+        "movilidad",
+        "perspectiva"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-af1a95d4ae4382fede",
+      "tagWeights": {
+        "casos": 0.2941,
+        "control-minimo": 0.1765,
+        "integridad-ia": 0.1177,
+        "movilidad": 0.2941,
+        "perspectiva": 0.1176
+      },
+      "contextTokens": 107,
+      "distance": 3,
+      "parent": "E1628",
+      "routeEdge": "documento:R002",
+      "affinity": 1
+    },
+    {
+      "id": "E1636",
+      "type": "ficha",
+      "title": "Nestlé North America — Where JUBAP Was Named",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-nestle",
+      "original": "https://jubap.eu/nestle-case-study-where-jubap-was-first-named/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "aprendizaje",
+        "empresa",
+        "evidencia"
+      ],
+      "summary": "El caso permite examinar cómo una intervención se integró en prácticas de mejora, mantenimiento y gestión ya presentes. La atención al punto de bloqueo ayuda a relacionar marcos que por separado explicaban solo una parte del problema.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-891d59c99b50ee9767",
+      "tagWeights": {
+        "aprendizaje": 0.2222,
+        "empresa": 0.5556,
+        "evidencia": 0.2222
+      },
+      "contextTokens": 144,
+      "distance": 3,
+      "parent": "E1628",
+      "routeEdge": "documento:D065",
+      "affinity": 1
+    },
+    {
+      "id": "E1662",
+      "type": "ficha",
+      "title": "THE DIAMOND INSIDE FRAMEWORK",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/the-diamond-inside-framework-e1662/",
+      "original": "https://jubap.eu/the-diamond-inside-framework/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "control-minimo",
+        "economia",
+        "evidencia",
+        "memoria-territorio"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-d21d93f69ad55c7f28",
+      "tagWeights": {
+        "control-minimo": 0.25,
+        "economia": 0.25,
+        "evidencia": 0.25,
+        "memoria-territorio": 0.25
+      },
+      "contextTokens": 100,
+      "distance": 3,
+      "parent": "E1731",
+      "routeEdge": "documento:R023",
+      "affinity": 1
+    },
+    {
+      "id": "G24",
+      "type": "concepto",
+      "title": "JUBAP / secuencia de intervención",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/jubap-intervention-practice/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "aprendizaje",
+        "autoridad",
+        "control-minimo",
+        "decision",
+        "documentacion",
+        "economia",
+        "empresa",
+        "evidencia",
+        "perspectiva"
+      ],
+      "summary": "The practice uses perspective changes and focused interventions to activate capacity within organisations.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "E1628",
+        "E1636"
+      ],
+      "tagWeights": {
+        "aprendizaje": 0.1111,
+        "autoridad": 0.077,
+        "control-minimo": 0.0769,
+        "decision": 0.1154,
+        "documentacion": 0.0769,
+        "economia": 0.0769,
+        "empresa": 0.2778,
+        "evidencia": 0.1111,
+        "perspectiva": 0.0769
+      },
+      "contextTokens": 143,
+      "positionHeaderTokens": 41,
+      "distance": 3,
+      "parent": "E1628",
+      "routeEdge": "apoyo:E1628:G24",
+      "affinity": 1
+    },
+    {
+      "id": "E1524",
+      "type": "ficha",
+      "title": "Montblanc — Lightweight Product Intelligence for Luxury In-Store Conversion",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/montblanc-lightweight-product-intelligence-for-luxury-in-store-conversion-e1524/",
+      "original": "https://jubap.eu/montblanc-lightweight-product-intelligence-for-luxury-in-store-conversion/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "empresa"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-0d09f6eb9814f96587",
+      "tagWeights": {
+        "empresa": 1
+      },
+      "contextTokens": 90,
+      "distance": 4,
+      "parent": "E1662",
+      "routeEdge": "documento:R052",
+      "affinity": 1
+    },
+    {
+      "id": "E1654",
+      "type": "ficha",
+      "title": "Case Study: Rationalization in Luxury",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-rationalization-in-luxury-e1654/",
+      "original": "https://jubap.eu/1654-2/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "casos",
+        "control-minimo",
+        "decision",
+        "empresa",
+        "evidencia",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-c34269358237772547",
+      "tagWeights": {
+        "casos": 0.1936,
+        "control-minimo": 0.0645,
+        "decision": 0.0968,
+        "empresa": 0.3548,
+        "evidencia": 0.0968,
+        "transformacion": 0.1935
+      },
+      "contextTokens": 119,
+      "distance": 4,
+      "parent": "E1662",
+      "routeEdge": "documento:R013",
+      "affinity": 1
+    },
+    {
+      "id": "E1706",
+      "type": "ficha",
+      "title": "Diamond Inside",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/diamond-inside-e1706/",
+      "original": "https://jubap.eu/rationalization-as-value-discovery/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "empresa",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-ea8a22d5c4bc36ba9b",
+      "tagWeights": {
+        "empresa": 0.5,
+        "transformacion": 0.5
+      },
+      "contextTokens": 67,
+      "distance": 4,
+      "parent": "E1662",
+      "routeEdge": "documento:R010",
+      "affinity": 1
+    },
+    {
+      "id": "G47",
+      "type": "concepto",
+      "title": "Nestlé North America / origen JUBAP",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/nestle-north-america-and-jubap-origins/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "aprendizaje",
+        "empresa",
+        "evidencia"
+      ],
+      "summary": "The field case records the line from a shift in perspective to coordinated transformation action.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "E1636"
+      ],
+      "tagWeights": {
+        "aprendizaje": 0.2222,
+        "empresa": 0.5556,
+        "evidencia": 0.2222
+      },
+      "contextTokens": 94,
+      "positionHeaderTokens": 49,
+      "distance": 4,
+      "parent": "E1636",
+      "routeEdge": "apoyo:E1636:G47",
+      "affinity": 1
+    },
+    {
+      "id": "C66",
+      "type": "concepto",
+      "title": "Señales de no compra",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/non-purchase-signals/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "autoridad",
+        "decision",
+        "empresa",
+        "memoria-territorio",
+        "representacion"
+      ],
+      "summary": "A completed-sale record omits information about choices that did not become sales.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "E1524",
+        "E1563"
+      ],
+      "tagWeights": {
+        "autoridad": 0.125,
+        "decision": 0.125,
+        "empresa": 0.5,
+        "memoria-territorio": 0.125,
+        "representacion": 0.125
+      },
+      "contextTokens": 98,
+      "positionHeaderTokens": 36,
+      "distance": 5,
+      "parent": "E1524",
+      "routeEdge": "apoyo:E1524:C66",
+      "affinity": 1
+    },
+    {
+      "id": "E1538",
+      "type": "ficha",
+      "title": "Southeast Asia Shadow IT and Lakehouse model Rationalization",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/southeast-asia-shadow-it-and-lakehouse-model-rationalization-e1538/",
+      "original": "https://jubap.eu/southeast-asia-shadow-it-and-lakehouse-model-rationalization/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "casos",
+        "control-minimo",
+        "decision",
+        "economia",
+        "empresa",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-668d7b51d977431eb7",
+      "tagWeights": {
+        "casos": 0.1053,
+        "control-minimo": 0.1053,
+        "decision": 0.1053,
+        "economia": 0.1052,
+        "empresa": 0.2631,
+        "transformacion": 0.3158
+      },
+      "contextTokens": 135,
+      "distance": 5,
+      "parent": "E1654",
+      "routeEdge": "documento:R024",
+      "affinity": 1
+    },
+    {
+      "id": "E1554",
+      "type": "ficha",
+      "title": "Japan Enterprise Architecture Function",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/japan-enterprise-architecture-function-e1554/",
+      "original": "https://jubap.eu/japan-enterprise-architecture-function/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "aprendizaje",
+        "autoridad",
+        "decision",
+        "empresa",
+        "evidencia"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-96f6857b576b42d966",
+      "tagWeights": {
+        "aprendizaje": 0.1539,
+        "autoridad": 0.1539,
+        "decision": 0.1538,
+        "empresa": 0.3846,
+        "evidencia": 0.1538
+      },
+      "contextTokens": 107,
+      "distance": 5,
+      "parent": "E1654",
+      "routeEdge": "documento:D067",
+      "affinity": 1
+    },
+    {
+      "id": "E1557",
+      "type": "ficha",
+      "title": "Watchmaking Manufacturing Rationalization",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/watchmaking-manufacturing-rationalization-e1557/",
+      "original": "https://jubap.eu/1557-2/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "casos",
+        "decision",
+        "economia",
+        "empresa",
+        "memoria-territorio",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-6dc515897dfb4315f4",
+      "tagWeights": {
+        "casos": 0.0909,
+        "decision": 0.0909,
+        "economia": 0.0909,
+        "empresa": 0.4091,
+        "memoria-territorio": 0.0909,
+        "transformacion": 0.2273
+      },
+      "contextTokens": 114,
+      "distance": 5,
+      "parent": "E1654",
+      "routeEdge": "documento:R026",
+      "affinity": 1
+    },
+    {
+      "id": "E1560",
+      "type": "ficha",
+      "title": "Supply Chain Rationalization & Process Mining",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/supply-chain-rationalization-process-mining-e1560/",
+      "original": "https://jubap.eu/supply-chain-rationalization-process-mining/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "decision",
+        "empresa",
+        "evidencia",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-f9cb655b84f0607b80",
+      "tagWeights": {
+        "decision": 0.1429,
+        "empresa": 0.3571,
+        "evidencia": 0.1429,
+        "transformacion": 0.3571
+      },
+      "contextTokens": 101,
+      "distance": 5,
+      "parent": "E1654",
+      "routeEdge": "documento:D070",
+      "affinity": 1
+    },
+    {
+      "id": "E1563",
+      "type": "ficha",
+      "title": "Event Intelligence",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/event-intelligence-e1563/",
+      "original": "https://jubap.eu/high-end-event-intelligence-demand-orchestration/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "autoridad",
+        "decision",
+        "memoria-territorio",
+        "representacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-62cebd249f929cda33",
+      "tagWeights": {
+        "autoridad": 0.25,
+        "decision": 0.25,
+        "memoria-territorio": 0.25,
+        "representacion": 0.25
+      },
+      "contextTokens": 92,
+      "distance": 5,
+      "parent": "E1524",
+      "routeEdge": "documento:D069",
+      "affinity": 1
+    },
+    {
+      "id": "E1570",
+      "type": "ficha",
+      "title": "Luxury Recommendation",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/luxury-recommendation-e1570/",
+      "original": "https://jubap.eu/luxury-recommendation-intelligence/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "autoridad",
+        "decision",
+        "empresa"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-3894fb21fe8199e41f",
+      "tagWeights": {
+        "autoridad": 0.2222,
+        "decision": 0.2222,
+        "empresa": 0.5556
+      },
+      "contextTokens": 80,
+      "distance": 5,
+      "parent": "E1524",
+      "routeEdge": "documento:R051",
+      "affinity": 1
+    },
+    {
+      "id": "E1729",
+      "type": "ficha",
+      "title": "HR & Processess Rationalization",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/hr-processess-rationalization-e1729/",
+      "original": "https://jubap.eu/hr-processess-rationalization/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "control-minimo",
+        "decision",
+        "economia",
+        "empresa",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-8bf685a1cf3c02348e",
+      "tagWeights": {
+        "control-minimo": 0.125,
+        "decision": 0.125,
+        "economia": 0.125,
+        "empresa": 0.3125,
+        "transformacion": 0.3125
+      },
+      "contextTokens": 102,
+      "distance": 5,
+      "parent": "E1654",
+      "routeEdge": "documento:R018",
+      "affinity": 1
+    },
+    {
+      "id": "G48",
+      "type": "concepto",
+      "title": "Racionalización de sistemas en lujo",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/luxury-systems-rationalisation/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "casos",
+        "control-minimo",
+        "decision",
+        "empresa",
+        "evidencia",
+        "transformacion"
+      ],
+      "summary": "The luxury portfolio case examines architecture decisions across differentiated Maisons.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "E1654"
+      ],
+      "tagWeights": {
+        "casos": 0.1936,
+        "control-minimo": 0.0645,
+        "decision": 0.0968,
+        "empresa": 0.3548,
+        "evidencia": 0.0968,
+        "transformacion": 0.1935
+      },
+      "contextTokens": 111,
+      "positionHeaderTokens": 41,
+      "distance": 5,
+      "parent": "E1654",
+      "routeEdge": "apoyo:E1654:G48",
+      "affinity": 1
+    },
+    {
+      "id": "G50",
+      "type": "concepto",
+      "title": "Recomendación de productos de lujo",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/luxury-product-recommendation/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "autoridad",
+        "decision",
+        "empresa"
+      ],
+      "summary": "The retail case explores product guidance and demand signals within store constraints.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "E1570",
+        "E1524"
+      ],
+      "tagWeights": {
+        "autoridad": 0.1111,
+        "decision": 0.1111,
+        "empresa": 0.7778
+      },
+      "contextTokens": 78,
+      "positionHeaderTokens": 40,
+      "distance": 5,
+      "parent": "E1524",
+      "routeEdge": "apoyo:E1524:G50",
+      "affinity": 1
+    },
+    {
+      "id": "C21",
+      "type": "concepto",
+      "title": "Canal local",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/local-channel/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "autoridad",
+        "decision",
+        "empresa",
+        "memoria-territorio",
+        "transformacion"
+      ],
+      "summary": "An interaction environment has its own practices and constraints.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "sourceIds": [
+        "E1570",
+        "E1535"
+      ],
+      "tagWeights": {
+        "autoridad": 0.1111,
+        "decision": 0.1778,
+        "empresa": 0.4445,
+        "memoria-territorio": 0.1,
+        "transformacion": 0.1666
+      },
+      "contextTokens": 87,
+      "positionHeaderTokens": 30,
+      "distance": 6,
+      "parent": "E1570",
+      "routeEdge": "apoyo:E1570:C21",
+      "affinity": 1
+    },
+    {
+      "id": "E1535",
+      "type": "ficha",
+      "title": "China Tech Visibility & Rationalization",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/china-tech-visibility-rationalization-e1535/",
+      "original": "https://jubap.eu/china-technology-visibility-and-regional-rationalization/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "decision",
+        "empresa",
+        "memoria-territorio",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-aa56db6a0b9f07ff82",
+      "tagWeights": {
+        "decision": 0.1334,
+        "empresa": 0.3333,
+        "memoria-territorio": 0.2,
+        "transformacion": 0.3333
+      },
+      "contextTokens": 100,
+      "distance": 6,
+      "parent": "E1570",
+      "routeEdge": "documento:D015",
+      "affinity": 1
+    },
+    {
+      "id": "E1567",
+      "type": "ficha",
+      "title": "Piece Identity & Inventory Orchestration",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/piece-identity-inventory-orchestration-e1567/",
+      "original": "https://jubap.eu/luxury-piece-identity-dynamic-inventory-orchestration/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "agentes",
+        "autoridad",
+        "control-minimo",
+        "decision",
+        "evidencia",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-5c3faf4f245ed571a0",
+      "tagWeights": {
+        "agentes": 0.3125,
+        "autoridad": 0.125,
+        "control-minimo": 0.125,
+        "decision": 0.1875,
+        "evidencia": 0.125,
+        "transformacion": 0.125
+      },
+      "contextTokens": 130,
+      "distance": 6,
+      "parent": "E1563",
+      "routeEdge": "documento:R044",
+      "affinity": 1
+    },
+    {
+      "id": "E1526",
+      "type": "ficha",
+      "title": "Greater China Robotics",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/greater-china-robotics-e1526/",
+      "original": "https://jubap.eu/greater-china-robotics-industrial-ecosystem-architectural-bridge/",
+      "aliases": [],
+      "clusters": [
+        "eu"
+      ],
+      "tags": [
+        "estandares",
+        "transformacion"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-177c29d70a3730ad26",
+      "tagWeights": {
+        "estandares": 0.4,
+        "transformacion": 0.6
+      },
+      "contextTokens": 84,
+      "distance": 7,
+      "parent": "E1535",
+      "routeEdge": "documento:R031",
+      "affinity": 1
+    }
+  ],
+  "reading": "# Posicionamiento · JubAp.EU\nDocumento de origen: https://jubap.eu/\n\n## JubAp.EU\nJubAp.eu supports high-stakes socio-technical transformations where technology, operating model or organizational decisions define long-term viability.\nEtiquetas: Decisiones y responsabilidad 10.00%; Empresa y gestión 45.00%; Índices, contacto y políticas 5.00%; Cambio de perspectiva 15.00%; Transformación y continuidad operativa 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-eu-e2/\nDocumento de origen: https://jubap.eu/\n\nJubAp.EU → Field Notes · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «Last articles» abre «Field Notes».\nFuente de la relación: https://jubap.eu/\n\n## Field Notes\n\nEtiquetas: Índices, contacto y políticas 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/field-notes-e1221/\nDocumento de origen: https://jubap.eu/field-notes/\n\nJubAp.EU → The JUBAP Framework · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «Jump Up Business Action Plan» abre «The JUBAP Framework».\nFuente de la relación: https://jubap.eu/\n\n## The JUBAP Framework\nEl marco combina el cambio de nivel de observación de UP con el filtro de acciones de JUMP. Las preguntas sobre participación, desbloqueo, movimiento observable y propagación ayudan a elegir por dónde empezar.\nEtiquetas: Autoridad, permisos y delegación 15.39%; Control mínimo y suficiencia 15.39%; Decisiones y responsabilidad 23.08%; Investigación y documentación técnica 15.38%; Economía, costes y liquidez 15.38%; Cambio de perspectiva 15.38%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-jubap-framework\nDocumento de origen: https://jubap.eu/the-jubap-framework/\n\nJubAp.EU → Reframing Value Creation · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «strategic-reframing account» abre «Reframing Value Creation».\nFuente de la relación: https://jubap.eu/\n\n## Reframing Value Creation\nEl cambio de marco permite reconocer valor que ya existe en recursos, prácticas y relaciones. Una intervención puede comenzar por reorganizar esas capacidades y darles una forma que la organización pueda usar.\nEtiquetas: Casos de uso y aplicaciones 10.53%; Control mínimo y suficiencia 10.53%; Decisiones y responsabilidad 10.53%; Investigación y documentación técnica 10.53%; Economía, costes y liquidez 10.52%; Empresa y gestión 21.05%; Cambio de perspectiva 26.31%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-reframing\nDocumento de origen: https://jubap.eu/reframing-value-creation/\n\nThe JUBAP Framework → Case Study: HT · editorial comparison. For a complementary reading, see [Human transformation: the perspective engine](https://jubap.eu/human-transformation/).\n\n## Case Study: HT\n\nEtiquetas: Capacidad humana y deuda de inteligencia 22.22%; Casos de uso y aplicaciones 55.56%; Cambio de perspectiva 22.22%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-study-ht-e1630/\nDocumento de origen: https://jubap.eu/human-transformation/\n\nThe JUBAP Framework → Case Study: AICM · editorial comparison. For a complementary reading, see [The AICM transformation programme](https://jubap.eu/aicm-mexico-city-airport-transformation/).\n\n## Case Study: AICM\n\nEtiquetas: Casos de uso y aplicaciones 29.41%; Control mínimo y suficiencia 17.65%; Integridad y seguridad de IA 11.77%; Movilidad e infraestructura 29.41%; Cambio de perspectiva 11.76%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-study-aicm-e1633/\nDocumento de origen: https://jubap.eu/aicm-mexico-city-airport-transformation/\n\nNestlé North America — Where JUBAP Was Named → The JUBAP Framework · documented use. The Nestlé account describes how the dashboard, liberation strategy and six-domain root-cause tool were used as a sequence.\n\n## Nestlé North America — Where JUBAP Was Named\nEl caso permite examinar cómo una intervención se integró en prácticas de mejora, mantenimiento y gestión ya presentes. La atención al punto de bloqueo ayuda a relacionar marcos que por separado explicaban solo una parte del problema.\nEtiquetas: Aprendizaje y transmisión de capacidades 22.22%; Empresa y gestión 55.56%; Evidencia, procedencia y atribución 22.22%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-nestle\nDocumento de origen: https://jubap.eu/nestle-case-study-where-jubap-was-first-named/\n\nReframing Value Creation → THE DIAMOND INSIDE FRAMEWORK · editorial comparison. For a complementary reading, see [Diamond Inside: discovering value already present](https://jubap.eu/the-diamond-inside-framework/).\n\n## THE DIAMOND INSIDE FRAMEWORK\n\nEtiquetas: Control mínimo y suficiencia 25.00%; Economía, costes y liquidez 25.00%; Evidencia, procedencia y atribución 25.00%; Memoria, comunidad y territorio 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/the-diamond-inside-framework-e1662/\nDocumento de origen: https://jubap.eu/the-diamond-inside-framework/\n\nThe JUBAP Framework → JUBAP / secuencia de intervención · documenta el concepto. \n\n## JUBAP / secuencia de intervención\nThe practice uses perspective changes and focused interventions to activate capacity within organisations.\nEtiquetas: Aprendizaje y transmisión de capacidades 11.11%; Autoridad, permisos y delegación 7.70%; Control mínimo y suficiencia 7.69%; Decisiones y responsabilidad 11.54%; Investigación y documentación técnica 7.69%; Economía, costes y liquidez 7.69%; Empresa y gestión 27.78%; Evidencia, procedencia y atribución 11.11%; Cambio de perspectiva 7.69%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/jubap-intervention-practice/\n\nMontblanc — Lightweight Product Intelligence for Luxury In-Store Conversion → THE DIAMOND INSIDE FRAMEWORK · editorial comparison. For a complementary reading, see [The Diamond Inside value-discovery framework](https://jubap.eu/the-diamond-inside-framework/).\n\n## Montblanc — Lightweight Product Intelligence for Luxury In-Store Conversion\n\nEtiquetas: Empresa y gestión 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/montblanc-lightweight-product-intelligence-for-luxury-in-store-conversion-e1524/\nDocumento de origen: https://jubap.eu/montblanc-lightweight-product-intelligence-for-luxury-in-store-conversion/\n\nTHE DIAMOND INSIDE FRAMEWORK → Case Study: Rationalization in Luxury · editorial comparison. For a complementary reading, see [Rationalization across a decentralized luxury group](https://jubap.eu/1654-2/).\n\n## Case Study: Rationalization in Luxury\n\nEtiquetas: Casos de uso y aplicaciones 19.36%; Control mínimo y suficiencia 6.45%; Decisiones y responsabilidad 9.68%; Empresa y gestión 35.48%; Evidencia, procedencia y atribución 9.68%; Transformación y continuidad operativa 19.35%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-study-rationalization-in-luxury-e1654/\nDocumento de origen: https://jubap.eu/1654-2/\n\nTHE DIAMOND INSIDE FRAMEWORK → Diamond Inside · editorial comparison. For a complementary reading, see [Rationalization as value discovery](https://jubap.eu/rationalization-as-value-discovery/).\n\n## Diamond Inside\n\nEtiquetas: Empresa y gestión 50.00%; Transformación y continuidad operativa 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/diamond-inside-e1706/\nDocumento de origen: https://jubap.eu/rationalization-as-value-discovery/\n\nNestlé North America — Where JUBAP Was Named → Nestlé North America / origen JUBAP · documenta el concepto. \n\n## Nestlé North America / origen JUBAP\nThe field case records the line from a shift in perspective to coordinated transformation action.\nEtiquetas: Aprendizaje y transmisión de capacidades 22.22%; Empresa y gestión 55.56%; Evidencia, procedencia y atribución 22.22%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/nestle-north-america-and-jubap-origins/\n\nMontblanc — Lightweight Product Intelligence for Luxury In-Store Conversion → Señales de no compra · documenta el concepto. \n\n## Señales de no compra\nA completed-sale record omits information about choices that did not become sales.\nEtiquetas: Autoridad, permisos y delegación 12.50%; Decisiones y responsabilidad 12.50%; Empresa y gestión 50.00%; Memoria, comunidad y territorio 12.50%; Representación y límites formales 12.50%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/non-purchase-signals/\n\nCase Study: Rationalization in Luxury → Southeast Asia Shadow IT and Lakehouse model Rationalization · editorial comparison. For a complementary reading, see [Southeast Asia: discovering the regional shadow portfolio](https://jubap.eu/southeast-asia-shadow-it-and-lakehouse-model-rationalization/).\n\n## Southeast Asia Shadow IT and Lakehouse model Rationalization\n\nEtiquetas: Casos de uso y aplicaciones 10.53%; Control mínimo y suficiencia 10.53%; Decisiones y responsabilidad 10.53%; Economía, costes y liquidez 10.52%; Empresa y gestión 26.31%; Transformación y continuidad operativa 31.58%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/southeast-asia-shadow-it-and-lakehouse-model-rationalization-e1538/\nDocumento de origen: https://jubap.eu/southeast-asia-shadow-it-and-lakehouse-model-rationalization/\n\nJapan Enterprise Architecture Function → Case Study: Rationalization in Luxury · documented use. The Japan case details a local discovery–repository–governance sequence within the broader architecture programme.\n\n## Japan Enterprise Architecture Function\n\nEtiquetas: Aprendizaje y transmisión de capacidades 15.39%; Autoridad, permisos y delegación 15.39%; Decisiones y responsabilidad 15.38%; Empresa y gestión 38.46%; Evidencia, procedencia y atribución 15.38%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/japan-enterprise-architecture-function-e1554/\nDocumento de origen: https://jubap.eu/japan-enterprise-architecture-function/\n\nCase Study: Rationalization in Luxury → Watchmaking Manufacturing Rationalization · editorial comparison. For a complementary reading, see [Manufacturing capability federation](https://jubap.eu/1557-2/).\n\n## Watchmaking Manufacturing Rationalization\n\nEtiquetas: Casos de uso y aplicaciones 9.09%; Decisiones y responsabilidad 9.09%; Economía, costes y liquidez 9.09%; Empresa y gestión 40.91%; Memoria, comunidad y territorio 9.09%; Transformación y continuidad operativa 22.73%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/watchmaking-manufacturing-rationalization-e1557/\nDocumento de origen: https://jubap.eu/1557-2/\n\nSupply Chain Rationalization & Process Mining → Case Study: Rationalization in Luxury · documented use. In the supply-chain case, process traces were interpreted as evidence for architecture decisions rather than treated as a complete portfolio answer.\n\n## Supply Chain Rationalization & Process Mining\n\nEtiquetas: Decisiones y responsabilidad 14.29%; Empresa y gestión 35.71%; Evidencia, procedencia y atribución 14.29%; Transformación y continuidad operativa 35.71%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/supply-chain-rationalization-process-mining-e1560/\nDocumento de origen: https://jubap.eu/supply-chain-rationalization-process-mining/\n\nMontblanc — Lightweight Product Intelligence for Luxury In-Store Conversion → Event Intelligence · documented use. The Montblanc MVP and the event-intelligence proposal both examine signals that sales records alone do not preserve.\n\n## Event Intelligence\n\nEtiquetas: Autoridad, permisos y delegación 25.00%; Decisiones y responsabilidad 25.00%; Memoria, comunidad y territorio 25.00%; Representación y límites formales 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/event-intelligence-e1563/\nDocumento de origen: https://jubap.eu/high-end-event-intelligence-demand-orchestration/\n\nMontblanc — Lightweight Product Intelligence for Luxury In-Store Conversion → Luxury Recommendation · editorial comparison. For a complementary reading, see [A distributed architecture for product intelligence](https://jubap.eu/luxury-recommendation-intelligence/).\n\n## Luxury Recommendation\n\nEtiquetas: Autoridad, permisos y delegación 22.22%; Decisiones y responsabilidad 22.22%; Empresa y gestión 55.56%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/luxury-recommendation-e1570/\nDocumento de origen: https://jubap.eu/luxury-recommendation-intelligence/\n\nHR & Processess Rationalization → Case Study: Rationalization in Luxury · editorial comparison. For a complementary reading, see [The luxury-group rationalization case](https://jubap.eu/1654-2/).\n\n## HR & Processess Rationalization\n\nEtiquetas: Control mínimo y suficiencia 12.50%; Decisiones y responsabilidad 12.50%; Economía, costes y liquidez 12.50%; Empresa y gestión 31.25%; Transformación y continuidad operativa 31.25%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/hr-processess-rationalization-e1729/\nDocumento de origen: https://jubap.eu/hr-processess-rationalization/\n\nCase Study: Rationalization in Luxury → Racionalización de sistemas en lujo · documenta el concepto. \n\n## Racionalización de sistemas en lujo\nThe luxury portfolio case examines architecture decisions across differentiated Maisons.\nEtiquetas: Casos de uso y aplicaciones 19.36%; Control mínimo y suficiencia 6.45%; Decisiones y responsabilidad 9.68%; Empresa y gestión 35.48%; Evidencia, procedencia y atribución 9.68%; Transformación y continuidad operativa 19.35%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/luxury-systems-rationalisation/\n\nMontblanc — Lightweight Product Intelligence for Luxury In-Store Conversion → Recomendación de productos de lujo · documenta el concepto. \n\n## Recomendación de productos de lujo\nThe retail case explores product guidance and demand signals within store constraints.\nEtiquetas: Autoridad, permisos y delegación 11.11%; Decisiones y responsabilidad 11.11%; Empresa y gestión 77.78%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/luxury-product-recommendation/\n\nLuxury Recommendation → Canal local · documenta el concepto. \n\n## Canal local\nAn interaction environment has its own practices and constraints.\nEtiquetas: Autoridad, permisos y delegación 11.11%; Decisiones y responsabilidad 17.78%; Empresa y gestión 44.45%; Memoria, comunidad y territorio 10.00%; Transformación y continuidad operativa 16.66%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/local-channel/\n\nChina Tech Visibility & Rationalization → Luxury Recommendation · candidate transfer. Regional transfer works best when the reusable capability is separated from the channel that first hosted it.\n\n## China Tech Visibility & Rationalization\n\nEtiquetas: Decisiones y responsabilidad 13.34%; Empresa y gestión 33.33%; Memoria, comunidad y territorio 20.00%; Transformación y continuidad operativa 33.33%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/china-tech-visibility-rationalization-e1535/\nDocumento de origen: https://jubap.eu/china-technology-visibility-and-regional-rationalization/\n\nEvent Intelligence → Piece Identity & Inventory Orchestration · editorial comparison. For a complementary reading, see [Piece identity and custody through the event lifecycle](https://jubap.eu/luxury-piece-identity-dynamic-inventory-orchestration/).\n\n## Piece Identity & Inventory Orchestration\n\nEtiquetas: Agentes y coordinación distribuida 31.25%; Autoridad, permisos y delegación 12.50%; Control mínimo y suficiencia 12.50%; Decisiones y responsabilidad 18.75%; Evidencia, procedencia y atribución 12.50%; Transformación y continuidad operativa 12.50%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/piece-identity-inventory-orchestration-e1567/\nDocumento de origen: https://jubap.eu/luxury-piece-identity-dynamic-inventory-orchestration/\n\nChina Tech Visibility & Rationalization → Greater China Robotics · editorial comparison. For a complementary reading, see [Architectural translation across the Greater China ecosystem](https://jubap.eu/greater-china-robotics-industrial-ecosystem-architectural-bridge/).\n\n## Greater China Robotics\n\nEtiquetas: Estándares e interoperabilidad 40.00%; Transformación y continuidad operativa 60.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/greater-china-robotics-e1526/\nDocumento de origen: https://jubap.eu/greater-china-robotics-industrial-ecosystem-architectural-bridge/\n\n"
+}

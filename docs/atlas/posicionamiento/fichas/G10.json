@@ -1,0 +1,183 @@
+{
+  "id": "G10",
+  "type": "concepto",
+  "title": "Epistemic handoff / transferencia contextual",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/epistemic-handoff/",
+  "documentId": null,
+  "sourceIds": [
+    "GH041",
+    "GH066",
+    "S05"
+  ],
+  "tagWeights": {
+    "agentes": 0.1536,
+    "autoridad": 0.1111,
+    "cartografia": 0.1536,
+    "documentacion": 0.119,
+    "evidencia": 0.2536,
+    "integridad-ia": 0.1536,
+    "transformacion": 0.0555
+  },
+  "clusters": [
+    "research"
+  ],
+  "context": "## Epistemic handoff / transferencia contextual\nPass meaning, provenance, version, authority and conditions along with evidence.\nEtiquetas: Agentes y coordinación distribuida 15.36%; Autoridad, permisos y delegación 11.11%; Cartografía y señales de ecosistema 15.36%; Investigación y documentación técnica 11.90%; Evidencia, procedencia y atribución 25.36%; Integridad y seguridad de IA 15.36%; Transformación y continuidad operativa 5.55%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/epistemic-handoff/\n\n",
+  "tokens": 129,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH041:G10",
+      "to": "GH041",
+      "title": "Ecosystem Awareness — General Functional Interfaces & Agentic Security — v0.5 Integrated",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 34,
+      "fichaTokens": 203,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH041.json"
+    },
+    {
+      "id": "apoyo:GH066:G10",
+      "to": "GH066",
+      "title": "Dual-time, provenance-bound certificate contract — SA-O2/O5 → EA review",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 32,
+      "fichaTokens": 180,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH066.json"
+    },
+    {
+      "id": "apoyo:S05:G10",
+      "to": "S05",
+      "title": "Ecosystem Awareness — Functional Interfaces & Agentic Security Integration — v0.4",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 33,
+      "fichaTokens": 209,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/S05.json"
+    },
+    {
+      "id": "concepto:B422",
+      "to": "C27",
+      "title": "Transferencia de contexto",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 257,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C27.json"
+    },
+    {
+      "id": "concepto:B423",
+      "to": "C42",
+      "title": "Versión del contexto",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 220,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C42.json"
+    },
+    {
+      "id": "concepto:B424",
+      "to": "C43",
+      "title": "Vigencia y caducidad",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 219,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C43.json"
+    },
+    {
+      "id": "concepto:B425",
+      "to": "C26",
+      "title": "Autoridad de decisión",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 262,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C26.json"
+    },
+    {
+      "id": "concepto:B426",
+      "to": "G03",
+      "title": "Mundo, registro y contexto perdido",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 155,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G03.json"
+    },
+    {
+      "id": "concepto:B431",
+      "to": "G11",
+      "title": "Gobernanza de autoridad delegada",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 240,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G11.json"
+    },
+    {
+      "id": "concepto:B437",
+      "to": "G13",
+      "title": "Requisitos canónicos S1–S14",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 130,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G13.json"
+    },
+    {
+      "id": "concepto:B519",
+      "to": "G28",
+      "title": "Phylons y reconstrucción temporal",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 104,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G28.json"
+    },
+    {
+      "id": "concepto:B527",
+      "to": "G30",
+      "title": "Mobility OS / coordinación distribuida",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 138,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G30.json"
+    },
+    {
+      "id": "concepto:B601",
+      "to": "G45",
+      "title": "The Patch that Undid the Fix",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 185,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G45.json"
+    },
+    {
+      "id": "concepto:B629",
+      "to": "G51",
+      "title": "Robótica Greater China / integración operativa",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 79,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G51.json"
+    }
+  ]
+}

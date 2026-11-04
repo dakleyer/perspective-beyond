@@ -1,0 +1,73 @@
+{
+  "id": "C74",
+  "type": "concepto",
+  "title": "Ejecución y supervisión necesarias (NEO)",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/necessary-execution-and-oversight/",
+  "documentId": null,
+  "sourceIds": [
+    "T1400",
+    "T1425"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.04,
+    "capacidad-humana": 0.515,
+    "decision": 0.04,
+    "economia": 0.185,
+    "empresa": 0.04,
+    "evidencia": 0.08,
+    "experimentacion": 0.04,
+    "memoria-territorio": 0.06
+  },
+  "clusters": [
+    "tegrity"
+  ],
+  "context": "## Ejecución y supervisión necesarias (NEO)\nWork can be required by responsibility, novelty, law or physical constraints.\nEtiquetas: Aprendizaje y transmisión de capacidades 4.00%; Capacidad humana y deuda de inteligencia 51.50%; Decisiones y responsabilidad 4.00%; Economía, costes y liquidez 18.50%; Empresa y gestión 4.00%; Evidencia, procedencia y atribución 8.00%; Experimentación, falsación y contraejemplos 4.00%; Memoria, comunidad y territorio 6.00%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/necessary-execution-and-oversight/\n\n",
+  "tokens": 145,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:T1400:C74",
+      "to": "T1400",
+      "title": "Measuring Human Intelligence Debt",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 145,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1400.json"
+    },
+    {
+      "id": "apoyo:T1425:C74",
+      "to": "T1425",
+      "title": "What Goes Unpriced Is Paid in Human Intelligence",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 91,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1425.json"
+    },
+    {
+      "id": "concepto:F015",
+      "to": "C32",
+      "title": "Coste de claridad",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "Unpriced clarity may consume human effort, but only the task-level distinction between necessary work and fixable compensation can classify that effort as debt.",
+      "relationTokens": 48,
+      "fichaTokens": 257,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C32.json"
+    },
+    {
+      "id": "concepto:B473",
+      "to": "G21",
+      "title": "Human Intelligence Debt (HID)",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 150,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G21.json"
+    }
+  ]
+}

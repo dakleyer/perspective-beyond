@@ -1,0 +1,152 @@
+{
+  "id": "G36",
+  "type": "concepto",
+  "title": "Fallo composicional de controles locales",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/compositional-failure-of-local-controls/",
+  "documentId": null,
+  "sourceIds": [
+    "T2776",
+    "GH043",
+    "GH017",
+    "GH025"
+  ],
+  "tagWeights": {
+    "agentes": 0.027,
+    "autoridad": 0.0353,
+    "cambio-regimen": 0.0135,
+    "cartografia": 0.2257,
+    "casos": 0.0616,
+    "control-minimo": 0.0951,
+    "decision": 0.0435,
+    "documentacion": 0.0599,
+    "empresa": 0.0068,
+    "estandares": 0.027,
+    "evidencia": 0.0463,
+    "experimentacion": 0.0435,
+    "integridad-ia": 0.1359,
+    "matematicas": 0.027,
+    "movilidad": 0.0135,
+    "mundo-abierto": 0.0096,
+    "representacion": 0.0384,
+    "transformacion": 0.0904
+  },
+  "clusters": [
+    "research",
+    "tegrity"
+  ],
+  "context": "## Fallo composicional de controles locales\nIndividually compliant controls can interact to produce an unacceptable system result.\nEtiquetas: Agentes y coordinación distribuida 2.70%; Autoridad, permisos y delegación 3.53%; Cambios de régimen y alerta temprana 1.35%; Cartografía y señales de ecosistema 22.57%; Casos de uso y aplicaciones 6.16%; Control mínimo y suficiencia 9.51%; Decisiones y responsabilidad 4.35%; Investigación y documentación técnica 5.99%; Empresa y gestión 0.68%; Estándares e interoperabilidad 2.70%; Evidencia, procedencia y atribución 4.63%; Experimentación, falsación y contraejemplos 4.35%; Integridad y seguridad de IA 13.59%; Matemáticas 2.70%; Movilidad e infraestructura 1.35%; Mundo abierto e indeterminación 0.96%; Representación y límites formales 3.84%; Transformación y continuidad operativa 9.04%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/compositional-failure-of-local-controls/\n\n",
+  "tokens": 245,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:T2776:G36",
+      "to": "T2776",
+      "title": "When the Controls Work but the System Fails",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 87,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2776.json"
+    },
+    {
+      "id": "apoyo:GH043:G36",
+      "to": "GH043",
+      "title": "00G — Canonical Reference Failure Scenario and Integrated Quality / Implementation Plan: Collective False-Context Convergence (\"Bar-to-Napoleon\" Cascade)",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 45,
+      "fichaTokens": 253,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH043.json"
+    },
+    {
+      "id": "apoyo:GH017:G36",
+      "to": "GH017",
+      "title": "Ecosystem Positioning",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 261,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH017.json"
+    },
+    {
+      "id": "apoyo:GH025:G36",
+      "to": "GH025",
+      "title": "Canonical Requirements: S1–S14, Sufficiency Conditions, Hypotheses and KPIs",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 34,
+      "fichaTokens": 247,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH025.json"
+    },
+    {
+      "id": "concepto:B551",
+      "to": "C45",
+      "title": "Fallo de composición",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 240,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C45.json"
+    },
+    {
+      "id": "concepto:B552",
+      "to": "C80",
+      "title": "Resultado upstream independiente",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 16,
+      "fichaTokens": 241,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C80.json"
+    },
+    {
+      "id": "concepto:B553",
+      "to": "G04",
+      "title": "Ecosystem Positioning",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 232,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G04.json"
+    },
+    {
+      "id": "concepto:B554",
+      "to": "G17",
+      "title": "Benchmarks DDS y ablaciones",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 204,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G17.json"
+    },
+    {
+      "id": "concepto:B571",
+      "to": "G39",
+      "title": "Escenario de 100 millones de tokens",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 191,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G39.json"
+    },
+    {
+      "id": "concepto:P22",
+      "to": "G40",
+      "title": "Chaos Smart City",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 16,
+      "fichaTokens": 203,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G40.json"
+    }
+  ]
+}

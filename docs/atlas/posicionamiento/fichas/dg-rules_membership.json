@@ -1,0 +1,79 @@
+{
+  "id": "dg-rules_membership",
+  "type": "concepto",
+  "title": "Reglas del Estado y pertenencia vivida",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-rules_membership",
+  "documentId": null,
+  "sourceIds": [
+    "D-289",
+    "D-290"
+  ],
+  "tagWeights": {
+    "autoridad": 0.5,
+    "documentacion": 0.3889,
+    "geopolitica": 0.1111
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Reglas del Estado y pertenencia vivida\nEl registro de una condición jurídica es una interfaz y no la descripción completa del mundo cultural al que pertenece alguien.\nEtiquetas: Autoridad, permisos y delegación 50.00%; Investigación y documentación técnica 38.89%; Geopolítica y fronteras 11.11%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-rules_membership\n\n",
+  "tokens": 94,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-289:dg-rules_membership",
+      "to": "D-289",
+      "title": "El Estado puede leerse como un videojuego con muchos bugs",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 371,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-289.json"
+    },
+    {
+      "id": "apoyo:D-290:dg-rules_membership",
+      "to": "D-290",
+      "title": "Tener un DNI no agota lo que significa ser de un país",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 31,
+      "fichaTokens": 381,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-290.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-299",
+      "to": "dg-legitimacy_gap",
+      "title": "Principios, requisitos y deuda de legitimidad",
+      "direction": "saliente",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "Regla y vida cultural no coinciden sin resto.",
+      "relationTokens": 39,
+      "fichaTokens": 133,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-legitimacy_gap.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-300",
+      "to": "dg-identity",
+      "title": "Identidad, roles y posicionamiento",
+      "direction": "saliente",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "Documento jurídico y pertenencia.",
+      "relationTokens": 32,
+      "fichaTokens": 234,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-identity.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-301",
+      "to": "dg-form_substance",
+      "title": "Formas, fondo y monopolio espiritual",
+      "direction": "saliente",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "La interfaz administrativa no es toda la realidad.",
+      "relationTokens": 36,
+      "fichaTokens": 98,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-form_substance.json"
+    }
+  ]
+}

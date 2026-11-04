@@ -1,0 +1,108 @@
+{
+  "id": "D-106",
+  "type": "ficha",
+  "title": "La migración como pulso de la sociedad",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-106",
+  "documentId": "doc-1e70169edf073d37bd",
+  "sourceIds": [],
+  "tagWeights": {
+    "geopolitica": 0.4,
+    "memoria-territorio": 0.6
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## La migración como pulso de la sociedad\nINTERLOCUTOR (pregunta editorial) — ¿Qué ve en la migración alguien que ha tenido que recomenzar en distintos países?\nLECTURA DEL DIÁLOGO (síntesis editorial) — En mayo de 2025 Iván trabajó la imagen de la migración como «pulso vivo de la sociedad». La metáfora permite mirar más allá de las categorías administrativas: cada desplazamiento combina redes, capacidades, pérdidas, reglas y oportunidades cuya distribución no es igual para todos. No basta describir al migrante como héroe emprendedor, ni únicamente como víctima; las situaciones personales y los derechos importan tanto como las estadísticas laborales. El encuentro entre sociedades puede producir innovación y recombinación de conocimientos, pero también explotación, separación familiar y desarraigo. Dentro del atlas, la ficha une las experiencias personales de movilidad con la mirada de arquitectura de sistemas: ¿qué estructuras ayudan a que una persona conserve capacidad de elegir al cruzar una frontera?\nEtiquetas: Geopolítica y fronteras 40.00%; Memoria, comunidad y territorio 60.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-106\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-106.html\n\n",
+  "tokens": 283,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-106:dg-geopolitics",
+      "to": "dg-geopolitics",
+      "title": "Geopolítica vivida",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 138,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-geopolitics.json"
+    },
+    {
+      "id": "apoyo:D-106:dg-community",
+      "to": "dg-community",
+      "title": "Comunidades y territorio",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 187,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-community.json"
+    },
+    {
+      "id": "apoyo:D-106:dg-encounters",
+      "to": "dg-encounters",
+      "title": "Encuentros significativos",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 154,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-encounters.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-209-D-106",
+      "to": "D-209",
+      "title": "El imperio fabrica la tecnología que después le da miedo",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «El imperio fabrica la tecnología que después le da miedo» con «La migración como pulso de la sociedad». Permite contrastar Geopolítica vivida.",
+      "relationTokens": 66,
+      "fichaTokens": 443,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-209.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-215-D-106",
+      "to": "D-215",
+      "title": "Un oficio visible puede parecer más real que una libertad internacional",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Un oficio visible puede parecer más real que una libertad internacional» con «La migración como pulso de la sociedad».",
+      "relationTokens": 56,
+      "fichaTokens": 396,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-215.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-290-D-106",
+      "to": "D-290",
+      "title": "Tener un DNI no agota lo que significa ser de un país",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Tener un DNI no agota lo que significa ser de un país» con «La migración como pulso de la sociedad».",
+      "relationTokens": 62,
+      "fichaTokens": 381,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-290.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-106-D-108",
+      "to": "D-108",
+      "title": "Esperanto y las comunidades que se eligen",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Encuentros significativos, Comunidades y territorio desde las situaciones que describe cada texto.",
+      "relationTokens": 48,
+      "fichaTokens": 252,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-108.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-106-D-259",
+      "to": "D-259",
+      "title": "La modernización de un territorio puede avanzar en olas que se deshacen",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Geopolítica vivida, Comunidades y territorio desde las situaciones que describe cada texto.",
+      "relationTokens": 56,
+      "fichaTokens": 431,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-259.json"
+    }
+  ]
+}

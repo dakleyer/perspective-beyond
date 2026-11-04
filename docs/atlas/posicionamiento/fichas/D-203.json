@@ -1,0 +1,120 @@
+{
+  "id": "D-203",
+  "type": "ficha",
+  "title": "Una ecuación puede ser cierta y la tendencia que le añadimos, no",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-203",
+  "documentId": "doc-f38fb4574cd75a298a",
+  "sourceIds": [],
+  "tagWeights": {
+    "decision": 0.25,
+    "economia": 0.25,
+    "matematicas": 0.5
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Una ecuación puede ser cierta y la tendencia que le añadimos, no\nINTERLOCUTOR (pregunta editorial, no pronunciada necesariamente) — ¿Cómo pensar con ambición matemática sin colar como prueba nuestros supuestos sobre las personas?\nREFLEXIÓN DEL MANUSCRITO (edición fiel de un escrito original) — El propio índice de «Teoría del Dinero» declara un método que vale por sí solo. Definir los elementos con suficiente amplitud para obtener ecuaciones con propiedades matemáticas; utilizar identidades contables que deben cuadrar por partida doble; formular aparte factores de tendencia basados en correlaciones que el autor aún no demuestra. La validez de esas tendencias no debe ser necesaria para la demostración de un teorema.\n\nLa disciplina se vuelve importante al mirar las decisiones humanas. El observador ve que las personas eligen bienes y atribuye un objetivo llamado felicidad. Pero no observa la felicidad directamente. Supone relaciones entre bienes, utilidad, escasez y bienestar, y luego puede caer en la tentación de escribirlas como si fueran igualdades necesarias. Iván insiste en que «tiende a» y «es igual a» no son la misma afirmación.\n\nLa reflexión no sostiene que todas las ecuaciones de sus notas estén verificadas; varias están aún por formalizar y comprobar. Preserva algo más exigente que un discurso sobre rigor: separar las igualdades del modelo, sus definiciones y las conjeturas de comportamiento antes de presentar el conjunto como ciencia.\nEtiquetas: Decisiones y responsabilidad 25.00%; Economía, costes y liquidez 25.00%; Matemáticas 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-203\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-203.html\n\n",
+  "tokens": 392,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-203:dg-economy",
+      "to": "dg-economy",
+      "title": "Economía y escasez",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 239,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-economy.json"
+    },
+    {
+      "id": "apoyo:D-203:dg-doubt",
+      "to": "dg-doubt",
+      "title": "Duda, pruebas y conocimiento corregible",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 31,
+      "fichaTokens": 258,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-doubt.json"
+    },
+    {
+      "id": "apoyo:D-203:dg-measure",
+      "to": "dg-measure",
+      "title": "Medir decisiones y consecuencias",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 202,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-measure.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-203-D-098",
+      "to": "D-098",
+      "title": "Qué tendría que refutar nuestra hipótesis",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Una ecuación puede ser cierta y la tendencia que le añadimos, no» con «Qué tendría que refutar nuestra hipótesis». Permite contrastar Duda, pruebas y conocimiento corregible.",
+      "relationTokens": 75,
+      "fichaTokens": 267,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-098.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-203-D-133",
+      "to": "D-133",
+      "title": "La felicidad no se deja contabilizar como un bien",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Una ecuación puede ser cierta y la tendencia que le añadimos, no» con «La felicidad no se deja contabilizar como un bien». Permite contrastar Medir decisiones y consecuencias, Economía y escasez.",
+      "relationTokens": 82,
+      "fichaTokens": 324,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-133.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-203-D-159",
+      "to": "D-159",
+      "title": "Originalidad no es sinónimo de verdad ni de madurez",
+      "direction": "saliente",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Una ecuación puede ser cierta y la tendencia que le añadimos, no» con «Originalidad no es sinónimo de verdad ni de madurez». Permite contrastar Medir decisiones y consecuencias, Duda, pruebas y conocimiento corregible.",
+      "relationTokens": 89,
+      "fichaTokens": 306,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-159.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-185-D-203",
+      "to": "D-185",
+      "title": "2015: una idea ambiciosa necesita una prueba que otro pueda repetir",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Medir decisiones y consecuencias, Duda, pruebas y conocimiento corregible desde las situaciones que describe cada texto.",
+      "relationTokens": 65,
+      "fichaTokens": 345,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-185.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-203-D-202",
+      "to": "D-202",
+      "title": "Una foto de tomates no es otro tomate",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Medir decisiones y consecuencias, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 55,
+      "fichaTokens": 380,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-202.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-270-D-203",
+      "to": "D-270",
+      "title": "Maximizar no es necesariamente lograr",
+      "direction": "entrante",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Medir decisiones y consecuencias, Economía y escasez desde las situaciones que describe cada texto.",
+      "relationTokens": 54,
+      "fichaTokens": 411,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-270.json"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "T2792",
+  "type": "ficha",
+  "title": "Annex 3 — Foundations, Principles and Derivation",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/annex-3-foundations-principles-and-derivation-t2792/",
+  "documentId": "doc-4cfcae7538a962c2ce",
+  "sourceIds": [],
+  "tagWeights": {
+    "autoridad": 0.2222,
+    "decision": 0.2222,
+    "documentacion": 0.5556
+  },
+  "clusters": [
+    "tegrity"
+  ],
+  "context": "## Annex 3 — Foundations, Principles and Derivation\n\nEtiquetas: Autoridad, permisos y delegación 22.22%; Decisiones y responsabilidad 22.22%; Investigación y documentación técnica 55.56%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/annex-3-foundations-principles-and-derivation-t2792/\nDocumento de origen: https://tegrity.ai/when-the-controls-work-annex-3-foundations-principles-and-derivation/\n\n",
+  "tokens": 107,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:T2792:C26",
+      "to": "C26",
+      "title": "Autoridad de decisión",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 262,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C26.json"
+    },
+    {
+      "id": "apoyo:T2792:C37",
+      "to": "C37",
+      "title": "Activación de misión",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 250,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C37.json"
+    },
+    {
+      "id": "documento:M040",
+      "to": "N1279",
+      "title": "Tiger Team Governance Principles",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "A governance principle becomes operational when it specifies an owner, an escalation condition and a clear boundary on authorized action.",
+      "relationTokens": 42,
+      "fichaTokens": 100,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1279.json"
+    },
+    {
+      "id": "documento:R209",
+      "to": "T2795",
+      "title": "Annex 4 — Canonical Requirements and Test Contract",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Canonical requirements and the test contract](https://tegrity.ai/when-the-controls-work-annex-4-canonical-requirements-and-test-contract/).",
+      "relationTokens": 64,
+      "fichaTokens": 162,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2795.json"
+    }
+  ]
+}

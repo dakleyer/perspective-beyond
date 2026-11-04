@@ -1,0 +1,108 @@
+{
+  "id": "N1274",
+  "type": "ficha",
+  "title": "Tiger Team Models",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/tiger-team-models-n1274/",
+  "documentId": "doc-e5c993c074c54f2957",
+  "sourceIds": [],
+  "tagWeights": {
+    "control-minimo": 0.375,
+    "transformacion": 0.625
+  },
+  "clusters": [
+    "net"
+  ],
+  "context": "## Tiger Team Models\n\nEtiquetas: Control mínimo y suficiencia 37.50%; Transformación y continuidad operativa 62.50%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/tiger-team-models-n1274/\nDocumento de origen: https://jubap.net/tiger-team-models/\n\n",
+  "tokens": 69,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:N1274:C37",
+      "to": "C37",
+      "title": "Activación de misión",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 15,
+      "fichaTokens": 250,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C37.json"
+    },
+    {
+      "id": "apoyo:N1274:C41",
+      "to": "C41",
+      "title": "Control mínimo suficiente",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 14,
+      "fichaTokens": 225,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C41.json"
+    },
+    {
+      "id": "apoyo:N1274:C51",
+      "to": "C51",
+      "title": "Federación de capacidades",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 14,
+      "fichaTokens": 199,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C51.json"
+    },
+    {
+      "id": "apoyo:N1274:C88",
+      "to": "C88",
+      "title": "Función federada de integridad",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 227,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C88.json"
+    },
+    {
+      "id": "documento:M012",
+      "to": "T886",
+      "title": "One Function or Many? The Case For and Against Unified AI Integrity Management",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "An integrated mission team and a federated integrity function solve different coordination problems and need not share the same governance structure.",
+      "relationTokens": 45,
+      "fichaTokens": 124,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T886.json"
+    },
+    {
+      "id": "documento:F046",
+      "to": "T886",
+      "title": "One Function or Many? The Case For and Against Unified AI Integrity Management",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "A mission team and a federated integrity function can share explicit decision interfaces without requiring the same organizational structure.",
+      "relationTokens": 43,
+      "fichaTokens": 124,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T886.json"
+    },
+    {
+      "id": "documento:F047",
+      "to": "T2729",
+      "title": "Minimum Sufficient Control Architecture for AI Enabled Urban Systems",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "Team configuration can be assessed against the mission's required capabilities and response obligations before comparing the burden of alternative structures.",
+      "relationTokens": 40,
+      "fichaTokens": 83,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2729.json"
+    },
+    {
+      "id": "documento:R127",
+      "to": "N1276",
+      "title": "Tiger Team Maturity Model",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The Tiger Team maturity lens](https://jubap.net/tiger-team-maturity-model/).",
+      "relationTokens": 39,
+      "fichaTokens": 100,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1276.json"
+    }
+  ]
+}

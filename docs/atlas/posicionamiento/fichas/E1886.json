@@ -1,0 +1,63 @@
+{
+  "id": "E1886",
+  "type": "ficha",
+  "title": "Mobility Operating System",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/mobility-operating-system-e1886/",
+  "documentId": "doc-71df030d41fc38ff30",
+  "sourceIds": [],
+  "tagWeights": {
+    "movilidad": 1.0
+  },
+  "clusters": [
+    "eu"
+  ],
+  "context": "## Mobility Operating System\n\nEtiquetas: Movilidad e infraestructura 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/mobility-operating-system-e1886/\nDocumento de origen: https://jubap.eu/car-pooling-orchestration/\n\n",
+  "tokens": 59,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "documento:R153",
+      "to": "E1953",
+      "title": "Car Evolution Mobility OS",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The Logistics and Mobility Unit](https://jubap.eu/mobility/).",
+      "relationTokens": 36,
+      "fichaTokens": 105,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1953.json"
+    },
+    {
+      "id": "documento:R154",
+      "to": "N2082",
+      "title": "xSeil: Scenario-Based Planning and Human-Governed Computation",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The historical scenario-governance mechanism](https://jubap.net/xseil-scenario-based-planning-human-governed-computation/).",
+      "relationTokens": 59,
+      "fichaTokens": 118,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N2082.json"
+    },
+    {
+      "id": "documento:sac-rel-dcef094bc7d0ea",
+      "to": "GH001",
+      "title": "Structural Awareness Programme",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Mobility Operating System / Car Evolution» con el rótulo «Mobility Operating System / Car Evolution».",
+      "relationTokens": 92,
+      "fichaTokens": 179,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH001.json"
+    },
+    {
+      "id": "navigation:position-nav-E1953-E1886",
+      "to": "E1953",
+      "title": "Car Evolution Mobility OS",
+      "direction": "entrante",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «Car Evolution Mobility OS», el enlace «Mobility Operating System technical account» abre «Mobility Operating System».",
+      "relationTokens": 54,
+      "fichaTokens": 105,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1953.json"
+    }
+  ]
+}

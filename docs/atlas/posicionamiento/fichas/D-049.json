@@ -1,0 +1,121 @@
+{
+  "id": "D-049",
+  "type": "ficha",
+  "title": "Alianzas, encargos y aprendizajes",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-049",
+  "documentId": "doc-41f3a410d217128630",
+  "sourceIds": [],
+  "tagWeights": {
+    "aprendizaje": 0.5,
+    "decision": 0.1667,
+    "empresa": 0.1667,
+    "transformacion": 0.1666
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Alianzas, encargos y aprendizajes\nINTERLOCUTOR — ¿Qué papel tuvieron Alaro, AGI, SUT, B&S y CEMED?\nIVÁN —\nAlaro Distribuciones y Alaro Transportes:\nLíderes regionales en logística y distribución de mercancías y combustibles. Desarrollé un sistema de control de flotillas y fidelización de clientes, integrando monitoreo de consumo, rutas y ventajas comerciales, conectado a gasolineras franquiciadas bajo el sello APMX. La solución, aunque localizada, tenía potencial de replicabilidad nacional.\nAGI:\nProyecto orientado a la integración operativa y cumplimiento para una firma con fuerte presencia en transporte pesado y contratos logísticos regionales.\nSUT – Servicio Urbano de Tuxpan:\nDiseñé un sistema de optimización de rutas de transporte público para toda una ciudad, considerando dinámicas de tráfico, zonas de alta demanda y viabilidad técnica de trayectos.\nB&S Grupo Exportador (Citrus):\nProyecto de certificación y reingeniería de procesos para uno de los grandes exportadores agroindustriales de México, con actividad en cuatro continentes.\nCEMED – Sistema de control volumétrico para estaciones de servicio:\nDesarrollé un sistema personalizado de control de despacho, volumetría y fidelización, inicialmente para un número limitado de franquicias, pero con un mercado potencial de más de 10.000 estaciones en todo el país.\nEtiquetas: Aprendizaje y transmisión de capacidades 50.00%; Decisiones y responsabilidad 16.67%; Empresa y gestión 16.67%; Transformación y continuidad operativa 16.66%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-049\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20%C2%BFQu%C3%A9%20papel%20tuvieron%20Alaro%2C%20AGI%2C%20SUT%2C%20B%26S%20y\n\n",
+  "tokens": 450,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-049:dg-trust",
+      "to": "dg-trust",
+      "title": "Confianza y equipos",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 186,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-trust.json"
+    },
+    {
+      "id": "apoyo:D-049:dg-transform",
+      "to": "dg-transform",
+      "title": "Transformación organizativa",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 213,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-transform.json"
+    },
+    {
+      "id": "documento:dg-113",
+      "to": "D-043",
+      "title": "Transformar empresas mientras siguen operando",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Transformación organizativa».",
+      "relationTokens": 32,
+      "fichaTokens": 923,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-043.json"
+    },
+    {
+      "id": "documento:dg-114",
+      "to": "D-069",
+      "title": "Los años profesionales aún por contar",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Transformación organizativa».",
+      "relationTokens": 31,
+      "fichaTokens": 515,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-069.json"
+    },
+    {
+      "id": "documento:dg-157",
+      "to": "D-046",
+      "title": "Aprender de una empresa totonaca",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Confianza y equipos».",
+      "relationTokens": 33,
+      "fichaTokens": 463,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-046.json"
+    },
+    {
+      "id": "documento:dg-158",
+      "to": "D-071",
+      "title": "La autoría no equivale al trabajo de uno solo",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Confianza y equipos».",
+      "relationTokens": 36,
+      "fichaTokens": 434,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-071.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-049-D-131",
+      "to": "D-131",
+      "title": "El salto pequeño prepara un cambio de mayor calado",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Confianza y equipos, Transformación organizativa desde las situaciones que describe cada texto.",
+      "relationTokens": 49,
+      "fichaTokens": 337,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-131.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-049-D-129",
+      "to": "D-129",
+      "title": "La resistencia al cambio tiene sus propias reglas",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Confianza y equipos, Transformación organizativa desde las situaciones que describe cada texto.",
+      "relationTokens": 47,
+      "fichaTokens": 309,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-129.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-049-D-126",
+      "to": "D-126",
+      "title": "Una empresa vive en varias ideas de negocio al mismo tiempo",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Confianza y equipos, Transformación organizativa desde las situaciones que describe cada texto.",
+      "relationTokens": 50,
+      "fichaTokens": 331,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-126.json"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "GH066",
+  "type": "ficha",
+  "title": "Dual-time, provenance-bound certificate contract — SA-O2/O5 → EA review",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/dual-time-provenance-bound-certificate-contract-sa-o2-o5-ea-review-gh066/",
+  "documentId": "doc-1d9e0439a3dfcc950b",
+  "sourceIds": [],
+  "tagWeights": {
+    "documentacion": 0.3571,
+    "evidencia": 0.6429
+  },
+  "clusters": [
+    "research"
+  ],
+  "context": "## Dual-time, provenance-bound certificate contract — SA-O2/O5 → EA review\n\nEtiquetas: Investigación y documentación técnica 35.71%; Evidencia, procedencia y atribución 64.29%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/dual-time-provenance-bound-certificate-contract-sa-o2-o5-ea-review-gh066/\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/7fc88e2e6970f1d20224bd6e8be08f853255ae79/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/14_DUAL_TIME_SIGNED_CERTIFICATE_CONTRACT_v0.1.md\n\n",
+  "tokens": 180,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH066:C11",
+      "to": "C11",
+      "title": "Tiempo del hecho y del conocimiento",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 163,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C11.json"
+    },
+    {
+      "id": "apoyo:GH066:C115",
+      "to": "C115",
+      "title": "Registro previo a admisión y promoción posterior",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 32,
+      "fichaTokens": 154,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C115.json"
+    },
+    {
+      "id": "apoyo:GH066:C122",
+      "to": "C122",
+      "title": "Validez histórica y validez al uso",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 32,
+      "fichaTokens": 94,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C122.json"
+    },
+    {
+      "id": "apoyo:GH066:G10",
+      "to": "G10",
+      "title": "Epistemic handoff / transferencia contextual",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 32,
+      "fichaTokens": 129,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G10.json"
+    },
+    {
+      "id": "documento:G066",
+      "to": "N1835",
+      "title": "Phylons relabeling cascades",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "A later rule may support historical reinterpretation while being expired or unauthorized for a new action; event time and current-use validity must be checked separately.",
+      "relationTokens": 58,
+      "fichaTokens": 74,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1835.json"
+    },
+    {
+      "id": "documento:G082",
+      "to": "GH015",
+      "title": "Structural Awareness — Operational Residual and Online Context Plasticity",
+      "direction": "entrante",
+      "kind": "documented use",
+      "reading": "The dual-time contract makes a later implementation obligation explicit: historical reinterpretation and current permission to rely on a certificate must be evaluated separately.",
+      "relationTokens": 59,
+      "fichaTokens": 176,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH015.json"
+    }
+  ]
+}

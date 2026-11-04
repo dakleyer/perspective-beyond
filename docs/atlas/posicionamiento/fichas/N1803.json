@@ -1,0 +1,233 @@
+{
+  "id": "N1803",
+  "type": "ficha",
+  "title": "xSeil VRP",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/xseil-vrp-n1803/",
+  "documentId": "doc-1cffae9dc49a7982d0",
+  "sourceIds": [],
+  "tagWeights": {
+    "casos": 0.1334,
+    "control-minimo": 0.1334,
+    "decision": 0.1333,
+    "memoria-territorio": 0.1333,
+    "movilidad": 0.3333,
+    "mundo-abierto": 0.1333
+  },
+  "clusters": [
+    "net"
+  ],
+  "context": "## xSeil VRP\n\nEtiquetas: Casos de uso y aplicaciones 13.34%; Control mínimo y suficiencia 13.34%; Decisiones y responsabilidad 13.33%; Memoria, comunidad y territorio 13.33%; Movilidad e infraestructura 33.33%; Mundo abierto e indeterminación 13.33%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/xseil-vrp-n1803/\nDocumento de origen: https://jubap.net/xseil-vrp/\n\n",
+  "tokens": 111,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:N1803:C05",
+      "to": "C05",
+      "title": "Compromiso indivisible",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 131,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C05.json"
+    },
+    {
+      "id": "apoyo:N1803:C06",
+      "to": "C06",
+      "title": "Compatibilidad global",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 16,
+      "fichaTokens": 234,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C06.json"
+    },
+    {
+      "id": "apoyo:N1803:C22",
+      "to": "C22",
+      "title": "Gobierno de escenarios",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 16,
+      "fichaTokens": 187,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C22.json"
+    },
+    {
+      "id": "apoyo:N1803:C25",
+      "to": "C25",
+      "title": "Suficiencia para una decisión",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 293,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C25.json"
+    },
+    {
+      "id": "apoyo:N1803:C29",
+      "to": "C29",
+      "title": "Propuesta y compromiso",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 244,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C29.json"
+    },
+    {
+      "id": "apoyo:N1803:C99",
+      "to": "C99",
+      "title": "Adaptación de arquitectura entre territorios",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 238,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C99.json"
+    },
+    {
+      "id": "apoyo:N1803:C111",
+      "to": "C111",
+      "title": "No cierre efectivo del mundo abierto",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 135,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C111.json"
+    },
+    {
+      "id": "documento:D003",
+      "to": "E1563",
+      "title": "Event Intelligence",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "The atomic-group distinction in transport offers a useful lens for defining indivisible commitments in luxury events.",
+      "relationTokens": 31,
+      "fichaTokens": 92,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1563.json"
+    },
+    {
+      "id": "documento:D016",
+      "to": "N2082",
+      "title": "xSeil: Scenario-Based Planning and Human-Governed Computation",
+      "direction": "entrante",
+      "kind": "documented use",
+      "reading": "In the reconstructed xSeil planner, scenario choice precedes state-dependent scoring and sequential commitment.",
+      "relationTokens": 43,
+      "fichaTokens": 118,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N2082.json"
+    },
+    {
+      "id": "documento:A012",
+      "to": "U1494",
+      "title": "Barcelona, Cuba, California, Veracruz: Urban Mobility, Swarm Intelligence and Constraint-Driven Architecture",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "Analog pooling can inspire a routing model, but xSeil's fully committed demand requires preserving service obligations rather than selecting only the easiest demand to serve.",
+      "relationTokens": 59,
+      "fichaTokens": 176,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1494.json"
+    },
+    {
+      "id": "documento:G008",
+      "to": "GH008",
+      "title": "Open-World Agent Encounters: A Uniform Decision Frontier",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "A finite routing run can be valid within its declared frame without certifying all future operating conditions; open-world limits do not make every bounded VRP undecidable.",
+      "relationTokens": 53,
+      "fichaTokens": 221,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH008.json"
+    },
+    {
+      "id": "documento:R090",
+      "to": "N1247",
+      "title": "JubAp.Net © xSeil Whitepaper",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Vehicle routing under fully committed demand](https://jubap.net/xseil-vrp/).",
+      "relationTokens": 46,
+      "fichaTokens": 82,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1247.json"
+    },
+    {
+      "id": "documento:R093",
+      "to": "N1801",
+      "title": "xSeil Functionality Analisis",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The exact industrial routing problem](https://jubap.net/xseil-vrp/).",
+      "relationTokens": 42,
+      "fichaTokens": 78,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1801.json"
+    },
+    {
+      "id": "documento:R094",
+      "to": "N2082",
+      "title": "xSeil: Scenario-Based Planning and Human-Governed Computation",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [How human scenarios steer the planner](https://jubap.net/xseil-scenario-based-planning-human-governed-computation/).",
+      "relationTokens": 59,
+      "fichaTokens": 118,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N2082.json"
+    },
+    {
+      "id": "documento:R095",
+      "to": "E1958",
+      "title": "Car Evolution Mobility OS – Evidence Cases 01-02",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Grouping and bounded repair: the paired exhibits](https://jubap.eu/mobility/evidence/case-01-02-valencia/).",
+      "relationTokens": 57,
+      "fichaTokens": 107,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1958.json"
+    },
+    {
+      "id": "documento:R103",
+      "to": "N1817",
+      "title": "xSeil quantum formulation. Companion paper",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The classical routing problem and baselines](https://jubap.net/xseil-vrp/).",
+      "relationTokens": 45,
+      "fichaTokens": 74,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1817.json"
+    },
+    {
+      "id": "documento:R148",
+      "to": "E1958",
+      "title": "Car Evolution Mobility OS – Evidence Cases 01-02",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The routing and grouping constraints behind the exhibit](https://jubap.net/xseil-vrp/).",
+      "relationTokens": 49,
+      "fichaTokens": 107,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1958.json"
+    },
+    {
+      "id": "documento:R151",
+      "to": "E1956",
+      "title": "Car Evolution Mobility OS – Competition",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The industrial rich-VRP problem definition](https://jubap.net/xseil-vrp/).",
+      "relationTokens": 43,
+      "fichaTokens": 64,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1956.json"
+    },
+    {
+      "id": "documento:sac-rel-3afa4e5e2940df",
+      "to": "GH001",
+      "title": "Structural Awareness Programme",
+      "direction": "entrante",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «xSeil» con el rótulo «xSeil — Vehicle Routing Under Fully Committed Tourism Demand».",
+      "relationTokens": 95,
+      "fichaTokens": 179,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH001.json"
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "id": "N2082",
+  "type": "ficha",
+  "title": "xSeil: Scenario-Based Planning and Human-Governed Computation",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/xseil-scenario-based-planning-and-human-governed-computation-n2082/",
+  "documentId": "doc-9d72796f546694e695",
+  "sourceIds": [],
+  "tagWeights": {
+    "casos": 0.375,
+    "documentacion": 0.125,
+    "economia": 0.125,
+    "movilidad": 0.375
+  },
+  "clusters": [
+    "net"
+  ],
+  "context": "## xSeil: Scenario-Based Planning and Human-Governed Computation\n\nEtiquetas: Casos de uso y aplicaciones 37.50%; Investigación y documentación técnica 12.50%; Economía, costes y liquidez 12.50%; Movilidad e infraestructura 37.50%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/xseil-scenario-based-planning-and-human-governed-computation-n2082/\nDocumento de origen: https://jubap.net/xseil-scenario-based-planning-human-governed-computation/\n\n",
+  "tokens": 118,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:N2082:C03",
+      "to": "C03",
+      "title": "Reparación acotada",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 185,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C03.json"
+    },
+    {
+      "id": "apoyo:N2082:C04",
+      "to": "C04",
+      "title": "Cambio colateral",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 113,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C04.json"
+    },
+    {
+      "id": "apoyo:N2082:C22",
+      "to": "C22",
+      "title": "Gobierno de escenarios",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 187,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C22.json"
+    },
+    {
+      "id": "apoyo:N2082:C23",
+      "to": "C23",
+      "title": "Revisión del marco",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 234,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C23.json"
+    },
+    {
+      "id": "apoyo:N2082:C29",
+      "to": "C29",
+      "title": "Propuesta y compromiso",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 244,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C29.json"
+    },
+    {
+      "id": "apoyo:N2082:C47",
+      "to": "C47",
+      "title": "Comparación justa",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 204,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C47.json"
+    },
+    {
+      "id": "apoyo:N2082:C50",
+      "to": "C50",
+      "title": "Estado de una afirmación",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 295,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C50.json"
+    },
+    {
+      "id": "apoyo:N2082:G27",
+      "to": "G27",
+      "title": "xSeil y problemas de asignación",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 93,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G27.json"
+    },
+    {
+      "id": "documento:D002",
+      "to": "U1325",
+      "title": "Case Study: DMG MORI — Multilevel Post-Merger Integration, International Supply Chain Control & Mission-Critical Industrial Delivery (2013 – 2016)",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "Bounded repair in xSeil suggests a way to limit collateral change when an industrial delivery plan is disrupted.",
+      "relationTokens": 75,
+      "fichaTokens": 167,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1325.json"
+    },
+    {
+      "id": "documento:D006",
+      "to": "E1731",
+      "title": "Reframing Value Creation",
+      "direction": "saliente",
+      "kind": "hypothesis",
+      "reading": "Human-set priorities may affect the shape of a penalty, not only its weight; xSeil makes that distinction inspectable.",
+      "relationTokens": 48,
+      "fichaTokens": 154,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1731.json"
+    },
+    {
+      "id": "documento:D016",
+      "to": "N1803",
+      "title": "xSeil VRP",
+      "direction": "saliente",
+      "kind": "documented use",
+      "reading": "In the reconstructed xSeil planner, scenario choice precedes state-dependent scoring and sequential commitment.",
+      "relationTokens": 43,
+      "fichaTokens": 111,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1803.json"
+    },
+    {
+      "id": "documento:D046",
+      "to": "T1487",
+      "title": "Optimization, Coherence, and the Frame",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "Scenario selection optimizes within a declared frame; questioning that frame is a separate governance act.",
+      "relationTokens": 45,
+      "fichaTokens": 83,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1487.json"
+    },
+    {
+      "id": "documento:D049",
+      "to": "E1959",
+      "title": "Car Evolution Mobility OS – Evidence Cases 03-07",
+      "direction": "saliente",
+      "kind": "documented use",
+      "reading": "The policy exhibits should be read with their evidence labels and the historical scenario-governance mechanism.",
+      "relationTokens": 49,
+      "fichaTokens": 136,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1959.json"
+    },
+    {
+      "id": "documento:D060",
+      "to": "T2799",
+      "title": "Annex 5 — Six Positive Paths and Quality Plans",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "A fair modernization comparison should preserve the same operational obligations, information access and compute budget.",
+      "relationTokens": 47,
+      "fichaTokens": 95,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2799.json"
+    },
+    {
+      "id": "documento:R089",
+      "to": "N1247",
+      "title": "JubAp.Net © xSeil Whitepaper",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Scenario-based planning and human-governed computation](https://jubap.net/xseil-scenario-based-planning-human-governed-computation/).",
+      "relationTokens": 67,
+      "fichaTokens": 82,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1247.json"
+    },
+    {
+      "id": "documento:R094",
+      "to": "N1803",
+      "title": "xSeil VRP",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [How human scenarios steer the planner](https://jubap.net/xseil-scenario-based-planning-human-governed-computation/).",
+      "relationTokens": 59,
+      "fichaTokens": 111,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1803.json"
+    },
+    {
+      "id": "documento:R099",
+      "to": "E1959",
+      "title": "Car Evolution Mobility OS – Evidence Cases 03-07",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Policy, scenario and write-back exhibits](https://jubap.eu/mobility/evidence/case-03-07/).",
+      "relationTokens": 63,
+      "fichaTokens": 136,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1959.json"
+    },
+    {
+      "id": "documento:R100",
+      "to": "T2729",
+      "title": "Minimum Sufficient Control Architecture for AI Enabled Urban Systems",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Objective-led control assessment](https://tegrity.ai/minimum-sufficient-control-architecture-for-ai-enabled-urban-systems/).",
+      "relationTokens": 62,
+      "fichaTokens": 83,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2729.json"
+    },
+    {
+      "id": "documento:R145",
+      "to": "E1954",
+      "title": "Car Evolution Mobility OS – Product Annex",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [How scenario priorities steered xSeil computation](https://jubap.net/xseil-scenario-based-planning-human-governed-computation/).",
+      "relationTokens": 64,
+      "fichaTokens": 117,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1954.json"
+    },
+    {
+      "id": "documento:R154",
+      "to": "E1886",
+      "title": "Mobility Operating System",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The historical scenario-governance mechanism](https://jubap.net/xseil-scenario-based-planning-human-governed-computation/).",
+      "relationTokens": 59,
+      "fichaTokens": 59,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1886.json"
+    },
+    {
+      "id": "documento:R201",
+      "to": "T2729",
+      "title": "Minimum Sufficient Control Architecture for AI Enabled Urban Systems",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The historical xSeil scenario-control mechanism](https://jubap.net/xseil-scenario-based-planning-human-governed-computation/).",
+      "relationTokens": 66,
+      "fichaTokens": 83,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2729.json"
+    }
+  ]
+}

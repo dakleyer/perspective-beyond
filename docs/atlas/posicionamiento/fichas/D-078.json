@@ -1,0 +1,109 @@
+{
+  "id": "D-078",
+  "type": "ficha",
+  "title": "Preguntas abiertas: equipos, errores y decisiones",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-078",
+  "documentId": "doc-41f3a410d217128630",
+  "sourceIds": [],
+  "tagWeights": {
+    "aprendizaje": 0.1,
+    "casos": 0.2,
+    "decision": 0.7
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Preguntas abiertas: equipos, errores y decisiones\n06. INTERLOCUTOR — ¿Qué consejo te dio Arnoldo que todavía sigues discutiendo interiormente? ¿Qué rasgos suyos admiras y cuáles cuestionas hoy?\n07. INTERLOCUTOR — ¿Qué escenas de Alejandro, Luisa y Martín ilustran mejor la lealtad y el sacrificio detrás de GEPLAN?\n08. INTERLOCUTOR — ¿Qué costes tuvo tu propia exigencia para ti y para los demás, si los hubo, y qué aprendiste de ellos?\n09. INTERLOCUTOR — ¿Qué se siente al tener que negociar con instituciones grandes sin perder la responsabilidad hacia operadores y comunidades?\n10. INTERLOCUTOR — ¿Cómo viviste el momento de reconocer que una solución técnica útil no siempre es un negocio escalable?\nEtiquetas: Aprendizaje y transmisión de capacidades 10.00%; Casos de uso y aplicaciones 20.00%; Decisiones y responsabilidad 70.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-078\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=06.%20INTERLOCUTOR%20%E2%80%94%20%C2%BFQu%C3%A9%20consejo%20te%20dio%20Arnoldo%20que%20todav%C3%ADa%20sigues\n\n",
+  "tokens": 303,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-078:dg-decision",
+      "to": "dg-decision",
+      "title": "Decisiones entre escenarios",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 169,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-decision.json"
+    },
+    {
+      "id": "apoyo:D-078:dg-trust",
+      "to": "dg-trust",
+      "title": "Confianza y equipos",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 186,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-trust.json"
+    },
+    {
+      "id": "documento:dg-069",
+      "to": "D-064",
+      "title": "Liquidez para cuidar responsabilidades",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Decisiones entre escenarios».",
+      "relationTokens": 30,
+      "fichaTokens": 447,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-064.json"
+    },
+    {
+      "id": "documento:dg-070",
+      "to": "D-005",
+      "title": "Escasez, crecimiento y libertad real",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Decisiones entre escenarios».",
+      "relationTokens": 33,
+      "fichaTokens": 442,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-005.json"
+    },
+    {
+      "id": "documento:dg-159",
+      "to": "D-071",
+      "title": "La autoría no equivale al trabajo de uno solo",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Confianza y equipos».",
+      "relationTokens": 36,
+      "fichaTokens": 434,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-071.json"
+    },
+    {
+      "id": "documento:dg-160",
+      "to": "D-021",
+      "title": "Alejandro: encontrar capacidades invisibles",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Confianza y equipos».",
+      "relationTokens": 31,
+      "fichaTokens": 488,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-021.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-206-D-078",
+      "to": "D-206",
+      "title": "Un diálogo de investigación no es un diagnóstico disfrazado",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Un diálogo de investigación no es un diagnóstico disfrazado» con «Preguntas abiertas: equipos, errores y decisiones».",
+      "relationTokens": 56,
+      "fichaTokens": 412,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-206.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-078-D-131",
+      "to": "D-131",
+      "title": "El salto pequeño prepara un cambio de mayor calado",
+      "direction": "saliente",
+      "kind": "lectura por conceptos compartidos",
+      "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Confianza y equipos desde las situaciones que describe cada texto.",
+      "relationTokens": 49,
+      "fichaTokens": 337,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-131.json"
+    }
+  ]
+}

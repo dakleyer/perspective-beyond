@@ -1,0 +1,1357 @@
+{
+  "schema": "perspective-beyond/positioning-v1",
+  "edition": "2026-11-04",
+  "request": {
+    "posicionamiento": "imsv",
+    "tokens": 4000,
+    "max": 60,
+    "rol": "lector",
+    "lectura": "explore",
+    "enfoque": "parejo",
+    "instruccion": "",
+    "red": "ideas",
+    "sentido": "ambas",
+    "modo": "closed",
+    "site": "imsv",
+    "puente": null,
+    "solo": false,
+    "pesos": []
+  },
+  "position": {
+    "id": "doc-e198b1540263bd17cd",
+    "title": "The Integral Management Society",
+    "url": "https://integralmanagement.ch/",
+    "fichas": [
+      "S14"
+    ],
+    "aliases": [
+      "https://integralmanagement.ch/"
+    ],
+    "header": "# Posicionamiento · The Integral Management Society\nDocumento de origen: https://integralmanagement.ch/\n\n",
+    "headerTokens": 21,
+    "type": "documento",
+    "focus": "S14",
+    "seeds": [
+      "S14"
+    ]
+  },
+  "budget": {
+    "limit": 4000,
+    "used": 2940,
+    "remaining": 1060,
+    "nextBlock": null,
+    "encoding": "o200k_base",
+    "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
+  },
+  "reachable": 18,
+  "selected": 18,
+  "shown": 19,
+  "omittedByBudget": 0,
+  "omittedInDiagram": 0,
+  "layers": [
+    {
+      "distance": 0,
+      "selected": 0,
+      "shown": 1
+    },
+    {
+      "distance": 1,
+      "selected": 1,
+      "shown": 1
+    },
+    {
+      "distance": 2,
+      "selected": 2,
+      "shown": 2
+    },
+    {
+      "distance": 3,
+      "selected": 2,
+      "shown": 2
+    },
+    {
+      "distance": 4,
+      "selected": 2,
+      "shown": 2
+    },
+    {
+      "distance": 5,
+      "selected": 2,
+      "shown": 2
+    },
+    {
+      "distance": 6,
+      "selected": 3,
+      "shown": 3
+    },
+    {
+      "distance": 7,
+      "selected": 2,
+      "shown": 2
+    },
+    {
+      "distance": 8,
+      "selected": 2,
+      "shown": 2
+    },
+    {
+      "distance": 9,
+      "selected": 2,
+      "shown": 2
+    }
+  ],
+  "center": "doc-e198b1540263bd17cd-entrada",
+  "nodes": [
+    {
+      "id": "doc-e198b1540263bd17cd-entrada",
+      "title": "The Integral Management Society",
+      "type": "documento",
+      "url": "https://integralmanagement.ch/",
+      "original": "https://integralmanagement.ch/",
+      "summary": "Documento desde el que se abre este posicionamiento.",
+      "tags": [],
+      "tagWeights": {},
+      "clusters": [
+        "imsv"
+      ],
+      "distance": 0,
+      "parent": null
+    },
+    {
+      "id": "S14",
+      "type": "ficha",
+      "title": "The Integral Management Society",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/the-integral-management-society-s14/",
+      "original": "https://integralmanagement.ch/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "empresa"
+      ],
+      "summary": "Una sociedad científica dedicada a comprender la complejidad, preservar las capacidades esenciales y abrir nuevas posibilidades de adaptación.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-e198b1540263bd17cd",
+      "tagWeights": {
+        "empresa": 1
+      },
+      "contextTokens": 76,
+      "distance": 1,
+      "parent": "doc-e198b1540263bd17cd-entrada",
+      "routeEdge": null,
+      "affinity": 1
+    },
+    {
+      "id": "np-entrada",
+      "type": "ficha",
+      "title": "Del manifiesto a la práctica",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-entrada",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "aprendizaje",
+        "perspectiva"
+      ],
+      "summary": "Identificar qué relaciones quedan fuera de la atención cuando un problema persiste pese a que conocemos sus componentes. La serie sigue esa pregunta por el manifiesto, la formación y los casos.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-5daaf7203a2eb21821",
+      "tagWeights": {
+        "aprendizaje": 0.8,
+        "perspectiva": 0.2
+      },
+      "contextTokens": 108,
+      "distance": 2,
+      "parent": "S14",
+      "routeEdge": "navigation:position-nav-S14-np-entrada",
+      "affinity": 1
+    },
+    {
+      "id": "np-mas-alla",
+      "type": "ficha",
+      "title": "Perspective Beyond: cuándo queda corto un marco",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-mas-alla",
+      "original": "https://integralmanagement.ch/publicaciones/art-imsv-07/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "perspectiva"
+      ],
+      "summary": "Un marco permite medir y decidir, pero responde a las preguntas para las que fue construido. Si cambian las condiciones, conviene revisar qué presupuestos siguen vigentes antes de mejorar la respuesta existente.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-80c825aa303fb83d02",
+      "tagWeights": {
+        "perspectiva": 1
+      },
+      "contextTokens": 105,
+      "distance": 2,
+      "parent": "S14",
+      "routeEdge": "navigation:position-nav-S14-np-mas-alla",
+      "affinity": 1
+    },
+    {
+      "id": "np-archivo",
+      "type": "ficha",
+      "title": "Conservar el conocimiento y seguir conversando",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-archivo",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/archivo-y-dialogo/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "documentacion",
+        "evidencia",
+        "memoria-territorio"
+      ],
+      "summary": "El archivo conserva variantes, preguntas y aportaciones con su procedencia. Así se puede reconstruir cómo cambió una interpretación y qué parte proviene de un testimonio, un documento o una lectura posterior.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-32e17bd7cfabf6b58d",
+      "tagWeights": {
+        "documentacion": 0.3334,
+        "evidencia": 0.3333,
+        "memoria-territorio": 0.3333
+      },
+      "contextTokens": 132,
+      "distance": 3,
+      "parent": "np-entrada",
+      "routeEdge": "documento:np-r15",
+      "affinity": 1
+    },
+    {
+      "id": "np-manifiesto",
+      "type": "ficha",
+      "title": "El manifiesto original de Nueva Perspectiva",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-manifiesto",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/manifiesto/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "perspectiva"
+      ],
+      "summary": "El sistema mental organiza percepciones, recuerdos, emociones e intereses mediante relaciones. Una idea nueva puede reordenar esas relaciones. El texto pide examinar después su coherencia y sus efectos.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-0498e150d27f3140df",
+      "tagWeights": {
+        "perspectiva": 1
+      },
+      "contextTokens": 105,
+      "distance": 3,
+      "parent": "np-entrada",
+      "routeEdge": "documento:np-r01",
+      "affinity": 1
+    },
+    {
+      "id": "np-aprendizajes",
+      "type": "ficha",
+      "title": "¿Qué enseñaron estas experiencias?",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-aprendizajes",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/aprendizajes/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "perspectiva",
+        "representacion"
+      ],
+      "summary": "Una mejora requiere una acción concreta, alguien que pueda sostenerla y una observación posterior. El capítulo diferencia los bloqueos de perspectiva de restricciones materiales que necesitan recursos, mantenimiento o cambios de proceso.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-926e08d192bdfd48cf",
+      "tagWeights": {
+        "perspectiva": 0.5,
+        "representacion": 0.5
+      },
+      "contextTokens": 116,
+      "distance": 4,
+      "parent": "np-archivo",
+      "routeEdge": "documento:np-r14",
+      "affinity": 1
+    },
+    {
+      "id": "np-experiencia",
+      "type": "ficha",
+      "title": "¿Qué ocurrió primero: la experiencia o la idea?",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-experiencia",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/experiencia-e-idea/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "aprendizaje",
+        "empresa",
+        "perspectiva"
+      ],
+      "summary": "La reflexión escrita ordenó un patrón que ya se observaba en prácticas humanas y organizativas. Las experiencias se solaparon, de modo que el aprendizaje circuló entre la formulación y el trabajo de campo.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-c14dafd6a67314318b",
+      "tagWeights": {
+        "aprendizaje": 0.4445,
+        "empresa": 0.4444,
+        "perspectiva": 0.1111
+      },
+      "contextTokens": 133,
+      "distance": 4,
+      "parent": "np-manifiesto",
+      "routeEdge": "documento:np-r02",
+      "affinity": 1
+    },
+    {
+      "id": "np-accion",
+      "type": "ficha",
+      "title": "Acción Integral: muchas prácticas, una pregunta compartida",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-accion",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/accion-integral/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "aprendizaje",
+        "empresa",
+        "transformacion"
+      ],
+      "summary": "El capítulo conecta formación, gobierno de procesos, integración técnica y trabajo organizativo. Casos distintos permiten comparar qué se aprende al relacionar conocimientos que estaban repartidos entre personas, sistemas y áreas.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-7b8692bbbde40cd141",
+      "tagWeights": {
+        "aprendizaje": 0.3334,
+        "empresa": 0.3333,
+        "transformacion": 0.3333
+      },
+      "contextTokens": 129,
+      "distance": 5,
+      "parent": "np-aprendizajes",
+      "routeEdge": "documento:np-r13",
+      "affinity": 1
+    },
+    {
+      "id": "np-sierra",
+      "type": "ficha",
+      "title": "La sierra del Totonacapan: el origen vivencial",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-sierra",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/sierra-del-totonacapan/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "experimentacion",
+        "memoria-territorio"
+      ],
+      "summary": "Los encuentros comunitarios plantearon cómo una persona puede querer cambiar y seguir reproduciendo la situación que quiere transformar. Quienes acompañaban la experiencia también ponían a prueba su propia mirada.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-e48e4b0fbdce2ff103",
+      "tagWeights": {
+        "experimentacion": 0.4444,
+        "memoria-territorio": 0.5556
+      },
+      "contextTokens": 128,
+      "distance": 5,
+      "parent": "np-experiencia",
+      "routeEdge": "documento:np-r03",
+      "affinity": 1
+    },
+    {
+      "id": "np-accion-metodo",
+      "type": "ficha",
+      "title": "Acción Integral: la capacidad de actuar entre personas y sistemas",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-accion-metodo",
+      "original": "https://integralmanagement.ch/publicaciones/art-imsv-09/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "aprendizaje",
+        "decision",
+        "transformacion"
+      ],
+      "summary": "La cooperación requiere que la información, el juicio y las responsabilidades lleguen a quienes realizan el trabajo. El programa DO y JUMP UP ofrecen maneras concretas de pasar de una observación compartida a una decisión que pueda sostenerse.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-45e247f28037ec2d23",
+      "tagWeights": {
+        "aprendizaje": 0.2222,
+        "decision": 0.5556,
+        "transformacion": 0.2222
+      },
+      "contextTokens": 140,
+      "distance": 6,
+      "parent": "np-accion",
+      "routeEdge": "documento:np-r17",
+      "affinity": 1
+    },
+    {
+      "id": "np-aicm",
+      "type": "ficha",
+      "title": "AICM y Crea Camino: transformar desde la experiencia",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-aicm",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/aicm-crea-camino/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "aprendizaje",
+        "movilidad"
+      ],
+      "summary": "En un contexto incierto, los talleres aprovecharon la experiencia de trabajadores para formular propuestas de mejora. Convertir una idea en iniciativa requería responsables, indicadores y un camino de ejecución.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-749cbd6894bd70c2e9",
+      "tagWeights": {
+        "aprendizaje": 0.4444,
+        "movilidad": 0.5556
+      },
+      "contextTokens": 124,
+      "distance": 6,
+      "parent": "np-accion",
+      "routeEdge": "documento:np-r12",
+      "affinity": 1
+    },
+    {
+      "id": "np-coaching",
+      "type": "ficha",
+      "title": "Coaching Transpersonal: aprender en comunidad",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-coaching",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/coaching-transpersonal/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "aprendizaje",
+        "espiritualidad",
+        "memoria-territorio"
+      ],
+      "summary": "Los talleres en Xalapa y Coatepec recurrieron a la observación de la experiencia, la atención y los cambios de rol. El participante podía examinar lo que le ocurría antes de adoptar la explicación de otra persona.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-b1f655d51915d8d1ef",
+      "tagWeights": {
+        "aprendizaje": 0.2857,
+        "espiritualidad": 0.3572,
+        "memoria-territorio": 0.3571
+      },
+      "contextTokens": 137,
+      "distance": 6,
+      "parent": "np-sierra",
+      "routeEdge": "documento:np-r04",
+      "affinity": 1
+    },
+    {
+      "id": "np-encajonadora",
+      "type": "ficha",
+      "title": "La encajonadora: un problema técnico y muchas perspectivas",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-encajonadora",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/encajonadora/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "decision",
+        "perspectiva"
+      ],
+      "summary": "Producción, calidad y mantenimiento veían la misma máquina desde responsabilidades diferentes. Para intervenir se necesitaba comprender a la vez sus fallos materiales y cómo interactuaban las respuestas de las áreas.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-43b98a7f1952ac72d5",
+      "tagWeights": {
+        "decision": 0.4444,
+        "perspectiva": 0.5556
+      },
+      "contextTokens": 121,
+      "distance": 7,
+      "parent": "np-aicm",
+      "routeEdge": "documento:np-r11",
+      "affinity": 1
+    },
+    {
+      "id": "np-microempresas",
+      "type": "ficha",
+      "title": "Microempresarios: mirar el negocio desde otra silla",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-microempresas",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/microempresarios/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "empresa"
+      ],
+      "summary": "El Programa de Desarrollo Organizacional proponía observar el mismo negocio como cliente, trabajador, proveedor o vecino. Comparar esas miradas permite descubrir una contradicción entre la promesa del negocio y lo que sucede al visitarlo o trabajar allí.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-6791639699e0fbb314",
+      "tagWeights": {
+        "empresa": 1
+      },
+      "contextTokens": 119,
+      "distance": 7,
+      "parent": "np-coaching",
+      "routeEdge": "documento:np-r05",
+      "affinity": 1
+    },
+    {
+      "id": "np-ado",
+      "type": "ficha",
+      "title": "ADO: Consciencia Plena, Pulsera Rosa y andenes",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-ado",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/ado-consciencia-plena/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "espiritualidad",
+        "integridad-ia"
+      ],
+      "summary": "El conocimiento de quienes operaban andenes o atendían a pasajeros podía convertirse en propuestas concretas. Pulsera Rosa muestra cómo observar la experiencia de una pasajera cambia la manera de formular una cuestión de seguridad.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-90701a536266d9a059",
+      "tagWeights": {
+        "espiritualidad": 0.5556,
+        "integridad-ia": 0.4444
+      },
+      "contextTokens": 131,
+      "distance": 8,
+      "parent": "np-encajonadora",
+      "routeEdge": "documento:np-r10",
+      "affinity": 1
+    },
+    {
+      "id": "np-lectura-manifiesto",
+      "type": "ficha",
+      "title": "El manifiesto, leído en diálogo",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-lectura-manifiesto",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/leer-el-manifiesto/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "decision",
+        "perspectiva"
+      ],
+      "summary": "La lectura distingue deseo, acción, consecuencia y satisfacción. Una nueva idea merece examen racional, observaciones y contraste, para saber si cambió la situación o solo la manera de describirla.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-30ca55893f391b5c59",
+      "tagWeights": {
+        "decision": 0.5,
+        "perspectiva": 0.5
+      },
+      "contextTokens": 118,
+      "distance": 8,
+      "parent": "np-microempresas",
+      "routeEdge": "documento:np-r06",
+      "affinity": 1
+    },
+    {
+      "id": "np-jump-up",
+      "type": "ficha",
+      "title": "Del cambio de perspectiva al plan JUMP UP",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-jump-up",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/jump-up/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "perspectiva",
+        "transformacion"
+      ],
+      "summary": "Focus ON permite examinar cómo se afectan entre sí los intereses, las capacidades, los objetivos y los bloqueos. JUMP UP convierte esa lectura en una acción que un equipo puede empezar y seguir en la operación.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-ff9d2edaecf0774aed",
+      "tagWeights": {
+        "perspectiva": 0.3846,
+        "transformacion": 0.6154
+      },
+      "contextTokens": 120,
+      "distance": 9,
+      "parent": "np-lectura-manifiesto",
+      "routeEdge": "documento:np-r07",
+      "affinity": 1
+    },
+    {
+      "id": "np-pemex",
+      "type": "ficha",
+      "title": "PEMEX y TETSA: personas, seguridad y operación",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-pemex",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/pemex-tetsa/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "empresa",
+        "integridad-ia",
+        "movilidad"
+      ],
+      "summary": "El capítulo examina atención, estrés, hábitos de los operadores y condiciones técnicas de seguridad. Distingue esas experiencias de los sistemas logísticos y de gestión que coexistieron en el entorno petrolero.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-338ccb609a5fe2b0fe",
+      "tagWeights": {
+        "empresa": 0.25,
+        "integridad-ia": 0.5,
+        "movilidad": 0.25
+      },
+      "contextTokens": 131,
+      "distance": 9,
+      "parent": "np-ado",
+      "routeEdge": "documento:np-r09",
+      "affinity": 1
+    }
+  ],
+  "edges": [
+    {
+      "id": "contiene:doc-e198b1540263bd17cd-entrada:S14",
+      "from": "doc-e198b1540263bd17cd-entrada",
+      "to": "S14",
+      "kind": "ficha del documento",
+      "reading": "Esta ficha abre la lectura desde el documento de origen.",
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-S14-np-entrada",
+      "from": "S14",
+      "to": "np-entrada",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «The Integral Management Society», el enlace «Explorar Nueva Perspectiva: del manifiesto a la práctica  →» abre «Del manifiesto a la práctica».",
+      "evidence": "https://integralmanagement.ch/",
+      "route": true
+    },
+    {
+      "id": "navigation:position-nav-S14-np-mas-alla",
+      "from": "S14",
+      "to": "np-mas-alla",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «The Integral Management Society», el enlace «Perspective Beyond  →» abre «Perspective Beyond: cuándo queda corto un marco».",
+      "evidence": "https://integralmanagement.ch/",
+      "route": true
+    },
+    {
+      "id": "documento:np-r15",
+      "from": "np-archivo",
+      "to": "np-entrada",
+      "kind": "relectura",
+      "reading": "El índice permite volver al punto de partida desde la evidencia acumulada.",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:np-r01",
+      "from": "np-entrada",
+      "to": "np-manifiesto",
+      "kind": "fundamento",
+      "reading": "La formulación original desarrolla el papel de las relaciones entre los elementos del sistema mental.",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:np-r14",
+      "from": "np-aprendizajes",
+      "to": "np-archivo",
+      "kind": "custodia",
+      "reading": "La posibilidad de revisar un aprendizaje requiere guardar su procedencia y los cambios de interpretación.",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:np-r02",
+      "from": "np-manifiesto",
+      "to": "np-experiencia",
+      "kind": "origen",
+      "reading": "La conversación permite situar la experiencia previa a la formulación escrita.",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:np-r13",
+      "from": "np-accion",
+      "to": "np-aprendizajes",
+      "kind": "síntesis",
+      "reading": "Se extraen criterios observables de intervención y se conservan las diferencias entre los casos.",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:np-r03",
+      "from": "np-experiencia",
+      "to": "np-sierra",
+      "kind": "trayectoria",
+      "reading": "La sierra concreta una de las experiencias que precedieron o acompañaron la formulación.",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:np-r17",
+      "from": "np-accion",
+      "to": "np-accion-metodo",
+      "kind": "ampliación",
+      "reading": "El ensayo desarrolla el paso entre aprendizaje, responsabilidades y acción sostenida.",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:np-r12",
+      "from": "np-aicm",
+      "to": "np-accion",
+      "kind": "síntesis",
+      "reading": "La acción de quienes conocen el trabajo se sitúa junto a otras prácticas de integración.",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:np-r04",
+      "from": "np-sierra",
+      "to": "np-coaching",
+      "kind": "continuidad",
+      "reading": "La observación de la experiencia vuelve a aparecer en un entorno abierto de formación.",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:np-r11",
+      "from": "np-encajonadora",
+      "to": "np-aicm",
+      "kind": "comparación",
+      "reading": "El caso aeroportuario permite examinar, a otra escala, cómo el conocimiento de la operación llega a propuestas ejecutables.",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:np-r05",
+      "from": "np-coaching",
+      "to": "np-microempresas",
+      "kind": "aplicación",
+      "reading": "El cambio de rol se convierte en una observación concreta de un negocio.",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:np-r10",
+      "from": "np-ado",
+      "to": "np-encajonadora",
+      "kind": "comparación",
+      "reading": "Cambiar el punto de observación revela condiciones que las responsabilidades parciales no muestran.",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:np-r06",
+      "from": "np-microempresas",
+      "to": "np-lectura-manifiesto",
+      "kind": "contraste",
+      "reading": "La comparación entre papeles permite examinar la diferencia entre una idea nueva y una decisión comprobable.",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:np-r07",
+      "from": "np-lectura-manifiesto",
+      "to": "np-jump-up",
+      "kind": "desarrollo",
+      "reading": "El examen racional de una nueva mirada encuentra una expresión práctica en el diseño de la intervención.",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:np-r09",
+      "from": "np-pemex",
+      "to": "np-ado",
+      "kind": "comparación",
+      "reading": "Ambos relatos distinguen las condiciones de operación de lo que trabajadores y usuarios pueden observar.",
+      "evidence": null,
+      "route": true
+    },
+    {
+      "id": "documento:np-r08",
+      "from": "np-jump-up",
+      "to": "np-pemex",
+      "kind": "lectura de campo",
+      "reading": "Leer los bloqueos exige observar a la vez procedimientos, seguridad y experiencia de quienes operan.",
+      "evidence": null,
+      "route": false
+    },
+    {
+      "id": "documento:np-r16",
+      "from": "np-manifiesto",
+      "to": "np-mas-alla",
+      "kind": "desarrollo",
+      "reading": "El ensayo vuelve sobre las condiciones que delimitan qué puede ver un marco.",
+      "evidence": null,
+      "route": false
+    }
+  ],
+  "selection": [
+    {
+      "id": "S14",
+      "type": "ficha",
+      "title": "The Integral Management Society",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/the-integral-management-society-s14/",
+      "original": "https://integralmanagement.ch/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "empresa"
+      ],
+      "summary": "Una sociedad científica dedicada a comprender la complejidad, preservar las capacidades esenciales y abrir nuevas posibilidades de adaptación.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-e198b1540263bd17cd",
+      "tagWeights": {
+        "empresa": 1
+      },
+      "contextTokens": 76,
+      "distance": 1,
+      "parent": "doc-e198b1540263bd17cd-entrada",
+      "routeEdge": null,
+      "affinity": 1
+    },
+    {
+      "id": "np-entrada",
+      "type": "ficha",
+      "title": "Del manifiesto a la práctica",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-entrada",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "aprendizaje",
+        "perspectiva"
+      ],
+      "summary": "Identificar qué relaciones quedan fuera de la atención cuando un problema persiste pese a que conocemos sus componentes. La serie sigue esa pregunta por el manifiesto, la formación y los casos.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-5daaf7203a2eb21821",
+      "tagWeights": {
+        "aprendizaje": 0.8,
+        "perspectiva": 0.2
+      },
+      "contextTokens": 108,
+      "distance": 2,
+      "parent": "S14",
+      "routeEdge": "navigation:position-nav-S14-np-entrada",
+      "affinity": 1
+    },
+    {
+      "id": "np-mas-alla",
+      "type": "ficha",
+      "title": "Perspective Beyond: cuándo queda corto un marco",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-mas-alla",
+      "original": "https://integralmanagement.ch/publicaciones/art-imsv-07/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "perspectiva"
+      ],
+      "summary": "Un marco permite medir y decidir, pero responde a las preguntas para las que fue construido. Si cambian las condiciones, conviene revisar qué presupuestos siguen vigentes antes de mejorar la respuesta existente.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-80c825aa303fb83d02",
+      "tagWeights": {
+        "perspectiva": 1
+      },
+      "contextTokens": 105,
+      "distance": 2,
+      "parent": "S14",
+      "routeEdge": "navigation:position-nav-S14-np-mas-alla",
+      "affinity": 1
+    },
+    {
+      "id": "np-archivo",
+      "type": "ficha",
+      "title": "Conservar el conocimiento y seguir conversando",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-archivo",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/archivo-y-dialogo/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "documentacion",
+        "evidencia",
+        "memoria-territorio"
+      ],
+      "summary": "El archivo conserva variantes, preguntas y aportaciones con su procedencia. Así se puede reconstruir cómo cambió una interpretación y qué parte proviene de un testimonio, un documento o una lectura posterior.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-32e17bd7cfabf6b58d",
+      "tagWeights": {
+        "documentacion": 0.3334,
+        "evidencia": 0.3333,
+        "memoria-territorio": 0.3333
+      },
+      "contextTokens": 132,
+      "distance": 3,
+      "parent": "np-entrada",
+      "routeEdge": "documento:np-r15",
+      "affinity": 1
+    },
+    {
+      "id": "np-manifiesto",
+      "type": "ficha",
+      "title": "El manifiesto original de Nueva Perspectiva",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-manifiesto",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/manifiesto/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "perspectiva"
+      ],
+      "summary": "El sistema mental organiza percepciones, recuerdos, emociones e intereses mediante relaciones. Una idea nueva puede reordenar esas relaciones. El texto pide examinar después su coherencia y sus efectos.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-0498e150d27f3140df",
+      "tagWeights": {
+        "perspectiva": 1
+      },
+      "contextTokens": 105,
+      "distance": 3,
+      "parent": "np-entrada",
+      "routeEdge": "documento:np-r01",
+      "affinity": 1
+    },
+    {
+      "id": "np-aprendizajes",
+      "type": "ficha",
+      "title": "¿Qué enseñaron estas experiencias?",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-aprendizajes",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/aprendizajes/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "perspectiva",
+        "representacion"
+      ],
+      "summary": "Una mejora requiere una acción concreta, alguien que pueda sostenerla y una observación posterior. El capítulo diferencia los bloqueos de perspectiva de restricciones materiales que necesitan recursos, mantenimiento o cambios de proceso.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-926e08d192bdfd48cf",
+      "tagWeights": {
+        "perspectiva": 0.5,
+        "representacion": 0.5
+      },
+      "contextTokens": 116,
+      "distance": 4,
+      "parent": "np-archivo",
+      "routeEdge": "documento:np-r14",
+      "affinity": 1
+    },
+    {
+      "id": "np-experiencia",
+      "type": "ficha",
+      "title": "¿Qué ocurrió primero: la experiencia o la idea?",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-experiencia",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/experiencia-e-idea/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "aprendizaje",
+        "empresa",
+        "perspectiva"
+      ],
+      "summary": "La reflexión escrita ordenó un patrón que ya se observaba en prácticas humanas y organizativas. Las experiencias se solaparon, de modo que el aprendizaje circuló entre la formulación y el trabajo de campo.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-c14dafd6a67314318b",
+      "tagWeights": {
+        "aprendizaje": 0.4445,
+        "empresa": 0.4444,
+        "perspectiva": 0.1111
+      },
+      "contextTokens": 133,
+      "distance": 4,
+      "parent": "np-manifiesto",
+      "routeEdge": "documento:np-r02",
+      "affinity": 1
+    },
+    {
+      "id": "np-accion",
+      "type": "ficha",
+      "title": "Acción Integral: muchas prácticas, una pregunta compartida",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-accion",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/accion-integral/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "aprendizaje",
+        "empresa",
+        "transformacion"
+      ],
+      "summary": "El capítulo conecta formación, gobierno de procesos, integración técnica y trabajo organizativo. Casos distintos permiten comparar qué se aprende al relacionar conocimientos que estaban repartidos entre personas, sistemas y áreas.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-7b8692bbbde40cd141",
+      "tagWeights": {
+        "aprendizaje": 0.3334,
+        "empresa": 0.3333,
+        "transformacion": 0.3333
+      },
+      "contextTokens": 129,
+      "distance": 5,
+      "parent": "np-aprendizajes",
+      "routeEdge": "documento:np-r13",
+      "affinity": 1
+    },
+    {
+      "id": "np-sierra",
+      "type": "ficha",
+      "title": "La sierra del Totonacapan: el origen vivencial",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-sierra",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/sierra-del-totonacapan/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "experimentacion",
+        "memoria-territorio"
+      ],
+      "summary": "Los encuentros comunitarios plantearon cómo una persona puede querer cambiar y seguir reproduciendo la situación que quiere transformar. Quienes acompañaban la experiencia también ponían a prueba su propia mirada.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-e48e4b0fbdce2ff103",
+      "tagWeights": {
+        "experimentacion": 0.4444,
+        "memoria-territorio": 0.5556
+      },
+      "contextTokens": 128,
+      "distance": 5,
+      "parent": "np-experiencia",
+      "routeEdge": "documento:np-r03",
+      "affinity": 1
+    },
+    {
+      "id": "np-accion-metodo",
+      "type": "ficha",
+      "title": "Acción Integral: la capacidad de actuar entre personas y sistemas",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-accion-metodo",
+      "original": "https://integralmanagement.ch/publicaciones/art-imsv-09/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "aprendizaje",
+        "decision",
+        "transformacion"
+      ],
+      "summary": "La cooperación requiere que la información, el juicio y las responsabilidades lleguen a quienes realizan el trabajo. El programa DO y JUMP UP ofrecen maneras concretas de pasar de una observación compartida a una decisión que pueda sostenerse.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-45e247f28037ec2d23",
+      "tagWeights": {
+        "aprendizaje": 0.2222,
+        "decision": 0.5556,
+        "transformacion": 0.2222
+      },
+      "contextTokens": 140,
+      "distance": 6,
+      "parent": "np-accion",
+      "routeEdge": "documento:np-r17",
+      "affinity": 1
+    },
+    {
+      "id": "np-aicm",
+      "type": "ficha",
+      "title": "AICM y Crea Camino: transformar desde la experiencia",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-aicm",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/aicm-crea-camino/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "aprendizaje",
+        "movilidad"
+      ],
+      "summary": "En un contexto incierto, los talleres aprovecharon la experiencia de trabajadores para formular propuestas de mejora. Convertir una idea en iniciativa requería responsables, indicadores y un camino de ejecución.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-749cbd6894bd70c2e9",
+      "tagWeights": {
+        "aprendizaje": 0.4444,
+        "movilidad": 0.5556
+      },
+      "contextTokens": 124,
+      "distance": 6,
+      "parent": "np-accion",
+      "routeEdge": "documento:np-r12",
+      "affinity": 1
+    },
+    {
+      "id": "np-coaching",
+      "type": "ficha",
+      "title": "Coaching Transpersonal: aprender en comunidad",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-coaching",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/coaching-transpersonal/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "aprendizaje",
+        "espiritualidad",
+        "memoria-territorio"
+      ],
+      "summary": "Los talleres en Xalapa y Coatepec recurrieron a la observación de la experiencia, la atención y los cambios de rol. El participante podía examinar lo que le ocurría antes de adoptar la explicación de otra persona.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-b1f655d51915d8d1ef",
+      "tagWeights": {
+        "aprendizaje": 0.2857,
+        "espiritualidad": 0.3572,
+        "memoria-territorio": 0.3571
+      },
+      "contextTokens": 137,
+      "distance": 6,
+      "parent": "np-sierra",
+      "routeEdge": "documento:np-r04",
+      "affinity": 1
+    },
+    {
+      "id": "np-encajonadora",
+      "type": "ficha",
+      "title": "La encajonadora: un problema técnico y muchas perspectivas",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-encajonadora",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/encajonadora/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "decision",
+        "perspectiva"
+      ],
+      "summary": "Producción, calidad y mantenimiento veían la misma máquina desde responsabilidades diferentes. Para intervenir se necesitaba comprender a la vez sus fallos materiales y cómo interactuaban las respuestas de las áreas.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-43b98a7f1952ac72d5",
+      "tagWeights": {
+        "decision": 0.4444,
+        "perspectiva": 0.5556
+      },
+      "contextTokens": 121,
+      "distance": 7,
+      "parent": "np-aicm",
+      "routeEdge": "documento:np-r11",
+      "affinity": 1
+    },
+    {
+      "id": "np-microempresas",
+      "type": "ficha",
+      "title": "Microempresarios: mirar el negocio desde otra silla",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-microempresas",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/microempresarios/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "empresa"
+      ],
+      "summary": "El Programa de Desarrollo Organizacional proponía observar el mismo negocio como cliente, trabajador, proveedor o vecino. Comparar esas miradas permite descubrir una contradicción entre la promesa del negocio y lo que sucede al visitarlo o trabajar allí.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-6791639699e0fbb314",
+      "tagWeights": {
+        "empresa": 1
+      },
+      "contextTokens": 119,
+      "distance": 7,
+      "parent": "np-coaching",
+      "routeEdge": "documento:np-r05",
+      "affinity": 1
+    },
+    {
+      "id": "np-ado",
+      "type": "ficha",
+      "title": "ADO: Consciencia Plena, Pulsera Rosa y andenes",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-ado",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/ado-consciencia-plena/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "espiritualidad",
+        "integridad-ia"
+      ],
+      "summary": "El conocimiento de quienes operaban andenes o atendían a pasajeros podía convertirse en propuestas concretas. Pulsera Rosa muestra cómo observar la experiencia de una pasajera cambia la manera de formular una cuestión de seguridad.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-90701a536266d9a059",
+      "tagWeights": {
+        "espiritualidad": 0.5556,
+        "integridad-ia": 0.4444
+      },
+      "contextTokens": 131,
+      "distance": 8,
+      "parent": "np-encajonadora",
+      "routeEdge": "documento:np-r10",
+      "affinity": 1
+    },
+    {
+      "id": "np-lectura-manifiesto",
+      "type": "ficha",
+      "title": "El manifiesto, leído en diálogo",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-lectura-manifiesto",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/leer-el-manifiesto/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "decision",
+        "perspectiva"
+      ],
+      "summary": "La lectura distingue deseo, acción, consecuencia y satisfacción. Una nueva idea merece examen racional, observaciones y contraste, para saber si cambió la situación o solo la manera de describirla.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-30ca55893f391b5c59",
+      "tagWeights": {
+        "decision": 0.5,
+        "perspectiva": 0.5
+      },
+      "contextTokens": 118,
+      "distance": 8,
+      "parent": "np-microempresas",
+      "routeEdge": "documento:np-r06",
+      "affinity": 1
+    },
+    {
+      "id": "np-jump-up",
+      "type": "ficha",
+      "title": "Del cambio de perspectiva al plan JUMP UP",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-jump-up",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/jump-up/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "perspectiva",
+        "transformacion"
+      ],
+      "summary": "Focus ON permite examinar cómo se afectan entre sí los intereses, las capacidades, los objetivos y los bloqueos. JUMP UP convierte esa lectura en una acción que un equipo puede empezar y seguir en la operación.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-ff9d2edaecf0774aed",
+      "tagWeights": {
+        "perspectiva": 0.3846,
+        "transformacion": 0.6154
+      },
+      "contextTokens": 120,
+      "distance": 9,
+      "parent": "np-lectura-manifiesto",
+      "routeEdge": "documento:np-r07",
+      "affinity": 1
+    },
+    {
+      "id": "np-pemex",
+      "type": "ficha",
+      "title": "PEMEX y TETSA: personas, seguridad y operación",
+      "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-pemex",
+      "original": "https://integralmanagement.ch/nueva-perspectiva/pemex-tetsa/",
+      "aliases": [],
+      "clusters": [
+        "imsv"
+      ],
+      "tags": [
+        "empresa",
+        "integridad-ia",
+        "movilidad"
+      ],
+      "summary": "El capítulo examina atención, estrés, hábitos de los operadores y condiciones técnicas de seguridad. Distingue esas experiencias de los sistemas logísticos y de gestión que coexistieron en el entorno petrolero.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "documentId": "doc-338ccb609a5fe2b0fe",
+      "tagWeights": {
+        "empresa": 0.25,
+        "integridad-ia": 0.5,
+        "movilidad": 0.25
+      },
+      "contextTokens": 131,
+      "distance": 9,
+      "parent": "np-ado",
+      "routeEdge": "documento:np-r09",
+      "affinity": 1
+    }
+  ],
+  "reading": "# Posicionamiento · The Integral Management Society\nDocumento de origen: https://integralmanagement.ch/\n\n## The Integral Management Society\nUna sociedad científica dedicada a comprender la complejidad, preservar las capacidades esenciales y abrir nuevas posibilidades de adaptación.\nEtiquetas: Empresa y gestión 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/the-integral-management-society-s14/\nDocumento de origen: https://integralmanagement.ch/\n\nThe Integral Management Society → Del manifiesto a la práctica · lectura enlazada desde el documento. Desde «The Integral Management Society», el enlace «Explorar Nueva Perspectiva: del manifiesto a la práctica  →» abre «Del manifiesto a la práctica».\nFuente de la relación: https://integralmanagement.ch/\n\n## Del manifiesto a la práctica\nIdentificar qué relaciones quedan fuera de la atención cuando un problema persiste pese a que conocemos sus componentes. La serie sigue esa pregunta por el manifiesto, la formación y los casos.\nEtiquetas: Aprendizaje y transmisión de capacidades 80.00%; Cambio de perspectiva 20.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-entrada\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/\n\nThe Integral Management Society → Perspective Beyond: cuándo queda corto un marco · lectura enlazada desde el documento. Desde «The Integral Management Society», el enlace «Perspective Beyond  →» abre «Perspective Beyond: cuándo queda corto un marco».\nFuente de la relación: https://integralmanagement.ch/\n\n## Perspective Beyond: cuándo queda corto un marco\nUn marco permite medir y decidir, pero responde a las preguntas para las que fue construido. Si cambian las condiciones, conviene revisar qué presupuestos siguen vigentes antes de mejorar la respuesta existente.\nEtiquetas: Cambio de perspectiva 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-mas-alla\nDocumento de origen: https://integralmanagement.ch/publicaciones/art-imsv-07/\n\nConservar el conocimiento y seguir conversando → Del manifiesto a la práctica · relectura. El índice permite volver al punto de partida desde la evidencia acumulada.\n\n## Conservar el conocimiento y seguir conversando\nEl archivo conserva variantes, preguntas y aportaciones con su procedencia. Así se puede reconstruir cómo cambió una interpretación y qué parte proviene de un testimonio, un documento o una lectura posterior.\nEtiquetas: Investigación y documentación técnica 33.34%; Evidencia, procedencia y atribución 33.33%; Memoria, comunidad y territorio 33.33%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-archivo\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/archivo-y-dialogo/\n\nDel manifiesto a la práctica → El manifiesto original de Nueva Perspectiva · fundamento. La formulación original desarrolla el papel de las relaciones entre los elementos del sistema mental.\n\n## El manifiesto original de Nueva Perspectiva\nEl sistema mental organiza percepciones, recuerdos, emociones e intereses mediante relaciones. Una idea nueva puede reordenar esas relaciones. El texto pide examinar después su coherencia y sus efectos.\nEtiquetas: Cambio de perspectiva 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-manifiesto\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/manifiesto/\n\n¿Qué enseñaron estas experiencias? → Conservar el conocimiento y seguir conversando · custodia. La posibilidad de revisar un aprendizaje requiere guardar su procedencia y los cambios de interpretación.\n\n## ¿Qué enseñaron estas experiencias?\nUna mejora requiere una acción concreta, alguien que pueda sostenerla y una observación posterior. El capítulo diferencia los bloqueos de perspectiva de restricciones materiales que necesitan recursos, mantenimiento o cambios de proceso.\nEtiquetas: Cambio de perspectiva 50.00%; Representación y límites formales 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-aprendizajes\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/aprendizajes/\n\nEl manifiesto original de Nueva Perspectiva → ¿Qué ocurrió primero: la experiencia o la idea? · origen. La conversación permite situar la experiencia previa a la formulación escrita.\n\n## ¿Qué ocurrió primero: la experiencia o la idea?\nLa reflexión escrita ordenó un patrón que ya se observaba en prácticas humanas y organizativas. Las experiencias se solaparon, de modo que el aprendizaje circuló entre la formulación y el trabajo de campo.\nEtiquetas: Aprendizaje y transmisión de capacidades 44.45%; Empresa y gestión 44.44%; Cambio de perspectiva 11.11%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-experiencia\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/experiencia-e-idea/\n\nAcción Integral: muchas prácticas, una pregunta compartida → ¿Qué enseñaron estas experiencias? · síntesis. Se extraen criterios observables de intervención y se conservan las diferencias entre los casos.\n\n## Acción Integral: muchas prácticas, una pregunta compartida\nEl capítulo conecta formación, gobierno de procesos, integración técnica y trabajo organizativo. Casos distintos permiten comparar qué se aprende al relacionar conocimientos que estaban repartidos entre personas, sistemas y áreas.\nEtiquetas: Aprendizaje y transmisión de capacidades 33.34%; Empresa y gestión 33.33%; Transformación y continuidad operativa 33.33%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-accion\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/accion-integral/\n\n¿Qué ocurrió primero: la experiencia o la idea? → La sierra del Totonacapan: el origen vivencial · trayectoria. La sierra concreta una de las experiencias que precedieron o acompañaron la formulación.\n\n## La sierra del Totonacapan: el origen vivencial\nLos encuentros comunitarios plantearon cómo una persona puede querer cambiar y seguir reproduciendo la situación que quiere transformar. Quienes acompañaban la experiencia también ponían a prueba su propia mirada.\nEtiquetas: Experimentación, falsación y contraejemplos 44.44%; Memoria, comunidad y territorio 55.56%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-sierra\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/sierra-del-totonacapan/\n\nAcción Integral: muchas prácticas, una pregunta compartida → Acción Integral: la capacidad de actuar entre personas y sistemas · ampliación. El ensayo desarrolla el paso entre aprendizaje, responsabilidades y acción sostenida.\n\n## Acción Integral: la capacidad de actuar entre personas y sistemas\nLa cooperación requiere que la información, el juicio y las responsabilidades lleguen a quienes realizan el trabajo. El programa DO y JUMP UP ofrecen maneras concretas de pasar de una observación compartida a una decisión que pueda sostenerse.\nEtiquetas: Aprendizaje y transmisión de capacidades 22.22%; Decisiones y responsabilidad 55.56%; Transformación y continuidad operativa 22.22%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-accion-metodo\nDocumento de origen: https://integralmanagement.ch/publicaciones/art-imsv-09/\n\nAICM y Crea Camino: transformar desde la experiencia → Acción Integral: muchas prácticas, una pregunta compartida · síntesis. La acción de quienes conocen el trabajo se sitúa junto a otras prácticas de integración.\n\n## AICM y Crea Camino: transformar desde la experiencia\nEn un contexto incierto, los talleres aprovecharon la experiencia de trabajadores para formular propuestas de mejora. Convertir una idea en iniciativa requería responsables, indicadores y un camino de ejecución.\nEtiquetas: Aprendizaje y transmisión de capacidades 44.44%; Movilidad e infraestructura 55.56%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-aicm\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/aicm-crea-camino/\n\nLa sierra del Totonacapan: el origen vivencial → Coaching Transpersonal: aprender en comunidad · continuidad. La observación de la experiencia vuelve a aparecer en un entorno abierto de formación.\n\n## Coaching Transpersonal: aprender en comunidad\nLos talleres en Xalapa y Coatepec recurrieron a la observación de la experiencia, la atención y los cambios de rol. El participante podía examinar lo que le ocurría antes de adoptar la explicación de otra persona.\nEtiquetas: Aprendizaje y transmisión de capacidades 28.57%; Espiritualidad y vida interior 35.72%; Memoria, comunidad y territorio 35.71%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-coaching\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/coaching-transpersonal/\n\nLa encajonadora: un problema técnico y muchas perspectivas → AICM y Crea Camino: transformar desde la experiencia · comparación. El caso aeroportuario permite examinar, a otra escala, cómo el conocimiento de la operación llega a propuestas ejecutables.\n\n## La encajonadora: un problema técnico y muchas perspectivas\nProducción, calidad y mantenimiento veían la misma máquina desde responsabilidades diferentes. Para intervenir se necesitaba comprender a la vez sus fallos materiales y cómo interactuaban las respuestas de las áreas.\nEtiquetas: Decisiones y responsabilidad 44.44%; Cambio de perspectiva 55.56%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-encajonadora\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/encajonadora/\n\nCoaching Transpersonal: aprender en comunidad → Microempresarios: mirar el negocio desde otra silla · aplicación. El cambio de rol se convierte en una observación concreta de un negocio.\n\n## Microempresarios: mirar el negocio desde otra silla\nEl Programa de Desarrollo Organizacional proponía observar el mismo negocio como cliente, trabajador, proveedor o vecino. Comparar esas miradas permite descubrir una contradicción entre la promesa del negocio y lo que sucede al visitarlo o trabajar allí.\nEtiquetas: Empresa y gestión 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-microempresas\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/microempresarios/\n\nADO: Consciencia Plena, Pulsera Rosa y andenes → La encajonadora: un problema técnico y muchas perspectivas · comparación. Cambiar el punto de observación revela condiciones que las responsabilidades parciales no muestran.\n\n## ADO: Consciencia Plena, Pulsera Rosa y andenes\nEl conocimiento de quienes operaban andenes o atendían a pasajeros podía convertirse en propuestas concretas. Pulsera Rosa muestra cómo observar la experiencia de una pasajera cambia la manera de formular una cuestión de seguridad.\nEtiquetas: Espiritualidad y vida interior 55.56%; Integridad y seguridad de IA 44.44%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-ado\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/ado-consciencia-plena/\n\nMicroempresarios: mirar el negocio desde otra silla → El manifiesto, leído en diálogo · contraste. La comparación entre papeles permite examinar la diferencia entre una idea nueva y una decisión comprobable.\n\n## El manifiesto, leído en diálogo\nLa lectura distingue deseo, acción, consecuencia y satisfacción. Una nueva idea merece examen racional, observaciones y contraste, para saber si cambió la situación o solo la manera de describirla.\nEtiquetas: Decisiones y responsabilidad 50.00%; Cambio de perspectiva 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-lectura-manifiesto\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/leer-el-manifiesto/\n\nEl manifiesto, leído en diálogo → Del cambio de perspectiva al plan JUMP UP · desarrollo. El examen racional de una nueva mirada encuentra una expresión práctica en el diseño de la intervención.\n\n## Del cambio de perspectiva al plan JUMP UP\nFocus ON permite examinar cómo se afectan entre sí los intereses, las capacidades, los objetivos y los bloqueos. JUMP UP convierte esa lectura en una acción que un equipo puede empezar y seguir en la operación.\nEtiquetas: Cambio de perspectiva 38.46%; Transformación y continuidad operativa 61.54%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-jump-up\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/jump-up/\n\nPEMEX y TETSA: personas, seguridad y operación → ADO: Consciencia Plena, Pulsera Rosa y andenes · comparación. Ambos relatos distinguen las condiciones de operación de lo que trabajadores y usuarios pueden observar.\n\n## PEMEX y TETSA: personas, seguridad y operación\nEl capítulo examina atención, estrés, hábitos de los operadores y condiciones técnicas de seguridad. Distingue esas experiencias de los sistemas logísticos y de gestión que coexistieron en el entorno petrolero.\nEtiquetas: Empresa y gestión 25.00%; Integridad y seguridad de IA 50.00%; Movilidad e infraestructura 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-pemex\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/pemex-tetsa/\n\n"
+}

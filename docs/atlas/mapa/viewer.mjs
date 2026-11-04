@@ -5,6 +5,12 @@ const svgNamespace='http://www.w3.org/2000/svg';
 const params=new URLSearchParams(location.search);
 const embedded=params.get('embed')==='1';
 if(embedded)document.body.classList.add('embed');
+function positioningURL(embeddedMap=false){
+ const url=new URL('../posicionamiento/',location.href);url.searchParams.set('posicionamiento',params.get('centro')??'imsv');
+ url.searchParams.set('tokens',params.get('tokens')??'2000');
+ for(const key of ['max','red','sentido','solo','site','modo','puente','rol','lectura','instruccion'])if(params.has(key))url.searchParams.set(key,params.get(key));
+ for(const peso of params.getAll('peso'))url.searchParams.append('peso',peso);if(embeddedMap)url.searchParams.set('embed','1');return url;
+}
 
 function element(tag,text) {
   const node=document.createElement(tag);
@@ -90,7 +96,7 @@ async function start() {
     get('node-meta').textContent=typeName(node)+' · '+where+' · '+distanceName(node.distance);
     get('node-title').textContent=node.title;
     get('node-summary').textContent=node.summary;
-    get('node-tags').textContent=node.tags.map(tag=>labels[tag]).join(' · ');
+    get('node-tags').textContent=node.tagWeights?Object.entries(node.tagWeights).sort((a,b)=>b[1]-a[1]).map(([tag,w])=>labels[tag]+' '+percent.format(w)).join(' · '):node.tags.map(tag=>labels[tag]).join(' · ');
     const links=[link(node.url,'Abrir ficha'),link(node.original,'Fuente original')];
     if(node.commitUrl)links.push(link(node.commitUrl,'Commit '+node.commit.slice(0,8)));
     const next={...result.request,centro:id,red:node.type==='concepto'?'ideas':result.request.red};
@@ -183,6 +189,7 @@ async function start() {
       li.append(button);items.append(li);
     }
     get('open-full').href=mapURL(result.request).href;
+    get('positioning-upgrade').href=positioningURL().href;
     get('open-full').hidden=!embedded;
     get('result').hidden=false;
     get('status').textContent='';
@@ -243,4 +250,5 @@ async function start() {
   form.hidden=embedded;
   if(initial)update(initial,false);
 }
-start().catch(error=>{get('status').textContent=error.message;});
+if(embedded&&params.get('metodo')!=='saltos')location.replace(positioningURL(true));
+else start().catch(error=>{get('status').textContent=error.message;});

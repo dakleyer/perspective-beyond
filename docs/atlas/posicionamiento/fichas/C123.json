@@ -1,0 +1,161 @@
+{
+  "id": "C123",
+  "type": "concepto",
+  "title": "Orden parcial de dimensiones no fungibles",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/partial-order-of-non-fungible-dimensions/",
+  "documentId": null,
+  "sourceIds": [
+    "GH079",
+    "L005",
+    "GH072",
+    "T1475",
+    "U1498",
+    "T3083"
+  ],
+  "tagWeights": {
+    "autoridad": 0.132,
+    "capacidad-humana": 0.0678,
+    "casos": 0.0133,
+    "control-minimo": 0.037,
+    "decision": 0.2101,
+    "documentacion": 0.1215,
+    "economia": 0.0478,
+    "empresa": 0.0133,
+    "evidencia": 0.0904,
+    "experimentacion": 0.1215,
+    "memoria-territorio": 0.0411,
+    "transformacion": 0.1042
+  },
+  "clusters": [
+    "latinoempresa",
+    "research",
+    "tegrity",
+    "us"
+  ],
+  "context": "## Orden parcial de dimensiones no fungibles\nCompare measures with declared actors, units and directions.\nEtiquetas: Autoridad, permisos y delegación 13.20%; Capacidad humana y deuda de inteligencia 6.78%; Casos de uso y aplicaciones 1.33%; Control mínimo y suficiencia 3.70%; Decisiones y responsabilidad 21.01%; Investigación y documentación técnica 12.15%; Economía, costes y liquidez 4.78%; Empresa y gestión 1.33%; Evidencia, procedencia y atribución 9.04%; Experimentación, falsación y contraejemplos 12.15%; Memoria, comunidad y territorio 4.11%; Transformación y continuidad operativa 10.42%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/partial-order-of-non-fungible-dimensions/\n\n",
+  "tokens": 183,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH079:C123",
+      "to": "GH079",
+      "title": "ACC — Architectural fidelity review of recent experiments",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 202,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH079.json"
+    },
+    {
+      "id": "apoyo:L005:C123",
+      "to": "L005",
+      "title": "Dos maneras de cruzar un mundo Arquitecturas que empobrecen vs arquitecturas que multiplican",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 35,
+      "fichaTokens": 161,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/L005.json"
+    },
+    {
+      "id": "apoyo:GH072:C123",
+      "to": "GH072",
+      "title": "Matriz de cobertura documental y cola de experimentos reales",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 173,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH072.json"
+    },
+    {
+      "id": "apoyo:T1475:C123",
+      "to": "T1475",
+      "title": "Attribution Gap Measurement Protocol",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 132,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1475.json"
+    },
+    {
+      "id": "apoyo:U1498:C123",
+      "to": "U1498",
+      "title": "Entropy, Capability Activation and Sociotechnical Engineering",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 126,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1498.json"
+    },
+    {
+      "id": "apoyo:T3083:C123",
+      "to": "T3083",
+      "title": "From Endured Dependence to Chosen Solidarity",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 25,
+      "fichaTokens": 88,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T3083.json"
+    },
+    {
+      "id": "concepto:G088",
+      "to": "C103",
+      "title": "Arquitectura de integración generativa",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "Generative integration can be assessed through separately qualified dimensions, so that a gain in output does not silently erase a loss in rights, coordination burden or recognition.",
+      "relationTokens": 50,
+      "fichaTokens": 228,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C103.json"
+    },
+    {
+      "id": "concepto:G095",
+      "to": "C33",
+      "title": "Contribución y reconocimiento",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "Attribution measures should preserve their separate dimensions; improvement in one coordinate does not automatically compensate for an unmeasured or worsening coordinate elsewhere.",
+      "relationTokens": 43,
+      "fichaTokens": 200,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C33.json"
+    },
+    {
+      "id": "concepto:G096",
+      "to": "C91",
+      "title": "Condiciones de activación de capacidad",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "An activation can improve output while worsening coordination burden; without a justified conversion rule, that is a trade-off rather than an unqualified improvement.",
+      "relationTokens": 47,
+      "fichaTokens": 240,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C91.json"
+    },
+    {
+      "id": "concepto:G097",
+      "to": "C26",
+      "title": "Autoridad de decisión",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "Chosen solidarity can include an explicitly accepted trade-off; an analyst should not erase that choice by collapsing nonfungible dimensions into a universal score.",
+      "relationTokens": 45,
+      "fichaTokens": 262,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C26.json"
+    },
+    {
+      "id": "concepto:G099",
+      "to": "C103",
+      "title": "Arquitectura de integración generativa",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "A generative-integration assessment can preserve nonfungible gains and losses, leaving trade-offs or unknown dimensions explicit instead of declaring a universal net improvement.",
+      "relationTokens": 49,
+      "fichaTokens": 228,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C103.json"
+    }
+  ]
+}

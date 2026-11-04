@@ -1,0 +1,219 @@
+{
+  "id": "U1322",
+  "type": "ficha",
+  "title": "Case Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management",
+  "url": "https://dakleyer.github.io/perspective-beyond/sources/case-study-weatherford-multi-level-information-management-for-oilfield-supplie-u1322/",
+  "documentId": "doc-1d239c367168fe979d",
+  "sourceIds": [],
+  "tagWeights": {
+    "casos": 0.2381,
+    "empresa": 0.619,
+    "evidencia": 0.1429
+  },
+  "clusters": [
+    "us"
+  ],
+  "context": "## Case Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management\n\nEtiquetas: Casos de uso y aplicaciones 23.81%; Empresa y gestión 61.90%; Evidencia, procedencia y atribución 14.29%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-study-weatherford-multi-level-information-management-for-oilfield-supplie-u1322/\nDocumento de origen: https://jubap.us/case-study-weatherford-multi-level-information-management-for-oilfield-supplier-management/\n\n",
+  "tokens": 116,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:U1322:C11",
+      "to": "C11",
+      "title": "Tiempo del hecho y del conocimiento",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 163,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C11.json"
+    },
+    {
+      "id": "apoyo:U1322:C12",
+      "to": "C12",
+      "title": "Procedencia auditable",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 276,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C12.json"
+    },
+    {
+      "id": "apoyo:U1322:C15",
+      "to": "C15",
+      "title": "Admisibilidad contextual",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 242,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C15.json"
+    },
+    {
+      "id": "apoyo:U1322:C27",
+      "to": "C27",
+      "title": "Transferencia de contexto",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 257,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C27.json"
+    },
+    {
+      "id": "apoyo:U1322:C53",
+      "to": "C53",
+      "title": "Preparación de auditoría",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 192,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C53.json"
+    },
+    {
+      "id": "apoyo:U1322:C75",
+      "to": "C75",
+      "title": "Trabajo compensatorio evitable (ACW)",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 31,
+      "fichaTokens": 207,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C75.json"
+    },
+    {
+      "id": "apoyo:U1322:G52",
+      "to": "G52",
+      "title": "Weatherford / trazabilidad de proveedor",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 83,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G52.json"
+    },
+    {
+      "id": "documento:D009",
+      "to": "N1835",
+      "title": "Phylons relabeling cascades",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "Event time and knowledge time should remain distinct when reconstructing an audit decision.",
+      "relationTokens": 42,
+      "fichaTokens": 74,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1835.json"
+    },
+    {
+      "id": "documento:D024",
+      "to": "T2807",
+      "title": "Annex 7 — Reference Architecture and Implementation",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "The supplier case shows why evidence handoff needs the decision context that makes a document meaningful.",
+      "relationTokens": 45,
+      "fichaTokens": 123,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2807.json"
+    },
+    {
+      "id": "documento:A038",
+      "to": "T1400",
+      "title": "Measuring Human Intelligence Debt",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "Reusable audit evidence provides a concrete setting for distinguishing avoidable reconstruction from necessary assurance, while measuring the net work of maintaining the shared evidence model.",
+      "relationTokens": 52,
+      "fichaTokens": 145,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1400.json"
+    },
+    {
+      "id": "documento:A039",
+      "to": "T2795",
+      "title": "Annex 4 — Canonical Requirements and Test Contract",
+      "direction": "saliente",
+      "kind": "candidate transfer",
+      "reading": "Evidence reuse across audits should carry purpose, scope, version and access conditions, so a reusable record does not become an unrestricted or context-free assertion.",
+      "relationTokens": 58,
+      "fichaTokens": 162,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2795.json"
+    },
+    {
+      "id": "documento:G036",
+      "to": "GH036",
+      "title": "Annex 01J — Ecosystem Signalling: Selective Disclosure, Distributed Opportunity and Choreographed Repositioning",
+      "direction": "entrante",
+      "kind": "candidate transfer",
+      "reading": "Selective, source-qualified handoffs could let one field fact support several receivers without exposing unnecessary information or substituting one receiver’s determination for another’s.",
+      "relationTokens": 73,
+      "fichaTokens": 211,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH036.json"
+    },
+    {
+      "id": "documento:R048",
+      "to": "E1567",
+      "title": "Piece Identity & Inventory Orchestration",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Evidence lineage across organizational boundaries](https://jubap.us/case-study-weatherford-multi-level-information-management-for-oilfield-supplier-management/).",
+      "relationTokens": 63,
+      "fichaTokens": 130,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1567.json"
+    },
+    {
+      "id": "documento:R058",
+      "to": "U1317",
+      "title": "Case Study: Texas-to-Mexico Oilfield Services Transformation: Knowledge Transfer, Industrialization, and Compliance",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Supplier evidence and audit-reactive mapping](https://jubap.us/case-study-weatherford-multi-level-information-management-for-oilfield-supplier-management/).",
+      "relationTokens": 79,
+      "fichaTokens": 189,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1317.json"
+    },
+    {
+      "id": "documento:R059",
+      "to": "N1289",
+      "title": "Information Management as Operational Tracking",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [The operational-tracking architecture](https://jubap.net/information-management-as-operational-tracking/).",
+      "relationTokens": 52,
+      "fichaTokens": 88,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1289.json"
+    },
+    {
+      "id": "documento:R060",
+      "to": "T2795",
+      "title": "Annex 4 — Canonical Requirements and Test Contract",
+      "direction": "saliente",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [A formal test contract for evidence sufficiency](https://tegrity.ai/when-the-controls-work-annex-4-canonical-requirements-and-test-contract/).",
+      "relationTokens": 69,
+      "fichaTokens": 162,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T2795.json"
+    },
+    {
+      "id": "documento:R136",
+      "to": "N1289",
+      "title": "Information Management as Operational Tracking",
+      "direction": "entrante",
+      "kind": "editorial comparison",
+      "reading": "For a complementary reading, see [Weatherford: operational tracking in a supplier ecosystem](https://jubap.us/case-study-weatherford-multi-level-information-management-for-oilfield-supplier-management/).",
+      "relationTokens": 65,
+      "fichaTokens": 88,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1289.json"
+    },
+    {
+      "id": "navigation:position-nav-U2-U1322",
+      "to": "U2",
+      "title": "JubAp.US",
+      "direction": "entrante",
+      "kind": "lectura enlazada desde el documento",
+      "reading": "Desde «JubAp.US», el enlace «Weatherford Multi-level supplier information, audit readiness and evidence architecture. Read the case study  ↗» abre «Case Study: Weatherford Multi-Level Information Management for Oilfield Supplier Management».",
+      "relationTokens": 86,
+      "fichaTokens": 117,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U2.json"
+    }
+  ]
+}

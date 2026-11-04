@@ -1,0 +1,139 @@
+{
+  "id": "dg-language",
+  "type": "concepto",
+  "title": "Lenguas y pertenencia",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-language",
+  "documentId": null,
+  "sourceIds": [
+    "D-108",
+    "D-109",
+    "D-215",
+    "D-290",
+    "D-298"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.2,
+    "autoridad": 0.1,
+    "documentacion": 0.1556,
+    "geopolitica": 0.3444,
+    "memoria-territorio": 0.2
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Lenguas y pertenencia\nLas lenguas como vías de memoria, reconocimiento y precisión institucional, más allá de su utilidad comercial.\nEtiquetas: Aprendizaje y transmisión de capacidades 20.00%; Autoridad, permisos y delegación 10.00%; Investigación y documentación técnica 15.56%; Geopolítica y fronteras 34.44%; Memoria, comunidad y territorio 20.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-language\n\n",
+  "tokens": 108,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-108:dg-language",
+      "to": "D-108",
+      "title": "Esperanto y las comunidades que se eligen",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 252,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-108.json"
+    },
+    {
+      "id": "apoyo:D-109:dg-language",
+      "to": "D-109",
+      "title": "Una institución que traduce sin perder su voz",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 22,
+      "fichaTokens": 290,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-109.json"
+    },
+    {
+      "id": "apoyo:D-215:dg-language",
+      "to": "D-215",
+      "title": "Un oficio visible puede parecer más real que una libertad internacional",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 396,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-215.json"
+    },
+    {
+      "id": "apoyo:D-290:dg-language",
+      "to": "D-290",
+      "title": "Tener un DNI no agota lo que significa ser de un país",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 381,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-290.json"
+    },
+    {
+      "id": "apoyo:D-298:dg-language",
+      "to": "D-298",
+      "title": "El fuego puede ser compartido como concepto sin tener una palabra común",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 358,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-298.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-042",
+      "to": "dg-community",
+      "title": "Comunidades y territorio",
+      "direction": "saliente",
+      "kind": "hace pertenecer",
+      "reading": "Las lenguas transportan relaciones, memorias y tradiciones.",
+      "relationTokens": 28,
+      "fichaTokens": 187,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-community.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-043",
+      "to": "dg-boundaries",
+      "title": "Fronteras y encuentros",
+      "direction": "saliente",
+      "kind": "traduce",
+      "reading": "Encontrar al otro requiere reconocer distintos códigos culturales.",
+      "relationTokens": 25,
+      "fichaTokens": 162,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-boundaries.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-044",
+      "to": "dg-governance",
+      "title": "Gobernanza y legitimidad",
+      "direction": "saliente",
+      "kind": "obliga a precisar",
+      "reading": "La traducción institucional necesita reglas de autenticidad.",
+      "relationTokens": 26,
+      "fichaTokens": 254,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-governance.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-140",
+      "to": "dg-invisible_autonomy",
+      "title": "Autonomía invisible y pertenencia",
+      "direction": "entrante",
+      "kind": "vincula movilidad y arraigo",
+      "reading": "Dos generaciones pueden vivir la misma movilidad de modo diferente.",
+      "relationTokens": 32,
+      "fichaTokens": 99,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-invisible_autonomy.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-320",
+      "to": "dg-concept_translation",
+      "title": "Fenómeno, concepto y palabra",
+      "direction": "entrante",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "Palabra y fenómeno no equivalen.",
+      "relationTokens": 30,
+      "fichaTokens": 65,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-concept_translation.json"
+    }
+  ]
+}

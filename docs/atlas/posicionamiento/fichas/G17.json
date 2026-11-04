@@ -1,0 +1,269 @@
+{
+  "id": "G17",
+  "type": "concepto",
+  "title": "Benchmarks DDS y ablaciones",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/dds-benchmarks-and-ablations/",
+  "documentId": null,
+  "sourceIds": [
+    "GH047",
+    "GH077",
+    "GH078",
+    "GH025",
+    "GH028"
+  ],
+  "tagWeights": {
+    "autoridad": 0.0174,
+    "cambio-regimen": 0.0067,
+    "cartografia": 0.0987,
+    "casos": 0.0333,
+    "control-minimo": 0.0522,
+    "decision": 0.0348,
+    "documentacion": 0.1041,
+    "economia": 0.032,
+    "estandares": 0.0067,
+    "evidencia": 0.1608,
+    "experimentacion": 0.2954,
+    "integridad-ia": 0.0087,
+    "matematicas": 0.0865,
+    "mundo-abierto": 0.0627
+  },
+  "clusters": [
+    "research"
+  ],
+  "context": "## Benchmarks DDS y ablaciones\nControlled benchmarks and ablations examine specific mechanisms under stated fixtures.\nEtiquetas: Autoridad, permisos y delegación 1.74%; Cambios de régimen y alerta temprana 0.67%; Cartografía y señales de ecosistema 9.87%; Casos de uso y aplicaciones 3.33%; Control mínimo y suficiencia 5.22%; Decisiones y responsabilidad 3.48%; Investigación y documentación técnica 10.41%; Economía, costes y liquidez 3.20%; Estándares e interoperabilidad 0.67%; Evidencia, procedencia y atribución 16.08%; Experimentación, falsación y contraejemplos 29.54%; Integridad y seguridad de IA 0.87%; Matemáticas 8.65%; Mundo abierto e indeterminación 6.27%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/dds-benchmarks-and-ablations/\n\n",
+  "tokens": 204,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:GH047:G17",
+      "to": "GH047",
+      "title": "Annex 00D-A01 — Reference-Scenario Test Artifacts and Bounded Reference-Oracle Construction & Test Design — Ecosystem Awareness",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 42,
+      "fichaTokens": 279,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH047.json"
+    },
+    {
+      "id": "apoyo:GH077:G17",
+      "to": "GH077",
+      "title": "G-02 — Independent Q-audit evidence, not a Boolean declaration",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 179,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH077.json"
+    },
+    {
+      "id": "apoyo:GH078:G17",
+      "to": "GH078",
+      "title": "L-09 — Remove accidental public-label leakage without rewriting source examples",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 175,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH078.json"
+    },
+    {
+      "id": "apoyo:GH025:G17",
+      "to": "GH025",
+      "title": "Canonical Requirements: S1–S14, Sufficiency Conditions, Hypotheses and KPIs",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 33,
+      "fichaTokens": 247,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH025.json"
+    },
+    {
+      "id": "apoyo:GH028:G17",
+      "to": "GH028",
+      "title": "Ecosystem Awareness — Integrated Foundational Theory of Bounded Uncertainty and Ecosystem Change",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 32,
+      "fichaTokens": 244,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/GH028.json"
+    },
+    {
+      "id": "concepto:B389",
+      "to": "G02",
+      "title": "The Given Universe Axiom",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 161,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G02.json"
+    },
+    {
+      "id": "concepto:B435",
+      "to": "G12",
+      "title": "Early Warning Systems (EWS)",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 66,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G12.json"
+    },
+    {
+      "id": "concepto:B438",
+      "to": "G13",
+      "title": "Requisitos canónicos S1–S14",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 130,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G13.json"
+    },
+    {
+      "id": "concepto:B441",
+      "to": "G14",
+      "title": "Condiciones T1–T4",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 125,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G14.json"
+    },
+    {
+      "id": "concepto:B447",
+      "to": "G16",
+      "title": "Hipótesis H1–H6",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 131,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G16.json"
+    },
+    {
+      "id": "concepto:B451",
+      "to": "G13",
+      "title": "Requisitos canónicos S1–S14",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 130,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G13.json"
+    },
+    {
+      "id": "concepto:B452",
+      "to": "G14",
+      "title": "Condiciones T1–T4",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 125,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G14.json"
+    },
+    {
+      "id": "concepto:B453",
+      "to": "G16",
+      "title": "Hipótesis H1–H6",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 131,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G16.json"
+    },
+    {
+      "id": "concepto:B454",
+      "to": "C46",
+      "title": "Ablación de mecanismos",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 16,
+      "fichaTokens": 236,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C46.json"
+    },
+    {
+      "id": "concepto:B455",
+      "to": "C47",
+      "title": "Comparación justa",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 15,
+      "fichaTokens": 204,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C47.json"
+    },
+    {
+      "id": "concepto:B456",
+      "to": "G39",
+      "title": "Escenario de 100 millones de tokens",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 191,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G39.json"
+    },
+    {
+      "id": "concepto:B457",
+      "to": "G40",
+      "title": "Chaos Smart City",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 15,
+      "fichaTokens": 203,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G40.json"
+    },
+    {
+      "id": "concepto:B470",
+      "to": "G20",
+      "title": "Escalera de evidencia y madurez",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 78,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G20.json"
+    },
+    {
+      "id": "concepto:B554",
+      "to": "G36",
+      "title": "Fallo composicional de controles locales",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 245,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G36.json"
+    },
+    {
+      "id": "concepto:B572",
+      "to": "G39",
+      "title": "Escenario de 100 millones de tokens",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 191,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G39.json"
+    },
+    {
+      "id": "concepto:B577",
+      "to": "G40",
+      "title": "Chaos Smart City",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 15,
+      "fichaTokens": 203,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G40.json"
+    }
+  ]
+}

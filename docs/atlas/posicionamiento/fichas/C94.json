@@ -1,0 +1,100 @@
+{
+  "id": "C94",
+  "type": "concepto",
+  "title": "Alcance de bloqueo de una decisión",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/decision-blocking-reach/",
+  "documentId": null,
+  "sourceIds": [
+    "N1285",
+    "U1498",
+    "T1484"
+  ],
+  "tagWeights": {
+    "autoridad": 0.0556,
+    "capacidad-humana": 0.0556,
+    "casos": 0.0953,
+    "control-minimo": 0.0476,
+    "decision": 0.3254,
+    "documentacion": 0.0476,
+    "economia": 0.1984,
+    "empresa": 0.0476,
+    "evidencia": 0.0714,
+    "memoria-territorio": 0.0555
+  },
+  "clusters": [
+    "net",
+    "tegrity",
+    "us"
+  ],
+  "context": "## Alcance de bloqueo de una decisión\nTrace dependent results delayed or blocked by a decision.\nEtiquetas: Autoridad, permisos y delegación 5.56%; Capacidad humana y deuda de inteligencia 5.56%; Casos de uso y aplicaciones 9.53%; Control mínimo y suficiencia 4.76%; Decisiones y responsabilidad 32.54%; Investigación y documentación técnica 4.76%; Economía, costes y liquidez 19.84%; Empresa y gestión 4.76%; Evidencia, procedencia y atribución 7.14%; Memoria, comunidad y territorio 5.55%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/decision-blocking-reach/\n\n",
+  "tokens": 151,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:N1285:C94",
+      "to": "N1285",
+      "title": "The Coordination Entropy Trap in Large Scale Programs",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 99,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1285.json"
+    },
+    {
+      "id": "apoyo:U1498:C94",
+      "to": "U1498",
+      "title": "Entropy, Capability Activation and Sociotechnical Engineering",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 24,
+      "fichaTokens": 126,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1498.json"
+    },
+    {
+      "id": "apoyo:T1484:C94",
+      "to": "T1484",
+      "title": "The Map and The Flow",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 110,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1484.json"
+    },
+    {
+      "id": "concepto:A021",
+      "to": "C93",
+      "title": "Dispersión del acuerdo decisorio",
+      "direction": "entrante",
+      "kind": "analogy only",
+      "reading": "Decision-level dispersion and downstream coupling make the coordination-entropy discussion more precise by separating agreement burden from the propagation of a blocked decision.",
+      "relationTokens": 45,
+      "fichaTokens": 128,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C93.json"
+    },
+    {
+      "id": "concepto:A023",
+      "to": "C80",
+      "title": "Resultado upstream independiente",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "Reach-weighted latency can operationalize one aspect of informational friction, but the causal loss from a divergent map must still be separated from necessary waiting and other delays.",
+      "relationTokens": 48,
+      "fichaTokens": 241,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C80.json"
+    },
+    {
+      "id": "concepto:P25",
+      "to": "C93",
+      "title": "Dispersión del acuerdo decisorio",
+      "direction": "entrante",
+      "kind": "hypothesis",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 128,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C93.json"
+    }
+  ]
+}

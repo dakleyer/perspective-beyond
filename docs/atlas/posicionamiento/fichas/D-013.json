@@ -1,0 +1,88 @@
+{
+  "id": "D-013",
+  "type": "ficha",
+  "title": "La escala como promesa y como riesgo",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-013",
+  "documentId": "doc-41f3a410d217128630",
+  "sourceIds": [],
+  "tagWeights": {
+    "aprendizaje": 0.25,
+    "economia": 0.25,
+    "empresa": 0.25,
+    "transformacion": 0.25
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## La escala como promesa y como riesgo\nINTERLOCUTOR — Has hablado muchas veces de escalabilidad. ¿De dónde sale esa insistencia?\nIVÁN —\nFORMACIÓN INTEGRAL\nActualmente, cuando doy mentorías a fundadores de startups, insisto mucho en pensar desde el principio en un modelo de escalabilidad. Porque hay demasiados casos de negocios que se colapsan precisamente después de tener éxito. Lo aprendí por experiencia propia. En los años 2005-2006, tenía mis pertenencias y algunos equipos informáticos —servidores, racks, routers— repartidos en garajes entre Barcelona, Miami y Nueva York, sin un plan claro para viajar ni para atender a los clientes que estaban surgiendo en distintos continentes.\nDespués de un tiempo en California, estuve a punto de mover todo para allá, pero en lugar de eso, acabé estableciéndome en Veracruz, México. La idea era buena, pero la ejecución, pese a todos nuestros esfuerzos, acabó arruinándome. El nombre del proyecto todavía es un tabú en mi familia: Formación Integral.\nINTERLOCUTOR — ¿Cómo surgió Formación Integral con Carmen y por qué Papantla?\nIVÁN —\nFue un negocio que emprendí junto a mi futura esposa, Carmen. La idea no era seguir yendo de un lado a otro para atender clientes, sino crear algo desde el lugar donde quisiéramos vivir. Buscábamos una libertad más auténtica. Aprovechando el potencial que veía en la educación en línea, quisimos llevarla justo donde más falta hacía: a México. Éramos pioneros de lo que años más tarde se convertiría en una industria multimillonaria para muchos… pero no para mí, ya que me esforcé más en cambiar el mundo que en cambiar mi vida.\nObservaba dos problemas al mismo tiempo: por un lado, la mayoría de los jóvenes no tenía acceso a un ordenador personal y dependían de cibercafés para conectarse a Internet. Por otro, no había apenas oferta de educación en línea, y la educación presencial era cara y poco accesible. Queríamos transformar los cibercafés en ciberescuelas: lugares con estructura, contenidos de calidad y orientación pedagógica.\nPara eso, desarrollamos una plataforma digital con acceso a cursos y recursos adaptados a estudiantes y docentes. Coordinamos un equipo de profesores remotos que daban soporte personalizado, y utilizamos plataformas como Moodle, integradas con herramientas adicionales, para adaptar los contenidos al contexto local.\nEtiquetas: Aprendizaje y transmisión de capacidades 25.00%; Economía, costes y liquidez 25.00%; Empresa y gestión 25.00%; Transformación y continuidad operativa 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-013\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20Has%20hablado%20muchas%20veces%20de%20escalabilidad.%20%C2%BFDe%20d%C3%B3nde%20sale\n\n",
+  "tokens": 658,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-013:dg-economy",
+      "to": "dg-economy",
+      "title": "Economía y escasez",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 21,
+      "fichaTokens": 239,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-economy.json"
+    },
+    {
+      "id": "apoyo:D-013:dg-transform",
+      "to": "dg-transform",
+      "title": "Transformación organizativa",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 20,
+      "fichaTokens": 213,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-transform.json"
+    },
+    {
+      "id": "documento:dg-057",
+      "to": "D-005",
+      "title": "Escasez, crecimiento y libertad real",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Economía y escasez».",
+      "relationTokens": 34,
+      "fichaTokens": 442,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-005.json"
+    },
+    {
+      "id": "documento:dg-058",
+      "to": "D-041",
+      "title": "La generación de las rotondas",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Economía y escasez».",
+      "relationTokens": 33,
+      "fichaTokens": 440,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-041.json"
+    },
+    {
+      "id": "documento:dg-107",
+      "to": "D-011",
+      "title": "Cuando Nokia cerró: cambiar de rumbo",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Transformación organizativa».",
+      "relationTokens": 32,
+      "fichaTokens": 636,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-011.json"
+    },
+    {
+      "id": "documento:dg-108",
+      "to": "D-014",
+      "title": "Formación Integral: el entusiasmo y la pérdida",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Transformación organizativa».",
+      "relationTokens": 32,
+      "fichaTokens": 716,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-014.json"
+    }
+  ]
+}

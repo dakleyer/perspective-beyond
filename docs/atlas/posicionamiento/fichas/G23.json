@@ -1,0 +1,140 @@
+{
+  "id": "G23",
+  "type": "concepto",
+  "title": "Attribution Gap",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/attribution-gap/",
+  "documentId": null,
+  "sourceIds": [
+    "T1472",
+    "T1475"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.0334,
+    "autoridad": 0.0334,
+    "capacidad-humana": 0.22,
+    "casos": 0.0733,
+    "decision": 0.09,
+    "economia": 0.11,
+    "empresa": 0.0733,
+    "evidencia": 0.2933,
+    "memoria-territorio": 0.0733
+  },
+  "clusters": [
+    "tegrity"
+  ],
+  "context": "## Attribution Gap\nThe capacity that sustains a result and the capacity credited for it can differ.\nEtiquetas: Aprendizaje y transmisión de capacidades 3.34%; Autoridad, permisos y delegación 3.34%; Capacidad humana y deuda de inteligencia 22.00%; Casos de uso y aplicaciones 7.33%; Decisiones y responsabilidad 9.00%; Economía, costes y liquidez 11.00%; Empresa y gestión 7.33%; Evidencia, procedencia y atribución 29.33%; Memoria, comunidad y territorio 7.33%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/attribution-gap/\n\n",
+  "tokens": 143,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:T1472:G23",
+      "to": "T1472",
+      "title": "The Attribution Gap and Capability Loss",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 16,
+      "fichaTokens": 156,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1472.json"
+    },
+    {
+      "id": "apoyo:T1475:G23",
+      "to": "T1475",
+      "title": "Attribution Gap Measurement Protocol",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 15,
+      "fichaTokens": 132,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/T1475.json"
+    },
+    {
+      "id": "concepto:B483",
+      "to": "C69",
+      "title": "Evidencia de contribución",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 14,
+      "fichaTokens": 289,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C69.json"
+    },
+    {
+      "id": "concepto:B484",
+      "to": "C70",
+      "title": "Atribución organizativa",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 14,
+      "fichaTokens": 186,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C70.json"
+    },
+    {
+      "id": "concepto:B485",
+      "to": "C08",
+      "title": "Retiro de aplicaciones",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 13,
+      "fichaTokens": 177,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C08.json"
+    },
+    {
+      "id": "concepto:B486",
+      "to": "C90",
+      "title": "Capacidad interna después de la salida",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 16,
+      "fichaTokens": 213,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C90.json"
+    },
+    {
+      "id": "concepto:B487",
+      "to": "G24",
+      "title": "JUBAP / secuencia de intervención",
+      "direction": "saliente",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 143,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G24.json"
+    },
+    {
+      "id": "concepto:B602",
+      "to": "G46",
+      "title": "The Author Pays for His Own Work",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 15,
+      "fichaTokens": 188,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G46.json"
+    },
+    {
+      "id": "concepto:B616",
+      "to": "G48",
+      "title": "Racionalización de sistemas en lujo",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 15,
+      "fichaTokens": 111,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G48.json"
+    },
+    {
+      "id": "concepto:P13",
+      "to": "G21",
+      "title": "Human Intelligence Debt (HID)",
+      "direction": "saliente",
+      "kind": "hypothesis",
+      "reading": "",
+      "relationTokens": 15,
+      "fichaTokens": 150,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G21.json"
+    }
+  ]
+}

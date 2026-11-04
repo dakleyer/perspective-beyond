@@ -1,0 +1,125 @@
+{
+  "id": "C62",
+  "type": "concepto",
+  "title": "Indicadores de resistencia",
+  "url": "https://dakleyer.github.io/perspective-beyond/concepts/resistance-indicators/",
+  "documentId": null,
+  "sourceIds": [
+    "E1636",
+    "U1494",
+    "E1628",
+    "N1289"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.093,
+    "autoridad": 0.0385,
+    "control-minimo": 0.0885,
+    "decision": 0.0827,
+    "documentacion": 0.0385,
+    "economia": 0.0839,
+    "empresa": 0.2526,
+    "evidencia": 0.1714,
+    "experimentacion": 0.025,
+    "memoria-territorio": 0.025,
+    "movilidad": 0.0625,
+    "perspectiva": 0.0384
+  },
+  "clusters": [
+    "eu",
+    "net",
+    "us"
+  ],
+  "context": "## Indicadores de resistencia\nOperational signals help locate obstacles to a transformation.\nEtiquetas: Aprendizaje y transmisión de capacidades 9.30%; Autoridad, permisos y delegación 3.85%; Control mínimo y suficiencia 8.85%; Decisiones y responsabilidad 8.27%; Investigación y documentación técnica 3.85%; Economía, costes y liquidez 8.39%; Empresa y gestión 25.26%; Evidencia, procedencia y atribución 17.14%; Experimentación, falsación y contraejemplos 2.50%; Memoria, comunidad y territorio 2.50%; Movilidad e infraestructura 6.25%; Cambio de perspectiva 3.84%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/resistance-indicators/\n\n",
+  "tokens": 166,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:E1636:C62",
+      "to": "E1636",
+      "title": "Nestlé North America — Where JUBAP Was Named",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 23,
+      "fichaTokens": 144,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1636.json"
+    },
+    {
+      "id": "apoyo:U1494:C62",
+      "to": "U1494",
+      "title": "Barcelona, Cuba, California, Veracruz: Urban Mobility, Swarm Intelligence and Constraint-Driven Architecture",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 31,
+      "fichaTokens": 176,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/U1494.json"
+    },
+    {
+      "id": "apoyo:E1628:C62",
+      "to": "E1628",
+      "title": "The JUBAP Framework",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 152,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/E1628.json"
+    },
+    {
+      "id": "apoyo:N1289:C62",
+      "to": "N1289",
+      "title": "Information Management as Operational Tracking",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 17,
+      "fichaTokens": 88,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/N1289.json"
+    },
+    {
+      "id": "concepto:D065",
+      "to": "C63",
+      "title": "Liberación y análisis causal",
+      "direction": "saliente",
+      "kind": "documented use",
+      "reading": "The Nestlé account describes how the dashboard, liberation strategy and six-domain root-cause tool were used as a sequence.",
+      "relationTokens": 38,
+      "fichaTokens": 162,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C63.json"
+    },
+    {
+      "id": "concepto:F062",
+      "to": "C82",
+      "title": "Traducción de captura a arquitectura",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "Resistance indicators can focus investigation, while capability and critical-path analysis are needed to distinguish a causal bottleneck from a visible symptom.",
+      "relationTokens": 40,
+      "fichaTokens": 245,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C82.json"
+    },
+    {
+      "id": "concepto:A010",
+      "to": "C38",
+      "title": "Aprendizaje interno repetible",
+      "direction": "saliente",
+      "kind": "analogy only",
+      "reading": "Tuxpan's adoption layer can be compared with JUBAP's internal facilitation model: the operating practice must become usable and transmissible inside the receiving organization.",
+      "relationTokens": 48,
+      "fichaTokens": 191,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/C38.json"
+    },
+    {
+      "id": "concepto:B609",
+      "to": "G47",
+      "title": "Nestlé North America / origen JUBAP",
+      "direction": "entrante",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 94,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/G47.json"
+    }
+  ]
+}

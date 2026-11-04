@@ -1,0 +1,97 @@
+{
+  "id": "D-060",
+  "type": "ficha",
+  "title": "Digitalizar sin borrar lo invisible",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-060",
+  "documentId": "doc-41f3a410d217128630",
+  "sourceIds": [],
+  "tagWeights": {
+    "capacidad-humana": 0.3333,
+    "empresa": 0.6667
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Digitalizar sin borrar lo invisible\nINTERLOCUTOR (pregunta editorial nueva) — ¿Por qué puede resultar peligroso digitalizar o automatizar una organización sin descubrir antes ese conocimiento?\n\nLECTURA EDITORIAL — Porque una automatización puede hacer más consistente lo que se ha descrito y, aun así, dejar fuera excepciones, criterios y relaciones de confianza. En nuestras conversaciones sobre inteligencia artificial aparecía el riesgo de industrializar una versión genérica de la empresa: imponer un modelo limpio y común a costa de diferencias que eran precisamente la fuente de su capacidad. Eso es una hipótesis de diseño y un riesgo que debe examinarse caso por caso; no significa que toda estandarización o toda IA destruyan saber.\n\nEl Instituto plantea el mismo problema desde otros oficios. Preservar una pieza de La Bola de Oro no basta si desaparecen los criterios para repararla; digitalizar un testimonio no equivale a transmitir una práctica; recopilar un saber indígena no convierte al recopilador en su propietario ni en portavoz autorizado de quienes lo sostienen.\n\nINTERLOCUTOR (pregunta editorial nueva) — ¿Qué tendría que conservarse cuando la persona experta ya no esté?\n\nLECTURA EDITORIAL — No una reproducción mecánica de cada gesto, sino una posibilidad de continuidad: personas formadas, contexto de procedencia, herramientas, registros útiles, derechos claros y ocasiones reales para practicar y corregir. Esa preocupación vincula Formación Integral, las comunidades de práctica y el trabajo más reciente sobre aprendizaje asistido por IA. Explica por qué la arquitectura de información, por sí sola, no es suficiente si falta la capacidad humana de interpretar y continuar.\nEtiquetas: Capacidad humana y deuda de inteligencia 33.33%; Empresa y gestión 66.67%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-060\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20(pregunta%20editorial%20nueva)%20%E2%80%94%20%C2%BFPor%20qu%C3%A9%20puede%20resultar%20peligroso%20digitalizar\n\n",
+  "tokens": 461,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-060:dg-tacit",
+      "to": "dg-tacit",
+      "title": "Conocimiento tácito",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 166,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-tacit.json"
+    },
+    {
+      "id": "apoyo:D-060:dg-structure",
+      "to": "dg-structure",
+      "title": "Conciencia estructural",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 256,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-structure.json"
+    },
+    {
+      "id": "documento:dg-104",
+      "to": "D-059",
+      "title": "La experiencia que nunca se escribió",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Conocimiento tácito».",
+      "relationTokens": 28,
+      "fichaTokens": 368,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-059.json"
+    },
+    {
+      "id": "documento:dg-105",
+      "to": "D-072",
+      "title": "Conservar una capacidad más allá de su creador",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Conocimiento tácito».",
+      "relationTokens": 32,
+      "fichaTokens": 542,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-072.json"
+    },
+    {
+      "id": "documento:dg-164",
+      "to": "D-056",
+      "title": "Del límite matemático al cambio de contexto",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Conciencia estructural».",
+      "relationTokens": 30,
+      "fichaTokens": 510,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-056.json"
+    },
+    {
+      "id": "documento:dg-165",
+      "to": "D-070",
+      "title": "IMSV, JUBAP y el paso a la investigación",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Conciencia estructural».",
+      "relationTokens": 34,
+      "fichaTokens": 523,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-070.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-228-D-060",
+      "to": "D-228",
+      "title": "La autenticidad no solo se preserva: se construye",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «La autenticidad no solo se preserva: se construye» con «Digitalizar sin borrar lo invisible».",
+      "relationTokens": 52,
+      "fichaTokens": 440,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-228.json"
+    }
+  ]
+}

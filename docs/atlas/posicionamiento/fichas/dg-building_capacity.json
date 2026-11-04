@@ -1,0 +1,81 @@
+{
+  "id": "dg-building_capacity",
+  "type": "concepto",
+  "title": "Construcción intergeneracional de capacidades",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-building_capacity",
+  "documentId": null,
+  "sourceIds": [
+    "D-287",
+    "D-288"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.0833,
+    "decision": 0.25,
+    "economia": 0.1667,
+    "experimentacion": 0.25,
+    "transformacion": 0.25
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Construcción intergeneracional de capacidades\nLa transformación no se agota en redistribuir posiciones: pregunta qué capacidad nueva queda para otros.\nEtiquetas: Aprendizaje y transmisión de capacidades 8.33%; Decisiones y responsabilidad 25.00%; Economía, costes y liquidez 16.67%; Experimentación, falsación y contraejemplos 25.00%; Transformación y continuidad operativa 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-building_capacity\n\n",
+  "tokens": 114,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-287:dg-building_capacity",
+      "to": "D-287",
+      "title": "El no-podismo también es una decisión de no construir",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 27,
+      "fichaTokens": 422,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-287.json"
+    },
+    {
+      "id": "apoyo:D-288:dg-building_capacity",
+      "to": "D-288",
+      "title": "Cambiar quién posee la manzana no alimenta al siguiente árbol",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 421,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-288.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-296",
+      "to": "dg-continuity",
+      "title": "Continuidad de capacidades",
+      "direction": "saliente",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "Capacidad que sobrevive a quien intervino.",
+      "relationTokens": 31,
+      "fichaTokens": 201,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-continuity.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-297",
+      "to": "dg-production",
+      "title": "Producción material y continuadores invisibles",
+      "direction": "saliente",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "Construir medios nuevos frente a repartir existencias.",
+      "relationTokens": 35,
+      "fichaTokens": 218,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-production.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-298",
+      "to": "dg-creative_mode",
+      "title": "Crear, reproducir y transformar marcos",
+      "direction": "saliente",
+      "kind": "relación transversal propuesta v0.12",
+      "reading": "Salir de arquetipos repetidos.",
+      "relationTokens": 34,
+      "fichaTokens": 135,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-creative_mode.json"
+    }
+  ]
+}

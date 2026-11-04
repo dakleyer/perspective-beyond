@@ -1,0 +1,153 @@
+{
+  "id": "D-010",
+  "type": "ficha",
+  "title": "La responsabilidad que casi nadie ve",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-010",
+  "documentId": "doc-41f3a410d217128630",
+  "sourceIds": [],
+  "tagWeights": {
+    "capacidad-humana": 0.2222,
+    "decision": 0.5556,
+    "movilidad": 0.2222
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## La responsabilidad que casi nadie ve\nINTERLOCUTOR — ¿Qué te enseñó mantener en pie el trabajo de tantos ingenieros?\nIVÁN —\nMi papel preciso en el centro era responsabilizarme de que todo funcionara sin interrupciones. Instalar y mantener la infraestructura que permitía a más de 120 ingenieros desarrollar y probar sus ideas. Por primera vez en mi vida, me sentía rodeado de personas mucho más inteligentes que yo. Aunque en ocasiones era valorado – mejoramos la clasificación de nuestro centro en nivel de servicio del puesto 142 al séptimo mundial – el trabajo de soporte y operaciones es muy silencioso, salvo por las ocasiones en que la red se venía abajo o destruía sin querer toda la información de un disco duro, lo cual, 25 años después todavía alguno de mis excompañeros me recuerda.\nEtiquetas: Capacidad humana y deuda de inteligencia 22.22%; Decisiones y responsabilidad 55.56%; Movilidad e infraestructura 22.22%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-010\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20%C2%BFQu%C3%A9%20te%20ense%C3%B1%C3%B3%20mantener%20en%20pie%20el%20trabajo%20de\n\n",
+  "tokens": 310,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-010:dg-infra",
+      "to": "dg-infra",
+      "title": "Infraestructura habilitadora",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 19,
+      "fichaTokens": 161,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-infra.json"
+    },
+    {
+      "id": "apoyo:D-010:dg-tacit",
+      "to": "dg-tacit",
+      "title": "Conocimiento tácito",
+      "direction": "saliente",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 18,
+      "fichaTokens": 166,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-tacit.json"
+    },
+    {
+      "id": "documento:dg-086",
+      "to": "D-009",
+      "title": "Vivir el futuro antes de su nombre",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Infraestructura habilitadora».",
+      "relationTokens": 31,
+      "fichaTokens": 381,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-009.json"
+    },
+    {
+      "id": "documento:dg-087",
+      "to": "D-020",
+      "title": "De la videoconferencia a GEPLAN",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Infraestructura habilitadora».",
+      "relationTokens": 31,
+      "fichaTokens": 802,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-020.json"
+    },
+    {
+      "id": "documento:dg-099",
+      "to": "D-021",
+      "title": "Alejandro: encontrar capacidades invisibles",
+      "direction": "saliente",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Conocimiento tácito».",
+      "relationTokens": 28,
+      "fichaTokens": 488,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-021.json"
+    },
+    {
+      "id": "documento:dg-106",
+      "to": "D-072",
+      "title": "Conservar una capacidad más allá de su creador",
+      "direction": "entrante",
+      "kind": "lectura por concepto",
+      "reading": "Comparten el tema «Conocimiento tácito».",
+      "relationTokens": 32,
+      "fichaTokens": 542,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-072.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-179-D-010",
+      "to": "D-179",
+      "title": "La telenovela disputa el patrimonio; casi nadie lo produce",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «La telenovela disputa el patrimonio; casi nadie lo produce» con «La responsabilidad que casi nadie ve».",
+      "relationTokens": 54,
+      "fichaTokens": 349,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-179.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-181-D-010",
+      "to": "D-181",
+      "title": "Cinco mil aplicaciones y el trabajo que evitaba la caída",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Cinco mil aplicaciones y el trabajo que evitaba la caída» con «La responsabilidad que casi nadie ve». Permite contrastar Infraestructura habilitadora.",
+      "relationTokens": 62,
+      "fichaTokens": 367,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-181.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-187-D-010",
+      "to": "D-187",
+      "title": "Una generación construyó la infraestructura; otra recibió la interfaz",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Una generación construyó la infraestructura; otra recibió la interfaz» con «La responsabilidad que casi nadie ve». Permite contrastar Infraestructura habilitadora.",
+      "relationTokens": 62,
+      "fichaTokens": 393,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-187.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-229-D-010",
+      "to": "D-229",
+      "title": "Trabajar los talentos puede salir a perder",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Trabajar los talentos puede salir a perder» con «La responsabilidad que casi nadie ve».",
+      "relationTokens": 44,
+      "fichaTokens": 430,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-229.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-233-D-010",
+      "to": "D-233",
+      "title": "Una capacidad zombi sigue en el organigrama, no en la realidad",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «Una capacidad zombi sigue en el organigrama, no en la realidad» con «La responsabilidad que casi nadie ve».",
+      "relationTokens": 58,
+      "fichaTokens": 413,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-233.json"
+    },
+    {
+      "id": "documento:dialogue-expansion-D-236-D-010",
+      "to": "D-236",
+      "title": "El sistema sobrevive gracias a quien se sale del mapa",
+      "direction": "entrante",
+      "kind": "conexión de la edición",
+      "reading": "La lectura enlaza «El sistema sobrevive gracias a quien se sale del mapa» con «La responsabilidad que casi nadie ve».",
+      "relationTokens": 50,
+      "fichaTokens": 411,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-236.json"
+    }
+  ]
+}

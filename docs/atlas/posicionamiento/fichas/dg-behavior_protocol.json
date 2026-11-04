@@ -1,0 +1,103 @@
+{
+  "id": "dg-behavior_protocol",
+  "type": "concepto",
+  "title": "Protocolo conductual de plataformas",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-behavior_protocol",
+  "documentId": null,
+  "sourceIds": [
+    "D-188",
+    "D-211",
+    "D-246"
+  ],
+  "tagWeights": {
+    "aprendizaje": 0.3333,
+    "autoridad": 0.3333,
+    "decision": 0.1667,
+    "economia": 0.1667
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Protocolo conductual de plataformas\nVer patrones de reacción y convergencia operacional por detrás de relatos enfrentados.\nEtiquetas: Aprendizaje y transmisión de capacidades 33.33%; Autoridad, permisos y delegación 33.33%; Decisiones y responsabilidad 16.67%; Economía, costes y liquidez 16.67%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-behavior_protocol\n\n",
+  "tokens": 98,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-188:dg-behavior_protocol",
+      "to": "D-188",
+      "title": "Ideologías contrarias pueden ejecutar el mismo protocolo de reacción",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 392,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-188.json"
+    },
+    {
+      "id": "apoyo:D-211:dg-behavior_protocol",
+      "to": "D-211",
+      "title": "El control de Internet puede culminar antes de la crisis",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 26,
+      "fichaTokens": 407,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-211.json"
+    },
+    {
+      "id": "apoyo:D-246:dg-behavior_protocol",
+      "to": "D-246",
+      "title": "La dictadura perfecta: profesionales que venden una realidad ya montada",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 440,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-246.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-103",
+      "to": "dg-measure",
+      "title": "Medir decisiones y consecuencias",
+      "direction": "saliente",
+      "kind": "parte de eventos",
+      "reading": "El sistema observa clics y tiempos, no convicciones interiores directamente.",
+      "relationTokens": 32,
+      "fichaTokens": 202,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-measure.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-104",
+      "to": "dg-capture",
+      "title": "Captura de opciones e incentivos regresivos",
+      "direction": "saliente",
+      "kind": "puede explotar",
+      "reading": "Relatos opuestos pueden alimentar mecanismos repetibles de reacción.",
+      "relationTokens": 34,
+      "fichaTokens": 180,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-capture.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-105",
+      "to": "dg-identity",
+      "title": "Identidad, roles y posicionamiento",
+      "direction": "saliente",
+      "kind": "no equivale a",
+      "reading": "Un patrón de conducta no agota la identidad personal.",
+      "relationTokens": 32,
+      "fichaTokens": 234,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-identity.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-202",
+      "to": "dg-media_reality",
+      "title": "Producción de realidad mediada",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.9",
+      "reading": "La audiencia también responde a incentivos del relato.",
+      "relationTokens": 34,
+      "fichaTokens": 73,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-media_reality.json"
+    }
+  ]
+}

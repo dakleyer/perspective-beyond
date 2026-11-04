@@ -1,0 +1,112 @@
+{
+  "id": "dg-epistemic_silence",
+  "type": "concepto",
+  "title": "Exclusión por omisión de interlocución",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-epistemic_silence",
+  "documentId": null,
+  "sourceIds": [
+    "D-258",
+    "D-268"
+  ],
+  "tagWeights": {
+    "autoridad": 0.5,
+    "evidencia": 0.1111,
+    "memoria-territorio": 0.3889
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Exclusión por omisión de interlocución\nUn marco de investigación puede mantener ciertas preguntas invisibles cuando no les concede examen, revisión o respuesta.\nEtiquetas: Autoridad, permisos y delegación 50.00%; Evidencia, procedencia y atribución 11.11%; Memoria, comunidad y territorio 38.89%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-epistemic_silence\n\n",
+  "tokens": 98,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-258:dg-epistemic_silence",
+      "to": "D-258",
+      "title": "La ciencia también puede excluir una idea dejándola sin interlocutor",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 29,
+      "fichaTokens": 408,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-258.json"
+    },
+    {
+      "id": "apoyo:D-268:dg-epistemic_silence",
+      "to": "D-268",
+      "title": "Un bot que interpreta mi pensamiento debe saber regresar al archivo original",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 28,
+      "fichaTokens": 393,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-268.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-229",
+      "to": "dg-doubt",
+      "title": "Duda, pruebas y conocimiento corregible",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.10",
+      "reading": "El silencio social no es una refutación.",
+      "relationTokens": 38,
+      "fichaTokens": 258,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-doubt.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-230",
+      "to": "dg-research_dialogue",
+      "title": "Diálogo de investigación y prueba acotada",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.10",
+      "reading": "La crítica debe permitir interlocución y rectificación.",
+      "relationTokens": 39,
+      "fichaTokens": 150,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-research_dialogue.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-231",
+      "to": "dg-governance",
+      "title": "Gobernanza y legitimidad",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.10",
+      "reading": "Comités y filtros ejercen selección y necesitan criterios claros.",
+      "relationTokens": 37,
+      "fichaTokens": 254,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-governance.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-248",
+      "to": "dg-axiom_reversal",
+      "title": "Explorar axiomas desde lo indefinible",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.10",
+      "reading": "Las fronteras de investigación pueden dejar preguntas fuera.",
+      "relationTokens": 38,
+      "fichaTokens": 87,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-axiom_reversal.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-253",
+      "to": "dg-constellation_protocol",
+      "title": "Constelaciones, clusters y modos de lectura",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.10",
+      "reading": "Si no hay fuente, bot debe señalar ausencia y no inventar.",
+      "relationTokens": 42,
+      "fichaTokens": 104,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-constellation_protocol.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-266",
+      "to": "dg-unheard_evidence",
+      "title": "La respuesta ya pronunciada pero no escuchada",
+      "direction": "entrante",
+      "kind": "relación de ampliación v0.11",
+      "reading": "Las ideas pueden quedar sin interlocutor.",
+      "relationTokens": 36,
+      "fichaTokens": 71,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-unheard_evidence.json"
+    }
+  ]
+}

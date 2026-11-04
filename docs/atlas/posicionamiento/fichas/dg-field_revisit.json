@@ -1,0 +1,90 @@
+{
+  "id": "dg-field_revisit",
+  "type": "concepto",
+  "title": "Memoria de campo sometida a cotejo",
+  "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-field_revisit",
+  "documentId": null,
+  "sourceIds": [
+    "D-259",
+    "D-260"
+  ],
+  "tagWeights": {
+    "geopolitica": 0.0834,
+    "memoria-territorio": 0.8333,
+    "transformacion": 0.0833
+  },
+  "clusters": [
+    "dialogos"
+  ],
+  "context": "## Memoria de campo sometida a cotejo\nLos recuerdos y patrones históricos orientan preguntas; se contrastan con documentos, archivos y testimonios independientes.\nEtiquetas: Geopolítica y fronteras 8.34%; Memoria, comunidad y territorio 83.33%; Transformación y continuidad operativa 8.33%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-field_revisit\n\n",
+  "tokens": 93,
+  "encoding": "o200k_base",
+  "relations": [
+    {
+      "id": "apoyo:D-259:dg-field_revisit",
+      "to": "D-259",
+      "title": "La modernización de un territorio puede avanzar en olas que se deshacen",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 33,
+      "fichaTokens": 431,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-259.json"
+    },
+    {
+      "id": "apoyo:D-260:dg-field_revisit",
+      "to": "D-260",
+      "title": "No prolongues mi recuerdo: investiga si lo que digo pasó",
+      "direction": "entrante",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "relationTokens": 30,
+      "fichaTokens": 388,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/D-260.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-232",
+      "to": "dg-doubt",
+      "title": "Duda, pruebas y conocimiento corregible",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.10",
+      "reading": "La memoria propone una hipótesis que debe comprobarse.",
+      "relationTokens": 39,
+      "fichaTokens": 258,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-doubt.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-233",
+      "to": "dg-community",
+      "title": "Comunidades y territorio",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.10",
+      "reading": "Una historia territorial debe preservar actores y voces.",
+      "relationTokens": 33,
+      "fichaTokens": 187,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-community.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-234",
+      "to": "dg-geopolitics",
+      "title": "Geopolítica vivida",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.10",
+      "reading": "Reformas y mercados reconfiguran uso y presión sobre tierras.",
+      "relationTokens": 38,
+      "fichaTokens": 138,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-geopolitics.json"
+    },
+    {
+      "id": "concepto:dgc-source-R-235",
+      "to": "dg-evidence_recognition",
+      "title": "Valor del trabajo y pruebas de capacidad",
+      "direction": "saliente",
+      "kind": "relación de ampliación v0.10",
+      "reading": "Testimonio y evidencia independiente se registran por separado.",
+      "relationTokens": 38,
+      "fichaTokens": 126,
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/dg-evidence_recognition.json"
+    }
+  ]
+}
