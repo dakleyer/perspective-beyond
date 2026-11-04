@@ -43,6 +43,7 @@ async function start() {
   const conceptPage = c => new URL(c.url||'../concepts/'+c.slug+'/',pageRoot).href;
   const counts = Object.fromEntries(keys.map(k=>[k,records.filter(r=>membership[r.id]===k).length]));
   const params = new URLSearchParams(location.search);
+  const contextId = params.get('desde');
   const defaultSite = Object.hasOwn(clusters,params.get('site')) ? params.get('site') : 'all';
   const origin = get('origin'), mode = get('mode'), bridge = get('bridge'), purpose = get('purpose');
   const role = get('role'), custom = get('custom-role');
@@ -103,7 +104,11 @@ async function start() {
         box.append(heading,element('p',clusters[membership[item.id]][0]+' · '+item.kind));
         if(delta.editorial_cards[item.id]) box.append(element('p',delta.editorial_cards[item.id].summary));
         if(sourceTags[item.id].length)box.append(element('p',sourceTags[item.id].map(key=>topics[key].label).join(' · ')));
-        box.append(link(item.url,'Abrir original'),document.createTextNode(' · '),link(radiusURL(item.id),'Mapa alrededor de esta ficha'));
+        const entry=new URL('./#asistente',pageRoot);
+        entry.search=new URLSearchParams({site:membership[item.id],modo:'closed',config:'1',rol:'lector',
+          lectura:'paraphrase',enfoque:'parejo',desde:item.id});
+        box.append(link(item.url,'Abrir original'),document.createTextNode(' · '),link(radiusURL(item.id),'Mapa alrededor de esta ficha'),
+          document.createTextNode(' · '),link(entry,'Conecta tu asistente a esta ficha'));
       } else {
         heading.append(link(conceptPage(item),item.original_label||item.label));
         box.append(heading,element('p',item.definition),link(item.url?conceptPage(item):new URL('../?focus='+encodeURIComponent(item.id)+'#atlas',pageRoot),'Ver en el grafo'),
@@ -237,7 +242,12 @@ async function start() {
         '. Conserva relaciones entre fichas que cumplan el filtro.\nÍndices temáticos: '+
         f.topicKeys.map(key=>new URL('temas/'+key+'.txt',pageRoot).href).join(' · '):'');
   }
-  function instructions(s,f) {
+  function startingRecord(s,f) {
+    if(!contextId||!Object.hasOwn(byId,contextId)||!s.active.includes(membership[contextId]))return null;
+    if(f.strict&&!f.topicKeys.some(key=>sourceTags[contextId].includes(key)))return null;
+    return byId[contextId];
+  }
+  function instructions(s,f,start=startingRecord(s,f)) {
     const originLabel=origin.value==='all'?'toda la constelación':clusters[origin.value][0];
     const rules=mode.value==='closed'?'Consulta solo las fuentes del clúster de origen.'
       :mode.value==='porous'?'Cruza solo el puente indicado y conserva su dirección.':'Sigue relaciones registradas entre los clústeres permitidos.';
@@ -245,39 +255,42 @@ async function start() {
     const [roleLabel,roleRule]=roles[role.value];
     const [purposeLabel,purposeRule]=purposes[purpose.value];
     const customText=custom.value.trim();
-    return 'Abre la entrada de Perspective Beyond: '+textEntry(f)+'\nOrigen: '+originLabel+' · Modo: '+modeLabels[mode.value]+'. '+
+    return 'Abre la entrada de Perspective Beyond: '+textEntry(f,pageRoot,start)+'\nOrigen: '+originLabel+' · Modo: '+modeLabels[mode.value]+'. '+
       rules+bridgeText+'\nRol: '+roleLabel+'. '+roleRule+'\nPropósito: '+purposeLabel+'. '+purposeRule+'\n'+focusInstruction(f)+
+      (start?'\nPunto de partida ['+start.id+']: '+start.title+'. Ficha: '+sourcePage(start)+'. Original: '+start.url+
+        '. Usa esta fuente si es pertinente a la pregunta.':'')+
       (customText?'\nInstrucción del lector: '+customText:'')+
       '\nAplica esta configuración. Separa el original, la relación editorial y tu interpretación. '+
       'Si todavía no hay una pregunta, pregunta qué quiere explorar el lector.\n\nGuía: '+
       new URL('guide.html',pageRoot).href+'\nLecturas permitidas:\n'+
       s.active.map(k=>'- '+clusters[k][0]+': '+readURL(k)).join('\n');
   }
-  function setConfiguration(url,f) {
+  function setConfiguration(url,f,start) {
     url.searchParams.set('config','1');
     url.searchParams.set('rol',role.value);
     url.searchParams.set('lectura',purpose.value);
     url.searchParams.set('enfoque',f.profile);
     for(const item of f.items)url.searchParams.append('peso',item.key+':'+item.weight);
     if(f.strict)url.searchParams.set('solo','1');
+    if(start)url.searchParams.set('desde',start.id);
     const customText=custom.value.trim();
     if(customText)url.searchParams.set('instruccion',customText);
     return url.href;
   }
-  function textEntry(f=weighting(),root=pageRoot) {
+  function textEntry(f=weighting(),root=pageRoot,start=contextId?startingRecord(session(),f):null) {
     const entries=delta.text_entries;
     const selected=entries.clusters[origin.value];
     const path=origin.value==='all'?entries.global
       :mode.value==='porous'?selected.porous[bridge.value]:selected[mode.value];
     if(!path) throw Error('No plain-text entry for the selected scope');
-    return setConfiguration(new URL(path,root),f);
+    return setConfiguration(new URL(path,root),f,start);
   }
-  function webEntry(f=weighting()) {
+  function webEntry(f=weighting(),start=contextId?startingRecord(session(),f):null) {
     const url=new URL('./#asistente',pageRoot);
     if(origin.value!=='all')url.searchParams.set('site',origin.value);
     url.searchParams.set('modo',mode.value);
     if(mode.value==='porous')url.searchParams.set('puente',bridge.value);
-    return setConfiguration(url,f);
+    return setConfiguration(url,f,start);
   }
   function markdown(s) {
     const f=weighting();
@@ -298,6 +311,7 @@ async function start() {
     focusTargets(s);
     const f=weighting();
     const scoped=filteredSession(s,f);
+    const start=startingRecord(s,f);
     get('focus-editor').hidden=profile.value!=='personalizado';
     onlyTopics.disabled=!f.topicKeys?.length;
     const rendered=new Map(f.items.map(item=>[item.key,percent(item.tenths)]));
@@ -307,10 +321,18 @@ async function start() {
     get('bridge-field').hidden=mode.value!=='porous';
     get('scope').textContent=s.active.map(k=>clusters[k][0]).join(' · ')+' · '+scoped.sources.length+' fichas y fuentes';
     get('role-help').textContent=roles[role.value][1];
-    get('entry-url').href=textEntry(f);
-    get('entry-mirror').href=textEntry(f,rawRoot);
-    get('web-entry').href=webEntry(f);
-    get('prompt').value=instructions(s,f);
+    get('starting-point').replaceChildren();
+    get('starting-point').hidden=!contextId;
+    if(start) {
+      get('starting-point').append('Punto de partida · ',link(sourcePage(start),start.title),
+        ' · ',link(radiusURL(start.id,'ideas'),'Mapa de la ficha'));
+    } else if(contextId) {
+      get('starting-point').textContent='La ficha de partida queda fuera de esta selección.';
+    }
+    get('entry-url').href=textEntry(f,pageRoot,start);
+    get('entry-mirror').href=textEntry(f,rawRoot,start);
+    get('web-entry').href=webEntry(f,start);
+    get('prompt').value=instructions(s,f,start);
     get('status').textContent='';
   }
   origin.addEventListener('change',chooseOrigin);

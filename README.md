@@ -10,6 +10,12 @@ Perspective Beyond connects the concepts, research, interventions and field case
 
 Start from an Atlas card, a concept, or a source URL. Choose how many relationship hops to follow and weight the topics that matter to the reading. The same calculation produces the interactive map and machine-readable JSON.
 
+## Connect an assistant through a versioned entry
+
+[Browse entry points and QR codes](https://dakleyer.github.io/perspective-beyond/atlas/i/) | [Read the instance and integration protocol](docs/atlas/i/README.md)
+
+Each entry carries a configuration for the same Atlas. Published configurations have a versioned URL and a plain-text entry for assistants.
+
 ## Edit the atlas
 
 - `narrative/guide.md` holds the long-form reading guide. Link concept and source IDs using double brackets.

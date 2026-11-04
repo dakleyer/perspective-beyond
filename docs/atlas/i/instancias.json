@@ -1,0 +1,470 @@
+{
+  "schema": "perspective-beyond/instances-v1",
+  "atlas": "https://dakleyer.github.io/perspective-beyond/atlas/",
+  "instances": [
+    {
+      "id": "atlas",
+      "version": "v1",
+      "cluster": "all",
+      "mode": "federated",
+      "rol": "lector",
+      "lectura": "paraphrase",
+      "nombre": "Toda la constelación",
+      "alcance": [
+        "JubAp.eu",
+        "JubAp.Net",
+        "JubAp.us",
+        "Tegrity.AI",
+        "Integral Management",
+        "Instituto del Totonacapan",
+        "Logistics and Mobility",
+        "LatinoEmpresa",
+        "Investigación y estándares",
+        "Diálogos"
+      ],
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/i/atlas/v1/",
+      "qr": "https://dakleyer.github.io/perspective-beyond/atlas/i/atlas/v1/qr.png",
+      "texto": "https://dakleyer.github.io/perspective-beyond/atlas/i/atlas/v1/entrada.txt",
+      "textoGithub": "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/i/atlas/v1/entrada.txt",
+      "selector": "https://dakleyer.github.io/perspective-beyond/atlas/?site=all&modo=federated&config=1&rol=lector&lectura=paraphrase&enfoque=parejo#asistente",
+      "ruta": "https://dakleyer.github.io/perspective-beyond/atlas/entrada.txt?config=1&rol=lector&lectura=paraphrase&enfoque=parejo",
+      "rutaGithub": "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/entrada.txt?config=1&rol=lector&lectura=paraphrase&enfoque=parejo",
+      "indice": "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/entrada.txt",
+      "indicesTematicos": [],
+      "mapa": null,
+      "rolNombre": "Guía de lectura",
+      "rolRegla": "Explica las ideas y orienta al lector hacia las fichas y los originales pertinentes.",
+      "proposito": "Parafrasear y explicar",
+      "propositoRegla": "Explica las ideas con tus palabras y atribuye cada afirmación a su fuente.",
+      "modoNombre": "Federado",
+      "enfoqueNombre": "Enfoque parejo",
+      "puenteNombre": null,
+      "fuente": null
+    },
+    {
+      "id": "eu",
+      "version": "v1",
+      "cluster": "eu",
+      "mode": "closed",
+      "centro": "E1628",
+      "rol": "consultor",
+      "lectura": "ideas",
+      "pesos": {
+        "perspectiva": 60,
+        "decision": 40
+      },
+      "nombre": "JubAp.eu",
+      "alcance": [
+        "JubAp.eu"
+      ],
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/i/eu/v1/",
+      "qr": "https://dakleyer.github.io/perspective-beyond/atlas/i/eu/v1/qr.png",
+      "texto": "https://dakleyer.github.io/perspective-beyond/atlas/i/eu/v1/entrada.txt",
+      "textoGithub": "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/i/eu/v1/entrada.txt",
+      "selector": "https://dakleyer.github.io/perspective-beyond/atlas/?site=eu&modo=closed&config=1&rol=consultor&lectura=ideas&enfoque=personalizado&peso=tema%3Aperspectiva%3A60&peso=tema%3Adecision%3A40&desde=E1628#asistente",
+      "ruta": "https://dakleyer.github.io/perspective-beyond/atlas/entrada/eu/cerrado.txt?config=1&rol=consultor&lectura=ideas&enfoque=personalizado&peso=tema%3Aperspectiva%3A60&peso=tema%3Adecision%3A40&desde=E1628",
+      "rutaGithub": "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/entrada/eu/cerrado.txt?config=1&rol=consultor&lectura=ideas&enfoque=personalizado&peso=tema%3Aperspectiva%3A60&peso=tema%3Adecision%3A40&desde=E1628",
+      "indice": "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/entrada/eu/cerrado.txt",
+      "indicesTematicos": [
+        "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/temas/perspectiva.txt",
+        "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/temas/decision.txt"
+      ],
+      "mapa": "https://dakleyer.github.io/perspective-beyond/atlas/mapa/?centro=E1628&red=ideas",
+      "rolNombre": "Consultor",
+      "rolRegla": "Relaciona la pregunta del lector con criterios y casos documentados. Presenta opciones, supuestos, condiciones y un siguiente paso que se pueda comprobar.",
+      "proposito": "Proponer ideas para un caso nuevo",
+      "propositoRegla": "Propón una aplicación para el caso del lector. Explica qué fichas la inspiran y qué observación serviría para examinarla.",
+      "modoNombre": "Cerrado",
+      "enfoqueNombre": "Cambio de perspectiva 60 % · Decisiones y responsabilidad 40 %",
+      "puenteNombre": null,
+      "fuente": {
+        "id": "E1628",
+        "titulo": "The JUBAP Framework",
+        "original": "https://jubap.eu/the-jubap-framework/",
+        "ficha": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-jubap-framework"
+      }
+    },
+    {
+      "id": "net",
+      "version": "v1",
+      "cluster": "net",
+      "mode": "closed",
+      "centro": "N1287",
+      "rol": "consultor",
+      "lectura": "explore",
+      "pesos": {
+        "capacidad-humana": 60,
+        "transformacion": 40
+      },
+      "nombre": "JubAp.Net",
+      "alcance": [
+        "JubAp.Net"
+      ],
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/i/net/v1/",
+      "qr": "https://dakleyer.github.io/perspective-beyond/atlas/i/net/v1/qr.png",
+      "texto": "https://dakleyer.github.io/perspective-beyond/atlas/i/net/v1/entrada.txt",
+      "textoGithub": "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/i/net/v1/entrada.txt",
+      "selector": "https://dakleyer.github.io/perspective-beyond/atlas/?site=net&modo=closed&config=1&rol=consultor&lectura=explore&enfoque=personalizado&peso=tema%3Acapacidad-humana%3A60&peso=tema%3Atransformacion%3A40&desde=N1287#asistente",
+      "ruta": "https://dakleyer.github.io/perspective-beyond/atlas/entrada/net/cerrado.txt?config=1&rol=consultor&lectura=explore&enfoque=personalizado&peso=tema%3Acapacidad-humana%3A60&peso=tema%3Atransformacion%3A40&desde=N1287",
+      "rutaGithub": "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/entrada/net/cerrado.txt?config=1&rol=consultor&lectura=explore&enfoque=personalizado&peso=tema%3Acapacidad-humana%3A60&peso=tema%3Atransformacion%3A40&desde=N1287",
+      "indice": "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/entrada/net/cerrado.txt",
+      "indicesTematicos": [
+        "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/temas/capacidad-humana.txt",
+        "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/temas/transformacion.txt"
+      ],
+      "mapa": "https://dakleyer.github.io/perspective-beyond/atlas/mapa/?centro=N1287&red=ideas",
+      "rolNombre": "Consultor",
+      "rolRegla": "Relaciona la pregunta del lector con criterios y casos documentados. Presenta opciones, supuestos, condiciones y un siguiente paso que se pueda comprobar.",
+      "proposito": "Explorar relaciones",
+      "propositoRegla": "Sigue relaciones registradas y explica qué mecanismo comparten y en qué condiciones cambia.",
+      "modoNombre": "Cerrado",
+      "enfoqueNombre": "Capacidad humana y deuda de inteligencia 60 % · Transformación y continuidad operativa 40 %",
+      "puenteNombre": null,
+      "fuente": {
+        "id": "N1287",
+        "titulo": "Tacit Knowledge Management in Distributed Tiger Teams",
+        "original": "https://jubap.net/tacit-knowledge-management-in-distributed-tiger-teams/",
+        "ficha": "https://dakleyer.github.io/perspective-beyond/sources/tacit-knowledge-management-in-distributed-tiger-teams-n1287/"
+      }
+    },
+    {
+      "id": "us",
+      "version": "v1",
+      "cluster": "us",
+      "mode": "closed",
+      "centro": "U1792",
+      "rol": "consultor",
+      "lectura": "ideas",
+      "pesos": {
+        "transformacion": 60,
+        "empresa": 40
+      },
+      "nombre": "JubAp.us",
+      "alcance": [
+        "JubAp.us"
+      ],
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/i/us/v1/",
+      "qr": "https://dakleyer.github.io/perspective-beyond/atlas/i/us/v1/qr.png",
+      "texto": "https://dakleyer.github.io/perspective-beyond/atlas/i/us/v1/entrada.txt",
+      "textoGithub": "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/i/us/v1/entrada.txt",
+      "selector": "https://dakleyer.github.io/perspective-beyond/atlas/?site=us&modo=closed&config=1&rol=consultor&lectura=ideas&enfoque=personalizado&peso=tema%3Atransformacion%3A60&peso=tema%3Aempresa%3A40&desde=U1792#asistente",
+      "ruta": "https://dakleyer.github.io/perspective-beyond/atlas/entrada/us/cerrado.txt?config=1&rol=consultor&lectura=ideas&enfoque=personalizado&peso=tema%3Atransformacion%3A60&peso=tema%3Aempresa%3A40&desde=U1792",
+      "rutaGithub": "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/entrada/us/cerrado.txt?config=1&rol=consultor&lectura=ideas&enfoque=personalizado&peso=tema%3Atransformacion%3A60&peso=tema%3Aempresa%3A40&desde=U1792",
+      "indice": "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/entrada/us/cerrado.txt",
+      "indicesTematicos": [
+        "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/temas/transformacion.txt",
+        "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/temas/empresa.txt"
+      ],
+      "mapa": "https://dakleyer.github.io/perspective-beyond/atlas/mapa/?centro=U1792&red=ideas",
+      "rolNombre": "Consultor",
+      "rolRegla": "Relaciona la pregunta del lector con criterios y casos documentados. Presenta opciones, supuestos, condiciones y un siguiente paso que se pueda comprobar.",
+      "proposito": "Proponer ideas para un caso nuevo",
+      "propositoRegla": "Propón una aplicación para el caso del lector. Explica qué fichas la inspiran y qué observación serviría para examinarla.",
+      "modoNombre": "Cerrado",
+      "enfoqueNombre": "Transformación y continuidad operativa 60 % · Empresa y gestión 40 %",
+      "puenteNombre": null,
+      "fuente": {
+        "id": "U1792",
+        "titulo": "Surviving Capability: Why the Field Celebrates What the Theory Condemns",
+        "original": "https://jubap.us/surviving-capability-why-the-field-celebrates-what-the-theory-condemns/",
+        "ficha": "https://dakleyer.github.io/perspective-beyond/sources/surviving-capability-why-the-field-celebrates-what-the-theory-condemns-u1792/"
+      }
+    },
+    {
+      "id": "tegrity",
+      "version": "v1",
+      "cluster": "tegrity",
+      "mode": "closed",
+      "centro": "T1499",
+      "rol": "investigador",
+      "lectura": "explore",
+      "pesos": {
+        "integridad-ia": 60,
+        "evidencia": 40
+      },
+      "nombre": "Tegrity.AI",
+      "alcance": [
+        "Tegrity.AI"
+      ],
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/i/tegrity/v1/",
+      "qr": "https://dakleyer.github.io/perspective-beyond/atlas/i/tegrity/v1/qr.png",
+      "texto": "https://dakleyer.github.io/perspective-beyond/atlas/i/tegrity/v1/entrada.txt",
+      "textoGithub": "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/i/tegrity/v1/entrada.txt",
+      "selector": "https://dakleyer.github.io/perspective-beyond/atlas/?site=tegrity&modo=closed&config=1&rol=investigador&lectura=explore&enfoque=personalizado&peso=tema%3Aintegridad-ia%3A60&peso=tema%3Aevidencia%3A40&desde=T1499#asistente",
+      "ruta": "https://dakleyer.github.io/perspective-beyond/atlas/entrada/tegrity/cerrado.txt?config=1&rol=investigador&lectura=explore&enfoque=personalizado&peso=tema%3Aintegridad-ia%3A60&peso=tema%3Aevidencia%3A40&desde=T1499",
+      "rutaGithub": "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/entrada/tegrity/cerrado.txt?config=1&rol=investigador&lectura=explore&enfoque=personalizado&peso=tema%3Aintegridad-ia%3A60&peso=tema%3Aevidencia%3A40&desde=T1499",
+      "indice": "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/entrada/tegrity/cerrado.txt",
+      "indicesTematicos": [
+        "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/temas/integridad-ia.txt",
+        "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/temas/evidencia.txt"
+      ],
+      "mapa": "https://dakleyer.github.io/perspective-beyond/atlas/mapa/?centro=T1499&red=ideas",
+      "rolNombre": "Investigador",
+      "rolRegla": "Reconstruye la evidencia y su procedencia. Distingue los hechos, las interpretaciones, las hipótesis y las preguntas abiertas.",
+      "proposito": "Explorar relaciones",
+      "propositoRegla": "Sigue relaciones registradas y explica qué mecanismo comparten y en qué condiciones cambia.",
+      "modoNombre": "Cerrado",
+      "enfoqueNombre": "Integridad y seguridad de IA 60 % · Evidencia, procedencia y atribución 40 %",
+      "puenteNombre": null,
+      "fuente": {
+        "id": "T1499",
+        "titulo": "Structural Awareness",
+        "original": "https://tegrity.ai/structural-awareness-program/",
+        "ficha": "https://dakleyer.github.io/perspective-beyond/sources/structural-awareness-t1499/"
+      }
+    },
+    {
+      "id": "imsv",
+      "version": "v1",
+      "cluster": "imsv",
+      "mode": "closed",
+      "centro": "np-manifiesto",
+      "rol": "embajador",
+      "lectura": "paraphrase",
+      "pesos": {
+        "perspectiva": 100
+      },
+      "nombre": "Integral Management",
+      "alcance": [
+        "Integral Management"
+      ],
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/i/imsv/v1/",
+      "qr": "https://dakleyer.github.io/perspective-beyond/atlas/i/imsv/v1/qr.png",
+      "texto": "https://dakleyer.github.io/perspective-beyond/atlas/i/imsv/v1/entrada.txt",
+      "textoGithub": "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/i/imsv/v1/entrada.txt",
+      "selector": "https://dakleyer.github.io/perspective-beyond/atlas/?site=imsv&modo=closed&config=1&rol=embajador&lectura=paraphrase&enfoque=personalizado&peso=tema%3Aperspectiva%3A100&desde=np-manifiesto#asistente",
+      "ruta": "https://dakleyer.github.io/perspective-beyond/atlas/entrada/imsv/cerrado.txt?config=1&rol=embajador&lectura=paraphrase&enfoque=personalizado&peso=tema%3Aperspectiva%3A100&desde=np-manifiesto",
+      "rutaGithub": "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/entrada/imsv/cerrado.txt?config=1&rol=embajador&lectura=paraphrase&enfoque=personalizado&peso=tema%3Aperspectiva%3A100&desde=np-manifiesto",
+      "indice": "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/entrada/imsv/cerrado.txt",
+      "indicesTematicos": [
+        "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/temas/perspectiva.txt"
+      ],
+      "mapa": "https://dakleyer.github.io/perspective-beyond/atlas/mapa/?centro=np-manifiesto&red=ideas",
+      "rolNombre": "Embajador del pensamiento",
+      "rolRegla": "Presenta la perspectiva documentada del clúster con lenguaje claro, ejemplos y fuentes. Atribuye las ideas a sus autores y presenta tu explicación como una lectura del Atlas.",
+      "proposito": "Parafrasear y explicar",
+      "propositoRegla": "Explica las ideas con tus palabras y atribuye cada afirmación a su fuente.",
+      "modoNombre": "Cerrado",
+      "enfoqueNombre": "Cambio de perspectiva 100 %",
+      "puenteNombre": null,
+      "fuente": {
+        "id": "np-manifiesto",
+        "titulo": "El manifiesto original de Nueva Perspectiva",
+        "original": "https://integralmanagement.ch/nueva-perspectiva/manifiesto/",
+        "ficha": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-manifiesto"
+      }
+    },
+    {
+      "id": "totonacapan",
+      "version": "v1",
+      "cluster": "totonacapan",
+      "mode": "closed",
+      "centro": "np-biografia",
+      "rol": "lector",
+      "lectura": "explore",
+      "pesos": {
+        "memoria-territorio": 60,
+        "aprendizaje": 40
+      },
+      "nombre": "Instituto del Totonacapan",
+      "alcance": [
+        "Instituto del Totonacapan"
+      ],
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/i/totonacapan/v1/",
+      "qr": "https://dakleyer.github.io/perspective-beyond/atlas/i/totonacapan/v1/qr.png",
+      "texto": "https://dakleyer.github.io/perspective-beyond/atlas/i/totonacapan/v1/entrada.txt",
+      "textoGithub": "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/i/totonacapan/v1/entrada.txt",
+      "selector": "https://dakleyer.github.io/perspective-beyond/atlas/?site=totonacapan&modo=closed&config=1&rol=lector&lectura=explore&enfoque=personalizado&peso=tema%3Amemoria-territorio%3A60&peso=tema%3Aaprendizaje%3A40&desde=np-biografia#asistente",
+      "ruta": "https://dakleyer.github.io/perspective-beyond/atlas/entrada/totonacapan/cerrado.txt?config=1&rol=lector&lectura=explore&enfoque=personalizado&peso=tema%3Amemoria-territorio%3A60&peso=tema%3Aaprendizaje%3A40&desde=np-biografia",
+      "rutaGithub": "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/entrada/totonacapan/cerrado.txt?config=1&rol=lector&lectura=explore&enfoque=personalizado&peso=tema%3Amemoria-territorio%3A60&peso=tema%3Aaprendizaje%3A40&desde=np-biografia",
+      "indice": "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/entrada/totonacapan/cerrado.txt",
+      "indicesTematicos": [
+        "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/temas/memoria-territorio.txt",
+        "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/temas/aprendizaje.txt"
+      ],
+      "mapa": "https://dakleyer.github.io/perspective-beyond/atlas/mapa/?centro=np-biografia&red=ideas",
+      "rolNombre": "Guía de lectura",
+      "rolRegla": "Explica las ideas y orienta al lector hacia las fichas y los originales pertinentes.",
+      "proposito": "Explorar relaciones",
+      "propositoRegla": "Sigue relaciones registradas y explica qué mecanismo comparten y en qué condiciones cambia.",
+      "modoNombre": "Cerrado",
+      "enfoqueNombre": "Memoria, comunidad y territorio 60 % · Aprendizaje y transmisión de capacidades 40 %",
+      "puenteNombre": null,
+      "fuente": {
+        "id": "np-biografia",
+        "titulo": "Biografía: una trayectoria en diálogo",
+        "original": "https://totonacapan.com/?page_id=413",
+        "ficha": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-biografia"
+      }
+    },
+    {
+      "id": "mobility",
+      "version": "v1",
+      "cluster": "mobility",
+      "mode": "closed",
+      "centro": "E1953",
+      "rol": "consultor",
+      "lectura": "ideas",
+      "pesos": {
+        "movilidad": 70,
+        "agentes": 30
+      },
+      "nombre": "Logistics and Mobility",
+      "alcance": [
+        "Logistics and Mobility"
+      ],
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/i/mobility/v1/",
+      "qr": "https://dakleyer.github.io/perspective-beyond/atlas/i/mobility/v1/qr.png",
+      "texto": "https://dakleyer.github.io/perspective-beyond/atlas/i/mobility/v1/entrada.txt",
+      "textoGithub": "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/i/mobility/v1/entrada.txt",
+      "selector": "https://dakleyer.github.io/perspective-beyond/atlas/?site=mobility&modo=closed&config=1&rol=consultor&lectura=ideas&enfoque=personalizado&peso=tema%3Amovilidad%3A70&peso=tema%3Aagentes%3A30&desde=E1953#asistente",
+      "ruta": "https://dakleyer.github.io/perspective-beyond/atlas/entrada/mobility/cerrado.txt?config=1&rol=consultor&lectura=ideas&enfoque=personalizado&peso=tema%3Amovilidad%3A70&peso=tema%3Aagentes%3A30&desde=E1953",
+      "rutaGithub": "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/entrada/mobility/cerrado.txt?config=1&rol=consultor&lectura=ideas&enfoque=personalizado&peso=tema%3Amovilidad%3A70&peso=tema%3Aagentes%3A30&desde=E1953",
+      "indice": "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/entrada/mobility/cerrado.txt",
+      "indicesTematicos": [
+        "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/temas/movilidad.txt",
+        "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/temas/agentes.txt"
+      ],
+      "mapa": "https://dakleyer.github.io/perspective-beyond/atlas/mapa/?centro=E1953&red=ideas",
+      "rolNombre": "Consultor",
+      "rolRegla": "Relaciona la pregunta del lector con criterios y casos documentados. Presenta opciones, supuestos, condiciones y un siguiente paso que se pueda comprobar.",
+      "proposito": "Proponer ideas para un caso nuevo",
+      "propositoRegla": "Propón una aplicación para el caso del lector. Explica qué fichas la inspiran y qué observación serviría para examinarla.",
+      "modoNombre": "Cerrado",
+      "enfoqueNombre": "Movilidad e infraestructura 70 % · Agentes y coordinación distribuida 30 %",
+      "puenteNombre": null,
+      "fuente": {
+        "id": "E1953",
+        "titulo": "Car Evolution Mobility OS",
+        "original": "https://jubap.eu/mobility/",
+        "ficha": "https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-e1953/"
+      }
+    },
+    {
+      "id": "latinoempresa",
+      "version": "v1",
+      "cluster": "latinoempresa",
+      "mode": "closed",
+      "centro": "L002",
+      "rol": "lector",
+      "lectura": "explore",
+      "pesos": {
+        "transformacion": 60,
+        "evidencia": 40
+      },
+      "nombre": "LatinoEmpresa",
+      "alcance": [
+        "LatinoEmpresa"
+      ],
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/i/latinoempresa/v1/",
+      "qr": "https://dakleyer.github.io/perspective-beyond/atlas/i/latinoempresa/v1/qr.png",
+      "texto": "https://dakleyer.github.io/perspective-beyond/atlas/i/latinoempresa/v1/entrada.txt",
+      "textoGithub": "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/i/latinoempresa/v1/entrada.txt",
+      "selector": "https://dakleyer.github.io/perspective-beyond/atlas/?site=latinoempresa&modo=closed&config=1&rol=lector&lectura=explore&enfoque=personalizado&peso=tema%3Atransformacion%3A60&peso=tema%3Aevidencia%3A40&desde=L002#asistente",
+      "ruta": "https://dakleyer.github.io/perspective-beyond/atlas/entrada/latinoempresa/cerrado.txt?config=1&rol=lector&lectura=explore&enfoque=personalizado&peso=tema%3Atransformacion%3A60&peso=tema%3Aevidencia%3A40&desde=L002",
+      "rutaGithub": "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/entrada/latinoempresa/cerrado.txt?config=1&rol=lector&lectura=explore&enfoque=personalizado&peso=tema%3Atransformacion%3A60&peso=tema%3Aevidencia%3A40&desde=L002",
+      "indice": "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/entrada/latinoempresa/cerrado.txt",
+      "indicesTematicos": [
+        "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/temas/transformacion.txt",
+        "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/temas/evidencia.txt"
+      ],
+      "mapa": "https://dakleyer.github.io/perspective-beyond/atlas/mapa/?centro=L002&red=ideas",
+      "rolNombre": "Guía de lectura",
+      "rolRegla": "Explica las ideas y orienta al lector hacia las fichas y los originales pertinentes.",
+      "proposito": "Explorar relaciones",
+      "propositoRegla": "Sigue relaciones registradas y explica qué mecanismo comparten y en qué condiciones cambia.",
+      "modoNombre": "Cerrado",
+      "enfoqueNombre": "Transformación y continuidad operativa 60 % · Evidencia, procedencia y atribución 40 %",
+      "puenteNombre": null,
+      "fuente": {
+        "id": "L002",
+        "titulo": "Narrativa, centro y frontera: por qué los modelos simples fallan cuando llega la implementación",
+        "original": "https://www.latinoempresa.com/post/narrativa-centro-y-frontera-por-qué-los-modelos-simples-fallan-cuando-llega-la-implementación",
+        "ficha": "https://dakleyer.github.io/perspective-beyond/sources/narrativa-centro-y-frontera-por-que-los-modelos-simples-fallan-cuando-llega-la-l002/"
+      }
+    },
+    {
+      "id": "research",
+      "version": "v1",
+      "cluster": "research",
+      "mode": "closed",
+      "centro": "GH049",
+      "rol": "investigador",
+      "lectura": "explore",
+      "pesos": {
+        "matematicas": 100
+      },
+      "solo": true,
+      "nombre": "Investigación y estándares",
+      "alcance": [
+        "Investigación y estándares"
+      ],
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/i/research/v1/",
+      "qr": "https://dakleyer.github.io/perspective-beyond/atlas/i/research/v1/qr.png",
+      "texto": "https://dakleyer.github.io/perspective-beyond/atlas/i/research/v1/entrada.txt",
+      "textoGithub": "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/i/research/v1/entrada.txt",
+      "selector": "https://dakleyer.github.io/perspective-beyond/atlas/?site=research&modo=closed&config=1&rol=investigador&lectura=explore&enfoque=personalizado&peso=tema%3Amatematicas%3A100&solo=1&desde=GH049#asistente",
+      "ruta": "https://dakleyer.github.io/perspective-beyond/atlas/entrada/research/cerrado.txt?config=1&rol=investigador&lectura=explore&enfoque=personalizado&peso=tema%3Amatematicas%3A100&solo=1&desde=GH049",
+      "rutaGithub": "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/entrada/research/cerrado.txt?config=1&rol=investigador&lectura=explore&enfoque=personalizado&peso=tema%3Amatematicas%3A100&solo=1&desde=GH049",
+      "indice": "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/entrada/research/cerrado.txt",
+      "indicesTematicos": [
+        "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/temas/matematicas.txt"
+      ],
+      "mapa": "https://dakleyer.github.io/perspective-beyond/atlas/mapa/?centro=GH049&red=ideas",
+      "rolNombre": "Investigador",
+      "rolRegla": "Reconstruye la evidencia y su procedencia. Distingue los hechos, las interpretaciones, las hipótesis y las preguntas abiertas.",
+      "proposito": "Explorar relaciones",
+      "propositoRegla": "Sigue relaciones registradas y explica qué mecanismo comparten y en qué condiciones cambia.",
+      "modoNombre": "Cerrado",
+      "enfoqueNombre": "Matemáticas 100 % · selección temática exclusiva",
+      "puenteNombre": null,
+      "fuente": {
+        "id": "GH049",
+        "titulo": "00K-A23 — Canonical Requirement-Conformance Sufficiency for P1–P6 — v0.1",
+        "original": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/ecosystem-awareness/baseline/00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md",
+        "ficha": "https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/GH049.html"
+      }
+    },
+    {
+      "id": "dialogos",
+      "version": "v1",
+      "cluster": "dialogos",
+      "mode": "closed",
+      "centro": "D-067",
+      "rol": "lector",
+      "lectura": "explore",
+      "pesos": {
+        "perspectiva": 100
+      },
+      "nombre": "Diálogos",
+      "alcance": [
+        "Diálogos"
+      ],
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/i/dialogos/v1/",
+      "qr": "https://dakleyer.github.io/perspective-beyond/atlas/i/dialogos/v1/qr.png",
+      "texto": "https://dakleyer.github.io/perspective-beyond/atlas/i/dialogos/v1/entrada.txt",
+      "textoGithub": "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/i/dialogos/v1/entrada.txt",
+      "selector": "https://dakleyer.github.io/perspective-beyond/atlas/?site=dialogos&modo=closed&config=1&rol=lector&lectura=explore&enfoque=personalizado&peso=tema%3Aperspectiva%3A100&desde=D-067#asistente",
+      "ruta": "https://dakleyer.github.io/perspective-beyond/atlas/entrada/dialogos/cerrado.txt?config=1&rol=lector&lectura=explore&enfoque=personalizado&peso=tema%3Aperspectiva%3A100&desde=D-067",
+      "rutaGithub": "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/entrada/dialogos/cerrado.txt?config=1&rol=lector&lectura=explore&enfoque=personalizado&peso=tema%3Aperspectiva%3A100&desde=D-067",
+      "indice": "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/entrada/dialogos/cerrado.txt",
+      "indicesTematicos": [
+        "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/temas/perspectiva.txt"
+      ],
+      "mapa": "https://dakleyer.github.io/perspective-beyond/atlas/mapa/?centro=D-067&red=ideas",
+      "rolNombre": "Guía de lectura",
+      "rolRegla": "Explica las ideas y orienta al lector hacia las fichas y los originales pertinentes.",
+      "proposito": "Explorar relaciones",
+      "propositoRegla": "Sigue relaciones registradas y explica qué mecanismo comparten y en qué condiciones cambia.",
+      "modoNombre": "Cerrado",
+      "enfoqueNombre": "Cambio de perspectiva 100 %",
+      "puenteNombre": null,
+      "fuente": {
+        "id": "D-067",
+        "titulo": "Nueva Perspectiva: cambiar el punto de observación",
+        "original": "https://totonacapan.com/?page_id=413#:~:text=Tras%20el%20trabajo%20industrial%20y%20los%20a%C3%B1os%20de%20Xalapa%20aparece",
+        "ficha": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-067"
+      }
+    }
+  ]
+}

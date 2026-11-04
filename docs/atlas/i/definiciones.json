@@ -1,0 +1,16 @@
+{
+  "schema": "perspective-beyond/instances-v1",
+  "instances": [
+    {"id":"atlas","version":"v1","cluster":"all","mode":"federated","rol":"lector","lectura":"paraphrase"},
+    {"id":"eu","version":"v1","cluster":"eu","mode":"closed","centro":"E1628","rol":"consultor","lectura":"ideas","pesos":{"perspectiva":60,"decision":40}},
+    {"id":"net","version":"v1","cluster":"net","mode":"closed","centro":"N1287","rol":"consultor","lectura":"explore","pesos":{"capacidad-humana":60,"transformacion":40}},
+    {"id":"us","version":"v1","cluster":"us","mode":"closed","centro":"U1792","rol":"consultor","lectura":"ideas","pesos":{"transformacion":60,"empresa":40}},
+    {"id":"tegrity","version":"v1","cluster":"tegrity","mode":"closed","centro":"T1499","rol":"investigador","lectura":"explore","pesos":{"integridad-ia":60,"evidencia":40}},
+    {"id":"imsv","version":"v1","cluster":"imsv","mode":"closed","centro":"np-manifiesto","rol":"embajador","lectura":"paraphrase","pesos":{"perspectiva":100}},
+    {"id":"totonacapan","version":"v1","cluster":"totonacapan","mode":"closed","centro":"np-biografia","rol":"lector","lectura":"explore","pesos":{"memoria-territorio":60,"aprendizaje":40}},
+    {"id":"mobility","version":"v1","cluster":"mobility","mode":"closed","centro":"E1953","rol":"consultor","lectura":"ideas","pesos":{"movilidad":70,"agentes":30}},
+    {"id":"latinoempresa","version":"v1","cluster":"latinoempresa","mode":"closed","centro":"L002","rol":"lector","lectura":"explore","pesos":{"transformacion":60,"evidencia":40}},
+    {"id":"research","version":"v1","cluster":"research","mode":"closed","centro":"GH049","rol":"investigador","lectura":"explore","pesos":{"matematicas":100},"solo":true},
+    {"id":"dialogos","version":"v1","cluster":"dialogos","mode":"closed","centro":"D-067","rol":"lector","lectura":"explore","pesos":{"perspectiva":100}}
+  ]
+}
