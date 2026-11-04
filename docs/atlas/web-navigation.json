@@ -1,0 +1,78 @@
+{
+  "schema": "atlas/web-navigation-phase-v1",
+  "phase": {
+    "name": "Web navigation and understanding companion",
+    "phase": "Current project phase",
+    "purpose": "The Atlas complements the websites with connected navigation through their pages, fichas, concepts, cases and sources. A website page is a point of entry into the same corpus.",
+    "workflow": [
+      "Keep the originating page and its URL.",
+      "Locate its existing fichas and source documents.",
+      "Follow the relationships relevant to the question.",
+      "Return to the original pages for the full text, context and supporting material."
+    ],
+    "evaluation": "The current pilot compares guided Atlas reading with conventional website navigation: tokens consumed, source relevance, continuity of context and understanding of the corpus."
+  },
+  "registry": {
+    "name": "atlas-web-registry-a93affec7592.txt",
+    "url": "https://tegrity.ai/wp-content/uploads/2026/11/atlas-web-registry-a93affec7592.txt",
+    "sha256": "a93affec75921a3aacb485de0d31b6999255edd0d13b0795ba336ae095c4c740",
+    "bytes": 116979
+  },
+  "entry": {
+    "name": "atlas-web-entry-2884295fa843.txt",
+    "url": "https://tegrity.ai/wp-content/uploads/2026/11/atlas-web-entry-2884295fa843.txt",
+    "sha256": "2884295fa843bde55d33ec5b6196429264fa115d7e1cc934cfec7e8137c4e23a",
+    "bytes": 12416
+  },
+  "scripts": [
+    {
+      "host": "jubap.eu",
+      "name": "web-atlas-entry-eu-08d3fdc126cb.js",
+      "url": "https://dakleyer.github.io/perspective-beyond/assets/web-atlas-entry-eu-08d3fdc126cb.js",
+      "sha256": "08d3fdc126cb2922fcef88f9e65220c96745781c61be0ba65af399c375fb6e3a",
+      "integrity": "sha384-8Ed5SgFwSAFWYU/q939fM4XP57bwUdTBL9p+c3GY2IZ3bpXnFG4xjDd/kinz0ACs"
+    },
+    {
+      "host": "jubap.net",
+      "name": "web-atlas-entry-net-66ad26229492.js",
+      "url": "https://dakleyer.github.io/perspective-beyond/assets/web-atlas-entry-net-66ad26229492.js",
+      "sha256": "66ad262294925906e384fa4905143bfcdd8dd92237585534ccafebdec4c28c9d",
+      "integrity": "sha384-wKbAYJTuERZZiABagFciVVSDz1d/ceBhKNs9ZtV3fKI/pCIUikxaHQEwJ/jtpx09"
+    },
+    {
+      "host": "jubap.us",
+      "name": "web-atlas-entry-us-8b60921d0a29.js",
+      "url": "https://dakleyer.github.io/perspective-beyond/assets/web-atlas-entry-us-8b60921d0a29.js",
+      "sha256": "8b60921d0a294e1a9852c5349d33c4f37eed93a2910b4136d33d174eea4d7feb",
+      "integrity": "sha384-6ILOsMGqaf4Jkhf1uvu+o1m0hlM/yF4q1e2aXPBo3YJNRfsSS/Pd5iNB/wLg6Pyg"
+    },
+    {
+      "host": "tegrity.ai",
+      "name": "web-atlas-entry-tegrity-3f11bc4975df.js",
+      "url": "https://dakleyer.github.io/perspective-beyond/assets/web-atlas-entry-tegrity-3f11bc4975df.js",
+      "sha256": "3f11bc4975df35c5ccdf0b79e7f03d00dc283b16463c7d45307d7616cc856610",
+      "integrity": "sha384-KjnRJZrNgEO4N2gcdPHfIKIoIIDZnJfgkHlOo66zegDO77uABufsexwV+HWmKHP8"
+    }
+  ],
+  "widgets": [
+    {
+      "host": "jubap.eu",
+      "name": "widget-eu.html"
+    },
+    {
+      "host": "jubap.net",
+      "name": "widget-net.html"
+    },
+    {
+      "host": "jubap.us",
+      "name": "widget-us.html"
+    },
+    {
+      "host": "tegrity.ai",
+      "name": "widget-tegrity.html"
+    }
+  ],
+  "pages": 179,
+  "mappedPages": 174,
+  "graphUnchanged": true
+}

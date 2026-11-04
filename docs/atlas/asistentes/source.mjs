@@ -34,6 +34,7 @@ export function assistantSource(result,g,options={}){
  const lines=[
  '# '+title,'Fuente autocontenida para asistentes · Perspective Beyond','',
  '## Empieza aquí',
+ "En esta fase, el Atlas complementa la navegación y la comprensión de las webs. Cada página es un punto de entrada a sus fichas, conceptos, casos y fuentes; conserva la URL de origen y permite profundizar, relacionar ideas y volver al texto original. La prueba compara estos recorridos dirigidos con la navegación web convencional mediante tokens consumidos, pertinencia de las fuentes y comprensión del corpus.",
  'Esta fuente reúne una selección del Atlas: pensamiento, textos, relaciones, procedencia y configuración. Trabaja con este archivo como contexto inicial; puedes usarlo sin abrir los enlaces. Los enlaces permiten volver a los originales y ampliar la lectura cuando el usuario lo pida.',
  'Formato inicial: '+FORMATS[format][0]+'. '+FORMATS[format][1],
  'Si el usuario pide otro formato, conserva el pensamiento y cambia su forma de presentación. Si todavía no ha planteado un objetivo, pregúntale qué quiere comprender o crear.',

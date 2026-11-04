@@ -58,3 +58,9 @@ La edición web reproduce todos los archivos públicos del Atlas y añade págin
 ## Comprender el Atlas antes de elegir dónde entrar
 
 [Atlas Orientation](https://tegrity.ai/atlas-orientation/) reúne las grandes preguntas del corpus y propone puntos de entrada concretos. [Modelo y protocolo](web-edition/README.md#orientación-antes-del-posicionamiento).
+
+## Fase actual: complemento de navegación y comprensión web
+
+En esta fase, el Atlas complementa la navegación y la comprensión de las webs. Cada página es un punto de entrada a sus fichas, conceptos, casos y fuentes; conserva la URL de origen y permite profundizar, relacionar ideas y volver al texto original. La prueba compara estos recorridos dirigidos con la navegación web convencional mediante tokens consumidos, pertinencia de las fuentes y comprensión del corpus.
+
+[Contrato, integración y protocolo de prueba](docs/atlas/web-navigation.md).
