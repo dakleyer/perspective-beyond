@@ -44,8 +44,8 @@ input,select,textarea{max-width:100%;border:1px solid #938b7c;background:white;c
 </section>
 <section id="asistente" class="panel" aria-labelledby="assistant-title">
 <p class="label">Asistente de pensamiento</p><h2 id="assistant-title">Conecta tu asistente al Atlas</h2>
-<p>Elige cómo quieres leer. Copia las instrucciones con enlaces, o descarga un archivo Markdown para adjuntarlo a tu asistente.</p>
-<p><a href="guide.html">Leer la guía web para asistentes</a></p>
+<p>Pega una sola URL en tu asistente. Se abre como texto plano y le indica qué parte del Atlas consultar. Puedes añadir tu pregunta en el mismo mensaje.</p>
+<p><a href="entrada.txt">Abrir la entrada general en texto</a> · <a href="guide.html">Guía para asistentes</a> · <a href="atlas-portable.txt" download>Descargar el catálogo portable</a></p>
 <form id="setup" hidden>
 <div class="grid">
 <div><label for="origin">Clúster de origen</label><select id="origin"></select></div>
@@ -54,7 +54,8 @@ input,select,textarea{max-width:100%;border:1px solid #938b7c;background:white;c
 <div><label for="purpose">Qué quieres hacer</label><select id="purpose"><option value="paraphrase">Parafrasear y explicar</option><option value="explore">Explorar relaciones</option><option value="ideas">Proponer ideas para un caso nuevo</option><option value="locate">Localizar fuentes</option><option value="quote">Verificar una cita</option></select></div>
 </div>
 <p id="scope" class="hint" aria-live="polite"></p>
-<div class="actions"><button type="button" id="copy">Copiar instrucciones</button><button type="button" class="secondary" id="download">Descargar lectura en Markdown</button></div>
+<div class="actions"><button type="button" id="copy-url">Copiar URL para mi asistente</button><a id="entry-url" href="entrada.txt">Abrir URL de esta selección</a></div>
+<div class="actions"><button type="button" class="secondary" id="copy">Copiar instrucciones</button><button type="button" class="secondary" id="download">Descargar lectura en Markdown</button></div>
 <label for="prompt">Instrucciones para pegar en tu asistente</label><textarea id="prompt" readonly></textarea>
 <p id="status" class="hint" role="status"></p>
 </form>

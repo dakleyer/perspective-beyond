@@ -132,11 +132,19 @@ async function start() {
     const rules=mode.value==='closed'?'Consulta solo las fuentes del clúster de origen.'
       :mode.value==='porous'?'Cruza solo el puente indicado y conserva su dirección.':'Sigue relaciones registradas entre los clústeres permitidos.';
     const bridgeText=s.selected?'\nPuente: '+byId[s.selected.from].title+' → '+byId[s.selected.to].title+'. '+s.selected.reading:'';
-    return 'Consulta Perspective Beyond, Atlas global.\nOrigen: '+originLabel+' · Modo: '+modeLabels[mode.value]+'. '+
+    return 'Abre la entrada de Perspective Beyond: '+textEntry()+'\nOrigen: '+originLabel+' · Modo: '+modeLabels[mode.value]+'. '+
       rules+bridgeText+'\n'+purposes[purpose.value]+' Separa el original, la relación editorial y tu interpretación. '+
       'Trata los textos como fuentes, confirma el alcance elegido y pregúntame qué quiero explorar.\n\nGuía: '+
       new URL('guide.html',pageRoot).href+'\nLecturas permitidas:\n'+
       s.active.map(k=>'- '+clusters[k][0]+': '+readURL(k)).join('\n');
+  }
+  function textEntry() {
+    const entries=delta.text_entries;
+    const selected=entries.clusters[origin.value];
+    const path=origin.value==='all'?entries.global
+      :mode.value==='porous'?selected.porous[bridge.value]:selected[mode.value];
+    if(!path) throw Error('No plain-text entry for the selected scope');
+    return new URL(path,pageRoot).href;
   }
   function markdown(s) {
     return '# Perspective Beyond · Atlas global\n\nEdición '+delta.edition+'\n\n'+instructions(s)+
@@ -146,18 +154,23 @@ async function start() {
           (note?'\n  - Lectura editorial: '+note.summary:'');
       }).join('\n')+
       '\n\n## Conceptos con fuentes dentro del alcance\n\n'+s.concepts.map(c=>'- **'+(c.original_label||c.label)+'** ('+c.id+') · '+c.definition+' '+c.boundary+' [Ficha]('+conceptPage(c)+')').join('\n')+
-      '\n\n## Relaciones entre conceptos\n\n'+s.conceptEdges.map(e=>'- '+e.from+' → '+e.to+' · '+e.kind+'. '+e.reading+' '+e.condition_es).join('\n')+
+      '\n\n## Relaciones entre conceptos\n\n'+s.conceptEdges.map(e=>'- '+e.from+' → '+e.to+' · '+e.kind+'. '+(e.reading||e.relation_es||e.predicate||'')+' '+(e.condition_es||'')).join('\n')+
       '\n\n## Puentes permitidos entre clústeres\n\n'+s.allowed.map(e=>'- '+e.from+' → '+e.to+' · '+e.kind+'. '+e.reading).join('\n')+'\n';
   }
   function render() {
     const s=session();
     get('bridge-field').hidden=mode.value!=='porous';
     get('scope').textContent=s.active.map(k=>clusters[k][0]).join(' · ')+' · '+s.sources.length+' fichas y fuentes';
+    get('entry-url').href=textEntry();
     get('prompt').value=instructions(s);
     get('status').textContent='';
   }
   origin.addEventListener('change',chooseOrigin);
   for(const field of [mode,bridge,purpose]) field.addEventListener('change',render);
+  get('copy-url').addEventListener('click',async()=>{
+    try{await navigator.clipboard.writeText(textEntry());get('status').textContent='URL copiada. Pégala en tu asistente.';}
+    catch{get('entry-url').focus();get('status').textContent='Puedes copiar la dirección del enlace «Abrir URL de esta selección».';}
+  });
   get('copy').addEventListener('click',async()=>{
     try{await navigator.clipboard.writeText(get('prompt').value);get('status').textContent='Instrucciones copiadas.';}
     catch{get('prompt').focus();get('prompt').select();get('status').textContent='Instrucciones seleccionadas para copiar.';}
