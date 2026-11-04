@@ -13,14 +13,14 @@
   "clusters": [
     "imsv"
   ],
-  "context": "## IMSV · Cultura y el Instituto del Totonacapan\nEl campo cultural reúne preservación de capacidades, patrimonio vivo y comunidades de práctica. El Instituto del Totonacapan desarrolla historia, oficios, joyería, relojería, territorio y transmisión de conocimiento. Su sitio conserva el desarrollo histórico y las voces de esos trabajos.\n\nEsta función conecta con la misión de la Sociedad de mantener conocimientos útiles entre generaciones. La trayectoria de La Bola de Oro se sitúa desde 1898; la asociación suiza que hoy da forma institucional a la misión se constituye en 2024. El directorio permite continuar hacia el Instituto y sus fuentes.\nEtiquetas: Aprendizaje y transmisión de capacidades 30.00%; Infraestructura de encuentros 20.00%; Memoria, comunidad y territorio 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-cultura/\nDocumento de origen: https://integralmanagement.ch/ecosistema/\n\n",
+  "context": "## IMSV · Cultura y el Instituto del Totonacapan\nEl campo cultural reúne preservación de capacidades, patrimonio vivo y comunidades de práctica. El Instituto del Totonacapan desarrolla historia, oficios, joyería, relojería, territorio y transmisión de conocimiento. Su sitio conserva el desarrollo histórico y las voces de esos trabajos.\n\nEsta función conecta con la misión de la Sociedad de mantener conocimientos útiles entre generaciones. La trayectoria de La Bola de Oro se sitúa desde 1898; la asociación suiza que hoy da forma institucional a la misión se constituye en 2024. El directorio permite continuar hacia el Instituto y sus fuentes.\nTags: Learning and capability transmission 30.00%; Encounter infrastructure 20.00%; Memory, community and territory 50.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-cultura/\nSource document: https://integralmanagement.ch/ecosistema/\n\n",
   "readingSource": {
     "url": "https://integralmanagement.ch/ecosistema/",
     "section": "Institutional page",
     "observed": "2026-11-04",
     "sourceSha256": "85017c9afd92f33714221bcddec865d08cd707cc1863517a96dd4fbfbc0cd29e"
   },
-  "tokens": 203,
+  "tokens": 195,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -28,10 +28,11 @@
       "to": "S14",
       "title": "The Integral Management Society",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "institutional function",
       "reading": "La ficha explica cultura y el instituto del totonacapan dentro de la asociación.",
-      "relationTokens": 53,
-      "fichaTokens": 380,
+      "relationTokens": 51,
+      "fichaTokens": 371,
       "tagWeights": {
         "empresa": 0.2,
         "autoridad": 0.2,
@@ -50,10 +51,11 @@
       "to": "np-hospitalidad",
       "title": "La Posada: una infraestructura para el encuentro",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documented institutional reading",
       "reading": "La hospitalidad y los encuentros explican una función del trabajo cultural y comunitario.",
-      "relationTokens": 59,
-      "fichaTokens": 172,
+      "relationTokens": 57,
+      "fichaTokens": 164,
       "tagWeights": {
         "aprendizaje": 0.2,
         "documentacion": 0.1,
@@ -72,10 +74,11 @@
       "to": "imsv-trabajo",
       "title": "IMSV · Trabajo, conocimiento y experiencia de campo",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documented institutional reading",
       "reading": "La preservación de capacidades conecta experiencia y transmisión entre generaciones.",
-      "relationTokens": 55,
-      "fichaTokens": 223,
+      "relationTokens": 53,
+      "fichaTokens": 216,
       "tagWeights": {
         "transformacion": 0.3,
         "aprendizaje": 0.3,

@@ -12,9 +12,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Un problema filosófico se convierte en una respuesta administrativa\nINTERLOCUTOR (pregunta editorial, no pronunciada necesariamente) — ¿Cuándo deja una cuestión abierta de justicia de parecer abierta porque una oficina ya publicó una resolución?\nREFLEXIÓN DEL DIÁLOGO (reconstrucción editorial cotejada con el escrito) — Seguridad y libertad, eficiencia y equidad, protección de unos y autonomía de otros no forman una lista de objetivos que siempre se pueden satisfacer simultáneamente. Iván observa que el poder organizado necesita decidir, asignar recursos, autorizar, prohibir y cerrar expedientes. Esa necesidad práctica transforma preguntas filosóficas todavía discutibles en respuestas administrativas vigentes. La firma puede ser jurídicamente eficaz sin constituir una prueba de verdad moral. Esto no implica que toda decisión sea ilegítima o que el Estado deba suspenderse hasta resolver la filosofía. Implica que se necesita una memoria de las tensiones que la resolución no eliminó: quién ganó capacidad, quién perdió opciones, qué costes fueron externalizados y con qué evidencia se puede corregir el criterio. La ficha lleva al lector desde la gestión de requisitos al problema mayor de gobernar sin fingir que el procedimiento ha demostrado aquello que solo decidió provisionalmente.\nEtiquetas: Autoridad, permisos y delegación 37.50%; Estándares e interoperabilidad 62.50%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-172\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-172.html\n\n",
-  "readingSource": null,
-  "tokens": 331,
+  "context": "## Un problema filosófico se convierte en una respuesta administrativa\nINTERLOCUTOR (pregunta editorial, no pronunciada necesariamente) — ¿Cuándo deja una cuestión abierta de justicia de parecer abierta porque una oficina ya publicó una resolución?\nREFLEXIÓN DEL DIÁLOGO (reconstrucción editorial cotejada con el escrito) — Seguridad y libertad, eficiencia y equidad, protección de unos y autonomía de otros no forman una lista de objetivos que siempre se pueden satisfacer simultáneamente. Iván observa que el poder organizado necesita decidir, asignar recursos, autorizar, prohibir y cerrar expedientes. Esa necesidad práctica transforma preguntas filosóficas todavía discutibles en respuestas administrativas vigentes. La firma puede ser jurídicamente eficaz sin constituir una prueba de verdad moral. Esto no implica que toda decisión sea ilegítima o que el Estado deba suspenderse hasta resolver la filosofía. Implica que se necesita una memoria de las tensiones que la resolución no eliminó: quién ganó capacidad, quién perdió opciones, qué costes fueron externalizados y con qué evidencia se puede corregir el criterio. La ficha lleva al lector desde la gestión de requisitos al problema mayor de gobernar sin fingir que el procedimiento ha demostrado aquello que solo decidió provisionalmente.\nTags: Authority, permissions and delegation 37.50%; Standards and interoperability 62.50%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-172\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-172.html\n\n",
+  "tokens": 324,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "dg-doubt",
       "title": "Duda, pruebas y conocimiento corregible",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 27,
-      "fichaTokens": 268,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.2345,
         "autoridad": 0.0562,
@@ -59,10 +59,11 @@
       "to": "dg-governance",
       "title": "Gobernanza y legitimidad",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 273,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.0321,
         "autoridad": 0.4057,
@@ -96,10 +97,11 @@
       "to": "dg-legitimacy_gap",
       "title": "Principios, requisitos y deuda de legitimidad",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 154,
+      "fichaTokens": 140,
       "tagWeights": {
         "aprendizaje": 0.0625,
         "autoridad": 0.5241,
@@ -121,10 +123,11 @@
       "to": "D-082",
       "title": "La duda no es necesariamente un fracaso",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Un problema filosófico se convierte en una respuesta administrativa» con «La duda no es necesariamente un fracaso». Permite contrastar Duda, pruebas y conocimiento corregible.",
       "relationTokens": 65,
-      "fichaTokens": 324,
+      "fichaTokens": 318,
       "tagWeights": {
         "aprendizaje": 0.5,
         "matematicas": 0.5
@@ -140,12 +143,13 @@
       "to": "D-098",
       "title": "Qué tendría que refutar nuestra hipótesis",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Un problema filosófico se convierte en una respuesta administrativa» con «Qué tendría que refutar nuestra hipótesis». Permite contrastar Duda, pruebas y conocimiento corregible.",
       "relationTokens": 67,
-      "fichaTokens": 267,
+      "fichaTokens": 262,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"
@@ -158,10 +162,11 @@
       "to": "D-114",
       "title": "Consejeros no son gobernantes, y un nombre no es un mandato",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Un problema filosófico se convierte en una respuesta administrativa» con «Consejeros no son gobernantes, y un nombre no es un mandato». Permite contrastar Gobernanza y legitimidad.",
       "relationTokens": 76,
-      "fichaTokens": 319,
+      "fichaTokens": 311,
       "tagWeights": {
         "autoridad": 0.1308,
         "decision": 0.3269,
@@ -180,10 +185,11 @@
       "to": "D-231",
       "title": "Entregó una investigación; el profesor ni siquiera la leyó",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Entregó una investigación; el profesor ni siquiera la leyó» con «Un problema filosófico se convierte en una respuesta administrativa». Permite contrastar Principios, requisitos y deuda de legitimidad.",
       "relationTokens": 78,
-      "fichaTokens": 419,
+      "fichaTokens": 412,
       "tagWeights": {
         "aprendizaje": 0.5,
         "autoridad": 0.5
@@ -199,10 +205,11 @@
       "to": "D-296",
       "title": "Una ética institucional también puede ser impugnada desde fuera",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una ética institucional también puede ser impugnada desde fuera» con «Un problema filosófico se convierte en una respuesta administrativa». Permite contrastar Gobernanza y legitimidad, Principios, requisitos y deuda de legitimidad.",
       "relationTokens": 80,
-      "fichaTokens": 389,
+      "fichaTokens": 384,
       "tagWeights": {
         "autoridad": 0.35,
         "decision": 0.35,
@@ -219,10 +226,11 @@
       "to": "D-118",
       "title": "Publicar no demuestra que alguien recibió ni actuó",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Gobernanza y legitimidad, Duda, pruebas y conocimiento corregible desde las situaciones que describe cada texto.",
       "relationTokens": 56,
-      "fichaTokens": 263,
+      "fichaTokens": 258,
       "tagWeights": {
         "autoridad": 0.5,
         "decision": 0.5
@@ -238,10 +246,11 @@
       "to": "D-169",
       "title": "Una ley tiene principios; un expediente exige requisitos",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Principios, requisitos y deuda de legitimidad, Gobernanza y legitimidad desde las situaciones que describe cada texto.",
       "relationTokens": 56,
-      "fichaTokens": 344,
+      "fichaTokens": 337,
       "tagWeights": {
         "autoridad": 0.3429,
         "estandares": 0.4571,
@@ -258,10 +267,11 @@
       "to": "D-171",
       "title": "El débil falla requisitos; el poder falla principios",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Principios, requisitos y deuda de legitimidad, Gobernanza y legitimidad desde las situaciones que describe cada texto.",
       "relationTokens": 57,
-      "fichaTokens": 368,
+      "fichaTokens": 363,
       "tagWeights": {
         "autoridad": 0.5625,
         "decision": 0.1875,
@@ -278,12 +288,13 @@
       "to": "D-258",
       "title": "La ciencia también puede excluir una idea dejándola sin interlocutor",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Gobernanza y legitimidad, Duda, pruebas y conocimiento corregible desde las situaciones que describe cada texto.",
       "relationTokens": 59,
-      "fichaTokens": 408,
+      "fichaTokens": 404,
       "tagWeights": {
-        "autoridad": 1.0
+        "autoridad": 1
       },
       "clusters": [
         "dialogos"

@@ -13,9 +13,8 @@
   "clusters": [
     "research"
   ],
-  "context": "## INTERNATIONAL TELECOMMUNICATION UNION\nFuente de la línea «Contribuciones a organismos». El enlace abre el documento en su versión registrada.\nEtiquetas: Control mínimo y suficiencia 41.18%; Investigación y documentación técnica 23.53%; Estándares e interoperabilidad 35.29%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/S22.html\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/submissions/itu-fg-ai4ssc/FGAI4SSC-I-097/FGAI4SSC-I-097_Minimum_Sufficient_Control.pdf\n\n",
-  "readingSource": null,
-  "tokens": 162,
+  "context": "## INTERNATIONAL TELECOMMUNICATION UNION\nFuente de la línea «Contribuciones a organismos». El enlace abre el documento en su versión registrada.\nTags: Minimum control and sufficiency 41.18%; Research and technical documentation 23.53%; Standards and interoperability 35.29%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/S22.html\nSource document: https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/submissions/itu-fg-ai4ssc/FGAI4SSC-I-097/FGAI4SSC-I-097_Minimum_Sufficient_Control.pdf\n\n",
+  "tokens": 157,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,10 +22,11 @@
       "to": "G07",
       "title": "Minimum Sufficient Control Architecture (MSCA)",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 209,
+      "fichaTokens": 184,
       "tagWeights": {
         "agentes": 0.0216,
         "autoridad": 0.0108,
@@ -56,10 +56,11 @@
       "to": "G35",
       "title": "Preestandarización y contribuciones UIT",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 79,
+      "fichaTokens": 75,
       "tagWeights": {
         "control-minimo": 0.103,
         "documentacion": 0.0588,
@@ -77,10 +78,11 @@
       "to": "sac-8823151afbf839",
       "title": "MSCA — trabajo adicional y lecturas complementarias",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Archivo completo de enlaces del corte» con el rótulo «FGAI4SSC-I-097_Minimum_Sufficient_Control.docx».",
-      "relationTokens": 120,
-      "fichaTokens": 166,
+      "relationTokens": 118,
+      "fichaTokens": 163,
       "tagWeights": {
         "control-minimo": 0.7143,
         "documentacion": 0.1429,
@@ -97,12 +99,13 @@
       "to": "sac-d40c7ece1146b1",
       "title": "ITU-T FG-AI4SSC input FGAI4SSC-I-097",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Files» con el rótulo «FGAI4SSC-I-097_Minimum_Sufficient_Control.docx».",
-      "relationTokens": 130,
-      "fichaTokens": 145,
+      "relationTokens": 128,
+      "fichaTokens": 140,
       "tagWeights": {
-        "estandares": 1.0
+        "estandares": 1
       },
       "clusters": [
         "research"
@@ -115,12 +118,13 @@
       "to": "sac-d40c7ece1146b1",
       "title": "ITU-T FG-AI4SSC input FGAI4SSC-I-097",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "ruta de lectura",
       "reading": "El índice de la carpeta sitúa este documento dentro de su línea de trabajo.",
-      "relationTokens": 121,
-      "fichaTokens": 145,
+      "relationTokens": 119,
+      "fichaTokens": 140,
       "tagWeights": {
-        "estandares": 1.0
+        "estandares": 1
       },
       "clusters": [
         "research"

@@ -27,8 +27,10 @@
     "aliases": [
       "https://tegrity.ai/"
     ],
-    "header": "# Posicionamiento · Tegrity.AI\nDocumento de origen: https://tegrity.ai/\n\n",
-    "headerTokens": 21,
+    "header": "# Positioning · Tegrity.AI\nSource document: https://tegrity.ai/\n\n",
+    "headerTokens": 19,
+    "headerEn": "# Positioning · Tegrity.AI\nSource document: https://tegrity.ai/\n\n",
+    "headerTokensEn": 19,
     "type": "documento",
     "focus": "T1573",
     "seeds": [
@@ -37,11 +39,11 @@
   },
   "budget": {
     "limit": 1000,
-    "used": 512,
-    "remaining": 488,
-    "nextBlock": 860,
+    "used": 491,
+    "remaining": 509,
+    "nextBlock": 847,
     "encoding": "o200k_base",
-    "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
+    "accounting": "Sum of independently encoded blocks: document header, card and incoming relationship. The budget applies to selected reading content."
   },
   "reachable": 67,
   "selected": 3,
@@ -75,7 +77,7 @@
       "type": "documento",
       "url": "https://tegrity.ai/",
       "original": "https://tegrity.ai/",
-      "summary": "Documento desde el que se abre este posicionamiento.",
+      "summary": "Document from which this positioning opens.",
       "tags": [],
       "tagWeights": {},
       "clusters": [
@@ -109,7 +111,7 @@
         "decision": 0.2222,
         "navegacion": 0.5556
       },
-      "contextTokens": 129,
+      "contextTokens": 126,
       "distance": 1,
       "parent": "doc-3365ae2ce02200034c-entrada",
       "routeEdge": null,
@@ -153,8 +155,9 @@
         "evidencia": 0.1932,
         "navegacion": 0.1957
       },
-      "contextTokens": 119,
+      "contextTokens": 109,
       "positionHeaderTokens": 35,
+      "positionHeaderTokensEn": 32,
       "distance": 2,
       "parent": "T1573",
       "routeEdge": "apoyo:T1573:G31",
@@ -189,7 +192,7 @@
         "sourceSha256": "b7b6b71fb07bf33fb8bc000f9ed3394aa2d187b13d5f57c6ec49f65c34d3ae98"
       },
       "readingSummary": "Document Status — Field Case · Series: Regime Awareness in Adaptive Systems , Paper 1\n\nThis article is a retrospective field-case reconstruction of engineering patterns that preceded the present Regime Awareness framework.",
-      "contextTokens": 163,
+      "contextTokens": 159,
       "distance": 2,
       "parent": "T1573",
       "routeEdge": "navigation:position-nav-T1573-T1221",
@@ -201,8 +204,8 @@
       "id": "contiene:doc-3365ae2ce02200034c-entrada:T1573",
       "from": "doc-3365ae2ce02200034c-entrada",
       "to": "T1573",
-      "kind": "ficha del documento",
-      "reading": "Esta pieza abre la lectura desde su documento de origen.",
+      "kind": "document card",
+      "reading": "This piece opens the reading from its source document.",
       "route": true
     },
     {
@@ -250,7 +253,7 @@
         "decision": 0.2222,
         "navegacion": 0.5556
       },
-      "contextTokens": 129,
+      "contextTokens": 126,
       "distance": 1,
       "parent": "doc-3365ae2ce02200034c-entrada",
       "routeEdge": null,
@@ -294,8 +297,9 @@
         "evidencia": 0.1932,
         "navegacion": 0.1957
       },
-      "contextTokens": 119,
+      "contextTokens": 109,
       "positionHeaderTokens": 35,
+      "positionHeaderTokensEn": 32,
       "distance": 2,
       "parent": "T1573",
       "routeEdge": "apoyo:T1573:G31",
@@ -330,12 +334,12 @@
         "sourceSha256": "b7b6b71fb07bf33fb8bc000f9ed3394aa2d187b13d5f57c6ec49f65c34d3ae98"
       },
       "readingSummary": "Document Status — Field Case · Series: Regime Awareness in Adaptive Systems , Paper 1\n\nThis article is a retrospective field-case reconstruction of engineering patterns that preceded the present Regime Awareness framework.",
-      "contextTokens": 163,
+      "contextTokens": 159,
       "distance": 2,
       "parent": "T1573",
       "routeEdge": "navigation:position-nav-T1573-T1221",
       "affinity": 1
     }
   ],
-  "reading": "# Posicionamiento · Tegrity.AI\nDocumento de origen: https://tegrity.ai/\n\n## Tegrity.AI\nTegrity.AI is an applied research, engineering and pre-standardization group of The Integral Management Society , a Swiss non-profit association based in Geneva. It advances AI Integrity Management through research, architecture, the review and development of standards, and technology for the common good.\nEtiquetas: Control mínimo y suficiencia 22.22%; Decisiones y responsabilidad 22.22%; Índices, contacto y políticas 55.56%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/tegrity-ai-t1573/\nDocumento de origen: https://tegrity.ai/\n\nTegrity.AI → Tegrity.AI · documenta el concepto. \n\n## Tegrity.AI\nThe public research programme covers operational integrity, structural awareness and technical contributions.\nEtiquetas: Agentes y coordinación distribuida 5.68%; Control mínimo y suficiencia 5.56%; Decisiones y responsabilidad 5.55%; Investigación y documentación técnica 19.32%; Estándares e interoperabilidad 25.00%; Evidencia, procedencia y atribución 19.32%; Índices, contacto y políticas 19.57%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/tegrity-ai/\n\nTegrity.AI → Regime Awareness: Capability Development Across Four Field Cases · lectura enlazada desde el documento. Desde «Tegrity.AI», el enlace «field cases» abre «Regime Awareness: Capability Development Across Four Field Cases».\nFuente de la relación: https://tegrity.ai/\n\n## Regime Awareness: Capability Development Across Four Field Cases\nDocument Status — Field Case · Series: Regime Awareness in Adaptive Systems , Paper 1\n\nThis article is a retrospective field-case reconstruction of engineering patterns that preceded the present Regime Awareness framework. It examines whether recurring control patterns across four operational settings can be formulated as a transferable, regime-aware decision architecture. The cases motivate that hypothesis; they do not by themselves establish domain-agnostic validity, predictive performance or causal effectiveness.\nEtiquetas: Cambios de régimen y alerta temprana 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/regime-awareness-capability-development-across-four-field-cases-t1221/\nDocumento de origen: https://tegrity.ai/evolution-of-regime-awareness-capability/\n\n"
+  "reading": "# Positioning · Tegrity.AI\nSource document: https://tegrity.ai/\n\n## Tegrity.AI\nTegrity.AI is an applied research, engineering and pre-standardization group of The Integral Management Society , a Swiss non-profit association based in Geneva. It advances AI Integrity Management through research, architecture, the review and development of standards, and technology for the common good.\nTags: Minimum control and sufficiency 22.22%; Decisions and responsibility 22.22%; Indexes, contact and policies 55.56%\nCard: https://dakleyer.github.io/perspective-beyond/sources/tegrity-ai-t1573/\nSource document: https://tegrity.ai/\n\nTegrity.AI → Tegrity.AI · documenta el concepto. \n\n## Tegrity.AI\nThe public research programme covers operational integrity, structural awareness and technical contributions.\nTags: Agents and distributed coordination 5.68%; Minimum control and sufficiency 5.56%; Decisions and responsibility 5.55%; Research and technical documentation 19.32%; Standards and interoperability 25.00%; Evidence, provenance and attribution 19.32%; Indexes, contact and policies 19.57%\nCard: https://dakleyer.github.io/perspective-beyond/concepts/tegrity-ai/\n\nTegrity.AI → Regime Awareness: Capability Development Across Four Field Cases · lectura enlazada desde el documento. Desde «Tegrity.AI», el enlace «field cases» abre «Regime Awareness: Capability Development Across Four Field Cases».\nRelationship source: https://tegrity.ai/\n\n## Regime Awareness: Capability Development Across Four Field Cases\nDocument Status — Field Case · Series: Regime Awareness in Adaptive Systems , Paper 1\n\nThis article is a retrospective field-case reconstruction of engineering patterns that preceded the present Regime Awareness framework. It examines whether recurring control patterns across four operational settings can be formulated as a transferable, regime-aware decision architecture. The cases motivate that hypothesis; they do not by themselves establish domain-agnostic validity, predictive performance or causal effectiveness.\nTags: Regime changes and early warning 100.00%\nCard: https://dakleyer.github.io/perspective-beyond/sources/regime-awareness-capability-development-across-four-field-cases-t1221/\nSource document: https://tegrity.ai/evolution-of-regime-awareness-capability/\n\n"
 }

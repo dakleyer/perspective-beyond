@@ -1,50 +1,50 @@
-# IMSV: institución, recorrido y respuesta
+# IMSV: institution, reading path and answer
 
-## Pregunta de aceptación
+## Acceptance question
 
-«¿Qué es The Integral Management Society, qué hace, quién está detrás y por qué le importaría a un CEO?»
+“What is The Integral Management Society, what does it do, who is behind it, and why would it matter to a CEO?”
 
-La respuesta identifica la asociación suiza y su fecha de constitución; explica investigación, cultura y periodismo; nombra los órganos de gobierno; sitúa las entidades comerciales y la contratación; y atribuye las fechas y los estados de investigación a sus sujetos y fuentes. Explica primero la organización y su utilidad. Los detalles del recorrido quedan disponibles para quien los solicite.
+The answer identifies the Swiss association and its constitution date; explains research, culture and journalism; names the governance bodies; places the commercial entities and contracting arrangements; and attributes dates and research statuses to their subjects and sources. It explains the organisation and its usefulness first. Reading-path details remain available to anyone who requests them.
 
-## Comparación aportada por el lector
+## Reader-supplied comparison
 
-El 4 de noviembre de 2026, Iván aportó una comparación realizada con Claude. El recorrido A leyó solamente el paquete IMSV de 2.000 tokens; B leyó la portada, gobierno, ecosistema y trabajo de la web institucional, además del registro UID; C siguió diez lecturas del Atlas y una fuente de investigación. A confundía la centralidad de Nueva Perspectiva en el grafo con la amplitud de la organización. B explicaba la institución. C aportaba el estado de investigación, pero dejaba sin cubrir gobierno, estatutos, responsables y contratación.
+On 4 November 2026, Iván supplied a comparison conducted with Claude. Path A read only the 2,000-token IMSV package; B read the institutional website's home, governance, ecosystem and work pages, together with the UID register; C followed ten Atlas readings and a research source. A confused Nueva Perspectiva's centrality in the graph with the breadth of the organisation. B explained the institution. C supplied research status but left governance, statutes, people responsible and contracting uncovered.
 
-El informe señaló una ficha de entrada de una frase, siete relaciones dominadas por una serie, ausencia de fichas para las páginas institucionales, dos fichas vacías —Research Initiatives y ITU— y una ficha histórica que contenía solamente el título. Según ese informe, 11 de 12 fichas del paquete de 2.000 y 17 de 18 del paquete de 4.000 pertenecían a Nueva Perspectiva y ensayos próximos. Esas cifras describen la prueba aportada; las mediciones reproducibles de esta revisión se encuentran en el archivo de resultados.
+The report identified a one-sentence entry card, seven relationships dominated by one series, missing cards for institutional pages, two empty cards—Research Initiatives and ITU—and a historical card containing only its title. According to that report, 11 of 12 cards in the 2,000-token package and 17 of 18 in the 4,000-token package belonged to Nueva Perspectiva and related essays. Those figures describe the supplied test; this revision's reproducible measurements are in the results file.
 
-La comparación era un caso único, no ciego: C se realizó después de B. No se habían verificado los presupuestos con el motor; no se probaron pesos personalizados; documentos.json se leyó parcialmente y el artículo de LatinoEmpresa no se abrió. El informe reconoció la utilidad del Atlas para seguir líneas de investigación, política de publicación y relaciones entre entidades.
+The comparison was a single, non-blind case: C took place after B. Budgets had not been verified with the engine; custom weights were not tested; documentos.json was read partially and the LatinoEmpresa article was not opened. The report recognised the Atlas's usefulness for following research lines, publication policy and relationships between entities.
 
-## Corrección realizada
+## Correction made
 
-Se conserva cada ficha y cada relación anterior. S14 incorpora una lectura institucional completa; T1709, S11 y L001 incorporan lecturas verificadas. Se añaden nueve fichas para gobierno, estatutos, ecosistema, trabajo, identidad legal, investigación, cultura, periodismo y entidades operativas. Las relaciones distinguen funciones y permiten continuar hacia los programas técnicos y fuentes.
+Every previous card and relationship is retained. S14 incorporates a complete institutional reading; T1709, S11 and L001 incorporate verified readings. Nine cards are added for governance, statutes, ecosystem, work, legal identity, research, culture, journalism and operating entities. Relationships distinguish functions and allow readers to continue towards technical programmes and sources.
 
-La entrada institucional declara cinco funciones de cobertura. Sin pesos personalizados, el motor sitúa una ficha alcanzable de cada función antes de profundizar en una serie. Los pesos personalizados siguen seleccionando la perspectiva solicitada. El alcance cerrado continúa respetando el clúster y los presupuestos mayores conservan el prefijo de los menores.
+The institutional entry declares five coverage functions. Without custom weights, the engine places one reachable card from each function before going deeper into a series. Custom weights continue to select the requested perspective. Closed scope continues to respect the cluster, and larger budgets retain the prefix of smaller ones.
 
-El protocolo pide responder primero al visitante, completar fuentes insuficientes y explicar la institución antes de una de sus series. Las fechas se atribuyen al sujeto correspondiente: La Bola de Oro desde 1898 y asociación suiza constituida en 2024. Los órganos de gobierno se explican con la documentación publicada; los nombres de sus integrantes se obtienen de una fuente nominal cuando esté disponible.
+The protocol asks readers to answer the visitor first, supplement insufficient sources and explain the institution before one of its series. Dates are attributed to the corresponding subject: La Bola de Oro since 1898 and the Swiss association constituted in 2024. Governance bodies are explained through published documentation; their members' names are obtained from a named source when available.
 
-## Resultados reproducibles de esta revisión
+## Reproducible results of this revision
 
-| Paquete solicitado | Uso medido por el motor | Fichas | Cobertura |
+| Requested package | Engine-measured usage | Cards | Coverage |
 | --- | ---: | ---: | --- |
-| IMSV · 2.000 | 1.901 | 7 | Las cinco funciones institucionales; ninguna ficha de Nueva Perspectiva |
-| IMSV · 4.000 | 3.929 | 17 | Diez fichas institucionales antes de las siete de Nueva Perspectiva |
+| IMSV · 2,000 | 1,901 | 7 | All five institutional functions; no Nueva Perspectiva card |
+| IMSV · 4,000 | 3,929 | 17 | Ten institutional cards before the seven Nueva Perspectiva cards |
 
-La medición usa o200k_base. Los resultados comprueban contenido disponible, selección, alcance, prefijos y presupuestos; no equivalen a una nueva prueba ciega de comportamiento de varios asistentes. El caso queda preparado para repetirla con los mismos criterios y conservar las respuestas completas.
+The measurement uses o200k_base. The results check available content, selection, scope, prefixes and budgets; they do not constitute a new blind behavioural test of several assistants. The case remains ready to repeat with the same criteria and retain the complete answers.
 
-[Resultados](acceptance.json) · [Ejecutar las comprobaciones](test.mjs) · [Lectura IMSV 2.000](../../preparados/imsv/2000.txt) · [Lectura IMSV 4.000](../../preparados/imsv/4000.txt)
+[Results](acceptance.json) · [Run the checks](test.mjs) · [IMSV 2,000 reading](../../preparados/imsv/2000.txt) · [IMSV 4,000 reading](../../preparados/imsv/4000.txt)
 
-## Fuentes leídas
+## Sources read
 
-- [Portada institucional](https://integralmanagement.ch/)
-- [Gobierno y estatutos](https://integralmanagement.ch/gobierno/)
-- [Ecosistema](https://integralmanagement.ch/ecosistema/)
-- [Trabajo](https://integralmanagement.ch/trabajo/)
-- [Identidad legal](https://integralmanagement.ch/legal/)
-- [Historia de la Sociedad](https://integralmanagement.ch/la-sociedad/)
-- [Iniciativas de investigación](https://tegrity.ai/research-initiatives/)
-- [Contribuciones técnicas](https://tegrity.ai/research-contributions/)
+- [Institutional home page](https://integralmanagement.ch/)
+- [Governance and statutes](https://integralmanagement.ch/gobierno/)
+- [Ecosystem](https://integralmanagement.ch/ecosistema/)
+- [Work](https://integralmanagement.ch/trabajo/)
+- [Legal identity](https://integralmanagement.ch/legal/)
+- [History of the Society](https://integralmanagement.ch/la-sociedad/)
+- [Research initiatives](https://tegrity.ai/research-initiatives/)
+- [Technical contributions](https://tegrity.ai/research-contributions/)
 - [ITU FG-TIDA](https://www.itu.int/en/ITU-T/focusgroups/tida/Pages/default.aspx)
 - [ITU FG-AI4SSC](https://www.itu.int/en/ITU-T/focusgroups/ai4ssc/Pages/default.aspx)
-- [Ensayo histórico de LatinoEmpresa](https://www.latinoempresa.com/post/la-integral-management-society-imsv-org-instituci%C3%B3n-de-frontera-desde-1898)
+- [LatinoEmpresa historical essay](https://www.latinoempresa.com/post/la-integral-management-society-imsv-org-instituci%C3%B3n-de-frontera-desde-1898)
 
-La información del registro UID en esta revisión procede del extracto reproducido en la página legal, fechado el 28 de agosto de 2026. Una consulta directa al registro corresponde a una comprobación distinta.
+The UID register information in this revision comes from the extract reproduced on the legal page, dated 28 August 2026. A direct register consultation is a separate check.

@@ -14,9 +14,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Pensar la neutralidad como una opción estratégica\nINTERLOCUTOR (pregunta editorial) — ¿Puede elegirse un lugar no solo por su economía, sino por la libertad de moverse entre bloques políticos?\nLECTURA DEL DIÁLOGO (síntesis editorial) — En una conversación práctica sobre países donde vivir o investigar, Iván evaluó distintas posiciones de neutralidad, orientación internacional, acceso a instituciones y protección de la actividad científica. El interés de la ficha es el método de elección: un país no es una casilla abstracta en un ranking, sino un conjunto cambiante de permisos, redes, riesgos, idioma, familia y posibilidades de trabajo. Se consideraron alternativas latinoamericanas, caucásicas y asiáticas; ninguna debe presentarse como una decisión definitiva o como diagnóstico actual de seguridad. La dimensión geopolítica entra así en una biografía que es también una arquitectura de opciones personales: preservar movilidad puede tener un valor mayor que maximizar un indicador económico aislado.\nEtiquetas: Casos de uso y aplicaciones 20.00%; Decisiones y responsabilidad 20.00%; Economía, costes y liquidez 40.00%; Geopolítica y fronteras 20.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-107\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-107.html\n\n",
-  "readingSource": null,
-  "tokens": 298,
+  "context": "## Pensar la neutralidad como una opción estratégica\nINTERLOCUTOR (pregunta editorial) — ¿Puede elegirse un lugar no solo por su economía, sino por la libertad de moverse entre bloques políticos?\nLECTURA DEL DIÁLOGO (síntesis editorial) — En una conversación práctica sobre países donde vivir o investigar, Iván evaluó distintas posiciones de neutralidad, orientación internacional, acceso a instituciones y protección de la actividad científica. El interés de la ficha es el método de elección: un país no es una casilla abstracta en un ranking, sino un conjunto cambiante de permisos, redes, riesgos, idioma, familia y posibilidades de trabajo. Se consideraron alternativas latinoamericanas, caucásicas y asiáticas; ninguna debe presentarse como una decisión definitiva o como diagnóstico actual de seguridad. La dimensión geopolítica entra así en una biografía que es también una arquitectura de opciones personales: preservar movilidad puede tener un valor mayor que maximizar un indicador económico aislado.\nTags: Use cases and applications 20.00%; Decisions and responsibility 20.00%; Economics, costs and liquidity 40.00%; Geopolitics and borders 20.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-107\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-107.html\n\n",
+  "tokens": 292,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -24,10 +23,11 @@
       "to": "dg-options",
       "title": "Libertad y opciones",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 202,
+      "fichaTokens": 181,
       "tagWeights": {
         "aprendizaje": 0.1588,
         "autoridad": 0.0804,
@@ -56,10 +56,11 @@
       "to": "dg-decision",
       "title": "Decisiones entre escenarios",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 180,
+      "fichaTokens": 162,
       "tagWeights": {
         "aprendizaje": 0.0474,
         "autoridad": 0.0059,
@@ -86,10 +87,11 @@
       "to": "dg-geopolitics",
       "title": "Geopolítica vivida",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 138,
+      "fichaTokens": 125,
       "tagWeights": {
         "aprendizaje": 0.0333,
         "casos": 0.0133,
@@ -111,10 +113,11 @@
       "to": "D-212",
       "title": "La coacción puede esconderse en el crédito o explotar en la supervivencia",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La coacción puede esconderse en el crédito o explotar en la supervivencia» con «Pensar la neutralidad como una opción estratégica». Permite contrastar Geopolítica vivida.",
       "relationTokens": 76,
-      "fichaTokens": 410,
+      "fichaTokens": 405,
       "tagWeights": {
         "economia": 0.3334,
         "geopolitica": 0.3333,
@@ -131,10 +134,11 @@
       "to": "D-005",
       "title": "Escasez, crecimiento y libertad real",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Libertad y opciones desde las situaciones que describe cada texto.",
       "relationTokens": 47,
-      "fichaTokens": 442,
+      "fichaTokens": 433,
       "tagWeights": {
         "casos": 0.2,
         "decision": 0.2,
@@ -152,12 +156,13 @@
       "to": "D-033",
       "title": "Entrar en Bosnia sin un plan",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Geopolítica vivida, Libertad y opciones desde las situaciones que describe cada texto.",
       "relationTokens": 47,
-      "fichaTokens": 565,
+      "fichaTokens": 563,
       "tagWeights": {
-        "geopolitica": 1.0
+        "geopolitica": 1
       },
       "clusters": [
         "dialogos"
@@ -170,12 +175,13 @@
       "to": "D-037",
       "title": "Miedo, valentía y búsqueda",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Geopolítica vivida, Libertad y opciones desde las situaciones que describe cada texto.",
       "relationTokens": 47,
-      "fichaTokens": 518,
+      "fichaTokens": 516,
       "tagWeights": {
-        "geopolitica": 1.0
+        "geopolitica": 1
       },
       "clusters": [
         "dialogos"
@@ -188,10 +194,11 @@
       "to": "D-196",
       "title": "Rascarse la espalda también puede entrar en el mercado",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Libertad y opciones desde las situaciones que describe cada texto.",
       "relationTokens": 50,
-      "fichaTokens": 392,
+      "fichaTokens": 386,
       "tagWeights": {
         "casos": 0.3334,
         "decision": 0.3333,

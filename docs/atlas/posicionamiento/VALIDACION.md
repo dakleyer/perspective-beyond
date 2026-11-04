@@ -1,41 +1,41 @@
-# Posicionamiento · pruebas de lectura
+# Positioning · reading tests
 
-4 de noviembre de 2026.
+4 November 2026.
 
-## Comparación de recorridos y cierre
+## Comparison of reading paths and final round
 
-La [comparación ciega de seis preguntas](comparacion/README.md) dio tres preferencias al posicionamiento y tres empates en la última evaluación independiente. Se incorporaron extractos literales de las fuentes públicas en 154 fichas y una base de conceptos directamente sostenidos por el documento antes de ampliar por las etiquetas del visitante. El cierre conserva también una lectura de uso documentado cuando existe. Otro lector nuevo repitió las dos preguntas afectadas y mantuvo el empate y la preferencia del posicionamiento.
+The [blind comparison of six questions](comparacion/README.md) gave positioning three preferences and three ties in the last independent evaluation. Literal extracts from public sources were incorporated into 154 cards, together with a base of concepts directly supported by the document before expanding through the visitor's tags. The final version also retains a documented-use reading when one exists. Another new reader repeated the two affected questions and maintained the tie and the preference for positioning.
 
-La versión de cierre pasa 36 pruebas funcionales y 48 comprobaciones exactas de tokens. El protocolo y los registros de fichas permiten elegir la siguiente lectura con los porcentajes y costes de las vecinas. Siete configuraciones calculadas entregan también el contexto y la cuenta completa a lectores que usan solo la web. La selección de cada paquete coincide con la del motor y los paquetes cerrados conservan exclusivamente su clúster. Los textos originales de los artículos y las relaciones conceptuales conservan su contenido.
+The final version passes 36 functional tests and 48 exact token checks. The protocol and card records allow the next reading to be chosen using the percentages and costs of neighbouring cards. Seven calculated configurations also deliver the context and complete accounting to readers who use only the web. Each package's selection matches the engine's selection, and closed packages retain only their own cluster. The original article texts and conceptual relationships retain their content.
 
-Una prueba pública desde una URL configurada, sin ejecutar código, recuperó la selección cerrada de cinco piezas de Tegrity.AI y la cuenta completa de 1.755/2.400 tokens. Conservó los pesos 70:30, el rol de consultor y la instrucción de respuesta. La conversación posterior distinguió trabajo compensatorio evitable y supervisión necesaria. El [registro de comparación](comparacion/README.md) describe esa prueba.
+A public test from a configured URL, without running code, recovered the closed selection of five Tegrity.AI pieces and the complete accounting of 1,755/2,400 tokens. It retained the 70:30 weights, consultant role and response instruction. The subsequent conversation distinguished avoidable compensatory work from necessary supervision. The [comparison record](comparacion/README.md) describes that test.
 
-## Qué se comprobó
+## What was checked
 
-El posicionamiento abre un documento de origen. Sus fichas tienen una composición porcentual de etiquetas; el visitante aporta otra combinación que orienta el recorrido. El presupuesto de tokens incorpora piezas completas y sus relaciones de llegada. Al ampliarlo se conserva el prefijo anterior de la lectura.
+Positioning opens a source document. Its cards have a percentage composition of tags; the visitor supplies another combination that guides the reading path. The token budget includes complete pieces and their incoming relationships. Increasing it preserves the previous reading prefix.
 
-Se comprobaron 1.209 documentos, 1.291 fichas y 272 conceptos. Cada ficha conserva un documento de origen y todas las composiciones suman 100 %. El documento biográfico contiene varias fichas, que también pueden elegirse como entradas concretas. Las landings enlazan sus lecturas mediante navegación observada en el cuerpo de las webs.
+The checks covered 1,209 documents, 1,291 cards and 272 concepts. Every card retains a source document and all compositions add up to 100%. The biographical document contains several cards, which can also be selected as specific entry points. Landing pages link their readings through navigation observed in the body of the websites.
 
-Las 30 pruebas funcionales cubren resolución del documento, porcentajes, afinidad, crecimiento del presupuesto, continuidad de las conexiones, filtros, alcances Cerrado y Poroso, pesos normalizados, ausencia de duplicados, compatibilidad con las entradas anteriores y conservación del rol e instrucciones en la URL. Las 48 lecturas de prueba se volvieron a codificar con `tiktoken 0.12.0`, `o200k_base`: el número obtenido coincidió con el declarado y quedó dentro de cada presupuesto.
+The 30 functional tests cover document resolution, percentages, affinity, budget growth, connection continuity, filters, Closed and Porous scopes, normalised weights, absence of duplicates, compatibility with previous entries, and preservation of the role and instructions in the URL. The 48 test readings were encoded again with `tiktoken 0.12.0`, `o200k_base`: the resulting count matched the declared count and remained within each budget.
 
-[Resultados funcionales](pruebas-funciones.json) · [Comprobación de tokens](pruebas-tokens.json) · [Pruebas reproducibles](pruebas.mjs).
+[Functional results](pruebas-funciones.json) · [Token check](pruebas-tokens.json) · [Reproducible tests](pruebas.mjs).
 
-Para repetir las pruebas, desde la raíz del repositorio:
+To repeat the tests, from the repository root:
 
 ```sh
 node docs/atlas/posicionamiento/pruebas.mjs
 ```
 
-## Dos lectores sin historial del proyecto
+## Two readers without project history
 
-Un lector recibió únicamente las URLs públicas, el protocolo y los módulos publicados. Ejecutó por su cuenta el mismo posicionamiento, D-285, con pesos 50:50 de empresa y matemáticas. Con 2.000 tokens obtuvo 1.721 tokens de lectura y cuatro piezas seleccionadas. Con 4.000 obtuvo 3.790 y diez piezas. Las primeras cuatro conservaron su orden; el máximo de conexiones recorridas siguió siendo tres. El aumento amplió también la lectura lateral. El documento de entrada se muestra como un nodo adicional.
+One reader received only the public URLs, protocol and published modules. It independently ran the same positioning, D-285, with 50:50 business and mathematics weights. At 2,000 tokens it obtained 1,721 reading tokens and four selected pieces. At 4,000 it obtained 3,790 and ten pieces. The first four retained their order; the maximum number of traversed connections remained three. The increase also expanded lateral reading. The entry document is displayed as an additional node.
 
-El lector recuperó la composición 35 % empresa, 25 % transformación, 20 % representación, 10 % matemáticas, 5 % aprendizaje y 5 % evidencia. Calculó la afinidad con la combinación elegida: `0,5 × 0,35 + 0,5 × 0,10 = 0,225`. Explicó la relación entre traducción de contexto, límites de observación y representación utilizando los textos públicos de D-285, D-216 y D-265.
+The reader recovered the composition of 35% business, 25% transformation, 20% representation, 10% mathematics, 5% learning and 5% evidence. It calculated the affinity with the selected combination: `0.5 × 0.35 + 0.5 × 0.10 = 0.225`. It explained the relationship between context translation, observation limits and representation using the public texts of D-285, D-216 and D-265.
 
-El segundo lector utilizó solo herramientas web y el paquete público de JubAp.eu de 2.000 tokens. Reconoció la landing como documento de entrada, su ficha y las lecturas conectadas de Field Notes, el framework y Reframing Value Creation. El paquete incluyó 1.969 tokens, dejó 31 y detuvo la lectura ante un siguiente bloque de 124. Interpretó el 45 % de empresa como composición temática de la ficha. Explicó el mecanismo con un ejemplo de excepciones entre áreas y consultó las fuentes públicas citadas.
+The second reader used only web tools and the public 2,000-token JubAp.eu package. It recognised the landing page as the entry document, its card and the connected readings from Field Notes, the framework and Reframing Value Creation. The package included 1,969 tokens, left 31 and stopped before a next block of 124. It interpreted the 45% business share as the card's thematic composition. It explained the mechanism through an example of exceptions between departments and consulted the cited public sources.
 
-## Publicación
+## Publication
 
-El modelo, el cálculo, los porcentajes y los documentos de entrada están en este repositorio. Hay 33 lecturas preparadas: once posicionamientos iniciales con presupuestos de 1.000, 2.000 y 4.000 tokens. El navegador permite combinar otros documentos, etiquetas y presupuestos y descargar el resultado.
+The model, calculation, percentages and entry documents are in this repository. There are 33 prepared readings: eleven initial positionings with budgets of 1,000, 2,000 and 4,000 tokens. The browser allows other documents, tags and budgets to be combined and the result to be downloaded.
 
-Los registros de fuentes, textos de artículos y relaciones conceptuales anteriores conservaron su contenido. La navegación de las landings se registra por separado. El catálogo canónico `docs/data/atlas.json` conserva SHA-256 `5e37a308dc5d57011d4884dc95dcc7b26223f1c383ad9c3a8bf2367e15a7fb49`.
+Previous source records, article texts and conceptual relationships retained their content. Landing-page navigation is recorded separately. The canonical catalogue `docs/data/atlas.json` retains SHA-256 `5e37a308dc5d57011d4884dc95dcc7b26223f1c383ad9c3a8bf2367e15a7fb49`.

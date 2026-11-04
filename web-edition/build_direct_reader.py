@@ -15,7 +15,7 @@ files={};records={};node_packet={};edge_packet={}
 def filename(kind,i=None):return prefix+kind+('-'+str(i+1).zfill(3)if i is not None else'')+'.txt'
 def put(name,obj):
  records[name]=obj
- data=('# Perspective Beyond · Lectura directa del Atlas\n\nTexto público para personas y asistentes. Cada registro conserva sus identificadores y enlaces.\n\n```json\n'+json.dumps(obj,ensure_ascii=False,indent=2)+'\n```\n').encode()
+ data=('# Perspective Beyond · Direct Atlas reading\n\nPublic text for people and assistants. Each record retains its identifiers and links.\n\n```json\n'+json.dumps(obj,ensure_ascii=False,indent=2)+'\n```\n').encode()
  assert len(data)<1_950_000
  files[name]=data
 def chunks(items,limit=90000):
@@ -34,8 +34,8 @@ for i,rows in enumerate(edge_chunks):
 by_node=defaultdict(list)
 for e in g['edges']:
  by_node[e[1]].append(e);by_node[e[2]].append(e)
-config='Conserva punto de entrada, modo, pesos, etiquetas, alcance y propósito de la URL del visitante. Si no están elegidos, lee la orientación, pregunta qué quiere comprender, resolver o crear y ofrece dos o tres entradas pertinentes. En modo cerrado consulta contenido del clúster permitido; en poroso sigue el puente elegido; en federado sigue las relaciones registradas.'
-def ficha_link(sid):return {'id':sid,'title':next(n['title']for n in g['nodes']if n['id']==sid),'url':node_packet[sid],'locate':'Busca el registro con id '+sid+' en nodes.'}
+config='Retain the entry point, mode, weights, tags, scope and purpose from the visitor\'s URL. If they are not chosen, read the orientation, ask what they want to understand, solve or create and offer two or three relevant entries. In closed mode consult content from the permitted cluster; in porous mode follow the chosen bridge; in federated mode follow recorded relationships.'
+def ficha_link(sid):return {'id':sid,'title':next(n['title']for n in g['nodes']if n['id']==sid),'url':node_packet[sid],'locate':'Find the record with id '+sid+' in nodes.'}
 for i,rows in enumerate(node_chunks):
  ids={n['id']for n in rows};links={}
  for sid in ids:
@@ -43,7 +43,7 @@ for i,rows in enumerate(node_chunks):
   links[sid]={'relationCount':len(related),'allRelationFiles':sorted({edge_packet[e[0]]for e in related}),
    'outgoingExamples':[{ 'id':e[0],'to':e[2],'relationUrl':edge_packet[e[0]],'targetUrl':node_packet[e[2]]}for e in [e for e in related if e[1]==sid][:12]],
    'incomingExamples':[{ 'id':e[0],'from':e[1],'relationUrl':edge_packet[e[0]],'sourceUrl':node_packet[e[1]]}for e in [e for e in related if e[2]==sid][:12]],
-   'readAll':'Los ejemplos ayudan a empezar. Para todas las conexiones abre allRelationFiles y conserva las filas cuyo from o to sea '+sid+'.'}
+   'readAll':'Examples help you get started. For all connections, open allRelationFiles and retain rows whose from or to is '+sid+'.'}
  put(filename('fichas',i),{'schema':'atlas/direct-nodes-v1','entry':entry,'graphSha256':digest,'configurationRule':config,'nodes':rows,'connections':links})
 for i,rows in enumerate(edge_chunks):
  put(filename('relaciones',i),{'schema':'atlas/direct-edges-v1','entry':entry,'graphSha256':digest,
@@ -66,14 +66,14 @@ put(filename('navegacion'),{'schema':'atlas/direct-navigation-v1','navigation':g
 orientation=json.loads((DIST/'orientacion/resumen.json').read_bytes())
 for n in orientation['entryCards'].values():n['directUrl']=node_packet[n['id']]
 put(filename('orientacion'),orientation)
-index={'schema':'atlas/direct-entry-v1','entry':entry,'purpose':'Atlas íntegro de fichas, conceptos y relaciones, servido como texto en Tegrity.AI. No requiere el dominio chatgpt.site ni GitHub para recorrer el grafo.',
+index={'schema':'atlas/direct-entry-v1','entry':entry,'purpose':'Complete Atlas of cards, concepts and relationships, served as text on Tegrity.AI. Graph traversal does not require the chatgpt.site domain or GitHub.',
  'configurationRule':config,'graphSha256':digest,'edition':g['edition'],
- 'parameters':{'cluster':'ID de clúster de la lista; varios separados por coma.','alcance':'cerrado, poroso o federado. Poroso requiere puente elegido.','posicionamiento':'ID de ficha, documento o URL de origen.','rol':'lector, embajador, consultor, investigador o personalizado.','lectura':'paraphrase, explore, ideas, locate o quote.','enfoque':'parejo, transversal o personalizado.','peso':'Parámetro repetible etiqueta:peso. Conserva los pesos del lector.','tokens':'Presupuesto de lectura solicitado.','instruccion':'Instrucciones del lector para esta sesión.'},
- 'scopeRule':'Una selección previa prevalece. En una URL parcial pregunta solo por lo que falta. Sin selección, orienta desde la pregunta. Los enlaces de un archivo no amplían el alcance acordado.',
+ 'parameters':{'cluster':'Cluster ID from the list; separate several with commas.','alcance':'closed, porous or federated. Porous requires a chosen bridge.','posicionamiento':'Card ID, document ID or source URL.','rol':'lector (guide), embajador (ambassador), consultor (consultant), investigador (researcher) or personalizado (custom).','lectura':'paraphrase, explore, ideas, locate or quote.','enfoque':'parejo (balanced), transversal (cross-cutting) or personalizado (custom).','peso':'Repeatable tag:weight parameter. Retain the reader\'s weights.','tokens':'Requested reading budget.','instruccion':'Reader\'s instructions for this session.'},
+ 'scopeRule':'A previous selection takes precedence. In a partial URL, ask only for what is missing. Without a selection, orient from the question. A file\'s links do not expand the agreed scope.',
  'counts':{'fichas':sum(n['type']=='ficha'for n in g['nodes']),'concepts':sum(n['type']=='concepto'for n in g['nodes']),'relations':len(g['edges']),'navigation':len(g.get('navigation',[])),'documents':len(g['documents'])},
  'orientation':base+filename('orientacion'),
  'clusters':[{'id':c,'title':t,'url':base+filename('cluster-'+c),'count':sum(c in n['clusters']for n in g['nodes'])}for c,t in g['clusters'].items()],
- 'lookup':{'url':base+filename('localizador'),'instruction':'Busca el ID de la ficha o relación. Abre su archivo y localiza el registro por su ID. Los enlaces connections llevan a las fichas vecinas y a la relación completa.'},
+ 'lookup':{'url':base+filename('localizador'),'instruction':'Find the card or relationship ID. Open its file and locate the record by ID. The connections links lead to neighbouring cards and the complete relationship.'},
  'documents':base+filename('documentos'),'navigation':base+filename('navegacion'),
  'nodeParts':[base+filename('fichas',i)for i in range(len(node_chunks))],
  'edgeParts':[base+filename('relaciones',i)for i in range(len(edge_chunks))]}

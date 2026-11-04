@@ -1,24 +1,24 @@
-LECTURA WEB COMPLETA Y AUTÓNOMA
-Entrada estable: https://integralmanagement.ch/atlas-reader/
-Instrucciones para asistentes: https://integralmanagement.ch/atlas-reader/entrada.txt
-Esta entrada publica cada ficha, concepto, documento, clúster y relación en HTML y texto. Empieza por la pregunta del visitante y navega por sus enlaces. Conserva el punto de entrada y los parámetros de la URL original; las instrucciones y los índices están en la propia web. Todas las piezas del grafo actual se pueden recorrer desde esta entrada sin una explicación adicional del usuario, sin cookies, identificación especial ni JavaScript.
-FIN DE LA ENTRADA AUTÓNOMA
+COMPLETE, AUTONOMOUS WEB READER
+Stable entry: https://integralmanagement.ch/atlas-reader/
+Instructions for assistants: https://integralmanagement.ch/atlas-reader/entrada.txt
+This entry publishes every card, concept, document, cluster and relationship in HTML and text. Start with the visitor's question and navigate through its links. Retain the entry point and the parameters of the original URL; the instructions and indexes are in the website itself. Every piece of the current graph can be explored from this entry without an additional explanation from the user, cookies, special identification or JavaScript.
+END OF THE AUTONOMOUS ENTRY
 
-# Perspective Beyond · Entrada para asistentes
+# Perspective Beyond · Entry for assistants
 
-Guía de lectura común: https://dakleyer.github.io/perspective-beyond/atlas/guide.html
+Common reading guide: https://dakleyer.github.io/perspective-beyond/atlas/guide.html
 
-Entrada directa de texto: https://dakleyer.github.io/perspective-beyond/atlas/entrada.txt
+Direct text entry: https://dakleyer.github.io/perspective-beyond/atlas/entrada.txt
 
-El visitante configura su sesión en https://dakleyer.github.io/perspective-beyond/atlas/#asistente y puede adjuntar el Markdown generado a su asistente. El archivo incluye el clúster de origen, los modos, las fuentes seleccionadas y las reglas de alcance.
+The visitor configures their session at https://dakleyer.github.io/perspective-beyond/atlas/#asistente and can attach the generated Markdown to their assistant. The file includes the originating cluster, modes, selected sources and scope rules.
 
-El registro de esta edición está en `global-catalog.json` y enlaza el catálogo canónico. Las rutas JSON previas identifican la selección del piloto anterior. Para una sesión nueva, utiliza el portal global y su guía.
+This edition's register is in `global-catalog.json` and links the canonical catalogue. Earlier JSON routes identify the selection from the previous pilot. For a new session, use the global portal and its guide.
 
-## Fase actual del producto
+## Current product phase
 
-En esta fase, el Atlas complementa la navegación y la comprensión de las webs. Cada página es un punto de entrada a sus fichas, conceptos, casos y fuentes; conserva la URL de origen y permite profundizar, relacionar ideas y volver al texto original. La prueba compara estos recorridos dirigidos con la navegación web convencional mediante tokens consumidos, pertinencia de las fuentes y comprensión del corpus.
+In this phase, the Atlas complements website navigation and understanding. Each page is an entry point to its cards, concepts, cases and sources; it retains the source URL and allows readers to go deeper, connect ideas and return to the original text. The test compares these guided journeys with conventional web navigation through tokens consumed, source relevance and understanding of the corpus.
 
-Conserva la página de origen del visitante. Localiza sus fichas, sigue relaciones pertinentes a la pregunta y enlaza el original. El registro de páginas y los parámetros `page`, `posicionamiento` y `fichas` sitúan el recorrido.
+Retain the visitor's source page. Locate its cards, follow relationships relevant to the question and link the original. The page register and the `page`, `posicionamiento` and `fichas` parameters position the journey.
 
-Contrato: https://dakleyer.github.io/perspective-beyond/atlas/web-navigation.md
-Entrada de texto: https://tegrity.ai/wp-content/uploads/2026/11/atlas-web-entry-2884295fa843.txt
+Contract: https://dakleyer.github.io/perspective-beyond/atlas/web-navigation.md
+Text entry: https://tegrity.ai/wp-content/uploads/2026/11/atlas-web-entry-2884295fa843.txt

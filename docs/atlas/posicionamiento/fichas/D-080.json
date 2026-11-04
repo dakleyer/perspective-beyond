@@ -12,9 +12,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Preguntas abiertas: investigación, fe y futuro\n16. INTERLOCUTOR — ¿Cómo nació JUBAP en su etapa estonia y por qué quisiste separar actividad comercial y trabajo asociativo?\n17. INTERLOCUTOR — ¿En qué momento apareció la pregunta que hoy llamas Structural Awareness y quién puso a prueba tu primera explicación?\n18. INTERLOCUTOR — ¿Qué críticas válidas has recibido de tu investigación y cómo han cambiado tu arquitectura o tu modo de trabajar?\n19. INTERLOCUTOR — ¿Qué te gustaría que tus hijos comprendieran de las decisiones difíciles, sin convertirlas en una lección de éxito?\n20. INTERLOCUTOR — ¿Con qué parte de tu relato no estás todavía reconciliado, y qué quisieras dejar escrito sin hacer daño injusto a otras personas?\nEtiquetas: Aprendizaje y transmisión de capacidades 28.57%; Espiritualidad y vida interior 71.43%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-080\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=16.%20INTERLOCUTOR%20%E2%80%94%20%C2%BFC%C3%B3mo%20naci%C3%B3%20JUBAP%20en%20su%20etapa%20estonia%20y\n\n",
-  "readingSource": null,
-  "tokens": 290,
+  "context": "## Preguntas abiertas: investigación, fe y futuro\n16. INTERLOCUTOR — ¿Cómo nació JUBAP en su etapa estonia y por qué quisiste separar actividad comercial y trabajo asociativo?\n17. INTERLOCUTOR — ¿En qué momento apareció la pregunta que hoy llamas Structural Awareness y quién puso a prueba tu primera explicación?\n18. INTERLOCUTOR — ¿Qué críticas válidas has recibido de tu investigación y cómo han cambiado tu arquitectura o tu modo de trabajar?\n19. INTERLOCUTOR — ¿Qué te gustaría que tus hijos comprendieran de las decisiones difíciles, sin convertirlas en una lección de éxito?\n20. INTERLOCUTOR — ¿Con qué parte de tu relato no estás todavía reconciliado, y qué quisieras dejar escrito sin hacer daño injusto a otras personas?\nTags: Learning and capability transmission 28.57%; Spirituality and inner life 71.43%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-080\nSource document: https://totonacapan.com/?page_id=413#:~:text=16.%20INTERLOCUTOR%20%E2%80%94%20%C2%BFC%C3%B3mo%20naci%C3%B3%20JUBAP%20en%20su%20etapa%20estonia%20y\n\n",
+  "tokens": 284,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "dg-inner",
       "title": "Atención y sentido",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 20,
-      "fichaTokens": 191,
+      "fichaTokens": 172,
       "tagWeights": {
         "aprendizaje": 0.4331,
         "autoridad": 0.0368,
@@ -53,10 +53,11 @@
       "to": "dg-structure",
       "title": "Conciencia estructural",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 256,
+      "fichaTokens": 226,
       "tagWeights": {
         "aprendizaje": 0.158,
         "autoridad": 0.0636,
@@ -89,10 +90,11 @@
       "to": "D-066",
       "title": "Coaching transpersonal, radio y escucha",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Atención y sentido».",
       "relationTokens": 33,
-      "fichaTokens": 463,
+      "fichaTokens": 456,
       "tagWeights": {
         "aprendizaje": 0.1538,
         "espiritualidad": 0.6154,
@@ -109,10 +111,11 @@
       "to": "D-016",
       "title": "La atención como práctica de libertad",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Atención y sentido».",
       "relationTokens": 31,
-      "fichaTokens": 394,
+      "fichaTokens": 387,
       "tagWeights": {
         "aprendizaje": 0.4286,
         "decision": 0.2857,
@@ -129,10 +132,11 @@
       "to": "D-073",
       "title": "Del régimen de operación a la conciencia estructural",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Conciencia estructural».",
       "relationTokens": 34,
-      "fichaTokens": 637,
+      "fichaTokens": 632,
       "tagWeights": {
         "cambio-regimen": 0.5714,
         "decision": 0.2857,
@@ -149,10 +153,11 @@
       "to": "D-025",
       "title": "Instalar un sistema no basta",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Conciencia estructural».",
       "relationTokens": 31,
-      "fichaTokens": 645,
+      "fichaTokens": 638,
       "tagWeights": {
         "aprendizaje": 0.2222,
         "empresa": 0.5556,
@@ -169,12 +174,13 @@
       "to": "D-093",
       "title": "Cuando la IA produce una respuesta y parece cerrar el mundo",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Atención y sentido, Conciencia estructural desde las situaciones que describe cada texto.",
       "relationTokens": 49,
-      "fichaTokens": 321,
+      "fichaTokens": 316,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"

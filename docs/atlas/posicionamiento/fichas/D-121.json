@@ -14,9 +14,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## La deuda de inteligencia humana\nINTERLOCUTOR (pregunta editorial) — ¿Cuándo una automatización reduce trabajo visible y, al mismo tiempo, deteriora la capacidad de juzgar de quienes la usan?\nLECTURA DEL DIÁLOGO (síntesis editorial) — La «deuda de inteligencia humana» no debe reducirse a personas que olvidan una habilidad porque una IA automatiza una tarea. Iván la plantea como un fenómeno organizativo y sociotécnico: compromisos, interfaces, reglas y garantías que requieren cada vez más tiempo de interpretación, reconciliación, vigilancia y mantenimiento pueden consumir la capacidad humana necesaria para decidir y producir valor. Incluso con expertos, presupuesto y tecnología disponibles, el trabajo discrecional se estrecha porque las personas dedican energía a sostener un sistema que ellas mismas construyeron. El puente de investigación parte de iniciativas que crean obligaciones, obligaciones que inmovilizan capacidad y fricción que se acumula; ahí se estudia cuándo aparece una deuda y cómo estimarla. La pérdida de aprendizaje por automatización puede ser una vía, pero no agota el concepto. La hipótesis exige mediciones propias y no presupone que más IA o más controles sean siempre buenos o malos.\nEtiquetas: Aprendizaje y transmisión de capacidades 18.18%; Capacidad humana y deuda de inteligencia 45.46%; Decisiones y responsabilidad 18.18%; Economía, costes y liquidez 18.18%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-121\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-121.html\n\n",
-  "readingSource": null,
-  "tokens": 348,
+  "context": "## La deuda de inteligencia humana\nINTERLOCUTOR (pregunta editorial) — ¿Cuándo una automatización reduce trabajo visible y, al mismo tiempo, deteriora la capacidad de juzgar de quienes la usan?\nLECTURA DEL DIÁLOGO (síntesis editorial) — La «deuda de inteligencia humana» no debe reducirse a personas que olvidan una habilidad porque una IA automatiza una tarea. Iván la plantea como un fenómeno organizativo y sociotécnico: compromisos, interfaces, reglas y garantías que requieren cada vez más tiempo de interpretación, reconciliación, vigilancia y mantenimiento pueden consumir la capacidad humana necesaria para decidir y producir valor. Incluso con expertos, presupuesto y tecnología disponibles, el trabajo discrecional se estrecha porque las personas dedican energía a sostener un sistema que ellas mismas construyeron. El puente de investigación parte de iniciativas que crean obligaciones, obligaciones que inmovilizan capacidad y fricción que se acumula; ahí se estudia cuándo aparece una deuda y cómo estimarla. La pérdida de aprendizaje por automatización puede ser una vía, pero no agota el concepto. La hipótesis exige mediciones propias y no presupone que más IA o más controles sean siempre buenos o malos.\nTags: Learning and capability transmission 18.18%; Human capability and intelligence debt 45.46%; Decisions and responsibility 18.18%; Economics, costs and liquidity 18.18%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-121\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-121.html\n\n",
+  "tokens": 339,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -24,10 +23,11 @@
       "to": "dg-learning",
       "title": "Aprendizaje autodirigido",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 20,
-      "fichaTokens": 200,
+      "fichaTokens": 179,
       "tagWeights": {
         "aprendizaje": 0.4664,
         "autoridad": 0.0587,
@@ -55,10 +55,11 @@
       "to": "dg-economy",
       "title": "Economía y escasez",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 18,
-      "fichaTokens": 250,
+      "fichaTokens": 222,
       "tagWeights": {
         "aprendizaje": 0.0688,
         "autoridad": 0.0119,
@@ -91,10 +92,11 @@
       "to": "dg-care",
       "title": "Responsabilidad humana",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 16,
-      "fichaTokens": 208,
+      "fichaTokens": 187,
       "tagWeights": {
         "aprendizaje": 0.0939,
         "autoridad": 0.0359,
@@ -123,10 +125,11 @@
       "to": "D-178",
       "title": "En la parábola hay un señor perfecto; en la vida no",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «En la parábola hay un señor perfecto; en la vida no» con «La deuda de inteligencia humana».",
       "relationTokens": 52,
-      "fichaTokens": 339,
+      "fichaTokens": 334,
       "tagWeights": {
         "autoridad": 0.5,
         "decision": 0.5
@@ -142,10 +145,11 @@
       "to": "D-287",
       "title": "El no-podismo también es una decisión de no construir",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El no-podismo también es una decisión de no construir» con «La deuda de inteligencia humana». Permite contrastar Aprendizaje autodirigido, Responsabilidad humana.",
       "relationTokens": 66,
-      "fichaTokens": 422,
+      "fichaTokens": 412,
       "tagWeights": {
         "aprendizaje": 0.1667,
         "decision": 0.5,
@@ -163,10 +167,11 @@
       "to": "D-004",
       "title": "La economía como manera de mirar",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Aprendizaje autodirigido, Economía y escasez desde las situaciones que describe cada texto.",
       "relationTokens": 45,
-      "fichaTokens": 601,
+      "fichaTokens": 595,
       "tagWeights": {
         "aprendizaje": 0.1818,
         "economia": 0.8182
@@ -182,10 +187,11 @@
       "to": "D-112",
       "title": "La IA no es el maestro que juzga el oficio",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Aprendizaje autodirigido, Responsabilidad humana desde las situaciones que describe cada texto.",
       "relationTokens": 48,
-      "fichaTokens": 350,
+      "fichaTokens": 339,
       "tagWeights": {
         "aprendizaje": 0.1429,
         "autoridad": 0.2857,
@@ -204,10 +210,11 @@
       "to": "D-134",
       "title": "Una habilidad también es un bien, aunque nadie la compre",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Responsabilidad humana, Economía y escasez desde las situaciones que describe cada texto.",
       "relationTokens": 46,
-      "fichaTokens": 327,
+      "fichaTokens": 321,
       "tagWeights": {
         "capacidad-humana": 0.2222,
         "decision": 0.2222,
@@ -224,12 +231,13 @@
       "to": "D-236",
       "title": "El sistema sobrevive gracias a quien se sale del mapa",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura comparada de mecanismos",
       "reading": "El trabajo que sostiene una operación fuera del procedimiento permite preguntar qué esfuerzo aporta juicio necesario y cuál compensa una fragmentación corregible. La distinción orienta qué capacidad conservar y qué carga rediseñar.",
-      "relationTokens": 93,
-      "fichaTokens": 411,
+      "relationTokens": 91,
+      "fichaTokens": 406,
       "tagWeights": {
-        "evidencia": 1.0
+        "evidencia": 1
       },
       "clusters": [
         "dialogos"

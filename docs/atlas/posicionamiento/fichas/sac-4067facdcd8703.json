@@ -12,9 +12,8 @@
   "clusters": [
     "research"
   ],
-  "context": "## Cotejo de referencias históricas con base relativa de origen\nFuente de la línea «Gobierno y trazabilidad del corpus». El enlace abre el documento en su versión registrada.\nEtiquetas: Investigación y documentación técnica 63.64%; Evidencia, procedencia y atribución 36.36%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-4067facdcd8703.html\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/11fbac15d6f2b790d459ab507633b2293e302709/governance/review/HISTORICAL_SOURCE_RELATIVE_LINKS_2026-10-25.md\n\n",
-  "readingSource": null,
-  "tokens": 158,
+  "context": "## Cotejo de referencias históricas con base relativa de origen\nFuente de la línea «Gobierno y trazabilidad del corpus». El enlace abre el documento en su versión registrada.\nTags: Research and technical documentation 63.64%; Evidence, provenance and attribution 36.36%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-4067facdcd8703.html\nSource document: https://github.com/dakleyer/structural-awareness-contributions/blob/11fbac15d6f2b790d459ab507633b2293e302709/governance/review/HISTORICAL_SOURCE_RELATIVE_LINKS_2026-10-25.md\n\n",
+  "tokens": 153,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "sac-652ec5309e7fe1",
       "title": "ACC — Modelo auxiliar",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Cotejo de referencias históricas con base relativa de origen» con el rótulo «artefacto acotado».",
-      "relationTokens": 122,
-      "fichaTokens": 160,
+      "relationTokens": 120,
+      "fichaTokens": 156,
       "tagWeights": {
         "documentacion": 0.5,
         "experimentacion": 0.5
@@ -41,12 +41,13 @@
       "to": "sac-ece1d7e0688e34",
       "title": "Disposición de las auditorías y acciones aplicadas",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Disposición de las auditorías y acciones aplicadas» con el rótulo «Recepción».",
-      "relationTokens": 132,
-      "fichaTokens": 152,
+      "relationTokens": 130,
+      "fichaTokens": 150,
       "tagWeights": {
-        "documentacion": 1.0
+        "documentacion": 1
       },
       "clusters": [
         "research"

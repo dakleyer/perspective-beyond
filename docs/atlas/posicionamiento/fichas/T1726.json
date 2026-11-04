@@ -12,9 +12,8 @@
   "clusters": [
     "tegrity"
   ],
-  "context": "## Industry Reference Group\n\nEtiquetas: Estándares e interoperabilidad 50.00%; Integridad y seguridad de IA 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/industry-reference-group-t1726/\nDocumento de origen: https://tegrity.ai/industry-reference-group/\n\n",
-  "readingSource": null,
-  "tokens": 68,
+  "context": "## Industry Reference Group\n\nTags: Standards and interoperability 50.00%; AI integrity and security 50.00%\nCard: https://dakleyer.github.io/perspective-beyond/sources/industry-reference-group-t1726/\nSource document: https://tegrity.ai/industry-reference-group/\n\n",
+  "tokens": 61,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "G34",
       "title": "Industry Reference Group (IRG)",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 18,
-      "fichaTokens": 91,
+      "fichaTokens": 82,
       "tagWeights": {
         "documentacion": 0.25,
         "estandares": 0.25,
@@ -43,10 +43,11 @@
       "to": "T2818",
       "title": "Annex 10 — Collaboration Guide",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The AI Integrity Management Industry Reference Group](https://tegrity.ai/industry-reference-group/).",
       "relationTokens": 41,
-      "fichaTokens": 207,
+      "fichaTokens": 198,
       "tagWeights": {
         "documentacion": 0.5238,
         "estandares": 0.1905,
@@ -64,10 +65,11 @@
       "to": "E2",
       "title": "JubAp.EU",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura enlazada desde el documento",
       "reading": "Desde «JubAp.EU», el enlace «Tegrity.AI Industry Reference Group» abre «Industry Reference Group».",
-      "relationTokens": 54,
-      "fichaTokens": 115,
+      "relationTokens": 52,
+      "fichaTokens": 110,
       "tagWeights": {
         "decision": 0.1,
         "empresa": 0.45,
@@ -86,10 +88,11 @@
       "to": "N2",
       "title": "JubAp.Net",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura enlazada desde el documento",
       "reading": "Desde «JubAp.Net», el enlace «Tegrity.AI Industry Reference Group» abre «Industry Reference Group».",
-      "relationTokens": 52,
-      "fichaTokens": 126,
+      "relationTokens": 50,
+      "fichaTokens": 120,
       "tagWeights": {
         "capacidad-humana": 0.35,
         "documentacion": 0.1,

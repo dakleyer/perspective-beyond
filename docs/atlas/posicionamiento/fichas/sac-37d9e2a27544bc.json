@@ -13,9 +13,8 @@
   "clusters": [
     "research"
   ],
-  "context": "## Independent-review-style self-audit: ACC executable economics + UC21-DDS bridge\nContenido de la fuente: 1. Audit decision · 2. Specific audit findings and dispositions · 3. Tests executed and what they establish.\nEtiquetas: Decisiones y responsabilidad 28.57%; Investigación y documentación técnica 35.72%; Economía, costes y liquidez 35.71%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-37d9e2a27544bc.html\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/11fbac15d6f2b790d459ab507633b2293e302709/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/parametric-economic-toy-v0.1/EXECUTABLE_ENGINE_AUDIT_2026-10-25.md\n\n",
-  "readingSource": null,
-  "tokens": 208,
+  "context": "## Independent-review-style self-audit: ACC executable economics + UC21-DDS bridge\nContenido de la fuente: 1. Audit decision · 2. Specific audit findings and dispositions · 3. Tests executed and what they establish.\nTags: Decisions and responsibility 28.57%; Research and technical documentation 35.72%; Economics, costs and liquidity 35.71%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-37d9e2a27544bc.html\nSource document: https://github.com/dakleyer/structural-awareness-contributions/blob/11fbac15d6f2b790d459ab507633b2293e302709/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/parametric-economic-toy-v0.1/EXECUTABLE_ENGINE_AUDIT_2026-10-25.md\n\n",
+  "tokens": 204,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,10 +22,11 @@
       "to": "sac-529b5bb3e7fc65",
       "title": "Programa de evaluación del modelo mediante DDS",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Contrato de falsabilidad UC21 y adaptador ejecutable — suplemento 25-10-2026» con el rótulo «auditoría».",
-      "relationTokens": 142,
-      "fichaTokens": 169,
+      "relationTokens": 140,
+      "fichaTokens": 163,
       "tagWeights": {
         "casos": 0.1667,
         "documentacion": 0.1667,
@@ -43,10 +43,11 @@
       "to": "sac-652ec5309e7fe1",
       "title": "ACC — Modelo auxiliar",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Puente experimental UC21 / DDS y revisión científica (25-10-2026)» con el rótulo «autoevaluación crítica».",
-      "relationTokens": 139,
-      "fichaTokens": 160,
+      "relationTokens": 137,
+      "fichaTokens": 156,
       "tagWeights": {
         "documentacion": 0.5,
         "experimentacion": 0.5
@@ -62,10 +63,11 @@
       "to": "sac-76d01581e03dcc",
       "title": "ACC — Toy económico paramétrico ejecutable (v0.1)",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Integración ejecutable UC21 ↔ DDS ↔ ACC / 01K (25-10-2026)» con el rótulo «auditoría del ejecutable».",
-      "relationTokens": 166,
-      "fichaTokens": 208,
+      "relationTokens": 164,
+      "fichaTokens": 198,
       "tagWeights": {
         "capacidad-humana": 0.125,
         "economia": 0.625,
@@ -83,10 +85,11 @@
       "to": "GH040",
       "title": "Annex 01K-A02 — Human Intelligence Debt: aceleración económica y experimentos de segundo orden",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Instrumentación UC21 / DDS — referencia de estudio (25-10-2026)» con el rótulo «auditoría de alcance».",
-      "relationTokens": 157,
-      "fichaTokens": 226,
+      "relationTokens": 155,
+      "fichaTokens": 216,
       "tagWeights": {
         "capacidad-humana": 0.3333,
         "documentacion": 0.2084,
@@ -105,10 +108,11 @@
       "to": "sac-76d01581e03dcc",
       "title": "ACC — Toy económico paramétrico ejecutable (v0.1)",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "ruta de lectura",
       "reading": "El índice de la carpeta sitúa este documento dentro de su línea de trabajo.",
-      "relationTokens": 148,
-      "fichaTokens": 208,
+      "relationTokens": 146,
+      "fichaTokens": 198,
       "tagWeights": {
         "capacidad-humana": 0.125,
         "economia": 0.625,

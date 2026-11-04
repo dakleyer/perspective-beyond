@@ -12,9 +12,8 @@
   "clusters": [
     "research"
   ],
-  "context": "## Agent Identity and Rights Evidence for Published Text\nContenido de la fuente: 1. Identification · 2. The situation · 3. Actors and context.\nEtiquetas: Estándares e interoperabilidad 44.44%; Evidencia, procedencia y atribución 55.56%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-b9874e452271c3.html\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/d5f7cd6137da97ed265acfa5bc68c9f00f128c7d/research/ecosystem-awareness/baseline/00J-extensions/PANODYSSEY-EXT-01/presentation/FG_TIDA_Panodyssey_Agent_Rights_Use_Case_PRESENTATION_v0.4.md\n\n",
-  "readingSource": null,
-  "tokens": 186,
+  "context": "## Agent Identity and Rights Evidence for Published Text\nContenido de la fuente: 1. Identification · 2. The situation · 3. Actors and context.\nTags: Standards and interoperability 44.44%; Evidence, provenance and attribution 55.56%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-b9874e452271c3.html\nSource document: https://github.com/dakleyer/structural-awareness-contributions/blob/d5f7cd6137da97ed265acfa5bc68c9f00f128c7d/research/ecosystem-awareness/baseline/00J-extensions/PANODYSSEY-EXT-01/presentation/FG_TIDA_Panodyssey_Agent_Rights_Use_Case_PRESENTATION_v0.4.md\n\n",
+  "tokens": 178,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "sac-b7c2146470af97",
       "title": "00J-A01 — Panodyssey Notice / TEMS Rights-Portability Implementation Trajectory",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «8. Maturity» con el rótulo «00J-A01 Panodyssey/TEMS documentary profile».",
-      "relationTokens": 160,
-      "fichaTokens": 221,
+      "relationTokens": 158,
+      "fichaTokens": 209,
       "tagWeights": {
         "estandares": 0.0715,
         "evidencia": 0.2857,
@@ -43,12 +43,13 @@
       "to": "sac-2b493f1f16d9ee",
       "title": "Extension admission and evidence-transfer ledger — 00J-EXT-PANO-01",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «10. Assets» con el rótulo «Transfer ledger».",
-      "relationTokens": 147,
-      "fichaTokens": 177,
+      "relationTokens": 145,
+      "fichaTokens": 172,
       "tagWeights": {
-        "evidencia": 1.0
+        "evidencia": 1
       },
       "clusters": [
         "research"
@@ -61,10 +62,11 @@
       "to": "sac-7d3403a07d798c",
       "title": "DDS/UC4 experimental integration — execution-readiness, not execution",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «10. Assets» con el rótulo «UC4 readiness».",
-      "relationTokens": 145,
-      "fichaTokens": 195,
+      "relationTokens": 143,
+      "fichaTokens": 186,
       "tagWeights": {
         "evidencia": 0.2857,
         "experimentacion": 0.3572,
@@ -81,10 +83,11 @@
       "to": "sac-0d8be8db5558af",
       "title": "Panodyssey — complete reader edition for technical and industry review",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «1. Start with the decision, then follow the evidence» con el rótulo «Agent Identity and Rights Evidence for Published Text — presentation v0.4».",
-      "relationTokens": 143,
-      "fichaTokens": 194,
+      "relationTokens": 141,
+      "fichaTokens": 188,
       "tagWeights": {
         "decision": 0.25,
         "documentacion": 0.5,

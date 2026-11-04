@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Adquisición de evidencia falible y emparejada",
   "url": "https://dakleyer.github.io/perspective-beyond/concepts/fallible-matched-evidence-acquisition/",
-  "documentId": null,
   "sourceIds": [
     "GH076",
     "GH077",
@@ -22,9 +21,8 @@
     "research",
     "tegrity"
   ],
-  "context": "## Adquisición de evidencia falible y emparejada\nRecord coverage, error, cost and provenance when gathering evidence.\nEtiquetas: Investigación y documentación técnica 12.23%; Economía, costes y liquidez 23.34%; Evidencia, procedencia y atribución 39.85%; Experimentación, falsación y contraejemplos 18.33%; Matemáticas 6.25%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/fallible-matched-evidence-acquisition/\n\n",
-  "readingSource": null,
-  "tokens": 109,
+  "context": "## Adquisición de evidencia falible y emparejada\nRecord coverage, error, cost and provenance when gathering evidence.\nTags: Research and technical documentation 12.23%; Economics, costs and liquidity 23.34%; Evidence, provenance and attribution 39.85%; Experimentation, falsification and counterexamples 18.33%; Mathematics 6.25%\nCard: https://dakleyer.github.io/perspective-beyond/concepts/fallible-matched-evidence-acquisition/\n\n",
+  "tokens": 101,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -32,10 +30,11 @@
       "to": "GH076",
       "title": "L-08 — Laboratorio de precisión, procedencia y costes para FH-C",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 35,
-      "fichaTokens": 172,
+      "fichaTokens": 166,
       "tagWeights": {
         "economia": 0.5,
         "evidencia": 0.5
@@ -51,10 +50,11 @@
       "to": "GH077",
       "title": "G-02 — Independent Q-audit evidence, not a Boolean declaration",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 33,
-      "fichaTokens": 179,
+      "fichaTokens": 171,
       "tagWeights": {
         "evidencia": 0.4375,
         "experimentacion": 0.25,
@@ -71,10 +71,11 @@
       "to": "T1421",
       "title": "How to Measure the Cost of Not Knowing",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 27,
-      "fichaTokens": 229,
+      "fichaTokens": 223,
       "tagWeights": {
         "documentacion": 0.1333,
         "economia": 0.6667,
@@ -91,10 +92,11 @@
       "to": "T2814",
       "title": "Annex 9 — Claims and Evidence Appendix",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 198,
+      "fichaTokens": 193,
       "tagWeights": {
         "documentacion": 0.4783,
         "evidencia": 0.5217
@@ -110,10 +112,11 @@
       "to": "GH078",
       "title": "L-09 — Remove accidental public-label leakage without rewriting source examples",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 32,
-      "fichaTokens": 175,
+      "fichaTokens": 168,
       "tagWeights": {
         "evidencia": 0.3333,
         "experimentacion": 0.6667
@@ -129,10 +132,11 @@
       "to": "C32",
       "title": "Coste de claridad",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "candidate transfer",
       "reading": "Compare evidence precision and provenance before pricing the procedures; a favorable price assumption must not be reported as an architectural advantage.",
       "relationTokens": 43,
-      "fichaTokens": 257,
+      "fichaTokens": 229,
       "tagWeights": {
         "agentes": 0.0227,
         "aprendizaje": 0.0059,
@@ -170,10 +174,11 @@
       "to": "C69",
       "title": "Evidencia de contribución",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documented use",
       "reading": "An audited-Q claim becomes testable when audit observations, fallibility, scope and cost are explicit, rather than supplied as a favorable Boolean flag.",
       "relationTokens": 50,
-      "fichaTokens": 289,
+      "fichaTokens": 254,
       "tagWeights": {
         "agentes": 0.0366,
         "aprendizaje": 0.0258,
@@ -215,10 +220,11 @@
       "to": "C125",
       "title": "Fuga de etiquetas de una fixture",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documented use",
       "reading": "A fallible audit mechanism and a public-label leakage control address different confounders; both must remain visible in a fair comparison.",
       "relationTokens": 49,
-      "fichaTokens": 101,
+      "fichaTokens": 94,
       "tagWeights": {
         "control-minimo": 0.0864,
         "documentacion": 0.1358,

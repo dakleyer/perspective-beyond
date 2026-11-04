@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Preestandarización y contribuciones UIT",
   "url": "https://dakleyer.github.io/perspective-beyond/concepts/pre-standardisation-and-itu-contributions/",
-  "documentId": null,
   "sourceIds": [
     "S11",
     "T1687",
@@ -19,9 +18,8 @@
     "research",
     "tegrity"
   ],
-  "context": "## Preestandarización y contribuciones UIT\nContributions bring cases and requirements into institutional technical discussion.\nEtiquetas: Control mínimo y suficiencia 10.30%; Investigación y documentación técnica 5.88%; Estándares e interoperabilidad 83.82%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/pre-standardisation-and-itu-contributions/\n\n",
-  "readingSource": null,
-  "tokens": 79,
+  "context": "## Preestandarización y contribuciones UIT\nContributions bring cases and requirements into institutional technical discussion.\nTags: Minimum control and sufficiency 10.30%; Research and technical documentation 5.88%; Standards and interoperability 83.82%\nCard: https://dakleyer.github.io/perspective-beyond/concepts/pre-standardisation-and-itu-contributions/\n\n",
+  "tokens": 75,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -29,12 +27,13 @@
       "to": "S11",
       "title": "ITU Focus Groups y contexto institucional",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 240,
+      "fichaTokens": 235,
       "tagWeights": {
-        "estandares": 1.0
+        "estandares": 1
       },
       "clusters": [
         "research"
@@ -47,12 +46,13 @@
       "to": "T1687",
       "title": "Research Contributions",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 18,
-      "fichaTokens": 56,
+      "fichaTokens": 51,
       "tagWeights": {
-        "estandares": 1.0
+        "estandares": 1
       },
       "clusters": [
         "tegrity"
@@ -65,12 +65,13 @@
       "to": "S21",
       "title": "ITU-T Focus Group on AI for Smart and Sustainable Cities",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 27,
-      "fichaTokens": 87,
+      "fichaTokens": 82,
       "tagWeights": {
-        "estandares": 1.0
+        "estandares": 1
       },
       "clusters": [
         "research"
@@ -83,10 +84,11 @@
       "to": "S22",
       "title": "INTERNATIONAL TELECOMMUNICATION UNION",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 162,
+      "fichaTokens": 157,
       "tagWeights": {
         "control-minimo": 0.4118,
         "documentacion": 0.2353,
@@ -103,10 +105,11 @@
       "to": "G20",
       "title": "Escalera de evidencia y madurez",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 78,
+      "fichaTokens": 73,
       "tagWeights": {
         "documentacion": 0.3409,
         "evidencia": 0.3863,
@@ -124,10 +127,11 @@
       "to": "G31",
       "title": "Tegrity.AI",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 119,
+      "fichaTokens": 109,
       "tagWeights": {
         "agentes": 0.0568,
         "control-minimo": 0.0556,
@@ -148,10 +152,11 @@
       "to": "G34",
       "title": "Industry Reference Group (IRG)",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 91,
+      "fichaTokens": 82,
       "tagWeights": {
         "documentacion": 0.25,
         "estandares": 0.25,
@@ -169,10 +174,11 @@
       "to": "C55",
       "title": "Preestandarización",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 18,
-      "fichaTokens": 141,
+      "fichaTokens": 127,
       "tagWeights": {
         "autoridad": 0.05,
         "documentacion": 0.181,
@@ -197,10 +203,11 @@
       "to": "C56",
       "title": "Custodia institucional",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 17,
-      "fichaTokens": 197,
+      "fichaTokens": 174,
       "tagWeights": {
         "aprendizaje": 0.0096,
         "autoridad": 0.0035,
@@ -231,10 +238,11 @@
       "to": "G13",
       "title": "Requisitos canónicos S1–S14",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 130,
+      "fichaTokens": 120,
       "tagWeights": {
         "autoridad": 0.087,
         "cartografia": 0.0869,
@@ -255,10 +263,11 @@
       "to": "G20",
       "title": "Escalera de evidencia y madurez",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 78,
+      "fichaTokens": 73,
       "tagWeights": {
         "documentacion": 0.3409,
         "evidencia": 0.3863,
@@ -276,10 +285,11 @@
       "to": "G07",
       "title": "Minimum Sufficient Control Architecture (MSCA)",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 209,
+      "fichaTokens": 184,
       "tagWeights": {
         "agentes": 0.0216,
         "autoridad": 0.0108,

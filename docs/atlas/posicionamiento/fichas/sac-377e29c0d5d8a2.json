@@ -14,9 +14,8 @@
   "clusters": [
     "research"
   ],
-  "context": "## A23 semantic bridge review\nLa revisión enfrenta cada diagnóstico con el significado de la fuente. Comprueba por separado el alcance de la incertidumbre, el bloqueo de acciones tras un cambio y el uso de evidencia correlacionada. Una prueba puede pasar precisamente porque reproduce un contraejemplo esperado.\nEtiquetas: Investigación y documentación técnica 40.00%; Evidencia, procedencia y atribución 20.00%; Experimentación, falsación y contraejemplos 35.00%; Matemáticas 5.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-377e29c0d5d8a2.html\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/5b0ac924b8646215348e58076230c42f499e8823/research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/requirement-sufficiency/SEMANTIC_BRIDGE_REVIEW.md\n\n",
-  "readingSource": null,
-  "tokens": 215,
+  "context": "## A23 semantic bridge review\nLa revisión enfrenta cada diagnóstico con el significado de la fuente. Comprueba por separado el alcance de la incertidumbre, el bloqueo de acciones tras un cambio y el uso de evidencia correlacionada. Una prueba puede pasar precisamente porque reproduce un contraejemplo esperado.\nTags: Research and technical documentation 40.00%; Evidence, provenance and attribution 20.00%; Experimentation, falsification and counterexamples 35.00%; Mathematics 5.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-377e29c0d5d8a2.html\nSource document: https://github.com/dakleyer/structural-awareness-contributions/blob/5b0ac924b8646215348e58076230c42f499e8823/research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/requirement-sufficiency/SEMANTIC_BRIDGE_REVIEW.md\n\n",
+  "tokens": 207,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -24,10 +23,11 @@
       "to": "GH049",
       "title": "00K-A23 — Canonical Requirement-Conformance Sufficiency for P1–P6 — v0.1",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "localiza el desacople",
       "reading": "El puente examina cómo cada contraejemplo surge de la diferencia entre una cláusula y la semántica que intenta representar.",
-      "relationTokens": 139,
-      "fichaTokens": 273,
+      "relationTokens": 137,
+      "fichaTokens": 260,
       "tagWeights": {
         "autoridad": 0.1333,
         "control-minimo": 0.2,
@@ -48,10 +48,11 @@
       "to": "GH049",
       "title": "00K-A23 — Canonical Requirement-Conformance Sufficiency for P1–P6 — v0.1",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "explica el resultado",
       "reading": "Los diagnósticos reproducen las tres proyecciones abiertas de A23 sin cambiar la obligación de demostrar suficiencia.",
-      "relationTokens": 133,
-      "fichaTokens": 273,
+      "relationTokens": 131,
+      "fichaTokens": 260,
       "tagWeights": {
         "autoridad": 0.1333,
         "control-minimo": 0.2,
@@ -72,10 +73,11 @@
       "to": "GH017",
       "title": "Ecosystem Positioning",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Execution records» con el rótulo «A23 semantic bridge review».",
-      "relationTokens": 96,
-      "fichaTokens": 261,
+      "relationTokens": 94,
+      "fichaTokens": 239,
       "tagWeights": {
         "agentes": 0.1081,
         "autoridad": 0.0541,
@@ -102,10 +104,11 @@
       "to": "sac-e2eb9b6b5604f5",
       "title": "Hypotheses, causal pathway and traceability — reading index",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «4. Where the forward and reverse proofs are kept» con el rótulo «A23 semantic bridge review».",
-      "relationTokens": 124,
-      "fichaTokens": 205,
+      "relationTokens": 122,
+      "fichaTokens": 197,
       "tagWeights": {
         "documentacion": 0.3636,
         "evidencia": 0.4546,
@@ -123,10 +126,11 @@
       "to": "sac-991dbae1df8f3a",
       "title": "Ecosystem Awareness — entry-point router",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Mathematical and functional plausibility — current reading route» con el rótulo «A23 semantic bridge diagnostics».",
-      "relationTokens": 104,
-      "fichaTokens": 181,
+      "relationTokens": 102,
+      "fichaTokens": 169,
       "tagWeights": {
         "cartografia": 0.4167,
         "casos": 0.0834,
@@ -145,10 +149,11 @@
       "to": "GH042",
       "title": "Smart-City Mobility Chaos",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura con el rótulo «revisión A23».",
-      "relationTokens": 111,
-      "fichaTokens": 204,
+      "relationTokens": 109,
+      "fichaTokens": 193,
       "tagWeights": {
         "cambio-regimen": 0.3077,
         "decision": 0.0769,
@@ -167,10 +172,11 @@
       "to": "GH043",
       "title": "00G — Canonical Reference Failure Scenario and Integrated Quality / Implementation Plan: Collective False-Context Convergence (\"Bar-to-Napoleon\" Cascade)",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «00G — Canonical Reference Failure Scenario and Integrated Quality / Implementation Plan: Collective False» con el rótulo «revisión A23».",
-      "relationTokens": 153,
-      "fichaTokens": 253,
+      "relationTokens": 151,
+      "fichaTokens": 240,
       "tagWeights": {
         "cartografia": 0.1538,
         "casos": 0.1923,
@@ -192,10 +198,11 @@
       "to": "GH045",
       "title": "00I · Freeze Edition",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura con el rótulo «revisión A23».",
-      "relationTokens": 106,
-      "fichaTokens": 200,
+      "relationTokens": 104,
+      "fichaTokens": 190,
       "tagWeights": {
         "cambio-regimen": 0.3077,
         "casos": 0.0769,
@@ -213,10 +220,11 @@
       "to": "sac-7bb4215023667c",
       "title": "00L-A12 — Registro de mejoras para el artículo y el README",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «13 Aplicación del plan y revisión de suficiencia» con el rótulo «fuente, diagnóstico y límites».",
-      "relationTokens": 153,
-      "fichaTokens": 233,
+      "relationTokens": 151,
+      "fichaTokens": 225,
       "tagWeights": {
         "documentacion": 0.3636,
         "experimentacion": 0.0909,
@@ -234,12 +242,13 @@
       "to": "sac-42b1cc54adba23",
       "title": "Plan de cambios y efecto en la tesis del artículo",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «10 Estado de aplicación del 26 de septiembre» con el rótulo «diagnósticos semánticos y trazas».",
-      "relationTokens": 154,
-      "fichaTokens": 189,
+      "relationTokens": 152,
+      "fichaTokens": 184,
       "tagWeights": {
-        "evidencia": 1.0
+        "evidencia": 1
       },
       "clusters": [
         "research"
@@ -252,10 +261,11 @@
       "to": "sac-f274742ce0c925",
       "title": "Aplicación del plan y estado de suficiencia",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Cambios aplicados» con el rótulo «Revisión semántica F02».",
-      "relationTokens": 143,
-      "fichaTokens": 180,
+      "relationTokens": 141,
+      "fichaTokens": 176,
       "tagWeights": {
         "casos": 0.5,
         "control-minimo": 0.5
@@ -271,10 +281,11 @@
       "to": "sac-35db7d39197424",
       "title": "Estado del ciclo de revisión de este documento",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «A23 clause audit — model-to-source bridge candidates (26 September 2026 Europe/Madrid)» con el rótulo «A23 semantic bridge review».",
-      "relationTokens": 132,
-      "fichaTokens": 200,
+      "relationTokens": 130,
+      "fichaTokens": 189,
       "tagWeights": {
         "cambio-regimen": 0.04,
         "cartografia": 0.16,
@@ -293,10 +304,11 @@
       "to": "sac-ed7ec859255f91",
       "title": "A23 clause circularity audit and reconstruction",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «7. Applied semantic follow-up» con el rótulo «semantic bridge review».",
-      "relationTokens": 117,
-      "fichaTokens": 169,
+      "relationTokens": 115,
+      "fichaTokens": 163,
       "tagWeights": {
         "experimentacion": 0.5,
         "representacion": 0.5
@@ -312,10 +324,11 @@
       "to": "sac-c0d3e3cc86caf5",
       "title": "00K-FORMAL/requirement-sufficiency — audited clause projections",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Applied semantic follow-up» con el rótulo «Semantic bridge review».",
-      "relationTokens": 117,
-      "fichaTokens": 152,
+      "relationTokens": 115,
+      "fichaTokens": 148,
       "tagWeights": {
         "control-minimo": 0.5,
         "integridad-ia": 0.5
@@ -331,12 +344,13 @@
       "to": "sac-42b1cc54adba23",
       "title": "Plan de cambios y efecto en la tesis del artículo",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «A23 semantic bridge review» con el rótulo «the change plan».",
-      "relationTokens": 120,
-      "fichaTokens": 189,
+      "relationTokens": 118,
+      "fichaTokens": 184,
       "tagWeights": {
-        "evidencia": 1.0
+        "evidencia": 1
       },
       "clusters": [
         "research"
@@ -349,10 +363,11 @@
       "to": "sac-ae5cfdf16d6d42",
       "title": "Preserved non-canonical working inputs",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Archivo completo de enlaces del corte» con el rótulo «A23 semantic bridge review».",
-      "relationTokens": 111,
-      "fichaTokens": 175,
+      "relationTokens": 109,
+      "fichaTokens": 169,
       "tagWeights": {
         "decision": 0.3334,
         "documentacion": 0.3333,

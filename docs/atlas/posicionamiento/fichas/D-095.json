@@ -13,9 +13,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Capacidad informacional, complejidad y exergía\nINTERLOCUTOR (pregunta editorial) — ¿Qué diferencia hay entre contener información y disponer de una capacidad realmente utilizable?\nLECTURA DEL DIÁLOGO (síntesis editorial) — Iván no empezó preguntando cuántos datos caben en un repositorio. En sus estudios sobre campos lógicos, complejidad, capacidad de transformación y flechas del tiempo pregunta qué parte de una descripción conserva potencial operativo y qué coste exige sostener las distinciones que la vuelven utilizable. La notación exploratoria «E = C − K» relaciona capacidad informacional y complejidad descriptiva, pero es solo una pieza de una investigación sobre dominios, metadominios y recursos de computación. En otra formulación habla del coste oculto —el «bit 7»— de mantener unido un universo formal, y de los costes que una operación deja fuera de sus propios cálculos. Reducir esa tesis a «muchos datos no implican conocimiento» elimina su ambición: conectar computabilidad, consistencia, conservación estructural y exergía. Las ecuaciones originales y su estatuto demostrativo deben examinarse en los manuscritos; aquí se preserva la pregunta con sus términos.\nEtiquetas: Aprendizaje y transmisión de capacidades 50.00%; Economía, costes y liquidez 37.50%; Matemáticas 12.50%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-095\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-095.html\n\n",
-  "readingSource": null,
-  "tokens": 350,
+  "context": "## Capacidad informacional, complejidad y exergía\nINTERLOCUTOR (pregunta editorial) — ¿Qué diferencia hay entre contener información y disponer de una capacidad realmente utilizable?\nLECTURA DEL DIÁLOGO (síntesis editorial) — Iván no empezó preguntando cuántos datos caben en un repositorio. En sus estudios sobre campos lógicos, complejidad, capacidad de transformación y flechas del tiempo pregunta qué parte de una descripción conserva potencial operativo y qué coste exige sostener las distinciones que la vuelven utilizable. La notación exploratoria «E = C − K» relaciona capacidad informacional y complejidad descriptiva, pero es solo una pieza de una investigación sobre dominios, metadominios y recursos de computación. En otra formulación habla del coste oculto —el «bit 7»— de mantener unido un universo formal, y de los costes que una operación deja fuera de sus propios cálculos. Reducir esa tesis a «muchos datos no implican conocimiento» elimina su ambición: conectar computabilidad, consistencia, conservación estructural y exergía. Las ecuaciones originales y su estatuto demostrativo deben examinarse en los manuscritos; aquí se preserva la pregunta con sus términos.\nTags: Learning and capability transmission 50.00%; Economics, costs and liquidity 37.50%; Mathematics 12.50%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-095\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-095.html\n\n",
+  "tokens": 343,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,10 +22,11 @@
       "to": "dg-math",
       "title": "Pensamiento matemático",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 177,
+      "fichaTokens": 159,
       "tagWeights": {
         "aprendizaje": 0.1144,
         "autoridad": 0.0109,
@@ -52,10 +52,11 @@
       "to": "dg-economy",
       "title": "Economía y escasez",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 25,
-      "fichaTokens": 250,
+      "fichaTokens": 222,
       "tagWeights": {
         "aprendizaje": 0.0688,
         "autoridad": 0.0119,
@@ -88,10 +89,11 @@
       "to": "dg-structure",
       "title": "Conciencia estructural",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 256,
+      "fichaTokens": 226,
       "tagWeights": {
         "aprendizaje": 0.158,
         "autoridad": 0.0636,
@@ -124,12 +126,13 @@
       "to": "D-183",
       "title": "La esfera mágica: contar el último elemento también cuesta",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La esfera mágica: contar el último elemento también cuesta» con «Capacidad informacional, complejidad y exergía». Permite contrastar Pensamiento matemático, Conciencia estructural.",
       "relationTokens": 76,
-      "fichaTokens": 350,
+      "fichaTokens": 347,
       "tagWeights": {
-        "matematicas": 1.0
+        "matematicas": 1
       },
       "clusters": [
         "dialogos"
@@ -142,10 +145,11 @@
       "to": "D-190",
       "title": "No llamemos economía de la información a una industria que todavía consume tanta energía",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «No llamemos economía de la información a una industria que todavía consume tanta energía» con «Capacidad informacional, complejidad y exergía». Permite contrastar Economía y escasez, Conciencia estructural.",
       "relationTokens": 85,
-      "fichaTokens": 422,
+      "fichaTokens": 415,
       "tagWeights": {
         "aprendizaje": 0.381,
         "economia": 0.2857,
@@ -163,10 +167,11 @@
       "to": "D-249",
       "title": "Una memoria en estrella puede perder su centro sin dejar de funcionar",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una memoria en estrella puede perder su centro sin dejar de funcionar» con «Capacidad informacional, complejidad y exergía».",
       "relationTokens": 64,
-      "fichaTokens": 441,
+      "fichaTokens": 430,
       "tagWeights": {
         "aprendizaje": 0.1334,
         "evidencia": 0.1333,
@@ -184,10 +189,11 @@
       "to": "D-250",
       "title": "Una inversa escrita no puede reconstruir la información que falta",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una inversa escrita no puede reconstruir la información que falta» con «Capacidad informacional, complejidad y exergía». Permite contrastar Pensamiento matemático.",
       "relationTokens": 73,
-      "fichaTokens": 408,
+      "fichaTokens": 402,
       "tagWeights": {
         "aprendizaje": 0.8182,
         "matematicas": 0.1818
@@ -203,10 +209,11 @@
       "to": "D-293",
       "title": "El cómputo masivo intenta comprar volumen donde falta estructura",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El cómputo masivo intenta comprar volumen donde falta estructura» con «Capacidad informacional, complejidad y exergía». Permite contrastar Pensamiento matemático, Conciencia estructural.",
       "relationTokens": 80,
-      "fichaTokens": 390,
+      "fichaTokens": 384,
       "tagWeights": {
         "decision": 0.25,
         "matematicas": 0.25,
@@ -223,12 +230,13 @@
       "to": "D-094",
       "title": "Gödel, máquinas de Turing y la pregunta de qué queda fuera",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Pensamiento matemático, Conciencia estructural desde las situaciones que describe cada texto.",
       "relationTokens": 56,
-      "fichaTokens": 338,
+      "fichaTokens": 335,
       "tagWeights": {
-        "matematicas": 1.0
+        "matematicas": 1
       },
       "clusters": [
         "dialogos"
@@ -241,12 +249,13 @@
       "to": "D-117",
       "title": "Una arquitectura que no puede declararse cerrada",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Pensamiento matemático, Conciencia estructural desde las situaciones que describe cada texto.",
       "relationTokens": 51,
-      "fichaTokens": 249,
+      "fichaTokens": 246,
       "tagWeights": {
-        "matematicas": 1.0
+        "matematicas": 1
       },
       "clusters": [
         "dialogos"
@@ -259,10 +268,11 @@
       "to": "D-135",
       "title": "El mercado es también una tecnología de coordinación",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Conciencia estructural, Economía y escasez desde las situaciones que describe cada texto.",
       "relationTokens": 51,
-      "fichaTokens": 282,
+      "fichaTokens": 278,
       "tagWeights": {
         "economia": 0.5,
         "movilidad": 0.5

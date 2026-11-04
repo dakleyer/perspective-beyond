@@ -12,9 +12,8 @@
   "clusters": [
     "research"
   ],
-  "context": "## Conscientia Ecosystemica × ACC — campaña experimental de referencia (v0.1)\nContenido de la fuente: 1. Objetivo y fuentes realmente utilizadas · 2. Qué se ha ejecutado · 3. Resultados numéricos que pueden citarse sin exagerar.\nEtiquetas: Investigación y documentación técnica 16.67%; Experimentación, falsación y contraejemplos 83.33%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-3510f1c52e0eae.html\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/c3298c4e97122cd5a6bc448deffe152578906805/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1/README.md\n\n",
-  "readingSource": null,
-  "tokens": 200,
+  "context": "## Conscientia Ecosystemica × ACC — campaña experimental de referencia (v0.1)\nContenido de la fuente: 1. Objetivo y fuentes realmente utilizadas · 2. Qué se ha ejecutado · 3. Resultados numéricos que pueden citarse sin exagerar.\nTags: Research and technical documentation 16.67%; Experimentation, falsification and counterexamples 83.33%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-3510f1c52e0eae.html\nSource document: https://github.com/dakleyer/structural-awareness-contributions/blob/c3298c4e97122cd5a6bc448deffe152578906805/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1/README.md\n\n",
+  "tokens": 196,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "sac-529b5bb3e7fc65",
       "title": "Programa de evaluación del modelo mediante DDS",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Campaña ejecutable Conscientia Ecosystemica — escenario Stage A sintético (26-10-2026)» con el rótulo «Fuente y protocolo de la campaña».",
-      "relationTokens": 152,
-      "fichaTokens": 169,
+      "relationTokens": 150,
+      "fichaTokens": 163,
       "tagWeights": {
         "casos": 0.1667,
         "documentacion": 0.1667,
@@ -42,10 +42,11 @@
       "to": "sac-e0a923c2cf7271",
       "title": "ACC — Modelo auxiliar de oportunidades transición y capacidades",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Ejecución integrada de Conscientia Ecosystemica — corte experimental sintético» con el rótulo «campaña socioepistémica».",
-      "relationTokens": 148,
-      "fichaTokens": 180,
+      "relationTokens": 146,
+      "fichaTokens": 176,
       "tagWeights": {
         "control-minimo": 0.1429,
         "decision": 0.1429,
@@ -63,10 +64,11 @@
       "to": "sac-652ec5309e7fe1",
       "title": "ACC — Modelo auxiliar",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Campaña Conscientia Ecosystemica — fuentes Google Docs → experimentos ejecutables (26-10-2026)» con el rótulo «campaña integrada».",
-      "relationTokens": 147,
-      "fichaTokens": 160,
+      "relationTokens": 145,
+      "fichaTokens": 156,
       "tagWeights": {
         "documentacion": 0.5,
         "experimentacion": 0.5
@@ -82,10 +84,11 @@
       "to": "sac-af8029086d1f69",
       "title": "00M → modelo social ACC → UC21/DDS: plausibilidad, dominancia débil y falsadores",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «5. Campaña de casos documentales y ejecución por CI» con el rótulo «campaña Conscientia Ecosystemica».",
-      "relationTokens": 169,
-      "fichaTokens": 246,
+      "relationTokens": 167,
+      "fichaTokens": 238,
       "tagWeights": {
         "aprendizaje": 0.3637,
         "decision": 0.0909,
@@ -104,12 +107,13 @@
       "to": "sac-e82a7af097d5c9",
       "title": "Registro de ejemplos del modelo ACC y sus extensiones — identidad y preservación",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «1. Objetivo y fuentes realmente utilizadas» con el rótulo «EXAMPLE_LEDGER PR #42».",
-      "relationTokens": 151,
-      "fichaTokens": 159,
+      "relationTokens": 149,
+      "fichaTokens": 157,
       "tagWeights": {
-        "documentacion": 1.0
+        "documentacion": 1
       },
       "clusters": [
         "research"
@@ -122,10 +126,11 @@
       "to": "GH072",
       "title": "Matriz de cobertura documental y cola de experimentos reales",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «1. Objetivo y fuentes realmente utilizadas» con el rótulo «SOURCE_COVERAGE_AND_BACKLOG.md».",
-      "relationTokens": 148,
-      "fichaTokens": 173,
+      "relationTokens": 146,
+      "fichaTokens": 167,
       "tagWeights": {
         "documentacion": 0.4167,
         "experimentacion": 0.4167,
@@ -142,10 +147,11 @@
       "to": "sac-89a4b8d295fd0d",
       "title": "Resultados de campaña sintética — Conscientia Ecosystemica / ACC",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «2. Qué se ha ejecutado» con el rótulo «RUN_SUMMARY.md».",
-      "relationTokens": 147,
-      "fichaTokens": 182,
+      "relationTokens": 145,
+      "fichaTokens": 179,
       "tagWeights": {
         "decision": 0.8,
         "documentacion": 0.2
@@ -161,10 +167,11 @@
       "to": "sac-09d639cacbfe18",
       "title": "Contrato experimental, propiedad científica y condiciones de aceptación",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «4. Reproducción local y CI» con el rótulo «PROTOCOL_AND_EVIDENCE_LEVELS.md».",
-      "relationTokens": 148,
-      "fichaTokens": 192,
+      "relationTokens": 146,
+      "fichaTokens": 185,
       "tagWeights": {
         "evidencia": 0.4444,
         "experimentacion": 0.5556
@@ -180,10 +187,11 @@
       "to": "sac-09d639cacbfe18",
       "title": "Contrato experimental, propiedad científica y condiciones de aceptación",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "ruta de lectura",
       "reading": "El índice de la carpeta sitúa este documento dentro de su línea de trabajo.",
-      "relationTokens": 136,
-      "fichaTokens": 192,
+      "relationTokens": 134,
+      "fichaTokens": 185,
       "tagWeights": {
         "evidencia": 0.4444,
         "experimentacion": 0.5556
@@ -199,10 +207,11 @@
       "to": "sac-89a4b8d295fd0d",
       "title": "Resultados de campaña sintética — Conscientia Ecosystemica / ACC",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "ruta de lectura",
       "reading": "El índice de la carpeta sitúa este documento dentro de su línea de trabajo.",
-      "relationTokens": 136,
-      "fichaTokens": 182,
+      "relationTokens": 134,
+      "fichaTokens": 179,
       "tagWeights": {
         "decision": 0.8,
         "documentacion": 0.2
@@ -218,10 +227,11 @@
       "to": "GH072",
       "title": "Matriz de cobertura documental y cola de experimentos reales",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "ruta de lectura",
       "reading": "El índice de la carpeta sitúa este documento dentro de su línea de trabajo.",
-      "relationTokens": 137,
-      "fichaTokens": 173,
+      "relationTokens": 135,
+      "fichaTokens": 167,
       "tagWeights": {
         "documentacion": 0.4167,
         "experimentacion": 0.4167,

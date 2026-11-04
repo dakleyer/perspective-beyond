@@ -9,28 +9,28 @@ import json,math,re,textwrap
 HERE=Path(__file__).resolve().parent
 PUBLIC_ENTRY='https://tegrity.ai/atlas-orientation/'
 DIRECT_READER='https://tegrity.ai/atlas-reader/'
-CONFIG_RULE='Conserva el objetivo, punto de entrada, modo, etiquetas, pesos y alcance ya indicados por el usuario o por su URL. En un modo cerrado, ofrece solamente fichas del clúster permitido. No vuelvas a pedir una selección ya resuelta.'
+CONFIG_RULE='Retain the objective, entry point, mode, tags, weights and scope already indicated by the user or their URL. In closed mode, offer only cards from the permitted cluster. Do not ask again for a selection already resolved.'
 AREAS=[
-{'id':'perspectiva','title':'Cambiar la pregunta','question':'¿Qué estamos dejando fuera al formular el problema?','description':'Marcos de observación, representaciones, límites del conocimiento y traducción entre dominios.','tags':['perspectiva','representacion','mundo-abierto','cartografia'],'seeds':['D-285','E1731','T1499']},
-{'id':'formalizacion','title':'Formalizar y contrastar','question':'¿Qué estructura se puede formular y qué observación permite examinarla?','description':'Modelos matemáticos, indeterminación, experimentos y procedencia de la evidencia.','tags':['matematicas','experimentacion','evidencia','documentacion'],'seeds':['N1817','N1828','sac-0b460b7d138063']},
-{'id':'gobierno','title':'Gobernar decisiones','question':'¿Quién puede decidir y qué control resulta suficiente?','description':'Autoridad, delegación, responsabilidad, integridad de IA, estándares y legitimidad.','tags':['autoridad','decision','control-minimo','integridad-ia','estandares','legitimidad'],'seeds':['T2729','GH021','T1475']},
-{'id':'intervencion','title':'Hacer que suceda','question':'¿Cómo pasar de la intención a una capacidad que funciona?','description':'Transformación, creación de valor, coordinación distribuida, movilidad y trabajo de campo.','tags':['empresa','transformacion','agentes','movilidad','compromisos','casos'],'seeds':['E1628','N1274','N1805','U2']},
-{'id':'capacidad','title':'Conservar y transmitir capacidad','question':'¿Qué saben hacer las personas y cómo puede continuar esa capacidad?','description':'Conocimiento tácito, aprendizaje, deuda de inteligencia humana, comunidad y experiencia vivida.','tags':['capacidad-humana','aprendizaje','memoria-territorio','espiritualidad','encuentros'],'seeds':['N1287','T874','T1472','np-coaching','D-018']},
-{'id':'adaptacion','title':'Sostener valor y adaptación','question':'¿Qué cambia de régimen y qué permite seguir operando?','description':'Economía, liquidez, alertas tempranas, restricciones y adaptación ante condiciones cambiantes.','tags':['economia','cambio-regimen','geopolitica','empresa','mundo-abierto'],'seeds':['T1387','N1826','E1654','D-137']},
-{'id':'fuentes','title':'Encontrar las fuentes','question':'¿Dónde está el documento y cómo se recorre el corpus?','description':'Entradas, índices y localizadores de fuentes. Es una ayuda de navegación para los otros recorridos.','tags':['navegacion'],'seeds':['N250','np-biografia']}
+{'id':'perspectiva','title':'Changing the question','question':'What are we leaving out when formulating the problem?','description':'Observation frames, representations, limits of knowledge and translation between domains.','tags':['perspectiva','representacion','mundo-abierto','cartografia'],'seeds':['D-285','E1731','T1499']},
+{'id':'formalizacion','title':'Formalising and testing','question':'What structure can be formulated and what observation allows it to be examined?','description':'Mathematical models, indeterminacy, experiments and evidence provenance.','tags':['matematicas','experimentacion','evidencia','documentacion'],'seeds':['N1817','N1828','sac-0b460b7d138063']},
+{'id':'gobierno','title':'Governing decisions','question':'Who can decide and what control is sufficient?','description':'Authority, delegation, responsibility, AI integrity, standards and legitimacy.','tags':['autoridad','decision','control-minimo','integridad-ia','estandares','legitimidad'],'seeds':['T2729','GH021','T1475']},
+{'id':'intervencion','title':'Making it happen','question':'How can intention become a capability that works?','description':'Transformation, value creation, distributed coordination, mobility and fieldwork.','tags':['empresa','transformacion','agentes','movilidad','compromisos','casos'],'seeds':['E1628','N1274','N1805','U2']},
+{'id':'capacidad','title':'Preserving and transmitting capability','question':'What do people know how to do and how can that capability continue?','description':'Tacit knowledge, learning, human intelligence debt, community and lived experience.','tags':['capacidad-humana','aprendizaje','memoria-territorio','espiritualidad','encuentros'],'seeds':['N1287','T874','T1472','np-coaching','D-018']},
+{'id':'adaptacion','title':'Sustaining value and adaptation','question':'What changes regime and what enables continued operation?','description':'Economics, liquidity, early warnings, constraints and adaptation to changing conditions.','tags':['economia','cambio-regimen','geopolitica','empresa','mundo-abierto'],'seeds':['T1387','N1826','E1654','D-137']},
+{'id':'fuentes','title':'Finding the sources','question':'Where is the document and how is the corpus navigated?','description':'Entries, indexes and source locators. A navigation aid for the other reading paths.','tags':['navegacion'],'seeds':['N250','np-biografia']}
 ]
 INTENTS=[
-{'id':'transformacion','question':'Una transformación está bloqueada: ¿por dónde intervenir?','areas':['perspectiva','intervencion'],'seeds':['E1628','E1731','N1274'],'reason':'Primero cambia el nivel de observación; después conecta una intervención concreta con la capacidad de ejecución.'},
-{'id':'racionalizacion','question':'Hay complejidad y capacidades desaprovechadas: ¿cómo encontrar valor?','areas':['intervencion','adaptacion'],'seeds':['E1704','E1662','E1654'],'reason':'Relaciona racionalización y descubrimiento de valor con un caso empresarial documentado.'},
-{'id':'tacito','question':'La modernización está perdiendo el saber de quienes operan.','areas':['capacidad','intervencion'],'seeds':['N1287','T874','T1472'],'reason':'Empieza por el conocimiento tácito; contrástalo con deuda de inteligencia humana y atribución de la capacidad.'},
-{'id':'autoridad','question':'Un agente puede actuar, pero ¿qué autoridad y control necesita?','areas':['gobierno','formalizacion'],'seeds':['T2729','GH021','T1499'],'reason':'Abre la arquitectura de control suficiente y sus condiciones antes de ampliar hacia la conciencia estructural.'},
-{'id':'logistica','question':'¿Cómo coordinar muchas entidades operativas en tiempo real?','areas':['intervencion','adaptacion'],'seeds':['N864','N1805','N1803'],'reason':'Compara la inteligencia logística de GEPLAN con los mecanismos de orquestación y ruteo de xSeil.'},
-{'id':'regimen','question':'Las reglas han cambiado: ¿qué señales permiten responder a tiempo?','areas':['adaptacion','gobierno'],'seeds':['T1387','N1826','N1831'],'reason':'Combina detección suficiente de cambio con liquidez y cascadas de factores en un caso.'},
-{'id':'matematicas','question':'Quiero examinar la formulación matemática y sus límites.','areas':['formalizacion','perspectiva'],'seeds':['N1817','N1815','sac-0b460b7d138063'],'reason':'Empieza por Companion Paper II v2.1 (N1817), que consolida la formulación y la contabilidad de recursos. N1815 conserva la nota v5 anterior como antecedente de esa revisión. Después examina las dimensiones de indeterminación que la representación deja abiertas.'},
-{'id':'pensamiento','question':'Quiero entender la forma de pensar de Iván Abril.','areas':['perspectiva','capacidad'],'seeds':['D-285','np-coaching','D-137'],'reason':'Abre una reflexión sobre el oficio del arquitecto y sigue hacia experiencia, aprendizaje y promesas económicas.'},
-{'id':'comunidad','question':'¿Cómo se transmite conocimiento entre personas y comunidades?','areas':['capacidad','perspectiva'],'seeds':['np-coaching','N1287','D-018'],'reason':'Examina aprendizaje vivido, conocimiento tácito y experiencia espiritual mediante sus contextos propios.'},
-{'id':'integracion','question':'¿Cómo convertir una operación entre empresas en ejecución y valor?','areas':['intervencion','gobierno'],'seeds':['U2','E1662','N1274'],'reason':'Empieza por integración empresarial y continúa por valor existente y coordinación de equipos.'},
-{'id':'atribucion','question':'Una IA parece rendir bien: ¿quién está aportando la capacidad?','areas':['capacidad','gobierno'],'seeds':['T1472','T1475','T874'],'reason':'Relaciona atribución, su protocolo de medición y la deuda de inteligencia humana.'}
+{'id':'transformacion','question':'A transformation is blocked: where should we intervene?','areas':['perspectiva','intervencion'],'seeds':['E1628','E1731','N1274'],'reason':'First change the level of observation; then connect a specific intervention with execution capability.'},
+{'id':'racionalizacion','question':'There is complexity and unused capability: how can value be found?','areas':['intervencion','adaptacion'],'seeds':['E1704','E1662','E1654'],'reason':'Relate rationalisation and value discovery to a documented business case.'},
+{'id':'tacito','question':'Modernisation is losing operators\' know-how.','areas':['capacidad','intervencion'],'seeds':['N1287','T874','T1472'],'reason':'Start with tacit knowledge; compare it with human intelligence debt and capability attribution.'},
+{'id':'autoridad','question':'An agent can act, but what authority and control does it need?','areas':['gobierno','formalizacion'],'seeds':['T2729','GH021','T1499'],'reason':'Open the sufficient-control architecture and its conditions before expanding towards structural awareness.'},
+{'id':'logistica','question':'How can many operational entities be coordinated in real time?','areas':['intervencion','adaptacion'],'seeds':['N864','N1805','N1803'],'reason':'Compare GEPLAN\'s logistics intelligence with xSeil\'s orchestration and routing mechanisms.'},
+{'id':'regimen','question':'The rules have changed: what signals enable a timely response?','areas':['adaptacion','gobierno'],'seeds':['T1387','N1826','N1831'],'reason':'Combine sufficient change detection with liquidity and factor cascades in a case.'},
+{'id':'matematicas','question':'I want to examine the mathematical formulation and its boundaries.','areas':['formalizacion','perspectiva'],'seeds':['N1817','N1815','sac-0b460b7d138063'],'reason':'Start with Companion Paper II v2.1 (N1817), which consolidates the formulation and resource accounting. N1815 retains the earlier v5 note as an antecedent to that revision. Then examine the dimensions of indeterminacy left open by the representation.'},
+{'id':'pensamiento','question':'I want to understand Iván Abril\'s way of thinking.','areas':['perspectiva','capacidad'],'seeds':['D-285','np-coaching','D-137'],'reason':'Open a reflection on the architect\'s craft and continue towards experience, learning and economic promises.'},
+{'id':'comunidad','question':'How is knowledge transmitted between people and communities?','areas':['capacidad','perspectiva'],'seeds':['np-coaching','N1287','D-018'],'reason':'Examine lived learning, tacit knowledge and spiritual experience within their own contexts.'},
+{'id':'integracion','question':'How can a transaction between businesses become execution and value?','areas':['intervencion','gobierno'],'seeds':['U2','E1662','N1274'],'reason':'Start with business integration and continue through existing value and team coordination.'},
+{'id':'atribucion','question':'An AI appears to perform well: who is contributing the capability?','areas':['capacidad','gobierno'],'seeds':['T1472','T1475','T874'],'reason':'Relate attribution, its measurement protocol and human intelligence debt.'}
 ]
 H=lambda v:escape(str(v),quote=True)
 def uri(n):
@@ -76,10 +76,10 @@ def build(root=HERE,own_origin='https://tegrity.ai',uploads='https://tegrity.ai/
          'memberCount':len(members),'internalRelations':internal[a['id']],
          'clusters':dict(Counter(c for k in members for c in nodes[k]['clusters']))})
     summary={'schema':'perspective-beyond/orientation-v1','sourceGraphSha256':before,'edition':graph['edition'],
-      'purpose':'Entender el corpus y elegir un posicionamiento antes de configurar el asistente.',
+      'purpose':'Understand the corpus and choose a positioning before configuring the assistant.',
       'publicEntry':PUBLIC_ENTRY,'directReader':DIRECT_READER,'configurationRule':CONFIG_RULE,
-      'flow':['Comprender el mapa superior','Formular la pregunta del visitante','Elegir un área y dos o tres fichas','Ajustar perspectiva, alcance y tokens','Abrir la lectura y revisar el posicionamiento'],
-      'distinction':{'areas':'Qué pregunta o mecanismo quieres explorar.','clusters':'En qué contexto institucional, de práctica o de investigación aparece.','fichas':'Qué textos y casos sostienen esa lectura.','posicionamiento':'El documento o ficha concreto desde el que se empieza a recorrer.'},
+      'flow':['Understand the upper-level map','Formulate the visitor\'s question','Choose an area and two or three cards','Adjust perspective, scope and tokens','Open the reading and review the positioning'],
+      'distinction':{'areas':'What question or mechanism you want to explore.','clusters':'In which institutional, practice or research context it appears.','fichas':'What texts and cases support that reading.','posicionamiento':'The specific document or card from which traversal begins.'},
       'counts':{'fichas':sum(n['type']=='ficha'for n in nodes.values()),'concepts':sum(n['type']=='concepto'for n in nodes.values()),'relations':len(graph['edges']),'clusters':len(graph['clusters']),'tags':len(graph['topics'])},
       'areas':[{k:v for k,v in a.items()if k!='members'}for a in areas],
       'bridges':[{k:v for k,v in b.items()if k!='edgeIds'}for b in bridges],'intents':INTENTS,
@@ -89,10 +89,10 @@ def build(root=HERE,own_origin='https://tegrity.ai',uploads='https://tegrity.ai/
     def write(path,data):
         p=out/path;p.parent.mkdir(parents=True,exist_ok=True);p.write_text(data,encoding='utf8',newline='\n')
     def wrapper(title,body):
-        return '<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+H(title)+' · Atlas</title><link rel="stylesheet" href="/atlas-web.css"></head><body><main><header><p class="kicker">Atlas · Primero orientarse, después posicionarse</p><h1>'+H(title)+'</h1><nav class="actions">'+link('/','Atlas completo')+link('/orientacion/','Mapa superior')+link('/entrada/','Entrada para asistentes')+link('/orientacion/lectura.txt','Resumen en texto')+'</nav></header><div class="body">'+body+'</div><footer>'+link('/fichas/','Todas las fichas')+' · '+link('/orientacion/modelo.json','Mapa y correspondencias')+'</footer></main></body></html>\n'
-    seed_card=lambda sid:'<li><strong>'+link(uri(nodes[sid]),nodes[sid]['title'])+'</strong><p class="meta">'+H(sid)+' · '+H(' / '.join(graph['clusters'][c]for c in nodes[sid]['clusters']))+'</p>'+('<p>'+link(nodes[sid]['original'],'Publicación de origen')+'</p>'if nodes[sid].get('original')else'')+'</li>'
+        return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+H(title)+' · Atlas</title><link rel="stylesheet" href="/atlas-web.css"></head><body><main><header><p class="kicker">Atlas · Orient first, then position</p><h1>'+H(title)+'</h1><nav class="actions">'+link('/','Complete Atlas')+link('/orientacion/','Upper-level map')+link('/entrada/','Assistant entry')+link('/orientacion/lectura.txt','Text summary')+'</nav></header><div class="body">'+body+'</div><footer>'+link('/fichas/','All cards')+' · '+link('/orientacion/modelo.json','Map and correspondences')+'</footer></main></body></html>\n'
+    seed_card=lambda sid:'<li><strong>'+link(uri(nodes[sid]),nodes[sid]['title'])+'</strong><p class="meta">'+H(sid)+' · '+H(' / '.join(graph['clusters'][c]for c in nodes[sid]['clusters']))+'</p>'+('<p>'+link(nodes[sid]['original'],'Source publication')+'</p>'if nodes[sid].get('original')else'')+'</li>'
     positions={'perspectiva':(170,100),'formalizacion':(500,90),'gobierno':(830,110),'intervencion':(220,310),'capacidad':(550,310),'adaptacion':(860,330),'fuentes':(510,500)}
-    svg=['<svg role="img" aria-label="Mapa de las áreas superiores del Atlas y sus principales puentes" viewBox="0 0 1050 590" style="width:100%;height:auto"><title>Una constelación, varias preguntas de entrada</title>']
+    svg=['<svg role="img" aria-label="Map of the Atlas\'s upper-level areas and main bridges" viewBox="0 0 1050 590" style="width:100%;height:auto"><title>One constellation, several entry questions</title>']
     for b in sorted(bridges,key=lambda b:-b['count'])[:14]:
         x1,y1=positions[b['from']];x2,y2=positions[b['to']]
         svg.append('<a href="/orientacion/puentes/'+b['from']+'-'+b['to']+'/"><path d="M'+str(x1)+' '+str(y1)+' L'+str(x2)+' '+str(y2)+'" stroke="#b7b8a8" stroke-width="'+str(1+math.log1p(b['count'])/4)+'" fill="none"><title>'+H(area_map[b['from']]['title']+' → '+area_map[b['to']]['title']+': '+str(b['count'])+' relaciones')+'</title></path></a>')
@@ -100,42 +100,42 @@ def build(root=HERE,own_origin='https://tegrity.ai',uploads='https://tegrity.ai/
         x,y=positions[a['id']]
         words=textwrap.wrap(a['title'],width=25)
         label=''.join('<tspan x="'+str(x)+'" y="'+str(y-19+j*21)+'">'+H(line)+'</tspan>'for j,line in enumerate(words))
-        svg.append('<a href="/orientacion/'+a['id']+'/"><rect x="'+str(x-138)+'" y="'+str(y-48)+'" width="276" height="96" rx="8" fill="#fffdf8" stroke="#98733d"/><text text-anchor="middle" fill="#172d39" style="font:18px Georgia,serif">'+label+'</text><text x="'+str(x)+'" y="'+str(y+29)+'" text-anchor="middle" fill="#425b65" style="font:14px system-ui">'+str(a['primaryCount'])+' piezas de entrada</text></a>')
+        svg.append('<a href="/orientacion/'+a['id']+'/"><rect x="'+str(x-138)+'" y="'+str(y-48)+'" width="276" height="96" rx="8" fill="#fffdf8" stroke="#98733d"/><text text-anchor="middle" fill="#172d39" style="font:18px Georgia,serif">'+label+'</text><text x="'+str(x)+'" y="'+str(y+29)+'" text-anchor="middle" fill="#425b65" style="font:14px system-ui">'+str(a['primaryCount'])+' entry pieces</text></a>')
     svg.append('</svg>')
-    intro='<p class="lead">El hilo del Atlas relaciona cómo observamos una realidad, cómo decidimos y actuamos en ella y qué capacidades permiten sostener y revisar lo conseguido.</p><p>Antes de pedir un clúster o una ficha, comprende qué preguntas recorre el corpus. Las áreas agrupan sus temas; los clústeres muestran los contextos donde esas ideas se trabajan. La constelación es una y sus áreas se cruzan.</p><section class="reading"><h2>Cómo elegir una entrada</h2><ol><li>Pregunta al visitante qué quiere comprender, resolver o crear.</li><li>Identifica una o dos áreas del mapa y ofrece dos o tres fichas concretas.</li><li>Explica por qué sirven para esa pregunta. Después acuerda alcance, enfoque y presupuesto de lectura.</li><li>Si la pregunta es amplia, ofrece dos recorridos y una sola pregunta de aclaración.</li></ol></section>'
-    body=intro+'<p>'+H(CONFIG_RULE)+'</p>'+''.join(svg)+'<h2>Las grandes preguntas</h2><div class="grid">'
+    intro='<p class="lead">The Atlas connects how we observe a reality, how we decide and act within it, and what capabilities enable us to sustain and review what has been achieved.</p><p>Before asking for a cluster or card, understand the questions explored by the corpus. Areas group its topics; clusters show the contexts in which those ideas are developed. There is one constellation and its areas intersect.</p><section class="reading"><h2>How to choose an entry</h2><ol><li>Ask the visitor what they want to understand, solve or create.</li><li>Identify one or two map areas and offer two or three specific cards.</li><li>Explain why they serve that question. Then agree on scope, focus and reading budget.</li><li>If the question is broad, offer two paths and a single clarification question.</li></ol></section>'
+    body=intro+'<p>'+H(CONFIG_RULE)+'</p>'+''.join(svg)+'<h2>The major questions</h2><div class="grid">'
     for a in areas:
-        body+='<section class="card"><h2>'+link('/orientacion/'+a['id']+'/',a['title'])+'</h2><p><strong>'+H(a['question'])+'</strong></p><p>'+H(a['description'])+'</p><p class="meta">'+str(a['memberCount'])+' piezas relacionadas · '+str(a['primaryCount'])+' con esta área como entrada principal.</p></section>'
-    body+='</div><h2>De una pregunta a un posicionamiento</h2><ul class="entries">'
+        body+='<section class="card"><h2>'+link('/orientacion/'+a['id']+'/',a['title'])+'</h2><p><strong>'+H(a['question'])+'</strong></p><p>'+H(a['description'])+'</p><p class="meta">'+str(a['memberCount'])+' related pieces · '+str(a['primaryCount'])+' with this area as the main entry.</p></section>'
+    body+='</div><h2>From a question to a positioning</h2><ul class="entries">'
     for i in INTENTS:
         body+='<li><h3>'+H(i['question'])+'</h3><p>'+H(i['reason'])+'</p><ul>'+''.join(seed_card(s)for s in i['seeds'])+'</ul></li>'
-    body+='</ul><h2>Las correspondencias son comprobables</h2><p>Las agrupaciones superiores se calculan a partir de las etiquetas ya presentes. Los puentes resumen relaciones existentes y conservan sus identificadores y ejemplos. Cada ficha tiene una entrada principal y puede participar en varias áreas.</p><p>'+link('/orientacion/resumen.json','Resumen estructurado')+' · '+link('/orientacion/modelo.json','Correspondencias completas')+' · '+link('/orientacion/lectura.txt','Lectura breve para el asistente')+'</p>'
-    write('orientacion/index.html',wrapper('Comprender el Atlas antes de elegir dónde entrar',body))
+    body+='</ul><h2>Correspondences can be checked</h2><p>Upper-level groupings are calculated from existing tags. Bridges summarise existing relationships and retain their identifiers and examples. Each card has a main entry and may participate in several areas.</p><p>'+link('/orientacion/resumen.json','Structured summary')+' · '+link('/orientacion/modelo.json','Complete correspondences')+' · '+link('/orientacion/lectura.txt','Brief reading for the assistant')+'</p>'
+    write('orientacion/index.html',wrapper('Understand the Atlas before choosing where to enter',body))
     for a in areas:
-        text='<p class="lead">'+H(a['question'])+'</p><p>'+H(a['description'])+'</p><h2>Temas de esta área</h2><div class="tags">'+''.join(link('/etiquetas/'+t+'/',graph['topics'][t])for t in a['tags'])+'</div><h2>Entradas concretas</h2><ul class="entries">'+''.join(seed_card(s)for s in a['seeds'])+'</ul><h2>Puentes hacia otras preguntas</h2><ul>'
+        text='<p class="lead">'+H(a['question'])+'</p><p>'+H(a['description'])+'</p><h2>Topics in this area</h2><div class="tags">'+''.join(link('/etiquetas/'+t+'/',graph['topics'][t])for t in a['tags'])+'</div><h2>Specific entries</h2><ul class="entries">'+''.join(seed_card(s)for s in a['seeds'])+'</ul><h2>Bridges to other questions</h2><ul>'
         for b in bridges:
-            if b['from']==a['id']:text+='<li>'+link('/orientacion/puentes/'+b['from']+'-'+b['to']+'/',area_map[b['to']]['title'])+' · '+str(b['count'])+' relaciones registradas.</li>'
-        text+='</ul><h2>Fichas y conceptos del área</h2><ul>'+''.join('<li>'+link(uri(nodes[s]),nodes[s]['title'])+'</li>'for s in a['members'])+'</ul>'
+            if b['from']==a['id']:text+='<li>'+link('/orientacion/puentes/'+b['from']+'-'+b['to']+'/',area_map[b['to']]['title'])+' · '+str(b['count'])+' recorded relationships.</li>'
+        text+='</ul><h2>Cards and concepts in the area</h2><ul>'+''.join('<li>'+link(uri(nodes[s]),nodes[s]['title'])+'</li>'for s in a['members'])+'</ul>'
         write('orientacion/'+a['id']+'/index.html',wrapper(a['title'],text))
     by_edge={e[0]:e for e in graph['edges']}
     for b in bridges:
-        text='<p>'+str(b['count'])+' relaciones del grafo conectan estas dos áreas mediante sus entradas principales.</p><h2>Ejemplos de lectura</h2><ul class="entries">'
+        text='<p>'+str(b['count'])+' graph relationships connect these two areas through their main entries.</p><h2>Reading examples</h2><ul class="entries">'
         for e in b['examples']:
             text+='<li><h3>'+link(uri(nodes[e['from']]),nodes[e['from']]['title'])+' → '+link(uri(nodes[e['to']]),nodes[e['to']]['title'])+'</h3><p><strong>'+H(e['kind'])+'</strong></p><p>'+H(e['reading'])+'</p><p class="meta">'+H(e['id'])+'</p></li>'
-        text+='</ul><details><summary>Identificadores de las relaciones agrupadas</summary><p>'+H(', '.join(b['edgeIds']))+'</p></details>'
+        text+='</ul><details><summary>Identifiers of grouped relationships</summary><p>'+H(', '.join(b['edgeIds']))+'</p></details>'
         write('orientacion/puentes/'+b['from']+'-'+b['to']+'/index.html',wrapper(area_map[b['from']]['title']+' → '+area_map[b['to']]['title'],text))
-    lines=['ATLAS · ORIENTACIÓN ANTES DEL POSICIONAMIENTO','',
-    'El corpus conecta pensamiento arquitectónico, investigación, intervención empresarial y experiencia humana. Sus fichas forman una red de relaciones documentadas. Primero entiende el mapa superior; después acuerda una entrada concreta con el visitante.',
-    'No empieces pidiendo un clúster a quien todavía no conoce el corpus. Pregunta qué quiere comprender, resolver o crear. Propón dos o tres fichas y explica el mecanismo que las hace pertinentes. Un área expresa una pregunta; un clúster expresa un contexto. El posicionamiento es el documento o ficha elegido.',
-    '',CONFIG_RULE,'Entrada en dominio propio: '+PUBLIC_ENTRY,'Lectura directa de todos los clústeres, fichas y relaciones: '+DIRECT_READER,'','MAPA DE ÁREAS']
+    lines=['ATLAS · ORIENTATION BEFORE POSITIONING','',
+    'The corpus connects architectural thought, research, business intervention and human experience. Its cards form a network of documented relationships. First understand the upper-level map; then agree on a specific entry with the visitor.',
+    'Do not start by asking someone unfamiliar with the corpus for a cluster. Ask what they want to understand, solve or create. Suggest two or three cards and explain the mechanism that makes them relevant. An area expresses a question; a cluster expresses a context. Positioning is the chosen document or card.',
+    '',CONFIG_RULE,'Entry on the organisation\'s own domain: '+PUBLIC_ENTRY,'Direct reading of all clusters, cards and relationships: '+DIRECT_READER,'','AREA MAP']
     for a in areas:
-        lines+=['',a['title']+' — '+a['question'],a['description'],'Temas: '+', '.join(graph['topics'][t]for t in a['tags'])+'.',
-        'Entradas: '+'; '.join(s+' · '+nodes[s]['title']for s in a['seeds'][:3]),'Ampliar: '+summary_origin(root)+'/orientacion/'+a['id']+'/']
-    lines+=['','PREGUNTAS Y ENTRADAS']
+        lines+=['',a['title']+' — '+a['question'],a['description'],'Topics: '+', '.join(graph['topics'][t]for t in a['tags'])+'.',
+        'Entries: '+'; '.join(s+' · '+nodes[s]['title']for s in a['seeds'][:3]),'Explore further: '+summary_origin(root)+'/orientacion/'+a['id']+'/']
+    lines+=['','QUESTIONS AND ENTRIES']
     for i in INTENTS:lines+=[i['question']+' → '+', '.join(i['seeds'])+'. '+i['reason']]
-    lines+=['','LOCALIZAR UNA FICHA','Para abrir un ID de ficha usa '+summary_origin(root)+'/fichas/ID/ . Los conceptos se abren en /conceptos/ID/. El resumen estructurado enlaza también la publicación de origen de cada entrada.',
-    '','PASO SIGUIENTE','Abre dos fichas, comprueba su contexto y ofrece el recorrido. Ajusta la selección según lo que encuentre el visitante. Para configuraciones heredadas, conserva los parámetros de la URL original. Cuando ya haya un objetivo explícito, trabaja desde él.',
-    'Mapa superior: '+summary_origin(root)+'/orientacion/','Todas las fichas: '+summary_origin(root)+'/fichas/','Correspondencias completas: '+summary_origin(root)+'/orientacion/modelo.json','']
+    lines+=['','LOCATE A CARD','To open a card ID, use '+summary_origin(root)+'/fichas/ID/ . Concepts open at /conceptos/ID/. The structured summary also links each entry\'s source publication.',
+    '','NEXT STEP','Open two cards, check their context and offer the path. Adjust the selection according to what the visitor finds. For inherited configurations, retain the original URL parameters. When there is already an explicit objective, work from it.',
+    'Upper-level map: '+summary_origin(root)+'/orientacion/','All cards: '+summary_origin(root)+'/fichas/','Complete correspondences: '+summary_origin(root)+'/orientacion/modelo.json','']
     write('orientacion/lectura.txt','\n'.join(lines))
     write('orientacion/resumen.json',json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
     write('orientacion/modelo.json',json.dumps(full,ensure_ascii=False,indent=2)+'\n')
@@ -145,9 +145,9 @@ def build(root=HERE,own_origin='https://tegrity.ai',uploads='https://tegrity.ai/
 
 def integrate_entry(root):
     out=root/'dist'
-    note='Lectura directa del Atlas en dominio propio: '+DIRECT_READER+' . Ofrece todos los clústeres, fichas, conceptos y relaciones mediante archivos de texto de Tegrity.AI. Si este alojamiento devuelve 403 o no se puede abrir, continúa allí conservando la URL y configuración del visitante. Antes de elegir un posicionamiento, lee el mapa superior: '+PUBLIC_ENTRY+' . Allí están las grandes preguntas del corpus, sus puentes y las fichas para empezar. Si el visitante todavía no conoce el Atlas, parte de su intención y ofrece dos o tres entradas concretas. '+CONFIG_RULE
+    note='Direct Atlas reading on the organisation\'s own domain: '+DIRECT_READER+' . It offers all clusters, cards, concepts and relationships through Tegrity.AI text files. If this host returns 403 or cannot be opened, continue there while retaining the visitor\'s URL and configuration. Before choosing a positioning, read the upper-level map: '+PUBLIC_ENTRY+' . It contains the corpus\'s major questions, its bridges and cards to get started. If the visitor does not yet know the Atlas, start with their intention and offer two or three specific entries. '+CONFIG_RULE
     marker='<!-- atlas-orientation:start -->'
-    block=marker+'<section class="reading"><p class="kicker">Lectura directa en Tegrity.AI</p><h2>'+link(DIRECT_READER,'Conecta tu asistente al Atlas completo')+'</h2><p>Todos los clústeres, fichas y relaciones en archivos de texto públicos del dominio propio.</p><p>'+link(PUBLIC_ENTRY,'Comprender el Atlas antes de elegir dónde entrar')+' · '+link('/orientacion/','Explorar las áreas y sus puentes')+'</p></section><!-- atlas-orientation:end -->'
+    block=marker+'<section class="reading"><p class="kicker">Direct reading on Tegrity.AI</p><h2>'+link(DIRECT_READER,'Connect your assistant to the Complete Atlas')+'</h2><p>All clusters, cards and relationships in public text files on the organisation\'s own domain.</p><p>'+link(PUBLIC_ENTRY,'Understand the Atlas before choosing where to enter')+' · '+link('/orientacion/','Explore areas and their bridges')+'</p></section><!-- atlas-orientation:end -->'
     for name in ['index.html','entrada/index.html']:
         path=out/name;html=path.read_text(encoding='utf8')
         if marker in html:html=re.sub(r'<!-- atlas-orientation:start -->.*?<!-- atlas-orientation:end -->',lambda m:block,html,flags=re.S)
@@ -158,9 +158,9 @@ def integrate_entry(root):
         path.write_text(html,encoding='utf8',newline='\n')
     for name in ['entrada.txt','llms.txt']:
         path=out/name;text=path.read_text(encoding='utf8')
-        text=re.sub(r'\nORIENTACIÓN PREVIA\n.*?\nFIN DE ORIENTACIÓN\n','\n',text,flags=re.S)
+        text=re.sub(r'\nPRIOR ORIENTATION\n.*?\nEND OF ORIENTATION\n','\n',text,flags=re.S)
         title,separator,rest=text.partition('\n')
-        path.write_text(title+'\n\nORIENTACIÓN PREVIA\n'+note+'\nFIN DE ORIENTACIÓN\n'+rest,encoding='utf8',newline='\n')
+        path.write_text(title+'\n\nPRIOR ORIENTATION\n'+note+'\nEND OF ORIENTATION\n'+rest,encoding='utf8',newline='\n')
     origin=summary_origin(root)
     paths=sorted('/'+p.relative_to(out).as_posix().removesuffix('index.html')for p in (out/'orientacion').rglob('index.html'))
     xml='<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+H(origin+p)+'</loc></url>'for p in paths)+'</urlset>'

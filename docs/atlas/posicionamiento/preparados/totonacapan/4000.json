@@ -271,8 +271,10 @@
       "https://totonacapan.com/?page_id=413#:~:text=Sin%20embargo%2C%20quer%C3%ADa%20esforzarme%2C%20en%20rememorar%20el%20pasado.%20Los%20otros",
       "https://totonacapan.com/?page_id=413#:~:text=Tras%20el%20trabajo%20industrial%20y%20los%20a%C3%B1os%20de%20Xalapa%20aparece"
     ],
-    "header": "# Posicionamiento · Biografía de Iván Abril Palma · Instituto del Totonacapan\nDocumento de origen: https://totonacapan.com/?page_id=413\n\n",
-    "headerTokens": 37,
+    "header": "# Positioning · Biografía de Iván Abril Palma · Instituto del Totonacapan\nSource document: https://totonacapan.com/?page_id=413\n\n",
+    "headerTokens": 35,
+    "headerEn": "# Positioning · Biografía de Iván Abril Palma · Instituto del Totonacapan\nSource document: https://totonacapan.com/?page_id=413\n\n",
+    "headerTokensEn": 35,
     "type": "documento",
     "focus": "np-biografia",
     "seeds": [
@@ -281,11 +283,11 @@
   },
   "budget": {
     "limit": 4000,
-    "used": 1407,
-    "remaining": 2593,
+    "used": 1347,
+    "remaining": 2653,
     "nextBlock": null,
     "encoding": "o200k_base",
-    "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
+    "accounting": "Sum of independently encoded blocks: document header, card and incoming relationship. The budget applies to selected reading content."
   },
   "reachable": 7,
   "selected": 7,
@@ -329,7 +331,7 @@
       "type": "documento",
       "url": "https://totonacapan.com/?page_id=413",
       "original": "https://totonacapan.com/?page_id=413",
-      "summary": "Documento desde el que se abre este posicionamiento.",
+      "summary": "Document from which this positioning opens.",
       "tags": [],
       "tagWeights": {},
       "clusters": [
@@ -363,7 +365,7 @@
         "empresa": 0.25,
         "memoria-territorio": 0.5
       },
-      "contextTokens": 119,
+      "contextTokens": 113,
       "distance": 1,
       "parent": "doc-41f3a410d217128630-entrada",
       "routeEdge": null,
@@ -390,7 +392,7 @@
       "tagWeights": {
         "memoria-territorio": 1
       },
-      "contextTokens": 104,
+      "contextTokens": 101,
       "distance": 2,
       "parent": "np-biografia",
       "routeEdge": "documento:np-r18",
@@ -425,7 +427,7 @@
         "legitimidad": 0.2,
         "memoria-territorio": 0.3
       },
-      "contextTokens": 193,
+      "contextTokens": 184,
       "distance": 3,
       "parent": "np-xanath",
       "routeEdge": "documento:map-maintenance-20261104-018",
@@ -456,7 +458,7 @@
         "movilidad": 0.375,
         "transformacion": 0.375
       },
-      "contextTokens": 126,
+      "contextTokens": 119,
       "distance": 3,
       "parent": "np-xanath",
       "routeEdge": "documento:np-r19",
@@ -485,7 +487,7 @@
         "aprendizaje": 0.5455,
         "memoria-territorio": 0.4545
       },
-      "contextTokens": 112,
+      "contextTokens": 106,
       "distance": 4,
       "parent": "np-posada",
       "routeEdge": "documento:np-r20",
@@ -520,7 +522,7 @@
         "memoria-territorio": 0.2,
         "perspectiva": 0.15
       },
-      "contextTokens": 172,
+      "contextTokens": 164,
       "distance": 4,
       "parent": "np-posada",
       "routeEdge": "documento:map-maintenance-20261104-012",
@@ -557,7 +559,7 @@
         "memoria-territorio": 0.2,
         "transformacion": 0.2
       },
-      "contextTokens": 195,
+      "contextTokens": 182,
       "distance": 4,
       "parent": "np-censo-practicas",
       "routeEdge": "documento:map-maintenance-20261104-021",
@@ -569,8 +571,8 @@
       "id": "contiene:doc-41f3a410d217128630-entrada:np-biografia",
       "from": "doc-41f3a410d217128630-entrada",
       "to": "np-biografia",
-      "kind": "ficha del documento",
-      "reading": "Esta pieza abre la lectura desde su documento de origen.",
+      "kind": "document card",
+      "reading": "This piece opens the reading from its source document.",
       "route": true
     },
     {
@@ -663,7 +665,7 @@
         "empresa": 0.25,
         "memoria-territorio": 0.5
       },
-      "contextTokens": 119,
+      "contextTokens": 113,
       "distance": 1,
       "parent": "doc-41f3a410d217128630-entrada",
       "routeEdge": null,
@@ -690,7 +692,7 @@
       "tagWeights": {
         "memoria-territorio": 1
       },
-      "contextTokens": 104,
+      "contextTokens": 101,
       "distance": 2,
       "parent": "np-biografia",
       "routeEdge": "documento:np-r18",
@@ -725,7 +727,7 @@
         "legitimidad": 0.2,
         "memoria-territorio": 0.3
       },
-      "contextTokens": 193,
+      "contextTokens": 184,
       "distance": 3,
       "parent": "np-xanath",
       "routeEdge": "documento:map-maintenance-20261104-018",
@@ -756,7 +758,7 @@
         "movilidad": 0.375,
         "transformacion": 0.375
       },
-      "contextTokens": 126,
+      "contextTokens": 119,
       "distance": 3,
       "parent": "np-xanath",
       "routeEdge": "documento:np-r19",
@@ -785,7 +787,7 @@
         "aprendizaje": 0.5455,
         "memoria-territorio": 0.4545
       },
-      "contextTokens": 112,
+      "contextTokens": 106,
       "distance": 4,
       "parent": "np-posada",
       "routeEdge": "documento:np-r20",
@@ -820,7 +822,7 @@
         "memoria-territorio": 0.2,
         "perspectiva": 0.15
       },
-      "contextTokens": 172,
+      "contextTokens": 164,
       "distance": 4,
       "parent": "np-posada",
       "routeEdge": "documento:map-maintenance-20261104-012",
@@ -857,12 +859,12 @@
         "memoria-territorio": 0.2,
         "transformacion": 0.2
       },
-      "contextTokens": 195,
+      "contextTokens": 182,
       "distance": 4,
       "parent": "np-censo-practicas",
       "routeEdge": "documento:map-maintenance-20261104-021",
       "affinity": 1
     }
   ],
-  "reading": "# Posicionamiento · Biografía de Iván Abril Palma · Instituto del Totonacapan\nDocumento de origen: https://totonacapan.com/?page_id=413\n\n## Biografía: una trayectoria en diálogo\nLa biografía reúne episodios de aprendizaje, organización y trabajo comunitario. Sus conversaciones ofrecen una escala personal para leer cuándo una experiencia hace cambiar la pregunta que guía una práctica.\nEtiquetas: Aprendizaje y transmisión de capacidades 25.00%; Empresa y gestión 25.00%; Memoria, comunidad y territorio 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-biografia\nDocumento de origen: https://totonacapan.com/?page_id=413\n\nBiografía: una trayectoria en diálogo → Xanath y el conocimiento que se practica · trayectoria. La trayectoria lleva a un caso en que el saber está ligado al lugar y a quienes lo practican.\n\n## Xanath y el conocimiento que se practica\nLa conversación sobre Xanath invita a observar cómo territorio, oficio y personas sostienen saberes que se transmiten mediante práctica. La custodia comienza por reconocer a quienes portan ese conocimiento.\nEtiquetas: Memoria, comunidad y territorio 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-xanath\nDocumento de origen: https://totonacapan.com/?page_id=413\n\nCenso de Artes y Oficios: describir condiciones de continuidad → Xanath y el conocimiento que se practica · lectura comparada de mecanismos. El diseño de la ficha del Censo aporta preguntas concretas sobre transmisión, materiales y condiciones de uso para la lectura de un conocimiento que se practica en su territorio.\nFuente de la relación: https://totonacapan.com/?page_id=49\n\n## Censo de Artes y Oficios: describir condiciones de continuidad\nEl diseño del Censo relaciona prácticas, transmisión, materiales, territorio y necesidades expresadas por sus portadores. Admite varios oficios por persona y separa registro, uso estadístico, identificación pública e imágenes mediante decisiones de consentimiento. Su utilidad se plantea como devolución: reconocer dónde se interrumpe el aprendizaje y qué apoyo permitiría continuar. La página presenta un marco en preparación y un ejemplo de ficha para examinar ese diseño.\nEtiquetas: Aprendizaje y transmisión de capacidades 20.00%; Investigación y documentación técnica 15.00%; Evidencia, procedencia y atribución 15.00%; Legitimidad y principios 20.00%; Memoria, comunidad y territorio 30.00%\nFicha: https://totonacapan.com/?page_id=49\nDocumento de origen: https://totonacapan.com/?page_id=49\n\nXanath y el conocimiento que se practica → La posada como lugar de encuentro · comparación. La reserva y la posada permiten comparar qué condiciones conservan o propician un encuentro.\n\n## La posada como lugar de encuentro\nLa historia institucional presenta la posada como una infraestructura donde se cruzan personas, noticias, oficios y experiencias. Su continuidad permite examinar qué hace posible que esos intercambios tengan vida más allá de una visita.\nEtiquetas: Infraestructura de encuentros 25.00%; Movilidad e infraestructura 37.50%; Transformación y continuidad operativa 37.50%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-posada\nDocumento de origen: https://totonacapan.com/?page_id=411\n\nLa posada como lugar de encuentro → Formación Integral: del maestro al aprendizaje digital · transmisión. Los lugares de encuentro y los programas de aprendizaje permiten seguir cómo continúa una práctica.\n\n## Formación Integral: del maestro al aprendizaje digital\nLa historia territorial vincula comunidades de práctica, aprendizaje con un maestro y acceso digital. Un medio de transmisión gana valor cuando permite a la persona ejercitar y continuar lo aprendido.\nEtiquetas: Aprendizaje y transmisión de capacidades 54.55%; Memoria, comunidad y territorio 45.45%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-formacion\nDocumento de origen: https://totonacapan.com/?page_id=411\n\nLa Posada: una infraestructura para el encuentro → La posada como lugar de encuentro · lectura comparada de mecanismos. El ensayo de la Posada desarrolla el mecanismo que la ficha de encuentro plantea: reconocer el asunto, reunir herramientas y memoria y sostener una relación que ayude a continuar.\nFuente de la relación: https://totonacapan.com/?page_id=222\n\n## La Posada: una infraestructura para el encuentro\nEl asunto que trae una persona orienta la infraestructura que le permite continuar. La Posada reúne herramientas, memoria, referencias y conversaciones pertinentes; su valor aparece al reconocer qué necesita quien llega. El ensayo relaciona hospitalidad física y digital con el taller y la curaduría del encuentro. Permite pensar una institución desde su capacidad de recibir, conectar y mantener disponible una ayuda concreta.\nEtiquetas: Aprendizaje y transmisión de capacidades 20.00%; Investigación y documentación técnica 10.00%; Infraestructura de encuentros 35.00%; Memoria, comunidad y territorio 20.00%; Cambio de perspectiva 15.00%\nFicha: https://totonacapan.com/?page_id=222\nDocumento de origen: https://totonacapan.com/?page_id=222\n\nCenso de Artes y Oficios: describir condiciones de continuidad → Perfiles de frontera: de la experiencia a la institución · lectura comparada de mecanismos. Los bloques del Censo describen condiciones de transmisión; el ensayo de perfiles muestra cómo esas condiciones pueden convertir una experiencia individual en práctica compartida.\nFuente de la relación: https://totonacapan.com/?page_id=49\n\n## Perfiles de frontera: de la experiencia a la institución\nUna capacidad se vuelve compartida cuando otras personas pueden aprenderla, utilizarla y continuarla. El ensayo reúne movilidad entre mundos, oficio técnico, lectura del territorio, intermediación, trabajo con incertidumbre e institucionalización. El taller permite observar cómo herramientas, confianza y aprendizaje convierten experiencia individual en una práctica que circula. Esa lectura ofrece una perspectiva para coordinar transformación tecnológica y transmisión de capacidades entre contextos.\nEtiquetas: Aprendizaje y transmisión de capacidades 20.00%; Empresa y gestión 10.00%; Infraestructura de encuentros 20.00%; Evidencia, procedencia y atribución 10.00%; Memoria, comunidad y territorio 20.00%; Transformación y continuidad operativa 20.00%\nFicha: https://totonacapan.com/?page_id=223\nDocumento de origen: https://totonacapan.com/?page_id=223\n\n"
+  "reading": "# Positioning · Biografía de Iván Abril Palma · Instituto del Totonacapan\nSource document: https://totonacapan.com/?page_id=413\n\n## Biografía: una trayectoria en diálogo\nLa biografía reúne episodios de aprendizaje, organización y trabajo comunitario. Sus conversaciones ofrecen una escala personal para leer cuándo una experiencia hace cambiar la pregunta que guía una práctica.\nTags: Learning and capability transmission 25.00%; Business and management 25.00%; Memory, community and territory 50.00%\nCard: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-biografia\nSource document: https://totonacapan.com/?page_id=413\n\nBiografía: una trayectoria en diálogo → Xanath y el conocimiento que se practica · trayectoria. La trayectoria lleva a un caso en que el saber está ligado al lugar y a quienes lo practican.\n\n## Xanath y el conocimiento que se practica\nLa conversación sobre Xanath invita a observar cómo territorio, oficio y personas sostienen saberes que se transmiten mediante práctica. La custodia comienza por reconocer a quienes portan ese conocimiento.\nTags: Memory, community and territory 100.00%\nCard: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-xanath\nSource document: https://totonacapan.com/?page_id=413\n\nCenso de Artes y Oficios: describir condiciones de continuidad → Xanath y el conocimiento que se practica · lectura comparada de mecanismos. El diseño de la ficha del Censo aporta preguntas concretas sobre transmisión, materiales y condiciones de uso para la lectura de un conocimiento que se practica en su territorio.\nRelationship source: https://totonacapan.com/?page_id=49\n\n## Censo de Artes y Oficios: describir condiciones de continuidad\nEl diseño del Censo relaciona prácticas, transmisión, materiales, territorio y necesidades expresadas por sus portadores. Admite varios oficios por persona y separa registro, uso estadístico, identificación pública e imágenes mediante decisiones de consentimiento. Su utilidad se plantea como devolución: reconocer dónde se interrumpe el aprendizaje y qué apoyo permitiría continuar. La página presenta un marco en preparación y un ejemplo de ficha para examinar ese diseño.\nTags: Learning and capability transmission 20.00%; Research and technical documentation 15.00%; Evidence, provenance and attribution 15.00%; Legitimacy and principles 20.00%; Memory, community and territory 30.00%\nCard: https://totonacapan.com/?page_id=49\nSource document: https://totonacapan.com/?page_id=49\n\nXanath y el conocimiento que se practica → La posada como lugar de encuentro · comparación. La reserva y la posada permiten comparar qué condiciones conservan o propician un encuentro.\n\n## La posada como lugar de encuentro\nLa historia institucional presenta la posada como una infraestructura donde se cruzan personas, noticias, oficios y experiencias. Su continuidad permite examinar qué hace posible que esos intercambios tengan vida más allá de una visita.\nTags: Encounter infrastructure 25.00%; Mobility and infrastructure 37.50%; Transformation and operational continuity 37.50%\nCard: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-posada\nSource document: https://totonacapan.com/?page_id=411\n\nLa posada como lugar de encuentro → Formación Integral: del maestro al aprendizaje digital · transmisión. Los lugares de encuentro y los programas de aprendizaje permiten seguir cómo continúa una práctica.\n\n## Formación Integral: del maestro al aprendizaje digital\nLa historia territorial vincula comunidades de práctica, aprendizaje con un maestro y acceso digital. Un medio de transmisión gana valor cuando permite a la persona ejercitar y continuar lo aprendido.\nTags: Learning and capability transmission 54.55%; Memory, community and territory 45.45%\nCard: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-formacion\nSource document: https://totonacapan.com/?page_id=411\n\nLa Posada: una infraestructura para el encuentro → La posada como lugar de encuentro · lectura comparada de mecanismos. El ensayo de la Posada desarrolla el mecanismo que la ficha de encuentro plantea: reconocer el asunto, reunir herramientas y memoria y sostener una relación que ayude a continuar.\nRelationship source: https://totonacapan.com/?page_id=222\n\n## La Posada: una infraestructura para el encuentro\nEl asunto que trae una persona orienta la infraestructura que le permite continuar. La Posada reúne herramientas, memoria, referencias y conversaciones pertinentes; su valor aparece al reconocer qué necesita quien llega. El ensayo relaciona hospitalidad física y digital con el taller y la curaduría del encuentro. Permite pensar una institución desde su capacidad de recibir, conectar y mantener disponible una ayuda concreta.\nTags: Learning and capability transmission 20.00%; Research and technical documentation 10.00%; Encounter infrastructure 35.00%; Memory, community and territory 20.00%; Change of perspective 15.00%\nCard: https://totonacapan.com/?page_id=222\nSource document: https://totonacapan.com/?page_id=222\n\nCenso de Artes y Oficios: describir condiciones de continuidad → Perfiles de frontera: de la experiencia a la institución · lectura comparada de mecanismos. Los bloques del Censo describen condiciones de transmisión; el ensayo de perfiles muestra cómo esas condiciones pueden convertir una experiencia individual en práctica compartida.\nRelationship source: https://totonacapan.com/?page_id=49\n\n## Perfiles de frontera: de la experiencia a la institución\nUna capacidad se vuelve compartida cuando otras personas pueden aprenderla, utilizarla y continuarla. El ensayo reúne movilidad entre mundos, oficio técnico, lectura del territorio, intermediación, trabajo con incertidumbre e institucionalización. El taller permite observar cómo herramientas, confianza y aprendizaje convierten experiencia individual en una práctica que circula. Esa lectura ofrece una perspectiva para coordinar transformación tecnológica y transmisión de capacidades entre contextos.\nTags: Learning and capability transmission 20.00%; Business and management 10.00%; Encounter infrastructure 20.00%; Evidence, provenance and attribution 10.00%; Memory, community and territory 20.00%; Transformation and operational continuity 20.00%\nCard: https://totonacapan.com/?page_id=223\nSource document: https://totonacapan.com/?page_id=223\n\n"
 }

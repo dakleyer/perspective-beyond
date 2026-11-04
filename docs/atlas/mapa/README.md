@@ -1,65 +1,65 @@
-# Mapas de radio de relaciones · Perspective Beyond
+# Relationship-radius maps · Perspective Beyond
 
-[Abrir el visualizador](https://dakleyer.github.io/perspective-beyond/atlas/mapa/) · [Ver un mapa insertado](https://dakleyer.github.io/perspective-beyond/atlas/mapa/ejemplo.html) · [Leer el grafo completo](https://dakleyer.github.io/perspective-beyond/atlas/mapa/grafo.json)
+[Open the viewer](https://dakleyer.github.io/perspective-beyond/atlas/mapa/) · [View an embedded map](https://dakleyer.github.io/perspective-beyond/atlas/mapa/ejemplo.html) · [Read the complete graph](https://dakleyer.github.io/perspective-beyond/atlas/mapa/grafo.json)
 
-Un mapa de radio selecciona un vecindario alrededor de una ficha, un concepto o una URL de origen. El navegador y la herramienta para bots ejecutan el mismo cálculo. Cada nodo del grafo completo lleva sus etiquetas temáticas y sus clústeres. Los documentos usan las etiquetas del catálogo. Un concepto hereda las etiquetas presentes en al menos la mitad de sus fichas de apoyo. Si ninguna alcanza ese umbral, queda bajo Investigación y documentación técnica.
+A radius map selects a neighbourhood around a card, concept or source URL. The browser and bot tool run the same calculation. Every node in the complete graph carries its thematic tags and clusters. Documents use the catalogue's tags. A concept inherits the tags present in at least half of its supporting cards. If none reaches that threshold, it falls under Research and technical documentation.
 
-## Parámetros de la URL
+## URL parameters
 
-| Parámetro | Significado | Valor por defecto |
+| Parameter | Meaning | Default value |
 | --- | --- | --- |
-| `centro` | ID, URL de la ficha o URL original. Los alias de edición publicados también son válidos. | `T1499` |
-| `radio` | Número máximo de relaciones recorridas desde el centro. Admite 0 a 4. | `2` |
-| `max` | Nodos que pueden aparecer, incluido el centro. Admite 1 a 60. | `16` |
-| `red` | `documentos` recorre las relaciones documentales. `ideas` incluye además conceptos, relaciones conceptuales y vínculos de apoyo entre documentos y conceptos. | `documentos` |
-| `sentido` | `ambas`, `salientes` o `entrantes`. Controla el recorrido. Las flechas conservan el sentido registrado de la relación. | `ambas` |
-| `peso` | Repetible. Usa `etiqueta:peso`, por ejemplo `matematicas:0.5` y `empresa:0.3`. También admite prefijo `tema:` y coma decimal. | Sin ponderación |
-| `solo` | Con `1`, el recorrido pasa únicamente por nodos que comparten alguna etiqueta elegida. El centro permanece visible. | Desactivado |
-| `embed` | Con `1`, muestra el mapa y su panel de lectura en formato insertable. | Desactivado |
+| `centro` | ID, card URL or original URL. Published edition aliases are also valid. | `T1499` |
+| `radio` | Maximum number of relationships traversed from the centre. Accepts 0 to 4. | `2` |
+| `max` | Nodes that may appear, including the centre. Accepts 1 to 60. | `16` |
+| `red` | `documentos` traverses documentary relationships. `ideas` also includes concepts, conceptual relationships and supporting links between documents and concepts. | `documentos` |
+| `sentido` | `ambas`, `salientes` or `entrantes`. Controls traversal. Arrows retain the recorded direction of the relationship. | `ambas` |
+| `peso` | Repeatable. Use `tag:weight`, for example `matematicas:0.5` and `empresa:0.3`. Also accepts the `tema:` prefix and a decimal comma. | No weighting |
+| `solo` | With `1`, traversal passes only through nodes sharing a selected tag. The centre remains visible. | Disabled |
+| `embed` | With `1`, displays the map and its reading panel in an embeddable format. | Disabled |
 
-Las claves de las etiquetas están en `topics` de `grafo.json` y en el [índice de etiquetas](https://dakleyer.github.io/perspective-beyond/atlas/enfoques.txt). Si una URL identifica varias fichas, el visualizador indica sus IDs para que se pueda elegir la correcta. Conserva los fragmentos y los parámetros de la URL original que identifican contenido.
+Tag keys are in `topics` in `grafo.json` and in the [tag index](https://dakleyer.github.io/perspective-beyond/atlas/enfoques.txt). If a URL identifies several cards, the viewer indicates their IDs so the correct one can be selected. It retains the fragments and parameters of the original URL that identify content.
 
-## Cálculo reproducible
+## Reproducible calculation
 
-1. Resuelve el nodo central y selecciona las capas y el sentido del recorrido. Una búsqueda por amplitud mide la distancia mínima, un salto por relación. El centro tiene distancia cero.
-2. Divide cada peso por la suma. La afinidad de un nodo es la suma de los pesos normalizados de las etiquetas que lleva. Por ejemplo, 0,5 y 0,3 se convierten en 62,5 % y 37,5 %.
-3. Ordena candidatos por `(0.25 + 0.75 × afinidad) / (1 + distancia)`. Sin pesos, usa `1 / (1 + distancia)`. Desempata por distancia e ID. Al elegir una ficha, conserva su camino al centro si cabe en el límite. En caminos de igual longitud, el recorrido visita primero vecinos de mayor afinidad y desempata por ID de nodo y relación.
-4. Devuelve los nodos, su distancia y camino, las relaciones entre los nodos visibles, y los conteos de alcanzables, visibles y omitidos por anillo. `route: true` distingue los enlaces que sostienen el camino al centro de los cruces adicionales. La prioridad expresa cercanía y afinidad dentro del corpus. Su interpretación depende del tipo, el texto y la procedencia de cada relación.
+1. Resolve the central node and select the layers and traversal direction. A breadth-first search measures minimum distance, one hop per relationship. The centre has distance zero.
+2. Divide each weight by the sum. A node's affinity is the sum of the normalised weights of the tags it carries. For example, 0.5 and 0.3 become 62.5% and 37.5%.
+3. Sort candidates by `(0.25 + 0.75 × affinity) / (1 + distance)`. Without weights, use `1 / (1 + distance)`. Break ties by distance and ID. When choosing a card, retain its path to the centre if it fits within the limit. For paths of equal length, traversal visits neighbours with greater affinity first and breaks ties by node and relationship ID.
+4. Return the nodes, their distance and path, the relationships between visible nodes, and counts of reachable, visible and omitted nodes by ring. `route: true` distinguishes links supporting the path to the centre from additional crossings. Priority expresses proximity and affinity within the corpus. Its interpretation depends on each relationship's type, text and provenance.
 
-## Generar un mapa desde un bot
+## Generate a map from a bot
 
-Ejecuta con Node.js, desde la raíz del repositorio.
+Run with Node.js from the repository root.
 
 ```sh
 node docs/atlas/mapa/cli.mjs "centro=GH049&radio=2&max=16&red=ideas&peso=matematicas:0.5&peso=empresa:0.3" > mapa.json
 ```
 
-También puedes pasar la URL completa como primer argumento. Para calcular con otra edición, añade como segundo argumento la ruta de su `grafo.json`. La salida `perspective-beyond/radius-v1` incluye `request`, `dataset`, `center`, `layers`, `nodes` y `edges`. Los nodos incluyen URL de ficha, original cuando existe, etiquetas, distancia, afinidad y relación de recorrido. Los enlaces conservan tipo, sentido, explicación y evidencia cuando está registrada. `dataset` contiene las huellas de los dos catálogos fuente. Para repetir un resultado después de una actualización, usa `grafo.json` del commit de GitHub de esa edición.
+You can also pass the full URL as the first argument. To calculate with another edition, add the path to its `grafo.json` as the second argument. The `perspective-beyond/radius-v1` output includes `request`, `dataset`, `center`, `layers`, `nodes` and `edges`. Nodes include the card URL, the original when available, tags, distance, affinity and traversal relationship. Links retain type, direction, explanation and evidence when recorded. `dataset` contains the hashes of the two source catalogues. To repeat a result after an update, use `grafo.json` from that edition's GitHub commit.
 
-El formato `perspective-beyond/graph-v1` contiene `nodes` y `edges`. `edgeFields` declara el orden de los campos de cada relación. El ID de una relación conserva su ID original con el prefijo de capa, como `documento:D001` o `concepto:D001`. El generador verifica que cada relación apunte a nodos existentes y que todas las etiquetas estén en el registro.
+The `perspective-beyond/graph-v1` format contains `nodes` and `edges`. `edgeFields` declares the field order of each relationship. A relationship ID retains its original ID with a layer prefix, such as `documento:D001` or `concepto:D001`. The generator checks that every relationship points to existing nodes and every tag is in the register.
 
-## Insertar en una web
+## Embed in a website
 
-En el visualizador, calcula el mapa y pulsa **Copiar código para insertar**, o usa directamente la URL con `embed=1`.
+In the viewer, calculate the map and click **Copy embed code**, or use the URL directly with `embed=1`.
 
 ```html
 <iframe
   src="https://dakleyer.github.io/perspective-beyond/atlas/mapa/?centro=GH049&amp;radio=2&amp;red=ideas&amp;peso=matematicas%3A0.5&amp;peso=empresa%3A0.3&amp;embed=1"
-  title="Mapa de relaciones de la ficha A23"
+  title="Relationship map for card A23"
   loading="lazy"
   style="width:100%;height:720px;border:0"></iframe>
 ```
 
-La página anfitriona puede compartir la URL, el HTML de inserción o el JSON resultante. El mapa se vuelve a calcular con el grafo publicado cuando se abre. Los anillos muestran los saltos, y el panel de lectura permite abrir cada ficha y su fuente.
+The host page can share the URL, embed HTML or resulting JSON. The map is recalculated with the published graph when opened. Rings show the hops, and the reading panel allows each card and its source to be opened.
 
-El [ejemplo calculado en JSON](https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/mapa/ejemplos/structural-awareness.json) permite comprobar la misma selección con un lector de texto. Para otro mapa, descarga su JSON desde el visualizador o usa la CLI.
+The [calculated JSON example](https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/mapa/ejemplos/structural-awareness.json) allows the same selection to be checked with a text reader. For another map, download its JSON from the viewer or use the CLI.
 
-## Actualizar el grafo
+## Update the graph
 
-Después de actualizar `docs/data/atlas.json` y `docs/atlas/global-catalog.json`, ejecuta:
+After updating `docs/data/atlas.json` and `docs/atlas/global-catalog.json`, run:
 
 ```sh
 python docs/atlas/mapa/build_graph.py
 ```
 
-El generador valida que ambas entradas sean de la misma edición. Publica el nuevo `grafo.json` en el mismo commit que las fuentes del Atlas para que las URLs compartidas sigan resolviendo sobre una edición coherente.
+The generator validates that both inputs belong to the same edition. Publish the new `grafo.json` in the same commit as the Atlas sources so shared URLs continue to resolve against a coherent edition.

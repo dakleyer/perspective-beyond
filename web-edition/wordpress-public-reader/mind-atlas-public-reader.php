@@ -58,8 +58,8 @@ add_action('template_redirect', static function () {
 }, -999);
 
 add_action('wp_head', static function () {
-    echo '<link rel="alternate" type="text/plain" title="Mind Atlas: entrada para asistentes" href="' . esc_url(home_url('/atlas-reader/entrada.txt')) . '">' . "\n";
-    echo '<link rel="sitemap" type="application/xml" title="Mind Atlas: URLs públicas" href="' . esc_url(home_url('/atlas-reader/sitemap.xml')) . '">' . "\n";
+    echo '<link rel="alternate" type="text/plain" title="Mind Atlas: assistant entry" href="' . esc_url(home_url('/atlas-reader/entrada.txt')) . '">' . "\n";
+    echo '<link rel="sitemap" type="application/xml" title="Mind Atlas: public URLs" href="' . esc_url(home_url('/atlas-reader/sitemap.xml')) . '">' . "\n";
 });
 
 add_filter('robots_txt', static function ($output) {

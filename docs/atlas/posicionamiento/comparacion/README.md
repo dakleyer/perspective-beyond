@@ -1,57 +1,57 @@
-# Posicionamiento y recorrido: comparación de lectura
+# Positioning and traversal: reading comparison
 
-4 de noviembre de 2026.
+4 November 2026.
 
-El posicionamiento combina un documento de entrada, sus fichas, la composición porcentual de cada ficha, los pesos elegidos por el visitante y un presupuesto de tokens. Esta prueba comparó la explicación que producen sus lecturas con la del recorrido anterior por saltos.
+Positioning combines an entry document, its cards, each card's percentage composition, the visitor's chosen weights and a token budget. This test compared the explanation produced by its readings with that of the previous hop-based traversal.
 
-## Resultado
+## Result
 
-En la última evaluación independiente de seis preguntas, el posicionamiento obtuvo preferencia en tres y empató en tres. El recorrido combina una base próxima al documento con una expansión por afinidad temática. Las conexiones conservan su significado y las piezas seleccionadas se mantienen al ampliar el presupuesto.
+In the last independent evaluation of six questions, positioning was preferred in three and tied in three. The reading path combines a base close to the document with expansion by thematic affinity. Connections retain their meaning and selected pieces remain when the budget is increased.
 
-| Pregunta de lectura | Recorrido anterior /20 | Posicionamiento /20 | Preferencia del evaluador |
+| Reading question | Previous traversal /20 | Positioning /20 | Evaluator's preference |
 | --- | ---: | ---: | --- |
-| Qué aporta el arquitecto entre oficios y planteamiento matemático | 18 | 20 | Posicionamiento |
-| Contribución humana, trabajo compensatorio y decisión de mejora | 20 | 20 | Empate |
-| Señal, autorización y liquidez compartida en Phylons | 20 | 20 | Empate |
-| De la landing de JubAp.eu a una intervención y sus lecturas | 14 | 20 | Posicionamiento |
-| Capacidad empresarial distribuida entre territorios | 19 | 20 | Posicionamiento |
-| Una solución expresada que sigue sin ser escuchada | 20 | 20 | Empate |
+| What the architect contributes between trades and mathematical formulation | 18 | 20 | Positioning |
+| Human contribution, compensatory work and improvement decisions | 20 | 20 | Tie |
+| Signal, authorisation and shared liquidity in Phylons | 20 | 20 | Tie |
+| From the JubAp.eu landing page to an intervention and its readings | 14 | 20 | Positioning |
+| Business capability distributed across territories | 19 | 20 | Positioning |
+| An expressed solution that still goes unheard | 20 | 20 | Tie |
 
-## Cómo se compararon
+## How they were compared
 
-Las dos variantes recibieron la misma pregunta, presupuesto y bloques de texto de la misma edición de fuentes. Se cambió el recorrido que selecciona las piezas. El algoritmo anterior se tomó del commit `f269656e8e6ce937f833bb7946430d654d6e0356`, con radio cuatro y hasta sesenta piezas; su lectura se empaquetó en bloques completos hasta el presupuesto común. El posicionamiento aplicó los porcentajes y el presupuesto directamente. El orden de presentación A/B se alternó entre preguntas.
+Both variants received the same question, budget and text blocks from the same source edition. The traversal that selects the pieces was changed. The previous algorithm was taken from commit `f269656e8e6ce937f833bb7946430d654d6e0356`, with radius four and up to sixty pieces; its reading was packed into complete blocks up to the common budget. Positioning applied the percentages and budget directly. The A/B presentation order alternated between questions.
 
-Los lectores comenzaron sin historial del autor y trabajaron exclusivamente con sus paquetes. Produjeron una respuesta independiente por variante. Otro lector juzgó las respuestas y los textos recibidos, sin conocer qué método correspondía a A/B y sin usar las puntuaciones propuestas por sus autores. Cada respuesta recibió cinco notas de cero a cuatro: mecanismo, cobertura de la pregunta, apoyo documental, fluidez para un tercero y precisión temporal y de atribución.
+Readers began without the author's history and worked exclusively with their packages. They produced an independent answer for each variant. Another reader judged the answers and received texts, without knowing which method corresponded to A/B and without using the scores proposed by their authors. Each answer received five scores from zero to four: mechanism, question coverage, documentary support, fluency for a third party, and temporal and attribution accuracy.
 
-## Qué cambiaron las pruebas
+## What the tests changed
 
-La primera evaluación independiente dio tres preferencias al posicionamiento, dos al recorrido anterior y un empate. Mostró dos mejoras concretas:
+The first independent evaluation gave positioning three preferences, the previous traversal two and one tie. It showed two specific improvements:
 
-1. Algunas fichas de las webs tenían título y referencias, pero poco texto de lectura. Se incorporaron extractos literales de Abstract o de los párrafos iniciales en 154 fichas. Cada extracto identifica la fuente y su huella; también mejora su composición temática.
-2. Una afinidad temática alta podía adelantar índices generales y desplazar conceptos necesarios para explicar el documento de entrada. El recorrido conserva ahora hasta cuatro conceptos directamente sostenidos por el artículo, ordenados por afinidad con su propia composición. Después sigue la expansión ponderada del visitante. Una relación de uso documentado incorpora también la lectura que desarrolla ese mecanismo.
+1. Some website cards had a title and references but little reading text. Literal extracts from the Abstract or opening paragraphs were incorporated into 154 cards. Each extract identifies its source and hash; it also improves its thematic composition.
+2. High thematic affinity could bring general indexes forward and displace concepts needed to explain the entry document. The traversal now retains up to four concepts directly supported by the article, ordered by affinity with its own composition. The visitor's weighted expansion follows. A documented-use relationship also incorporates the reading that develops that mechanism.
 
-Dos pruebas ciegas específicas de los extractos prefirieron la lectura corregida de Human Intelligence Debt y Phylons. Se repitieron las seis preguntas con los mismos extractos disponibles para ambas variantes; después se repitió la comparación con la base conceptual cercana al documento. La tabla recoge el juicio independiente de esta última ronda.
+Two specific blind tests of the extracts preferred the corrected reading of Human Intelligence Debt and Phylons. The six questions were repeated with the same extracts available to both variants; the comparison was then repeated with the conceptual base close to the document. The table records the independent judgement from this last round.
 
-El cierre incorporó una lectura de uso documentado antes de la expansión temática. Otro lector nuevo repitió las dos preguntas afectadas: mantuvo el empate en Human Intelligence Debt (19/19) y prefirió el posicionamiento en capacidad empresarial distribuida (19/17). Esta prueba conservó los mismos presupuestos y fuentes.
+The final version incorporated a documented-use reading before thematic expansion. Another new reader repeated the two affected questions: it maintained the tie in Human Intelligence Debt (19/19) and preferred positioning in distributed business capability (19/17). This test retained the same budgets and sources.
 
-Los registros pequeños de las fichas incluyen los porcentajes, clústeres y costes de sus vecinas. Un lector puede elegir la siguiente lectura con esos datos. Los 83 pasajes de la biografía comparten su documento de origen y conservan entradas concretas por ficha; la URL del documento abre el conjunto.
+The small card records include their neighbours' percentages, clusters and costs. A reader can choose the next reading using those data. The 83 biographical passages share their source document and retain specific card entry points; the document URL opens the collection.
 
-## Prueba de una URL configurada
+## Test of a configured URL
 
-Un visitante nuevo utilizó únicamente herramientas web, con T874 como entrada, 2.400 tokens, alcance cerrado en Tegrity.AI y pesos 70:30 de capacidad humana e integridad de IA. La primera lectura manual mostró que la selección y la cuenta completa debían entregarse juntas. Se reforzó la regla de clústeres y se añadieron siete configuraciones calculadas.
+A new visitor used only web tools, with T874 as the entry point, 2,400 tokens, closed scope within Tegrity.AI and 70:30 human capability and AI integrity weights. The first manual reading showed that the selection and complete accounting needed to be delivered together. The cluster rule was strengthened and seven calculated configurations were added.
 
-Otro lector nuevo encontró el paquete coincidente, conservó el papel de consultor y respondió en dos párrafos y un ejemplo. Recuperó exactamente 1.755 tokens utilizados, 645 restantes y un siguiente bloque de 726. Usó T874, G21, T1400, T897 y T1425; las cinco piezas pertenecen exclusivamente a Tegrity.AI. La lectura web funcionó mediante el espejo de texto de GitHub. Los botones para copiar la entrada del asistente priorizan esa URL de texto.
+Another new reader found the matching package, retained the consultant role and answered in two paragraphs and one example. It recovered exactly 1,755 tokens used, 645 remaining and a next block of 726. It used T874, G21, T1400, T897 and T1425; all five pieces belong exclusively to Tegrity.AI. Web reading worked through GitHub's text mirror. The buttons for copying the assistant entry prioritise that text URL.
 
-En la continuación del diálogo, el visitante preguntó si toda hora humana era deuda. El lector explicó la diferencia entre supervisión necesaria y compensación evitable y corrigió la clasificación del ejemplo. La prueba comprueba así la lectura de la configuración, el uso de sus fuentes y la elaboración de una distinción conceptual en conversación.
+In the continuation of the dialogue, the visitor asked whether every human hour was debt. The reader explained the difference between necessary supervision and avoidable compensation and corrected the example's classification. The test thus checks configuration reading, use of its sources and development of a conceptual distinction in conversation.
 
-## Materiales de la prueba
+## Test materials
 
-- [Paquetes de la comparación final: grupo 1](paquetes-1.json) y [grupo 2](paquetes-2.json).
-- [Respuestas del grupo 1](respuestas-1.json) y [grupo 2](respuestas-2.json).
-- [Juicio independiente](evaluacion-independiente.json) y [clave de variantes](clave.json).
-- [Resultados de la primera comparación](evaluacion-inicial.json).
-- [Prueba del extracto de Human Intelligence Debt](extracto-hid.json) y [Phylons](extracto-phylons.json).
-- [Paquetes del cierre](paquetes-cierre.json), [respuestas del cierre](respuestas-cierre.json) y [clave del cierre](clave-cierre.json).
-- [Protocolo del posicionamiento](../README.md), [pruebas funcionales](../pruebas-funciones.json) y [comprobación de tokens](../pruebas-tokens.json).
+- [Final comparison packages: group 1](paquetes-1.json) and [group 2](paquetes-2.json).
+- [Group 1 answers](respuestas-1.json) and [group 2 answers](respuestas-2.json).
+- [Independent judgement](evaluacion-independiente.json) and [variant key](clave.json).
+- [Results of the first comparison](evaluacion-inicial.json).
+- [Human Intelligence Debt extract test](extracto-hid.json) and [Phylons](extracto-phylons.json).
+- [Final packages](paquetes-cierre.json), [final answers](respuestas-cierre.json) and [final key](clave-cierre.json).
+- [Positioning protocol](../README.md), [functional tests](../pruebas-funciones.json) and [token check](../pruebas-tokens.json).
 
-El código y los materiales de la prueba están versionados en este repositorio. Los textos originales de artículos, registros de fuentes y relaciones conceptuales conservaron su contenido.
+The code and test materials are versioned in this repository. Original article texts, source records and conceptual relationships retained their content.

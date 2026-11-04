@@ -13,9 +13,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## La deuda interna y los propósitos modestos\nINTERLOCUTOR (pregunta editorial) — ¿Qué significa deberse algo a uno mismo, y por qué no equivale a tener una misión grandiosa?\nLECTURA DEL DIÁLOGO (síntesis editorial) — La «deuda interna» no es un nombre suave para una insatisfacción vaga. Iván la formula con una experiencia dura: saber que uno tiene que hacer algo, que debería hacerlo, y no poder; por ejemplo, reconocer que debe reconciliarse con un hijo y dejar pasar hoy, mañana y pasado mientras la tensión crece. Su hipótesis es que el propósito personal se configura a partir de una combinación singular de estas deudas, no de una misión grandiosa y común a todos. Intentar homogeneizar los propósitos sería, además, antievolutivo. El marco contiene tres salidas falsas que hay que evitar: nihilismo que anestesia el deseo, autocomplacencia que finge haber pagado la deuda a base de aplausos recíprocos y tecnocracia que decide desde arriba quién debe cumplir qué función. Acompañar a otro no significa resolverle su propósito ni exigirle heroicidad: puede ser ayudarle a no quedarse solo mientras paga su propio peaje.\nEtiquetas: Aprendizaje y transmisión de capacidades 33.34%; Decisiones y responsabilidad 33.33%; Economía, costes y liquidez 33.33%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-088\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-088.html\n\n",
-  "readingSource": null,
-  "tokens": 352,
+  "context": "## La deuda interna y los propósitos modestos\nINTERLOCUTOR (pregunta editorial) — ¿Qué significa deberse algo a uno mismo, y por qué no equivale a tener una misión grandiosa?\nLECTURA DEL DIÁLOGO (síntesis editorial) — La «deuda interna» no es un nombre suave para una insatisfacción vaga. Iván la formula con una experiencia dura: saber que uno tiene que hacer algo, que debería hacerlo, y no poder; por ejemplo, reconocer que debe reconciliarse con un hijo y dejar pasar hoy, mañana y pasado mientras la tensión crece. Su hipótesis es que el propósito personal se configura a partir de una combinación singular de estas deudas, no de una misión grandiosa y común a todos. Intentar homogeneizar los propósitos sería, además, antievolutivo. El marco contiene tres salidas falsas que hay que evitar: nihilismo que anestesia el deseo, autocomplacencia que finge haber pagado la deuda a base de aplausos recíprocos y tecnocracia que decide desde arriba quién debe cumplir qué función. Acompañar a otro no significa resolverle su propósito ni exigirle heroicidad: puede ser ayudarle a no quedarse solo mientras paga su propio peaje.\nTags: Learning and capability transmission 33.34%; Decisions and responsibility 33.33%; Economics, costs and liquidity 33.33%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-088\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-088.html\n\n",
+  "tokens": 345,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,10 +22,11 @@
       "to": "dg-economy",
       "title": "Economía y escasez",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 250,
+      "fichaTokens": 222,
       "tagWeights": {
         "aprendizaje": 0.0688,
         "autoridad": 0.0119,
@@ -59,10 +59,11 @@
       "to": "dg-inner",
       "title": "Atención y sentido",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 20,
-      "fichaTokens": 191,
+      "fichaTokens": 172,
       "tagWeights": {
         "aprendizaje": 0.4331,
         "autoridad": 0.0368,
@@ -90,10 +91,11 @@
       "to": "dg-care",
       "title": "Responsabilidad humana",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 20,
-      "fichaTokens": 208,
+      "fichaTokens": 187,
       "tagWeights": {
         "aprendizaje": 0.0939,
         "autoridad": 0.0359,
@@ -122,10 +124,11 @@
       "to": "D-270",
       "title": "Maximizar no es necesariamente lograr",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Maximizar no es necesariamente lograr» con «La deuda interna y los propósitos modestos». Permite contrastar Economía y escasez, Atención y sentido.",
       "relationTokens": 62,
-      "fichaTokens": 411,
+      "fichaTokens": 404,
       "tagWeights": {
         "aprendizaje": 0.3334,
         "decision": 0.3333,
@@ -142,10 +145,11 @@
       "to": "D-038",
       "title": "Međugorje: la guerra y la vida cotidiana",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Atención y sentido, Responsabilidad humana desde las situaciones que describe cada texto.",
       "relationTokens": 48,
-      "fichaTokens": 558,
+      "fichaTokens": 552,
       "tagWeights": {
         "aprendizaje": 0.5,
         "decision": 0.5
@@ -161,10 +165,11 @@
       "to": "D-036",
       "title": "El cuerpo, la noche y el peligro",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Atención y sentido, Responsabilidad humana desde las situaciones que describe cada texto.",
       "relationTokens": 45,
-      "fichaTokens": 426,
+      "fichaTokens": 420,
       "tagWeights": {
         "aprendizaje": 0.5,
         "decision": 0.5
@@ -180,10 +185,11 @@
       "to": "D-018",
       "title": "Espiritualidad sin imponer una doctrina",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Atención y sentido, Responsabilidad humana desde las situaciones que describe cada texto.",
       "relationTokens": 44,
-      "fichaTokens": 285,
+      "fichaTokens": 278,
       "tagWeights": {
         "aprendizaje": 0.125,
         "decision": 0.125,
@@ -201,10 +207,11 @@
       "to": "D-134",
       "title": "Una habilidad también es un bien, aunque nadie la compre",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Responsabilidad humana, Economía y escasez desde las situaciones que describe cada texto.",
       "relationTokens": 50,
-      "fichaTokens": 327,
+      "fichaTokens": 321,
       "tagWeights": {
         "capacidad-humana": 0.2222,
         "decision": 0.2222,

@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Topología de memoria y nodos centrales",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-memory_topology",
-  "documentId": null,
   "sourceIds": [
     "D-249"
   ],
@@ -16,9 +15,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Topología de memoria y nodos centrales\nConservar elementos no garantiza conservar la importancia funcional de sus relaciones bajo actualización.\nEtiquetas: Aprendizaje y transmisión de capacidades 13.34%; Evidencia, procedencia y atribución 13.33%; Memoria, comunidad y territorio 60.00%; Transformación y continuidad operativa 13.33%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-memory_topology\n\n",
-  "readingSource": null,
-  "tokens": 100,
+  "context": "## Topología de memoria y nodos centrales\nConservar elementos no garantiza conservar la importancia funcional de sus relaciones bajo actualización.\nTags: Learning and capability transmission 13.34%; Evidence, provenance and attribution 13.33%; Memory, community and territory 60.00%; Transformation and operational continuity 13.33%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-memory_topology\n\n",
+  "tokens": 90,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -26,10 +24,11 @@
       "to": "D-249",
       "title": "Una memoria en estrella puede perder su centro sin dejar de funcionar",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 441,
+      "fichaTokens": 430,
       "tagWeights": {
         "aprendizaje": 0.1334,
         "evidencia": 0.1333,
@@ -47,10 +46,11 @@
       "to": "dg-semantic_graph",
       "title": "Conocimiento como red de relaciones y procedencia",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.9",
       "reading": "Los vínculos y su centralidad sostienen sentido.",
       "relationTokens": 39,
-      "fichaTokens": 181,
+      "fichaTokens": 164,
       "tagWeights": {
         "aprendizaje": 0.0229,
         "decision": 0.0625,
@@ -75,10 +75,11 @@
       "to": "dg-continuity",
       "title": "Continuidad de capacidades",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.9",
       "reading": "Actualizar sin conservar relaciones borra continuidad.",
       "relationTokens": 32,
-      "fichaTokens": 222,
+      "fichaTokens": 200,
       "tagWeights": {
         "aprendizaje": 0.0854,
         "autoridad": 0.0264,
@@ -108,10 +109,11 @@
       "to": "dg-learning",
       "title": "Aprendizaje autodirigido",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.9",
       "reading": "Aprender requiere distinguir lo nuclear de lo accesorio.",
       "relationTokens": 37,
-      "fichaTokens": 200,
+      "fichaTokens": 179,
       "tagWeights": {
         "aprendizaje": 0.4664,
         "autoridad": 0.0587,

@@ -6,14 +6,13 @@
   "documentId": "doc-e5c861e416520e76eb",
   "sourceIds": [],
   "tagWeights": {
-    "documentacion": 1.0
+    "documentacion": 1
   },
   "clusters": [
     "research"
   ],
-  "context": "## Panodyssey corpus-migration QA — source fidelity and open gates\nContenido de la fuente: 1. Content conservation — checked · 2. Method and interface review · 3. Navigation and file controls — checked / to recheck.\nEtiquetas: Investigación y documentación técnica 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-4fc2459015552f.html\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/d5f7cd6137da97ed265acfa5bc68c9f00f128c7d/research/ecosystem-awareness/baseline/00J-extensions/PANODYSSEY-EXT-01/MIGRATION_QA_REPORT.md\n\n",
-  "readingSource": null,
-  "tokens": 170,
+  "context": "## Panodyssey corpus-migration QA — source fidelity and open gates\nContenido de la fuente: 1. Content conservation — checked · 2. Method and interface review · 3. Navigation and file controls — checked / to recheck.\nTags: Research and technical documentation 100.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-4fc2459015552f.html\nSource document: https://github.com/dakleyer/structural-awareness-contributions/blob/d5f7cd6137da97ed265acfa5bc68c9f00f128c7d/research/ecosystem-awareness/baseline/00J-extensions/PANODYSSEY-EXT-01/MIGRATION_QA_REPORT.md\n\n",
+  "tokens": 168,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -21,10 +20,11 @@
       "to": "sac-0d8be8db5558af",
       "title": "Panodyssey — complete reader edition for technical and industry review",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Panodyssey corpus-migration QA — source fidelity and open gates» con el rótulo «readable companion views».",
-      "relationTokens": 142,
-      "fichaTokens": 194,
+      "relationTokens": 140,
+      "fichaTokens": 188,
       "tagWeights": {
         "decision": 0.25,
         "documentacion": 0.5,
@@ -41,10 +41,11 @@
       "to": "sac-7d3403a07d798c",
       "title": "DDS/UC4 experimental integration — execution-readiness, not execution",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «2. Method and interface review» con el rótulo «DDS_UC4_READINESS».",
-      "relationTokens": 138,
-      "fichaTokens": 195,
+      "relationTokens": 136,
+      "fichaTokens": 186,
       "tagWeights": {
         "evidencia": 0.2857,
         "experimentacion": 0.3572,
@@ -61,10 +62,11 @@
       "to": "sac-96749f86c02615",
       "title": "Promotion and independent corpus-integrity review — 00J-EXT-PANO-01",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «4. Blockers that remain open, not technical export failures» con el rótulo «promotion review §5».",
-      "relationTokens": 146,
-      "fichaTokens": 187,
+      "relationTokens": 144,
+      "fichaTokens": 184,
       "tagWeights": {
         "decision": 0.0714,
         "documentacion": 0.8572,
@@ -81,10 +83,11 @@
       "to": "sac-0d8be8db5558af",
       "title": "Panodyssey — complete reader edition for technical and industry review",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «3. Complementary current controls» con el rótulo «Completeness/migration QA».",
-      "relationTokens": 134,
-      "fichaTokens": 194,
+      "relationTokens": 132,
+      "fichaTokens": 188,
       "tagWeights": {
         "decision": 0.25,
         "documentacion": 0.5,

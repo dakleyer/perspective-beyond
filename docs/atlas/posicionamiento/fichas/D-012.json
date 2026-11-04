@@ -12,9 +12,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Un trabajo sin territorio fijo\nINTERLOCUTOR — ¿Qué aprendiste al moverte sin estructura fija y cómo nació Corbera Networks?\nIVÁN —\nMientras tanto, viajé por más de 20 estados de EE. UU., conociendo entornos laborales, culturales y organizacionales muy diversos. Aprendí a trabajar sin red de seguridad, a gestionar proyectos sin estructura formal, adaptarme con rapidez y resolver los problemas en primera persona, en cualquier lugar donde me encontrara.\nFue una etapa donde vivir, trabajar y aprender se fundieron, y donde el sentido de independencia y adaptabilidad se convirtió en el núcleo de mi identidad profesional. Aprendí a sostener mi propio peso y el de los proyectos que lideraba, sin manuales, sin departamentos de soporte, con lo que tuviera a mano.\nY todo ese trabajo dio frutos. Con clientes satisfechos fundé mi primera empresa: Corbera Networks, desde donde comencé a liderar un equipo propio —aún pequeño e incipiente— de consultores especializados.\nEtiquetas: Geopolítica y fronteras 28.57%; Memoria, comunidad y territorio 71.43%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-012\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20%C2%BFQu%C3%A9%20aprendiste%20al%20moverte%20sin%20estructura%20fija%20y%20c%C3%B3mo\n\n",
-  "readingSource": null,
-  "tokens": 340,
+  "context": "## Un trabajo sin territorio fijo\nINTERLOCUTOR — ¿Qué aprendiste al moverte sin estructura fija y cómo nació Corbera Networks?\nIVÁN —\nMientras tanto, viajé por más de 20 estados de EE. UU., conociendo entornos laborales, culturales y organizacionales muy diversos. Aprendí a trabajar sin red de seguridad, a gestionar proyectos sin estructura formal, adaptarme con rapidez y resolver los problemas en primera persona, en cualquier lugar donde me encontrara.\nFue una etapa donde vivir, trabajar y aprender se fundieron, y donde el sentido de independencia y adaptabilidad se convirtió en el núcleo de mi identidad profesional. Aprendí a sostener mi propio peso y el de los proyectos que lideraba, sin manuales, sin departamentos de soporte, con lo que tuviera a mano.\nY todo ese trabajo dio frutos. Con clientes satisfechos fundé mi primera empresa: Corbera Networks, desde donde comencé a liderar un equipo propio —aún pequeño e incipiente— de consultores especializados.\nTags: Geopolitics and borders 28.57%; Memory, community and territory 71.43%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-012\nSource document: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20%C2%BFQu%C3%A9%20aprendiste%20al%20moverte%20sin%20estructura%20fija%20y%20c%C3%B3mo\n\n",
+  "tokens": 337,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "dg-options",
       "title": "Libertad y opciones",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 17,
-      "fichaTokens": 202,
+      "fichaTokens": 181,
       "tagWeights": {
         "aprendizaje": 0.1588,
         "autoridad": 0.0804,
@@ -54,10 +54,11 @@
       "to": "dg-boundaries",
       "title": "Fronteras y encuentros",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 18,
-      "fichaTokens": 181,
+      "fichaTokens": 166,
       "tagWeights": {
         "aprendizaje": 0.0144,
         "autoridad": 0.0451,
@@ -84,10 +85,11 @@
       "to": "D-006",
       "title": "Aprender a ver lo que todavía no aparece",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Fronteras y encuentros».",
       "relationTokens": 31,
-      "fichaTokens": 523,
+      "fichaTokens": 521,
       "tagWeights": {
         "geopolitica": 0.5,
         "perspectiva": 0.5
@@ -103,10 +105,11 @@
       "to": "D-032",
       "title": "Bosnia: el regreso de la memoria",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Fronteras y encuentros».",
       "relationTokens": 29,
-      "fichaTokens": 429,
+      "fichaTokens": 423,
       "tagWeights": {
         "aprendizaje": 0.125,
         "geopolitica": 0.5625,
@@ -123,10 +126,11 @@
       "to": "D-011",
       "title": "Cuando Nokia cerró: cambiar de rumbo",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Libertad y opciones».",
       "relationTokens": 30,
-      "fichaTokens": 636,
+      "fichaTokens": 629,
       "tagWeights": {
         "aprendizaje": 0.2222,
         "empresa": 0.5556,
@@ -143,10 +147,11 @@
       "to": "D-016",
       "title": "La atención como práctica de libertad",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Libertad y opciones».",
       "relationTokens": 28,
-      "fichaTokens": 394,
+      "fichaTokens": 387,
       "tagWeights": {
         "aprendizaje": 0.4286,
         "decision": 0.2857,
@@ -163,12 +168,13 @@
       "to": "D-214",
       "title": "La invisibilidad local puede ser una forma de riqueza",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La invisibilidad local puede ser una forma de riqueza» con «Un trabajo sin territorio fijo». Permite contrastar Libertad y opciones.",
       "relationTokens": 55,
-      "fichaTokens": 389,
+      "fichaTokens": 384,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"
@@ -181,12 +187,13 @@
       "to": "D-215",
       "title": "Un oficio visible puede parecer más real que una libertad internacional",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Un oficio visible puede parecer más real que una libertad internacional» con «Un trabajo sin territorio fijo». Permite contrastar Libertad y opciones.",
       "relationTokens": 57,
-      "fichaTokens": 396,
+      "fichaTokens": 391,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"
@@ -199,10 +206,11 @@
       "to": "D-273",
       "title": "Varias vidas profesionales pueden sostener un mismo propósito",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Varias vidas profesionales pueden sostener un mismo propósito» con «Un trabajo sin territorio fijo». Permite contrastar Libertad y opciones.",
       "relationTokens": 55,
-      "fichaTokens": 415,
+      "fichaTokens": 410,
       "tagWeights": {
         "memoria-territorio": 0.4286,
         "transformacion": 0.5714
@@ -218,10 +226,11 @@
       "to": "D-003",
       "title": "Independencia: trabajo, cuentas y viajes",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Fronteras y encuentros, Libertad y opciones desde las situaciones que describe cada texto.",
       "relationTokens": 45,
-      "fichaTokens": 539,
+      "fichaTokens": 536,
       "tagWeights": {
         "economia": 0.5,
         "geopolitica": 0.5
@@ -237,10 +246,11 @@
       "to": "D-136",
       "title": "Lo que antes no era mercancía puede convertirse en opción de mercado",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Fronteras y encuentros, Libertad y opciones desde las situaciones que describe cada texto.",
       "relationTokens": 49,
-      "fichaTokens": 296,
+      "fichaTokens": 293,
       "tagWeights": {
         "economia": 0.7143,
         "geopolitica": 0.2857
@@ -256,12 +266,13 @@
       "to": "D-033",
       "title": "Entrar en Bosnia sin un plan",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Fronteras y encuentros, Libertad y opciones desde las situaciones que describe cada texto.",
       "relationTokens": 43,
-      "fichaTokens": 565,
+      "fichaTokens": 563,
       "tagWeights": {
-        "geopolitica": 1.0
+        "geopolitica": 1
       },
       "clusters": [
         "dialogos"

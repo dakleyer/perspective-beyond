@@ -12,9 +12,8 @@
   "clusters": [
     "imsv"
   ],
-  "context": "## La sierra del Totonacapan: el origen vivencial\nLos encuentros comunitarios plantearon cómo una persona puede querer cambiar y seguir reproduciendo la situación que quiere transformar. Quienes acompañaban la experiencia también ponían a prueba su propia mirada.\nEtiquetas: Experimentación, falsación y contraejemplos 44.44%; Memoria, comunidad y territorio 55.56%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-sierra\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/sierra-del-totonacapan/\n\n",
-  "readingSource": null,
-  "tokens": 128,
+  "context": "## La sierra del Totonacapan: el origen vivencial\nLos encuentros comunitarios plantearon cómo una persona puede querer cambiar y seguir reproduciendo la situación que quiere transformar. Quienes acompañaban la experiencia también ponían a prueba su propia mirada.\nTags: Experimentation, falsification and counterexamples 44.44%; Memory, community and territory 55.56%\nCard: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-sierra\nSource document: https://integralmanagement.ch/nueva-perspectiva/sierra-del-totonacapan/\n\n",
+  "tokens": 123,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "np-experiencia",
       "title": "¿Qué ocurrió primero: la experiencia o la idea?",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "trayectoria",
       "reading": "La sierra concreta una de las experiencias que precedieron o acompañaron la formulación.",
       "relationTokens": 45,
-      "fichaTokens": 133,
+      "fichaTokens": 128,
       "tagWeights": {
         "aprendizaje": 0.4445,
         "empresa": 0.4444,
@@ -42,10 +42,11 @@
       "to": "np-coaching",
       "title": "Coaching Transpersonal: aprender en comunidad",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "continuidad",
       "reading": "La observación de la experiencia vuelve a aparecer en un entorno abierto de formación.",
       "relationTokens": 40,
-      "fichaTokens": 137,
+      "fichaTokens": 130,
       "tagWeights": {
         "aprendizaje": 0.2857,
         "espiritualidad": 0.3572,
@@ -62,10 +63,11 @@
       "to": "np-biografia",
       "title": "Biografía: una trayectoria en diálogo",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "contexto territorial",
       "reading": "La biografía abre el contexto personal y territorial de la experiencia, a partir de su edición pública.",
       "relationTokens": 45,
-      "fichaTokens": 119,
+      "fichaTokens": 113,
       "tagWeights": {
         "aprendizaje": 0.25,
         "empresa": 0.25,
@@ -82,10 +84,11 @@
       "to": "np-biografia",
       "title": "Biografía: una trayectoria en diálogo",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "contexto metodológico",
       "reading": "La serie desarrolla la pregunta por el cambio de perspectiva a partir de las experiencias en la sierra.",
       "relationTokens": 46,
-      "fichaTokens": 119,
+      "fichaTokens": 113,
       "tagWeights": {
         "aprendizaje": 0.25,
         "empresa": 0.25,

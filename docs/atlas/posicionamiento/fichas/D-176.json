@@ -12,9 +12,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Responsabilidad sin posibilidad de ganar produce selección regresiva\nINTERLOCUTOR (pregunta editorial, no pronunciada necesariamente) — ¿Qué aprende equivocadamente un producto cuando nadie usa sus mejores funciones?\nREFLEXIÓN DEL DIÁLOGO (reconstrucción editorial cotejada con el escrito) — La conversación describe una secuencia causal: hay cinco opciones; algunas generan valor pero exponen a quien las usa a preguntas, sanciones o trabajo adicional; una sola es defendible sin explicaciones. La mayoría elige esta última. En el siguiente ciclo, los responsables miran los registros de uso y concluyen que las otras cuatro no se necesitan. El producto las elimina. La telemetría parece objetiva, pero estaba midiendo elección bajo una estructura de incentivos, no preferencia libre. Iván llama selección regresiva a esta pérdida acumulativa de capacidad. No hace falta una conspiración ni que los usuarios sean incompetentes: decisiones localmente prudentes pueden producir una arquitectura colectiva más pobre. La prueba relevante exige observar no solo clics, sino costes de responsabilidad, beneficios apropiables, oportunidades rechazadas y alternativas que nunca llegaron a ejercerse. Es una crítica aplicable al diseño de aplicaciones, a la gobernanza organizativa y también a mercados donde la opción aparentemente impopular fue, en realidad, desincentivada.\nEtiquetas: Decisiones y responsabilidad 75.00%; Economía, costes y liquidez 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-176\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-176.html\n\n",
-  "readingSource": null,
-  "tokens": 346,
+  "context": "## Responsabilidad sin posibilidad de ganar produce selección regresiva\nINTERLOCUTOR (pregunta editorial, no pronunciada necesariamente) — ¿Qué aprende equivocadamente un producto cuando nadie usa sus mejores funciones?\nREFLEXIÓN DEL DIÁLOGO (reconstrucción editorial cotejada con el escrito) — La conversación describe una secuencia causal: hay cinco opciones; algunas generan valor pero exponen a quien las usa a preguntas, sanciones o trabajo adicional; una sola es defendible sin explicaciones. La mayoría elige esta última. En el siguiente ciclo, los responsables miran los registros de uso y concluyen que las otras cuatro no se necesitan. El producto las elimina. La telemetría parece objetiva, pero estaba midiendo elección bajo una estructura de incentivos, no preferencia libre. Iván llama selección regresiva a esta pérdida acumulativa de capacidad. No hace falta una conspiración ni que los usuarios sean incompetentes: decisiones localmente prudentes pueden producir una arquitectura colectiva más pobre. La prueba relevante exige observar no solo clics, sino costes de responsabilidad, beneficios apropiables, oportunidades rechazadas y alternativas que nunca llegaron a ejercerse. Es una crítica aplicable al diseño de aplicaciones, a la gobernanza organizativa y también a mercados donde la opción aparentemente impopular fue, en realidad, desincentivada.\nTags: Decisions and responsibility 75.00%; Economics, costs and liquidity 25.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-176\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-176.html\n\n",
+  "tokens": 342,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "dg-options",
       "title": "Libertad y opciones",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 202,
+      "fichaTokens": 181,
       "tagWeights": {
         "aprendizaje": 0.1588,
         "autoridad": 0.0804,
@@ -54,10 +54,11 @@
       "to": "dg-account",
       "title": "Responsabilidad y reparación",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 122,
+      "fichaTokens": 112,
       "tagWeights": {
         "aprendizaje": 0.0834,
         "autoridad": 0.2098,
@@ -78,10 +79,11 @@
       "to": "dg-capture",
       "title": "Captura de opciones e incentivos regresivos",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 27,
-      "fichaTokens": 180,
+      "fichaTokens": 161,
       "tagWeights": {
         "aprendizaje": 0.0303,
         "autoridad": 0.0485,
@@ -106,10 +108,11 @@
       "to": "D-052",
       "title": "xSeil: mostrar alternativas, no una orden",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Responsabilidad sin posibilidad de ganar produce selección regresiva» con «xSeil: mostrar alternativas, no una orden».",
       "relationTokens": 56,
-      "fichaTokens": 546,
+      "fichaTokens": 539,
       "tagWeights": {
         "casos": 0.1429,
         "decision": 0.1429,
@@ -127,12 +130,13 @@
       "to": "D-063",
       "title": "Cuando el dinero reduce las opciones",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Responsabilidad sin posibilidad de ganar produce selección regresiva» con «Cuando el dinero reduce las opciones». Permite contrastar Libertad y opciones.",
       "relationTokens": 57,
-      "fichaTokens": 379,
+      "fichaTokens": 376,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "dialogos"
@@ -145,10 +149,11 @@
       "to": "D-129",
       "title": "La resistencia al cambio tiene sus propias reglas",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Responsabilidad sin posibilidad de ganar produce selección regresiva» con «La resistencia al cambio tiene sus propias reglas».",
       "relationTokens": 52,
-      "fichaTokens": 309,
+      "fichaTokens": 301,
       "tagWeights": {
         "aprendizaje": 0.25,
         "decision": 0.25,
@@ -166,10 +171,11 @@
       "to": "D-138",
       "title": "El futuro comprometido puede vaciar la capacidad disponible",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Responsabilidad sin posibilidad de ganar produce selección regresiva» con «El futuro comprometido puede vaciar la capacidad disponible».",
       "relationTokens": 56,
-      "fichaTokens": 345,
+      "fichaTokens": 339,
       "tagWeights": {
         "compromisos": 0.25,
         "economia": 0.1875,
@@ -187,10 +193,11 @@
       "to": "D-229",
       "title": "Trabajar los talentos puede salir a perder",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Trabajar los talentos puede salir a perder» con «Responsabilidad sin posibilidad de ganar produce selección regresiva».",
       "relationTokens": 52,
-      "fichaTokens": 430,
+      "fichaTokens": 423,
       "tagWeights": {
         "evidencia": 0.6667,
         "integridad-ia": 0.3333
@@ -206,10 +213,11 @@
       "to": "D-234",
       "title": "La victoria de ayer puede ser el martillo que te haga perder mañana",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La victoria de ayer puede ser el martillo que te haga perder mañana» con «Responsabilidad sin posibilidad de ganar produce selección regresiva».",
       "relationTokens": 64,
-      "fichaTokens": 396,
+      "fichaTokens": 391,
       "tagWeights": {
         "integridad-ia": 0.5,
         "memoria-territorio": 0.5
@@ -225,12 +233,13 @@
       "to": "D-236",
       "title": "El sistema sobrevive gracias a quien se sale del mapa",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El sistema sobrevive gracias a quien se sale del mapa» con «Responsabilidad sin posibilidad de ganar produce selección regresiva».",
       "relationTokens": 58,
-      "fichaTokens": 411,
+      "fichaTokens": 406,
       "tagWeights": {
-        "evidencia": 1.0
+        "evidencia": 1
       },
       "clusters": [
         "dialogos"
@@ -243,10 +252,11 @@
       "to": "D-239",
       "title": "El PowerPoint veintiuno también promete que esta vez sí",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El PowerPoint veintiuno también promete que esta vez sí» con «Responsabilidad sin posibilidad de ganar produce selección regresiva».",
       "relationTokens": 60,
-      "fichaTokens": 456,
+      "fichaTokens": 449,
       "tagWeights": {
         "aprendizaje": 0.3334,
         "empresa": 0.3333,
@@ -263,10 +273,11 @@
       "to": "D-288",
       "title": "Cambiar quién posee la manzana no alimenta al siguiente árbol",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Cambiar quién posee la manzana no alimenta al siguiente árbol» con «Responsabilidad sin posibilidad de ganar produce selección regresiva». Permite contrastar Captura de opciones e incentivos regresivos.",
       "relationTokens": 76,
-      "fichaTokens": 421,
+      "fichaTokens": 414,
       "tagWeights": {
         "economia": 0.3334,
         "experimentacion": 0.3333,
@@ -283,10 +294,11 @@
       "to": "D-175",
       "title": "Se puede elegir deliberadamente el sistema con menos opciones",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Captura de opciones e incentivos regresivos, Libertad y opciones desde las situaciones que describe cada texto.",
       "relationTokens": 55,
-      "fichaTokens": 353,
+      "fichaTokens": 349,
       "tagWeights": {
         "decision": 0.4,
         "economia": 0.2,
@@ -303,10 +315,11 @@
       "to": "D-193",
       "title": "La adopción masiva también puede ser la domesticación de una idea",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Captura de opciones e incentivos regresivos, Libertad y opciones desde las situaciones que describe cada texto.",
       "relationTokens": 59,
-      "fichaTokens": 385,
+      "fichaTokens": 379,
       "tagWeights": {
         "economia": 0.3333,
         "estandares": 0.6667
@@ -322,12 +335,13 @@
       "to": "D-177",
       "title": "Mil microopciones pueden llevar al mismo macroestado",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Captura de opciones e incentivos regresivos, Libertad y opciones desde las situaciones que describe cada texto.",
       "relationTokens": 55,
-      "fichaTokens": 340,
+      "fichaTokens": 337,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "dialogos"

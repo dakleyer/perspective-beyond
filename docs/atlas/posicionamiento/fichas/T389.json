@@ -12,14 +12,14 @@
   "clusters": [
     "tegrity"
   ],
-  "context": "## From Complicated to Complex: The AI Safety Paradox\nThis article constitutes the third installment in the series on AI Operational Integrity Management Architecture, building upon the theoretical frameworks introduced in AI Integrity Architecture: Toward Expert-System Envelopes Around Statistical AI and extended in Structural Limits of Current AI Integrity Under Regime Change . It investigates a critical structural failure mode: the condition under which rigid safety constraints — originally engineered to ensure stability — become drivers of emergent complexity during environmental transitions. We argue that under non-stationary regimes, the friction between an adaptive statistical core and a static deterministic envelope can induce a transition-like failure mechanism. The observed shift from a “complicated” controlled process toward more complex behaviour may be abrupt, gradual, hysteretic, or only appear abrupt at the available observation resolution. We conclude by proposing a shift toward Adaptive Integrity, where architectures must recognise the limits of their own operating assumptions as a primary design requirement.\nEtiquetas: Cambios de régimen y alerta temprana 29.41%; Integridad y seguridad de IA 70.59%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/from-complicated-to-complex-the-ai-safety-paradox-t389/\nDocumento de origen: https://tegrity.ai/from-complicated-to-complex-the-ai-safety-paradox/\n\n",
+  "context": "## From Complicated to Complex: The AI Safety Paradox\nThis article constitutes the third installment in the series on AI Operational Integrity Management Architecture, building upon the theoretical frameworks introduced in AI Integrity Architecture: Toward Expert-System Envelopes Around Statistical AI and extended in Structural Limits of Current AI Integrity Under Regime Change . It investigates a critical structural failure mode: the condition under which rigid safety constraints — originally engineered to ensure stability — become drivers of emergent complexity during environmental transitions. We argue that under non-stationary regimes, the friction between an adaptive statistical core and a static deterministic envelope can induce a transition-like failure mechanism. The observed shift from a “complicated” controlled process toward more complex behaviour may be abrupt, gradual, hysteretic, or only appear abrupt at the available observation resolution. We conclude by proposing a shift toward Adaptive Integrity, where architectures must recognise the limits of their own operating assumptions as a primary design requirement.\nTags: Regime changes and early warning 29.41%; AI integrity and security 70.59%\nCard: https://dakleyer.github.io/perspective-beyond/sources/from-complicated-to-complex-the-ai-safety-paradox-t389/\nSource document: https://tegrity.ai/from-complicated-to-complex-the-ai-safety-paradox/\n\n",
   "readingSource": {
     "url": "https://tegrity.ai/from-complicated-to-complex-the-ai-safety-paradox/",
     "section": "Opening paragraphs",
     "observed": "2026-11-04",
     "sourceSha256": "6f5c01d4491b27edeabcdaf7d81f1bc7e711e8dd0d48b5811ed26adfe60fb340"
   },
-  "tokens": 267,
+  "tokens": 261,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -27,10 +27,11 @@
       "to": "C45",
       "title": "Fallo de composición",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 251,
+      "fichaTokens": 222,
       "tagWeights": {
         "agentes": 0.0759,
         "autoridad": 0.0271,
@@ -69,10 +70,11 @@
       "to": "C81",
       "title": "Frontera de integridad operacional",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 228,
+      "fichaTokens": 202,
       "tagWeights": {
         "agentes": 0.035,
         "aprendizaje": 0.0059,
@@ -107,10 +109,11 @@
       "to": "T2776",
       "title": "When the Controls Work but the System Fails",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "analogy only",
       "reading": "Component-level compliance does not establish ecosystem-level integrity when independently governed actors compose their decisions under changing conditions.",
       "relationTokens": 45,
-      "fichaTokens": 182,
+      "fichaTokens": 176,
       "tagWeights": {
         "cartografia": 0.3077,
         "documentacion": 0.5385,
@@ -127,10 +130,11 @@
       "to": "T2776",
       "title": "When the Controls Work but the System Fails",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [Six constructed system-level failure scenarios](https://tegrity.ai/when-the-controls-work-but-the-system-fails/).",
       "relationTokens": 56,
-      "fichaTokens": 182,
+      "fichaTokens": 176,
       "tagWeights": {
         "cartografia": 0.3077,
         "documentacion": 0.5385,

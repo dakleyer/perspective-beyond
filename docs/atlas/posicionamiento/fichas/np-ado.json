@@ -12,9 +12,8 @@
   "clusters": [
     "imsv"
   ],
-  "context": "## ADO: Consciencia Plena, Pulsera Rosa y andenes\nEl conocimiento de quienes operaban andenes o atendían a pasajeros podía convertirse en propuestas concretas. Pulsera Rosa muestra cómo observar la experiencia de una pasajera cambia la manera de formular una cuestión de seguridad.\nEtiquetas: Espiritualidad y vida interior 55.56%; Integridad y seguridad de IA 44.44%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-ado\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/ado-consciencia-plena/\n\n",
-  "readingSource": null,
-  "tokens": 131,
+  "context": "## ADO: Consciencia Plena, Pulsera Rosa y andenes\nEl conocimiento de quienes operaban andenes o atendían a pasajeros podía convertirse en propuestas concretas. Pulsera Rosa muestra cómo observar la experiencia de una pasajera cambia la manera de formular una cuestión de seguridad.\nTags: Spirituality and inner life 55.56%; AI integrity and security 44.44%\nCard: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-ado\nSource document: https://integralmanagement.ch/nueva-perspectiva/ado-consciencia-plena/\n\n",
+  "tokens": 126,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "np-pemex",
       "title": "PEMEX y TETSA: personas, seguridad y operación",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "comparación",
       "reading": "Ambos relatos distinguen las condiciones de operación de lo que trabajadores y usuarios pueden observar.",
       "relationTokens": 49,
-      "fichaTokens": 131,
+      "fichaTokens": 126,
       "tagWeights": {
         "empresa": 0.25,
         "integridad-ia": 0.5,
@@ -42,10 +42,11 @@
       "to": "np-encajonadora",
       "title": "La encajonadora: un problema técnico y muchas perspectivas",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "comparación",
       "reading": "Cambiar el punto de observación revela condiciones que las responsabilidades parciales no muestran.",
       "relationTokens": 47,
-      "fichaTokens": 121,
+      "fichaTokens": 118,
       "tagWeights": {
         "decision": 0.4444,
         "perspectiva": 0.5556

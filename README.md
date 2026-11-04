@@ -1,9 +1,8 @@
 # Perspective Beyond
 
-[Mind Atlas · lectura web completa](https://integralmanagement.ch/atlas-reader/) · [Entrada autónoma para asistentes](https://integralmanagement.ch/atlas-reader/entrada.txt)
+[Mind Atlas · complete web reader](https://integralmanagement.ch/atlas-reader/) · [Autonomous entry for assistants](https://integralmanagement.ch/atlas-reader/entrada.txt)
 
-
-[Conecta tu asistente al Atlas · lectura directa](https://tegrity.ai/atlas-reader/)
+[Connect your assistant to the Atlas · direct reading](https://tegrity.ai/atlas-reader/)
 
 [Open the interactive atlas](https://dakleyer.github.io/perspective-beyond/) · [Read the guide](https://dakleyer.github.io/perspective-beyond/guide/) · [Browse the sources](https://dakleyer.github.io/perspective-beyond/sources/)
 
@@ -21,13 +20,13 @@ Start from an Atlas card, a concept, or a source URL. Choose how many relationsh
 
 Each entry carries a configuration for the same Atlas. Published configurations have a versioned URL and a plain-text entry for assistants.
 
-## Posicionamiento y mini mapas
+## Positioning and mini maps
 
-Un posicionamiento es un documento de entrada, como la landing de una web. El documento tiene fichas; las fichas tienen composiciones porcentuales de etiquetas y relaciones con otras fichas y conceptos. La combinación del visitante y un presupuesto de tokens abren un mini mapa cuya lectura crece al ampliar ese presupuesto.
+A positioning is an entry document, such as a website landing page. The document has cards; the cards have percentage compositions of tags and relationships with other cards and concepts. The visitor's combination and a token budget open a mini map whose reading expands as that budget increases.
 
-[Abrir un posicionamiento](https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/) · [Protocolo y modelo](docs/atlas/posicionamiento/README.md) · [Paquetes preparados](https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/preparados/) · [Datos y porcentajes](docs/atlas/posicionamiento/etiquetas-fichas.json).
+[Open a positioning](https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/) · [Protocol and model](docs/atlas/posicionamiento/README.md) · [Prepared packages](https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/preparados/) · [Data and percentages](docs/atlas/posicionamiento/etiquetas-fichas.json).
 
-El cálculo público está en `docs/atlas/positioning.mjs`. La CLI admite `posicionamiento`, `tokens` y pesos de etiquetas. El grafo conserva el documento de origen de cada ficha y los costes de lectura calculados con `o200k_base`.
+The public calculation is in `docs/atlas/positioning.mjs`. The CLI accepts `posicionamiento`, `tokens` and tag weights. The graph retains the source document of each card and the reading costs calculated with `o200k_base`.
 
 ## Edit the atlas
 
@@ -40,30 +39,30 @@ El cálculo público está en `docs/atlas/positioning.mjs`. La CLI admite `posic
 
 GitHub research links preserve the commit referenced by the edition or source record. The edition metadata is in `data/edition.json`.
 
-## Revisar la conservación y los enlaces
+## Check preservation and links
 
-[Revisión histórica y de navegación · 4 de noviembre de 2026](docs/atlas/mapa/REVISION-20261104-2.md)
+[Historical and navigation review · 4 November 2026](docs/atlas/mapa/REVISION-20261104-2.md)
 
-Desde un clon del repositorio, `node tools/check-atlas-history.mjs` comprueba las fichas, relaciones y asociaciones de todas las ediciones anteriores. `node tools/check-atlas-history.mjs --self-test` ejecuta sus siete controles. `python tools/check-atlas-links.py` revisa los archivos y anclas de los enlaces internos publicados. Ambos leen los objetos de Git sin escribir copias del contenido.
+From a repository clone, `node tools/check-atlas-history.mjs` checks the cards, relationships and associations of all previous editions. `node tools/check-atlas-history.mjs --self-test` runs its seven checks. `python tools/check-atlas-links.py` checks the files and anchors of published internal links. Both read Git objects without writing copies of their content.
 
-## Fuentes autocontenidas para asistentes
+## Self-contained sources for assistants
 
-[Abrir el producto](https://dakleyer.github.io/perspective-beyond/atlas/asistentes/) · [README del producto](docs/atlas/asistentes/README.md) · [Probar una fuente de texto](https://dakleyer.github.io/perspective-beyond/atlas/asistentes/ejemplos/arquitectura-y-lenguajes.txt)
+[Open the product](https://dakleyer.github.io/perspective-beyond/atlas/asistentes/) · [Product README](docs/atlas/asistentes/README.md) · [Try a text source](https://dakleyer.github.io/perspective-beyond/atlas/asistentes/ejemplos/arquitectura-y-lenguajes.txt)
 
-Un archivo compacto reúne textos, relaciones, referencias y configuración de una selección del Atlas. El asistente del lector puede conversar sobre ese pensamiento o darle forma de web, audio, vídeo o documento. Cada mini mapa permite descargar su propia fuente autocontenida.
+A compact file brings together texts, relationships, references and the configuration of an Atlas selection. The reader's assistant can discuss that thinking or give it the form of a website, audio, video or document. Each mini map allows its own self-contained source to be downloaded.
 
-## Edición web completa
+## Complete web edition
 
-[Entrada para asistentes](https://perspective-beyond-atlas.carvedgem.chatgpt.site/entrada/) · [Atlas completo en HTML](https://perspective-beyond-atlas.carvedgem.chatgpt.site/) · [Reproducción y procedencia](web-edition/README.md)
+[Entry for assistants](https://perspective-beyond-atlas.carvedgem.chatgpt.site/entrada/) · [Complete Atlas in HTML](https://perspective-beyond-atlas.carvedgem.chatgpt.site/) · [Reproduction and provenance](web-edition/README.md)
 
-La edición web reproduce todos los archivos públicos del Atlas y añade páginas HTML enlazadas para leer fichas, conceptos, documentos y relaciones. GitHub conserva la fuente canónica.
+The web edition reproduces every public Atlas file and adds linked HTML pages for reading cards, concepts, documents and relationships. GitHub retains the canonical source.
 
-## Comprender el Atlas antes de elegir dónde entrar
+## Understand the Atlas before choosing where to enter
 
-[Atlas Orientation](https://tegrity.ai/atlas-orientation/) reúne las grandes preguntas del corpus y propone puntos de entrada concretos. [Modelo y protocolo](web-edition/README.md#orientación-antes-del-posicionamiento).
+[Atlas Orientation](https://tegrity.ai/atlas-orientation/) brings together the corpus's major questions and proposes concrete entry points. [Model and protocol](web-edition/README.md#orientación-antes-del-posicionamiento).
 
-## Fase actual: complemento de navegación y comprensión web
+## Current phase: a companion to web navigation and understanding
 
-En esta fase, el Atlas complementa la navegación y la comprensión de las webs. Cada página es un punto de entrada a sus fichas, conceptos, casos y fuentes; conserva la URL de origen y permite profundizar, relacionar ideas y volver al texto original. La prueba compara estos recorridos dirigidos con la navegación web convencional mediante tokens consumidos, pertinencia de las fuentes y comprensión del corpus.
+In this phase, the Atlas complements website navigation and understanding. Each page is an entry point to its cards, concepts, cases and sources; it retains the source URL and allows readers to go deeper, connect ideas and return to the original text. The test compares these guided journeys with conventional web navigation through tokens consumed, source relevance and understanding of the corpus.
 
-[Contrato, integración y protocolo de prueba](docs/atlas/web-navigation.md).
+[Contract, integration and test protocol](docs/atlas/web-navigation.md).

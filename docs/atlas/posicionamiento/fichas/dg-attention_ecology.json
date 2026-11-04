@@ -3,19 +3,17 @@
   "type": "concepto",
   "title": "Ecología del fondo y el foco",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-attention_ecology",
-  "documentId": null,
   "sourceIds": [
     "D-238"
   ],
   "tagWeights": {
-    "aprendizaje": 1.0
+    "aprendizaje": 1
   },
   "clusters": [
     "dialogos"
   ],
-  "context": "## Ecología del fondo y el foco\nAtención profunda requiere tiempo, trabajo de fondo y reconstrucción de contexto; accesibilidad no equivale a capacidad.\nEtiquetas: Aprendizaje y transmisión de capacidades 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-attention_ecology\n\n",
-  "readingSource": null,
-  "tokens": 73,
+  "context": "## Ecología del fondo y el foco\nAtención profunda requiere tiempo, trabajo de fondo y reconstrucción de contexto; accesibilidad no equivale a capacidad.\nTags: Learning and capability transmission 100.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-attention_ecology\n\n",
+  "tokens": 69,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,12 +21,13 @@
       "to": "D-238",
       "title": "El background importa tanto como el foco",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 402,
+      "fichaTokens": 397,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"
@@ -41,10 +40,11 @@
       "to": "dg-inner",
       "title": "Atención y sentido",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conecta contexto y atención",
       "reading": "El fondo sostiene parte del foco.",
       "relationTokens": 24,
-      "fichaTokens": 191,
+      "fichaTokens": 172,
       "tagWeights": {
         "aprendizaje": 0.4331,
         "autoridad": 0.0368,
@@ -72,10 +72,11 @@
       "to": "dg-learning",
       "title": "Aprendizaje autodirigido",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "contabiliza reconstrucción",
       "reading": "Interrupciones pueden exigir rehacer relaciones.",
       "relationTokens": 30,
-      "fichaTokens": 200,
+      "fichaTokens": 179,
       "tagWeights": {
         "aprendizaje": 0.4664,
         "autoridad": 0.0587,
@@ -103,10 +104,11 @@
       "to": "dg-transform",
       "title": "Transformación organizativa",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "expone extracción de expertos",
       "reading": "Disponibilidad constante reduce oportunidad de crear.",
       "relationTokens": 27,
-      "fichaTokens": 233,
+      "fichaTokens": 208,
       "tagWeights": {
         "aprendizaje": 0.2509,
         "autoridad": 0.0093,

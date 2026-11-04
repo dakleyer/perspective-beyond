@@ -12,9 +12,8 @@
   "clusters": [
     "research"
   ],
-  "context": "## 00G-HF — model receiver candidate v0.1\nFuente de la línea «Ecosystem Awareness». El enlace abre el documento en su versión registrada.\nEtiquetas: Cartografía y señales de ecosistema 50.00%; Investigación y documentación técnica 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-9a87915cffb17f.html\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/868342c2ea377d5b9988cf86acb638104814982e/research/ecosystem-awareness/baseline/fixtures/00G-HF-MODEL-RECEIVER-v0.1/README.md\n\n",
-  "readingSource": null,
-  "tokens": 163,
+  "context": "## 00G-HF — model receiver candidate v0.1\nFuente de la línea «Ecosystem Awareness». El enlace abre el documento en su versión registrada.\nTags: Cartography and ecosystem signals 50.00%; Research and technical documentation 50.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-9a87915cffb17f.html\nSource document: https://github.com/dakleyer/structural-awareness-contributions/blob/868342c2ea377d5b9988cf86acb638104814982e/research/ecosystem-awareness/baseline/fixtures/00G-HF-MODEL-RECEIVER-v0.1/README.md\n\n",
+  "tokens": 159,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "sac-cf50fdeec09cc5",
       "title": "Anexo — Desarrollo e historial de experimentos 00G-HF",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «2. Implementaciones y resultados conservados» con el rótulo «Adaptador de modelo para cached-lineage».",
-      "relationTokens": 143,
-      "fichaTokens": 216,
+      "relationTokens": 141,
+      "fichaTokens": 209,
       "tagWeights": {
         "decision": 0.0625,
         "documentacion": 0.3125,
@@ -44,10 +44,11 @@
       "to": "sac-8f9ecd4ce3f0ae",
       "title": "00G-HF — decision-open model receiver v0.1",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «00G-HF — model receiver candidate v0.1» con el rótulo «Protocol and limits».",
-      "relationTokens": 136,
-      "fichaTokens": 169,
+      "relationTokens": 134,
+      "fichaTokens": 163,
       "tagWeights": {
         "decision": 0.8333,
         "evidencia": 0.1667
@@ -63,12 +64,13 @@
       "to": "sac-9f26ee43df5875",
       "title": "Codex — empezar aquí: receptor nativo 00G-HF sin EA",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Codex — empezar aquí: receptor nativo 00G-HF sin EA» con el rótulo «nuevo receptor con decisiones abiertas».",
-      "relationTokens": 146,
-      "fichaTokens": 166,
+      "relationTokens": 144,
+      "fichaTokens": 164,
       "tagWeights": {
-        "documentacion": 1.0
+        "documentacion": 1
       },
       "clusters": [
         "research"
@@ -81,12 +83,13 @@
       "to": "sac-bbf87ddf5e9908",
       "title": "00G-HF — plan de implementación en paralelo v0.1",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «3. Recorrido de la línea B» con el rótulo «receptor de modelo para este perfil».",
-      "relationTokens": 135,
-      "fichaTokens": 168,
+      "relationTokens": 133,
+      "fichaTokens": 164,
       "tagWeights": {
-        "transformacion": 1.0
+        "transformacion": 1
       },
       "clusters": [
         "research"
@@ -99,10 +102,11 @@
       "to": "sac-ae5cfdf16d6d42",
       "title": "Preserved non-canonical working inputs",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Archivo completo de enlaces del corte» con el rótulo «00G-HF — model receiver candidate v0.1».",
-      "relationTokens": 126,
-      "fichaTokens": 175,
+      "relationTokens": 124,
+      "fichaTokens": 169,
       "tagWeights": {
         "decision": 0.3334,
         "documentacion": 0.3333,
@@ -119,10 +123,11 @@
       "to": "sac-8f9ecd4ce3f0ae",
       "title": "00G-HF — decision-open model receiver v0.1",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "ruta de lectura",
       "reading": "El índice de la carpeta sitúa este documento dentro de su línea de trabajo.",
-      "relationTokens": 122,
-      "fichaTokens": 169,
+      "relationTokens": 120,
+      "fichaTokens": 163,
       "tagWeights": {
         "decision": 0.8333,
         "evidencia": 0.1667

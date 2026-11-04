@@ -12,14 +12,14 @@
   "clusters": [
     "tegrity"
   ],
-  "context": "## AI Integrity Architecture: Toward Expert-System Envelopes Around Statistical AI\nThe integration of artificial intelligence based on statistical and foundational models into mission-critical systems is giving rise to the emergence of a new architectural “integrity” layer, whose purpose is to impose constraints, guarantee explainability, and maintain traceability under increasingly strict regulatory and safety requirements. This layer adopts patterns very close to those of classical expert systems: explicit knowledge, deterministic inference, auditable rules, and structured explanation capability. This article analyzes the regulatory and technical trends that push toward constrained and explainable architectures, reviews the notion of expert systems, and argues that modern AI guardrails in mission-critical environments are, in essence, expert systems that wrap and condition probabilistic models.\nEtiquetas: Evidencia, procedencia y atribución 36.36%; Integridad y seguridad de IA 63.64%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/ai-integrity-architecture-toward-expert-system-envelopes-around-statistical-ai-t385/\nDocumento de origen: https://tegrity.ai/ai-integrity-architecture-toward-expert-system-envelopes-around-statistical-ai/\n\n",
+  "context": "## AI Integrity Architecture: Toward Expert-System Envelopes Around Statistical AI\nThe integration of artificial intelligence based on statistical and foundational models into mission-critical systems is giving rise to the emergence of a new architectural “integrity” layer, whose purpose is to impose constraints, guarantee explainability, and maintain traceability under increasingly strict regulatory and safety requirements. This layer adopts patterns very close to those of classical expert systems: explicit knowledge, deterministic inference, auditable rules, and structured explanation capability. This article analyzes the regulatory and technical trends that push toward constrained and explainable architectures, reviews the notion of expert systems, and argues that modern AI guardrails in mission-critical environments are, in essence, expert systems that wrap and condition probabilistic models.\nTags: Evidence, provenance and attribution 36.36%; AI integrity and security 63.64%\nCard: https://dakleyer.github.io/perspective-beyond/sources/ai-integrity-architecture-toward-expert-system-envelopes-around-statistical-ai-t385/\nSource document: https://tegrity.ai/ai-integrity-architecture-toward-expert-system-envelopes-around-statistical-ai/\n\n",
   "readingSource": {
     "url": "https://tegrity.ai/ai-integrity-architecture-toward-expert-system-envelopes-around-statistical-ai/",
     "section": "Opening paragraphs",
     "observed": "2026-11-04",
     "sourceSha256": "6e4315aa75fe68e5291631c3da13eeae293e01d90ec77c3adb890f9184fc7f49"
   },
-  "tokens": 242,
+  "tokens": 235,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -27,10 +27,11 @@
       "to": "C59",
       "title": "Explicación trazable",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 27,
-      "fichaTokens": 173,
+      "fichaTokens": 155,
       "tagWeights": {
         "autoridad": 0.0233,
         "capacidad-humana": 0.0313,
@@ -58,10 +59,11 @@
       "to": "C86",
       "title": "Núcleo común con evidencia cualificada",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 29,
-      "fichaTokens": 234,
+      "fichaTokens": 207,
       "tagWeights": {
         "agentes": 0.042,
         "aprendizaje": 0.017,
@@ -94,10 +96,11 @@
       "to": "T1391",
       "title": "The Limits of AI Oversight",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documented use",
       "reading": "A perfectly traceable rule chain cannot recover a decision-relevant distinction that input formation has already removed.",
       "relationTokens": 45,
-      "fichaTokens": 415,
+      "fichaTokens": 405,
       "tagWeights": {
         "autoridad": 0.0625,
         "capacidad-humana": 0.1563,
@@ -118,10 +121,11 @@
       "to": "E1704",
       "title": "Rationalization.AI",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [Architecture for operational AI integrity](https://tegrity.ai/ai-integrity-architecture-toward-expert-system-envelopes-around-statistical-ai/).",
       "relationTokens": 63,
-      "fichaTokens": 296,
+      "fichaTokens": 290,
       "tagWeights": {
         "casos": 0.0834,
         "empresa": 0.4583,
@@ -138,10 +142,11 @@
       "to": "E1570",
       "title": "Luxury Recommendation",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [Expert-system envelopes around statistical AI](https://tegrity.ai/ai-integrity-architecture-toward-expert-system-envelopes-around-statistical-ai/).",
       "relationTokens": 61,
-      "fichaTokens": 211,
+      "fichaTokens": 206,
       "tagWeights": {
         "autoridad": 0.1334,
         "decision": 0.1333,
@@ -158,10 +163,11 @@
       "to": "N1826",
       "title": "Phylons Liquidity Orquestration",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [Expert-system envelopes and authorization boundaries](https://tegrity.ai/ai-integrity-architecture-toward-expert-system-envelopes-around-statistical-ai/).",
       "relationTokens": 67,
-      "fichaTokens": 543,
+      "fichaTokens": 534,
       "tagWeights": {
         "agentes": 0.1807,
         "autoridad": 0.1032,
@@ -182,10 +188,11 @@
       "to": "T888",
       "title": "The Semantic Tug-of-War: The Turf War for AI Oversight and the Case for “AI Integrity Management”",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The architecture beneath AI Integrity Management](https://tegrity.ai/ai-integrity-architecture-toward-expert-system-envelopes-around-statistical-ai/).",
       "relationTokens": 82,
-      "fichaTokens": 356,
+      "fichaTokens": 352,
       "tagWeights": {
         "empresa": 0.4783,
         "integridad-ia": 0.5217
@@ -201,10 +208,11 @@
       "to": "T387",
       "title": "Structural Limits of Current AI Integrity Under Regime Change",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The structural limits of integrity under regime change](https://tegrity.ai/structural-limits-of-current-ai-integrity-under-regime-change/).",
       "relationTokens": 66,
-      "fichaTokens": 241,
+      "fichaTokens": 234,
       "tagWeights": {
         "cambio-regimen": 0.4583,
         "integridad-ia": 0.3333,

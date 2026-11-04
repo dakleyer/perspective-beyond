@@ -7,9 +7,9 @@ const number=new Intl.NumberFormat('es'),percent=new Intl.NumberFormat('es',{sty
 const element=(tag,text)=>{const n=document.createElement(tag);if(text)n.textContent=text;return n;};
 const svg=(tag,attrs)=>{const n=document.createElementNS(ns,tag);for(const[k,v]of Object.entries(attrs))n.setAttribute(k,v);return n;};
 function link(url,label){const a=element('a',label);a.href=url;return a;}
-const type=n=>n.type==='ficha'?'Ficha':n.type==='concepto'?'Concepto':'Documento de origen';
+const type=n=>n.type==='ficha'?'Card':n.type==='concepto'?'Concept':'Documento de origen';
 async function start(){
- const response=await fetch('../mapa/grafo.json?v=posicionamiento-2');if(!response.ok)throw Error('El Atlas no está disponible ahora.');const graph=await response.json();
+ const response=await fetch('../mapa/grafo.json?v=posicionamiento-2');if(!response.ok)throw Error('The Atlas is not available now.');const graph=await response.json();
  const pageViewsResponse=await fetch('../web-lenses/profiles.json');if(pageViewsResponse.ok){const pageViews=await pageViewsResponse.json();for(const doc of pageViews.documents){const at=graph.documents.findIndex(d=>d.id===doc.id);if(at<0)graph.documents.push(doc);else graph.documents[at]=doc;}graph.webPageViews=pageViews.pages;}
 
  const all=new Map(graph.nodes.map(n=>[n.id,n])),labels=new Map(Object.entries(graph.topics).map(([k,v])=>['tema:'+k,v]));
@@ -18,7 +18,7 @@ async function start(){
  for(const n of graph.nodes)if(n.type==='concepto')labels.set('concepto:'+n.id,n.title);
  const weights=new Map();let result,selected,byId;
  for(const[k,label]of labels)get('topic').add(new Option(label,k));
- get('site').add(new Option('Toda la constelación','all'));for(const[k,v]of Object.entries(graph.clusters))get('site').add(new Option(v,k));
+ get('site').add(new Option('The whole constellation','all'));for(const[k,v]of Object.entries(graph.clusters))get('site').add(new Option(v,k));
  for(const d of graph.documents){const o=element('option');o.value=d.url;o.label=d.title;get('positions').append(o);}
  for(const n of graph.nodes){const o=element('option');o.value=n.id;o.label=n.title;get('positions').append(o);}
  function bridges(){
@@ -28,19 +28,19 @@ async function start(){
  }
  function weightRows(){
   get('weights').replaceChildren();const total=[...weights.values()].reduce((s,v)=>s+Number(v),0);
-  for(const[k,v]of weights){const row=element('div');row.className='weight-row';const input=element('input');input.type='number';input.min='.0001';input.max='10000';input.step='any';input.value=v;input.required=true;input.setAttribute('aria-label','Peso de '+labels.get(k));input.addEventListener('input',()=>{weights.set(k,input.value);const total=[...weights.values()].reduce((s,v)=>s+Number(v),0);for(const r of get('weights').children)r.querySelector('.weight-share').textContent=total>0?percent.format(Number(weights.get(r.dataset.key))/total):'';});
+  for(const[k,v]of weights){const row=element('div');row.className='weight-row';const input=element('input');input.type='number';input.min='.0001';input.max='10000';input.step='any';input.value=v;input.required=true;input.setAttribute('aria-label','Weight of '+labels.get(k));input.addEventListener('input',()=>{weights.set(k,input.value);const total=[...weights.values()].reduce((s,v)=>s+Number(v),0);for(const r of get('weights').children)r.querySelector('.weight-share').textContent=total>0?percent.format(Number(weights.get(r.dataset.key))/total):'';});
    const share=element('span',total>0?percent.format(Number(v)/total):'');share.className='weight-share';row.dataset.key=k;
-   const remove=element('button','Quitar');remove.type='button';remove.className='secondary';remove.addEventListener('click',()=>{weights.delete(k);weightRows();});row.append(element('span',labels.get(k)),input,share,remove);get('weights').append(row);}
+   const remove=element('button','Remove');remove.type='button';remove.className='secondary';remove.addEventListener('click',()=>{weights.delete(k);weightRows();});row.append(element('span',labels.get(k)),input,share,remove);get('weights').append(row);}
  }
  get('add-weight').addEventListener('click',()=>{if(!weights.has(get('topic').value)&&weights.size<20){weights.set(get('topic').value,1);weightRows();}});
  get('mode').addEventListener('change',bridges);get('site').addEventListener('change',bridges);
  const mapURL=(r,embed=false)=>{const u=new URL('./',location.href);u.search=positionParams(r);if(embed)u.searchParams.set('embed','1');return u;};
  function inspect(id){
-  selected=id;const n=byId.get(id);get('node-meta').textContent=type(n)+' · '+(n.distance===0?'posicionamiento':n.distance===1?'una conexión desde el documento':n.distance+' conexiones desde el documento');get('node-title').textContent=n.title;get('node-summary').textContent=n.summary||n.readingSummary||'';
+  selected=id;const n=byId.get(id);get('node-meta').textContent=type(n)+' · '+(n.distance===0?'posicionamiento':n.distance===1?'one connection from the document':n.distance+' connections from the document');get('node-title').textContent=n.title;get('node-summary').textContent=n.summary||n.readingSummary||'';
   get('composition').replaceChildren();get('profile-title').hidden=!Object.keys(n.tagWeights??{}).length;
   for(const[k,w]of Object.entries(n.tagWeights??{}).sort((a,b)=>b[1]-a[1])){const row=element('div');row.className='composition-row';const bar=element('progress');bar.max=1;bar.value=w;bar.setAttribute('aria-label',graph.topics[k]+' '+percent.format(w));row.append(element('span',graph.topics[k]),element('strong',percent.format(w)),bar);get('composition').append(row);}
   const next=new URL('./',location.href);const p=positionParams(result.request);p.set('posicionamiento',n.type==='documento'?result.position.url:n.id);next.search=p;
-  get('node-links').replaceChildren(link(n.url,n.type==='documento'?'Abrir documento de origen':'Abrir ficha'),link(next.href,'Usar como posicionamiento'));
+  get('node-links').replaceChildren(link(n.url,n.type==='documento'?'Open source document':'Open card'),link(next.href,'Use as positioning'));
   if(n.original&&n.original!==n.url)get('node-links').append(link(n.original,'Documento de origen'));
   get('node-edges').replaceChildren();for(const e of result.edges.filter(e=>e.from===id||e.to===id)){const other=byId.get(e.from===id?e.to:e.from);const li=element('li');li.append(element('strong',(e.from===id?'→ ':'← ')+other.title),element('p',e.reading||e.kind));get('node-edges').append(li);}
   for(const b of get('node-list').querySelectorAll('button'))b.setAttribute('aria-current',String(b.dataset.id===id));
@@ -57,23 +57,23 @@ async function start(){
  }
  function display(r){
   result=r;selected=r.center;byId=new Map(r.nodes.map(n=>[n.id,n]));get('result').hidden=false;get('map-title').textContent=r.position.title;get('map-info').textContent=r.position.url;
-  get('stats').replaceChildren(...[number.format(r.budget.used)+' / '+number.format(r.budget.limit)+' tokens de lectura',r.selected+' fichas y conceptos seleccionados',r.shown+' piezas visibles'].map(x=>element('strong',x)));
-  get('frontier').textContent=(r.omittedInDiagram?r.omittedInDiagram+' piezas adicionales están en la lectura descargable. ':'')+(r.budget.nextBlock?'La siguiente incorporación necesita '+Math.max(0,r.budget.used+r.budget.nextBlock-r.budget.limit)+' tokens más.':'El recorrido ha incluido todas las piezas alcanzables de esta selección.');
+  get('stats').replaceChildren(...[number.format(r.budget.used)+' / '+number.format(r.budget.limit)+' reading tokens',r.selected+' selected cards and concepts',r.shown+' visible pieces'].map(x=>element('strong',x)));
+  get('frontier').textContent=(r.omittedInDiagram?r.omittedInDiagram+' additional pieces are in the downloadable reading. ':'')+(r.budget.nextBlock?'The next addition requires '+Math.max(0,r.budget.used+r.budget.nextBlock-r.budget.limit)+' more tokens.':'Traversal has included all reachable pieces in this selection.');
   get('node-list').replaceChildren(...r.nodes.map(n=>{const li=element('li'),b=element('button',n.title+' · '+type(n));b.type='button';b.dataset.id=n.id;b.addEventListener('click',()=>inspect(n.id));li.append(b);return li;}));
-  get('reading').textContent=r.reading;get('accounting').textContent='Cuenta de lectura con '+r.budget.encoding+': '+r.budget.accounting;
+  get('reading').textContent=r.reading;get('accounting').textContent='Reading accounting with '+r.budget.encoding+': '+r.budget.accounting;
   get('document-cards').replaceChildren(...(r.position.fichas.length?r.position.fichas:r.position.entrySources??[]).map(id=>{const li=element('li');li.append(link(all.get(id).url,all.get(id).title));return li;}));
   get('open-full').hidden=!embedded;get('open-full').href=mapURL(r.request).href;get('status').textContent='';for(const id of ['copy-link','copy-assistant','download-text','download-json','download-source'])get(id).disabled=false;draw();inspect(selected);
  }
  function update(p,change){try{display(positionMap(graph,readPosition(p,graph)));if(change)history.replaceState(null,'',mapURL(result.request));}catch(e){get('status').textContent=e.message;for(const id of ['copy-link','copy-assistant','download-text','download-json','download-source'])get(id).disabled=true;}}
  get('settings').addEventListener('submit',e=>{e.preventDefault();const p=new URLSearchParams(new FormData(get('settings')));for(const key of ['rol','lectura','enfoque','instruccion'])if(initial.has(key))p.set(key,initial.get(key));for(const[k,v]of weights)p.append('peso',k+':'+v);if(!get('only').checked)p.delete('solo');update(p,true);});
  get('extra').addEventListener('change',draw);
- async function copy(text){get('copy-fallback').value=text;try{await navigator.clipboard.writeText(text);get('status').textContent='Copiado.';}catch{get('copy-fallback').hidden=false;get('copy-fallback').focus();get('copy-fallback').select();}}
+ async function copy(text){get('copy-fallback').value=text;try{await navigator.clipboard.writeText(text);get('status').textContent='Copied.';}catch{get('copy-fallback').hidden=false;get('copy-fallback').focus();get('copy-fallback').select();}}
  get('copy-link').addEventListener('click',()=>copy(mapURL(result.request).href));
  get('copy-assistant').addEventListener('click',()=>{const prepared=graph.webPageViews?.find(p=>p.document===result.position.id&&p.tokens===result.request.tokens);const u=new URL(prepared?'../web-lenses/selections/'+prepared.selection.replace('.json','.txt'):'../web-lenses/entry.txt',location.href);u.search=positionParams(result.request);for(const key of ['rol','lectura','instruccion'])if(initial.has(key))u.searchParams.set(key,initial.get(key));copy(u.href);});
  function download(text,name,mime){const u=URL.createObjectURL(new Blob([text],{type:mime})),a=link(u,name);a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),1000);}
  get('download-text').addEventListener('click',()=>download(result.reading,'atlas-posicionamiento.md','text/markdown;charset=utf-8'));
  get('download-json').addEventListener('click',()=>download(JSON.stringify(result,null,2),'atlas-posicionamiento.json','application/json;charset=utf-8'));
- get('download-source').addEventListener('click',()=>{try{const source=assistantSource(result,graph,{format:get('source-format').value});download(source.text,'atlas-fuente-asistente.txt','text/plain;charset=utf-8');get('status').textContent='Fuente autocontenida descargada: textos, relaciones y configuración.';}catch(e){get('status').textContent=e.message;}});
+ get('download-source').addEventListener('click',()=>{try{const source=assistantSource(result,graph,{format:get('source-format').value});download(source.text,'atlas-fuente-asistente.txt','text/plain;charset=utf-8');get('status').textContent='Self-contained source downloaded: texts, relationships and configuration.';}catch(e){get('status').textContent=e.message;}});
  let request;try{request=readPosition(initial,graph);}catch(e){get('status').textContent=e.message;}
  const defaults=request??readPosition(new URLSearchParams(),graph);
  get('position').value=request?.posicionamiento??initial.get('posicionamiento')??initial.get('centro')??defaults.posicionamiento;get('tokens').value=defaults.tokens;get('limit').value=defaults.max;get('site').value=defaults.site??all.get(defaults.position.focus??defaults.position.seeds?.[0]??defaults.position.fichas[0])?.clusters[0]??'all';get('mode').value=defaults.modo;get('network').value=defaults.red;get('direction').value=defaults.sentido;bridges();if(defaults.puente)get('bridge').value=defaults.puente;

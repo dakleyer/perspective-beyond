@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Autonomía invisible y pertenencia",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-invisible_autonomy",
-  "documentId": null,
   "sourceIds": [
     "D-213",
     "D-214",
@@ -18,9 +17,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Autonomía invisible y pertenencia\nLa capacidad de elegir dónde trabajar, vivir o mostrarse puede no ser inteligible como estatus local; representación permanente impone costes.\nEtiquetas: Aprendizaje y transmisión de capacidades 50.00%; Economía, costes y liquidez 25.00%; Integridad y seguridad de IA 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-invisible_autonomy\n\n",
-  "readingSource": null,
-  "tokens": 99,
+  "context": "## Autonomía invisible y pertenencia\nLa capacidad de elegir dónde trabajar, vivir o mostrarse puede no ser inteligible como estatus local; representación permanente impone costes.\nTags: Learning and capability transmission 50.00%; Economics, costs and liquidity 25.00%; AI integrity and security 25.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-invisible_autonomy\n\n",
+  "tokens": 92,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -28,12 +26,13 @@
       "to": "D-213",
       "title": "La libertad también puede exigirse sufrimiento como demostración",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 401,
+      "fichaTokens": 397,
       "tagWeights": {
-        "integridad-ia": 1.0
+        "integridad-ia": 1
       },
       "clusters": [
         "dialogos"
@@ -46,12 +45,13 @@
       "to": "D-214",
       "title": "La invisibilidad local puede ser una forma de riqueza",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 25,
-      "fichaTokens": 389,
+      "fichaTokens": 384,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"
@@ -64,12 +64,13 @@
       "to": "D-215",
       "title": "Un oficio visible puede parecer más real que una libertad internacional",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 396,
+      "fichaTokens": 391,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"
@@ -82,12 +83,13 @@
       "to": "D-248",
       "title": "El explorador no va a ganar la narración convirtiéndose en influencer",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 29,
-      "fichaTokens": 409,
+      "fichaTokens": 406,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "dialogos"
@@ -100,10 +102,11 @@
       "to": "dg-identity",
       "title": "Identidad, roles y posicionamiento",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "distingue legibilidad de capacidad",
       "reading": "El estatus local no mide toda forma de valor u oficio.",
       "relationTokens": 35,
-      "fichaTokens": 234,
+      "fichaTokens": 211,
       "tagWeights": {
         "aprendizaje": 0.2833,
         "autoridad": 0.0459,
@@ -133,10 +136,11 @@
       "to": "dg-options",
       "title": "Libertad y opciones",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "poder no representar",
       "reading": "La posibilidad de quedar anónimo puede ser un recurso de libertad.",
       "relationTokens": 30,
-      "fichaTokens": 202,
+      "fichaTokens": 181,
       "tagWeights": {
         "aprendizaje": 0.1588,
         "autoridad": 0.0804,
@@ -165,10 +169,11 @@
       "to": "dg-language",
       "title": "Lenguas y pertenencia",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "vincula movilidad y arraigo",
       "reading": "Dos generaciones pueden vivir la misma movilidad de modo diferente.",
       "relationTokens": 32,
-      "fichaTokens": 117,
+      "fichaTokens": 108,
       "tagWeights": {
         "aprendizaje": 0.2,
         "autoridad": 0.08,
@@ -188,10 +193,11 @@
       "to": "dg-value_acted",
       "title": "Valor actuado y monedas de identidad",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "hace visible el coste del estatus",
       "reading": "La riqueza que obliga a representar puede reducir libertad.",
       "relationTokens": 34,
-      "fichaTokens": 120,
+      "fichaTokens": 109,
       "tagWeights": {
         "aprendizaje": 0.25,
         "autoridad": 0.0714,
@@ -210,10 +216,11 @@
       "to": "dg-internalized_control",
       "title": "Auditoría interior y libertad condicionada",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "contrasta examen y anonimato",
       "reading": "Elegir no representar una identidad puede evitar auditoría social permanente.",
       "relationTokens": 37,
-      "fichaTokens": 120,
+      "fichaTokens": 111,
       "tagWeights": {
         "aprendizaje": 0.2084,
         "autoridad": 0.2083,
@@ -232,10 +239,11 @@
       "to": "dg-babel_trust",
       "title": "Babel semántica y economía de la atención",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación de ampliación v0.9",
       "reading": "La visibilidad puede domesticar al explorador.",
       "relationTokens": 38,
-      "fichaTokens": 98,
+      "fichaTokens": 91,
       "tagWeights": {
         "economia": 0.6667,
         "evidencia": 0.1667,

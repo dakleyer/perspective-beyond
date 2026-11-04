@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Marco mental que también oculta sus límites",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-unfalsified_frame",
-  "documentId": null,
   "sourceIds": [
     "D-254",
     "D-257",
@@ -18,9 +17,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Marco mental que también oculta sus límites\nUna perspectiva organiza lo visible, lo valorado y las opciones; el observador puede identificar con la estructura que lo limita.\nEtiquetas: Aprendizaje y transmisión de capacidades 8.33%; Decisiones y responsabilidad 16.67%; Cambio de perspectiva 75.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-unfalsified_frame\n\n",
-  "readingSource": null,
-  "tokens": 94,
+  "context": "## Marco mental que también oculta sus límites\nUna perspectiva organiza lo visible, lo valorado y las opciones; el observador puede identificar con la estructura que lo limita.\nTags: Learning and capability transmission 8.33%; Decisions and responsibility 16.67%; Change of perspective 75.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-unfalsified_frame\n\n",
+  "tokens": 89,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -28,10 +26,11 @@
       "to": "D-254",
       "title": "El método nace de una paradoja: la perspectiva que decide también tiene puntos ciegos",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 34,
-      "fichaTokens": 437,
+      "fichaTokens": 434,
       "tagWeights": {
         "decision": 0.3333,
         "perspectiva": 0.6667
@@ -47,12 +46,13 @@
       "to": "D-257",
       "title": "El clan puede mandar desde dentro de un yo que se cree independiente",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 29,
-      "fichaTokens": 388,
+      "fichaTokens": 386,
       "tagWeights": {
-        "perspectiva": 1.0
+        "perspectiva": 1
       },
       "clusters": [
         "dialogos"
@@ -65,12 +65,13 @@
       "to": "D-272",
       "title": "Una nueva perspectiva conserva los datos y cambia sus relaciones",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 378,
+      "fichaTokens": 376,
       "tagWeights": {
-        "perspectiva": 1.0
+        "perspectiva": 1
       },
       "clusters": [
         "dialogos"
@@ -83,10 +84,11 @@
       "to": "D-277",
       "title": "Una explicación consciente puede llegar después de la conducta",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 25,
-      "fichaTokens": 413,
+      "fichaTokens": 407,
       "tagWeights": {
         "aprendizaje": 0.3334,
         "decision": 0.3333,
@@ -103,10 +105,11 @@
       "to": "dg-identity",
       "title": "Identidad, roles y posicionamiento",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.10",
       "reading": "Puede internalizar el marco que pretende revisar.",
       "relationTokens": 35,
-      "fichaTokens": 234,
+      "fichaTokens": 211,
       "tagWeights": {
         "aprendizaje": 0.2833,
         "autoridad": 0.0459,
@@ -136,10 +139,11 @@
       "to": "dg-perspective",
       "title": "Nueva Perspectiva",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.10",
       "reading": "La misma perspectiva organiza y oculta opciones.",
       "relationTokens": 32,
-      "fichaTokens": 190,
+      "fichaTokens": 173,
       "tagWeights": {
         "aprendizaje": 0.117,
         "cambio-regimen": 0.019,
@@ -166,10 +170,11 @@
       "to": "dg-doubt",
       "title": "Duda, pruebas y conocimiento corregible",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.10",
       "reading": "La duda permite revisar estructura, no solo respuestas.",
       "relationTokens": 37,
-      "fichaTokens": 268,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.2345,
         "autoridad": 0.0562,
@@ -203,10 +208,11 @@
       "to": "dg-internalized_control",
       "title": "Auditoría interior y libertad condicionada",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.10",
       "reading": "Una norma heredada puede presentarse como elección propia.",
       "relationTokens": 37,
-      "fichaTokens": 120,
+      "fichaTokens": 111,
       "tagWeights": {
         "aprendizaje": 0.2084,
         "autoridad": 0.2083,
@@ -225,10 +231,11 @@
       "to": "dg-inspiration_discipline",
       "title": "Inspiración sometida a comprobación",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación de ampliación v0.11",
       "reading": "La aparente obviedad es revisable.",
       "relationTokens": 36,
-      "fichaTokens": 109,
+      "fichaTokens": 102,
       "tagWeights": {
         "aprendizaje": 0.0385,
         "autoridad": 0.1154,

@@ -27,8 +27,10 @@
     "aliases": [
       "https://jubap.eu/"
     ],
-    "header": "# Posicionamiento · JubAp.EU\nDocumento de origen: https://jubap.eu/\n\n",
-    "headerTokens": 20,
+    "header": "# Positioning · JubAp.EU\nSource document: https://jubap.eu/\n\n",
+    "headerTokens": 18,
+    "headerEn": "# Positioning · JubAp.EU\nSource document: https://jubap.eu/\n\n",
+    "headerTokensEn": 18,
     "type": "documento",
     "focus": "E2",
     "seeds": [
@@ -37,11 +39,11 @@
   },
   "budget": {
     "limit": 1000,
-    "used": 802,
-    "remaining": 198,
-    "nextBlock": 333,
+    "used": 772,
+    "remaining": 228,
+    "nextBlock": 325,
     "encoding": "o200k_base",
-    "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
+    "accounting": "Sum of independently encoded blocks: document header, card and incoming relationship. The budget applies to selected reading content."
   },
   "reachable": 28,
   "selected": 4,
@@ -75,7 +77,7 @@
       "type": "documento",
       "url": "https://jubap.eu/",
       "original": "https://jubap.eu/",
-      "summary": "Documento desde el que se abre este posicionamiento.",
+      "summary": "Document from which this positioning opens.",
       "tags": [],
       "tagWeights": {},
       "clusters": [
@@ -113,7 +115,7 @@
         "perspectiva": 0.15,
         "transformacion": 0.25
       },
-      "contextTokens": 115,
+      "contextTokens": 110,
       "distance": 1,
       "parent": "doc-63aa9c575ad7473553-entrada",
       "routeEdge": null,
@@ -152,7 +154,7 @@
         "sourceSha256": "65432f39c78ee9915260dfabdca77671cf3e50a3e3b74453c654b1045c81b718"
       },
       "readingSummary": "Un MVP regional de inteligencia de producto para entender la conversión en boutiques de lujo de Oriente Medio, India y África.",
-      "contextTokens": 204,
+      "contextTokens": 199,
       "distance": 2,
       "parent": "E2",
       "routeEdge": "navigation:position-nav-E2-E1221",
@@ -189,7 +191,7 @@
         "economia": 0.1538,
         "perspectiva": 0.1538
       },
-      "contextTokens": 152,
+      "contextTokens": 146,
       "distance": 2,
       "parent": "E2",
       "routeEdge": "navigation:position-nav-E2-E1628",
@@ -228,7 +230,7 @@
         "empresa": 0.2105,
         "perspectiva": 0.2631
       },
-      "contextTokens": 154,
+      "contextTokens": 148,
       "distance": 2,
       "parent": "E2",
       "routeEdge": "navigation:position-nav-E2-E1731",
@@ -240,8 +242,8 @@
       "id": "contiene:doc-63aa9c575ad7473553-entrada:E2",
       "from": "doc-63aa9c575ad7473553-entrada",
       "to": "E2",
-      "kind": "ficha del documento",
-      "reading": "Esta pieza abre la lectura desde su documento de origen.",
+      "kind": "document card",
+      "reading": "This piece opens the reading from its source document.",
       "route": true
     },
     {
@@ -311,7 +313,7 @@
         "perspectiva": 0.15,
         "transformacion": 0.25
       },
-      "contextTokens": 115,
+      "contextTokens": 110,
       "distance": 1,
       "parent": "doc-63aa9c575ad7473553-entrada",
       "routeEdge": null,
@@ -350,7 +352,7 @@
         "sourceSha256": "65432f39c78ee9915260dfabdca77671cf3e50a3e3b74453c654b1045c81b718"
       },
       "readingSummary": "Un MVP regional de inteligencia de producto para entender la conversión en boutiques de lujo de Oriente Medio, India y África.",
-      "contextTokens": 204,
+      "contextTokens": 199,
       "distance": 2,
       "parent": "E2",
       "routeEdge": "navigation:position-nav-E2-E1221",
@@ -387,7 +389,7 @@
         "economia": 0.1538,
         "perspectiva": 0.1538
       },
-      "contextTokens": 152,
+      "contextTokens": 146,
       "distance": 2,
       "parent": "E2",
       "routeEdge": "navigation:position-nav-E2-E1628",
@@ -426,12 +428,12 @@
         "empresa": 0.2105,
         "perspectiva": 0.2631
       },
-      "contextTokens": 154,
+      "contextTokens": 148,
       "distance": 2,
       "parent": "E2",
       "routeEdge": "navigation:position-nav-E2-E1731",
       "affinity": 1
     }
   ],
-  "reading": "# Posicionamiento · JubAp.EU\nDocumento de origen: https://jubap.eu/\n\n## JubAp.EU\nJubAp.eu supports high-stakes socio-technical transformations where technology, operating model or organizational decisions define long-term viability.\nEtiquetas: Decisiones y responsabilidad 10.00%; Empresa y gestión 45.00%; Índices, contacto y políticas 5.00%; Cambio de perspectiva 15.00%; Transformación y continuidad operativa 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-eu-e2/\nDocumento de origen: https://jubap.eu/\n\nJubAp.EU → Field Notes · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «Last articles» abre «Field Notes».\nFuente de la relación: https://jubap.eu/\n\n## Field Notes\nUn MVP regional de inteligencia de producto para entender la conversión en boutiques de lujo de Oriente Medio, India y África.\n\nCar Evolution is an operationally tested mobility-orchestration product, validated as an MVP at scale and prepared for European deployment and adaptation.\n\nMission-critical operational intelligence, regime-aware systems and orchestration capabilities for complex international programmes and consortia.\n\nPublic map of JubAp.eu, IMSV.org and Tegrity.AI research programmes, software platforms, engineering capabilities and ecosystem roles.\n\nReveal the strategic options the current frame leaves unseen. Compare value, risk and uncertainty, then shape a more defensible direction for the organization.\nEtiquetas: Agentes y coordinación distribuida 33.34%; Movilidad e infraestructura 33.33%; Índices, contacto y políticas 33.33%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/field-notes-e1221/\nDocumento de origen: https://jubap.eu/field-notes/\n\nJubAp.EU → The JUBAP Framework · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «Jump Up Business Action Plan» abre «The JUBAP Framework».\nFuente de la relación: https://jubap.eu/\n\n## The JUBAP Framework\nEl marco combina el cambio de nivel de observación de UP con el filtro de acciones de JUMP. Las preguntas sobre participación, desbloqueo, movimiento observable y propagación ayudan a elegir por dónde empezar.\nEtiquetas: Autoridad, permisos y delegación 15.39%; Control mínimo y suficiencia 15.39%; Decisiones y responsabilidad 23.08%; Investigación y documentación técnica 15.38%; Economía, costes y liquidez 15.38%; Cambio de perspectiva 15.38%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-jubap-framework\nDocumento de origen: https://jubap.eu/the-jubap-framework/\n\nJubAp.EU → Reframing Value Creation · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «strategic-reframing account» abre «Reframing Value Creation».\nFuente de la relación: https://jubap.eu/\n\n## Reframing Value Creation\nEl cambio de marco permite reconocer valor que ya existe en recursos, prácticas y relaciones. Una intervención puede comenzar por reorganizar esas capacidades y darles una forma que la organización pueda usar.\nEtiquetas: Casos de uso y aplicaciones 10.53%; Control mínimo y suficiencia 10.53%; Decisiones y responsabilidad 10.53%; Investigación y documentación técnica 10.53%; Economía, costes y liquidez 10.52%; Empresa y gestión 21.05%; Cambio de perspectiva 26.31%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-reframing\nDocumento de origen: https://jubap.eu/reframing-value-creation/\n\n"
+  "reading": "# Positioning · JubAp.EU\nSource document: https://jubap.eu/\n\n## JubAp.EU\nJubAp.eu supports high-stakes socio-technical transformations where technology, operating model or organizational decisions define long-term viability.\nTags: Decisions and responsibility 10.00%; Business and management 45.00%; Indexes, contact and policies 5.00%; Change of perspective 15.00%; Transformation and operational continuity 25.00%\nCard: https://dakleyer.github.io/perspective-beyond/sources/jubap-eu-e2/\nSource document: https://jubap.eu/\n\nJubAp.EU → Field Notes · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «Last articles» abre «Field Notes».\nRelationship source: https://jubap.eu/\n\n## Field Notes\nUn MVP regional de inteligencia de producto para entender la conversión en boutiques de lujo de Oriente Medio, India y África.\n\nCar Evolution is an operationally tested mobility-orchestration product, validated as an MVP at scale and prepared for European deployment and adaptation.\n\nMission-critical operational intelligence, regime-aware systems and orchestration capabilities for complex international programmes and consortia.\n\nPublic map of JubAp.eu, IMSV.org and Tegrity.AI research programmes, software platforms, engineering capabilities and ecosystem roles.\n\nReveal the strategic options the current frame leaves unseen. Compare value, risk and uncertainty, then shape a more defensible direction for the organization.\nTags: Agents and distributed coordination 33.34%; Mobility and infrastructure 33.33%; Indexes, contact and policies 33.33%\nCard: https://dakleyer.github.io/perspective-beyond/sources/field-notes-e1221/\nSource document: https://jubap.eu/field-notes/\n\nJubAp.EU → The JUBAP Framework · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «Jump Up Business Action Plan» abre «The JUBAP Framework».\nRelationship source: https://jubap.eu/\n\n## The JUBAP Framework\nEl marco combina el cambio de nivel de observación de UP con el filtro de acciones de JUMP. Las preguntas sobre participación, desbloqueo, movimiento observable y propagación ayudan a elegir por dónde empezar.\nTags: Authority, permissions and delegation 15.39%; Minimum control and sufficiency 15.39%; Decisions and responsibility 23.08%; Research and technical documentation 15.38%; Economics, costs and liquidity 15.38%; Change of perspective 15.38%\nCard: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-jubap-framework\nSource document: https://jubap.eu/the-jubap-framework/\n\nJubAp.EU → Reframing Value Creation · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «strategic-reframing account» abre «Reframing Value Creation».\nRelationship source: https://jubap.eu/\n\n## Reframing Value Creation\nEl cambio de marco permite reconocer valor que ya existe en recursos, prácticas y relaciones. Una intervención puede comenzar por reorganizar esas capacidades y darles una forma que la organización pueda usar.\nTags: Use cases and applications 10.53%; Minimum control and sufficiency 10.53%; Decisions and responsibility 10.53%; Research and technical documentation 10.53%; Economics, costs and liquidity 10.52%; Business and management 21.05%; Change of perspective 26.31%\nCard: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-reframing\nSource document: https://jubap.eu/reframing-value-creation/\n\n"
 }

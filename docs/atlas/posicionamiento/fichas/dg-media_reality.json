@@ -3,19 +3,17 @@
   "type": "concepto",
   "title": "Producción de realidad mediada",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-media_reality",
-  "documentId": null,
   "sourceIds": [
     "D-246"
   ],
   "tagWeights": {
-    "aprendizaje": 1.0
+    "aprendizaje": 1
   },
   "clusters": [
     "dialogos"
   ],
-  "context": "## Producción de realidad mediada\nNarrativas cerradas son producidas profesionalmente y pueden responder a incentivos simultáneos de poder, medios y audiencia.\nEtiquetas: Aprendizaje y transmisión de capacidades 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-media_reality\n\n",
-  "readingSource": null,
-  "tokens": 73,
+  "context": "## Producción de realidad mediada\nNarrativas cerradas son producidas profesionalmente y pueden responder a incentivos simultáneos de poder, medios y audiencia.\nTags: Learning and capability transmission 100.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-media_reality\n\n",
+  "tokens": 69,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,12 +21,13 @@
       "to": "D-246",
       "title": "La dictadura perfecta: profesionales que venden una realidad ya montada",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 27,
-      "fichaTokens": 440,
+      "fichaTokens": 435,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"
@@ -41,10 +40,11 @@
       "to": "dg-behavior_protocol",
       "title": "Protocolo conductual de plataformas",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.9",
       "reading": "La audiencia también responde a incentivos del relato.",
       "relationTokens": 34,
-      "fichaTokens": 98,
+      "fichaTokens": 90,
       "tagWeights": {
         "aprendizaje": 0.3333,
         "autoridad": 0.3333,
@@ -62,10 +62,11 @@
       "to": "dg-frame_change",
       "title": "Marcos que autorizan opciones y compras",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.9",
       "reading": "El montaje controla qué opciones y causas parecen disponibles.",
       "relationTokens": 34,
-      "fichaTokens": 131,
+      "fichaTokens": 119,
       "tagWeights": {
         "aprendizaje": 0.2262,
         "autoridad": 0.1905,
@@ -86,10 +87,11 @@
       "to": "dg-civilization_interface",
       "title": "Interfaces civilizatorias y autoridad",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.9",
       "reading": "La televisión puede mediar comprensión colectiva.",
       "relationTokens": 31,
-      "fichaTokens": 106,
+      "fichaTokens": 96,
       "tagWeights": {
         "aprendizaje": 0.1667,
         "autoridad": 0.5417,
@@ -107,10 +109,11 @@
       "to": "dg-babel_trust",
       "title": "Babel semántica y economía de la atención",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación de ampliación v0.9",
       "reading": "Una explicación verosímil no prueba que sea fiel.",
       "relationTokens": 39,
-      "fichaTokens": 98,
+      "fichaTokens": 91,
       "tagWeights": {
         "economia": 0.6667,
         "evidencia": 0.1667,

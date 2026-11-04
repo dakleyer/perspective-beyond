@@ -1,51 +1,53 @@
-# Atlas completo en la web
+# The complete Atlas on the web
 
-[Entrada para asistentes](https://perspective-beyond-atlas.carvedgem.chatgpt.site/entrada/) · [Explorar la edición web](https://perspective-beyond-atlas.carvedgem.chatgpt.site/) · [Guía en texto](https://perspective-beyond-atlas.carvedgem.chatgpt.site/entrada.txt)
+[Assistant entry](https://perspective-beyond-atlas.carvedgem.chatgpt.site/entrada/) · [Explore the web edition](https://perspective-beyond-atlas.carvedgem.chatgpt.site/) · [Text guide](https://perspective-beyond-atlas.carvedgem.chatgpt.site/entrada.txt)
 
-La edición web permite recorrer el Atlas mediante páginas HTML públicas, sin cuenta ni JavaScript. GitHub conserva el repositorio canónico y la historia de cambios.
+The web edition lets readers explore the Atlas through public HTML pages, without an account or JavaScript. GitHub retains the canonical repository and change history.
 
-La edición publicada reproduce los **5,155 archivos** de la revisión **7cfd1665348e7a34a6d233133f32969d8011561d**, con **76,706,211 bytes** idénticos a sus originales. Añade vistas de lectura HTML de las 1.294 fichas, 272 conceptos, 1.212 documentos y 11.832 relaciones, junto con los 46 enlaces de navegación del mapa.
+The published edition reproduces the **5,155 files** of revision **7cfd1665348e7a34a6d233133f32969d8011561d**, with **76,706,211 bytes** identical to their originals. It adds HTML reading views of the 1,294 cards, 272 concepts, 1,212 documents and 11,832 relationships, together with the map's 46 navigation links.
 
-## Recorridos
+## Reading paths
 
-- [Fichas y fuentes](https://perspective-beyond-atlas.carvedgem.chatgpt.site/fichas/)
-- [Conceptos](https://perspective-beyond-atlas.carvedgem.chatgpt.site/conceptos/)
-- [Relaciones](https://perspective-beyond-atlas.carvedgem.chatgpt.site/relaciones/)
-- [Clústeres](https://perspective-beyond-atlas.carvedgem.chatgpt.site/clusters/)
-- [Etiquetas](https://perspective-beyond-atlas.carvedgem.chatgpt.site/etiquetas/)
-- [Documentos](https://perspective-beyond-atlas.carvedgem.chatgpt.site/documentos/)
-- [Todos los archivos](https://perspective-beyond-atlas.carvedgem.chatgpt.site/archivos/)
-- [Edición y procedencia](https://perspective-beyond-atlas.carvedgem.chatgpt.site/edicion/)
+- [Cards and sources](https://perspective-beyond-atlas.carvedgem.chatgpt.site/fichas/)
+- [Concepts](https://perspective-beyond-atlas.carvedgem.chatgpt.site/conceptos/)
+- [Relationships](https://perspective-beyond-atlas.carvedgem.chatgpt.site/relaciones/)
+- [Clusters](https://perspective-beyond-atlas.carvedgem.chatgpt.site/clusters/)
+- [Tags](https://perspective-beyond-atlas.carvedgem.chatgpt.site/etiquetas/)
+- [Documents](https://perspective-beyond-atlas.carvedgem.chatgpt.site/documentos/)
+- [All files](https://perspective-beyond-atlas.carvedgem.chatgpt.site/archivos/)
+- [Edition and provenance](https://perspective-beyond-atlas.carvedgem.chatgpt.site/edicion/)
 
-Cada ficha tiene su contenido de lectura, composición, procedencia y conexiones. Las relaciones se pueden seguir en ambos sentidos. Los archivos JSON, textos, scripts y recursos de la edición original siguen disponibles bajo /perspective-beyond/ en el mismo servidor. Los originales externos conservan sus referencias.
+Every card has its reading content, composition, provenance and connections. Relationships can be followed in both directions. The original edition's JSON files, texts, scripts and resources remain available under /perspective-beyond/ on the same server. External originals retain their references.
 
-## Regenerar una edición
+## Regenerating an edition
 
-Los generadores leen los objetos del repositorio y producen la publicación web. Desde esta carpeta:
+The generators read repository objects and produce the web publication. From this folder:
 
 ~~~text
-python build_web.py RUTA_REPOSITORIO REVISION_COMPLETA ORIGEN_PUBLICO
+python build_web.py REPOSITORY_PATH FULL_REVISION PUBLIC_ORIGIN
 python check_web.py
 ~~~
 
-dist/edicion/archivos.json conserva el tamaño y SHA-256 de cada archivo canónico. La verificación comprueba las páginas de todas las fichas, los enlaces y anclas internos y las huellas de los archivos reproducidos. El proceso genera una publicación web; no crea respaldos del proyecto.
+dist/edicion/archivos.json retains the size and SHA-256 of every canonical file. Verification checks every card's pages, internal links and anchors, and the reproduced files' hashes. The process generates a web publication; it does not create project backups.
 
-[Metadatos de la publicación](publication.json).
+[Publication metadata](publication.json).
 
-El archivo vacio de control de GitHub Pages conserva su contenido y se sirve mediante la ruta de texto indicada en el inventario de archivos.
+The empty GitHub Pages control file retains its content and is served through the text path indicated in the file inventory.
 
-## Orientación antes del posicionamiento
+<a id="orientación-antes-del-posicionamiento"></a>
 
-[Comprender el Atlas](https://tegrity.ai/atlas-orientation/) · [Mapa superior](https://perspective-beyond-atlas.carvedgem.chatgpt.site/orientacion/) · [Resumen para asistentes](https://perspective-beyond-atlas.carvedgem.chatgpt.site/orientacion/lectura.txt)
+## Orientation before positioning
 
-Siete áreas agrupan los temas existentes; 36 puentes dirigidos resumen sus relaciones registradas. Las 1.566 fichas y conceptos mantienen su identidad y pueden participar en varias áreas. Once rutas por pregunta proponen dos o tres entradas concretas antes de pedir clúster, pesos y alcance a un visitante nuevo. Las configuraciones ya fijadas por el lector o su URL se conservan.
+[Understand the Atlas](https://tegrity.ai/atlas-orientation/) · [Upper-level map](https://perspective-beyond-atlas.carvedgem.chatgpt.site/orientacion/) · [Assistant summary](https://perspective-beyond-atlas.carvedgem.chatgpt.site/orientacion/lectura.txt)
 
-`orientation.py` genera esta capa al terminar `build_web.py`. `check_orientation.py` comprueba cobertura, correspondencias, relaciones, diversidad de entradas y continuidad de la configuración. El modelo completo conserva la pertenencia de cada pieza y los identificadores de las relaciones agrupadas. El grafo original permanece intacto.
+Seven areas group the existing topics; 36 directed bridges summarise their recorded relationships. The 1,566 cards and concepts retain their identity and may participate in several areas. Eleven question-based routes suggest two or three specific entry points before asking a new visitor for a cluster, weights and scope. Configurations already set by the reader or their URL are retained.
 
-## Lectura directa en Tegrity.AI
+`orientation.py` generates this layer when `build_web.py` finishes. `check_orientation.py` checks coverage, correspondences, relationships, entry diversity and configuration continuity. The complete model retains each piece's membership and the identifiers of the grouped relationships. The original graph remains intact.
 
-[Entrada estable](https://tegrity.ai/atlas-reader/) · [Fuente de texto](https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-entrada.txt)
+## Direct reading on Tegrity.AI
 
-Esta edición permite recorrer las 1.566 piezas y 11.832 relaciones originales sin depender de la entrega del dominio chatgpt.site. Diez índices de clúster, paginación, localizador y archivos de fichas y relaciones están servidos como texto público en el dominio propio. Conserva los 46 enlaces de navegación, 1.212 documentos y los campos de cada registro. El inventario publica los enlaces y SHA-256 de los 127 archivos.
+[Stable entry](https://tegrity.ai/atlas-reader/) · [Text source](https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-entrada.txt)
 
-Tras generar la edición web, ejecuta `python build_direct_reader.py` y `python build_direct_reader_page.py`. Los archivos de lectura producidos se publican en el origen declarado por el generador; comprueba las URLs y sus huellas tras la publicación. No cambies fichas ni relaciones para adaptar el transporte.
+This edition lets readers explore the 1,566 original pieces and 11,832 relationships independently of delivery from the chatgpt.site domain. Ten cluster indexes, pagination, a locator and card and relationship files are served as public text on the organisation's own domain. It retains the 46 navigation links, 1,212 documents and every record's fields. The inventory publishes the URLs and SHA-256 hashes of the 127 files.
+
+After generating the web edition, run `python build_direct_reader.py` and `python build_direct_reader_page.py`. The resulting reading files are published at the origin declared by the generator; check the URLs and hashes after publication. Do not change cards or relationships to adapt transport.

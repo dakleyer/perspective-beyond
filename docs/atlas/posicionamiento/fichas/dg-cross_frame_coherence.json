@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Contribución, atribución e insolvencia por cumplimiento",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-cross_frame_coherence",
-  "documentId": null,
   "sourceIds": [
     "D-235",
     "D-236",
@@ -19,9 +18,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Contribución, atribución e insolvencia por cumplimiento\nSeparar optimización local, resultado sistémico, desviaciones positivas contrastadas y ausencia de camino conforme.\nEtiquetas: Autoridad, permisos y delegación 18.20%; Compromisos y capacidad disponible 5.00%; Decisiones y responsabilidad 11.11%; Empresa y gestión 14.17%; Evidencia, procedencia y atribución 51.52%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-cross_frame_coherence\n\n",
-  "readingSource": null,
-  "tokens": 117,
+  "context": "## Contribución, atribución e insolvencia por cumplimiento\nSeparar optimización local, resultado sistémico, desviaciones positivas contrastadas y ausencia de camino conforme.\nTags: Authority, permissions and delegation 18.20%; Commitments and available capability 5.00%; Decisions and responsibility 11.11%; Business and management 14.17%; Evidence, provenance and attribution 51.52%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-cross_frame_coherence\n\n",
+  "tokens": 109,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -29,10 +27,11 @@
       "to": "D-235",
       "title": "El mejor informe puede salvar el puesto y perder la operación",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 30,
-      "fichaTokens": 450,
+      "fichaTokens": 442,
       "tagWeights": {
         "autoridad": 0.3334,
         "decision": 0.3333,
@@ -49,12 +48,13 @@
       "to": "D-236",
       "title": "El sistema sobrevive gracias a quien se sale del mapa",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 30,
-      "fichaTokens": 411,
+      "fichaTokens": 406,
       "tagWeights": {
-        "evidencia": 1.0
+        "evidencia": 1
       },
       "clusters": [
         "dialogos"
@@ -67,10 +67,11 @@
       "to": "D-237",
       "title": "Obedecer todas las reglas puede hacer imposible el resultado",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 30,
-      "fichaTokens": 438,
+      "fichaTokens": 430,
       "tagWeights": {
         "autoridad": 0.2125,
         "compromisos": 0.15,
@@ -88,10 +89,11 @@
       "to": "dg-governance",
       "title": "Gobernanza y legitimidad",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "distingue atribución y aporte",
       "reading": "Una función conforme puede frustrar el fin común.",
       "relationTokens": 34,
-      "fichaTokens": 273,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.0321,
         "autoridad": 0.4057,
@@ -125,10 +127,11 @@
       "to": "dg-formalization_event",
       "title": "La frontera entre mundo y registro",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "separa mapa y flujo",
       "reading": "El registro no acredita causación por sí solo.",
       "relationTokens": 35,
-      "fichaTokens": 137,
+      "fichaTokens": 127,
       "tagWeights": {
         "aprendizaje": 0.2131,
         "decision": 0.1339,
@@ -148,10 +151,11 @@
       "to": "dg-production",
       "title": "Producción material y continuadores invisibles",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "busca portadores de capacidad",
       "reading": "La producción puede migrar a excepciones.",
       "relationTokens": 36,
-      "fichaTokens": 229,
+      "fichaTokens": 205,
       "tagWeights": {
         "aprendizaje": 0.0276,
         "autoridad": 0.0417,
@@ -180,10 +184,11 @@
       "to": "dg-legitimacy_gap",
       "title": "Principios, requisitos y deuda de legitimidad",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "formula insolvencia por cumplimiento",
       "reading": "No existe camino conforme que preserve el resultado.",
       "relationTokens": 37,
-      "fichaTokens": 154,
+      "fichaTokens": 140,
       "tagWeights": {
         "aprendizaje": 0.0625,
         "autoridad": 0.5241,
@@ -205,10 +210,11 @@
       "to": "dg-evidence_recognition",
       "title": "Valor del trabajo y pruebas de capacidad",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "prueba desviaciones positivas",
       "reading": "Una excepción necesita evidencia causal, no solo anomalía.",
       "relationTokens": 36,
-      "fichaTokens": 126,
+      "fichaTokens": 113,
       "tagWeights": {
         "aprendizaje": 0.2,
         "autoridad": 0.1,

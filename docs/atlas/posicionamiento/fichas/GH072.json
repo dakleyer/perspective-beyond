@@ -13,9 +13,8 @@
   "clusters": [
     "research"
   ],
-  "context": "## Matriz de cobertura documental y cola de experimentos reales\nContenido de la fuente: Próxima ola por prioridad y dependencia instrumental.\nEtiquetas: Investigación y documentación técnica 41.67%; Experimentación, falsación y contraejemplos 41.67%; Transformación y continuidad operativa 16.66%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/GH072.html\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/583590dbadf48ea1015e33111b374631509015ae/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1/SOURCE_COVERAGE_AND_BACKLOG.md\n\n",
-  "readingSource": null,
-  "tokens": 173,
+  "context": "## Matriz de cobertura documental y cola de experimentos reales\nContenido de la fuente: Próxima ola por prioridad y dependencia instrumental.\nTags: Research and technical documentation 41.67%; Experimentation, falsification and counterexamples 41.67%; Transformation and operational continuity 16.66%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/GH072.html\nSource document: https://github.com/dakleyer/structural-awareness-contributions/blob/583590dbadf48ea1015e33111b374631509015ae/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1/SOURCE_COVERAGE_AND_BACKLOG.md\n\n",
+  "tokens": 167,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,10 +22,11 @@
       "to": "C103",
       "title": "Arquitectura de integración generativa",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 25,
-      "fichaTokens": 228,
+      "fichaTokens": 203,
       "tagWeights": {
         "agentes": 0.0553,
         "aprendizaje": 0.0058,
@@ -61,10 +61,11 @@
       "to": "C123",
       "title": "Orden parcial de dimensiones no fungibles",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 192,
+      "fichaTokens": 174,
       "tagWeights": {
         "autoridad": 0.1238,
         "capacidad-humana": 0.0684,
@@ -94,10 +95,11 @@
       "to": "L005",
       "title": "Dos maneras de cruzar un mundo Arquitecturas que empobrecen vs arquitecturas que multiplican",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "analogy only",
       "reading": "Generative integration can be assessed through separately qualified dimensions, so that a gain in output does not silently erase a loss in rights, coordination burden or recognition.",
       "relationTokens": 67,
-      "fichaTokens": 161,
+      "fichaTokens": 153,
       "tagWeights": {
         "control-minimo": 0.2222,
         "decision": 0.2222,
@@ -115,10 +117,11 @@
       "to": "sac-e0a923c2cf7271",
       "title": "ACC — Modelo auxiliar de oportunidades transición y capacidades",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Ejecución integrada de Conscientia Ecosystemica — corte experimental sintético» con el rótulo «lista de cobertura».",
-      "relationTokens": 136,
-      "fichaTokens": 180,
+      "relationTokens": 134,
+      "fichaTokens": 176,
       "tagWeights": {
         "control-minimo": 0.1429,
         "decision": 0.1429,
@@ -136,10 +139,11 @@
       "to": "sac-652ec5309e7fe1",
       "title": "ACC — Modelo auxiliar",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Campaña Conscientia Ecosystemica — fuentes Google Docs → experimentos ejecutables (26-10-2026)» con el rótulo «matriz de cobertura y pendientes».",
-      "relationTokens": 142,
-      "fichaTokens": 160,
+      "relationTokens": 140,
+      "fichaTokens": 156,
       "tagWeights": {
         "documentacion": 0.5,
         "experimentacion": 0.5
@@ -155,10 +159,11 @@
       "to": "sac-3510f1c52e0eae",
       "title": "Conscientia Ecosystemica × ACC — campaña experimental de referencia (v0.1)",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «1. Objetivo y fuentes realmente utilizadas» con el rótulo «SOURCE_COVERAGE_AND_BACKLOG.md».",
-      "relationTokens": 148,
-      "fichaTokens": 200,
+      "relationTokens": 146,
+      "fichaTokens": 196,
       "tagWeights": {
         "documentacion": 0.1667,
         "experimentacion": 0.8333
@@ -174,10 +179,11 @@
       "to": "sac-3510f1c52e0eae",
       "title": "Conscientia Ecosystemica × ACC — campaña experimental de referencia (v0.1)",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "ruta de lectura",
       "reading": "El índice de la carpeta sitúa este documento dentro de su línea de trabajo.",
-      "relationTokens": 137,
-      "fichaTokens": 200,
+      "relationTokens": 135,
+      "fichaTokens": 196,
       "tagWeights": {
         "documentacion": 0.1667,
         "experimentacion": 0.8333

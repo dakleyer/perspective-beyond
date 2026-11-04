@@ -12,9 +12,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Una inversa escrita no puede reconstruir la información que falta\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Qué significa llamar inversa a una operación si el sistema no conserva la información necesaria para ejecutarla?\nREFLEXIÓN DEL DIÁLOGO (voz atribuida mediante documento o contexto, distinta de transcripción literal salvo citas señaladas) — Iván distinguió una inversa que puede enunciarse sintácticamente de una inversa que se puede construir con los datos realmente disponibles. Si una operación descompone un estado uno→muchos, escribir el símbolo inverso no recupera por arte de notación las distinciones que hicieron posible la salida. Sin información adicional, sostiene en la conversación, lo practicable puede ser una recuperación gradual de grados n→n−1→… en vez de una reconstrucción completa del antecedente.\n\nTambién separó esa dificultad de una correlación uno↔uno: que dos estados estén emparejados o puedan compararse no prueba que exista una transformación de vuelta capaz de regenerar una estructura más rica. Lo provocador es exigir una cuenta explícita de la información conservada, perdida o accesible. La flecha sobre el papel no puede pagar esa cuenta.\n\nEl alcance matemático depende de cómo se defina cada operación y qué información auxiliar se conserva. Hay funciones invertibles y transformaciones reversibles bajo hipótesis precisas; no se afirma una imposibilidad general. Esta conversación importa porque enseña un hábito de pensamiento: en vez de tomar un símbolo de dirección como capacidad física, preguntar por el procedimiento, la información y el coste real de recorrerla.\nEtiquetas: Aprendizaje y transmisión de capacidades 81.82%; Matemáticas 18.18%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-250\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-250.html\n\n",
-  "readingSource": null,
-  "tokens": 408,
+  "context": "## Una inversa escrita no puede reconstruir la información que falta\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Qué significa llamar inversa a una operación si el sistema no conserva la información necesaria para ejecutarla?\nREFLEXIÓN DEL DIÁLOGO (voz atribuida mediante documento o contexto, distinta de transcripción literal salvo citas señaladas) — Iván distinguió una inversa que puede enunciarse sintácticamente de una inversa que se puede construir con los datos realmente disponibles. Si una operación descompone un estado uno→muchos, escribir el símbolo inverso no recupera por arte de notación las distinciones que hicieron posible la salida. Sin información adicional, sostiene en la conversación, lo practicable puede ser una recuperación gradual de grados n→n−1→… en vez de una reconstrucción completa del antecedente.\n\nTambién separó esa dificultad de una correlación uno↔uno: que dos estados estén emparejados o puedan compararse no prueba que exista una transformación de vuelta capaz de regenerar una estructura más rica. Lo provocador es exigir una cuenta explícita de la información conservada, perdida o accesible. La flecha sobre el papel no puede pagar esa cuenta.\n\nEl alcance matemático depende de cómo se defina cada operación y qué información auxiliar se conserva. Hay funciones invertibles y transformaciones reversibles bajo hipótesis precisas; no se afirma una imposibilidad general. Esta conversación importa porque enseña un hábito de pensamiento: en vez de tomar un símbolo de dirección como capacidad física, preguntar por el procedimiento, la información y el coste real de recorrerla.\nTags: Learning and capability transmission 81.82%; Mathematics 18.18%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-250\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-250.html\n\n",
+  "tokens": 402,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "dg-math",
       "title": "Pensamiento matemático",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 177,
+      "fichaTokens": 159,
       "tagWeights": {
         "aprendizaje": 0.1144,
         "autoridad": 0.0109,
@@ -51,10 +51,11 @@
       "to": "dg-doubt",
       "title": "Duda, pruebas y conocimiento corregible",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 268,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.2345,
         "autoridad": 0.0562,
@@ -88,10 +89,11 @@
       "to": "dg-formalization_event",
       "title": "La frontera entre mundo y registro",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 137,
+      "fichaTokens": 127,
       "tagWeights": {
         "aprendizaje": 0.2131,
         "decision": 0.1339,
@@ -111,10 +113,11 @@
       "to": "dg-reversibility",
       "title": "Información disponible e inversión constructible",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 75,
+      "fichaTokens": 70,
       "tagWeights": {
         "aprendizaje": 0.8182,
         "matematicas": 0.1818
@@ -130,12 +133,13 @@
       "to": "D-094",
       "title": "Gödel, máquinas de Turing y la pregunta de qué queda fuera",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una inversa escrita no puede reconstruir la información que falta» con «Gödel, máquinas de Turing y la pregunta de qué queda fuera». Permite contrastar Pensamiento matemático, Duda, pruebas y conocimiento corregible.",
       "relationTokens": 86,
-      "fichaTokens": 338,
+      "fichaTokens": 335,
       "tagWeights": {
-        "matematicas": 1.0
+        "matematicas": 1
       },
       "clusters": [
         "dialogos"
@@ -148,10 +152,11 @@
       "to": "D-095",
       "title": "Capacidad informacional, complejidad y exergía",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una inversa escrita no puede reconstruir la información que falta» con «Capacidad informacional, complejidad y exergía». Permite contrastar Pensamiento matemático.",
       "relationTokens": 73,
-      "fichaTokens": 350,
+      "fichaTokens": 343,
       "tagWeights": {
         "aprendizaje": 0.5,
         "economia": 0.375,
@@ -168,12 +173,13 @@
       "to": "D-183",
       "title": "La esfera mágica: contar el último elemento también cuesta",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una inversa escrita no puede reconstruir la información que falta» con «La esfera mágica: contar el último elemento también cuesta». Permite contrastar Pensamiento matemático, Duda, pruebas y conocimiento corregible.",
       "relationTokens": 80,
-      "fichaTokens": 350,
+      "fichaTokens": 347,
       "tagWeights": {
-        "matematicas": 1.0
+        "matematicas": 1
       },
       "clusters": [
         "dialogos"
@@ -186,10 +192,11 @@
       "to": "D-219",
       "title": "Perder información no es lo mismo que no poder decidir",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una inversa escrita no puede reconstruir la información que falta» con «Perder información no es lo mismo que no poder decidir». Permite contrastar Pensamiento matemático, Duda, pruebas y conocimiento corregible, La frontera entre mundo y registro.",
       "relationTokens": 87,
-      "fichaTokens": 482,
+      "fichaTokens": 475,
       "tagWeights": {
         "aprendizaje": 0.3125,
         "decision": 0.125,
@@ -207,10 +214,11 @@
       "to": "D-293",
       "title": "El cómputo masivo intenta comprar volumen donde falta estructura",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El cómputo masivo intenta comprar volumen donde falta estructura» con «Una inversa escrita no puede reconstruir la información que falta». Permite contrastar Pensamiento matemático.",
       "relationTokens": 75,
-      "fichaTokens": 390,
+      "fichaTokens": 384,
       "tagWeights": {
         "decision": 0.25,
         "matematicas": 0.25,
@@ -227,10 +235,11 @@
       "to": "D-217",
       "title": "Un JSON correcto puede describir una vaca que no estaba allí",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar La frontera entre mundo y registro, Pensamiento matemático, Duda, pruebas y conocimiento corregible desde las situaciones que describe cada texto.",
       "relationTokens": 66,
-      "fichaTokens": 438,
+      "fichaTokens": 434,
       "tagWeights": {
         "decision": 0.5,
         "matematicas": 0.5
@@ -246,12 +255,13 @@
       "to": "D-266",
       "title": "¿Y si el punto de partida fuera lo no definible?",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar La frontera entre mundo y registro, Pensamiento matemático, Duda, pruebas y conocimiento corregible desde las situaciones que describe cada texto.",
       "relationTokens": 66,
-      "fichaTokens": 406,
+      "fichaTokens": 403,
       "tagWeights": {
-        "matematicas": 1.0
+        "matematicas": 1
       },
       "clusters": [
         "dialogos"

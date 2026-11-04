@@ -15,9 +15,8 @@
   "clusters": [
     "totonacapan"
   ],
-  "context": "## Censo de Artes y Oficios: describir condiciones de continuidad\nEl diseño del Censo relaciona prácticas, transmisión, materiales, territorio y necesidades expresadas por sus portadores. Admite varios oficios por persona y separa registro, uso estadístico, identificación pública e imágenes mediante decisiones de consentimiento. Su utilidad se plantea como devolución: reconocer dónde se interrumpe el aprendizaje y qué apoyo permitiría continuar. La página presenta un marco en preparación y un ejemplo de ficha para examinar ese diseño.\nEtiquetas: Aprendizaje y transmisión de capacidades 20.00%; Investigación y documentación técnica 15.00%; Evidencia, procedencia y atribución 15.00%; Legitimidad y principios 20.00%; Memoria, comunidad y territorio 30.00%\nFicha: https://totonacapan.com/?page_id=49\nDocumento de origen: https://totonacapan.com/?page_id=49\n\n",
-  "readingSource": null,
-  "tokens": 193,
+  "context": "## Censo de Artes y Oficios: describir condiciones de continuidad\nEl diseño del Censo relaciona prácticas, transmisión, materiales, territorio y necesidades expresadas por sus portadores. Admite varios oficios por persona y separa registro, uso estadístico, identificación pública e imágenes mediante decisiones de consentimiento. Su utilidad se plantea como devolución: reconocer dónde se interrumpe el aprendizaje y qué apoyo permitiría continuar. La página presenta un marco en preparación y un ejemplo de ficha para examinar ese diseño.\nTags: Learning and capability transmission 20.00%; Research and technical documentation 15.00%; Evidence, provenance and attribution 15.00%; Legitimacy and principles 20.00%; Memory, community and territory 30.00%\nCard: https://totonacapan.com/?page_id=49\nSource document: https://totonacapan.com/?page_id=49\n\n",
+  "tokens": 184,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -25,12 +24,13 @@
       "to": "np-xanath",
       "title": "Xanath y el conocimiento que se practica",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura comparada de mecanismos",
       "reading": "El diseño de la ficha del Censo aporta preguntas concretas sobre transmisión, materiales y condiciones de uso para la lectura de un conocimiento que se practica en su territorio.",
-      "relationTokens": 80,
-      "fichaTokens": 104,
+      "relationTokens": 78,
+      "fichaTokens": 101,
       "tagWeights": {
-        "memoria-territorio": 1.0
+        "memoria-territorio": 1
       },
       "clusters": [
         "totonacapan"
@@ -43,10 +43,11 @@
       "to": "D-253",
       "title": "Custodiar un saber no es encerrarlo: hay que poder volver a hacerlo",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura comparada entre clústeres",
       "reading": "Registrar quién enseña, con qué materiales y bajo qué condiciones relaciona el inventario con la posibilidad de volver a hacer y transmitir una práctica.",
-      "relationTokens": 87,
-      "fichaTokens": 432,
+      "relationTokens": 85,
+      "fichaTokens": 425,
       "tagWeights": {
         "capacidad-humana": 0.1667,
         "memoria-territorio": 0.6666,
@@ -63,10 +64,11 @@
       "to": "D-296",
       "title": "Una ética institucional también puede ser impugnada desde fuera",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura comparada entre clústeres",
       "reading": "El consentimiento diferenciado y la posibilidad de impugnar desde fuera permiten examinar cómo participan y conservan voz las personas a quienes afecta una institución.",
-      "relationTokens": 83,
-      "fichaTokens": 389,
+      "relationTokens": 81,
+      "fichaTokens": 384,
       "tagWeights": {
         "autoridad": 0.35,
         "decision": 0.35,
@@ -83,10 +85,11 @@
       "to": "np-perfiles-frontera",
       "title": "Perfiles de frontera: de la experiencia a la institución",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura comparada de mecanismos",
       "reading": "Los bloques del Censo describen condiciones de transmisión; el ensayo de perfiles muestra cómo esas condiciones pueden convertir una experiencia individual en práctica compartida.",
-      "relationTokens": 79,
-      "fichaTokens": 195,
+      "relationTokens": 77,
+      "fichaTokens": 182,
       "tagWeights": {
         "aprendizaje": 0.2,
         "empresa": 0.1,

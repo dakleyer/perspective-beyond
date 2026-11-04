@@ -12,9 +12,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Lo que antes no era mercancía puede convertirse en opción de mercado\nINTERLOCUTOR (pregunta editorial) — ¿Cuándo una actividad privada deja de ser solamente una elección personal y pasa a formar parte de un sistema económico?\nREFLEXIÓN DEL ESCRITO (síntesis editorial) — La distinción de Iván entre bien no comercializado, sustitutivo y comercializado cambia al aparecer una opción real. Un huerto que antes abastecía a una familia fuera del mercado entra en una relación de comparación cuando se puede cultivar o comprar en el supermercado. Y hay un ejemplo deliberadamente absurdo: uno puede rascarse la espalda o pagar a un masajista; desde que ambas opciones compiten en la decisión, rascarse uno mismo consume tiempo, capacidad y costes de transacción aunque no circule dinero. Incluso decidir «mañana haré dieta» implica enfrentar opciones internas con alternativas de mercado. No se trata de convertir la vida entera en mercancía por decreto, sino de modelar qué cambia cuando los agentes comparan usos del tiempo y los recursos.\nEtiquetas: Economía, costes y liquidez 71.43%; Geopolítica y fronteras 28.57%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-136\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-136.html\n\n",
-  "readingSource": null,
-  "tokens": 296,
+  "context": "## Lo que antes no era mercancía puede convertirse en opción de mercado\nINTERLOCUTOR (pregunta editorial) — ¿Cuándo una actividad privada deja de ser solamente una elección personal y pasa a formar parte de un sistema económico?\nREFLEXIÓN DEL ESCRITO (síntesis editorial) — La distinción de Iván entre bien no comercializado, sustitutivo y comercializado cambia al aparecer una opción real. Un huerto que antes abastecía a una familia fuera del mercado entra en una relación de comparación cuando se puede cultivar o comprar en el supermercado. Y hay un ejemplo deliberadamente absurdo: uno puede rascarse la espalda o pagar a un masajista; desde que ambas opciones compiten en la decisión, rascarse uno mismo consume tiempo, capacidad y costes de transacción aunque no circule dinero. Incluso decidir «mañana haré dieta» implica enfrentar opciones internas con alternativas de mercado. No se trata de convertir la vida entera en mercancía por decreto, sino de modelar qué cambia cuando los agentes comparan usos del tiempo y los recursos.\nTags: Economics, costs and liquidity 71.43%; Geopolitics and borders 28.57%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-136\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-136.html\n\n",
+  "tokens": 293,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "dg-options",
       "title": "Libertad y opciones",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 25,
-      "fichaTokens": 202,
+      "fichaTokens": 181,
       "tagWeights": {
         "aprendizaje": 0.1588,
         "autoridad": 0.0804,
@@ -54,10 +54,11 @@
       "to": "dg-economy",
       "title": "Economía y escasez",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 250,
+      "fichaTokens": 222,
       "tagWeights": {
         "aprendizaje": 0.0688,
         "autoridad": 0.0119,
@@ -90,10 +91,11 @@
       "to": "dg-boundaries",
       "title": "Fronteras y encuentros",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 181,
+      "fichaTokens": 166,
       "tagWeights": {
         "aprendizaje": 0.0144,
         "autoridad": 0.0451,
@@ -120,12 +122,13 @@
       "to": "D-164",
       "title": "El mercado de identidad tiene sus propios precios",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El mercado de identidad tiene sus propios precios» con «Lo que antes no era mercancía puede convertirse en opción de mercado». Permite contrastar Economía y escasez.",
       "relationTokens": 68,
-      "fichaTokens": 344,
+      "fichaTokens": 341,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "dialogos"
@@ -138,10 +141,11 @@
       "to": "D-197",
       "title": "El mercado puede crear escasez donde antes había abundancia",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El mercado puede crear escasez donde antes había abundancia» con «Lo que antes no era mercancía puede convertirse en opción de mercado». Permite contrastar Economía y escasez, Libertad y opciones.",
       "relationTokens": 81,
-      "fichaTokens": 395,
+      "fichaTokens": 390,
       "tagWeights": {
         "economia": 0.3333,
         "representacion": 0.6667
@@ -157,10 +161,11 @@
       "to": "D-262",
       "title": "Una red libre puede convertirse en reserva cuando todos creen que solo cuatro la poseen",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una red libre puede convertirse en reserva cuando todos creen que solo cuatro la poseen» con «Lo que antes no era mercancía puede convertirse en opción de mercado».",
       "relationTokens": 72,
-      "fichaTokens": 395,
+      "fichaTokens": 390,
       "tagWeights": {
         "autoridad": 0.5,
         "economia": 0.5
@@ -176,10 +181,11 @@
       "to": "D-003",
       "title": "Independencia: trabajo, cuentas y viajes",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Fronteras y encuentros, Libertad y opciones, Economía y escasez desde las situaciones que describe cada texto.",
       "relationTokens": 59,
-      "fichaTokens": 539,
+      "fichaTokens": 536,
       "tagWeights": {
         "economia": 0.5,
         "geopolitica": 0.5
@@ -195,10 +201,11 @@
       "to": "D-012",
       "title": "Un trabajo sin territorio fijo",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Fronteras y encuentros, Libertad y opciones desde las situaciones que describe cada texto.",
       "relationTokens": 49,
-      "fichaTokens": 340,
+      "fichaTokens": 337,
       "tagWeights": {
         "geopolitica": 0.2857,
         "memoria-territorio": 0.7143
@@ -214,10 +221,11 @@
       "to": "D-051",
       "title": "El valor creado a ambos lados del Atlántico",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Fronteras y encuentros, Economía y escasez desde las situaciones que describe cada texto.",
       "relationTokens": 55,
-      "fichaTokens": 447,
+      "fichaTokens": 444,
       "tagWeights": {
         "economia": 0.5,
         "geopolitica": 0.5

@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Escenario de 100 millones de tokens",
   "url": "https://dakleyer.github.io/perspective-beyond/concepts/100-million-token-stress-scenario/",
-  "documentId": null,
   "sourceIds": [
     "GH017"
   ],
@@ -25,9 +24,8 @@
   "clusters": [
     "research"
   ],
-  "context": "## Escenario de 100 millones de tokens\nA constructed scenario examines the limits of retrieving and qualifying evidence at large context scale.\nEtiquetas: Agentes y coordinación distribuida 10.81%; Autoridad, permisos y delegación 5.41%; Cambios de régimen y alerta temprana 5.41%; Cartografía y señales de ecosistema 16.22%; Casos de uso y aplicaciones 5.41%; Control mínimo y suficiencia 8.11%; Investigación y documentación técnica 2.70%; Empresa y gestión 2.70%; Estándares e interoperabilidad 10.81%; Evidencia, procedencia y atribución 10.81%; Matemáticas 10.81%; Movilidad e infraestructura 5.40%; Transformación y continuidad operativa 5.40%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/100-million-token-stress-scenario/\n\n",
-  "readingSource": null,
-  "tokens": 191,
+  "context": "## Escenario de 100 millones de tokens\nA constructed scenario examines the limits of retrieving and qualifying evidence at large context scale.\nTags: Agents and distributed coordination 10.81%; Authority, permissions and delegation 5.41%; Regime changes and early warning 5.41%; Cartography and ecosystem signals 16.22%; Use cases and applications 5.41%; Minimum control and sufficiency 8.11%; Research and technical documentation 2.70%; Business and management 2.70%; Standards and interoperability 10.81%; Evidence, provenance and attribution 10.81%; Mathematics 10.81%; Mobility and infrastructure 5.40%; Transformation and operational continuity 5.40%\nCard: https://dakleyer.github.io/perspective-beyond/concepts/100-million-token-stress-scenario/\n\n",
+  "tokens": 170,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -35,10 +33,11 @@
       "to": "GH017",
       "title": "Ecosystem Positioning",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 261,
+      "fichaTokens": 239,
       "tagWeights": {
         "agentes": 0.1081,
         "autoridad": 0.0541,
@@ -65,10 +64,11 @@
       "to": "G17",
       "title": "Benchmarks DDS y ablaciones",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 20,
-      "fichaTokens": 204,
+      "fichaTokens": 182,
       "tagWeights": {
         "autoridad": 0.0174,
         "cambio-regimen": 0.0067,
@@ -96,10 +96,11 @@
       "to": "G37",
       "title": "No observabilidad y aislamiento prudente",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 246,
+      "fichaTokens": 219,
       "tagWeights": {
         "agentes": 0.027,
         "autoridad": 0.0353,
@@ -131,10 +132,11 @@
       "to": "G38",
       "title": "Corpus público y trazabilidad cruzada",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 99,
+      "fichaTokens": 92,
       "tagWeights": {
         "agentes": 0.1137,
         "documentacion": 0.2273,
@@ -154,10 +156,11 @@
       "to": "G03",
       "title": "Mundo, registro y contexto perdido",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 20,
-      "fichaTokens": 155,
+      "fichaTokens": 143,
       "tagWeights": {
         "autoridad": 0.0435,
         "cartografia": 0.1634,
@@ -181,10 +184,11 @@
       "to": "G09",
       "title": "Cualificación para una decisión concreta",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 130,
+      "fichaTokens": 120,
       "tagWeights": {
         "autoridad": 0.087,
         "cartografia": 0.0869,
@@ -205,10 +209,11 @@
       "to": "G36",
       "title": "Fallo composicional de controles locales",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 245,
+      "fichaTokens": 217,
       "tagWeights": {
         "agentes": 0.027,
         "autoridad": 0.0353,
@@ -241,10 +246,11 @@
       "to": "G17",
       "title": "Benchmarks DDS y ablaciones",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 20,
-      "fichaTokens": 204,
+      "fichaTokens": 182,
       "tagWeights": {
         "autoridad": 0.0174,
         "cambio-regimen": 0.0067,

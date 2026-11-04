@@ -14,9 +14,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Una memoria en estrella puede perder su centro sin dejar de funcionar\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Cómo reconoce una IA que el nodo que está a punto de sustituir era el que sostenía el sentido de toda una memoria?\nREFLEXIÓN DEL DIÁLOGO (voz atribuida mediante documento o contexto, distinta de transcripción literal salvo citas señaladas) — En una discusión técnica sobre entropía y aprendizaje, Iván introdujo una escena visual: recuerdos «en forma de estrella con un centro claro». No era una decoración gráfica. Planteaba que el significado de un conjunto puede depender de la centralidad de algunas relaciones, mientras otras son periferia o ruido. Si el sistema dispersa las conexiones o se ajusta a nuevos datos sin reconocer ese centro, podría sobrescribir algo importante creyendo que solo reorganiza representaciones.\n\nLa objeción conecta con su insistencia en no maximizar o minimizar arbitrariamente la entropía: el objetivo debería depender del contexto. Pero, preguntaba, ¿cómo mide la máquina el contexto que necesita para calibrar ese objetivo? Si no puede identificar qué memorias son estructurales, la misma operación que mejora el ajuste local puede erosionar continuidad global.\n\nNo debe convertirse esta analogía en una explicación demostrada de los mecanismos internos de todos los modelos. Iván interrogaba una posibilidad: las medidas agregadas de dispersión no bastan para conservar la importancia funcional de ciertas conexiones. El diálogo anticipa una pregunta práctica del atlas: no basta con conservar todas las fichas si se pierden los vínculos que hacían que unas limitaran o sostuvieran a otras.\nEtiquetas: Aprendizaje y transmisión de capacidades 13.34%; Evidencia, procedencia y atribución 13.33%; Memoria, comunidad y territorio 60.00%; Transformación y continuidad operativa 13.33%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-249\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-249.html\n\n",
-  "readingSource": null,
-  "tokens": 441,
+  "context": "## Una memoria en estrella puede perder su centro sin dejar de funcionar\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Cómo reconoce una IA que el nodo que está a punto de sustituir era el que sostenía el sentido de toda una memoria?\nREFLEXIÓN DEL DIÁLOGO (voz atribuida mediante documento o contexto, distinta de transcripción literal salvo citas señaladas) — En una discusión técnica sobre entropía y aprendizaje, Iván introdujo una escena visual: recuerdos «en forma de estrella con un centro claro». No era una decoración gráfica. Planteaba que el significado de un conjunto puede depender de la centralidad de algunas relaciones, mientras otras son periferia o ruido. Si el sistema dispersa las conexiones o se ajusta a nuevos datos sin reconocer ese centro, podría sobrescribir algo importante creyendo que solo reorganiza representaciones.\n\nLa objeción conecta con su insistencia en no maximizar o minimizar arbitrariamente la entropía: el objetivo debería depender del contexto. Pero, preguntaba, ¿cómo mide la máquina el contexto que necesita para calibrar ese objetivo? Si no puede identificar qué memorias son estructurales, la misma operación que mejora el ajuste local puede erosionar continuidad global.\n\nNo debe convertirse esta analogía en una explicación demostrada de los mecanismos internos de todos los modelos. Iván interrogaba una posibilidad: las medidas agregadas de dispersión no bastan para conservar la importancia funcional de ciertas conexiones. El diálogo anticipa una pregunta práctica del atlas: no basta con conservar todas las fichas si se pierden los vínculos que hacían que unas limitaran o sostuvieran a otras.\nTags: Learning and capability transmission 13.34%; Evidence, provenance and attribution 13.33%; Memory, community and territory 60.00%; Transformation and operational continuity 13.33%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-249\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-249.html\n\n",
+  "tokens": 430,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -24,10 +23,11 @@
       "to": "dg-learning",
       "title": "Aprendizaje autodirigido",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 27,
-      "fichaTokens": 200,
+      "fichaTokens": 179,
       "tagWeights": {
         "aprendizaje": 0.4664,
         "autoridad": 0.0587,
@@ -55,10 +55,11 @@
       "to": "dg-continuity",
       "title": "Continuidad de capacidades",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 222,
+      "fichaTokens": 200,
       "tagWeights": {
         "aprendizaje": 0.0854,
         "autoridad": 0.0264,
@@ -88,10 +89,11 @@
       "to": "dg-semantic_graph",
       "title": "Conocimiento como red de relaciones y procedencia",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 29,
-      "fichaTokens": 181,
+      "fichaTokens": 164,
       "tagWeights": {
         "aprendizaje": 0.0229,
         "decision": 0.0625,
@@ -116,10 +118,11 @@
       "to": "dg-memory_topology",
       "title": "Topología de memoria y nodos centrales",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 100,
+      "fichaTokens": 90,
       "tagWeights": {
         "aprendizaje": 0.1334,
         "evidencia": 0.1333,
@@ -137,10 +140,11 @@
       "to": "D-095",
       "title": "Capacidad informacional, complejidad y exergía",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una memoria en estrella puede perder su centro sin dejar de funcionar» con «Capacidad informacional, complejidad y exergía».",
       "relationTokens": 64,
-      "fichaTokens": 350,
+      "fichaTokens": 343,
       "tagWeights": {
         "aprendizaje": 0.5,
         "economia": 0.375,
@@ -157,12 +161,13 @@
       "to": "D-099",
       "title": "Lo que el mapa no representa puede cambiar la decisión",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una memoria en estrella puede perder su centro sin dejar de funcionar» con «Lo que el mapa no representa puede cambiar la decisión».",
       "relationTokens": 60,
-      "fichaTokens": 261,
+      "fichaTokens": 258,
       "tagWeights": {
-        "decision": 1.0
+        "decision": 1
       },
       "clusters": [
         "dialogos"
@@ -175,10 +180,11 @@
       "to": "D-157",
       "title": "La protocultura sucede antes de que una idea sea institución",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una memoria en estrella puede perder su centro sin dejar de funcionar» con «La protocultura sucede antes de que una idea sea institución».",
       "relationTokens": 62,
-      "fichaTokens": 311,
+      "fichaTokens": 308,
       "tagWeights": {
         "memoria-territorio": 0.6667,
         "perspectiva": 0.3333
@@ -194,12 +200,13 @@
       "to": "D-220",
       "title": "Si un diálogo nunca cede nada, quizá es un sermón",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una memoria en estrella puede perder su centro sin dejar de funcionar» con «Si un diálogo nunca cede nada, quizá es un sermón». Permite contrastar Aprendizaje autodirigido.",
       "relationTokens": 78,
-      "fichaTokens": 419,
+      "fichaTokens": 414,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"
@@ -212,10 +219,11 @@
       "to": "D-240",
       "title": "Una palabra se copia; las relaciones entre ideas cuentan otra historia",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una memoria en estrella puede perder su centro sin dejar de funcionar» con «Una palabra se copia; las relaciones entre ideas cuentan otra historia». Permite contrastar Conocimiento como red de relaciones y procedencia.",
       "relationTokens": 78,
-      "fichaTokens": 475,
+      "fichaTokens": 468,
       "tagWeights": {
         "evidencia": 0.25,
         "experimentacion": 0.5,
@@ -232,10 +240,11 @@
       "to": "D-079",
       "title": "Preguntas abiertas: las etapas de 2018–2026",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Continuidad de capacidades, Aprendizaje autodirigido desde las situaciones que describe cada texto.",
       "relationTokens": 58,
-      "fichaTokens": 310,
+      "fichaTokens": 302,
       "tagWeights": {
         "aprendizaje": 0.25,
         "decision": 0.5,
@@ -252,10 +261,11 @@
       "to": "D-247",
       "title": "La nueva Babel puede funcionar demasiado bien antes de dejar de ser fiable",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Conocimiento como red de relaciones y procedencia, Continuidad de capacidades desde las situaciones que describe cada texto.",
       "relationTokens": 60,
-      "fichaTokens": 449,
+      "fichaTokens": 441,
       "tagWeights": {
         "economia": 0.3334,
         "evidencia": 0.3333,
@@ -272,10 +282,11 @@
       "to": "D-287",
       "title": "El no-podismo también es una decisión de no construir",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Continuidad de capacidades, Aprendizaje autodirigido desde las situaciones que describe cada texto.",
       "relationTokens": 57,
-      "fichaTokens": 422,
+      "fichaTokens": 412,
       "tagWeights": {
         "aprendizaje": 0.1667,
         "decision": 0.5,
@@ -293,10 +304,11 @@
       "to": "D-253",
       "title": "Custodiar un saber no es encerrarlo: hay que poder volver a hacerlo",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura comparada de mecanismos",
       "reading": "La memoria conserva su utilidad mediante relaciones funcionales. La práctica del oficio permite contrastar ese criterio: materiales, secuencias, portadores y condiciones de uso hacen posible volver a actuar desde lo conservado.",
-      "relationTokens": 106,
-      "fichaTokens": 432,
+      "relationTokens": 104,
+      "fichaTokens": 425,
       "tagWeights": {
         "capacidad-humana": 0.1667,
         "memoria-territorio": 0.6666,

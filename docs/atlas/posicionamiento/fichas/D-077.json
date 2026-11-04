@@ -12,9 +12,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Preguntas abiertas: infancia, familia y raíces\nEl contenido que sigue es un guion abierto de nuevas conversaciones. Ninguna pregunta supone que la respuesta ya exista o que Iván deba adoptar una interpretación propuesta por el editor.\n01. INTERLOCUTOR — ¿Qué escenas de tus padres, hermanos y abuelos explican mejor la parte de ti que llegó a México? ¿Qué contradicciones ves ahora en aquella crianza?\n02. INTERLOCUTOR — ¿Cuándo empezaste a imaginar que la economía, la informática y los sistemas podían hablar el mismo idioma? ¿Qué leías con dieciséis años?\n03. INTERLOCUTOR — ¿Qué viaje concreto cambió tu posición ante las diferencias culturales, además de Bosnia?\n04. INTERLOCUTOR — ¿Cómo se conocieron Carmen y tú? ¿Qué recuerdas de sus proyectos, de Hennequen, de Nuestras Raíces y de La Bola de Oro antes de que hubiera un Instituto?\n05. INTERLOCUTOR — ¿Qué dijo Carmen, qué dijiste tú y qué decisiones compartisteis cuando Formación Integral perdió el dinero?\nEtiquetas: Decisiones y responsabilidad 40.00%; Memoria, comunidad y territorio 60.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-077\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=El%20contenido%20que%20sigue%20es%20un%20guion%20abierto%20de%20nuevas\n\n",
-  "readingSource": null,
-  "tokens": 326,
+  "context": "## Preguntas abiertas: infancia, familia y raíces\nEl contenido que sigue es un guion abierto de nuevas conversaciones. Ninguna pregunta supone que la respuesta ya exista o que Iván deba adoptar una interpretación propuesta por el editor.\n01. INTERLOCUTOR — ¿Qué escenas de tus padres, hermanos y abuelos explican mejor la parte de ti que llegó a México? ¿Qué contradicciones ves ahora en aquella crianza?\n02. INTERLOCUTOR — ¿Cuándo empezaste a imaginar que la economía, la informática y los sistemas podían hablar el mismo idioma? ¿Qué leías con dieciséis años?\n03. INTERLOCUTOR — ¿Qué viaje concreto cambió tu posición ante las diferencias culturales, además de Bosnia?\n04. INTERLOCUTOR — ¿Cómo se conocieron Carmen y tú? ¿Qué recuerdas de sus proyectos, de Hennequen, de Nuestras Raíces y de La Bola de Oro antes de que hubiera un Instituto?\n05. INTERLOCUTOR — ¿Qué dijo Carmen, qué dijiste tú y qué decisiones compartisteis cuando Formación Integral perdió el dinero?\nTags: Decisions and responsibility 40.00%; Memory, community and territory 60.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-077\nSource document: https://totonacapan.com/?page_id=413#:~:text=El%20contenido%20que%20sigue%20es%20un%20guion%20abierto%20de%20nuevas\n\n",
+  "tokens": 322,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "dg-care",
       "title": "Responsabilidad humana",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 20,
-      "fichaTokens": 208,
+      "fichaTokens": 187,
       "tagWeights": {
         "aprendizaje": 0.0939,
         "autoridad": 0.0359,
@@ -54,10 +54,11 @@
       "to": "dg-legacy",
       "title": "Memoria y legado",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 126,
+      "fichaTokens": 114,
       "tagWeights": {
         "autoridad": 0.0151,
         "capacidad-humana": 0.0151,
@@ -78,12 +79,13 @@
       "to": "D-076",
       "title": "Contar el pasado sin inventar genealogías",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Memoria y legado».",
       "relationTokens": 34,
-      "fichaTokens": 529,
+      "fichaTokens": 526,
       "tagWeights": {
-        "memoria-territorio": 1.0
+        "memoria-territorio": 1
       },
       "clusters": [
         "dialogos"
@@ -96,10 +98,11 @@
       "to": "D-001",
       "title": "Dos familias, varios oficios, una convergencia",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Memoria y legado».",
       "relationTokens": 36,
-      "fichaTokens": 470,
+      "fichaTokens": 465,
       "tagWeights": {
         "geopolitica": 0.2857,
         "memoria-territorio": 0.4286,
@@ -116,10 +119,11 @@
       "to": "D-065",
       "title": "Salir de Papantla, empezar a escuchar Xalapa",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Responsabilidad humana».",
       "relationTokens": 36,
-      "fichaTokens": 498,
+      "fichaTokens": 495,
       "tagWeights": {
         "decision": 0.1818,
         "geopolitica": 0.8182
@@ -135,10 +139,11 @@
       "to": "D-014",
       "title": "Formación Integral: el entusiasmo y la pérdida",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Responsabilidad humana».",
       "relationTokens": 32,
-      "fichaTokens": 716,
+      "fichaTokens": 707,
       "tagWeights": {
         "aprendizaje": 0.4,
         "decision": 0.1334,
@@ -157,10 +162,11 @@
       "to": "D-042",
       "title": "David: la vida cambia de escala",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Memoria y legado, Responsabilidad humana desde las situaciones que describe cada texto.",
       "relationTokens": 45,
-      "fichaTokens": 336,
+      "fichaTokens": 332,
       "tagWeights": {
         "decision": 0.2222,
         "geopolitica": 0.4445,
@@ -177,10 +183,11 @@
       "to": "D-119",
       "title": "1898: una historia de pérdidas y de oficios, no de gloria imperial",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Memoria y legado, Responsabilidad humana desde las situaciones que describe cada texto.",
       "relationTokens": 55,
-      "fichaTokens": 321,
+      "fichaTokens": 315,
       "tagWeights": {
         "decision": 0.1818,
         "geopolitica": 0.1818,

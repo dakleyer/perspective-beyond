@@ -6,19 +6,19 @@
   "documentId": "doc-41c6da39d3e4af89c0",
   "sourceIds": [],
   "tagWeights": {
-    "estandares": 1.0
+    "estandares": 1
   },
   "clusters": [
     "research"
   ],
-  "context": "## ITU Focus Groups y contexto institucional\nLa Unión Internacional de Telecomunicaciones (ITU/UIT) organiza grupos focales de preestandarización. FG-TIDA trabaja sobre confianza e identidad para humanos y sistemas de IA agéntica. FG-AI4SSC reúne trabajo sobre integración de IA en ciudades y comunidades sostenibles: requisitos, interfaces, interoperabilidad y mecanismos de coordinación.\n\nTegrity.AI identifica su aportación FGAI4SSC-I-097 sobre Minimum Sufficient Control y un ejemplo público de Ecosystem Awareness en FG-TIDA, vinculado a temas y discusiones del repositorio oficial bajo el usuario dakleyer. El índice Research Contributions permite consultar esos documentos y su procedencia. Las páginas de la UIT describen los grupos y sus procesos; el registro de cada contribución permite seguir su discusión, estado y desarrollo.\nEtiquetas: Estándares e interoperabilidad 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/itu-focus-groups-y-contexto-institucional-s11/\nDocumento de origen: https://www.itu.int/en/ITU-T/focusgroups/tida/Pages/default.aspx\n\n",
+  "context": "## ITU Focus Groups y contexto institucional\nLa Unión Internacional de Telecomunicaciones (ITU/UIT) organiza grupos focales de preestandarización. FG-TIDA trabaja sobre confianza e identidad para humanos y sistemas de IA agéntica. FG-AI4SSC reúne trabajo sobre integración de IA en ciudades y comunidades sostenibles: requisitos, interfaces, interoperabilidad y mecanismos de coordinación.\n\nTegrity.AI identifica su aportación FGAI4SSC-I-097 sobre Minimum Sufficient Control y un ejemplo público de Ecosystem Awareness en FG-TIDA, vinculado a temas y discusiones del repositorio oficial bajo el usuario dakleyer. El índice Research Contributions permite consultar esos documentos y su procedencia. Las páginas de la UIT describen los grupos y sus procesos; el registro de cada contribución permite seguir su discusión, estado y desarrollo.\nTags: Standards and interoperability 100.00%\nCard: https://dakleyer.github.io/perspective-beyond/sources/itu-focus-groups-y-contexto-institucional-s11/\nSource document: https://www.itu.int/en/ITU-T/focusgroups/tida/Pages/default.aspx\n\n",
   "readingSource": {
     "url": "https://www.itu.int/en/ITU-T/focusgroups/tida/Pages/default.aspx",
     "section": "Main page",
     "observed": "2026-11-04",
     "sourceSha256": "d484142b0c2b10424c28b43ab09abdfd66828720901f5aac25ff545d9fd07282"
   },
-  "tokens": 240,
+  "tokens": 235,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -26,10 +26,11 @@
       "to": "G35",
       "title": "Preestandarización y contribuciones UIT",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 79,
+      "fichaTokens": 75,
       "tagWeights": {
         "control-minimo": 0.103,
         "documentacion": 0.0588,
@@ -47,10 +48,11 @@
       "to": "GH017",
       "title": "Ecosystem Positioning",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «External review / pre-standardization entry» con el rótulo «ITU-T Focus Group on Trust and Identity for Humans and Agentic AI (FG-TIDA)».",
-      "relationTokens": 117,
-      "fichaTokens": 261,
+      "relationTokens": 115,
+      "fichaTokens": 239,
       "tagWeights": {
         "agentes": 0.1081,
         "autoridad": 0.0541,
@@ -77,10 +79,11 @@
       "to": "sac-972bbd0c4945ab",
       "title": "Annex 01G — FG-TIDA Theme #13 Working Group / Charter Preparation Draft",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «0.1 What is FG-TIDA?» con el rótulo «FG-TIDA».",
-      "relationTokens": 138,
-      "fichaTokens": 204,
+      "relationTokens": 136,
+      "fichaTokens": 199,
       "tagWeights": {
         "documentacion": 0.3846,
         "estandares": 0.6154
@@ -96,10 +99,11 @@
       "to": "sac-e81dcdb1021761",
       "title": "Regime Awareness: the problem I am working on",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Relevance to agentic-AI trust discussions» con el rótulo «ITU-T Focus Group on Trustworthy and Intelligent Digital Agents».",
-      "relationTokens": 114,
-      "fichaTokens": 159,
+      "relationTokens": 112,
+      "fichaTokens": 150,
       "tagWeights": {
         "agentes": 0.1429,
         "cambio-regimen": 0.7143,
@@ -116,10 +120,11 @@
       "to": "imsv-investigacion",
       "title": "IMSV · Campo de investigación y Tegrity.AI",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documented institutional reading",
       "reading": "Las contribuciones de preestandarización se sitúan en los grupos y procesos de la UIT.",
-      "relationTokens": 60,
-      "fichaTokens": 201,
+      "relationTokens": 58,
+      "fichaTokens": 195,
       "tagWeights": {
         "documentacion": 0.4,
         "integridad-ia": 0.3,
@@ -136,10 +141,11 @@
       "to": "S14",
       "title": "The Integral Management Society",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura enlazada desde el documento",
       "reading": "Desde «The Integral Management Society», el enlace «FG-TIDA, grupo de la UIT-T sobre confianza e identidad» abre «ITU Focus Groups y contexto institucional».",
-      "relationTokens": 65,
-      "fichaTokens": 380,
+      "relationTokens": 63,
+      "fichaTokens": 371,
       "tagWeights": {
         "empresa": 0.2,
         "autoridad": 0.2,

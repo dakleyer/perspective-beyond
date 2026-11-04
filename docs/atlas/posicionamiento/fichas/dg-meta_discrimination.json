@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Carga de validar sistemas y sus entradas",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-meta_discrimination",
-  "documentId": null,
   "sourceIds": [
     "D-243",
     "D-244",
@@ -24,9 +23,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Carga de validar sistemas y sus entradas\nLa complejidad de discriminar entradas, contaminaciones y configuraciones puede trasladarse a una nueva capa de supervisión.\nEtiquetas: Autoridad, permisos y delegación 20.83%; Decisiones y responsabilidad 16.07%; Investigación y documentación técnica 8.33%; Experimentación, falsación y contraejemplos 11.91%; Matemáticas 17.86%; Representación y límites formales 8.33%; Transformación y continuidad operativa 16.67%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-meta_discrimination\n\n",
-  "readingSource": null,
-  "tokens": 137,
+  "context": "## Carga de validar sistemas y sus entradas\nLa complejidad de discriminar entradas, contaminaciones y configuraciones puede trasladarse a una nueva capa de supervisión.\nTags: Authority, permissions and delegation 20.83%; Decisions and responsibility 16.07%; Research and technical documentation 8.33%; Experimentation, falsification and counterexamples 11.91%; Mathematics 17.86%; Representation and formal boundaries 8.33%; Transformation and operational continuity 16.67%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-meta_discrimination\n\n",
+  "tokens": 126,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -34,10 +32,11 @@
       "to": "D-243",
       "title": "El supervisor humano no es barato porque solo revise dos casillas",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 442,
+      "fichaTokens": 437,
       "tagWeights": {
         "autoridad": 0.25,
         "documentacion": 0.5,
@@ -54,12 +53,13 @@
       "to": "D-244",
       "title": "Una contradicción puede contagiar máquinas antes de que nadie vea el desastre",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 30,
-      "fichaTokens": 430,
+      "fichaTokens": 426,
       "tagWeights": {
-        "transformacion": 1.0
+        "transformacion": 1
       },
       "clusters": [
         "dialogos"
@@ -72,12 +72,13 @@
       "to": "D-245",
       "title": "Llamarlo «AI firewall» no te concede saber qué está filtrando",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 31,
-      "fichaTokens": 430,
+      "fichaTokens": 426,
       "tagWeights": {
-        "autoridad": 1.0
+        "autoridad": 1
       },
       "clusters": [
         "dialogos"
@@ -90,10 +91,11 @@
       "to": "D-278",
       "title": "Rechazar una entrada también es tomar una decisión",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 404,
+      "fichaTokens": 400,
       "tagWeights": {
         "decision": 0.7143,
         "matematicas": 0.2857
@@ -109,10 +111,11 @@
       "to": "D-280",
       "title": "El investigador también ocupa el lugar del oráculo",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 25,
-      "fichaTokens": 411,
+      "fichaTokens": 406,
       "tagWeights": {
         "experimentacion": 0.7143,
         "matematicas": 0.2857
@@ -128,10 +131,11 @@
       "to": "D-293",
       "title": "El cómputo masivo intenta comprar volumen donde falta estructura",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 29,
-      "fichaTokens": 390,
+      "fichaTokens": 384,
       "tagWeights": {
         "decision": 0.25,
         "matematicas": 0.25,
@@ -148,10 +152,11 @@
       "to": "dg-governance",
       "title": "Gobernanza y legitimidad",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.9",
       "reading": "Supervisar exige comprender la frontera del sistema.",
       "relationTokens": 32,
-      "fichaTokens": 273,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.0321,
         "autoridad": 0.4057,
@@ -185,10 +190,11 @@
       "to": "dg-doubt",
       "title": "Duda, pruebas y conocimiento corregible",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.9",
       "reading": "La cota propuesta es una hipótesis pendiente de prueba.",
       "relationTokens": 38,
-      "fichaTokens": 268,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.2345,
         "autoridad": 0.0562,
@@ -222,10 +228,11 @@
       "to": "dg-formalization_event",
       "title": "La frontera entre mundo y registro",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.9",
       "reading": "Admitir datos requiere conocer cómo se definen.",
       "relationTokens": 34,
-      "fichaTokens": 137,
+      "fichaTokens": 127,
       "tagWeights": {
         "aprendizaje": 0.2131,
         "decision": 0.1339,
@@ -245,10 +252,11 @@
       "to": "dg-structure",
       "title": "Conciencia estructural",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.9",
       "reading": "Las contradicciones pueden propagarse entre máquinas.",
       "relationTokens": 31,
-      "fichaTokens": 256,
+      "fichaTokens": 226,
       "tagWeights": {
         "aprendizaje": 0.158,
         "autoridad": 0.0636,
@@ -281,10 +289,11 @@
       "to": "dg-operations",
       "title": "Operación real",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.9",
       "reading": "Gobernar depende de linaje y uso real.",
       "relationTokens": 31,
-      "fichaTokens": 217,
+      "fichaTokens": 191,
       "tagWeights": {
         "aprendizaje": 0.059,
         "autoridad": 0.1375,
@@ -314,10 +323,11 @@
       "to": "dg-reversibility",
       "title": "Información disponible e inversión constructible",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación de ampliación v0.9",
       "reading": "Un verificador no recupera los datos ausentes.",
       "relationTokens": 36,
-      "fichaTokens": 75,
+      "fichaTokens": 70,
       "tagWeights": {
         "aprendizaje": 0.8182,
         "matematicas": 0.1818
@@ -333,10 +343,11 @@
       "to": "dg-validity_boundary",
       "title": "Límite entre entrada, pertenencia y respuesta",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación de ampliación v0.11",
       "reading": "Admisión y propiedad son controles distintos.",
       "relationTokens": 38,
-      "fichaTokens": 87,
+      "fichaTokens": 82,
       "tagWeights": {
         "autoridad": 0.3333,
         "decision": 0.2381,
@@ -353,10 +364,11 @@
       "to": "dg-human_oracle",
       "title": "Trabajo humano de delimitar el problema",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación de ampliación v0.11",
       "reading": "El alcance también se valida.",
       "relationTokens": 32,
-      "fichaTokens": 90,
+      "fichaTokens": 84,
       "tagWeights": {
         "autoridad": 0.5,
         "experimentacion": 0.3572,
@@ -373,10 +385,11 @@
       "to": "dg-explorer_compute",
       "title": "Exploración de marcos frente a fuerza computacional",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación transversal propuesta v0.12",
       "reading": "Detectar cambio de marco antes de optimizar.",
       "relationTokens": 39,
-      "fichaTokens": 98,
+      "fichaTokens": 91,
       "tagWeights": {
         "decision": 0.125,
         "experimentacion": 0.5,

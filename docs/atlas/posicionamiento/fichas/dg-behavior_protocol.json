@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Protocolo conductual de plataformas",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-behavior_protocol",
-  "documentId": null,
   "sourceIds": [
     "D-188",
     "D-211",
@@ -18,9 +17,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Protocolo conductual de plataformas\nVer patrones de reacción y convergencia operacional por detrás de relatos enfrentados.\nEtiquetas: Aprendizaje y transmisión de capacidades 33.33%; Autoridad, permisos y delegación 33.33%; Decisiones y responsabilidad 16.67%; Economía, costes y liquidez 16.67%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-behavior_protocol\n\n",
-  "readingSource": null,
-  "tokens": 98,
+  "context": "## Protocolo conductual de plataformas\nVer patrones de reacción y convergencia operacional por detrás de relatos enfrentados.\nTags: Learning and capability transmission 33.33%; Authority, permissions and delegation 33.33%; Decisions and responsibility 16.67%; Economics, costs and liquidity 16.67%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-behavior_protocol\n\n",
+  "tokens": 90,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -28,10 +26,11 @@
       "to": "D-188",
       "title": "Ideologías contrarias pueden ejecutar el mismo protocolo de reacción",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 392,
+      "fichaTokens": 388,
       "tagWeights": {
         "decision": 0.5,
         "economia": 0.5
@@ -47,12 +46,13 @@
       "to": "D-211",
       "title": "El control de Internet puede culminar antes de la crisis",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 407,
+      "fichaTokens": 403,
       "tagWeights": {
-        "autoridad": 1.0
+        "autoridad": 1
       },
       "clusters": [
         "dialogos"
@@ -65,12 +65,13 @@
       "to": "D-246",
       "title": "La dictadura perfecta: profesionales que venden una realidad ya montada",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 440,
+      "fichaTokens": 435,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"
@@ -83,10 +84,11 @@
       "to": "dg-measure",
       "title": "Medir decisiones y consecuencias",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "parte de eventos",
       "reading": "El sistema observa clics y tiempos, no convicciones interiores directamente.",
       "relationTokens": 32,
-      "fichaTokens": 213,
+      "fichaTokens": 192,
       "tagWeights": {
         "aprendizaje": 0.0552,
         "autoridad": 0.0761,
@@ -115,10 +117,11 @@
       "to": "dg-capture",
       "title": "Captura de opciones e incentivos regresivos",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "puede explotar",
       "reading": "Relatos opuestos pueden alimentar mecanismos repetibles de reacción.",
       "relationTokens": 34,
-      "fichaTokens": 180,
+      "fichaTokens": 161,
       "tagWeights": {
         "aprendizaje": 0.0303,
         "autoridad": 0.0485,
@@ -143,10 +146,11 @@
       "to": "dg-identity",
       "title": "Identidad, roles y posicionamiento",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "no equivale a",
       "reading": "Un patrón de conducta no agota la identidad personal.",
       "relationTokens": 32,
-      "fichaTokens": 234,
+      "fichaTokens": 211,
       "tagWeights": {
         "aprendizaje": 0.2833,
         "autoridad": 0.0459,
@@ -176,12 +180,13 @@
       "to": "dg-media_reality",
       "title": "Producción de realidad mediada",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación de ampliación v0.9",
       "reading": "La audiencia también responde a incentivos del relato.",
       "relationTokens": 34,
-      "fichaTokens": 73,
+      "fichaTokens": 69,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"

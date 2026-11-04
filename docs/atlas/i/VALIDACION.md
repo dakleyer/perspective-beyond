@@ -1,13 +1,13 @@
-# Comprobación de las instancias del Atlas
+# Atlas instance checks
 
-La primera publicación registró once entradas `v1`. Se cotejaron 45 URLs públicas con los archivos publicados. Los once QR devolvieron su URL versionada al decodificarlos a tamaño original y a 144 píxeles. También se comprobó un QR generado para una ficha concreta con `desde=E1731`. [Primera publicación](https://github.com/dakleyer/perspective-beyond/commit/d8765f6dfd8286b8efb6ce490aec2304060dd3b0)
+The first publication registered eleven `v1` entries. Forty-five public URLs were compared with the published files. All eleven QR codes returned their versioned URL when decoded at original size and at 144 pixels. A QR code generated for a specific card with `desde=E1731` was also checked. [First publication](https://github.com/dakleyer/perspective-beyond/commit/d8765f6dfd8286b8efb6ce490aec2304060dd3b0)
 
-| Recorrido | Comprobación |
+| Journey | Check |
 | --- | --- |
-| QR de JubAp.eu → selector | El navegador abrió `eu/v1` y recuperó el rol Consultor, la ficha E1628 y los pesos Perspectiva 60 % y Decisiones 40 %. Al cambiar el origen a Diálogos, retiró E1628 de las URLs compartidas y del texto copiado. |
-| URL de una página con `desde` | Un agente abrió en GitHub Raw la sesión cerrada de E1628 con ambos pesos. Verificó el marco JUBAP y distinguió la propuesta de la fuente de su propia prueba para dos áreas. El original abrió por HTTP directo después de fallar en el lector web. |
-| Texto versionado de Investigación | Otro agente recuperó `research/v1`, el rol Investigador, Matemáticas al 100 % en modo exclusivo y la ficha GH049 desde el archivo sin parámetros. Explicó la diferencia entre detectar un cambio y bloquear una ejecución obsoleta. Dejó fuera la encajonadora porque pertenece a otro clúster. |
+| JubAp.eu QR code → selector | The browser opened `eu/v1` and recovered the Consultant role, card E1628 and the weights Perspective 60% and Decisions 40%. When the origin was changed to Dialogues, it removed E1628 from shared URLs and copied text. |
+| Page URL with `desde` | An agent opened E1628's closed session on GitHub Raw with both weights. It verified the JUBAP framework and distinguished the source's proposal from its own test for two areas. The original opened over direct HTTP after failing in the web reader. |
+| Versioned Research text | Another agent recovered `research/v1`, the Researcher role, Mathematics at 100% in exclusive mode and card GH049 from the file without parameters. It explained the difference between detecting a change and blocking an obsolete execution. It left out the case-packing machine because it belongs to another cluster. |
 
-La revisión detectó dos referencias de GitHub para GH049. El archivo era idéntico en ambos commits. La instancia y las instrucciones del selector usan ahora el commit de la edición examinada que aparece en la ficha. Una configuración inválida de clúster, alcance o puente pide corregir la selección. Si se solicita una etiqueta exclusiva y el filtro queda vacío, el selector detiene la exportación hasta resolverlo.
+The review detected two GitHub references for GH049. The file was identical in both commits. The instance and selector instructions now use the commit of the examined edition shown in the card. An invalid cluster, scope or bridge configuration asks for the selection to be corrected. If an exclusive tag is requested and the filter is empty, the selector stops the export until this is resolved.
 
-[Registro de instancias](https://dakleyer.github.io/perspective-beyond/atlas/i/instancias.json) · [JubAp.eu v1](https://dakleyer.github.io/perspective-beyond/atlas/i/eu/v1/) · [Investigación v1, texto para el asistente](https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/i/research/v1/entrada.txt)
+[Instance register](https://dakleyer.github.io/perspective-beyond/atlas/i/instancias.json) · [JubAp.eu v1](https://dakleyer.github.io/perspective-beyond/atlas/i/eu/v1/) · [Research v1, text for the assistant](https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/i/research/v1/entrada.txt)

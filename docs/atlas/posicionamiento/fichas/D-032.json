@@ -13,9 +13,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Bosnia: el regreso de la memoria\nINTERLOCUTOR — En mitad del relato laboral vuelves a Bosnia. ¿Por qué te asalta ahora aquel viaje?\nIVÁN —\nBOSNIA HERZEGOVINA\nDurante muchos años, solo con cerrar los ojos, me aparecían escenas de algún lugar del pasado: caminando por las calles de Budapest o escalando el Triglav De manera involuntaria lo evocaba con mayor lujo de detalles que la propia realidad a mi alrededor. \nEn aquellos viajes, cada día —y a veces cada hora— habían sido una aventura. No obstante, por alguna razón, poco a poco, pasajes enteros dejaron de venir a mi mente de manera natural y al cabo de los años se convirtieron en algo difuminado, a veces inconexo. Algo como lo que llaman, simplemente un recuerdo. \nDicen que cada vez que cambia la personalidad, los recuerdos se reestructuran. Y eso parecía estar ocurriéndome a los 35 años. Ahora, en Veracruz, cerraba los ojos y ya no aparecían imágenes del pasado, solo los sonidos del presente: las chachalacas, los grillos, y una sinfonía de animales ruidosos que se entrelazaban con la densidad del paisaje. Si abría los ojos todo era verde con cientos de matices que emergían entre la humedad extrema y asfixiante. Ese era mi nuevo hogar.\nEtiquetas: Aprendizaje y transmisión de capacidades 12.50%; Geopolítica y fronteras 56.25%; Memoria, comunidad y territorio 31.25%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-032\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20En%20mitad%20del%20relato%20laboral%20vuelves%20a%20Bosnia.%20%C2%BFPor\n\n",
-  "readingSource": null,
-  "tokens": 429,
+  "context": "## Bosnia: el regreso de la memoria\nINTERLOCUTOR — En mitad del relato laboral vuelves a Bosnia. ¿Por qué te asalta ahora aquel viaje?\nIVÁN —\nBOSNIA HERZEGOVINA\nDurante muchos años, solo con cerrar los ojos, me aparecían escenas de algún lugar del pasado: caminando por las calles de Budapest o escalando el Triglav De manera involuntaria lo evocaba con mayor lujo de detalles que la propia realidad a mi alrededor. \nEn aquellos viajes, cada día —y a veces cada hora— habían sido una aventura. No obstante, por alguna razón, poco a poco, pasajes enteros dejaron de venir a mi mente de manera natural y al cabo de los años se convirtieron en algo difuminado, a veces inconexo. Algo como lo que llaman, simplemente un recuerdo. \nDicen que cada vez que cambia la personalidad, los recuerdos se reestructuran. Y eso parecía estar ocurriéndome a los 35 años. Ahora, en Veracruz, cerraba los ojos y ya no aparecían imágenes del pasado, solo los sonidos del presente: las chachalacas, los grillos, y una sinfonía de animales ruidosos que se entrelazaban con la densidad del paisaje. Si abría los ojos todo era verde con cientos de matices que emergían entre la humedad extrema y asfixiante. Ese era mi nuevo hogar.\nTags: Learning and capability transmission 12.50%; Geopolitics and borders 56.25%; Memory, community and territory 31.25%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-032\nSource document: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20En%20mitad%20del%20relato%20laboral%20vuelves%20a%20Bosnia.%20%C2%BFPor\n\n",
+  "tokens": 423,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,10 +22,11 @@
       "to": "dg-inner",
       "title": "Atención y sentido",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 191,
+      "fichaTokens": 172,
       "tagWeights": {
         "aprendizaje": 0.4331,
         "autoridad": 0.0368,
@@ -54,10 +54,11 @@
       "to": "dg-boundaries",
       "title": "Fronteras y encuentros",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 181,
+      "fichaTokens": 166,
       "tagWeights": {
         "aprendizaje": 0.0144,
         "autoridad": 0.0451,
@@ -84,10 +85,11 @@
       "to": "D-012",
       "title": "Un trabajo sin territorio fijo",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Fronteras y encuentros».",
       "relationTokens": 29,
-      "fichaTokens": 340,
+      "fichaTokens": 337,
       "tagWeights": {
         "geopolitica": 0.2857,
         "memoria-territorio": 0.7143
@@ -103,12 +105,13 @@
       "to": "D-033",
       "title": "Entrar en Bosnia sin un plan",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Fronteras y encuentros».",
       "relationTokens": 32,
-      "fichaTokens": 565,
+      "fichaTokens": 563,
       "tagWeights": {
-        "geopolitica": 1.0
+        "geopolitica": 1
       },
       "clusters": [
         "dialogos"
@@ -121,10 +124,11 @@
       "to": "D-018",
       "title": "Espiritualidad sin imponer una doctrina",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Atención y sentido».",
       "relationTokens": 30,
-      "fichaTokens": 285,
+      "fichaTokens": 278,
       "tagWeights": {
         "aprendizaje": 0.125,
         "decision": 0.125,
@@ -142,10 +146,11 @@
       "to": "D-035",
       "title": "La libertad de tomar una decisión propia",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Atención y sentido».",
       "relationTokens": 31,
-      "fichaTokens": 588,
+      "fichaTokens": 582,
       "tagWeights": {
         "aprendizaje": 0.2,
         "decision": 0.8
@@ -161,10 +166,11 @@
       "to": "D-290",
       "title": "Tener un DNI no agota lo que significa ser de un país",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Tener un DNI no agota lo que significa ser de un país» con «Bosnia: el regreso de la memoria». Permite contrastar Fronteras y encuentros.",
       "relationTokens": 69,
-      "fichaTokens": 381,
+      "fichaTokens": 379,
       "tagWeights": {
         "documentacion": 0.7778,
         "geopolitica": 0.2222

@@ -12,9 +12,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## El mercado puede crear escasez donde antes había abundancia\nINTERLOCUTOR (pregunta editorial, no pronunciada necesariamente) — ¿Cómo una opción adicional termina multiplicando restricciones?\nREFLEXIÓN DEL MANUSCRITO (edición fiel de un escrito original) — En sus notas aparece una escena diminuta y demoledora. Antes, alguien ponía una jarra sobre la mesa: sírvete lo que necesites. Después, se ofrece «un poco más de zumo por un euro». El líquido no explica por sí solo la transformación. Ha aparecido otra dimensión de escasez: una porción delimitada, un precio marginal y una nueva decisión. Si guardo el euro, puedo felicitarme por resistir la compra, pero inmediatamente surge otra pregunta: ¿en qué lo gasto? El límite recién creado abre el siguiente mercado.\n\nIván tantea una hipótesis: cuando los bienes adquieren nuevas dimensiones de exclusividad, tiempo, permiso o pertenencia, la economía multiplica ocasiones de elegir sin necesariamente ampliar la libertad real. «Solo hoy» o «solo para gente como tú» pueden valer más no porque produzcan mayor bienestar, sino porque la propia escasez influye en la preferencia.\n\nNo es una ley económica demostrada en este borrador; él mismo distingue con cuidado supuestos y teoremas. La reflexión es una advertencia de diseño: el número de productos y elecciones no basta para medir progreso. Hay que contar también las carencias y los requisitos que se han fabricado para que esas elecciones existan.\nEtiquetas: Economía, costes y liquidez 33.33%; Representación y límites formales 66.67%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-197\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-197.html\n\n",
-  "readingSource": null,
-  "tokens": 395,
+  "context": "## El mercado puede crear escasez donde antes había abundancia\nINTERLOCUTOR (pregunta editorial, no pronunciada necesariamente) — ¿Cómo una opción adicional termina multiplicando restricciones?\nREFLEXIÓN DEL MANUSCRITO (edición fiel de un escrito original) — En sus notas aparece una escena diminuta y demoledora. Antes, alguien ponía una jarra sobre la mesa: sírvete lo que necesites. Después, se ofrece «un poco más de zumo por un euro». El líquido no explica por sí solo la transformación. Ha aparecido otra dimensión de escasez: una porción delimitada, un precio marginal y una nueva decisión. Si guardo el euro, puedo felicitarme por resistir la compra, pero inmediatamente surge otra pregunta: ¿en qué lo gasto? El límite recién creado abre el siguiente mercado.\n\nIván tantea una hipótesis: cuando los bienes adquieren nuevas dimensiones de exclusividad, tiempo, permiso o pertenencia, la economía multiplica ocasiones de elegir sin necesariamente ampliar la libertad real. «Solo hoy» o «solo para gente como tú» pueden valer más no porque produzcan mayor bienestar, sino porque la propia escasez influye en la preferencia.\n\nNo es una ley económica demostrada en este borrador; él mismo distingue con cuidado supuestos y teoremas. La reflexión es una advertencia de diseño: el número de productos y elecciones no basta para medir progreso. Hay que contar también las carencias y los requisitos que se han fabricado para que esas elecciones existan.\nTags: Economics, costs and liquidity 33.33%; Representation and formal boundaries 66.67%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-197\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-197.html\n\n",
+  "tokens": 390,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "dg-options",
       "title": "Libertad y opciones",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 202,
+      "fichaTokens": 181,
       "tagWeights": {
         "aprendizaje": 0.1588,
         "autoridad": 0.0804,
@@ -54,10 +54,11 @@
       "to": "dg-economy",
       "title": "Economía y escasez",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 25,
-      "fichaTokens": 250,
+      "fichaTokens": 222,
       "tagWeights": {
         "aprendizaje": 0.0688,
         "autoridad": 0.0119,
@@ -90,10 +91,11 @@
       "to": "dg-scarcity_design",
       "title": "Dimensiones creadas de escasez",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 117,
+      "fichaTokens": 107,
       "tagWeights": {
         "aprendizaje": 0.0476,
         "autoridad": 0.0833,
@@ -112,10 +114,11 @@
       "to": "D-005",
       "title": "Escasez, crecimiento y libertad real",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El mercado puede crear escasez donde antes había abundancia» con «Escasez, crecimiento y libertad real». Permite contrastar Economía y escasez, Libertad y opciones.",
       "relationTokens": 71,
-      "fichaTokens": 442,
+      "fichaTokens": 433,
       "tagWeights": {
         "casos": 0.2,
         "decision": 0.2,
@@ -133,12 +136,13 @@
       "to": "D-063",
       "title": "Cuando el dinero reduce las opciones",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El mercado puede crear escasez donde antes había abundancia» con «Cuando el dinero reduce las opciones». Permite contrastar Economía y escasez, Libertad y opciones.",
       "relationTokens": 67,
-      "fichaTokens": 379,
+      "fichaTokens": 376,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "dialogos"
@@ -151,10 +155,11 @@
       "to": "D-136",
       "title": "Lo que antes no era mercancía puede convertirse en opción de mercado",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El mercado puede crear escasez donde antes había abundancia» con «Lo que antes no era mercancía puede convertirse en opción de mercado». Permite contrastar Economía y escasez, Libertad y opciones.",
       "relationTokens": 81,
-      "fichaTokens": 296,
+      "fichaTokens": 293,
       "tagWeights": {
         "economia": 0.7143,
         "geopolitica": 0.2857
@@ -170,12 +175,13 @@
       "to": "D-222",
       "title": "Si el oro gana al capital productivo, ¿qué economía estamos construyendo?",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Si el oro gana al capital productivo, ¿qué economía estamos construyendo?» con «El mercado puede crear escasez donde antes había abundancia». Permite contrastar Economía y escasez.",
       "relationTokens": 83,
-      "fichaTokens": 464,
+      "fichaTokens": 461,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "dialogos"
@@ -188,12 +194,13 @@
       "to": "D-261",
       "title": "La Bolsa puede estar comprando reservas que no parecen mercancías",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La Bolsa puede estar comprando reservas que no parecen mercancías» con «El mercado puede crear escasez donde antes había abundancia». Permite contrastar Economía y escasez, Dimensiones creadas de escasez.",
       "relationTokens": 83,
-      "fichaTokens": 398,
+      "fichaTokens": 395,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "dialogos"
@@ -206,10 +213,11 @@
       "to": "D-262",
       "title": "Una red libre puede convertirse en reserva cuando todos creen que solo cuatro la poseen",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una red libre puede convertirse en reserva cuando todos creen que solo cuatro la poseen» con «El mercado puede crear escasez donde antes había abundancia». Permite contrastar Dimensiones creadas de escasez.",
       "relationTokens": 83,
-      "fichaTokens": 395,
+      "fichaTokens": 390,
       "tagWeights": {
         "autoridad": 0.5,
         "economia": 0.5
@@ -225,10 +233,11 @@
       "to": "D-288",
       "title": "Cambiar quién posee la manzana no alimenta al siguiente árbol",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Cambiar quién posee la manzana no alimenta al siguiente árbol» con «El mercado puede crear escasez donde antes había abundancia».",
       "relationTokens": 66,
-      "fichaTokens": 421,
+      "fichaTokens": 414,
       "tagWeights": {
         "economia": 0.3334,
         "experimentacion": 0.3333,
@@ -245,12 +254,13 @@
       "to": "D-048",
       "title": "El coste de multiplicar proyectos",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Libertad y opciones, Economía y escasez desde las situaciones que describe cada texto.",
       "relationTokens": 49,
-      "fichaTokens": 521,
+      "fichaTokens": 518,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "dialogos"
@@ -263,10 +273,11 @@
       "to": "D-101",
       "title": "La incomodidad que una solución puede fabricar",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Libertad y opciones, Economía y escasez desde las situaciones que describe cada texto.",
       "relationTokens": 52,
-      "fichaTokens": 306,
+      "fichaTokens": 303,
       "tagWeights": {
         "economia": 0.5,
         "perspectiva": 0.5
@@ -282,10 +293,11 @@
       "to": "D-198",
       "title": "Un cenote no se vuelve valioso solo cuando alguien lo cerca",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Dimensiones creadas de escasez, Economía y escasez desde las situaciones que describe cada texto.",
       "relationTokens": 60,
-      "fichaTokens": 385,
+      "fichaTokens": 381,
       "tagWeights": {
         "economia": 0.4,
         "memoria-territorio": 0.6
@@ -301,10 +313,11 @@
       "to": "D-295",
       "title": "Un algoritmo democrático no elimina el pan, la gasolina ni el tiempo",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Dimensiones creadas de escasez, Economía y escasez desde las situaciones que describe cada texto.",
       "relationTokens": 60,
-      "fichaTokens": 420,
+      "fichaTokens": 414,
       "tagWeights": {
         "aprendizaje": 0.2857,
         "economia": 0.7143

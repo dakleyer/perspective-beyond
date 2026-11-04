@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Isomorfismos entre dominios y deuda de arquitectura",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-practical_isomorphism",
-  "documentId": null,
   "sourceIds": [
     "D-285",
     "D-286"
@@ -22,9 +21,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Isomorfismos entre dominios y deuda de arquitectura\nUna mirada transversal comprende estructuras distintas y conecta soluciones sin inventar una jerga total.\nEtiquetas: Aprendizaje y transmisión de capacidades 8.75%; Decisiones y responsabilidad 6.25%; Empresa y gestión 36.25%; Evidencia, procedencia y atribución 2.50%; Matemáticas 5.00%; Memoria, comunidad y territorio 6.25%; Movilidad e infraestructura 6.25%; Representación y límites formales 10.00%; Transformación y continuidad operativa 18.75%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-practical_isomorphism\n\n",
-  "readingSource": null,
-  "tokens": 151,
+  "context": "## Isomorfismos entre dominios y deuda de arquitectura\nUna mirada transversal comprende estructuras distintas y conecta soluciones sin inventar una jerga total.\nTags: Learning and capability transmission 8.75%; Decisions and responsibility 6.25%; Business and management 36.25%; Evidence, provenance and attribution 2.50%; Mathematics 5.00%; Memory, community and territory 6.25%; Mobility and infrastructure 6.25%; Representation and formal boundaries 10.00%; Transformation and operational continuity 18.75%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-practical_isomorphism\n\n",
+  "tokens": 136,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -32,10 +30,11 @@
       "to": "D-285",
       "title": "Un arquitecto no puede saber toda la jerga de todos los oficios",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 34,
-      "fichaTokens": 439,
+      "fichaTokens": 426,
       "tagWeights": {
         "aprendizaje": 0.05,
         "empresa": 0.35,
@@ -55,10 +54,11 @@
       "to": "D-286",
       "title": "El enjambre de sistemitas es una deuda de gestión",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 30,
-      "fichaTokens": 430,
+      "fichaTokens": 420,
       "tagWeights": {
         "aprendizaje": 0.125,
         "decision": 0.125,
@@ -78,10 +78,11 @@
       "to": "dg-structure",
       "title": "Conciencia estructural",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación transversal propuesta v0.12",
       "reading": "Estructuras transversales sin jerga única.",
       "relationTokens": 36,
-      "fichaTokens": 256,
+      "fichaTokens": 226,
       "tagWeights": {
         "aprendizaje": 0.158,
         "autoridad": 0.0636,
@@ -114,10 +115,11 @@
       "to": "dg-semantic_graph",
       "title": "Conocimiento como red de relaciones y procedencia",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación transversal propuesta v0.12",
       "reading": "Las relaciones importan más que las etiquetas.",
       "relationTokens": 39,
-      "fichaTokens": 181,
+      "fichaTokens": 164,
       "tagWeights": {
         "aprendizaje": 0.0229,
         "decision": 0.0625,
@@ -142,10 +144,11 @@
       "to": "dg-transform",
       "title": "Transformación organizativa",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación transversal propuesta v0.12",
       "reading": "Los modelos deben materializarse en operaciones.",
       "relationTokens": 34,
-      "fichaTokens": 233,
+      "fichaTokens": 208,
       "tagWeights": {
         "aprendizaje": 0.2509,
         "autoridad": 0.0093,
@@ -177,10 +180,11 @@
       "to": "dg-explorer_compute",
       "title": "Exploración de marcos frente a fuerza computacional",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación transversal propuesta v0.12",
       "reading": "Buena estructura transversal puede ahorrar búsqueda.",
       "relationTokens": 39,
-      "fichaTokens": 98,
+      "fichaTokens": 91,
       "tagWeights": {
         "decision": 0.125,
         "experimentacion": 0.5,

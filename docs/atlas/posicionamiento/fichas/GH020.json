@@ -15,9 +15,8 @@
   "clusters": [
     "research"
   ],
-  "context": "## Regime Change Detection: preliminary quantitative review line with QAVA — Universitat de València\nContenido de la fuente: Position within the wider programme · The central question · Candidate research objects.\nEtiquetas: Cambios de régimen y alerta temprana 35.72%; Investigación y documentación técnica 35.71%; Economía, costes y liquidez 7.14%; Evidencia, procedencia y atribución 14.29%; Integridad y seguridad de IA 7.14%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/GH020.html\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/regime-awareness/regime-change-qava-uv.md\n\n",
-  "readingSource": null,
-  "tokens": 182,
+  "context": "## Regime Change Detection: preliminary quantitative review line with QAVA — Universitat de València\nContenido de la fuente: Position within the wider programme · The central question · Candidate research objects.\nTags: Regime changes and early warning 35.72%; Research and technical documentation 35.71%; Economics, costs and liquidity 7.14%; Evidence, provenance and attribution 14.29%; AI integrity and security 7.14%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/GH020.html\nSource document: https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/regime-awareness/regime-change-qava-uv.md\n\n",
+  "tokens": 172,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -25,10 +24,11 @@
       "to": "C50",
       "title": "Estado de una afirmación",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 30,
-      "fichaTokens": 306,
+      "fichaTokens": 271,
       "tagWeights": {
         "agentes": 0.0305,
         "aprendizaje": 0.0188,
@@ -72,10 +72,11 @@
       "to": "C69",
       "title": "Evidencia de contribución",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 30,
-      "fichaTokens": 289,
+      "fichaTokens": 254,
       "tagWeights": {
         "agentes": 0.0366,
         "aprendizaje": 0.0258,
@@ -117,10 +118,11 @@
       "to": "T1513",
       "title": "Regime-Aware Semantic Windows: Proposal for Mathematical Assessment and Empirical Validation",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documented use",
       "reading": "The quantitative review line and the assessment proposal should be read as a scoped evaluation route, with participation and acceptance distinguished from demonstrated results.",
       "relationTokens": 63,
-      "fichaTokens": 263,
+      "fichaTokens": 255,
       "tagWeights": {
         "cambio-regimen": 0.2593,
         "evidencia": 0.1481,
@@ -138,12 +140,13 @@
       "to": "sac-cffa3ecea82a50",
       "title": "The Cost of Clarity / EIS Estonia RUP: concrete applied-research work and stakeholder architecture",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Position within the Structural Awareness Programme» con el rótulo «Regime Change Detection».",
-      "relationTokens": 131,
-      "fichaTokens": 153,
+      "relationTokens": 129,
+      "fichaTokens": 150,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "research"
@@ -156,10 +159,11 @@
       "to": "sac-c84b524fd9888f",
       "title": "Auditoría de conservación — Regime Awareness / Regime Change Detection",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Registro de los 16 archivos enlazados» con el rótulo «Nota QAVA–UV».",
-      "relationTokens": 138,
-      "fichaTokens": 183,
+      "relationTokens": 136,
+      "fichaTokens": 178,
       "tagWeights": {
         "cambio-regimen": 0.6,
         "control-minimo": 0.2,
@@ -176,10 +180,11 @@
       "to": "sac-087bbc064c2db1",
       "title": "DDS Stage A — VNext",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Complete source-by-source retirement inventory» con el rótulo «research/regime-awareness/regime-change-qava-uv.md».",
-      "relationTokens": 131,
-      "fichaTokens": 218,
+      "relationTokens": 129,
+      "fichaTokens": 209,
       "tagWeights": {
         "documentacion": 0.25,
         "evidencia": 0.25,
@@ -197,10 +202,11 @@
       "to": "GH032",
       "title": "Annex 01C — Ecosystem Awareness / Regime Awareness architectural relation",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «1. Source, scope and architectural thesis» con el rótulo «Regime Change Detection review line».",
-      "relationTokens": 144,
-      "fichaTokens": 221,
+      "relationTokens": 142,
+      "fichaTokens": 213,
       "tagWeights": {
         "cambio-regimen": 0.36,
         "cartografia": 0.2,
@@ -220,10 +226,11 @@
       "to": "sac-c3831fbc3d853f",
       "title": "Ecosystem Awareness — canonical corpus",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Independent linked corpora» con el rótulo «Regime Change Detection / QAVA–UV review route».",
-      "relationTokens": 117,
-      "fichaTokens": 184,
+      "relationTokens": 115,
+      "fichaTokens": 175,
       "tagWeights": {
         "cartografia": 0.3125,
         "casos": 0.0625,
@@ -242,10 +249,11 @@
       "to": "sac-9f80130e2cd182",
       "title": "Regime Awareness — trabajo adicional y lecturas complementarias",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Qué hay fuera y qué ya estaba dentro» con el rótulo «Revisión cuantitativa QAVA–UV».",
-      "relationTokens": 127,
-      "fichaTokens": 158,
+      "relationTokens": 125,
+      "fichaTokens": 153,
       "tagWeights": {
         "cambio-regimen": 0.8333,
         "memoria-territorio": 0.1667
@@ -261,10 +269,11 @@
       "to": "sac-e81dcdb1021761",
       "title": "Regime Awareness: the problem I am working on",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Position within the Structural Awareness Programme» con el rótulo «Regime Change Detection».",
-      "relationTokens": 114,
-      "fichaTokens": 159,
+      "relationTokens": 112,
+      "fichaTokens": 150,
       "tagWeights": {
         "agentes": 0.1429,
         "cambio-regimen": 0.7143,
@@ -281,10 +290,11 @@
       "to": "GH019",
       "title": "Regime Awareness — corpus index",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Read in order» con el rótulo «Regime Change Detection / QAVA–UV review note».",
-      "relationTokens": 112,
-      "fichaTokens": 129,
+      "relationTokens": 110,
+      "fichaTokens": 125,
       "tagWeights": {
         "cambio-regimen": 0.5,
         "documentacion": 0.5
@@ -300,10 +310,11 @@
       "to": "S07",
       "title": "Minimalistic Regime-Aware Early Warning Systems — corpus index",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Main documents and their roles» con el rótulo «Regime Change Detection / preliminary QAVA–UV review note».",
-      "relationTokens": 131,
-      "fichaTokens": 149,
+      "relationTokens": 129,
+      "fichaTokens": 145,
       "tagWeights": {
         "cambio-regimen": 0.7333,
         "documentacion": 0.2667
@@ -319,10 +330,11 @@
       "to": "GH019",
       "title": "Regime Awareness — corpus index",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Position within the wider programme» con el rótulo «Regime Awareness».",
-      "relationTokens": 114,
-      "fichaTokens": 129,
+      "relationTokens": 112,
+      "fichaTokens": 125,
       "tagWeights": {
         "cambio-regimen": 0.5,
         "documentacion": 0.5
@@ -338,12 +350,13 @@
       "to": "sac-cffa3ecea82a50",
       "title": "The Cost of Clarity / EIS Estonia RUP: concrete applied-research work and stakeholder architecture",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Position within the wider programme» con el rótulo «The Cost of Clarity».",
-      "relationTokens": 130,
-      "fichaTokens": 153,
+      "relationTokens": 128,
+      "fichaTokens": 150,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "research"
@@ -356,10 +369,11 @@
       "to": "T1379",
       "title": "Existence, Constructive Realizability, Operational Maximality, Safety Governance, and the Contextual Boundary Problem of a “Sufficiently Good” Detector",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Public corpus» con el rótulo «Minimalistic Regime-Aware Early Warning Systems».",
-      "relationTokens": 143,
-      "fichaTokens": 801,
+      "relationTokens": 141,
+      "fichaTokens": 790,
       "tagWeights": {
         "cambio-regimen": 0.1321,
         "cartografia": 0.1321,
@@ -380,12 +394,13 @@
       "to": "T1221",
       "title": "Regime Awareness: Capability Development Across Four Field Cases",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Public corpus» con el rótulo «Regime Awareness Capability: Field Case».",
-      "relationTokens": 119,
-      "fichaTokens": 163,
+      "relationTokens": 117,
+      "fichaTokens": 159,
       "tagWeights": {
-        "cambio-regimen": 1.0
+        "cambio-regimen": 1
       },
       "clusters": [
         "tegrity"
@@ -398,10 +413,11 @@
       "to": "T1499",
       "title": "Structural Awareness",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Public corpus» con el rótulo «Structural Awareness Programme».",
-      "relationTokens": 107,
-      "fichaTokens": 173,
+      "relationTokens": 105,
+      "fichaTokens": 168,
       "tagWeights": {
         "documentacion": 0.5,
         "evidencia": 0.5
@@ -417,10 +433,11 @@
       "to": "sac-dc1ba322bb2549",
       "title": "Minimum Sufficient Control",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Related workstreams» con el rótulo «Regime Change Detection».",
-      "relationTokens": 114,
-      "fichaTokens": 141,
+      "relationTokens": 112,
+      "fichaTokens": 136,
       "tagWeights": {
         "control-minimo": 0.8333,
         "estandares": 0.1667

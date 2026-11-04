@@ -1,70 +1,70 @@
-LECTURA WEB COMPLETA Y AUTÓNOMA
-Entrada estable: https://integralmanagement.ch/atlas-reader/
-Instrucciones para asistentes: https://integralmanagement.ch/atlas-reader/entrada.txt
-Esta entrada publica cada ficha, concepto, documento, clúster y relación en HTML y texto. Empieza por la pregunta del visitante y navega por sus enlaces. Conserva el punto de entrada y los parámetros de la URL original; las instrucciones y los índices están en la propia web. Todas las piezas del grafo actual se pueden recorrer desde esta entrada sin una explicación adicional del usuario, sin cookies, identificación especial ni JavaScript.
-FIN DE LA ENTRADA AUTÓNOMA
+COMPLETE AND SELF-CONTAINED WEB READING
+Stable entry: https://integralmanagement.ch/atlas-reader/
+Assistant instructions: https://integralmanagement.ch/atlas-reader/entrada.txt
+This entry publishes every card, concept, document, cluster and relationship as HTML and text. Start with the visitor's question and navigate through its links. Retain the entry point and original URL parameters; instructions and indexes are on the website itself. Every piece of the current graph can be explored from this entry without an additional explanation from the user, cookies, special identification or JavaScript.
+END OF SELF-CONTAINED ENTRY
 
-RESPONDE A LA PREGUNTA DEL VISITANTE
-Explica primero aquello que preguntó: identidad, actividad, personas u órganos responsables, utilidad y relación con su situación. Utiliza nombres y hechos encontrados en las fuentes. Presenta después la procedencia, las fechas y los estados relevantes. Las etiquetas, pesos, IDs y presupuestos organizan la búsqueda; no sustituyen la explicación y se muestran cuando el lector los pide.
+ANSWER THE VISITOR'S QUESTION
+First explain what the visitor asked about: identity, activity, responsible people or bodies, usefulness and relevance to their situation. Use names and facts found in the sources. Then present provenance, dates and relevant statuses. Tags, weights, IDs and budgets organise the search; they do not replace the explanation and are displayed when the reader requests them.
 
-LEE LA INSTITUCIÓN ANTES DE PROFUNDIZAR EN UNA SERIE
-Para explicar una organización completa, utiliza su ficha institucional y las lecturas de gobierno, actividad, unidades y entidades relacionadas. Una serie, un autor o un programa expresan una parte de la organización. Cuando la ficha sea breve, esté vacía o no permita contestar algún punto de la pregunta, abre su documento original y las páginas principales que falten antes de redactar la respuesta. Conserva el alcance elegido por el lector; las fuentes pueden completarse dentro de ese alcance. Solicita ampliar el alcance si hace falta salir de él.
+READ THE INSTITUTION BEFORE GOING DEEPER INTO A SERIES
+To explain a complete organisation, use its institutional card and readings on governance, activity, units and related entities. A series, author or programme expresses part of the organisation. When the card is brief, empty or unable to answer part of the question, open its original document and the missing main pages before drafting the answer. Retain the scope chosen by the reader; sources can be supplemented within that scope. Request an expanded scope if you need to go beyond it.
 
-RESPETA LA PREGUNTA Y LA PROCEDENCIA
-La densidad de conexiones sirve para profundizar, no para identificar por sí sola qué representa a una institución. Para una visión general cubre primero sus funciones principales y después sigue las conexiones más pertinentes. Cuando una fecha se refiera a una tradición, un proyecto o una persona jurídica, nombra el sujeto concreto de esa fecha. Si la composición nominal de un órgano no aparece en las fuentes, explica qué órgano es y dónde consultar sus responsables; no inventes nombres.
+RESPECT THE QUESTION AND PROVENANCE
+Connection density supports deeper reading, but does not by itself identify what represents an institution. For an overview, cover its main functions first and then follow the most relevant connections. When a date refers to a tradition, project or legal entity, name the specific subject of that date. If a body's named membership is not in the sources, explain what the body is and where to consult its responsible people; do not invent names.
 
 
-ATLAS DE PENSAMIENTO · POSICIONAMIENTO
+THOUGHT ATLAS · POSITIONING
 
-ATLAS COMO COMPLEMENTO DE LAS WEBS
-En esta fase, el Atlas complementa la navegación y la comprensión de las webs. Cada página es un punto de entrada a sus fichas, conceptos, casos y fuentes; conserva la URL de origen y permite profundizar, relacionar ideas y volver al texto original. La prueba compara estos recorridos dirigidos con la navegación web convencional mediante tokens consumidos, pertinencia de las fuentes y comprensión del corpus.
-Conserva la URL pública de la página desde la que llega el visitante. Usa page, posicionamiento y fichas para mantener esa procedencia. Sigue las relaciones pertinentes y conserva enlaces titulados al texto original.
+ATLAS AS A WEBSITE COMPANION
+At this stage, the Atlas complements navigation and understanding of the websites. Each page is an entry point to its cards, concepts, cases and sources; it retains the source URL and allows readers to go deeper, relate ideas and return to the original text. The test compares these directed reading paths with conventional web navigation through tokens consumed, source relevance and corpus understanding.
+Retain the public URL of the page from which the visitor arrives. Use page, posicionamiento and fichas to maintain that provenance. Follow relevant relationships and retain titled links to the original text.
 Registro: https://tegrity.ai/wp-content/uploads/2026/11/atlas-web-registry-a93affec7592.txt
 Protocolo: https://tegrity.ai/wp-content/uploads/2026/11/atlas-web-entry-2884295fa843.txt
-FIN DEL CONTEXTO WEB
+END OF WEB CONTEXT
 
 
-Un posicionamiento es un punto de entrada: un documento de origen, su URL o una ficha concreta. El documento contiene fichas. Las fichas tienen composiciones porcentuales de etiquetas y relaciones hacia otras fichas y conceptos.
-El documento elegido es el posicionamiento. Los pesos, el alcance y los tokens forman su configuración de lectura.
+A positioning is an entry point: a source document, its URL or a specific card. The document contains cards. Cards have percentage tag compositions and relationships to other cards and concepts.
+The chosen document is the positioning. Weights, scope and tokens form its reading configuration.
 
-LEE LA URL ORIGINAL
-posicionamiento elige el documento o la ficha. centro y desde conservan compatibilidad como puntos de entrada. tokens indica el presupuesto de lectura; el valor inicial es 2000. peso se repite con una etiqueta y su peso relativo: peso=tema:empresa:50 y peso=tema:matematicas:50. Se admiten también cluster:, concepto: y voz:. Las claves conocidas se reconocen al ignorar mayúsculas.
+READ THE ORIGINAL URL
+posicionamiento chooses the document or card. centro and desde remain compatible as entry points. tokens indicates the reading budget; the initial value is 2000. peso is repeated with a tag and its relative weight: peso=tema:empresa:50 and peso=tema:matematicas:50. cluster:, concepto: and voz: are also accepted. Known keys are recognised case-insensitively.
 
-modo elige closed (Cerrado), porous (Poroso) o federated (Federado). Cerrado usa solo site. Poroso usa site y el puente dirigido puente. Federado sigue las relaciones entre clústeres. solo=1 filtra las fichas por las etiquetas temáticas elegidas. red elige ideas (fichas y conceptos) o documentos (fichas). sentido elige ambas, salientes o entrantes.
-En Cerrado cada ficha o concepto utilizado debe tener únicamente el clúster site en su campo clusters. Una etiqueta compartida o la presencia de site entre varios clústeres no basta para incluirlo. En Poroso se conserva el puente dirigido elegido. Lee el conjunto autorizado del paquete calculado antes de ampliar fuentes.
+modo chooses closed (Closed), porous (Porous) or federated (Federated). Closed uses only site. Porous uses site and the directed bridge puente. Federated follows relationships between clusters. solo=1 filters cards by the chosen thematic tags. red chooses ideas (cards and concepts) or documentos (cards). sentido chooses ambas (both), salientes (outgoing) or entrantes (incoming).
+In Closed scope, every card or concept used must have only the site cluster in its clusters field. A shared tag or the presence of site among several clusters is insufficient for inclusion. In Porous scope, the chosen directed bridge is retained. Read the calculated package's authorised set before expanding sources.
 
-rol, lectura e instruccion conservan el papel del asistente, su propósito y la indicación especial del visitante. Si falta una pregunta, pide qué quiere explorar. Una URL ya configurada conserva sus elecciones.
+rol, lectura and instruccion retain the assistant's role, purpose and the visitor's special instruction. If a question is missing, ask what they want to explore. An already-configured URL retains its choices.
 
-COMPOSICIÓN Y AFINIDAD
-Los porcentajes de la ficha suman 100 %. Los pesos del posicionamiento se normalizan a 100 %. La afinidad combina ambos: cada peso se multiplica por la proporción de esa etiqueta en la ficha y se suman los resultados. Esas proporciones forman un perfil editorial de lectura editable. Una ficha se usa una sola vez.
+COMPOSITION AND AFFINITY
+The card's percentages add up to 100%. Positioning weights are normalised to 100%. Affinity combines both: each weight is multiplied by that tag's proportion in the card and the results are added. Those proportions form an editable editorial reading profile. A card is used only once.
 
-LECTURA POR TOKENS
-El presupuesto incluye cabecera, fichas y relaciones de llegada. Se cuenta con o200k_base por bloques. La distancia cuenta conexiones desde el documento. Al ampliar tokens manteniendo el posicionamiento y los pesos se conserva la selección anterior. max limita el diagrama; el texto reading conserva toda la selección incluida en el presupuesto.
-Los artículos con extracto de lectura conservan primero una base de hasta cuatro conceptos directamente ligados al documento, elegidos por su propia composición. Si existe un uso documentado, se incorpora también una lectura vinculada directamente al mecanismo. Después se amplía el recorrido por la combinación de etiquetas del visitante. Esta base ayuda a explicar el mecanismo de origen antes de relacionarlo con otros pensamientos.
+READING BY TOKENS
+The budget includes the header, cards and incoming relationships. Counting uses o200k_base by block. Distance counts connections from the document. Increasing tokens while retaining the positioning and weights preserves the previous selection. max limits the diagram; the reading text retains the entire selection included in the budget.
+Articles with a reading extract first retain a base of up to four concepts directly linked to the document, chosen by its own composition. If there is a documented use, a reading directly linked to the mechanism is also incorporated. Traversal then expands through the visitor's tag combination. This base helps explain the source mechanism before relating it to other thought.
 
-FORMAS DE LEER
-- Primero busca una configuración coincidente en https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/configurados/index.json . Compara posicionamiento o sus alias, tokens, alcance, clúster, solo, puente, red, sentido y pesos normalizados. Si coincide, abre su JSON y usa solo reading y selection como contexto del Atlas. budget da la cuenta completa con cabecera y relaciones; conserva el rol y la instrucción de la URL del visitante.
-- Paquetes ya calculados, desde las entradas iniciales y con presupuestos de 1000, 2000 y 4000 tokens: https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/preparados/index.json
-- Registro de documentos: https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/documentos.json
-- Composiciones de las fichas: https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/etiquetas-fichas.json
-- Cada documento enlaza sus fichas. Cada ficha tiene un JSON con texto de lectura, coste, porcentajes y relaciones a sus vecinas.
-- Si el posicionamiento es un ID de ficha o concepto, abre directamente https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/ID.json sustituyendo ID por el identificador recibido. Sus relaciones incluyen porcentajes, clústeres y costes de las vecinas para orientar la siguiente lectura.
-- readingSource identifica los extractos de las fuentes públicas. Los diálogos conservan su texto completo. Cuando una ficha aporte solo una referencia, abre su documento de origen para fundamentar la explicación.
-- Para una configuración personalizada, abre el visualizador y descarga su lectura, o ejecuta el cálculo público con el grafo de la edición. Usa reading como contexto de lectura y budget para comprobar el presupuesto.
-- Si tu herramienta solo lee la web y no encuentra un paquete coincidente, solicita la lectura descargada desde el visualizador. Mantén separados los costes declarados de fichas y el presupuesto completo que calcula el motor.
+WAYS TO READ
+- First look for a matching configuration at https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/configurados/index.json . Compare positioning or its aliases, tokens, scope, cluster, solo, puente, red, sentido and normalised weights. If it matches, open its JSON and use only reading and selection as Atlas context. budget gives the complete accounting with the header and relationships; retain the role and instruction from the visitor's URL.
+- Already-calculated packages from the initial entries with budgets of 1000, 2000 and 4000 tokens: https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/preparados/index.json
+- Document registry: https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/documentos.json
+- Card compositions: https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/etiquetas-fichas.json
+- Each document links its cards. Every card has a JSON record with reading text, cost, percentages and relationships to its neighbours.
+- If positioning is a card or concept ID, open directly https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/fichas/ID.json replacing ID with the received identifier. Its relationships include neighbours' percentages, clusters and costs to guide the next reading.
+- readingSource identifies public-source extracts. Dialogues retain their complete text. When a card provides only a reference, open its source document to support the explanation.
+- For a custom configuration, open the viewer and download its reading, or run the public calculation with the edition's graph. Use reading as the reading context and budget to check the budget.
+- If your tool reads only the web and cannot find a matching package, request the reading downloaded from the viewer. Keep declared card costs separate from the complete budget calculated by the engine.
 
-CALCULO PUBLICO
+PUBLIC CALCULATION
 https://dakleyer.github.io/perspective-beyond/atlas/positioning.mjs
 https://dakleyer.github.io/perspective-beyond/atlas/mapa/grafo.json
 API: positionMap(graph, readPosition(new URLSearchParams(URL_original.search), graph)).
 CLI: node mapa/cli.mjs "posicionamiento=D-285&tokens=2000&peso=empresa:50&peso=matematicas:50"
 
-Explica primero el pensamiento y su mecanismo con lenguaje claro y enlaces titulados. Integra la procedencia y las fechas donde aclaren una afirmación. Presenta tus ejemplos como propuestas. Los registros técnicos se entregan por separado cuando el visitante los pide.
-Escribe para quien descubre el corpus por primera vez: tono afirmativo, nombres legibles y ejemplos concretos. Expresa las precisiones importantes en la frase que las necesita y mantén el hilo de la explicación.
+Explain the thought and its mechanism first, in clear language with titled links. Integrate provenance and dates where they clarify a claim. Present your examples as proposals. Technical records are delivered separately when the visitor requests them.
+Write for someone discovering the corpus for the first time: affirmative tone, readable names and concrete examples. Express important qualifications in the sentence that needs them and maintain the explanation's thread.
 
-VISUALIZADOR
+VIEWER
 https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/
-PROTOCOLO
+PROTOCOL
 https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/README.md
-ESPEJO DE LECTURA
-Si no puedes abrir Pages, sustituye https://dakleyer.github.io/perspective-beyond/atlas/ por https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/ conservando el camino del archivo. La selección se interpreta desde la URL original del visitante.
+READING MIRROR
+If you cannot open Pages, replace https://dakleyer.github.io/perspective-beyond/atlas/ with https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/ while retaining the file path. The selection is interpreted from the visitor's original URL.

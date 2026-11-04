@@ -12,9 +12,8 @@
   "clusters": [
     "totonacapan"
   ],
-  "context": "## Formación Integral: del maestro al aprendizaje digital\nLa historia territorial vincula comunidades de práctica, aprendizaje con un maestro y acceso digital. Un medio de transmisión gana valor cuando permite a la persona ejercitar y continuar lo aprendido.\nEtiquetas: Aprendizaje y transmisión de capacidades 54.55%; Memoria, comunidad y territorio 45.45%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-formacion\nDocumento de origen: https://totonacapan.com/?page_id=411\n\n",
-  "readingSource": null,
-  "tokens": 112,
+  "context": "## Formación Integral: del maestro al aprendizaje digital\nLa historia territorial vincula comunidades de práctica, aprendizaje con un maestro y acceso digital. Un medio de transmisión gana valor cuando permite a la persona ejercitar y continuar lo aprendido.\nTags: Learning and capability transmission 54.55%; Memory, community and territory 45.45%\nCard: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-formacion\nSource document: https://totonacapan.com/?page_id=411\n\n",
+  "tokens": 106,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "np-posada",
       "title": "La posada como lugar de encuentro",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "transmisión",
       "reading": "Los lugares de encuentro y los programas de aprendizaje permiten seguir cómo continúa una práctica.",
       "relationTokens": 35,
-      "fichaTokens": 126,
+      "fichaTokens": 119,
       "tagWeights": {
         "encuentros": 0.25,
         "movilidad": 0.375,
@@ -42,10 +42,11 @@
       "to": "np-accion-metodo",
       "title": "Acción Integral: la capacidad de actuar entre personas y sistemas",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "transmisión",
       "reading": "El ensayo lleva la transmisión de saber a la cooperación y la acción entre personas y sistemas.",
       "relationTokens": 42,
-      "fichaTokens": 140,
+      "fichaTokens": 132,
       "tagWeights": {
         "aprendizaje": 0.2222,
         "decision": 0.5556,

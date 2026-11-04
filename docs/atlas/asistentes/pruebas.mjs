@@ -31,9 +31,9 @@ check(()=>assert.equal(closedSource.selection.length,closed.selection.length));
 const hostile=sourceHTML({title:'<script>unsafe</script>',text:'# <script>unsafe</script>\n[jump](javascript:alert(1))'});
 check(()=>assert.equal(hostile.includes('<script>unsafe'),false));
 check(()=>assert.equal(hostile.includes('href="javascript:'),false));
-check(()=>assert.throws(()=>assistantSource({...closed,selection:[]},graph),/Amplía/));
-check(()=>assert.throws(()=>assistantSource(closed,graph,{format:'unknown'}),/Elige/));
-check(()=>assert.throws(()=>assistantSource({...closed,edition:'other'},graph),/edición/));
+check(()=>assert.throws(()=>assistantSource({...closed,selection:[]},graph),/Expand/));
+check(()=>assert.throws(()=>assistantSource(closed,graph,{format:'unknown'}),/Choose/));
+check(()=>assert.throws(()=>assistantSource({...closed,edition:'other'},graph),/edition/));
 check(()=>assert.equal(JSON.stringify(graph),before));
 console.log(JSON.stringify({checks,passed:checks,examples:index.examples.length,formats:Object.keys(FORMATS).length,substrateUnchanged:true},null,2));
 

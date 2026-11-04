@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Garantías, deudas y compromisos",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-commitment",
-  "documentId": null,
   "sourceIds": [
     "D-137",
     "D-138",
@@ -28,9 +27,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Garantías, deudas y compromisos\nLos compromisos facilitan intercambios, pero inmovilizan capacidad futura y exigen mantenimiento.\nEtiquetas: Aprendizaje y transmisión de capacidades 17.86%; Compromisos y capacidad disponible 5.00%; Decisiones y responsabilidad 22.88%; Economía, costes y liquidez 43.64%; Empresa y gestión 3.75%; Geopolítica y fronteras 5.00%; Transformación y continuidad operativa 1.87%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-commitment\n\n",
-  "readingSource": null,
-  "tokens": 131,
+  "context": "## Garantías, deudas y compromisos\nLos compromisos facilitan intercambios, pero inmovilizan capacidad futura y exigen mantenimiento.\nTags: Learning and capability transmission 17.86%; Commitments and available capability 5.00%; Decisions and responsibility 22.88%; Economics, costs and liquidity 43.64%; Business and management 3.75%; Geopolitics and borders 5.00%; Transformation and operational continuity 1.87%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-commitment\n\n",
+  "tokens": 122,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -38,10 +36,11 @@
       "to": "D-137",
       "title": "El dinero sostiene una promesa que necesita ser creíble",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 27,
-      "fichaTokens": 332,
+      "fichaTokens": 327,
       "tagWeights": {
         "compromisos": 0.25,
         "decision": 0.1875,
@@ -58,10 +57,11 @@
       "to": "D-138",
       "title": "El futuro comprometido puede vaciar la capacidad disponible",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 345,
+      "fichaTokens": 339,
       "tagWeights": {
         "compromisos": 0.25,
         "economia": 0.1875,
@@ -79,12 +79,13 @@
       "to": "D-141",
       "title": "No todo problema económico se resuelve con más dinero",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 295,
+      "fichaTokens": 292,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "dialogos"
@@ -97,10 +98,11 @@
       "to": "D-150",
       "title": "La paz mental de una generación también tuvo precio",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 25,
-      "fichaTokens": 331,
+      "fichaTokens": 328,
       "tagWeights": {
         "economia": 0.5,
         "geopolitica": 0.5
@@ -116,12 +118,13 @@
       "to": "D-161",
       "title": "De la interdependencia padecida a una cooperación elegida",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 327,
+      "fichaTokens": 324,
       "tagWeights": {
-        "decision": 1.0
+        "decision": 1
       },
       "clusters": [
         "dialogos"
@@ -134,12 +137,13 @@
       "to": "D-173",
       "title": "No lo llames desapego: elasticidad marginal de identificación",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 318,
+      "fichaTokens": 313,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"
@@ -152,10 +156,11 @@
       "to": "D-174",
       "title": "Perdonar puede cancelar una deuda sobre el futuro",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 345,
+      "fichaTokens": 339,
       "tagWeights": {
         "aprendizaje": 0.5,
         "decision": 0.5
@@ -171,10 +176,11 @@
       "to": "D-201",
       "title": "Una decisión privada puede ser una moneda de liquidez casi nula",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 29,
-      "fichaTokens": 378,
+      "fichaTokens": 374,
       "tagWeights": {
         "decision": 0.4,
         "economia": 0.6
@@ -190,10 +196,11 @@
       "to": "D-202",
       "title": "Una foto de tomates no es otro tomate",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 380,
+      "fichaTokens": 376,
       "tagWeights": {
         "decision": 0.2,
         "economia": 0.8
@@ -209,10 +216,11 @@
       "to": "D-295",
       "title": "Un algoritmo democrático no elimina el pan, la gasolina ni el tiempo",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 29,
-      "fichaTokens": 420,
+      "fichaTokens": 414,
       "tagWeights": {
         "aprendizaje": 0.2857,
         "economia": 0.7143
@@ -228,10 +236,11 @@
       "to": "dg-economy",
       "title": "Economía y escasez",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "sostiene representaciones de",
       "reading": "Las garantías y la confianza permiten intercambios.",
       "relationTokens": 30,
-      "fichaTokens": 250,
+      "fichaTokens": 222,
       "tagWeights": {
         "aprendizaje": 0.0688,
         "autoridad": 0.0119,
@@ -264,10 +273,11 @@
       "to": "dg-continuity",
       "title": "Continuidad de capacidades",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "puede consumir",
       "reading": "Obligaciones acumuladas consumen trabajo disponible.",
       "relationTokens": 26,
-      "fichaTokens": 222,
+      "fichaTokens": 200,
       "tagWeights": {
         "aprendizaje": 0.0854,
         "autoridad": 0.0264,
@@ -297,10 +307,11 @@
       "to": "dg-options",
       "title": "Libertad y opciones",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "puede inmovilizar",
       "reading": "Una capacidad comprometida no está disponible para otro fin.",
       "relationTokens": 30,
-      "fichaTokens": 202,
+      "fichaTokens": 181,
       "tagWeights": {
         "aprendizaje": 0.1588,
         "autoridad": 0.0804,
@@ -329,10 +340,11 @@
       "to": "dg-mission",
       "title": "Misión, cooperación y frutos indirectos",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "interroga",
       "reading": "Cooperar libremente requiere poder elegir obligaciones.",
       "relationTokens": 30,
-      "fichaTokens": 122,
+      "fichaTokens": 111,
       "tagWeights": {
         "aprendizaje": 0.0833,
         "decision": 0.25,
@@ -352,10 +364,11 @@
       "to": "dg-account",
       "title": "Responsabilidad y reparación",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "separa perdón de",
       "reading": "Liberar futuro no elimina reparación del daño.",
       "relationTokens": 29,
-      "fichaTokens": 122,
+      "fichaTokens": 112,
       "tagWeights": {
         "aprendizaje": 0.0834,
         "autoridad": 0.2098,
@@ -376,10 +389,11 @@
       "to": "dg-economy",
       "title": "Economía y escasez",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "admite promesas con liquidez variable",
       "reading": "Una decisión o una garantía puede afectar el intercambio sin ser efectivo.",
       "relationTokens": 37,
-      "fichaTokens": 250,
+      "fichaTokens": 222,
       "tagWeights": {
         "aprendizaje": 0.0688,
         "autoridad": 0.0119,

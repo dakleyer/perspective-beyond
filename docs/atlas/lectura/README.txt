@@ -1,16 +1,16 @@
-Mind Atlas: lectura pública completa
+Mind Atlas: complete public reading
 
-MIND ATLAS · PERSPECTIVE BEYOND · ENTRADA AUTÓNOMA
+MIND ATLAS · PERSPECTIVE BEYOND · SELF-CONTAINED ENTRY
 
-RESPONDE PRIMERO A LA PREGUNTA. Explica identidad, actividad, mecanismo, utilidad o aplicación según lo que el visitante pregunte. Las etiquetas, pesos y códigos organizan tu lectura; usa nombres comprensibles en la respuesta.
-COMPLETA LA LECTURA. Si una ficha es insuficiente o está vacía, abre su publicación de origen y las páginas principales que permitan responder dentro del alcance elegido. Una serie expresa una parte de una institución: para explicar la organización cubre primero gobierno, actividades y entidades relacionadas.
-CONSERVA LA CONFIGURACIÓN. Lee los parámetros de la URL que te dio el visitante: cluster, alcance/modo, posicionamiento/desde/page, rol, lectura, enfoque, peso repetible, tokens e instruccion. Aplica las selecciones ya elegidas; pregunta solo por lo que falte. Sin configuración, parte de su pregunta y ofrece dos o tres recorridos pertinentes.
-ALCANCE. Cerrado: un clúster. Poroso: el puente temático acordado y su dirección. Federado: relaciones registradas entre varios clústeres. Los pesos son prioridades de lectura y las etiquetas de una ficha son su composición. El presupuesto tokens limita la lectura seleccionada; las fichas y relaciones originales permanecen en el grafo.
-NAVEGACIÓN. Los índices enlazan con cada ficha; las fichas enlazan con vecinos, relaciones completas y fuentes. Todas estas páginas contienen HTML legible y texto público sin ejecutar JavaScript, iniciar sesión, descargar una aplicación o añadir cabeceras especiales. Usa los enlaces publicados para continuar y conserva la cronología y procedencia.
+ANSWER THE QUESTION FIRST. Explain identity, activity, mechanism, usefulness or application according to what the visitor asks. Tags, weights and codes organise your reading; use understandable names in the answer.
+COMPLETE THE READING. If a card is insufficient or empty, open its source publication and the main pages needed to answer within the chosen scope. A series expresses one part of an institution: to explain the organisation, first cover governance, activities and related entities.
+RETAIN THE CONFIGURATION. Read the parameters of the visitor's URL: cluster, alcance/modo, posicionamiento/desde/page, rol, lectura, enfoque, repeatable peso, tokens and instruccion. Apply the choices already made; ask only for what is missing. Without a configuration, start with the visitor's question and offer two or three relevant reading paths.
+SCOPE. Closed: one cluster. Porous: the agreed thematic bridge and its direction. Federated: recorded relationships between several clusters. Weights are reading priorities and a card's tags are its composition. The tokens budget limits the selected reading; original cards and relationships remain in the graph.
+NAVIGATION. Indexes link to each card; cards link to neighbours, complete relationships and sources. All these pages contain readable HTML and public text without running JavaScript, signing in, downloading an application or adding special headers. Use the published links to continue and retain chronology and provenance.
 
-1303 fichas · 272 conceptos · 11858 relaciones · edición 2026-11-04-institutional-entry-1
+1303 cards · 272 concepts · 11858 relationships · edition 2026-11-04-institutional-entry-1
 
-RECORRIDOS
+READING PATHS
 JubAp.eu: https://dakleyer.github.io/perspective-beyond/atlas/lectura/clusters/eu/
 JubAp.Net: https://dakleyer.github.io/perspective-beyond/atlas/lectura/clusters/net/
 JubAp.us: https://dakleyer.github.io/perspective-beyond/atlas/lectura/clusters/us/
@@ -19,18 +19,18 @@ Integral Management: https://dakleyer.github.io/perspective-beyond/atlas/lectura
 Instituto del Totonacapan: https://dakleyer.github.io/perspective-beyond/atlas/lectura/clusters/totonacapan/
 Logistics and Mobility: https://dakleyer.github.io/perspective-beyond/atlas/lectura/clusters/mobility/
 LatinoEmpresa: https://dakleyer.github.io/perspective-beyond/atlas/lectura/clusters/latinoempresa/
-Investigación y estándares: https://dakleyer.github.io/perspective-beyond/atlas/lectura/clusters/research/
-Diálogos: https://dakleyer.github.io/perspective-beyond/atlas/lectura/clusters/dialogos/
+Research and standards: https://dakleyer.github.io/perspective-beyond/atlas/lectura/clusters/research/
+Dialogues: https://dakleyer.github.io/perspective-beyond/atlas/lectura/clusters/dialogos/
 
-Etiquetas: https://dakleyer.github.io/perspective-beyond/atlas/lectura/etiquetas/
-Fichas: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/
-Conceptos: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/
-Relaciones: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/
-Documentos: https://dakleyer.github.io/perspective-beyond/atlas/lectura/documentos/
-Inventario: https://dakleyer.github.io/perspective-beyond/atlas/lectura/inventario.json
-Grafo completo: https://dakleyer.github.io/perspective-beyond/atlas/mapa/grafo.json
-Posicionamiento y presupuestos: https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/entrada.txt
+Tags: https://dakleyer.github.io/perspective-beyond/atlas/lectura/etiquetas/
+Cards: https://dakleyer.github.io/perspective-beyond/atlas/lectura/fichas/
+Concepts: https://dakleyer.github.io/perspective-beyond/atlas/lectura/conceptos/
+Relationships: https://dakleyer.github.io/perspective-beyond/atlas/lectura/relaciones/
+Documents: https://dakleyer.github.io/perspective-beyond/atlas/lectura/documentos/
+Inventory: https://dakleyer.github.io/perspective-beyond/atlas/lectura/inventario.json
+Complete graph: https://dakleyer.github.io/perspective-beyond/atlas/mapa/grafo.json
+Positioning and budgets: https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/entrada.txt
 
-Generación: python scripts/build_atlas_public_reader.py
-Verificación: python scripts/build_atlas_public_reader.py --check
-El generador lee el grafo canónico sin modificar fichas, relaciones ni documentos de origen.
+Generation: python scripts/build_atlas_public_reader.py
+Verification: python scripts/build_atlas_public_reader.py --check
+The generator reads the canonical graph without modifying cards, relationships or source documents.

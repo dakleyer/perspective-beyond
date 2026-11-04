@@ -6,14 +6,13 @@
   "documentId": "doc-ac6758cb94920c9793",
   "sourceIds": [],
   "tagWeights": {
-    "decision": 1.0
+    "decision": 1
   },
   "clusters": [
     "dialogos"
   ],
-  "context": "## Humanismo expectante en una época de inteligencia artificial\nINTERLOCUTOR (pregunta editorial) — ¿Cómo valorar a las personas sin caer ni en el culto al genio ni en la idea de que la IA las vuelve prescindibles?\nLECTURA DEL DIÁLOGO (síntesis editorial) — Iván describe la coyuntura como una posible «época axial de las épocas axiales»: no solo una ola técnica, sino el momento en que una especie confronta sus propios límites y puede alterar su relación con el dolor, la conciencia, la convivencia y el sentido. La IA no resuelve esto por el ser humano, y la respuesta no es declarar a la humanidad obsoleta. Su «humanismo expectante» quiere seguir atento a la aparición de personas y pensamientos extraordinarios sin convertir a nadie en salvador. A los habitadores, que sostienen las instituciones y son mayoría, les pide acompañar a quien explora; a los exploradores y ontológicos, relativizar su grandeza para no quedar aplastados por ella. La imagen de la Verónica, la llamada o el pequeño gesto de ayuda convive con otra, la del deportista en la final: cuando parece que vas a hacer historia, quizá debes pensar únicamente en el siguiente punto.\nEtiquetas: Decisiones y responsabilidad 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-089\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-089.html\n\n",
-  "readingSource": null,
-  "tokens": 325,
+  "context": "## Humanismo expectante en una época de inteligencia artificial\nINTERLOCUTOR (pregunta editorial) — ¿Cómo valorar a las personas sin caer ni en el culto al genio ni en la idea de que la IA las vuelve prescindibles?\nLECTURA DEL DIÁLOGO (síntesis editorial) — Iván describe la coyuntura como una posible «época axial de las épocas axiales»: no solo una ola técnica, sino el momento en que una especie confronta sus propios límites y puede alterar su relación con el dolor, la conciencia, la convivencia y el sentido. La IA no resuelve esto por el ser humano, y la respuesta no es declarar a la humanidad obsoleta. Su «humanismo expectante» quiere seguir atento a la aparición de personas y pensamientos extraordinarios sin convertir a nadie en salvador. A los habitadores, que sostienen las instituciones y son mayoría, les pide acompañar a quien explora; a los exploradores y ontológicos, relativizar su grandeza para no quedar aplastados por ella. La imagen de la Verónica, la llamada o el pequeño gesto de ayuda convive con otra, la del deportista en la final: cuando parece que vas a hacer historia, quizá debes pensar únicamente en el siguiente punto.\nTags: Decisions and responsibility 100.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-089\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-089.html\n\n",
+  "tokens": 322,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -21,10 +20,11 @@
       "to": "dg-care",
       "title": "Responsabilidad humana",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 208,
+      "fichaTokens": 187,
       "tagWeights": {
         "aprendizaje": 0.0939,
         "autoridad": 0.0359,
@@ -53,10 +53,11 @@
       "to": "dg-modes",
       "title": "Habitar, explorar y replantear",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 178,
+      "fichaTokens": 163,
       "tagWeights": {
         "aprendizaje": 0.2413,
         "capacidad-humana": 0.0267,
@@ -81,10 +82,11 @@
       "to": "dg-encounters",
       "title": "Encuentros significativos",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 173,
+      "fichaTokens": 157,
       "tagWeights": {
         "aprendizaje": 0.0926,
         "autoridad": 0.016,
@@ -110,10 +112,11 @@
       "to": "D-209",
       "title": "El imperio fabrica la tecnología que después le da miedo",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El imperio fabrica la tecnología que después le da miedo» con «Humanismo expectante en una época de inteligencia artificial».",
       "relationTokens": 58,
-      "fichaTokens": 443,
+      "fichaTokens": 439,
       "tagWeights": {
         "geopolitica": 0.5,
         "integridad-ia": 0.5
@@ -129,12 +132,13 @@
       "to": "D-210",
       "title": "La autenticidad quema; la hipocresía conserva",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La autenticidad quema; la hipocresía conserva» con «Humanismo expectante en una época de inteligencia artificial».",
       "relationTokens": 60,
-      "fichaTokens": 413,
+      "fichaTokens": 411,
       "tagWeights": {
-        "geopolitica": 1.0
+        "geopolitica": 1
       },
       "clusters": [
         "dialogos"
@@ -147,12 +151,13 @@
       "to": "D-158",
       "title": "La inteligencia artificial como membrana entre personas",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Encuentros significativos, Responsabilidad humana desde las situaciones que describe cada texto.",
       "relationTokens": 48,
-      "fichaTokens": 316,
+      "fichaTokens": 313,
       "tagWeights": {
-        "decision": 1.0
+        "decision": 1
       },
       "clusters": [
         "dialogos"

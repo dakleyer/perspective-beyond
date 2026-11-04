@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Fuga de etiquetas de una fixture",
   "url": "https://dakleyer.github.io/perspective-beyond/concepts/fixture-label-leakage/",
-  "documentId": null,
   "sourceIds": [
     "GH078",
     "T2803",
@@ -20,9 +19,8 @@
     "research",
     "tegrity"
   ],
-  "context": "## Fuga de etiquetas de una fixture\nPublic fixture features can accidentally reveal a label reserved for evaluation.\nEtiquetas: Control mínimo y suficiencia 8.64%; Investigación y documentación técnica 13.58%; Evidencia, procedencia y atribución 25.69%; Experimentación, falsación y contraejemplos 41.67%; Matemáticas 10.42%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/fixture-label-leakage/\n\n",
-  "readingSource": null,
-  "tokens": 101,
+  "context": "## Fuga de etiquetas de una fixture\nPublic fixture features can accidentally reveal a label reserved for evaluation.\nTags: Minimum control and sufficiency 8.64%; Research and technical documentation 13.58%; Evidence, provenance and attribution 25.69%; Experimentation, falsification and counterexamples 41.67%; Mathematics 10.42%\nCard: https://dakleyer.github.io/perspective-beyond/concepts/fixture-label-leakage/\n\n",
+  "tokens": 94,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -30,10 +28,11 @@
       "to": "GH078",
       "title": "L-09 — Remove accidental public-label leakage without rewriting source examples",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 175,
+      "fichaTokens": 168,
       "tagWeights": {
         "evidencia": 0.3333,
         "experimentacion": 0.6667
@@ -49,10 +48,11 @@
       "to": "T2803",
       "title": "Annex 6 — Ablation, Sufficiency and Extensibility",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 29,
-      "fichaTokens": 220,
+      "fichaTokens": 216,
       "tagWeights": {
         "control-minimo": 0.2593,
         "documentacion": 0.4074,
@@ -69,10 +69,11 @@
       "to": "GH077",
       "title": "G-02 — Independent Q-audit evidence, not a Boolean declaration",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 29,
-      "fichaTokens": 179,
+      "fichaTokens": 171,
       "tagWeights": {
         "evidencia": 0.4375,
         "experimentacion": 0.25,
@@ -89,10 +90,11 @@
       "to": "C46",
       "title": "Ablación de mecanismos",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "candidate transfer",
       "reading": "Matched public-view counterworlds can test whether a reported acquisition benefit comes from new evidence rather than accidental fixture-label leakage.",
       "relationTokens": 41,
-      "fichaTokens": 236,
+      "fichaTokens": 210,
       "tagWeights": {
         "aprendizaje": 0.0233,
         "autoridad": 0.0351,
@@ -127,10 +129,11 @@
       "to": "C124",
       "title": "Adquisición de evidencia falible y emparejada",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documented use",
       "reading": "A fallible audit mechanism and a public-label leakage control address different confounders; both must remain visible in a fair comparison.",
       "relationTokens": 49,
-      "fichaTokens": 109,
+      "fichaTokens": 101,
       "tagWeights": {
         "documentacion": 0.1223,
         "economia": 0.2334,

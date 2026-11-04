@@ -13,9 +13,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## La responsabilidad humana en la optimización\nINTERLOCUTOR (pregunta editorial nueva) — ¿Dónde termina aquí la optimización matemática y empieza la responsabilidad humana?\n\nLECTURA EDITORIAL — El sistema podía ayudar a explorar muchas configuraciones, pero no decidir por sí mismo qué sacrificios operativos resultaban aceptables. Una persona debía interpretar el contexto, elegir prioridades y responder de sus consecuencias. Después, la ejecución devolvía información nueva: reservas corregidas, vehículos disponibles, hojas de ruta, incidencias y otros datos de campo. Había que volver a planificar sin fingir que el mundo seguía en el estado de la primera simulación.\n\nEl trabajo está bien descrito como planificación multiobjetivo basada en escenarios con asignación heurística y compromisos orientados a Pareto. La documentación técnica permite rastrear los mecanismos de comparación y puntuación; no autoriza afirmar que en cada ejecución se calculó exhaustivamente una frontera matemática de Pareto ni atribuir una ventaja cuántica demostrada.\n\nINTERLOCUTOR (pregunta editorial nueva) — ¿Qué conecta esta forma de construir con las preguntas que hoy formulas sobre sistemas y agentes autónomos?\n\nLECTURA EDITORIAL — En GEPLAN la transformación requería unir procesos antes fragmentados. En xSeil, la decisión requería conservar alternativas y conocer las condiciones de ejecución. En las investigaciones posteriores aparece otra pregunta: cuándo una solución razonable deja de serlo porque ha cambiado el contexto que le daba validez. Son trabajos distintos, con evidencia y tecnologías propias; el hilo no es que uno contuviera ya al siguiente, sino la atención cada vez mayor a los límites de una decisión automatizada y a las capacidades humanas que la gobiernan.\nEtiquetas: Casos de uso y aplicaciones 12.50%; Decisiones y responsabilidad 62.50%; Matemáticas 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-053\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20(pregunta%20editorial%20nueva)%20%E2%80%94%20%C2%BFD%C3%B3nde%20termina%20aqu%C3%AD%20la%20optimizaci%C3%B3n%20matem%C3%A1tica\n\n",
-  "readingSource": null,
-  "tokens": 492,
+  "context": "## La responsabilidad humana en la optimización\nINTERLOCUTOR (pregunta editorial nueva) — ¿Dónde termina aquí la optimización matemática y empieza la responsabilidad humana?\n\nLECTURA EDITORIAL — El sistema podía ayudar a explorar muchas configuraciones, pero no decidir por sí mismo qué sacrificios operativos resultaban aceptables. Una persona debía interpretar el contexto, elegir prioridades y responder de sus consecuencias. Después, la ejecución devolvía información nueva: reservas corregidas, vehículos disponibles, hojas de ruta, incidencias y otros datos de campo. Había que volver a planificar sin fingir que el mundo seguía en el estado de la primera simulación.\n\nEl trabajo está bien descrito como planificación multiobjetivo basada en escenarios con asignación heurística y compromisos orientados a Pareto. La documentación técnica permite rastrear los mecanismos de comparación y puntuación; no autoriza afirmar que en cada ejecución se calculó exhaustivamente una frontera matemática de Pareto ni atribuir una ventaja cuántica demostrada.\n\nINTERLOCUTOR (pregunta editorial nueva) — ¿Qué conecta esta forma de construir con las preguntas que hoy formulas sobre sistemas y agentes autónomos?\n\nLECTURA EDITORIAL — En GEPLAN la transformación requería unir procesos antes fragmentados. En xSeil, la decisión requería conservar alternativas y conocer las condiciones de ejecución. En las investigaciones posteriores aparece otra pregunta: cuándo una solución razonable deja de serlo porque ha cambiado el contexto que le daba validez. Son trabajos distintos, con evidencia y tecnologías propias; el hilo no es que uno contuviera ya al siguiente, sino la atención cada vez mayor a los límites de una decisión automatizada y a las capacidades humanas que la gobiernan.\nTags: Use cases and applications 12.50%; Decisions and responsibility 62.50%; Mathematics 25.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-053\nSource document: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20(pregunta%20editorial%20nueva)%20%E2%80%94%20%C2%BFD%C3%B3nde%20termina%20aqu%C3%AD%20la%20optimizaci%C3%B3n%20matem%C3%A1tica\n\n",
+  "tokens": 486,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,10 +22,11 @@
       "to": "dg-decision",
       "title": "Decisiones entre escenarios",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 180,
+      "fichaTokens": 162,
       "tagWeights": {
         "aprendizaje": 0.0474,
         "autoridad": 0.0059,
@@ -53,10 +53,11 @@
       "to": "dg-care",
       "title": "Responsabilidad humana",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 18,
-      "fichaTokens": 208,
+      "fichaTokens": 187,
       "tagWeights": {
         "aprendizaje": 0.0939,
         "autoridad": 0.0359,
@@ -85,10 +86,11 @@
       "to": "D-052",
       "title": "xSeil: mostrar alternativas, no una orden",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura comparada",
       "reading": "Mostrar escenarios hace visible dónde permanece la responsabilidad por la decisión.",
       "relationTokens": 35,
-      "fichaTokens": 546,
+      "fichaTokens": 539,
       "tagWeights": {
         "casos": 0.1429,
         "decision": 0.1429,
@@ -106,10 +108,11 @@
       "to": "D-064",
       "title": "Liquidez para cuidar responsabilidades",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Decisiones entre escenarios».",
       "relationTokens": 28,
-      "fichaTokens": 447,
+      "fichaTokens": 441,
       "tagWeights": {
         "casos": 0.1177,
         "decision": 0.5882,
@@ -126,10 +129,11 @@
       "to": "D-045",
       "title": "Comunidades y consecuencias de la industria",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Responsabilidad humana».",
       "relationTokens": 29,
-      "fichaTokens": 586,
+      "fichaTokens": 582,
       "tagWeights": {
         "decision": 0.1177,
         "empresa": 0.2941,
@@ -146,10 +150,11 @@
       "to": "D-057",
       "title": "Xanath: participar sin atribuirse lo ajeno",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Responsabilidad humana».",
       "relationTokens": 33,
-      "fichaTokens": 473,
+      "fichaTokens": 469,
       "tagWeights": {
         "decision": 0.4,
         "memoria-territorio": 0.6
@@ -165,10 +170,11 @@
       "to": "D-110",
       "title": "El valor de elegir entre escenarios casi eficientes",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El valor de elegir entre escenarios casi eficientes» con «La responsabilidad humana en la optimización». Permite contrastar Decisiones entre escenarios, Responsabilidad humana.",
       "relationTokens": 59,
-      "fichaTokens": 350,
+      "fichaTokens": 344,
       "tagWeights": {
         "casos": 0.5455,
         "decision": 0.2727,

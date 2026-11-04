@@ -13,9 +13,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## La arquitectura que concentra capital no es necesariamente la que mejor distribuye inteligencia\nINTERLOCUTOR (pregunta editorial, no pronunciada necesariamente) — ¿Por qué puede ganar una arquitectura centralizada si existe una alternativa técnicamente interesante?\nREFLEXIÓN DE LA CONVERSACIÓN (reconstrucción cotejada, no literal) — La conversación separó una hipótesis de incentivos de una acusación de conspiración. Los grandes modelos y centros de datos requieren chips, energía, enormes inversiones y plataformas de acceso. Esa arquitectura convierte el avance de la IA en activos concentrados, barreras de entrada y rentas fáciles de reconocer por grandes inversores y gobiernos. Puede haber razones técnicas legítimas para centralizar; también hay una compatibilidad económica entre concentración de cómputo y concentración de poder.\n\nIván imaginó otra posibilidad: una interfaz compartida sobre inteligencias especializadas, inferencia cercana al dato, modelos locales y sincronización ocasional. No sería simplemente tener muchos chatbots. Sería distribuir dónde reside la capacidad. Podría proteger privacidad y continuidad en determinados usos, pero sus costes, rendimiento y viabilidad necesitarían demostrarse caso por caso.\n\nLa provocación es que una solución socialmente más abierta podría no escalar precisamente porque reduce los puntos únicos de captura. La selección de tecnologías no optimiza una sola variable llamada «eficiencia». Opera bajo incentivos de control, financiación, responsabilidad, estandarización y facilidad de compra. Esta es una hipótesis arquitectónica, no una prueba de que una opción federada sea universalmente superior.\nEtiquetas: Autoridad, permisos y delegación 20.00%; Economía, costes y liquidez 60.00%; Movilidad e infraestructura 20.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-192\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-192.html\n\n",
-  "readingSource": null,
-  "tokens": 403,
+  "context": "## La arquitectura que concentra capital no es necesariamente la que mejor distribuye inteligencia\nINTERLOCUTOR (pregunta editorial, no pronunciada necesariamente) — ¿Por qué puede ganar una arquitectura centralizada si existe una alternativa técnicamente interesante?\nREFLEXIÓN DE LA CONVERSACIÓN (reconstrucción cotejada, no literal) — La conversación separó una hipótesis de incentivos de una acusación de conspiración. Los grandes modelos y centros de datos requieren chips, energía, enormes inversiones y plataformas de acceso. Esa arquitectura convierte el avance de la IA en activos concentrados, barreras de entrada y rentas fáciles de reconocer por grandes inversores y gobiernos. Puede haber razones técnicas legítimas para centralizar; también hay una compatibilidad económica entre concentración de cómputo y concentración de poder.\n\nIván imaginó otra posibilidad: una interfaz compartida sobre inteligencias especializadas, inferencia cercana al dato, modelos locales y sincronización ocasional. No sería simplemente tener muchos chatbots. Sería distribuir dónde reside la capacidad. Podría proteger privacidad y continuidad en determinados usos, pero sus costes, rendimiento y viabilidad necesitarían demostrarse caso por caso.\n\nLa provocación es que una solución socialmente más abierta podría no escalar precisamente porque reduce los puntos únicos de captura. La selección de tecnologías no optimiza una sola variable llamada «eficiencia». Opera bajo incentivos de control, financiación, responsabilidad, estandarización y facilidad de compra. Esta es una hipótesis arquitectónica, no una prueba de que una opción federada sea universalmente superior.\nTags: Authority, permissions and delegation 20.00%; Economics, costs and liquidity 60.00%; Mobility and infrastructure 20.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-192\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-192.html\n\n",
+  "tokens": 397,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,10 +22,11 @@
       "to": "dg-infra",
       "title": "Infraestructura habilitadora",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 27,
-      "fichaTokens": 170,
+      "fichaTokens": 152,
       "tagWeights": {
         "aprendizaje": 0.0675,
         "autoridad": 0.0125,
@@ -52,10 +52,11 @@
       "to": "dg-governance",
       "title": "Gobernanza y legitimidad",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 27,
-      "fichaTokens": 273,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.0321,
         "autoridad": 0.4057,
@@ -89,10 +90,11 @@
       "to": "dg-capture",
       "title": "Captura de opciones e incentivos regresivos",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 31,
-      "fichaTokens": 180,
+      "fichaTokens": 161,
       "tagWeights": {
         "aprendizaje": 0.0303,
         "autoridad": 0.0485,
@@ -117,10 +119,11 @@
       "to": "D-102",
       "title": "La seguridad de seguir en un mundo reconocible",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La arquitectura que concentra capital no es necesariamente la que mejor distribuye inteligencia» con «La seguridad de seguir en un mundo reconocible».",
       "relationTokens": 62,
-      "fichaTokens": 305,
+      "fichaTokens": 297,
       "tagWeights": {
         "aprendizaje": 0.2222,
         "economia": 0.2222,
@@ -137,10 +140,11 @@
       "to": "D-115",
       "title": "La asociación investiga; las empresas ejecutan",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La arquitectura que concentra capital no es necesariamente la que mejor distribuye inteligencia» con «La asociación investiga; las empresas ejecutan». Permite contrastar Gobernanza y legitimidad.",
       "relationTokens": 72,
-      "fichaTokens": 291,
+      "fichaTokens": 285,
       "tagWeights": {
         "autoridad": 0.1667,
         "empresa": 0.6666,
@@ -157,12 +161,13 @@
       "to": "D-177",
       "title": "Mil microopciones pueden llevar al mismo macroestado",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La arquitectura que concentra capital no es necesariamente la que mejor distribuye inteligencia» con «Mil microopciones pueden llevar al mismo macroestado». Permite contrastar Captura de opciones e incentivos regresivos.",
       "relationTokens": 78,
-      "fichaTokens": 340,
+      "fichaTokens": 337,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "dialogos"
@@ -175,12 +180,13 @@
       "to": "D-222",
       "title": "Si el oro gana al capital productivo, ¿qué economía estamos construyendo?",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Si el oro gana al capital productivo, ¿qué economía estamos construyendo?» con «La arquitectura que concentra capital no es necesariamente la que mejor distribuye inteligencia».",
       "relationTokens": 77,
-      "fichaTokens": 464,
+      "fichaTokens": 461,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "dialogos"
@@ -193,12 +199,13 @@
       "to": "D-261",
       "title": "La Bolsa puede estar comprando reservas que no parecen mercancías",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La Bolsa puede estar comprando reservas que no parecen mercancías» con «La arquitectura que concentra capital no es necesariamente la que mejor distribuye inteligencia».",
       "relationTokens": 68,
-      "fichaTokens": 398,
+      "fichaTokens": 395,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "dialogos"
@@ -211,10 +218,11 @@
       "to": "D-262",
       "title": "Una red libre puede convertirse en reserva cuando todos creen que solo cuatro la poseen",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una red libre puede convertirse en reserva cuando todos creen que solo cuatro la poseen» con «La arquitectura que concentra capital no es necesariamente la que mejor distribuye inteligencia».",
       "relationTokens": 74,
-      "fichaTokens": 395,
+      "fichaTokens": 390,
       "tagWeights": {
         "autoridad": 0.5,
         "economia": 0.5
@@ -230,10 +238,11 @@
       "to": "D-295",
       "title": "Un algoritmo democrático no elimina el pan, la gasolina ni el tiempo",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Un algoritmo democrático no elimina el pan, la gasolina ni el tiempo» con «La arquitectura que concentra capital no es necesariamente la que mejor distribuye inteligencia».",
       "relationTokens": 70,
-      "fichaTokens": 420,
+      "fichaTokens": 414,
       "tagWeights": {
         "aprendizaje": 0.2857,
         "economia": 0.7143
@@ -249,10 +258,11 @@
       "to": "D-191",
       "title": "Una inteligencia puede hacer operable la fragilidad sin convertirla en resiliencia",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Captura de opciones e incentivos regresivos, Infraestructura habilitadora desde las situaciones que describe cada texto.",
       "relationTokens": 65,
-      "fichaTokens": 387,
+      "fichaTokens": 381,
       "tagWeights": {
         "economia": 0.3334,
         "movilidad": 0.3333,
@@ -269,10 +279,11 @@
       "to": "D-294",
       "title": "La tecnología posible no es la tecnología que el mercado termina adoptando",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Captura de opciones e incentivos regresivos, Infraestructura habilitadora desde las situaciones que describe cada texto.",
       "relationTokens": 63,
-      "fichaTokens": 428,
+      "fichaTokens": 421,
       "tagWeights": {
         "casos": 0.2857,
         "economia": 0.1429,

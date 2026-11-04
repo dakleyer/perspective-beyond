@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Constelaciones, clusters y modos de lectura",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-constellation_protocol",
-  "documentId": null,
   "sourceIds": [
     "D-267",
     "D-268"
@@ -17,9 +16,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Constelaciones, clusters y modos de lectura\nEl pensamiento general conecta conjuntos comerciales y culturales mediante fichas, relaciones y modos que devuelven al texto canónico.\nEtiquetas: Empresa y gestión 25.00%; Evidencia, procedencia y atribución 23.61%; Memoria, comunidad y territorio 38.89%; Cambio de perspectiva 12.50%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-constellation_protocol\n\n",
-  "readingSource": null,
-  "tokens": 104,
+  "context": "## Constelaciones, clusters y modos de lectura\nEl pensamiento general conecta conjuntos comerciales y culturales mediante fichas, relaciones y modos que devuelven al texto canónico.\nTags: Business and management 25.00%; Evidence, provenance and attribution 23.61%; Memory, community and territory 38.89%; Change of perspective 12.50%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-constellation_protocol\n\n",
+  "tokens": 99,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -27,10 +25,11 @@
       "to": "D-267",
       "title": "Una constelación de pensamiento contiene clusters conectados, no departamentos cerrados",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 32,
-      "fichaTokens": 405,
+      "fichaTokens": 400,
       "tagWeights": {
         "empresa": 0.5,
         "evidencia": 0.25,
@@ -47,10 +46,11 @@
       "to": "D-268",
       "title": "Un bot que interpreta mi pensamiento debe saber regresar al archivo original",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 29,
-      "fichaTokens": 393,
+      "fichaTokens": 387,
       "tagWeights": {
         "evidencia": 0.2222,
         "memoria-territorio": 0.7778
@@ -66,10 +66,11 @@
       "to": "dg-semantic_graph",
       "title": "Conocimiento como red de relaciones y procedencia",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.10",
       "reading": "Fichas con relaciones, fuentes y retornos.",
       "relationTokens": 40,
-      "fichaTokens": 181,
+      "fichaTokens": 164,
       "tagWeights": {
         "aprendizaje": 0.0229,
         "decision": 0.0625,
@@ -94,10 +95,11 @@
       "to": "dg-legacy",
       "title": "Memoria y legado",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.10",
       "reading": "Lectores futuros deben poder llegar al original.",
       "relationTokens": 33,
-      "fichaTokens": 126,
+      "fichaTokens": 114,
       "tagWeights": {
         "autoridad": 0.0151,
         "capacidad-humana": 0.0151,
@@ -118,10 +120,11 @@
       "to": "dg-perspective",
       "title": "Nueva Perspectiva",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.10",
       "reading": "Nueva Perspectiva integra clusters conectados.",
       "relationTokens": 33,
-      "fichaTokens": 190,
+      "fichaTokens": 173,
       "tagWeights": {
         "aprendizaje": 0.117,
         "cambio-regimen": 0.019,
@@ -148,10 +151,11 @@
       "to": "dg-federated_custody",
       "title": "Custodias distribuidas y memoria viva",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.10",
       "reading": "Clusters institucionales conservan procedencia y permisos.",
       "relationTokens": 39,
-      "fichaTokens": 128,
+      "fichaTokens": 120,
       "tagWeights": {
         "autoridad": 0.1487,
         "capacidad-humana": 0.0711,
@@ -171,10 +175,11 @@
       "to": "dg-epistemic_silence",
       "title": "Exclusión por omisión de interlocución",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.10",
       "reading": "Si no hay fuente, bot debe señalar ausencia y no inventar.",
       "relationTokens": 42,
-      "fichaTokens": 98,
+      "fichaTokens": 91,
       "tagWeights": {
         "autoridad": 0.5,
         "evidencia": 0.1111,
@@ -191,10 +196,11 @@
       "to": "dg-epistemic_increment",
       "title": "Demostrar o refutar paso por paso",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación de ampliación v0.11",
       "reading": "Navegación con retorno al archivo.",
       "relationTokens": 36,
-      "fichaTokens": 101,
+      "fichaTokens": 93,
       "tagWeights": {
         "evidencia": 0.2,
         "experimentacion": 0.3125,

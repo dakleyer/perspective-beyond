@@ -6,14 +6,13 @@
   "documentId": "doc-41f3a410d217128630",
   "sourceIds": [],
   "tagWeights": {
-    "memoria-territorio": 1.0
+    "memoria-territorio": 1
   },
   "clusters": [
     "totonacapan"
   ],
-  "context": "## Xanath y el conocimiento que se practica\nLa conversación sobre Xanath invita a observar cómo territorio, oficio y personas sostienen saberes que se transmiten mediante práctica. La custodia comienza por reconocer a quienes portan ese conocimiento.\nEtiquetas: Memoria, comunidad y territorio 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-xanath\nDocumento de origen: https://totonacapan.com/?page_id=413\n\n",
-  "readingSource": null,
-  "tokens": 104,
+  "context": "## Xanath y el conocimiento que se practica\nLa conversación sobre Xanath invita a observar cómo territorio, oficio y personas sostienen saberes que se transmiten mediante práctica. La custodia comienza por reconocer a quienes portan ese conocimiento.\nTags: Memory, community and territory 100.00%\nCard: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-xanath\nSource document: https://totonacapan.com/?page_id=413\n\n",
+  "tokens": 101,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -21,10 +20,11 @@
       "to": "np-biografia",
       "title": "Biografía: una trayectoria en diálogo",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "trayectoria",
       "reading": "La trayectoria lleva a un caso en que el saber está ligado al lugar y a quienes lo practican.",
       "relationTokens": 40,
-      "fichaTokens": 119,
+      "fichaTokens": 113,
       "tagWeights": {
         "aprendizaje": 0.25,
         "empresa": 0.25,
@@ -41,10 +41,11 @@
       "to": "np-posada",
       "title": "La posada como lugar de encuentro",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "comparación",
       "reading": "La reserva y la posada permiten comparar qué condiciones conservan o propician un encuentro.",
       "relationTokens": 38,
-      "fichaTokens": 126,
+      "fichaTokens": 119,
       "tagWeights": {
         "encuentros": 0.25,
         "movilidad": 0.375,
@@ -61,10 +62,11 @@
       "to": "np-censo-practicas",
       "title": "Censo de Artes y Oficios: describir condiciones de continuidad",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura comparada de mecanismos",
       "reading": "El diseño de la ficha del Censo aporta preguntas concretas sobre transmisión, materiales y condiciones de uso para la lectura de un conocimiento que se practica en su territorio.",
-      "relationTokens": 80,
-      "fichaTokens": 193,
+      "relationTokens": 78,
+      "fichaTokens": 184,
       "tagWeights": {
         "aprendizaje": 0.2,
         "documentacion": 0.15,

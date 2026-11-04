@@ -13,9 +13,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Una palabra se copia; las relaciones entre ideas cuentan otra historia\nINTERLOCUTOR (pregunta editorial; no necesariamente pronunciada) — ¿Puede una obra sobrevivir a un mundo en el que cualquier palabra o etiqueta intelectual se reproduce al instante?\nREFLEXIÓN DEL DIÁLOGO (reconstrucción/síntesis; no cita literal) — Iván discutía la tentación de ganar una posición intelectual mediante una sola expresión «canónica». En un mundo donde los modelos de lenguaje replican fórmulas, definiciones y artículos a gran velocidad, una etiqueta aislada puede volver indistinguibles a quienes han trabajado durante años y a quienes solo repiten el vocabulario. Su propuesta fue buscar un grafo de dos, tres o más conceptos que se refuercen y limiten entre sí: una estructura de relaciones, casos, condiciones de aplicación, errores y trayectorias, no un eslogan inmune al contexto.\n\nLa diferencia se vuelve visible cuando el mapa conserva procedencia. Una idea que parece abstracta puede regresar a un proyecto de campo, una decisión que fracasó, un oficio transmitido, un modelo matemático con pruebas pendientes o una conversación donde hubo que cambiar de opinión. No se trata de afirmar que la historia de una persona no pueda copiarse como texto. Se trata de que su sentido depende de una red de evidencias y experiencias que el lector puede recorrer y discutir.\n\nAquí el atlas encuentra su propia crítica. Si las fichas solo acumulan frases bonitas, el mapa se convierte en otro catálogo de etiquetas. Si registra relaciones explicativas, objeciones, contextos y accesos al pensamiento original, puede conservar algo más difícil de falsificar: no la exclusividad de las palabras, sino la trazabilidad del razonamiento. La supuesta «irreplicabilidad» del grafo es una aspiración, no un monopolio garantizado.\nEtiquetas: Evidencia, procedencia y atribución 25.00%; Experimentación, falsación y contraejemplos 50.00%; Cambio de perspectiva 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-240\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-240.html\n\n",
-  "readingSource": null,
-  "tokens": 475,
+  "context": "## Una palabra se copia; las relaciones entre ideas cuentan otra historia\nINTERLOCUTOR (pregunta editorial; no necesariamente pronunciada) — ¿Puede una obra sobrevivir a un mundo en el que cualquier palabra o etiqueta intelectual se reproduce al instante?\nREFLEXIÓN DEL DIÁLOGO (reconstrucción/síntesis; no cita literal) — Iván discutía la tentación de ganar una posición intelectual mediante una sola expresión «canónica». En un mundo donde los modelos de lenguaje replican fórmulas, definiciones y artículos a gran velocidad, una etiqueta aislada puede volver indistinguibles a quienes han trabajado durante años y a quienes solo repiten el vocabulario. Su propuesta fue buscar un grafo de dos, tres o más conceptos que se refuercen y limiten entre sí: una estructura de relaciones, casos, condiciones de aplicación, errores y trayectorias, no un eslogan inmune al contexto.\n\nLa diferencia se vuelve visible cuando el mapa conserva procedencia. Una idea que parece abstracta puede regresar a un proyecto de campo, una decisión que fracasó, un oficio transmitido, un modelo matemático con pruebas pendientes o una conversación donde hubo que cambiar de opinión. No se trata de afirmar que la historia de una persona no pueda copiarse como texto. Se trata de que su sentido depende de una red de evidencias y experiencias que el lector puede recorrer y discutir.\n\nAquí el atlas encuentra su propia crítica. Si las fichas solo acumulan frases bonitas, el mapa se convierte en otro catálogo de etiquetas. Si registra relaciones explicativas, objeciones, contextos y accesos al pensamiento original, puede conservar algo más difícil de falsificar: no la exclusividad de las palabras, sino la trazabilidad del razonamiento. La supuesta «irreplicabilidad» del grafo es una aspiración, no un monopolio garantizado.\nTags: Evidence, provenance and attribution 25.00%; Experimentation, falsification and counterexamples 50.00%; Change of perspective 25.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-240\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-240.html\n\n",
+  "tokens": 468,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,10 +22,11 @@
       "to": "dg-perspective",
       "title": "Nueva Perspectiva",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 190,
+      "fichaTokens": 173,
       "tagWeights": {
         "aprendizaje": 0.117,
         "cambio-regimen": 0.019,
@@ -53,10 +53,11 @@
       "to": "dg-culture",
       "title": "Protocultura, autoría y conocimiento emergente",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 30,
-      "fichaTokens": 204,
+      "fichaTokens": 186,
       "tagWeights": {
         "aprendizaje": 0.0299,
         "capacidad-humana": 0.0091,
@@ -83,10 +84,11 @@
       "to": "dg-semantic_graph",
       "title": "Conocimiento como red de relaciones y procedencia",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 29,
-      "fichaTokens": 181,
+      "fichaTokens": 164,
       "tagWeights": {
         "aprendizaje": 0.0229,
         "decision": 0.0625,
@@ -111,12 +113,13 @@
       "to": "D-059",
       "title": "La experiencia que nunca se escribió",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una palabra se copia; las relaciones entre ideas cuentan otra historia» con «La experiencia que nunca se escribió».",
       "relationTokens": 52,
-      "fichaTokens": 368,
+      "fichaTokens": 364,
       "tagWeights": {
-        "capacidad-humana": 1.0
+        "capacidad-humana": 1
       },
       "clusters": [
         "dialogos"
@@ -129,10 +132,11 @@
       "to": "D-071",
       "title": "La autoría no equivale al trabajo de uno solo",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una palabra se copia; las relaciones entre ideas cuentan otra historia» con «La autoría no equivale al trabajo de uno solo».",
       "relationTokens": 62,
-      "fichaTokens": 434,
+      "fichaTokens": 426,
       "tagWeights": {
         "aprendizaje": 0.3636,
         "decision": 0.1818,
@@ -149,10 +153,11 @@
       "to": "D-081",
       "title": "Conservar una línea de pensamiento sin imponerla",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una palabra se copia; las relaciones entre ideas cuentan otra historia» con «Conservar una línea de pensamiento sin imponerla». Permite contrastar Nueva Perspectiva.",
       "relationTokens": 67,
-      "fichaTokens": 671,
+      "fichaTokens": 667,
       "tagWeights": {
         "perspectiva": 0.5,
         "transformacion": 0.5
@@ -168,10 +173,11 @@
       "to": "D-157",
       "title": "La protocultura sucede antes de que una idea sea institución",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una palabra se copia; las relaciones entre ideas cuentan otra historia» con «La protocultura sucede antes de que una idea sea institución». Permite contrastar Nueva Perspectiva, Protocultura, autoría y conocimiento emergente.",
       "relationTokens": 82,
-      "fichaTokens": 311,
+      "fichaTokens": 308,
       "tagWeights": {
         "memoria-territorio": 0.6667,
         "perspectiva": 0.3333
@@ -187,12 +193,13 @@
       "to": "D-220",
       "title": "Si un diálogo nunca cede nada, quizá es un sermón",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una palabra se copia; las relaciones entre ideas cuentan otra historia» con «Si un diálogo nunca cede nada, quizá es un sermón».",
       "relationTokens": 66,
-      "fichaTokens": 419,
+      "fichaTokens": 414,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"
@@ -205,10 +212,11 @@
       "to": "D-247",
       "title": "La nueva Babel puede funcionar demasiado bien antes de dejar de ser fiable",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La nueva Babel puede funcionar demasiado bien antes de dejar de ser fiable» con «Una palabra se copia; las relaciones entre ideas cuentan otra historia». Permite contrastar Conocimiento como red de relaciones y procedencia.",
       "relationTokens": 80,
-      "fichaTokens": 449,
+      "fichaTokens": 441,
       "tagWeights": {
         "economia": 0.3334,
         "evidencia": 0.3333,
@@ -225,10 +233,11 @@
       "to": "D-249",
       "title": "Una memoria en estrella puede perder su centro sin dejar de funcionar",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una memoria en estrella puede perder su centro sin dejar de funcionar» con «Una palabra se copia; las relaciones entre ideas cuentan otra historia». Permite contrastar Conocimiento como red de relaciones y procedencia.",
       "relationTokens": 78,
-      "fichaTokens": 441,
+      "fichaTokens": 430,
       "tagWeights": {
         "aprendizaje": 0.1334,
         "evidencia": 0.1333,
@@ -246,10 +255,11 @@
       "to": "D-267",
       "title": "Una constelación de pensamiento contiene clusters conectados, no departamentos cerrados",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una constelación de pensamiento contiene clusters conectados, no departamentos cerrados» con «Una palabra se copia; las relaciones entre ideas cuentan otra historia». Permite contrastar Conocimiento como red de relaciones y procedencia, Nueva Perspectiva.",
       "relationTokens": 89,
-      "fichaTokens": 405,
+      "fichaTokens": 400,
       "tagWeights": {
         "empresa": 0.5,
         "evidencia": 0.25,
@@ -266,10 +276,11 @@
       "to": "D-268",
       "title": "Un bot que interpreta mi pensamiento debe saber regresar al archivo original",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Un bot que interpreta mi pensamiento debe saber regresar al archivo original» con «Una palabra se copia; las relaciones entre ideas cuentan otra historia». Permite contrastar Conocimiento como red de relaciones y procedencia.",
       "relationTokens": 78,
-      "fichaTokens": 393,
+      "fichaTokens": 387,
       "tagWeights": {
         "evidencia": 0.2222,
         "memoria-territorio": 0.7778
@@ -285,12 +296,13 @@
       "to": "D-272",
       "title": "Una nueva perspectiva conserva los datos y cambia sus relaciones",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una nueva perspectiva conserva los datos y cambia sus relaciones» con «Una palabra se copia; las relaciones entre ideas cuentan otra historia». Permite contrastar Nueva Perspectiva.",
       "relationTokens": 69,
-      "fichaTokens": 378,
+      "fichaTokens": 376,
       "tagWeights": {
-        "perspectiva": 1.0
+        "perspectiva": 1
       },
       "clusters": [
         "dialogos"
@@ -303,10 +315,11 @@
       "to": "D-283",
       "title": "Una serie rigurosa deja examinar cada eslabón por separado",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una serie rigurosa deja examinar cada eslabón por separado» con «Una palabra se copia; las relaciones entre ideas cuentan otra historia». Permite contrastar Conocimiento como red de relaciones y procedencia.",
       "relationTokens": 80,
-      "fichaTokens": 419,
+      "fichaTokens": 413,
       "tagWeights": {
         "evidencia": 0.4,
         "memoria-territorio": 0.6
@@ -322,10 +335,11 @@
       "to": "D-285",
       "title": "Un arquitecto no puede saber toda la jerga de todos los oficios",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Un arquitecto no puede saber toda la jerga de todos los oficios» con «Una palabra se copia; las relaciones entre ideas cuentan otra historia». Permite contrastar Conocimiento como red de relaciones y procedencia.",
       "relationTokens": 84,
-      "fichaTokens": 439,
+      "fichaTokens": 426,
       "tagWeights": {
         "aprendizaje": 0.05,
         "empresa": 0.35,
@@ -345,10 +359,11 @@
       "to": "D-291",
       "title": "La inteligencia artificial también puede ser una máquina de escribir",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La inteligencia artificial también puede ser una máquina de escribir» con «Una palabra se copia; las relaciones entre ideas cuentan otra historia». Permite contrastar Conocimiento como red de relaciones y procedencia.",
       "relationTokens": 74,
-      "fichaTokens": 377,
+      "fichaTokens": 371,
       "tagWeights": {
         "decision": 0.5,
         "evidencia": 0.5

@@ -6,14 +6,13 @@
   "documentId": "doc-0498e150d27f3140df",
   "sourceIds": [],
   "tagWeights": {
-    "perspectiva": 1.0
+    "perspectiva": 1
   },
   "clusters": [
     "imsv"
   ],
-  "context": "## El manifiesto original de Nueva Perspectiva\nEl sistema mental organiza percepciones, recuerdos, emociones e intereses mediante relaciones. Una idea nueva puede reordenar esas relaciones. El texto pide examinar después su coherencia y sus efectos.\nEtiquetas: Cambio de perspectiva 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-manifiesto\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/manifiesto/\n\n",
-  "readingSource": null,
-  "tokens": 105,
+  "context": "## El manifiesto original de Nueva Perspectiva\nEl sistema mental organiza percepciones, recuerdos, emociones e intereses mediante relaciones. Una idea nueva puede reordenar esas relaciones. El texto pide examinar después su coherencia y sus efectos.\nTags: Change of perspective 100.00%\nCard: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-manifiesto\nSource document: https://integralmanagement.ch/nueva-perspectiva/manifiesto/\n\n",
+  "tokens": 103,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -21,10 +20,11 @@
       "to": "np-entrada",
       "title": "Del manifiesto a la práctica",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "fundamento",
       "reading": "La formulación original desarrolla el papel de las relaciones entre los elementos del sistema mental.",
       "relationTokens": 36,
-      "fichaTokens": 108,
+      "fichaTokens": 103,
       "tagWeights": {
         "aprendizaje": 0.8,
         "perspectiva": 0.2
@@ -40,10 +40,11 @@
       "to": "np-experiencia",
       "title": "¿Qué ocurrió primero: la experiencia o la idea?",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "origen",
       "reading": "La conversación permite situar la experiencia previa a la formulación escrita.",
       "relationTokens": 38,
-      "fichaTokens": 133,
+      "fichaTokens": 128,
       "tagWeights": {
         "aprendizaje": 0.4445,
         "empresa": 0.4444,
@@ -60,12 +61,13 @@
       "to": "np-mas-alla",
       "title": "Perspective Beyond: cuándo queda corto un marco",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "desarrollo",
       "reading": "El ensayo vuelve sobre las condiciones que delimitan qué puede ver un marco.",
       "relationTokens": 36,
-      "fichaTokens": 105,
+      "fichaTokens": 103,
       "tagWeights": {
-        "perspectiva": 1.0
+        "perspectiva": 1
       },
       "clusters": [
         "imsv"
@@ -78,10 +80,11 @@
       "to": "E1628",
       "title": "The JUBAP Framework",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "antecedente",
       "reading": "El marco identifica Nueva Perspectiva como raíz de su modo de cambiar el nivel de observación.",
       "relationTokens": 39,
-      "fichaTokens": 152,
+      "fichaTokens": 146,
       "tagWeights": {
         "autoridad": 0.1539,
         "control-minimo": 0.1539,
@@ -101,10 +104,11 @@
       "to": "D-067",
       "title": "Nueva Perspectiva: cambiar el punto de observación",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "puente editorial",
       "reading": "El manifiesto se puede leer junto a la reconstrucción biográfica del cambio de observación.",
       "relationTokens": 44,
-      "fichaTokens": 583,
+      "fichaTokens": 581,
       "tagWeights": {
         "empresa": 0.2353,
         "perspectiva": 0.7647
@@ -120,10 +124,11 @@
       "to": "D-067",
       "title": "Nueva Perspectiva: cambiar el punto de observación",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "puente editorial",
       "reading": "El original desarrolla la idea del sistema mental que el diálogo permite explorar.",
       "relationTokens": 39,
-      "fichaTokens": 583,
+      "fichaTokens": 581,
       "tagWeights": {
         "empresa": 0.2353,
         "perspectiva": 0.7647
@@ -139,10 +144,11 @@
       "to": "D-296",
       "title": "Una ética institucional también puede ser impugnada desde fuera",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "puente de lectura",
       "reading": "La posibilidad de impugnar una norma desde fuera permite leer Nueva Perspectiva desde la posición de quien recibe las consecuencias de una institución.",
       "relationTokens": 54,
-      "fichaTokens": 389,
+      "fichaTokens": 384,
       "tagWeights": {
         "autoridad": 0.35,
         "decision": 0.35,

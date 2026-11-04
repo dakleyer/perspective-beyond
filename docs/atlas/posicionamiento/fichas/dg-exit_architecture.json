@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Arquitectura de salida y capacidad transferida",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-exit_architecture",
-  "documentId": null,
   "sourceIds": [
     "D-264",
     "D-265"
@@ -17,9 +16,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Arquitectura de salida y capacidad transferida\nUna intervención de transformación tiene éxito cuando deja decisiones y procesos sostenibles sin depender indefinidamente de la unidad impulsora.\nEtiquetas: Aprendizaje y transmisión de capacidades 10.87%; Autoridad, permisos y delegación 4.35%; Empresa y gestión 63.04%; Transformación y continuidad operativa 21.74%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-exit_architecture\n\n",
-  "readingSource": null,
-  "tokens": 106,
+  "context": "## Arquitectura de salida y capacidad transferida\nUna intervención de transformación tiene éxito cuando deja decisiones y procesos sostenibles sin depender indefinidamente de la unidad impulsora.\nTags: Learning and capability transmission 10.87%; Authority, permissions and delegation 4.35%; Business and management 63.04%; Transformation and operational continuity 21.74%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-exit_architecture\n\n",
+  "tokens": 98,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -27,10 +25,11 @@
       "to": "D-264",
       "title": "La unidad de racionalización debe trabajar para dejar de ser necesaria",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 410,
+      "fichaTokens": 401,
       "tagWeights": {
         "aprendizaje": 0.2174,
         "autoridad": 0.0869,
@@ -48,12 +47,13 @@
       "to": "D-265",
       "title": "El diamante tecnológico puede estar funcionando dentro de la empresa y seguir invisible",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 30,
-      "fichaTokens": 370,
+      "fichaTokens": 368,
       "tagWeights": {
-        "empresa": 1.0
+        "empresa": 1
       },
       "clusters": [
         "dialogos"
@@ -66,10 +66,11 @@
       "to": "dg-transform",
       "title": "Transformación organizativa",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.10",
       "reading": "Transformar incluye transferir el funcionamiento posterior.",
       "relationTokens": 33,
-      "fichaTokens": 233,
+      "fichaTokens": 208,
       "tagWeights": {
         "aprendizaje": 0.2509,
         "autoridad": 0.0093,
@@ -101,10 +102,11 @@
       "to": "dg-continuity",
       "title": "Continuidad de capacidades",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.10",
       "reading": "Proceso sostenido sin oficina permanente.",
       "relationTokens": 32,
-      "fichaTokens": 222,
+      "fichaTokens": 200,
       "tagWeights": {
         "aprendizaje": 0.0854,
         "autoridad": 0.0264,
@@ -134,10 +136,11 @@
       "to": "dg-action_viability",
       "title": "Acción viable y valor que se propaga",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.10",
       "reading": "Soluciones reales, no solo inventario ni propuesta.",
       "relationTokens": 39,
-      "fichaTokens": 132,
+      "fichaTokens": 122,
       "tagWeights": {
         "aprendizaje": 0.0654,
         "casos": 0.0654,
@@ -157,10 +160,11 @@
       "to": "dg-capability_loss",
       "title": "Poda, memoria y capacidades zombis",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.10",
       "reading": "La salida debe preservar capacidad y evitar una poda ciega.",
       "relationTokens": 40,
-      "fichaTokens": 142,
+      "fichaTokens": 129,
       "tagWeights": {
         "aprendizaje": 0.1146,
         "autoridad": 0.125,
@@ -182,10 +186,11 @@
       "to": "dg-governance",
       "title": "Gobernanza y legitimidad",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.10",
       "reading": "Responsabilidades transferidas y decisión ejecutable.",
       "relationTokens": 34,
-      "fichaTokens": 273,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.0321,
         "autoridad": 0.4057,

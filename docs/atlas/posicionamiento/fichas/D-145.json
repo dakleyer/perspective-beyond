@@ -12,9 +12,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## La ignorancia que no se pudo evitar y la que se cultivó\nINTERLOCUTOR (pregunta editorial) — ¿Hay diferencia moral entre no haber sabido algo y haber organizado la propia vida para no tener que mirarlo?\nREFLEXIÓN DEL ESCRITO (síntesis editorial) — Iván distingue ignorancia inevitable de «ignorancia cultivada» por las oportunidades reales de conocer y actuar. Una persona sin información, recursos o estabilidad suficiente puede quedar legítimamente bloqueada; otra recibe advertencias, ve indicios, tiene tiempo y elige no integrar la evidencia. El escrito usa la compra de viviendas en primera línea de costa como caso: alguien observa casas ya perdidas por el mar, escucha escenarios sobre subida del nivel del mar y aun así trata la compra de una segunda residencia como libre de riesgo. Después podría preguntar quién hubiera podido saberlo. La cuestión no es acusar a toda víctima de un daño ni asegurar que un evento concreto era predecible; es investigar cuándo un supuesto desconocimiento se construyó activamente para no renunciar a una opción cómoda. La «sinceridad» posterior no sustituye la evaluación de decisiones anteriores.\nEtiquetas: Decisiones y responsabilidad 50.00%; Integridad y seguridad de IA 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-145\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-145.html\n\n",
-  "readingSource": null,
-  "tokens": 311,
+  "context": "## La ignorancia que no se pudo evitar y la que se cultivó\nINTERLOCUTOR (pregunta editorial) — ¿Hay diferencia moral entre no haber sabido algo y haber organizado la propia vida para no tener que mirarlo?\nREFLEXIÓN DEL ESCRITO (síntesis editorial) — Iván distingue ignorancia inevitable de «ignorancia cultivada» por las oportunidades reales de conocer y actuar. Una persona sin información, recursos o estabilidad suficiente puede quedar legítimamente bloqueada; otra recibe advertencias, ve indicios, tiene tiempo y elige no integrar la evidencia. El escrito usa la compra de viviendas en primera línea de costa como caso: alguien observa casas ya perdidas por el mar, escucha escenarios sobre subida del nivel del mar y aun así trata la compra de una segunda residencia como libre de riesgo. Después podría preguntar quién hubiera podido saberlo. La cuestión no es acusar a toda víctima de un daño ni asegurar que un evento concreto era predecible; es investigar cuándo un supuesto desconocimiento se construyó activamente para no renunciar a una opción cómoda. La «sinceridad» posterior no sustituye la evaluación de decisiones anteriores.\nTags: Decisions and responsibility 50.00%; AI integrity and security 50.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-145\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-145.html\n\n",
+  "tokens": 306,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "dg-doubt",
       "title": "Duda, pruebas y conocimiento corregible",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 30,
-      "fichaTokens": 268,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.2345,
         "autoridad": 0.0562,
@@ -59,10 +59,11 @@
       "to": "dg-risk",
       "title": "Riesgo, seguridad y evitación",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 29,
-      "fichaTokens": 121,
+      "fichaTokens": 112,
       "tagWeights": {
         "decision": 0.1843,
         "economia": 0.0758,
@@ -82,10 +83,11 @@
       "to": "dg-account",
       "title": "Responsabilidad y reparación",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 122,
+      "fichaTokens": 112,
       "tagWeights": {
         "aprendizaje": 0.0834,
         "autoridad": 0.2098,
@@ -106,10 +108,11 @@
       "to": "D-231",
       "title": "Entregó una investigación; el profesor ni siquiera la leyó",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Entregó una investigación; el profesor ni siquiera la leyó» con «La ignorancia que no se pudo evitar y la que se cultivó».",
       "relationTokens": 70,
-      "fichaTokens": 419,
+      "fichaTokens": 412,
       "tagWeights": {
         "aprendizaje": 0.5,
         "autoridad": 0.5
@@ -125,10 +128,11 @@
       "to": "D-296",
       "title": "Una ética institucional también puede ser impugnada desde fuera",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una ética institucional también puede ser impugnada desde fuera» con «La ignorancia que no se pudo evitar y la que se cultivó». Permite contrastar Responsabilidad y reparación.",
       "relationTokens": 75,
-      "fichaTokens": 389,
+      "fichaTokens": 384,
       "tagWeights": {
         "autoridad": 0.35,
         "decision": 0.35,
@@ -145,10 +149,11 @@
       "to": "D-142",
       "title": "La seguridad que se decide y deja de comprobarse",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Riesgo, seguridad y evitación, Duda, pruebas y conocimiento corregible desde las situaciones que describe cada texto.",
       "relationTokens": 61,
-      "fichaTokens": 308,
+      "fichaTokens": 303,
       "tagWeights": {
         "decision": 0.25,
         "integridad-ia": 0.75
@@ -164,10 +169,11 @@
       "to": "D-144",
       "title": "Explicar una conducta no elimina automáticamente la responsabilidad",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Responsabilidad y reparación, Riesgo, seguridad y evitación desde las situaciones que describe cada texto.",
       "relationTokens": 56,
-      "fichaTokens": 293,
+      "fichaTokens": 288,
       "tagWeights": {
         "decision": 0.7778,
         "integridad-ia": 0.2222
@@ -183,10 +189,11 @@
       "to": "D-277",
       "title": "Una explicación consciente puede llegar después de la conducta",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Responsabilidad y reparación, Duda, pruebas y conocimiento corregible desde las situaciones que describe cada texto.",
       "relationTokens": 57,
-      "fichaTokens": 413,
+      "fichaTokens": 407,
       "tagWeights": {
         "aprendizaje": 0.3334,
         "decision": 0.3333,

@@ -1,68 +1,68 @@
-# Fuentes para asistentes · Perspective Beyond
+# Sources for assistants · Perspective Beyond
 
-**Una fuente de pensamiento. Muchas formas de crear.**
+**One source of thinking. Many ways to create.**
 
-[Abrir el producto](https://dakleyer.github.io/perspective-beyond/atlas/asistentes/) · [Leer una fuente de ejemplo](https://dakleyer.github.io/perspective-beyond/atlas/asistentes/ejemplos/arquitectura-y-lenguajes.txt) · [Preparar otra selección](https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/)
+[Open the product](https://dakleyer.github.io/perspective-beyond/atlas/asistentes/) · [Read an example source](https://dakleyer.github.io/perspective-beyond/atlas/asistentes/ejemplos/arquitectura-y-lenguajes.txt) · [Prepare another selection](https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/)
 
-El Atlas tiene una web para explorar como persona y fuentes de lectura preparadas para asistentes. Cada fuente es un archivo pequeño y autocontenido: reúne un punto de entrada, sus textos, una selección de relaciones explicadas, las referencias y la configuración de trabajo.
+The Atlas has a website for people to explore and reading sources prepared for assistants. Each source is a small, self-contained file: it brings together an entry point, its texts, a selection of explained relationships, references and the working configuration.
 
-El asistente puede recibir una sola URL o el archivo descargado. Desde ese contenido puede explicar el pensamiento, mantener una conversación, crear una web, desarrollar un documento o preparar y producir audio y vídeo con las herramientas que tenga disponibles. El formato cambia; el pensamiento de origen y su procedencia se conservan.
+The assistant can receive a single URL or the downloaded file. From that content, it can explain the thinking, hold a conversation, create a website, develop a document, or prepare and produce audio and video with the tools available to it. The format changes; the original thinking and its provenance are retained.
 
-## Probarlo
+## Try it
 
-1. Abre una de las fuentes de texto que aparecen abajo.
-2. Copia su URL y entrégasela a tu asistente.
-3. Pide el resultado: por ejemplo, «Explícame este pensamiento con un caso concreto», «Crea una web con esta fuente» o «Prepara un audio de tres minutos».
+1. Open one of the text sources listed below.
+2. Copy its URL and give it to your assistant.
+3. Request the result: for example, “Explain this thinking through a concrete case”, “Create a website from this source” or “Prepare a three-minute audio”.
 
-También puedes descargar el archivo y abrirlo en un editor de texto. Su contenido está en UTF-8 y se puede transportar, revisar y adaptar como un documento normal.
+You can also download the file and open it in a text editor. Its content is in UTF-8 and can be transported, reviewed and adapted like a normal document.
 
-| Fuente | Entrada de texto para el asistente | Página legible |
+| Source | Text entry for the assistant | Readable page |
 | --- | --- | --- |
-| Pensar entre lenguajes y oficios | [Fuente](ejemplos/arquitectura-y-lenguajes.txt) | [Leer](ejemplos/arquitectura-y-lenguajes.html) |
-| Conservar la capacidad que hace funcionar las cosas | [Fuente](ejemplos/conocimiento-tacito.txt) | [Leer](ejemplos/conocimiento-tacito.html) |
-| Observar la estructura que sostiene una decisión | [Fuente](ejemplos/integridad-estructural.txt) | [Leer](ejemplos/integridad-estructural.html) |
-| De una intención empresarial a una capacidad operativa | [Fuente](ejemplos/valor-y-ejecucion.txt) | [Leer](ejemplos/valor-y-ejecucion.html) |
+| Thinking across languages and crafts | [Source](ejemplos/arquitectura-y-lenguajes.txt) | [Read](ejemplos/arquitectura-y-lenguajes.html) |
+| Preserving the capability that makes things work | [Source](ejemplos/conocimiento-tacito.txt) | [Read](ejemplos/conocimiento-tacito.html) |
+| Observing the structure that supports a decision | [Source](ejemplos/integridad-estructural.txt) | [Read](ejemplos/integridad-estructural.html) |
+| From a business intention to an operational capability | [Source](ejemplos/valor-y-ejecucion.txt) | [Read](ejemplos/valor-y-ejecucion.html) |
 
-En la conversación se puede cambiar el formato de salida conservando la misma fuente. Para cambiar las fichas, los pesos o el alcance, se exporta una nueva selección.
+The output format can be changed during the conversation while retaining the same source. To change the cards, weights or scope, export a new selection.
 
-## Qué contiene el archivo
+## What the file contains
 
-- **Indicaciones de uso:** rol, propósito, formato inicial e instrucción personalizada.
-- **Posicionamiento:** documento o ficha de entrada, alcance y combinación de etiquetas.
-- **Pensamiento y textos:** contenido de las fichas y conceptos seleccionados, con sus composiciones temáticas.
-- **Relaciones:** el mecanismo que conecta las piezas, su dirección y su procedencia. Se incluyen también conexiones cruzadas del mini mapa, hasta ocho adicionales a sus recorridos de llegada.
-- **Fuentes y edición:** enlaces a los originales, pasajes registrados y revisión del mapa utilizada.
-- **Continuación:** enlace para reabrir la configuración y crear otra lectura.
+- **Instructions for use:** role, purpose, initial format and custom instruction.
+- **Positioning:** entry document or card, scope and combination of tags.
+- **Thinking and texts:** content of the selected cards and concepts, with their thematic compositions.
+- **Relationships:** the mechanism connecting the pieces, its direction and provenance. Cross-connections in the mini map are also included, up to eight in addition to its arrival paths.
+- **Sources and edition:** links to originals, recorded passages and the map revision used.
+- **Continuation:** a link to reopen the configuration and create another reading.
 
-La selección incluida se puede leer y utilizar sin descargar el grafo ni abrir archivos adicionales. Los originales quedan enlazados para profundizar, comprobar un pasaje o ampliar la investigación.
+The included selection can be read and used without downloading the graph or opening additional files. The originals remain linked for going deeper, checking a passage or extending the research.
 
-## Preparar una fuente propia
+## Prepare your own source
 
-En [Posicionamiento](https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/):
+In [Positioning](https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/):
 
-1. Elige el documento, la ficha o la URL de entrada.
-2. Ajusta las etiquetas, el alcance y los tokens de lectura.
-3. Abre el mini mapa.
-4. Selecciona Conversación, Página web, Audio, Vídeo o Documento.
-5. Pulsa **Descargar fuente para mi asistente**.
+1. Choose the entry document, card or URL.
+2. Adjust the tags, scope and reading tokens.
+3. Open the mini map.
+4. Select Conversation, Web page, Audio, Video or Document.
+5. Click **Download source for my assistant**.
 
-El rol, propósito e instrucción personalizada de una URL configurada se conservan en la fuente. Los porcentajes son los del posicionamiento y de sus fichas. El alcance Cerrado, Poroso o Federado se aplica antes de preparar el archivo.
+The role, purpose and custom instruction of a configured URL are retained in the source. Percentages are those of the positioning and its cards. The Closed, Porous or Federated scope is applied before preparing the file.
 
-La fuente es concreta: lleva la selección que se ha calculado, con el contexto necesario para trabajar sobre ella. La lectura de origen mantiene su cuenta de tokens; las instrucciones, referencias y relaciones adicionales ocupan también espacio en el archivo final. El [índice de ejemplos](ejemplos/index.json) registra tamaño, huella y selección; las [pruebas](pruebas.json) recogen la cuenta total de los ejemplos con el tokenizador de referencia.
+The source is specific: it carries the calculated selection, with the context needed to work on it. The original reading retains its token count; instructions, references and additional relationships also take space in the final file. The [example index](ejemplos/index.json) records size, hash and selection; the [tests](pruebas.json) record the total count of the examples with the reference tokenizer.
 
-## Formatos de trabajo
+## Working formats
 
-- **Conversación:** comprender, explicar y relacionar las ideas.
-- **Web:** una página HTML completa y adaptable a móvil, con explicación y referencias.
-- **Audio:** texto hablado y producción mediante la herramienta de voz del asistente.
-- **Vídeo:** guion, escenas, narración y producción mediante sus herramientas audiovisuales.
-- **Documento:** exposición, propuesta o aplicación a un caso nuevo.
+- **Conversation:** understand, explain and relate ideas.
+- **Web:** a complete HTML page adaptable to mobile, with explanation and references.
+- **Audio:** spoken text and production through the assistant's voice tool.
+- **Video:** script, scenes, narration and production through its audiovisual tools.
+- **Document:** exposition, proposal or application to a new case.
 
-Para una voz guiada por una persona o institución, la fuente conserva el vocabulario y las formas de razonar que están documentados y atribuye las ideas por su nombre. Cada aplicación nueva se presenta como una elaboración sobre ese pensamiento.
+For a voice guided by a person or institution, the source retains the documented vocabulary and ways of reasoning and attributes ideas by name. Each new application is presented as a development of that thinking.
 
-## Integración y regeneración
+## Integration and regeneration
 
-El formato está implementado en [source.mjs](source.mjs). Utiliza el resultado del cálculo de posicionamiento:
+The format is implemented in [source.mjs](source.mjs). It uses the result of the positioning calculation:
 
 ~~~javascript
 import {readPosition, positionMap} from '../positioning.mjs';
@@ -70,18 +70,17 @@ import {assistantSource, sourceHTML} from './source.mjs';
 
 const result = positionMap(graph, readPosition(params, graph));
 const source = assistantSource(result, graph, {format: 'web'});
-// source.text es el archivo autocontenido en Markdown / texto UTF-8.
+// source.text is the self-contained Markdown / UTF-8 text file.
 const html = sourceHTML(source);
 ~~~
 
-El HTML también lleva los textos, relaciones e indicaciones dentro del propio documento. Las páginas de ejemplo incluyen su estilo en el archivo y se pueden leer sin JavaScript.
+The HTML also carries the texts, relationships and instructions inside the document itself. Example pages include their styling in the file and can be read without JavaScript.
 
-Para regenerar los ejemplos desde el mismo mapa:
+To regenerate the examples from the same map:
 
 ~~~text
-node docs/atlas/asistentes/build.mjs REVISION_GIT_DE_ORIGEN
+node docs/atlas/asistentes/build.mjs SOURCE_GIT_REVISION
 node docs/atlas/asistentes/pruebas.mjs
 ~~~
 
-La revisión debe ser el commit público que contiene el grafo utilizado. El generador escribe derivados bajo esta carpeta. Las fichas, conceptos, relaciones y composiciones del Atlas se leen y permanecen intactos.
-
+The revision must be the public commit containing the graph used. The generator writes derivatives under this folder. The Atlas cards, concepts, relationships and compositions are read and remain intact.

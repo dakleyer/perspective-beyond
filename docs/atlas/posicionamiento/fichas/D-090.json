@@ -14,9 +14,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Ágoras pequeñas para encuentros que importan\nINTERLOCUTOR (pregunta editorial) — ¿Y si la tecnología ayudara a que dos personas se encuentren cuando tiene sentido, sin exigirles crear una empresa o hacerse famosas?\nLECTURA DEL DIÁLOGO (síntesis editorial) — No se trataba de otra red social ni de un sistema que premia publicar, recibir likes o escalar un pitch. Iván imaginó una aplicación de «microengagement» asistida por IA que detectara resonancias profundas y propusiera encuentros humanos precisos, de baja frecuencia y alta pertinencia. Su frase operacional sería: «estás en esta fase; te conviene hablar con esta persona; sigue viviendo tu proceso». El contraste con el hackathon es deliberado: no obligar a producir en un fin de semana la empresa que cambiará el mundo. Lo importante no es que la plataforma sepa qué deben decirse o qué resultado han de conseguir, sino que exista el ágora. Iván reconoce que no tiene la solución de esas conversaciones; su apuesta es que un mundo capaz de crear estos encuentros es más fértil que otro sin ellos. Acompañar el proceso sin apropiarse de la idea ni de la relación es parte esencial del diseño.\nEtiquetas: Decisiones y responsabilidad 18.75%; Empresa y gestión 37.50%; Infraestructura de encuentros 25.00%; Movilidad e infraestructura 18.75%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-090\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-090.html\n\n",
-  "readingSource": null,
-  "tokens": 350,
+  "context": "## Ágoras pequeñas para encuentros que importan\nINTERLOCUTOR (pregunta editorial) — ¿Y si la tecnología ayudara a que dos personas se encuentren cuando tiene sentido, sin exigirles crear una empresa o hacerse famosas?\nLECTURA DEL DIÁLOGO (síntesis editorial) — No se trataba de otra red social ni de un sistema que premia publicar, recibir likes o escalar un pitch. Iván imaginó una aplicación de «microengagement» asistida por IA que detectara resonancias profundas y propusiera encuentros humanos precisos, de baja frecuencia y alta pertinencia. Su frase operacional sería: «estás en esta fase; te conviene hablar con esta persona; sigue viviendo tu proceso». El contraste con el hackathon es deliberado: no obligar a producir en un fin de semana la empresa que cambiará el mundo. Lo importante no es que la plataforma sepa qué deben decirse o qué resultado han de conseguir, sino que exista el ágora. Iván reconoce que no tiene la solución de esas conversaciones; su apuesta es que un mundo capaz de crear estos encuentros es más fértil que otro sin ellos. Acompañar el proceso sin apropiarse de la idea ni de la relación es parte esencial del diseño.\nTags: Decisions and responsibility 18.75%; Business and management 37.50%; Encounter infrastructure 25.00%; Mobility and infrastructure 18.75%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-090\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-090.html\n\n",
+  "tokens": 344,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -24,10 +23,11 @@
       "to": "dg-infra",
       "title": "Infraestructura habilitadora",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 170,
+      "fichaTokens": 152,
       "tagWeights": {
         "aprendizaje": 0.0675,
         "autoridad": 0.0125,
@@ -53,10 +53,11 @@
       "to": "dg-trust",
       "title": "Confianza y equipos",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 216,
+      "fichaTokens": 194,
       "tagWeights": {
         "aprendizaje": 0.1145,
         "autoridad": 0.0227,
@@ -86,10 +87,11 @@
       "to": "dg-encounters",
       "title": "Encuentros significativos",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 173,
+      "fichaTokens": 157,
       "tagWeights": {
         "aprendizaje": 0.0926,
         "autoridad": 0.016,
@@ -115,12 +117,13 @@
       "to": "D-226",
       "title": "Solo cuestionas tu marco cuando mantenerlo duele más",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Solo cuestionas tu marco cuando mantenerlo duele más» con «Ágoras pequeñas para encuentros que importan».",
       "relationTokens": 56,
-      "fichaTokens": 410,
+      "fichaTokens": 408,
       "tagWeights": {
-        "empresa": 1.0
+        "empresa": 1
       },
       "clusters": [
         "dialogos"
@@ -133,12 +136,13 @@
       "to": "D-248",
       "title": "El explorador no va a ganar la narración convirtiéndose en influencer",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El explorador no va a ganar la narración convirtiéndose en influencer» con «Ágoras pequeñas para encuentros que importan».",
       "relationTokens": 62,
-      "fichaTokens": 409,
+      "fichaTokens": 406,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "dialogos"
@@ -151,10 +155,11 @@
       "to": "D-127",
       "title": "Los detalles que atraviesan la barrera",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Encuentros significativos, Confianza y equipos desde las situaciones que describe cada texto.",
       "relationTokens": 49,
-      "fichaTokens": 294,
+      "fichaTokens": 288,
       "tagWeights": {
         "aprendizaje": 0.5,
         "decision": 0.5
@@ -170,10 +175,11 @@
       "to": "np-hospitalidad",
       "title": "La Posada: una infraestructura para el encuentro",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura comparada entre clústeres",
       "reading": "La curaduría de encuentros del ensayo permite leer el diseño de ágoras pequeñas desde la pertinencia del asunto y la disponibilidad de interlocutores, herramientas y tiempo.",
-      "relationTokens": 80,
-      "fichaTokens": 172,
+      "relationTokens": 78,
+      "fichaTokens": 164,
       "tagWeights": {
         "aprendizaje": 0.2,
         "documentacion": 0.1,

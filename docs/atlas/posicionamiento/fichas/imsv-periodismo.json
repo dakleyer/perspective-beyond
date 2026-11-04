@@ -13,14 +13,14 @@
   "clusters": [
     "imsv"
   ],
-  "context": "## IMSV · Periodismo, difusión y LatinoEmpresa\nLatinoEmpresa desarrolla el campo de periodismo y difusión: entrevistas, reportajes y experiencias humanas, culturales y empresariales entre América Latina y Europa. Reúne voces migrantes, personas emprendedoras, profesionales y comunidades de práctica.\n\nSu función institucional es hacer circular conocimiento con procedencia reconocible y facilitar encuentros. Los artículos y eventos se consultan en su sitio; el directorio de IMSV sitúa esa actividad junto a investigación y cultura.\nEtiquetas: Infraestructura de encuentros 40.00%; Evidencia, procedencia y atribución 30.00%; Memoria, comunidad y territorio 30.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-periodismo/\nDocumento de origen: https://integralmanagement.ch/ecosistema/\n\n",
+  "context": "## IMSV · Periodismo, difusión y LatinoEmpresa\nLatinoEmpresa desarrolla el campo de periodismo y difusión: entrevistas, reportajes y experiencias humanas, culturales y empresariales entre América Latina y Europa. Reúne voces migrantes, personas emprendedoras, profesionales y comunidades de práctica.\n\nSu función institucional es hacer circular conocimiento con procedencia reconocible y facilitar encuentros. Los artículos y eventos se consultan en su sitio; el directorio de IMSV sitúa esa actividad junto a investigación y cultura.\nTags: Encounter infrastructure 40.00%; Evidence, provenance and attribution 30.00%; Memory, community and territory 30.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-periodismo/\nSource document: https://integralmanagement.ch/ecosistema/\n\n",
   "readingSource": {
     "url": "https://integralmanagement.ch/ecosistema/",
     "section": "Institutional page",
     "observed": "2026-11-04",
     "sourceSha256": "85017c9afd92f33714221bcddec865d08cd707cc1863517a96dd4fbfbc0cd29e"
   },
-  "tokens": 177,
+  "tokens": 169,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -28,10 +28,11 @@
       "to": "S14",
       "title": "The Integral Management Society",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "institutional function",
       "reading": "La ficha explica periodismo, difusión y latinoempresa dentro de la asociación.",
-      "relationTokens": 49,
-      "fichaTokens": 380,
+      "relationTokens": 47,
+      "fichaTokens": 371,
       "tagWeights": {
         "empresa": 0.2,
         "autoridad": 0.2,
@@ -50,10 +51,11 @@
       "to": "L001",
       "title": "The Integral Management Society : Institución de frontera desde 1898",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documented institutional reading",
       "reading": "El ensayo de LatinoEmpresa desarrolla una lectura histórica y conceptual de esa trayectoria.",
-      "relationTokens": 59,
-      "fichaTokens": 304,
+      "relationTokens": 57,
+      "fichaTokens": 300,
       "tagWeights": {
         "decision": 0.2,
         "empresa": 0.5,
@@ -70,10 +72,11 @@
       "to": "imsv-ecosistema",
       "title": "IMSV · Directorio de funciones y entidades",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documented institutional reading",
       "reading": "LatinoEmpresa desarrolla periodismo, difusión y encuentro entre comunidades.",
-      "relationTokens": 52,
-      "fichaTokens": 216,
+      "relationTokens": 50,
+      "fichaTokens": 208,
       "tagWeights": {
         "empresa": 0.3,
         "encuentros": 0.3,

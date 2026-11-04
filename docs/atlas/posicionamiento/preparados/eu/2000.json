@@ -27,8 +27,10 @@
     "aliases": [
       "https://jubap.eu/"
     ],
-    "header": "# Posicionamiento · JubAp.EU\nDocumento de origen: https://jubap.eu/\n\n",
-    "headerTokens": 20,
+    "header": "# Positioning · JubAp.EU\nSource document: https://jubap.eu/\n\n",
+    "headerTokens": 18,
+    "headerEn": "# Positioning · JubAp.EU\nSource document: https://jubap.eu/\n\n",
+    "headerTokensEn": 18,
     "type": "documento",
     "focus": "E2",
     "seeds": [
@@ -37,11 +39,11 @@
   },
   "budget": {
     "limit": 2000,
-    "used": 1742,
-    "remaining": 258,
-    "nextBlock": 441,
+    "used": 1687,
+    "remaining": 313,
+    "nextBlock": 432,
     "encoding": "o200k_base",
-    "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
+    "accounting": "Sum of independently encoded blocks: document header, card and incoming relationship. The budget applies to selected reading content."
   },
   "reachable": 28,
   "selected": 7,
@@ -80,7 +82,7 @@
       "type": "documento",
       "url": "https://jubap.eu/",
       "original": "https://jubap.eu/",
-      "summary": "Documento desde el que se abre este posicionamiento.",
+      "summary": "Document from which this positioning opens.",
       "tags": [],
       "tagWeights": {},
       "clusters": [
@@ -118,7 +120,7 @@
         "perspectiva": 0.15,
         "transformacion": 0.25
       },
-      "contextTokens": 115,
+      "contextTokens": 110,
       "distance": 1,
       "parent": "doc-63aa9c575ad7473553-entrada",
       "routeEdge": null,
@@ -157,7 +159,7 @@
         "sourceSha256": "65432f39c78ee9915260dfabdca77671cf3e50a3e3b74453c654b1045c81b718"
       },
       "readingSummary": "Un MVP regional de inteligencia de producto para entender la conversión en boutiques de lujo de Oriente Medio, India y África.",
-      "contextTokens": 204,
+      "contextTokens": 199,
       "distance": 2,
       "parent": "E2",
       "routeEdge": "navigation:position-nav-E2-E1221",
@@ -194,7 +196,7 @@
         "economia": 0.1538,
         "perspectiva": 0.1538
       },
-      "contextTokens": 152,
+      "contextTokens": 146,
       "distance": 2,
       "parent": "E2",
       "routeEdge": "navigation:position-nav-E2-E1628",
@@ -233,7 +235,7 @@
         "empresa": 0.2105,
         "perspectiva": 0.2631
       },
-      "contextTokens": 154,
+      "contextTokens": 148,
       "distance": 2,
       "parent": "E2",
       "routeEdge": "navigation:position-nav-E2-E1731",
@@ -276,7 +278,7 @@
         "sourceSha256": "7c4f3036b4bcae8376fa0e42c9def4f87a1d6c91b1a3d963fd26a70ce33b7aff"
       },
       "readingSummary": "Changing the person so the organization can see what it could not — the perspective engine behind JUBAP.",
-      "contextTokens": 294,
+      "contextTokens": 286,
       "distance": 3,
       "parent": "E1628",
       "routeEdge": "documento:R005",
@@ -323,7 +325,7 @@
         "sourceSha256": "9236529defc72856fef25bc6fa6a8c53daf211be03f573205b2d2d195bf40e00"
       },
       "readingSummary": "A bottom-up transformation that turned a workforce facing extinction into the reason the airport was kept, reformed and grown.",
-      "contextTokens": 370,
+      "contextTokens": 361,
       "distance": 3,
       "parent": "E1628",
       "routeEdge": "documento:R002",
@@ -354,7 +356,7 @@
         "empresa": 0.5556,
         "evidencia": 0.2222
       },
-      "contextTokens": 144,
+      "contextTokens": 136,
       "distance": 3,
       "parent": "E1628",
       "routeEdge": "documento:D065",
@@ -366,8 +368,8 @@
       "id": "contiene:doc-63aa9c575ad7473553-entrada:E2",
       "from": "doc-63aa9c575ad7473553-entrada",
       "to": "E2",
-      "kind": "ficha del documento",
-      "reading": "Esta pieza abre la lectura desde su documento de origen.",
+      "kind": "document card",
+      "reading": "This piece opens the reading from its source document.",
       "route": true
     },
     {
@@ -518,7 +520,7 @@
         "perspectiva": 0.15,
         "transformacion": 0.25
       },
-      "contextTokens": 115,
+      "contextTokens": 110,
       "distance": 1,
       "parent": "doc-63aa9c575ad7473553-entrada",
       "routeEdge": null,
@@ -557,7 +559,7 @@
         "sourceSha256": "65432f39c78ee9915260dfabdca77671cf3e50a3e3b74453c654b1045c81b718"
       },
       "readingSummary": "Un MVP regional de inteligencia de producto para entender la conversión en boutiques de lujo de Oriente Medio, India y África.",
-      "contextTokens": 204,
+      "contextTokens": 199,
       "distance": 2,
       "parent": "E2",
       "routeEdge": "navigation:position-nav-E2-E1221",
@@ -594,7 +596,7 @@
         "economia": 0.1538,
         "perspectiva": 0.1538
       },
-      "contextTokens": 152,
+      "contextTokens": 146,
       "distance": 2,
       "parent": "E2",
       "routeEdge": "navigation:position-nav-E2-E1628",
@@ -633,7 +635,7 @@
         "empresa": 0.2105,
         "perspectiva": 0.2631
       },
-      "contextTokens": 154,
+      "contextTokens": 148,
       "distance": 2,
       "parent": "E2",
       "routeEdge": "navigation:position-nav-E2-E1731",
@@ -676,7 +678,7 @@
         "sourceSha256": "7c4f3036b4bcae8376fa0e42c9def4f87a1d6c91b1a3d963fd26a70ce33b7aff"
       },
       "readingSummary": "Changing the person so the organization can see what it could not — the perspective engine behind JUBAP.",
-      "contextTokens": 294,
+      "contextTokens": 286,
       "distance": 3,
       "parent": "E1628",
       "routeEdge": "documento:R005",
@@ -723,7 +725,7 @@
         "sourceSha256": "9236529defc72856fef25bc6fa6a8c53daf211be03f573205b2d2d195bf40e00"
       },
       "readingSummary": "A bottom-up transformation that turned a workforce facing extinction into the reason the airport was kept, reformed and grown.",
-      "contextTokens": 370,
+      "contextTokens": 361,
       "distance": 3,
       "parent": "E1628",
       "routeEdge": "documento:R002",
@@ -754,12 +756,12 @@
         "empresa": 0.5556,
         "evidencia": 0.2222
       },
-      "contextTokens": 144,
+      "contextTokens": 136,
       "distance": 3,
       "parent": "E1628",
       "routeEdge": "documento:D065",
       "affinity": 1
     }
   ],
-  "reading": "# Posicionamiento · JubAp.EU\nDocumento de origen: https://jubap.eu/\n\n## JubAp.EU\nJubAp.eu supports high-stakes socio-technical transformations where technology, operating model or organizational decisions define long-term viability.\nEtiquetas: Decisiones y responsabilidad 10.00%; Empresa y gestión 45.00%; Índices, contacto y políticas 5.00%; Cambio de perspectiva 15.00%; Transformación y continuidad operativa 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-eu-e2/\nDocumento de origen: https://jubap.eu/\n\nJubAp.EU → Field Notes · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «Last articles» abre «Field Notes».\nFuente de la relación: https://jubap.eu/\n\n## Field Notes\nUn MVP regional de inteligencia de producto para entender la conversión en boutiques de lujo de Oriente Medio, India y África.\n\nCar Evolution is an operationally tested mobility-orchestration product, validated as an MVP at scale and prepared for European deployment and adaptation.\n\nMission-critical operational intelligence, regime-aware systems and orchestration capabilities for complex international programmes and consortia.\n\nPublic map of JubAp.eu, IMSV.org and Tegrity.AI research programmes, software platforms, engineering capabilities and ecosystem roles.\n\nReveal the strategic options the current frame leaves unseen. Compare value, risk and uncertainty, then shape a more defensible direction for the organization.\nEtiquetas: Agentes y coordinación distribuida 33.34%; Movilidad e infraestructura 33.33%; Índices, contacto y políticas 33.33%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/field-notes-e1221/\nDocumento de origen: https://jubap.eu/field-notes/\n\nJubAp.EU → The JUBAP Framework · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «Jump Up Business Action Plan» abre «The JUBAP Framework».\nFuente de la relación: https://jubap.eu/\n\n## The JUBAP Framework\nEl marco combina el cambio de nivel de observación de UP con el filtro de acciones de JUMP. Las preguntas sobre participación, desbloqueo, movimiento observable y propagación ayudan a elegir por dónde empezar.\nEtiquetas: Autoridad, permisos y delegación 15.39%; Control mínimo y suficiencia 15.39%; Decisiones y responsabilidad 23.08%; Investigación y documentación técnica 15.38%; Economía, costes y liquidez 15.38%; Cambio de perspectiva 15.38%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-jubap-framework\nDocumento de origen: https://jubap.eu/the-jubap-framework/\n\nJubAp.EU → Reframing Value Creation · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «strategic-reframing account» abre «Reframing Value Creation».\nFuente de la relación: https://jubap.eu/\n\n## Reframing Value Creation\nEl cambio de marco permite reconocer valor que ya existe en recursos, prácticas y relaciones. Una intervención puede comenzar por reorganizar esas capacidades y darles una forma que la organización pueda usar.\nEtiquetas: Casos de uso y aplicaciones 10.53%; Control mínimo y suficiencia 10.53%; Decisiones y responsabilidad 10.53%; Investigación y documentación técnica 10.53%; Economía, costes y liquidez 10.52%; Empresa y gestión 21.05%; Cambio de perspectiva 26.31%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-reframing\nDocumento de origen: https://jubap.eu/reframing-value-creation/\n\nThe JUBAP Framework → Case Study: HT · editorial comparison. For a complementary reading, see [Human transformation: the perspective engine](https://jubap.eu/human-transformation/).\n\n## Case Study: HT\nChanging the person so the organization can see what it could not — the perspective engine behind JUBAP.\n\nWithin the Nueva Perspectiva philosophy · Stewarded by The Integral Management Society / IMSV.org\n\nA company changes when the people inside it can see and do what they could not before. That is why our organizational work is paired with a discipline of human transformation — and why both live inside the same philosophy: Nueva Perspectiva .\n\nMindfulness is often what people notice first, but it is only one instrument. Human transformation is the broader practice: transpersonal coaching, experiential work, deep personal retreats, emotional intelligence and conscious attention — chosen and combined for the situation. The aim is never a pleasant experience that fades. It is a genuine change of perspective that lets a person locate their own blockages, see new options, and act.\n\nJUBAP is Nueva Perspectiva put to work. The framework moves in two directions — and human transformation powers one of them.\nEtiquetas: Capacidad humana y deuda de inteligencia 6.90%; Casos de uso y aplicaciones 17.24%; Empresa y gestión 24.14%; Cambio de perspectiva 27.58%; Transformación y continuidad operativa 24.14%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-study-ht-e1630/\nDocumento de origen: https://jubap.eu/human-transformation/\n\nThe JUBAP Framework → Case Study: AICM · editorial comparison. For a complementary reading, see [The AICM transformation programme](https://jubap.eu/aicm-mexico-city-airport-transformation/).\n\n## Case Study: AICM\nA bottom-up transformation that turned a workforce facing extinction into the reason the airport was kept, reformed and grown.\n\nEnterprise transformation through JUBAP · Stewarded by The Integral Management Society / IMSV.org\n\nThe client was the Mexico City International Airport (AICM) — the largest airport in Latin America, handling 44M+ passengers a year, and at the time one of the most punctual in the world.\n\nThe intervention landed in one of the most sensitive episodes in recent Mexican infrastructure. The New Mexico City International Airport (NAICM) , a megaproject valued at roughly USD 13 billion , was already escalating in cost and tangled in governance tension and political instability.\n\nThat produced two crises at once. A national strategic problem : how to keep and modernize the country’s air infrastructure while the new airport’s future stayed unresolved. And a deep human problem : more than a thousand highly experienced, largely unionized airport workers — one of the largest concentrations of operational airport expertise in Mexico — faced redundancy, displacement or irrelevance, precisely when the country still depended on them. The engagement came shortly after the company’s work in another politically exposed national programme, the Chicontepec energy megaproject.\nEtiquetas: Casos de uso y aplicaciones 14.29%; Control mínimo y suficiencia 8.57%; Empresa y gestión 20.00%; Integridad y seguridad de IA 5.71%; Movilidad e infraestructura 31.43%; Cambio de perspectiva 5.71%; Transformación y continuidad operativa 14.29%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-study-aicm-e1633/\nDocumento de origen: https://jubap.eu/aicm-mexico-city-airport-transformation/\n\nNestlé North America — Where JUBAP Was Named → The JUBAP Framework · documented use. The Nestlé account describes how the dashboard, liberation strategy and six-domain root-cause tool were used as a sequence.\n\n## Nestlé North America — Where JUBAP Was Named\nEl caso permite examinar cómo una intervención se integró en prácticas de mejora, mantenimiento y gestión ya presentes. La atención al punto de bloqueo ayuda a relacionar marcos que por separado explicaban solo una parte del problema.\nEtiquetas: Aprendizaje y transmisión de capacidades 22.22%; Empresa y gestión 55.56%; Evidencia, procedencia y atribución 22.22%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-nestle\nDocumento de origen: https://jubap.eu/nestle-case-study-where-jubap-was-first-named/\n\n"
+  "reading": "# Positioning · JubAp.EU\nSource document: https://jubap.eu/\n\n## JubAp.EU\nJubAp.eu supports high-stakes socio-technical transformations where technology, operating model or organizational decisions define long-term viability.\nTags: Decisions and responsibility 10.00%; Business and management 45.00%; Indexes, contact and policies 5.00%; Change of perspective 15.00%; Transformation and operational continuity 25.00%\nCard: https://dakleyer.github.io/perspective-beyond/sources/jubap-eu-e2/\nSource document: https://jubap.eu/\n\nJubAp.EU → Field Notes · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «Last articles» abre «Field Notes».\nRelationship source: https://jubap.eu/\n\n## Field Notes\nUn MVP regional de inteligencia de producto para entender la conversión en boutiques de lujo de Oriente Medio, India y África.\n\nCar Evolution is an operationally tested mobility-orchestration product, validated as an MVP at scale and prepared for European deployment and adaptation.\n\nMission-critical operational intelligence, regime-aware systems and orchestration capabilities for complex international programmes and consortia.\n\nPublic map of JubAp.eu, IMSV.org and Tegrity.AI research programmes, software platforms, engineering capabilities and ecosystem roles.\n\nReveal the strategic options the current frame leaves unseen. Compare value, risk and uncertainty, then shape a more defensible direction for the organization.\nTags: Agents and distributed coordination 33.34%; Mobility and infrastructure 33.33%; Indexes, contact and policies 33.33%\nCard: https://dakleyer.github.io/perspective-beyond/sources/field-notes-e1221/\nSource document: https://jubap.eu/field-notes/\n\nJubAp.EU → The JUBAP Framework · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «Jump Up Business Action Plan» abre «The JUBAP Framework».\nRelationship source: https://jubap.eu/\n\n## The JUBAP Framework\nEl marco combina el cambio de nivel de observación de UP con el filtro de acciones de JUMP. Las preguntas sobre participación, desbloqueo, movimiento observable y propagación ayudan a elegir por dónde empezar.\nTags: Authority, permissions and delegation 15.39%; Minimum control and sufficiency 15.39%; Decisions and responsibility 23.08%; Research and technical documentation 15.38%; Economics, costs and liquidity 15.38%; Change of perspective 15.38%\nCard: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-jubap-framework\nSource document: https://jubap.eu/the-jubap-framework/\n\nJubAp.EU → Reframing Value Creation · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «strategic-reframing account» abre «Reframing Value Creation».\nRelationship source: https://jubap.eu/\n\n## Reframing Value Creation\nEl cambio de marco permite reconocer valor que ya existe en recursos, prácticas y relaciones. Una intervención puede comenzar por reorganizar esas capacidades y darles una forma que la organización pueda usar.\nTags: Use cases and applications 10.53%; Minimum control and sufficiency 10.53%; Decisions and responsibility 10.53%; Research and technical documentation 10.53%; Economics, costs and liquidity 10.52%; Business and management 21.05%; Change of perspective 26.31%\nCard: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-reframing\nSource document: https://jubap.eu/reframing-value-creation/\n\nThe JUBAP Framework → Case Study: HT · editorial comparison. For a complementary reading, see [Human transformation: the perspective engine](https://jubap.eu/human-transformation/).\n\n## Case Study: HT\nChanging the person so the organization can see what it could not — the perspective engine behind JUBAP.\n\nWithin the Nueva Perspectiva philosophy · Stewarded by The Integral Management Society / IMSV.org\n\nA company changes when the people inside it can see and do what they could not before. That is why our organizational work is paired with a discipline of human transformation — and why both live inside the same philosophy: Nueva Perspectiva .\n\nMindfulness is often what people notice first, but it is only one instrument. Human transformation is the broader practice: transpersonal coaching, experiential work, deep personal retreats, emotional intelligence and conscious attention — chosen and combined for the situation. The aim is never a pleasant experience that fades. It is a genuine change of perspective that lets a person locate their own blockages, see new options, and act.\n\nJUBAP is Nueva Perspectiva put to work. The framework moves in two directions — and human transformation powers one of them.\nTags: Human capability and intelligence debt 6.90%; Use cases and applications 17.24%; Business and management 24.14%; Change of perspective 27.58%; Transformation and operational continuity 24.14%\nCard: https://dakleyer.github.io/perspective-beyond/sources/case-study-ht-e1630/\nSource document: https://jubap.eu/human-transformation/\n\nThe JUBAP Framework → Case Study: AICM · editorial comparison. For a complementary reading, see [The AICM transformation programme](https://jubap.eu/aicm-mexico-city-airport-transformation/).\n\n## Case Study: AICM\nA bottom-up transformation that turned a workforce facing extinction into the reason the airport was kept, reformed and grown.\n\nEnterprise transformation through JUBAP · Stewarded by The Integral Management Society / IMSV.org\n\nThe client was the Mexico City International Airport (AICM) — the largest airport in Latin America, handling 44M+ passengers a year, and at the time one of the most punctual in the world.\n\nThe intervention landed in one of the most sensitive episodes in recent Mexican infrastructure. The New Mexico City International Airport (NAICM) , a megaproject valued at roughly USD 13 billion , was already escalating in cost and tangled in governance tension and political instability.\n\nThat produced two crises at once. A national strategic problem : how to keep and modernize the country’s air infrastructure while the new airport’s future stayed unresolved. And a deep human problem : more than a thousand highly experienced, largely unionized airport workers — one of the largest concentrations of operational airport expertise in Mexico — faced redundancy, displacement or irrelevance, precisely when the country still depended on them. The engagement came shortly after the company’s work in another politically exposed national programme, the Chicontepec energy megaproject.\nTags: Use cases and applications 14.29%; Minimum control and sufficiency 8.57%; Business and management 20.00%; AI integrity and security 5.71%; Mobility and infrastructure 31.43%; Change of perspective 5.71%; Transformation and operational continuity 14.29%\nCard: https://dakleyer.github.io/perspective-beyond/sources/case-study-aicm-e1633/\nSource document: https://jubap.eu/aicm-mexico-city-airport-transformation/\n\nNestlé North America — Where JUBAP Was Named → The JUBAP Framework · documented use. The Nestlé account describes how the dashboard, liberation strategy and six-domain root-cause tool were used as a sequence.\n\n## Nestlé North America — Where JUBAP Was Named\nEl caso permite examinar cómo una intervención se integró en prácticas de mejora, mantenimiento y gestión ya presentes. La atención al punto de bloqueo ayuda a relacionar marcos que por separado explicaban solo una parte del problema.\nTags: Learning and capability transmission 22.22%; Business and management 55.56%; Evidence, provenance and attribution 22.22%\nCard: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-nestle\nSource document: https://jubap.eu/nestle-case-study-where-jubap-was-first-named/\n\n"
 }

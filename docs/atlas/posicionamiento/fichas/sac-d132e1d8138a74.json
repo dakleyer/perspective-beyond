@@ -6,14 +6,13 @@
   "documentId": "doc-0bf754ab19c369affa",
   "sourceIds": [],
   "tagWeights": {
-    "documentacion": 1.0
+    "documentacion": 1
   },
   "clusters": [
     "research"
   ],
-  "context": "## 00M and 00N publication and preservation record\nContenido de la fuente: Preservation method · Existing READMEs preserved · Unchanged authored payloads.\nEtiquetas: Investigación y documentación técnica 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-d132e1d8138a74.html\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/66dbe8134e1fd5fbc586152a8129615898052485/research/ecosystem-awareness/baseline/audits/00M_00N_PUBLICATION_PRESERVATION_2026-10-02.md\n\n",
-  "readingSource": null,
-  "tokens": 151,
+  "context": "## 00M and 00N publication and preservation record\nContenido de la fuente: Preservation method · Existing READMEs preserved · Unchanged authored payloads.\nTags: Research and technical documentation 100.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-d132e1d8138a74.html\nSource document: https://github.com/dakleyer/structural-awareness-contributions/blob/66dbe8134e1fd5fbc586152a8129615898052485/research/ecosystem-awareness/baseline/audits/00M_00N_PUBLICATION_PRESERVATION_2026-10-02.md\n\n",
+  "tokens": 149,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -21,10 +20,11 @@
       "to": "GH001",
       "title": "Structural Awareness Programme",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Mathematical and functional plausibility — current reading route» con el rótulo «Publication and preservation record».",
-      "relationTokens": 101,
-      "fichaTokens": 179,
+      "relationTokens": 99,
+      "fichaTokens": 166,
       "tagWeights": {
         "cambio-regimen": 0.0625,
         "capacidad-humana": 0.0625,
@@ -44,10 +44,11 @@
       "to": "GH017",
       "title": "Ecosystem Positioning",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Mathematical and functional plausibility» con el rótulo «preservation record».",
-      "relationTokens": 105,
-      "fichaTokens": 261,
+      "relationTokens": 103,
+      "fichaTokens": 239,
       "tagWeights": {
         "agentes": 0.1081,
         "autoridad": 0.0541,
@@ -74,10 +75,11 @@
       "to": "sac-991dbae1df8f3a",
       "title": "Ecosystem Awareness — entry-point router",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Mathematical and functional plausibility — current reading route» con el rótulo «Publication and preservation record».",
-      "relationTokens": 109,
-      "fichaTokens": 181,
+      "relationTokens": 107,
+      "fichaTokens": 169,
       "tagWeights": {
         "cartografia": 0.4167,
         "casos": 0.0834,
@@ -96,10 +98,11 @@
       "to": "sac-c3831fbc3d853f",
       "title": "Ecosystem Awareness — canonical corpus",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Mathematical and functional plausibility — current reading route» con el rótulo «Publication and preservation record».",
-      "relationTokens": 111,
-      "fichaTokens": 184,
+      "relationTokens": 109,
+      "fichaTokens": 175,
       "tagWeights": {
         "cartografia": 0.3125,
         "casos": 0.0625,
@@ -118,10 +121,11 @@
       "to": "sac-ae5cfdf16d6d42",
       "title": "Preserved non-canonical working inputs",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Archivo completo de enlaces del corte» con el rótulo «00M and 00N publication and preservation record».",
-      "relationTokens": 122,
-      "fichaTokens": 175,
+      "relationTokens": 120,
+      "fichaTokens": 169,
       "tagWeights": {
         "decision": 0.3334,
         "documentacion": 0.3333,
@@ -138,12 +142,13 @@
       "to": "sac-613b4fc106d800",
       "title": "Visual reading aids for 00M and 00N",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «From mechanism to requirements» con el rótulo «Preservation record».",
-      "relationTokens": 112,
-      "fichaTokens": 136,
+      "relationTokens": 110,
+      "fichaTokens": 133,
       "tagWeights": {
-        "matematicas": 1.0
+        "matematicas": 1
       },
       "clusters": [
         "research"
@@ -156,10 +161,11 @@
       "to": "sac-c3831fbc3d853f",
       "title": "Ecosystem Awareness — canonical corpus",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "ruta de lectura",
       "reading": "El índice de la carpeta sitúa este documento dentro de su línea de trabajo.",
-      "relationTokens": 112,
-      "fichaTokens": 184,
+      "relationTokens": 110,
+      "fichaTokens": 175,
       "tagWeights": {
         "cartografia": 0.3125,
         "casos": 0.0625,

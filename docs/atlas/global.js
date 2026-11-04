@@ -1,7 +1,7 @@
 'use strict';
 import {parseFocusWeights} from './session-config.mjs';
 const get = id => document.getElementById(id);
-const modeLabels = {closed:'Cerrado',porous:'Poroso',federated:'Federado'};
+const modeLabels = {closed:'Closed',porous:'Porous',federated:'Federated'};
 const pageRoot = new URL('./',location.href);
 const rawRoot = 'https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/';
 const readURL = key => new URL('lectura/'+key+'.html',pageRoot).href;
@@ -56,8 +56,8 @@ async function start() {
       ((siteParam===null||siteParam==='all')&&modeParam!=='federated')))||
     (modeParam==='porous'&&!Object.hasOwn(delta.text_entries.clusters[siteParam]?.porous??{},bridgeParam))
   )) {
-    get('metrics').replaceChildren('Esta configuración tiene un clúster, alcance o puente inválido. ',
-      link(new URL('./#asistente',pageRoot),'Abrir el selector para corregirla'));
+    get('metrics').replaceChildren('This configuration has an invalid cluster, scope or bridge. ',
+      link(new URL('./#asistente',pageRoot),'Open the selector to correct it'));
     return;
   }
   const defaultSite = Object.hasOwn(clusters,params.get('site')) ? params.get('site') : 'all';
@@ -79,7 +79,7 @@ async function start() {
   query.value = params.get('buscar') || '';
 
   for (const select of [origin,filter]) {
-    select.add(new Option('Toda la constelación','all'));
+    select.add(new Option('The whole constellation','all'));
     for (const key of keys) select.add(new Option(clusters[key][0],key));
   }
   origin.value = defaultSite; filter.value = defaultSite;
@@ -95,10 +95,10 @@ async function start() {
   if (Object.hasOwn(topics,params.get('etiqueta'))) topicFilter.value=params.get('etiqueta');
   for (const key of keys) {
     const block = element('article',null,'site');
-    block.append(link('?site='+key+'#explorar',clusters[key][0]),element('p',clusters[key][1]+' · '+counts[key]+' fichas y fuentes.'));
+    block.append(link('?site='+key+'#explorar',clusters[key][0]),element('p',clusters[key][1]+' · '+counts[key]+' cards and sources.'));
     get('clusters').append(block);
   }
-  get('metrics').textContent = base.concepts.length+' conceptos · '+records.length+' fichas y fuentes · '+keys.length+' clústeres';
+  get('metrics').textContent = base.concepts.length+' concepts · '+records.length+' cards and sources · '+keys.length+' clusters';
   const recordNames = new Map(records.map(r=>[r.id,norm([
     r.title,r.id,delta.editorial_cards[r.id]?.summary||'',
     ...sourceTags[r.id].map(key=>topics[key].label)
@@ -127,16 +127,16 @@ async function start() {
         const entry=new URL('./#asistente',pageRoot);
         entry.search=new URLSearchParams({site:membership[item.id],modo:'closed',config:'1',rol:'lector',
           lectura:'paraphrase',enfoque:'parejo',desde:item.id});
-        box.append(link(item.url,'Abrir original'),document.createTextNode(' · '),link(radiusURL(item.id),'Mapa alrededor de esta ficha'),
-          document.createTextNode(' · '),link(entry,'Conecta tu asistente a esta ficha'));
+        box.append(link(item.url,'Open original'),document.createTextNode(' · '),link(radiusURL(item.id),'Map around this card'),
+          document.createTextNode(' · '),link(entry,'Connect your assistant to this card'));
       } else {
         heading.append(link(conceptPage(item),item.original_label||item.label));
-        box.append(heading,element('p',item.definition),link(item.url?conceptPage(item):new URL('../?focus='+encodeURIComponent(item.id)+'#atlas',pageRoot),'Ver en el grafo'),
-          document.createTextNode(' · '),link(radiusURL(item.id,'ideas'),'Mapa alrededor de este concepto'));
+        box.append(heading,element('p',item.definition),link(item.url?conceptPage(item):new URL('../?focus='+encodeURIComponent(item.id)+'#atlas',pageRoot),'View in the graph'),
+          document.createTextNode(' · '),link(radiusURL(item.id,'ideas'),'Map around this concept'));
       }
       result.append(box);
     }
-    get('result-count').textContent=available.length+' resultados'+(available.length>limit?' · '+limit+' visibles':'');
+    get('result-count').textContent=available.length+' results'+(available.length>limit?' · '+limit+' visible':'');
     get('more').hidden=available.length<=limit;
   }
   for (const field of [filter,kind,topicFilter]) field.addEventListener('change',()=>search());
@@ -186,10 +186,10 @@ async function start() {
     const active=new Set(s.active);
     const matches=ids=>ids.some(id=>active.has(membership[id]));
     const groups=[
-      ['Clústeres',s.active.map(k=>['cluster:'+k,clusters[k][0]])],
-      ['Etiquetas temáticas',Object.entries(topics).filter(([,v])=>matches(v.sources)).map(([k,v])=>['tema:'+k,v.label])],
-      ['Perspectivas documentadas',Object.entries(delta.focus_voices||{}).filter(([,v])=>matches(v.sources)).map(([k,v])=>['voz:'+k,v.label])],
-      ['Etiquetas conceptuales',base.concepts.filter(c=>matches(c.sources)).map(c=>['concepto:'+c.id,c.original_label||c.label]).sort((a,b)=>a[1].localeCompare(b[1],'es'))]
+      ['Clusters',s.active.map(k=>['cluster:'+k,clusters[k][0]])],
+      ['Thematic tags',Object.entries(topics).filter(([,v])=>matches(v.sources)).map(([k,v])=>['tema:'+k,v.label])],
+      ['Documented perspectives',Object.entries(delta.focus_voices||{}).filter(([,v])=>matches(v.sources)).map(([k,v])=>['voz:'+k,v.label])],
+      ['Conceptual tags',base.concepts.filter(c=>matches(c.sources)).map(c=>['concepto:'+c.id,c.original_label||c.label]).sort((a,b)=>a[1].localeCompare(b[1],'es'))]
     ];
     focusItems=new Map(groups.flatMap(([,items])=>items));
     target.replaceChildren(...groups.filter(([,items])=>items.length).map(([label,items])=>{
@@ -215,14 +215,14 @@ async function start() {
       const row=element('div',null,'focus-row');row.dataset.key=key;
       const input=element('input');
       input.type='number';input.min='0';input.max='10000';input.step='any';input.value=value;
-      input.setAttribute('aria-label','Peso relativo de '+label);
+      input.setAttribute('aria-label','Relative weight of '+label);
       input.addEventListener('input',()=>{
         const n=input.valueAsNumber;
         weights.set(key,Number.isFinite(n)?Math.min(10000,Math.max(0,n)):0);
         render();
       });
-      const remove=element('button','Quitar','secondary');remove.type='button';
-      remove.setAttribute('aria-label','Quitar peso de '+label);
+      const remove=element('button','Remove','secondary');remove.type='button';
+      remove.setAttribute('aria-label','Remove weight of '+label);
       remove.addEventListener('click',()=>{weights.delete(key);drawWeightRows();render();target.focus();});
       row.append(element('span',label),input,element('span',null,'focus-percent'),remove);
       focusRows.append(row);
@@ -254,12 +254,12 @@ async function start() {
   }
   const percent = n => (n/10).toLocaleString('es',{maximumFractionDigits:1})+' %';
   function focusInstruction(f) {
-    if(f.profile==='transversal')return 'Enfoque transversal. Recorre conexiones entre perspectivas permitidas y explica qué aportan en conjunto.';
-    if(f.profile==='parejo')return 'Enfoque parejo. Da atención equilibrada a las perspectivas pertinentes dentro del alcance.';
-    return 'Enfoque ponderado. '+f.items.map(x=>x.label+' '+percent(x.tenths)).join(' · ')+
-      '. Usa este reparto como prioridad de lectura y síntesis. Si una ficha encaja en varias etiquetas, utilízala una vez.'+
-      (f.strict?' Usa solo fichas con al menos una de estas etiquetas: '+f.topicKeys.map(key=>topics[key].label).join(', ')+
-        '. Conserva relaciones entre fichas que cumplan el filtro.\nÍndices temáticos: '+
+    if(f.profile==='transversal')return 'Cross-cutting focus. Traverse connections between permitted perspectives and explain what they contribute together.';
+    if(f.profile==='parejo')return 'Balanced focus. Give balanced attention to relevant perspectives within scope.';
+    return 'Weighted focus. '+f.items.map(x=>x.label+' '+percent(x.tenths)).join(' · ')+
+      '. Use this allocation as a reading and synthesis priority. If a card fits several tags, use it once.'+
+      (f.strict?' Use only cards with at least one of these tags: '+f.topicKeys.map(key=>topics[key].label).join(', ')+
+        '. Retain relationships between cards meeting the filter.\nThematic indexes: '+
         f.topicKeys.map(key=>new URL('temas/'+key+'.txt',pageRoot).href).join(' · '):'');
   }
   function startingRecord(s,f) {
@@ -270,24 +270,24 @@ async function start() {
     return record;
   }
   function instructions(s,f,start=startingRecord(s,f)) {
-    const originLabel=origin.value==='all'?'toda la constelación':clusters[origin.value][0];
-    const rules=mode.value==='closed'?'Consulta solo las fuentes del clúster de origen.'
-      :mode.value==='porous'?'Cruza solo el puente indicado y conserva su dirección.':'Sigue relaciones registradas entre los clústeres permitidos.';
-    const bridgeText=s.selected?'\nPuente: '+byId[s.selected.from].title+' → '+byId[s.selected.to].title+'. '+s.selected.reading:'';
+    const originLabel=origin.value==='all'?'the whole constellation':clusters[origin.value][0];
+    const rules=mode.value==='closed'?'Consult only sources from the origin cluster.'
+      :mode.value==='porous'?'Cross only the indicated bridge and retain its direction.':'Follow recorded relationships between permitted clusters.';
+    const bridgeText=s.selected?'\nBridge: '+byId[s.selected.from].title+' → '+byId[s.selected.to].title+'. '+s.selected.reading:'';
     const [roleLabel,roleRule]=roles[role.value];
     const [purposeLabel,purposeRule]=purposes[purpose.value];
     const customText=custom.value.trim();
-    return "En esta fase, el Atlas complementa la navegación y la comprensión de las webs. Cada página es un punto de entrada a sus fichas, conceptos, casos y fuentes; conserva la URL de origen y permite profundizar, relacionar ideas y volver al texto original. La prueba compara estos recorridos dirigidos con la navegación web convencional mediante tokens consumidos, pertinencia de las fuentes y comprensión del corpus.\n"+'Abre la entrada de Perspective Beyond: '+textEntry(f,pageRoot,start)+'\nOrigen: '+originLabel+' · Modo: '+modeLabels[mode.value]+'. '+
-      '\nPosicionamiento: '+positionField.value.trim()+' · Presupuesto de lectura: '+tokenBudget.value+' tokens. '+
-      rules+bridgeText+'\nRol: '+roleLabel+'. '+roleRule+'\nPropósito: '+purposeLabel+'. '+purposeRule+'\n'+focusInstruction(f)+
-      (start?'\nPunto de partida ['+start.id+']: '+start.title+'. Ficha: '+sourcePage(start)+'. Original: '+examinedOriginal(start)+
-        '. Usa esta fuente si es pertinente a la pregunta.':'')+
-      (customText?'\nInstrucción del lector: '+customText:'')+
-      '\nAplica esta configuración. Explica primero la idea con lenguaje claro y enlaces titulados. '+
-      'Integra la procedencia y la fecha donde ayuden a entenderla; presenta los ejemplos propios como propuestas. '+
-      'Reserva los identificadores internos y el registro técnico para cuando el lector los pida. '+
-      'Si todavía no hay una pregunta, pregunta qué quiere explorar el lector.\n\nGuía: '+
-      new URL('guide.html',pageRoot).href+'\nLecturas permitidas:\n'+
+    return "At this stage, the Atlas complements navigation and understanding of the websites. Each page is an entry point to its cards, concepts, cases and sources; it retains the source URL and allows readers to go deeper, relate ideas and return to the original text. The test compares these directed reading paths with conventional web navigation through tokens consumed, source relevance and corpus understanding.\n"+'Open the Perspective Beyond entry: '+textEntry(f,pageRoot,start)+'\nOrigin: '+originLabel+' · Mode: '+modeLabels[mode.value]+'. '+
+      '\nPositioning: '+positionField.value.trim()+' · Reading budget: '+tokenBudget.value+' tokens. '+
+      rules+bridgeText+'\nRole: '+roleLabel+'. '+roleRule+'\nPurpose: '+purposeLabel+'. '+purposeRule+'\n'+focusInstruction(f)+
+      (start?'\nStarting point ['+start.id+']: '+start.title+'. Card: '+sourcePage(start)+'. Original: '+examinedOriginal(start)+
+        '. Use this source if it is relevant to the question.':'')+
+      (customText?'\nReader\'s instruction: '+customText:'')+
+      '\nApply this configuration. First explain the idea in clear language with titled links. '+
+      'Integrate provenance and dates where they help understanding; present your own examples as proposals. '+
+      'Reserve internal identifiers and the technical record for when the reader requests them. '+
+      'If there is no question yet, ask what the reader wants to explore.\n\nGuide: '+
+      new URL('guide.html',pageRoot).href+'\nPermitted readings:\n'+
       s.active.map(k=>'- '+clusters[k][0]+': '+readURL(k)).join('\n');
   }
   function setConfiguration(url,f,start) {
@@ -322,16 +322,16 @@ async function start() {
   function markdown(s) {
     const f=weighting();
     s=filteredSession(s,f);
-    return '# Perspective Beyond · Atlas global\n\nEdición '+delta.edition+'\n\n'+instructions(s,f)+
-      '\n\n## Fichas y fuentes\n\n'+s.sources.map(r=>{
+    return '# Perspective Beyond · Global Atlas\n\nEdition '+delta.edition+'\n\n'+instructions(s,f)+
+      '\n\n## Cards and sources\n\n'+s.sources.map(r=>{
         const note=delta.editorial_cards[r.id];
         const tags=sourceTags[r.id].map(key=>'tema:'+key).join(' · ');
         return '- **'+r.title+'** ('+r.id+') · [Ficha]('+sourcePage(r)+') · [Original]('+r.url+')'+(tags?' · '+tags:'')+
           (note?'\n  - Lectura editorial: '+note.summary:'');
       }).join('\n')+
-      '\n\n## Conceptos con fuentes dentro del alcance\n\n'+s.concepts.map(c=>'- **'+(c.original_label||c.label)+'** ('+c.id+') · '+c.definition+' '+c.boundary+' [Ficha]('+conceptPage(c)+')').join('\n')+
-      '\n\n## Relaciones entre conceptos\n\n'+s.conceptEdges.map(e=>'- '+e.from+' → '+e.to+' · '+e.kind+'. '+(e.reading||e.relation_es||e.predicate||'')+' '+(e.condition_es||'')).join('\n')+
-      '\n\n## Puentes permitidos entre clústeres\n\n'+s.allowed.map(e=>'- '+e.from+' → '+e.to+' · '+e.kind+'. '+e.reading).join('\n')+'\n';
+      '\n\n## Concepts with sources within scope\n\n'+s.concepts.map(c=>'- **'+(c.original_label||c.label)+'** ('+c.id+') · '+c.definition+' '+c.boundary+' [Ficha]('+conceptPage(c)+')').join('\n')+
+      '\n\n## Relationships between concepts\n\n'+s.conceptEdges.map(e=>'- '+e.from+' → '+e.to+' · '+e.kind+'. '+(e.reading||e.relation_es||e.predicate||'')+' '+(e.condition_es||'')).join('\n')+
+      '\n\n## Puentes permitidos entre clusters\n\n'+s.allowed.map(e=>'- '+e.from+' → '+e.to+' · '+e.kind+'. '+e.reading).join('\n')+'\n';
   }
   function render() {
     const s=session();
@@ -345,27 +345,27 @@ async function start() {
     const rendered=new Map(f.items.map(item=>[item.key,percent(item.tenths)]));
     for(const row of focusRows.children)row.querySelector('.focus-percent').textContent=rendered.get(row.dataset.key)||'0 %';
     get('focus-preview').textContent=invalidFilter
-      ?'Añade un peso positivo para una etiqueta temática de este alcance o desactiva la selección exclusiva.'
+      ?'Add a positive weight for a thematic tag within this scope or disable exclusive selection.'
       :profile.value==='personalizado'&&!f.items.length
-      ?'Añade un peso positivo para personalizar la lectura. Ahora se reparte de forma pareja.' : focusInstruction(f);
+      ?'Add a positive weight to personalise the reading. It is currently distributed evenly.' : focusInstruction(f);
     if(invalidConfig){
-      const revise=element('button','Volver a elegir los pesos','secondary');revise.type='button';
+      const revise=element('button','Choose weights again','secondary');revise.type='button';
       revise.addEventListener('click',()=>{restoreError='';weights.clear();drawWeightRows();render();target.focus();});
       get('focus-preview').replaceChildren(document.createTextNode(restoreError+' '),revise);
     }
     get('bridge-field').hidden=mode.value!=='porous';
     get('scope').textContent=s.active.map(k=>clusters[k][0]).join(' · ')+
-      (invalidFilter?' · falta una etiqueta temática válida':' · '+scoped.sources.length+' fichas y fuentes');
+      (invalidFilter?' · a valid thematic tag is missing':' · '+scoped.sources.length+' cards and sources');
     get('role-help').textContent=roles[role.value][1];
     get('starting-point').replaceChildren();
     get('starting-point').hidden=!positionField.value.trim();
     if(positionField.value.trim()&&invalidFilter) {
-      get('starting-point').textContent='El punto de partida se comprobará al completar la selección.';
+      get('starting-point').textContent='The starting point will be checked when the selection is complete.';
     } else if(start) {
-      get('starting-point').append('Punto de partida · ',link(sourcePage(start),start.title),
-        ' · ',link(radiusURL(start.id,'ideas'),'Mapa de la ficha'));
+      get('starting-point').append('Starting point · ',link(sourcePage(start),start.title),
+        ' · ',link(radiusURL(start.id,'ideas'),'Card map'));
     } else if(positionField.value.trim()) {
-      get('starting-point').textContent='Posicionamiento: '+positionField.value.trim();
+      get('starting-point').textContent='Positioning: '+positionField.value.trim();
     }
     for(const id of ['copy-url','copy-config','copy','download'])get(id).disabled=invalidFilter||invalidConfig;
     for(const id of ['entry-url','entry-mirror','web-entry'])get(id).hidden=invalidFilter||invalidConfig;
@@ -399,25 +399,25 @@ async function start() {
     [...focusRows.children].find(row=>row.dataset.key===key)?.querySelector('input').focus();
   });
   get('copy-url').addEventListener('click',async()=>{
-    try{await navigator.clipboard.writeText(textEntry(weighting(),rawRoot));get('status').textContent='URL copiada. Pégala en tu asistente.';}
-    catch{get('entry-url').focus();get('status').textContent='Puedes copiar la dirección del enlace «Abrir URL de esta selección».';}
+    try{await navigator.clipboard.writeText(textEntry(weighting(),rawRoot));get('status').textContent='URL copied. Paste it into your assistant.';}
+    catch{get('entry-url').focus();get('status').textContent='You can copy the address of the “Open this selection\'s URL” link.';}
   });
   get('copy-config').addEventListener('click',async()=>{
-    try{await navigator.clipboard.writeText(webEntry());get('status').textContent='Enlace a la configuración web copiado.';}
-    catch{get('web-entry').focus();get('status').textContent='Puedes copiar la dirección del enlace «Abrir esta configuración web».';}
+    try{await navigator.clipboard.writeText(webEntry());get('status').textContent='Web configuration link copied.';}
+    catch{get('web-entry').focus();get('status').textContent='You can copy the address of the “Open this web configuration” link.';}
   });
   get('copy').addEventListener('click',async()=>{
-    try{await navigator.clipboard.writeText(get('prompt').value);get('status').textContent='Instrucciones copiadas.';}
-    catch{get('prompt').focus();get('prompt').select();get('status').textContent='Instrucciones seleccionadas para copiar.';}
+    try{await navigator.clipboard.writeText(get('prompt').value);get('status').textContent='Instructions copied.';}
+    catch{get('prompt').focus();get('prompt').select();get('status').textContent='Instructions selected for copying.';}
   });
   get('download').addEventListener('click',()=>{
     const url=URL.createObjectURL(new Blob([markdown(session())],{type:'text/markdown;charset=utf-8'}));
     const a=link(url,'');a.download='perspective-beyond-'+origin.value+'-'+mode.value+'.md';
     document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
-    get('status').textContent='Archivo preparado para adjuntar.';
+    get('status').textContent='File ready to attach.';
   });
   get('setup').hidden=false;get('search-panel').hidden=false;chooseOrigin();search();
 }
 start().catch(()=>{
-  get('metrics').replaceChildren(document.createTextNode('El selector no pudo cargar el catálogo. '),link('../sources/','Abrir el índice de fuentes'),document.createTextNode(' · '),link('guide.html','Leer la guía'));
+  get('metrics').replaceChildren(document.createTextNode('The selector could not load the catalogue. '),link('../sources/','Open the source index'),document.createTextNode(' · '),link('guide.html','Read the guide'));
 });

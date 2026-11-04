@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Dimensiones creadas de escasez",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-scarcity_design",
-  "documentId": null,
   "sourceIds": [
     "D-197",
     "D-198",
@@ -22,9 +21,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Dimensiones creadas de escasez\nObservar cómo exclusividad, cercas, permisos y requisitos convierten abundancia en nuevas transacciones.\nEtiquetas: Aprendizaje y transmisión de capacidades 4.76%; Autoridad, permisos y delegación 8.33%; Economía, costes y liquidez 65.80%; Memoria, comunidad y territorio 10.00%; Representación y límites formales 11.11%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-scarcity_design\n\n",
-  "readingSource": null,
-  "tokens": 117,
+  "context": "## Dimensiones creadas de escasez\nObservar cómo exclusividad, cercas, permisos y requisitos convierten abundancia en nuevas transacciones.\nTags: Learning and capability transmission 4.76%; Authority, permissions and delegation 8.33%; Economics, costs and liquidity 65.80%; Memory, community and territory 10.00%; Representation and formal boundaries 11.11%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-scarcity_design\n\n",
+  "tokens": 107,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -32,10 +30,11 @@
       "to": "D-197",
       "title": "El mercado puede crear escasez donde antes había abundancia",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 395,
+      "fichaTokens": 390,
       "tagWeights": {
         "economia": 0.3333,
         "representacion": 0.6667
@@ -51,10 +50,11 @@
       "to": "D-198",
       "title": "Un cenote no se vuelve valioso solo cuando alguien lo cerca",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 29,
-      "fichaTokens": 385,
+      "fichaTokens": 381,
       "tagWeights": {
         "economia": 0.4,
         "memoria-territorio": 0.6
@@ -70,12 +70,13 @@
       "to": "D-200",
       "title": "Salir de un mercado puede costar más que entrar en él",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 380,
+      "fichaTokens": 377,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "dialogos"
@@ -88,12 +89,13 @@
       "to": "D-261",
       "title": "La Bolsa puede estar comprando reservas que no parecen mercancías",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 398,
+      "fichaTokens": 395,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "dialogos"
@@ -106,10 +108,11 @@
       "to": "D-262",
       "title": "Una red libre puede convertirse en reserva cuando todos creen que solo cuatro la poseen",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 31,
-      "fichaTokens": 395,
+      "fichaTokens": 390,
       "tagWeights": {
         "autoridad": 0.5,
         "economia": 0.5
@@ -125,10 +128,11 @@
       "to": "D-295",
       "title": "Un algoritmo democrático no elimina el pan, la gasolina ni el tiempo",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 29,
-      "fichaTokens": 420,
+      "fichaTokens": 414,
       "tagWeights": {
         "aprendizaje": 0.2857,
         "economia": 0.7143
@@ -144,10 +148,11 @@
       "to": "dg-economy",
       "title": "Economía y escasez",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "produce nuevas transacciones",
       "reading": "Los requisitos y límites son parte de lo que se ofrece y se cobra.",
       "relationTokens": 35,
-      "fichaTokens": 250,
+      "fichaTokens": 222,
       "tagWeights": {
         "aprendizaje": 0.0688,
         "autoridad": 0.0119,
@@ -180,10 +185,11 @@
       "to": "dg-options",
       "title": "Libertad y opciones",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "puede multiplicar barreras a",
       "reading": "Más decisiones y más requisitos pueden coexistir con menor capacidad efectiva.",
       "relationTokens": 34,
-      "fichaTokens": 202,
+      "fichaTokens": 181,
       "tagWeights": {
         "aprendizaje": 0.1588,
         "autoridad": 0.0804,
@@ -212,10 +218,11 @@
       "to": "dg-community",
       "title": "Comunidades y territorio",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "restringe bienes antes comunes",
       "reading": "Cenotes y playas cercados muestran una frontera entre uso y mercancía.",
       "relationTokens": 35,
-      "fichaTokens": 187,
+      "fichaTokens": 171,
       "tagWeights": {
         "aprendizaje": 0.0473,
         "autoridad": 0.0323,
@@ -242,10 +249,11 @@
       "to": "dg-cultural_friction",
       "title": "Costes culturales de entrada y salida",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "propaga requisitos",
       "reading": "Mercados intensivos en restricciones absorben bienes de mundos anteriores.",
       "relationTokens": 34,
-      "fichaTokens": 79,
+      "fichaTokens": 75,
       "tagWeights": {
         "autoridad": 0.1667,
         "economia": 0.8333
@@ -261,12 +269,13 @@
       "to": "dg-rent_separation",
       "title": "Renta por posesión frente a valor productivo",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "hace de la escasez una condición de poder",
       "reading": "La arquitectura de colateral cambia el acceso.",
       "relationTokens": 40,
-      "fichaTokens": 75,
+      "fichaTokens": 73,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "dialogos"
@@ -279,10 +288,11 @@
       "to": "dg-intangible_reserves",
       "title": "Reservas intangibles, interfaces y precio",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación de ampliación v0.10",
       "reading": "La exclusividad puede ser construida por normas y expectativas.",
       "relationTokens": 40,
-      "fichaTokens": 89,
+      "fichaTokens": 85,
       "tagWeights": {
         "autoridad": 0.25,
         "economia": 0.75
@@ -298,10 +308,11 @@
       "to": "dg-market_transparency",
       "title": "Transparencia informacional y circulación productiva",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación transversal propuesta v0.12",
       "reading": "Escasez informacional distinta de material.",
       "relationTokens": 36,
-      "fichaTokens": 77,
+      "fichaTokens": 72,
       "tagWeights": {
         "aprendizaje": 0.2857,
         "economia": 0.7143

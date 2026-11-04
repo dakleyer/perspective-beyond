@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Reglas del Estado y pertenencia vivida",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-rules_membership",
-  "documentId": null,
   "sourceIds": [
     "D-289",
     "D-290"
@@ -16,9 +15,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Reglas del Estado y pertenencia vivida\nEl registro de una condición jurídica es una interfaz y no la descripción completa del mundo cultural al que pertenece alguien.\nEtiquetas: Autoridad, permisos y delegación 50.00%; Investigación y documentación técnica 38.89%; Geopolítica y fronteras 11.11%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-rules_membership\n\n",
-  "readingSource": null,
-  "tokens": 94,
+  "context": "## Reglas del Estado y pertenencia vivida\nEl registro de una condición jurídica es una interfaz y no la descripción completa del mundo cultural al que pertenece alguien.\nTags: Authority, permissions and delegation 50.00%; Research and technical documentation 38.89%; Geopolitics and borders 11.11%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-rules_membership\n\n",
+  "tokens": 91,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -26,12 +24,13 @@
       "to": "D-289",
       "title": "El Estado puede leerse como un videojuego con muchos bugs",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 29,
-      "fichaTokens": 371,
+      "fichaTokens": 367,
       "tagWeights": {
-        "autoridad": 1.0
+        "autoridad": 1
       },
       "clusters": [
         "dialogos"
@@ -44,10 +43,11 @@
       "to": "D-290",
       "title": "Tener un DNI no agota lo que significa ser de un país",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 31,
-      "fichaTokens": 381,
+      "fichaTokens": 379,
       "tagWeights": {
         "documentacion": 0.7778,
         "geopolitica": 0.2222
@@ -63,10 +63,11 @@
       "to": "dg-legitimacy_gap",
       "title": "Principios, requisitos y deuda de legitimidad",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación transversal propuesta v0.12",
       "reading": "Regla y vida cultural no coinciden sin resto.",
       "relationTokens": 39,
-      "fichaTokens": 154,
+      "fichaTokens": 140,
       "tagWeights": {
         "aprendizaje": 0.0625,
         "autoridad": 0.5241,
@@ -88,10 +89,11 @@
       "to": "dg-identity",
       "title": "Identidad, roles y posicionamiento",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación transversal propuesta v0.12",
       "reading": "Documento jurídico y pertenencia.",
       "relationTokens": 32,
-      "fichaTokens": 234,
+      "fichaTokens": 211,
       "tagWeights": {
         "aprendizaje": 0.2833,
         "autoridad": 0.0459,
@@ -121,10 +123,11 @@
       "to": "dg-form_substance",
       "title": "Formas, fondo y monopolio espiritual",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación transversal propuesta v0.12",
       "reading": "La interfaz administrativa no es toda la realidad.",
       "relationTokens": 36,
-      "fichaTokens": 98,
+      "fichaTokens": 92,
       "tagWeights": {
         "aprendizaje": 0.25,
         "autoridad": 0.25,

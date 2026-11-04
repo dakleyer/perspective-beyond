@@ -12,9 +12,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## La duda no es necesariamente un fracaso\nINTERLOCUTOR (pregunta editorial) — Si una persona vuelve a comprobar incluso aquello que ya ha comprobado, ¿se está perdiendo en la duda o está investigando?\nLECTURA DEL DIÁLOGO (síntesis editorial) — Iván no describe a quien duda de sí mismo setenta veces como un sujeto necesariamente enfermo. Lo toma como figura extrema del pensamiento científico: una persona verifica una prueba, comprueba que estaba bien y, aun así, vuelve sobre otra que ha examinado doscientas veces; esta vez descubre un error. La relación con el error es constitutiva, no una anomalía corregible con autoestima. En su formulación, el científico puede equivocarse veinte veces y otras setenta para alcanzar un acierto. Incluso su mejor logro será provisional: alguien lo corregirá y ese fracaso futuro no cancela su grandeza presente. La humildad científica no consiste en recitar que todo es falsable, sino en exponerse una y otra vez al descubrimiento de la propia insuficiencia. La tensión inicial era precisamente si una conducta que parece desadaptativa para la supervivencia inmediata resulta, a escala evolutiva, una fuente de adaptación.\nEtiquetas: Aprendizaje y transmisión de capacidades 50.00%; Matemáticas 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-082\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-082.html\n\n",
-  "readingSource": null,
-  "tokens": 324,
+  "context": "## La duda no es necesariamente un fracaso\nINTERLOCUTOR (pregunta editorial) — Si una persona vuelve a comprobar incluso aquello que ya ha comprobado, ¿se está perdiendo en la duda o está investigando?\nLECTURA DEL DIÁLOGO (síntesis editorial) — Iván no describe a quien duda de sí mismo setenta veces como un sujeto necesariamente enfermo. Lo toma como figura extrema del pensamiento científico: una persona verifica una prueba, comprueba que estaba bien y, aun así, vuelve sobre otra que ha examinado doscientas veces; esta vez descubre un error. La relación con el error es constitutiva, no una anomalía corregible con autoestima. En su formulación, el científico puede equivocarse veinte veces y otras setenta para alcanzar un acierto. Incluso su mejor logro será provisional: alguien lo corregirá y ese fracaso futuro no cancela su grandeza presente. La humildad científica no consiste en recitar que todo es falsable, sino en exponerse una y otra vez al descubrimiento de la propia insuficiencia. La tensión inicial era precisamente si una conducta que parece desadaptativa para la supervivencia inmediata resulta, a escala evolutiva, una fuente de adaptación.\nTags: Learning and capability transmission 50.00%; Mathematics 50.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-082\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-082.html\n\n",
+  "tokens": 318,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "dg-learning",
       "title": "Aprendizaje autodirigido",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 200,
+      "fichaTokens": 179,
       "tagWeights": {
         "aprendizaje": 0.4664,
         "autoridad": 0.0587,
@@ -53,10 +53,11 @@
       "to": "dg-math",
       "title": "Pensamiento matemático",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 177,
+      "fichaTokens": 159,
       "tagWeights": {
         "aprendizaje": 0.1144,
         "autoridad": 0.0109,
@@ -82,10 +83,11 @@
       "to": "dg-doubt",
       "title": "Duda, pruebas y conocimiento corregible",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 268,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.2345,
         "autoridad": 0.0562,
@@ -119,10 +121,11 @@
       "to": "D-172",
       "title": "Un problema filosófico se convierte en una respuesta administrativa",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Un problema filosófico se convierte en una respuesta administrativa» con «La duda no es necesariamente un fracaso». Permite contrastar Duda, pruebas y conocimiento corregible.",
       "relationTokens": 65,
-      "fichaTokens": 331,
+      "fichaTokens": 324,
       "tagWeights": {
         "autoridad": 0.375,
         "estandares": 0.625
@@ -138,12 +141,13 @@
       "to": "D-258",
       "title": "La ciencia también puede excluir una idea dejándola sin interlocutor",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La ciencia también puede excluir una idea dejándola sin interlocutor» con «La duda no es necesariamente un fracaso». Permite contrastar Duda, pruebas y conocimiento corregible.",
       "relationTokens": 69,
-      "fichaTokens": 408,
+      "fichaTokens": 404,
       "tagWeights": {
-        "autoridad": 1.0
+        "autoridad": 1
       },
       "clusters": [
         "dialogos"
@@ -156,12 +160,13 @@
       "to": "D-269",
       "title": "La inspiración no sustituye a la escuadra y el cartabón",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La inspiración no sustituye a la escuadra y el cartabón» con «La duda no es necesariamente un fracaso». Permite contrastar Duda, pruebas y conocimiento corregible.",
       "relationTokens": 73,
-      "fichaTokens": 391,
+      "fichaTokens": 389,
       "tagWeights": {
-        "perspectiva": 1.0
+        "perspectiva": 1
       },
       "clusters": [
         "dialogos"
@@ -174,10 +179,11 @@
       "to": "D-275",
       "title": "La experiencia espiritual no da autoridad para exigir obediencia",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La experiencia espiritual no da autoridad para exigir obediencia» con «La duda no es necesariamente un fracaso». Permite contrastar Duda, pruebas y conocimiento corregible.",
       "relationTokens": 63,
-      "fichaTokens": 424,
+      "fichaTokens": 416,
       "tagWeights": {
         "aprendizaje": 0.1154,
         "autoridad": 0.3461,
@@ -195,10 +201,11 @@
       "to": "D-282",
       "title": "Pedir un contraejemplo es una parte del pensamiento original",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Pedir un contraejemplo es una parte del pensamiento original» con «La duda no es necesariamente un fracaso». Permite contrastar Duda, pruebas y conocimiento corregible, Pensamiento matemático.",
       "relationTokens": 72,
-      "fichaTokens": 411,
+      "fichaTokens": 406,
       "tagWeights": {
         "experimentacion": 0.625,
         "matematicas": 0.375
@@ -214,10 +221,11 @@
       "to": "D-055",
       "title": "El infinito, la máquina y sus límites",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Pensamiento matemático, Aprendizaje autodirigido desde las situaciones que describe cada texto.",
       "relationTokens": 48,
-      "fichaTokens": 541,
+      "fichaTokens": 535,
       "tagWeights": {
         "aprendizaje": 0.5,
         "matematicas": 0.5
@@ -233,12 +241,13 @@
       "to": "D-183",
       "title": "La esfera mágica: contar el último elemento también cuesta",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Pensamiento matemático, Duda, pruebas y conocimiento corregible desde las situaciones que describe cada texto.",
       "relationTokens": 52,
-      "fichaTokens": 350,
+      "fichaTokens": 347,
       "tagWeights": {
-        "matematicas": 1.0
+        "matematicas": 1
       },
       "clusters": [
         "dialogos"
@@ -251,12 +260,13 @@
       "to": "D-117",
       "title": "Una arquitectura que no puede declararse cerrada",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Pensamiento matemático, Duda, pruebas y conocimiento corregible desde las situaciones que describe cada texto.",
       "relationTokens": 50,
-      "fichaTokens": 249,
+      "fichaTokens": 246,
       "tagWeights": {
-        "matematicas": 1.0
+        "matematicas": 1
       },
       "clusters": [
         "dialogos"
@@ -269,12 +279,13 @@
       "to": "D-098",
       "title": "Qué tendría que refutar nuestra hipótesis",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Aprendizaje autodirigido, Duda, pruebas y conocimiento corregible desde las situaciones que describe cada texto.",
       "relationTokens": 52,
-      "fichaTokens": 267,
+      "fichaTokens": 262,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"
@@ -287,10 +298,11 @@
       "to": "D-167",
       "title": "La creatividad se entrena, pero tiene que salir del marco",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Aprendizaje autodirigido, Duda, pruebas y conocimiento corregible desde las situaciones que describe cada texto.",
       "relationTokens": 56,
-      "fichaTokens": 351,
+      "fichaTokens": 344,
       "tagWeights": {
         "aprendizaje": 0.5,
         "experimentacion": 0.5

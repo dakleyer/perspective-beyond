@@ -7,7 +7,7 @@ Complemento de navegación y comprensión de las páginas del corpus.
   "schema": "atlas/direct-entry-v1",
   "entry": "https://tegrity.ai/atlas-reader/",
   "purpose": "Atlas íntegro de fichas, conceptos y relaciones, servido como texto en Tegrity.AI. No requiere el dominio chatgpt.site ni GitHub para recorrer el grafo.",
-  "configurationRule": "Conserva punto de entrada, modo, pesos, etiquetas, alcance y propósito de la URL del visitante. Si no están elegidos, lee la orientación, pregunta qué quiere comprender, resolver o crear y ofrece dos o tres entradas pertinentes. En modo cerrado consulta contenido del clúster permitido; en poroso sigue el puente elegido; en federado sigue las relaciones registradas.",
+  "configurationRule": "Conserva punto de entrada, modo, pesos, etiquetas, alcance y propósito de la URL del visitante. Si no están elegidos, lee la orientación, pregunta qué quiere comprender, resolver o crear y ofrece dos o tres entradas pertinentes. En modo cerrado consulta contenido del clúster permitido; en poroso sigue el puente elegido; en federado sigue las recorded relationships.",
   "graphSha256": "8733a98ca9844a1b5f85096f6b68c910bda9d1aed95e0192c359522a1a641ece",
   "edition": "2026-11-04-mantenimiento-mapa-1",
   "parameters": {
@@ -83,13 +83,13 @@ Complemento de navegación y comprensión de las páginas del corpus.
     },
     {
       "id": "research",
-      "title": "Investigación y estándares",
+      "title": "Research and standards",
       "url": "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-cluster-research.txt",
       "count": 888
     },
     {
       "id": "dialogos",
-      "title": "Diálogos",
+      "title": "Dialogues",
       "url": "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-cluster-dialogos.txt",
       "count": 391
     }

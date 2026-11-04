@@ -58,7 +58,7 @@ for file in ['index.html','entrada/index.html']:
  check(m['publicEntry']in text,'Own-domain entry missing: '+file)
 for file in ['entrada.txt','llms.txt']:
  text=(R/'dist'/file).read_text(encoding='utf8')
- check(text.count('ORIENTACIÓN PREVIA')==1,'Missing or duplicate assistant protocol: '+file)
+ check(text.count('PRIOR ORIENTATION')==1,'Missing or duplicate assistant protocol: '+file)
  check(m['configurationRule']in text,'Existing user configuration not preserved: '+file)
 report={'checks':checks,'passed':checks,'areas':len(m['areas']),'bridges':len(m['bridges']),'coveredPieces':len(nodes),
 'originalRelations':len(edges),'internalRelations':internal,'interAreaRelations':len(mapped),'distinctCandidateEntries':len(seed_counts),

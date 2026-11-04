@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Trabajo humano de delimitar el problema",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-human_oracle",
-  "documentId": null,
   "sourceIds": [
     "D-280",
     "D-281"
@@ -16,9 +15,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Trabajo humano de delimitar el problema\nQuien investiga selecciona objetos, axiomas, entradas y marcos semánticos.\nEtiquetas: Autoridad, permisos y delegación 50.00%; Experimentación, falsación y contraejemplos 35.72%; Matemáticas 14.28%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-human_oracle\n\n",
-  "readingSource": null,
-  "tokens": 90,
+  "context": "## Trabajo humano de delimitar el problema\nQuien investiga selecciona objetos, axiomas, entradas y marcos semánticos.\nTags: Authority, permissions and delegation 50.00%; Experimentation, falsification and counterexamples 35.72%; Mathematics 14.28%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-human_oracle\n\n",
+  "tokens": 84,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -26,10 +24,11 @@
       "to": "D-280",
       "title": "El investigador también ocupa el lugar del oráculo",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 411,
+      "fichaTokens": 406,
       "tagWeights": {
         "experimentacion": 0.7143,
         "matematicas": 0.2857
@@ -45,12 +44,13 @@
       "to": "D-281",
       "title": "Antes de cerrar un universo, alguien debe decidir qué entra en él",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 407,
+      "fichaTokens": 403,
       "tagWeights": {
-        "autoridad": 1.0
+        "autoridad": 1
       },
       "clusters": [
         "dialogos"
@@ -63,10 +63,11 @@
       "to": "dg-validity_boundary",
       "title": "Límite entre entrada, pertenencia y respuesta",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.11",
       "reading": "Alguien elige casos y semántica.",
       "relationTokens": 39,
-      "fichaTokens": 87,
+      "fichaTokens": 82,
       "tagWeights": {
         "autoridad": 0.3333,
         "decision": 0.2381,
@@ -83,10 +84,11 @@
       "to": "dg-meta_discrimination",
       "title": "Carga de validar sistemas y sus entradas",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.11",
       "reading": "El alcance también se valida.",
       "relationTokens": 32,
-      "fichaTokens": 137,
+      "fichaTokens": 126,
       "tagWeights": {
         "autoridad": 0.2083,
         "decision": 0.1607,
@@ -107,10 +109,11 @@
       "to": "dg-research_dialogue",
       "title": "Diálogo de investigación y prueba acotada",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.11",
       "reading": "El investigador como crítico.",
       "relationTokens": 32,
-      "fichaTokens": 150,
+      "fichaTokens": 135,
       "tagWeights": {
         "aprendizaje": 0.0556,
         "autoridad": 0.3333,
@@ -132,10 +135,11 @@
       "to": "dg-governance",
       "title": "Gobernanza y legitimidad",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.11",
       "reading": "La selección del marco conlleva responsabilidad.",
       "relationTokens": 32,
-      "fichaTokens": 273,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.0321,
         "autoridad": 0.4057,
@@ -169,10 +173,11 @@
       "to": "dg-doubt",
       "title": "Duda, pruebas y conocimiento corregible",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.11",
       "reading": "Se puede elegir mal el perímetro.",
       "relationTokens": 34,
-      "fichaTokens": 268,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.2345,
         "autoridad": 0.0562,

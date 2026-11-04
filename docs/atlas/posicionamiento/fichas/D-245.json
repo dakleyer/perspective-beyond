@@ -6,14 +6,13 @@
   "documentId": "doc-85a7a1834a4589ee8d",
   "sourceIds": [],
   "tagWeights": {
-    "autoridad": 1.0
+    "autoridad": 1
   },
   "clusters": [
     "dialogos"
   ],
-  "context": "## Llamarlo «AI firewall» no te concede saber qué está filtrando\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Cómo pretende gobernar un sistema de IA un filtro que ignora de dónde vienen y adónde van sus datos?\nREFLEXIÓN DEL DIÁLOGO (voz atribuida mediante documento o contexto, distinta de transcripción literal salvo citas señaladas) — Aquí Iván abandona la notación y regresa a su trabajo diario. Enumera capas que una empresa va añadiendo: sistemas conectados, data warehouse, data lake, lakehouse, big data, IA sobre los datos y, al final, una plataforma de AI governance. Cada capa promete ordenar a la anterior. Pero cuando se pretende instalar la última, aparece la misma pregunta que estaba pendiente desde el principio: quién es dueño del dato, quién lo custodia, cómo llegó allí, por dónde circula y qué decisiones depende de él.\n\nLa intervención original es frontal: «You can't pretend that you are governing because you start a firewall, and it's called firewall». Un catálogo automático puede detectar tipos evidentes, pero eso no equivale a comprender las condiciones reales de una organización. Iván dice que volver a clasificar miles de casos mal comprendidos consume horas humanas y conocimiento de arquitectura; su preocupación no es una marca de software sino la diferencia entre etiquetar y gobernar.\n\nLa implicación no es que todos los firewalls de IA sean inútiles. Es que la barrera puede verificar solamente aquello cuya procedencia, significado, responsabilidades y límites de uso han sido correctamente definidos. Cuando esa información falta, el sistema de seguridad recibe una deuda anterior y se anuncia como solución nueva. La frontera del control no nace al instalar un producto: nace al conocer el sistema que pretende controlar.\nEtiquetas: Autoridad, permisos y delegación 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-245\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-245.html\n\n",
-  "readingSource": null,
-  "tokens": 430,
+  "context": "## Llamarlo «AI firewall» no te concede saber qué está filtrando\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Cómo pretende gobernar un sistema de IA un filtro que ignora de dónde vienen y adónde van sus datos?\nREFLEXIÓN DEL DIÁLOGO (voz atribuida mediante documento o contexto, distinta de transcripción literal salvo citas señaladas) — Aquí Iván abandona la notación y regresa a su trabajo diario. Enumera capas que una empresa va añadiendo: sistemas conectados, data warehouse, data lake, lakehouse, big data, IA sobre los datos y, al final, una plataforma de AI governance. Cada capa promete ordenar a la anterior. Pero cuando se pretende instalar la última, aparece la misma pregunta que estaba pendiente desde el principio: quién es dueño del dato, quién lo custodia, cómo llegó allí, por dónde circula y qué decisiones depende de él.\n\nLa intervención original es frontal: «You can't pretend that you are governing because you start a firewall, and it's called firewall». Un catálogo automático puede detectar tipos evidentes, pero eso no equivale a comprender las condiciones reales de una organización. Iván dice que volver a clasificar miles de casos mal comprendidos consume horas humanas y conocimiento de arquitectura; su preocupación no es una marca de software sino la diferencia entre etiquetar y gobernar.\n\nLa implicación no es que todos los firewalls de IA sean inútiles. Es que la barrera puede verificar solamente aquello cuya procedencia, significado, responsabilidades y límites de uso han sido correctamente definidos. Cuando esa información falta, el sistema de seguridad recibe una deuda anterior y se anuncia como solución nueva. La frontera del control no nace al instalar un producto: nace al conocer el sistema que pretende controlar.\nTags: Authority, permissions and delegation 100.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-245\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-245.html\n\n",
+  "tokens": 426,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -21,10 +20,11 @@
       "to": "dg-operations",
       "title": "Operación real",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 217,
+      "fichaTokens": 191,
       "tagWeights": {
         "aprendizaje": 0.059,
         "autoridad": 0.1375,
@@ -54,10 +54,11 @@
       "to": "dg-structure",
       "title": "Conciencia estructural",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 27,
-      "fichaTokens": 256,
+      "fichaTokens": 226,
       "tagWeights": {
         "aprendizaje": 0.158,
         "autoridad": 0.0636,
@@ -90,10 +91,11 @@
       "to": "dg-governance",
       "title": "Gobernanza y legitimidad",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 273,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.0321,
         "autoridad": 0.4057,
@@ -127,10 +129,11 @@
       "to": "dg-meta_discrimination",
       "title": "Carga de validar sistemas y sus entradas",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 31,
-      "fichaTokens": 137,
+      "fichaTokens": 126,
       "tagWeights": {
         "autoridad": 0.2083,
         "decision": 0.1607,
@@ -151,12 +154,13 @@
       "to": "D-099",
       "title": "Lo que el mapa no representa puede cambiar la decisión",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Llamarlo «AI firewall» no te concede saber qué está filtrando» con «Lo que el mapa no representa puede cambiar la decisión». Permite contrastar Conciencia estructural.",
       "relationTokens": 75,
-      "fichaTokens": 261,
+      "fichaTokens": 258,
       "tagWeights": {
-        "decision": 1.0
+        "decision": 1
       },
       "clusters": [
         "dialogos"
@@ -169,12 +173,13 @@
       "to": "D-116",
       "title": "Un control puede aprobar y el sistema seguir fallando",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Llamarlo «AI firewall» no te concede saber qué está filtrando» con «Un control puede aprobar y el sistema seguir fallando». Permite contrastar Conciencia estructural.",
       "relationTokens": 75,
-      "fichaTokens": 299,
+      "fichaTokens": 294,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"
@@ -187,10 +192,11 @@
       "to": "D-118",
       "title": "Publicar no demuestra que alguien recibió ni actuó",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Llamarlo «AI firewall» no te concede saber qué está filtrando» con «Publicar no demuestra que alguien recibió ni actuó». Permite contrastar Gobernanza y legitimidad.",
       "relationTokens": 76,
-      "fichaTokens": 263,
+      "fichaTokens": 258,
       "tagWeights": {
         "autoridad": 0.5,
         "decision": 0.5
@@ -206,10 +212,11 @@
       "to": "D-152",
       "title": "Un papel compartido puede controlar más que diez firmas",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Llamarlo «AI firewall» no te concede saber qué está filtrando» con «Un papel compartido puede controlar más que diez firmas». Permite contrastar Gobernanza y legitimidad, Operación real.",
       "relationTokens": 80,
-      "fichaTokens": 297,
+      "fichaTokens": 292,
       "tagWeights": {
         "autoridad": 0.2857,
         "decision": 0.7143
@@ -225,10 +232,11 @@
       "to": "D-153",
       "title": "El control ceremonial se parece a un sistema de control",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Llamarlo «AI firewall» no te concede saber qué está filtrando» con «El control ceremonial se parece a un sistema de control». Permite contrastar Gobernanza y legitimidad, Conciencia estructural.",
       "relationTokens": 81,
-      "fichaTokens": 317,
+      "fichaTokens": 312,
       "tagWeights": {
         "autoridad": 0.25,
         "decision": 0.25,
@@ -245,10 +253,11 @@
       "to": "D-223",
       "title": "Dices «cloud» y acabas comprando cloud",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Llamarlo «AI firewall» no te concede saber qué está filtrando» con «Dices «cloud» y acabas comprando cloud».",
       "relationTokens": 68,
-      "fichaTokens": 451,
+      "fichaTokens": 444,
       "tagWeights": {
         "aprendizaje": 0.25,
         "empresa": 0.25,
@@ -266,10 +275,11 @@
       "to": "D-243",
       "title": "El supervisor humano no es barato porque solo revise dos casillas",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Carga de validar sistemas y sus entradas, Gobernanza y legitimidad desde las situaciones que describe cada texto.",
       "relationTokens": 62,
-      "fichaTokens": 442,
+      "fichaTokens": 437,
       "tagWeights": {
         "autoridad": 0.25,
         "documentacion": 0.5,
@@ -286,12 +296,13 @@
       "to": "D-244",
       "title": "Una contradicción puede contagiar máquinas antes de que nadie vea el desastre",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Carga de validar sistemas y sus entradas, Conciencia estructural desde las situaciones que describe cada texto.",
       "relationTokens": 63,
-      "fichaTokens": 430,
+      "fichaTokens": 426,
       "tagWeights": {
-        "transformacion": 1.0
+        "transformacion": 1
       },
       "clusters": [
         "dialogos"
@@ -304,10 +315,11 @@
       "to": "D-293",
       "title": "El cómputo masivo intenta comprar volumen donde falta estructura",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Carga de validar sistemas y sus entradas, Conciencia estructural desde las situaciones que describe cada texto.",
       "relationTokens": 62,
-      "fichaTokens": 390,
+      "fichaTokens": 384,
       "tagWeights": {
         "decision": 0.25,
         "matematicas": 0.25,
@@ -324,10 +336,11 @@
       "to": "T1499",
       "title": "Structural Awareness",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "puente de lectura",
       "reading": "La pregunta por custodia, circulación y decisiones dependientes de los datos ofrece una entrada empresarial a la conciencia de la estructura que un control de IA pretende gobernar.",
       "relationTokens": 56,
-      "fichaTokens": 173,
+      "fichaTokens": 168,
       "tagWeights": {
         "documentacion": 0.5,
         "evidencia": 0.5

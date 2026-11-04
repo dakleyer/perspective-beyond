@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Diálogo de investigación y prueba acotada",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-research_dialogue",
-  "documentId": null,
   "sourceIds": [
     "D-206",
     "D-258",
@@ -25,9 +24,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Diálogo de investigación y prueba acotada\nSeparar formulación de preguntas, estudio exploratorio, investigación por factor e intervención opcional.\nEtiquetas: Aprendizaje y transmisión de capacidades 5.56%; Autoridad, permisos y delegación 33.33%; Decisiones y responsabilidad 8.33%; Empresa y gestión 5.56%; Evidencia, procedencia y atribución 15.00%; Experimentación, falsación y contraejemplos 16.67%; Memoria, comunidad y territorio 10.00%; Transformación y continuidad operativa 5.55%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-research_dialogue\n\n",
-  "readingSource": null,
-  "tokens": 150,
+  "context": "## Diálogo de investigación y prueba acotada\nSeparar formulación de preguntas, estudio exploratorio, investigación por factor e intervención opcional.\nTags: Learning and capability transmission 5.56%; Authority, permissions and delegation 33.33%; Decisions and responsibility 8.33%; Business and management 5.56%; Evidence, provenance and attribution 15.00%; Experimentation, falsification and counterexamples 16.67%; Memory, community and territory 10.00%; Transformation and operational continuity 5.55%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-research_dialogue\n\n",
+  "tokens": 135,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -35,10 +33,11 @@
       "to": "D-206",
       "title": "Un diálogo de investigación no es un diagnóstico disfrazado",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 412,
+      "fichaTokens": 405,
       "tagWeights": {
         "aprendizaje": 0.3334,
         "empresa": 0.3333,
@@ -55,12 +54,13 @@
       "to": "D-258",
       "title": "La ciencia también puede excluir una idea dejándola sin interlocutor",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 30,
-      "fichaTokens": 408,
+      "fichaTokens": 404,
       "tagWeights": {
-        "autoridad": 1.0
+        "autoridad": 1
       },
       "clusters": [
         "dialogos"
@@ -73,12 +73,13 @@
       "to": "D-281",
       "title": "Antes de cerrar un universo, alguien debe decidir qué entra en él",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 30,
-      "fichaTokens": 407,
+      "fichaTokens": 403,
       "tagWeights": {
-        "autoridad": 1.0
+        "autoridad": 1
       },
       "clusters": [
         "dialogos"
@@ -91,10 +92,11 @@
       "to": "D-283",
       "title": "Una serie rigurosa deja examinar cada eslabón por separado",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 30,
-      "fichaTokens": 419,
+      "fichaTokens": 413,
       "tagWeights": {
         "evidencia": 0.4,
         "memoria-territorio": 0.6
@@ -110,10 +112,11 @@
       "to": "D-291",
       "title": "La inteligencia artificial también puede ser una máquina de escribir",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 27,
-      "fichaTokens": 377,
+      "fichaTokens": 371,
       "tagWeights": {
         "decision": 0.5,
         "evidencia": 0.5
@@ -129,12 +132,13 @@
       "to": "D-292",
       "title": "La IA explota el marco cuando el explorador lo vuelve explícito",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 31,
-      "fichaTokens": 376,
+      "fichaTokens": 372,
       "tagWeights": {
-        "experimentacion": 1.0
+        "experimentacion": 1
       },
       "clusters": [
         "dialogos"
@@ -147,10 +151,11 @@
       "to": "dg-doubt",
       "title": "Duda, pruebas y conocimiento corregible",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "separa preguntas y veredicto",
       "reading": "Un estudio puede detectar evidencia ausente y negar una hipótesis.",
       "relationTokens": 40,
-      "fichaTokens": 268,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.2345,
         "autoridad": 0.0562,
@@ -184,10 +189,11 @@
       "to": "dg-transform",
       "title": "Transformación organizativa",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "no presupone intervención",
       "reading": "El diálogo y el estudio son resultados propios antes de un contrato aplicado.",
       "relationTokens": 34,
-      "fichaTokens": 233,
+      "fichaTokens": 208,
       "tagWeights": {
         "aprendizaje": 0.2509,
         "autoridad": 0.0093,
@@ -219,10 +225,11 @@
       "to": "dg-epistemic_silence",
       "title": "Exclusión por omisión de interlocución",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación de ampliación v0.10",
       "reading": "La crítica debe permitir interlocución y rectificación.",
       "relationTokens": 39,
-      "fichaTokens": 98,
+      "fichaTokens": 91,
       "tagWeights": {
         "autoridad": 0.5,
         "evidencia": 0.1111,
@@ -239,10 +246,11 @@
       "to": "dg-inspiration_discipline",
       "title": "Inspiración sometida a comprobación",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación de ampliación v0.11",
       "reading": "Convertir intuición en hipótesis.",
       "relationTokens": 35,
-      "fichaTokens": 109,
+      "fichaTokens": 102,
       "tagWeights": {
         "aprendizaje": 0.0385,
         "autoridad": 0.1154,
@@ -261,10 +269,11 @@
       "to": "dg-human_oracle",
       "title": "Trabajo humano de delimitar el problema",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación de ampliación v0.11",
       "reading": "El investigador como crítico.",
       "relationTokens": 32,
-      "fichaTokens": 90,
+      "fichaTokens": 84,
       "tagWeights": {
         "autoridad": 0.5,
         "experimentacion": 0.3572,
@@ -281,10 +290,11 @@
       "to": "dg-epistemic_increment",
       "title": "Demostrar o refutar paso por paso",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación de ampliación v0.11",
       "reading": "Separar discusión y resultado.",
       "relationTokens": 34,
-      "fichaTokens": 101,
+      "fichaTokens": 93,
       "tagWeights": {
         "evidencia": 0.2,
         "experimentacion": 0.3125,
@@ -302,10 +312,11 @@
       "to": "dg-ai_writing_boundary",
       "title": "Máquina de escribir, pensamiento y autoría",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación transversal propuesta v0.12",
       "reading": "Distinguir intervención y elaboración.",
       "relationTokens": 35,
-      "fichaTokens": 88,
+      "fichaTokens": 83,
       "tagWeights": {
         "decision": 0.5,
         "evidencia": 0.5

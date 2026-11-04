@@ -13,9 +13,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Auditorías, certificación y hábitos reales\nINTERLOCUTOR — ¿Qué se consiguió con la certificación, las auditorías y el cambio de hábitos?\nIVÁN —\nPara estandarizar la operación, documentamos cada perfil de puesto, cada procedimiento, y adoptamos desde cero la norma ISO 9001. Esta estandarización, a diferencia del GEPLAN tuve una difusión enorme: la noticia de la primera empresa certificada bajo ISO 9001, sino que la noticia se difundió eventualmente más de 20 empresas en la región solicitaron nuestros servicios. Después vendrían las certificaciones ISO 14001 (medioambiente) y 18001 (seguridad y salud laboral).\nPara cada certificación, contar con auditorías externas era muy útil. Más allá de cumplir requisitos, esta auditoría sirvió para establecer una verdadera gobernanza interna. La sola presencia de una auditoría transformaba la actitud de todos los involucrados. Cada departamento pasó a operar con mayor disciplina, y ese mismo orden permitió finalmente que GEPLAN dejara de ser solo un sistema informático para convertirse en el eje del proceso digital de la logística de PEMEX en el centro y norte de México.\nNo sé si existía este término, pero yo no recuerdo que se hablara de \"transformación digital\" en el 2009. Pero eso fue exactamente lo que hicimos. Me estaba empezando a acostumbrar a hacer cosas que todavía no estaban de moda.\nEtiquetas: Aprendizaje y transmisión de capacidades 33.34%; Empresa y gestión 33.33%; Transformación y continuidad operativa 33.33%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-031\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20%C2%BFQu%C3%A9%20se%20consigui%C3%B3%20con%20la%20certificaci%C3%B3n%2C%20las%20auditor%C3%ADas%20y\n\n",
-  "readingSource": null,
-  "tokens": 443,
+  "context": "## Auditorías, certificación y hábitos reales\nINTERLOCUTOR — ¿Qué se consiguió con la certificación, las auditorías y el cambio de hábitos?\nIVÁN —\nPara estandarizar la operación, documentamos cada perfil de puesto, cada procedimiento, y adoptamos desde cero la norma ISO 9001. Esta estandarización, a diferencia del GEPLAN tuve una difusión enorme: la noticia de la primera empresa certificada bajo ISO 9001, sino que la noticia se difundió eventualmente más de 20 empresas en la región solicitaron nuestros servicios. Después vendrían las certificaciones ISO 14001 (medioambiente) y 18001 (seguridad y salud laboral).\nPara cada certificación, contar con auditorías externas era muy útil. Más allá de cumplir requisitos, esta auditoría sirvió para establecer una verdadera gobernanza interna. La sola presencia de una auditoría transformaba la actitud de todos los involucrados. Cada departamento pasó a operar con mayor disciplina, y ese mismo orden permitió finalmente que GEPLAN dejara de ser solo un sistema informático para convertirse en el eje del proceso digital de la logística de PEMEX en el centro y norte de México.\nNo sé si existía este término, pero yo no recuerdo que se hablara de \"transformación digital\" en el 2009. Pero eso fue exactamente lo que hicimos. Me estaba empezando a acostumbrar a hacer cosas que todavía no estaban de moda.\nTags: Learning and capability transmission 33.34%; Business and management 33.33%; Transformation and operational continuity 33.33%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-031\nSource document: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20%C2%BFQu%C3%A9%20se%20consigui%C3%B3%20con%20la%20certificaci%C3%B3n%2C%20las%20auditor%C3%ADas%20y\n\n",
+  "tokens": 436,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,10 +22,11 @@
       "to": "dg-transform",
       "title": "Transformación organizativa",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 233,
+      "fichaTokens": 208,
       "tagWeights": {
         "aprendizaje": 0.2509,
         "autoridad": 0.0093,
@@ -58,10 +58,11 @@
       "to": "dg-structure",
       "title": "Conciencia estructural",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 256,
+      "fichaTokens": 226,
       "tagWeights": {
         "aprendizaje": 0.158,
         "autoridad": 0.0636,
@@ -94,10 +95,11 @@
       "to": "D-043",
       "title": "Transformar empresas mientras siguen operando",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura comparada",
       "reading": "La continuidad operativa obliga a comparar procedimientos y hábitos efectivos durante el cambio.",
       "relationTokens": 36,
-      "fichaTokens": 923,
+      "fichaTokens": 916,
       "tagWeights": {
         "aprendizaje": 0.1539,
         "empresa": 0.6923,
@@ -114,10 +116,11 @@
       "to": "D-025",
       "title": "Instalar un sistema no basta",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Transformación organizativa».",
       "relationTokens": 30,
-      "fichaTokens": 645,
+      "fichaTokens": 638,
       "tagWeights": {
         "aprendizaje": 0.2222,
         "empresa": 0.5556,
@@ -134,10 +137,11 @@
       "to": "D-029",
       "title": "Once departamentos y una visión incompleta",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Conciencia estructural».",
       "relationTokens": 31,
-      "fichaTokens": 444,
+      "fichaTokens": 442,
       "tagWeights": {
         "empresa": 0.5,
         "perspectiva": 0.5
@@ -153,10 +157,11 @@
       "to": "D-056",
       "title": "Del límite matemático al cambio de contexto",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Conciencia estructural».",
       "relationTokens": 33,
-      "fichaTokens": 510,
+      "fichaTokens": 505,
       "tagWeights": {
         "cambio-regimen": 0.4545,
         "matematicas": 0.5455
@@ -172,10 +177,11 @@
       "to": "D-284",
       "title": "El agente triple: mediar sin perder la propia palabra",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El agente triple: mediar sin perder la propia palabra» con «Auditorías, certificación y hábitos reales». Permite contrastar Transformación organizativa.",
       "relationTokens": 64,
-      "fichaTokens": 441,
+      "fichaTokens": 429,
       "tagWeights": {
         "aprendizaje": 0.1334,
         "autoridad": 0.1334,
@@ -196,10 +202,11 @@
       "to": "D-194",
       "title": "Ni «sistemas» por debajo del negocio ni «complejidad» encerrada en teoría",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Transformación organizativa, Conciencia estructural desde las situaciones que describe cada texto.",
       "relationTokens": 59,
-      "fichaTokens": 405,
+      "fichaTokens": 398,
       "tagWeights": {
         "aprendizaje": 0.3334,
         "empresa": 0.3333,
@@ -216,10 +223,11 @@
       "to": "D-148",
       "title": "Quien construye un sistema y quien lo habita necesitan capacidades distintas",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Transformación organizativa, Conciencia estructural desde las situaciones que describe cada texto.",
       "relationTokens": 53,
-      "fichaTokens": 329,
+      "fichaTokens": 322,
       "tagWeights": {
         "aprendizaje": 0.3334,
         "empresa": 0.3333,

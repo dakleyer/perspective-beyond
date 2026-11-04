@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Diálogo pertinente y lógica propuesta",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-dialogue_logic",
-  "documentId": null,
   "sourceIds": [
     "D-184",
     "D-185",
@@ -17,9 +16,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Diálogo pertinente y lógica propuesta\nBuscar una pregunta que aclare el objeto del intercambio sin fingir que se conoce el dato ausente; investigar su formalización y prueba.\nEtiquetas: Aprendizaje y transmisión de capacidades 33.34%; Decisiones y responsabilidad 33.33%; Cambio de perspectiva 33.33%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-dialogue_logic\n\n",
-  "readingSource": null,
-  "tokens": 93,
+  "context": "## Diálogo pertinente y lógica propuesta\nBuscar una pregunta que aclare el objeto del intercambio sin fingir que se conoce el dato ausente; investigar su formalización y prueba.\nTags: Learning and capability transmission 33.34%; Decisions and responsibility 33.33%; Change of perspective 33.33%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-dialogue_logic\n\n",
+  "tokens": 88,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -27,12 +25,13 @@
       "to": "D-184",
       "title": "2015: no solo cómo se llama, sino para qué quieres saberlo",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 29,
-      "fichaTokens": 361,
+      "fichaTokens": 359,
       "tagWeights": {
-        "perspectiva": 1.0
+        "perspectiva": 1
       },
       "clusters": [
         "dialogos"
@@ -45,12 +44,13 @@
       "to": "D-185",
       "title": "2015: una idea ambiciosa necesita una prueba que otro pueda repetir",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 29,
-      "fichaTokens": 345,
+      "fichaTokens": 342,
       "tagWeights": {
-        "decision": 1.0
+        "decision": 1
       },
       "clusters": [
         "dialogos"
@@ -63,12 +63,13 @@
       "to": "D-220",
       "title": "Si un diálogo nunca cede nada, quizá es un sermón",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 27,
-      "fichaTokens": 419,
+      "fichaTokens": 414,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"
@@ -81,10 +82,11 @@
       "to": "dg-perspective",
       "title": "Nueva Perspectiva",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "replantea la pregunta",
       "reading": "Importa el fin que motivó un dato pedido.",
       "relationTokens": 29,
-      "fichaTokens": 190,
+      "fichaTokens": 173,
       "tagWeights": {
         "aprendizaje": 0.117,
         "cambio-regimen": 0.019,
@@ -111,10 +113,11 @@
       "to": "dg-doubt",
       "title": "Duda, pruebas y conocimiento corregible",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "exige prueba de",
       "reading": "Hipótesis alternativa necesita tareas comparables.",
       "relationTokens": 29,
-      "fichaTokens": 268,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.2345,
         "autoridad": 0.0562,
@@ -148,10 +151,11 @@
       "to": "dg-measure",
       "title": "Medir decisiones y consecuencias",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "propone criterios de",
       "reading": "La eficacia del método no se sigue de la ambición declarada.",
       "relationTokens": 31,
-      "fichaTokens": 213,
+      "fichaTokens": 192,
       "tagWeights": {
         "aprendizaje": 0.0552,
         "autoridad": 0.0761,
@@ -180,10 +184,11 @@
       "to": "dg-culture",
       "title": "Protocultura, autoría y conocimiento emergente",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "recupera genealogía de",
       "reading": "Un correo de 2015 es fuente primaria de ideas previas al atlas.",
       "relationTokens": 40,
-      "fichaTokens": 204,
+      "fichaTokens": 186,
       "tagWeights": {
         "aprendizaje": 0.0299,
         "capacidad-humana": 0.0091,
@@ -210,10 +215,11 @@
       "to": "dg-civilization_interface",
       "title": "Interfaces civilizatorias y autoridad",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "reabre la pregunta por",
       "reading": "La IA puede interponer interpretación en lugar de respuesta directa.",
       "relationTokens": 32,
-      "fichaTokens": 106,
+      "fichaTokens": 96,
       "tagWeights": {
         "aprendizaje": 0.1667,
         "autoridad": 0.5417,
@@ -231,10 +237,11 @@
       "to": "dg-formalization_event",
       "title": "La frontera entre mundo y registro",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "muestra el camino del argumento",
       "reading": "Un diálogo fuerte conserva objeciones y retiradas precisas.",
       "relationTokens": 33,
-      "fichaTokens": 137,
+      "fichaTokens": 127,
       "tagWeights": {
         "aprendizaje": 0.2131,
         "decision": 0.1339,
@@ -254,10 +261,11 @@
       "to": "dg-semantic_graph",
       "title": "Conocimiento como red de relaciones y procedencia",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "retiene objeciones",
       "reading": "La trayectoria importa tanto como el resultado.",
       "relationTokens": 31,
-      "fichaTokens": 181,
+      "fichaTokens": 164,
       "tagWeights": {
         "aprendizaje": 0.0229,
         "decision": 0.0625,

@@ -13,14 +13,14 @@
   "clusters": [
     "net"
   ],
-  "context": "## xSeil orchestration\nBefore agent frameworks became mainstream, deployed mission-critical systems implemented centralized equivalents of behaviours now attributed to multi-agent architectures. We document three such mechanisms in xSeil (2016–2017): a pacing daemon computing a multiplicative saturation index over destination pressure and issuing physical speed commands to vehicles through iterative marginal load-shifting; a scenario system with a full simulation twin evaluating counterfactual plans against a shared persistent configuration library; and an evidence-gated escalation ladder that widens search scope only on demonstrated insufficiency. We show that the daemon’s saturation index is structurally identical to the fragility measure F = P(anomalies) × P(propagation) formalized by the same group a decade later, map each mechanism to its modern agentic counterpart as explicit retrospective interpretation, and specify a benchmark protocol for the open empirical question of what decentralization buys — and costs — against a centralized baseline possessing global visibility and deterministic auditability.\n\nA companion Technical Code Annex supplies the verbatim production code behind every claim below — the control-loop state machine, the geofence→delay→forward-propagation sensor, and the saturation-index→speed-command actuator — so the closed loop and the fragility identity are auditable, not narrated.\nEtiquetas: Agentes y coordinación distribuida 42.86%; Investigación y documentación técnica 23.81%; Movilidad e infraestructura 33.33%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/xseil-orchestration-n1805/\nDocumento de origen: https://jubap.net/xseil-orchestration/\n\n",
+  "context": "## xSeil orchestration\nBefore agent frameworks became mainstream, deployed mission-critical systems implemented centralized equivalents of behaviours now attributed to multi-agent architectures. We document three such mechanisms in xSeil (2016–2017): a pacing daemon computing a multiplicative saturation index over destination pressure and issuing physical speed commands to vehicles through iterative marginal load-shifting; a scenario system with a full simulation twin evaluating counterfactual plans against a shared persistent configuration library; and an evidence-gated escalation ladder that widens search scope only on demonstrated insufficiency. We show that the daemon’s saturation index is structurally identical to the fragility measure F = P(anomalies) × P(propagation) formalized by the same group a decade later, map each mechanism to its modern agentic counterpart as explicit retrospective interpretation, and specify a benchmark protocol for the open empirical question of what decentralization buys — and costs — against a centralized baseline possessing global visibility and deterministic auditability.\n\nA companion Technical Code Annex supplies the verbatim production code behind every claim below — the control-loop state machine, the geofence→delay→forward-propagation sensor, and the saturation-index→speed-command actuator — so the closed loop and the fragility identity are auditable, not narrated.\nTags: Agents and distributed coordination 42.86%; Research and technical documentation 23.81%; Mobility and infrastructure 33.33%\nCard: https://dakleyer.github.io/perspective-beyond/sources/xseil-orchestration-n1805/\nSource document: https://jubap.net/xseil-orchestration/\n\n",
   "readingSource": {
     "url": "https://jubap.net/xseil-orchestration/",
     "section": "Abstract",
     "observed": "2026-11-04",
     "sourceSha256": "9ea473fcff7604fa51ca771c6d36ff7216572e08501463a472e8a1297ac91773"
   },
-  "tokens": 327,
+  "tokens": 322,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -28,10 +28,11 @@
       "to": "C06",
       "title": "Compatibilidad global",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 16,
-      "fichaTokens": 234,
+      "fichaTokens": 209,
       "tagWeights": {
         "agentes": 0.0729,
         "aprendizaje": 0.0198,
@@ -67,10 +68,11 @@
       "to": "C44",
       "title": "Arbitraje de recursos",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 18,
-      "fichaTokens": 261,
+      "fichaTokens": 231,
       "tagWeights": {
         "agentes": 0.1274,
         "aprendizaje": 0.003,
@@ -108,10 +110,11 @@
       "to": "C45",
       "title": "Fallo de composición",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 17,
-      "fichaTokens": 251,
+      "fichaTokens": 222,
       "tagWeights": {
         "agentes": 0.0759,
         "autoridad": 0.0271,
@@ -150,10 +153,11 @@
       "to": "GH023",
       "title": "MSCA Ecosystem Composition & Control — Ecosystem Cartography of Objective-Bound Architectures",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "analogy only",
       "reading": "The later cartography distinguishes semantic compatibility from shared-resource dependence, a useful retrospective lens on xSeil’s state-dependent allocation.",
       "relationTokens": 53,
-      "fichaTokens": 199,
+      "fichaTokens": 193,
       "tagWeights": {
         "cartografia": 0.2381,
         "control-minimo": 0.6667,
@@ -171,10 +175,11 @@
       "to": "GH023",
       "title": "MSCA Ecosystem Composition & Control — Ecosystem Cartography of Objective-Bound Architectures",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "analogy only",
       "reading": "The historical allocation mechanism can inspire a later cartographic treatment of shared dependencies without being relabeled as an MSCA deployment.",
       "relationTokens": 52,
-      "fichaTokens": 199,
+      "fichaTokens": 193,
       "tagWeights": {
         "cartografia": 0.2381,
         "control-minimo": 0.6667,
@@ -192,10 +197,11 @@
       "to": "N1822",
       "title": "xSeil agentic features",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [Pre-Agentic Orchestration: the canonical paper](https://jubap.net/xseil-agentic-features/).",
       "relationTokens": 48,
-      "fichaTokens": 262,
+      "fichaTokens": 257,
       "tagWeights": {
         "agentes": 0.5625,
         "movilidad": 0.4375

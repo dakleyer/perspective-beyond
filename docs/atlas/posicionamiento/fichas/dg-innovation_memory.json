@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Creatividad de urgencia y memoria de innovación",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-innovation_memory",
-  "documentId": null,
   "sourceIds": [
     "D-242",
     "D-294"
@@ -21,9 +20,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Creatividad de urgencia y memoria de innovación\nLa solución brillante pierde valor acumulativo cuando no se documenta, se transmite ni se puede repetir.\nEtiquetas: Aprendizaje y transmisión de capacidades 21.43%; Capacidad humana y deuda de inteligencia 7.15%; Casos de uso y aplicaciones 14.29%; Economía, costes y liquidez 7.15%; Empresa y gestión 7.14%; Memoria, comunidad y territorio 17.85%; Movilidad e infraestructura 17.85%; Transformación y continuidad operativa 7.14%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-innovation_memory\n\n",
-  "readingSource": null,
-  "tokens": 144,
+  "context": "## Creatividad de urgencia y memoria de innovación\nLa solución brillante pierde valor acumulativo cuando no se documenta, se transmite ni se puede repetir.\nTags: Learning and capability transmission 21.43%; Human capability and intelligence debt 7.15%; Use cases and applications 14.29%; Economics, costs and liquidity 7.15%; Business and management 7.14%; Memory, community and territory 17.85%; Mobility and infrastructure 17.85%; Transformation and operational continuity 7.14%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-innovation_memory\n\n",
+  "tokens": 131,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -31,10 +29,11 @@
       "to": "D-242",
       "title": "México innova apagando incendios; el problema es que el aprendizaje no siempre queda",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 35,
-      "fichaTokens": 440,
+      "fichaTokens": 430,
       "tagWeights": {
         "aprendizaje": 0.4286,
         "capacidad-humana": 0.1429,
@@ -53,10 +52,11 @@
       "to": "D-294",
       "title": "La tecnología posible no es la tecnología que el mercado termina adoptando",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 30,
-      "fichaTokens": 428,
+      "fichaTokens": 421,
       "tagWeights": {
         "casos": 0.2857,
         "economia": 0.1429,
@@ -74,10 +74,11 @@
       "to": "dg-transform",
       "title": "Transformación organizativa",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.9",
       "reading": "Una solución sin continuidad no produce capacidad estable.",
       "relationTokens": 33,
-      "fichaTokens": 233,
+      "fichaTokens": 208,
       "tagWeights": {
         "aprendizaje": 0.2509,
         "autoridad": 0.0093,
@@ -109,10 +110,11 @@
       "to": "dg-capability_loss",
       "title": "Poda, memoria y capacidades zombis",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.9",
       "reading": "La memoria institucional previene pérdida de saber.",
       "relationTokens": 37,
-      "fichaTokens": 142,
+      "fichaTokens": 129,
       "tagWeights": {
         "aprendizaje": 0.1146,
         "autoridad": 0.125,
@@ -134,10 +136,11 @@
       "to": "dg-craft_excellence",
       "title": "Oficio, detalle y excelencia operativa",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.9",
       "reading": "La creatividad y la excelencia necesitan estructuras repetibles.",
       "relationTokens": 38,
-      "fichaTokens": 105,
+      "fichaTokens": 99,
       "tagWeights": {
         "capacidad-humana": 0.0769,
         "empresa": 0.6539,

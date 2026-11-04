@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Industry Reference Group (IRG)",
   "url": "https://dakleyer.github.io/perspective-beyond/concepts/industry-reference-group/",
-  "documentId": null,
   "sourceIds": [
     "T1726",
     "T1499"
@@ -17,9 +16,8 @@
   "clusters": [
     "tegrity"
   ],
-  "context": "## Industry Reference Group (IRG)\nThe group convenes practical perspectives on agentic AI and its operating conditions.\nEtiquetas: Investigación y documentación técnica 25.00%; Estándares e interoperabilidad 25.00%; Evidencia, procedencia y atribución 25.00%; Integridad y seguridad de IA 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/industry-reference-group/\n\n",
-  "readingSource": null,
-  "tokens": 91,
+  "context": "## Industry Reference Group (IRG)\nThe group convenes practical perspectives on agentic AI and its operating conditions.\nTags: Research and technical documentation 25.00%; Standards and interoperability 25.00%; Evidence, provenance and attribution 25.00%; AI integrity and security 25.00%\nCard: https://dakleyer.github.io/perspective-beyond/concepts/industry-reference-group/\n\n",
+  "tokens": 82,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -27,10 +25,11 @@
       "to": "T1726",
       "title": "Industry Reference Group",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 18,
-      "fichaTokens": 68,
+      "fichaTokens": 61,
       "tagWeights": {
         "estandares": 0.5,
         "integridad-ia": 0.5
@@ -46,10 +45,11 @@
       "to": "T1499",
       "title": "Structural Awareness",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 17,
-      "fichaTokens": 173,
+      "fichaTokens": 168,
       "tagWeights": {
         "documentacion": 0.5,
         "evidencia": 0.5
@@ -65,10 +65,11 @@
       "to": "G16",
       "title": "Hipótesis H1–H6",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 131,
+      "fichaTokens": 121,
       "tagWeights": {
         "autoridad": 0.087,
         "cartografia": 0.0869,
@@ -89,10 +90,11 @@
       "to": "G20",
       "title": "Escalera de evidencia y madurez",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 78,
+      "fichaTokens": 73,
       "tagWeights": {
         "documentacion": 0.3409,
         "evidencia": 0.3863,
@@ -110,12 +112,13 @@
       "to": "G26",
       "title": "Arquitectura transmisible a implementadores",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 20,
-      "fichaTokens": 63,
+      "fichaTokens": 62,
       "tagWeights": {
-        "documentacion": 1.0
+        "documentacion": 1
       },
       "clusters": [],
       "type": "concepto",
@@ -126,10 +129,11 @@
       "to": "G35",
       "title": "Preestandarización y contribuciones UIT",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 79,
+      "fichaTokens": 75,
       "tagWeights": {
         "control-minimo": 0.103,
         "documentacion": 0.0588,

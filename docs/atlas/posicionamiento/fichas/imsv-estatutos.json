@@ -13,14 +13,14 @@
   "clusters": [
     "imsv"
   ],
-  "context": "## IMSV · Estatutos y misión institucional\nGobierno enlaza el extracto público en francés de los estatutos de misión, con disposiciones fundadoras, artículos 1 a 9 y anexos visuales. La web distingue constitución de la asociación el 20 de noviembre de 2024, revisión estatutaria de referencia el 2 de julio de 2025 y ratificación del texto consolidado el 3 de agosto de 2026.\n\nEl francés es el ejemplar de referencia jurídica. Las normas permiten situar fines, recursos, responsabilidades y mandatos; la página de gobierno explica las competencias de Asamblea General, Consejo y Círculos. La procedencia histórica de capacidades y la constitución de la persona jurídica son dos hitos identificados en su cronología.\nEtiquetas: Autoridad, permisos y delegación 30.00%; Evidencia, procedencia y atribución 20.00%; Legitimidad y principios 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-estatutos/\nDocumento de origen: https://integralmanagement.ch/wp-content/uploads/2026/11/Statuts_The_Integral_Management_Society_mission_notarial_apostille_public-web.pdf\n\n",
+  "context": "## IMSV · Estatutos y misión institucional\nGobierno enlaza el extracto público en francés de los estatutos de misión, con disposiciones fundadoras, artículos 1 a 9 y anexos visuales. La web distingue constitución de la asociación el 20 de noviembre de 2024, revisión estatutaria de referencia el 2 de julio de 2025 y ratificación del texto consolidado el 3 de agosto de 2026.\n\nEl francés es el ejemplar de referencia jurídica. Las normas permiten situar fines, recursos, responsabilidades y mandatos; la página de gobierno explica las competencias de Asamblea General, Consejo y Círculos. La procedencia histórica de capacidades y la constitución de la persona jurídica son dos hitos identificados en su cronología.\nTags: Authority, permissions and delegation 30.00%; Evidence, provenance and attribution 20.00%; Legitimacy and principles 50.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-estatutos/\nSource document: https://integralmanagement.ch/wp-content/uploads/2026/11/Statuts_The_Integral_Management_Society_mission_notarial_apostille_public-web.pdf\n\n",
   "readingSource": {
     "url": "https://integralmanagement.ch/wp-content/uploads/2026/11/Statuts_The_Integral_Management_Society_mission_notarial_apostille_public-web.pdf",
     "section": "Institutional page",
     "observed": "2026-11-04",
     "sourceSha256": "d5e28a414be0cb817593d91f2aacb5eaade97b556834ce886e966a93ae727692"
   },
-  "tokens": 266,
+  "tokens": 259,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -28,10 +28,11 @@
       "to": "S14",
       "title": "The Integral Management Society",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "institutional function",
       "reading": "La ficha explica estatutos y misión institucional dentro de la asociación.",
-      "relationTokens": 72,
-      "fichaTokens": 380,
+      "relationTokens": 70,
+      "fichaTokens": 371,
       "tagWeights": {
         "empresa": 0.2,
         "autoridad": 0.2,
@@ -50,10 +51,11 @@
       "to": "imsv-gobierno",
       "title": "IMSV · Gobierno y órganos responsables",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documented institutional reading",
       "reading": "El gobierno deriva sus atribuciones de las normas y versiones estatutarias.",
-      "relationTokens": 51,
-      "fichaTokens": 221,
+      "relationTokens": 49,
+      "fichaTokens": 217,
       "tagWeights": {
         "autoridad": 0.4,
         "legitimidad": 0.35,

@@ -13,14 +13,14 @@
   "clusters": [
     "imsv"
   ],
-  "context": "## IMSV · Gobierno y órganos responsables\nLa Asamblea General adopta y modifica estatutos, elige al Consejo y aprueba informes, cuentas, hoja de ruta y presupuesto conforme a las reglas estatutarias. El Consejo es el comité de la asociación y distribuye las funciones de dirección o presidencia, secretaría y responsabilidad financiera. Los Círculos desarrollan mandatos mediante sus Chartae; comparten la personalidad jurídica de la asociación.\n\nLa página de gobierno fecha la constitución en Ginebra el 20 de noviembre de 2024 y la ratificación del texto estatutario consolidado el 3 de agosto de 2026. Publica las funciones de los órganos y un contacto para consultar representación y documentos.\nEtiquetas: Autoridad, permisos y delegación 40.00%; Empresa y gestión 25.00%; Legitimidad y principios 35.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-gobierno/\nDocumento de origen: https://integralmanagement.ch/gobierno/\n\n",
+  "context": "## IMSV · Gobierno y órganos responsables\nLa Asamblea General adopta y modifica estatutos, elige al Consejo y aprueba informes, cuentas, hoja de ruta y presupuesto conforme a las reglas estatutarias. El Consejo es el comité de la asociación y distribuye las funciones de dirección o presidencia, secretaría y responsabilidad financiera. Los Círculos desarrollan mandatos mediante sus Chartae; comparten la personalidad jurídica de la asociación.\n\nLa página de gobierno fecha la constitución en Ginebra el 20 de noviembre de 2024 y la ratificación del texto estatutario consolidado el 3 de agosto de 2026. Publica las funciones de los órganos y un contacto para consultar representación y documentos.\nTags: Authority, permissions and delegation 40.00%; Business and management 25.00%; Legitimacy and principles 35.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-gobierno/\nSource document: https://integralmanagement.ch/gobierno/\n\n",
   "readingSource": {
     "url": "https://integralmanagement.ch/gobierno/",
     "section": "Institutional page",
     "observed": "2026-11-04",
     "sourceSha256": "63a257646f518430850079dc08336a9a82726d2d61797c294b26e247a9afa024"
   },
-  "tokens": 221,
+  "tokens": 217,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -28,10 +28,11 @@
       "to": "S14",
       "title": "The Integral Management Society",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "institutional function",
       "reading": "La ficha explica gobierno y órganos responsables dentro de la asociación.",
-      "relationTokens": 43,
-      "fichaTokens": 380,
+      "relationTokens": 41,
+      "fichaTokens": 371,
       "tagWeights": {
         "empresa": 0.2,
         "autoridad": 0.2,
@@ -50,10 +51,11 @@
       "to": "imsv-estatutos",
       "title": "IMSV · Estatutos y misión institucional",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documented institutional reading",
       "reading": "El gobierno deriva sus atribuciones de las normas y versiones estatutarias.",
-      "relationTokens": 51,
-      "fichaTokens": 266,
+      "relationTokens": 49,
+      "fichaTokens": 259,
       "tagWeights": {
         "legitimidad": 0.5,
         "autoridad": 0.3,
@@ -70,10 +72,11 @@
       "to": "imsv-legal",
       "title": "IMSV · Identidad jurídica y fuentes legales",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documented institutional reading",
       "reading": "La ficha legal relaciona identidad pública, UID y documentos institucionales.",
-      "relationTokens": 51,
-      "fichaTokens": 236,
+      "relationTokens": 49,
+      "fichaTokens": 229,
       "tagWeights": {
         "evidencia": 0.4,
         "legitimidad": 0.4,

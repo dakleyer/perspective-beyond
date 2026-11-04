@@ -12,9 +12,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Once departamentos y una visión incompleta\nINTERLOCUTOR — ¿Qué te ocurrió cuando descubriste que un reporte útil podía desaparecer en once departamentos y hojas de Excel?\nIVÁN —\nEso sí, muy a mi pesar, esos reportes eran generados en Excel y luego copiados manualmente, celda por celda, a otro Excel… exactamente igual. Y cuando digo exactamente, no es una metáfora. El mismo reporte, idéntico, viajaba de un departamento a otro: llegué a contar hasta once—cada uno del tamaño de un edificio— donde equipos enteros de escribanos se dedicaban a transcribir una y otra vez los mismos datos, sin cuestionarlos y sin conocer el origen y el destino poco más allá del eslabón anterior y posterior de la cadena. \nIncluso yo mismo no supe el destino final y paré de interesarme después del departamento onceavo. Comprendí que, si esperaba visibilidad o reconocimiento por mis habilidades tecnológicas, lo estaba buscando en el lugar equivocado. Todos esos equipos dependían del GEPLAN, pero ni lo sabían ni les resultaba relevante. Si por alguna razón el sistema llegara a fallar, podrían tardar meses en notarlo, y aun así, probablemente culparían a alguien más y continuarían con su rutina, como si nada hubiera pasado.\nEn todo caso, decidí continuar el programa que había planteado. Y no especialmente por mí sino porque ante todo sentía que me debía a mi equipo, que, por otra parte, era de ensueño.\nEtiquetas: Empresa y gestión 50.00%; Cambio de perspectiva 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-029\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20%C2%BFQu%C3%A9%20te%20ocurri%C3%B3%20cuando%20descubriste%20que%20un%20reporte%20%C3%BAtil\n\n",
-  "readingSource": null,
-  "tokens": 444,
+  "context": "## Once departamentos y una visión incompleta\nINTERLOCUTOR — ¿Qué te ocurrió cuando descubriste que un reporte útil podía desaparecer en once departamentos y hojas de Excel?\nIVÁN —\nEso sí, muy a mi pesar, esos reportes eran generados en Excel y luego copiados manualmente, celda por celda, a otro Excel… exactamente igual. Y cuando digo exactamente, no es una metáfora. El mismo reporte, idéntico, viajaba de un departamento a otro: llegué a contar hasta once—cada uno del tamaño de un edificio— donde equipos enteros de escribanos se dedicaban a transcribir una y otra vez los mismos datos, sin cuestionarlos y sin conocer el origen y el destino poco más allá del eslabón anterior y posterior de la cadena. \nIncluso yo mismo no supe el destino final y paré de interesarme después del departamento onceavo. Comprendí que, si esperaba visibilidad o reconocimiento por mis habilidades tecnológicas, lo estaba buscando en el lugar equivocado. Todos esos equipos dependían del GEPLAN, pero ni lo sabían ni les resultaba relevante. Si por alguna razón el sistema llegara a fallar, podrían tardar meses en notarlo, y aun así, probablemente culparían a alguien más y continuarían con su rutina, como si nada hubiera pasado.\nEn todo caso, decidí continuar el programa que había planteado. Y no especialmente por mí sino porque ante todo sentía que me debía a mi equipo, que, por otra parte, era de ensueño.\nTags: Business and management 50.00%; Change of perspective 50.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-029\nSource document: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20%C2%BFQu%C3%A9%20te%20ocurri%C3%B3%20cuando%20descubriste%20que%20un%20reporte%20%C3%BAtil\n\n",
+  "tokens": 442,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "dg-observe",
       "title": "Mirar lo que falta",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 20,
-      "fichaTokens": 189,
+      "fichaTokens": 170,
       "tagWeights": {
         "aprendizaje": 0.0835,
         "cambio-regimen": 0.054,
@@ -52,10 +52,11 @@
       "to": "dg-structure",
       "title": "Conciencia estructural",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 256,
+      "fichaTokens": 226,
       "tagWeights": {
         "aprendizaje": 0.158,
         "autoridad": 0.0636,
@@ -88,10 +89,11 @@
       "to": "D-073",
       "title": "Del régimen de operación a la conciencia estructural",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura comparada",
       "reading": "Las miradas parciales de distintos departamentos permiten preguntar qué relaciones pierde una descripción de la estructura.",
       "relationTokens": 41,
-      "fichaTokens": 637,
+      "fichaTokens": 632,
       "tagWeights": {
         "cambio-regimen": 0.5714,
         "decision": 0.2857,
@@ -108,10 +110,11 @@
       "to": "D-019",
       "title": "Chicontepec: entender antes de automatizar",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Mirar lo que falta».",
       "relationTokens": 34,
-      "fichaTokens": 461,
+      "fichaTokens": 457,
       "tagWeights": {
         "empresa": 0.5,
         "transformacion": 0.5
@@ -127,12 +130,13 @@
       "to": "D-054",
       "title": "Matemáticas: preguntar antes de elegir escuela",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Mirar lo que falta».",
       "relationTokens": 32,
-      "fichaTokens": 422,
+      "fichaTokens": 419,
       "tagWeights": {
-        "matematicas": 1.0
+        "matematicas": 1
       },
       "clusters": [
         "dialogos"
@@ -145,10 +149,11 @@
       "to": "D-025",
       "title": "Instalar un sistema no basta",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Conciencia estructural».",
       "relationTokens": 29,
-      "fichaTokens": 645,
+      "fichaTokens": 638,
       "tagWeights": {
         "aprendizaje": 0.2222,
         "empresa": 0.5556,
@@ -165,10 +170,11 @@
       "to": "D-031",
       "title": "Auditorías, certificación y hábitos reales",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Conciencia estructural».",
       "relationTokens": 31,
-      "fichaTokens": 443,
+      "fichaTokens": 436,
       "tagWeights": {
         "aprendizaje": 0.3334,
         "empresa": 0.3333,
@@ -185,12 +191,13 @@
       "to": "D-271",
       "title": "La solución pudo decirse muchas veces y seguir siendo inaudible",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La solución pudo decirse muchas veces y seguir siendo inaudible» con «Once departamentos y una visión incompleta». Permite contrastar Mirar lo que falta.",
       "relationTokens": 66,
-      "fichaTokens": 379,
+      "fichaTokens": 376,
       "tagWeights": {
-        "decision": 1.0
+        "decision": 1
       },
       "clusters": [
         "dialogos"
@@ -203,10 +210,11 @@
       "to": "D-286",
       "title": "El enjambre de sistemitas es una deuda de gestión",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El enjambre de sistemitas es una deuda de gestión» con «Once departamentos y una visión incompleta».",
       "relationTokens": 52,
-      "fichaTokens": 430,
+      "fichaTokens": 420,
       "tagWeights": {
         "aprendizaje": 0.125,
         "decision": 0.125,
@@ -226,12 +234,13 @@
       "to": "D-116",
       "title": "Un control puede aprobar y el sistema seguir fallando",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Mirar lo que falta, Conciencia estructural desde las situaciones que describe cada texto.",
       "relationTokens": 48,
-      "fichaTokens": 299,
+      "fichaTokens": 294,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"
@@ -244,12 +253,13 @@
       "to": "D-099",
       "title": "Lo que el mapa no representa puede cambiar la decisión",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Mirar lo que falta, Conciencia estructural desde las situaciones que describe cada texto.",
       "relationTokens": 48,
-      "fichaTokens": 261,
+      "fichaTokens": 258,
       "tagWeights": {
-        "decision": 1.0
+        "decision": 1
       },
       "clusters": [
         "dialogos"
@@ -262,10 +272,11 @@
       "to": "D-056",
       "title": "Del límite matemático al cambio de contexto",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Mirar lo que falta, Conciencia estructural desde las situaciones que describe cada texto.",
       "relationTokens": 46,
-      "fichaTokens": 510,
+      "fichaTokens": 505,
       "tagWeights": {
         "cambio-regimen": 0.4545,
         "matematicas": 0.5455
@@ -281,10 +292,11 @@
       "to": "D-285",
       "title": "Un arquitecto no puede saber toda la jerga de todos los oficios",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Mirar lo que falta, Conciencia estructural desde las situaciones que describe cada texto.",
       "relationTokens": 53,
-      "fichaTokens": 439,
+      "fichaTokens": 426,
       "tagWeights": {
         "aprendizaje": 0.05,
         "empresa": 0.35,

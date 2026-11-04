@@ -13,9 +13,8 @@
   "clusters": [
     "totonacapan"
   ],
-  "context": "## La posada como lugar de encuentro\nLa historia institucional presenta la posada como una infraestructura donde se cruzan personas, noticias, oficios y experiencias. Su continuidad permite examinar qué hace posible que esos intercambios tengan vida más allá de una visita.\nEtiquetas: Infraestructura de encuentros 25.00%; Movilidad e infraestructura 37.50%; Transformación y continuidad operativa 37.50%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-posada\nDocumento de origen: https://totonacapan.com/?page_id=411\n\n",
-  "readingSource": null,
-  "tokens": 126,
+  "context": "## La posada como lugar de encuentro\nLa historia institucional presenta la posada como una infraestructura donde se cruzan personas, noticias, oficios y experiencias. Su continuidad permite examinar qué hace posible que esos intercambios tengan vida más allá de una visita.\nTags: Encounter infrastructure 25.00%; Mobility and infrastructure 37.50%; Transformation and operational continuity 37.50%\nCard: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-posada\nSource document: https://totonacapan.com/?page_id=411\n\n",
+  "tokens": 119,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,12 +22,13 @@
       "to": "np-xanath",
       "title": "Xanath y el conocimiento que se practica",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "comparación",
       "reading": "La reserva y la posada permiten comparar qué condiciones conservan o propician un encuentro.",
       "relationTokens": 38,
-      "fichaTokens": 104,
+      "fichaTokens": 101,
       "tagWeights": {
-        "memoria-territorio": 1.0
+        "memoria-territorio": 1
       },
       "clusters": [
         "totonacapan"
@@ -41,10 +41,11 @@
       "to": "np-formacion",
       "title": "Formación Integral: del maestro al aprendizaje digital",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "transmisión",
       "reading": "Los lugares de encuentro y los programas de aprendizaje permiten seguir cómo continúa una práctica.",
       "relationTokens": 35,
-      "fichaTokens": 112,
+      "fichaTokens": 106,
       "tagWeights": {
         "aprendizaje": 0.5455,
         "memoria-territorio": 0.4545
@@ -60,10 +61,11 @@
       "to": "np-hospitalidad",
       "title": "La Posada: una infraestructura para el encuentro",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura comparada de mecanismos",
       "reading": "El ensayo de la Posada desarrolla el mecanismo que la ficha de encuentro plantea: reconocer el asunto, reunir herramientas y memoria y sostener una relación que ayude a continuar.",
-      "relationTokens": 77,
-      "fichaTokens": 172,
+      "relationTokens": 75,
+      "fichaTokens": 164,
       "tagWeights": {
         "aprendizaje": 0.2,
         "documentacion": 0.1,

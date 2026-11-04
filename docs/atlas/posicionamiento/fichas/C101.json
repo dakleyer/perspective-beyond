@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Cadencia de coordinación por lotes",
   "url": "https://dakleyer.github.io/perspective-beyond/concepts/batched-coordination-cadence/",
-  "documentId": null,
   "sourceIds": [
     "U1498",
     "N1801"
@@ -24,9 +23,8 @@
     "net",
     "us"
   ],
-  "context": "## Cadencia de coordinación por lotes\nGroup decisions to make coordination worthwhile within urgency and risk limits.\nEtiquetas: Autoridad, permisos y delegación 5.89%; Capacidad humana y deuda de inteligencia 5.89%; Decisiones y responsabilidad 11.77%; Economía, costes y liquidez 14.42%; Empresa y gestión 8.53%; Evidencia, procedencia y atribución 8.53%; Memoria, comunidad y territorio 5.88%; Movilidad e infraestructura 28.12%; Representación y límites formales 2.44%; Transformación y continuidad operativa 8.53%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/batched-coordination-cadence/\n\n",
-  "readingSource": null,
-  "tokens": 155,
+  "context": "## Cadencia de coordinación por lotes\nGroup decisions to make coordination worthwhile within urgency and risk limits.\nTags: Authority, permissions and delegation 5.89%; Human capability and intelligence debt 5.89%; Decisions and responsibility 11.77%; Economics, costs and liquidity 14.42%; Business and management 8.53%; Evidence, provenance and attribution 8.53%; Memory, community and territory 5.88%; Mobility and infrastructure 28.12%; Representation and formal boundaries 2.44%; Transformation and operational continuity 8.53%\nCard: https://dakleyer.github.io/perspective-beyond/concepts/batched-coordination-cadence/\n\n",
+  "tokens": 139,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -34,10 +32,11 @@
       "to": "U1498",
       "title": "Entropy, Capability Activation and Sociotechnical Engineering",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 260,
+      "fichaTokens": 250,
       "tagWeights": {
         "autoridad": 0.1177,
         "capacidad-humana": 0.1177,
@@ -57,10 +56,11 @@
       "to": "N1801",
       "title": "xSeil Functionality Analisis",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 690,
+      "fichaTokens": 679,
       "tagWeights": {
         "economia": 0.1708,
         "empresa": 0.1707,
@@ -80,10 +80,11 @@
       "to": "C44",
       "title": "Arbitraje de recursos",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "analogy only",
       "reading": "Batch coordination and operational buffers can be compared as ways of timing a coupled intervention, provided urgent obligations and response windows remain explicit.",
       "relationTokens": 42,
-      "fichaTokens": 261,
+      "fichaTokens": 231,
       "tagWeights": {
         "agentes": 0.1274,
         "aprendizaje": 0.003,

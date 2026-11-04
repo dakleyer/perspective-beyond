@@ -6,14 +6,13 @@
   "documentId": "doc-41f3a410d217128630",
   "sourceIds": [],
   "tagWeights": {
-    "economia": 1.0
+    "economia": 1
   },
   "clusters": [
     "dialogos"
   ],
-  "context": "## Cuando el dinero reduce las opciones\nLa historia de los viajes, el trabajo y las decisiones familiares permite recuperar otra conversación económica sin reducirla al dinero. Es una reflexión posterior sobre experiencias anteriores, no la explicación que necesariamente se dio Iván en cada momento.\n\nINTERLOCUTOR (pregunta editorial nueva) — ¿Puede una persona ganar dinero o reconocimiento y, sin embargo, ir perdiendo libertad?\n\nRECUPERACIÓN DE CONVERSACIÓN (05/02/2026; síntesis temática, no cita textual) — Iván diferenciaba la liquidez que se tiene dentro de una situación —ingresos, posición, prestigio o capacidad de intercambio— de una «liquidez estructural»: la capacidad efectiva de abandonar esa situación y entrar en otra. Una mejora local puede crear dependencias nuevas y cerrar posibilidades de salida. La conversación utilizó ejemplos de mercados, pertenencia, estatus y trayectorias alternativas.\n\nLECTURA EDITORIAL — En la vida profesional esta tensión aparece cuando un contrato atractivo reduce la posibilidad de cambiar de actividad; cuando un proyecto concentra todo el tiempo y los recursos; o cuando el reconocimiento dentro de una organización hace más difícil reconocer que el mundo exterior está cambiando. No siempre es equivocado aceptar estabilidad: una familia necesita seguridad y continuidad. La cuestión es conocer el precio de cada elección y no confundir un beneficio inmediato con la conservación de todas las opciones futuras.\nEtiquetas: Economía, costes y liquidez 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-063\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=La%20historia%20de%20los%20viajes%2C%20el%20trabajo%20y%20las%20decisiones\n\n",
-  "readingSource": null,
-  "tokens": 379,
+  "context": "## Cuando el dinero reduce las opciones\nLa historia de los viajes, el trabajo y las decisiones familiares permite recuperar otra conversación económica sin reducirla al dinero. Es una reflexión posterior sobre experiencias anteriores, no la explicación que necesariamente se dio Iván en cada momento.\n\nINTERLOCUTOR (pregunta editorial nueva) — ¿Puede una persona ganar dinero o reconocimiento y, sin embargo, ir perdiendo libertad?\n\nRECUPERACIÓN DE CONVERSACIÓN (05/02/2026; síntesis temática, no cita textual) — Iván diferenciaba la liquidez que se tiene dentro de una situación —ingresos, posición, prestigio o capacidad de intercambio— de una «liquidez estructural»: la capacidad efectiva de abandonar esa situación y entrar en otra. Una mejora local puede crear dependencias nuevas y cerrar posibilidades de salida. La conversación utilizó ejemplos de mercados, pertenencia, estatus y trayectorias alternativas.\n\nLECTURA EDITORIAL — En la vida profesional esta tensión aparece cuando un contrato atractivo reduce la posibilidad de cambiar de actividad; cuando un proyecto concentra todo el tiempo y los recursos; o cuando el reconocimiento dentro de una organización hace más difícil reconocer que el mundo exterior está cambiando. No siempre es equivocado aceptar estabilidad: una familia necesita seguridad y continuidad. La cuestión es conocer el precio de cada elección y no confundir un beneficio inmediato con la conservación de todas las opciones futuras.\nTags: Economics, costs and liquidity 100.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-063\nSource document: https://totonacapan.com/?page_id=413#:~:text=La%20historia%20de%20los%20viajes%2C%20el%20trabajo%20y%20las%20decisiones\n\n",
+  "tokens": 376,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -21,10 +20,11 @@
       "to": "dg-options",
       "title": "Libertad y opciones",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 18,
-      "fichaTokens": 202,
+      "fichaTokens": 181,
       "tagWeights": {
         "aprendizaje": 0.1588,
         "autoridad": 0.0804,
@@ -53,10 +53,11 @@
       "to": "dg-economy",
       "title": "Economía y escasez",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 250,
+      "fichaTokens": 222,
       "tagWeights": {
         "aprendizaje": 0.0688,
         "autoridad": 0.0119,
@@ -89,10 +90,11 @@
       "to": "D-064",
       "title": "Liquidez para cuidar responsabilidades",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura comparada",
       "reading": "La liquidez permite ver la relación entre alternativas reales y responsabilidades sostenibles.",
       "relationTokens": 32,
-      "fichaTokens": 447,
+      "fichaTokens": 441,
       "tagWeights": {
         "casos": 0.1177,
         "decision": 0.5882,
@@ -109,12 +111,13 @@
       "to": "D-048",
       "title": "El coste de multiplicar proyectos",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Libertad y opciones».",
       "relationTokens": 29,
-      "fichaTokens": 521,
+      "fichaTokens": 518,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "dialogos"
@@ -127,10 +130,11 @@
       "to": "D-051",
       "title": "El valor creado a ambos lados del Atlántico",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Economía y escasez».",
       "relationTokens": 34,
-      "fichaTokens": 447,
+      "fichaTokens": 444,
       "tagWeights": {
         "economia": 0.5,
         "geopolitica": 0.5
@@ -146,10 +150,11 @@
       "to": "D-003",
       "title": "Independencia: trabajo, cuentas y viajes",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Economía y escasez».",
       "relationTokens": 32,
-      "fichaTokens": 539,
+      "fichaTokens": 536,
       "tagWeights": {
         "economia": 0.5,
         "geopolitica": 0.5
@@ -165,10 +170,11 @@
       "to": "D-168",
       "title": "Cuando alguien define tu bienestar, la economía ya es política",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Cuando alguien define tu bienestar, la economía ya es política» con «Cuando el dinero reduce las opciones». Permite contrastar Libertad y opciones.",
       "relationTokens": 59,
-      "fichaTokens": 339,
+      "fichaTokens": 334,
       "tagWeights": {
         "autoridad": 0.2857,
         "economia": 0.7143
@@ -184,12 +190,13 @@
       "to": "D-173",
       "title": "No lo llames desapego: elasticidad marginal de identificación",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «No lo llames desapego: elasticidad marginal de identificación» con «Cuando el dinero reduce las opciones». Permite contrastar Libertad y opciones.",
       "relationTokens": 61,
-      "fichaTokens": 318,
+      "fichaTokens": 313,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"
@@ -202,10 +209,11 @@
       "to": "D-176",
       "title": "Responsabilidad sin posibilidad de ganar produce selección regresiva",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Responsabilidad sin posibilidad de ganar produce selección regresiva» con «Cuando el dinero reduce las opciones». Permite contrastar Libertad y opciones.",
       "relationTokens": 57,
-      "fichaTokens": 346,
+      "fichaTokens": 342,
       "tagWeights": {
         "decision": 0.75,
         "economia": 0.25
@@ -221,12 +229,13 @@
       "to": "D-177",
       "title": "Mil microopciones pueden llevar al mismo macroestado",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Mil microopciones pueden llevar al mismo macroestado» con «Cuando el dinero reduce las opciones». Permite contrastar Libertad y opciones.",
       "relationTokens": 57,
-      "fichaTokens": 340,
+      "fichaTokens": 337,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "dialogos"
@@ -239,10 +248,11 @@
       "to": "D-197",
       "title": "El mercado puede crear escasez donde antes había abundancia",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El mercado puede crear escasez donde antes había abundancia» con «Cuando el dinero reduce las opciones». Permite contrastar Economía y escasez, Libertad y opciones.",
       "relationTokens": 67,
-      "fichaTokens": 395,
+      "fichaTokens": 390,
       "tagWeights": {
         "economia": 0.3333,
         "representacion": 0.6667
@@ -258,12 +268,13 @@
       "to": "D-213",
       "title": "La libertad también puede exigirse sufrimiento como demostración",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La libertad también puede exigirse sufrimiento como demostración» con «Cuando el dinero reduce las opciones». Permite contrastar Libertad y opciones.",
       "relationTokens": 59,
-      "fichaTokens": 401,
+      "fichaTokens": 397,
       "tagWeights": {
-        "integridad-ia": 1.0
+        "integridad-ia": 1
       },
       "clusters": [
         "dialogos"
@@ -276,12 +287,13 @@
       "to": "D-214",
       "title": "La invisibilidad local puede ser una forma de riqueza",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La invisibilidad local puede ser una forma de riqueza» con «Cuando el dinero reduce las opciones». Permite contrastar Libertad y opciones.",
       "relationTokens": 57,
-      "fichaTokens": 389,
+      "fichaTokens": 384,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"
@@ -294,10 +306,11 @@
       "to": "D-252",
       "title": "La historia de un territorio también entra por el olfato y el oído",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La historia de un territorio también entra por el olfato y el oído» con «Cuando el dinero reduce las opciones».",
       "relationTokens": 58,
-      "fichaTokens": 435,
+      "fichaTokens": 430,
       "tagWeights": {
         "capacidad-humana": 0.1176,
         "documentacion": 0.2353,
@@ -314,10 +327,11 @@
       "to": "D-196",
       "title": "Rascarse la espalda también puede entrar en el mercado",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Libertad y opciones, Economía y escasez desde las situaciones que describe cada texto.",
       "relationTokens": 48,
-      "fichaTokens": 392,
+      "fichaTokens": 386,
       "tagWeights": {
         "casos": 0.3334,
         "decision": 0.3333,
@@ -334,10 +348,11 @@
       "to": "D-101",
       "title": "La incomodidad que una solución puede fabricar",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Libertad y opciones, Economía y escasez desde las situaciones que describe cada texto.",
       "relationTokens": 46,
-      "fichaTokens": 306,
+      "fichaTokens": 303,
       "tagWeights": {
         "economia": 0.5,
         "perspectiva": 0.5
@@ -353,10 +368,11 @@
       "to": "D-151",
       "title": "Permanecer puede tener un valor que la hoja de cálculo no registra",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Libertad y opciones, Economía y escasez desde las situaciones que describe cada texto.",
       "relationTokens": 51,
-      "fichaTokens": 304,
+      "fichaTokens": 299,
       "tagWeights": {
         "economia": 0.5,
         "integridad-ia": 0.5
@@ -372,10 +388,11 @@
       "to": "D-195",
       "title": "La propiedad, el uso y el trabajo no caben en tres cajones",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Libertad y opciones, Economía y escasez desde las situaciones que describe cada texto.",
       "relationTokens": 52,
-      "fichaTokens": 396,
+      "fichaTokens": 391,
       "tagWeights": {
         "autoridad": 0.5,
         "economia": 0.5

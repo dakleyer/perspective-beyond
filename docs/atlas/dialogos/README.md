@@ -1,16 +1,16 @@
-# Diálogos de Nueva Perspectiva
+# Nueva Perspectiva dialogues
 
-La colección pública reúne 298 fichas y textos, 93 conceptos y las 322 relaciones conceptuales de la edición 0.12.
+The public collection brings together 298 cards and texts, 93 concepts and the 322 conceptual relationships of edition 0.12.
 
-- [Entrada en Nueva Perspectiva](https://integralmanagement.ch/nueva-perspectiva/dialogos/).
-- [Textos y fichas navegables](https://dakleyer.github.io/perspective-beyond/atlas/dialogos/).
-- [Entrada para asistentes](https://dakleyer.github.io/perspective-beyond/atlas/entrada/dialogos/cerrado.txt).
-- [Fichas, textos y relaciones en JSON](publico.json).
+- [Entry in Nueva Perspectiva](https://integralmanagement.ch/nueva-perspectiva/dialogos/).
+- [Navigable texts and cards](https://dakleyer.github.io/perspective-beyond/atlas/dialogos/).
+- [Entry for assistants](https://dakleyer.github.io/perspective-beyond/atlas/entrada/dialogos/cerrado.txt).
+- [Cards, texts and relationships in JSON](publico.json).
 
-Cada texto tiene una versión HTML y otra UTF-8, su procedencia editorial, sus conceptos y conexiones de lectura. Los identificadores D-001 a D-298 son estables. Las fichas anteriores conservan sus anclas y los localizadores de la biografía publicada. La nota de cada texto distingue pasajes autobiográficos, intervenciones, escritos y reconstrucciones de conversación.
+Each text has an HTML and a UTF-8 version, its editorial provenance, its concepts and reading connections. Identifiers D-001 through D-298 are stable. Earlier cards retain their anchors and the locators of the published biography. Each text's note distinguishes autobiographical passages, interventions, writings and reconstructed conversations.
 
-`publico.json` reúne las fichas, sus textos completos, conceptos y relaciones conceptuales. `../global-catalog.json` integra estas fuentes en la constelación y registra los puentes hacia otros corpus. `../mapa/grafo.json` deriva los nodos y conexiones para los mapas por radio. `../rutas.json` delimita los recorridos de los asistentes.
+`publico.json` brings together the cards, their full texts, concepts and conceptual relationships. `../global-catalog.json` integrates these sources into the constellation and records bridges to other corpora. `../mapa/grafo.json` derives the nodes and connections for radius maps. `../rutas.json` delimits assistants' journeys.
 
-La selección de relaciones sigue tres vías: conexiones expresas de la edición, lecturas por conceptos compartidos y puentes explicados hacia otros clústeres. Las relaciones de lectura comparan mecanismos e ideas; las fechas y atribuciones se conservan en los textos de procedencia.
+Relationship selection follows three routes: explicit connections in the edition, readings through shared concepts and explained bridges to other clusters. Reading relationships compare mechanisms and ideas; dates and attributions are retained in the texts of origin.
 
-Las actualizaciones deben conservar los IDs, las anclas, las fuentes previas y la configuración de las instancias. Después de integrar una nueva edición, se regeneran el catálogo global, las etiquetas, las entradas de texto, el grafo, los índices y el sitemap. El texto fuente completo se puede abrir sin JavaScript.
+Updates must retain IDs, anchors, previous sources and instance configurations. After integrating a new edition, regenerate the global catalogue, tags, text entries, graph, indexes and sitemap. The full source text can be opened without JavaScript.

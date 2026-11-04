@@ -6,19 +6,19 @@
   "documentId": "doc-0d09f6eb9814f96587",
   "sourceIds": [],
   "tagWeights": {
-    "empresa": 1.0
+    "empresa": 1
   },
   "clusters": [
     "eu"
   ],
-  "context": "## Montblanc — Lightweight Product Intelligence for Luxury In-Store Conversion\nMontblanc operates one of the most complex product portfolios in premium retail. With strong brand awareness and consistent in-store traffic across a global network of more than 500 boutiques, the business priority it struggled to resolve was deceptively precise: understanding why a customer who enters the store does not complete a purchase.\n\nThat gap between traffic and conversion is structurally different in a luxury context than in mass retail. For a Maison whose product range spans fine writing instruments, Swiss-manufactured watches, leather goods and connected accessories, each production category operates at different volumes, with different cost structures and different regional demand patterns. Producing and allocating incorrectly in this environment is not just an inventory problem. It is a strategic risk.\nEtiquetas: Empresa y gestión 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/montblanc-lightweight-product-intelligence-for-luxury-in-store-conversion-e1524/\nDocumento de origen: https://jubap.eu/montblanc-lightweight-product-intelligence-for-luxury-in-store-conversion/\n\n",
+  "context": "## Montblanc — Lightweight Product Intelligence for Luxury In-Store Conversion\nMontblanc operates one of the most complex product portfolios in premium retail. With strong brand awareness and consistent in-store traffic across a global network of more than 500 boutiques, the business priority it struggled to resolve was deceptively precise: understanding why a customer who enters the store does not complete a purchase.\n\nThat gap between traffic and conversion is structurally different in a luxury context than in mass retail. For a Maison whose product range spans fine writing instruments, Swiss-manufactured watches, leather goods and connected accessories, each production category operates at different volumes, with different cost structures and different regional demand patterns. Producing and allocating incorrectly in this environment is not just an inventory problem. It is a strategic risk.\nTags: Business and management 100.00%\nCard: https://dakleyer.github.io/perspective-beyond/sources/montblanc-lightweight-product-intelligence-for-luxury-in-store-conversion-e1524/\nSource document: https://jubap.eu/montblanc-lightweight-product-intelligence-for-luxury-in-store-conversion/\n\n",
   "readingSource": {
     "url": "https://jubap.eu/montblanc-lightweight-product-intelligence-for-luxury-in-store-conversion/",
     "section": "Opening paragraphs",
     "observed": "2026-11-04",
     "sourceSha256": "12f19e254aca12b1b653bfd157d36f8144cf9df7915b13c7222e410178b96f82"
   },
-  "tokens": 232,
+  "tokens": 230,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -26,10 +26,11 @@
       "to": "C18",
       "title": "Señales de demanda",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 25,
-      "fichaTokens": 200,
+      "fichaTokens": 177,
       "tagWeights": {
         "agentes": 0.0455,
         "aprendizaje": 0.0105,
@@ -60,10 +61,11 @@
       "to": "C66",
       "title": "Señales de no compra",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 109,
+      "fichaTokens": 100,
       "tagWeights": {
         "agentes": 0.1137,
         "autoridad": 0.0455,
@@ -83,10 +85,11 @@
       "to": "G50",
       "title": "Recomendación de productos de lujo",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 78,
+      "fichaTokens": 74,
       "tagWeights": {
         "autoridad": 0.0667,
         "decision": 0.0667,
@@ -103,10 +106,11 @@
       "to": "E1563",
       "title": "Event Intelligence",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documented use",
       "reading": "The Montblanc MVP and the event-intelligence proposal both examine signals that sales records alone do not preserve.",
       "relationTokens": 42,
-      "fichaTokens": 279,
+      "fichaTokens": 269,
       "tagWeights": {
         "agentes": 0.2273,
         "autoridad": 0.0909,
@@ -126,10 +130,11 @@
       "to": "E1570",
       "title": "Luxury Recommendation",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [A distributed architecture for product intelligence](https://jubap.eu/luxury-recommendation-intelligence/).",
       "relationTokens": 49,
-      "fichaTokens": 211,
+      "fichaTokens": 206,
       "tagWeights": {
         "autoridad": 0.1334,
         "decision": 0.1333,
@@ -146,10 +151,11 @@
       "to": "E1662",
       "title": "THE DIAMOND INSIDE FRAMEWORK",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The Diamond Inside value-discovery framework](https://jubap.eu/the-diamond-inside-framework/).",
       "relationTokens": 54,
-      "fichaTokens": 395,
+      "fichaTokens": 386,
       "tagWeights": {
         "control-minimo": 0.0667,
         "economia": 0.2667,

@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Exclusión por omisión de interlocución",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-epistemic_silence",
-  "documentId": null,
   "sourceIds": [
     "D-258",
     "D-268"
@@ -16,9 +15,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Exclusión por omisión de interlocución\nUn marco de investigación puede mantener ciertas preguntas invisibles cuando no les concede examen, revisión o respuesta.\nEtiquetas: Autoridad, permisos y delegación 50.00%; Evidencia, procedencia y atribución 11.11%; Memoria, comunidad y territorio 38.89%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-epistemic_silence\n\n",
-  "readingSource": null,
-  "tokens": 98,
+  "context": "## Exclusión por omisión de interlocución\nUn marco de investigación puede mantener ciertas preguntas invisibles cuando no les concede examen, revisión o respuesta.\nTags: Authority, permissions and delegation 50.00%; Evidence, provenance and attribution 11.11%; Memory, community and territory 38.89%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-epistemic_silence\n\n",
+  "tokens": 91,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -26,12 +24,13 @@
       "to": "D-258",
       "title": "La ciencia también puede excluir una idea dejándola sin interlocutor",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 29,
-      "fichaTokens": 408,
+      "fichaTokens": 404,
       "tagWeights": {
-        "autoridad": 1.0
+        "autoridad": 1
       },
       "clusters": [
         "dialogos"
@@ -44,10 +43,11 @@
       "to": "D-268",
       "title": "Un bot que interpreta mi pensamiento debe saber regresar al archivo original",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 393,
+      "fichaTokens": 387,
       "tagWeights": {
         "evidencia": 0.2222,
         "memoria-territorio": 0.7778
@@ -63,10 +63,11 @@
       "to": "dg-doubt",
       "title": "Duda, pruebas y conocimiento corregible",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.10",
       "reading": "El silencio social no es una refutación.",
       "relationTokens": 38,
-      "fichaTokens": 268,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.2345,
         "autoridad": 0.0562,
@@ -100,10 +101,11 @@
       "to": "dg-research_dialogue",
       "title": "Diálogo de investigación y prueba acotada",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.10",
       "reading": "La crítica debe permitir interlocución y rectificación.",
       "relationTokens": 39,
-      "fichaTokens": 150,
+      "fichaTokens": 135,
       "tagWeights": {
         "aprendizaje": 0.0556,
         "autoridad": 0.3333,
@@ -125,10 +127,11 @@
       "to": "dg-governance",
       "title": "Gobernanza y legitimidad",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.10",
       "reading": "Comités y filtros ejercen selección y necesitan criterios claros.",
       "relationTokens": 37,
-      "fichaTokens": 273,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.0321,
         "autoridad": 0.4057,
@@ -162,10 +165,11 @@
       "to": "dg-axiom_reversal",
       "title": "Explorar axiomas desde lo indefinible",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación de ampliación v0.10",
       "reading": "Las fronteras de investigación pueden dejar preguntas fuera.",
       "relationTokens": 38,
-      "fichaTokens": 87,
+      "fichaTokens": 83,
       "tagWeights": {
         "experimentacion": 0.3125,
         "matematicas": 0.6875
@@ -181,10 +185,11 @@
       "to": "dg-constellation_protocol",
       "title": "Constelaciones, clusters y modos de lectura",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación de ampliación v0.10",
       "reading": "Si no hay fuente, bot debe señalar ausencia y no inventar.",
       "relationTokens": 42,
-      "fichaTokens": 104,
+      "fichaTokens": 99,
       "tagWeights": {
         "empresa": 0.25,
         "evidencia": 0.2361,
@@ -202,12 +207,13 @@
       "to": "dg-unheard_evidence",
       "title": "La respuesta ya pronunciada pero no escuchada",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación de ampliación v0.11",
       "reading": "Las ideas pueden quedar sin interlocutor.",
       "relationTokens": 36,
-      "fichaTokens": 71,
+      "fichaTokens": 69,
       "tagWeights": {
-        "decision": 1.0
+        "decision": 1
       },
       "clusters": [
         "dialogos"

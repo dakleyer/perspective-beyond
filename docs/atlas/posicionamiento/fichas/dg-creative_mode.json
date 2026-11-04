@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Crear, reproducir y transformar marcos",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-creative_mode",
-  "documentId": null,
   "sourceIds": [
     "D-165",
     "D-166",
@@ -23,9 +22,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Crear, reproducir y transformar marcos\nDesarmar y construir estructuras frente a habitarlas o multiplicarlas; modos practicables y verificables, no tipos superiores de personas.\nEtiquetas: Aprendizaje y transmisión de capacidades 11.11%; Autoridad, permisos y delegación 8.33%; Decisiones y responsabilidad 8.33%; Economía, costes y liquidez 5.56%; Experimentación, falsación y contraejemplos 58.34%; Transformación y continuidad operativa 8.33%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-creative_mode\n\n",
-  "readingSource": null,
-  "tokens": 135,
+  "context": "## Crear, reproducir y transformar marcos\nDesarmar y construir estructuras frente a habitarlas o multiplicarlas; modos practicables y verificables, no tipos superiores de personas.\nTags: Learning and capability transmission 11.11%; Authority, permissions and delegation 8.33%; Decisions and responsibility 8.33%; Economics, costs and liquidity 5.56%; Experimentation, falsification and counterexamples 58.34%; Transformation and operational continuity 8.33%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-creative_mode\n\n",
+  "tokens": 123,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -33,12 +31,13 @@
       "to": "D-165",
       "title": "Creativo y parasitario son modos de actividad, no castas humanas",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 30,
-      "fichaTokens": 354,
+      "fichaTokens": 350,
       "tagWeights": {
-        "experimentacion": 1.0
+        "experimentacion": 1
       },
       "clusters": [
         "dialogos"
@@ -51,10 +50,11 @@
       "to": "D-166",
       "title": "El creador convertido en élite deja de examinarse",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 348,
+      "fichaTokens": 342,
       "tagWeights": {
         "autoridad": 0.5,
         "experimentacion": 0.5
@@ -70,10 +70,11 @@
       "to": "D-167",
       "title": "La creatividad se entrena, pero tiene que salir del marco",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 351,
+      "fichaTokens": 344,
       "tagWeights": {
         "aprendizaje": 0.5,
         "experimentacion": 0.5
@@ -89,10 +90,11 @@
       "to": "D-287",
       "title": "El no-podismo también es una decisión de no construir",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 422,
+      "fichaTokens": 412,
       "tagWeights": {
         "aprendizaje": 0.1667,
         "decision": 0.5,
@@ -110,10 +112,11 @@
       "to": "D-288",
       "title": "Cambiar quién posee la manzana no alimenta al siguiente árbol",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 29,
-      "fichaTokens": 421,
+      "fichaTokens": 414,
       "tagWeights": {
         "economia": 0.3334,
         "experimentacion": 0.3333,
@@ -130,12 +133,13 @@
       "to": "D-292",
       "title": "La IA explota el marco cuando el explorador lo vuelve explícito",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 30,
-      "fichaTokens": 376,
+      "fichaTokens": 372,
       "tagWeights": {
-        "experimentacion": 1.0
+        "experimentacion": 1
       },
       "clusters": [
         "dialogos"
@@ -148,10 +152,11 @@
       "to": "dg-modes",
       "title": "Habitar, explorar y replantear",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "afina distinción de",
       "reading": "Crear y reproducir son modos situados, no clases de personas.",
       "relationTokens": 38,
-      "fichaTokens": 178,
+      "fichaTokens": 163,
       "tagWeights": {
         "aprendizaje": 0.2413,
         "capacidad-humana": 0.0267,
@@ -176,10 +181,11 @@
       "to": "dg-learning",
       "title": "Aprendizaje autodirigido",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "puede entrenarse mediante",
       "reading": "Desarmar marcos y pruebas de transferencia.",
       "relationTokens": 32,
-      "fichaTokens": 200,
+      "fichaTokens": 179,
       "tagWeights": {
         "aprendizaje": 0.4664,
         "autoridad": 0.0587,
@@ -207,10 +213,11 @@
       "to": "dg-doubt",
       "title": "Duda, pruebas y conocimiento corregible",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "se expone a",
       "reading": "Una idea nueva requiere condiciones de refutación.",
       "relationTokens": 33,
-      "fichaTokens": 268,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.2345,
         "autoridad": 0.0562,
@@ -244,10 +251,11 @@
       "to": "dg-governance",
       "title": "Gobernanza y legitimidad",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "no debe convertirse en",
       "reading": "Una élite incuestionable dejaría de examinar sus presupuestos.",
       "relationTokens": 36,
-      "fichaTokens": 273,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.0321,
         "autoridad": 0.4057,
@@ -281,10 +289,11 @@
       "to": "dg-building_capacity",
       "title": "Construcción intergeneracional de capacidades",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación transversal propuesta v0.12",
       "reading": "Salir de arquetipos repetidos.",
       "relationTokens": 34,
-      "fichaTokens": 114,
+      "fichaTokens": 104,
       "tagWeights": {
         "aprendizaje": 0.0833,
         "decision": 0.25,

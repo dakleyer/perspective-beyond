@@ -13,9 +13,8 @@
   "clusters": [
     "imsv"
   ],
-  "context": "## PEMEX y TETSA: personas, seguridad y operación\nEl capítulo examina atención, estrés, hábitos de los operadores y condiciones técnicas de seguridad. Distingue esas experiencias de los sistemas logísticos y de gestión que coexistieron en el entorno petrolero.\nEtiquetas: Empresa y gestión 25.00%; Integridad y seguridad de IA 50.00%; Movilidad e infraestructura 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-pemex\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/pemex-tetsa/\n\n",
-  "readingSource": null,
-  "tokens": 131,
+  "context": "## PEMEX y TETSA: personas, seguridad y operación\nEl capítulo examina atención, estrés, hábitos de los operadores y condiciones técnicas de seguridad. Distingue esas experiencias de los sistemas logísticos y de gestión que coexistieron en el entorno petrolero.\nTags: Business and management 25.00%; AI integrity and security 50.00%; Mobility and infrastructure 25.00%\nCard: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-pemex\nSource document: https://integralmanagement.ch/nueva-perspectiva/pemex-tetsa/\n\n",
+  "tokens": 126,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,10 +22,11 @@
       "to": "np-jump-up",
       "title": "Del cambio de perspectiva al plan JUMP UP",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura de campo",
       "reading": "Leer los bloqueos exige observar a la vez procedimientos, seguridad y experiencia de quienes operan.",
       "relationTokens": 46,
-      "fichaTokens": 120,
+      "fichaTokens": 116,
       "tagWeights": {
         "perspectiva": 0.3846,
         "transformacion": 0.6154
@@ -42,10 +42,11 @@
       "to": "np-ado",
       "title": "ADO: Consciencia Plena, Pulsera Rosa y andenes",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "comparación",
       "reading": "Ambos relatos distinguen las condiciones de operación de lo que trabajadores y usuarios pueden observar.",
       "relationTokens": 49,
-      "fichaTokens": 131,
+      "fichaTokens": 126,
       "tagWeights": {
         "espiritualidad": 0.5556,
         "integridad-ia": 0.4444

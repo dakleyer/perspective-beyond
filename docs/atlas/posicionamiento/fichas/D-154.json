@@ -12,9 +12,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Pedir perdón modifica el relato; reparar modifica el daño\nINTERLOCUTOR (pregunta editorial) — ¿Por qué reconocer públicamente un error no siempre basta para responder por sus consecuencias?\nREFLEXIÓN DEL ESCRITO (síntesis editorial) — En su ensayo sobre la monarquía, Iván separa perdón y reparación como operaciones diferentes. Pedir perdón puede modificar la interpretación pública de lo sucedido; si el responsable conserva las ventajas y la víctima soporta íntegramente el daño, la distribución real no ha cambiado. La disculpa puede funcionar entonces como *branding moral*. Una reparación requiere efectos: restitución, compensación, renuncia a ventajas, aceptación de consecuencias, cambio de conducta o garantías de no repetición. No propone castigo automático: insiste en que el acto no puede quedar separado artificialmente de quien lo realizó. La reflexión trasciende la monarquía, pero nace de la pregunta política por una inviolabilidad que puede impedir completar el ciclo de atribución, respuesta y reparación.\nEtiquetas: Autoridad, permisos y delegación 40.00%; Decisiones y responsabilidad 60.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-154\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-154.html\n\n",
-  "readingSource": null,
-  "tokens": 286,
+  "context": "## Pedir perdón modifica el relato; reparar modifica el daño\nINTERLOCUTOR (pregunta editorial) — ¿Por qué reconocer públicamente un error no siempre basta para responder por sus consecuencias?\nREFLEXIÓN DEL ESCRITO (síntesis editorial) — En su ensayo sobre la monarquía, Iván separa perdón y reparación como operaciones diferentes. Pedir perdón puede modificar la interpretación pública de lo sucedido; si el responsable conserva las ventajas y la víctima soporta íntegramente el daño, la distribución real no ha cambiado. La disculpa puede funcionar entonces como *branding moral*. Una reparación requiere efectos: restitución, compensación, renuncia a ventajas, aceptación de consecuencias, cambio de conducta o garantías de no repetición. No propone castigo automático: insiste en que el acto no puede quedar separado artificialmente de quien lo realizó. La reflexión trasciende la monarquía, pero nace de la pregunta política por una inviolabilidad que puede impedir completar el ciclo de atribución, respuesta y reparación.\nTags: Authority, permissions and delegation 40.00%; Decisions and responsibility 60.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-154\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-154.html\n\n",
+  "tokens": 281,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "dg-care",
       "title": "Responsabilidad humana",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 208,
+      "fichaTokens": 187,
       "tagWeights": {
         "aprendizaje": 0.0939,
         "autoridad": 0.0359,
@@ -54,10 +54,11 @@
       "to": "dg-governance",
       "title": "Gobernanza y legitimidad",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 25,
-      "fichaTokens": 273,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.0321,
         "autoridad": 0.4057,
@@ -91,10 +92,11 @@
       "to": "dg-account",
       "title": "Responsabilidad y reparación",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 122,
+      "fichaTokens": 112,
       "tagWeights": {
         "aprendizaje": 0.0834,
         "autoridad": 0.2098,
@@ -115,10 +117,11 @@
       "to": "D-174",
       "title": "Perdonar puede cancelar una deuda sobre el futuro",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Perdonar puede cancelar una deuda sobre el futuro» con «Pedir perdón modifica el relato; reparar modifica el daño». Permite contrastar Responsabilidad y reparación.",
       "relationTokens": 69,
-      "fichaTokens": 345,
+      "fichaTokens": 339,
       "tagWeights": {
         "aprendizaje": 0.5,
         "decision": 0.5
@@ -134,10 +137,11 @@
       "to": "D-275",
       "title": "La experiencia espiritual no da autoridad para exigir obediencia",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La experiencia espiritual no da autoridad para exigir obediencia» con «Pedir perdón modifica el relato; reparar modifica el daño». Permite contrastar Gobernanza y legitimidad.",
       "relationTokens": 70,
-      "fichaTokens": 424,
+      "fichaTokens": 416,
       "tagWeights": {
         "aprendizaje": 0.1154,
         "autoridad": 0.3461,
@@ -155,10 +159,11 @@
       "to": "D-118",
       "title": "Publicar no demuestra que alguien recibió ni actuó",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Responsabilidad humana, Gobernanza y legitimidad desde las situaciones que describe cada texto.",
       "relationTokens": 52,
-      "fichaTokens": 263,
+      "fichaTokens": 258,
       "tagWeights": {
         "autoridad": 0.5,
         "decision": 0.5
@@ -174,10 +179,11 @@
       "to": "D-144",
       "title": "Explicar una conducta no elimina automáticamente la responsabilidad",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Responsabilidad y reparación, Responsabilidad humana desde las situaciones que describe cada texto.",
       "relationTokens": 50,
-      "fichaTokens": 293,
+      "fichaTokens": 288,
       "tagWeights": {
         "decision": 0.7778,
         "integridad-ia": 0.2222
@@ -193,10 +199,11 @@
       "to": "D-171",
       "title": "El débil falla requisitos; el poder falla principios",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Responsabilidad y reparación, Gobernanza y legitimidad desde las situaciones que describe cada texto.",
       "relationTokens": 53,
-      "fichaTokens": 368,
+      "fichaTokens": 363,
       "tagWeights": {
         "autoridad": 0.5625,
         "decision": 0.1875,
@@ -213,10 +220,11 @@
       "to": "D-156",
       "title": "Un pedestal puede privar de libertad a quien parece favorecer",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Responsabilidad y reparación, Gobernanza y legitimidad desde las situaciones que describe cada texto.",
       "relationTokens": 54,
-      "fichaTokens": 289,
+      "fichaTokens": 284,
       "tagWeights": {
         "autoridad": 0.5,
         "decision": 0.5
@@ -232,10 +240,11 @@
       "to": "D-155",
       "title": "Ser responsable también es una forma de dignidad",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Responsabilidad y reparación, Gobernanza y legitimidad desde las situaciones que describe cada texto.",
       "relationTokens": 52,
-      "fichaTokens": 282,
+      "fichaTokens": 277,
       "tagWeights": {
         "autoridad": 0.2857,
         "decision": 0.7143

@@ -6,14 +6,13 @@
   "documentId": "doc-41f3a410d217128630",
   "sourceIds": [],
   "tagWeights": {
-    "movilidad": 1.0
+    "movilidad": 1
   },
   "clusters": [
     "dialogos"
   ],
-  "context": "## Un centro de investigación que debía funcionar\nINTERLOCUTOR — ¿Cómo entraste en la infraestructura de un centro de investigación de Nokia en Barcelona?\nIVÁN —\nResponsable de Infraestructura y Operaciones de Servicio – Nokia (noviembre 1999 – marzo 2004)\nUbicación: Barcelona, Cataluña, España\nCada vez, la tecnología y los viajes me llamaban con más fuerza. Además, necesitaba tiempo para trabajar —ya que desde los 23 años vivía por mi cuenta—, por lo que decidí dejar la carrera de Economía para dedicarme de lleno a la informática. Obtuve certificaciones, trabajé en algunos proyectos reales y, a los 24 años, tuve la gran fortuna de ingresar al centro de I+D de Nokia en Barcelona. Ese fue uno de los hitos mayores de mi carrera profesional en el mundo de la tecnología. En aquel entonces, Europa era el epicentro de la innovación, y Nokia era la empresa referente, antes de que el liderazgo pasara a manos de empresas norteamericanas.\nA comienzos de los 2000, Nokia era la marca dominante en telefonía móvil a nivel mundial. Barcelona, con un centro de I+D, desempeñó un papel en el diseño de servicios y aplicaciones sobre Symbian, el sistema operativo que impulsó los primeros smartphones.\nEtiquetas: Movilidad e infraestructura 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-007\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20%C2%BFC%C3%B3mo%20entraste%20en%20la%20infraestructura%20de%20un%20centro%20de\n\n",
-  "readingSource": null,
-  "tokens": 380,
+  "context": "## Un centro de investigación que debía funcionar\nINTERLOCUTOR — ¿Cómo entraste en la infraestructura de un centro de investigación de Nokia en Barcelona?\nIVÁN —\nResponsable de Infraestructura y Operaciones de Servicio – Nokia (noviembre 1999 – marzo 2004)\nUbicación: Barcelona, Cataluña, España\nCada vez, la tecnología y los viajes me llamaban con más fuerza. Además, necesitaba tiempo para trabajar —ya que desde los 23 años vivía por mi cuenta—, por lo que decidí dejar la carrera de Economía para dedicarme de lleno a la informática. Obtuve certificaciones, trabajé en algunos proyectos reales y, a los 24 años, tuve la gran fortuna de ingresar al centro de I+D de Nokia en Barcelona. Ese fue uno de los hitos mayores de mi carrera profesional en el mundo de la tecnología. En aquel entonces, Europa era el epicentro de la innovación, y Nokia era la empresa referente, antes de que el liderazgo pasara a manos de empresas norteamericanas.\nA comienzos de los 2000, Nokia era la marca dominante en telefonía móvil a nivel mundial. Barcelona, con un centro de I+D, desempeñó un papel en el diseño de servicios y aplicaciones sobre Symbian, el sistema operativo que impulsó los primeros smartphones.\nTags: Mobility and infrastructure 100.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-007\nSource document: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20%C2%BFC%C3%B3mo%20entraste%20en%20la%20infraestructura%20de%20un%20centro%20de\n\n",
+  "tokens": 377,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -21,10 +20,11 @@
       "to": "dg-infra",
       "title": "Infraestructura habilitadora",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 20,
-      "fichaTokens": 170,
+      "fichaTokens": 152,
       "tagWeights": {
         "aprendizaje": 0.0675,
         "autoridad": 0.0125,
@@ -50,10 +50,11 @@
       "to": "dg-operations",
       "title": "Operación real",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 18,
-      "fichaTokens": 217,
+      "fichaTokens": 191,
       "tagWeights": {
         "aprendizaje": 0.059,
         "autoridad": 0.1375,
@@ -83,10 +84,11 @@
       "to": "D-008",
       "title": "La infraestructura que permite imaginar",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura comparada",
       "reading": "Un centro de investigación permite comparar el soporte que lo mantiene operativo con las condiciones que permiten imaginar.",
       "relationTokens": 37,
-      "fichaTokens": 521,
+      "fichaTokens": 515,
       "tagWeights": {
         "aprendizaje": 0.25,
         "movilidad": 0.75
@@ -102,12 +104,13 @@
       "to": "D-028",
       "title": "Tres centros de control, una operación",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Infraestructura habilitadora».",
       "relationTokens": 31,
-      "fichaTokens": 430,
+      "fichaTokens": 427,
       "tagWeights": {
-        "movilidad": 1.0
+        "movilidad": 1
       },
       "clusters": [
         "dialogos"
@@ -120,10 +123,11 @@
       "to": "D-019",
       "title": "Chicontepec: entender antes de automatizar",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Operación real».",
       "relationTokens": 32,
-      "fichaTokens": 461,
+      "fichaTokens": 457,
       "tagWeights": {
         "empresa": 0.5,
         "transformacion": 0.5
@@ -139,10 +143,11 @@
       "to": "D-052",
       "title": "xSeil: mostrar alternativas, no una orden",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Operación real».",
       "relationTokens": 32,
-      "fichaTokens": 546,
+      "fichaTokens": 539,
       "tagWeights": {
         "casos": 0.1429,
         "decision": 0.1429,
@@ -160,10 +165,11 @@
       "to": "D-020",
       "title": "De la videoconferencia a GEPLAN",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Infraestructura habilitadora, Operación real desde las situaciones que describe cada texto.",
       "relationTokens": 45,
-      "fichaTokens": 802,
+      "fichaTokens": 794,
       "tagWeights": {
         "aprendizaje": 0.1818,
         "empresa": 0.1818,

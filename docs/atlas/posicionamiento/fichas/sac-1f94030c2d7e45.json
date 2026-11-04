@@ -13,9 +13,8 @@
   "clusters": [
     "research"
   ],
-  "context": "## Estado de las afirmaciones y límites de evidencia\nContenido de la fuente: Qué contiene el paquete · Interpretación de fuentes · Primer cierre ejecutado y siguientes pasos.\nEtiquetas: Capacidad humana y deuda de inteligencia 14.29%; Investigación y documentación técnica 14.28%; Evidencia, procedencia y atribución 71.43%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-1f94030c2d7e45.html\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/11fbac15d6f2b790d459ab507633b2293e302709/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/RESEARCH_STATUS.md\n\n",
-  "readingSource": null,
-  "tokens": 177,
+  "context": "## Estado de las afirmaciones y límites de evidencia\nContenido de la fuente: Qué contiene el paquete · Interpretación de fuentes · Primer cierre ejecutado y siguientes pasos.\nTags: Human capability and intelligence debt 14.29%; Research and technical documentation 14.28%; Evidence, provenance and attribution 71.43%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-1f94030c2d7e45.html\nSource document: https://github.com/dakleyer/structural-awareness-contributions/blob/11fbac15d6f2b790d459ab507633b2293e302709/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/RESEARCH_STATUS.md\n\n",
+  "tokens": 170,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,10 +22,11 @@
       "to": "sac-652ec5309e7fe1",
       "title": "ACC — Modelo auxiliar",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Cómo leerlo» con el rótulo «Estado de las afirmaciones».",
-      "relationTokens": 117,
-      "fichaTokens": 160,
+      "relationTokens": 115,
+      "fichaTokens": 156,
       "tagWeights": {
         "documentacion": 0.5,
         "experimentacion": 0.5
@@ -42,12 +42,13 @@
       "to": "sac-5762a096eca7bf",
       "title": "Notas localizadas de cotejo de fuentes",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Interpretación de fuentes» con el rótulo «notas de cotejo».",
-      "relationTokens": 122,
-      "fichaTokens": 151,
+      "relationTokens": 120,
+      "fichaTokens": 149,
       "tagWeights": {
-        "documentacion": 1.0
+        "documentacion": 1
       },
       "clusters": [
         "research"
@@ -60,10 +61,11 @@
       "to": "sac-9b004c49c035b4",
       "title": "Revisión de ACC Modelo auxiliar y cobertura de perspectivas",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Revisión previa a publicación» con el rótulo «revisión por perspectivas».",
-      "relationTokens": 123,
-      "fichaTokens": 181,
+      "relationTokens": 121,
+      "fichaTokens": 176,
       "tagWeights": {
         "documentacion": 0.3572,
         "evidencia": 0.2857,
@@ -80,10 +82,11 @@
       "to": "sac-f742f2bad66f4f",
       "title": "Resultados del primer modelo determinista",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Evidencia incorporada el 25 de octubre de 2026» con el rótulo «primer modelo determinista».",
-      "relationTokens": 129,
-      "fichaTokens": 169,
+      "relationTokens": 127,
+      "fichaTokens": 164,
       "tagWeights": {
         "documentacion": 0.4444,
         "estandares": 0.5556
@@ -99,10 +102,11 @@
       "to": "sac-9938544a7caf8a",
       "title": "Primer protocolo económico del modelo auxiliar",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Evidencia incorporada el 25 de octubre de 2026» con el rótulo «protocolo».",
-      "relationTokens": 127,
-      "fichaTokens": 187,
+      "relationTokens": 125,
+      "fichaTokens": 179,
       "tagWeights": {
         "aprendizaje": 0.4,
         "economia": 0.5,
@@ -119,12 +123,13 @@
       "to": "sac-326d5c5984a8f7",
       "title": "Preparación del adaptador DDS hacia S5",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Evidencia incorporada el 25 de octubre de 2026» con el rótulo «adaptador documental».",
-      "relationTokens": 130,
-      "fichaTokens": 163,
+      "relationTokens": 128,
+      "fichaTokens": 161,
       "tagWeights": {
-        "documentacion": 1.0
+        "documentacion": 1
       },
       "clusters": [
         "research"
@@ -137,12 +142,13 @@
       "to": "sac-ece1d7e0688e34",
       "title": "Disposición de las auditorías y acciones aplicadas",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Evidencia incorporada el 25 de octubre de 2026» con el rótulo «disposición de las auditorías».",
-      "relationTokens": 134,
-      "fichaTokens": 152,
+      "relationTokens": 132,
+      "fichaTokens": 150,
       "tagWeights": {
-        "documentacion": 1.0
+        "documentacion": 1
       },
       "clusters": [
         "research"
@@ -155,10 +161,11 @@
       "to": "sac-76d01581e03dcc",
       "title": "ACC — Toy económico paramétrico ejecutable (v0.1)",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Realización programable adicional — 25 de octubre de 2026» con el rótulo «toy económico paramétrico».",
-      "relationTokens": 138,
-      "fichaTokens": 208,
+      "relationTokens": 136,
+      "fichaTokens": 198,
       "tagWeights": {
         "capacidad-humana": 0.125,
         "economia": 0.625,
@@ -176,10 +183,11 @@
       "to": "sac-ab5e4c392d62a2",
       "title": "ACC — Puentes experimentales HID / Attribution Gap / Informational Friction / obligaciones (v0.1)",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Puentes de las series HID / Attribution Gap / Informational Friction / obligaciones» con el rótulo «estudio de puentes sintéticos».",
-      "relationTokens": 150,
-      "fichaTokens": 221,
+      "relationTokens": 148,
+      "fichaTokens": 210,
       "tagWeights": {
         "capacidad-humana": 0.2632,
         "evidencia": 0.2632,
@@ -197,10 +205,11 @@
       "to": "sac-ac83b6a9fc4879",
       "title": "ACC — Auditoría de cálculo HID por óptimo y contraste experimental ABCD",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Promoción revisable de HID primario y ABCD — 25 de octubre de 2026» con el rótulo «cálculo directo por óptimo».",
-      "relationTokens": 146,
-      "fichaTokens": 221,
+      "relationTokens": 144,
+      "fichaTokens": 216,
       "tagWeights": {
         "decision": 0.4,
         "documentacion": 0.1,
@@ -217,10 +226,11 @@
       "to": "sac-39491d5374fd2f",
       "title": "ACC — Auditoría de promoción del modelo social y experimentos ABCD",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Promoción revisable de HID primario y ABCD — 25 de octubre de 2026» con el rótulo «Auditoría de PRs, propietarios y promoción».",
-      "relationTokens": 148,
-      "fichaTokens": 230,
+      "relationTokens": 146,
+      "fichaTokens": 222,
       "tagWeights": {
         "decision": 0.3333,
         "documentacion": 0.0834,
@@ -239,10 +249,11 @@
       "to": "sac-9b004c49c035b4",
       "title": "Revisión de ACC Modelo auxiliar y cobertura de perspectivas",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Matriz de perspectivas y pasajes» con el rótulo «Desarrollo».",
-      "relationTokens": 126,
-      "fichaTokens": 181,
+      "relationTokens": 124,
+      "fichaTokens": 176,
       "tagWeights": {
         "documentacion": 0.3572,
         "evidencia": 0.2857,
@@ -259,12 +270,13 @@
       "to": "sac-47df5ff6202e42",
       "title": "Fuentes conservación y cobertura del modelo",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Qué significa una transcripción completa» con el rótulo «Estado de evidencia».",
-      "relationTokens": 122,
-      "fichaTokens": 155,
+      "relationTokens": 120,
+      "fichaTokens": 150,
       "tagWeights": {
-        "evidencia": 1.0
+        "evidencia": 1
       },
       "clusters": [
         "research"
@@ -277,10 +289,11 @@
       "to": "GH040",
       "title": "Annex 01K-A02 — Human Intelligence Debt: aceleración económica y experimentos de segundo orden",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «I. Puentes, fuentes y próxima ejecución» con el rótulo «estado de las afirmaciones ACC».",
-      "relationTokens": 142,
-      "fichaTokens": 226,
+      "relationTokens": 140,
+      "fichaTokens": 216,
       "tagWeights": {
         "capacidad-humana": 0.3333,
         "documentacion": 0.2084,

@@ -12,14 +12,14 @@
   "clusters": [
     "tegrity"
   ],
-  "context": "## Regime Awareness Technology Component Roadmap\nRegime Awareness is Tegrity.AI’s concrete technology and operational capability for detecting when the operating conditions, assumptions or control structures behind a system’s recent behaviour are becoming invalid.\n\nIt is being developed as a minimal, domain-agnostic capability that can be adapted across environments where cascading effects, structural fragility and regime shifts matter, including AI systems, industrial operations, supply chains, cybersecurity, finance, logistics and critical infrastructures.\n\nIts core function is to help systems identify when the conditions behind their recent behaviour are no longer valid, so that guardrails, buffers and decision boundaries can be adjusted before instability propagates.\n\nThis matters because most current systems are optimised for stable conditions. They often perform well until the underlying regime changes, at which point models, thresholds, controls and assumptions can quickly become invalid. In many cases, the problem is not the absence of prediction, but the absence of Regime Awareness.\nEtiquetas: Cambios de régimen y alerta temprana 70.59%; Movilidad e infraestructura 29.41%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/regime-awareness-technology-component-roadmap-t250/\nDocumento de origen: https://tegrity.ai/regime-awareness-roadmap/\n\n",
+  "context": "## Regime Awareness Technology Component Roadmap\nRegime Awareness is Tegrity.AI’s concrete technology and operational capability for detecting when the operating conditions, assumptions or control structures behind a system’s recent behaviour are becoming invalid.\n\nIt is being developed as a minimal, domain-agnostic capability that can be adapted across environments where cascading effects, structural fragility and regime shifts matter, including AI systems, industrial operations, supply chains, cybersecurity, finance, logistics and critical infrastructures.\n\nIts core function is to help systems identify when the conditions behind their recent behaviour are no longer valid, so that guardrails, buffers and decision boundaries can be adjusted before instability propagates.\n\nThis matters because most current systems are optimised for stable conditions. They often perform well until the underlying regime changes, at which point models, thresholds, controls and assumptions can quickly become invalid. In many cases, the problem is not the absence of prediction, but the absence of Regime Awareness.\nTags: Regime changes and early warning 70.59%; Mobility and infrastructure 29.41%\nCard: https://dakleyer.github.io/perspective-beyond/sources/regime-awareness-technology-component-roadmap-t250/\nSource document: https://tegrity.ai/regime-awareness-roadmap/\n\n",
   "readingSource": {
     "url": "https://tegrity.ai/regime-awareness-roadmap/",
     "section": "Opening paragraphs",
     "observed": "2026-11-04",
     "sourceSha256": "6284d02eb27cb4fba0e73c1410c587329dd37e30d81bd766eb977d369257886a"
   },
-  "tokens": 258,
+  "tokens": 253,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -27,10 +27,11 @@
       "to": "G06",
       "title": "Regime Awareness (RA)",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 190,
+      "fichaTokens": 167,
       "tagWeights": {
         "agentes": 0.0216,
         "autoridad": 0.0108,
@@ -59,10 +60,11 @@
       "to": "T1513",
       "title": "Regime-Aware Semantic Windows: Proposal for Mathematical Assessment and Empirical Validation",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The next semantic-window assessment](https://tegrity.ai/regime-aware-semantic-windows-mathematical-validation/).",
       "relationTokens": 59,
-      "fichaTokens": 263,
+      "fichaTokens": 255,
       "tagWeights": {
         "cambio-regimen": 0.2593,
         "evidencia": 0.1481,

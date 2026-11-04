@@ -14,9 +14,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Perder información no es lo mismo que no poder decidir\nINTERLOCUTOR (pregunta editorial; no necesariamente pronunciada) — ¿Por qué confundir una distinción borrada con una pregunta indecidible debilita una buena teoría?\nREFLEXIÓN DEL DIÁLOGO (reconstrucción/síntesis; no cita literal) — En el texto, el crítico intenta reducir toda la investigación a una gran historia sobre Gödel, Russell y diagonalización. El arquitecto insiste en que se están mezclando problemas diferentes. La conversación termina formulando dos ejemplos que obligan a separarlos. Puedo entregar el código completo de un programa —sin haber perdido un solo símbolo— y preguntar si se detendrá siempre: hay preguntas no decidibles por un algoritmo general aunque la representación sea íntegra. Puedo, en cambio, reducir una imagen a un bit «gato/no gato»: perdí casi todos los detalles, pero decidir qué dice ese bit es trivial.\n\nUna pérdida de representación puede impedir decidir una propiedad del mundo si precisamente borró una distinción necesaria. Eso no requiere autorrreferencia ni teoremas de incompletitud. La indecidibilidad formal tiene otro objeto y otras condiciones. El crítico reconoce que su anterior intento de tratarlas como «una misma obstrucción» fue una unificación indebida. También queda retirada la idea de que un elemento indefinible necesariamente se multiplique en `2^n` identidades: una identidad de datos puede mantenerse aunque falte clasificación semántica.\n\nPara Iván importa la corrección porque no está defendiendo un conjunto de palabras solemnes sobre límites; busca saber qué obstáculo exacto encuentra una arquitectura y qué intervención sería pertinente. Si falta información de entrada, un sensor mejor puede ayudar. Si una propiedad es indecidible en general, añadir sensores no crea un decidor universal. Confundirlos conduce a diseñar mal.\nEtiquetas: Aprendizaje y transmisión de capacidades 31.25%; Decisiones y responsabilidad 12.50%; Matemáticas 31.25%; Mundo abierto e indeterminación 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-219\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-219.html\n\n",
-  "readingSource": null,
-  "tokens": 482,
+  "context": "## Perder información no es lo mismo que no poder decidir\nINTERLOCUTOR (pregunta editorial; no necesariamente pronunciada) — ¿Por qué confundir una distinción borrada con una pregunta indecidible debilita una buena teoría?\nREFLEXIÓN DEL DIÁLOGO (reconstrucción/síntesis; no cita literal) — En el texto, el crítico intenta reducir toda la investigación a una gran historia sobre Gödel, Russell y diagonalización. El arquitecto insiste en que se están mezclando problemas diferentes. La conversación termina formulando dos ejemplos que obligan a separarlos. Puedo entregar el código completo de un programa —sin haber perdido un solo símbolo— y preguntar si se detendrá siempre: hay preguntas no decidibles por un algoritmo general aunque la representación sea íntegra. Puedo, en cambio, reducir una imagen a un bit «gato/no gato»: perdí casi todos los detalles, pero decidir qué dice ese bit es trivial.\n\nUna pérdida de representación puede impedir decidir una propiedad del mundo si precisamente borró una distinción necesaria. Eso no requiere autorrreferencia ni teoremas de incompletitud. La indecidibilidad formal tiene otro objeto y otras condiciones. El crítico reconoce que su anterior intento de tratarlas como «una misma obstrucción» fue una unificación indebida. También queda retirada la idea de que un elemento indefinible necesariamente se multiplique en `2^n` identidades: una identidad de datos puede mantenerse aunque falte clasificación semántica.\n\nPara Iván importa la corrección porque no está defendiendo un conjunto de palabras solemnes sobre límites; busca saber qué obstáculo exacto encuentra una arquitectura y qué intervención sería pertinente. Si falta información de entrada, un sensor mejor puede ayudar. Si una propiedad es indecidible en general, añadir sensores no crea un decidor universal. Confundirlos conduce a diseñar mal.\nTags: Learning and capability transmission 31.25%; Decisions and responsibility 12.50%; Mathematics 31.25%; Open world and indeterminacy 25.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-219\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-219.html\n\n",
+  "tokens": 475,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -24,10 +23,11 @@
       "to": "dg-math",
       "title": "Pensamiento matemático",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 177,
+      "fichaTokens": 159,
       "tagWeights": {
         "aprendizaje": 0.1144,
         "autoridad": 0.0109,
@@ -53,10 +53,11 @@
       "to": "dg-doubt",
       "title": "Duda, pruebas y conocimiento corregible",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 27,
-      "fichaTokens": 268,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.2345,
         "autoridad": 0.0562,
@@ -90,10 +91,11 @@
       "to": "dg-measure",
       "title": "Medir decisiones y consecuencias",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 213,
+      "fichaTokens": 192,
       "tagWeights": {
         "aprendizaje": 0.0552,
         "autoridad": 0.0761,
@@ -122,10 +124,11 @@
       "to": "dg-formalization_event",
       "title": "La frontera entre mundo y registro",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 25,
-      "fichaTokens": 137,
+      "fichaTokens": 127,
       "tagWeights": {
         "aprendizaje": 0.2131,
         "decision": 0.1339,
@@ -145,12 +148,13 @@
       "to": "D-054",
       "title": "Matemáticas: preguntar antes de elegir escuela",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Perder información no es lo mismo que no poder decidir» con «Matemáticas: preguntar antes de elegir escuela». Permite contrastar Pensamiento matemático.",
       "relationTokens": 64,
-      "fichaTokens": 422,
+      "fichaTokens": 419,
       "tagWeights": {
-        "matematicas": 1.0
+        "matematicas": 1
       },
       "clusters": [
         "dialogos"
@@ -163,12 +167,13 @@
       "to": "D-094",
       "title": "Gödel, máquinas de Turing y la pregunta de qué queda fuera",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Perder información no es lo mismo que no poder decidir» con «Gödel, máquinas de Turing y la pregunta de qué queda fuera». Permite contrastar Pensamiento matemático, Duda, pruebas y conocimiento corregible.",
       "relationTokens": 84,
-      "fichaTokens": 338,
+      "fichaTokens": 335,
       "tagWeights": {
-        "matematicas": 1.0
+        "matematicas": 1
       },
       "clusters": [
         "dialogos"
@@ -181,12 +186,13 @@
       "to": "D-098",
       "title": "Qué tendría que refutar nuestra hipótesis",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Perder información no es lo mismo que no poder decidir» con «Qué tendría que refutar nuestra hipótesis». Permite contrastar Duda, pruebas y conocimiento corregible.",
       "relationTokens": 67,
-      "fichaTokens": 267,
+      "fichaTokens": 262,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"
@@ -199,12 +205,13 @@
       "to": "D-216",
       "title": "El instante que una cosa del mundo se convierte en dato",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Perder información no es lo mismo que no poder decidir» con «El instante que una cosa del mundo se convierte en dato». Permite contrastar Pensamiento matemático, La frontera entre mundo y registro.",
       "relationTokens": 76,
-      "fichaTokens": 425,
+      "fichaTokens": 422,
       "tagWeights": {
-        "matematicas": 1.0
+        "matematicas": 1
       },
       "clusters": [
         "dialogos"
@@ -217,12 +224,13 @@
       "to": "D-220",
       "title": "Si un diálogo nunca cede nada, quizá es un sermón",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Si un diálogo nunca cede nada, quizá es un sermón» con «Perder información no es lo mismo que no poder decidir». Permite contrastar Duda, pruebas y conocimiento corregible, La frontera entre mundo y registro.",
       "relationTokens": 84,
-      "fichaTokens": 419,
+      "fichaTokens": 414,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"
@@ -235,10 +243,11 @@
       "to": "D-250",
       "title": "Una inversa escrita no puede reconstruir la información que falta",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una inversa escrita no puede reconstruir la información que falta» con «Perder información no es lo mismo que no poder decidir». Permite contrastar Pensamiento matemático, Duda, pruebas y conocimiento corregible, La frontera entre mundo y registro.",
       "relationTokens": 87,
-      "fichaTokens": 408,
+      "fichaTokens": 402,
       "tagWeights": {
         "aprendizaje": 0.8182,
         "matematicas": 0.1818
@@ -254,10 +263,11 @@
       "to": "D-278",
       "title": "Rechazar una entrada también es tomar una decisión",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Rechazar una entrada también es tomar una decisión» con «Perder información no es lo mismo que no poder decidir». Permite contrastar Pensamiento matemático, La frontera entre mundo y registro.",
       "relationTokens": 74,
-      "fichaTokens": 404,
+      "fichaTokens": 400,
       "tagWeights": {
         "decision": 0.7143,
         "matematicas": 0.2857
@@ -273,12 +283,13 @@
       "to": "D-281",
       "title": "Antes de cerrar un universo, alguien debe decidir qué entra en él",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Antes de cerrar un universo, alguien debe decidir qué entra en él» con «Perder información no es lo mismo que no poder decidir».",
       "relationTokens": 64,
-      "fichaTokens": 407,
+      "fichaTokens": 403,
       "tagWeights": {
-        "autoridad": 1.0
+        "autoridad": 1
       },
       "clusters": [
         "dialogos"
@@ -291,12 +302,13 @@
       "to": "D-159",
       "title": "Originalidad no es sinónimo de verdad ni de madurez",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Medir decisiones y consecuencias, Duda, pruebas y conocimiento corregible desde las situaciones que describe cada texto.",
       "relationTokens": 58,
-      "fichaTokens": 306,
+      "fichaTokens": 303,
       "tagWeights": {
-        "decision": 1.0
+        "decision": 1
       },
       "clusters": [
         "dialogos"
@@ -309,10 +321,11 @@
       "to": "D-217",
       "title": "Un JSON correcto puede describir una vaca que no estaba allí",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar La frontera entre mundo y registro, Medir decisiones y consecuencias, Pensamiento matemático desde las situaciones que describe cada texto.",
       "relationTokens": 62,
-      "fichaTokens": 438,
+      "fichaTokens": 434,
       "tagWeights": {
         "decision": 0.5,
         "matematicas": 0.5
@@ -328,12 +341,13 @@
       "to": "D-266",
       "title": "¿Y si el punto de partida fuera lo no definible?",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar La frontera entre mundo y registro, Pensamiento matemático, Duda, pruebas y conocimiento corregible desde las situaciones que describe cada texto.",
       "relationTokens": 65,
-      "fichaTokens": 406,
+      "fichaTokens": 403,
       "tagWeights": {
-        "matematicas": 1.0
+        "matematicas": 1
       },
       "clusters": [
         "dialogos"
@@ -346,10 +360,11 @@
       "to": "D-203",
       "title": "Una ecuación puede ser cierta y la tendencia que le añadimos, no",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura comparada de mecanismos",
       "reading": "Separar una identidad matemática de una tendencia de comportamiento ayuda a precisar también la diferencia entre pérdida de representación e indecidibilidad: cada problema requiere supuestos y operaciones propios.",
-      "relationTokens": 96,
-      "fichaTokens": 392,
+      "relationTokens": 94,
+      "fichaTokens": 387,
       "tagWeights": {
         "decision": 0.25,
         "economia": 0.25,

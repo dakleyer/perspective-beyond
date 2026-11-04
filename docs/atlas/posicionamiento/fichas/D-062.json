@@ -12,9 +12,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Una imagen imperfecta del desarrollo\nINTERLOCUTOR — Si tuvieras que elegir una imagen de aquel trabajo, ¿cuál sería?\nIVÁN —\nPero si tuviera que elegir una imagen que condense todo aquel esfuerzo, sería esta: lograr que una pequeña empresa totonaca obtuviera la certificación ISO 9001, la primera en su comunidad. Meses de trabajo, visitas a Sozocolco de Hidalgo, preparación contra reloj para auditorías internacionales en condiciones logísticas que, vistas desde una oficina de ciudad, habrían parecido imposibles.\nEste fue el trabajo más visceral de todos. No dormía en hoteles. Vivía en las comunidades, compartía obra, escuchaba, traducía, mediaba, aprendía. Me implicaba. No se trataba de “implementar el PACMA” ni de cumplir con una ficha de indicadores. Era asegurar que, aunque fuera en un rincón olvidado de la montaña, alguien pudiera decir: “esto es nuestro y lo sabemos usar”.\nINTERLOCUTOR — ¿Qué impide convertir este recuerdo en una historia fácil de éxito?\nIVÁN —\nNo romantizo esta etapa. Por cada logro había una tensión. Por cada avance, una frustración. Pero fue, sin duda, una de las experiencias más profundas y formativas de mi vida. Ahí entendí la complejidad real de operar en territorios donde se cruzan intereses industriales, estructuras de poder, necesidades humanas y urgencias ecológicas. Y confirmé, con humildad, que la tecnología y la certificación —cuando se usan con sentido— también pueden ser herramientas de dignidad.\nEtiquetas: Decisiones y responsabilidad 50.00%; Cambio de perspectiva 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-062\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20Si%20tuvieras%20que%20elegir%20una%20imagen%20de%20aquel%20trabajo\n\n",
-  "readingSource": null,
-  "tokens": 442,
+  "context": "## Una imagen imperfecta del desarrollo\nINTERLOCUTOR — Si tuvieras que elegir una imagen de aquel trabajo, ¿cuál sería?\nIVÁN —\nPero si tuviera que elegir una imagen que condense todo aquel esfuerzo, sería esta: lograr que una pequeña empresa totonaca obtuviera la certificación ISO 9001, la primera en su comunidad. Meses de trabajo, visitas a Sozocolco de Hidalgo, preparación contra reloj para auditorías internacionales en condiciones logísticas que, vistas desde una oficina de ciudad, habrían parecido imposibles.\nEste fue el trabajo más visceral de todos. No dormía en hoteles. Vivía en las comunidades, compartía obra, escuchaba, traducía, mediaba, aprendía. Me implicaba. No se trataba de “implementar el PACMA” ni de cumplir con una ficha de indicadores. Era asegurar que, aunque fuera en un rincón olvidado de la montaña, alguien pudiera decir: “esto es nuestro y lo sabemos usar”.\nINTERLOCUTOR — ¿Qué impide convertir este recuerdo en una historia fácil de éxito?\nIVÁN —\nNo romantizo esta etapa. Por cada logro había una tensión. Por cada avance, una frustración. Pero fue, sin duda, una de las experiencias más profundas y formativas de mi vida. Ahí entendí la complejidad real de operar en territorios donde se cruzan intereses industriales, estructuras de poder, necesidades humanas y urgencias ecológicas. Y confirmé, con humildad, que la tecnología y la certificación —cuando se usan con sentido— también pueden ser herramientas de dignidad.\nTags: Decisions and responsibility 50.00%; Change of perspective 50.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-062\nSource document: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20Si%20tuvieras%20que%20elegir%20una%20imagen%20de%20aquel%20trabajo\n\n",
+  "tokens": 439,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "dg-perspective",
       "title": "Nueva Perspectiva",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 18,
-      "fichaTokens": 190,
+      "fichaTokens": 173,
       "tagWeights": {
         "aprendizaje": 0.117,
         "cambio-regimen": 0.019,
@@ -52,10 +52,11 @@
       "to": "dg-care",
       "title": "Responsabilidad humana",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 17,
-      "fichaTokens": 208,
+      "fichaTokens": 187,
       "tagWeights": {
         "aprendizaje": 0.0939,
         "autoridad": 0.0359,
@@ -84,10 +85,11 @@
       "to": "D-015",
       "title": "Una experiencia que sobrevivió al fracaso",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Nueva Perspectiva».",
       "relationTokens": 29,
-      "fichaTokens": 594,
+      "fichaTokens": 587,
       "tagWeights": {
         "aprendizaje": 0.25,
         "empresa": 0.25,
@@ -105,10 +107,11 @@
       "to": "D-067",
       "title": "Nueva Perspectiva: cambiar el punto de observación",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Nueva Perspectiva».",
       "relationTokens": 33,
-      "fichaTokens": 583,
+      "fichaTokens": 581,
       "tagWeights": {
         "empresa": 0.2353,
         "perspectiva": 0.7647
@@ -124,10 +127,11 @@
       "to": "D-061",
       "title": "Volver al campo sin idealizarlo",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Responsabilidad humana».",
       "relationTokens": 29,
-      "fichaTokens": 600,
+      "fichaTokens": 596,
       "tagWeights": {
         "decision": 0.25,
         "memoria-territorio": 0.75
@@ -143,10 +147,11 @@
       "to": "D-064",
       "title": "Liquidez para cuidar responsabilidades",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Responsabilidad humana».",
       "relationTokens": 26,
-      "fichaTokens": 447,
+      "fichaTokens": 441,
       "tagWeights": {
         "casos": 0.1177,
         "decision": 0.5882,
@@ -163,10 +168,11 @@
       "to": "D-259",
       "title": "La modernización de un territorio puede avanzar en olas que se deshacen",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La modernización de un territorio puede avanzar en olas que se deshacen» con «Una imagen imperfecta del desarrollo».",
       "relationTokens": 60,
-      "fichaTokens": 431,
+      "fichaTokens": 426,
       "tagWeights": {
         "geopolitica": 0.1667,
         "memoria-territorio": 0.6666,

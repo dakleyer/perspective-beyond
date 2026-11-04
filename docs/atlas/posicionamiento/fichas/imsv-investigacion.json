@@ -13,14 +13,14 @@
   "clusters": [
     "imsv"
   ],
-  "context": "## IMSV · Campo de investigación y Tegrity.AI\nLa investigación es uno de los tres campos institucionales de The Integral Management Society. Tegrity.AI reúne el programa Structural Awareness sobre sistemas adaptativos, integridad operativa y cambios en las condiciones de representación y control. Publica artículos, notas técnicas y contribuciones de preestandarización.\n\nResearch Initiatives distingue ocho líneas con sus respectivos estados; Research Contributions enlaza ejemplos de intercambios académicos, documentos y aportaciones a grupos de la UIT. Desde la visión institucional se puede pasar a ese corpus técnico para examinar una pregunta o una colaboración concreta.\nEtiquetas: Investigación y documentación técnica 40.00%; Integridad y seguridad de IA 30.00%; Representación y límites formales 30.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-investigacion/\nDocumento de origen: https://integralmanagement.ch/trabajo/\n\n",
+  "context": "## IMSV · Campo de investigación y Tegrity.AI\nLa investigación es uno de los tres campos institucionales de The Integral Management Society. Tegrity.AI reúne el programa Structural Awareness sobre sistemas adaptativos, integridad operativa y cambios en las condiciones de representación y control. Publica artículos, notas técnicas y contribuciones de preestandarización.\n\nResearch Initiatives distingue ocho líneas con sus respectivos estados; Research Contributions enlaza ejemplos de intercambios académicos, documentos y aportaciones a grupos de la UIT. Desde la visión institucional se puede pasar a ese corpus técnico para examinar una pregunta o una colaboración concreta.\nTags: Research and technical documentation 40.00%; AI integrity and security 30.00%; Representation and formal boundaries 30.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-investigacion/\nSource document: https://integralmanagement.ch/trabajo/\n\n",
   "readingSource": {
     "url": "https://integralmanagement.ch/trabajo/",
     "section": "Institutional page",
     "observed": "2026-11-04",
     "sourceSha256": "640aacdf0e3d027e3bdae84a5cd9ca71301bc7860e700da64e536fa66d3f6398"
   },
-  "tokens": 201,
+  "tokens": 195,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -28,10 +28,11 @@
       "to": "S14",
       "title": "The Integral Management Society",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "institutional function",
       "reading": "La ficha explica campo de investigación y tegrity.ai dentro de la asociación.",
-      "relationTokens": 52,
-      "fichaTokens": 380,
+      "relationTokens": 50,
+      "fichaTokens": 371,
       "tagWeights": {
         "empresa": 0.2,
         "autoridad": 0.2,
@@ -50,10 +51,11 @@
       "to": "T1573",
       "title": "Tegrity.AI",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documented institutional reading",
       "reading": "El campo institucional de investigación se desarrolla en el programa técnico de Tegrity.AI.",
-      "relationTokens": 56,
-      "fichaTokens": 129,
+      "relationTokens": 54,
+      "fichaTokens": 126,
       "tagWeights": {
         "control-minimo": 0.2222,
         "decision": 0.2222,
@@ -70,10 +72,11 @@
       "to": "T1709",
       "title": "Research Initiatives",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documented institutional reading",
       "reading": "El índice de iniciativas permite elegir una línea y consultar su estado.",
-      "relationTokens": 49,
-      "fichaTokens": 307,
+      "relationTokens": 47,
+      "fichaTokens": 300,
       "tagWeights": {
         "documentacion": 0.4,
         "integridad-ia": 0.3,
@@ -90,12 +93,13 @@
       "to": "S11",
       "title": "ITU Focus Groups y contexto institucional",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documented institutional reading",
       "reading": "Las contribuciones de preestandarización se sitúan en los grupos y procesos de la UIT.",
-      "relationTokens": 60,
-      "fichaTokens": 240,
+      "relationTokens": 58,
+      "fichaTokens": 235,
       "tagWeights": {
-        "estandares": 1.0
+        "estandares": 1
       },
       "clusters": [
         "research"
@@ -108,10 +112,11 @@
       "to": "imsv-trabajo",
       "title": "IMSV · Trabajo, conocimiento y experiencia de campo",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documented institutional reading",
       "reading": "La práctica de campo y la investigación forman parte de un ciclo de conocimiento.",
-      "relationTokens": 58,
-      "fichaTokens": 223,
+      "relationTokens": 56,
+      "fichaTokens": 216,
       "tagWeights": {
         "transformacion": 0.3,
         "aprendizaje": 0.3,

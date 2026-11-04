@@ -13,9 +13,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Se puede elegir deliberadamente el sistema con menos opciones\nINTERLOCUTOR (pregunta editorial, no pronunciada necesariamente) — ¿Por qué una empresa sustituiría un sistema flexible por otro que bloquea decisiones?\nREFLEXIÓN DEL DIÁLOGO (reconstrucción editorial cotejada con el escrito) — Iván imagina un almacén cuyo software antiguo permite docenas de operaciones, excepciones y formas de resolver problemas. Un nuevo sistema robotizado reduce la interfaz a dos funciones. La pregunta técnica inmediata sería si podríamos diseñar más opciones; la respuesta de interés es que, a veces, no se quiere. Un sistema transparente expone decisiones, costes y responsabilidad, mientras que una interfaz opaca permite que un especialista o un mando se convierta en dueño privado del procedimiento: sabe cómo desbloquearlo, interpreta las excepciones y administra dependencias. La reducción de opciones puede ser una preferencia institucional, no un límite de computación. El argumento no dice que toda automatización empeore ni que la simplicidad sea mala: en muchos procesos la estandarización protege seguridad y calidad. Lo que debe observarse es si se eliminó complejidad real o si se trasladó el poder de elegir a una posición que ahora captura el margen. El beneficio local de gobernabilidad puede producir una pérdida global de alternativas.\nEtiquetas: Decisiones y responsabilidad 40.00%; Economía, costes y liquidez 20.00%; Empresa y gestión 40.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-175\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-175.html\n\n",
-  "readingSource": null,
-  "tokens": 353,
+  "context": "## Se puede elegir deliberadamente el sistema con menos opciones\nINTERLOCUTOR (pregunta editorial, no pronunciada necesariamente) — ¿Por qué una empresa sustituiría un sistema flexible por otro que bloquea decisiones?\nREFLEXIÓN DEL DIÁLOGO (reconstrucción editorial cotejada con el escrito) — Iván imagina un almacén cuyo software antiguo permite docenas de operaciones, excepciones y formas de resolver problemas. Un nuevo sistema robotizado reduce la interfaz a dos funciones. La pregunta técnica inmediata sería si podríamos diseñar más opciones; la respuesta de interés es que, a veces, no se quiere. Un sistema transparente expone decisiones, costes y responsabilidad, mientras que una interfaz opaca permite que un especialista o un mando se convierta en dueño privado del procedimiento: sabe cómo desbloquearlo, interpreta las excepciones y administra dependencias. La reducción de opciones puede ser una preferencia institucional, no un límite de computación. El argumento no dice que toda automatización empeore ni que la simplicidad sea mala: en muchos procesos la estandarización protege seguridad y calidad. Lo que debe observarse es si se eliminó complejidad real o si se trasladó el poder de elegir a una posición que ahora captura el margen. El beneficio local de gobernabilidad puede producir una pérdida global de alternativas.\nTags: Decisions and responsibility 40.00%; Economics, costs and liquidity 20.00%; Business and management 40.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-175\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-175.html\n\n",
+  "tokens": 349,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,10 +22,11 @@
       "to": "dg-options",
       "title": "Libertad y opciones",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 202,
+      "fichaTokens": 181,
       "tagWeights": {
         "aprendizaje": 0.1588,
         "autoridad": 0.0804,
@@ -55,10 +55,11 @@
       "to": "dg-operations",
       "title": "Operación real",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 217,
+      "fichaTokens": 191,
       "tagWeights": {
         "aprendizaje": 0.059,
         "autoridad": 0.1375,
@@ -88,10 +89,11 @@
       "to": "dg-capture",
       "title": "Captura de opciones e incentivos regresivos",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 27,
-      "fichaTokens": 180,
+      "fichaTokens": 161,
       "tagWeights": {
         "aprendizaje": 0.0303,
         "autoridad": 0.0485,
@@ -116,10 +118,11 @@
       "to": "D-008",
       "title": "La infraestructura que permite imaginar",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Se puede elegir deliberadamente el sistema con menos opciones» con «La infraestructura que permite imaginar».",
       "relationTokens": 46,
-      "fichaTokens": 521,
+      "fichaTokens": 515,
       "tagWeights": {
         "aprendizaje": 0.25,
         "movilidad": 0.75
@@ -135,10 +138,11 @@
       "to": "D-025",
       "title": "Instalar un sistema no basta",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Se puede elegir deliberadamente el sistema con menos opciones» con «Instalar un sistema no basta».",
       "relationTokens": 48,
-      "fichaTokens": 645,
+      "fichaTokens": 638,
       "tagWeights": {
         "aprendizaje": 0.2222,
         "empresa": 0.5556,
@@ -155,12 +159,13 @@
       "to": "D-048",
       "title": "El coste de multiplicar proyectos",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Se puede elegir deliberadamente el sistema con menos opciones» con «El coste de multiplicar proyectos». Permite contrastar Libertad y opciones.",
       "relationTokens": 57,
-      "fichaTokens": 521,
+      "fichaTokens": 518,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "dialogos"
@@ -173,10 +178,11 @@
       "to": "D-149",
       "title": "La tecnología podía funcionar, pero la organización aún no quería cambiar",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Se puede elegir deliberadamente el sistema con menos opciones» con «La tecnología podía funcionar, pero la organización aún no quería cambiar».",
       "relationTokens": 60,
-      "fichaTokens": 343,
+      "fichaTokens": 335,
       "tagWeights": {
         "aprendizaje": 0.1429,
         "empresa": 0.4286,
@@ -195,10 +201,11 @@
       "to": "D-191",
       "title": "Una inteligencia puede hacer operable la fragilidad sin convertirla en resiliencia",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una inteligencia puede hacer operable la fragilidad sin convertirla en resiliencia» con «Se puede elegir deliberadamente el sistema con menos opciones». Permite contrastar Captura de opciones e incentivos regresivos.",
       "relationTokens": 80,
-      "fichaTokens": 387,
+      "fichaTokens": 381,
       "tagWeights": {
         "economia": 0.3334,
         "movilidad": 0.3333,
@@ -215,10 +222,11 @@
       "to": "D-193",
       "title": "La adopción masiva también puede ser la domesticación de una idea",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La adopción masiva también puede ser la domesticación de una idea» con «Se puede elegir deliberadamente el sistema con menos opciones». Permite contrastar Captura de opciones e incentivos regresivos, Libertad y opciones.",
       "relationTokens": 83,
-      "fichaTokens": 385,
+      "fichaTokens": 379,
       "tagWeights": {
         "economia": 0.3333,
         "estandares": 0.6667
@@ -234,12 +242,13 @@
       "to": "D-141",
       "title": "No todo problema económico se resuelve con más dinero",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Operación real, Libertad y opciones desde las situaciones que describe cada texto.",
       "relationTokens": 49,
-      "fichaTokens": 295,
+      "fichaTokens": 292,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "dialogos"
@@ -252,12 +261,13 @@
       "to": "D-177",
       "title": "Mil microopciones pueden llevar al mismo macroestado",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Captura de opciones e incentivos regresivos, Libertad y opciones desde las situaciones que describe cada texto.",
       "relationTokens": 55,
-      "fichaTokens": 340,
+      "fichaTokens": 337,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "dialogos"
@@ -270,10 +280,11 @@
       "to": "D-176",
       "title": "Responsabilidad sin posibilidad de ganar produce selección regresiva",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Captura de opciones e incentivos regresivos, Libertad y opciones desde las situaciones que describe cada texto.",
       "relationTokens": 55,
-      "fichaTokens": 346,
+      "fichaTokens": 342,
       "tagWeights": {
         "decision": 0.75,
         "economia": 0.25

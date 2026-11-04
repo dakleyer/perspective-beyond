@@ -13,9 +13,8 @@
   "clusters": [
     "totonacapan"
   ],
-  "context": "## Biografía: una trayectoria en diálogo\nLa biografía reúne episodios de aprendizaje, organización y trabajo comunitario. Sus conversaciones ofrecen una escala personal para leer cuándo una experiencia hace cambiar la pregunta que guía una práctica.\nEtiquetas: Aprendizaje y transmisión de capacidades 25.00%; Empresa y gestión 25.00%; Memoria, comunidad y territorio 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-biografia\nDocumento de origen: https://totonacapan.com/?page_id=413\n\n",
-  "readingSource": null,
-  "tokens": 119,
+  "context": "## Biografía: una trayectoria en diálogo\nLa biografía reúne episodios de aprendizaje, organización y trabajo comunitario. Sus conversaciones ofrecen una escala personal para leer cuándo una experiencia hace cambiar la pregunta que guía una práctica.\nTags: Learning and capability transmission 25.00%; Business and management 25.00%; Memory, community and territory 50.00%\nCard: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-biografia\nSource document: https://totonacapan.com/?page_id=413\n\n",
+  "tokens": 113,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,12 +22,13 @@
       "to": "np-xanath",
       "title": "Xanath y el conocimiento que se practica",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "trayectoria",
       "reading": "La trayectoria lleva a un caso en que el saber está ligado al lugar y a quienes lo practican.",
       "relationTokens": 40,
-      "fichaTokens": 104,
+      "fichaTokens": 101,
       "tagWeights": {
-        "memoria-territorio": 1.0
+        "memoria-territorio": 1
       },
       "clusters": [
         "totonacapan"
@@ -41,10 +41,11 @@
       "to": "np-sierra",
       "title": "La sierra del Totonacapan: el origen vivencial",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "contexto territorial",
       "reading": "La biografía abre el contexto personal y territorial de la experiencia, a partir de su edición pública.",
       "relationTokens": 45,
-      "fichaTokens": 128,
+      "fichaTokens": 123,
       "tagWeights": {
         "experimentacion": 0.4444,
         "memoria-territorio": 0.5556
@@ -60,10 +61,11 @@
       "to": "np-sierra",
       "title": "La sierra del Totonacapan: el origen vivencial",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "contexto metodológico",
       "reading": "La serie desarrolla la pregunta por el cambio de perspectiva a partir de las experiencias en la sierra.",
       "relationTokens": 46,
-      "fichaTokens": 128,
+      "fichaTokens": 123,
       "tagWeights": {
         "experimentacion": 0.4444,
         "memoria-territorio": 0.5556
@@ -79,10 +81,11 @@
       "to": "D-001",
       "title": "Dos familias, varios oficios, una convergencia",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "puente editorial",
       "reading": "La ficha de trayectoria lleva al pasaje de entrada y a sus conexiones con otros episodios.",
       "relationTokens": 42,
-      "fichaTokens": 470,
+      "fichaTokens": 465,
       "tagWeights": {
         "geopolitica": 0.2857,
         "memoria-territorio": 0.4286,
@@ -99,10 +102,11 @@
       "to": "D-001",
       "title": "Dos familias, varios oficios, una convergencia",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "puente editorial",
       "reading": "La ficha de trayectoria sitúa el prólogo dentro del recorrido territorial e institucional.",
       "relationTokens": 39,
-      "fichaTokens": 470,
+      "fichaTokens": 465,
       "tagWeights": {
         "geopolitica": 0.2857,
         "memoria-territorio": 0.4286,
@@ -119,10 +123,11 @@
       "to": "D-252",
       "title": "La historia de un territorio también entra por el olfato y el oído",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "puente de lectura",
       "reading": "Las referencias sensoriales del territorio amplían la lectura de la biografía hacia los oficios, intercambios y prácticas que sostienen la memoria local.",
       "relationTokens": 60,
-      "fichaTokens": 435,
+      "fichaTokens": 430,
       "tagWeights": {
         "capacidad-humana": 0.1176,
         "documentacion": 0.2353,
@@ -139,10 +144,11 @@
       "to": "S09",
       "title": "Repositorio principal y contribuciones matemáticas",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura enlazada desde el documento",
       "reading": "Desde «Biografía: una trayectoria en diálogo», el enlace «https://github.com/dakleyer/structural-awareness-contributions» abre «Repositorio principal y contribuciones matemáticas».",
-      "relationTokens": 81,
-      "fichaTokens": 93,
+      "relationTokens": 79,
+      "fichaTokens": 87,
       "tagWeights": {
         "documentacion": 0.1818,
         "evidencia": 0.2727,

@@ -1,58 +1,58 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Genera un mapa de relaciones alrededor de una ficha, un concepto o la URL de una fuente de Perspective Beyond.">
-<title>Radio de relaciones · Perspective Beyond</title>
+<title>Relationship radius · Perspective Beyond</title>
 <link rel="stylesheet" href="mapa.css">
 <script type="module" src="viewer.mjs?v=posicionamiento-1"></script>
 </head>
 <body>
 <main>
   <header id="intro">
-    <p class="kicker">Perspective Beyond · Atlas global</p>
-    <h1>Recorrido por relaciones</h1>
-    <p><a id="positioning-upgrade" href="../posicionamiento/">Abrir un mini mapa desde este posicionamiento y un presupuesto de tokens</a></p>
-    <p class="lead">Empieza por una ficha o una página. Define hasta dónde seguir sus relaciones y qué temas quieres explorar primero.</p>
-    <nav aria-label="Enlaces del mapa"><a href="../">Volver al Atlas</a><a href="ejemplo.html">Ver ejemplo insertado</a><a href="https://github.com/dakleyer/perspective-beyond/tree/main/docs/atlas/mapa#readme">Leer el protocolo en GitHub</a></nav>
+    <p class="kicker">Perspective Beyond · Global Atlas</p>
+    <h1>Relationship traversal</h1>
+    <p><a id="positioning-upgrade" href="../posicionamiento/">Open a mini-map from this positioning and a token budget</a></p>
+    <p class="lead">Start with a card or page. Define how far to follow its relationships and which topics to explore first.</p>
+    <nav aria-label="Enlaces del mapa"><a href="../">Return to the Atlas</a><a href="ejemplo.html">View embedded example</a><a href="https://github.com/dakleyer/perspective-beyond/tree/main/docs/atlas/mapa#readme">Read the protocol on GitHub</a></nav>
   </header>
   <form id="settings" class="panel" hidden>
-    <label for="center">Ficha, concepto o URL original</label>
+    <label for="center">Card, concept or original URL</label>
     <input id="center" name="centro" required list="suggestions" placeholder="Ej. GH049 o https://tegrity.ai/structural-awareness-program/">
     <datalist id="suggestions"></datalist>
     <div class="fields">
-      <div><label for="radius">Distancia en saltos</label><input id="radius" name="radio" type="number" min="0" max="4" required></div>
-      <div><label for="limit">Máximo de nodos</label><input id="limit" name="max" type="number" min="1" max="60" required></div>
-      <div><label for="network">Red</label><select id="network" name="red"><option value="documentos">Impacto documental</option><option value="ideas">Ideas y documentos</option></select></div>
-      <div><label for="direction">Sentido del recorrido</label><select id="direction" name="sentido"><option value="ambas">Ambos sentidos</option><option value="salientes">Relaciones salientes</option><option value="entrantes">Relaciones entrantes</option></select></div>
+      <div><label for="radius">Distance in hops</label><input id="radius" name="radio" type="number" min="0" max="4" required></div>
+      <div><label for="limit">Maximum nodes</label><input id="limit" name="max" type="number" min="1" max="60" required></div>
+      <div><label for="network">Network</label><select id="network" name="red"><option value="documentos">Documentary impact</option><option value="ideas">Ideas and documents</option></select></div>
+      <div><label for="direction">Traversal direction</label><select id="direction" name="sentido"><option value="ambas">Both directions</option><option value="salientes">Outgoing relationships</option><option value="entrantes">Incoming relationships</option></select></div>
     </div>
     <details id="weight-settings">
-      <summary>Etiquetas y pesos</summary>
-      <p class="hint">Los pesos son relativos. El mapa combina la coincidencia temática con la distancia a la ficha central.</p>
-      <div class="actions"><select id="topic" aria-label="Etiqueta"></select><button id="add-weight" type="button" class="secondary">Añadir etiqueta</button></div>
+      <summary>Tags and weights</summary>
+      <p class="hint">Weights are relative. The map combines thematic matching with distance from the central card.</p>
+      <div class="actions"><select id="topic" aria-label="Tag"></select><button id="add-weight" type="button" class="secondary">Add tag</button></div>
       <div id="weights"></div>
-      <label class="checkbox"><input id="only" type="checkbox"> Recorrer solo nodos que coincidan con alguna etiqueta elegida</label>
+      <label class="checkbox"><input id="only" type="checkbox"> Traverse only nodes matching a chosen tag</label>
     </details>
     <div class="actions">
-      <button type="submit">Calcular mapa</button>
-      <button type="button" class="secondary" id="copy-link" disabled>Copiar enlace</button>
-      <button type="button" class="secondary" id="copy-embed" disabled>Copiar código para insertar</button>
-      <button type="button" class="secondary" id="download" disabled>Descargar JSON</button>
+      <button type="submit">Calculate map</button>
+      <button type="button" class="secondary" id="copy-link" disabled>Copy link</button>
+      <button type="button" class="secondary" id="copy-embed" disabled>Copy embed code</button>
+      <button type="button" class="secondary" id="download" disabled>Download JSON</button>
     </div>
     <textarea id="copy-fallback" aria-label="Texto para copiar" hidden readonly></textarea>
   </form>
-  <p id="status" role="status">Cargando el grafo público…</p>
+  <p id="status" role="status">Loading the public graph…</p>
   <section id="result" class="panel" aria-labelledby="map-title" hidden>
     <div class="map-head">
-      <div><p class="kicker">Radio de relaciones</p><h2 id="map-title"></h2><p id="map-info" class="hint"></p></div>
-      <a id="open-full" href="./" target="_blank" rel="noopener" hidden>Abrir mapa completo</a>
+      <div><p class="kicker">Relationship radius</p><h2 id="map-title"></h2><p id="map-info" class="hint"></p></div>
+      <a id="open-full" href="./" target="_blank" rel="noopener" hidden>Open complete map</a>
     </div>
     <div class="visual">
       <div class="plot">
         <svg id="graph" role="group" aria-label="Mapa de nodos por distancia" preserveAspectRatio="xMidYMid meet"></svg>
-        <p class="hint">Cada anillo es un salto. Los números corresponden a la lista.</p>
-        <label class="checkbox"><input id="extra" type="checkbox"> Dibujar también las relaciones cruzadas</label>
+        <p class="hint">Each ring is one hop. Numbers correspond to the list.</p>
+        <label class="checkbox"><input id="extra" type="checkbox"> Also draw cross-relationships</label>
       </div>
       <aside aria-label="Nodos del mapa"><ol id="node-list"></ol></aside>
     </div>
@@ -60,10 +60,10 @@
       <p id="node-meta" class="kicker"></p><h3 id="node-title"></h3>
       <p id="node-summary"></p><p id="node-tags" class="hint"></p>
       <div id="node-links" class="actions"></div>
-      <details><summary>Relaciones de este nodo en el mapa</summary><ul id="node-edges"></ul></details>
+      <details><summary>This node's relationships in the map</summary><ul id="node-edges"></ul></details>
     </section>
   </section>
-  <noscript><p>El visualizador requiere JavaScript. El <a href="grafo.json">grafo público</a> y el <a href="https://github.com/dakleyer/perspective-beyond/tree/main/docs/atlas/mapa#readme">protocolo de cálculo</a> se pueden consultar directamente.</p></noscript>
+  <noscript><p>The viewer requires JavaScript. The <a href="grafo.json">public graph</a> and the <a href="https://github.com/dakleyer/perspective-beyond/tree/main/docs/atlas/mapa#readme">calculation protocol</a> can be consulted directly.</p></noscript>
 </main>
 </body>
 </html>

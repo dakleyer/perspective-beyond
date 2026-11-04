@@ -12,9 +12,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Pedir un contraejemplo es una parte del pensamiento original\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Qué hacemos con una intuición poderosa antes de llamarla demostración?\nREFLEXIÓN DEL DIÁLOGO (voz original solo en citas, resto elaboración editorial) — En el manuscrito conversacional se ve a Iván discutir con el asistente una y otra vez sobre diagonalización, universos de entrada y límites de los algoritmos. No siempre acepta la primera respuesta, aunque sea favorable a su idea. En un momento preciso pide: «be critical and tell me if we need to find a diagonal entry to really be sure what we are doing».\n\nLa frase importa tanto como la hipótesis matemática. El autor quiere que el argumento pueda enfrentarse a una construcción concreta: una máquina, una entrada, una cadena de validadores, un caso que produzca o no el efecto buscado. Busca presionar los límites, incluso pide «try to devastate» los supuestos para ver dónde aparece la contradicción. El valor de conservar el intercambio no es atribuirle una refutación de Turing, sino mostrar una pregunta en proceso y la insistencia en ponerla a prueba.\n\nEl documento contiene respuestas de IA que celebran demasiado pronto algunas consecuencias y un uso ambiguo de términos como universo, clase, indecidible o «no válido». La ficha no adopta esas confirmaciones como prueba. Retiene un gesto metodológico más robusto: una idea original también puede documentarse mediante los ensayos de refutación que su propio autor pidió, incluidos los que no llegaron a resultados formales.\nEtiquetas: Experimentación, falsación y contraejemplos 62.50%; Matemáticas 37.50%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-282\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-282.html\n\n",
-  "readingSource": null,
-  "tokens": 411,
+  "context": "## Pedir un contraejemplo es una parte del pensamiento original\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Qué hacemos con una intuición poderosa antes de llamarla demostración?\nREFLEXIÓN DEL DIÁLOGO (voz original solo en citas, resto elaboración editorial) — En el manuscrito conversacional se ve a Iván discutir con el asistente una y otra vez sobre diagonalización, universos de entrada y límites de los algoritmos. No siempre acepta la primera respuesta, aunque sea favorable a su idea. En un momento preciso pide: «be critical and tell me if we need to find a diagonal entry to really be sure what we are doing».\n\nLa frase importa tanto como la hipótesis matemática. El autor quiere que el argumento pueda enfrentarse a una construcción concreta: una máquina, una entrada, una cadena de validadores, un caso que produzca o no el efecto buscado. Busca presionar los límites, incluso pide «try to devastate» los supuestos para ver dónde aparece la contradicción. El valor de conservar el intercambio no es atribuirle una refutación de Turing, sino mostrar una pregunta en proceso y la insistencia en ponerla a prueba.\n\nEl documento contiene respuestas de IA que celebran demasiado pronto algunas consecuencias y un uso ambiguo de términos como universo, clase, indecidible o «no válido». La ficha no adopta esas confirmaciones como prueba. Retiene un gesto metodológico más robusto: una idea original también puede documentarse mediante los ensayos de refutación que su propio autor pidió, incluidos los que no llegaron a resultados formales.\nTags: Experimentation, falsification and counterexamples 62.50%; Mathematics 37.50%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-282\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-282.html\n\n",
+  "tokens": 406,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "dg-math",
       "title": "Pensamiento matemático",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 177,
+      "fichaTokens": 159,
       "tagWeights": {
         "aprendizaje": 0.1144,
         "autoridad": 0.0109,
@@ -51,10 +51,11 @@
       "to": "dg-doubt",
       "title": "Duda, pruebas y conocimiento corregible",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 268,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.2345,
         "autoridad": 0.0562,
@@ -88,10 +89,11 @@
       "to": "dg-axiom_reversal",
       "title": "Explorar axiomas desde lo indefinible",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 29,
-      "fichaTokens": 87,
+      "fichaTokens": 83,
       "tagWeights": {
         "experimentacion": 0.3125,
         "matematicas": 0.6875
@@ -107,10 +109,11 @@
       "to": "dg-epistemic_increment",
       "title": "Demostrar o refutar paso por paso",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 101,
+      "fichaTokens": 93,
       "tagWeights": {
         "evidencia": 0.2,
         "experimentacion": 0.3125,
@@ -128,12 +131,13 @@
       "to": "D-054",
       "title": "Matemáticas: preguntar antes de elegir escuela",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Pedir un contraejemplo es una parte del pensamiento original» con «Matemáticas: preguntar antes de elegir escuela». Permite contrastar Pensamiento matemático.",
       "relationTokens": 66,
-      "fichaTokens": 422,
+      "fichaTokens": 419,
       "tagWeights": {
-        "matematicas": 1.0
+        "matematicas": 1
       },
       "clusters": [
         "dialogos"
@@ -146,10 +150,11 @@
       "to": "D-055",
       "title": "El infinito, la máquina y sus límites",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Pedir un contraejemplo es una parte del pensamiento original» con «El infinito, la máquina y sus límites». Permite contrastar Pensamiento matemático.",
       "relationTokens": 65,
-      "fichaTokens": 541,
+      "fichaTokens": 535,
       "tagWeights": {
         "aprendizaje": 0.5,
         "matematicas": 0.5
@@ -165,10 +170,11 @@
       "to": "D-082",
       "title": "La duda no es necesariamente un fracaso",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Pedir un contraejemplo es una parte del pensamiento original» con «La duda no es necesariamente un fracaso». Permite contrastar Duda, pruebas y conocimiento corregible, Pensamiento matemático.",
       "relationTokens": 72,
-      "fichaTokens": 324,
+      "fichaTokens": 318,
       "tagWeights": {
         "aprendizaje": 0.5,
         "matematicas": 0.5
@@ -184,12 +190,13 @@
       "to": "D-094",
       "title": "Gödel, máquinas de Turing y la pregunta de qué queda fuera",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Pedir un contraejemplo es una parte del pensamiento original» con «Gödel, máquinas de Turing y la pregunta de qué queda fuera». Permite contrastar Duda, pruebas y conocimiento corregible, Pensamiento matemático.",
       "relationTokens": 86,
-      "fichaTokens": 338,
+      "fichaTokens": 335,
       "tagWeights": {
-        "matematicas": 1.0
+        "matematicas": 1
       },
       "clusters": [
         "dialogos"
@@ -202,12 +209,13 @@
       "to": "D-098",
       "title": "Qué tendría que refutar nuestra hipótesis",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Pedir un contraejemplo es una parte del pensamiento original» con «Qué tendría que refutar nuestra hipótesis». Permite contrastar Duda, pruebas y conocimiento corregible.",
       "relationTokens": 69,
-      "fichaTokens": 267,
+      "fichaTokens": 262,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"
@@ -220,12 +228,13 @@
       "to": "D-185",
       "title": "2015: una idea ambiciosa necesita una prueba que otro pueda repetir",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Pedir un contraejemplo es una parte del pensamiento original» con «2015: una idea ambiciosa necesita una prueba que otro pueda repetir». Permite contrastar Duda, pruebas y conocimiento corregible.",
       "relationTokens": 84,
-      "fichaTokens": 345,
+      "fichaTokens": 342,
       "tagWeights": {
-        "decision": 1.0
+        "decision": 1
       },
       "clusters": [
         "dialogos"
@@ -238,12 +247,13 @@
       "to": "D-266",
       "title": "¿Y si el punto de partida fuera lo no definible?",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Pedir un contraejemplo es una parte del pensamiento original» con «¿Y si el punto de partida fuera lo no definible?». Permite contrastar Duda, pruebas y conocimiento corregible, Pensamiento matemático, Explorar axiomas desde lo indefinible.",
       "relationTokens": 94,
-      "fichaTokens": 406,
+      "fichaTokens": 403,
       "tagWeights": {
-        "matematicas": 1.0
+        "matematicas": 1
       },
       "clusters": [
         "dialogos"
@@ -256,12 +266,13 @@
       "to": "D-183",
       "title": "La esfera mágica: contar el último elemento también cuesta",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Pensamiento matemático, Duda, pruebas y conocimiento corregible desde las situaciones que describe cada texto.",
       "relationTokens": 57,
-      "fichaTokens": 350,
+      "fichaTokens": 347,
       "tagWeights": {
-        "matematicas": 1.0
+        "matematicas": 1
       },
       "clusters": [
         "dialogos"
@@ -274,12 +285,13 @@
       "to": "D-117",
       "title": "Una arquitectura que no puede declararse cerrada",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Pensamiento matemático, Duda, pruebas y conocimiento corregible desde las situaciones que describe cada texto.",
       "relationTokens": 55,
-      "fichaTokens": 249,
+      "fichaTokens": 246,
       "tagWeights": {
-        "matematicas": 1.0
+        "matematicas": 1
       },
       "clusters": [
         "dialogos"

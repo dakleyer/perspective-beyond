@@ -6,14 +6,13 @@
   "documentId": "doc-5f5e27cca9772b5b8c",
   "sourceIds": [],
   "tagWeights": {
-    "evidencia": 1.0
+    "evidencia": 1
   },
   "clusters": [
     "research"
   ],
-  "context": "## English translation and traceability\nContenido de la fuente: Subsequent reading organization.\nEtiquetas: Evidencia, procedencia y atribución 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-0b9dedc5a132dc.html\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/e90bdebf3acaa2fce971779cd45952c7ae2cb22a/research/ecosystem-awareness/baseline/reductions/00G-R01/TRANSLATION_TRACE.md\n\n",
-  "readingSource": null,
-  "tokens": 133,
+  "context": "## English translation and traceability\nContenido de la fuente: Subsequent reading organization.\nTags: Evidence, provenance and attribution 100.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-0b9dedc5a132dc.html\nSource document: https://github.com/dakleyer/structural-awareness-contributions/blob/e90bdebf3acaa2fce971779cd45952c7ae2cb22a/research/ecosystem-awareness/baseline/reductions/00G-R01/TRANSLATION_TRACE.md\n\n",
+  "tokens": 128,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -21,10 +20,11 @@
       "to": "sac-ae5cfdf16d6d42",
       "title": "Preserved non-canonical working inputs",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Archivo completo de enlaces del corte» con el rótulo «English translation and traceability».",
-      "relationTokens": 111,
-      "fichaTokens": 175,
+      "relationTokens": 109,
+      "fichaTokens": 169,
       "tagWeights": {
         "decision": 0.3334,
         "documentacion": 0.3333,
@@ -41,10 +41,11 @@
       "to": "sac-842e012fc7d601",
       "title": "R01 Probabilistic exploration and validation cost",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «English translation and traceability» con el rótulo «R01 entry».",
-      "relationTokens": 112,
-      "fichaTokens": 163,
+      "relationTokens": 110,
+      "fichaTokens": 158,
       "tagWeights": {
         "economia": 0.8333,
         "experimentacion": 0.1667
@@ -60,12 +61,13 @@
       "to": "sac-25ab59c56dd6b3",
       "title": "R01 Organization and preservation record",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Subsequent reading organization» con el rótulo «ORGANIZATION_TRACE.md».",
-      "relationTokens": 111,
-      "fichaTokens": 133,
+      "relationTokens": 109,
+      "fichaTokens": 131,
       "tagWeights": {
-        "documentacion": 1.0
+        "documentacion": 1
       },
       "clusters": [
         "research"
@@ -78,10 +80,11 @@
       "to": "sac-85b581fd7a5e46",
       "title": "Reduction from 00G to R01",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Probabilistic exploration and validation cost» con el rótulo «English translation trace».",
-      "relationTokens": 122,
-      "fichaTokens": 166,
+      "relationTokens": 120,
+      "fichaTokens": 162,
       "tagWeights": {
         "economia": 0.2,
         "matematicas": 0.8

@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Acción viable y valor que se propaga",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-action_viability",
-  "documentId": null,
   "sourceIds": [
     "D-221",
     "D-265"
@@ -19,9 +18,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Acción viable y valor que se propaga\nSeparar iniciativas adoptables, desbloqueadas y movibles de un backlog nominal y contrastar efectos sobre la cadena completa, no sólo sobre un KPI local.\nEtiquetas: Aprendizaje y transmisión de capacidades 6.54%; Casos de uso y aplicaciones 6.54%; Compromisos y capacidad disponible 7.50%; Decisiones y responsabilidad 6.54%; Empresa y gestión 66.35%; Transformación y continuidad operativa 6.53%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-action_viability\n\n",
-  "readingSource": null,
-  "tokens": 132,
+  "context": "## Acción viable y valor que se propaga\nSeparar iniciativas adoptables, desbloqueadas y movibles de un backlog nominal y contrastar efectos sobre la cadena completa, no sólo sobre un KPI local.\nTags: Learning and capability transmission 6.54%; Use cases and applications 6.54%; Commitments and available capability 7.50%; Decisions and responsibility 6.54%; Business and management 66.35%; Transformation and operational continuity 6.53%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-action_viability\n\n",
+  "tokens": 122,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -29,10 +27,11 @@
       "to": "D-221",
       "title": "La iniciativa que no se puede mover ya consume recursos",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 494,
+      "fichaTokens": 483,
       "tagWeights": {
         "aprendizaje": 0.1308,
         "casos": 0.1308,
@@ -52,12 +51,13 @@
       "to": "D-265",
       "title": "El diamante tecnológico puede estar funcionando dentro de la empresa y seguir invisible",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 30,
-      "fichaTokens": 370,
+      "fichaTokens": 368,
       "tagWeights": {
-        "empresa": 1.0
+        "empresa": 1
       },
       "clusters": [
         "dialogos"
@@ -70,10 +70,11 @@
       "to": "dg-transform",
       "title": "Transformación organizativa",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "filtra iniciativas ejecutables",
       "reading": "Joinable, Unblocked y Movable distinguen trabajo listo de backlog simbólico.",
       "relationTokens": 38,
-      "fichaTokens": 233,
+      "fichaTokens": 208,
       "tagWeights": {
         "aprendizaje": 0.2509,
         "autoridad": 0.0093,
@@ -105,10 +106,11 @@
       "to": "dg-production",
       "title": "Producción material y continuadores invisibles",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "sigue valor entre equipos",
       "reading": "Propagating pide verificar efectos en la cadena de valor.",
       "relationTokens": 36,
-      "fichaTokens": 229,
+      "fichaTokens": 205,
       "tagWeights": {
         "aprendizaje": 0.0276,
         "autoridad": 0.0417,
@@ -137,10 +139,11 @@
       "to": "dg-decision",
       "title": "Decisiones entre escenarios",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "separa factibilidad de prioridad",
       "reading": "Algo ejecutable puede no ser la mejor acción en el sistema.",
       "relationTokens": 35,
-      "fichaTokens": 180,
+      "fichaTokens": 162,
       "tagWeights": {
         "aprendizaje": 0.0474,
         "autoridad": 0.0059,
@@ -167,10 +170,11 @@
       "to": "dg-capture",
       "title": "Captura de opciones e incentivos regresivos",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "detecta KPI contra efecto total",
       "reading": "Mejorar un indicador local puede causar desperdicio aguas abajo.",
       "relationTokens": 39,
-      "fichaTokens": 180,
+      "fichaTokens": 161,
       "tagWeights": {
         "aprendizaje": 0.0303,
         "autoridad": 0.0485,
@@ -195,10 +199,11 @@
       "to": "dg-formalization_event",
       "title": "La frontera entre mundo y registro",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "exige revisar el mapa antes de actuar",
       "reading": "El backlog puede modelar mal restricciones y dependencias operativas.",
       "relationTokens": 37,
-      "fichaTokens": 137,
+      "fichaTokens": 127,
       "tagWeights": {
         "aprendizaje": 0.2131,
         "decision": 0.1339,
@@ -218,10 +223,11 @@
       "to": "dg-frame_change",
       "title": "Marcos que autorizan opciones y compras",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "selecciona caminos practicables",
       "reading": "La viabilidad depende de permisos y capacidades.",
       "relationTokens": 33,
-      "fichaTokens": 131,
+      "fichaTokens": 119,
       "tagWeights": {
         "aprendizaje": 0.2262,
         "autoridad": 0.1905,
@@ -242,10 +248,11 @@
       "to": "dg-capability_loss",
       "title": "Poda, memoria y capacidades zombis",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "comprueba capacidad operativa",
       "reading": "El backlog no debe depender de capacidades zombis.",
       "relationTokens": 34,
-      "fichaTokens": 142,
+      "fichaTokens": 129,
       "tagWeights": {
         "aprendizaje": 0.1146,
         "autoridad": 0.125,
@@ -267,10 +274,11 @@
       "to": "dg-exit_architecture",
       "title": "Arquitectura de salida y capacidad transferida",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación de ampliación v0.10",
       "reading": "Soluciones reales, no solo inventario ni propuesta.",
       "relationTokens": 39,
-      "fichaTokens": 106,
+      "fichaTokens": 98,
       "tagWeights": {
         "aprendizaje": 0.1087,
         "autoridad": 0.0435,
@@ -288,10 +296,11 @@
       "to": "dg-fulfillment_boundary",
       "title": "Maximizar frente a cumplir un propósito",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación de ampliación v0.11",
       "reading": "Saber cuándo terminó el trabajo.",
       "relationTokens": 33,
-      "fichaTokens": 88,
+      "fichaTokens": 82,
       "tagWeights": {
         "aprendizaje": 0.3334,
         "decision": 0.3333,

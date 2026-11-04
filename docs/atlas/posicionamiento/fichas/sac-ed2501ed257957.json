@@ -14,9 +14,8 @@
   "clusters": [
     "research"
   ],
-  "context": "## R01 oracle auditable trace contract\nContenido de la fuente: 1. Minimum identity · 2. Candidate decision record · 3. Interactive broker record.\nEtiquetas: Decisiones y responsabilidad 36.36%; Evidencia, procedencia y atribución 9.09%; Experimentación, falsación y contraejemplos 45.46%; Representación y límites formales 9.09%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-ed2501ed257957.html\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/ad3db7adc9546bfd7a935b5e67b4c15be5042e75/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/TRACE_CONTRACT.md\n\n",
-  "readingSource": null,
-  "tokens": 183,
+  "context": "## R01 oracle auditable trace contract\nContenido de la fuente: 1. Minimum identity · 2. Candidate decision record · 3. Interactive broker record.\nTags: Decisions and responsibility 36.36%; Evidence, provenance and attribution 9.09%; Experimentation, falsification and counterexamples 45.46%; Representation and formal boundaries 9.09%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-ed2501ed257957.html\nSource document: https://github.com/dakleyer/structural-awareness-contributions/blob/ad3db7adc9546bfd7a935b5e67b4c15be5042e75/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/TRACE_CONTRACT.md\n\n",
+  "tokens": 173,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -24,10 +23,11 @@
       "to": "sac-ae5cfdf16d6d42",
       "title": "Preserved non-canonical working inputs",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «R01 — escenarios, oráculo y trabajos parciales» con el rótulo «Contrato de traza auditable».",
-      "relationTokens": 119,
-      "fichaTokens": 175,
+      "relationTokens": 117,
+      "fichaTokens": 169,
       "tagWeights": {
         "decision": 0.3334,
         "documentacion": 0.3333,
@@ -44,10 +44,11 @@
       "to": "sac-120ccc9cdbac3b",
       "title": "R01 C02 — neutral oracle / harness",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Reading sequence from registration to result» con el rótulo «Trace contract».",
-      "relationTokens": 114,
-      "fichaTokens": 206,
+      "relationTokens": 112,
+      "fichaTokens": 193,
       "tagWeights": {
         "decision": 0.0385,
         "documentacion": 0.1539,
@@ -67,12 +68,13 @@
       "to": "sac-253b7b1644529f",
       "title": "R01 candidate-isolation contract",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «5. Private evidence disclosure» con el rótulo «ISOLATION_CONTRACT.md».",
-      "relationTokens": 116,
-      "fichaTokens": 146,
+      "relationTokens": 114,
+      "fichaTokens": 141,
       "tagWeights": {
-        "evidencia": 1.0
+        "evidencia": 1
       },
       "clusters": [
         "research"

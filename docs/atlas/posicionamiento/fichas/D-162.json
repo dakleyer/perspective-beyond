@@ -13,9 +13,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## El valor que se actúa no es necesariamente el valor que se declara\nINTERLOCUTOR (pregunta editorial, no pronunciada necesariamente) — ¿Qué vale más como evidencia de una preferencia: lo que una persona explica o aquello que sostiene con sus decisiones?\nREFLEXIÓN DEL DIÁLOGO (reconstrucción editorial cotejada con el escrito) — Iván no propone llamar hipócrita a quien contradice su discurso. Introduce una separación más incómoda: valor explicado, valor deseado, valor actuado y valor que otros atribuyen. Una persona puede defender la salud, comprar un bien de estatus y dedicar gran parte de su energía a preservar una relación o una posición. Esas acciones no prueban por sí solas una preferencia eterna, pero muestran qué costes acepta pagar en un contexto. No basta con decir que el sujeto «se equivoca» porque no maximiza la utilidad que un observador le asignó. Tal vez está comprando aceptación, continuidad biográfica o protección de su identidad. El ejercicio es descriptivo y económico: averiguar cuál era la moneda relevante para esa decisión y qué alternativa real se percibía. Hay que conservar la diferencia entre comprender la función de una conducta y justificar sus consecuencias. La ficha extiende la experiencia previa del error de atribución: medir la distancia entre declaración y elección es un paso; entender qué valor se estaba defendiendo es otro.\nEtiquetas: Decisiones y responsabilidad 40.00%; Economía, costes y liquidez 20.00%; Evidencia, procedencia y atribución 40.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-162\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-162.html\n\n",
-  "readingSource": null,
-  "tokens": 377,
+  "context": "## El valor que se actúa no es necesariamente el valor que se declara\nINTERLOCUTOR (pregunta editorial, no pronunciada necesariamente) — ¿Qué vale más como evidencia de una preferencia: lo que una persona explica o aquello que sostiene con sus decisiones?\nREFLEXIÓN DEL DIÁLOGO (reconstrucción editorial cotejada con el escrito) — Iván no propone llamar hipócrita a quien contradice su discurso. Introduce una separación más incómoda: valor explicado, valor deseado, valor actuado y valor que otros atribuyen. Una persona puede defender la salud, comprar un bien de estatus y dedicar gran parte de su energía a preservar una relación o una posición. Esas acciones no prueban por sí solas una preferencia eterna, pero muestran qué costes acepta pagar en un contexto. No basta con decir que el sujeto «se equivoca» porque no maximiza la utilidad que un observador le asignó. Tal vez está comprando aceptación, continuidad biográfica o protección de su identidad. El ejercicio es descriptivo y económico: averiguar cuál era la moneda relevante para esa decisión y qué alternativa real se percibía. Hay que conservar la diferencia entre comprender la función de una conducta y justificar sus consecuencias. La ficha extiende la experiencia previa del error de atribución: medir la distancia entre declaración y elección es un paso; entender qué valor se estaba defendiendo es otro.\nTags: Decisions and responsibility 40.00%; Economics, costs and liquidity 20.00%; Evidence, provenance and attribution 40.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-162\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-162.html\n\n",
+  "tokens": 370,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,10 +22,11 @@
       "to": "dg-economy",
       "title": "Economía y escasez",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 27,
-      "fichaTokens": 250,
+      "fichaTokens": 222,
       "tagWeights": {
         "aprendizaje": 0.0688,
         "autoridad": 0.0119,
@@ -59,10 +59,11 @@
       "to": "dg-identity",
       "title": "Identidad, roles y posicionamiento",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 29,
-      "fichaTokens": 234,
+      "fichaTokens": 211,
       "tagWeights": {
         "aprendizaje": 0.2833,
         "autoridad": 0.0459,
@@ -92,10 +93,11 @@
       "to": "dg-value_acted",
       "title": "Valor actuado y monedas de identidad",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 29,
-      "fichaTokens": 120,
+      "fichaTokens": 109,
       "tagWeights": {
         "aprendizaje": 0.25,
         "autoridad": 0.0714,
@@ -114,12 +116,13 @@
       "to": "D-139",
       "title": "Lo que creemos que haremos y lo que hacemos no siempre coincide",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El valor que se actúa no es necesariamente el valor que se declara» con «Lo que creemos que haremos y lo que hacemos no siempre coincide». Permite contrastar Identidad, roles y posicionamiento.",
       "relationTokens": 82,
-      "fichaTokens": 317,
+      "fichaTokens": 314,
       "tagWeights": {
-        "decision": 1.0
+        "decision": 1
       },
       "clusters": [
         "dialogos"
@@ -132,10 +135,11 @@
       "to": "D-140",
       "title": "Los bienes de estatus y la economía de la mirada ajena",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El valor que se actúa no es necesariamente el valor que se declara» con «Los bienes de estatus y la economía de la mirada ajena». Permite contrastar Economía y escasez, Identidad, roles y posicionamiento.",
       "relationTokens": 88,
-      "fichaTokens": 331,
+      "fichaTokens": 327,
       "tagWeights": {
         "decision": 0.3571,
         "economia": 0.6429
@@ -151,10 +155,11 @@
       "to": "D-122",
       "title": "El yo como aquello que intentamos preservar",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El valor que se actúa no es necesariamente el valor que se declara» con «El yo como aquello que intentamos preservar». Permite contrastar Identidad, roles y posicionamiento.",
       "relationTokens": 72,
-      "fichaTokens": 318,
+      "fichaTokens": 313,
       "tagWeights": {
         "aprendizaje": 0.5,
         "perspectiva": 0.5
@@ -170,12 +175,13 @@
       "to": "D-164",
       "title": "El mercado de identidad tiene sus propios precios",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Valor actuado y monedas de identidad, Identidad, roles y posicionamiento, Economía y escasez desde las situaciones que describe cada texto.",
       "relationTokens": 64,
-      "fichaTokens": 344,
+      "fichaTokens": 341,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "dialogos"
@@ -188,12 +194,13 @@
       "to": "D-214",
       "title": "La invisibilidad local puede ser una forma de riqueza",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Valor actuado y monedas de identidad, Identidad, roles y posicionamiento desde las situaciones que describe cada texto.",
       "relationTokens": 60,
-      "fichaTokens": 389,
+      "fichaTokens": 384,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"

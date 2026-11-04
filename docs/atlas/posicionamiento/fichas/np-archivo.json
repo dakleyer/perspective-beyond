@@ -13,9 +13,8 @@
   "clusters": [
     "imsv"
   ],
-  "context": "## Conservar el conocimiento y seguir conversando\nEl archivo conserva variantes, preguntas y aportaciones con su procedencia. Así se puede reconstruir cómo cambió una interpretación y qué parte proviene de un testimonio, un documento o una lectura posterior.\nEtiquetas: Investigación y documentación técnica 33.34%; Evidencia, procedencia y atribución 33.33%; Memoria, comunidad y territorio 33.33%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-archivo\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/archivo-y-dialogo/\n\n",
-  "readingSource": null,
-  "tokens": 132,
+  "context": "## Conservar el conocimiento y seguir conversando\nEl archivo conserva variantes, preguntas y aportaciones con su procedencia. Así se puede reconstruir cómo cambió una interpretación y qué parte proviene de un testimonio, un documento o una lectura posterior.\nTags: Research and technical documentation 33.34%; Evidence, provenance and attribution 33.33%; Memory, community and territory 33.33%\nCard: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-archivo\nSource document: https://integralmanagement.ch/nueva-perspectiva/archivo-y-dialogo/\n\n",
+  "tokens": 126,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,10 +22,11 @@
       "to": "np-aprendizajes",
       "title": "¿Qué enseñaron estas experiencias?",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "custodia",
       "reading": "La posibilidad de revisar un aprendizaje requiere guardar su procedencia y los cambios de interpretación.",
       "relationTokens": 36,
-      "fichaTokens": 116,
+      "fichaTokens": 112,
       "tagWeights": {
         "perspectiva": 0.5,
         "representacion": 0.5
@@ -42,10 +42,11 @@
       "to": "np-entrada",
       "title": "Del manifiesto a la práctica",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relectura",
       "reading": "El índice permite volver al punto de partida desde la evidencia acumulada.",
       "relationTokens": 34,
-      "fichaTokens": 108,
+      "fichaTokens": 103,
       "tagWeights": {
         "aprendizaje": 0.8,
         "perspectiva": 0.2

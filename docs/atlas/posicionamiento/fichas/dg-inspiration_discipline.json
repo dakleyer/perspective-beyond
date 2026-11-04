@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Inspiración sometida a comprobación",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-inspiration_discipline",
-  "documentId": null,
   "sourceIds": [
     "D-269",
     "D-272",
@@ -19,9 +18,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Inspiración sometida a comprobación\nLa reordenación debe madurarse racionalmente, mantener los datos y superar revisión.\nEtiquetas: Aprendizaje y transmisión de capacidades 3.85%; Autoridad, permisos y delegación 11.54%; Espiritualidad y vida interior 9.62%; Legitimidad y principios 8.33%; Cambio de perspectiva 66.66%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-inspiration_discipline\n\n",
-  "readingSource": null,
-  "tokens": 109,
+  "context": "## Inspiración sometida a comprobación\nLa reordenación debe madurarse racionalmente, mantener los datos y superar revisión.\nTags: Learning and capability transmission 3.85%; Authority, permissions and delegation 11.54%; Spirituality and inner life 9.62%; Legitimacy and principles 8.33%; Change of perspective 66.66%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-inspiration_discipline\n\n",
+  "tokens": 102,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -29,12 +27,13 @@
       "to": "D-269",
       "title": "La inspiración no sustituye a la escuadra y el cartabón",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 30,
-      "fichaTokens": 391,
+      "fichaTokens": 389,
       "tagWeights": {
-        "perspectiva": 1.0
+        "perspectiva": 1
       },
       "clusters": [
         "dialogos"
@@ -47,12 +46,13 @@
       "to": "D-272",
       "title": "Una nueva perspectiva conserva los datos y cambia sus relaciones",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 25,
-      "fichaTokens": 378,
+      "fichaTokens": 376,
       "tagWeights": {
-        "perspectiva": 1.0
+        "perspectiva": 1
       },
       "clusters": [
         "dialogos"
@@ -65,10 +65,11 @@
       "to": "D-275",
       "title": "La experiencia espiritual no da autoridad para exigir obediencia",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 25,
-      "fichaTokens": 424,
+      "fichaTokens": 416,
       "tagWeights": {
         "aprendizaje": 0.1154,
         "autoridad": 0.3461,
@@ -86,10 +87,11 @@
       "to": "dg-perspective",
       "title": "Nueva Perspectiva",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.11",
       "reading": "La nueva mirada requiere comprobación.",
       "relationTokens": 29,
-      "fichaTokens": 190,
+      "fichaTokens": 173,
       "tagWeights": {
         "aprendizaje": 0.117,
         "cambio-regimen": 0.019,
@@ -116,10 +118,11 @@
       "to": "dg-doubt",
       "title": "Duda, pruebas y conocimiento corregible",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.11",
       "reading": "La corazonada no sustituye la prueba.",
       "relationTokens": 36,
-      "fichaTokens": 268,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.2345,
         "autoridad": 0.0562,
@@ -153,10 +156,11 @@
       "to": "dg-unfalsified_frame",
       "title": "Marco mental que también oculta sus límites",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.11",
       "reading": "La aparente obviedad es revisable.",
       "relationTokens": 36,
-      "fichaTokens": 94,
+      "fichaTokens": 89,
       "tagWeights": {
         "aprendizaje": 0.0833,
         "decision": 0.1667,
@@ -173,10 +177,11 @@
       "to": "dg-inner",
       "title": "Atención y sentido",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.11",
       "reading": "Separar emoción y razón pública.",
       "relationTokens": 28,
-      "fichaTokens": 191,
+      "fichaTokens": 172,
       "tagWeights": {
         "aprendizaje": 0.4331,
         "autoridad": 0.0368,
@@ -204,10 +209,11 @@
       "to": "dg-research_dialogue",
       "title": "Diálogo de investigación y prueba acotada",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.11",
       "reading": "Convertir intuición en hipótesis.",
       "relationTokens": 35,
-      "fichaTokens": 150,
+      "fichaTokens": 135,
       "tagWeights": {
         "aprendizaje": 0.0556,
         "autoridad": 0.3333,
@@ -229,10 +235,11 @@
       "to": "dg-epistemic_increment",
       "title": "Demostrar o refutar paso por paso",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación de ampliación v0.11",
       "reading": "Una idea puede sobrevivir a una revisión.",
       "relationTokens": 35,
-      "fichaTokens": 101,
+      "fichaTokens": 93,
       "tagWeights": {
         "evidencia": 0.2,
         "experimentacion": 0.3125,

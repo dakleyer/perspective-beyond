@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Valor actuado y monedas de identidad",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-value_acted",
-  "documentId": null,
   "sourceIds": [
     "D-162",
     "D-164",
@@ -20,9 +19,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Valor actuado y monedas de identidad\nDistinguir valor declarado, deseado, atribuido y revelado por decisiones; examinar el precio de identidad y reconocimiento.\nEtiquetas: Aprendizaje y transmisión de capacidades 25.00%; Autoridad, permisos y delegación 7.14%; Decisiones y responsabilidad 10.00%; Economía, costes y liquidez 47.86%; Evidencia, procedencia y atribución 10.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-value_acted\n\n",
-  "readingSource": null,
-  "tokens": 120,
+  "context": "## Valor actuado y monedas de identidad\nDistinguir valor declarado, deseado, atribuido y revelado por decisiones; examinar el precio de identidad y reconocimiento.\nTags: Learning and capability transmission 25.00%; Authority, permissions and delegation 7.14%; Decisions and responsibility 10.00%; Economics, costs and liquidity 47.86%; Evidence, provenance and attribution 10.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-value_acted\n\n",
+  "tokens": 109,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -30,10 +28,11 @@
       "to": "D-162",
       "title": "El valor que se actúa no es necesariamente el valor que se declara",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 29,
-      "fichaTokens": 377,
+      "fichaTokens": 370,
       "tagWeights": {
         "decision": 0.4,
         "economia": 0.2,
@@ -50,12 +49,13 @@
       "to": "D-164",
       "title": "El mercado de identidad tiene sus propios precios",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 344,
+      "fichaTokens": 341,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "dialogos"
@@ -68,10 +68,11 @@
       "to": "D-168",
       "title": "Cuando alguien define tu bienestar, la economía ya es política",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 339,
+      "fichaTokens": 334,
       "tagWeights": {
         "autoridad": 0.2857,
         "economia": 0.7143
@@ -87,12 +88,13 @@
       "to": "D-214",
       "title": "La invisibilidad local puede ser una forma de riqueza",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 25,
-      "fichaTokens": 389,
+      "fichaTokens": 384,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"
@@ -105,10 +107,11 @@
       "to": "dg-identity",
       "title": "Identidad, roles y posicionamiento",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "hace observable",
       "reading": "La autointerpretación se contrasta con las elecciones que preservan identidad.",
       "relationTokens": 35,
-      "fichaTokens": 234,
+      "fichaTokens": 211,
       "tagWeights": {
         "aprendizaje": 0.2833,
         "autoridad": 0.0459,
@@ -138,10 +141,11 @@
       "to": "dg-economy",
       "title": "Economía y escasez",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "amplía su moneda",
       "reading": "Precio monetario no agota los intercambios de reconocimiento.",
       "relationTokens": 32,
-      "fichaTokens": 250,
+      "fichaTokens": 222,
       "tagWeights": {
         "aprendizaje": 0.0688,
         "autoridad": 0.0119,
@@ -174,10 +178,11 @@
       "to": "dg-measure",
       "title": "Medir decisiones y consecuencias",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "pide pruebas de",
       "reading": "La acción debe observarse sin confundir correlación con causa.",
       "relationTokens": 31,
-      "fichaTokens": 213,
+      "fichaTokens": 192,
       "tagWeights": {
         "aprendizaje": 0.0552,
         "autoridad": 0.0761,
@@ -206,10 +211,11 @@
       "to": "dg-invisible_autonomy",
       "title": "Autonomía invisible y pertenencia",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "hace visible el coste del estatus",
       "reading": "La riqueza que obliga a representar puede reducir libertad.",
       "relationTokens": 34,
-      "fichaTokens": 99,
+      "fichaTokens": 92,
       "tagWeights": {
         "aprendizaje": 0.5,
         "economia": 0.25,
@@ -226,10 +232,11 @@
       "to": "dg-fulfillment_boundary",
       "title": "Maximizar frente a cumplir un propósito",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación de ampliación v0.11",
       "reading": "El propósito puede no reflejarse en precio.",
       "relationTokens": 36,
-      "fichaTokens": 88,
+      "fichaTokens": 82,
       "tagWeights": {
         "aprendizaje": 0.3334,
         "decision": 0.3333,

@@ -13,14 +13,14 @@
   "clusters": [
     "tegrity"
   ],
-  "context": "## Structural Limits of Current AI Integrity Under Regime Change\nThis paper presents the evolution of the work from large-scale logistics intelligence toward a mathematically grounded early-warning framework for regime change in nonlinear, constrained, and propagation-sensitive systems. Its core contribution is not forecasting, but the integration of three elements into a single operational architecture: early warning of regime weakening, propagation-aware modeling of how local disturbances cascade, and dynamic governance of buffers and capacity to preserve stability before failure becomes visible. In that sense, the paper argues for a shift from optimization-centric thinking to regime-aware operational control — a framing whose architectural foundations are laid in AI Integrity Architecture: Toward Expert-System Envelopes Around Statistical AI — applicable across transport, finance, and enterprise systems.\nEtiquetas: Cambios de régimen y alerta temprana 45.83%; Integridad y seguridad de IA 33.33%; Movilidad e infraestructura 20.84%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/structural-limits-of-current-ai-integrity-under-regime-change-t387/\nDocumento de origen: https://tegrity.ai/structural-limits-of-current-ai-integrity-under-regime-change/\n\n",
+  "context": "## Structural Limits of Current AI Integrity Under Regime Change\nThis paper presents the evolution of the work from large-scale logistics intelligence toward a mathematically grounded early-warning framework for regime change in nonlinear, constrained, and propagation-sensitive systems. Its core contribution is not forecasting, but the integration of three elements into a single operational architecture: early warning of regime weakening, propagation-aware modeling of how local disturbances cascade, and dynamic governance of buffers and capacity to preserve stability before failure becomes visible. In that sense, the paper argues for a shift from optimization-centric thinking to regime-aware operational control — a framing whose architectural foundations are laid in AI Integrity Architecture: Toward Expert-System Envelopes Around Statistical AI — applicable across transport, finance, and enterprise systems.\nTags: Regime changes and early warning 45.83%; AI integrity and security 33.33%; Mobility and infrastructure 20.84%\nCard: https://dakleyer.github.io/perspective-beyond/sources/structural-limits-of-current-ai-integrity-under-regime-change-t387/\nSource document: https://tegrity.ai/structural-limits-of-current-ai-integrity-under-regime-change/\n\n",
   "readingSource": {
     "url": "https://tegrity.ai/structural-limits-of-current-ai-integrity-under-regime-change/",
     "section": "Opening paragraphs",
     "observed": "2026-11-04",
     "sourceSha256": "b0d01c75392d3b98e195f83cef5c904e587d617f402793c21f6869e969521ba5"
   },
-  "tokens": 241,
+  "tokens": 234,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -28,10 +28,11 @@
       "to": "C15",
       "title": "Admisibilidad contextual",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 268,
+      "fichaTokens": 235,
       "tagWeights": {
         "agentes": 0.0111,
         "aprendizaje": 0.0104,
@@ -70,10 +71,11 @@
       "to": "C40",
       "title": "Alerta y respuesta",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 177,
+      "fichaTokens": 161,
       "tagWeights": {
         "autoridad": 0.0218,
         "cambio-regimen": 0.2753,
@@ -102,10 +104,11 @@
       "to": "C81",
       "title": "Frontera de integridad operacional",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 25,
-      "fichaTokens": 228,
+      "fichaTokens": 202,
       "tagWeights": {
         "agentes": 0.035,
         "aprendizaje": 0.0059,
@@ -140,10 +143,11 @@
       "to": "C85",
       "title": "Activación y cierre de misión",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 244,
+      "fichaTokens": 214,
       "tagWeights": {
         "aprendizaje": 0.0198,
         "autoridad": 0.037,
@@ -177,10 +181,11 @@
       "to": "T1387",
       "title": "Minimalistic Regime-Aware Early Warning Systems",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "analogy only",
       "reading": "A regime signal matters operationally only when its evidence, response window and authorized action are specified, not merely when another alarm layer is added.",
       "relationTokens": 52,
-      "fichaTokens": 798,
+      "fichaTokens": 787,
       "tagWeights": {
         "cambio-regimen": 0.283,
         "cartografia": 0.1321,
@@ -201,10 +206,11 @@
       "to": "N1272",
       "title": "The Anthropology of Tiger Team Activation",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "analogy only",
       "reading": "Mission activation may respond to a change in operating assumptions, while remaining distinct from a formal regime-detection result.",
       "relationTokens": 43,
-      "fichaTokens": 364,
+      "fichaTokens": 350,
       "tagWeights": {
         "aprendizaje": 0.0909,
         "autoridad": 0.0909,
@@ -225,10 +231,11 @@
       "to": "N1283",
       "title": "Tiger Teams Model and AI Integrity Management Systems",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "analogy only",
       "reading": "Transformation integrity requires revisiting the assumptions behind the integrity boundary when the intervention changes the operating regime itself.",
       "relationTokens": 43,
-      "fichaTokens": 259,
+      "fichaTokens": 253,
       "tagWeights": {
         "empresa": 0.3,
         "integridad-ia": 0.4,
@@ -245,10 +252,11 @@
       "to": "T385",
       "title": "AI Integrity Architecture: Toward Expert-System Envelopes Around Statistical AI",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The structural limits of integrity under regime change](https://tegrity.ai/structural-limits-of-current-ai-integrity-under-regime-change/).",
       "relationTokens": 66,
-      "fichaTokens": 242,
+      "fichaTokens": 235,
       "tagWeights": {
         "evidencia": 0.3636,
         "integridad-ia": 0.6364
@@ -264,10 +272,11 @@
       "to": "T1387",
       "title": "Minimalistic Regime-Aware Early Warning Systems",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [Minimalistic Regime-Aware Early Warning Systems](https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/).",
       "relationTokens": 59,
-      "fichaTokens": 798,
+      "fichaTokens": 787,
       "tagWeights": {
         "cambio-regimen": 0.283,
         "cartografia": 0.1321,

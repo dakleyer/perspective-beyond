@@ -14,14 +14,14 @@
   "clusters": [
     "tegrity"
   ],
-  "context": "## Research and Publication Policy\nTegrity.AI publishes applied research, engineering notes and pre-standardization materials of The Integral Management Society. This page explains the labels used on the site and how the public record is maintained.\n\nTegrity.AI is the issuing research initiative. Each item may also name individual authors and contributors. References to institutions, clients or technical exchanges describe the recorded relationship only and do not imply endorsement beyond the cited evidence.\n\nAI tools may assist drafting, translation, formatting, coding, testing or editorial review. Responsibility for claims, sources and final release remains with the named author or authors and Tegrity.AI; AI assistance is not authorship or independent validation. Material funding, conflicts or relationships relevant to interpretation are disclosed in the item or its linked record.\n\nMinor clarity, spelling and formatting corrections may be made in place and reflected in the last-updated date. A change that could affect interpretation receives a visible version note or correction notice. Withdrawn or replaced material remains identifiable with its reason and current status.\n\nWhen an individual author is named: Author. (Year). Title. Document label and version. Tegrity.AI, The Integral Management Society. Canonical URL.\nEtiquetas: Investigación y documentación técnica 38.89%; Empresa y gestión 27.78%; Evidencia, procedencia y atribución 22.22%; Memoria, comunidad y territorio 11.11%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/research-and-publication-policy-t2694/\nDocumento de origen: https://tegrity.ai/research-publication-policy/\n\n",
+  "context": "## Research and Publication Policy\nTegrity.AI publishes applied research, engineering notes and pre-standardization materials of The Integral Management Society. This page explains the labels used on the site and how the public record is maintained.\n\nTegrity.AI is the issuing research initiative. Each item may also name individual authors and contributors. References to institutions, clients or technical exchanges describe the recorded relationship only and do not imply endorsement beyond the cited evidence.\n\nAI tools may assist drafting, translation, formatting, coding, testing or editorial review. Responsibility for claims, sources and final release remains with the named author or authors and Tegrity.AI; AI assistance is not authorship or independent validation. Material funding, conflicts or relationships relevant to interpretation are disclosed in the item or its linked record.\n\nMinor clarity, spelling and formatting corrections may be made in place and reflected in the last-updated date. A change that could affect interpretation receives a visible version note or correction notice. Withdrawn or replaced material remains identifiable with its reason and current status.\n\nWhen an individual author is named: Author. (Year). Title. Document label and version. Tegrity.AI, The Integral Management Society. Canonical URL.\nTags: Research and technical documentation 38.89%; Business and management 27.78%; Evidence, provenance and attribution 22.22%; Memory, community and territory 11.11%\nCard: https://dakleyer.github.io/perspective-beyond/sources/research-and-publication-policy-t2694/\nSource document: https://tegrity.ai/research-publication-policy/\n\n",
   "readingSource": {
     "url": "https://tegrity.ai/research-publication-policy/",
     "section": "Opening paragraphs",
     "observed": "2026-11-04",
     "sourceSha256": "f379bc7506a1a4381b0feee319f76b1b485906256532f4f413d8474aaf39fd4b"
   },
-  "tokens": 326,
+  "tokens": 320,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -29,10 +29,11 @@
       "to": "C12",
       "title": "Procedencia auditable",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 16,
-      "fichaTokens": 276,
+      "fichaTokens": 243,
       "tagWeights": {
         "agentes": 0.0125,
         "aprendizaje": 0.0053,
@@ -73,10 +74,11 @@
       "to": "C50",
       "title": "Estado de una afirmación",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 17,
-      "fichaTokens": 306,
+      "fichaTokens": 271,
       "tagWeights": {
         "agentes": 0.0305,
         "aprendizaje": 0.0188,
@@ -120,10 +122,11 @@
       "to": "C56",
       "title": "Custodia institucional",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 15,
-      "fichaTokens": 197,
+      "fichaTokens": 174,
       "tagWeights": {
         "aprendizaje": 0.0096,
         "autoridad": 0.0035,
@@ -154,10 +157,11 @@
       "to": "N1328",
       "title": "JubAp.Net: An AI Development Center Built Through Operational Waves",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "candidate transfer",
       "reading": "Each development wave should distinguish its historical artifacts from later reconstruction, interpretation and research claims.",
       "relationTokens": 39,
-      "fichaTokens": 237,
+      "fichaTokens": 232,
       "tagWeights": {
         "empresa": 0.5556,
         "evidencia": 0.4444
@@ -173,10 +177,11 @@
       "to": "L001",
       "title": "The Integral Management Society : Institución de frontera desde 1898",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "candidate transfer",
       "reading": "A stewardship archive can use explicit document labels and correction history so that public availability does not obscure a work’s evidential status.",
       "relationTokens": 47,
-      "fichaTokens": 304,
+      "fichaTokens": 300,
       "tagWeights": {
         "decision": 0.2,
         "empresa": 0.5,
@@ -193,12 +198,13 @@
       "to": "GH003",
       "title": "Claim and Attribution Boundaries",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documented use",
       "reading": "A repository commit and a public document label should travel together so that technical publication is not mistaken for external acceptance or validation.",
       "relationTokens": 38,
-      "fichaTokens": 121,
+      "fichaTokens": 116,
       "tagWeights": {
-        "evidencia": 1.0
+        "evidencia": 1
       },
       "clusters": [
         "research"
@@ -211,10 +217,11 @@
       "to": "N1441",
       "title": "JubAp.Net Frontier Operations Role in the IMSV.org Circle",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [Research and publication policy](https://tegrity.ai/research-publication-policy/).",
       "relationTokens": 46,
-      "fichaTokens": 262,
+      "fichaTokens": 254,
       "tagWeights": {
         "empresa": 0.1818,
         "evidencia": 0.1818,
@@ -232,12 +239,13 @@
       "to": "T2822",
       "title": "Annex 11 — Complete Map of Sources and Links",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [Research and publication policy](https://tegrity.ai/research-publication-policy/).",
       "relationTokens": 44,
-      "fichaTokens": 170,
+      "fichaTokens": 168,
       "tagWeights": {
-        "documentacion": 1.0
+        "documentacion": 1
       },
       "clusters": [
         "tegrity"
@@ -250,10 +258,11 @@
       "to": "T1709",
       "title": "Research Initiatives",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documented institutional reading",
       "reading": "La política de publicación permite interpretar el estado y la autoría de cada iniciativa.",
-      "relationTokens": 45,
-      "fichaTokens": 307,
+      "relationTokens": 43,
+      "fichaTokens": 300,
       "tagWeights": {
         "documentacion": 0.4,
         "integridad-ia": 0.3,

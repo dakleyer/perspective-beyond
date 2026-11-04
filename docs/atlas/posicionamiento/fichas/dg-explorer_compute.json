@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Exploración de marcos frente a fuerza computacional",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-explorer_compute",
-  "documentId": null,
   "sourceIds": [
     "D-292",
     "D-293"
@@ -17,9 +16,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Exploración de marcos frente a fuerza computacional\nExplicitar o cambiar una estructura puede reducir trabajo de búsqueda dentro de ella.\nEtiquetas: Decisiones y responsabilidad 12.50%; Experimentación, falsación y contraejemplos 50.00%; Matemáticas 12.50%; Representación y límites formales 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-explorer_compute\n\n",
-  "readingSource": null,
-  "tokens": 98,
+  "context": "## Exploración de marcos frente a fuerza computacional\nExplicitar o cambiar una estructura puede reducir trabajo de búsqueda dentro de ella.\nTags: Decisions and responsibility 12.50%; Experimentation, falsification and counterexamples 50.00%; Mathematics 12.50%; Representation and formal boundaries 25.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-explorer_compute\n\n",
+  "tokens": 91,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -27,12 +25,13 @@
       "to": "D-292",
       "title": "La IA explota el marco cuando el explorador lo vuelve explícito",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 32,
-      "fichaTokens": 376,
+      "fichaTokens": 372,
       "tagWeights": {
-        "experimentacion": 1.0
+        "experimentacion": 1
       },
       "clusters": [
         "dialogos"
@@ -45,10 +44,11 @@
       "to": "D-293",
       "title": "El cómputo masivo intenta comprar volumen donde falta estructura",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 31,
-      "fichaTokens": 390,
+      "fichaTokens": 384,
       "tagWeights": {
         "decision": 0.25,
         "matematicas": 0.25,
@@ -65,10 +65,11 @@
       "to": "dg-modes",
       "title": "Habitar, explorar y replantear",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación transversal propuesta v0.12",
       "reading": "Explorar y explotar como operaciones distintas.",
       "relationTokens": 38,
-      "fichaTokens": 178,
+      "fichaTokens": 163,
       "tagWeights": {
         "aprendizaje": 0.2413,
         "capacidad-humana": 0.0267,
@@ -93,10 +94,11 @@
       "to": "dg-meta_discrimination",
       "title": "Carga de validar sistemas y sus entradas",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación transversal propuesta v0.12",
       "reading": "Detectar cambio de marco antes de optimizar.",
       "relationTokens": 39,
-      "fichaTokens": 137,
+      "fichaTokens": 126,
       "tagWeights": {
         "autoridad": 0.2083,
         "decision": 0.1607,
@@ -117,10 +119,11 @@
       "to": "dg-practical_isomorphism",
       "title": "Isomorfismos entre dominios y deuda de arquitectura",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación transversal propuesta v0.12",
       "reading": "Buena estructura transversal puede ahorrar búsqueda.",
       "relationTokens": 39,
-      "fichaTokens": 151,
+      "fichaTokens": 136,
       "tagWeights": {
         "aprendizaje": 0.0875,
         "decision": 0.0625,

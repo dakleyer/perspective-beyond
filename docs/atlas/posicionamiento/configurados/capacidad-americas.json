@@ -38,8 +38,24 @@
     "aliases": [
       "https://jubap.us/distributed-operational-intelligence-across-the-americas/"
     ],
-    "header": "# Posicionamiento · Distributed Operational Intelligence Across the Americas\nDocumento de origen: https://jubap.us/distributed-operational-intelligence-across-the-americas\n\n",
-    "headerTokens": 33,
+    "header": "# Positioning · Distributed Operational Intelligence Across the Americas\nSource document: https://jubap.us/distributed-operational-intelligence-across-the-americas\n\n",
+    "headerTokens": 31,
+    "entrySources": [
+      "U1492",
+      "C57",
+      "G25",
+      "C27",
+      "C67"
+    ],
+    "entryAnchor": "U1492",
+    "entryCore": [
+      "C57",
+      "G25",
+      "C27",
+      "C67"
+    ],
+    "headerEn": "# Positioning · Distributed Operational Intelligence Across the Americas\nSource document: https://jubap.us/distributed-operational-intelligence-across-the-americas\n\n",
+    "headerTokensEn": 31,
     "type": "documento",
     "focus": "U1492",
     "seeds": [
@@ -48,11 +64,11 @@
   },
   "budget": {
     "limit": 3000,
-    "used": 2902,
-    "remaining": 98,
-    "nextBlock": 286,
+    "used": 2752,
+    "remaining": 248,
+    "nextBlock": 253,
     "encoding": "o200k_base",
-    "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
+    "accounting": "Sum of independently encoded blocks: document header, card and incoming relationship. The budget applies to selected reading content."
   },
   "reachable": 1547,
   "selected": 11,
@@ -96,7 +112,7 @@
       "type": "documento",
       "url": "https://jubap.us/distributed-operational-intelligence-across-the-americas",
       "original": "https://jubap.us/distributed-operational-intelligence-across-the-americas",
-      "summary": "Documento desde el que se abre este posicionamiento.",
+      "summary": "Document from which this positioning opens.",
       "tags": [],
       "tagWeights": {},
       "clusters": [
@@ -151,7 +167,7 @@
         "sourceSha256": "0985f010e6390752048dbd0282d1cd4fb9ffa8104a2b335fa0fdd2e91f7525ed"
       },
       "readingSummary": "This article argues that a large part of modern American innovation did not emerge only from the usual centers: corporate laboratories, formal R&D programs, or well-funded technology ecosystems in a few U.S.",
-      "contextTokens": 386,
+      "contextTokens": 379,
       "distance": 1,
       "parent": "doc-44d6ba768352369aed-entrada",
       "routeEdge": null,
@@ -223,8 +239,9 @@
         "mundo-abierto": 0.0077,
         "transformacion": 0.0896
       },
-      "contextTokens": 238,
+      "contextTokens": 214,
       "positionHeaderTokens": 42,
+      "positionHeaderTokensEn": 39,
       "distance": 2,
       "parent": "U1492",
       "routeEdge": "apoyo:U1492:C99",
@@ -297,8 +314,9 @@
         "movilidad": 0.2136,
         "transformacion": 0.084
       },
-      "contextTokens": 238,
+      "contextTokens": 212,
       "positionHeaderTokens": 38,
+      "positionHeaderTokensEn": 35,
       "distance": 2,
       "parent": "U1492",
       "routeEdge": "apoyo:U1492:C108",
@@ -378,8 +396,9 @@
         "representacion": 0.0253,
         "transformacion": 0.1746
       },
-      "contextTokens": 246,
+      "contextTokens": 220,
       "positionHeaderTokens": 34,
+      "positionHeaderTokensEn": 31,
       "distance": 2,
       "parent": "U1492",
       "routeEdge": "apoyo:U1492:C67",
@@ -450,8 +469,9 @@
         "perspectiva": 0.0443,
         "transformacion": 0.2227
       },
-      "contextTokens": 205,
+      "contextTokens": 184,
       "positionHeaderTokens": 38,
+      "positionHeaderTokensEn": 35,
       "distance": 2,
       "parent": "U1492",
       "routeEdge": "apoyo:U1492:C61",
@@ -492,7 +512,7 @@
         "sourceSha256": "55856fe3575f5ba0f7a802f30aa909e265e8ca2ca4fbf0e7f5385f0415ba9ea1"
       },
       "readingSummary": "The distributed-model origins locate the practice before remote work became a lifestyle category.",
-      "contextTokens": 353,
+      "contextTokens": 348,
       "distance": 2,
       "parent": "U1492",
       "routeEdge": "documento:A002",
@@ -529,7 +549,7 @@
         "economia": 0.1538,
         "perspectiva": 0.1538
       },
-      "contextTokens": 152,
+      "contextTokens": 146,
       "distance": 2,
       "parent": "U1492",
       "routeEdge": "documento:A003",
@@ -564,7 +584,7 @@
         "sourceSha256": "ad60a260f7c21eaae27747d5b1d0fe49f773e7260babbf2a3d032477742fb06e"
       },
       "readingSummary": "JubAp.org is a transformation and change-orchestration framework derived from repeated operational intervention.",
-      "contextTokens": 169,
+      "contextTokens": 165,
       "distance": 3,
       "parent": "E1628",
       "routeEdge": "documento:R117",
@@ -607,7 +627,7 @@
         "sourceSha256": "c54594c384cf5c0ddd28c46b4ea56010119f5f54802f73a568caf723b441dd8c"
       },
       "readingSummary": "The JubAp.Net model keeps architecture, engineering, deployment and stabilisation inside one accountable intervention unit, reducing the handoffs that usually produce coordination collapse.",
-      "contextTokens": 288,
+      "contextTokens": 276,
       "distance": 2,
       "parent": "U1492",
       "routeEdge": "documento:A001",
@@ -636,7 +656,7 @@
         "evidencia": 0.2857,
         "transformacion": 0.7143
       },
-      "contextTokens": 134,
+      "contextTokens": 127,
       "distance": 3,
       "parent": "C61",
       "routeEdge": "apoyo:L002:C61",
@@ -671,7 +691,7 @@
         "navegacion": 0.05,
         "transformacion": 0.35
       },
-      "contextTokens": 117,
+      "contextTokens": 109,
       "distance": 2,
       "parent": "U1492",
       "routeEdge": "navigation:position-nav-U2-U1492",
@@ -683,8 +703,8 @@
       "id": "contiene:doc-44d6ba768352369aed-entrada:U1492",
       "from": "doc-44d6ba768352369aed-entrada",
       "to": "U1492",
-      "kind": "ficha del documento",
-      "reading": "Esta pieza abre la lectura desde su documento de origen.",
+      "kind": "document card",
+      "reading": "This piece opens the reading from its source document.",
       "route": true
     },
     {
@@ -897,7 +917,7 @@
         "sourceSha256": "0985f010e6390752048dbd0282d1cd4fb9ffa8104a2b335fa0fdd2e91f7525ed"
       },
       "readingSummary": "This article argues that a large part of modern American innovation did not emerge only from the usual centers: corporate laboratories, formal R&D programs, or well-funded technology ecosystems in a few U.S.",
-      "contextTokens": 386,
+      "contextTokens": 379,
       "distance": 1,
       "parent": "doc-44d6ba768352369aed-entrada",
       "routeEdge": null,
@@ -969,8 +989,9 @@
         "mundo-abierto": 0.0077,
         "transformacion": 0.0896
       },
-      "contextTokens": 238,
+      "contextTokens": 214,
       "positionHeaderTokens": 42,
+      "positionHeaderTokensEn": 39,
       "distance": 2,
       "parent": "U1492",
       "routeEdge": "apoyo:U1492:C99",
@@ -1043,8 +1064,9 @@
         "movilidad": 0.2136,
         "transformacion": 0.084
       },
-      "contextTokens": 238,
+      "contextTokens": 212,
       "positionHeaderTokens": 38,
+      "positionHeaderTokensEn": 35,
       "distance": 2,
       "parent": "U1492",
       "routeEdge": "apoyo:U1492:C108",
@@ -1124,8 +1146,9 @@
         "representacion": 0.0253,
         "transformacion": 0.1746
       },
-      "contextTokens": 246,
+      "contextTokens": 220,
       "positionHeaderTokens": 34,
+      "positionHeaderTokensEn": 31,
       "distance": 2,
       "parent": "U1492",
       "routeEdge": "apoyo:U1492:C67",
@@ -1196,8 +1219,9 @@
         "perspectiva": 0.0443,
         "transformacion": 0.2227
       },
-      "contextTokens": 205,
+      "contextTokens": 184,
       "positionHeaderTokens": 38,
+      "positionHeaderTokensEn": 35,
       "distance": 2,
       "parent": "U1492",
       "routeEdge": "apoyo:U1492:C61",
@@ -1238,7 +1262,7 @@
         "sourceSha256": "55856fe3575f5ba0f7a802f30aa909e265e8ca2ca4fbf0e7f5385f0415ba9ea1"
       },
       "readingSummary": "The distributed-model origins locate the practice before remote work became a lifestyle category.",
-      "contextTokens": 353,
+      "contextTokens": 348,
       "distance": 2,
       "parent": "U1492",
       "routeEdge": "documento:A002",
@@ -1275,7 +1299,7 @@
         "economia": 0.1538,
         "perspectiva": 0.1538
       },
-      "contextTokens": 152,
+      "contextTokens": 146,
       "distance": 2,
       "parent": "U1492",
       "routeEdge": "documento:A003",
@@ -1310,7 +1334,7 @@
         "sourceSha256": "ad60a260f7c21eaae27747d5b1d0fe49f773e7260babbf2a3d032477742fb06e"
       },
       "readingSummary": "JubAp.org is a transformation and change-orchestration framework derived from repeated operational intervention.",
-      "contextTokens": 169,
+      "contextTokens": 165,
       "distance": 3,
       "parent": "E1628",
       "routeEdge": "documento:R117",
@@ -1353,7 +1377,7 @@
         "sourceSha256": "c54594c384cf5c0ddd28c46b4ea56010119f5f54802f73a568caf723b441dd8c"
       },
       "readingSummary": "The JubAp.Net model keeps architecture, engineering, deployment and stabilisation inside one accountable intervention unit, reducing the handoffs that usually produce coordination collapse.",
-      "contextTokens": 288,
+      "contextTokens": 276,
       "distance": 2,
       "parent": "U1492",
       "routeEdge": "documento:A001",
@@ -1382,7 +1406,7 @@
         "evidencia": 0.2857,
         "transformacion": 0.7143
       },
-      "contextTokens": 134,
+      "contextTokens": 127,
       "distance": 3,
       "parent": "C61",
       "routeEdge": "apoyo:L002:C61",
@@ -1417,12 +1441,12 @@
         "navegacion": 0.05,
         "transformacion": 0.35
       },
-      "contextTokens": 117,
+      "contextTokens": 109,
       "distance": 2,
       "parent": "U1492",
       "routeEdge": "navigation:position-nav-U2-U1492",
       "affinity": 0.175
     }
   ],
-  "reading": "# Posicionamiento · Distributed Operational Intelligence Across the Americas\nDocumento de origen: https://jubap.us/distributed-operational-intelligence-across-the-americas\n\n## Distributed Operational Intelligence Across the Americas\nThis article argues that a large part of modern American innovation did not emerge only from the usual centers: corporate laboratories, formal R&D programs, or well-funded technology ecosystems in a few U.S. cities. It also emerged from a less visible continental layer of operational, technological and human integration that spans Mexico, the United States, the Caribbean and South America, often operating under constraints, in hybrid environments, and outside the spotlight of global vendors.\n\nWe call this phenomenon Distributed American Innovation . It refers to architectures, practices and capabilities that were developed in real operating environments – oil fields, logistics corridors, urban transport systems, supplier networks – where the primary objective was not to “innovate” in an abstract sense, but to keep complex systems running under pressure while quietly absorbing new technologies.\n\nThe case material behind this concept is not theoretical. It is grounded in decades of work across energy, logistics, manufacturing, tourism and urban mobility, with Mexico and the Gulf corridor acting not as mere recipients of imported technology, but as active operational engineering nodes in a distributed pan-American system.\n\nThe second article in this series will examine one concrete example in depth: the evolution of an urban transport intelligence architecture from Barcelona’s multimodal logic, through field learning in Cuba, technology exposure in the United States, and constrained deployment in Mexico. Here, our focus is to introduce the conceptual frame and the main theses.\nEtiquetas: Decisiones y responsabilidad 10.00%; Empresa y gestión 25.00%; Memoria, comunidad y territorio 10.00%; Movilidad e infraestructura 35.00%; Transformación y continuidad operativa 20.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/distributed-operational-intelligence-across-the-americas-u1492/\nDocumento de origen: https://jubap.us/distributed-operational-intelligence-across-the-americas/\n\nDistributed Operational Intelligence Across the Americas → Adaptación de arquitectura entre territorios · documenta el concepto. \n\n## Adaptación de arquitectura entre territorios\nTransfer a function while redesigning rules, support and incentives for the receiver.\nEtiquetas: Agentes y coordinación distribuida 1.93%; Aprendizaje y transmisión de capacidades 1.98%; Autoridad, permisos y delegación 1.31%; Casos de uso y aplicaciones 7.21%; Control mínimo y suficiencia 3.12%; Decisiones y responsabilidad 6.18%; Investigación y documentación técnica 2.16%; Economía, costes y liquidez 6.88%; Empresa y gestión 8.31%; Estándares e interoperabilidad 1.71%; Evidencia, procedencia y atribución 6.34%; Experimentación, falsación y contraejemplos 2.38%; Geopolítica y fronteras 4.27%; Memoria, comunidad y territorio 9.12%; Movilidad e infraestructura 27.37%; Mundo abierto e indeterminación 0.77%; Transformación y continuidad operativa 8.96%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/cross-territory-architecture-adaptation/\n\nDistributed Operational Intelligence Across the Americas → Activación entre tipos de frontera · documenta el concepto. \n\n## Activación entre tipos de frontera\nA need or capacity in one territory, community or technical domain can open another possibility.\nEtiquetas: Agentes y coordinación distribuida 1.39%; Aprendizaje y transmisión de capacidades 2.23%; Autoridad, permisos y delegación 4.67%; Capacidad humana y deuda de inteligencia 1.47%; Cartografía y señales de ecosistema 15.34%; Control mínimo y suficiencia 1.79%; Decisiones y responsabilidad 6.82%; Investigación y documentación técnica 4.93%; Economía, costes y liquidez 1.47%; Empresa y gestión 3.12%; Estándares e interoperabilidad 5.92%; Evidencia, procedencia y atribución 8.16%; Experimentación, falsación y contraejemplos 1.89%; Geopolítica y fronteras 4.81%; Memoria, comunidad y territorio 6.23%; Movilidad e infraestructura 21.36%; Transformación y continuidad operativa 8.40%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/cross-frontier-activation/\n\nDistributed Operational Intelligence Across the Americas → Decisión de arquitectura · documenta el concepto. \n\n## Decisión de arquitectura\nChange or preserve dependencies, applications and controls using evidence of capability and use.\nEtiquetas: Agentes y coordinación distribuida 1.01%; Aprendizaje y transmisión de capacidades 1.02%; Autoridad, permisos y delegación 3.42%; Capacidad humana y deuda de inteligencia 1.16%; Casos de uso y aplicaciones 4.72%; Control mínimo y suficiencia 4.33%; Decisiones y responsabilidad 15.96%; Investigación y documentación técnica 4.07%; Economía, costes y liquidez 6.95%; Empresa y gestión 13.04%; Evidencia, procedencia y atribución 8.47%; Experimentación, falsación y contraejemplos 2.14%; Matemáticas 2.53%; Memoria, comunidad y territorio 2.07%; Movilidad e infraestructura 7.22%; Mundo abierto e indeterminación 0.50%; Cambio de perspectiva 1.40%; Representación y límites formales 2.53%; Transformación y continuidad operativa 17.46%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/architecture-decision/\n\nDistributed Operational Intelligence Across the Americas → Secuencia JUBAP · documenta el concepto. \n\n## Secuencia JUBAP\nConnect focus, changes in perspective, leverage points and propagation of capability.\nEtiquetas: Aprendizaje y transmisión de capacidades 5.63%; Autoridad, permisos y delegación 2.07%; Capacidad humana y deuda de inteligencia 2.96%; Casos de uso y aplicaciones 4.73%; Control mínimo y suficiencia 2.18%; Decisiones y responsabilidad 6.63%; Investigación y documentación técnica 5.94%; Economía, costes y liquidez 10.43%; Empresa y gestión 12.55%; Evidencia, procedencia y atribución 10.38%; Integridad y seguridad de IA 0.52%; Memoria, comunidad y territorio 3.24%; Movilidad e infraestructura 6.04%; Cambio de perspectiva 4.43%; Transformación y continuidad operativa 22.27%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/jubap-intervention-sequence/\n\nDistributed Operational Intelligence Across the Americas → Before Digital Nomads, There Were Distributed Tiger Teams · documented use. The early distributed-team lineage explains why cross-border work required information discipline and operational continuity long before remote work became a workplace category.\n\n## Before Digital Nomads, There Were Distributed Tiger Teams\nThe distributed-model origins locate the practice before remote work became a lifestyle category. State which records, constraints and decision rights had to remain usable as the team moved. Location and connectivity are means; the maintained ability to understand and commit the work is the operating test.\n\nThe early JubAp.Net lineage was shaped by distributed R&D, mobility infrastructure and cross-border operational continuity long before remote work became a lifestyle category. Distribution was an engineering requirement, not a perk.\n\nWhen people speak today about digital nomadism, they usually imagine laptops on café tables, co-working spaces, and remote work as a lifestyle choice.\n\nThe early JubAp.Net lineage was shaped by a much more demanding form of distributed work: high-technology information management, mobile infrastructure, remote expert coordination and operational continuity across borders, long before remote work became normalised.\n\nThe founder, Iván Abril Palma, had previously worked as Information Manager in Nokia’s distributed R&D environment in Barcelona. This was not simply about carrying a laptop. It involved the information, infrastructure and coordination logic required to support advanced research and development teams working across mobility, communications and distributed technical environments at the edge of what was possible at the time.\nEtiquetas: Empresa y gestión 24.14%; Geopolítica y fronteras 17.24%; Movilidad e infraestructura 24.14%; Transformación y continuidad operativa 34.48%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/before-digital-nomads-there-were-distributed-tiger-teams-n1261/\nDocumento de origen: https://jubap.net/before-digital-nomads-there-were-distributed-tiger-teams/\n\nDistributed Operational Intelligence Across the Americas → The JUBAP Framework · analogy only. The thin integration layers described here can be read through JUBAP as focused interventions that change a leverage point while retaining useful operating capability.\n\n## The JUBAP Framework\nEl marco combina el cambio de nivel de observación de UP con el filtro de acciones de JUMP. Las preguntas sobre participación, desbloqueo, movimiento observable y propagación ayudan a elegir por dónde empezar.\nEtiquetas: Autoridad, permisos y delegación 15.39%; Control mínimo y suficiencia 15.39%; Decisiones y responsabilidad 23.08%; Investigación y documentación técnica 15.38%; Economía, costes y liquidez 15.38%; Cambio de perspectiva 15.38%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-jubap-framework\nDocumento de origen: https://jubap.eu/the-jubap-framework/\n\nJubAp.org: The Transformation Framework That Emerged From the Field → The JUBAP Framework · editorial comparison. For a complementary reading, see [The complete JUBAP Framework](https://jubap.eu/the-jubap-framework/).\n\n## JubAp.org: The Transformation Framework That Emerged From the Field\nJubAp.org is a transformation and change-orchestration framework derived from repeated operational intervention. It addresses a recurring problem: technology, architecture and process design may work, yet the wider system can still fail to move. The framework organizes the field observations behind successful activation—resistance structures, leverage points, sequencing, adaptation and institutional learning—while keeping a clear distinction between engineering delivery, transformation logic and stewardship.\nEtiquetas: Transformación y continuidad operativa 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-org-the-transformation-framework-that-emerged-from-the-field-n1468/\nDocumento de origen: https://jubap.net/jubap-org-the-transformation-framework-that-emerged-from-the-field/\n\nDistributed Operational Intelligence Across the Americas → JubAp.Net Tiger Team Model · analogy only. Distributed American Innovation becomes operationally intelligible when the team itself integrates field interpretation, engineering and responsibility for the receiving operation.\n\n## JubAp.Net Tiger Team Model\nThe JubAp.Net model keeps architecture, engineering, deployment and stabilisation inside one accountable intervention unit, reducing the handoffs that usually produce coordination collapse.\n\nLarge transformations rarely fail because organisations lack people, frameworks or budget.\n\nWhen a programme reaches a certain scale — thousands of systems, multiple business units, legacy layers, vendors, cultures, geographies, regulatory constraints and operational dependencies — the usual answer is to add more structure: more project managers, more coordinators, more governance layers, more reporting chains, more workstreams, more ceremonies and more intermediaries.\n\nThe larger the transformation becomes, the more the programme starts managing itself instead of transforming the operation. Coordination becomes the main cost. Context is diluted. Decisions slow down. Accountability fragments. The distance between operational reality and strategic planning increases until the programme can no longer see the system it was created to transform.\nEtiquetas: Autoridad, permisos y delegación 9.53%; Decisiones y responsabilidad 23.81%; Evidencia, procedencia y atribución 9.52%; Experimentación, falsación y contraejemplos 9.52%; Transformación y continuidad operativa 47.62%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-net-tiger-team-model-n1295/\nDocumento de origen: https://jubap.net/jupap-net-tiger-team-model/\n\nNarrativa, centro y frontera: por qué los modelos simples fallan cuando llega la implementación → Secuencia JUBAP · documenta el concepto. \n\n## Narrativa, centro y frontera: por qué los modelos simples fallan cuando llega la implementación\n\nEtiquetas: Evidencia, procedencia y atribución 28.57%; Transformación y continuidad operativa 71.43%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/narrativa-centro-y-frontera-por-que-los-modelos-simples-fallan-cuando-llega-la-l002/\nDocumento de origen: https://www.latinoempresa.com/post/narrativa-centro-y-frontera-por-qué-los-modelos-simples-fallan-cuando-llega-la-implementación\n\nJubAp.US → Distributed Operational Intelligence Across the Americas · lectura enlazada desde el documento. Desde «JubAp.US», el enlace «Distributed American Innovation account» abre «Distributed Operational Intelligence Across the Americas».\nFuente de la relación: https://jubap.us/\n\n## JubAp.US\nCarve-outs, post-merger integration, joint ventures and SPVs. Operating models that connect people, information and execution.\nEtiquetas: Aprendizaje y transmisión de capacidades 10.00%; Decisiones y responsabilidad 10.00%; Empresa y gestión 40.00%; Índices, contacto y políticas 5.00%; Transformación y continuidad operativa 35.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-us-u2/\nDocumento de origen: https://jubap.us/\n\n"
+  "reading": "# Positioning · Distributed Operational Intelligence Across the Americas\nSource document: https://jubap.us/distributed-operational-intelligence-across-the-americas\n\n## Distributed Operational Intelligence Across the Americas\nThis article argues that a large part of modern American innovation did not emerge only from the usual centers: corporate laboratories, formal R&D programs, or well-funded technology ecosystems in a few U.S. cities. It also emerged from a less visible continental layer of operational, technological and human integration that spans Mexico, the United States, the Caribbean and South America, often operating under constraints, in hybrid environments, and outside the spotlight of global vendors.\n\nWe call this phenomenon Distributed American Innovation . It refers to architectures, practices and capabilities that were developed in real operating environments – oil fields, logistics corridors, urban transport systems, supplier networks – where the primary objective was not to “innovate” in an abstract sense, but to keep complex systems running under pressure while quietly absorbing new technologies.\n\nThe case material behind this concept is not theoretical. It is grounded in decades of work across energy, logistics, manufacturing, tourism and urban mobility, with Mexico and the Gulf corridor acting not as mere recipients of imported technology, but as active operational engineering nodes in a distributed pan-American system.\n\nThe second article in this series will examine one concrete example in depth: the evolution of an urban transport intelligence architecture from Barcelona’s multimodal logic, through field learning in Cuba, technology exposure in the United States, and constrained deployment in Mexico. Here, our focus is to introduce the conceptual frame and the main theses.\nTags: Decisions and responsibility 10.00%; Business and management 25.00%; Memory, community and territory 10.00%; Mobility and infrastructure 35.00%; Transformation and operational continuity 20.00%\nCard: https://dakleyer.github.io/perspective-beyond/sources/distributed-operational-intelligence-across-the-americas-u1492/\nSource document: https://jubap.us/distributed-operational-intelligence-across-the-americas/\n\nDistributed Operational Intelligence Across the Americas → Adaptación de arquitectura entre territorios · documenta el concepto. \n\n## Adaptación de arquitectura entre territorios\nTransfer a function while redesigning rules, support and incentives for the receiver.\nTags: Agents and distributed coordination 1.93%; Learning and capability transmission 1.98%; Authority, permissions and delegation 1.31%; Use cases and applications 7.21%; Minimum control and sufficiency 3.12%; Decisions and responsibility 6.18%; Research and technical documentation 2.16%; Economics, costs and liquidity 6.88%; Business and management 8.31%; Standards and interoperability 1.71%; Evidence, provenance and attribution 6.34%; Experimentation, falsification and counterexamples 2.38%; Geopolitics and borders 4.27%; Memory, community and territory 9.12%; Mobility and infrastructure 27.37%; Open world and indeterminacy 0.77%; Transformation and operational continuity 8.96%\nCard: https://dakleyer.github.io/perspective-beyond/concepts/cross-territory-architecture-adaptation/\n\nDistributed Operational Intelligence Across the Americas → Activación entre tipos de frontera · documenta el concepto. \n\n## Activación entre tipos de frontera\nA need or capacity in one territory, community or technical domain can open another possibility.\nTags: Agents and distributed coordination 1.39%; Learning and capability transmission 2.23%; Authority, permissions and delegation 4.67%; Human capability and intelligence debt 1.47%; Cartography and ecosystem signals 15.34%; Minimum control and sufficiency 1.79%; Decisions and responsibility 6.82%; Research and technical documentation 4.93%; Economics, costs and liquidity 1.47%; Business and management 3.12%; Standards and interoperability 5.92%; Evidence, provenance and attribution 8.16%; Experimentation, falsification and counterexamples 1.89%; Geopolitics and borders 4.81%; Memory, community and territory 6.23%; Mobility and infrastructure 21.36%; Transformation and operational continuity 8.40%\nCard: https://dakleyer.github.io/perspective-beyond/concepts/cross-frontier-activation/\n\nDistributed Operational Intelligence Across the Americas → Decisión de arquitectura · documenta el concepto. \n\n## Decisión de arquitectura\nChange or preserve dependencies, applications and controls using evidence of capability and use.\nTags: Agents and distributed coordination 1.01%; Learning and capability transmission 1.02%; Authority, permissions and delegation 3.42%; Human capability and intelligence debt 1.16%; Use cases and applications 4.72%; Minimum control and sufficiency 4.33%; Decisions and responsibility 15.96%; Research and technical documentation 4.07%; Economics, costs and liquidity 6.95%; Business and management 13.04%; Evidence, provenance and attribution 8.47%; Experimentation, falsification and counterexamples 2.14%; Mathematics 2.53%; Memory, community and territory 2.07%; Mobility and infrastructure 7.22%; Open world and indeterminacy 0.50%; Change of perspective 1.40%; Representation and formal boundaries 2.53%; Transformation and operational continuity 17.46%\nCard: https://dakleyer.github.io/perspective-beyond/concepts/architecture-decision/\n\nDistributed Operational Intelligence Across the Americas → Secuencia JUBAP · documenta el concepto. \n\n## Secuencia JUBAP\nConnect focus, changes in perspective, leverage points and propagation of capability.\nTags: Learning and capability transmission 5.63%; Authority, permissions and delegation 2.07%; Human capability and intelligence debt 2.96%; Use cases and applications 4.73%; Minimum control and sufficiency 2.18%; Decisions and responsibility 6.63%; Research and technical documentation 5.94%; Economics, costs and liquidity 10.43%; Business and management 12.55%; Evidence, provenance and attribution 10.38%; AI integrity and security 0.52%; Memory, community and territory 3.24%; Mobility and infrastructure 6.04%; Change of perspective 4.43%; Transformation and operational continuity 22.27%\nCard: https://dakleyer.github.io/perspective-beyond/concepts/jubap-intervention-sequence/\n\nDistributed Operational Intelligence Across the Americas → Before Digital Nomads, There Were Distributed Tiger Teams · documented use. The early distributed-team lineage explains why cross-border work required information discipline and operational continuity long before remote work became a workplace category.\n\n## Before Digital Nomads, There Were Distributed Tiger Teams\nThe distributed-model origins locate the practice before remote work became a lifestyle category. State which records, constraints and decision rights had to remain usable as the team moved. Location and connectivity are means; the maintained ability to understand and commit the work is the operating test.\n\nThe early JubAp.Net lineage was shaped by distributed R&D, mobility infrastructure and cross-border operational continuity long before remote work became a lifestyle category. Distribution was an engineering requirement, not a perk.\n\nWhen people speak today about digital nomadism, they usually imagine laptops on café tables, co-working spaces, and remote work as a lifestyle choice.\n\nThe early JubAp.Net lineage was shaped by a much more demanding form of distributed work: high-technology information management, mobile infrastructure, remote expert coordination and operational continuity across borders, long before remote work became normalised.\n\nThe founder, Iván Abril Palma, had previously worked as Information Manager in Nokia’s distributed R&D environment in Barcelona. This was not simply about carrying a laptop. It involved the information, infrastructure and coordination logic required to support advanced research and development teams working across mobility, communications and distributed technical environments at the edge of what was possible at the time.\nTags: Business and management 24.14%; Geopolitics and borders 17.24%; Mobility and infrastructure 24.14%; Transformation and operational continuity 34.48%\nCard: https://dakleyer.github.io/perspective-beyond/sources/before-digital-nomads-there-were-distributed-tiger-teams-n1261/\nSource document: https://jubap.net/before-digital-nomads-there-were-distributed-tiger-teams/\n\nDistributed Operational Intelligence Across the Americas → The JUBAP Framework · analogy only. The thin integration layers described here can be read through JUBAP as focused interventions that change a leverage point while retaining useful operating capability.\n\n## The JUBAP Framework\nEl marco combina el cambio de nivel de observación de UP con el filtro de acciones de JUMP. Las preguntas sobre participación, desbloqueo, movimiento observable y propagación ayudan a elegir por dónde empezar.\nTags: Authority, permissions and delegation 15.39%; Minimum control and sufficiency 15.39%; Decisions and responsibility 23.08%; Research and technical documentation 15.38%; Economics, costs and liquidity 15.38%; Change of perspective 15.38%\nCard: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-jubap-framework\nSource document: https://jubap.eu/the-jubap-framework/\n\nJubAp.org: The Transformation Framework That Emerged From the Field → The JUBAP Framework · editorial comparison. For a complementary reading, see [The complete JUBAP Framework](https://jubap.eu/the-jubap-framework/).\n\n## JubAp.org: The Transformation Framework That Emerged From the Field\nJubAp.org is a transformation and change-orchestration framework derived from repeated operational intervention. It addresses a recurring problem: technology, architecture and process design may work, yet the wider system can still fail to move. The framework organizes the field observations behind successful activation—resistance structures, leverage points, sequencing, adaptation and institutional learning—while keeping a clear distinction between engineering delivery, transformation logic and stewardship.\nTags: Transformation and operational continuity 100.00%\nCard: https://dakleyer.github.io/perspective-beyond/sources/jubap-org-the-transformation-framework-that-emerged-from-the-field-n1468/\nSource document: https://jubap.net/jubap-org-the-transformation-framework-that-emerged-from-the-field/\n\nDistributed Operational Intelligence Across the Americas → JubAp.Net Tiger Team Model · analogy only. Distributed American Innovation becomes operationally intelligible when the team itself integrates field interpretation, engineering and responsibility for the receiving operation.\n\n## JubAp.Net Tiger Team Model\nThe JubAp.Net model keeps architecture, engineering, deployment and stabilisation inside one accountable intervention unit, reducing the handoffs that usually produce coordination collapse.\n\nLarge transformations rarely fail because organisations lack people, frameworks or budget.\n\nWhen a programme reaches a certain scale — thousands of systems, multiple business units, legacy layers, vendors, cultures, geographies, regulatory constraints and operational dependencies — the usual answer is to add more structure: more project managers, more coordinators, more governance layers, more reporting chains, more workstreams, more ceremonies and more intermediaries.\n\nThe larger the transformation becomes, the more the programme starts managing itself instead of transforming the operation. Coordination becomes the main cost. Context is diluted. Decisions slow down. Accountability fragments. The distance between operational reality and strategic planning increases until the programme can no longer see the system it was created to transform.\nTags: Authority, permissions and delegation 9.53%; Decisions and responsibility 23.81%; Evidence, provenance and attribution 9.52%; Experimentation, falsification and counterexamples 9.52%; Transformation and operational continuity 47.62%\nCard: https://dakleyer.github.io/perspective-beyond/sources/jubap-net-tiger-team-model-n1295/\nSource document: https://jubap.net/jupap-net-tiger-team-model/\n\nNarrativa, centro y frontera: por qué los modelos simples fallan cuando llega la implementación → Secuencia JUBAP · documenta el concepto. \n\n## Narrativa, centro y frontera: por qué los modelos simples fallan cuando llega la implementación\n\nTags: Evidence, provenance and attribution 28.57%; Transformation and operational continuity 71.43%\nCard: https://dakleyer.github.io/perspective-beyond/sources/narrativa-centro-y-frontera-por-que-los-modelos-simples-fallan-cuando-llega-la-l002/\nSource document: https://www.latinoempresa.com/post/narrativa-centro-y-frontera-por-qué-los-modelos-simples-fallan-cuando-llega-la-implementación\n\nJubAp.US → Distributed Operational Intelligence Across the Americas · lectura enlazada desde el documento. Desde «JubAp.US», el enlace «Distributed American Innovation account» abre «Distributed Operational Intelligence Across the Americas».\nRelationship source: https://jubap.us/\n\n## JubAp.US\nCarve-outs, post-merger integration, joint ventures and SPVs. Operating models that connect people, information and execution.\nTags: Learning and capability transmission 10.00%; Decisions and responsibility 10.00%; Business and management 40.00%; Indexes, contact and policies 5.00%; Transformation and operational continuity 35.00%\nCard: https://dakleyer.github.io/perspective-beyond/sources/jubap-us-u2/\nSource document: https://jubap.us/\n\n"
 }

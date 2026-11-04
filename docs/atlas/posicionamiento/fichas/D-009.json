@@ -12,9 +12,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Vivir el futuro antes de su nombre\nINTERLOCUTOR — ¿Sentías que estabais adelantando una forma de vida que aún no existía?\nIVÁN —\nEn retrospectiva, parece que estaba trabajando para que nadie volviese a viajar tal como yo lo había hecho antes, pero era mucho más difícil “adivinar el futuro” de lo que pueda parecer.\nSiempre lo obvio ha sido lo más difícil de entender y en Nokia estábamos llenos de dudas. De hecho, ninguno de aquellos proyectos llegó a ver la luz comercial. Memorables fueron las reuniones donde los directivos de la empresa nos explicaban que el público no estaba listo para esas innovaciones, ni las necesitaba ni las estaba pidiendo. Nos exigieron ir cerrando uno a uno los proyectos, y nos animaban, con entusiasmo forzado, a pensar en la siguiente ‘next killing app after SMS”.\nMe animo a pensar que aun parcialmente, lo que hicimos tuvo un papel para definir lo que más tarde serían herramientas cotidianas en nuestro día a día. Y, en todo caso, simplemente probar las herramientas beta ya era un premio. Mis amigos todavía me recuerdan que un concierto que celebraron “El Secreto de Judith” fue el primero en España en ser grabado con un móvil.\nEtiquetas: Movilidad e infraestructura 50.00%; Cambio de perspectiva 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-009\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20%C2%BFSent%C3%ADas%20que%20estabais%20adelantando%20una%20forma%20de%20vida%20que\n\n",
-  "readingSource": null,
-  "tokens": 381,
+  "context": "## Vivir el futuro antes de su nombre\nINTERLOCUTOR — ¿Sentías que estabais adelantando una forma de vida que aún no existía?\nIVÁN —\nEn retrospectiva, parece que estaba trabajando para que nadie volviese a viajar tal como yo lo había hecho antes, pero era mucho más difícil “adivinar el futuro” de lo que pueda parecer.\nSiempre lo obvio ha sido lo más difícil de entender y en Nokia estábamos llenos de dudas. De hecho, ninguno de aquellos proyectos llegó a ver la luz comercial. Memorables fueron las reuniones donde los directivos de la empresa nos explicaban que el público no estaba listo para esas innovaciones, ni las necesitaba ni las estaba pidiendo. Nos exigieron ir cerrando uno a uno los proyectos, y nos animaban, con entusiasmo forzado, a pensar en la siguiente ‘next killing app after SMS”.\nMe animo a pensar que aun parcialmente, lo que hicimos tuvo un papel para definir lo que más tarde serían herramientas cotidianas en nuestro día a día. Y, en todo caso, simplemente probar las herramientas beta ya era un premio. Mis amigos todavía me recuerdan que un concierto que celebraron “El Secreto de Judith” fue el primero en España en ser grabado con un móvil.\nTags: Mobility and infrastructure 50.00%; Change of perspective 50.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-009\nSource document: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20%C2%BFSent%C3%ADas%20que%20estabais%20adelantando%20una%20forma%20de%20vida%20que\n\n",
+  "tokens": 378,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "dg-perspective",
       "title": "Nueva Perspectiva",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 20,
-      "fichaTokens": 190,
+      "fichaTokens": 173,
       "tagWeights": {
         "aprendizaje": 0.117,
         "cambio-regimen": 0.019,
@@ -52,10 +52,11 @@
       "to": "dg-infra",
       "title": "Infraestructura habilitadora",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 170,
+      "fichaTokens": 152,
       "tagWeights": {
         "aprendizaje": 0.0675,
         "autoridad": 0.0125,
@@ -81,10 +82,11 @@
       "to": "D-006",
       "title": "Aprender a ver lo que todavía no aparece",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Nueva Perspectiva».",
       "relationTokens": 33,
-      "fichaTokens": 523,
+      "fichaTokens": 521,
       "tagWeights": {
         "geopolitica": 0.5,
         "perspectiva": 0.5
@@ -100,10 +102,11 @@
       "to": "D-015",
       "title": "Una experiencia que sobrevivió al fracaso",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Nueva Perspectiva».",
       "relationTokens": 31,
-      "fichaTokens": 594,
+      "fichaTokens": 587,
       "tagWeights": {
         "aprendizaje": 0.25,
         "empresa": 0.25,
@@ -121,10 +124,11 @@
       "to": "D-008",
       "title": "La infraestructura que permite imaginar",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Infraestructura habilitadora».",
       "relationTokens": 30,
-      "fichaTokens": 521,
+      "fichaTokens": 515,
       "tagWeights": {
         "aprendizaje": 0.25,
         "movilidad": 0.75
@@ -140,10 +144,11 @@
       "to": "D-010",
       "title": "La responsabilidad que casi nadie ve",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Infraestructura habilitadora».",
       "relationTokens": 31,
-      "fichaTokens": 310,
+      "fichaTokens": 304,
       "tagWeights": {
         "capacidad-humana": 0.2222,
         "decision": 0.5556,
@@ -160,10 +165,11 @@
       "to": "D-187",
       "title": "Una generación construyó la infraestructura; otra recibió la interfaz",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una generación construyó la infraestructura; otra recibió la interfaz» con «Vivir el futuro antes de su nombre». Permite contrastar Infraestructura habilitadora.",
       "relationTokens": 66,
-      "fichaTokens": 393,
+      "fichaTokens": 389,
       "tagWeights": {
         "memoria-territorio": 0.25,
         "movilidad": 0.75
@@ -179,10 +185,11 @@
       "to": "D-294",
       "title": "La tecnología posible no es la tecnología que el mercado termina adoptando",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La tecnología posible no es la tecnología que el mercado termina adoptando» con «Vivir el futuro antes de su nombre». Permite contrastar Infraestructura habilitadora.",
       "relationTokens": 68,
-      "fichaTokens": 428,
+      "fichaTokens": 421,
       "tagWeights": {
         "casos": 0.2857,
         "economia": 0.1429,
@@ -200,10 +207,11 @@
       "to": "D-149",
       "title": "La tecnología podía funcionar, pero la organización aún no quería cambiar",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Infraestructura habilitadora, Nueva Perspectiva desde las situaciones que describe cada texto.",
       "relationTokens": 51,
-      "fichaTokens": 343,
+      "fichaTokens": 335,
       "tagWeights": {
         "aprendizaje": 0.1429,
         "empresa": 0.4286,

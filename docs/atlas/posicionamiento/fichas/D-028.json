@@ -6,14 +6,13 @@
   "documentId": "doc-41f3a410d217128630",
   "sourceIds": [],
   "tagWeights": {
-    "movilidad": 1.0
+    "movilidad": 1
   },
   "clusters": [
     "dialogos"
   ],
-  "context": "## Tres centros de control, una operación\nINTERLOCUTOR — ¿Cómo se reconstruye la operación en tres centros de control y se logra visibilidad real?\nIVÁN —\nPrimero, propuse unificar operaciones de transporte que antes funcionaban como empresas independientes y descoordinadas entre sí. Estas fueron integradas en 3 centros de control logístico —hubs— donde fluía la información, se trazaban órdenes y se garantizaba la trazabilidad de la operación. Esta fue la fase de reingeniería organizacional, pero también de gobernanza interna.\nDimos vida a esos hubs: con personal, con pantallas de control operando el GEPLAN, y, sobre todo, con la intención clara de integrarlos dentro del flujo operativo de PEMEX. Desde allí, con solo algunos datos de entrada y algoritmos específicos, era posible inferir información crítica proveniente de otros sistemas que ni siquiera estaban digitalizados. Se podía estimar la producción en tiempo real de los pozos, calcular los volúmenes en los tanques, e incluso anticipar el estado de mantenimiento de válvulas, turbocompresores o baterías de separación.\nLo sorprendente era que, pese a que PEMEX contrataba un verdadero ejército de supervisores que recorrían los campos en camionetas, tomando notas a mano, nuestro sistema ofrecía una visibilidad mucho mayor —y con mayor fiabilidad— sobre todos esos elementos. A partir de ese momento, PEMEX comenzó a utilizar los reportes de GEPLAN como una fuente de consulta.\nEtiquetas: Movilidad e infraestructura 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-028\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20%C2%BFC%C3%B3mo%20se%20reconstruye%20la%20operaci%C3%B3n%20en%20tres%20centros%20de\n\n",
-  "readingSource": null,
-  "tokens": 430,
+  "context": "## Tres centros de control, una operación\nINTERLOCUTOR — ¿Cómo se reconstruye la operación en tres centros de control y se logra visibilidad real?\nIVÁN —\nPrimero, propuse unificar operaciones de transporte que antes funcionaban como empresas independientes y descoordinadas entre sí. Estas fueron integradas en 3 centros de control logístico —hubs— donde fluía la información, se trazaban órdenes y se garantizaba la trazabilidad de la operación. Esta fue la fase de reingeniería organizacional, pero también de gobernanza interna.\nDimos vida a esos hubs: con personal, con pantallas de control operando el GEPLAN, y, sobre todo, con la intención clara de integrarlos dentro del flujo operativo de PEMEX. Desde allí, con solo algunos datos de entrada y algoritmos específicos, era posible inferir información crítica proveniente de otros sistemas que ni siquiera estaban digitalizados. Se podía estimar la producción en tiempo real de los pozos, calcular los volúmenes en los tanques, e incluso anticipar el estado de mantenimiento de válvulas, turbocompresores o baterías de separación.\nLo sorprendente era que, pese a que PEMEX contrataba un verdadero ejército de supervisores que recorrían los campos en camionetas, tomando notas a mano, nuestro sistema ofrecía una visibilidad mucho mayor —y con mayor fiabilidad— sobre todos esos elementos. A partir de ese momento, PEMEX comenzó a utilizar los reportes de GEPLAN como una fuente de consulta.\nTags: Mobility and infrastructure 100.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-028\nSource document: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20%C2%BFC%C3%B3mo%20se%20reconstruye%20la%20operaci%C3%B3n%20en%20tres%20centros%20de\n\n",
+  "tokens": 427,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -21,10 +20,11 @@
       "to": "dg-infra",
       "title": "Infraestructura habilitadora",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 20,
-      "fichaTokens": 170,
+      "fichaTokens": 152,
       "tagWeights": {
         "aprendizaje": 0.0675,
         "autoridad": 0.0125,
@@ -50,10 +50,11 @@
       "to": "dg-operations",
       "title": "Operación real",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 18,
-      "fichaTokens": 217,
+      "fichaTokens": 191,
       "tagWeights": {
         "aprendizaje": 0.059,
         "autoridad": 0.1375,
@@ -83,10 +84,11 @@
       "to": "D-020",
       "title": "De la videoconferencia a GEPLAN",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Infraestructura habilitadora».",
       "relationTokens": 32,
-      "fichaTokens": 802,
+      "fichaTokens": 794,
       "tagWeights": {
         "aprendizaje": 0.1818,
         "empresa": 0.1818,
@@ -104,12 +106,13 @@
       "to": "D-007",
       "title": "Un centro de investigación que debía funcionar",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Infraestructura habilitadora».",
       "relationTokens": 31,
-      "fichaTokens": 380,
+      "fichaTokens": 377,
       "tagWeights": {
-        "movilidad": 1.0
+        "movilidad": 1
       },
       "clusters": [
         "dialogos"
@@ -122,10 +125,11 @@
       "to": "D-024",
       "title": "De software a transformación organizativa",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Operación real».",
       "relationTokens": 28,
-      "fichaTokens": 570,
+      "fichaTokens": 563,
       "tagWeights": {
         "aprendizaje": 0.3334,
         "empresa": 0.3333,
@@ -142,10 +146,11 @@
       "to": "D-043",
       "title": "Transformar empresas mientras siguen operando",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Operación real».",
       "relationTokens": 29,
-      "fichaTokens": 923,
+      "fichaTokens": 916,
       "tagWeights": {
         "aprendizaje": 0.1539,
         "empresa": 0.6923,
@@ -162,10 +167,11 @@
       "to": "D-233",
       "title": "Una capacidad zombi sigue en el organigrama, no en la realidad",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una capacidad zombi sigue en el organigrama, no en la realidad» con «Tres centros de control, una operación».",
       "relationTokens": 60,
-      "fichaTokens": 413,
+      "fichaTokens": 408,
       "tagWeights": {
         "autoridad": 0.5,
         "memoria-territorio": 0.5

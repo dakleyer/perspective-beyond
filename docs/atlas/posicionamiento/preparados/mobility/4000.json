@@ -27,8 +27,10 @@
     "aliases": [
       "https://jubap.eu/mobility/"
     ],
-    "header": "# Posicionamiento · Car Evolution Mobility OS\nDocumento de origen: https://jubap.eu/mobility\n\n",
-    "headerTokens": 23,
+    "header": "# Positioning · Car Evolution Mobility OS\nSource document: https://jubap.eu/mobility\n\n",
+    "headerTokens": 21,
+    "headerEn": "# Positioning · Car Evolution Mobility OS\nSource document: https://jubap.eu/mobility\n\n",
+    "headerTokensEn": 21,
     "type": "documento",
     "focus": "E1953",
     "seeds": [
@@ -37,11 +39,11 @@
   },
   "budget": {
     "limit": 4000,
-    "used": 1409,
-    "remaining": 2591,
+    "used": 1368,
+    "remaining": 2632,
     "nextBlock": null,
     "encoding": "o200k_base",
-    "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
+    "accounting": "Sum of independently encoded blocks: document header, card and incoming relationship. The budget applies to selected reading content."
   },
   "reachable": 5,
   "selected": 5,
@@ -80,7 +82,7 @@
       "type": "documento",
       "url": "https://jubap.eu/mobility",
       "original": "https://jubap.eu/mobility",
-      "summary": "Documento desde el que se abre este posicionamiento.",
+      "summary": "Document from which this positioning opens.",
       "tags": [],
       "tagWeights": {},
       "clusters": [
@@ -112,7 +114,7 @@
         "agentes": 0.1667,
         "movilidad": 0.8333
       },
-      "contextTokens": 105,
+      "contextTokens": 100,
       "distance": 1,
       "parent": "doc-509a767ebeba965190-entrada",
       "routeEdge": null,
@@ -157,7 +159,7 @@
         "sourceSha256": "1fab3905bdfc1066574c3dcce565012f21fcd119096ac6fa9efc26fea106e491"
       },
       "readingSummary": "This annex defines the current Car Evolution Mobility Operating System as a product architecture.",
-      "contextTokens": 210,
+      "contextTokens": 201,
       "distance": 2,
       "parent": "E1953",
       "routeEdge": "documento:R141",
@@ -194,7 +196,7 @@
         "sourceSha256": "7557ae4fd56105eabd0d45c0ac3b9e8a88be479f4323501edfc1046b8355c3e1"
       },
       "readingSummary": "Car Evolution is a Distributed Mobility Operating System / Mobility Control Center for authorities, campuses, fleets, operators and mobility ecosystems that need to coordinate existing capacity.",
-      "contextTokens": 161,
+      "contextTokens": 156,
       "distance": 3,
       "parent": "E1954",
       "routeEdge": "documento:R152",
@@ -233,7 +235,7 @@
         "sourceSha256": "81b8179d0cc97ac2febeba9e9f9e689440cb8c3bcc58e0e243f49dd1811bf97d"
       },
       "readingSummary": "Case 01 · Valencia UPV Vera · campus exit peak, Tuesday 07:40–08:40 · grouping and aggregation Source: agrupador , tot_pax , hora_pup , sillaruedas , unidades_utilizadas , unidades_rentadas , factor_ocupacion , factor_directos , retraso_estimado\n\nThree hundred and forty separate commitments enter, and forty-seven journeys leave.",
-      "contextTokens": 336,
+      "contextTokens": 328,
       "distance": 3,
       "parent": "E1954",
       "routeEdge": "documento:R146",
@@ -278,7 +280,7 @@
         "sourceSha256": "bc01c036c41e905166b2bc0a0265ad3470350d1086de7d875ced3a7fc5eec141"
       },
       "readingSummary": "Case 03 · Tallinn old town edge · access window 07:30–09:30 · policy as a number Source: POLITICA_CHOICES +3 to N, POLITICA_TRANSBORDOS_CHOICES CT DIN FO LO NT NP, valor_politicas , valor_puntualidad , valor_ocupacion , valor_ahorro_unidades\n\nThe policy scale is not a switch.",
-      "contextTokens": 371,
+      "contextTokens": 359,
       "distance": 3,
       "parent": "E1954",
       "routeEdge": "documento:R147",
@@ -290,8 +292,8 @@
       "id": "contiene:doc-509a767ebeba965190-entrada:E1953",
       "from": "doc-509a767ebeba965190-entrada",
       "to": "E1953",
-      "kind": "ficha del documento",
-      "reading": "Esta pieza abre la lectura desde su documento de origen.",
+      "kind": "document card",
+      "reading": "This piece opens the reading from its source document.",
       "route": true
     },
     {
@@ -355,7 +357,7 @@
         "agentes": 0.1667,
         "movilidad": 0.8333
       },
-      "contextTokens": 105,
+      "contextTokens": 100,
       "distance": 1,
       "parent": "doc-509a767ebeba965190-entrada",
       "routeEdge": null,
@@ -400,7 +402,7 @@
         "sourceSha256": "1fab3905bdfc1066574c3dcce565012f21fcd119096ac6fa9efc26fea106e491"
       },
       "readingSummary": "This annex defines the current Car Evolution Mobility Operating System as a product architecture.",
-      "contextTokens": 210,
+      "contextTokens": 201,
       "distance": 2,
       "parent": "E1953",
       "routeEdge": "documento:R141",
@@ -437,7 +439,7 @@
         "sourceSha256": "7557ae4fd56105eabd0d45c0ac3b9e8a88be479f4323501edfc1046b8355c3e1"
       },
       "readingSummary": "Car Evolution is a Distributed Mobility Operating System / Mobility Control Center for authorities, campuses, fleets, operators and mobility ecosystems that need to coordinate existing capacity.",
-      "contextTokens": 161,
+      "contextTokens": 156,
       "distance": 3,
       "parent": "E1954",
       "routeEdge": "documento:R152",
@@ -476,7 +478,7 @@
         "sourceSha256": "81b8179d0cc97ac2febeba9e9f9e689440cb8c3bcc58e0e243f49dd1811bf97d"
       },
       "readingSummary": "Case 01 · Valencia UPV Vera · campus exit peak, Tuesday 07:40–08:40 · grouping and aggregation Source: agrupador , tot_pax , hora_pup , sillaruedas , unidades_utilizadas , unidades_rentadas , factor_ocupacion , factor_directos , retraso_estimado\n\nThree hundred and forty separate commitments enter, and forty-seven journeys leave.",
-      "contextTokens": 336,
+      "contextTokens": 328,
       "distance": 3,
       "parent": "E1954",
       "routeEdge": "documento:R146",
@@ -521,12 +523,12 @@
         "sourceSha256": "bc01c036c41e905166b2bc0a0265ad3470350d1086de7d875ced3a7fc5eec141"
       },
       "readingSummary": "Case 03 · Tallinn old town edge · access window 07:30–09:30 · policy as a number Source: POLITICA_CHOICES +3 to N, POLITICA_TRANSBORDOS_CHOICES CT DIN FO LO NT NP, valor_politicas , valor_puntualidad , valor_ocupacion , valor_ahorro_unidades\n\nThe policy scale is not a switch.",
-      "contextTokens": 371,
+      "contextTokens": 359,
       "distance": 3,
       "parent": "E1954",
       "routeEdge": "documento:R147",
       "affinity": 1
     }
   ],
-  "reading": "# Posicionamiento · Car Evolution Mobility OS\nDocumento de origen: https://jubap.eu/mobility\n\n## Car Evolution Mobility OS\nCities, authorities and operators already hold the data, the fleets, the routes and the channels. What is added is the layer that turns them into coordinated decisions, in real time.\nEtiquetas: Agentes y coordinación distribuida 16.67%; Movilidad e infraestructura 83.33%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-e1953/\nDocumento de origen: https://jubap.eu/mobility/\n\nCar Evolution Mobility OS → Car Evolution Mobility OS – Product Annex · editorial comparison. For a complementary reading, see [Mobility OS product boundary and architecture](https://jubap.eu/mobility/product/).\n\n## Car Evolution Mobility OS – Product Annex\nThis annex defines the current Car Evolution Mobility Operating System as a product architecture.\n\nCar Evolution is not presented here as a consumer app, a dashboard or a research concept. It is a mobility orchestration layer for cities, campuses, resorts, airports, industrial parks, mobility operators and regions that need to coordinate transport capacity they already have.\n\nCar Evolution provides that layer: it converts demand, available capacity, policy constraints, scenario weights and live execution feedback into coordinated operating decisions.\nEtiquetas: Agentes y coordinación distribuida 11.11%; Autoridad, permisos y delegación 5.56%; Decisiones y responsabilidad 13.89%; Investigación y documentación técnica 19.44%; Memoria, comunidad y territorio 5.56%; Movilidad e infraestructura 44.44%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-product-annex-e1954/\nDocumento de origen: https://jubap.eu/mobility/product/\n\nCar Evolution Mobility OS – Materials → Car Evolution Mobility OS – Product Annex · editorial comparison. For a complementary reading, see [The complete product annex](https://jubap.eu/mobility/product/).\n\n## Car Evolution Mobility OS – Materials\nCar Evolution is a Distributed Mobility Operating System / Mobility Control Center for authorities, campuses, fleets, operators and mobility ecosystems that need to coordinate existing capacity. The core product is the orchestration layer: demand and capacity modelling, policy-weighted scenarios, route and capacity planning, execution instructions, KPI tracking and affected-subspace replanning. User-facing, smart-contract, settlement and edge-agentic modules are treated as extensions around that core.\nEtiquetas: Agentes y coordinación distribuida 25.00%; Movilidad e infraestructura 75.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-materials-e1957/\nDocumento de origen: https://jubap.eu/mobility/materials/\n\nCar Evolution Mobility OS – Product Annex → Car Evolution Mobility OS – Evidence Cases 01-02 · editorial comparison. For a complementary reading, see [Planning and bounded repair: cases 01–02](https://jubap.eu/mobility/evidence/case-01-02-valencia/).\n\n## Car Evolution Mobility OS – Evidence Cases 01-02\nCase 01 · Valencia UPV Vera · campus exit peak, Tuesday 07:40–08:40 · grouping and aggregation Source: agrupador , tot_pax , hora_pup , sillaruedas , unidades_utilizadas , unidades_rentadas , factor_ocupacion , factor_directos , retraso_estimado\n\nThree hundred and forty separate commitments enter, and forty-seven journeys leave. The commitments were never routes: they are people with an origin zone, an hour and a constraint. Compatible demand is grouped before any route exists , and that is the step which separates this from a routing optimiser, which begins after somebody has already decided what the routes are.\n\nThe result object separates unidades_utilizadas from unidades_rentadas , forty-one owned and six hired. The plan knows what it costs, not only what it achieves.\n\nAnd one commitment is refused. RSV-4489 requires a wheelchair platform and no group in the window has a unit with one, so it is not squeezed into a journey that cannot serve it. The accessibility constraint wins against the optimisation , which is a policy decision expressed in code, in 2016.\nEtiquetas: Agentes y coordinación distribuida 11.11%; Evidencia, procedencia y atribución 33.33%; Movilidad e infraestructura 55.56%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-evidence-cases-01-02-e1958/\nDocumento de origen: https://jubap.eu/mobility/evidence/case-01-02-valencia/\n\nCar Evolution Mobility OS – Product Annex → Car Evolution Mobility OS – Evidence Cases 03-07 · editorial comparison. For a complementary reading, see [Policy and integration exhibits: cases 03–07](https://jubap.eu/mobility/evidence/case-03-07/).\n\n## Car Evolution Mobility OS – Evidence Cases 03-07\nCase 03 · Tallinn old town edge · access window 07:30–09:30 · policy as a number Source: POLITICA_CHOICES +3 to N, POLITICA_TRANSBORDOS_CHOICES CT DIN FO LO NT NP, valor_politicas , valor_puntualidad , valor_ocupacion , valor_ahorro_unidades\n\nThe policy scale is not a switch. It runs from +3 to −5 , and it is asymmetric on purpose: the penalty for an option we want avoided is heavier than the reward for one we prefer. That is how a city reasons about restriction, and it was in the constants a decade ago.\n\nEvery point carries its own transfer policy, including one that is not a pickup point at all. Toompea is refused, and the refusal is a policy value rather than an omission.\n\nTwo weightings are scored side by side and the authority takes B. Punctuality falls from 0.91 to 0.78. The cost is recorded next to the choice , because the decision has to survive being asked about in public, and a decision whose price was never written down cannot.\nEtiquetas: Agentes y coordinación distribuida 7.41%; Casos de uso y aplicaciones 7.41%; Decisiones y responsabilidad 22.22%; Evidencia, procedencia y atribución 18.52%; Memoria, comunidad y territorio 7.41%; Movilidad e infraestructura 37.03%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-evidence-cases-03-07-e1959/\nDocumento de origen: https://jubap.eu/mobility/evidence/case-03-07/\n\n"
+  "reading": "# Positioning · Car Evolution Mobility OS\nSource document: https://jubap.eu/mobility\n\n## Car Evolution Mobility OS\nCities, authorities and operators already hold the data, the fleets, the routes and the channels. What is added is the layer that turns them into coordinated decisions, in real time.\nTags: Agents and distributed coordination 16.67%; Mobility and infrastructure 83.33%\nCard: https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-e1953/\nSource document: https://jubap.eu/mobility/\n\nCar Evolution Mobility OS → Car Evolution Mobility OS – Product Annex · editorial comparison. For a complementary reading, see [Mobility OS product boundary and architecture](https://jubap.eu/mobility/product/).\n\n## Car Evolution Mobility OS – Product Annex\nThis annex defines the current Car Evolution Mobility Operating System as a product architecture.\n\nCar Evolution is not presented here as a consumer app, a dashboard or a research concept. It is a mobility orchestration layer for cities, campuses, resorts, airports, industrial parks, mobility operators and regions that need to coordinate transport capacity they already have.\n\nCar Evolution provides that layer: it converts demand, available capacity, policy constraints, scenario weights and live execution feedback into coordinated operating decisions.\nTags: Agents and distributed coordination 11.11%; Authority, permissions and delegation 5.56%; Decisions and responsibility 13.89%; Research and technical documentation 19.44%; Memory, community and territory 5.56%; Mobility and infrastructure 44.44%\nCard: https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-product-annex-e1954/\nSource document: https://jubap.eu/mobility/product/\n\nCar Evolution Mobility OS – Materials → Car Evolution Mobility OS – Product Annex · editorial comparison. For a complementary reading, see [The complete product annex](https://jubap.eu/mobility/product/).\n\n## Car Evolution Mobility OS – Materials\nCar Evolution is a Distributed Mobility Operating System / Mobility Control Center for authorities, campuses, fleets, operators and mobility ecosystems that need to coordinate existing capacity. The core product is the orchestration layer: demand and capacity modelling, policy-weighted scenarios, route and capacity planning, execution instructions, KPI tracking and affected-subspace replanning. User-facing, smart-contract, settlement and edge-agentic modules are treated as extensions around that core.\nTags: Agents and distributed coordination 25.00%; Mobility and infrastructure 75.00%\nCard: https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-materials-e1957/\nSource document: https://jubap.eu/mobility/materials/\n\nCar Evolution Mobility OS – Product Annex → Car Evolution Mobility OS – Evidence Cases 01-02 · editorial comparison. For a complementary reading, see [Planning and bounded repair: cases 01–02](https://jubap.eu/mobility/evidence/case-01-02-valencia/).\n\n## Car Evolution Mobility OS – Evidence Cases 01-02\nCase 01 · Valencia UPV Vera · campus exit peak, Tuesday 07:40–08:40 · grouping and aggregation Source: agrupador , tot_pax , hora_pup , sillaruedas , unidades_utilizadas , unidades_rentadas , factor_ocupacion , factor_directos , retraso_estimado\n\nThree hundred and forty separate commitments enter, and forty-seven journeys leave. The commitments were never routes: they are people with an origin zone, an hour and a constraint. Compatible demand is grouped before any route exists , and that is the step which separates this from a routing optimiser, which begins after somebody has already decided what the routes are.\n\nThe result object separates unidades_utilizadas from unidades_rentadas , forty-one owned and six hired. The plan knows what it costs, not only what it achieves.\n\nAnd one commitment is refused. RSV-4489 requires a wheelchair platform and no group in the window has a unit with one, so it is not squeezed into a journey that cannot serve it. The accessibility constraint wins against the optimisation , which is a policy decision expressed in code, in 2016.\nTags: Agents and distributed coordination 11.11%; Evidence, provenance and attribution 33.33%; Mobility and infrastructure 55.56%\nCard: https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-evidence-cases-01-02-e1958/\nSource document: https://jubap.eu/mobility/evidence/case-01-02-valencia/\n\nCar Evolution Mobility OS – Product Annex → Car Evolution Mobility OS – Evidence Cases 03-07 · editorial comparison. For a complementary reading, see [Policy and integration exhibits: cases 03–07](https://jubap.eu/mobility/evidence/case-03-07/).\n\n## Car Evolution Mobility OS – Evidence Cases 03-07\nCase 03 · Tallinn old town edge · access window 07:30–09:30 · policy as a number Source: POLITICA_CHOICES +3 to N, POLITICA_TRANSBORDOS_CHOICES CT DIN FO LO NT NP, valor_politicas , valor_puntualidad , valor_ocupacion , valor_ahorro_unidades\n\nThe policy scale is not a switch. It runs from +3 to −5 , and it is asymmetric on purpose: the penalty for an option we want avoided is heavier than the reward for one we prefer. That is how a city reasons about restriction, and it was in the constants a decade ago.\n\nEvery point carries its own transfer policy, including one that is not a pickup point at all. Toompea is refused, and the refusal is a policy value rather than an omission.\n\nTwo weightings are scored side by side and the authority takes B. Punctuality falls from 0.91 to 0.78. The cost is recorded next to the choice , because the decision has to survive being asked about in public, and a decision whose price was never written down cannot.\nTags: Agents and distributed coordination 7.41%; Use cases and applications 7.41%; Decisions and responsibility 22.22%; Evidence, provenance and attribution 18.52%; Memory, community and territory 7.41%; Mobility and infrastructure 37.03%\nCard: https://dakleyer.github.io/perspective-beyond/sources/car-evolution-mobility-os-evidence-cases-03-07-e1959/\nSource document: https://jubap.eu/mobility/evidence/case-03-07/\n\n"
 }

@@ -6,14 +6,13 @@
   "documentId": "doc-bd89f2ad0aa95ae43a",
   "sourceIds": [],
   "tagWeights": {
-    "economia": 1.0
+    "economia": 1
   },
   "clusters": [
     "dialogos"
   ],
-  "context": "## La Bolsa puede estar comprando reservas que no parecen mercancías\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Y si parte de la valorización de las grandes plataformas fuese la captura de recursos que antes no entraban en una reserva financiera?\nREFLEXIÓN DEL DIÁLOGO (voces y estatutos señalados en origen) — Iván observaba una separación aparente entre el crecimiento bursátil —en particular de Nasdaq, después de 2008— y el de la economía estadounidense medida por PIB. No se conformaba con «burbuja» ni con «la tecnología produce más». Preguntaba si habíamos cambiado el tipo de reserva económica que el mercado sabe capitalizar: antes propiedades y capacidades productivas relativamente visibles; ahora acceso a datos, permisos, plataformas y control sobre decisiones futuras.\n\nLa conversación llevó el experimento mental a la recalificación del suelo español. ¿Qué ocurriría si el Estado tokenizara el valor creado por el cambio de uso, en vez de dejar toda la renta resultante en una sola cadena de captura privada? La pregunta implica derechos de propiedad, beneficiarios, efectos distributivos y una facultad pública de decisión que no se resuelven emitiendo tokens.\n\nNo debemos atribuir al diálogo una demostración de que la expansión monetaria compró literalmente esas reservas ni que esa sea la causa principal del Nasdaq. Lo valioso es la sospecha arquitectónica: los precios de los activos también registran quién controla recursos y opciones que no aparecen como bienes clásicos. Esta ficha conversa con «foto de tomates», renta y escasez artificial sin repetirlas.\nEtiquetas: Economía, costes y liquidez 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-261\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-261.html\n\n",
-  "readingSource": null,
-  "tokens": 398,
+  "context": "## La Bolsa puede estar comprando reservas que no parecen mercancías\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Y si parte de la valorización de las grandes plataformas fuese la captura de recursos que antes no entraban en una reserva financiera?\nREFLEXIÓN DEL DIÁLOGO (voces y estatutos señalados en origen) — Iván observaba una separación aparente entre el crecimiento bursátil —en particular de Nasdaq, después de 2008— y el de la economía estadounidense medida por PIB. No se conformaba con «burbuja» ni con «la tecnología produce más». Preguntaba si habíamos cambiado el tipo de reserva económica que el mercado sabe capitalizar: antes propiedades y capacidades productivas relativamente visibles; ahora acceso a datos, permisos, plataformas y control sobre decisiones futuras.\n\nLa conversación llevó el experimento mental a la recalificación del suelo español. ¿Qué ocurriría si el Estado tokenizara el valor creado por el cambio de uso, en vez de dejar toda la renta resultante en una sola cadena de captura privada? La pregunta implica derechos de propiedad, beneficiarios, efectos distributivos y una facultad pública de decisión que no se resuelven emitiendo tokens.\n\nNo debemos atribuir al diálogo una demostración de que la expansión monetaria compró literalmente esas reservas ni que esa sea la causa principal del Nasdaq. Lo valioso es la sospecha arquitectónica: los precios de los activos también registran quién controla recursos y opciones que no aparecen como bienes clásicos. Esta ficha conversa con «foto de tomates», renta y escasez artificial sin repetirlas.\nTags: Economics, costs and liquidity 100.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-261\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-261.html\n\n",
+  "tokens": 395,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -21,10 +20,11 @@
       "to": "dg-economy",
       "title": "Economía y escasez",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 25,
-      "fichaTokens": 250,
+      "fichaTokens": 222,
       "tagWeights": {
         "aprendizaje": 0.0688,
         "autoridad": 0.0119,
@@ -57,10 +57,11 @@
       "to": "dg-scarcity_design",
       "title": "Dimensiones creadas de escasez",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 117,
+      "fichaTokens": 107,
       "tagWeights": {
         "aprendizaje": 0.0476,
         "autoridad": 0.0833,
@@ -79,12 +80,13 @@
       "to": "dg-rent_separation",
       "title": "Renta por posesión frente a valor productivo",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 30,
-      "fichaTokens": 75,
+      "fichaTokens": 73,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "dialogos"
@@ -97,10 +99,11 @@
       "to": "dg-intangible_reserves",
       "title": "Reservas intangibles, interfaces y precio",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 29,
-      "fichaTokens": 89,
+      "fichaTokens": 85,
       "tagWeights": {
         "autoridad": 0.25,
         "economia": 0.75
@@ -116,10 +119,11 @@
       "to": "D-135",
       "title": "El mercado es también una tecnología de coordinación",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La Bolsa puede estar comprando reservas que no parecen mercancías» con «El mercado es también una tecnología de coordinación». Permite contrastar Economía y escasez.",
       "relationTokens": 66,
-      "fichaTokens": 282,
+      "fichaTokens": 278,
       "tagWeights": {
         "economia": 0.5,
         "movilidad": 0.5
@@ -135,10 +139,11 @@
       "to": "D-137",
       "title": "El dinero sostiene una promesa que necesita ser creíble",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La Bolsa puede estar comprando reservas que no parecen mercancías» con «El dinero sostiene una promesa que necesita ser creíble». Permite contrastar Economía y escasez.",
       "relationTokens": 72,
-      "fichaTokens": 332,
+      "fichaTokens": 327,
       "tagWeights": {
         "compromisos": 0.25,
         "decision": 0.1875,
@@ -155,10 +160,11 @@
       "to": "D-192",
       "title": "La arquitectura que concentra capital no es necesariamente la que mejor distribuye inteligencia",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La Bolsa puede estar comprando reservas que no parecen mercancías» con «La arquitectura que concentra capital no es necesariamente la que mejor distribuye inteligencia».",
       "relationTokens": 68,
-      "fichaTokens": 403,
+      "fichaTokens": 397,
       "tagWeights": {
         "autoridad": 0.2,
         "economia": 0.6,
@@ -175,10 +181,11 @@
       "to": "D-197",
       "title": "El mercado puede crear escasez donde antes había abundancia",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La Bolsa puede estar comprando reservas que no parecen mercancías» con «El mercado puede crear escasez donde antes había abundancia». Permite contrastar Economía y escasez, Dimensiones creadas de escasez.",
       "relationTokens": 83,
-      "fichaTokens": 395,
+      "fichaTokens": 390,
       "tagWeights": {
         "economia": 0.3333,
         "representacion": 0.6667
@@ -194,10 +201,11 @@
       "to": "D-202",
       "title": "Una foto de tomates no es otro tomate",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La Bolsa puede estar comprando reservas que no parecen mercancías» con «Una foto de tomates no es otro tomate». Permite contrastar Economía y escasez.",
       "relationTokens": 66,
-      "fichaTokens": 380,
+      "fichaTokens": 376,
       "tagWeights": {
         "decision": 0.2,
         "economia": 0.8
@@ -213,12 +221,13 @@
       "to": "D-222",
       "title": "Si el oro gana al capital productivo, ¿qué economía estamos construyendo?",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La Bolsa puede estar comprando reservas que no parecen mercancías» con «Si el oro gana al capital productivo, ¿qué economía estamos construyendo?». Permite contrastar Economía y escasez, Renta por posesión frente a valor productivo.",
       "relationTokens": 95,
-      "fichaTokens": 464,
+      "fichaTokens": 461,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "dialogos"
@@ -231,10 +240,11 @@
       "to": "D-295",
       "title": "Un algoritmo democrático no elimina el pan, la gasolina ni el tiempo",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Un algoritmo democrático no elimina el pan, la gasolina ni el tiempo» con «La Bolsa puede estar comprando reservas que no parecen mercancías». Permite contrastar Economía y escasez, Dimensiones creadas de escasez.",
       "relationTokens": 85,
-      "fichaTokens": 420,
+      "fichaTokens": 414,
       "tagWeights": {
         "aprendizaje": 0.2857,
         "economia": 0.7143
@@ -250,10 +260,11 @@
       "to": "D-198",
       "title": "Un cenote no se vuelve valioso solo cuando alguien lo cerca",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Dimensiones creadas de escasez, Economía y escasez desde las situaciones que describe cada texto.",
       "relationTokens": 60,
-      "fichaTokens": 385,
+      "fichaTokens": 381,
       "tagWeights": {
         "economia": 0.4,
         "memoria-territorio": 0.6
@@ -269,10 +280,11 @@
       "to": "D-262",
       "title": "Una red libre puede convertirse en reserva cuando todos creen que solo cuatro la poseen",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Reservas intangibles, interfaces y precio, Dimensiones creadas de escasez desde las situaciones que describe cada texto.",
       "relationTokens": 66,
-      "fichaTokens": 395,
+      "fichaTokens": 390,
       "tagWeights": {
         "autoridad": 0.5,
         "economia": 0.5

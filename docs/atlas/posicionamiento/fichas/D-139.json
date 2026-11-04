@@ -6,14 +6,13 @@
   "documentId": "doc-17f45ad889f4d66712",
   "sourceIds": [],
   "tagWeights": {
-    "decision": 1.0
+    "decision": 1
   },
   "clusters": [
     "dialogos"
   ],
-  "context": "## Lo que creemos que haremos y lo que hacemos no siempre coincide\nINTERLOCUTOR (pregunta editorial) — ¿Qué puede aprenderse al comparar la conducta que una persona predice con su elección real en un ejercicio?\nREFLEXIÓN DEL ESCRITO (síntesis editorial) — En la carta sobre «error de atribución», Iván no está hablando vagamente de hipocresía. Describe ejercicios en Nestlé donde las personas anticipan su disposición a colaborar o competir y después toman decisiones observables que pueden beneficiarles a costa del grupo. Define el error como distancia entre predisposición declarada y comportamiento cuantificado, para investigar si esa inconsistencia se relaciona con decisiones económicas. Su hipótesis más incómoda es que un comportamiento competitivo puede ser previsible para quien lo ejerce y, por tanto, coherente consigo mismo, mientras que una autoimagen cooperativa no predice necesariamente cooperación. El manuscrito contiene formulaciones contradictorias sobre la escala numérica del error —incluida una frase sobre el valor infinito— que no conviene resolver inventando datos: deben contrastarse con los registros originales antes de usarla como índice. Lo que se conserva es el diseño del problema, no una clasificación moral de las personas.\nEtiquetas: Decisiones y responsabilidad 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-139\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-139.html\n\n",
-  "readingSource": null,
-  "tokens": 317,
+  "context": "## Lo que creemos que haremos y lo que hacemos no siempre coincide\nINTERLOCUTOR (pregunta editorial) — ¿Qué puede aprenderse al comparar la conducta que una persona predice con su elección real en un ejercicio?\nREFLEXIÓN DEL ESCRITO (síntesis editorial) — En la carta sobre «error de atribución», Iván no está hablando vagamente de hipocresía. Describe ejercicios en Nestlé donde las personas anticipan su disposición a colaborar o competir y después toman decisiones observables que pueden beneficiarles a costa del grupo. Define el error como distancia entre predisposición declarada y comportamiento cuantificado, para investigar si esa inconsistencia se relaciona con decisiones económicas. Su hipótesis más incómoda es que un comportamiento competitivo puede ser previsible para quien lo ejerce y, por tanto, coherente consigo mismo, mientras que una autoimagen cooperativa no predice necesariamente cooperación. El manuscrito contiene formulaciones contradictorias sobre la escala numérica del error —incluida una frase sobre el valor infinito— que no conviene resolver inventando datos: deben contrastarse con los registros originales antes de usarla como índice. Lo que se conserva es el diseño del problema, no una clasificación moral de las personas.\nTags: Decisions and responsibility 100.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-139\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-139.html\n\n",
+  "tokens": 314,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -21,10 +20,11 @@
       "to": "dg-trust",
       "title": "Confianza y equipos",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 25,
-      "fichaTokens": 216,
+      "fichaTokens": 194,
       "tagWeights": {
         "aprendizaje": 0.1145,
         "autoridad": 0.0227,
@@ -54,10 +54,11 @@
       "to": "dg-identity",
       "title": "Identidad, roles y posicionamiento",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 234,
+      "fichaTokens": 211,
       "tagWeights": {
         "aprendizaje": 0.2833,
         "autoridad": 0.0459,
@@ -87,10 +88,11 @@
       "to": "dg-measure",
       "title": "Medir decisiones y consecuencias",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 213,
+      "fichaTokens": 192,
       "tagWeights": {
         "aprendizaje": 0.0552,
         "autoridad": 0.0761,
@@ -119,10 +121,11 @@
       "to": "D-162",
       "title": "El valor que se actúa no es necesariamente el valor que se declara",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El valor que se actúa no es necesariamente el valor que se declara» con «Lo que creemos que haremos y lo que hacemos no siempre coincide». Permite contrastar Identidad, roles y posicionamiento.",
       "relationTokens": 82,
-      "fichaTokens": 377,
+      "fichaTokens": 370,
       "tagWeights": {
         "decision": 0.4,
         "economia": 0.2,
@@ -139,10 +142,11 @@
       "to": "D-188",
       "title": "Ideologías contrarias pueden ejecutar el mismo protocolo de reacción",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Ideologías contrarias pueden ejecutar el mismo protocolo de reacción» con «Lo que creemos que haremos y lo que hacemos no siempre coincide». Permite contrastar Medir decisiones y consecuencias.",
       "relationTokens": 74,
-      "fichaTokens": 392,
+      "fichaTokens": 388,
       "tagWeights": {
         "decision": 0.5,
         "economia": 0.5
@@ -158,10 +162,11 @@
       "to": "D-201",
       "title": "Una decisión privada puede ser una moneda de liquidez casi nula",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una decisión privada puede ser una moneda de liquidez casi nula» con «Lo que creemos que haremos y lo que hacemos no siempre coincide». Permite contrastar Confianza y equipos.",
       "relationTokens": 77,
-      "fichaTokens": 378,
+      "fichaTokens": 374,
       "tagWeights": {
         "decision": 0.4,
         "economia": 0.6
@@ -177,10 +182,11 @@
       "to": "D-270",
       "title": "Maximizar no es necesariamente lograr",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Maximizar no es necesariamente lograr» con «Lo que creemos que haremos y lo que hacemos no siempre coincide». Permite contrastar Medir decisiones y consecuencias.",
       "relationTokens": 66,
-      "fichaTokens": 411,
+      "fichaTokens": 404,
       "tagWeights": {
         "aprendizaje": 0.3334,
         "decision": 0.3333,
@@ -197,10 +203,11 @@
       "to": "D-277",
       "title": "Una explicación consciente puede llegar después de la conducta",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una explicación consciente puede llegar después de la conducta» con «Lo que creemos que haremos y lo que hacemos no siempre coincide».",
       "relationTokens": 60,
-      "fichaTokens": 413,
+      "fichaTokens": 407,
       "tagWeights": {
         "aprendizaje": 0.3334,
         "decision": 0.3333,
@@ -217,10 +224,11 @@
       "to": "D-140",
       "title": "Los bienes de estatus y la economía de la mirada ajena",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Confianza y equipos, Identidad, roles y posicionamiento desde las situaciones que describe cada texto.",
       "relationTokens": 59,
-      "fichaTokens": 331,
+      "fichaTokens": 327,
       "tagWeights": {
         "decision": 0.3571,
         "economia": 0.6429
@@ -236,10 +244,11 @@
       "to": "D-255",
       "title": "Ser dueño del negocio no te hace dueño de la idea que otros tienen de él",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Confianza y equipos, Identidad, roles y posicionamiento desde las situaciones que describe cada texto.",
       "relationTokens": 62,
-      "fichaTokens": 420,
+      "fichaTokens": 417,
       "tagWeights": {
         "decision": 0.25,
         "empresa": 0.5,

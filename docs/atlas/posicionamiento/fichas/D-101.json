@@ -12,9 +12,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## La incomodidad que una solución puede fabricar\nINTERLOCUTOR (pregunta editorial) — ¿Todo servicio nuevo resuelve una necesidad que existía antes de venderlo?\nLECTURA DEL DIÁLOGO (síntesis editorial) — La imagen de las rotondas es un argumento cultural, no una anécdota vial ni una prueba de que toda obra sea inútil. Iván describe desde la Vall d’Uixó rutas que parecen directas desde la montaña y que en la práctica se vuelven sucesiones de rotondas, pueblos semejantes y decorados casi de Barbie. La rotonda funciona como metáfora de una época que confundió administrar el movimiento con decidir el destino: todo señalizado, ordenado, repetible, con poca necesidad de preguntar quién sostiene el decorado. Sobre esa base introduce una sospecha más dura: una solución técnica puede multiplicar fricciones y necesidades de mantenimiento hasta convertirlas en trabajo y dependencia normalizados. No dice que las rotondas causen por sí solas ese proceso; denuncia el salto intelectual por el que un mecanismo local se vuelve ideología de organización social.\nEtiquetas: Economía, costes y liquidez 50.00%; Cambio de perspectiva 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-101\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-101.html\n\n",
-  "readingSource": null,
-  "tokens": 306,
+  "context": "## La incomodidad que una solución puede fabricar\nINTERLOCUTOR (pregunta editorial) — ¿Todo servicio nuevo resuelve una necesidad que existía antes de venderlo?\nLECTURA DEL DIÁLOGO (síntesis editorial) — La imagen de las rotondas es un argumento cultural, no una anécdota vial ni una prueba de que toda obra sea inútil. Iván describe desde la Vall d’Uixó rutas que parecen directas desde la montaña y que en la práctica se vuelven sucesiones de rotondas, pueblos semejantes y decorados casi de Barbie. La rotonda funciona como metáfora de una época que confundió administrar el movimiento con decidir el destino: todo señalizado, ordenado, repetible, con poca necesidad de preguntar quién sostiene el decorado. Sobre esa base introduce una sospecha más dura: una solución técnica puede multiplicar fricciones y necesidades de mantenimiento hasta convertirlas en trabajo y dependencia normalizados. No dice que las rotondas causen por sí solas ese proceso; denuncia el salto intelectual por el que un mecanismo local se vuelve ideología de organización social.\nTags: Economics, costs and liquidity 50.00%; Change of perspective 50.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-101\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-101.html\n\n",
+  "tokens": 303,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "dg-perspective",
       "title": "Nueva Perspectiva",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 190,
+      "fichaTokens": 173,
       "tagWeights": {
         "aprendizaje": 0.117,
         "cambio-regimen": 0.019,
@@ -52,10 +52,11 @@
       "to": "dg-options",
       "title": "Libertad y opciones",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 202,
+      "fichaTokens": 181,
       "tagWeights": {
         "aprendizaje": 0.1588,
         "autoridad": 0.0804,
@@ -84,10 +85,11 @@
       "to": "dg-economy",
       "title": "Economía y escasez",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 250,
+      "fichaTokens": 222,
       "tagWeights": {
         "aprendizaje": 0.0688,
         "autoridad": 0.0119,
@@ -120,10 +122,11 @@
       "to": "D-186",
       "title": "Una maison puede esperar a la Generación Z y descubrir que ya no existe en su imaginación",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una maison puede esperar a la Generación Z y descubrir que ya no existe en su imaginación» con «La incomodidad que una solución puede fabricar».",
       "relationTokens": 70,
-      "fichaTokens": 435,
+      "fichaTokens": 426,
       "tagWeights": {
         "aprendizaje": 0.1667,
         "economia": 0.3333,
@@ -142,12 +145,13 @@
       "to": "D-200",
       "title": "Salir de un mercado puede costar más que entrar en él",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Salir de un mercado puede costar más que entrar en él» con «La incomodidad que una solución puede fabricar».",
       "relationTokens": 58,
-      "fichaTokens": 380,
+      "fichaTokens": 377,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "dialogos"
@@ -160,12 +164,13 @@
       "to": "D-063",
       "title": "Cuando el dinero reduce las opciones",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Libertad y opciones, Economía y escasez desde las situaciones que describe cada texto.",
       "relationTokens": 46,
-      "fichaTokens": 379,
+      "fichaTokens": 376,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "dialogos"
@@ -178,12 +183,13 @@
       "to": "D-048",
       "title": "El coste de multiplicar proyectos",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Libertad y opciones, Economía y escasez desde las situaciones que describe cada texto.",
       "relationTokens": 46,
-      "fichaTokens": 521,
+      "fichaTokens": 518,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "dialogos"
@@ -196,10 +202,11 @@
       "to": "D-197",
       "title": "El mercado puede crear escasez donde antes había abundancia",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Libertad y opciones, Economía y escasez desde las situaciones que describe cada texto.",
       "relationTokens": 52,
-      "fichaTokens": 395,
+      "fichaTokens": 390,
       "tagWeights": {
         "economia": 0.3333,
         "representacion": 0.6667

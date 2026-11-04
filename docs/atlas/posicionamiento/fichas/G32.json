@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "IMSV",
   "url": "https://dakleyer.github.io/perspective-beyond/concepts/the-integral-management-society/",
-  "documentId": null,
   "sourceIds": [
     "S14",
     "T1499"
@@ -17,9 +16,8 @@
     "imsv",
     "tegrity"
   ],
-  "context": "## IMSV\nThe society provides a context for stewardship, knowledge preservation and technical exchange.\nEtiquetas: Investigación y documentación técnica 25.00%; Empresa y gestión 50.00%; Evidencia, procedencia y atribución 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/the-integral-management-society/\n\n",
-  "readingSource": null,
-  "tokens": 75,
+  "context": "## IMSV\nThe society provides a context for stewardship, knowledge preservation and technical exchange.\nTags: Research and technical documentation 25.00%; Business and management 50.00%; Evidence, provenance and attribution 25.00%\nCard: https://dakleyer.github.io/perspective-beyond/concepts/the-integral-management-society/\n\n",
+  "tokens": 71,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -27,10 +25,11 @@
       "to": "S14",
       "title": "The Integral Management Society",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 14,
-      "fichaTokens": 380,
+      "fichaTokens": 371,
       "tagWeights": {
         "empresa": 0.2,
         "autoridad": 0.2,
@@ -49,10 +48,11 @@
       "to": "T1499",
       "title": "Structural Awareness",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 12,
-      "fichaTokens": 173,
+      "fichaTokens": 168,
       "tagWeights": {
         "documentacion": 0.5,
         "evidencia": 0.5
@@ -68,10 +68,11 @@
       "to": "G31",
       "title": "Tegrity.AI",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 13,
-      "fichaTokens": 119,
+      "fichaTokens": 109,
       "tagWeights": {
         "agentes": 0.0568,
         "control-minimo": 0.0556,
@@ -92,10 +93,11 @@
       "to": "C56",
       "title": "Custodia institucional",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 11,
-      "fichaTokens": 197,
+      "fichaTokens": 174,
       "tagWeights": {
         "aprendizaje": 0.0096,
         "autoridad": 0.0035,
@@ -126,10 +128,11 @@
       "to": "G31",
       "title": "Tegrity.AI",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 13,
-      "fichaTokens": 119,
+      "fichaTokens": 109,
       "tagWeights": {
         "agentes": 0.0568,
         "control-minimo": 0.0556,
@@ -150,10 +153,11 @@
       "to": "G20",
       "title": "Escalera de evidencia y madurez",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 16,
-      "fichaTokens": 78,
+      "fichaTokens": 73,
       "tagWeights": {
         "documentacion": 0.3409,
         "evidencia": 0.3863,

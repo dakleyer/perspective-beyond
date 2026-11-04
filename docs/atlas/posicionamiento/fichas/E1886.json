@@ -12,14 +12,14 @@
   "clusters": [
     "eu"
   ],
-  "context": "## Mobility Operating System\nAn operationally tested mobility-orchestration product — validated as an MVP at scale and ready for European deployment and adaptation\n\nCar Evolution is an existing mobility-orchestration product that has already been tested as an MVP in large-scale daily operations.\n\nIts underlying platform coordinated between 10,000 and 15,000 passengers per day and hundreds of buses, managing vehicles, schedules, travel preferences, access restrictions, CO₂ and service policies, hard and semi-flexible constraints, and continuous operational replanning.\n\nIn its current form, the product can already be offered commercially for defined B2B mobility-orchestration use cases, particularly bus and passenger-transport operations. European adaptation is highly advisable to address local regulation, integrations, data environments, user experience and additional market requirements; it is an extension and productisation step, not the creation of the first product or prototype.\nEtiquetas: Agentes y coordinación distribuida 38.89%; Movilidad e infraestructura 61.11%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/mobility-operating-system-e1886/\nDocumento de origen: https://jubap.eu/car-pooling-orchestration/\n\n",
+  "context": "## Mobility Operating System\nAn operationally tested mobility-orchestration product — validated as an MVP at scale and ready for European deployment and adaptation\n\nCar Evolution is an existing mobility-orchestration product that has already been tested as an MVP in large-scale daily operations.\n\nIts underlying platform coordinated between 10,000 and 15,000 passengers per day and hundreds of buses, managing vehicles, schedules, travel preferences, access restrictions, CO₂ and service policies, hard and semi-flexible constraints, and continuous operational replanning.\n\nIn its current form, the product can already be offered commercially for defined B2B mobility-orchestration use cases, particularly bus and passenger-transport operations. European adaptation is highly advisable to address local regulation, integrations, data environments, user experience and additional market requirements; it is an extension and productisation step, not the creation of the first product or prototype.\nTags: Agents and distributed coordination 38.89%; Mobility and infrastructure 61.11%\nCard: https://dakleyer.github.io/perspective-beyond/sources/mobility-operating-system-e1886/\nSource document: https://jubap.eu/car-pooling-orchestration/\n\n",
   "readingSource": {
     "url": "https://jubap.eu/car-pooling-orchestration/",
     "section": "Opening paragraphs",
     "observed": "2026-11-04",
     "sourceSha256": "66897723bbfa5ecd7b0526675052b3d485deede2fff14dcab95f8deefb2c9f4b"
   },
-  "tokens": 243,
+  "tokens": 238,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -27,10 +27,11 @@
       "to": "E1953",
       "title": "Car Evolution Mobility OS",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The Logistics and Mobility Unit](https://jubap.eu/mobility/).",
       "relationTokens": 36,
-      "fichaTokens": 105,
+      "fichaTokens": 100,
       "tagWeights": {
         "agentes": 0.1667,
         "movilidad": 0.8333
@@ -46,10 +47,11 @@
       "to": "N2082",
       "title": "xSeil: Scenario-Based Planning and Human-Governed Computation",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [The historical scenario-governance mechanism](https://jubap.net/xseil-scenario-based-planning-human-governed-computation/).",
       "relationTokens": 59,
-      "fichaTokens": 211,
+      "fichaTokens": 204,
       "tagWeights": {
         "casos": 0.2759,
         "decision": 0.1724,
@@ -68,10 +70,11 @@
       "to": "GH001",
       "title": "Structural Awareness Programme",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Mobility Operating System / Car Evolution» con el rótulo «Mobility Operating System / Car Evolution».",
-      "relationTokens": 92,
-      "fichaTokens": 179,
+      "relationTokens": 90,
+      "fichaTokens": 166,
       "tagWeights": {
         "cambio-regimen": 0.0625,
         "capacidad-humana": 0.0625,
@@ -91,10 +94,11 @@
       "to": "E1953",
       "title": "Car Evolution Mobility OS",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura enlazada desde el documento",
       "reading": "Desde «Car Evolution Mobility OS», el enlace «Mobility Operating System technical account» abre «Mobility Operating System».",
-      "relationTokens": 54,
-      "fichaTokens": 105,
+      "relationTokens": 52,
+      "fichaTokens": 100,
       "tagWeights": {
         "agentes": 0.1667,
         "movilidad": 0.8333

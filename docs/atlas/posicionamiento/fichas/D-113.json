@@ -13,9 +13,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Un piloto real y un archivo que no lo suplante\nINTERLOCUTOR (pregunta editorial) — ¿Cómo evitar que una colaboración intercultural se convierta en dos promesas de ejecución que nadie puede sostener?\nLECTURA DEL DIÁLOGO (síntesis editorial) — En el diseño exploratorio de Formación Integral 3.0 surgió una separación útil: un único piloto operativo donde existan personas, condiciones y permisos para experimentar; en otro territorio, un espejo documental y de procedencia que ayude a entender qué capacidades se pretenden conservar. La conversación contemplaba la posibilidad de trabajo con colaboradores en Gambia sin afirmar un despliegue concluido ni sustituir la autonomía local. La distinción protege tanto el presupuesto como la dignidad de las comunidades: no se debe declarar una intervención por haber producido una propuesta. Un programa cultural puede aprender de dos territorios sin convertirlos en escaparates simétricos ni apropiarse de la experiencia del otro.\nEtiquetas: Aprendizaje y transmisión de capacidades 18.18%; Autoridad, permisos y delegación 18.18%; Memoria, comunidad y territorio 63.64%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-113\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-113.html\n\n",
-  "readingSource": null,
-  "tokens": 287,
+  "context": "## Un piloto real y un archivo que no lo suplante\nINTERLOCUTOR (pregunta editorial) — ¿Cómo evitar que una colaboración intercultural se convierta en dos promesas de ejecución que nadie puede sostener?\nLECTURA DEL DIÁLOGO (síntesis editorial) — En el diseño exploratorio de Formación Integral 3.0 surgió una separación útil: un único piloto operativo donde existan personas, condiciones y permisos para experimentar; en otro territorio, un espejo documental y de procedencia que ayude a entender qué capacidades se pretenden conservar. La conversación contemplaba la posibilidad de trabajo con colaboradores en Gambia sin afirmar un despliegue concluido ni sustituir la autonomía local. La distinción protege tanto el presupuesto como la dignidad de las comunidades: no se debe declarar una intervención por haber producido una propuesta. Un programa cultural puede aprender de dos territorios sin convertirlos en escaparates simétricos ni apropiarse de la experiencia del otro.\nTags: Learning and capability transmission 18.18%; Authority, permissions and delegation 18.18%; Memory, community and territory 63.64%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-113\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-113.html\n\n",
+  "tokens": 279,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,10 +22,11 @@
       "to": "dg-learning",
       "title": "Aprendizaje autodirigido",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 200,
+      "fichaTokens": 179,
       "tagWeights": {
         "aprendizaje": 0.4664,
         "autoridad": 0.0587,
@@ -54,10 +54,11 @@
       "to": "dg-community",
       "title": "Comunidades y territorio",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 187,
+      "fichaTokens": 171,
       "tagWeights": {
         "aprendizaje": 0.0473,
         "autoridad": 0.0323,
@@ -84,10 +85,11 @@
       "to": "dg-governance",
       "title": "Gobernanza y legitimidad",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 273,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.0321,
         "autoridad": 0.4057,
@@ -121,10 +123,11 @@
       "to": "D-206",
       "title": "Un diálogo de investigación no es un diagnóstico disfrazado",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Un diálogo de investigación no es un diagnóstico disfrazado» con «Un piloto real y un archivo que no lo suplante».",
       "relationTokens": 60,
-      "fichaTokens": 412,
+      "fichaTokens": 405,
       "tagWeights": {
         "aprendizaje": 0.3334,
         "empresa": 0.3333,
@@ -141,10 +144,11 @@
       "to": "D-232",
       "title": "El éxito también consiste en saber qué capacidad podar",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El éxito también consiste en saber qué capacidad podar» con «Un piloto real y un archivo que no lo suplante».",
       "relationTokens": 58,
-      "fichaTokens": 434,
+      "fichaTokens": 426,
       "tagWeights": {
         "aprendizaje": 0.3333,
         "empresa": 0.1334,
@@ -162,10 +166,11 @@
       "to": "D-068",
       "title": "Las Tunas: la innovación con medios escasos",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Comunidades y territorio, Aprendizaje autodirigido desde las situaciones que describe cada texto.",
       "relationTokens": 54,
-      "fichaTokens": 342,
+      "fichaTokens": 336,
       "tagWeights": {
         "aprendizaje": 0.4,
         "memoria-territorio": 0.6
@@ -181,10 +186,11 @@
       "to": "D-263",
       "title": "La legitimidad cultural no entra en el inventario de activos que se venden",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Comunidades y territorio, Gobernanza y legitimidad desde las situaciones que describe cada texto.",
       "relationTokens": 57,
-      "fichaTokens": 384,
+      "fichaTokens": 379,
       "tagWeights": {
         "autoridad": 0.4615,
         "memoria-territorio": 0.5385
@@ -200,10 +206,11 @@
       "to": "D-251",
       "title": "Una red de territorios no es una oficina central que manda a todos",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Comunidades y territorio, Gobernanza y legitimidad desde las situaciones que describe cada texto.",
       "relationTokens": 56,
-      "fichaTokens": 429,
+      "fichaTokens": 424,
       "tagWeights": {
         "autoridad": 0.1334,
         "geopolitica": 0.1333,

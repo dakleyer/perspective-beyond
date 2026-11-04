@@ -12,9 +12,8 @@
   "clusters": [
     "research"
   ],
-  "context": "## TEGRITY.AI\nFuente de la línea «Contribuciones a organismos». El enlace abre el documento en su versión registrada.\nEtiquetas: Investigación y documentación técnica 44.44%; Índices, contacto y políticas 55.56%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-fc241a437f549d.html\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/db6d444867a27510c3e640e3e71904ae11b01fe4/submissions/unece-wp5/2026-riviera-maya-msc/WP5_Riviera_Maya_MSC_Case_Note.docx\n\n",
-  "readingSource": null,
-  "tokens": 160,
+  "context": "## TEGRITY.AI\nFuente de la línea «Contribuciones a organismos». El enlace abre el documento en su versión registrada.\nTags: Research and technical documentation 44.44%; Indexes, contact and policies 55.56%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-fc241a437f549d.html\nSource document: https://github.com/dakleyer/structural-awareness-contributions/blob/db6d444867a27510c3e640e3e71904ae11b01fe4/submissions/unece-wp5/2026-riviera-maya-msc/WP5_Riviera_Maya_MSC_Case_Note.docx\n\n",
+  "tokens": 158,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "sac-8823151afbf839",
       "title": "MSCA — trabajo adicional y lecturas complementarias",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Archivo completo de enlaces del corte» con el rótulo «WP5_Riviera_Maya_MSC_Case_Note.docx».",
-      "relationTokens": 120,
-      "fichaTokens": 166,
+      "relationTokens": 118,
+      "fichaTokens": 163,
       "tagWeights": {
         "control-minimo": 0.7143,
         "documentacion": 0.1429,
@@ -42,12 +42,13 @@
       "to": "sac-987cc3e29f01d1",
       "title": "UNECE WP.5 — Riviera Maya MSC case note",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Files» con el rótulo «WP5_Riviera_Maya_MSC_Case_Note.docx».",
-      "relationTokens": 118,
-      "fichaTokens": 133,
+      "relationTokens": 116,
+      "fichaTokens": 128,
       "tagWeights": {
-        "estandares": 1.0
+        "estandares": 1
       },
       "clusters": [
         "research"
@@ -60,12 +61,13 @@
       "to": "sac-987cc3e29f01d1",
       "title": "UNECE WP.5 — Riviera Maya MSC case note",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "ruta de lectura",
       "reading": "El índice de la carpeta sitúa este documento dentro de su línea de trabajo.",
-      "relationTokens": 115,
-      "fichaTokens": 133,
+      "relationTokens": 113,
+      "fichaTokens": 128,
       "tagWeights": {
-        "estandares": 1.0
+        "estandares": 1
       },
       "clusters": [
         "research"

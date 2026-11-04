@@ -27,8 +27,10 @@
     "aliases": [
       "https://jubap.net/"
     ],
-    "header": "# Posicionamiento · JubAp.Net\nDocumento de origen: https://jubap.net/\n\n",
-    "headerTokens": 19,
+    "header": "# Positioning · JubAp.Net\nSource document: https://jubap.net/\n\n",
+    "headerTokens": 17,
+    "headerEn": "# Positioning · JubAp.Net\nSource document: https://jubap.net/\n\n",
+    "headerTokensEn": 17,
     "type": "documento",
     "focus": "N2",
     "seeds": [
@@ -37,11 +39,11 @@
   },
   "budget": {
     "limit": 4000,
-    "used": 3999,
-    "remaining": 1,
-    "nextBlock": 481,
+    "used": 3880,
+    "remaining": 120,
+    "nextBlock": 470,
     "encoding": "o200k_base",
-    "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
+    "accounting": "Sum of independently encoded blocks: document header, card and incoming relationship. The budget applies to selected reading content."
   },
   "reachable": 40,
   "selected": 14,
@@ -90,7 +92,7 @@
       "type": "documento",
       "url": "https://jubap.net/",
       "original": "https://jubap.net/",
-      "summary": "Documento desde el que se abre este posicionamiento.",
+      "summary": "Document from which this positioning opens.",
       "tags": [],
       "tagWeights": {},
       "clusters": [
@@ -128,7 +130,7 @@
         "navegacion": 0.05,
         "transformacion": 0.25
       },
-      "contextTokens": 126,
+      "contextTokens": 120,
       "distance": 1,
       "parent": "doc-4b88133cc260c8d3a0-entrada",
       "routeEdge": null,
@@ -165,8 +167,9 @@
         "navegacion": 0.05,
         "transformacion": 0.25
       },
-      "contextTokens": 102,
+      "contextTokens": 97,
       "positionHeaderTokens": 42,
+      "positionHeaderTokensEn": 39,
       "distance": 2,
       "parent": "N2",
       "routeEdge": "apoyo:N2:G33",
@@ -209,7 +212,7 @@
         "sourceSha256": "c54594c384cf5c0ddd28c46b4ea56010119f5f54802f73a568caf723b441dd8c"
       },
       "readingSummary": "The JubAp.Net model keeps architecture, engineering, deployment and stabilisation inside one accountable intervention unit, reducing the handoffs that usually produce coordination collapse.",
-      "contextTokens": 288,
+      "contextTokens": 276,
       "distance": 2,
       "parent": "N2",
       "routeEdge": "navigation:position-nav-N2-N1295",
@@ -250,7 +253,7 @@
         "sourceSha256": "6c4874b98dae5df5761ac0d5e5c55e7517fccf023ed0ec35f0fa375a0b684b7f"
       },
       "readingSummary": "GEPLAN, airport transformation, xSeil and Phylons belong to different operating worlds.",
-      "contextTokens": 224,
+      "contextTokens": 214,
       "distance": 2,
       "parent": "N2",
       "routeEdge": "navigation:position-nav-N2-N2086",
@@ -291,7 +294,7 @@
         "sourceSha256": "48fbfc1a475e7166a45466a97af4d555f5b47b01fdf2368949cf5adc928781a7"
       },
       "readingSummary": "The Frontier Engineering series follows practical systems work from architecture and integration to field deployment, operational continuity and reusable engineering capability.",
-      "contextTokens": 198,
+      "contextTokens": 191,
       "distance": 2,
       "parent": "N2",
       "routeEdge": "navigation:position-nav-N2-N250",
@@ -335,8 +338,9 @@
         "memoria-territorio": 0.037,
         "transformacion": 0.2444
       },
-      "contextTokens": 132,
+      "contextTokens": 120,
       "positionHeaderTokens": 32,
+      "positionHeaderTokensEn": 29,
       "distance": 3,
       "parent": "G33",
       "routeEdge": "concepto:B540",
@@ -379,7 +383,7 @@
         "sourceSha256": "2059b99588230f1d2e8e77f47a0e9923f3ca65268b2577aeb25c2e9f7f76581b"
       },
       "readingSummary": "The GEPLAN record supplies an early setting for the distributed engineering lineage.",
-      "contextTokens": 350,
+      "contextTokens": 342,
       "distance": 3,
       "parent": "N1295",
       "routeEdge": "documento:R124",
@@ -420,7 +424,7 @@
         "sourceSha256": "8a5fa6463041ea7f5da4f20caaf58d87260866eb21d659bd3aaf42cf5106cd44"
       },
       "readingSummary": "The research and publication policy separates custody, authorship and assessment status.",
-      "contextTokens": 262,
+      "contextTokens": 254,
       "distance": 3,
       "parent": "N2086",
       "routeEdge": "documento:R116",
@@ -464,8 +468,9 @@
         "memoria-territorio": 0.1799,
         "transformacion": 0.1111
       },
-      "contextTokens": 146,
+      "contextTokens": 131,
       "positionHeaderTokens": 46,
+      "positionHeaderTokensEn": 43,
       "distance": 4,
       "parent": "N1267",
       "routeEdge": "apoyo:N1267:G41",
@@ -508,7 +513,7 @@
         "sourceSha256": "e556bd5df7b37fe7dbba0d89fcec0ef74898ec1e10261e6edecdc2d667e75ceb"
       },
       "readingSummary": "The GEPLAN operating record anchors the problem in field work, resources and service obligations.",
-      "contextTokens": 524,
+      "contextTokens": 517,
       "distance": 4,
       "parent": "N1267",
       "routeEdge": "documento:R082",
@@ -549,7 +554,7 @@
         "sourceSha256": "55856fe3575f5ba0f7a802f30aa909e265e8ca2ca4fbf0e7f5385f0415ba9ea1"
       },
       "readingSummary": "The distributed-model origins locate the practice before remote work became a lifestyle category.",
-      "contextTokens": 353,
+      "contextTokens": 348,
       "distance": 4,
       "parent": "N1267",
       "routeEdge": "documento:R123",
@@ -588,7 +593,7 @@
         "sourceSha256": "99548a1ff9f034011d0f9f4b285e24d80f60e21f39a5155ca4de23e9dfd29d92"
       },
       "readingSummary": "Tiger Teams may operate as commercial delivery units or inside wider institutional frontier ecosystems.",
-      "contextTokens": 296,
+      "contextTokens": 291,
       "distance": 4,
       "parent": "N1441",
       "routeEdge": "documento:R125",
@@ -633,7 +638,7 @@
         "sourceSha256": "9d87b9aef60228296cea6f6635cd09d6e189bbd1e251465dffd2a6bf665a2b24"
       },
       "readingSummary": "Distributed work is not defined by distance.",
-      "contextTokens": 326,
+      "contextTokens": 316,
       "distance": 4,
       "parent": "G25",
       "routeEdge": "apoyo:N1296:G25",
@@ -658,8 +663,9 @@
       "tagWeights": {
         "documentacion": 1
       },
-      "contextTokens": 63,
+      "contextTokens": 62,
       "positionHeaderTokens": 40,
+      "positionHeaderTokensEn": 37,
       "distance": 5,
       "parent": "G41",
       "routeEdge": "concepto:B500",
@@ -671,8 +677,8 @@
       "id": "contiene:doc-4b88133cc260c8d3a0-entrada:N2",
       "from": "doc-4b88133cc260c8d3a0-entrada",
       "to": "N2",
-      "kind": "ficha del documento",
-      "reading": "Esta pieza abre la lectura desde su documento de origen.",
+      "kind": "document card",
+      "reading": "This piece opens the reading from its source document.",
       "route": true
     },
     {
@@ -841,7 +847,7 @@
         "navegacion": 0.05,
         "transformacion": 0.25
       },
-      "contextTokens": 126,
+      "contextTokens": 120,
       "distance": 1,
       "parent": "doc-4b88133cc260c8d3a0-entrada",
       "routeEdge": null,
@@ -878,8 +884,9 @@
         "navegacion": 0.05,
         "transformacion": 0.25
       },
-      "contextTokens": 102,
+      "contextTokens": 97,
       "positionHeaderTokens": 42,
+      "positionHeaderTokensEn": 39,
       "distance": 2,
       "parent": "N2",
       "routeEdge": "apoyo:N2:G33",
@@ -922,7 +929,7 @@
         "sourceSha256": "c54594c384cf5c0ddd28c46b4ea56010119f5f54802f73a568caf723b441dd8c"
       },
       "readingSummary": "The JubAp.Net model keeps architecture, engineering, deployment and stabilisation inside one accountable intervention unit, reducing the handoffs that usually produce coordination collapse.",
-      "contextTokens": 288,
+      "contextTokens": 276,
       "distance": 2,
       "parent": "N2",
       "routeEdge": "navigation:position-nav-N2-N1295",
@@ -963,7 +970,7 @@
         "sourceSha256": "6c4874b98dae5df5761ac0d5e5c55e7517fccf023ed0ec35f0fa375a0b684b7f"
       },
       "readingSummary": "GEPLAN, airport transformation, xSeil and Phylons belong to different operating worlds.",
-      "contextTokens": 224,
+      "contextTokens": 214,
       "distance": 2,
       "parent": "N2",
       "routeEdge": "navigation:position-nav-N2-N2086",
@@ -1004,7 +1011,7 @@
         "sourceSha256": "48fbfc1a475e7166a45466a97af4d555f5b47b01fdf2368949cf5adc928781a7"
       },
       "readingSummary": "The Frontier Engineering series follows practical systems work from architecture and integration to field deployment, operational continuity and reusable engineering capability.",
-      "contextTokens": 198,
+      "contextTokens": 191,
       "distance": 2,
       "parent": "N2",
       "routeEdge": "navigation:position-nav-N2-N250",
@@ -1048,8 +1055,9 @@
         "memoria-territorio": 0.037,
         "transformacion": 0.2444
       },
-      "contextTokens": 132,
+      "contextTokens": 120,
       "positionHeaderTokens": 32,
+      "positionHeaderTokensEn": 29,
       "distance": 3,
       "parent": "G33",
       "routeEdge": "concepto:B540",
@@ -1092,7 +1100,7 @@
         "sourceSha256": "2059b99588230f1d2e8e77f47a0e9923f3ca65268b2577aeb25c2e9f7f76581b"
       },
       "readingSummary": "The GEPLAN record supplies an early setting for the distributed engineering lineage.",
-      "contextTokens": 350,
+      "contextTokens": 342,
       "distance": 3,
       "parent": "N1295",
       "routeEdge": "documento:R124",
@@ -1133,7 +1141,7 @@
         "sourceSha256": "8a5fa6463041ea7f5da4f20caaf58d87260866eb21d659bd3aaf42cf5106cd44"
       },
       "readingSummary": "The research and publication policy separates custody, authorship and assessment status.",
-      "contextTokens": 262,
+      "contextTokens": 254,
       "distance": 3,
       "parent": "N2086",
       "routeEdge": "documento:R116",
@@ -1177,8 +1185,9 @@
         "memoria-territorio": 0.1799,
         "transformacion": 0.1111
       },
-      "contextTokens": 146,
+      "contextTokens": 131,
       "positionHeaderTokens": 46,
+      "positionHeaderTokensEn": 43,
       "distance": 4,
       "parent": "N1267",
       "routeEdge": "apoyo:N1267:G41",
@@ -1221,7 +1230,7 @@
         "sourceSha256": "e556bd5df7b37fe7dbba0d89fcec0ef74898ec1e10261e6edecdc2d667e75ceb"
       },
       "readingSummary": "The GEPLAN operating record anchors the problem in field work, resources and service obligations.",
-      "contextTokens": 524,
+      "contextTokens": 517,
       "distance": 4,
       "parent": "N1267",
       "routeEdge": "documento:R082",
@@ -1262,7 +1271,7 @@
         "sourceSha256": "55856fe3575f5ba0f7a802f30aa909e265e8ca2ca4fbf0e7f5385f0415ba9ea1"
       },
       "readingSummary": "The distributed-model origins locate the practice before remote work became a lifestyle category.",
-      "contextTokens": 353,
+      "contextTokens": 348,
       "distance": 4,
       "parent": "N1267",
       "routeEdge": "documento:R123",
@@ -1301,7 +1310,7 @@
         "sourceSha256": "99548a1ff9f034011d0f9f4b285e24d80f60e21f39a5155ca4de23e9dfd29d92"
       },
       "readingSummary": "Tiger Teams may operate as commercial delivery units or inside wider institutional frontier ecosystems.",
-      "contextTokens": 296,
+      "contextTokens": 291,
       "distance": 4,
       "parent": "N1441",
       "routeEdge": "documento:R125",
@@ -1346,7 +1355,7 @@
         "sourceSha256": "9d87b9aef60228296cea6f6635cd09d6e189bbd1e251465dffd2a6bf665a2b24"
       },
       "readingSummary": "Distributed work is not defined by distance.",
-      "contextTokens": 326,
+      "contextTokens": 316,
       "distance": 4,
       "parent": "G25",
       "routeEdge": "apoyo:N1296:G25",
@@ -1371,13 +1380,14 @@
       "tagWeights": {
         "documentacion": 1
       },
-      "contextTokens": 63,
+      "contextTokens": 62,
       "positionHeaderTokens": 40,
+      "positionHeaderTokensEn": 37,
       "distance": 5,
       "parent": "G41",
       "routeEdge": "concepto:B500",
       "affinity": 1
     }
   ],
-  "reading": "# Posicionamiento · JubAp.Net\nDocumento de origen: https://jubap.net/\n\n## JubAp.Net\nJubAp.Net is an engineering and operations unit with roots in the Barcelona Nokia R&D environment, built around critical systems and applied across different technology waves and industrial contexts.\nEtiquetas: Capacidad humana y deuda de inteligencia 35.00%; Investigación y documentación técnica 10.00%; Empresa y gestión 25.00%; Índices, contacto y políticas 5.00%; Transformación y continuidad operativa 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-net-n2/\nDocumento de origen: https://jubap.net/\n\nJubAp.Net → JUBAP (ecosistema de intervención) · documenta el concepto. \n\n## JUBAP (ecosistema de intervención)\nThe JubAp units contribute complementary field and architectural practices across regions.\nEtiquetas: Capacidad humana y deuda de inteligencia 35.00%; Investigación y documentación técnica 10.00%; Empresa y gestión 25.00%; Índices, contacto y políticas 5.00%; Transformación y continuidad operativa 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/jubap-intervention-ecosystem/\n\nJubAp.Net → JubAp.Net Tiger Team Model · lectura enlazada desde el documento. Desde «JubAp.Net», el enlace «Tiger Team operating model» abre «JubAp.Net Tiger Team Model».\nFuente de la relación: https://jubap.net/\n\n## JubAp.Net Tiger Team Model\nThe JubAp.Net model keeps architecture, engineering, deployment and stabilisation inside one accountable intervention unit, reducing the handoffs that usually produce coordination collapse.\n\nLarge transformations rarely fail because organisations lack people, frameworks or budget.\n\nWhen a programme reaches a certain scale — thousands of systems, multiple business units, legacy layers, vendors, cultures, geographies, regulatory constraints and operational dependencies — the usual answer is to add more structure: more project managers, more coordinators, more governance layers, more reporting chains, more workstreams, more ceremonies and more intermediaries.\n\nThe larger the transformation becomes, the more the programme starts managing itself instead of transforming the operation. Coordination becomes the main cost. Context is diluted. Decisions slow down. Accountability fragments. The distance between operational reality and strategic planning increases until the programme can no longer see the system it was created to transform.\nEtiquetas: Autoridad, permisos y delegación 9.53%; Decisiones y responsabilidad 23.81%; Evidencia, procedencia y atribución 9.52%; Experimentación, falsación y contraejemplos 9.52%; Transformación y continuidad operativa 47.62%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-net-tiger-team-model-n1295/\nDocumento de origen: https://jubap.net/jupap-net-tiger-team-model/\n\nJubAp.Net → From Frontier Engineering to Ecosystem Awareness — Twenty Years of Architectural Continuity · lectura enlazada desde el documento. Desde «JubAp.Net», el enlace «architectural-continuity account» abre «From Frontier Engineering to Ecosystem Awareness — Twenty Years of Architectural Continuity».\nFuente de la relación: https://jubap.net/\n\n## From Frontier Engineering to Ecosystem Awareness — Twenty Years of Architectural Continuity\nGEPLAN, airport transformation, xSeil and Phylons belong to different operating worlds. Their common thread is a practical architectural problem: a decision depends on information, resources, relationships and assumptions that can change while the system is running. Twenty years of work across those environments gave that problem concrete form. Current research makes its recurring structure explicit and reusable.\n\nHistorical projects supply engineering evidence. Research develops models and interfaces from that experience; pre-standardization work exposes those proposals to wider technical discussion.\nEtiquetas: Cartografía y señales de ecosistema 22.73%; Evidencia, procedencia y atribución 22.73%; Movilidad e infraestructura 22.72%; Transformación y continuidad operativa 31.82%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/from-frontier-engineering-to-ecosystem-awareness-twenty-years-of-architectural-n2086/\nDocumento de origen: https://jubap.net/frontier-engineering-ecosystem-awareness-architectural-continuity/\n\nJubAp.Net → Case Studies · lectura enlazada desde el documento. Desde «JubAp.Net», el enlace «Explore our Case Studies» abre «Case Studies».\nFuente de la relación: https://jubap.net/\n\n## Case Studies\nThe Frontier Engineering series follows practical systems work from architecture and integration to field deployment, operational continuity and reusable engineering capability. Its cases connect technical decisions with the constraints of the operating environment.\n\nRead each mission through its engineering challenge, the interfaces that had to work together and the capability left in operation. The field archive retains its original cases, photographs and cross-unit lineage.\n\nExplore experience from the other units in our ecosystem. JubAp.eu Strategy & Transformation JubAp.us Americas Integration Unit Logistics and Mobility Unit Deep Tech Deep Tech and Standardizations Unit Tegrity.AI\nEtiquetas: Casos de uso y aplicaciones 22.73%; Movilidad e infraestructura 22.73%; Índices, contacto y políticas 22.72%; Transformación y continuidad operativa 31.82%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/case-studies-n250/\nDocumento de origen: https://jubap.net/case-studies/\n\nJUBAP (ecosistema de intervención) → Tiger Teams · conceptual bridge. \n\n## Tiger Teams\nFocused teams combine architecture, engineering, governance and operational delivery around a mission.\nEtiquetas: Autoridad, permisos y delegación 3.34%; Control mínimo y suficiencia 3.34%; Decisiones y responsabilidad 24.63%; Empresa y gestión 24.63%; Evidencia, procedencia y atribución 6.66%; Experimentación, falsación y contraejemplos 9.26%; Memoria, comunidad y territorio 3.70%; Transformación y continuidad operativa 24.44%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/tiger-teams/\n\nJubAp.Net Distributed Tiger Team Model – origins – → JubAp.Net Tiger Team Model · editorial comparison. For a complementary reading, see [The consolidated Tiger Team operating model](https://jubap.net/jupap-net-tiger-team-model/).\n\n## JubAp.Net Distributed Tiger Team Model – origins –\nThe GEPLAN record supplies an early setting for the distributed engineering lineage. Identify how field observations reached design decisions and how those decisions returned to operation. Preserve the tools, constraints and responsibility arrangements of the period rather than explaining them only through later remote-work terminology.\n\nThe GEPLAN lineage shows how distributed engineering, field proximity and operational intelligence were combined before Industry 4.0 became mainstream language. The model emerged from practice rather than retrospective branding.\n\nWhen the JubAp.Net GEPLAN suite was developed between 2002 and 2008, terms such as Industry 4.0, Industrial IoT, digital twins and operational AI had not yet entered mainstream business language.\n\nYet Mexico already possessed many of the core ingredients needed to build advanced industrial software systems — and a small group of field-embedded engineers, architects and operators was quietly assembling them into something that would anticipate those concepts by nearly a decade.\n\nThe organization behind GEPLAN, JubAp.Net, is today a complex systems intelligence center specialized in Operational AI Integrity. At the time, it operated through two entities: The Integral Management Society in the United States and Corbera Networks in Mexico.\nEtiquetas: Decisiones y responsabilidad 25.93%; Empresa y gestión 25.92%; Experimentación, falsación y contraejemplos 18.52%; Memoria, comunidad y territorio 7.41%; Transformación y continuidad operativa 22.22%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-net-distributed-tiger-team-model-origins-n1267/\nDocumento de origen: https://jubap.net/jubap-net-distributed-tiger-team-model-origins/\n\nJubAp.Net Frontier Operations Role in the IMSV.org Circle → From Frontier Engineering to Ecosystem Awareness — Twenty Years of Architectural Continuity · editorial comparison. For a complementary reading, see [Twenty years of architectural continuity](https://jubap.net/frontier-engineering-ecosystem-awareness-architectural-continuity/).\n\n## JubAp.Net Frontier Operations Role in the IMSV.org Circle\nThe research and publication policy separates custody, authorship and assessment status. Record what an institutional receiver can retain, explain and make available, with the relevant rights and limits. A public contribution, an adopted method and an independently evaluated result remain separate states.\n\nThe architectural-continuity account suggests a valuable role for the circle: retain what an operating problem taught even when it is not ready for commercial generalisation. The field question is what survives the transition from a particular team and client setting into a reusable body of knowledge. Some elements may become a framework; others may remain a bounded case or an unresolved research question. That selective process preserves intellectual continuity without implying common ownership, universal usefulness or validation by association.\nEtiquetas: Empresa y gestión 18.18%; Evidencia, procedencia y atribución 18.18%; Memoria, comunidad y territorio 18.18%; Transformación y continuidad operativa 45.46%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-net-frontier-operations-role-in-the-imsv-org-circle-n1441/\nDocumento de origen: https://jubap.net/jubap-net-role-in-imsv-org-frontier-engineering-and-operations-circle/\n\nJubAp.Net Distributed Tiger Team Model – origins – → Escuela de criterio y comunidades de práctica · documenta el concepto. \n\n## Escuela de criterio y comunidades de práctica\nPractitioners develop and transmit judgment through situated work and reflection.\nEtiquetas: Aprendizaje y transmisión de capacidades 19.65%; Capacidad humana y deuda de inteligencia 3.57%; Decisiones y responsabilidad 12.96%; Empresa y gestión 20.11%; Evidencia, procedencia y atribución 5.35%; Experimentación, falsación y contraejemplos 9.26%; Memoria, comunidad y territorio 17.99%; Transformación y continuidad operativa 11.11%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/school-of-judgment-and-communities-of-practice/\n\nJubAp.Net GEPLAN and the Hidden Logistics Lab Behind PEMEX Operations → JubAp.Net Distributed Tiger Team Model – origins – · editorial comparison. For a complementary reading, see [The field origins of the Tiger Team model](https://jubap.net/jubap-net-distributed-tiger-team-model-origins/).\n\n## JubAp.Net GEPLAN and the Hidden Logistics Lab Behind PEMEX Operations\nThe GEPLAN operating record anchors the problem in field work, resources and service obligations. Identify which observation changed the design and what evidence was needed to obtain it. A useful abstraction retains the constraint that made the mechanism necessary rather than extracting only the attractive feature.\n\nWhen executives speak today about “digital transformation,” they usually refer to programs with formal roadmaps, dedicated offices, and carefully branded initiatives. In the late 2000s, the JubAp.Net GEPLAN program around PEMEX and its transport contractor TETSA was something very different: a practical, field-driven, and quietly radical transformation that never used the term, yet achieved exactly what many programs still claim to pursue.\n\nGEPLAN was a field-driven transformation around complex PEMEX logistics. It connected incident response, process reengineering, software and governance before “digital transformation” became a standard programme label.\n\nAt the time, we operated as Corbera Networks , within the broader Integral Management lineage that later evolved into JubAp.Net. The team engaged in a logistics and planning system for one of the most complex oil projects in Latin America, Chicontepec, where thousands of wells, irregular production, rugged terrain, and scattered communities made coordination extraordinarily difficult. Over time, it evolved into a proto-ERP with modules for logistics, fleet maintenance (CMMS), warehouse management, purchasing, finance, HR, and administration, becoming the digital backbone of transport operations serving PEMEX in central and northern Mexico.\n\nIn its early phase, the JubAp.Net GEPLAN team spent most of its time putting out fires: solving urgent incidents, dealing with real and invented system errors, and facing any pretext that operators could find to disconnect the system. Behind many of those interruptions, they began to detect patterns: fuel theft from trucks, unregistered entries and exits from fluid plants, overweight trips, and “side” operations for third parties.\nEtiquetas: Economía, costes y liquidez 13.79%; Empresa y gestión 17.24%; Memoria, comunidad y territorio 6.90%; Movilidad e infraestructura 37.93%; Transformación y continuidad operativa 24.14%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-net-geplan-and-the-hidden-logistics-lab-behind-pemex-operations-n1258/\nDocumento de origen: https://jubap.net/before-digital-transformation-had-a-name-jubap-net-geplan-and-the-hidden-logistics-lab-behind-pemex-operations/\n\nBefore Digital Nomads, There Were Distributed Tiger Teams → JubAp.Net Distributed Tiger Team Model – origins – · editorial comparison. For a complementary reading, see [The field-embedded origins of the model](https://jubap.net/jubap-net-distributed-tiger-team-model-origins/).\n\n## Before Digital Nomads, There Were Distributed Tiger Teams\nThe distributed-model origins locate the practice before remote work became a lifestyle category. State which records, constraints and decision rights had to remain usable as the team moved. Location and connectivity are means; the maintained ability to understand and commit the work is the operating test.\n\nThe early JubAp.Net lineage was shaped by distributed R&D, mobility infrastructure and cross-border operational continuity long before remote work became a lifestyle category. Distribution was an engineering requirement, not a perk.\n\nWhen people speak today about digital nomadism, they usually imagine laptops on café tables, co-working spaces, and remote work as a lifestyle choice.\n\nThe early JubAp.Net lineage was shaped by a much more demanding form of distributed work: high-technology information management, mobile infrastructure, remote expert coordination and operational continuity across borders, long before remote work became normalised.\n\nThe founder, Iván Abril Palma, had previously worked as Information Manager in Nokia’s distributed R&D environment in Barcelona. This was not simply about carrying a laptop. It involved the information, infrastructure and coordination logic required to support advanced research and development teams working across mobility, communications and distributed technical environments at the edge of what was possible at the time.\nEtiquetas: Empresa y gestión 24.14%; Geopolítica y fronteras 17.24%; Movilidad e infraestructura 24.14%; Transformación y continuidad operativa 34.48%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/before-digital-nomads-there-were-distributed-tiger-teams-n1261/\nDocumento de origen: https://jubap.net/before-digital-nomads-there-were-distributed-tiger-teams/\n\nJubAp.Net Tiger Teams and Institutional Frontier Ecosystems → JubAp.Net Frontier Operations Role in the IMSV.org Circle · editorial comparison. For a complementary reading, see [JubAp.Net in the IMSV.org institutional architecture](https://jubap.net/jubap-net-role-in-imsv-org-frontier-engineering-and-operations-circle/).\n\n## JubAp.Net Tiger Teams and Institutional Frontier Ecosystems\nTiger Teams may operate as commercial delivery units or inside wider institutional frontier ecosystems. In both cases, the team remains a bounded engineering capability rather than a universal implementation arm.\n\nIn certain contexts, they can also operate inside wider institutional ecosystems where research, governance, patronage, observation and frontier implementation are coordinated around a shared mission.\n\nA Tiger Team is not a general-purpose consulting company. It is not a universal implementation arm. It is not designed to solve every type of problem. It is a focused operational capability that becomes relevant when a defined frontier problem requires high-accountability engineering intervention, operational intelligence, integration, deployment and production stabilization.\n\nJubAp.Net Engineering Tiger Teams are specialized in operational intelligence, mission-critical integration, information management, production-facing systems, operational AI integrity and complex systems engineering under live conditions.\n\nThey do not replace environmental consultancies, cultural institutions, cloud migration factories, generic software vendors, policy think tanks or organizational transformation bodies.\nEtiquetas: Empresa y gestión 35.00%; Memoria, comunidad y territorio 10.00%; Transformación y continuidad operativa 55.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-net-tiger-teams-and-institutional-frontier-ecosystems-n1270/\nDocumento de origen: https://jubap.net/jubap-net-tiger-teams-and-institutional-frontier-ecosystems/\n\nDistributed Tiger Teams VS Freelancer Swarms → Tiger Teams · documenta el concepto. \n\n## Distributed Tiger Teams VS Freelancer Swarms\nDistributed work is not defined by distance. The decisive distinction is whether accountability, context and operational truth remain integrated across the team.\n\nThe Distributed American Innovation account provides an operating setting for work across regions. Define the shared mission, the recipient’s constraints and the route for resolving an exception. Moving a task without its evidence and decision conditions merely relocates coordination work.\n\nLong before 2020, distributed teams already existed in several forms. Some worked on template-based tasks at scale. Some operated as independent high-capability freelancers delivering specialised outputs. Others became fully distributed companies, where entire functions such as teaching, marketing, administration, library management, student coordination or field support operated remotely across locations.\n\nIt was not a marketplace of interchangeable freelancers. It was not a collection of isolated experts delivering separate pieces of work. It was not simply a company allowing remote work.\n\nIt was a high-trust, high-context, high-responsibility operating model designed for frontier operations integration.\nEtiquetas: Autoridad, permisos y delegación 6.67%; Control mínimo y suficiencia 6.67%; Decisiones y responsabilidad 23.33%; Empresa y gestión 23.33%; Evidencia, procedencia y atribución 13.33%; Transformación y continuidad operativa 26.67%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/distributed-tiger-teams-vs-freelancer-swarms-n1296/\nDocumento de origen: https://jubap.net/distributed-tiger-teams-vs-freelancer-swarms/\n\nArquitectura transmisible a implementadores → Escuela de criterio y comunidades de práctica · conceptual bridge. \n\n## Arquitectura transmisible a implementadores\nSpecify roles, interfaces, evidence and conditions so an implementer can reconstruct the operating logic.\nEtiquetas: Investigación y documentación técnica 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/transferable-implementation-architecture/\n\n"
+  "reading": "# Positioning · JubAp.Net\nSource document: https://jubap.net/\n\n## JubAp.Net\nJubAp.Net is an engineering and operations unit with roots in the Barcelona Nokia R&D environment, built around critical systems and applied across different technology waves and industrial contexts.\nTags: Human capability and intelligence debt 35.00%; Research and technical documentation 10.00%; Business and management 25.00%; Indexes, contact and policies 5.00%; Transformation and operational continuity 25.00%\nCard: https://dakleyer.github.io/perspective-beyond/sources/jubap-net-n2/\nSource document: https://jubap.net/\n\nJubAp.Net → JUBAP (ecosistema de intervención) · documenta el concepto. \n\n## JUBAP (ecosistema de intervención)\nThe JubAp units contribute complementary field and architectural practices across regions.\nTags: Human capability and intelligence debt 35.00%; Research and technical documentation 10.00%; Business and management 25.00%; Indexes, contact and policies 5.00%; Transformation and operational continuity 25.00%\nCard: https://dakleyer.github.io/perspective-beyond/concepts/jubap-intervention-ecosystem/\n\nJubAp.Net → JubAp.Net Tiger Team Model · lectura enlazada desde el documento. Desde «JubAp.Net», el enlace «Tiger Team operating model» abre «JubAp.Net Tiger Team Model».\nRelationship source: https://jubap.net/\n\n## JubAp.Net Tiger Team Model\nThe JubAp.Net model keeps architecture, engineering, deployment and stabilisation inside one accountable intervention unit, reducing the handoffs that usually produce coordination collapse.\n\nLarge transformations rarely fail because organisations lack people, frameworks or budget.\n\nWhen a programme reaches a certain scale — thousands of systems, multiple business units, legacy layers, vendors, cultures, geographies, regulatory constraints and operational dependencies — the usual answer is to add more structure: more project managers, more coordinators, more governance layers, more reporting chains, more workstreams, more ceremonies and more intermediaries.\n\nThe larger the transformation becomes, the more the programme starts managing itself instead of transforming the operation. Coordination becomes the main cost. Context is diluted. Decisions slow down. Accountability fragments. The distance between operational reality and strategic planning increases until the programme can no longer see the system it was created to transform.\nTags: Authority, permissions and delegation 9.53%; Decisions and responsibility 23.81%; Evidence, provenance and attribution 9.52%; Experimentation, falsification and counterexamples 9.52%; Transformation and operational continuity 47.62%\nCard: https://dakleyer.github.io/perspective-beyond/sources/jubap-net-tiger-team-model-n1295/\nSource document: https://jubap.net/jupap-net-tiger-team-model/\n\nJubAp.Net → From Frontier Engineering to Ecosystem Awareness — Twenty Years of Architectural Continuity · lectura enlazada desde el documento. Desde «JubAp.Net», el enlace «architectural-continuity account» abre «From Frontier Engineering to Ecosystem Awareness — Twenty Years of Architectural Continuity».\nRelationship source: https://jubap.net/\n\n## From Frontier Engineering to Ecosystem Awareness — Twenty Years of Architectural Continuity\nGEPLAN, airport transformation, xSeil and Phylons belong to different operating worlds. Their common thread is a practical architectural problem: a decision depends on information, resources, relationships and assumptions that can change while the system is running. Twenty years of work across those environments gave that problem concrete form. Current research makes its recurring structure explicit and reusable.\n\nHistorical projects supply engineering evidence. Research develops models and interfaces from that experience; pre-standardization work exposes those proposals to wider technical discussion.\nTags: Cartography and ecosystem signals 22.73%; Evidence, provenance and attribution 22.73%; Mobility and infrastructure 22.72%; Transformation and operational continuity 31.82%\nCard: https://dakleyer.github.io/perspective-beyond/sources/from-frontier-engineering-to-ecosystem-awareness-twenty-years-of-architectural-n2086/\nSource document: https://jubap.net/frontier-engineering-ecosystem-awareness-architectural-continuity/\n\nJubAp.Net → Case Studies · lectura enlazada desde el documento. Desde «JubAp.Net», el enlace «Explore our Case Studies» abre «Case Studies».\nRelationship source: https://jubap.net/\n\n## Case Studies\nThe Frontier Engineering series follows practical systems work from architecture and integration to field deployment, operational continuity and reusable engineering capability. Its cases connect technical decisions with the constraints of the operating environment.\n\nRead each mission through its engineering challenge, the interfaces that had to work together and the capability left in operation. The field archive retains its original cases, photographs and cross-unit lineage.\n\nExplore experience from the other units in our ecosystem. JubAp.eu Strategy & Transformation JubAp.us Americas Integration Unit Logistics and Mobility Unit Deep Tech Deep Tech and Standardizations Unit Tegrity.AI\nTags: Use cases and applications 22.73%; Mobility and infrastructure 22.73%; Indexes, contact and policies 22.72%; Transformation and operational continuity 31.82%\nCard: https://dakleyer.github.io/perspective-beyond/sources/case-studies-n250/\nSource document: https://jubap.net/case-studies/\n\nJUBAP (ecosistema de intervención) → Tiger Teams · conceptual bridge. \n\n## Tiger Teams\nFocused teams combine architecture, engineering, governance and operational delivery around a mission.\nTags: Authority, permissions and delegation 3.34%; Minimum control and sufficiency 3.34%; Decisions and responsibility 24.63%; Business and management 24.63%; Evidence, provenance and attribution 6.66%; Experimentation, falsification and counterexamples 9.26%; Memory, community and territory 3.70%; Transformation and operational continuity 24.44%\nCard: https://dakleyer.github.io/perspective-beyond/concepts/tiger-teams/\n\nJubAp.Net Distributed Tiger Team Model – origins – → JubAp.Net Tiger Team Model · editorial comparison. For a complementary reading, see [The consolidated Tiger Team operating model](https://jubap.net/jupap-net-tiger-team-model/).\n\n## JubAp.Net Distributed Tiger Team Model – origins –\nThe GEPLAN record supplies an early setting for the distributed engineering lineage. Identify how field observations reached design decisions and how those decisions returned to operation. Preserve the tools, constraints and responsibility arrangements of the period rather than explaining them only through later remote-work terminology.\n\nThe GEPLAN lineage shows how distributed engineering, field proximity and operational intelligence were combined before Industry 4.0 became mainstream language. The model emerged from practice rather than retrospective branding.\n\nWhen the JubAp.Net GEPLAN suite was developed between 2002 and 2008, terms such as Industry 4.0, Industrial IoT, digital twins and operational AI had not yet entered mainstream business language.\n\nYet Mexico already possessed many of the core ingredients needed to build advanced industrial software systems — and a small group of field-embedded engineers, architects and operators was quietly assembling them into something that would anticipate those concepts by nearly a decade.\n\nThe organization behind GEPLAN, JubAp.Net, is today a complex systems intelligence center specialized in Operational AI Integrity. At the time, it operated through two entities: The Integral Management Society in the United States and Corbera Networks in Mexico.\nTags: Decisions and responsibility 25.93%; Business and management 25.92%; Experimentation, falsification and counterexamples 18.52%; Memory, community and territory 7.41%; Transformation and operational continuity 22.22%\nCard: https://dakleyer.github.io/perspective-beyond/sources/jubap-net-distributed-tiger-team-model-origins-n1267/\nSource document: https://jubap.net/jubap-net-distributed-tiger-team-model-origins/\n\nJubAp.Net Frontier Operations Role in the IMSV.org Circle → From Frontier Engineering to Ecosystem Awareness — Twenty Years of Architectural Continuity · editorial comparison. For a complementary reading, see [Twenty years of architectural continuity](https://jubap.net/frontier-engineering-ecosystem-awareness-architectural-continuity/).\n\n## JubAp.Net Frontier Operations Role in the IMSV.org Circle\nThe research and publication policy separates custody, authorship and assessment status. Record what an institutional receiver can retain, explain and make available, with the relevant rights and limits. A public contribution, an adopted method and an independently evaluated result remain separate states.\n\nThe architectural-continuity account suggests a valuable role for the circle: retain what an operating problem taught even when it is not ready for commercial generalisation. The field question is what survives the transition from a particular team and client setting into a reusable body of knowledge. Some elements may become a framework; others may remain a bounded case or an unresolved research question. That selective process preserves intellectual continuity without implying common ownership, universal usefulness or validation by association.\nTags: Business and management 18.18%; Evidence, provenance and attribution 18.18%; Memory, community and territory 18.18%; Transformation and operational continuity 45.46%\nCard: https://dakleyer.github.io/perspective-beyond/sources/jubap-net-frontier-operations-role-in-the-imsv-org-circle-n1441/\nSource document: https://jubap.net/jubap-net-role-in-imsv-org-frontier-engineering-and-operations-circle/\n\nJubAp.Net Distributed Tiger Team Model – origins – → Escuela de criterio y comunidades de práctica · documenta el concepto. \n\n## Escuela de criterio y comunidades de práctica\nPractitioners develop and transmit judgment through situated work and reflection.\nTags: Learning and capability transmission 19.65%; Human capability and intelligence debt 3.57%; Decisions and responsibility 12.96%; Business and management 20.11%; Evidence, provenance and attribution 5.35%; Experimentation, falsification and counterexamples 9.26%; Memory, community and territory 17.99%; Transformation and operational continuity 11.11%\nCard: https://dakleyer.github.io/perspective-beyond/concepts/school-of-judgment-and-communities-of-practice/\n\nJubAp.Net GEPLAN and the Hidden Logistics Lab Behind PEMEX Operations → JubAp.Net Distributed Tiger Team Model – origins – · editorial comparison. For a complementary reading, see [The field origins of the Tiger Team model](https://jubap.net/jubap-net-distributed-tiger-team-model-origins/).\n\n## JubAp.Net GEPLAN and the Hidden Logistics Lab Behind PEMEX Operations\nThe GEPLAN operating record anchors the problem in field work, resources and service obligations. Identify which observation changed the design and what evidence was needed to obtain it. A useful abstraction retains the constraint that made the mechanism necessary rather than extracting only the attractive feature.\n\nWhen executives speak today about “digital transformation,” they usually refer to programs with formal roadmaps, dedicated offices, and carefully branded initiatives. In the late 2000s, the JubAp.Net GEPLAN program around PEMEX and its transport contractor TETSA was something very different: a practical, field-driven, and quietly radical transformation that never used the term, yet achieved exactly what many programs still claim to pursue.\n\nGEPLAN was a field-driven transformation around complex PEMEX logistics. It connected incident response, process reengineering, software and governance before “digital transformation” became a standard programme label.\n\nAt the time, we operated as Corbera Networks , within the broader Integral Management lineage that later evolved into JubAp.Net. The team engaged in a logistics and planning system for one of the most complex oil projects in Latin America, Chicontepec, where thousands of wells, irregular production, rugged terrain, and scattered communities made coordination extraordinarily difficult. Over time, it evolved into a proto-ERP with modules for logistics, fleet maintenance (CMMS), warehouse management, purchasing, finance, HR, and administration, becoming the digital backbone of transport operations serving PEMEX in central and northern Mexico.\n\nIn its early phase, the JubAp.Net GEPLAN team spent most of its time putting out fires: solving urgent incidents, dealing with real and invented system errors, and facing any pretext that operators could find to disconnect the system. Behind many of those interruptions, they began to detect patterns: fuel theft from trucks, unregistered entries and exits from fluid plants, overweight trips, and “side” operations for third parties.\nTags: Economics, costs and liquidity 13.79%; Business and management 17.24%; Memory, community and territory 6.90%; Mobility and infrastructure 37.93%; Transformation and operational continuity 24.14%\nCard: https://dakleyer.github.io/perspective-beyond/sources/jubap-net-geplan-and-the-hidden-logistics-lab-behind-pemex-operations-n1258/\nSource document: https://jubap.net/before-digital-transformation-had-a-name-jubap-net-geplan-and-the-hidden-logistics-lab-behind-pemex-operations/\n\nBefore Digital Nomads, There Were Distributed Tiger Teams → JubAp.Net Distributed Tiger Team Model – origins – · editorial comparison. For a complementary reading, see [The field-embedded origins of the model](https://jubap.net/jubap-net-distributed-tiger-team-model-origins/).\n\n## Before Digital Nomads, There Were Distributed Tiger Teams\nThe distributed-model origins locate the practice before remote work became a lifestyle category. State which records, constraints and decision rights had to remain usable as the team moved. Location and connectivity are means; the maintained ability to understand and commit the work is the operating test.\n\nThe early JubAp.Net lineage was shaped by distributed R&D, mobility infrastructure and cross-border operational continuity long before remote work became a lifestyle category. Distribution was an engineering requirement, not a perk.\n\nWhen people speak today about digital nomadism, they usually imagine laptops on café tables, co-working spaces, and remote work as a lifestyle choice.\n\nThe early JubAp.Net lineage was shaped by a much more demanding form of distributed work: high-technology information management, mobile infrastructure, remote expert coordination and operational continuity across borders, long before remote work became normalised.\n\nThe founder, Iván Abril Palma, had previously worked as Information Manager in Nokia’s distributed R&D environment in Barcelona. This was not simply about carrying a laptop. It involved the information, infrastructure and coordination logic required to support advanced research and development teams working across mobility, communications and distributed technical environments at the edge of what was possible at the time.\nTags: Business and management 24.14%; Geopolitics and borders 17.24%; Mobility and infrastructure 24.14%; Transformation and operational continuity 34.48%\nCard: https://dakleyer.github.io/perspective-beyond/sources/before-digital-nomads-there-were-distributed-tiger-teams-n1261/\nSource document: https://jubap.net/before-digital-nomads-there-were-distributed-tiger-teams/\n\nJubAp.Net Tiger Teams and Institutional Frontier Ecosystems → JubAp.Net Frontier Operations Role in the IMSV.org Circle · editorial comparison. For a complementary reading, see [JubAp.Net in the IMSV.org institutional architecture](https://jubap.net/jubap-net-role-in-imsv-org-frontier-engineering-and-operations-circle/).\n\n## JubAp.Net Tiger Teams and Institutional Frontier Ecosystems\nTiger Teams may operate as commercial delivery units or inside wider institutional frontier ecosystems. In both cases, the team remains a bounded engineering capability rather than a universal implementation arm.\n\nIn certain contexts, they can also operate inside wider institutional ecosystems where research, governance, patronage, observation and frontier implementation are coordinated around a shared mission.\n\nA Tiger Team is not a general-purpose consulting company. It is not a universal implementation arm. It is not designed to solve every type of problem. It is a focused operational capability that becomes relevant when a defined frontier problem requires high-accountability engineering intervention, operational intelligence, integration, deployment and production stabilization.\n\nJubAp.Net Engineering Tiger Teams are specialized in operational intelligence, mission-critical integration, information management, production-facing systems, operational AI integrity and complex systems engineering under live conditions.\n\nThey do not replace environmental consultancies, cultural institutions, cloud migration factories, generic software vendors, policy think tanks or organizational transformation bodies.\nTags: Business and management 35.00%; Memory, community and territory 10.00%; Transformation and operational continuity 55.00%\nCard: https://dakleyer.github.io/perspective-beyond/sources/jubap-net-tiger-teams-and-institutional-frontier-ecosystems-n1270/\nSource document: https://jubap.net/jubap-net-tiger-teams-and-institutional-frontier-ecosystems/\n\nDistributed Tiger Teams VS Freelancer Swarms → Tiger Teams · documenta el concepto. \n\n## Distributed Tiger Teams VS Freelancer Swarms\nDistributed work is not defined by distance. The decisive distinction is whether accountability, context and operational truth remain integrated across the team.\n\nThe Distributed American Innovation account provides an operating setting for work across regions. Define the shared mission, the recipient’s constraints and the route for resolving an exception. Moving a task without its evidence and decision conditions merely relocates coordination work.\n\nLong before 2020, distributed teams already existed in several forms. Some worked on template-based tasks at scale. Some operated as independent high-capability freelancers delivering specialised outputs. Others became fully distributed companies, where entire functions such as teaching, marketing, administration, library management, student coordination or field support operated remotely across locations.\n\nIt was not a marketplace of interchangeable freelancers. It was not a collection of isolated experts delivering separate pieces of work. It was not simply a company allowing remote work.\n\nIt was a high-trust, high-context, high-responsibility operating model designed for frontier operations integration.\nTags: Authority, permissions and delegation 6.67%; Minimum control and sufficiency 6.67%; Decisions and responsibility 23.33%; Business and management 23.33%; Evidence, provenance and attribution 13.33%; Transformation and operational continuity 26.67%\nCard: https://dakleyer.github.io/perspective-beyond/sources/distributed-tiger-teams-vs-freelancer-swarms-n1296/\nSource document: https://jubap.net/distributed-tiger-teams-vs-freelancer-swarms/\n\nArquitectura transmisible a implementadores → Escuela de criterio y comunidades de práctica · conceptual bridge. \n\n## Arquitectura transmisible a implementadores\nSpecify roles, interfaces, evidence and conditions so an implementer can reconstruct the operating logic.\nTags: Research and technical documentation 100.00%\nCard: https://dakleyer.github.io/perspective-beyond/concepts/transferable-implementation-architecture/\n\n"
 }

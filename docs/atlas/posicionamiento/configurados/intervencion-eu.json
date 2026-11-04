@@ -38,8 +38,22 @@
     "aliases": [
       "https://jubap.eu/"
     ],
-    "header": "# Posicionamiento · JubAp.EU\nDocumento de origen: https://jubap.eu/\n\n",
-    "headerTokens": 20,
+    "header": "# Positioning · JubAp.EU\nSource document: https://jubap.eu/\n\n",
+    "headerTokens": 18,
+    "entrySources": [
+      "E2",
+      "G50",
+      "dg-exit_architecture",
+      "dg-action_viability"
+    ],
+    "entryAnchor": "E2",
+    "entryCore": [
+      "G50",
+      "dg-exit_architecture",
+      "dg-action_viability"
+    ],
+    "headerEn": "# Positioning · JubAp.EU\nSource document: https://jubap.eu/\n\n",
+    "headerTokensEn": 18,
     "type": "documento",
     "focus": "E2",
     "seeds": [
@@ -48,11 +62,11 @@
   },
   "budget": {
     "limit": 2000,
-    "used": 1866,
-    "remaining": 134,
-    "nextBlock": 219,
+    "used": 1806,
+    "remaining": 194,
+    "nextBlock": 215,
     "encoding": "o200k_base",
-    "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
+    "accounting": "Sum of independently encoded blocks: document header, card and incoming relationship. The budget applies to selected reading content."
   },
   "reachable": 1547,
   "selected": 8,
@@ -96,7 +110,7 @@
       "type": "documento",
       "url": "https://jubap.eu/",
       "original": "https://jubap.eu/",
-      "summary": "Documento desde el que se abre este posicionamiento.",
+      "summary": "Document from which this positioning opens.",
       "tags": [],
       "tagWeights": {},
       "clusters": [
@@ -143,7 +157,7 @@
         "perspectiva": 0.15,
         "transformacion": 0.25
       },
-      "contextTokens": 115,
+      "contextTokens": 110,
       "distance": 1,
       "parent": "doc-63aa9c575ad7473553-entrada",
       "routeEdge": null,
@@ -181,7 +195,7 @@
         "transformacion": 0.3,
         "autoridad": 0.25
       },
-      "contextTokens": 193,
+      "contextTokens": 187,
       "documentId": "doc-9f9dfa78fdb4325431",
       "distance": 2,
       "parent": "E2",
@@ -217,7 +231,7 @@
         "navegacion": 0.05,
         "transformacion": 0.35
       },
-      "contextTokens": 117,
+      "contextTokens": 109,
       "distance": 2,
       "parent": "E2",
       "routeEdge": "navigation:position-nav-E2-U2",
@@ -252,7 +266,7 @@
         "navegacion": 0.05,
         "transformacion": 0.25
       },
-      "contextTokens": 126,
+      "contextTokens": 120,
       "distance": 2,
       "parent": "E2",
       "routeEdge": "navigation:position-nav-E2-N2",
@@ -291,7 +305,7 @@
         "empresa": 0.2105,
         "perspectiva": 0.2631
       },
-      "contextTokens": 154,
+      "contextTokens": 148,
       "distance": 2,
       "parent": "E2",
       "routeEdge": "navigation:position-nav-E2-E1731",
@@ -336,7 +350,7 @@
         "sourceSha256": "355dd1f05505a4086029bee82577752000405620b064f1b1ee170ef12227c3e5"
       },
       "readingSummary": "A JubAp / IMSV.org rationalization method · Developed through a three-year, 50+ Maison programme\n\nMost rationalization programmes begin by listing systems and ranking them for cost.",
-      "contextTokens": 395,
+      "contextTokens": 386,
       "distance": 3,
       "parent": "E1731",
       "routeEdge": "documento:R023",
@@ -371,7 +385,7 @@
         "sourceSha256": "12f19e254aca12b1b653bfd157d36f8144cf9df7915b13c7222e410178b96f82"
       },
       "readingSummary": "Montblanc operates one of the most complex product portfolios in premium retail.",
-      "contextTokens": 232,
+      "contextTokens": 230,
       "distance": 4,
       "parent": "E1662",
       "routeEdge": "documento:R052",
@@ -408,7 +422,7 @@
         "economia": 0.1538,
         "perspectiva": 0.1538
       },
-      "contextTokens": 152,
+      "contextTokens": 146,
       "distance": 2,
       "parent": "E2",
       "routeEdge": "navigation:position-nav-E2-E1628",
@@ -420,8 +434,8 @@
       "id": "contiene:doc-63aa9c575ad7473553-entrada:E2",
       "from": "doc-63aa9c575ad7473553-entrada",
       "to": "E2",
-      "kind": "ficha del documento",
-      "reading": "Esta pieza abre la lectura desde su documento de origen.",
+      "kind": "document card",
+      "reading": "This piece opens the reading from its source document.",
       "route": true
     },
     {
@@ -581,7 +595,7 @@
         "perspectiva": 0.15,
         "transformacion": 0.25
       },
-      "contextTokens": 115,
+      "contextTokens": 110,
       "distance": 1,
       "parent": "doc-63aa9c575ad7473553-entrada",
       "routeEdge": null,
@@ -619,7 +633,7 @@
         "transformacion": 0.3,
         "autoridad": 0.25
       },
-      "contextTokens": 193,
+      "contextTokens": 187,
       "documentId": "doc-9f9dfa78fdb4325431",
       "distance": 2,
       "parent": "E2",
@@ -655,7 +669,7 @@
         "navegacion": 0.05,
         "transformacion": 0.35
       },
-      "contextTokens": 117,
+      "contextTokens": 109,
       "distance": 2,
       "parent": "E2",
       "routeEdge": "navigation:position-nav-E2-U2",
@@ -690,7 +704,7 @@
         "navegacion": 0.05,
         "transformacion": 0.25
       },
-      "contextTokens": 126,
+      "contextTokens": 120,
       "distance": 2,
       "parent": "E2",
       "routeEdge": "navigation:position-nav-E2-N2",
@@ -729,7 +743,7 @@
         "empresa": 0.2105,
         "perspectiva": 0.2631
       },
-      "contextTokens": 154,
+      "contextTokens": 148,
       "distance": 2,
       "parent": "E2",
       "routeEdge": "navigation:position-nav-E2-E1731",
@@ -774,7 +788,7 @@
         "sourceSha256": "355dd1f05505a4086029bee82577752000405620b064f1b1ee170ef12227c3e5"
       },
       "readingSummary": "A JubAp / IMSV.org rationalization method · Developed through a three-year, 50+ Maison programme\n\nMost rationalization programmes begin by listing systems and ranking them for cost.",
-      "contextTokens": 395,
+      "contextTokens": 386,
       "distance": 3,
       "parent": "E1731",
       "routeEdge": "documento:R023",
@@ -809,7 +823,7 @@
         "sourceSha256": "12f19e254aca12b1b653bfd157d36f8144cf9df7915b13c7222e410178b96f82"
       },
       "readingSummary": "Montblanc operates one of the most complex product portfolios in premium retail.",
-      "contextTokens": 232,
+      "contextTokens": 230,
       "distance": 4,
       "parent": "E1662",
       "routeEdge": "documento:R052",
@@ -846,12 +860,12 @@
         "economia": 0.1538,
         "perspectiva": 0.1538
       },
-      "contextTokens": 152,
+      "contextTokens": 146,
       "distance": 2,
       "parent": "E2",
       "routeEdge": "navigation:position-nav-E2-E1628",
       "affinity": 0
     }
   ],
-  "reading": "# Posicionamiento · JubAp.EU\nDocumento de origen: https://jubap.eu/\n\n## JubAp.EU\nJubAp.eu supports high-stakes socio-technical transformations where technology, operating model or organizational decisions define long-term viability.\nEtiquetas: Decisiones y responsabilidad 10.00%; Empresa y gestión 45.00%; Índices, contacto y políticas 5.00%; Cambio de perspectiva 15.00%; Transformación y continuidad operativa 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-eu-e2/\nDocumento de origen: https://jubap.eu/\n\nIMSV · Ingeniería, transformación y contratación → JubAp.EU · documented institutional reading. JubAp.eu desarrolla transformación mediante la entidad estonia identificada en su web.\nFuente de la relación: https://integralmanagement.ch/ecosistema/\n\n## IMSV · Ingeniería, transformación y contratación\nJubAp.Net aporta ingeniería de frontera, JubAp.eu transformación estratégica y JubAp.us integración operativa y creación de valor. Estas funciones conectan experiencia de campo y especialidades del ecosistema con necesidades organizativas.\n\nJubAp.eu opera mediante OÜ JUBAP, entidad estonia independiente. Para un encargo comercial, la propuesta y el contrato identifican a la entidad responsable de realizarlo y sus obligaciones. La asociación suiza mantiene sus fines, gobierno y patrimonio; la cooperación permite combinar capacidades mediante acuerdos que identifican a cada parte.\nEtiquetas: Autoridad, permisos y delegación 25.00%; Empresa y gestión 45.00%; Transformación y continuidad operativa 30.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-entidades/\nDocumento de origen: https://integralmanagement.ch/ecosistema/\n\nJubAp.EU → JubAp.US · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «JubAp.us» abre «JubAp.US».\nFuente de la relación: https://jubap.eu/\n\n## JubAp.US\nCarve-outs, post-merger integration, joint ventures and SPVs. Operating models that connect people, information and execution.\nEtiquetas: Aprendizaje y transmisión de capacidades 10.00%; Decisiones y responsabilidad 10.00%; Empresa y gestión 40.00%; Índices, contacto y políticas 5.00%; Transformación y continuidad operativa 35.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-us-u2/\nDocumento de origen: https://jubap.us/\n\nJubAp.EU → JubAp.Net · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «JubAp.Net» abre «JubAp.Net».\nFuente de la relación: https://jubap.eu/\n\n## JubAp.Net\nJubAp.Net is an engineering and operations unit with roots in the Barcelona Nokia R&D environment, built around critical systems and applied across different technology waves and industrial contexts.\nEtiquetas: Capacidad humana y deuda de inteligencia 35.00%; Investigación y documentación técnica 10.00%; Empresa y gestión 25.00%; Índices, contacto y políticas 5.00%; Transformación y continuidad operativa 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-net-n2/\nDocumento de origen: https://jubap.net/\n\nJubAp.EU → Reframing Value Creation · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «strategic-reframing account» abre «Reframing Value Creation».\nFuente de la relación: https://jubap.eu/\n\n## Reframing Value Creation\nEl cambio de marco permite reconocer valor que ya existe en recursos, prácticas y relaciones. Una intervención puede comenzar por reorganizar esas capacidades y darles una forma que la organización pueda usar.\nEtiquetas: Casos de uso y aplicaciones 10.53%; Control mínimo y suficiencia 10.53%; Decisiones y responsabilidad 10.53%; Investigación y documentación técnica 10.53%; Economía, costes y liquidez 10.52%; Empresa y gestión 21.05%; Cambio de perspectiva 26.31%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-reframing\nDocumento de origen: https://jubap.eu/reframing-value-creation/\n\nReframing Value Creation → THE DIAMOND INSIDE FRAMEWORK · editorial comparison. For a complementary reading, see [Diamond Inside: discovering value already present](https://jubap.eu/the-diamond-inside-framework/).\n\n## THE DIAMOND INSIDE FRAMEWORK\nA JubAp / IMSV.org rationalization method · Developed through a three-year, 50+ Maison programme\n\nMost rationalization programmes begin by listing systems and ranking them for cost. In a uniform organization that can work. In a decentralized, heritage-rich group it quietly destroys value, because the things that make such a group valuable — local excellence, cultural identity, hard-won adaptations — rarely show up on a portfolio list as anything other than «duplicates.»\n\nThis is the trap the Cost of Clarity work names precisely: the information you would need to rationalize safely is treated as free, when in fact it is costly and often missing. Declaring a clean target architecture and cutting toward it is not a safe cleanup — it is a blind bet against value you cannot see. Diamond Inside is the operational answer to that bet: pay the cost of clarity up front, understand why each capability exists, and only then decide.\n\nRead the capability, its dependencies and tacit support before classifying an option. The luxury rationalization case supplies the field setting described by the method. Anything proposed for wider use then needs its own admission decision: local usefulness is evidence to examine, not automatic readiness to scale.\n\nThe programme stops asking «what can we remove?» and starts asking «what value is already inside the group that we cannot yet see — and which of it is worth scaling?»\nEtiquetas: Control mínimo y suficiencia 6.67%; Economía, costes y liquidez 26.67%; Empresa y gestión 23.33%; Evidencia, procedencia y atribución 13.33%; Memoria, comunidad y territorio 6.67%; Transformación y continuidad operativa 23.33%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/the-diamond-inside-framework-e1662/\nDocumento de origen: https://jubap.eu/the-diamond-inside-framework/\n\nMontblanc — Lightweight Product Intelligence for Luxury In-Store Conversion → THE DIAMOND INSIDE FRAMEWORK · editorial comparison. For a complementary reading, see [The Diamond Inside value-discovery framework](https://jubap.eu/the-diamond-inside-framework/).\n\n## Montblanc — Lightweight Product Intelligence for Luxury In-Store Conversion\nMontblanc operates one of the most complex product portfolios in premium retail. With strong brand awareness and consistent in-store traffic across a global network of more than 500 boutiques, the business priority it struggled to resolve was deceptively precise: understanding why a customer who enters the store does not complete a purchase.\n\nThat gap between traffic and conversion is structurally different in a luxury context than in mass retail. For a Maison whose product range spans fine writing instruments, Swiss-manufactured watches, leather goods and connected accessories, each production category operates at different volumes, with different cost structures and different regional demand patterns. Producing and allocating incorrectly in this environment is not just an inventory problem. It is a strategic risk.\nEtiquetas: Empresa y gestión 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/montblanc-lightweight-product-intelligence-for-luxury-in-store-conversion-e1524/\nDocumento de origen: https://jubap.eu/montblanc-lightweight-product-intelligence-for-luxury-in-store-conversion/\n\nJubAp.EU → The JUBAP Framework · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «Jump Up Business Action Plan» abre «The JUBAP Framework».\nFuente de la relación: https://jubap.eu/\n\n## The JUBAP Framework\nEl marco combina el cambio de nivel de observación de UP con el filtro de acciones de JUMP. Las preguntas sobre participación, desbloqueo, movimiento observable y propagación ayudan a elegir por dónde empezar.\nEtiquetas: Autoridad, permisos y delegación 15.39%; Control mínimo y suficiencia 15.39%; Decisiones y responsabilidad 23.08%; Investigación y documentación técnica 15.38%; Economía, costes y liquidez 15.38%; Cambio de perspectiva 15.38%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-jubap-framework\nDocumento de origen: https://jubap.eu/the-jubap-framework/\n\n"
+  "reading": "# Positioning · JubAp.EU\nSource document: https://jubap.eu/\n\n## JubAp.EU\nJubAp.eu supports high-stakes socio-technical transformations where technology, operating model or organizational decisions define long-term viability.\nTags: Decisions and responsibility 10.00%; Business and management 45.00%; Indexes, contact and policies 5.00%; Change of perspective 15.00%; Transformation and operational continuity 25.00%\nCard: https://dakleyer.github.io/perspective-beyond/sources/jubap-eu-e2/\nSource document: https://jubap.eu/\n\nIMSV · Ingeniería, transformación y contratación → JubAp.EU · documented institutional reading. JubAp.eu desarrolla transformación mediante la entidad estonia identificada en su web.\nRelationship source: https://integralmanagement.ch/ecosistema/\n\n## IMSV · Ingeniería, transformación y contratación\nJubAp.Net aporta ingeniería de frontera, JubAp.eu transformación estratégica y JubAp.us integración operativa y creación de valor. Estas funciones conectan experiencia de campo y especialidades del ecosistema con necesidades organizativas.\n\nJubAp.eu opera mediante OÜ JUBAP, entidad estonia independiente. Para un encargo comercial, la propuesta y el contrato identifican a la entidad responsable de realizarlo y sus obligaciones. La asociación suiza mantiene sus fines, gobierno y patrimonio; la cooperación permite combinar capacidades mediante acuerdos que identifican a cada parte.\nTags: Authority, permissions and delegation 25.00%; Business and management 45.00%; Transformation and operational continuity 30.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/institucion/imsv-entidades/\nSource document: https://integralmanagement.ch/ecosistema/\n\nJubAp.EU → JubAp.US · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «JubAp.us» abre «JubAp.US».\nRelationship source: https://jubap.eu/\n\n## JubAp.US\nCarve-outs, post-merger integration, joint ventures and SPVs. Operating models that connect people, information and execution.\nTags: Learning and capability transmission 10.00%; Decisions and responsibility 10.00%; Business and management 40.00%; Indexes, contact and policies 5.00%; Transformation and operational continuity 35.00%\nCard: https://dakleyer.github.io/perspective-beyond/sources/jubap-us-u2/\nSource document: https://jubap.us/\n\nJubAp.EU → JubAp.Net · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «JubAp.Net» abre «JubAp.Net».\nRelationship source: https://jubap.eu/\n\n## JubAp.Net\nJubAp.Net is an engineering and operations unit with roots in the Barcelona Nokia R&D environment, built around critical systems and applied across different technology waves and industrial contexts.\nTags: Human capability and intelligence debt 35.00%; Research and technical documentation 10.00%; Business and management 25.00%; Indexes, contact and policies 5.00%; Transformation and operational continuity 25.00%\nCard: https://dakleyer.github.io/perspective-beyond/sources/jubap-net-n2/\nSource document: https://jubap.net/\n\nJubAp.EU → Reframing Value Creation · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «strategic-reframing account» abre «Reframing Value Creation».\nRelationship source: https://jubap.eu/\n\n## Reframing Value Creation\nEl cambio de marco permite reconocer valor que ya existe en recursos, prácticas y relaciones. Una intervención puede comenzar por reorganizar esas capacidades y darles una forma que la organización pueda usar.\nTags: Use cases and applications 10.53%; Minimum control and sufficiency 10.53%; Decisions and responsibility 10.53%; Research and technical documentation 10.53%; Economics, costs and liquidity 10.52%; Business and management 21.05%; Change of perspective 26.31%\nCard: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-reframing\nSource document: https://jubap.eu/reframing-value-creation/\n\nReframing Value Creation → THE DIAMOND INSIDE FRAMEWORK · editorial comparison. For a complementary reading, see [Diamond Inside: discovering value already present](https://jubap.eu/the-diamond-inside-framework/).\n\n## THE DIAMOND INSIDE FRAMEWORK\nA JubAp / IMSV.org rationalization method · Developed through a three-year, 50+ Maison programme\n\nMost rationalization programmes begin by listing systems and ranking them for cost. In a uniform organization that can work. In a decentralized, heritage-rich group it quietly destroys value, because the things that make such a group valuable — local excellence, cultural identity, hard-won adaptations — rarely show up on a portfolio list as anything other than «duplicates.»\n\nThis is the trap the Cost of Clarity work names precisely: the information you would need to rationalize safely is treated as free, when in fact it is costly and often missing. Declaring a clean target architecture and cutting toward it is not a safe cleanup — it is a blind bet against value you cannot see. Diamond Inside is the operational answer to that bet: pay the cost of clarity up front, understand why each capability exists, and only then decide.\n\nRead the capability, its dependencies and tacit support before classifying an option. The luxury rationalization case supplies the field setting described by the method. Anything proposed for wider use then needs its own admission decision: local usefulness is evidence to examine, not automatic readiness to scale.\n\nThe programme stops asking «what can we remove?» and starts asking «what value is already inside the group that we cannot yet see — and which of it is worth scaling?»\nTags: Minimum control and sufficiency 6.67%; Economics, costs and liquidity 26.67%; Business and management 23.33%; Evidence, provenance and attribution 13.33%; Memory, community and territory 6.67%; Transformation and operational continuity 23.33%\nCard: https://dakleyer.github.io/perspective-beyond/sources/the-diamond-inside-framework-e1662/\nSource document: https://jubap.eu/the-diamond-inside-framework/\n\nMontblanc — Lightweight Product Intelligence for Luxury In-Store Conversion → THE DIAMOND INSIDE FRAMEWORK · editorial comparison. For a complementary reading, see [The Diamond Inside value-discovery framework](https://jubap.eu/the-diamond-inside-framework/).\n\n## Montblanc — Lightweight Product Intelligence for Luxury In-Store Conversion\nMontblanc operates one of the most complex product portfolios in premium retail. With strong brand awareness and consistent in-store traffic across a global network of more than 500 boutiques, the business priority it struggled to resolve was deceptively precise: understanding why a customer who enters the store does not complete a purchase.\n\nThat gap between traffic and conversion is structurally different in a luxury context than in mass retail. For a Maison whose product range spans fine writing instruments, Swiss-manufactured watches, leather goods and connected accessories, each production category operates at different volumes, with different cost structures and different regional demand patterns. Producing and allocating incorrectly in this environment is not just an inventory problem. It is a strategic risk.\nTags: Business and management 100.00%\nCard: https://dakleyer.github.io/perspective-beyond/sources/montblanc-lightweight-product-intelligence-for-luxury-in-store-conversion-e1524/\nSource document: https://jubap.eu/montblanc-lightweight-product-intelligence-for-luxury-in-store-conversion/\n\nJubAp.EU → The JUBAP Framework · lectura enlazada desde el documento. Desde «JubAp.EU», el enlace «Jump Up Business Action Plan» abre «The JUBAP Framework».\nRelationship source: https://jubap.eu/\n\n## The JUBAP Framework\nEl marco combina el cambio de nivel de observación de UP con el filtro de acciones de JUMP. Las preguntas sobre participación, desbloqueo, movimiento observable y propagación ayudan a elegir por dónde empezar.\nTags: Authority, permissions and delegation 15.39%; Minimum control and sufficiency 15.39%; Decisions and responsibility 23.08%; Research and technical documentation 15.38%; Economics, costs and liquidity 15.38%; Change of perspective 15.38%\nCard: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-jubap-framework\nSource document: https://jubap.eu/the-jubap-framework/\n\n"
 }

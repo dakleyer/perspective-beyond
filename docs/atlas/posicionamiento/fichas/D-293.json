@@ -13,9 +13,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## El cómputo masivo intenta comprar volumen donde falta estructura\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Puede una buena representación ahorrar búsquedas que una máquina intenta resolver acumulando datos?\nREFLEXIÓN DEL DIÁLOGO (solo expresiones breves cotejadas mediante índice contextual, resto elaboración editorial) — Iván resumió la comparación de forma memorable: «El cómputo masivo intenta comprar con volumen lo que el explorador entrega como estructura». No es una declaración de que la computación a gran escala sea inútil, ni que toda intuición humana supere algoritmos. Contrapone dos caminos para tratar un problema: explorar muchas posibilidades dentro de un espacio fijado o encontrar una representación distinta que cambie qué debe explorarse.\n\nLa experiencia de arquitecturas operativas hace comprensible la analogía. Una aplicación puede necesitar más infraestructura para compensar procesos inconexos; un buen modelo de relaciones puede reducir la carga antes de invertir en ejecución. En investigación de IA, sugiere una hipótesis: detectar cambios de contexto y corregir la definición del problema quizá ahorre parte del cómputo dedicado a optimizar dentro de un mundo ya incorrecto.\n\nPero el resultado queda por probar. Harían falta tareas comparables, presupuestos computacionales observables, calidad de decisiones y casos donde la reestructuración no ayuda. La diferencia no es «humano bueno/máquina mala», sino volumen de búsqueda frente a calidad del espacio de búsqueda.\nEtiquetas: Decisiones y responsabilidad 25.00%; Matemáticas 25.00%; Representación y límites formales 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-293\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-293.html\n\n",
-  "readingSource": null,
-  "tokens": 390,
+  "context": "## El cómputo masivo intenta comprar volumen donde falta estructura\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Puede una buena representación ahorrar búsquedas que una máquina intenta resolver acumulando datos?\nREFLEXIÓN DEL DIÁLOGO (solo expresiones breves cotejadas mediante índice contextual, resto elaboración editorial) — Iván resumió la comparación de forma memorable: «El cómputo masivo intenta comprar con volumen lo que el explorador entrega como estructura». No es una declaración de que la computación a gran escala sea inútil, ni que toda intuición humana supere algoritmos. Contrapone dos caminos para tratar un problema: explorar muchas posibilidades dentro de un espacio fijado o encontrar una representación distinta que cambie qué debe explorarse.\n\nLa experiencia de arquitecturas operativas hace comprensible la analogía. Una aplicación puede necesitar más infraestructura para compensar procesos inconexos; un buen modelo de relaciones puede reducir la carga antes de invertir en ejecución. En investigación de IA, sugiere una hipótesis: detectar cambios de contexto y corregir la definición del problema quizá ahorre parte del cómputo dedicado a optimizar dentro de un mundo ya incorrecto.\n\nPero el resultado queda por probar. Harían falta tareas comparables, presupuestos computacionales observables, calidad de decisiones y casos donde la reestructuración no ayuda. La diferencia no es «humano bueno/máquina mala», sino volumen de búsqueda frente a calidad del espacio de búsqueda.\nTags: Decisions and responsibility 25.00%; Mathematics 25.00%; Representation and formal boundaries 50.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-293\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-293.html\n\n",
+  "tokens": 384,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,10 +22,11 @@
       "to": "dg-math",
       "title": "Pensamiento matemático",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 25,
-      "fichaTokens": 177,
+      "fichaTokens": 159,
       "tagWeights": {
         "aprendizaje": 0.1144,
         "autoridad": 0.0109,
@@ -52,10 +52,11 @@
       "to": "dg-structure",
       "title": "Conciencia estructural",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 25,
-      "fichaTokens": 256,
+      "fichaTokens": 226,
       "tagWeights": {
         "aprendizaje": 0.158,
         "autoridad": 0.0636,
@@ -88,10 +89,11 @@
       "to": "dg-measure",
       "title": "Medir decisiones y consecuencias",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 213,
+      "fichaTokens": 192,
       "tagWeights": {
         "aprendizaje": 0.0552,
         "autoridad": 0.0761,
@@ -120,10 +122,11 @@
       "to": "dg-meta_discrimination",
       "title": "Carga de validar sistemas y sus entradas",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 29,
-      "fichaTokens": 137,
+      "fichaTokens": 126,
       "tagWeights": {
         "autoridad": 0.2083,
         "decision": 0.1607,
@@ -144,10 +147,11 @@
       "to": "dg-explorer_compute",
       "title": "Exploración de marcos frente a fuerza computacional",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 31,
-      "fichaTokens": 98,
+      "fichaTokens": 91,
       "tagWeights": {
         "decision": 0.125,
         "experimentacion": 0.5,
@@ -165,10 +169,11 @@
       "to": "D-055",
       "title": "El infinito, la máquina y sus límites",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El cómputo masivo intenta comprar volumen donde falta estructura» con «El infinito, la máquina y sus límites». Permite contrastar Pensamiento matemático.",
       "relationTokens": 67,
-      "fichaTokens": 541,
+      "fichaTokens": 535,
       "tagWeights": {
         "aprendizaje": 0.5,
         "matematicas": 0.5
@@ -184,10 +189,11 @@
       "to": "D-095",
       "title": "Capacidad informacional, complejidad y exergía",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El cómputo masivo intenta comprar volumen donde falta estructura» con «Capacidad informacional, complejidad y exergía». Permite contrastar Pensamiento matemático, Conciencia estructural.",
       "relationTokens": 80,
-      "fichaTokens": 350,
+      "fichaTokens": 343,
       "tagWeights": {
         "aprendizaje": 0.5,
         "economia": 0.375,
@@ -204,10 +210,11 @@
       "to": "D-100",
       "title": "¿Cuánto cuesta saber lo suficiente para decidir?",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El cómputo masivo intenta comprar volumen donde falta estructura» con «¿Cuánto cuesta saber lo suficiente para decidir?».",
       "relationTokens": 62,
-      "fichaTokens": 311,
+      "fichaTokens": 305,
       "tagWeights": {
         "casos": 0.1818,
         "control-minimo": 0.4546,
@@ -225,10 +232,11 @@
       "to": "D-194",
       "title": "Ni «sistemas» por debajo del negocio ni «complejidad» encerrada en teoría",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El cómputo masivo intenta comprar volumen donde falta estructura» con «Ni «sistemas» por debajo del negocio ni «complejidad» encerrada en teoría». Permite contrastar Conciencia estructural.",
       "relationTokens": 91,
-      "fichaTokens": 405,
+      "fichaTokens": 398,
       "tagWeights": {
         "aprendizaje": 0.3334,
         "empresa": 0.3333,
@@ -245,10 +253,11 @@
       "to": "D-250",
       "title": "Una inversa escrita no puede reconstruir la información que falta",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El cómputo masivo intenta comprar volumen donde falta estructura» con «Una inversa escrita no puede reconstruir la información que falta». Permite contrastar Pensamiento matemático.",
       "relationTokens": 75,
-      "fichaTokens": 408,
+      "fichaTokens": 402,
       "tagWeights": {
         "aprendizaje": 0.8182,
         "matematicas": 0.1818
@@ -264,10 +273,11 @@
       "to": "D-254",
       "title": "El método nace de una paradoja: la perspectiva que decide también tiene puntos ciegos",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El cómputo masivo intenta comprar volumen donde falta estructura» con «El método nace de una paradoja: la perspectiva que decide también tiene puntos ciegos».",
       "relationTokens": 78,
-      "fichaTokens": 437,
+      "fichaTokens": 434,
       "tagWeights": {
         "decision": 0.3333,
         "perspectiva": 0.6667
@@ -283,12 +293,13 @@
       "to": "D-244",
       "title": "Una contradicción puede contagiar máquinas antes de que nadie vea el desastre",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Carga de validar sistemas y sus entradas, Conciencia estructural desde las situaciones que describe cada texto.",
       "relationTokens": 61,
-      "fichaTokens": 430,
+      "fichaTokens": 426,
       "tagWeights": {
-        "transformacion": 1.0
+        "transformacion": 1
       },
       "clusters": [
         "dialogos"
@@ -301,12 +312,13 @@
       "to": "D-245",
       "title": "Llamarlo «AI firewall» no te concede saber qué está filtrando",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Carga de validar sistemas y sus entradas, Conciencia estructural desde las situaciones que describe cada texto.",
       "relationTokens": 62,
-      "fichaTokens": 430,
+      "fichaTokens": 426,
       "tagWeights": {
-        "autoridad": 1.0
+        "autoridad": 1
       },
       "clusters": [
         "dialogos"
@@ -319,10 +331,11 @@
       "to": "D-280",
       "title": "El investigador también ocupa el lugar del oráculo",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Carga de validar sistemas y sus entradas, Pensamiento matemático desde las situaciones que describe cada texto.",
       "relationTokens": 56,
-      "fichaTokens": 411,
+      "fichaTokens": 406,
       "tagWeights": {
         "experimentacion": 0.7143,
         "matematicas": 0.2857
@@ -338,12 +351,13 @@
       "to": "D-292",
       "title": "La IA explota el marco cuando el explorador lo vuelve explícito",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Exploración de marcos frente a fuerza computacional, Conciencia estructural desde las situaciones que describe cada texto.",
       "relationTokens": 63,
-      "fichaTokens": 376,
+      "fichaTokens": 372,
       "tagWeights": {
-        "experimentacion": 1.0
+        "experimentacion": 1
       },
       "clusters": [
         "dialogos"
@@ -356,10 +370,11 @@
       "to": "D-278",
       "title": "Rechazar una entrada también es tomar una decisión",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Carga de validar sistemas y sus entradas, Pensamiento matemático desde las situaciones que describe cada texto.",
       "relationTokens": 57,
-      "fichaTokens": 404,
+      "fichaTokens": 400,
       "tagWeights": {
         "decision": 0.7143,
         "matematicas": 0.2857
@@ -375,10 +390,11 @@
       "to": "GH006",
       "title": "Structural Awareness — Mathematical Utility of Metasyntactic Operations",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "puente de lectura",
       "reading": "La comparación entre explorar un marco y acumular cómputo abre una lectura de las operaciones metasyntácticas: qué cambia al modificar la representación del problema.",
       "relationTokens": 64,
-      "fichaTokens": 229,
+      "fichaTokens": 219,
       "tagWeights": {
         "aprendizaje": 0.0769,
         "control-minimo": 0.1154,

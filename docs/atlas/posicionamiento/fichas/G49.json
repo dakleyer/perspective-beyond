@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "HR de lujo y planificación de turnos",
   "url": "https://dakleyer.github.io/perspective-beyond/concepts/luxury-hr-and-shift-planning/",
-  "documentId": null,
   "sourceIds": [
     "U1312"
   ],
@@ -18,9 +17,8 @@
   "clusters": [
     "us"
   ],
-  "context": "## HR de lujo y planificación de turnos\nA field case connects HR system rationalisation to the operating constraints of scheduling.\nEtiquetas: Aprendizaje y transmisión de capacidades 5.26%; Capacidad humana y deuda de inteligencia 5.26%; Casos de uso y aplicaciones 13.16%; Empresa y gestión 39.48%; Representación y límites formales 5.26%; Transformación y continuidad operativa 31.58%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/luxury-hr-and-shift-planning/\n\n",
-  "readingSource": null,
-  "tokens": 120,
+  "context": "## HR de lujo y planificación de turnos\nA field case connects HR system rationalisation to the operating constraints of scheduling.\nTags: Learning and capability transmission 5.26%; Human capability and intelligence debt 5.26%; Use cases and applications 13.16%; Business and management 39.48%; Representation and formal boundaries 5.26%; Transformation and operational continuity 31.58%\nCard: https://dakleyer.github.io/perspective-beyond/concepts/luxury-hr-and-shift-planning/\n\n",
+  "tokens": 108,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -28,10 +26,11 @@
       "to": "U1312",
       "title": "Case Study: Luxury Group HR Information System Rationalization & Smart Scheduling capabilities deployment",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 31,
-      "fichaTokens": 505,
+      "fichaTokens": 492,
       "tagWeights": {
         "aprendizaje": 0.0526,
         "capacidad-humana": 0.0526,
@@ -51,10 +50,11 @@
       "to": "C02",
       "title": "Restricciones de turnos",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 196,
+      "fichaTokens": 173,
       "tagWeights": {
         "agentes": 0.0455,
         "aprendizaje": 0.0605,
@@ -86,10 +86,11 @@
       "to": "C22",
       "title": "Gobierno de escenarios",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 17,
-      "fichaTokens": 202,
+      "fichaTokens": 184,
       "tagWeights": {
         "agentes": 0.0093,
         "capacidad-humana": 0.0321,
@@ -121,10 +122,11 @@
       "to": "C31",
       "title": "Información constitutiva",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 18,
-      "fichaTokens": 253,
+      "fichaTokens": 224,
       "tagWeights": {
         "aprendizaje": 0.1224,
         "autoridad": 0.0287,
@@ -162,10 +164,11 @@
       "to": "C44",
       "title": "Arbitraje de recursos",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 261,
+      "fichaTokens": 231,
       "tagWeights": {
         "agentes": 0.1274,
         "aprendizaje": 0.003,
@@ -203,10 +206,11 @@
       "to": "G27",
       "title": "xSeil y problemas de asignación",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conceptual bridge",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 102,
+      "fichaTokens": 96,
       "tagWeights": {
         "casos": 0.092,
         "decision": 0.0575,

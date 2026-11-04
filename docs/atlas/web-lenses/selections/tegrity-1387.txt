@@ -1,11 +1,11 @@
-RESPONDE A LA PREGUNTA DEL VISITANTE
-Explica primero aquello que preguntó: identidad, actividad, personas u órganos responsables, utilidad y relación con su situación. Utiliza nombres y hechos encontrados en las fuentes. Presenta después la procedencia, las fechas y los estados relevantes. Las etiquetas, pesos, IDs y presupuestos organizan la búsqueda; no sustituyen la explicación y se muestran cuando el lector los pide.
+ANSWER THE VISITOR'S QUESTION
+First explain what the visitor asked about: identity, activity, responsible people or bodies, usefulness and relevance to their situation. Use names and facts found in the sources. Then present provenance, dates and relevant statuses. Tags, weights, IDs and budgets organise the search; they do not replace the explanation and are displayed when the reader requests them.
 
-LEE LA INSTITUCIÓN ANTES DE PROFUNDIZAR EN UNA SERIE
-Para explicar una organización completa, utiliza su ficha institucional y las lecturas de gobierno, actividad, unidades y entidades relacionadas. Una serie, un autor o un programa expresan una parte de la organización. Cuando la ficha sea breve, esté vacía o no permita contestar algún punto de la pregunta, abre su documento original y las páginas principales que falten antes de redactar la respuesta. Conserva el alcance elegido por el lector; las fuentes pueden completarse dentro de ese alcance. Solicita ampliar el alcance si hace falta salir de él.
+READ THE INSTITUTION BEFORE GOING DEEPER INTO A SERIES
+To explain a complete organisation, use its institutional card and readings on governance, activity, units and related entities. A series, author or programme expresses part of the organisation. When the card is brief, empty or unable to answer part of the question, open its original document and the missing main pages before drafting the answer. Retain the scope chosen by the reader; sources can be supplemented within that scope. Request an expanded scope if you need to go beyond it.
 
-RESPETA LA PREGUNTA Y LA PROCEDENCIA
-La densidad de conexiones sirve para profundizar, no para identificar por sí sola qué representa a una institución. Para una visión general cubre primero sus funciones principales y después sigue las conexiones más pertinentes. Cuando una fecha se refiera a una tradición, un proyecto o una persona jurídica, nombra el sujeto concreto de esa fecha. Si la composición nominal de un órgano no aparece en las fuentes, explica qué órgano es y dónde consultar sus responsables; no inventes nombres.
+RESPECT THE QUESTION AND PROVENANCE
+Connection density supports deeper reading, but does not by itself identify what represents an institution. For an overview, cover its main functions first and then follow the most relevant connections. When a date refers to a tradition, project or legal entity, name the specific subject of that date. If a body's named membership is not in the sources, explain what the body is and where to consult its responsible people; do not invent names.
 
 
 MIND ATLAS / ATLAS MENTAL — NUEVA PERSPECTIVA
@@ -36,8 +36,8 @@ https://github.com/dakleyer/perspective-beyond/tree/main/docs/atlas/web-lenses
 
 SELECTED READING
 
-# Posicionamiento · Minimalistic Regime-Aware Early Warning Systems
-Documento de origen: https://tegrity.ai/minimalistic-regime-aware-early-warning-systems
+# Positioning · Minimalistic Regime-Aware Early Warning Systems
+Source document: https://tegrity.ai/minimalistic-regime-aware-early-warning-systems
 
 ## Minimalistic Regime-Aware Early Warning Systems
 This paper develops a theoretical framework for minimalistic early warning under an intentionally severe observational setting: an unknown system, one scalar observable time series, finite and possibly truncated history, no labels, no causal model, and no privileged external variables. The objective is not forecasting, but regime-change awareness: determining whether present observable behavior remains compatible with a recent observable regime and, when it does not, identifying the direction of the observable break.
@@ -49,44 +49,58 @@ The theoretical contribution proceeds in stages. Leibnizian continuity of determ
 The paper’s principal change of perspective concerns the location of the hard problem. Traditional early warning focuses on the tipping point: the instant or zone at which a system changes regime. Without additional identifiability assumptions, distinct latent processes can generate the same finite observations; exact tipping-time identification is therefore not guaranteed in the paper’s minimal observation model. This paper argues that the deeper structural problem is often contextual: what must be observed, over what historical extent, at what resolution, and through which transformation for present regime identity to become decidable? A regime is a structural relation, and a structural relation requires context. The paper therefore defines a Contextual Sufficiency Boundary—informally, a tailing point —as the earliest historical boundary beyond which additional past observations are not required to preserve the regime distinctions relevant to the declared decision problem.
 
 This reframing does not eliminate the structural difficulty; it relocates and clarifies it. A finite sufficient context may fail to exist, may exist only locally, may be finite for every individual case while remaining unbounded over the problem class, may be non-computably identifiable, or may be too expensive or too slow to acquire and process. More data is not automatically better: excessive history can mix regimes, dilute the current baseline, increase latency, and introduce irrelevant structure. Accordingly, the paper separates five questions that are often conflated: representability, finite contextual sufficiency, computable identification, action safety, and economic-operational feasibility.
-Etiquetas: Cambios de régimen y alerta temprana 28.30%; Cartografía y señales de ecosistema 13.21%; Control mínimo y suficiencia 13.21%; Economía, costes y liquidez 13.21%; Integridad y seguridad de IA 13.21%; Cambio de perspectiva 9.43%; Transformación y continuidad operativa 9.43%
-Ficha: https://dakleyer.github.io/perspective-beyond/sources/minimalistic-regime-aware-early-warning-systems-t1387/
-Documento de origen: https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/
+Tags: Regime changes and early warning 28.30%; Cartography and ecosystem signals 13.21%; Minimum control and sufficiency 13.21%; Economics, costs and liquidity 13.21%; AI integrity and security 13.21%; Change of perspective 9.43%; Transformation and operational continuity 9.43%
+Card: https://dakleyer.github.io/perspective-beyond/sources/minimalistic-regime-aware-early-warning-systems-t1387/
+Source document: https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/
 
 ## Early Warning Systems (EWS)
 Detect signs that an operating regime or assumption is changing.
-Etiquetas: Cambios de régimen y alerta temprana 73.33%; Investigación y documentación técnica 26.67%
-Ficha: https://dakleyer.github.io/perspective-beyond/concepts/early-warning-systems/
+Tags: Regime changes and early warning 73.33%; Research and technical documentation 26.67%
+Card: https://dakleyer.github.io/perspective-beyond/concepts/early-warning-systems/
 
 ## Regime Awareness (RA)
 Detect conditions that could invalidate an earlier interpretation or operating assumption.
-Etiquetas: Agentes y coordinación distribuida 2.16%; Autoridad, permisos y delegación 1.08%; Cambios de régimen y alerta temprana 47.07%; Cartografía y señales de ecosistema 7.25%; Casos de uso y aplicaciones 1.08%; Control mínimo y suficiencia 2.42%; Investigación y documentación técnica 19.88%; Empresa y gestión 1.34%; Estándares e interoperabilidad 2.16%; Evidencia, procedencia y atribución 2.16%; Matemáticas 2.16%; Movilidad e infraestructura 6.96%; Representación y límites formales 3.20%; Transformación y continuidad operativa 1.08%
-Ficha: https://dakleyer.github.io/perspective-beyond/concepts/regime-awareness/
+Tags: Agents and distributed coordination 2.16%; Authority, permissions and delegation 1.08%; Regime changes and early warning 47.07%; Cartography and ecosystem signals 7.25%; Use cases and applications 1.08%; Minimum control and sufficiency 2.42%; Research and technical documentation 19.88%; Business and management 1.34%; Standards and interoperability 2.16%; Evidence, provenance and attribution 2.16%; Mathematics 2.16%; Mobility and infrastructure 6.96%; Representation and formal boundaries 3.20%; Transformation and operational continuity 1.08%
+Card: https://dakleyer.github.io/perspective-beyond/concepts/regime-awareness/
 
 ## Alerta y respuesta
 A warning detects a possible deviation and a response acts on it.
-Etiquetas: Autoridad, permisos y delegación 2.18%; Cambios de régimen y alerta temprana 27.53%; Cartografía y señales de ecosistema 8.30%; Control mínimo y suficiencia 7.56%; Decisiones y responsabilidad 2.17%; Investigación y documentación técnica 5.00%; Economía, costes y liquidez 3.30%; Empresa y gestión 12.96%; Integridad y seguridad de IA 11.64%; Movilidad e infraestructura 5.21%; Cambio de perspectiva 2.36%; Representación y límites formales 4.00%; Transformación y continuidad operativa 7.79%
-Ficha: https://dakleyer.github.io/perspective-beyond/concepts/detection-and-response/
+Tags: Authority, permissions and delegation 2.18%; Regime changes and early warning 27.53%; Cartography and ecosystem signals 8.30%; Minimum control and sufficiency 7.56%; Decisions and responsibility 2.17%; Research and technical documentation 5.00%; Economics, costs and liquidity 3.30%; Business and management 12.96%; AI integrity and security 11.64%; Mobility and infrastructure 5.21%; Change of perspective 2.36%; Representation and formal boundaries 4.00%; Transformation and operational continuity 7.79%
+Card: https://dakleyer.github.io/perspective-beyond/concepts/detection-and-response/
 
 ## Ventana de respuesta
 An answer must be understood, authorised and applied within a usable time.
-Etiquetas: Aprendizaje y transmisión de capacidades 1.08%; Autoridad, permisos y delegación 2.15%; Cambios de régimen y alerta temprana 1.04%; Cartografía y señales de ecosistema 4.17%; Control mínimo y suficiencia 8.37%; Decisiones y responsabilidad 1.61%; Investigación y documentación técnica 15.83%; Economía, costes y liquidez 3.92%; Empresa y gestión 2.84%; Evidencia, procedencia y atribución 23.74%; Experimentación, falsación y contraejemplos 13.89%; Integridad y seguridad de IA 1.08%; Memoria, comunidad y territorio 4.17%; Movilidad e infraestructura 4.47%; Cambio de perspectiva 7.99%; Representación y límites formales 0.81%; Transformación y continuidad operativa 2.84%
-Ficha: https://dakleyer.github.io/perspective-beyond/concepts/response-window/
+Tags: Learning and capability transmission 1.08%; Authority, permissions and delegation 2.15%; Regime changes and early warning 1.04%; Cartography and ecosystem signals 4.17%; Minimum control and sufficiency 8.37%; Decisions and responsibility 1.61%; Research and technical documentation 15.83%; Economics, costs and liquidity 3.92%; Business and management 2.84%; Evidence, provenance and attribution 23.74%; Experimentation, falsification and counterexamples 13.89%; AI integrity and security 1.08%; Memory, community and territory 4.17%; Mobility and infrastructure 4.47%; Change of perspective 7.99%; Representation and formal boundaries 0.81%; Transformation and operational continuity 2.84%
+Card: https://dakleyer.github.io/perspective-beyond/concepts/response-window/
 
 Minimalistic Regime-Aware Early Warning Systems — corpus index → Early Warning Systems (EWS) · documenta el concepto. 
 
 ## Minimalistic Regime-Aware Early Warning Systems — corpus index
 Contenido de la fuente: Main documents and their roles · Interfaces, not merged corpora · Additional work and complementary reading.
-Etiquetas: Cambios de régimen y alerta temprana 73.33%; Investigación y documentación técnica 26.67%
-Ficha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/S07.html
-Documento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/regime-awareness/minimalistic-early-warning-systems/README.md
+Tags: Regime changes and early warning 73.33%; Research and technical documentation 26.67%
+Card: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/S07.html
+Source document: https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/regime-awareness/minimalistic-early-warning-systems/README.md
 
 Regime Awareness: the problem I am working on → Minimalistic Regime-Aware Early Warning Systems · referencia de la fuente. La fuente enlaza esta lectura en «Current public corpus» con el rótulo «Minimalistic Regime-Aware Early Warning Systems».
-Fuente de la relación: https://github.com/dakleyer/structural-awareness-contributions/blob/db6d444867a27510c3e640e3e71904ae11b01fe4/research/regime-awareness/PROGRAMME_CONTEXT.md
+Relationship source: https://github.com/dakleyer/structural-awareness-contributions/blob/db6d444867a27510c3e640e3e71904ae11b01fe4/research/regime-awareness/PROGRAMME_CONTEXT.md
 
 ## Regime Awareness: the problem I am working on
 Contenido de la fuente: Position within the Structural Awareness Programme · The direction in one picture · The central research questions.
-Etiquetas: Agentes y coordinación distribuida 14.29%; Cambios de régimen y alerta temprana 71.43%; Evidencia, procedencia y atribución 14.28%
-Ficha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-e81dcdb1021761.html
-Documento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/db6d444867a27510c3e640e3e71904ae11b01fe4/research/regime-awareness/PROGRAMME_CONTEXT.md
+Tags: Agents and distributed coordination 14.29%; Regime changes and early warning 71.43%; Evidence, provenance and attribution 14.28%
+Card: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-e81dcdb1021761.html
+Source document: https://github.com/dakleyer/structural-awareness-contributions/blob/db6d444867a27510c3e640e3e71904ae11b01fe4/research/regime-awareness/PROGRAMME_CONTEXT.md
+
+Regime Awareness Technology Component Roadmap → Regime Awareness (RA) · documenta el concepto. 
+
+## Regime Awareness Technology Component Roadmap
+Regime Awareness is Tegrity.AI’s concrete technology and operational capability for detecting when the operating conditions, assumptions or control structures behind a system’s recent behaviour are becoming invalid.
+
+It is being developed as a minimal, domain-agnostic capability that can be adapted across environments where cascading effects, structural fragility and regime shifts matter, including AI systems, industrial operations, supply chains, cybersecurity, finance, logistics and critical infrastructures.
+
+Its core function is to help systems identify when the conditions behind their recent behaviour are no longer valid, so that guardrails, buffers and decision boundaries can be adjusted before instability propagates.
+
+This matters because most current systems are optimised for stable conditions. They often perform well until the underlying regime changes, at which point models, thresholds, controls and assumptions can quickly become invalid. In many cases, the problem is not the absence of prediction, but the absence of Regime Awareness.
+Tags: Regime changes and early warning 70.59%; Mobility and infrastructure 29.41%
+Card: https://dakleyer.github.io/perspective-beyond/sources/regime-awareness-technology-component-roadmap-t250/
+Source document: https://tegrity.ai/regime-awareness-roadmap/
 

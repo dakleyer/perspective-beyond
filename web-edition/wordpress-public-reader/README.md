@@ -1,11 +1,11 @@
-# Mind Atlas: lectura pública en el dominio institucional
+# Mind Atlas: public reading on the institutional domain
 
-Entrada: https://integralmanagement.ch/atlas-reader/
+Entry: https://integralmanagement.ch/atlas-reader/
 
-Una única URL descubre la guía, los clústeres, etiquetas, fichas, conceptos, documentos, relaciones, textos UTF-8 y registros JSON. Cada respuesta enlaza la guía con la cabecera HTTP Link describedby. El HTML ya contiene el texto y sus enlaces; el lector no requiere JavaScript, cookies, credenciales o cabeceras especiales.
+A single URL discovers the guide, clusters, tags, cards, concepts, documents, relationships, UTF-8 texts and JSON records. Each response links the guide through the HTTP Link describedby header. The HTML already contains the text and its links; the reader requires no JavaScript, cookies, credentials or special headers.
 
-El componente solo atiende GET y HEAD bajo /atlas-reader/. Su manifiesto enumera los archivos públicos de una revisión inmutable del repositorio y sus SHA-256. La primera lectura recupera el recurso público desde esa revisión, verifica su huella y lo conserva como activo de publicación local en uploads/mind-atlas-reader. Las lecturas posteriores se sirven desde esa copia. El visitante navega únicamente por el dominio institucional.
+The component only handles GET and HEAD under /atlas-reader/. Its manifest lists the public files of an immutable repository revision and their SHA-256 hashes. The first reading retrieves the public resource from that revision, verifies its hash and retains it as a local publication asset in uploads/mind-atlas-reader. Subsequent readings are served from that copy. The visitor navigates only through the institutional domain.
 
-Los campos de las fichas, las relaciones y el grafo permanecen idénticos; el transporte adapta las URLs de navegación de HTML y texto al dominio de lectura. Cada registro JSON de ficha conserva el nodo y sus relaciones completos. El grafo JSON conserva la misma huella que la fuente.
+The fields of the cards, relationships and graph remain identical; the transport adapts the HTML and text navigation URLs to the reading domain. Each card's JSON record retains the complete node and its relationships. The JSON graph retains the same hash as the source.
 
-El paquete se construye con package.py a partir de una revisión ya publicada. No necesita ni contiene material privado, credenciales o copias del espacio de trabajo. No modifica artículos, usuarios, capacidades, contenido editorial, temas ni configuraciones de seguridad. El recurso se publica como un componente propio del proyecto.
+The package is built with package.py from an already published revision. It requires and contains no private material, credentials or workspace copies. It does not modify articles, users, capabilities, editorial content, themes or security settings. The resource is published as a component belonging to the project.

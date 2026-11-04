@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Interfaces civilizatorias y autoridad",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-civilization_interface",
-  "documentId": null,
   "sourceIds": [
     "D-189",
     "D-207",
@@ -20,9 +19,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Interfaces civilizatorias y autoridad\nLeer religión, texto, burocracia, televisión, plataformas e IA como mediaciones de complejidad y poder.\nEtiquetas: Aprendizaje y transmisión de capacidades 16.67%; Autoridad, permisos y delegación 54.17%; Economía, costes y liquidez 16.66%; Estándares e interoperabilidad 12.50%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-civilization_interface\n\n",
-  "readingSource": null,
-  "tokens": 106,
+  "context": "## Interfaces civilizatorias y autoridad\nLeer religión, texto, burocracia, televisión, plataformas e IA como mediaciones de complejidad y poder.\nTags: Learning and capability transmission 16.67%; Authority, permissions and delegation 54.17%; Economics, costs and liquidity 16.66%; Standards and interoperability 12.50%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-civilization_interface\n\n",
+  "tokens": 96,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -30,10 +28,11 @@
       "to": "D-189",
       "title": "De la Iglesia a la IA: quién administra la interfaz con un sistema inmenso",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 30,
-      "fichaTokens": 410,
+      "fichaTokens": 403,
       "tagWeights": {
         "autoridad": 0.375,
         "estandares": 0.625
@@ -49,10 +48,11 @@
       "to": "D-207",
       "title": "Te liberan del amo, pero te heredan su látigo",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 27,
-      "fichaTokens": 423,
+      "fichaTokens": 415,
       "tagWeights": {
         "aprendizaje": 0.3334,
         "autoridad": 0.3333,
@@ -69,10 +69,11 @@
       "to": "D-208",
       "title": "Una IA de bolsillo no debería convertirse en otro jefe",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 413,
+      "fichaTokens": 406,
       "tagWeights": {
         "aprendizaje": 0.5,
         "autoridad": 0.5
@@ -88,12 +89,13 @@
       "to": "D-211",
       "title": "El control de Internet puede culminar antes de la crisis",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 25,
-      "fichaTokens": 407,
+      "fichaTokens": 403,
       "tagWeights": {
-        "autoridad": 1.0
+        "autoridad": 1
       },
       "clusters": [
         "dialogos"
@@ -106,10 +108,11 @@
       "to": "D-262",
       "title": "Una red libre puede convertirse en reserva cuando todos creen que solo cuatro la poseen",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 29,
-      "fichaTokens": 395,
+      "fichaTokens": 390,
       "tagWeights": {
         "autoridad": 0.5,
         "economia": 0.5
@@ -125,10 +128,11 @@
       "to": "dg-governance",
       "title": "Gobernanza y legitimidad",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "redistribuye autoridad",
       "reading": "Cada mediación histórica cambia quién interpreta y decide.",
       "relationTokens": 28,
-      "fichaTokens": 273,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.0321,
         "autoridad": 0.4057,
@@ -162,10 +166,11 @@
       "to": "dg-dialogue_logic",
       "title": "Diálogo pertinente y lógica propuesta",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "reabre la pregunta por",
       "reading": "La IA puede interponer interpretación en lugar de respuesta directa.",
       "relationTokens": 32,
-      "fichaTokens": 93,
+      "fichaTokens": 88,
       "tagWeights": {
         "aprendizaje": 0.3334,
         "decision": 0.3333,
@@ -182,10 +187,11 @@
       "to": "dg-capture",
       "title": "Captura de opciones e incentivos regresivos",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "puede transferir poder hacia",
       "reading": "Simplificar el acceso puede trasladar responsabilidad al operador de la interfaz.",
       "relationTokens": 37,
-      "fichaTokens": 180,
+      "fichaTokens": 161,
       "tagWeights": {
         "aprendizaje": 0.0303,
         "autoridad": 0.0485,
@@ -210,10 +216,11 @@
       "to": "dg-internalized_control",
       "title": "Auditoría interior y libertad condicionada",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "traslada el lugar de la autoridad",
       "reading": "La mediación exterior que desaparece puede renacer como auditoría interior.",
       "relationTokens": 39,
-      "fichaTokens": 120,
+      "fichaTokens": 111,
       "tagWeights": {
         "aprendizaje": 0.2084,
         "autoridad": 0.2083,
@@ -232,10 +239,11 @@
       "to": "dg-imperial_contradiction",
       "title": "Poder, innovación y agotamiento de sentido",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "control no garantiza legitimidad",
       "reading": "Dominar la interfaz no resuelve la pérdida de sentido.",
       "relationTokens": 35,
-      "fichaTokens": 117,
+      "fichaTokens": 111,
       "tagWeights": {
         "autoridad": 0.25,
         "economia": 0.0834,
@@ -253,12 +261,13 @@
       "to": "dg-media_reality",
       "title": "Producción de realidad mediada",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación de ampliación v0.9",
       "reading": "La televisión puede mediar comprensión colectiva.",
       "relationTokens": 31,
-      "fichaTokens": 73,
+      "fichaTokens": 69,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"
@@ -271,10 +280,11 @@
       "to": "dg-intangible_reserves",
       "title": "Reservas intangibles, interfaces y precio",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación de ampliación v0.10",
       "reading": "Las interfaces pueden concentrar control de relaciones.",
       "relationTokens": 35,
-      "fichaTokens": 89,
+      "fichaTokens": 85,
       "tagWeights": {
         "autoridad": 0.25,
         "economia": 0.75

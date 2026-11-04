@@ -14,7 +14,7 @@ export function resolvePosition(graph,value){
  const nodes=new Map(graph.nodes.map(n=>[n.id,n]));
  const exact=nodes.get(value);
  if(exact?.type==='concepto')return {id:exact.id,title:exact.title,url:exact.url,fichas:[exact.id],type:'concepto',focus:exact.id,
-  header:'# Posicionamiento · '+exact.title+'\nConcepto de entrada: '+exact.url+'\n\n',headerTokens:exact.positionHeaderTokens};
+  header:'# Positioning · '+exact.title+'\nEntry concept: '+exact.url+'\n\n',headerTokens:exact.positionHeaderTokensEn??exact.positionHeaderTokens};
  let focus=exact;
  if(!focus&&canonicalURL(value,true)){
   const url=canonicalURL(value,true);
@@ -24,20 +24,20 @@ export function resolvePosition(graph,value){
  }
  let document=focus?.documentId?graph.documents.find(d=>d.id===focus.documentId):graph.documents.find(d=>d.id===value);
  if(!document){const url=canonicalURL(value);document=graph.documents.find(d=>canonicalURL(d.url)===url||d.aliases.some(a=>canonicalURL(a)===url));}
- if(!document)throw Error('El posicionamiento no corresponde a un documento o ficha del Atlas.');
- return {...document,type:'documento',focus:focus?.id??null,seeds:focus?[focus.id]:(document.entrySources??document.fichas)};
+ if(!document)throw Error('The positioning does not correspond to an Atlas document or card.');
+ return {...document,header:document.headerEn??document.header,headerTokens:document.headerTokensEn??document.headerTokens,type:'documento',focus:focus?.id??null,seeds:focus?[focus.id]:(document.entrySources??document.fichas)};
 }
 function integer(params,key,fallback,min,max){
  const raw=params.get(key)??String(fallback),n=Number(raw);
- if(!/^\d+$/.test(raw)||!Number.isSafeInteger(n)||n<min||n>max)throw Error(key+' debe estar entre '+min+' y '+max+'.');return n;
+ if(!/^\d+$/.test(raw)||!Number.isSafeInteger(n)||n<min||n>max)throw Error(key+' must be between '+min+' and '+max+'.');return n;
 }
 export function readPosition(params,graph){
  const point=params.get('posicionamiento')??params.get('desde')??params.get('centro')??params.get('site')??'imsv';
  const position=resolvePosition(graph,point);
  const mode=params.get('modo')??'federated',site=params.get('site');
- if(!['closed','porous','federated'].includes(mode))throw Error('Elige un alcance Cerrado, Poroso o Federado.');
- if(site&&site!=='all'&&!Object.hasOwn(graph.clusters,site))throw Error('Elige un clúster del Atlas.');
- if(mode!=='federated'&&(!site||!Object.hasOwn(graph.clusters,site)))throw Error('El posicionamiento necesita un clúster para ese alcance.');
+ if(!['closed','porous','federated'].includes(mode))throw Error('Choose Closed, Porous or Federated scope.');
+ if(site&&site!=='all'&&!Object.hasOwn(graph.clusters,site))throw Error('Choose an Atlas cluster.');
+ if(mode!=='federated'&&(!site||!Object.hasOwn(graph.clusters,site)))throw Error('Positioning requires a cluster for that scope.');
  const allowed=[...Object.keys(graph.topics).map(k=>'tema:'+k),...Object.keys(graph.clusters).map(k=>'cluster:'+k),
   ...Object.keys(graph.voices??{}).map(k=>'voz:'+k),...graph.nodes.filter(n=>n.type==='concepto').map(n=>'concepto:'+n.id)];
  const tokens=params.getAll('peso').map(p=>/^(tema|cluster|voz|concepto):/i.test(p)?p:'tema:'+p);
@@ -46,23 +46,23 @@ export function readPosition(params,graph){
  const total=[...parsed.weights.values()].reduce((a,b)=>a+b,0);
  const weights=[...parsed.weights].sort(([a],[b])=>cmp(a,b)).map(([tag,value])=>({tag,value,normalized:value/total}));
  const strict=params.get('solo')==='1';
- if(strict&&!weights.some(w=>w.tag.startsWith('tema:')))throw Error('Elige al menos una etiqueta temática para la selección exclusiva.');
+ if(strict&&!weights.some(w=>w.tag.startsWith('tema:')))throw Error('Choose at least one thematic tag for exclusive selection.');
  const rol=params.get('rol')??'lector',lectura=params.get('lectura')??'explore';
  const enfoque=params.get('enfoque')??(weights.length?'personalizado':'parejo');
- if(!['parejo','transversal','personalizado'].includes(enfoque))throw Error('Elige un enfoque de lectura del Atlas.');
- if(!Object.hasOwn(graph.sessionProfiles.roles,rol)||!Object.hasOwn(graph.sessionProfiles.purposes,lectura))throw Error('Elige un rol y un propósito del Atlas.');
+ if(!['parejo','transversal','personalizado'].includes(enfoque))throw Error('Choose an Atlas reading focus.');
+ if(!Object.hasOwn(graph.sessionProfiles.roles,rol)||!Object.hasOwn(graph.sessionProfiles.purposes,lectura))throw Error('Choose an Atlas role and purpose.');
  return {posicionamiento:point,position,tokens:integer(params,'tokens',2000,64,2000000),max:integer(params,'max',60,1,120),rol,lectura,enfoque,instruccion:(params.get('instruccion')??'').slice(0,500),
   red:params.get('red')??'ideas',sentido:params.get('sentido')??'ambas',modo:mode,site,puente:mode==='porous'?params.get('puente'):null,
   solo:strict,pesos:weights};
 }
 export function nodeText(node,topics){
  const tags=Object.entries(node.tagWeights).sort(([a],[b])=>cmp(a,b)).map(([k,v])=>topics[k]+' '+(v*100).toFixed(2)+'%').join('; ');
- return '## '+node.title+'\n'+(node.reading??node.summary)+'\nEtiquetas: '+tags+'\nFicha: '+node.url+'\n'+(node.original?'Documento de origen: '+node.original+'\n':'')+'\n';
+ return '## '+node.title+'\n'+(node.reading??node.summary)+'\nTags: '+tags+'\nCard: '+node.url+'\n'+(node.original?'Source document: '+node.original+'\n':'')+'\n';
 }
-export function edgeText(edge,nodes){return nodes.get(edge[1]).title+' → '+nodes.get(edge[2]).title+' · '+edge[3]+'. '+edge[4]+(edge[5]?'\nFuente de la relación: '+edge[5]:'')+'\n\n';}
+export function edgeText(edge,nodes){return nodes.get(edge[1]).title+' → '+nodes.get(edge[2]).title+' · '+edge[3]+'. '+edge[4]+(edge[5]?'\nRelationship source: '+edge[5]:'')+'\n\n';}
 
 export function positionMap(graph,request){
- if(!['ideas','documentos'].includes(request.red)||!['ambas','salientes','entrantes'].includes(request.sentido))throw Error('Revisa el tipo o el sentido de las relaciones.');
+ if(!['ideas','documentos'].includes(request.red)||!['ambas','salientes','entrantes'].includes(request.sentido))throw Error('Review the relationship type or direction.');
  const all=new Map(graph.nodes.map(n=>[n.id,n]));
  const support=new Map();
  for(const e of graph.edges)if(e[6]==='apoyo'){if(!support.has(e[1]))support.set(e[1],new Set());support.get(e[1]).add(e[2]);}
@@ -72,9 +72,9 @@ export function positionMap(graph,request){
  let bridge=null;
  if(request.modo==='porous'){
   bridge=universe.find(e=>e[0]===request.puente||e[0]==='documento:'+request.puente);
-  if(!bridge)throw Error('Elige un puente registrado para ese posicionamiento.');
+  if(!bridge)throw Error('Choose a recorded bridge for that positioning.');
   const from=all.get(bridge[1]),to=all.get(bridge[2]);
-  if(!from.clusters.includes(request.site)||to.clusters.includes(request.site))throw Error('El puente debe salir del clúster elegido.');
+  if(!from.clusters.includes(request.site)||to.clusters.includes(request.site))throw Error('The bridge must leave the chosen cluster.');
   to.clusters.forEach(k=>allowed.add(k));
  }
  const value=(node,key)=>{
@@ -89,7 +89,7 @@ export function positionMap(graph,request){
   (request.modo!=='porous'||node.clusters.every(k=>k===request.site)||node.clusters.every(k=>k!==request.site))&&
   (!request.solo||request.pesos.some(p=>p.tag.startsWith('tema:')&&value(node,p.tag)>0));
  const seeds=(request.position.seeds??request.position.fichas).filter(id=>eligible(all.get(id))&&(request.modo!=='porous'||all.get(id).clusters.every(k=>k===request.site)));
- if(!seeds.length)throw Error('Las fichas del documento quedan fuera de esta selección. Ajusta las etiquetas, el alcance o el posicionamiento.');
+ if(!seeds.length)throw Error('The document\'s cards fall outside this selection. Adjust the tags, scope or positioning.');
  const activeEdges=universe.filter(e=>eligible(all.get(e[1]))&&eligible(all.get(e[2]))&&
   (request.red==='ideas'||['documento','navegacion'].includes(e[6]))&&
   (request.modo!=='porous'||all.get(e[1]).clusters.some(k=>all.get(e[2]).clusters.includes(k))||e[0]===bridge[0]));
@@ -127,22 +127,22 @@ export function positionMap(graph,request){
   for(const at of path.reverse()){seen.add(at);sequence.push(at);}
  }
  let used=request.position.headerTokens;const selected=[];let nextCost=null;
- if(used>request.tokens)throw Error('La cabecera del documento necesita '+used+' tokens. Amplía el presupuesto.');
+ if(used>request.tokens)throw Error('The document header requires '+used+' tokens. Increase the budget.');
  for(const id of sequence){
   const visit=visits.get(id),cost=all.get(id).contextTokens+(visit.edge?graph.edgeTokenCosts[visit.edge[0]]:0);
   if(used+cost>request.tokens){nextCost=cost;break;}used+=cost;selected.push(id);
  }
  const picked=new Set(selected);
  const root={id:request.position.id+'-entrada',title:request.position.title,type:request.position.type,
-  url:request.position.url,original:request.position.url,summary:request.position.type==='documento'?'Documento desde el que se abre este posicionamiento.':'Concepto desde el que se abre este posicionamiento.',tags:[],tagWeights:{},clusters:[...allowed],distance:0,parent:null};
+  url:request.position.url,original:request.position.url,summary:request.position.type==='documento'?'Document from which this positioning opens.':'Concept from which this positioning opens.',tags:[],tagWeights:{},clusters:[...allowed],distance:0,parent:null};
  const chosen=selected.map(id=>({...all.get(id),...visits.get(id),edge:undefined,routeEdge:visits.get(id).edge?.[0]??null,parent:visits.get(id).parent??root.id,affinity:affinity.get(id)}));
  // Display a connected prefix; the downloadable reading retains the entire selection.
  const visible=chosen.slice(0,Math.max(0,request.max-1)),visibleIds=new Set([root.id,...visible.map(n=>n.id)]);
  const edges=[];
  for(const n of visible){const v=visits.get(n.id);if(v.edge){const e=v.edge;edges.push({id:e[0],from:e[1],to:e[2],kind:e[3],reading:e[4],evidence:e[5],route:true});}
   else {const owned=request.position.fichas.includes(n.id);edges.push({id:'contiene:'+root.id+':'+n.id,from:root.id,to:n.id,
-   kind:request.position.type==='concepto'?'concepto de entrada':owned?'ficha del documento':'lectura enlazada desde el documento',
-   reading:owned?'Esta pieza abre la lectura desde su documento de origen.':'El documento de entrada enlaza esta lectura del Atlas.',route:true});}}
+   kind:request.position.type==='concepto'?'entry concept':owned?'document card':'reading linked from the document',
+   reading:owned?'This piece opens the reading from its source document.':'The entry document links this Atlas reading.',route:true});}}
  for(const e of activeEdges)if(visibleIds.has(e[1])&&visibleIds.has(e[2])&&!edges.some(x=>x.id===e[0]))edges.push({id:e[0],from:e[1],to:e[2],kind:e[3],reading:e[4],evidence:e[5],route:false});
  const blocks=[request.position.header];
  for(const id of selected){const v=visits.get(id);if(v.edge)blocks.push(edgeText(v.edge,all));blocks.push(nodeText(all.get(id),graph.topics));}

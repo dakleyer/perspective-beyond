@@ -12,9 +12,8 @@
   "clusters": [
     "research"
   ],
-  "context": "## Acceso a la revisión\nFuente de la línea «Reducciones, oráculos y extensiones». El enlace abre el documento en su versión registrada.\nEtiquetas: Investigación y documentación técnica 66.67%; Experimentación, falsación y contraejemplos 33.33%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-48278af622a66e.html\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/aa9e077cdbef5a38af4bb78f94552981459f16ad/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/README_REVIEW.md\n\n",
-  "readingSource": null,
-  "tokens": 165,
+  "context": "## Acceso a la revisión\nFuente de la línea «Reducciones, oráculos y extensiones». El enlace abre el documento en su versión registrada.\nTags: Research and technical documentation 66.67%; Experimentation, falsification and counterexamples 33.33%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-48278af622a66e.html\nSource document: https://github.com/dakleyer/structural-awareness-contributions/blob/aa9e077cdbef5a38af4bb78f94552981459f16ad/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/README_REVIEW.md\n\n",
+  "tokens": 161,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "sac-ae5cfdf16d6d42",
       "title": "Preserved non-canonical working inputs",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «R01 — escenarios, oráculo y trabajos parciales» con el rótulo «Ficha externa de acceso a revisión».",
-      "relationTokens": 117,
-      "fichaTokens": 175,
+      "relationTokens": 115,
+      "fichaTokens": 169,
       "tagWeights": {
         "decision": 0.3334,
         "documentacion": 0.3333,
@@ -42,10 +42,11 @@
       "to": "sac-a10e02075a1791",
       "title": "Revisión cruzada con el oráculo R01 — README.md",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura con el rótulo «Única VNext».",
-      "relationTokens": 117,
-      "fichaTokens": 204,
+      "relationTokens": 115,
+      "fichaTokens": 194,
       "tagWeights": {
         "decision": 0.2105,
         "documentacion": 0.2632,
@@ -64,12 +65,13 @@
       "to": "sac-ec187e0b18f90d",
       "title": "Partial experiments and feasibility diagnostics",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Acceso a la revisión» con el rótulo «README.md».",
-      "relationTokens": 115,
-      "fichaTokens": 140,
+      "relationTokens": 113,
+      "fichaTokens": 136,
       "tagWeights": {
-        "experimentacion": 1.0
+        "experimentacion": 1
       },
       "clusters": [
         "research"

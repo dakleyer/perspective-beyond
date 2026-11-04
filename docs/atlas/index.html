@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Un Atlas público de conceptos, casos y fuentes. Explora sus relaciones o consulta el corpus con tu asistente.">
 <link rel="canonical" href="https://dakleyer.github.io/perspective-beyond/atlas/">
-<title>Atlas global · Perspective Beyond</title>
+<title>Global Atlas · Perspective Beyond</title>
 <style>
 :root{color-scheme:light;--ink:#172d39;--paper:#f7f4ed;--muted:#435960;--blue:#194c5e;--gold:#795922;--line:#d4c9b5}
 *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.55 system-ui,sans-serif}
@@ -29,66 +29,66 @@ input,select,textarea{max-width:100%;border:1px solid #938b7c;background:white;c
 </style>
 <script type="module" src="global.js?v=posicionamiento-1"></script>
 </head>
-<body><nav aria-label="Lectura web completa" style="max-width:78rem;margin:18px auto;padding:14px 20px;border:1px solid #d8cfbe;background:#fffdf8;color:#182f39"><a href="https://integralmanagement.ch/atlas-reader/">Atlas completo · lectura web</a> · <a href="https://integralmanagement.ch/atlas-reader/entrada.txt">Entrada autónoma para asistentes</a> · <a href="https://integralmanagement.ch/atlas-reader/clusters/">Clústeres y recorridos</a></nav><main>
+<body><nav aria-label="Lectura web completa" style="max-width:78rem;margin:18px auto;padding:14px 20px;border:1px solid #d8cfbe;background:#fffdf8;color:#182f39"><a href="https://integralmanagement.ch/atlas-reader/">Complete Atlas · web reader</a> · <a href="https://integralmanagement.ch/atlas-reader/entrada.txt">Self-contained assistant entry</a> · <a href="https://integralmanagement.ch/atlas-reader/clusters/">Clusters and reading paths</a></nav><main>
 <header>
-<p class="label">Perspective Beyond · Atlas de Pensamiento Abierto</p>
-<h1>Atlas global</h1>
-<p class="lead">Explora una sola constelación de ideas, casos y fuentes. Cada clúster ofrece un punto de entrada al mismo corpus, desde Nueva Perspectiva y el Totonacapan hasta la transformación, la ingeniería y la investigación.</p>
-<nav class="nav" aria-label="Entradas del Atlas"><a class="button" href="#asistente">Conecta tu asistente</a><a href="i/">Posicionamientos y códigos QR</a><a href="#explorar">Buscar fichas y conceptos</a><a href="posicionamiento/">Abrir un mini mapa</a><a href="https://tegrity.ai/atlas-orientation/">Comprender el Atlas</a><a href="asistentes/">Fuentes para asistentes</a><a href="https://perspective-beyond-atlas.carvedgem.chatgpt.site/entrada/">Atlas completo en HTML</a><a href="../#atlas">Abrir el grafo conceptual</a><a href="../constelacion/#mapa">Mapa de Nueva Perspectiva</a><a href="dialogos/">Diálogos en red</a><a href="github/">Structural Awareness en GitHub</a></nav>
-<section class="panel" id="web-navigation-phase"><h2>Un complemento para comprender y recorrer las webs</h2><p>En esta fase, el Atlas complementa la navegación y la comprensión de las webs. Cada página es un punto de entrada a sus fichas, conceptos, casos y fuentes; conserva la URL de origen y permite profundizar, relacionar ideas y volver al texto original. La prueba compara estos recorridos dirigidos con la navegación web convencional mediante tokens consumidos, pertinencia de las fuentes y comprensión del corpus.</p><p><a href="web-navigation.md">Cómo se integra con cada página</a> · <a href="https://tegrity.ai/atlas-reader/">Entrada de lectura directa</a></p></section>
-<p id="metrics" class="metric" role="status">Cargando el catálogo público…</p>
+<p class="label">Perspective Beyond · Open Thought Atlas</p>
+<h1>Global Atlas</h1>
+<p class="lead">Explore one constellation of ideas, cases and sources. Each cluster offers an entry point to the same corpus, from Nueva Perspectiva and Totonacapan to transformation, engineering and research.</p>
+<nav class="nav" aria-label="Entradas del Atlas"><a class="button" href="#asistente">Connect your assistant</a><a href="i/">Positionings and QR codes</a><a href="#explorar">Search cards and concepts</a><a href="posicionamiento/">Open a mini-map</a><a href="https://tegrity.ai/atlas-orientation/">Understand the Atlas</a><a href="asistentes/">Assistant sources</a><a href="https://perspective-beyond-atlas.carvedgem.chatgpt.site/entrada/">Complete Atlas en HTML</a><a href="../#atlas">Open the conceptual graph</a><a href="../constelacion/#mapa">Nueva Perspectiva map</a><a href="dialogos/">Networked dialogues</a><a href="github/">Structural Awareness on GitHub</a></nav>
+<section class="panel" id="web-navigation-phase"><h2>A companion for understanding and navigating the websites</h2><p>At this stage, the Atlas complements navigation and understanding of the websites. Each page is an entry point to its cards, concepts, cases and sources; it retains the source URL and allows readers to go deeper, relate ideas and return to the original text. The test compares these directed reading paths with conventional web navigation through tokens consumed, source relevance and corpus understanding.</p><p><a href="web-navigation.md">How it integrates with each page</a> · <a href="https://tegrity.ai/atlas-reader/">Direct reading entry</a></p></section>
+<p id="metrics" class="metric" role="status">Loading the public catalogue…</p>
 </header>
 <section id="explorar" class="panel" aria-labelledby="explore-title">
-<p class="label">Explorador común</p><h2 id="explore-title">Clústeres, fichas y fuentes</h2>
+<p class="label">Shared explorer</p><h2 id="explore-title">Clusters, cards and sources</h2>
 <div id="clusters" class="grid"></div>
 <div id="search-panel" hidden>
-<div class="row"><label for="query">Buscar</label><input type="search" id="query" placeholder="Ej. JUMP UP, xSeil, atribución"><label for="filter">Ámbito</label><select id="filter"></select><label for="topic-filter">Etiqueta</label><select id="topic-filter"><option value="">Todas las etiquetas</option></select><label for="kind">Ver</label><select id="kind"><option value="source">Fichas y fuentes</option><option value="concept">Conceptos</option></select></div>
+<div class="row"><label for="query">Search</label><input type="search" id="query" placeholder="Ej. JUMP UP, xSeil, atribución"><label for="filter">Area</label><select id="filter"></select><label for="topic-filter">Tag</label><select id="topic-filter"><option value="">All tags</option></select><label for="kind">View</label><select id="kind"><option value="source">Cards and sources</option><option value="concept">Concepts</option></select></div>
 <p id="result-count" class="metric" role="status"></p><div id="results" class="grid record-list"></div>
-<div class="row"><button id="more" type="button" class="secondary" hidden>Mostrar más</button></div>
+<div class="row"><button id="more" type="button" class="secondary" hidden>Show more</button></div>
 </div>
 </section>
 <section id="asistente" class="panel" aria-labelledby="assistant-title">
-<p class="label">Asistente de pensamiento</p><h2 id="assistant-title">Conecta tu asistente al Atlas</h2>
-<p>Pega una sola URL en tu asistente. La entrada general le permite preguntarte cómo quieres trabajar. La URL configurada lleva tus elecciones y puedes añadir la pregunta en el mismo mensaje.</p>
-<p><a href="entrada.txt">Abrir la entrada general en texto</a> · <a href="https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/entrada.txt">Texto en GitHub</a> · <a href="guide.html">Guía y perfiles de ejemplo</a> · <a href="atlas-portable.txt" download>Descargar el catálogo portable</a></p>
+<p class="label">Thought assistant</p><h2 id="assistant-title">Connect your assistant to the Atlas</h2>
+<p>Paste a single URL into your assistant. The general entry lets it ask how you want to work. The configured URL carries your choices and you can add your question in the same message.</p>
+<p><a href="entrada.txt">Open the general text entry</a> · <a href="https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/entrada.txt">Text on GitHub</a> · <a href="guide.html">Guide and example profiles</a> · <a href="atlas-portable.txt" download>Download the portable catalogue</a></p>
 <form id="setup" hidden>
-<div class="grid"><div><label for="positioning">Posicionamiento · documento de entrada</label><input id="positioning" placeholder="Documento, ficha o URL de origen"></div><div><label for="token-budget">Presupuesto de tokens para el mini mapa</label><input id="token-budget" type="number" min="64" max="2000000" value="2000" required></div></div>
-<p class="hint">El posicionamiento puede ser la landing de una web o un documento concreto. Sus fichas tienen su propia composición porcentual de etiquetas. Tus pesos orientan el recorrido y el presupuesto determina cuánto entra en la lectura.</p>
-<p><a id="position-map" href="posicionamiento/">Abrir este posicionamiento como mini mapa</a></p>
+<div class="grid"><div><label for="positioning">Positioning · entry document</label><input id="positioning" placeholder="Documento, ficha o URL de origen"></div><div><label for="token-budget">Token budget for the mini-map</label><input id="token-budget" type="number" min="64" max="2000000" value="2000" required></div></div>
+<p class="hint">Positioning can be a website landing page or a specific document. Its cards have their own percentage tag composition. Your weights guide traversal and the budget determines how much enters the reading.</p>
+<p><a id="position-map" href="posicionamiento/">Open this positioning as a mini-map</a></p>
 <div class="grid">
-<div><label for="origin">Clúster de origen</label><select id="origin"></select></div>
-<div><label for="mode">Alcance</label><select id="mode"><option value="closed">Cerrado</option><option value="porous">Poroso</option><option value="federated">Federado</option></select></div>
-<div id="bridge-field" hidden><label for="bridge">Puente a seguir</label><select id="bridge"></select></div>
-<div><label for="role">Rol del asistente</label><select id="role" aria-describedby="role-help"></select></div>
-<div><label for="purpose">Qué quieres hacer</label><select id="purpose"></select></div>
+<div><label for="origin">Origin cluster</label><select id="origin"></select></div>
+<div><label for="mode">Scope</label><select id="mode"><option value="closed">Closed</option><option value="porous">Porous</option><option value="federated">Federated</option></select></div>
+<div id="bridge-field" hidden><label for="bridge">Bridge to follow</label><select id="bridge"></select></div>
+<div><label for="role">Assistant role</label><select id="role" aria-describedby="role-help"></select></div>
+<div><label for="purpose">What you want to do</label><select id="purpose"></select></div>
 </div>
 <p id="scope" class="hint" aria-live="polite"></p>
 <p id="starting-point" class="hint" hidden></p>
 <p id="role-help" class="hint"></p>
 <details class="focus-box" id="role-options">
-<summary>Instrucciones personalizadas</summary>
-<p class="hint" id="custom-hint">Puedes añadir el tono, el formato o el método que quieres. Escribe solo lo que quieras incluir en una URL para compartir.</p>
-<label for="custom-role">Instrucciones de trabajo</label><textarea id="custom-role" maxlength="500" aria-describedby="custom-hint" placeholder="Ej. Explica las ideas en tres puntos y usa un ejemplo para una persona que llega por primera vez."></textarea>
+<summary>Custom instructions</summary>
+<p class="hint" id="custom-hint">You can add your preferred tone, format or method. Write only what you want to include in a shareable URL.</p>
+<label for="custom-role">Working instructions</label><textarea id="custom-role" maxlength="500" aria-describedby="custom-hint" placeholder="Ej. Explica las ideas en tres puntos y usa un ejemplo para una persona que llega por primera vez."></textarea>
 </details>
 <details class="focus-box" id="focus-box" open>
-<summary>Enfoque y ponderación</summary>
-<div class="row"><label for="focus-profile">Cómo repartir la atención</label><select id="focus-profile">
-<option value="parejo">Parejo</option><option value="transversal">Transversal</option><option value="personalizado">Ponderado por mí</option>
+<summary>Focus and weighting</summary>
+<div class="row"><label for="focus-profile">How to distribute attention</label><select id="focus-profile">
+<option value="parejo">Balanced</option><option value="transversal">Cross-cutting</option><option value="personalizado">My own weights</option>
 </select></div>
 <div id="focus-editor" hidden>
-<p class="hint">Combina clústeres y etiquetas. Los pesos son relativos y el Atlas los convierte en un reparto de 100 %.</p>
-<div class="row"><label for="focus-target">Clúster o etiqueta</label><select id="focus-target" class="focus-target"></select><button type="button" class="secondary" id="focus-add">Añadir peso</button></div>
+<p class="hint">Combine clusters and tags. Weights are relative and the Atlas converts them into a 100% allocation.</p>
+<div class="row"><label for="focus-target">Cluster or tag</label><select id="focus-target" class="focus-target"></select><button type="button" class="secondary" id="focus-add">Add weight</button></div>
 <div id="focus-rows"></div>
-<label><input type="checkbox" id="only-topics"> Usar solo las fichas de las etiquetas temáticas elegidas</label>
+<label><input type="checkbox" id="only-topics"> Use only cards with the chosen thematic tags</label>
 </div>
 <p class="hint" id="focus-preview" role="status"></p>
 </details>
-<div class="actions"><button type="button" id="copy-url">Copiar URL para mi asistente</button><a id="entry-url" href="entrada.txt">Abrir URL de esta selección</a><a id="entry-mirror" href="https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/entrada.txt">Abrir esta selección en GitHub</a></div>
-<div class="actions"><a id="web-entry" href="#asistente">Abrir esta configuración web</a><button type="button" class="secondary" id="copy-config">Copiar enlace a esta configuración web</button><button type="button" class="secondary" id="copy">Copiar instrucciones</button><button type="button" class="secondary" id="download">Descargar lectura en Markdown</button></div>
-<label for="prompt">Instrucciones para pegar en tu asistente</label><textarea id="prompt" readonly></textarea>
+<div class="actions"><button type="button" id="copy-url">Copy URL for my assistant</button><a id="entry-url" href="entrada.txt">Open this selection's URL</a><a id="entry-mirror" href="https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/entrada.txt">Open this selection on GitHub</a></div>
+<div class="actions"><a id="web-entry" href="#asistente">Open this web configuration</a><button type="button" class="secondary" id="copy-config">Copy link to this web configuration</button><button type="button" class="secondary" id="copy">Copy instructions</button><button type="button" class="secondary" id="download">Download reading as Markdown</button></div>
+<label for="prompt">Instructions to paste into your assistant</label><textarea id="prompt" readonly></textarea>
 <p id="status" class="hint" role="status"></p>
 </form>
 </section>
-<noscript><p><a href="../sources/">Índice público de fuentes</a> · <a href="../constelacion/#fichas">Fichas de Nueva Perspectiva</a> · <a href="guide.html">Guía del asistente</a></p></noscript>
+<noscript><p><a href="../sources/">Public source index</a> · <a href="../constelacion/#fichas">Nueva Perspectiva cards</a> · <a href="guide.html">Assistant guide</a></p></noscript>
 </main></body>
 </html>

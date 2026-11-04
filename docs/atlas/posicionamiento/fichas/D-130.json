@@ -14,9 +14,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Un juego de roles puede mostrar lo que el organigrama oculta\nINTERLOCUTOR (pregunta editorial) — ¿Por qué representar una situación distinta a la propia podría ayudar a reconocer un bloqueo real?\nREFLEXIÓN DEL ESCRITO (síntesis editorial) — El «juego de vida» de JUMP UP no reproduce literalmente una pelea de departamentos. Iván diseña una escenografía plausible en la que las personas representan papeles diferentes de los que ocupan en la empresa, atraviesan obstáculos y observan cómo sus decisiones afectan al conjunto. Es deliberadamente sutil: si el juego evocara de manera demasiado directa el conflicto real, los participantes levantarían las mismas defensas que mantienen el bloqueo. Después, sin imponerles la analogía, se les pide reconocer por sí mismos la relación con su organización. Puede apoyarse en los ocho pasos de Kotter, pero el aprendizaje decisivo no es memorizar una metodología. Es vivir una perspectiva distinta y volver al problema con una capacidad nueva para proponer salidas.\nEtiquetas: Aprendizaje y transmisión de capacidades 33.34%; Empresa y gestión 22.22%; Cambio de perspectiva 22.22%; Transformación y continuidad operativa 22.22%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-130\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-130.html\n\n",
-  "readingSource": null,
-  "tokens": 307,
+  "context": "## Un juego de roles puede mostrar lo que el organigrama oculta\nINTERLOCUTOR (pregunta editorial) — ¿Por qué representar una situación distinta a la propia podría ayudar a reconocer un bloqueo real?\nREFLEXIÓN DEL ESCRITO (síntesis editorial) — El «juego de vida» de JUMP UP no reproduce literalmente una pelea de departamentos. Iván diseña una escenografía plausible en la que las personas representan papeles diferentes de los que ocupan en la empresa, atraviesan obstáculos y observan cómo sus decisiones afectan al conjunto. Es deliberadamente sutil: si el juego evocara de manera demasiado directa el conflicto real, los participantes levantarían las mismas defensas que mantienen el bloqueo. Después, sin imponerles la analogía, se les pide reconocer por sí mismos la relación con su organización. Puede apoyarse en los ocho pasos de Kotter, pero el aprendizaje decisivo no es memorizar una metodología. Es vivir una perspectiva distinta y volver al problema con una capacidad nueva para proponer salidas.\nTags: Learning and capability transmission 33.34%; Business and management 22.22%; Change of perspective 22.22%; Transformation and operational continuity 22.22%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-130\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-130.html\n\n",
+  "tokens": 300,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -24,10 +23,11 @@
       "to": "dg-perspective",
       "title": "Nueva Perspectiva",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 190,
+      "fichaTokens": 173,
       "tagWeights": {
         "aprendizaje": 0.117,
         "cambio-regimen": 0.019,
@@ -54,10 +54,11 @@
       "to": "dg-learning",
       "title": "Aprendizaje autodirigido",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 29,
-      "fichaTokens": 200,
+      "fichaTokens": 179,
       "tagWeights": {
         "aprendizaje": 0.4664,
         "autoridad": 0.0587,
@@ -85,10 +86,11 @@
       "to": "dg-transform",
       "title": "Transformación organizativa",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 233,
+      "fichaTokens": 208,
       "tagWeights": {
         "aprendizaje": 0.2509,
         "autoridad": 0.0093,
@@ -120,10 +122,11 @@
       "to": "D-205",
       "title": "Nueva Perspectiva no nació en una sala de juntas",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Nueva Perspectiva no nació en una sala de juntas» con «Un juego de roles puede mostrar lo que el organigrama oculta». Permite contrastar Nueva Perspectiva.",
       "relationTokens": 75,
-      "fichaTokens": 367,
+      "fichaTokens": 364,
       "tagWeights": {
         "memoria-territorio": 0.3,
         "perspectiva": 0.7
@@ -139,10 +142,11 @@
       "to": "D-015",
       "title": "Una experiencia que sobrevivió al fracaso",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Nueva Perspectiva, Transformación organizativa desde las situaciones que describe cada texto.",
       "relationTokens": 51,
-      "fichaTokens": 594,
+      "fichaTokens": 587,
       "tagWeights": {
         "aprendizaje": 0.25,
         "empresa": 0.25,
@@ -160,10 +164,11 @@
       "to": "D-083",
       "title": "Habitar, explorar y preguntar por el marco",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Aprendizaje autodirigido, Nueva Perspectiva desde las situaciones que describe cada texto.",
       "relationTokens": 56,
-      "fichaTokens": 298,
+      "fichaTokens": 293,
       "tagWeights": {
         "aprendizaje": 0.5,
         "perspectiva": 0.5
@@ -179,10 +184,11 @@
       "to": "D-223",
       "title": "Dices «cloud» y acabas comprando cloud",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Nueva Perspectiva, Transformación organizativa desde las situaciones que describe cada texto.",
       "relationTokens": 55,
-      "fichaTokens": 451,
+      "fichaTokens": 444,
       "tagWeights": {
         "aprendizaje": 0.25,
         "empresa": 0.25,

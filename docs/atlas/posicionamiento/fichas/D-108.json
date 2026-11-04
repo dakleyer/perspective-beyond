@@ -6,14 +6,13 @@
   "documentId": "doc-db8e7fec0115753fb7",
   "sourceIds": [],
   "tagWeights": {
-    "memoria-territorio": 1.0
+    "memoria-territorio": 1
   },
   "clusters": [
     "dialogos"
   ],
-  "context": "## Esperanto y las comunidades que se eligen\nINTERLOCUTOR (pregunta editorial) — ¿Para qué aprender una lengua que quizá no sea necesaria para cerrar un contrato?\nLECTURA DEL DIÁLOGO (síntesis editorial) — Iván separó el rendimiento puramente instrumental de una lengua de su capacidad para abrir relaciones humanas. En el diálogo sobre Esperanto aparecía la búsqueda de comunidades internacionales con cierta neutralidad elegida, reciprocidad y una relación que no dependiera solo de plataformas sociales. El catalán, el español, el francés o el italiano movilizan memorias, afectos e instituciones diferentes; una lengua construida puede crear una pertenencia distinta, deliberada. La discusión no idealiza el Esperanto ni lo convierte en sustituto del inglés o de las lenguas del territorio. Su interés reside en reconocer que hablar con alguien en la lengua que esa persona considera significativa cambia el tipo de encuentro posible.\nEtiquetas: Memoria, comunidad y territorio 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-108\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-108.html\n\n",
-  "readingSource": null,
-  "tokens": 252,
+  "context": "## Esperanto y las comunidades que se eligen\nINTERLOCUTOR (pregunta editorial) — ¿Para qué aprender una lengua que quizá no sea necesaria para cerrar un contrato?\nLECTURA DEL DIÁLOGO (síntesis editorial) — Iván separó el rendimiento puramente instrumental de una lengua de su capacidad para abrir relaciones humanas. En el diálogo sobre Esperanto aparecía la búsqueda de comunidades internacionales con cierta neutralidad elegida, reciprocidad y una relación que no dependiera solo de plataformas sociales. El catalán, el español, el francés o el italiano movilizan memorias, afectos e instituciones diferentes; una lengua construida puede crear una pertenencia distinta, deliberada. La discusión no idealiza el Esperanto ni lo convierte en sustituto del inglés o de las lenguas del territorio. Su interés reside en reconocer que hablar con alguien en la lengua que esa persona considera significativa cambia el tipo de encuentro posible.\nTags: Memory, community and territory 100.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-108\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-108.html\n\n",
+  "tokens": 249,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -21,10 +20,11 @@
       "to": "dg-community",
       "title": "Comunidades y territorio",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 187,
+      "fichaTokens": 171,
       "tagWeights": {
         "aprendizaje": 0.0473,
         "autoridad": 0.0323,
@@ -51,10 +51,11 @@
       "to": "dg-encounters",
       "title": "Encuentros significativos",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 173,
+      "fichaTokens": 157,
       "tagWeights": {
         "aprendizaje": 0.0926,
         "autoridad": 0.016,
@@ -80,10 +81,11 @@
       "to": "dg-language",
       "title": "Lenguas y pertenencia",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 117,
+      "fichaTokens": 108,
       "tagWeights": {
         "aprendizaje": 0.2,
         "autoridad": 0.08,
@@ -103,12 +105,13 @@
       "to": "D-199",
       "title": "La comida de avión como victoria de la facilidad y derrota de la diferencia",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La comida de avión como victoria de la facilidad y derrota de la diferencia» con «Esperanto y las comunidades que se eligen».",
       "relationTokens": 61,
-      "fichaTokens": 393,
+      "fichaTokens": 390,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "dialogos"
@@ -121,10 +124,11 @@
       "to": "D-290",
       "title": "Tener un DNI no agota lo que significa ser de un país",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Tener un DNI no agota lo que significa ser de un país» con «Esperanto y las comunidades que se eligen». Permite contrastar Lenguas y pertenencia.",
       "relationTokens": 71,
-      "fichaTokens": 381,
+      "fichaTokens": 379,
       "tagWeights": {
         "documentacion": 0.7778,
         "geopolitica": 0.2222
@@ -140,12 +144,13 @@
       "to": "D-298",
       "title": "El fuego puede ser compartido como concepto sin tener una palabra común",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El fuego puede ser compartido como concepto sin tener una palabra común» con «Esperanto y las comunidades que se eligen». Permite contrastar Lenguas y pertenencia.",
       "relationTokens": 69,
-      "fichaTokens": 358,
+      "fichaTokens": 356,
       "tagWeights": {
-        "geopolitica": 1.0
+        "geopolitica": 1
       },
       "clusters": [
         "dialogos"
@@ -158,10 +163,11 @@
       "to": "D-106",
       "title": "La migración como pulso de la sociedad",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Encuentros significativos, Comunidades y territorio desde las situaciones que describe cada texto.",
       "relationTokens": 48,
-      "fichaTokens": 283,
+      "fichaTokens": 280,
       "tagWeights": {
         "geopolitica": 0.4,
         "memoria-territorio": 0.6

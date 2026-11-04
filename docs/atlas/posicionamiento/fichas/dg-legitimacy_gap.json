@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Principios, requisitos y deuda de legitimidad",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-legitimacy_gap",
-  "documentId": null,
   "sourceIds": [
     "D-169",
     "D-170",
@@ -27,9 +26,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Principios, requisitos y deuda de legitimidad\nExaminar la distancia entre fines de la ley y formas de probar cumplimiento, así como la asimetría de poder para imponer criterios.\nEtiquetas: Aprendizaje y transmisión de capacidades 6.25%; Autoridad, permisos y delegación 52.41%; Compromisos y capacidad disponible 1.87%; Decisiones y responsabilidad 6.72%; Empresa y gestión 5.31%; Estándares e interoperabilidad 13.53%; Evidencia, procedencia y atribución 2.66%; Legitimidad y principios 11.25%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-legitimacy_gap\n\n",
-  "readingSource": null,
-  "tokens": 154,
+  "context": "## Principios, requisitos y deuda de legitimidad\nExaminar la distancia entre fines de la ley y formas de probar cumplimiento, así como la asimetría de poder para imponer criterios.\nTags: Learning and capability transmission 6.25%; Authority, permissions and delegation 52.41%; Commitments and available capability 1.87%; Decisions and responsibility 6.72%; Business and management 5.31%; Standards and interoperability 13.53%; Evidence, provenance and attribution 2.66%; Legitimacy and principles 11.25%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-legitimacy_gap\n\n",
+  "tokens": 140,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -37,10 +35,11 @@
       "to": "D-169",
       "title": "Una ley tiene principios; un expediente exige requisitos",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 344,
+      "fichaTokens": 337,
       "tagWeights": {
         "autoridad": 0.3429,
         "estandares": 0.4571,
@@ -57,10 +56,11 @@
       "to": "D-170",
       "title": "O como, o lleno formatos",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 335,
+      "fichaTokens": 331,
       "tagWeights": {
         "autoridad": 0.85,
         "legitimidad": 0.15
@@ -76,10 +76,11 @@
       "to": "D-171",
       "title": "El débil falla requisitos; el poder falla principios",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 27,
-      "fichaTokens": 368,
+      "fichaTokens": 363,
       "tagWeights": {
         "autoridad": 0.5625,
         "decision": 0.1875,
@@ -96,10 +97,11 @@
       "to": "D-172",
       "title": "Un problema filosófico se convierte en una respuesta administrativa",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 331,
+      "fichaTokens": 324,
       "tagWeights": {
         "autoridad": 0.375,
         "estandares": 0.625
@@ -115,10 +117,11 @@
       "to": "D-231",
       "title": "Entregó una investigación; el profesor ni siquiera la leyó",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 30,
-      "fichaTokens": 419,
+      "fichaTokens": 412,
       "tagWeights": {
         "aprendizaje": 0.5,
         "autoridad": 0.5
@@ -134,10 +137,11 @@
       "to": "D-237",
       "title": "Obedecer todas las reglas puede hacer imposible el resultado",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 438,
+      "fichaTokens": 430,
       "tagWeights": {
         "autoridad": 0.2125,
         "compromisos": 0.15,
@@ -155,12 +159,13 @@
       "to": "D-289",
       "title": "El Estado puede leerse como un videojuego con muchos bugs",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 29,
-      "fichaTokens": 371,
+      "fichaTokens": 367,
       "tagWeights": {
-        "autoridad": 1.0
+        "autoridad": 1
       },
       "clusters": [
         "dialogos"
@@ -173,10 +178,11 @@
       "to": "D-296",
       "title": "Una ética institucional también puede ser impugnada desde fuera",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 389,
+      "fichaTokens": 384,
       "tagWeights": {
         "autoridad": 0.35,
         "decision": 0.35,
@@ -193,10 +199,11 @@
       "to": "dg-governance",
       "title": "Gobernanza y legitimidad",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "interroga su justificación",
       "reading": "La conformidad no demuestra cumplimiento de principios.",
       "relationTokens": 31,
-      "fichaTokens": 273,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.0321,
         "autoridad": 0.4057,
@@ -230,10 +237,11 @@
       "to": "dg-operations",
       "title": "Operación real",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "puede desplazar",
       "reading": "El coste de la prueba compite con la capacidad de ejecución.",
       "relationTokens": 31,
-      "fichaTokens": 217,
+      "fichaTokens": 191,
       "tagWeights": {
         "aprendizaje": 0.059,
         "autoridad": 0.1375,
@@ -263,10 +271,11 @@
       "to": "dg-account",
       "title": "Responsabilidad y reparación",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "pide rendición de cuentas a",
       "reading": "El criterio de prueba debe alcanzar a quien define requisitos.",
       "relationTokens": 33,
-      "fichaTokens": 122,
+      "fichaTokens": 112,
       "tagWeights": {
         "aprendizaje": 0.0834,
         "autoridad": 0.2098,
@@ -287,10 +296,11 @@
       "to": "dg-doubt",
       "title": "Duda, pruebas y conocimiento corregible",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conserva abierta",
       "reading": "Un acto administrativo no prueba una verdad filosófica.",
       "relationTokens": 33,
-      "fichaTokens": 268,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.2345,
         "autoridad": 0.0562,
@@ -324,10 +334,11 @@
       "to": "dg-frame_change",
       "title": "Marcos que autorizan opciones y compras",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "expone el formalismo",
       "reading": "Un presupuesto o metodología pueden sustituir el propósito.",
       "relationTokens": 35,
-      "fichaTokens": 131,
+      "fichaTokens": 119,
       "tagWeights": {
         "aprendizaje": 0.2262,
         "autoridad": 0.1905,
@@ -348,10 +359,11 @@
       "to": "dg-evidence_recognition",
       "title": "Valor del trabajo y pruebas de capacidad",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "evalúa fin y requisito",
       "reading": "Un plazo no mide necesariamente aprendizaje.",
       "relationTokens": 31,
-      "fichaTokens": 126,
+      "fichaTokens": 113,
       "tagWeights": {
         "aprendizaje": 0.2,
         "autoridad": 0.1,
@@ -371,10 +383,11 @@
       "to": "dg-cross_frame_coherence",
       "title": "Contribución, atribución e insolvencia por cumplimiento",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "formula insolvencia por cumplimiento",
       "reading": "No existe camino conforme que preserve el resultado.",
       "relationTokens": 37,
-      "fichaTokens": 117,
+      "fichaTokens": 109,
       "tagWeights": {
         "autoridad": 0.182,
         "compromisos": 0.05,
@@ -393,10 +406,11 @@
       "to": "dg-rules_membership",
       "title": "Reglas del Estado y pertenencia vivida",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación transversal propuesta v0.12",
       "reading": "Regla y vida cultural no coinciden sin resto.",
       "relationTokens": 39,
-      "fichaTokens": 94,
+      "fichaTokens": 91,
       "tagWeights": {
         "autoridad": 0.5,
         "documentacion": 0.3889,
@@ -413,10 +427,11 @@
       "to": "dg-open_ethics",
       "title": "Ética impugnable por personas externas",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación transversal propuesta v0.12",
       "reading": "Principios externos frente a regla interna.",
       "relationTokens": 35,
-      "fichaTokens": 83,
+      "fichaTokens": 79,
       "tagWeights": {
         "autoridad": 0.35,
         "decision": 0.35,

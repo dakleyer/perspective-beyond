@@ -14,9 +14,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## El futuro comprometido puede vaciar la capacidad disponible\nINTERLOCUTOR (pregunta editorial) — ¿Puede una empresa crecer en recursos nominales mientras tiene cada vez menos margen para hacer algo nuevo?\nREFLEXIÓN DEL ESCRITO (síntesis editorial) — El puente de 2026 entre «Teoría del Dinero», JUBAP y Human Intelligence Debt rescata una intuición muy precisa. Un sistema crea reglas, garantías, derechos y compromisos para coordinar mejor; esos mismos compromisos reservan capacidad futura de mantenimiento, conciliación y cumplimiento. Cuando crecen más rápido que la retirada de obligaciones obsoletas, la organización puede disponer de más dinero y recursos nominales y, sin embargo, tener menos capacidad libre para actuar. La secuencia propuesta es explícita: iniciativa → obligación/frontera → capacidad comprometida → fricción y mantenimiento → pérdida de trabajo discrecional → deuda de inteligencia humana. Su pregunta no es si toda obligación es mala, sino si el valor que conserva justifica la capacidad que inmoviliza. El escrito separa identidades contables, mecanismos causales e hipótesis empíricas: conserva la idea estructural sin presentar como ley lo que el autor aún quiere medir.\nEtiquetas: Compromisos y capacidad disponible 25.00%; Economía, costes y liquidez 18.75%; Empresa y gestión 37.50%; Transformación y continuidad operativa 18.75%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-138\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-138.html\n\n",
-  "readingSource": null,
-  "tokens": 345,
+  "context": "## El futuro comprometido puede vaciar la capacidad disponible\nINTERLOCUTOR (pregunta editorial) — ¿Puede una empresa crecer en recursos nominales mientras tiene cada vez menos margen para hacer algo nuevo?\nREFLEXIÓN DEL ESCRITO (síntesis editorial) — El puente de 2026 entre «Teoría del Dinero», JUBAP y Human Intelligence Debt rescata una intuición muy precisa. Un sistema crea reglas, garantías, derechos y compromisos para coordinar mejor; esos mismos compromisos reservan capacidad futura de mantenimiento, conciliación y cumplimiento. Cuando crecen más rápido que la retirada de obligaciones obsoletas, la organización puede disponer de más dinero y recursos nominales y, sin embargo, tener menos capacidad libre para actuar. La secuencia propuesta es explícita: iniciativa → obligación/frontera → capacidad comprometida → fricción y mantenimiento → pérdida de trabajo discrecional → deuda de inteligencia humana. Su pregunta no es si toda obligación es mala, sino si el valor que conserva justifica la capacidad que inmoviliza. El escrito separa identidades contables, mecanismos causales e hipótesis empíricas: conserva la idea estructural sin presentar como ley lo que el autor aún quiere medir.\nTags: Commitments and available capability 25.00%; Economics, costs and liquidity 18.75%; Business and management 37.50%; Transformation and operational continuity 18.75%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-138\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-138.html\n\n",
+  "tokens": 339,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -24,10 +23,11 @@
       "to": "dg-economy",
       "title": "Economía y escasez",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 250,
+      "fichaTokens": 222,
       "tagWeights": {
         "aprendizaje": 0.0688,
         "autoridad": 0.0119,
@@ -60,10 +60,11 @@
       "to": "dg-continuity",
       "title": "Continuidad de capacidades",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 222,
+      "fichaTokens": 200,
       "tagWeights": {
         "aprendizaje": 0.0854,
         "autoridad": 0.0264,
@@ -93,10 +94,11 @@
       "to": "dg-commitment",
       "title": "Garantías, deudas y compromisos",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 131,
+      "fichaTokens": 122,
       "tagWeights": {
         "aprendizaje": 0.1786,
         "compromisos": 0.05,
@@ -117,10 +119,11 @@
       "to": "D-170",
       "title": "O como, o lleno formatos",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «O como, o lleno formatos» con «El futuro comprometido puede vaciar la capacidad disponible».",
       "relationTokens": 48,
-      "fichaTokens": 335,
+      "fichaTokens": 331,
       "tagWeights": {
         "autoridad": 0.85,
         "legitimidad": 0.15
@@ -136,10 +139,11 @@
       "to": "D-176",
       "title": "Responsabilidad sin posibilidad de ganar produce selección regresiva",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Responsabilidad sin posibilidad de ganar produce selección regresiva» con «El futuro comprometido puede vaciar la capacidad disponible».",
       "relationTokens": 56,
-      "fichaTokens": 346,
+      "fichaTokens": 342,
       "tagWeights": {
         "decision": 0.75,
         "economia": 0.25
@@ -155,10 +159,11 @@
       "to": "D-201",
       "title": "Una decisión privada puede ser una moneda de liquidez casi nula",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una decisión privada puede ser una moneda de liquidez casi nula» con «El futuro comprometido puede vaciar la capacidad disponible». Permite contrastar Economía y escasez, Garantías, deudas y compromisos.",
       "relationTokens": 81,
-      "fichaTokens": 378,
+      "fichaTokens": 374,
       "tagWeights": {
         "decision": 0.4,
         "economia": 0.6
@@ -174,10 +179,11 @@
       "to": "D-202",
       "title": "Una foto de tomates no es otro tomate",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una foto de tomates no es otro tomate» con «El futuro comprometido puede vaciar la capacidad disponible». Permite contrastar Garantías, deudas y compromisos, Economía y escasez.",
       "relationTokens": 71,
-      "fichaTokens": 380,
+      "fichaTokens": 376,
       "tagWeights": {
         "decision": 0.2,
         "economia": 0.8
@@ -193,10 +199,11 @@
       "to": "D-232",
       "title": "El éxito también consiste en saber qué capacidad podar",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El éxito también consiste en saber qué capacidad podar» con «El futuro comprometido puede vaciar la capacidad disponible». Permite contrastar Continuidad de capacidades.",
       "relationTokens": 65,
-      "fichaTokens": 434,
+      "fichaTokens": 426,
       "tagWeights": {
         "aprendizaje": 0.3333,
         "empresa": 0.1334,
@@ -214,10 +221,11 @@
       "to": "D-295",
       "title": "Un algoritmo democrático no elimina el pan, la gasolina ni el tiempo",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Un algoritmo democrático no elimina el pan, la gasolina ni el tiempo» con «El futuro comprometido puede vaciar la capacidad disponible». Permite contrastar Economía y escasez, Garantías, deudas y compromisos.",
       "relationTokens": 81,
-      "fichaTokens": 420,
+      "fichaTokens": 414,
       "tagWeights": {
         "aprendizaje": 0.2857,
         "economia": 0.7143
@@ -233,10 +241,11 @@
       "to": "D-150",
       "title": "La paz mental de una generación también tuvo precio",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Garantías, deudas y compromisos, Economía y escasez desde las situaciones que describe cada texto.",
       "relationTokens": 54,
-      "fichaTokens": 331,
+      "fichaTokens": 328,
       "tagWeights": {
         "economia": 0.5,
         "geopolitica": 0.5
@@ -252,10 +261,11 @@
       "to": "N1826",
       "title": "Phylons Liquidity Orquestration",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura comparada entre clústeres",
       "reading": "La reflexión sobre obligaciones futuras analiza cómo se reserva capacidad. Phylons separa intención local y autorización de liquidez compartida: la lectura compara cómo reconocer la capacidad disponible antes de comprometerla.",
-      "relationTokens": 97,
-      "fichaTokens": 543,
+      "relationTokens": 95,
+      "fichaTokens": 534,
       "tagWeights": {
         "agentes": 0.1807,
         "autoridad": 0.1032,

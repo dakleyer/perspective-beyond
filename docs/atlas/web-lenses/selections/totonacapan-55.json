@@ -1,1 +1,953 @@
-{"schema":"mind-atlas/page-window-v1","graphSHA256":"5f678587584c0cee9962f33bc066e9900f7aced7d1951ba31a83ed49ff7d8cbc","profile":{"key":"totonacapan:55","url":"https://totonacapan.com/?page_id=55","title":"Archivo y publicaciones","lang":"es","cluster":"totonacapan","position":"web-b885e42306908c516c","document":"web-b885e42306908c516c","seedIds":["np-archivo","np-biografia","dg-legacy","dg-federated_custody","dg-semantic_graph"],"seedKind":"designer-entry","weights":{"memoria-territorio":40,"evidencia":30,"documentacion":20,"aprendizaje":10},"tokens":2200,"max":11,"mode":"federated","params":"posicionamiento=web-b885e42306908c516c&tokens=2200&max=11&red=ideas&sentido=ambas&modo=federated&site=totonacapan&rol=lector&lectura=explore&enfoque=personalizado&peso=tema%3Aaprendizaje%3A10&peso=tema%3Adocumentacion%3A20&peso=tema%3Aevidencia%3A30&peso=tema%3Amemoria-territorio%3A40","selection":"totonacapan-55.json","usedTokens":1823,"selected":8,"shown":9,"graphURL":"https://perspective-beyond-atlas.carvedgem.chatgpt.site/perspective-beyond/atlas/posicionamiento/?posicionamiento=web-b885e42306908c516c&tokens=2200&max=11&red=ideas&sentido=ambas&modo=federated&site=totonacapan&rol=lector&lectura=explore&enfoque=personalizado&peso=tema%3Aaprendizaje%3A10&peso=tema%3Adocumentacion%3A20&peso=tema%3Aevidencia%3A30&peso=tema%3Amemoria-territorio%3A40"},"result":{"schema":"perspective-beyond/positioning-v1.3","edition":"2026-11-04-institutional-entry-1","request":{"posicionamiento":"web-b885e42306908c516c","tokens":2200,"max":11,"rol":"lector","lectura":"explore","enfoque":"personalizado","instruccion":"","red":"ideas","sentido":"ambas","modo":"federated","site":"totonacapan","puente":null,"solo":false,"pesos":[{"tag":"tema:aprendizaje","value":10,"normalized":0.1},{"tag":"tema:documentacion","value":20,"normalized":0.2},{"tag":"tema:evidencia","value":30,"normalized":0.3},{"tag":"tema:memoria-territorio","value":40,"normalized":0.4}]},"position":{"id":"web-b885e42306908c516c","title":"Archivo y publicaciones","url":"https://totonacapan.com/?page_id=55","fichas":[],"entrySources":["np-archivo","np-biografia","dg-legacy","dg-federated_custody","dg-semantic_graph"],"aliases":["https://totonacapan.com/?page_id=55"],"header":"# Posicionamiento · Archivo y publicaciones\nDocumento de origen: https://totonacapan.com/?page_id=55\n\n","headerTokens":26,"entryAnchor":"np-archivo","entryCore":["dg-legacy","dg-federated_custody","dg-semantic_graph"],"type":"documento","focus":null,"seeds":["np-archivo","np-biografia","dg-legacy","dg-federated_custody","dg-semantic_graph"]},"budget":{"limit":2200,"used":1823,"remaining":377,"nextBlock":444,"encoding":"o200k_base","accounting":"Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."},"reachable":1547,"selected":8,"shown":9,"omittedByBudget":1539,"omittedInDiagram":0,"layers":[{"distance":0,"selected":0,"shown":1},{"distance":1,"selected":5,"shown":5},{"distance":2,"selected":3,"shown":3}],"center":"web-b885e42306908c516c-entrada","localCore":["dg-legacy","dg-federated_custody","dg-semantic_graph"],"coreDocument":null,"nodes":[{"id":"web-b885e42306908c516c-entrada","title":"Archivo y publicaciones","type":"documento","url":"https://totonacapan.com/?page_id=55","original":"https://totonacapan.com/?page_id=55","summary":"Documento desde el que se abre este posicionamiento.","tags":[],"tagWeights":{},"clusters":["eu","net","us","tegrity","imsv","totonacapan","mobility","latinoempresa","research","dialogos"],"distance":0,"parent":null},{"id":"np-archivo","type":"ficha","title":"Conservar el conocimiento y seguir conversando","url":"https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-archivo","original":"https://integralmanagement.ch/nueva-perspectiva/archivo-y-dialogo/","aliases":[],"clusters":["imsv"],"tags":["documentacion","evidencia","memoria-territorio"],"summary":"El archivo conserva variantes, preguntas y aportaciones con su procedencia. Así se puede reconstruir cómo cambió una interpretación y qué parte proviene de un testimonio, un documento o una lectura posterior.","commit":null,"sourcePath":null,"commitUrl":null,"documentId":"doc-32e17bd7cfabf6b58d","tagWeights":{"documentacion":0.3334,"evidencia":0.3333,"memoria-territorio":0.3333},"contextTokens":132,"distance":1,"parent":"web-b885e42306908c516c-entrada","routeEdge":null,"affinity":0.29999},{"id":"dg-legacy","type":"concepto","title":"Memoria y legado","url":"https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-legacy","original":null,"aliases":[],"clusters":["dialogos"],"tags":["autoridad","capacidad-humana","decision","evidencia","geopolitica","memoria-territorio","transformacion"],"summary":"Relacionar relatos familiares e institucionales sin confundir sus genealogías.","commit":null,"sourcePath":null,"commitUrl":null,"sourceIds":["D-001","D-027","D-042","D-074","D-075","D-076","D-077","D-111","D-119","D-268","D-273","D-283"],"tagWeights":{"autoridad":0.0151,"capacidad-humana":0.0151,"decision":0.1003,"evidencia":0.0519,"geopolitica":0.1316,"memoria-territorio":0.5509,"transformacion":0.1351},"contextTokens":126,"positionHeaderTokens":37,"distance":1,"parent":"web-b885e42306908c516c-entrada","routeEdge":null,"affinity":0.23593},{"id":"dg-federated_custody","type":"concepto","title":"Custodias distribuidas y memoria viva","url":"https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-federated_custody","original":null,"aliases":[],"clusters":["dialogos"],"tags":["autoridad","capacidad-humana","documentacion","geopolitica","memoria-territorio","transformacion"],"summary":"Los territorios y oficios cooperan sin perder autonomía; memoria histórica incluye experiencia, ejecución y consentimiento.","commit":null,"sourcePath":null,"commitUrl":null,"sourceIds":["D-251","D-252","D-253","D-263"],"tagWeights":{"autoridad":0.1487,"capacidad-humana":0.0711,"documentacion":0.0588,"geopolitica":0.0333,"memoria-territorio":0.6464,"transformacion":0.0417},"contextTokens":128,"positionHeaderTokens":45,"distance":1,"parent":"web-b885e42306908c516c-entrada","routeEdge":null,"affinity":0.27032},{"id":"dg-semantic_graph","type":"concepto","title":"Conocimiento como red de relaciones y procedencia","url":"https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-semantic_graph","original":null,"aliases":[],"clusters":["dialogos"],"tags":["aprendizaje","decision","economia","empresa","evidencia","experimentacion","matematicas","memoria-territorio","perspectiva","representacion","transformacion"],"summary":"Un pensamiento se conserva mediante relaciones, casos, objeciones y trayectorias trazables, más que una palabra aislada.","commit":null,"sourcePath":null,"commitUrl":null,"sourceIds":["D-240","D-247","D-249","D-267","D-268","D-283","D-285","D-291"],"tagWeights":{"aprendizaje":0.0229,"decision":0.0625,"economia":0.0417,"empresa":0.1063,"evidencia":0.2673,"experimentacion":0.0625,"matematicas":0.0125,"memoria-territorio":0.2472,"perspectiva":0.0625,"representacion":0.025,"transformacion":0.0896},"contextTokens":181,"positionHeaderTokens":43,"distance":1,"parent":"web-b885e42306908c516c-entrada","routeEdge":null,"affinity":0.18136000000000002},{"id":"np-biografia","type":"ficha","title":"Biografía: una trayectoria en diálogo","url":"https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-biografia","original":"https://totonacapan.com/?page_id=413","aliases":[],"clusters":["totonacapan"],"tags":["aprendizaje","empresa","memoria-territorio"],"summary":"La biografía reúne episodios de aprendizaje, organización y trabajo comunitario. Sus conversaciones ofrecen una escala personal para leer cuándo una experiencia hace cambiar la pregunta que guía una práctica.","commit":null,"sourcePath":null,"commitUrl":null,"documentId":"doc-41f3a410d217128630","tagWeights":{"aprendizaje":0.25,"empresa":0.25,"memoria-territorio":0.5},"contextTokens":119,"distance":1,"parent":"web-b885e42306908c516c-entrada","routeEdge":null,"affinity":0.225},{"id":"D-076","type":"ficha","title":"Contar el pasado sin inventar genealogías","url":"https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-076","original":"https://totonacapan.com/?page_id=413#:~:text=En%20una%20conversaci%C3%B3n%20del%202%20de%20junio%20de%202026%20sobre","aliases":["https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-076.html"],"clusters":["dialogos"],"tags":["memoria-territorio"],"summary":"¿Qué nos enseña esa imagen de Genaro si evitamos convertirla en una leyenda familiar sin pruebas?","commit":null,"sourcePath":null,"commitUrl":null,"documentId":"doc-41f3a410d217128630","tagWeights":{"memoria-territorio":1},"reading":"En una conversación del 2 de junio de 2026 sobre los perfiles de frontera, Iván describió a Genaro con una mezcla muy personal de admiración y curiosidad: «Genaro llega como expedicionario a Papantla y se convierte en un fabuloso empresario culto… llevando la contabilidad… temas legales… de llegar con dos pistolas se convirtió en un empresario de todo hecho.»\n\nINTERLOCUTOR (pregunta editorial de esta edición) — ¿Qué nos enseña esa imagen de Genaro si evitamos convertirla en una leyenda familiar sin pruebas?\n\nLECTURA EDITORIAL — Enseña primero que la memoria observa cambios de función. El viajero que llega a un territorio pasa a participar en su economía, aprende oficios, construye relaciones y deja un establecimiento capaz de continuar con otras generaciones. El relato tiene que distinguir lo documentado —oficios, comercio, documentos de propiedad— de las escenas transmitidas oralmente. El valor de la historia no exige presentar cada anécdota como si fuera una escritura notarial.\n\nLa trayectoria de los Abril y los Cortés también contiene orfandad, mercados, desplazamientos y guerras. La convergencia posterior en Papantla llega a través de Carmen Vargas Carrera, quien cuenta con su propia voz y con una labor cultural distinta. Ninguna familia representa por sí misma la totalidad del Totonacapan, y una continuidad histórica de prácticas no equivale a la existencia ininterrumpida de una misma persona jurídica.\n\nEn otra conversación de 12 de abril de 2026, Iván dejó una frase que permite cerrar el círculo sin reivindicar apropiaciones: «soy de España y trabajo en Europa y en el mundo. aun así estoy orgulloso de haber formado parte de una era latinoamericana».\n\nEl orgullo aquí no necesita forma de conquista. Puede ser reconocimiento de haber participado en procesos de aprendizaje y cooperación, y de que esa experiencia lo cambió también a él. La biografía personal ayuda a hacer visible esa reciprocidad, sin absorber otras historias ni hablar en nombre de quienes no la han autorizado.","contextTokens":529,"distance":2,"parent":"dg-legacy","routeEdge":"apoyo:D-076:dg-legacy","affinity":0.4},{"id":"np-xanath","type":"ficha","title":"Xanath y el conocimiento que se practica","url":"https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-xanath","original":"https://totonacapan.com/?page_id=413","aliases":[],"clusters":["totonacapan"],"tags":["memoria-territorio"],"summary":"La conversación sobre Xanath invita a observar cómo territorio, oficio y personas sostienen saberes que se transmiten mediante práctica. La custodia comienza por reconocer a quienes portan ese conocimiento.","commit":null,"sourcePath":null,"commitUrl":null,"documentId":"doc-41f3a410d217128630","tagWeights":{"memoria-territorio":1},"contextTokens":104,"distance":2,"parent":"np-biografia","routeEdge":"documento:np-r18","affinity":0.4},{"id":"D-268","type":"ficha","title":"Un bot que interpreta mi pensamiento debe saber regresar al archivo original","url":"https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-268","original":"https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-268.html","aliases":[],"clusters":["dialogos"],"tags":["evidencia","memoria-territorio"],"summary":"¿Cómo evitar que la voz fluida del bot sustituya aquello que supuestamente ayuda a encontrar?","commit":null,"sourcePath":null,"commitUrl":null,"documentId":"doc-122be4b68cf5a053b8","tagWeights":{"evidencia":0.2222,"memoria-territorio":0.7778},"reading":"INTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Cómo evitar que la voz fluida del bot sustituya aquello que supuestamente ayuda a encontrar?\nREFLEXIÓN DEL DIÁLOGO (voces y estatutos señalados en origen) — El producto no debía limitarse a hablar con mi tono. Iván imaginó que cada entrada del bot supiera explicar en qué constelación y cluster está, qué modo de lectura utiliza y cómo regresar cuando una pregunta lo lleva fuera. En sus palabras, «para que no se vaya [...] donde no es, para que vuelva». El objetivo final quedó más claro todavía: «La idea es que el robot vuelva al archivo canónico».\n\nEl lector puede usar una conversación para descubrir el hilo, explorar objeciones y pasar de un tema a otro. Pero el texto del modelo es mediación, no un nuevo original. Cuando interpreta, debe marcar que interpreta. Cuando ofrece una frase como literal, necesita una localización comprobable. Cuando una fuente es privada o no publicable, no puede abrirla solo porque una relación del mapa conduzca hasta ella.\n\nLa ambición que trasciende un chatbot es dejar que otra persona llegue por sí misma al pensamiento, incluidos sus cambios de opinión y sus huecos. Un bot muy elocuente que impide comprobar lo que dijo el autor habría fracasado justo en lo central del proyecto. Esta ficha es una regla de diseño todavía no validada como comportamiento de software.","contextTokens":393,"distance":2,"parent":"dg-legacy","routeEdge":"apoyo:D-268:dg-legacy","affinity":0.37778000000000006}],"edges":[{"id":"contiene:web-b885e42306908c516c-entrada:np-archivo","from":"web-b885e42306908c516c-entrada","to":"np-archivo","kind":"lectura enlazada desde el documento","reading":"El documento de entrada enlaza esta lectura del Atlas.","route":true},{"id":"contiene:web-b885e42306908c516c-entrada:dg-legacy","from":"web-b885e42306908c516c-entrada","to":"dg-legacy","kind":"lectura enlazada desde el documento","reading":"El documento de entrada enlaza esta lectura del Atlas.","route":true},{"id":"contiene:web-b885e42306908c516c-entrada:dg-federated_custody","from":"web-b885e42306908c516c-entrada","to":"dg-federated_custody","kind":"lectura enlazada desde el documento","reading":"El documento de entrada enlaza esta lectura del Atlas.","route":true},{"id":"contiene:web-b885e42306908c516c-entrada:dg-semantic_graph","from":"web-b885e42306908c516c-entrada","to":"dg-semantic_graph","kind":"lectura enlazada desde el documento","reading":"El documento de entrada enlaza esta lectura del Atlas.","route":true},{"id":"contiene:web-b885e42306908c516c-entrada:np-biografia","from":"web-b885e42306908c516c-entrada","to":"np-biografia","kind":"lectura enlazada desde el documento","reading":"El documento de entrada enlaza esta lectura del Atlas.","route":true},{"id":"apoyo:D-076:dg-legacy","from":"D-076","to":"dg-legacy","kind":"documenta el concepto","reading":"","evidence":null,"route":true},{"id":"documento:np-r18","from":"np-biografia","to":"np-xanath","kind":"trayectoria","reading":"La trayectoria lleva a un caso en que el saber está ligado al lugar y a quienes lo practican.","evidence":null,"route":true},{"id":"apoyo:D-268:dg-legacy","from":"D-268","to":"dg-legacy","kind":"documenta el concepto","reading":"","evidence":null,"route":true},{"id":"apoyo:D-268:dg-semantic_graph","from":"D-268","to":"dg-semantic_graph","kind":"documenta el concepto","reading":"","evidence":null,"route":false}],"selection":[{"id":"np-archivo","type":"ficha","title":"Conservar el conocimiento y seguir conversando","url":"https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-archivo","original":"https://integralmanagement.ch/nueva-perspectiva/archivo-y-dialogo/","aliases":[],"clusters":["imsv"],"tags":["documentacion","evidencia","memoria-territorio"],"summary":"El archivo conserva variantes, preguntas y aportaciones con su procedencia. Así se puede reconstruir cómo cambió una interpretación y qué parte proviene de un testimonio, un documento o una lectura posterior.","commit":null,"sourcePath":null,"commitUrl":null,"documentId":"doc-32e17bd7cfabf6b58d","tagWeights":{"documentacion":0.3334,"evidencia":0.3333,"memoria-territorio":0.3333},"contextTokens":132,"distance":1,"parent":"web-b885e42306908c516c-entrada","routeEdge":null,"affinity":0.29999},{"id":"dg-legacy","type":"concepto","title":"Memoria y legado","url":"https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-legacy","original":null,"aliases":[],"clusters":["dialogos"],"tags":["autoridad","capacidad-humana","decision","evidencia","geopolitica","memoria-territorio","transformacion"],"summary":"Relacionar relatos familiares e institucionales sin confundir sus genealogías.","commit":null,"sourcePath":null,"commitUrl":null,"sourceIds":["D-001","D-027","D-042","D-074","D-075","D-076","D-077","D-111","D-119","D-268","D-273","D-283"],"tagWeights":{"autoridad":0.0151,"capacidad-humana":0.0151,"decision":0.1003,"evidencia":0.0519,"geopolitica":0.1316,"memoria-territorio":0.5509,"transformacion":0.1351},"contextTokens":126,"positionHeaderTokens":37,"distance":1,"parent":"web-b885e42306908c516c-entrada","routeEdge":null,"affinity":0.23593},{"id":"dg-federated_custody","type":"concepto","title":"Custodias distribuidas y memoria viva","url":"https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-federated_custody","original":null,"aliases":[],"clusters":["dialogos"],"tags":["autoridad","capacidad-humana","documentacion","geopolitica","memoria-territorio","transformacion"],"summary":"Los territorios y oficios cooperan sin perder autonomía; memoria histórica incluye experiencia, ejecución y consentimiento.","commit":null,"sourcePath":null,"commitUrl":null,"sourceIds":["D-251","D-252","D-253","D-263"],"tagWeights":{"autoridad":0.1487,"capacidad-humana":0.0711,"documentacion":0.0588,"geopolitica":0.0333,"memoria-territorio":0.6464,"transformacion":0.0417},"contextTokens":128,"positionHeaderTokens":45,"distance":1,"parent":"web-b885e42306908c516c-entrada","routeEdge":null,"affinity":0.27032},{"id":"dg-semantic_graph","type":"concepto","title":"Conocimiento como red de relaciones y procedencia","url":"https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-semantic_graph","original":null,"aliases":[],"clusters":["dialogos"],"tags":["aprendizaje","decision","economia","empresa","evidencia","experimentacion","matematicas","memoria-territorio","perspectiva","representacion","transformacion"],"summary":"Un pensamiento se conserva mediante relaciones, casos, objeciones y trayectorias trazables, más que una palabra aislada.","commit":null,"sourcePath":null,"commitUrl":null,"sourceIds":["D-240","D-247","D-249","D-267","D-268","D-283","D-285","D-291"],"tagWeights":{"aprendizaje":0.0229,"decision":0.0625,"economia":0.0417,"empresa":0.1063,"evidencia":0.2673,"experimentacion":0.0625,"matematicas":0.0125,"memoria-territorio":0.2472,"perspectiva":0.0625,"representacion":0.025,"transformacion":0.0896},"contextTokens":181,"positionHeaderTokens":43,"distance":1,"parent":"web-b885e42306908c516c-entrada","routeEdge":null,"affinity":0.18136000000000002},{"id":"np-biografia","type":"ficha","title":"Biografía: una trayectoria en diálogo","url":"https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-biografia","original":"https://totonacapan.com/?page_id=413","aliases":[],"clusters":["totonacapan"],"tags":["aprendizaje","empresa","memoria-territorio"],"summary":"La biografía reúne episodios de aprendizaje, organización y trabajo comunitario. Sus conversaciones ofrecen una escala personal para leer cuándo una experiencia hace cambiar la pregunta que guía una práctica.","commit":null,"sourcePath":null,"commitUrl":null,"documentId":"doc-41f3a410d217128630","tagWeights":{"aprendizaje":0.25,"empresa":0.25,"memoria-territorio":0.5},"contextTokens":119,"distance":1,"parent":"web-b885e42306908c516c-entrada","routeEdge":null,"affinity":0.225},{"id":"D-076","type":"ficha","title":"Contar el pasado sin inventar genealogías","url":"https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-076","original":"https://totonacapan.com/?page_id=413#:~:text=En%20una%20conversaci%C3%B3n%20del%202%20de%20junio%20de%202026%20sobre","aliases":["https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-076.html"],"clusters":["dialogos"],"tags":["memoria-territorio"],"summary":"¿Qué nos enseña esa imagen de Genaro si evitamos convertirla en una leyenda familiar sin pruebas?","commit":null,"sourcePath":null,"commitUrl":null,"documentId":"doc-41f3a410d217128630","tagWeights":{"memoria-territorio":1},"reading":"En una conversación del 2 de junio de 2026 sobre los perfiles de frontera, Iván describió a Genaro con una mezcla muy personal de admiración y curiosidad: «Genaro llega como expedicionario a Papantla y se convierte en un fabuloso empresario culto… llevando la contabilidad… temas legales… de llegar con dos pistolas se convirtió en un empresario de todo hecho.»\n\nINTERLOCUTOR (pregunta editorial de esta edición) — ¿Qué nos enseña esa imagen de Genaro si evitamos convertirla en una leyenda familiar sin pruebas?\n\nLECTURA EDITORIAL — Enseña primero que la memoria observa cambios de función. El viajero que llega a un territorio pasa a participar en su economía, aprende oficios, construye relaciones y deja un establecimiento capaz de continuar con otras generaciones. El relato tiene que distinguir lo documentado —oficios, comercio, documentos de propiedad— de las escenas transmitidas oralmente. El valor de la historia no exige presentar cada anécdota como si fuera una escritura notarial.\n\nLa trayectoria de los Abril y los Cortés también contiene orfandad, mercados, desplazamientos y guerras. La convergencia posterior en Papantla llega a través de Carmen Vargas Carrera, quien cuenta con su propia voz y con una labor cultural distinta. Ninguna familia representa por sí misma la totalidad del Totonacapan, y una continuidad histórica de prácticas no equivale a la existencia ininterrumpida de una misma persona jurídica.\n\nEn otra conversación de 12 de abril de 2026, Iván dejó una frase que permite cerrar el círculo sin reivindicar apropiaciones: «soy de España y trabajo en Europa y en el mundo. aun así estoy orgulloso de haber formado parte de una era latinoamericana».\n\nEl orgullo aquí no necesita forma de conquista. Puede ser reconocimiento de haber participado en procesos de aprendizaje y cooperación, y de que esa experiencia lo cambió también a él. La biografía personal ayuda a hacer visible esa reciprocidad, sin absorber otras historias ni hablar en nombre de quienes no la han autorizado.","contextTokens":529,"distance":2,"parent":"dg-legacy","routeEdge":"apoyo:D-076:dg-legacy","affinity":0.4},{"id":"np-xanath","type":"ficha","title":"Xanath y el conocimiento que se practica","url":"https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-xanath","original":"https://totonacapan.com/?page_id=413","aliases":[],"clusters":["totonacapan"],"tags":["memoria-territorio"],"summary":"La conversación sobre Xanath invita a observar cómo territorio, oficio y personas sostienen saberes que se transmiten mediante práctica. La custodia comienza por reconocer a quienes portan ese conocimiento.","commit":null,"sourcePath":null,"commitUrl":null,"documentId":"doc-41f3a410d217128630","tagWeights":{"memoria-territorio":1},"contextTokens":104,"distance":2,"parent":"np-biografia","routeEdge":"documento:np-r18","affinity":0.4},{"id":"D-268","type":"ficha","title":"Un bot que interpreta mi pensamiento debe saber regresar al archivo original","url":"https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-268","original":"https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-268.html","aliases":[],"clusters":["dialogos"],"tags":["evidencia","memoria-territorio"],"summary":"¿Cómo evitar que la voz fluida del bot sustituya aquello que supuestamente ayuda a encontrar?","commit":null,"sourcePath":null,"commitUrl":null,"documentId":"doc-122be4b68cf5a053b8","tagWeights":{"evidencia":0.2222,"memoria-territorio":0.7778},"reading":"INTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Cómo evitar que la voz fluida del bot sustituya aquello que supuestamente ayuda a encontrar?\nREFLEXIÓN DEL DIÁLOGO (voces y estatutos señalados en origen) — El producto no debía limitarse a hablar con mi tono. Iván imaginó que cada entrada del bot supiera explicar en qué constelación y cluster está, qué modo de lectura utiliza y cómo regresar cuando una pregunta lo lleva fuera. En sus palabras, «para que no se vaya [...] donde no es, para que vuelva». El objetivo final quedó más claro todavía: «La idea es que el robot vuelva al archivo canónico».\n\nEl lector puede usar una conversación para descubrir el hilo, explorar objeciones y pasar de un tema a otro. Pero el texto del modelo es mediación, no un nuevo original. Cuando interpreta, debe marcar que interpreta. Cuando ofrece una frase como literal, necesita una localización comprobable. Cuando una fuente es privada o no publicable, no puede abrirla solo porque una relación del mapa conduzca hasta ella.\n\nLa ambición que trasciende un chatbot es dejar que otra persona llegue por sí misma al pensamiento, incluidos sus cambios de opinión y sus huecos. Un bot muy elocuente que impide comprobar lo que dijo el autor habría fracasado justo en lo central del proyecto. Esta ficha es una regla de diseño todavía no validada como comportamiento de software.","contextTokens":393,"distance":2,"parent":"dg-legacy","routeEdge":"apoyo:D-268:dg-legacy","affinity":0.37778000000000006}],"reading":"# Posicionamiento · Archivo y publicaciones\nDocumento de origen: https://totonacapan.com/?page_id=55\n\n## Conservar el conocimiento y seguir conversando\nEl archivo conserva variantes, preguntas y aportaciones con su procedencia. Así se puede reconstruir cómo cambió una interpretación y qué parte proviene de un testimonio, un documento o una lectura posterior.\nEtiquetas: Investigación y documentación técnica 33.34%; Evidencia, procedencia y atribución 33.33%; Memoria, comunidad y territorio 33.33%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-archivo\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/archivo-y-dialogo/\n\n## Memoria y legado\nRelacionar relatos familiares e institucionales sin confundir sus genealogías.\nEtiquetas: Autoridad, permisos y delegación 1.51%; Capacidad humana y deuda de inteligencia 1.51%; Decisiones y responsabilidad 10.03%; Evidencia, procedencia y atribución 5.19%; Geopolítica y fronteras 13.16%; Memoria, comunidad y territorio 55.09%; Transformación y continuidad operativa 13.51%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-legacy\n\n## Custodias distribuidas y memoria viva\nLos territorios y oficios cooperan sin perder autonomía; memoria histórica incluye experiencia, ejecución y consentimiento.\nEtiquetas: Autoridad, permisos y delegación 14.87%; Capacidad humana y deuda de inteligencia 7.11%; Investigación y documentación técnica 5.88%; Geopolítica y fronteras 3.33%; Memoria, comunidad y territorio 64.64%; Transformación y continuidad operativa 4.17%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-federated_custody\n\n## Conocimiento como red de relaciones y procedencia\nUn pensamiento se conserva mediante relaciones, casos, objeciones y trayectorias trazables, más que una palabra aislada.\nEtiquetas: Aprendizaje y transmisión de capacidades 2.29%; Decisiones y responsabilidad 6.25%; Economía, costes y liquidez 4.17%; Empresa y gestión 10.63%; Evidencia, procedencia y atribución 26.73%; Experimentación, falsación y contraejemplos 6.25%; Matemáticas 1.25%; Memoria, comunidad y territorio 24.72%; Cambio de perspectiva 6.25%; Representación y límites formales 2.50%; Transformación y continuidad operativa 8.96%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-semantic_graph\n\n## Biografía: una trayectoria en diálogo\nLa biografía reúne episodios de aprendizaje, organización y trabajo comunitario. Sus conversaciones ofrecen una escala personal para leer cuándo una experiencia hace cambiar la pregunta que guía una práctica.\nEtiquetas: Aprendizaje y transmisión de capacidades 25.00%; Empresa y gestión 25.00%; Memoria, comunidad y territorio 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-biografia\nDocumento de origen: https://totonacapan.com/?page_id=413\n\nContar el pasado sin inventar genealogías → Memoria y legado · documenta el concepto. \n\n## Contar el pasado sin inventar genealogías\nEn una conversación del 2 de junio de 2026 sobre los perfiles de frontera, Iván describió a Genaro con una mezcla muy personal de admiración y curiosidad: «Genaro llega como expedicionario a Papantla y se convierte en un fabuloso empresario culto… llevando la contabilidad… temas legales… de llegar con dos pistolas se convirtió en un empresario de todo hecho.»\n\nINTERLOCUTOR (pregunta editorial de esta edición) — ¿Qué nos enseña esa imagen de Genaro si evitamos convertirla en una leyenda familiar sin pruebas?\n\nLECTURA EDITORIAL — Enseña primero que la memoria observa cambios de función. El viajero que llega a un territorio pasa a participar en su economía, aprende oficios, construye relaciones y deja un establecimiento capaz de continuar con otras generaciones. El relato tiene que distinguir lo documentado —oficios, comercio, documentos de propiedad— de las escenas transmitidas oralmente. El valor de la historia no exige presentar cada anécdota como si fuera una escritura notarial.\n\nLa trayectoria de los Abril y los Cortés también contiene orfandad, mercados, desplazamientos y guerras. La convergencia posterior en Papantla llega a través de Carmen Vargas Carrera, quien cuenta con su propia voz y con una labor cultural distinta. Ninguna familia representa por sí misma la totalidad del Totonacapan, y una continuidad histórica de prácticas no equivale a la existencia ininterrumpida de una misma persona jurídica.\n\nEn otra conversación de 12 de abril de 2026, Iván dejó una frase que permite cerrar el círculo sin reivindicar apropiaciones: «soy de España y trabajo en Europa y en el mundo. aun así estoy orgulloso de haber formado parte de una era latinoamericana».\n\nEl orgullo aquí no necesita forma de conquista. Puede ser reconocimiento de haber participado en procesos de aprendizaje y cooperación, y de que esa experiencia lo cambió también a él. La biografía personal ayuda a hacer visible esa reciprocidad, sin absorber otras historias ni hablar en nombre de quienes no la han autorizado.\nEtiquetas: Memoria, comunidad y territorio 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-076\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=En%20una%20conversaci%C3%B3n%20del%202%20de%20junio%20de%202026%20sobre\n\nBiografía: una trayectoria en diálogo → Xanath y el conocimiento que se practica · trayectoria. La trayectoria lleva a un caso en que el saber está ligado al lugar y a quienes lo practican.\n\n## Xanath y el conocimiento que se practica\nLa conversación sobre Xanath invita a observar cómo territorio, oficio y personas sostienen saberes que se transmiten mediante práctica. La custodia comienza por reconocer a quienes portan ese conocimiento.\nEtiquetas: Memoria, comunidad y territorio 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-xanath\nDocumento de origen: https://totonacapan.com/?page_id=413\n\nUn bot que interpreta mi pensamiento debe saber regresar al archivo original → Memoria y legado · documenta el concepto. \n\n## Un bot que interpreta mi pensamiento debe saber regresar al archivo original\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Cómo evitar que la voz fluida del bot sustituya aquello que supuestamente ayuda a encontrar?\nREFLEXIÓN DEL DIÁLOGO (voces y estatutos señalados en origen) — El producto no debía limitarse a hablar con mi tono. Iván imaginó que cada entrada del bot supiera explicar en qué constelación y cluster está, qué modo de lectura utiliza y cómo regresar cuando una pregunta lo lleva fuera. En sus palabras, «para que no se vaya [...] donde no es, para que vuelva». El objetivo final quedó más claro todavía: «La idea es que el robot vuelva al archivo canónico».\n\nEl lector puede usar una conversación para descubrir el hilo, explorar objeciones y pasar de un tema a otro. Pero el texto del modelo es mediación, no un nuevo original. Cuando interpreta, debe marcar que interpreta. Cuando ofrece una frase como literal, necesita una localización comprobable. Cuando una fuente es privada o no publicable, no puede abrirla solo porque una relación del mapa conduzca hasta ella.\n\nLa ambición que trasciende un chatbot es dejar que otra persona llegue por sí misma al pensamiento, incluidos sus cambios de opinión y sus huecos. Un bot muy elocuente que impide comprobar lo que dijo el autor habría fracasado justo en lo central del proyecto. Esta ficha es una regla de diseño todavía no validada como comportamiento de software.\nEtiquetas: Evidencia, procedencia y atribución 22.22%; Memoria, comunidad y territorio 77.78%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-268\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-268.html\n\n"}}
+{
+  "schema": "mind-atlas/page-window-v1",
+  "graphSHA256": "f29d7b1eedeb88387238d2abda347f810d2179c5fdbead47c3ef48507ab20ca5",
+  "profile": {
+    "key": "totonacapan:55",
+    "url": "https://totonacapan.com/?page_id=55",
+    "title": "Archivo y publicaciones",
+    "lang": "en",
+    "cluster": "totonacapan",
+    "position": "web-b885e42306908c516c",
+    "document": "web-b885e42306908c516c",
+    "seedIds": [
+      "np-archivo",
+      "np-biografia",
+      "dg-legacy",
+      "dg-federated_custody",
+      "dg-semantic_graph"
+    ],
+    "seedKind": "designer-entry",
+    "weights": {
+      "memoria-territorio": 40,
+      "evidencia": 30,
+      "documentacion": 20,
+      "aprendizaje": 10
+    },
+    "tokens": 2200,
+    "max": 11,
+    "mode": "federated",
+    "params": "posicionamiento=web-b885e42306908c516c&tokens=2200&max=11&red=ideas&sentido=ambas&modo=federated&site=totonacapan&rol=lector&lectura=explore&enfoque=personalizado&peso=tema%3Aaprendizaje%3A10&peso=tema%3Adocumentacion%3A20&peso=tema%3Aevidencia%3A30&peso=tema%3Amemoria-territorio%3A40",
+    "selection": "totonacapan-55.json",
+    "usedTokens": 2198,
+    "selected": 9,
+    "shown": 10,
+    "graphURL": "https://perspective-beyond-atlas.carvedgem.chatgpt.site/perspective-beyond/atlas/posicionamiento/?posicionamiento=web-b885e42306908c516c&tokens=2200&max=11&red=ideas&sentido=ambas&modo=federated&site=totonacapan&rol=lector&lectura=explore&enfoque=personalizado&peso=tema%3Aaprendizaje%3A10&peso=tema%3Adocumentacion%3A20&peso=tema%3Aevidencia%3A30&peso=tema%3Amemoria-territorio%3A40"
+  },
+  "result": {
+    "schema": "perspective-beyond/positioning-v1.3",
+    "edition": "2026-11-04-institutional-entry-1",
+    "request": {
+      "posicionamiento": "web-b885e42306908c516c",
+      "tokens": 2200,
+      "max": 11,
+      "rol": "lector",
+      "lectura": "explore",
+      "enfoque": "personalizado",
+      "instruccion": "",
+      "red": "ideas",
+      "sentido": "ambas",
+      "modo": "federated",
+      "site": "totonacapan",
+      "puente": null,
+      "solo": false,
+      "pesos": [
+        {
+          "tag": "tema:aprendizaje",
+          "value": 10,
+          "normalized": 0.1
+        },
+        {
+          "tag": "tema:documentacion",
+          "value": 20,
+          "normalized": 0.2
+        },
+        {
+          "tag": "tema:evidencia",
+          "value": 30,
+          "normalized": 0.3
+        },
+        {
+          "tag": "tema:memoria-territorio",
+          "value": 40,
+          "normalized": 0.4
+        }
+      ]
+    },
+    "position": {
+      "id": "web-b885e42306908c516c",
+      "title": "Archivo y publicaciones",
+      "url": "https://totonacapan.com/?page_id=55",
+      "fichas": [],
+      "entrySources": [
+        "np-archivo",
+        "np-biografia",
+        "dg-legacy",
+        "dg-federated_custody",
+        "dg-semantic_graph"
+      ],
+      "aliases": [
+        "https://totonacapan.com/?page_id=55"
+      ],
+      "header": "# Positioning · Archivo y publicaciones\nSource document: https://totonacapan.com/?page_id=55\n\n",
+      "headerTokens": 24,
+      "entryAnchor": "np-archivo",
+      "entryCore": [
+        "dg-legacy",
+        "dg-federated_custody",
+        "dg-semantic_graph"
+      ],
+      "headerEn": "# Positioning · Archivo y publicaciones\nSource document: https://totonacapan.com/?page_id=55\n\n",
+      "headerTokensEn": 24,
+      "type": "documento",
+      "focus": null,
+      "seeds": [
+        "np-archivo",
+        "np-biografia",
+        "dg-legacy",
+        "dg-federated_custody",
+        "dg-semantic_graph"
+      ]
+    },
+    "budget": {
+      "limit": 2200,
+      "used": 2198,
+      "remaining": 2,
+      "nextBlock": 461,
+      "encoding": "o200k_base",
+      "accounting": "Sum of independently encoded blocks: document header, card and incoming relationship. The budget applies to selected reading content."
+    },
+    "reachable": 1547,
+    "selected": 9,
+    "shown": 10,
+    "omittedByBudget": 1538,
+    "omittedInDiagram": 0,
+    "layers": [
+      {
+        "distance": 0,
+        "selected": 0,
+        "shown": 1
+      },
+      {
+        "distance": 1,
+        "selected": 5,
+        "shown": 5
+      },
+      {
+        "distance": 2,
+        "selected": 4,
+        "shown": 4
+      }
+    ],
+    "center": "web-b885e42306908c516c-entrada",
+    "localCore": [
+      "dg-legacy",
+      "dg-federated_custody",
+      "dg-semantic_graph"
+    ],
+    "coreDocument": null,
+    "nodes": [
+      {
+        "id": "web-b885e42306908c516c-entrada",
+        "title": "Archivo y publicaciones",
+        "type": "documento",
+        "url": "https://totonacapan.com/?page_id=55",
+        "original": "https://totonacapan.com/?page_id=55",
+        "summary": "Document from which this positioning opens.",
+        "tags": [],
+        "tagWeights": {},
+        "clusters": [
+          "eu",
+          "net",
+          "us",
+          "tegrity",
+          "imsv",
+          "totonacapan",
+          "mobility",
+          "latinoempresa",
+          "research",
+          "dialogos"
+        ],
+        "distance": 0,
+        "parent": null
+      },
+      {
+        "id": "np-archivo",
+        "type": "ficha",
+        "title": "Conservar el conocimiento y seguir conversando",
+        "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-archivo",
+        "original": "https://integralmanagement.ch/nueva-perspectiva/archivo-y-dialogo/",
+        "aliases": [],
+        "clusters": [
+          "imsv"
+        ],
+        "tags": [
+          "documentacion",
+          "evidencia",
+          "memoria-territorio"
+        ],
+        "summary": "El archivo conserva variantes, preguntas y aportaciones con su procedencia. Así se puede reconstruir cómo cambió una interpretación y qué parte proviene de un testimonio, un documento o una lectura posterior.",
+        "commit": null,
+        "sourcePath": null,
+        "commitUrl": null,
+        "documentId": "doc-32e17bd7cfabf6b58d",
+        "tagWeights": {
+          "documentacion": 0.3334,
+          "evidencia": 0.3333,
+          "memoria-territorio": 0.3333
+        },
+        "contextTokens": 126,
+        "distance": 1,
+        "parent": "web-b885e42306908c516c-entrada",
+        "routeEdge": null,
+        "affinity": 0.29999
+      },
+      {
+        "id": "dg-legacy",
+        "type": "concepto",
+        "title": "Memoria y legado",
+        "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-legacy",
+        "original": null,
+        "aliases": [],
+        "clusters": [
+          "dialogos"
+        ],
+        "tags": [
+          "autoridad",
+          "capacidad-humana",
+          "decision",
+          "evidencia",
+          "geopolitica",
+          "memoria-territorio",
+          "transformacion"
+        ],
+        "summary": "Relacionar relatos familiares e institucionales sin confundir sus genealogías.",
+        "commit": null,
+        "sourcePath": null,
+        "commitUrl": null,
+        "sourceIds": [
+          "D-001",
+          "D-027",
+          "D-042",
+          "D-074",
+          "D-075",
+          "D-076",
+          "D-077",
+          "D-111",
+          "D-119",
+          "D-268",
+          "D-273",
+          "D-283"
+        ],
+        "tagWeights": {
+          "autoridad": 0.0151,
+          "capacidad-humana": 0.0151,
+          "decision": 0.1003,
+          "evidencia": 0.0519,
+          "geopolitica": 0.1316,
+          "memoria-territorio": 0.5509,
+          "transformacion": 0.1351
+        },
+        "contextTokens": 114,
+        "positionHeaderTokens": 37,
+        "positionHeaderTokensEn": 34,
+        "distance": 1,
+        "parent": "web-b885e42306908c516c-entrada",
+        "routeEdge": null,
+        "affinity": 0.23593
+      },
+      {
+        "id": "dg-federated_custody",
+        "type": "concepto",
+        "title": "Custodias distribuidas y memoria viva",
+        "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-federated_custody",
+        "original": null,
+        "aliases": [],
+        "clusters": [
+          "dialogos"
+        ],
+        "tags": [
+          "autoridad",
+          "capacidad-humana",
+          "documentacion",
+          "geopolitica",
+          "memoria-territorio",
+          "transformacion"
+        ],
+        "summary": "Los territorios y oficios cooperan sin perder autonomía; memoria histórica incluye experiencia, ejecución y consentimiento.",
+        "commit": null,
+        "sourcePath": null,
+        "commitUrl": null,
+        "sourceIds": [
+          "D-251",
+          "D-252",
+          "D-253",
+          "D-263"
+        ],
+        "tagWeights": {
+          "autoridad": 0.1487,
+          "capacidad-humana": 0.0711,
+          "documentacion": 0.0588,
+          "geopolitica": 0.0333,
+          "memoria-territorio": 0.6464,
+          "transformacion": 0.0417
+        },
+        "contextTokens": 120,
+        "positionHeaderTokens": 45,
+        "positionHeaderTokensEn": 42,
+        "distance": 1,
+        "parent": "web-b885e42306908c516c-entrada",
+        "routeEdge": null,
+        "affinity": 0.27032
+      },
+      {
+        "id": "dg-semantic_graph",
+        "type": "concepto",
+        "title": "Conocimiento como red de relaciones y procedencia",
+        "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-semantic_graph",
+        "original": null,
+        "aliases": [],
+        "clusters": [
+          "dialogos"
+        ],
+        "tags": [
+          "aprendizaje",
+          "decision",
+          "economia",
+          "empresa",
+          "evidencia",
+          "experimentacion",
+          "matematicas",
+          "memoria-territorio",
+          "perspectiva",
+          "representacion",
+          "transformacion"
+        ],
+        "summary": "Un pensamiento se conserva mediante relaciones, casos, objeciones y trayectorias trazables, más que una palabra aislada.",
+        "commit": null,
+        "sourcePath": null,
+        "commitUrl": null,
+        "sourceIds": [
+          "D-240",
+          "D-247",
+          "D-249",
+          "D-267",
+          "D-268",
+          "D-283",
+          "D-285",
+          "D-291"
+        ],
+        "tagWeights": {
+          "aprendizaje": 0.0229,
+          "decision": 0.0625,
+          "economia": 0.0417,
+          "empresa": 0.1063,
+          "evidencia": 0.2673,
+          "experimentacion": 0.0625,
+          "matematicas": 0.0125,
+          "memoria-territorio": 0.2472,
+          "perspectiva": 0.0625,
+          "representacion": 0.025,
+          "transformacion": 0.0896
+        },
+        "contextTokens": 164,
+        "positionHeaderTokens": 43,
+        "positionHeaderTokensEn": 40,
+        "distance": 1,
+        "parent": "web-b885e42306908c516c-entrada",
+        "routeEdge": null,
+        "affinity": 0.18136000000000002
+      },
+      {
+        "id": "np-biografia",
+        "type": "ficha",
+        "title": "Biografía: una trayectoria en diálogo",
+        "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-biografia",
+        "original": "https://totonacapan.com/?page_id=413",
+        "aliases": [],
+        "clusters": [
+          "totonacapan"
+        ],
+        "tags": [
+          "aprendizaje",
+          "empresa",
+          "memoria-territorio"
+        ],
+        "summary": "La biografía reúne episodios de aprendizaje, organización y trabajo comunitario. Sus conversaciones ofrecen una escala personal para leer cuándo una experiencia hace cambiar la pregunta que guía una práctica.",
+        "commit": null,
+        "sourcePath": null,
+        "commitUrl": null,
+        "documentId": "doc-41f3a410d217128630",
+        "tagWeights": {
+          "aprendizaje": 0.25,
+          "empresa": 0.25,
+          "memoria-territorio": 0.5
+        },
+        "contextTokens": 113,
+        "distance": 1,
+        "parent": "web-b885e42306908c516c-entrada",
+        "routeEdge": null,
+        "affinity": 0.225
+      },
+      {
+        "id": "D-076",
+        "type": "ficha",
+        "title": "Contar el pasado sin inventar genealogías",
+        "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-076",
+        "original": "https://totonacapan.com/?page_id=413#:~:text=En%20una%20conversaci%C3%B3n%20del%202%20de%20junio%20de%202026%20sobre",
+        "aliases": [
+          "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-076.html"
+        ],
+        "clusters": [
+          "dialogos"
+        ],
+        "tags": [
+          "memoria-territorio"
+        ],
+        "summary": "¿Qué nos enseña esa imagen de Genaro si evitamos convertirla en una leyenda familiar sin pruebas?",
+        "commit": null,
+        "sourcePath": null,
+        "commitUrl": null,
+        "documentId": "doc-41f3a410d217128630",
+        "tagWeights": {
+          "memoria-territorio": 1
+        },
+        "reading": "En una conversación del 2 de junio de 2026 sobre los perfiles de frontera, Iván describió a Genaro con una mezcla muy personal de admiración y curiosidad: «Genaro llega como expedicionario a Papantla y se convierte en un fabuloso empresario culto… llevando la contabilidad… temas legales… de llegar con dos pistolas se convirtió en un empresario de todo hecho.»\n\nINTERLOCUTOR (pregunta editorial de esta edición) — ¿Qué nos enseña esa imagen de Genaro si evitamos convertirla en una leyenda familiar sin pruebas?\n\nLECTURA EDITORIAL — Enseña primero que la memoria observa cambios de función. El viajero que llega a un territorio pasa a participar en su economía, aprende oficios, construye relaciones y deja un establecimiento capaz de continuar con otras generaciones. El relato tiene que distinguir lo documentado —oficios, comercio, documentos de propiedad— de las escenas transmitidas oralmente. El valor de la historia no exige presentar cada anécdota como si fuera una escritura notarial.\n\nLa trayectoria de los Abril y los Cortés también contiene orfandad, mercados, desplazamientos y guerras. La convergencia posterior en Papantla llega a través de Carmen Vargas Carrera, quien cuenta con su propia voz y con una labor cultural distinta. Ninguna familia representa por sí misma la totalidad del Totonacapan, y una continuidad histórica de prácticas no equivale a la existencia ininterrumpida de una misma persona jurídica.\n\nEn otra conversación de 12 de abril de 2026, Iván dejó una frase que permite cerrar el círculo sin reivindicar apropiaciones: «soy de España y trabajo en Europa y en el mundo. aun así estoy orgulloso de haber formado parte de una era latinoamericana».\n\nEl orgullo aquí no necesita forma de conquista. Puede ser reconocimiento de haber participado en procesos de aprendizaje y cooperación, y de que esa experiencia lo cambió también a él. La biografía personal ayuda a hacer visible esa reciprocidad, sin absorber otras historias ni hablar en nombre de quienes no la han autorizado.",
+        "contextTokens": 526,
+        "distance": 2,
+        "parent": "dg-legacy",
+        "routeEdge": "apoyo:D-076:dg-legacy",
+        "affinity": 0.4
+      },
+      {
+        "id": "np-xanath",
+        "type": "ficha",
+        "title": "Xanath y el conocimiento que se practica",
+        "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-xanath",
+        "original": "https://totonacapan.com/?page_id=413",
+        "aliases": [],
+        "clusters": [
+          "totonacapan"
+        ],
+        "tags": [
+          "memoria-territorio"
+        ],
+        "summary": "La conversación sobre Xanath invita a observar cómo territorio, oficio y personas sostienen saberes que se transmiten mediante práctica. La custodia comienza por reconocer a quienes portan ese conocimiento.",
+        "commit": null,
+        "sourcePath": null,
+        "commitUrl": null,
+        "documentId": "doc-41f3a410d217128630",
+        "tagWeights": {
+          "memoria-territorio": 1
+        },
+        "contextTokens": 101,
+        "distance": 2,
+        "parent": "np-biografia",
+        "routeEdge": "documento:np-r18",
+        "affinity": 0.4
+      },
+      {
+        "id": "D-268",
+        "type": "ficha",
+        "title": "Un bot que interpreta mi pensamiento debe saber regresar al archivo original",
+        "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-268",
+        "original": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-268.html",
+        "aliases": [],
+        "clusters": [
+          "dialogos"
+        ],
+        "tags": [
+          "evidencia",
+          "memoria-territorio"
+        ],
+        "summary": "¿Cómo evitar que la voz fluida del bot sustituya aquello que supuestamente ayuda a encontrar?",
+        "commit": null,
+        "sourcePath": null,
+        "commitUrl": null,
+        "documentId": "doc-122be4b68cf5a053b8",
+        "tagWeights": {
+          "evidencia": 0.2222,
+          "memoria-territorio": 0.7778
+        },
+        "reading": "INTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Cómo evitar que la voz fluida del bot sustituya aquello que supuestamente ayuda a encontrar?\nREFLEXIÓN DEL DIÁLOGO (voces y estatutos señalados en origen) — El producto no debía limitarse a hablar con mi tono. Iván imaginó que cada entrada del bot supiera explicar en qué constelación y cluster está, qué modo de lectura utiliza y cómo regresar cuando una pregunta lo lleva fuera. En sus palabras, «para que no se vaya [...] donde no es, para que vuelva». El objetivo final quedó más claro todavía: «La idea es que el robot vuelva al archivo canónico».\n\nEl lector puede usar una conversación para descubrir el hilo, explorar objeciones y pasar de un tema a otro. Pero el texto del modelo es mediación, no un nuevo original. Cuando interpreta, debe marcar que interpreta. Cuando ofrece una frase como literal, necesita una localización comprobable. Cuando una fuente es privada o no publicable, no puede abrirla solo porque una relación del mapa conduzca hasta ella.\n\nLa ambición que trasciende un chatbot es dejar que otra persona llegue por sí misma al pensamiento, incluidos sus cambios de opinión y sus huecos. Un bot muy elocuente que impide comprobar lo que dijo el autor habría fracasado justo en lo central del proyecto. Esta ficha es una regla de diseño todavía no validada como comportamiento de software.",
+        "contextTokens": 387,
+        "distance": 2,
+        "parent": "dg-legacy",
+        "routeEdge": "apoyo:D-268:dg-legacy",
+        "affinity": 0.37778000000000006
+      },
+      {
+        "id": "D-283",
+        "type": "ficha",
+        "title": "Una serie rigurosa deja examinar cada eslabón por separado",
+        "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-283",
+        "original": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-283.html",
+        "aliases": [],
+        "clusters": [
+          "dialogos"
+        ],
+        "tags": [
+          "evidencia",
+          "memoria-territorio"
+        ],
+        "summary": "¿Cómo desarrollar una teoría extensa sin obligar al lector a creer primero todas las conclusiones anteriores?",
+        "commit": null,
+        "sourcePath": null,
+        "commitUrl": null,
+        "documentId": "doc-53c0673c46e896847f",
+        "tagWeights": {
+          "evidencia": 0.4,
+          "memoria-territorio": 0.6
+        },
+        "reading": "INTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Cómo desarrollar una teoría extensa sin obligar al lector a creer primero todas las conclusiones anteriores?\nREFLEXIÓN DEL DIÁLOGO (voz original solo en citas, resto elaboración editorial) — Al cerrar el diálogo del meta oráculo, Iván cambia de la matemática a la arquitectura de publicación. Su temor es que un lector salte directamente a una consigna como «AI exhaustion» y reduzca a ella una cadena entera de preguntas y distinciones. Por eso pide «go step by step because every step is sound, a conclusion». Quiere artículos conectados, pero cada uno suficientemente enfocado como para ser examinado sin cargar todo el corpus previo.\n\nLo precisa aún más: «I don't want to make one article to rely fully on the one before». El último puede mirar al conjunto y resumir las pruebas, mientras cada texto intermedio formula una cuestión delimitada. En su propuesta separa una investigación sobre límites prácticos de decidibilidad, otra sobre contradicción y meta-validación, y otra sobre implicaciones de gobernanza de IA. Este orden es una intención de estructura, no una certificación de que se demostraron las premisas.\n\nLa idea editorial tiene una relación inmediata con el Atlas y Perspective Beyond: una ficha debe ofrecer su argumento, su estatuto y su fuente; las relaciones permiten viajar entre ellas, pero no son una obligación de aceptar las demás. Así se puede seguir el desarrollo de una hipótesis y regresar a la conversación original, incluso si un paso posterior resulta erróneo o revisable.",
+        "contextTokens": 413,
+        "distance": 2,
+        "parent": "dg-legacy",
+        "routeEdge": "apoyo:D-283:dg-legacy",
+        "affinity": 0.36
+      }
+    ],
+    "edges": [
+      {
+        "id": "contiene:web-b885e42306908c516c-entrada:np-archivo",
+        "from": "web-b885e42306908c516c-entrada",
+        "to": "np-archivo",
+        "kind": "reading linked from the document",
+        "reading": "The entry document links this Atlas reading.",
+        "route": true
+      },
+      {
+        "id": "contiene:web-b885e42306908c516c-entrada:dg-legacy",
+        "from": "web-b885e42306908c516c-entrada",
+        "to": "dg-legacy",
+        "kind": "reading linked from the document",
+        "reading": "The entry document links this Atlas reading.",
+        "route": true
+      },
+      {
+        "id": "contiene:web-b885e42306908c516c-entrada:dg-federated_custody",
+        "from": "web-b885e42306908c516c-entrada",
+        "to": "dg-federated_custody",
+        "kind": "reading linked from the document",
+        "reading": "The entry document links this Atlas reading.",
+        "route": true
+      },
+      {
+        "id": "contiene:web-b885e42306908c516c-entrada:dg-semantic_graph",
+        "from": "web-b885e42306908c516c-entrada",
+        "to": "dg-semantic_graph",
+        "kind": "reading linked from the document",
+        "reading": "The entry document links this Atlas reading.",
+        "route": true
+      },
+      {
+        "id": "contiene:web-b885e42306908c516c-entrada:np-biografia",
+        "from": "web-b885e42306908c516c-entrada",
+        "to": "np-biografia",
+        "kind": "reading linked from the document",
+        "reading": "The entry document links this Atlas reading.",
+        "route": true
+      },
+      {
+        "id": "apoyo:D-076:dg-legacy",
+        "from": "D-076",
+        "to": "dg-legacy",
+        "kind": "documenta el concepto",
+        "reading": "",
+        "evidence": null,
+        "route": true
+      },
+      {
+        "id": "documento:np-r18",
+        "from": "np-biografia",
+        "to": "np-xanath",
+        "kind": "trayectoria",
+        "reading": "La trayectoria lleva a un caso en que el saber está ligado al lugar y a quienes lo practican.",
+        "evidence": null,
+        "route": true
+      },
+      {
+        "id": "apoyo:D-268:dg-legacy",
+        "from": "D-268",
+        "to": "dg-legacy",
+        "kind": "documenta el concepto",
+        "reading": "",
+        "evidence": null,
+        "route": true
+      },
+      {
+        "id": "apoyo:D-283:dg-legacy",
+        "from": "D-283",
+        "to": "dg-legacy",
+        "kind": "documenta el concepto",
+        "reading": "",
+        "evidence": null,
+        "route": true
+      },
+      {
+        "id": "apoyo:D-268:dg-semantic_graph",
+        "from": "D-268",
+        "to": "dg-semantic_graph",
+        "kind": "documenta el concepto",
+        "reading": "",
+        "evidence": null,
+        "route": false
+      },
+      {
+        "id": "apoyo:D-283:dg-semantic_graph",
+        "from": "D-283",
+        "to": "dg-semantic_graph",
+        "kind": "documenta el concepto",
+        "reading": "",
+        "evidence": null,
+        "route": false
+      },
+      {
+        "id": "documento:dialogue-expansion-D-283-D-268",
+        "from": "D-283",
+        "to": "D-268",
+        "kind": "conexión de la edición",
+        "reading": "La lectura enlaza «Una serie rigurosa deja examinar cada eslabón por separado» con «Un bot que interpreta mi pensamiento debe saber regresar al archivo original». Permite contrastar Conocimiento como red de relaciones y procedencia, Memoria y legado.",
+        "evidence": null,
+        "route": false
+      }
+    ],
+    "selection": [
+      {
+        "id": "np-archivo",
+        "type": "ficha",
+        "title": "Conservar el conocimiento y seguir conversando",
+        "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-archivo",
+        "original": "https://integralmanagement.ch/nueva-perspectiva/archivo-y-dialogo/",
+        "aliases": [],
+        "clusters": [
+          "imsv"
+        ],
+        "tags": [
+          "documentacion",
+          "evidencia",
+          "memoria-territorio"
+        ],
+        "summary": "El archivo conserva variantes, preguntas y aportaciones con su procedencia. Así se puede reconstruir cómo cambió una interpretación y qué parte proviene de un testimonio, un documento o una lectura posterior.",
+        "commit": null,
+        "sourcePath": null,
+        "commitUrl": null,
+        "documentId": "doc-32e17bd7cfabf6b58d",
+        "tagWeights": {
+          "documentacion": 0.3334,
+          "evidencia": 0.3333,
+          "memoria-territorio": 0.3333
+        },
+        "contextTokens": 126,
+        "distance": 1,
+        "parent": "web-b885e42306908c516c-entrada",
+        "routeEdge": null,
+        "affinity": 0.29999
+      },
+      {
+        "id": "dg-legacy",
+        "type": "concepto",
+        "title": "Memoria y legado",
+        "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-legacy",
+        "original": null,
+        "aliases": [],
+        "clusters": [
+          "dialogos"
+        ],
+        "tags": [
+          "autoridad",
+          "capacidad-humana",
+          "decision",
+          "evidencia",
+          "geopolitica",
+          "memoria-territorio",
+          "transformacion"
+        ],
+        "summary": "Relacionar relatos familiares e institucionales sin confundir sus genealogías.",
+        "commit": null,
+        "sourcePath": null,
+        "commitUrl": null,
+        "sourceIds": [
+          "D-001",
+          "D-027",
+          "D-042",
+          "D-074",
+          "D-075",
+          "D-076",
+          "D-077",
+          "D-111",
+          "D-119",
+          "D-268",
+          "D-273",
+          "D-283"
+        ],
+        "tagWeights": {
+          "autoridad": 0.0151,
+          "capacidad-humana": 0.0151,
+          "decision": 0.1003,
+          "evidencia": 0.0519,
+          "geopolitica": 0.1316,
+          "memoria-territorio": 0.5509,
+          "transformacion": 0.1351
+        },
+        "contextTokens": 114,
+        "positionHeaderTokens": 37,
+        "positionHeaderTokensEn": 34,
+        "distance": 1,
+        "parent": "web-b885e42306908c516c-entrada",
+        "routeEdge": null,
+        "affinity": 0.23593
+      },
+      {
+        "id": "dg-federated_custody",
+        "type": "concepto",
+        "title": "Custodias distribuidas y memoria viva",
+        "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-federated_custody",
+        "original": null,
+        "aliases": [],
+        "clusters": [
+          "dialogos"
+        ],
+        "tags": [
+          "autoridad",
+          "capacidad-humana",
+          "documentacion",
+          "geopolitica",
+          "memoria-territorio",
+          "transformacion"
+        ],
+        "summary": "Los territorios y oficios cooperan sin perder autonomía; memoria histórica incluye experiencia, ejecución y consentimiento.",
+        "commit": null,
+        "sourcePath": null,
+        "commitUrl": null,
+        "sourceIds": [
+          "D-251",
+          "D-252",
+          "D-253",
+          "D-263"
+        ],
+        "tagWeights": {
+          "autoridad": 0.1487,
+          "capacidad-humana": 0.0711,
+          "documentacion": 0.0588,
+          "geopolitica": 0.0333,
+          "memoria-territorio": 0.6464,
+          "transformacion": 0.0417
+        },
+        "contextTokens": 120,
+        "positionHeaderTokens": 45,
+        "positionHeaderTokensEn": 42,
+        "distance": 1,
+        "parent": "web-b885e42306908c516c-entrada",
+        "routeEdge": null,
+        "affinity": 0.27032
+      },
+      {
+        "id": "dg-semantic_graph",
+        "type": "concepto",
+        "title": "Conocimiento como red de relaciones y procedencia",
+        "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-semantic_graph",
+        "original": null,
+        "aliases": [],
+        "clusters": [
+          "dialogos"
+        ],
+        "tags": [
+          "aprendizaje",
+          "decision",
+          "economia",
+          "empresa",
+          "evidencia",
+          "experimentacion",
+          "matematicas",
+          "memoria-territorio",
+          "perspectiva",
+          "representacion",
+          "transformacion"
+        ],
+        "summary": "Un pensamiento se conserva mediante relaciones, casos, objeciones y trayectorias trazables, más que una palabra aislada.",
+        "commit": null,
+        "sourcePath": null,
+        "commitUrl": null,
+        "sourceIds": [
+          "D-240",
+          "D-247",
+          "D-249",
+          "D-267",
+          "D-268",
+          "D-283",
+          "D-285",
+          "D-291"
+        ],
+        "tagWeights": {
+          "aprendizaje": 0.0229,
+          "decision": 0.0625,
+          "economia": 0.0417,
+          "empresa": 0.1063,
+          "evidencia": 0.2673,
+          "experimentacion": 0.0625,
+          "matematicas": 0.0125,
+          "memoria-territorio": 0.2472,
+          "perspectiva": 0.0625,
+          "representacion": 0.025,
+          "transformacion": 0.0896
+        },
+        "contextTokens": 164,
+        "positionHeaderTokens": 43,
+        "positionHeaderTokensEn": 40,
+        "distance": 1,
+        "parent": "web-b885e42306908c516c-entrada",
+        "routeEdge": null,
+        "affinity": 0.18136000000000002
+      },
+      {
+        "id": "np-biografia",
+        "type": "ficha",
+        "title": "Biografía: una trayectoria en diálogo",
+        "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-biografia",
+        "original": "https://totonacapan.com/?page_id=413",
+        "aliases": [],
+        "clusters": [
+          "totonacapan"
+        ],
+        "tags": [
+          "aprendizaje",
+          "empresa",
+          "memoria-territorio"
+        ],
+        "summary": "La biografía reúne episodios de aprendizaje, organización y trabajo comunitario. Sus conversaciones ofrecen una escala personal para leer cuándo una experiencia hace cambiar la pregunta que guía una práctica.",
+        "commit": null,
+        "sourcePath": null,
+        "commitUrl": null,
+        "documentId": "doc-41f3a410d217128630",
+        "tagWeights": {
+          "aprendizaje": 0.25,
+          "empresa": 0.25,
+          "memoria-territorio": 0.5
+        },
+        "contextTokens": 113,
+        "distance": 1,
+        "parent": "web-b885e42306908c516c-entrada",
+        "routeEdge": null,
+        "affinity": 0.225
+      },
+      {
+        "id": "D-076",
+        "type": "ficha",
+        "title": "Contar el pasado sin inventar genealogías",
+        "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-076",
+        "original": "https://totonacapan.com/?page_id=413#:~:text=En%20una%20conversaci%C3%B3n%20del%202%20de%20junio%20de%202026%20sobre",
+        "aliases": [
+          "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-076.html"
+        ],
+        "clusters": [
+          "dialogos"
+        ],
+        "tags": [
+          "memoria-territorio"
+        ],
+        "summary": "¿Qué nos enseña esa imagen de Genaro si evitamos convertirla en una leyenda familiar sin pruebas?",
+        "commit": null,
+        "sourcePath": null,
+        "commitUrl": null,
+        "documentId": "doc-41f3a410d217128630",
+        "tagWeights": {
+          "memoria-territorio": 1
+        },
+        "reading": "En una conversación del 2 de junio de 2026 sobre los perfiles de frontera, Iván describió a Genaro con una mezcla muy personal de admiración y curiosidad: «Genaro llega como expedicionario a Papantla y se convierte en un fabuloso empresario culto… llevando la contabilidad… temas legales… de llegar con dos pistolas se convirtió en un empresario de todo hecho.»\n\nINTERLOCUTOR (pregunta editorial de esta edición) — ¿Qué nos enseña esa imagen de Genaro si evitamos convertirla en una leyenda familiar sin pruebas?\n\nLECTURA EDITORIAL — Enseña primero que la memoria observa cambios de función. El viajero que llega a un territorio pasa a participar en su economía, aprende oficios, construye relaciones y deja un establecimiento capaz de continuar con otras generaciones. El relato tiene que distinguir lo documentado —oficios, comercio, documentos de propiedad— de las escenas transmitidas oralmente. El valor de la historia no exige presentar cada anécdota como si fuera una escritura notarial.\n\nLa trayectoria de los Abril y los Cortés también contiene orfandad, mercados, desplazamientos y guerras. La convergencia posterior en Papantla llega a través de Carmen Vargas Carrera, quien cuenta con su propia voz y con una labor cultural distinta. Ninguna familia representa por sí misma la totalidad del Totonacapan, y una continuidad histórica de prácticas no equivale a la existencia ininterrumpida de una misma persona jurídica.\n\nEn otra conversación de 12 de abril de 2026, Iván dejó una frase que permite cerrar el círculo sin reivindicar apropiaciones: «soy de España y trabajo en Europa y en el mundo. aun así estoy orgulloso de haber formado parte de una era latinoamericana».\n\nEl orgullo aquí no necesita forma de conquista. Puede ser reconocimiento de haber participado en procesos de aprendizaje y cooperación, y de que esa experiencia lo cambió también a él. La biografía personal ayuda a hacer visible esa reciprocidad, sin absorber otras historias ni hablar en nombre de quienes no la han autorizado.",
+        "contextTokens": 526,
+        "distance": 2,
+        "parent": "dg-legacy",
+        "routeEdge": "apoyo:D-076:dg-legacy",
+        "affinity": 0.4
+      },
+      {
+        "id": "np-xanath",
+        "type": "ficha",
+        "title": "Xanath y el conocimiento que se practica",
+        "url": "https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-xanath",
+        "original": "https://totonacapan.com/?page_id=413",
+        "aliases": [],
+        "clusters": [
+          "totonacapan"
+        ],
+        "tags": [
+          "memoria-territorio"
+        ],
+        "summary": "La conversación sobre Xanath invita a observar cómo territorio, oficio y personas sostienen saberes que se transmiten mediante práctica. La custodia comienza por reconocer a quienes portan ese conocimiento.",
+        "commit": null,
+        "sourcePath": null,
+        "commitUrl": null,
+        "documentId": "doc-41f3a410d217128630",
+        "tagWeights": {
+          "memoria-territorio": 1
+        },
+        "contextTokens": 101,
+        "distance": 2,
+        "parent": "np-biografia",
+        "routeEdge": "documento:np-r18",
+        "affinity": 0.4
+      },
+      {
+        "id": "D-268",
+        "type": "ficha",
+        "title": "Un bot que interpreta mi pensamiento debe saber regresar al archivo original",
+        "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-268",
+        "original": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-268.html",
+        "aliases": [],
+        "clusters": [
+          "dialogos"
+        ],
+        "tags": [
+          "evidencia",
+          "memoria-territorio"
+        ],
+        "summary": "¿Cómo evitar que la voz fluida del bot sustituya aquello que supuestamente ayuda a encontrar?",
+        "commit": null,
+        "sourcePath": null,
+        "commitUrl": null,
+        "documentId": "doc-122be4b68cf5a053b8",
+        "tagWeights": {
+          "evidencia": 0.2222,
+          "memoria-territorio": 0.7778
+        },
+        "reading": "INTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Cómo evitar que la voz fluida del bot sustituya aquello que supuestamente ayuda a encontrar?\nREFLEXIÓN DEL DIÁLOGO (voces y estatutos señalados en origen) — El producto no debía limitarse a hablar con mi tono. Iván imaginó que cada entrada del bot supiera explicar en qué constelación y cluster está, qué modo de lectura utiliza y cómo regresar cuando una pregunta lo lleva fuera. En sus palabras, «para que no se vaya [...] donde no es, para que vuelva». El objetivo final quedó más claro todavía: «La idea es que el robot vuelva al archivo canónico».\n\nEl lector puede usar una conversación para descubrir el hilo, explorar objeciones y pasar de un tema a otro. Pero el texto del modelo es mediación, no un nuevo original. Cuando interpreta, debe marcar que interpreta. Cuando ofrece una frase como literal, necesita una localización comprobable. Cuando una fuente es privada o no publicable, no puede abrirla solo porque una relación del mapa conduzca hasta ella.\n\nLa ambición que trasciende un chatbot es dejar que otra persona llegue por sí misma al pensamiento, incluidos sus cambios de opinión y sus huecos. Un bot muy elocuente que impide comprobar lo que dijo el autor habría fracasado justo en lo central del proyecto. Esta ficha es una regla de diseño todavía no validada como comportamiento de software.",
+        "contextTokens": 387,
+        "distance": 2,
+        "parent": "dg-legacy",
+        "routeEdge": "apoyo:D-268:dg-legacy",
+        "affinity": 0.37778000000000006
+      },
+      {
+        "id": "D-283",
+        "type": "ficha",
+        "title": "Una serie rigurosa deja examinar cada eslabón por separado",
+        "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-283",
+        "original": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-283.html",
+        "aliases": [],
+        "clusters": [
+          "dialogos"
+        ],
+        "tags": [
+          "evidencia",
+          "memoria-territorio"
+        ],
+        "summary": "¿Cómo desarrollar una teoría extensa sin obligar al lector a creer primero todas las conclusiones anteriores?",
+        "commit": null,
+        "sourcePath": null,
+        "commitUrl": null,
+        "documentId": "doc-53c0673c46e896847f",
+        "tagWeights": {
+          "evidencia": 0.4,
+          "memoria-territorio": 0.6
+        },
+        "reading": "INTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Cómo desarrollar una teoría extensa sin obligar al lector a creer primero todas las conclusiones anteriores?\nREFLEXIÓN DEL DIÁLOGO (voz original solo en citas, resto elaboración editorial) — Al cerrar el diálogo del meta oráculo, Iván cambia de la matemática a la arquitectura de publicación. Su temor es que un lector salte directamente a una consigna como «AI exhaustion» y reduzca a ella una cadena entera de preguntas y distinciones. Por eso pide «go step by step because every step is sound, a conclusion». Quiere artículos conectados, pero cada uno suficientemente enfocado como para ser examinado sin cargar todo el corpus previo.\n\nLo precisa aún más: «I don't want to make one article to rely fully on the one before». El último puede mirar al conjunto y resumir las pruebas, mientras cada texto intermedio formula una cuestión delimitada. En su propuesta separa una investigación sobre límites prácticos de decidibilidad, otra sobre contradicción y meta-validación, y otra sobre implicaciones de gobernanza de IA. Este orden es una intención de estructura, no una certificación de que se demostraron las premisas.\n\nLa idea editorial tiene una relación inmediata con el Atlas y Perspective Beyond: una ficha debe ofrecer su argumento, su estatuto y su fuente; las relaciones permiten viajar entre ellas, pero no son una obligación de aceptar las demás. Así se puede seguir el desarrollo de una hipótesis y regresar a la conversación original, incluso si un paso posterior resulta erróneo o revisable.",
+        "contextTokens": 413,
+        "distance": 2,
+        "parent": "dg-legacy",
+        "routeEdge": "apoyo:D-283:dg-legacy",
+        "affinity": 0.36
+      }
+    ],
+    "reading": "# Positioning · Archivo y publicaciones\nSource document: https://totonacapan.com/?page_id=55\n\n## Conservar el conocimiento y seguir conversando\nEl archivo conserva variantes, preguntas y aportaciones con su procedencia. Así se puede reconstruir cómo cambió una interpretación y qué parte proviene de un testimonio, un documento o una lectura posterior.\nTags: Research and technical documentation 33.34%; Evidence, provenance and attribution 33.33%; Memory, community and territory 33.33%\nCard: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-archivo\nSource document: https://integralmanagement.ch/nueva-perspectiva/archivo-y-dialogo/\n\n## Memoria y legado\nRelacionar relatos familiares e institucionales sin confundir sus genealogías.\nTags: Authority, permissions and delegation 1.51%; Human capability and intelligence debt 1.51%; Decisions and responsibility 10.03%; Evidence, provenance and attribution 5.19%; Geopolitics and borders 13.16%; Memory, community and territory 55.09%; Transformation and operational continuity 13.51%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-legacy\n\n## Custodias distribuidas y memoria viva\nLos territorios y oficios cooperan sin perder autonomía; memoria histórica incluye experiencia, ejecución y consentimiento.\nTags: Authority, permissions and delegation 14.87%; Human capability and intelligence debt 7.11%; Research and technical documentation 5.88%; Geopolitics and borders 3.33%; Memory, community and territory 64.64%; Transformation and operational continuity 4.17%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-federated_custody\n\n## Conocimiento como red de relaciones y procedencia\nUn pensamiento se conserva mediante relaciones, casos, objeciones y trayectorias trazables, más que una palabra aislada.\nTags: Learning and capability transmission 2.29%; Decisions and responsibility 6.25%; Economics, costs and liquidity 4.17%; Business and management 10.63%; Evidence, provenance and attribution 26.73%; Experimentation, falsification and counterexamples 6.25%; Mathematics 1.25%; Memory, community and territory 24.72%; Change of perspective 6.25%; Representation and formal boundaries 2.50%; Transformation and operational continuity 8.96%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-semantic_graph\n\n## Biografía: una trayectoria en diálogo\nLa biografía reúne episodios de aprendizaje, organización y trabajo comunitario. Sus conversaciones ofrecen una escala personal para leer cuándo una experiencia hace cambiar la pregunta que guía una práctica.\nTags: Learning and capability transmission 25.00%; Business and management 25.00%; Memory, community and territory 50.00%\nCard: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-biografia\nSource document: https://totonacapan.com/?page_id=413\n\nContar el pasado sin inventar genealogías → Memoria y legado · documenta el concepto. \n\n## Contar el pasado sin inventar genealogías\nEn una conversación del 2 de junio de 2026 sobre los perfiles de frontera, Iván describió a Genaro con una mezcla muy personal de admiración y curiosidad: «Genaro llega como expedicionario a Papantla y se convierte en un fabuloso empresario culto… llevando la contabilidad… temas legales… de llegar con dos pistolas se convirtió en un empresario de todo hecho.»\n\nINTERLOCUTOR (pregunta editorial de esta edición) — ¿Qué nos enseña esa imagen de Genaro si evitamos convertirla en una leyenda familiar sin pruebas?\n\nLECTURA EDITORIAL — Enseña primero que la memoria observa cambios de función. El viajero que llega a un territorio pasa a participar en su economía, aprende oficios, construye relaciones y deja un establecimiento capaz de continuar con otras generaciones. El relato tiene que distinguir lo documentado —oficios, comercio, documentos de propiedad— de las escenas transmitidas oralmente. El valor de la historia no exige presentar cada anécdota como si fuera una escritura notarial.\n\nLa trayectoria de los Abril y los Cortés también contiene orfandad, mercados, desplazamientos y guerras. La convergencia posterior en Papantla llega a través de Carmen Vargas Carrera, quien cuenta con su propia voz y con una labor cultural distinta. Ninguna familia representa por sí misma la totalidad del Totonacapan, y una continuidad histórica de prácticas no equivale a la existencia ininterrumpida de una misma persona jurídica.\n\nEn otra conversación de 12 de abril de 2026, Iván dejó una frase que permite cerrar el círculo sin reivindicar apropiaciones: «soy de España y trabajo en Europa y en el mundo. aun así estoy orgulloso de haber formado parte de una era latinoamericana».\n\nEl orgullo aquí no necesita forma de conquista. Puede ser reconocimiento de haber participado en procesos de aprendizaje y cooperación, y de que esa experiencia lo cambió también a él. La biografía personal ayuda a hacer visible esa reciprocidad, sin absorber otras historias ni hablar en nombre de quienes no la han autorizado.\nTags: Memory, community and territory 100.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-076\nSource document: https://totonacapan.com/?page_id=413#:~:text=En%20una%20conversaci%C3%B3n%20del%202%20de%20junio%20de%202026%20sobre\n\nBiografía: una trayectoria en diálogo → Xanath y el conocimiento que se practica · trayectoria. La trayectoria lleva a un caso en que el saber está ligado al lugar y a quienes lo practican.\n\n## Xanath y el conocimiento que se practica\nLa conversación sobre Xanath invita a observar cómo territorio, oficio y personas sostienen saberes que se transmiten mediante práctica. La custodia comienza por reconocer a quienes portan ese conocimiento.\nTags: Memory, community and territory 100.00%\nCard: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-xanath\nSource document: https://totonacapan.com/?page_id=413\n\nUn bot que interpreta mi pensamiento debe saber regresar al archivo original → Memoria y legado · documenta el concepto. \n\n## Un bot que interpreta mi pensamiento debe saber regresar al archivo original\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Cómo evitar que la voz fluida del bot sustituya aquello que supuestamente ayuda a encontrar?\nREFLEXIÓN DEL DIÁLOGO (voces y estatutos señalados en origen) — El producto no debía limitarse a hablar con mi tono. Iván imaginó que cada entrada del bot supiera explicar en qué constelación y cluster está, qué modo de lectura utiliza y cómo regresar cuando una pregunta lo lleva fuera. En sus palabras, «para que no se vaya [...] donde no es, para que vuelva». El objetivo final quedó más claro todavía: «La idea es que el robot vuelva al archivo canónico».\n\nEl lector puede usar una conversación para descubrir el hilo, explorar objeciones y pasar de un tema a otro. Pero el texto del modelo es mediación, no un nuevo original. Cuando interpreta, debe marcar que interpreta. Cuando ofrece una frase como literal, necesita una localización comprobable. Cuando una fuente es privada o no publicable, no puede abrirla solo porque una relación del mapa conduzca hasta ella.\n\nLa ambición que trasciende un chatbot es dejar que otra persona llegue por sí misma al pensamiento, incluidos sus cambios de opinión y sus huecos. Un bot muy elocuente que impide comprobar lo que dijo el autor habría fracasado justo en lo central del proyecto. Esta ficha es una regla de diseño todavía no validada como comportamiento de software.\nTags: Evidence, provenance and attribution 22.22%; Memory, community and territory 77.78%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-268\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-268.html\n\nUna serie rigurosa deja examinar cada eslabón por separado → Memoria y legado · documenta el concepto. \n\n## Una serie rigurosa deja examinar cada eslabón por separado\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Cómo desarrollar una teoría extensa sin obligar al lector a creer primero todas las conclusiones anteriores?\nREFLEXIÓN DEL DIÁLOGO (voz original solo en citas, resto elaboración editorial) — Al cerrar el diálogo del meta oráculo, Iván cambia de la matemática a la arquitectura de publicación. Su temor es que un lector salte directamente a una consigna como «AI exhaustion» y reduzca a ella una cadena entera de preguntas y distinciones. Por eso pide «go step by step because every step is sound, a conclusion». Quiere artículos conectados, pero cada uno suficientemente enfocado como para ser examinado sin cargar todo el corpus previo.\n\nLo precisa aún más: «I don't want to make one article to rely fully on the one before». El último puede mirar al conjunto y resumir las pruebas, mientras cada texto intermedio formula una cuestión delimitada. En su propuesta separa una investigación sobre límites prácticos de decidibilidad, otra sobre contradicción y meta-validación, y otra sobre implicaciones de gobernanza de IA. Este orden es una intención de estructura, no una certificación de que se demostraron las premisas.\n\nLa idea editorial tiene una relación inmediata con el Atlas y Perspective Beyond: una ficha debe ofrecer su argumento, su estatuto y su fuente; las relaciones permiten viajar entre ellas, pero no son una obligación de aceptar las demás. Así se puede seguir el desarrollo de una hipótesis y regresar a la conversación original, incluso si un paso posterior resulta erróneo o revisable.\nTags: Evidence, provenance and attribution 40.00%; Memory, community and territory 60.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-283\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-283.html\n\n"
+  }
+}

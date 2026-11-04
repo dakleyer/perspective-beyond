@@ -13,9 +13,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## El dinero sostiene una promesa que necesita ser creíble\nINTERLOCUTOR (pregunta editorial) — ¿Qué hay detrás de la confianza en una unidad monetaria, más allá del metal, el papel o la pantalla?\nREFLEXIÓN DEL ESCRITO (síntesis editorial) — La hipótesis fuerte de los apuntes era más exigente que decir que el dinero inspira confianza: Iván escribió «Activo = Dinero; Pasivo = Garantía, deuda» y planteó que el valor monetario descansa en alguna garantía capaz de hacerse creíble. Esa garantía podría adoptar formas radicalmente diferentes: promesa de una persona, aceptación social, respaldo de activos, escasez, capacidad institucional o incluso amenaza coercitiva. Lo provocador era reconocer como deuda también el trabajo futuro de sostener la credibilidad, la protección o el cumplimiento de la promesa. No debe ocultarse que el texto original llegó a una formulación universal —que la totalidad de la masa monetaria sería deuda en este sentido— que el working paper posterior no considera demostrada. La genealogía intelectual importa: de esa afirmación no validada surgió una pregunta más defendible sobre garantías, obligaciones y capacidad comprometida.\nEtiquetas: Compromisos y capacidad disponible 25.00%; Decisiones y responsabilidad 18.75%; Economía, costes y liquidez 56.25%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-137\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-137.html\n\n",
-  "readingSource": null,
-  "tokens": 332,
+  "context": "## El dinero sostiene una promesa que necesita ser creíble\nINTERLOCUTOR (pregunta editorial) — ¿Qué hay detrás de la confianza en una unidad monetaria, más allá del metal, el papel o la pantalla?\nREFLEXIÓN DEL ESCRITO (síntesis editorial) — La hipótesis fuerte de los apuntes era más exigente que decir que el dinero inspira confianza: Iván escribió «Activo = Dinero; Pasivo = Garantía, deuda» y planteó que el valor monetario descansa en alguna garantía capaz de hacerse creíble. Esa garantía podría adoptar formas radicalmente diferentes: promesa de una persona, aceptación social, respaldo de activos, escasez, capacidad institucional o incluso amenaza coercitiva. Lo provocador era reconocer como deuda también el trabajo futuro de sostener la credibilidad, la protección o el cumplimiento de la promesa. No debe ocultarse que el texto original llegó a una formulación universal —que la totalidad de la masa monetaria sería deuda en este sentido— que el working paper posterior no considera demostrada. La genealogía intelectual importa: de esa afirmación no validada surgió una pregunta más defendible sobre garantías, obligaciones y capacidad comprometida.\nTags: Commitments and available capability 25.00%; Decisions and responsibility 18.75%; Economics, costs and liquidity 56.25%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-137\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-137.html\n\n",
+  "tokens": 327,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,10 +22,11 @@
       "to": "dg-economy",
       "title": "Economía y escasez",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 250,
+      "fichaTokens": 222,
       "tagWeights": {
         "aprendizaje": 0.0688,
         "autoridad": 0.0119,
@@ -59,10 +59,11 @@
       "to": "dg-trust",
       "title": "Confianza y equipos",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 216,
+      "fichaTokens": 194,
       "tagWeights": {
         "aprendizaje": 0.1145,
         "autoridad": 0.0227,
@@ -92,10 +93,11 @@
       "to": "dg-commitment",
       "title": "Garantías, deudas y compromisos",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 27,
-      "fichaTokens": 131,
+      "fichaTokens": 122,
       "tagWeights": {
         "aprendizaje": 0.1786,
         "compromisos": 0.05,
@@ -116,10 +118,11 @@
       "to": "D-201",
       "title": "Una decisión privada puede ser una moneda de liquidez casi nula",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una decisión privada puede ser una moneda de liquidez casi nula» con «El dinero sostiene una promesa que necesita ser creíble». Permite contrastar Economía y escasez, Garantías, deudas y compromisos, Confianza y equipos.",
       "relationTokens": 88,
-      "fichaTokens": 378,
+      "fichaTokens": 374,
       "tagWeights": {
         "decision": 0.4,
         "economia": 0.6
@@ -135,10 +138,11 @@
       "to": "D-202",
       "title": "Una foto de tomates no es otro tomate",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una foto de tomates no es otro tomate» con «El dinero sostiene una promesa que necesita ser creíble». Permite contrastar Garantías, deudas y compromisos, Economía y escasez.",
       "relationTokens": 73,
-      "fichaTokens": 380,
+      "fichaTokens": 376,
       "tagWeights": {
         "decision": 0.2,
         "economia": 0.8
@@ -154,10 +158,11 @@
       "to": "D-212",
       "title": "La coacción puede esconderse en el crédito o explotar en la supervivencia",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La coacción puede esconderse en el crédito o explotar en la supervivencia» con «El dinero sostiene una promesa que necesita ser creíble». Permite contrastar Economía y escasez.",
       "relationTokens": 80,
-      "fichaTokens": 410,
+      "fichaTokens": 405,
       "tagWeights": {
         "economia": 0.3334,
         "geopolitica": 0.3333,
@@ -174,12 +179,13 @@
       "to": "D-222",
       "title": "Si el oro gana al capital productivo, ¿qué economía estamos construyendo?",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Si el oro gana al capital productivo, ¿qué economía estamos construyendo?» con «El dinero sostiene una promesa que necesita ser creíble». Permite contrastar Economía y escasez.",
       "relationTokens": 81,
-      "fichaTokens": 464,
+      "fichaTokens": 461,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "dialogos"
@@ -192,12 +198,13 @@
       "to": "D-261",
       "title": "La Bolsa puede estar comprando reservas que no parecen mercancías",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La Bolsa puede estar comprando reservas que no parecen mercancías» con «El dinero sostiene una promesa que necesita ser creíble». Permite contrastar Economía y escasez.",
       "relationTokens": 72,
-      "fichaTokens": 398,
+      "fichaTokens": 395,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "dialogos"
@@ -210,10 +217,11 @@
       "to": "D-295",
       "title": "Un algoritmo democrático no elimina el pan, la gasolina ni el tiempo",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Un algoritmo democrático no elimina el pan, la gasolina ni el tiempo» con «El dinero sostiene una promesa que necesita ser creíble». Permite contrastar Economía y escasez, Garantías, deudas y compromisos.",
       "relationTokens": 83,
-      "fichaTokens": 420,
+      "fichaTokens": 414,
       "tagWeights": {
         "aprendizaje": 0.2857,
         "economia": 0.7143
@@ -229,10 +237,11 @@
       "to": "D-150",
       "title": "La paz mental de una generación también tuvo precio",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Garantías, deudas y compromisos, Economía y escasez desde las situaciones que describe cada texto.",
       "relationTokens": 55,
-      "fichaTokens": 331,
+      "fichaTokens": 328,
       "tagWeights": {
         "economia": 0.5,
         "geopolitica": 0.5
@@ -248,10 +257,11 @@
       "to": "D-182",
       "title": "Una promesa de movilidad empieza a existir cuando tiene horarios",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura comparada de mecanismos",
       "reading": "La confianza en una promesa monetaria y el proyecto de conexión entre pueblos permiten comparar qué condiciones vuelven examinable un compromiso: respaldo, medios y una forma concreta de cumplimiento.",
-      "relationTokens": 94,
-      "fichaTokens": 372,
+      "relationTokens": 92,
+      "fichaTokens": 365,
       "tagWeights": {
         "casos": 0.16,
         "compromisos": 0.2,

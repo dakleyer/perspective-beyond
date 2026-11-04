@@ -6,14 +6,13 @@
   "documentId": "doc-c8aa71144072154103",
   "sourceIds": [],
   "tagWeights": {
-    "documentacion": 1.0
+    "documentacion": 1
   },
   "clusters": [
     "research"
   ],
-  "context": "## R01 information-preservation audit — 4 October 2026\nContenido de la fuente: Purpose and boundary · Historical chain reviewed · Direct preservation checks performed in this pass.\nEtiquetas: Investigación y documentación técnica 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-0548f78acef17c.html\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/a96f14718a3b2f307b812ae4d8fe278dffb62764/research/ecosystem-awareness/baseline/reductions/00G-R01/INFORMATION_PRESERVATION_AUDIT_2026-10-04.md\n\n",
-  "readingSource": null,
-  "tokens": 160,
+  "context": "## R01 information-preservation audit — 4 October 2026\nContenido de la fuente: Purpose and boundary · Historical chain reviewed · Direct preservation checks performed in this pass.\nTags: Research and technical documentation 100.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-0548f78acef17c.html\nSource document: https://github.com/dakleyer/structural-awareness-contributions/blob/a96f14718a3b2f307b812ae4d8fe278dffb62764/research/ecosystem-awareness/baseline/reductions/00G-R01/INFORMATION_PRESERVATION_AUDIT_2026-10-04.md\n\n",
+  "tokens": 158,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -21,10 +20,11 @@
       "to": "sac-ae5cfdf16d6d42",
       "title": "Preserved non-canonical working inputs",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «R01 — escenarios, oráculo y trabajos parciales» con el rótulo «Conservación de información en R01».",
-      "relationTokens": 127,
-      "fichaTokens": 175,
+      "relationTokens": 125,
+      "fichaTokens": 169,
       "tagWeights": {
         "decision": 0.3334,
         "documentacion": 0.3333,
@@ -41,10 +41,11 @@
       "to": "sac-842e012fc7d601",
       "title": "R01 Probabilistic exploration and validation cost",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «R01 information-preservation audit — 4 October 2026» con el rótulo «R01 current entry».",
-      "relationTokens": 142,
-      "fichaTokens": 163,
+      "relationTokens": 140,
+      "fichaTokens": 158,
       "tagWeights": {
         "economia": 0.8333,
         "experimentacion": 0.1667
@@ -60,12 +61,13 @@
       "to": "sac-dfba7074eba6a2",
       "title": "R01 trace-layer policy",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «R01 information-preservation audit — 4 October 2026» con el rótulo «Trace-layer policy».",
-      "relationTokens": 137,
-      "fichaTokens": 147,
+      "relationTokens": 135,
+      "fichaTokens": 143,
       "tagWeights": {
-        "experimentacion": 1.0
+        "experimentacion": 1
       },
       "clusters": [
         "research"

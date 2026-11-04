@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Máquina de escribir, pensamiento y autoría",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-ai_writing_boundary",
-  "documentId": null,
   "sourceIds": [
     "D-291"
   ],
@@ -14,9 +13,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Máquina de escribir, pensamiento y autoría\nLa IA puede ayudar a volver comunicable una idea sin que la fluidez de su prosa pruebe quién la concibió.\nEtiquetas: Decisiones y responsabilidad 50.00%; Evidencia, procedencia y atribución 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-ai_writing_boundary\n\n",
-  "readingSource": null,
-  "tokens": 88,
+  "context": "## Máquina de escribir, pensamiento y autoría\nLa IA puede ayudar a volver comunicable una idea sin que la fluidez de su prosa pruebe quién la concibió.\nTags: Decisions and responsibility 50.00%; Evidence, provenance and attribution 50.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-ai_writing_boundary\n\n",
+  "tokens": 83,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -24,10 +22,11 @@
       "to": "D-291",
       "title": "La inteligencia artificial también puede ser una máquina de escribir",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 377,
+      "fichaTokens": 371,
       "tagWeights": {
         "decision": 0.5,
         "evidencia": 0.5
@@ -43,10 +42,11 @@
       "to": "dg-semantic_graph",
       "title": "Conocimiento como red de relaciones y procedencia",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación transversal propuesta v0.12",
       "reading": "Retornar al registro de ideas originales.",
       "relationTokens": 36,
-      "fichaTokens": 181,
+      "fichaTokens": 164,
       "tagWeights": {
         "aprendizaje": 0.0229,
         "decision": 0.0625,
@@ -71,10 +71,11 @@
       "to": "dg-research_dialogue",
       "title": "Diálogo de investigación y prueba acotada",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación transversal propuesta v0.12",
       "reading": "Distinguir intervención y elaboración.",
       "relationTokens": 35,
-      "fichaTokens": 150,
+      "fichaTokens": 135,
       "tagWeights": {
         "aprendizaje": 0.0556,
         "autoridad": 0.3333,
@@ -96,10 +97,11 @@
       "to": "dg-evidence_recognition",
       "title": "Valor del trabajo y pruebas de capacidad",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación transversal propuesta v0.12",
       "reading": "La fluidez no prueba autoría.",
       "relationTokens": 34,
-      "fichaTokens": 126,
+      "fichaTokens": 113,
       "tagWeights": {
         "aprendizaje": 0.2,
         "autoridad": 0.1,

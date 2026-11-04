@@ -6,14 +6,13 @@
   "documentId": "doc-05365a011d99f3863b",
   "sourceIds": [],
   "tagWeights": {
-    "documentacion": 1.0
+    "documentacion": 1
   },
   "clusters": [
     "research"
   ],
-  "context": "## Codex — empezar aquí: receptor nativo 00G-HF sin EA\nContenido de la fuente: 1. Qué estás probando · 2. Lectura necesaria antes de ejecutar · 3. Preparación y ejecución.\nEtiquetas: Investigación y documentación técnica 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-9f26ee43df5875.html\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/868342c2ea377d5b9988cf86acb638104814982e/research/ecosystem-awareness/baseline/implementation/00G-HF-PARALLEL-v0.1/CODEX_START_HERE.md\n\n",
-  "readingSource": null,
-  "tokens": 166,
+  "context": "## Codex — empezar aquí: receptor nativo 00G-HF sin EA\nContenido de la fuente: 1. Qué estás probando · 2. Lectura necesaria antes de ejecutar · 3. Preparación y ejecución.\nTags: Research and technical documentation 100.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-9f26ee43df5875.html\nSource document: https://github.com/dakleyer/structural-awareness-contributions/blob/868342c2ea377d5b9988cf86acb638104814982e/research/ecosystem-awareness/baseline/implementation/00G-HF-PARALLEL-v0.1/CODEX_START_HERE.md\n\n",
+  "tokens": 164,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -21,12 +20,13 @@
       "to": "sac-3c8ea7466ea1d4",
       "title": "Handoff to the independent native/Codex lane",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Handoff to the independent native/Codex lane» con el rótulo «CODEX_START_HERE.md».",
-      "relationTokens": 139,
-      "fichaTokens": 144,
+      "relationTokens": 137,
+      "fichaTokens": 142,
       "tagWeights": {
-        "documentacion": 1.0
+        "documentacion": 1
       },
       "clusters": [
         "research"
@@ -39,10 +39,11 @@
       "to": "sac-9a87915cffb17f",
       "title": "00G-HF — model receiver candidate v0.1",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Codex — empezar aquí: receptor nativo 00G-HF sin EA» con el rótulo «nuevo receptor con decisiones abiertas».",
-      "relationTokens": 146,
-      "fichaTokens": 163,
+      "relationTokens": 144,
+      "fichaTokens": 159,
       "tagWeights": {
         "cartografia": 0.5,
         "documentacion": 0.5
@@ -58,12 +59,13 @@
       "to": "sac-bbf87ddf5e9908",
       "title": "00G-HF — plan de implementación en paralelo v0.1",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Codex — empezar aquí: receptor nativo 00G-HF sin EA» con el rótulo «plan de implementación».",
-      "relationTokens": 146,
-      "fichaTokens": 168,
+      "relationTokens": 144,
+      "fichaTokens": 164,
       "tagWeights": {
-        "transformacion": 1.0
+        "transformacion": 1
       },
       "clusters": [
         "research"
@@ -76,10 +78,11 @@
       "to": "sac-31df3dcd447841",
       "title": "00G-HF native receiver candidate v0.1",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «2. Lectura necesaria antes de ejecutar» con el rótulo «Candidato nativo v0.1».",
-      "relationTokens": 140,
-      "fichaTokens": 174,
+      "relationTokens": 138,
+      "fichaTokens": 169,
       "tagWeights": {
         "decision": 0.5,
         "transformacion": 0.5
@@ -95,10 +98,11 @@
       "to": "sac-4c8a12026d8f2e",
       "title": "Primera ronda: dos controles conservados ante cambio de contexto",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «2. Lectura necesaria antes de ejecutar» con el rótulo «C3 ROUND1_PROTOCOL.md».",
-      "relationTokens": 137,
-      "fichaTokens": 189,
+      "relationTokens": 135,
+      "fichaTokens": 182,
       "tagWeights": {
         "cambio-regimen": 0.5556,
         "evidencia": 0.4444
@@ -114,10 +118,11 @@
       "to": "sac-97b5beb663d047",
       "title": "00G-HF — Protocolo causal del recorrido negativo y prueba de la hipótesis EA",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «2. Lectura necesaria antes de ejecutar» con el rótulo «Protocolo causal §§3–10».",
-      "relationTokens": 148,
-      "fichaTokens": 215,
+      "relationTokens": 146,
+      "fichaTokens": 208,
       "tagWeights": {
         "documentacion": 0.1111,
         "evidencia": 0.4445,
@@ -134,10 +139,11 @@
       "to": "sac-7d7472405c7347",
       "title": "00G-HF — Extensión de Napoleón y diseño de los recorridos R1–R3",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «2. Lectura necesaria antes de ejecutar» con el rótulo «reducción».",
-      "relationTokens": 145,
-      "fichaTokens": 232,
+      "relationTokens": 143,
+      "fichaTokens": 224,
       "tagWeights": {
         "aprendizaje": 0.5714,
         "experimentacion": 0.1429,
@@ -155,10 +161,11 @@
       "to": "sac-a5fd75bedc9aee",
       "title": "Ecosystem Awareness / Positioning — Living Workplan",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «2. Lectura necesaria antes de ejecutar» con el rótulo «hoja de ruta W3-HF».",
-      "relationTokens": 138,
-      "fichaTokens": 205,
+      "relationTokens": 136,
+      "fichaTokens": 192,
       "tagWeights": {
         "cartografia": 0.2632,
         "documentacion": 0.3684,
@@ -178,12 +185,13 @@
       "to": "sac-bbf87ddf5e9908",
       "title": "00G-HF — plan de implementación en paralelo v0.1",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «00G-HF — plan de implementación en paralelo v0.1» con el rótulo «CODEX_START_HERE.md».",
-      "relationTokens": 143,
-      "fichaTokens": 168,
+      "relationTokens": 141,
+      "fichaTokens": 164,
       "tagWeights": {
-        "transformacion": 1.0
+        "transformacion": 1
       },
       "clusters": [
         "research"
@@ -196,10 +204,11 @@
       "to": "sac-ae5cfdf16d6d42",
       "title": "Preserved non-canonical working inputs",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Archivo completo de enlaces del corte» con el rótulo «Codex — empezar aquí: receptor nativo 00G-HF sin EA».",
-      "relationTokens": 133,
-      "fichaTokens": 175,
+      "relationTokens": 131,
+      "fichaTokens": 169,
       "tagWeights": {
         "decision": 0.3334,
         "documentacion": 0.3333,

@@ -12,7 +12,7 @@ from urllib.parse import urlencode, urljoin, urlsplit
 ATLAS = "https://dakleyer.github.io/perspective-beyond/atlas/"
 RAW = "https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/"
 SCHEMA = "perspective-beyond/instances-v1"
-MODES = {"closed": "Cerrado", "porous": "Poroso", "federated": "Federado"}
+MODES = {"closed": "Closed", "porous": "Porous", "federated": "Federated"}
 CONFIG_KEYS = ("cluster", "mode", "centro", "rol", "lectura", "pesos", "solo", "puente")
 
 
@@ -26,7 +26,7 @@ def make_qr(url, path):
 
     parsed = urlsplit(url)
     if (parsed.scheme, parsed.netloc) != ("https", "dakleyer.github.io") or not parsed.path.startswith("/perspective-beyond/atlas/"):
-        raise ValueError("El QR debe abrir una URL pública de Perspective Beyond.")
+        raise ValueError("The QR code must open a public Perspective Beyond URL.")
     path.parent.mkdir(parents=True, exist_ok=True)
     qr = qrcode.QRCode(error_correction=qrcode.constants.ERROR_CORRECT_M, box_size=8, border=4)
     qr.add_data(url)
@@ -40,7 +40,7 @@ def link(url, label, attrs=""):
 
 def page(title, css, body):
     return (
-        '<!doctype html><html lang="es"><head><meta charset="utf-8">'
+        '<!doctype html><html lang="en"><head><meta charset="utf-8">'
         '<meta name="viewport" content="width=device-width,initial-scale=1">'
         f'<title>{escape(title)} · Perspective Beyond</title><link rel="stylesheet" href="{css}">'
         '<style>.launch{display:grid;grid-template-columns:minmax(0,1fr) minmax(10rem,15rem);gap:1.5rem}'
@@ -77,18 +77,18 @@ def guard_versions(previous, current):
 def configure(config, catalog, routes, sources):
     slug, version, cluster, mode = (config[key] for key in ("id", "version", "cluster", "mode"))
     if not re.fullmatch(r"[a-z][a-z0-9-]*", slug) or not re.fullmatch(r"v[1-9][0-9]*", version):
-        raise ValueError(f"ID o versión inválidos: {slug}/{version}")
+        raise ValueError(f"Invalid ID or version: {slug}/{version}")
     if mode not in MODES or (cluster != "all" and cluster not in catalog["clusters"]):
-        raise ValueError(f"Clúster o alcance inválido: {slug}")
+        raise ValueError(f"Invalid cluster or scope: {slug}")
     role, purpose = config["rol"], config["lectura"]
     role_label, role_rule = catalog["session_profiles"]["roles"][role]
     purpose_label, purpose_rule = catalog["session_profiles"]["purposes"][purpose]
     weights = config.get("pesos", {})
     strict = config.get("solo", False)
     if not isinstance(strict, bool) or (strict and not weights):
-        raise ValueError(f"Filtro temático inválido: {slug}")
+        raise ValueError(f"Invalid thematic filter: {slug}")
     if cluster == "all" and mode != "federated":
-        raise ValueError(f"La constelación completa requiere alcance federado: {slug}")
+        raise ValueError(f"The complete constellation requires federated scope: {slug}")
     clusters = catalog["clusters"]
     membership = catalog["source_cluster"]
     center = config.get("centro")
@@ -96,27 +96,27 @@ def configure(config, catalog, routes, sources):
     active = list(clusters) if mode == "federated" else [cluster]
     bridge_id = config.get("puente")
     if mode == "porous" and bridge_id not in routes["bridges"]:
-        raise ValueError(f"El modo poroso necesita un puente registrado: {slug}")
+        raise ValueError(f"Porous mode requires a recorded bridge: {slug}")
     bridge = routes["bridges"][bridge_id] if mode == "porous" else None
     if bridge:
         if bridge["from"] != cluster:
-            raise ValueError(f"El puente no sale del clúster seleccionado: {slug}")
+            raise ValueError(f"The bridge does not leave the selected cluster: {slug}")
         active.append(bridge["to"])
         route = route_group["porous"][bridge_id]
     else:
         route = routes["text_entries"]["global"] if cluster == "all" else route_group[mode]
     if center and membership[center] not in active:
-        raise ValueError(f"La ficha central queda fuera del alcance: {slug}")
+        raise ValueError(f"The central card falls outside scope: {slug}")
     topics = catalog["topics"]
     for tag, value in weights.items():
         if type(value) is not int or not 1 <= value <= 10000:
-            raise ValueError(f"Peso inválido: {slug}/{tag}")
+            raise ValueError(f"Invalid weight: {slug}/{tag}")
         if not any(membership[sid] in active for sid in topics[tag]["sources"]):
-            raise ValueError(f"Etiqueta fuera del alcance: {slug}/{tag}")
+            raise ValueError(f"Tag outside scope: {slug}/{tag}")
     if strict and center and not set(weights).intersection(catalog["source_tags"][center]):
-        raise ValueError(f"La ficha central queda fuera del filtro temático: {slug}")
+        raise ValueError(f"The central card falls outside the thematic filter: {slug}")
 
-    name = "Toda la constelación" if cluster == "all" else clusters[cluster][0]
+    name = "The whole constellation" if cluster == "all" else clusters[cluster][0]
     focus = "personalizado" if weights else "parejo"
     params = [("config", "1"), ("rol", role), ("lectura", purpose), ("enfoque", focus)]
     params.extend(("peso", f"tema:{tag}:{value}") for tag, value in weights.items())
@@ -130,9 +130,9 @@ def configure(config, catalog, routes, sources):
     url = f"{ATLAS}i/{slug}/{version}/"
     source = sources[center] if center else None
     note = catalog["editorial_cards"].get(center, {})
-    focus_label = weight_labels(weights, topics) if weights else "Enfoque parejo"
+    focus_label = weight_labels(weights, topics) if weights else "Balanced focus"
     if strict:
-        focus_label += " · selección temática exclusiva"
+        focus_label += " · exclusive thematic selection"
     return {
         **config, "nombre": name, "alcance": [clusters[key][0] for key in active],
         "url": url, "qr": url + "qr.png", "texto": url + "entrada.txt",
@@ -160,7 +160,7 @@ def build_instances(out, canonical_bytes, definitions_path):
     assert definitions["schema"] == SCHEMA
     instances = [configure(row, catalog, routes, sources) for row in definitions["instances"]]
     if len({(row["id"], row["version"]) for row in instances}) != len(instances):
-        raise ValueError("Hay una instancia repetida en la misma versión.")
+        raise ValueError("An instance is repeated in the same version.")
     folder = out / "i"
     registry = folder / "instancias.json"
     if registry.exists():
@@ -172,60 +172,60 @@ def build_instances(out, canonical_bytes, definitions_path):
         source = row["fuente"]
         lead = f'{row["modoNombre"]} · {row["rolNombre"]} · {row["enfoqueNombre"]}'
         actions = [
-            link(row["textoGithub"], "Abrir texto para mi asistente"),
-            link(row["selector"], "Abrir configuración en el Atlas"),
+            link(row["textoGithub"], "Open text for my assistant"),
+            link(row["selector"], "Open configuration in the Atlas"),
         ]
         if source:
-            actions.append(link(row["mapa"], "Explorar el mapa de esta ficha"))
+            actions.append(link(row["mapa"], "Explore this card's map"))
         write(target / "index.html", page(title, "../../../mapa/mapa.css",
-            '<p class="kicker">Perspective Beyond · Punto de entrada</p>'
+            '<p class="kicker">Perspective Beyond · Entry point</p>'
             f'<h1>{escape(title)}</h1><p class="lead">{escape(lead)}</p>'
-            f'<p>{link("../../", "Ver todos los puntos de entrada")}</p>'
-            '<section class="panel launch"><div><h2>Conecta tu asistente</h2>'
-            '<p>Copia la dirección del texto y pégala en tu asistente junto con tu pregunta. '
-            'También puedes abrir la configuración para explorar o ajustar tu selección.</p>'
+            f'<p>{link("../../", "View all entry points")}</p>'
+            '<section class="panel launch"><div><h2>Connect your assistant</h2>'
+            '<p>Copy the text address and paste it into your assistant along with your question. '
+            'You can also open the configuration to explore or adjust your selection.</p>'
             f'<div class="actions">{"".join(actions)}</div>'
-            + (f'<p>Punto de partida · {link(source["original"], source["titulo"])}</p>' if source else '')
-            + '</div><div><h2>Código QR</h2>'
-            '<img src="qr.png" class="qr" width="320" height="320" alt="Código QR para abrir este punto de entrada">'
-            f'<p>{link("qr.png", "Descargar el QR", " download")}</p></div></section>'))
+            + (f'<p>Starting point · {link(source["original"], source["titulo"])}</p>' if source else '')
+            + '</div><div><h2>QR code</h2>'
+            '<img src="qr.png" class="qr" width="320" height="320" alt="QR code to open this entry point">'
+            f'<p>{link("qr.png", "Download the QR code", " download")}</p></div></section>'))
         lines = [
-            "PERSPECTIVE BEYOND · CONECTA TU ASISTENTE",
-            f'Instancia: {row["id"]}/{row["version"]} · {row["nombre"]}',
-            f'Alcance: {row["modoNombre"]} · {", ".join(row["alcance"])}',
-            f'Rol: {row["rolNombre"]}. {row["rolRegla"]}',
-            f'Propósito: {row["proposito"]}. {row["propositoRegla"]}',
-            "Enfoque: " + row["enfoqueNombre"] + ".",
+            "PERSPECTIVE BEYOND · CONNECT YOUR ASSISTANT",
+            f'Instance: {row["id"]}/{row["version"]} · {row["nombre"]}',
+            f'Scope: {row["modoNombre"]} · {", ".join(row["alcance"])}',
+            f'Role: {row["rolNombre"]}. {row["rolRegla"]}',
+            f'Purpose: {row["proposito"]}. {row["propositoRegla"]}',
+            "Focus: " + row["enfoqueNombre"] + ".",
             "",
-            "Aplica la selección escrita en este archivo. Si ya hay una pregunta, respóndela. "
-            "En caso contrario, pregunta qué quiere explorar el visitante.",
-            "Usa las fichas elegibles y abre los originales pertinentes. Distingue el texto original, "
-            "la relación editorial y tu propia aplicación. Los pesos indican prioridades de lectura.",
+            "Apply the selection written in this file. If there is already a question, answer it. "
+            "Otherwise, ask what the visitor wants to explore.",
+            "Use eligible cards and open the relevant originals. Distinguish the original text, "
+            "the editorial relationship and your own application. Weights indicate reading priorities.",
         ]
         if row.get("solo"):
-            lines.append("Consulta solo la intersección del alcance y las etiquetas elegidas. Enlaza relaciones entre fichas elegibles.")
+            lines.append("Consult only the intersection of the scope and chosen tags. Link relationships between eligible cards.")
         if row["puenteNombre"]:
-            lines.append("Único puente autorizado: " + row["puenteNombre"])
+            lines.append("Only authorised bridge: " + row["puenteNombre"])
         if source:
-            lines += ["", f'Punto de partida: [{source["id"]}] {source["titulo"]}',
-                      "Ficha: " + source["ficha"], "Original: " + source["original"],
-                      "Considera esta fuente cuando sea pertinente para la pregunta."]
-        lines += ["", "Índice del alcance: " + row["indice"]]
-        lines.extend("Índice de etiqueta: " + value for value in row["indicesTematicos"])
-        lines += ["Atlas central: " + ATLAS, "Abrir la configuración: " + row["selector"]]
+            lines += ["", f'Starting point: [{source["id"]}] {source["titulo"]}',
+                      "Card: " + source["ficha"], "Original: " + source["original"],
+                      "Consider this source when it is relevant to the question."]
+        lines += ["", "Scope index: " + row["indice"]]
+        lines.extend("Tag index: " + value for value in row["indicesTematicos"])
+        lines += ["Central Atlas: " + ATLAS, "Open the configuration: " + row["selector"]]
         write(target / "entrada.txt", "\n".join(lines))
         make_qr(row["url"], target / "qr.png")
         cards.append(f'<article class="panel"><h2>{link(row["url"], title)}</h2><p>{escape(lead)}</p>'
-                     f'<div class="actions">{link(row["textoGithub"], "Texto para el asistente")}'
-                     f'{link(row["qr"], "Código QR")}</div></article>')
+                     f'<div class="actions">{link(row["textoGithub"], "Text for the assistant")}'
+                     f'{link(row["qr"], "QR code")}</div></article>')
     write(registry, json.dumps({"schema": SCHEMA, "atlas": ATLAS, "instances": instances},
                                ensure_ascii=False, indent=2))
-    write(folder / "index.html", page("Puntos de entrada", "../mapa/mapa.css",
-        '<p class="kicker">Perspective Beyond · Un Atlas, varias entradas</p><h1>Conecta tu asistente</h1>'
-        '<p class="lead">Cada entrada abre la misma constelación con una selección inicial. '
-        'Elige una instancia y comparte su enlace o su código QR.</p>'
-        f'<nav>{link(ATLAS, "Atlas global")}{link("instancias.json", "Registro de instancias")}'
-        f'{link("https://github.com/dakleyer/perspective-beyond/tree/main/docs/atlas/i#readme", "Protocolo de integración")}</nav>'
+    write(folder / "index.html", page("Entry points", "../mapa/mapa.css",
+        '<p class="kicker">Perspective Beyond · One Atlas, several entries</p><h1>Connect your assistant</h1>'
+        '<p class="lead">Each entry opens the same constellation with an initial selection. '
+        'Choose an instance and share its link or QR code.</p>'
+        f'<nav>{link(ATLAS, "Global Atlas")}{link("instancias.json", "Instance registry")}'
+        f'{link("https://github.com/dakleyer/perspective-beyond/tree/main/docs/atlas/i#readme", "Integration protocol")}</nav>'
         f'<div class="cards">{"".join(cards)}</div>'))
     return instances
 

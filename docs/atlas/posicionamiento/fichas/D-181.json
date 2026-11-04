@@ -14,9 +14,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Cinco mil aplicaciones y el trabajo que evitaba la caída\nINTERLOCUTOR (pregunta editorial, no pronunciada necesariamente) — ¿Quién sostiene de verdad una empresa cuya continuidad depende de miles de soluciones que nadie ve en el organigrama?\nREFLEXIÓN DEL DIÁLOGO (reconstrucción editorial cotejada con el escrito) — Iván relata una observación profesional en Richemont: en una organización de alrededor de cincuenta mil personas, esperaba encontrar menos de mil aplicaciones y su inventario de trabajo le mostró del orden de cinco mil. Son cifras recordadas por el autor y no una auditoría institucional reproducida aquí. Más importante que el número es el cambio de escala del problema. Cada aplicación puede tener interfaces, datos, parches, usuarios, responsables y procedimientos manuales que mantienen viva una capacidad; destruirla por pensar que es redundante puede descubrir demasiado tarde quién sostenía el proceso. Desde fuera puede parecer que una institución se mantiene por su estrategia o su prestigio; desde dentro sobreviven incontables continuadores, operadores y reparadores. Reconocerlos no significa aceptar cualquier legado tecnológico. Es exigir que la racionalización pruebe continuidad, dependencias y sustitución efectiva antes de declarar que una pieza sobraba. La producción incluye evitar el colapso, aunque ese trabajo no aparezca en la narración oficial.\nEtiquetas: Casos de uso y aplicaciones 31.25%; Empresa y gestión 25.00%; Movilidad e infraestructura 12.50%; Transformación y continuidad operativa 31.25%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-181\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-181.html\n\n",
-  "readingSource": null,
-  "tokens": 367,
+  "context": "## Cinco mil aplicaciones y el trabajo que evitaba la caída\nINTERLOCUTOR (pregunta editorial, no pronunciada necesariamente) — ¿Quién sostiene de verdad una empresa cuya continuidad depende de miles de soluciones que nadie ve en el organigrama?\nREFLEXIÓN DEL DIÁLOGO (reconstrucción editorial cotejada con el escrito) — Iván relata una observación profesional en Richemont: en una organización de alrededor de cincuenta mil personas, esperaba encontrar menos de mil aplicaciones y su inventario de trabajo le mostró del orden de cinco mil. Son cifras recordadas por el autor y no una auditoría institucional reproducida aquí. Más importante que el número es el cambio de escala del problema. Cada aplicación puede tener interfaces, datos, parches, usuarios, responsables y procedimientos manuales que mantienen viva una capacidad; destruirla por pensar que es redundante puede descubrir demasiado tarde quién sostenía el proceso. Desde fuera puede parecer que una institución se mantiene por su estrategia o su prestigio; desde dentro sobreviven incontables continuadores, operadores y reparadores. Reconocerlos no significa aceptar cualquier legado tecnológico. Es exigir que la racionalización pruebe continuidad, dependencias y sustitución efectiva antes de declarar que una pieza sobraba. La producción incluye evitar el colapso, aunque ese trabajo no aparezca en la narración oficial.\nTags: Use cases and applications 31.25%; Business and management 25.00%; Mobility and infrastructure 12.50%; Transformation and operational continuity 31.25%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-181\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-181.html\n\n",
+  "tokens": 360,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -24,10 +23,11 @@
       "to": "dg-infra",
       "title": "Infraestructura habilitadora",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 25,
-      "fichaTokens": 170,
+      "fichaTokens": 152,
       "tagWeights": {
         "aprendizaje": 0.0675,
         "autoridad": 0.0125,
@@ -53,10 +53,11 @@
       "to": "dg-continuity",
       "title": "Continuidad de capacidades",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 222,
+      "fichaTokens": 200,
       "tagWeights": {
         "aprendizaje": 0.0854,
         "autoridad": 0.0264,
@@ -86,10 +87,11 @@
       "to": "dg-production",
       "title": "Producción material y continuadores invisibles",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 229,
+      "fichaTokens": 205,
       "tagWeights": {
         "aprendizaje": 0.0276,
         "autoridad": 0.0417,
@@ -118,10 +120,11 @@
       "to": "D-010",
       "title": "La responsabilidad que casi nadie ve",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Cinco mil aplicaciones y el trabajo que evitaba la caída» con «La responsabilidad que casi nadie ve». Permite contrastar Infraestructura habilitadora.",
       "relationTokens": 62,
-      "fichaTokens": 310,
+      "fichaTokens": 304,
       "tagWeights": {
         "capacidad-humana": 0.2222,
         "decision": 0.5556,
@@ -138,10 +141,11 @@
       "to": "D-043",
       "title": "Transformar empresas mientras siguen operando",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Cinco mil aplicaciones y el trabajo que evitaba la caída» con «Transformar empresas mientras siguen operando».",
       "relationTokens": 54,
-      "fichaTokens": 923,
+      "fichaTokens": 916,
       "tagWeights": {
         "aprendizaje": 0.1539,
         "empresa": 0.6923,
@@ -158,12 +162,13 @@
       "to": "D-059",
       "title": "La experiencia que nunca se escribió",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Cinco mil aplicaciones y el trabajo que evitaba la caída» con «La experiencia que nunca se escribió».",
       "relationTokens": 52,
-      "fichaTokens": 368,
+      "fichaTokens": 364,
       "tagWeights": {
-        "capacidad-humana": 1.0
+        "capacidad-humana": 1
       },
       "clusters": [
         "dialogos"
@@ -176,10 +181,11 @@
       "to": "D-072",
       "title": "Conservar una capacidad más allá de su creador",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Cinco mil aplicaciones y el trabajo que evitaba la caída» con «Conservar una capacidad más allá de su creador». Permite contrastar Continuidad de capacidades.",
       "relationTokens": 69,
-      "fichaTokens": 542,
+      "fichaTokens": 536,
       "tagWeights": {
         "capacidad-humana": 0.25,
         "empresa": 0.5,
@@ -196,10 +202,11 @@
       "to": "D-229",
       "title": "Trabajar los talentos puede salir a perder",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Trabajar los talentos puede salir a perder» con «Cinco mil aplicaciones y el trabajo que evitaba la caída». Permite contrastar Producción material y continuadores invisibles.",
       "relationTokens": 68,
-      "fichaTokens": 430,
+      "fichaTokens": 423,
       "tagWeights": {
         "evidencia": 0.6667,
         "integridad-ia": 0.3333
@@ -215,10 +222,11 @@
       "to": "D-235",
       "title": "El mejor informe puede salvar el puesto y perder la operación",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El mejor informe puede salvar el puesto y perder la operación» con «Cinco mil aplicaciones y el trabajo que evitaba la caída».",
       "relationTokens": 61,
-      "fichaTokens": 450,
+      "fichaTokens": 442,
       "tagWeights": {
         "autoridad": 0.3334,
         "decision": 0.3333,
@@ -235,10 +243,11 @@
       "to": "D-264",
       "title": "La unidad de racionalización debe trabajar para dejar de ser necesaria",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La unidad de racionalización debe trabajar para dejar de ser necesaria» con «Cinco mil aplicaciones y el trabajo que evitaba la caída». Permite contrastar Continuidad de capacidades.",
       "relationTokens": 72,
-      "fichaTokens": 410,
+      "fichaTokens": 401,
       "tagWeights": {
         "aprendizaje": 0.2174,
         "autoridad": 0.0869,
@@ -256,12 +265,13 @@
       "to": "D-265",
       "title": "El diamante tecnológico puede estar funcionando dentro de la empresa y seguir invisible",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El diamante tecnológico puede estar funcionando dentro de la empresa y seguir invisible» con «Cinco mil aplicaciones y el trabajo que evitaba la caída».",
       "relationTokens": 67,
-      "fichaTokens": 370,
+      "fichaTokens": 368,
       "tagWeights": {
-        "empresa": 1.0
+        "empresa": 1
       },
       "clusters": [
         "dialogos"
@@ -274,10 +284,11 @@
       "to": "D-187",
       "title": "Una generación construyó la infraestructura; otra recibió la interfaz",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Producción material y continuadores invisibles, Infraestructura habilitadora desde las situaciones que describe cada texto.",
       "relationTokens": 59,
-      "fichaTokens": 393,
+      "fichaTokens": 389,
       "tagWeights": {
         "memoria-territorio": 0.25,
         "movilidad": 0.75
@@ -293,10 +304,11 @@
       "to": "D-191",
       "title": "Una inteligencia puede hacer operable la fragilidad sin convertirla en resiliencia",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Infraestructura habilitadora, Continuidad de capacidades desde las situaciones que describe cada texto.",
       "relationTokens": 58,
-      "fichaTokens": 387,
+      "fichaTokens": 381,
       "tagWeights": {
         "economia": 0.3334,
         "movilidad": 0.3333,
@@ -313,10 +325,11 @@
       "to": "D-288",
       "title": "Cambiar quién posee la manzana no alimenta al siguiente árbol",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Producción material y continuadores invisibles, Continuidad de capacidades desde las situaciones que describe cada texto.",
       "relationTokens": 59,
-      "fichaTokens": 421,
+      "fichaTokens": 414,
       "tagWeights": {
         "economia": 0.3334,
         "experimentacion": 0.3333,

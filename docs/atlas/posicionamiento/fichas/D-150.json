@@ -12,9 +12,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## La paz mental de una generación también tuvo precio\nINTERLOCUTOR (pregunta editorial) — ¿Qué se puede ceder a cambio de vivir en un mundo que parece previsible?\nREFLEXIÓN DEL ESCRITO (síntesis editorial) — La «generación de las rotondas» es una crítica autobiográfica al contrato posthistoricista. Iván recuerda a los JASP: jóvenes muy preparados que aceptaron temporalidad, precariedad y vivienda más difícil de adquirir que la de sus padres porque creían en una secuencia cómoda y previsible —estudiar, trabajar, especializarse, consumir y jubilarse—. En su expresión vivida, los padres compraron una casa por 100 y los hijos por 400, quizá trabajando más por menos salario. No son ratios estadísticos universales; son su modo de nombrar la asimetría de una promesa. Lo llamativo no fue únicamente el precio, sino la renuncia a disputar las reglas: «tú mandas, yo me preparo y me adapto; el sistema seguirá cuidándonos». Ese contrato otorgaba paz mental y retiraba de la mesa preguntas sobre quién mantenía el decorado, qué costaba y cuándo podía dejar de funcionar.\nEtiquetas: Economía, costes y liquidez 50.00%; Geopolítica y fronteras 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-150\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-150.html\n\n",
-  "readingSource": null,
-  "tokens": 331,
+  "context": "## La paz mental de una generación también tuvo precio\nINTERLOCUTOR (pregunta editorial) — ¿Qué se puede ceder a cambio de vivir en un mundo que parece previsible?\nREFLEXIÓN DEL ESCRITO (síntesis editorial) — La «generación de las rotondas» es una crítica autobiográfica al contrato posthistoricista. Iván recuerda a los JASP: jóvenes muy preparados que aceptaron temporalidad, precariedad y vivienda más difícil de adquirir que la de sus padres porque creían en una secuencia cómoda y previsible —estudiar, trabajar, especializarse, consumir y jubilarse—. En su expresión vivida, los padres compraron una casa por 100 y los hijos por 400, quizá trabajando más por menos salario. No son ratios estadísticos universales; son su modo de nombrar la asimetría de una promesa. Lo llamativo no fue únicamente el precio, sino la renuncia a disputar las reglas: «tú mandas, yo me preparo y me adapto; el sistema seguirá cuidándonos». Ese contrato otorgaba paz mental y retiraba de la mesa preguntas sobre quién mantenía el decorado, qué costaba y cuándo podía dejar de funcionar.\nTags: Economics, costs and liquidity 50.00%; Geopolitics and borders 50.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-150\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-150.html\n\n",
+  "tokens": 328,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "dg-economy",
       "title": "Economía y escasez",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 250,
+      "fichaTokens": 222,
       "tagWeights": {
         "aprendizaje": 0.0688,
         "autoridad": 0.0119,
@@ -58,10 +58,11 @@
       "to": "dg-geopolitics",
       "title": "Geopolítica vivida",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 138,
+      "fichaTokens": 125,
       "tagWeights": {
         "aprendizaje": 0.0333,
         "casos": 0.0133,
@@ -83,10 +84,11 @@
       "to": "dg-commitment",
       "title": "Garantías, deudas y compromisos",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 25,
-      "fichaTokens": 131,
+      "fichaTokens": 122,
       "tagWeights": {
         "aprendizaje": 0.1786,
         "compromisos": 0.05,
@@ -107,10 +109,11 @@
       "to": "D-041",
       "title": "La generación de las rotondas",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Geopolítica vivida, Economía y escasez desde las situaciones que describe cada texto.",
       "relationTokens": 48,
-      "fichaTokens": 440,
+      "fichaTokens": 436,
       "tagWeights": {
         "decision": 0.3636,
         "economia": 0.4546,
@@ -127,10 +130,11 @@
       "to": "D-105",
       "title": "Ormuz: distinguir explicación, incentivo e intención",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Geopolítica vivida, Economía y escasez desde las situaciones que describe cada texto.",
       "relationTokens": 50,
-      "fichaTokens": 327,
+      "fichaTokens": 324,
       "tagWeights": {
         "economia": 0.75,
         "geopolitica": 0.25
@@ -146,10 +150,11 @@
       "to": "D-137",
       "title": "El dinero sostiene una promesa que necesita ser creíble",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Garantías, deudas y compromisos, Economía y escasez desde las situaciones que describe cada texto.",
       "relationTokens": 55,
-      "fichaTokens": 332,
+      "fichaTokens": 327,
       "tagWeights": {
         "compromisos": 0.25,
         "decision": 0.1875,
@@ -166,10 +171,11 @@
       "to": "D-138",
       "title": "El futuro comprometido puede vaciar la capacidad disponible",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Garantías, deudas y compromisos, Economía y escasez desde las situaciones que describe cada texto.",
       "relationTokens": 54,
-      "fichaTokens": 345,
+      "fichaTokens": 339,
       "tagWeights": {
         "compromisos": 0.25,
         "economia": 0.1875,
@@ -187,10 +193,11 @@
       "to": "D-202",
       "title": "Una foto de tomates no es otro tomate",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Garantías, deudas y compromisos, Economía y escasez desde las situaciones que describe cada texto.",
       "relationTokens": 52,
-      "fichaTokens": 380,
+      "fichaTokens": 376,
       "tagWeights": {
         "decision": 0.2,
         "economia": 0.8
@@ -206,10 +213,11 @@
       "to": "D-201",
       "title": "Una decisión privada puede ser una moneda de liquidez casi nula",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Garantías, deudas y compromisos, Economía y escasez desde las situaciones que describe cada texto.",
       "relationTokens": 57,
-      "fichaTokens": 378,
+      "fichaTokens": 374,
       "tagWeights": {
         "decision": 0.4,
         "economia": 0.6

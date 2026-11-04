@@ -12,9 +12,8 @@
   "clusters": [
     "imsv"
   ],
-  "context": "## AICM y Crea Camino: transformar desde la experiencia\nEn un contexto incierto, los talleres aprovecharon la experiencia de trabajadores para formular propuestas de mejora. Convertir una idea en iniciativa requería responsables, indicadores y un camino de ejecución.\nEtiquetas: Aprendizaje y transmisión de capacidades 44.44%; Movilidad e infraestructura 55.56%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-aicm\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/aicm-crea-camino/\n\n",
-  "readingSource": null,
-  "tokens": 124,
+  "context": "## AICM y Crea Camino: transformar desde la experiencia\nEn un contexto incierto, los talleres aprovecharon la experiencia de trabajadores para formular propuestas de mejora. Convertir una idea en iniciativa requería responsables, indicadores y un camino de ejecución.\nTags: Learning and capability transmission 44.44%; Mobility and infrastructure 55.56%\nCard: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-aicm\nSource document: https://integralmanagement.ch/nueva-perspectiva/aicm-crea-camino/\n\n",
+  "tokens": 118,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "np-encajonadora",
       "title": "La encajonadora: un problema técnico y muchas perspectivas",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "comparación",
       "reading": "El caso aeroportuario permite examinar, a otra escala, cómo el conocimiento de la operación llega a propuestas ejecutables.",
       "relationTokens": 52,
-      "fichaTokens": 121,
+      "fichaTokens": 118,
       "tagWeights": {
         "decision": 0.4444,
         "perspectiva": 0.5556
@@ -41,10 +41,11 @@
       "to": "np-accion",
       "title": "Acción Integral: muchas prácticas, una pregunta compartida",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "síntesis",
       "reading": "La acción de quienes conocen el trabajo se sitúa junto a otras prácticas de integración.",
       "relationTokens": 44,
-      "fichaTokens": 129,
+      "fichaTokens": 122,
       "tagWeights": {
         "aprendizaje": 0.3334,
         "empresa": 0.3333,

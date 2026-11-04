@@ -12,9 +12,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Ormuz: distinguir explicación, incentivo e intención\nINTERLOCUTOR (pregunta editorial) — Cuando un actor se beneficia de una crisis, ¿qué podemos concluir sobre su intención?\nLECTURA DEL DIÁLOGO (síntesis editorial) — El análisis de Ormuz de Iván no se reduce a averiguar quién ganaría una batalla naval ni a enumerar beneficiarios financieros. Plantea que un actor relativamente débil puede lograr una derrota estratégica del otro si obliga a negociar con él las condiciones de normalización de un paso, un mercado o una cadena de energía. La pregunta cambia de «¿quién puede conquistar?» a «¿quién puede impedir que la normalidad funcione?». Entre las rutas posibles de Estados Unidos considera el control directo del estrecho o el liderazgo de una coalición; del lado iraní examina permisos selectivos de navegación e incentivos a terceros. Petróleo, liquidez, crédito, sentimiento de mercado y energía para la IA quedan interconectados. Son escenarios e inferencias sobre incentivos, no constataciones de intenciones secretas ni previsiones verificadas: el rigor consiste en distinguir el mecanismo de negación, las alternativas y la evidencia que permitiría discriminarlas.\nEtiquetas: Economía, costes y liquidez 75.00%; Geopolítica y fronteras 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-105\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-105.html\n\n",
-  "readingSource": null,
-  "tokens": 327,
+  "context": "## Ormuz: distinguir explicación, incentivo e intención\nINTERLOCUTOR (pregunta editorial) — Cuando un actor se beneficia de una crisis, ¿qué podemos concluir sobre su intención?\nLECTURA DEL DIÁLOGO (síntesis editorial) — El análisis de Ormuz de Iván no se reduce a averiguar quién ganaría una batalla naval ni a enumerar beneficiarios financieros. Plantea que un actor relativamente débil puede lograr una derrota estratégica del otro si obliga a negociar con él las condiciones de normalización de un paso, un mercado o una cadena de energía. La pregunta cambia de «¿quién puede conquistar?» a «¿quién puede impedir que la normalidad funcione?». Entre las rutas posibles de Estados Unidos considera el control directo del estrecho o el liderazgo de una coalición; del lado iraní examina permisos selectivos de navegación e incentivos a terceros. Petróleo, liquidez, crédito, sentimiento de mercado y energía para la IA quedan interconectados. Son escenarios e inferencias sobre incentivos, no constataciones de intenciones secretas ni previsiones verificadas: el rigor consiste en distinguir el mecanismo de negación, las alternativas y la evidencia que permitiría discriminarlas.\nTags: Economics, costs and liquidity 75.00%; Geopolitics and borders 25.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-105\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-105.html\n\n",
+  "tokens": 324,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "dg-economy",
       "title": "Economía y escasez",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 250,
+      "fichaTokens": 222,
       "tagWeights": {
         "aprendizaje": 0.0688,
         "autoridad": 0.0119,
@@ -58,10 +58,11 @@
       "to": "dg-geopolitics",
       "title": "Geopolítica vivida",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 138,
+      "fichaTokens": 125,
       "tagWeights": {
         "aprendizaje": 0.0333,
         "casos": 0.0133,
@@ -83,10 +84,11 @@
       "to": "dg-doubt",
       "title": "Duda, pruebas y conocimiento corregible",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 25,
-      "fichaTokens": 268,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.2345,
         "autoridad": 0.0562,
@@ -120,10 +122,11 @@
       "to": "D-212",
       "title": "La coacción puede esconderse en el crédito o explotar en la supervivencia",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La coacción puede esconderse en el crédito o explotar en la supervivencia» con «Ormuz: distinguir explicación, incentivo e intención». Permite contrastar Geopolítica vivida, Economía y escasez.",
       "relationTokens": 82,
-      "fichaTokens": 410,
+      "fichaTokens": 405,
       "tagWeights": {
         "economia": 0.3334,
         "geopolitica": 0.3333,
@@ -140,10 +143,11 @@
       "to": "D-041",
       "title": "La generación de las rotondas",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Geopolítica vivida, Economía y escasez desde las situaciones que describe cada texto.",
       "relationTokens": 48,
-      "fichaTokens": 440,
+      "fichaTokens": 436,
       "tagWeights": {
         "decision": 0.3636,
         "economia": 0.4546,
@@ -160,10 +164,11 @@
       "to": "D-150",
       "title": "La paz mental de una generación también tuvo precio",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Geopolítica vivida, Economía y escasez desde las situaciones que describe cada texto.",
       "relationTokens": 50,
-      "fichaTokens": 331,
+      "fichaTokens": 328,
       "tagWeights": {
         "economia": 0.5,
         "geopolitica": 0.5

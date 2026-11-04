@@ -12,9 +12,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## IMSV, JUBAP y el paso a la investigación\nINTERLOCUTOR — ¿Cómo se conectan The Integral Management Society, JUBAP y el trabajo reciente sobre inteligencia artificial?\nREGISTRO DOCUMENTAL — El nombre The Integral Management Society ha sido utilizado a lo largo de una trayectoria de consultoría y gestión del cambio, mientras que la asociación suiza IMSV tiene su propio registro jurídico en 2026. JUBAP OÜ es un vehículo de ingeniería y actividad comercial, diferenciado de la asociación. La investigación de Structural Awareness y la iniciativa Tegrity.AI desarrollan preguntas sobre integridad de sistemas, condiciones de validez y cambios de contexto. Esta distinción entre empresa, asociación, autoría personal y programa técnico debe quedar explícita. Falta escribir el relato personal: qué problemas reales llevaron a esas preguntas, qué conversaciones cambiaron una hipótesis y qué significó volver al trabajo de investigación.\nINTERLOCUTOR — Si tuvieras que identificar el sentido del viaje, ¿qué pesa más: lo que construiste o la gente con la que lo construiste?\nIVÁN (texto de su documento de perfil profesional) — La principal reconpensa de este viaje ha sido el aprendizaje y la convivencia con culturas, modos de vida y sistemas de gestión en las diferentes organizaciones. Me siguen motivando los nuevos retos, la consecución de resultados en un corto plazo; sin perder el enfoque de que el éxito duradero tan solo se producirá a través de la transformación de largo alcance.\nNOTA DE CONTINUIDAD — El nacimiento de Estel, los años de Europa y México, las decisiones migratorias posteriores, la relación entre la vida familiar y los proyectos, los episodios de Richemont/LEGO/SGS y la formación de Structural Awareness están pendientes de un tramo autobiográfico de la misma calidad narrativa. La ausencia de esos episodios en el manuscrito de 2025 no debe confundirse con ausencia de experiencia.\nEtiquetas: Empresa y gestión 66.67%; Transformación y continuidad operativa 33.33%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-070\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20%C2%BFC%C3%B3mo%20se%20conectan%20The%20Integral%20Management%20Society%2C%20JUBAP%20y\n\n",
-  "readingSource": null,
-  "tokens": 523,
+  "context": "## IMSV, JUBAP y el paso a la investigación\nINTERLOCUTOR — ¿Cómo se conectan The Integral Management Society, JUBAP y el trabajo reciente sobre inteligencia artificial?\nREGISTRO DOCUMENTAL — El nombre The Integral Management Society ha sido utilizado a lo largo de una trayectoria de consultoría y gestión del cambio, mientras que la asociación suiza IMSV tiene su propio registro jurídico en 2026. JUBAP OÜ es un vehículo de ingeniería y actividad comercial, diferenciado de la asociación. La investigación de Structural Awareness y la iniciativa Tegrity.AI desarrollan preguntas sobre integridad de sistemas, condiciones de validez y cambios de contexto. Esta distinción entre empresa, asociación, autoría personal y programa técnico debe quedar explícita. Falta escribir el relato personal: qué problemas reales llevaron a esas preguntas, qué conversaciones cambiaron una hipótesis y qué significó volver al trabajo de investigación.\nINTERLOCUTOR — Si tuvieras que identificar el sentido del viaje, ¿qué pesa más: lo que construiste o la gente con la que lo construiste?\nIVÁN (texto de su documento de perfil profesional) — La principal reconpensa de este viaje ha sido el aprendizaje y la convivencia con culturas, modos de vida y sistemas de gestión en las diferentes organizaciones. Me siguen motivando los nuevos retos, la consecución de resultados en un corto plazo; sin perder el enfoque de que el éxito duradero tan solo se producirá a través de la transformación de largo alcance.\nNOTA DE CONTINUIDAD — El nacimiento de Estel, los años de Europa y México, las decisiones migratorias posteriores, la relación entre la vida familiar y los proyectos, los episodios de Richemont/LEGO/SGS y la formación de Structural Awareness están pendientes de un tramo autobiográfico de la misma calidad narrativa. La ausencia de esos episodios en el manuscrito de 2025 no debe confundirse con ausencia de experiencia.\nTags: Business and management 66.67%; Transformation and operational continuity 33.33%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-070\nSource document: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20%C2%BFC%C3%B3mo%20se%20conectan%20The%20Integral%20Management%20Society%2C%20JUBAP%20y\n\n",
+  "tokens": 519,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "dg-structure",
       "title": "Conciencia estructural",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 256,
+      "fichaTokens": 226,
       "tagWeights": {
         "aprendizaje": 0.158,
         "autoridad": 0.0636,
@@ -58,10 +58,11 @@
       "to": "dg-continuity",
       "title": "Continuidad de capacidades",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 222,
+      "fichaTokens": 200,
       "tagWeights": {
         "aprendizaje": 0.0854,
         "autoridad": 0.0264,
@@ -91,10 +92,11 @@
       "to": "D-069",
       "title": "Los años profesionales aún por contar",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Continuidad de capacidades».",
       "relationTokens": 34,
-      "fichaTokens": 515,
+      "fichaTokens": 508,
       "tagWeights": {
         "aprendizaje": 0.5,
         "empresa": 0.2,
@@ -111,10 +113,11 @@
       "to": "D-071",
       "title": "La autoría no equivale al trabajo de uno solo",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Continuidad de capacidades».",
       "relationTokens": 39,
-      "fichaTokens": 434,
+      "fichaTokens": 426,
       "tagWeights": {
         "aprendizaje": 0.3636,
         "decision": 0.1818,
@@ -131,10 +134,11 @@
       "to": "D-060",
       "title": "Digitalizar sin borrar lo invisible",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Conciencia estructural».",
       "relationTokens": 34,
-      "fichaTokens": 461,
+      "fichaTokens": 457,
       "tagWeights": {
         "capacidad-humana": 0.3333,
         "empresa": 0.6667
@@ -150,10 +154,11 @@
       "to": "D-073",
       "title": "Del régimen de operación a la conciencia estructural",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Conciencia estructural».",
       "relationTokens": 37,
-      "fichaTokens": 637,
+      "fichaTokens": 632,
       "tagWeights": {
         "cambio-regimen": 0.5714,
         "decision": 0.2857,
@@ -170,10 +175,11 @@
       "to": "D-267",
       "title": "Una constelación de pensamiento contiene clusters conectados, no departamentos cerrados",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una constelación de pensamiento contiene clusters conectados, no departamentos cerrados» con «IMSV, JUBAP y el paso a la investigación».",
       "relationTokens": 70,
-      "fichaTokens": 405,
+      "fichaTokens": 400,
       "tagWeights": {
         "empresa": 0.5,
         "evidencia": 0.25,
@@ -190,10 +196,11 @@
       "to": "D-115",
       "title": "La asociación investiga; las empresas ejecutan",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Continuidad de capacidades, Conciencia estructural desde las situaciones que describe cada texto.",
       "relationTokens": 51,
-      "fichaTokens": 291,
+      "fichaTokens": 285,
       "tagWeights": {
         "autoridad": 0.1667,
         "empresa": 0.6666,
@@ -210,12 +217,13 @@
       "to": "D-244",
       "title": "Una contradicción puede contagiar máquinas antes de que nadie vea el desastre",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Continuidad de capacidades, Conciencia estructural desde las situaciones que describe cada texto.",
       "relationTokens": 56,
-      "fichaTokens": 430,
+      "fichaTokens": 426,
       "tagWeights": {
-        "transformacion": 1.0
+        "transformacion": 1
       },
       "clusters": [
         "dialogos"

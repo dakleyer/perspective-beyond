@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Poder, innovación y agotamiento de sentido",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-imperial_contradiction",
-  "documentId": null,
   "sourceIds": [
     "D-209",
     "D-210",
@@ -19,9 +18,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Poder, innovación y agotamiento de sentido\nTensión entre tecnologías nacidas dentro de un orden, miedo a las condiciones que crean, capacidad de controlar interfaces y erosión de la misión declarada.\nEtiquetas: Autoridad, permisos y delegación 25.00%; Economía, costes y liquidez 8.34%; Geopolítica y fronteras 45.83%; Integridad y seguridad de IA 20.83%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-imperial_contradiction\n\n",
-  "readingSource": null,
-  "tokens": 117,
+  "context": "## Poder, innovación y agotamiento de sentido\nTensión entre tecnologías nacidas dentro de un orden, miedo a las condiciones que crean, capacidad de controlar interfaces y erosión de la misión declarada.\nTags: Authority, permissions and delegation 25.00%; Economics, costs and liquidity 8.34%; Geopolitics and borders 45.83%; AI integrity and security 20.83%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-imperial_contradiction\n\n",
+  "tokens": 111,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -29,10 +27,11 @@
       "to": "D-209",
       "title": "El imperio fabrica la tecnología que después le da miedo",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 27,
-      "fichaTokens": 443,
+      "fichaTokens": 439,
       "tagWeights": {
         "geopolitica": 0.5,
         "integridad-ia": 0.5
@@ -48,12 +47,13 @@
       "to": "D-210",
       "title": "La autenticidad quema; la hipocresía conserva",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 413,
+      "fichaTokens": 411,
       "tagWeights": {
-        "geopolitica": 1.0
+        "geopolitica": 1
       },
       "clusters": [
         "dialogos"
@@ -66,12 +66,13 @@
       "to": "D-211",
       "title": "El control de Internet puede culminar antes de la crisis",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 27,
-      "fichaTokens": 407,
+      "fichaTokens": 403,
       "tagWeights": {
-        "autoridad": 1.0
+        "autoridad": 1
       },
       "clusters": [
         "dialogos"
@@ -84,10 +85,11 @@
       "to": "D-212",
       "title": "La coacción puede esconderse en el crédito o explotar en la supervivencia",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 32,
-      "fichaTokens": 410,
+      "fichaTokens": 405,
       "tagWeights": {
         "economia": 0.3334,
         "geopolitica": 0.3333,
@@ -104,10 +106,11 @@
       "to": "dg-geopolitics",
       "title": "Geopolítica vivida",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "problematiza el final imperial",
       "reading": "Poder material e incapacidad para reconocer su misión pueden coexistir.",
       "relationTokens": 36,
-      "fichaTokens": 138,
+      "fichaTokens": 125,
       "tagWeights": {
         "aprendizaje": 0.0333,
         "casos": 0.0133,
@@ -129,10 +132,11 @@
       "to": "dg-culture",
       "title": "Protocultura, autoría y conocimiento emergente",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "incuba lo que lo transforma",
       "reading": "El conocimiento innovador emerge también lejos del centro del poder.",
       "relationTokens": 40,
-      "fichaTokens": 204,
+      "fichaTokens": 186,
       "tagWeights": {
         "aprendizaje": 0.0299,
         "capacidad-humana": 0.0091,
@@ -159,10 +163,11 @@
       "to": "dg-risk",
       "title": "Riesgo, seguridad y evitación",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "miedo a sustituir la estructura",
       "reading": "La tecnología propia puede alterar el orden que la hizo posible.",
       "relationTokens": 37,
-      "fichaTokens": 121,
+      "fichaTokens": 112,
       "tagWeights": {
         "decision": 0.1843,
         "economia": 0.0758,
@@ -182,10 +187,11 @@
       "to": "dg-civilization_interface",
       "title": "Interfaces civilizatorias y autoridad",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "control no garantiza legitimidad",
       "reading": "Dominar la interfaz no resuelve la pérdida de sentido.",
       "relationTokens": 35,
-      "fichaTokens": 106,
+      "fichaTokens": 96,
       "tagWeights": {
         "aprendizaje": 0.1667,
         "autoridad": 0.5417,
@@ -203,10 +209,11 @@
       "to": "dg-mission",
       "title": "Misión, cooperación y frutos indirectos",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "contrapone autenticidad y conservación",
       "reading": "Sostener un propósito exige aceptar sus costes y contradicciones.",
       "relationTokens": 39,
-      "fichaTokens": 122,
+      "fichaTokens": 111,
       "tagWeights": {
         "aprendizaje": 0.0833,
         "decision": 0.25,
@@ -226,10 +233,11 @@
       "to": "dg-economy",
       "title": "Economía y escasez",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "distingue coerción de crédito",
       "reading": "La coacción indirecta tiene trazas distintas de la violencia de supervivencia.",
       "relationTokens": 38,
-      "fichaTokens": 250,
+      "fichaTokens": 222,
       "tagWeights": {
         "aprendizaje": 0.0688,
         "autoridad": 0.0119,
@@ -262,10 +270,11 @@
       "to": "dg-internalized_control",
       "title": "Auditoría interior y libertad condicionada",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relaciona poder y autocontrol",
       "reading": "La legitimación interior permite que una interfaz gobierne sin orden expresa.",
       "relationTokens": 39,
-      "fichaTokens": 120,
+      "fichaTokens": 111,
       "tagWeights": {
         "aprendizaje": 0.2084,
         "autoridad": 0.2083,

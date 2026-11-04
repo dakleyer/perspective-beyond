@@ -1,61 +1,61 @@
-# Posicionamiento · Atlas de pensamiento
+# Positioning · Atlas of thinking
 
-Un **posicionamiento** es un punto de entrada al Atlas. Puede ser la landing de una web, otro documento de origen o una ficha concreta. Desde ahí se elige una combinación de etiquetas y un presupuesto de tokens para abrir un mini mapa.
+A **positioning** is an entry point into the Atlas. It can be a website landing page, another source document or a specific card. From there, a combination of tags and a token budget is chosen to open a mini map.
 
-El documento elegido es el posicionamiento. Los pesos, el alcance y los tokens forman su configuración de lectura.
+The chosen document is the positioning. Weights, scope and tokens form its reading configuration.
 
-**Documento de origen → sus fichas → otras fichas y conceptos relacionados.** Cada relación conserva su significado y su procedencia. El documento puede reunir varias fichas: la biografía publicada del Instituto del Totonacapan, por ejemplo, tiene pasajes y lecturas que comparten ese origen.
+**Source document → its cards → other related cards and concepts.** Each relationship retains its meaning and provenance. A document can bring together several cards: the Instituto del Totonacapan's published biography, for example, has passages and readings sharing that origin.
 
-## Dos combinaciones de etiquetas
+## Two tag combinations
 
-1. **La composición de la ficha.** Expresa su perfil editorial de lectura. Puede contener, por ejemplo, Empresa 35 %, Transformación 25 %, Representación 20 %, Matemáticas 10 %, Aprendizaje 5 % y Evidencia 5 %. Suma 100 % y es editable.
-2. **La combinación del posicionamiento.** La elige quien entra: por ejemplo, Empresa 50 % y Matemáticas 50 %. Esa combinación orienta la afinidad con las proporciones de cada ficha. Una ficha se incorpora una sola vez.
+1. **The card's composition.** Expresses its editorial reading profile. It can contain, for example, Business 35%, Transformation 25%, Representation 20%, Mathematics 10%, Learning 5% and Evidence 5%. It totals 100% and is editable.
+2. **The positioning's combination.** Chosen by the person entering: for example, Business 50% and Mathematics 50%. This combination guides affinity with each card's proportions. A card is included only once.
 
-Los perfiles están en [etiquetas-fichas.json](etiquetas-fichas.json), en `source_tag_weights` del catálogo y en `tagWeights` de los nodos. `tag_weight_overrides` conserva las composiciones editoriales explícitas para la siguiente generación. El resto se calcula mediante señales documentadas en título, resumen y conceptos vinculados.
+Profiles are in [etiquetas-fichas.json](etiquetas-fichas.json), in the catalogue's `source_tag_weights` and in nodes' `tagWeights`. `tag_weight_overrides` retains explicit editorial compositions for the next generation. The rest is calculated through documented signals in the title, summary and linked concepts.
 
-Las fichas cuyo catálogo contenía solo metadatos incorporan, cuando está disponible, un extracto literal del Abstract o de los párrafos iniciales de su fuente pública. El extracto aporta el mecanismo que explica el artículo y participa en su composición temática. [lecturas-fuentes.json](lecturas-fuentes.json) identifica el origen, la sección, el momento de lectura y la huella de cada fuente. Los diálogos conservan su texto completo y los perfiles editoriales explícitos se mantienen.
+Cards whose catalogue contained only metadata incorporate, when available, a literal extract from the Abstract or opening paragraphs of their public source. The extract supplies the mechanism explaining the article and contributes to its thematic composition. [lecturas-fuentes.json](lecturas-fuentes.json) identifies each source's origin, section, reading time and hash. Dialogues retain their full text and explicit editorial profiles are maintained.
 
-## Tokens y distancia
+## Tokens and distance
 
-El **presupuesto de tokens** determina el contenido de lectura que entra en el mini mapa: cabecera del documento, fichas y relaciones de llegada. La **distancia** cuenta conexiones recorridas desde ese documento. Al aumentar los tokens con el mismo posicionamiento, etiquetas y alcance, la selección anterior se conserva y la lectura puede seguir creciendo.
+The **token budget** determines the reading content entering the mini map: document header, cards and arrival relationships. **Distance** counts connections traversed from that document. Increasing tokens with the same positioning, tags and scope retains the previous selection and allows the reading to continue growing.
 
-Los bloques se cuentan de forma independiente con `tiktoken 0.12.0`, codificación `o200k_base`. El campo `budget` registra límite, consumo, resto y coste de la siguiente incorporación. La cuenta se aplica al texto `reading`, que es la lectura descargable. El JSON contiene además los datos del mapa. [Referencia del tokenizador](https://github.com/openai/tiktoken).
+Blocks are counted independently with `tiktoken 0.12.0`, encoding `o200k_base`. The `budget` field records the limit, consumption, remainder and cost of the next addition. The count applies to `reading`, the downloadable reading text. The JSON also contains map data. [Tokenizer reference](https://github.com/openai/tiktoken).
 
-`max` establece cuántas piezas se dibujan. La lectura descargable conserva todas las piezas que entraron en el presupuesto, aunque algunas queden fuera del diagrama visible. El mapa registra por separado lo que queda fuera por presupuesto y por visualización.
+`max` sets how many pieces are drawn. The downloadable reading retains every piece that entered the budget, even when some are outside the visible diagram. The map records separately what is excluded by budget and by visualisation.
 
-## Cómo se calcula
+## How it is calculated
 
-- Se resuelve el documento de origen y sus fichas. Si se indica una ficha concreta, esa ficha es la entrada al documento.
-- Se aplica el alcance Cerrado, Poroso o Federado y el filtro de etiquetas elegido.
-- La afinidad temática es la suma de cada peso del posicionamiento multiplicado por la proporción de esa etiqueta en la ficha. También se admiten pesos de clúster, perspectiva documentada y concepto.
-- Se recorren relaciones existentes. Para las landings se incorporan enlaces de lectura comprobados en su contenido, identificados como navegación.
-- En las fichas con extracto de un artículo se conserva primero una base de hasta cuatro conceptos que ese artículo sostiene directamente. Se ordenan por afinidad con la composición del propio documento. Así se explica su mecanismo antes de ampliar hacia las preferencias del visitante.
-- Si existe una relación saliente de uso documentado, esa base incluye también una lectura vinculada directamente con el mecanismo de origen. Se conserva el tipo de relación ya registrado en el Atlas.
-- Se ordenan las piezas por afinidad y cercanía, conservando las conexiones necesarias para llegar a cada una. La prioridad es `(0.25 + 0.75 × afinidad) / (1 + distancia)`.
-- Se toma el prefijo de ese recorrido que cabe en el presupuesto. La secuencia se calcula independientemente del presupuesto. La siguiente incorporación se detiene completa cuando necesita más tokens.
+- Resolve the source document and its cards. If a specific card is specified, that card is the entry to the document.
+- Apply the Closed, Porous or Federated scope and the chosen tag filter.
+- Thematic affinity is the sum of each positioning weight multiplied by that tag's proportion in the card. Cluster, documented perspective and concept weights are also accepted.
+- Traverse existing relationships. For landing pages, incorporate reading links verified in their content, identified as navigation.
+- For cards with an article extract, first retain a foundation of up to four concepts directly supported by that article. They are ordered by affinity with the document's own composition. This explains its mechanism before expanding towards the visitor's preferences.
+- If an outgoing relationship of documented use exists, that foundation also includes a reading directly linked to the originating mechanism. The relationship type already recorded in the Atlas is retained.
+- Order the pieces by affinity and proximity, retaining the connections needed to reach each one. Priority is `(0.25 + 0.75 × affinity) / (1 + distance)`.
+- Take the prefix of that traversal that fits within the budget. The sequence is calculated independently of the budget. The next addition is stopped in full when it requires more tokens.
 
-Las relaciones conceptuales explican ideas. Las relaciones de navegación abren lecturas desde una página. Ambas conservan su tipo en el mapa.
+Conceptual relationships explain ideas. Navigation relationships open readings from a page. Both retain their type in the map.
 
-## URL y protocolo
+## URL and protocol
 
 ```text
 https://dakleyer.github.io/perspective-beyond/atlas/posicionamiento/?posicionamiento=D-285&tokens=2000&peso=empresa:50&peso=matematicas:50
 ```
 
-Parámetros: `posicionamiento`, `tokens`, `peso` repetido, `modo`, `site`, `puente`, `solo`, `red`, `sentido`, `max`, `rol`, `lectura` e `instruccion`. `centro` y `desde` siguen sirviendo como puntos de entrada anteriores. Las claves conocidas se reconocen al ignorar mayúsculas.
+Parameters: `posicionamiento`, `tokens`, repeated `peso`, `modo`, `site`, `puente`, `solo`, `red`, `sentido`, `max`, `rol`, `lectura` and `instruccion`. `centro` and `desde` continue to serve as earlier entry points. Known keys are recognised without regard to case.
 
-[Entrada para asistentes](entrada.txt) · [Posicionamientos preparados](preparados/index.html) · [Documentos y sus fichas](documentos.json) · [Grafo completo](../mapa/grafo.json).
+[Entry for assistants](entrada.txt) · [Prepared positionings](preparados/index.html) · [Documents and their cards](documentos.json) · [Complete graph](../mapa/grafo.json).
 
-Para lectores web, cada documento y cada ficha dispone de un registro JSON pequeño bajo `documentos/` y `fichas/`. El registro de una ficha contiene su texto de lectura, coste, composición y relaciones hacia las fichas vecinas. Los paquetes preparados ofrecen lecturas calculadas para las entradas iniciales. El visualizador calcula configuraciones personalizadas y permite descargar su lectura y su mapa.
+For web readers, each document and card has a small JSON record under `documentos/` and `fichas/`. A card record contains its reading text, cost, composition and relationships to neighbouring cards. Prepared packages offer calculated readings for initial entries. The viewer calculates custom configurations and allows their reading text and map to be downloaded.
 
-Las relaciones de esos registros incluyen también la composición, el clúster y el coste de la ficha vecina, para elegir la próxima lectura sin abrir todas las candidatas. Los resultados de la [comparación de recorridos](comparacion/README.md) documentan las preguntas, paquetes y respuestas de las pruebas ciegas.
+Relationships in those records also include the neighbouring card's composition, cluster and cost, allowing the next reading to be chosen without opening every candidate. Results in the [journey comparison](comparacion/README.md) document the questions, packages and responses of the blind tests.
 
-Los lectores que usan solo la web pueden consultar [configuraciones calculadas](configurados/index.json). Su JSON entrega `reading`, `selection` y la cuenta completa `budget`. Se compara el posicionamiento, presupuesto, alcance, clúster, red, sentido y proporciones normalizadas; el rol, propósito e instrucción de la URL siguen personalizando la respuesta. En Cerrado todos los clústeres de cada nodo deben coincidir con el clúster seleccionado. Los conceptos compartidos se exploran mediante el alcance que los habilita.
+Readers using only the web can consult [calculated configurations](configurados/index.json). Their JSON delivers `reading`, `selection` and the complete `budget` count. Positioning, budget, scope, cluster, network, direction and normalised proportions are compared; the URL's role, purpose and instruction continue to personalise the response. In Closed scope, all clusters of each node must match the selected cluster. Shared concepts are explored through a scope that permits them.
 
-El mismo cálculo funciona en Node.js:
+The same calculation works in Node.js:
 
 ```sh
 node docs/atlas/mapa/cli.mjs "posicionamiento=D-285&tokens=2000&peso=empresa:50&peso=matematicas:50"
 ```
 
-La función pública es `positionMap(graph, readPosition(params, graph))` de `positioning.mjs`. El grafo publica documentos, referencias de fichas, composiciones y costes de tokens. Para regenerar los costes, instalar `tiktoken==0.12.0` y ejecutar `docs/atlas/mapa/build_graph.py` con el catálogo y el archivo canónico de la edición.
+The public function is `positionMap(graph, readPosition(params, graph))` in `positioning.mjs`. The graph publishes documents, card references, compositions and token costs. To regenerate costs, install `tiktoken==0.12.0` and run `docs/atlas/mapa/build_graph.py` with the catalogue and canonical file of the edition.

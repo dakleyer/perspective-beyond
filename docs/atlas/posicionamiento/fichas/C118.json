@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Oráculo de referencia acotado",
   "url": "https://dakleyer.github.io/perspective-beyond/concepts/bounded-reference-oracle/",
-  "documentId": null,
   "sourceIds": [
     "GH047",
     "T2744"
@@ -23,9 +22,8 @@
     "research",
     "tegrity"
   ],
-  "context": "## Oráculo de referencia acotado\nAn evaluator may access fixture information withheld from the system under test.\nEtiquetas: Autoridad, permisos y delegación 10.00%; Cambios de régimen y alerta temprana 1.67%; Cartografía y señales de ecosistema 8.33%; Casos de uso y aplicaciones 8.33%; Investigación y documentación técnica 23.34%; Estándares e interoperabilidad 17.67%; Evidencia, procedencia y atribución 11.66%; Experimentación, falsación y contraejemplos 17.33%; Mundo abierto e indeterminación 1.67%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/bounded-reference-oracle/\n\n",
-  "readingSource": null,
-  "tokens": 154,
+  "context": "## Oráculo de referencia acotado\nAn evaluator may access fixture information withheld from the system under test.\nTags: Authority, permissions and delegation 10.00%; Regime changes and early warning 1.67%; Cartography and ecosystem signals 8.33%; Use cases and applications 8.33%; Research and technical documentation 23.34%; Standards and interoperability 17.67%; Evidence, provenance and attribution 11.66%; Experimentation, falsification and counterexamples 17.33%; Open world and indeterminacy 1.67%\nCard: https://dakleyer.github.io/perspective-beyond/concepts/bounded-reference-oracle/\n\n",
+  "tokens": 137,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -33,10 +31,11 @@
       "to": "GH047",
       "title": "Annex 00D-A01 — Reference-Scenario Test Artifacts and Bounded Reference-Oracle Construction & Test Design — Ecosystem Awareness",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 43,
-      "fichaTokens": 279,
+      "fichaTokens": 263,
       "tagWeights": {
         "cambio-regimen": 0.0333,
         "cartografia": 0.1667,
@@ -58,10 +57,11 @@
       "to": "T2744",
       "title": "From Field Practice to Pre-Standardization: An Extensible Case-Study Framework",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 31,
-      "fichaTokens": 342,
+      "fichaTokens": 330,
       "tagWeights": {
         "autoridad": 0.2,
         "documentacion": 0.2,
@@ -80,10 +80,11 @@
       "to": "C49",
       "title": "Modelo mínimo de caso",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documented use",
       "reading": "The bounded-oracle design makes a case-study test inspectable by separating referee knowledge, candidate observations and the declared failure condition.",
       "relationTokens": 41,
-      "fichaTokens": 242,
+      "fichaTokens": 215,
       "tagWeights": {
         "autoridad": 0.021,
         "cambio-regimen": 0.0269,

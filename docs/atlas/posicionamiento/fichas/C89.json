@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Coste total de una intervención",
   "url": "https://dakleyer.github.io/perspective-beyond/concepts/total-intervention-cost/",
-  "documentId": null,
   "sourceIds": [
     "T1400",
     "T1427",
@@ -29,9 +28,8 @@
     "net",
     "tegrity"
   ],
-  "context": "## Coste total de una intervención\nCount discovery, activation, execution, governance, disruption, learning and closure within the boundary.\nEtiquetas: Aprendizaje y transmisión de capacidades 10.77%; Autoridad, permisos y delegación 2.27%; Capacidad humana y deuda de inteligencia 8.78%; Control mínimo y suficiencia 2.08%; Decisiones y responsabilidad 5.71%; Economía, costes y liquidez 30.45%; Empresa y gestión 6.21%; Estándares e interoperabilidad 5.68%; Evidencia, procedencia y atribución 2.70%; Experimentación, falsación y contraejemplos 4.06%; Memoria, comunidad y territorio 3.42%; Cambio de perspectiva 2.27%; Transformación y continuidad operativa 15.60%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/total-intervention-cost/\n\n",
-  "readingSource": null,
-  "tokens": 194,
+  "context": "## Coste total de una intervención\nCount discovery, activation, execution, governance, disruption, learning and closure within the boundary.\nTags: Learning and capability transmission 10.77%; Authority, permissions and delegation 2.27%; Human capability and intelligence debt 8.78%; Minimum control and sufficiency 2.08%; Decisions and responsibility 5.71%; Economics, costs and liquidity 30.45%; Business and management 6.21%; Standards and interoperability 5.68%; Evidence, provenance and attribution 2.70%; Experimentation, falsification and counterexamples 4.06%; Memory, community and territory 3.42%; Change of perspective 2.27%; Transformation and operational continuity 15.60%\nCard: https://dakleyer.github.io/perspective-beyond/concepts/total-intervention-cost/\n\n",
+  "tokens": 173,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -39,10 +37,11 @@
       "to": "T1400",
       "title": "Measuring Human Intelligence Debt",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 409,
+      "fichaTokens": 394,
       "tagWeights": {
         "aprendizaje": 0.0541,
         "capacidad-humana": 0.3513,
@@ -64,10 +63,11 @@
       "to": "T1427",
       "title": "The Minimal Information a Transformation Needs",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 20,
-      "fichaTokens": 359,
+      "fichaTokens": 352,
       "tagWeights": {
         "control-minimo": 0.0833,
         "decision": 0.0833,
@@ -87,10 +87,11 @@
       "to": "T1417",
       "title": "When You Have to Decide Before You Can Discover",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 172,
+      "fichaTokens": 166,
       "tagWeights": {
         "aprendizaje": 0.2857,
         "economia": 0.7143
@@ -106,10 +107,11 @@
       "to": "N1272",
       "title": "The Anthropology of Tiger Team Activation",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 20,
-      "fichaTokens": 364,
+      "fichaTokens": 350,
       "tagWeights": {
         "aprendizaje": 0.0909,
         "autoridad": 0.0909,
@@ -130,10 +132,11 @@
       "to": "C83",
       "title": "Tres costes de producir claridad",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documented use",
       "reading": "A transformation business case should include the costs of looking, making binding declarations and absorbing their consequences, not only implementation expenditure.",
       "relationTokens": 40,
-      "fichaTokens": 160,
+      "fichaTokens": 146,
       "tagWeights": {
         "aprendizaje": 0.0714,
         "autoridad": 0.057,
@@ -160,10 +163,11 @@
       "to": "C85",
       "title": "Activación y cierre de misión",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "candidate transfer",
       "reading": "A Tiger Team evaluation should include activation, learning and closure costs, while distinguishing necessary mission work from avoidable compensation.",
       "relationTokens": 40,
-      "fichaTokens": 244,
+      "fichaTokens": 214,
       "tagWeights": {
         "aprendizaje": 0.0198,
         "autoridad": 0.037,

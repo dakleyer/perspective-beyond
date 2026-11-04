@@ -6,14 +6,13 @@
   "documentId": "doc-514db22ea4ea111e31",
   "sourceIds": [],
   "tagWeights": {
-    "evidencia": 1.0
+    "evidencia": 1
   },
   "clusters": [
     "research"
   ],
-  "context": "## Claim and Attribution Boundaries\nContenido de la fuente: Current roles and limits · General evidence rules · Publication gate.\nEtiquetas: Evidencia, procedencia y atribución 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/GH003.html\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/governance/CLAIM_BOUNDARIES.md\n\n",
-  "readingSource": null,
-  "tokens": 121,
+  "context": "## Claim and Attribution Boundaries\nContenido de la fuente: Current roles and limits · General evidence rules · Publication gate.\nTags: Evidence, provenance and attribution 100.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/GH003.html\nSource document: https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/governance/CLAIM_BOUNDARIES.md\n\n",
+  "tokens": 116,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -21,10 +20,11 @@
       "to": "C12",
       "title": "Procedencia auditable",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 17,
-      "fichaTokens": 276,
+      "fichaTokens": 243,
       "tagWeights": {
         "agentes": 0.0125,
         "aprendizaje": 0.0053,
@@ -65,10 +65,11 @@
       "to": "C50",
       "title": "Estado de una afirmación",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 18,
-      "fichaTokens": 306,
+      "fichaTokens": 271,
       "tagWeights": {
         "agentes": 0.0305,
         "aprendizaje": 0.0188,
@@ -112,10 +113,11 @@
       "to": "T2694",
       "title": "Research and Publication Policy",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documented use",
       "reading": "A repository commit and a public document label should travel together so that technical publication is not mistaken for external acceptance or validation.",
       "relationTokens": 38,
-      "fichaTokens": 326,
+      "fichaTokens": 320,
       "tagWeights": {
         "documentacion": 0.3889,
         "empresa": 0.2778,
@@ -133,10 +135,11 @@
       "to": "sac-d651356ec58c92",
       "title": "Corpus Document Control — DC-GH-01",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «1. Authority, scope and precedence» con el rótulo «Claim and Attribution Boundaries».",
-      "relationTokens": 95,
-      "fichaTokens": 161,
+      "relationTokens": 93,
+      "fichaTokens": 155,
       "tagWeights": {
         "autoridad": 0.2353,
         "documentacion": 0.5294,
@@ -153,10 +156,11 @@
       "to": "sac-ae5cfdf16d6d42",
       "title": "Preserved non-canonical working inputs",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Conservación, reglas y decisiones de publicación» con el rótulo «Límites de afirmaciones y atribución».",
-      "relationTokens": 118,
-      "fichaTokens": 175,
+      "relationTokens": 116,
+      "fichaTokens": 169,
       "tagWeights": {
         "decision": 0.3334,
         "documentacion": 0.3333,
@@ -173,10 +177,11 @@
       "to": "GH001",
       "title": "Structural Awareness Programme",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "ruta de lectura",
       "reading": "El índice de la carpeta sitúa este documento dentro de su línea de trabajo.",
-      "relationTokens": 84,
-      "fichaTokens": 179,
+      "relationTokens": 82,
+      "fichaTokens": 166,
       "tagWeights": {
         "cambio-regimen": 0.0625,
         "capacidad-humana": 0.0625,

@@ -13,14 +13,14 @@
   "clusters": [
     "tegrity"
   ],
-  "context": "## Annex 6 — Ablation, Sufficiency and Extensibility\nThis page is a technical verification annex to the public-facing foundation article . It is not the canonical source or a standalone article. For the authoritative technical material, use the canonical Ecosystem Positioning README and the versioned sources it indexes. This annex makes the ablation, independence, sufficiency and extensibility analysis inspectable and traceable. Publication on Tegrity.AI does not imply peer review, independent validation, production readiness, adoption as a standard or endorsement by the ITU, FG-TIDA or any cited organisation.\nEtiquetas: Control mínimo y suficiencia 25.93%; Investigación y documentación técnica 40.74%; Experimentación, falsación y contraejemplos 33.33%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/annex-6-ablation-sufficiency-and-extensibility-t2803/\nDocumento de origen: https://tegrity.ai/when-the-controls-work-annex-6-ablation-sufficiency-and-extensibility/\n\n",
+  "context": "## Annex 6 — Ablation, Sufficiency and Extensibility\nThis page is a technical verification annex to the public-facing foundation article . It is not the canonical source or a standalone article. For the authoritative technical material, use the canonical Ecosystem Positioning README and the versioned sources it indexes. This annex makes the ablation, independence, sufficiency and extensibility analysis inspectable and traceable. Publication on Tegrity.AI does not imply peer review, independent validation, production readiness, adoption as a standard or endorsement by the ITU, FG-TIDA or any cited organisation.\nTags: Minimum control and sufficiency 25.93%; Research and technical documentation 40.74%; Experimentation, falsification and counterexamples 33.33%\nCard: https://dakleyer.github.io/perspective-beyond/sources/annex-6-ablation-sufficiency-and-extensibility-t2803/\nSource document: https://tegrity.ai/when-the-controls-work-annex-6-ablation-sufficiency-and-extensibility/\n\n",
   "readingSource": {
     "url": "https://tegrity.ai/when-the-controls-work-annex-6-ablation-sufficiency-and-extensibility/",
     "section": "Opening paragraphs",
     "observed": "2026-11-04",
     "sourceSha256": "ce4146ad049916a98a0eb97749409ee30a2d31b34e63bee4449a6082cbb00768"
   },
-  "tokens": 220,
+  "tokens": 216,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -28,10 +28,11 @@
       "to": "C34",
       "title": "Contrafactual de carga humana",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 203,
+      "fichaTokens": 181,
       "tagWeights": {
         "aprendizaje": 0.0353,
         "autoridad": 0.0122,
@@ -61,10 +62,11 @@
       "to": "C37",
       "title": "Activación de misión",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 261,
+      "fichaTokens": 231,
       "tagWeights": {
         "agentes": 0.0113,
         "aprendizaje": 0.0329,
@@ -103,10 +105,11 @@
       "to": "C46",
       "title": "Ablación de mecanismos",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 236,
+      "fichaTokens": 210,
       "tagWeights": {
         "aprendizaje": 0.0233,
         "autoridad": 0.0351,
@@ -141,10 +144,11 @@
       "to": "C47",
       "title": "Comparación justa",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 25,
-      "fichaTokens": 224,
+      "fichaTokens": 198,
       "tagWeights": {
         "agentes": 0.0325,
         "aprendizaje": 0.0127,
@@ -179,10 +183,11 @@
       "to": "C50",
       "title": "Estado de una afirmación",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 27,
-      "fichaTokens": 306,
+      "fichaTokens": 271,
       "tagWeights": {
         "agentes": 0.0305,
         "aprendizaje": 0.0188,
@@ -226,10 +231,11 @@
       "to": "C125",
       "title": "Fuga de etiquetas de una fixture",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 29,
-      "fichaTokens": 101,
+      "fichaTokens": 94,
       "tagWeights": {
         "control-minimo": 0.0864,
         "documentacion": 0.1358,
@@ -249,10 +255,11 @@
       "to": "N1295",
       "title": "JubAp.Net Tiger Team Model",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "hypothesis",
       "reading": "A tabletop ablation could test which coordination conditions the Tiger Team model actually depends on.",
       "relationTokens": 41,
-      "fichaTokens": 288,
+      "fichaTokens": 276,
       "tagWeights": {
         "autoridad": 0.0953,
         "decision": 0.2381,
@@ -271,10 +278,11 @@
       "to": "T1400",
       "title": "Measuring Human Intelligence Debt",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "candidate transfer",
       "reading": "Task simulations could vary integration, data quality and expert support separately to examine which assumptions drive a human-work counterfactual.",
       "relationTokens": 47,
-      "fichaTokens": 409,
+      "fichaTokens": 394,
       "tagWeights": {
         "aprendizaje": 0.0541,
         "capacidad-humana": 0.3513,
@@ -296,10 +304,11 @@
       "to": "U1494",
       "title": "Barcelona, Cuba, California, Veracruz: Urban Mobility, Swarm Intelligence and Constraint-Driven Architecture",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "candidate transfer",
       "reading": "The complementary field layers suggest an ablation plan: remove or replace one mechanism at a time and examine which operating obligations cease to hold.",
       "relationTokens": 64,
-      "fichaTokens": 433,
+      "fichaTokens": 420,
       "tagWeights": {
         "aprendizaje": 0.1786,
         "control-minimo": 0.1429,
@@ -320,10 +329,11 @@
       "to": "GH048",
       "title": "00K-A16 — Formal Relative Independence Proof of P1–P6 — v0.1",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documented use",
       "reading": "Relative logical independence, a fixture ablation and an implementation effect answer different questions and should retain separate evidence labels.",
       "relationTokens": 60,
-      "fichaTokens": 237,
+      "fichaTokens": 224,
       "tagWeights": {
         "autoridad": 0.0357,
         "control-minimo": 0.1429,
@@ -344,10 +354,11 @@
       "to": "GH078",
       "title": "L-09 — Remove accidental public-label leakage without rewriting source examples",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "candidate transfer",
       "reading": "Matched public-view counterworlds can test whether a reported acquisition benefit comes from new evidence rather than accidental fixture-label leakage.",
       "relationTokens": 56,
-      "fichaTokens": 175,
+      "fichaTokens": 168,
       "tagWeights": {
         "evidencia": 0.3333,
         "experimentacion": 0.6667
@@ -363,10 +374,11 @@
       "to": "T2799",
       "title": "Annex 5 — Six Positive Paths and Quality Plans",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [Ablation, sufficiency and bounded extensibility](https://tegrity.ai/when-the-controls-work-annex-6-ablation-sufficiency-and-extensibility/).",
       "relationTokens": 72,
-      "fichaTokens": 197,
+      "fichaTokens": 193,
       "tagWeights": {
         "casos": 0.1538,
         "documentacion": 0.8462
@@ -382,12 +394,13 @@
       "to": "T2811",
       "title": "Annex 8 — Meaning, Contribution and Limits",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "editorial comparison",
       "reading": "For a complementary reading, see [What the results establish and what remains open](https://tegrity.ai/when-the-controls-work-annex-8-meaning-contribution-and-limits/).",
       "relationTokens": 67,
-      "fichaTokens": 184,
+      "fichaTokens": 182,
       "tagWeights": {
-        "documentacion": 1.0
+        "documentacion": 1
       },
       "clusters": [
         "tegrity"

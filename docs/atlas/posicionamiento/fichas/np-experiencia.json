@@ -13,9 +13,8 @@
   "clusters": [
     "imsv"
   ],
-  "context": "## ¿Qué ocurrió primero: la experiencia o la idea?\nLa reflexión escrita ordenó un patrón que ya se observaba en prácticas humanas y organizativas. Las experiencias se solaparon, de modo que el aprendizaje circuló entre la formulación y el trabajo de campo.\nEtiquetas: Aprendizaje y transmisión de capacidades 44.45%; Empresa y gestión 44.44%; Cambio de perspectiva 11.11%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-experiencia\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/experiencia-e-idea/\n\n",
-  "readingSource": null,
-  "tokens": 133,
+  "context": "## ¿Qué ocurrió primero: la experiencia o la idea?\nLa reflexión escrita ordenó un patrón que ya se observaba en prácticas humanas y organizativas. Las experiencias se solaparon, de modo que el aprendizaje circuló entre la formulación y el trabajo de campo.\nTags: Learning and capability transmission 44.45%; Business and management 44.44%; Change of perspective 11.11%\nCard: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-experiencia\nSource document: https://integralmanagement.ch/nueva-perspectiva/experiencia-e-idea/\n\n",
+  "tokens": 128,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,12 +22,13 @@
       "to": "np-manifiesto",
       "title": "El manifiesto original de Nueva Perspectiva",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "origen",
       "reading": "La conversación permite situar la experiencia previa a la formulación escrita.",
       "relationTokens": 38,
-      "fichaTokens": 105,
+      "fichaTokens": 103,
       "tagWeights": {
-        "perspectiva": 1.0
+        "perspectiva": 1
       },
       "clusters": [
         "imsv"
@@ -41,10 +41,11 @@
       "to": "np-sierra",
       "title": "La sierra del Totonacapan: el origen vivencial",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "trayectoria",
       "reading": "La sierra concreta una de las experiencias que precedieron o acompañaron la formulación.",
       "relationTokens": 45,
-      "fichaTokens": 128,
+      "fichaTokens": 123,
       "tagWeights": {
         "experimentacion": 0.4444,
         "memoria-territorio": 0.5556

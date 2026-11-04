@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Generaciones, legado e interfaces visibles",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-generational_interface",
-  "documentId": null,
   "sourceIds": [
     "D-186",
     "D-187",
@@ -21,9 +20,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Generaciones, legado e interfaces visibles\nDistinguir la infraestructura heredada de las interfaces culturales con que cada generación la descubre o alimenta.\nEtiquetas: Aprendizaje y transmisión de capacidades 5.56%; Casos de uso y aplicaciones 9.52%; Economía, costes y liquidez 15.87%; Empresa y gestión 5.56%; Memoria, comunidad y territorio 21.04%; Movilidad e infraestructura 36.90%; Transformación y continuidad operativa 5.55%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-generational_interface\n\n",
-  "readingSource": null,
-  "tokens": 131,
+  "context": "## Generaciones, legado e interfaces visibles\nDistinguir la infraestructura heredada de las interfaces culturales con que cada generación la descubre o alimenta.\nTags: Learning and capability transmission 5.56%; Use cases and applications 9.52%; Economics, costs and liquidity 15.87%; Business and management 5.56%; Memory, community and territory 21.04%; Mobility and infrastructure 36.90%; Transformation and operational continuity 5.55%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-generational_interface\n\n",
+  "tokens": 120,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -31,10 +29,11 @@
       "to": "D-186",
       "title": "Una maison puede esperar a la Generación Z y descubrir que ya no existe en su imaginación",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 33,
-      "fichaTokens": 435,
+      "fichaTokens": 426,
       "tagWeights": {
         "aprendizaje": 0.1667,
         "economia": 0.3333,
@@ -53,10 +52,11 @@
       "to": "D-187",
       "title": "Una generación construyó la infraestructura; otra recibió la interfaz",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 27,
-      "fichaTokens": 393,
+      "fichaTokens": 389,
       "tagWeights": {
         "memoria-territorio": 0.25,
         "movilidad": 0.75
@@ -72,10 +72,11 @@
       "to": "D-294",
       "title": "La tecnología posible no es la tecnología que el mercado termina adoptando",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 428,
+      "fichaTokens": 421,
       "tagWeights": {
         "casos": 0.2857,
         "economia": 0.1429,
@@ -93,10 +94,11 @@
       "to": "dg-culture",
       "title": "Protocultura, autoría y conocimiento emergente",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "traduce o pierde",
       "reading": "Las marcas y generaciones no se comunican por simple herencia de prestigio.",
       "relationTokens": 40,
-      "fichaTokens": 204,
+      "fichaTokens": 186,
       "tagWeights": {
         "aprendizaje": 0.0299,
         "capacidad-humana": 0.0091,
@@ -123,10 +125,11 @@
       "to": "dg-production",
       "title": "Producción material y continuadores invisibles",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "puede ocultar",
       "reading": "La interfaz pulida tapa a quienes construyeron protocolos y capacidad previa.",
       "relationTokens": 36,
-      "fichaTokens": 229,
+      "fichaTokens": 205,
       "tagWeights": {
         "aprendizaje": 0.0276,
         "autoridad": 0.0417,
@@ -155,10 +158,11 @@
       "to": "dg-legacy",
       "title": "Memoria y legado",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "pone a prueba",
       "reading": "Un legado debe hacerse legible sin confundirse con moda.",
       "relationTokens": 29,
-      "fichaTokens": 126,
+      "fichaTokens": 114,
       "tagWeights": {
         "autoridad": 0.0151,
         "capacidad-humana": 0.0151,
@@ -179,10 +183,11 @@
       "to": "dg-unrealized_tech",
       "title": "Capacidades tecnológicas no adoptadas",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación transversal propuesta v0.12",
       "reading": "De visión ubicua a interfaz de adopción.",
       "relationTokens": 35,
-      "fichaTokens": 99,
+      "fichaTokens": 93,
       "tagWeights": {
         "casos": 0.2857,
         "economia": 0.1429,

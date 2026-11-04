@@ -12,9 +12,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## La ciencia recorta; la contemplación cambia al observador\nINTERLOCUTOR (pregunta editorial) — ¿Por qué una práctica contemplativa y una práctica científica pueden interesarse por la misma incertidumbre sin ser equivalentes?\nLECTURA DEL DIÁLOGO (síntesis editorial) — La distinción del ensayo es más radical que «dos maneras de manejar la incertidumbre». La ciencia construye una tecnología acumulativa de causalidad: delimita sistema y entorno, selecciona variables, mide errores, interviene y registra resultados que permiten la siguiente intervención. Precisamente su potencia depende del recorte; el peligro aparece cuando la frontera instrumental se declara ontológica. En el taoísmo y en la espiritualidad cristiana el texto identifica otra operación: no sumar indefinidamente causas visibles, sino modificar la disposición del sujeto para actuar en un punto de alineación o cooperar con una gracia que no controla. *Wu wei* no es pasividad; tampoco la oración es una técnica para obligar a Dios. La comparación no afirma equivalencia doctrinal ni pretende usar espiritualidad como prueba física. Su centro está en la pregunta incómoda: ¿cuándo producir más intervención impide ver la transformación que requiere cambiar al observador?\nEtiquetas: Aprendizaje y transmisión de capacidades 28.57%; Espiritualidad y vida interior 71.43%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-092\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-092.html\n\n",
-  "readingSource": null,
-  "tokens": 329,
+  "context": "## La ciencia recorta; la contemplación cambia al observador\nINTERLOCUTOR (pregunta editorial) — ¿Por qué una práctica contemplativa y una práctica científica pueden interesarse por la misma incertidumbre sin ser equivalentes?\nLECTURA DEL DIÁLOGO (síntesis editorial) — La distinción del ensayo es más radical que «dos maneras de manejar la incertidumbre». La ciencia construye una tecnología acumulativa de causalidad: delimita sistema y entorno, selecciona variables, mide errores, interviene y registra resultados que permiten la siguiente intervención. Precisamente su potencia depende del recorte; el peligro aparece cuando la frontera instrumental se declara ontológica. En el taoísmo y en la espiritualidad cristiana el texto identifica otra operación: no sumar indefinidamente causas visibles, sino modificar la disposición del sujeto para actuar en un punto de alineación o cooperar con una gracia que no controla. *Wu wei* no es pasividad; tampoco la oración es una técnica para obligar a Dios. La comparación no afirma equivalencia doctrinal ni pretende usar espiritualidad como prueba física. Su centro está en la pregunta incómoda: ¿cuándo producir más intervención impide ver la transformación que requiere cambiar al observador?\nTags: Learning and capability transmission 28.57%; Spirituality and inner life 71.43%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-092\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-092.html\n\n",
+  "tokens": 323,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "dg-observe",
       "title": "Mirar lo que falta",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 25,
-      "fichaTokens": 189,
+      "fichaTokens": 170,
       "tagWeights": {
         "aprendizaje": 0.0835,
         "cambio-regimen": 0.054,
@@ -52,10 +52,11 @@
       "to": "dg-inner",
       "title": "Atención y sentido",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 191,
+      "fichaTokens": 172,
       "tagWeights": {
         "aprendizaje": 0.4331,
         "autoridad": 0.0368,
@@ -83,10 +84,11 @@
       "to": "dg-doubt",
       "title": "Duda, pruebas y conocimiento corregible",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 268,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.2345,
         "autoridad": 0.0562,
@@ -120,10 +122,11 @@
       "to": "D-204",
       "title": "La forma no desaparece: la radicalidad práctica consiste en dejarla sin monopolio",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La forma no desaparece: la radicalidad práctica consiste en dejarla sin monopolio» con «La ciencia recorta; la contemplación cambia al observador». Permite contrastar Atención y sentido.",
       "relationTokens": 82,
-      "fichaTokens": 421,
+      "fichaTokens": 414,
       "tagWeights": {
         "aprendizaje": 0.5,
         "autoridad": 0.5
@@ -139,12 +142,13 @@
       "to": "D-258",
       "title": "La ciencia también puede excluir una idea dejándola sin interlocutor",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La ciencia también puede excluir una idea dejándola sin interlocutor» con «La ciencia recorta; la contemplación cambia al observador». Permite contrastar Duda, pruebas y conocimiento corregible.",
       "relationTokens": 79,
-      "fichaTokens": 408,
+      "fichaTokens": 404,
       "tagWeights": {
-        "autoridad": 1.0
+        "autoridad": 1
       },
       "clusters": [
         "dialogos"
@@ -157,10 +161,11 @@
       "to": "D-275",
       "title": "La experiencia espiritual no da autoridad para exigir obediencia",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La experiencia espiritual no da autoridad para exigir obediencia» con «La ciencia recorta; la contemplación cambia al observador». Permite contrastar Atención y sentido, Duda, pruebas y conocimiento corregible.",
       "relationTokens": 77,
-      "fichaTokens": 424,
+      "fichaTokens": 416,
       "tagWeights": {
         "aprendizaje": 0.1154,
         "autoridad": 0.3461,
@@ -178,10 +183,11 @@
       "to": "D-283",
       "title": "Una serie rigurosa deja examinar cada eslabón por separado",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una serie rigurosa deja examinar cada eslabón por separado» con «La ciencia recorta; la contemplación cambia al observador».",
       "relationTokens": 66,
-      "fichaTokens": 419,
+      "fichaTokens": 413,
       "tagWeights": {
         "evidencia": 0.4,
         "memoria-territorio": 0.6
@@ -197,12 +203,13 @@
       "to": "D-116",
       "title": "Un control puede aprobar y el sistema seguir fallando",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Mirar lo que falta, Duda, pruebas y conocimiento corregible desde las situaciones que describe cada texto.",
       "relationTokens": 57,
-      "fichaTokens": 299,
+      "fichaTokens": 294,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"
@@ -215,12 +222,13 @@
       "to": "D-099",
       "title": "Lo que el mapa no representa puede cambiar la decisión",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Mirar lo que falta, Duda, pruebas y conocimiento corregible desde las situaciones que describe cada texto.",
       "relationTokens": 57,
-      "fichaTokens": 261,
+      "fichaTokens": 258,
       "tagWeights": {
-        "decision": 1.0
+        "decision": 1
       },
       "clusters": [
         "dialogos"
@@ -233,12 +241,13 @@
       "to": "D-269",
       "title": "La inspiración no sustituye a la escuadra y el cartabón",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Mirar lo que falta, Duda, pruebas y conocimiento corregible desde las situaciones que describe cada texto.",
       "relationTokens": 62,
-      "fichaTokens": 391,
+      "fichaTokens": 389,
       "tagWeights": {
-        "perspectiva": 1.0
+        "perspectiva": 1
       },
       "clusters": [
         "dialogos"
@@ -251,12 +260,13 @@
       "to": "D-093",
       "title": "Cuando la IA produce una respuesta y parece cerrar el mundo",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Atención y sentido, Duda, pruebas y conocimiento corregible desde las situaciones que describe cada texto.",
       "relationTokens": 56,
-      "fichaTokens": 321,
+      "fichaTokens": 316,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"

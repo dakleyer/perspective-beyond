@@ -37,7 +37,7 @@ function mapURL(request,embed=false) {
   return url;
 }
 const percent=new Intl.NumberFormat('es',{style:'percent',maximumFractionDigits:1});
-const typeName=node=>node.type==='ficha'?'Ficha':'Concepto';
+const typeName=node=>node.type==='ficha'?'Card':'Concept';
 const distanceName=distance=>distance===0?'centro':distance===1?'1 salto':distance+' saltos';
 
 async function start() {
@@ -69,9 +69,9 @@ async function start() {
       row.className='weight-row';
       const input=element('input');
       input.type='number'; input.min='0'; input.max='10000'; input.step='any'; input.required=true; input.value=value;
-      input.setAttribute('aria-label','Peso de '+labels[tag]);
+      input.setAttribute('aria-label','Weight of '+labels[tag]);
       input.addEventListener('input',()=>weights.set(tag,input.value));
-      const remove=element('button','Quitar');
+      const remove=element('button','Remove');
       remove.type='button'; remove.className='secondary';
       remove.setAttribute('aria-label','Quitar '+labels[tag]);
       remove.addEventListener('click',()=>{weights.delete(tag);weightRows();topic.focus();});
@@ -86,7 +86,7 @@ async function start() {
       weights.set(topic.value,'1');
       weightRows();
     }
-    get('weights').querySelector(`[aria-label="Peso de ${CSS.escape(labels[topic.value])}"]`)?.focus();
+    get('weights').querySelector(`[aria-label="Weight of ${CSS.escape(labels[topic.value])}"]`)?.focus();
   });
 
   function inspect(id) {
@@ -97,7 +97,7 @@ async function start() {
     get('node-title').textContent=node.title;
     get('node-summary').textContent=node.summary;
     get('node-tags').textContent=node.tagWeights?Object.entries(node.tagWeights).sort((a,b)=>b[1]-a[1]).map(([tag,w])=>labels[tag]+' '+percent.format(w)).join(' · '):node.tags.map(tag=>labels[tag]).join(' · ');
-    const links=[link(node.url,'Abrir ficha'),link(node.original,'Fuente original')];
+    const links=[link(node.url,'Open card'),link(node.original,'Fuente original')];
     if(node.commitUrl)links.push(link(node.commitUrl,'Commit '+node.commit.slice(0,8)));
     const next={...result.request,centro:id,red:node.type==='concepto'?'ideas':result.request.red};
     links.push(link(mapURL(next).href,'Centrar un mapa en este nodo'));
@@ -177,7 +177,7 @@ async function start() {
     selected=result.center;
     selectedById=new Map(result.nodes.map(node=>[node.id,node]));
     get('map-title').textContent=selectedById.get(selected).title;
-    const count=result.shown===1?'1 nodo visible':result.shown+' nodos visibles';
+    const count=result.shown===1?'1 nodo visible':result.shown+' nodos visible';
     get('map-info').textContent=`${count} de ${result.reachable} al alcance · radio ${result.request.radio} · `+
       (result.request.pesos.length?result.request.pesos.map(p=>labels[p.tag]+' '+percent.format(p.normalized)).join(' · '):'sin ponderación temática');
     items.replaceChildren();
@@ -219,7 +219,7 @@ async function start() {
   async function copy(text) {
     try {
       await navigator.clipboard.writeText(text);
-      get('status').textContent='Copiado.';
+      get('status').textContent='Copied.';
     } catch {
       const field=get('copy-fallback');
       field.hidden=false;field.value=text;field.focus();field.select();
@@ -228,7 +228,7 @@ async function start() {
   get('copy-link').addEventListener('click',()=>copy(mapURL(result.request).href));
   get('copy-embed').addEventListener('click',()=>{
     const url=mapURL(result.request,true).href.replaceAll('&','&amp;');
-    copy(`<iframe src="${url}" title="Mapa de relaciones · Perspective Beyond" loading="lazy" style="width:100%;height:720px;border:0"></iframe>`);
+    copy(`<iframe src="${url}" title="Mapa de relationships · Perspective Beyond" loading="lazy" style="width:100%;height:720px;border:0"></iframe>`);
   });
   get('download').addEventListener('click',()=>{
     const blob=new Blob([JSON.stringify(result,null,2)+'\n'],{type:'application/json;charset=utf-8'});

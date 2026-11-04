@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Vida completa de una capacidad",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-capability_cycle",
-  "documentId": null,
   "sourceIds": [
     "D-297"
   ],
@@ -16,9 +15,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Vida completa de una capacidad\nExplorar, atribuir, preservar, enseñar y transferir es más amplio que registrar propiedad intelectual.\nEtiquetas: Autoridad, permisos y delegación 22.22%; Capacidad humana y deuda de inteligencia 22.22%; Memoria, comunidad y territorio 33.34%; Transformación y continuidad operativa 22.22%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-capability_cycle\n\n",
-  "readingSource": null,
-  "tokens": 101,
+  "context": "## Vida completa de una capacidad\nExplorar, atribuir, preservar, enseñar y transferir es más amplio que registrar propiedad intelectual.\nTags: Authority, permissions and delegation 22.22%; Human capability and intelligence debt 22.22%; Memory, community and territory 33.34%; Transformation and operational continuity 22.22%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-capability_cycle\n\n",
+  "tokens": 93,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -26,10 +24,11 @@
       "to": "D-297",
       "title": "La propiedad intelectual protege una etapa, no toda la vida de una capacidad",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 27,
-      "fichaTokens": 403,
+      "fichaTokens": 394,
       "tagWeights": {
         "autoridad": 0.2222,
         "capacidad-humana": 0.2222,
@@ -47,10 +46,11 @@
       "to": "dg-continuity",
       "title": "Continuidad de capacidades",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación transversal propuesta v0.12",
       "reading": "No pérdida de saber transferible.",
       "relationTokens": 26,
-      "fichaTokens": 222,
+      "fichaTokens": 200,
       "tagWeights": {
         "aprendizaje": 0.0854,
         "autoridad": 0.0264,
@@ -80,10 +80,11 @@
       "to": "dg-institutional_custody",
       "title": "Custodia de comunidades de práctica",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación transversal propuesta v0.12",
       "reading": "Más que derechos formales de IP.",
       "relationTokens": 29,
-      "fichaTokens": 128,
+      "fichaTokens": 117,
       "tagWeights": {
         "aprendizaje": 0.0556,
         "autoridad": 0.0555,
@@ -103,10 +104,11 @@
       "to": "dg-tacit",
       "title": "Conocimiento tácito",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación transversal propuesta v0.12",
       "reading": "La práctica exige transmisión.",
       "relationTokens": 24,
-      "fichaTokens": 166,
+      "fichaTokens": 150,
       "tagWeights": {
         "aprendizaje": 0.0572,
         "autoridad": 0.0363,

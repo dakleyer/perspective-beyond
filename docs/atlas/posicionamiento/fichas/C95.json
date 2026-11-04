@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Umbral de movilización",
   "url": "https://dakleyer.github.io/perspective-beyond/concepts/mobilisation-threshold/",
-  "documentId": null,
   "sourceIds": [
     "U1498",
     "N1272"
@@ -24,9 +23,8 @@
     "net",
     "us"
   ],
-  "context": "## Umbral de movilización\nIdentify the observed load and conditions at which coordination intensifies.\nEtiquetas: Aprendizaje y transmisión de capacidades 4.55%; Autoridad, permisos y delegación 10.43%; Capacidad humana y deuda de inteligencia 5.89%; Decisiones y responsabilidad 16.31%; Economía, costes y liquidez 10.43%; Estándares e interoperabilidad 11.36%; Memoria, comunidad y territorio 5.88%; Movilidad e infraestructura 14.70%; Cambio de perspectiva 4.54%; Transformación y continuidad operativa 15.91%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/mobilisation-threshold/\n\n",
-  "readingSource": null,
-  "tokens": 150,
+  "context": "## Umbral de movilización\nIdentify the observed load and conditions at which coordination intensifies.\nTags: Learning and capability transmission 4.55%; Authority, permissions and delegation 10.43%; Human capability and intelligence debt 5.89%; Decisions and responsibility 16.31%; Economics, costs and liquidity 10.43%; Standards and interoperability 11.36%; Memory, community and territory 5.88%; Mobility and infrastructure 14.70%; Change of perspective 4.54%; Transformation and operational continuity 15.91%\nCard: https://dakleyer.github.io/perspective-beyond/concepts/mobilisation-threshold/\n\n",
+  "tokens": 133,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -34,10 +32,11 @@
       "to": "U1498",
       "title": "Entropy, Capability Activation and Sociotechnical Engineering",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 260,
+      "fichaTokens": 250,
       "tagWeights": {
         "autoridad": 0.1177,
         "capacidad-humana": 0.1177,
@@ -57,10 +56,11 @@
       "to": "N1272",
       "title": "The Anthropology of Tiger Team Activation",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 364,
+      "fichaTokens": 350,
       "tagWeights": {
         "aprendizaje": 0.0909,
         "autoridad": 0.0909,
@@ -81,10 +81,11 @@
       "to": "C85",
       "title": "Activación y cierre de misión",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "candidate transfer",
       "reading": "A mobilisation threshold may inform Tiger Team activation, but accumulated load must be read together with mission focus, authority, available attention and a credible exit.",
       "relationTokens": 45,
-      "fichaTokens": 244,
+      "fichaTokens": 214,
       "tagWeights": {
         "aprendizaje": 0.0198,
         "autoridad": 0.037,

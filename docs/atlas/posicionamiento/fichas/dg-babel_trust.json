@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Babel semántica y economía de la atención",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-babel_trust",
-  "documentId": null,
   "sourceIds": [
     "D-247",
     "D-248"
@@ -16,9 +15,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Babel semántica y economía de la atención\nLa fluidez de una interfaz común puede ocultar degradación de memoria, verificabilidad y autonomía del explorador.\nEtiquetas: Economía, costes y liquidez 66.67%; Evidencia, procedencia y atribución 16.67%; Transformación y continuidad operativa 16.66%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-babel_trust\n\n",
-  "readingSource": null,
-  "tokens": 98,
+  "context": "## Babel semántica y economía de la atención\nLa fluidez de una interfaz común puede ocultar degradación de memoria, verificabilidad y autonomía del explorador.\nTags: Economics, costs and liquidity 66.67%; Evidence, provenance and attribution 16.67%; Transformation and operational continuity 16.66%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-babel_trust\n\n",
+  "tokens": 91,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -26,10 +24,11 @@
       "to": "D-247",
       "title": "La nueva Babel puede funcionar demasiado bien antes de dejar de ser fiable",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 30,
-      "fichaTokens": 449,
+      "fichaTokens": 441,
       "tagWeights": {
         "economia": 0.3334,
         "evidencia": 0.3333,
@@ -46,12 +45,13 @@
       "to": "D-248",
       "title": "El explorador no va a ganar la narración convirtiéndose en influencer",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 31,
-      "fichaTokens": 409,
+      "fichaTokens": 406,
       "tagWeights": {
-        "economia": 1.0
+        "economia": 1
       },
       "clusters": [
         "dialogos"
@@ -64,12 +64,13 @@
       "to": "dg-media_reality",
       "title": "Producción de realidad mediada",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.9",
       "reading": "Una explicación verosímil no prueba que sea fiel.",
       "relationTokens": 39,
-      "fichaTokens": 73,
+      "fichaTokens": 69,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"
@@ -82,10 +83,11 @@
       "to": "dg-semantic_graph",
       "title": "Conocimiento como red de relaciones y procedencia",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.9",
       "reading": "El grafo debe regresar a fuentes y condiciones.",
       "relationTokens": 40,
-      "fichaTokens": 181,
+      "fichaTokens": 164,
       "tagWeights": {
         "aprendizaje": 0.0229,
         "decision": 0.0625,
@@ -110,10 +112,11 @@
       "to": "dg-doubt",
       "title": "Duda, pruebas y conocimiento corregible",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.9",
       "reading": "Se requieren zonas explícitas de incertidumbre.",
       "relationTokens": 38,
-      "fichaTokens": 268,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.2345,
         "autoridad": 0.0562,
@@ -147,10 +150,11 @@
       "to": "dg-invisible_autonomy",
       "title": "Autonomía invisible y pertenencia",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.9",
       "reading": "La visibilidad puede domesticar al explorador.",
       "relationTokens": 38,
-      "fichaTokens": 99,
+      "fichaTokens": 92,
       "tagWeights": {
         "aprendizaje": 0.5,
         "economia": 0.25,

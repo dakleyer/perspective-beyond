@@ -12,9 +12,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Explicar una conducta no elimina automáticamente la responsabilidad\nINTERLOCUTOR (pregunta editorial) — Si comprendemos por qué alguien evitó un peligro, ¿eso basta para concluir que no debía actuar de otro modo?\nREFLEXIÓN DEL ESCRITO (síntesis editorial) — La consecuencia ética del cuchillo no se resuelve diciendo que el autoengaño existe. Iván separa cuatro afirmaciones: la persona estaba angustiada; le costaba procesar el riesgo; evitó aprender o comparar porque hacerlo dolía; no es responsable de las consecuencias. Las tres primeras podrían ser verdaderas sin que la cuarta lo sea. Su pregunta decisiva es temporal: ¿qué hizo antes la persona para llegar a no saber aquello que era importante saber? Una disculpa sincera o un bloqueo real en el último instante no borra por sí mismo meses de evitación voluntaria, sobre todo cuando otros dependían de esa decisión. Explicar un mecanismo psicológico sirve para comprender dónde intervenir y para graduar responsabilidad; no para transformar automáticamente la incapacidad de mirar en inocencia.\nEtiquetas: Decisiones y responsabilidad 77.78%; Integridad y seguridad de IA 22.22%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-144\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-144.html\n\n",
-  "readingSource": null,
-  "tokens": 293,
+  "context": "## Explicar una conducta no elimina automáticamente la responsabilidad\nINTERLOCUTOR (pregunta editorial) — Si comprendemos por qué alguien evitó un peligro, ¿eso basta para concluir que no debía actuar de otro modo?\nREFLEXIÓN DEL ESCRITO (síntesis editorial) — La consecuencia ética del cuchillo no se resuelve diciendo que el autoengaño existe. Iván separa cuatro afirmaciones: la persona estaba angustiada; le costaba procesar el riesgo; evitó aprender o comparar porque hacerlo dolía; no es responsable de las consecuencias. Las tres primeras podrían ser verdaderas sin que la cuarta lo sea. Su pregunta decisiva es temporal: ¿qué hizo antes la persona para llegar a no saber aquello que era importante saber? Una disculpa sincera o un bloqueo real en el último instante no borra por sí mismo meses de evitación voluntaria, sobre todo cuando otros dependían de esa decisión. Explicar un mecanismo psicológico sirve para comprender dónde intervenir y para graduar responsabilidad; no para transformar automáticamente la incapacidad de mirar en inocencia.\nTags: Decisions and responsibility 77.78%; AI integrity and security 22.22%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-144\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-144.html\n\n",
+  "tokens": 288,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "dg-care",
       "title": "Responsabilidad humana",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 20,
-      "fichaTokens": 208,
+      "fichaTokens": 187,
       "tagWeights": {
         "aprendizaje": 0.0939,
         "autoridad": 0.0359,
@@ -54,10 +54,11 @@
       "to": "dg-risk",
       "title": "Riesgo, seguridad y evitación",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 121,
+      "fichaTokens": 112,
       "tagWeights": {
         "decision": 0.1843,
         "economia": 0.0758,
@@ -77,10 +78,11 @@
       "to": "dg-account",
       "title": "Responsabilidad y reparación",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 122,
+      "fichaTokens": 112,
       "tagWeights": {
         "aprendizaje": 0.0834,
         "autoridad": 0.2098,
@@ -101,10 +103,11 @@
       "to": "D-277",
       "title": "Una explicación consciente puede llegar después de la conducta",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una explicación consciente puede llegar después de la conducta» con «Explicar una conducta no elimina automáticamente la responsabilidad». Permite contrastar Responsabilidad y reparación.",
       "relationTokens": 61,
-      "fichaTokens": 413,
+      "fichaTokens": 407,
       "tagWeights": {
         "aprendizaje": 0.3334,
         "decision": 0.3333,
@@ -121,10 +124,11 @@
       "to": "D-142",
       "title": "La seguridad que se decide y deja de comprobarse",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Riesgo, seguridad y evitación, Responsabilidad humana desde las situaciones que describe cada texto.",
       "relationTokens": 51,
-      "fichaTokens": 308,
+      "fichaTokens": 303,
       "tagWeights": {
         "decision": 0.25,
         "integridad-ia": 0.75
@@ -140,10 +144,11 @@
       "to": "D-143",
       "title": "El cuchillo de plástico puede recibir el miedo que no dirigimos al afilado",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Riesgo, seguridad y evitación, Responsabilidad humana desde las situaciones que describe cada texto.",
       "relationTokens": 58,
-      "fichaTokens": 312,
+      "fichaTokens": 307,
       "tagWeights": {
         "decision": 0.5,
         "integridad-ia": 0.5
@@ -159,10 +164,11 @@
       "to": "D-145",
       "title": "La ignorancia que no se pudo evitar y la que se cultivó",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Responsabilidad y reparación, Riesgo, seguridad y evitación desde las situaciones que describe cada texto.",
       "relationTokens": 56,
-      "fichaTokens": 311,
+      "fichaTokens": 306,
       "tagWeights": {
         "decision": 0.5,
         "integridad-ia": 0.5
@@ -178,10 +184,11 @@
       "to": "D-154",
       "title": "Pedir perdón modifica el relato; reparar modifica el daño",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Responsabilidad y reparación, Responsabilidad humana desde las situaciones que describe cada texto.",
       "relationTokens": 50,
-      "fichaTokens": 286,
+      "fichaTokens": 281,
       "tagWeights": {
         "autoridad": 0.4,
         "decision": 0.6

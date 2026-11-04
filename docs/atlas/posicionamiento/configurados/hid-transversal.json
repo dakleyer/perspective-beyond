@@ -38,8 +38,24 @@
     "aliases": [
       "https://tegrity.ai/human-intelligence-debt/"
     ],
-    "header": "# Posicionamiento · Human Intelligence Debt\nDocumento de origen: https://tegrity.ai/human-intelligence-debt\n\n",
-    "headerTokens": 25,
+    "header": "# Positioning · Human Intelligence Debt\nSource document: https://tegrity.ai/human-intelligence-debt\n\n",
+    "headerTokens": 23,
+    "entrySources": [
+      "T874",
+      "G21",
+      "C73",
+      "C75",
+      "C70"
+    ],
+    "entryAnchor": "T874",
+    "entryCore": [
+      "G21",
+      "C73",
+      "C75",
+      "C70"
+    ],
+    "headerEn": "# Positioning · Human Intelligence Debt\nSource document: https://tegrity.ai/human-intelligence-debt\n\n",
+    "headerTokensEn": 23,
     "type": "documento",
     "focus": "T874",
     "seeds": [
@@ -48,11 +64,11 @@
   },
   "budget": {
     "limit": 2400,
-    "used": 2144,
-    "remaining": 256,
-    "nextBlock": 405,
+    "used": 2027,
+    "remaining": 373,
+    "nextBlock": 399,
     "encoding": "o200k_base",
-    "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
+    "accounting": "Sum of independently encoded blocks: document header, card and incoming relationship. The budget applies to selected reading content."
   },
   "reachable": 1547,
   "selected": 7,
@@ -91,7 +107,7 @@
       "type": "documento",
       "url": "https://tegrity.ai/human-intelligence-debt",
       "original": "https://tegrity.ai/human-intelligence-debt",
-      "summary": "Documento desde el que se abre este posicionamiento.",
+      "summary": "Document from which this positioning opens.",
       "tags": [],
       "tagWeights": {},
       "clusters": [
@@ -142,7 +158,7 @@
         "sourceSha256": "91d1db38ae7c1388edd412aa0e0a6c6da5eb8cf5498ccd0986ee3f7033bffd7d"
       },
       "readingSummary": "This paper introduces the concepts of Human Intelligence Contribution Ratio and Human Intelligence Debt as socio-technical metrics for studying the relationship between technology, organisations and human cognitive work.",
-      "contextTokens": 450,
+      "contextTokens": 443,
       "distance": 1,
       "parent": "doc-a68c59b41898c09161-entrada",
       "routeEdge": null,
@@ -191,8 +207,9 @@
         "memoria-territorio": 0.027,
         "transformacion": 0.019
       },
-      "contextTokens": 159,
+      "contextTokens": 143,
       "positionHeaderTokens": 38,
+      "positionHeaderTokensEn": 35,
       "distance": 2,
       "parent": "T874",
       "routeEdge": "apoyo:T874:G21",
@@ -244,8 +261,9 @@
         "experimentacion": 0.0541,
         "memoria-territorio": 0.0429
       },
-      "contextTokens": 170,
+      "contextTokens": 154,
       "positionHeaderTokens": 41,
+      "positionHeaderTokensEn": 38,
       "distance": 2,
       "parent": "T874",
       "routeEdge": "apoyo:T874:C73",
@@ -314,8 +332,9 @@
         "perspectiva": 0.0185,
         "transformacion": 0.0455
       },
-      "contextTokens": 227,
+      "contextTokens": 202,
       "positionHeaderTokens": 40,
+      "positionHeaderTokensEn": 37,
       "distance": 2,
       "parent": "T874",
       "routeEdge": "apoyo:T874:C75",
@@ -382,8 +401,9 @@
         "memoria-territorio": 0.0139,
         "transformacion": 0.12
       },
-      "contextTokens": 203,
+      "contextTokens": 181,
       "positionHeaderTokens": 39,
+      "positionHeaderTokensEn": 36,
       "distance": 2,
       "parent": "T874",
       "routeEdge": "apoyo:T874:C34",
@@ -432,7 +452,7 @@
         "sourceSha256": "08977eb15e13ce9dfd6bba31ac6a8f1332d06a4689aaf35e3c7babc811439104"
       },
       "readingSummary": "This document moves the series from concept to measurement.",
-      "contextTokens": 409,
+      "contextTokens": 394,
       "distance": 2,
       "parent": "T874",
       "routeEdge": "documento:F001",
@@ -477,7 +497,7 @@
         "empresa": 0.0238,
         "memoria-territorio": 0.0476
       },
-      "contextTokens": 264,
+      "contextTokens": 252,
       "distance": 2,
       "parent": "T874",
       "routeEdge": "documento:sac-rel-2bf12aa343a51f",
@@ -489,8 +509,8 @@
       "id": "contiene:doc-a68c59b41898c09161-entrada:T874",
       "from": "doc-a68c59b41898c09161-entrada",
       "to": "T874",
-      "kind": "ficha del documento",
-      "reading": "Esta pieza abre la lectura desde su documento de origen.",
+      "kind": "document card",
+      "reading": "This piece opens the reading from its source document.",
       "route": true
     },
     {
@@ -681,7 +701,7 @@
         "sourceSha256": "91d1db38ae7c1388edd412aa0e0a6c6da5eb8cf5498ccd0986ee3f7033bffd7d"
       },
       "readingSummary": "This paper introduces the concepts of Human Intelligence Contribution Ratio and Human Intelligence Debt as socio-technical metrics for studying the relationship between technology, organisations and human cognitive work.",
-      "contextTokens": 450,
+      "contextTokens": 443,
       "distance": 1,
       "parent": "doc-a68c59b41898c09161-entrada",
       "routeEdge": null,
@@ -730,8 +750,9 @@
         "memoria-territorio": 0.027,
         "transformacion": 0.019
       },
-      "contextTokens": 159,
+      "contextTokens": 143,
       "positionHeaderTokens": 38,
+      "positionHeaderTokensEn": 35,
       "distance": 2,
       "parent": "T874",
       "routeEdge": "apoyo:T874:G21",
@@ -783,8 +804,9 @@
         "experimentacion": 0.0541,
         "memoria-territorio": 0.0429
       },
-      "contextTokens": 170,
+      "contextTokens": 154,
       "positionHeaderTokens": 41,
+      "positionHeaderTokensEn": 38,
       "distance": 2,
       "parent": "T874",
       "routeEdge": "apoyo:T874:C73",
@@ -853,8 +875,9 @@
         "perspectiva": 0.0185,
         "transformacion": 0.0455
       },
-      "contextTokens": 227,
+      "contextTokens": 202,
       "positionHeaderTokens": 40,
+      "positionHeaderTokensEn": 37,
       "distance": 2,
       "parent": "T874",
       "routeEdge": "apoyo:T874:C75",
@@ -921,8 +944,9 @@
         "memoria-territorio": 0.0139,
         "transformacion": 0.12
       },
-      "contextTokens": 203,
+      "contextTokens": 181,
       "positionHeaderTokens": 39,
+      "positionHeaderTokensEn": 36,
       "distance": 2,
       "parent": "T874",
       "routeEdge": "apoyo:T874:C34",
@@ -971,7 +995,7 @@
         "sourceSha256": "08977eb15e13ce9dfd6bba31ac6a8f1332d06a4689aaf35e3c7babc811439104"
       },
       "readingSummary": "This document moves the series from concept to measurement.",
-      "contextTokens": 409,
+      "contextTokens": 394,
       "distance": 2,
       "parent": "T874",
       "routeEdge": "documento:F001",
@@ -1016,12 +1040,12 @@
         "empresa": 0.0238,
         "memoria-territorio": 0.0476
       },
-      "contextTokens": 264,
+      "contextTokens": 252,
       "distance": 2,
       "parent": "T874",
       "routeEdge": "documento:sac-rel-2bf12aa343a51f",
       "affinity": 0.2667
     }
   ],
-  "reading": "# Posicionamiento · Human Intelligence Debt\nDocumento de origen: https://tegrity.ai/human-intelligence-debt\n\n## Human Intelligence Debt\nThis paper introduces the concepts of Human Intelligence Contribution Ratio and Human Intelligence Debt as socio-technical metrics for studying the relationship between technology, organisations and human cognitive work. The central question is not whether technology can automate jobs, but whether socio-technical systems progressively liberate human cognition from compensatory data operations into genuine information creation.\n\nThe paper defines an Ideal Operational Intelligence Environment as a theoretical benchmark in which data is captured once, transformed through the best available technology of its period, governed transparently, and embedded in a perfectly understood lean operational flow. Under this ideal condition, humans remain necessary only where they create information that cannot be mechanically inferred, generated or transformed by the best available socio-technical capabilities of the time.\n\nHuman Intelligence Contribution Target (HICT) is defined as the ideal ratio of operators whose role maximises genuine human contribution — that is, the proportion of human operators who would still be required to create genuine information under the ideal state. Human Intelligence Contribution Ratio (HICR) measures the actual proportion of human operators currently performing a role that adds information that cannot be obtained by non-human means — as opposed to operators performing roles that a machine could do at least as well. The difference between the two is Human Intelligence Debt (HID) : the proportion of human operators currently employed in mechanisable roles that the best available architecture of the period could theoretically absorb.\n\nThe paper argues that technological progress tends to increase the Human Intelligence Contribution Target, but field observation suggests that the Human Intelligence Contribution Ratio may often stagnate or decline as organisations accumulate fragmentation, duplicated systems, manual reconciliation, governance friction and human middleware. This produces a structural paradox: technology raises the theoretical ceiling of informational efficiency while organisations may simultaneously increase their real Human Intelligence Debt. The final sections discuss whether Artificial Intelligence may reverse this historical tendency or amplify it, and propose an empirical research agenda.\nEtiquetas: Capacidad humana y deuda de inteligencia 75.00%; Empresa y gestión 12.50%; Evidencia, procedencia y atribución 12.50%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/human-intelligence-debt-t874/\nDocumento de origen: https://tegrity.ai/human-intelligence-debt/\n\nHuman Intelligence Debt → Human Intelligence Debt (HID) · documenta el concepto. \n\n## Human Intelligence Debt (HID)\nRemediable gaps can require recurring human work to sustain an operation.\nEtiquetas: Aprendizaje y transmisión de capacidades 1.80%; Capacidad humana y deuda de inteligencia 48.14%; Decisiones y responsabilidad 1.80%; Investigación y documentación técnica 4.76%; Economía, costes y liquidez 4.51%; Empresa y gestión 5.97%; Evidencia, procedencia y atribución 18.25%; Experimentación, falsación y contraejemplos 10.17%; Memoria, comunidad y territorio 2.70%; Transformación y continuidad operativa 1.90%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/human-intelligence-debt/\n\nHuman Intelligence Debt → Unidad de medida de HID · documenta el concepto. \n\n## Unidad de medida de HID\nDeclare the object, population and denominator of the measurement.\nEtiquetas: Aprendizaje y transmisión de capacidades 4.98%; Autoridad, permisos y delegación 0.79%; Capacidad humana y deuda de inteligencia 49.41%; Control mínimo y suficiencia 3.17%; Decisiones y responsabilidad 8.15%; Investigación y documentación técnica 3.97%; Economía, costes y liquidez 5.30%; Empresa y gestión 6.76%; Evidencia, procedencia y atribución 7.77%; Experimentación, falsación y contraejemplos 5.41%; Memoria, comunidad y territorio 4.29%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/human-intelligence-debt-measurement-unit/\n\nHuman Intelligence Debt → Trabajo compensatorio evitable (ACW) · documenta el concepto. \n\n## Trabajo compensatorio evitable (ACW)\nPeople move, repair or reconcile information to compensate for a remediable gap.\nEtiquetas: Aprendizaje y transmisión de capacidades 2.51%; Autoridad, permisos y delegación 2.07%; Capacidad humana y deuda de inteligencia 30.14%; Cartografía y señales de ecosistema 1.01%; Casos de uso y aplicaciones 1.39%; Control mínimo y suficiencia 1.78%; Decisiones y responsabilidad 5.97%; Investigación y documentación técnica 4.37%; Economía, costes y liquidez 6.55%; Empresa y gestión 13.82%; Estándares e interoperabilidad 2.22%; Evidencia, procedencia y atribución 9.81%; Experimentación, falsación y contraejemplos 11.06%; Memoria, comunidad y territorio 0.90%; Cambio de perspectiva 1.85%; Transformación y continuidad operativa 4.55%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/avoidable-compensatory-work/\n\nHuman Intelligence Debt → Contrafactual de carga humana · documenta el concepto. \n\n## Contrafactual de carga humana\nCompare compensatory human work with a technically admissible alternative.\nEtiquetas: Aprendizaje y transmisión de capacidades 3.53%; Autoridad, permisos y delegación 1.22%; Capacidad humana y deuda de inteligencia 16.72%; Cartografía y señales de ecosistema 0.83%; Casos de uso y aplicaciones 1.95%; Control mínimo y suficiencia 3.76%; Decisiones y responsabilidad 5.99%; Investigación y documentación técnica 6.60%; Economía, costes y liquidez 8.86%; Empresa y gestión 21.53%; Evidencia, procedencia y atribución 9.84%; Experimentación, falsación y contraejemplos 5.78%; Memoria, comunidad y territorio 1.39%; Transformación y continuidad operativa 12.00%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/human-workload-counterfactual/\n\nHuman Intelligence Debt → Measuring Human Intelligence Debt · documented use. The task-level protocol operationalizes the earlier role-based framework; its time ratios should not be compared with operator ratios without an explicit conversion model.\n\n## Measuring Human Intelligence Debt\nThis document moves the series from concept to measurement. It extends Human Intelligence Debt (Paper 1), The Harvester Multiplication Problem (Paper 2), The Human Intelligence Debt Dilemma (Paper 3) and Architectural Entropy (Paper 4). Where the prior papers defined the phenomenon, its mechanism, its incentive structure and its irreversibility, this one proposes how to verify it. It is a methods proposal and preregistered experimental programme : it specifies constructs, instruments, metrics and study designs, and it states in advance the conditions under which the framework would be wrong. It does not report an empirical Human Intelligence Debt (HID) value; no such value should be published before the instrument-validation gate (Study 0) is passed. Public figures cited below are drawn from third-party sources as of early 2026, are flagged as vendor benchmarks where applicable, and are intended to establish environment and direction, not to prove the debt.\n\nA Three-Layer Measurement Architecture, an Instrument-Validation Gate and Five Studies for Verifying the Debt, the Recovery Coefficient ρ, and the Oversight Threshold\n\nThis paper builds on four field notes in the series. Where they defined the phenomenon, this one proposes how to verify it; readers new to the framework are encouraged to read them first.\nEtiquetas: Aprendizaje y transmisión de capacidades 5.41%; Capacidad humana y deuda de inteligencia 35.13%; Decisiones y responsabilidad 5.41%; Economía, costes y liquidez 13.51%; Empresa y gestión 5.40%; Evidencia, procedencia y atribución 10.81%; Experimentación, falsación y contraejemplos 16.22%; Memoria, comunidad y territorio 8.11%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/measuring-human-intelligence-debt-t1400/\nDocumento de origen: https://tegrity.ai/meassuring-human-intelligence-debt/\n\nAnnex 01K — Human Capacity / Human Intelligence Debt → Human Intelligence Debt · desarrolla una aplicación arquitectónica. El concepto de deuda explica el trabajo compensatorio. El anexo lo conecta con una vía de escalada con restricciones de competencia y tiempo.\nFuente de la relación: https://github.com/dakleyer/structural-awareness-contributions/blob/11fbac15d6f2b790d459ab507633b2293e302709/research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md\n\n## Annex 01K — Human Capacity / Human Intelligence Debt\nLa capacidad humana en tiempo de decisión pregunta si una persona autorizada puede intervenir a tiempo con información suficiente. La deuda de inteligencia humana pregunta cuánto juicio consume una arquitectura al trasladar a personas trabajo compensatorio. Las dos preguntas necesitan observaciones y unidades diferentes.\nEtiquetas: Aprendizaje y transmisión de capacidades 9.52%; Autoridad, permisos y delegación 2.38%; Capacidad humana y deuda de inteligencia 38.10%; Control mínimo y suficiencia 9.52%; Decisiones y responsabilidad 19.05%; Investigación y documentación técnica 11.91%; Economía, costes y liquidez 2.38%; Empresa y gestión 2.38%; Memoria, comunidad y territorio 4.76%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/GH037.html\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md\n\n"
+  "reading": "# Positioning · Human Intelligence Debt\nSource document: https://tegrity.ai/human-intelligence-debt\n\n## Human Intelligence Debt\nThis paper introduces the concepts of Human Intelligence Contribution Ratio and Human Intelligence Debt as socio-technical metrics for studying the relationship between technology, organisations and human cognitive work. The central question is not whether technology can automate jobs, but whether socio-technical systems progressively liberate human cognition from compensatory data operations into genuine information creation.\n\nThe paper defines an Ideal Operational Intelligence Environment as a theoretical benchmark in which data is captured once, transformed through the best available technology of its period, governed transparently, and embedded in a perfectly understood lean operational flow. Under this ideal condition, humans remain necessary only where they create information that cannot be mechanically inferred, generated or transformed by the best available socio-technical capabilities of the time.\n\nHuman Intelligence Contribution Target (HICT) is defined as the ideal ratio of operators whose role maximises genuine human contribution — that is, the proportion of human operators who would still be required to create genuine information under the ideal state. Human Intelligence Contribution Ratio (HICR) measures the actual proportion of human operators currently performing a role that adds information that cannot be obtained by non-human means — as opposed to operators performing roles that a machine could do at least as well. The difference between the two is Human Intelligence Debt (HID) : the proportion of human operators currently employed in mechanisable roles that the best available architecture of the period could theoretically absorb.\n\nThe paper argues that technological progress tends to increase the Human Intelligence Contribution Target, but field observation suggests that the Human Intelligence Contribution Ratio may often stagnate or decline as organisations accumulate fragmentation, duplicated systems, manual reconciliation, governance friction and human middleware. This produces a structural paradox: technology raises the theoretical ceiling of informational efficiency while organisations may simultaneously increase their real Human Intelligence Debt. The final sections discuss whether Artificial Intelligence may reverse this historical tendency or amplify it, and propose an empirical research agenda.\nTags: Human capability and intelligence debt 75.00%; Business and management 12.50%; Evidence, provenance and attribution 12.50%\nCard: https://dakleyer.github.io/perspective-beyond/sources/human-intelligence-debt-t874/\nSource document: https://tegrity.ai/human-intelligence-debt/\n\nHuman Intelligence Debt → Human Intelligence Debt (HID) · documenta el concepto. \n\n## Human Intelligence Debt (HID)\nRemediable gaps can require recurring human work to sustain an operation.\nTags: Learning and capability transmission 1.80%; Human capability and intelligence debt 48.14%; Decisions and responsibility 1.80%; Research and technical documentation 4.76%; Economics, costs and liquidity 4.51%; Business and management 5.97%; Evidence, provenance and attribution 18.25%; Experimentation, falsification and counterexamples 10.17%; Memory, community and territory 2.70%; Transformation and operational continuity 1.90%\nCard: https://dakleyer.github.io/perspective-beyond/concepts/human-intelligence-debt/\n\nHuman Intelligence Debt → Unidad de medida de HID · documenta el concepto. \n\n## Unidad de medida de HID\nDeclare the object, population and denominator of the measurement.\nTags: Learning and capability transmission 4.98%; Authority, permissions and delegation 0.79%; Human capability and intelligence debt 49.41%; Minimum control and sufficiency 3.17%; Decisions and responsibility 8.15%; Research and technical documentation 3.97%; Economics, costs and liquidity 5.30%; Business and management 6.76%; Evidence, provenance and attribution 7.77%; Experimentation, falsification and counterexamples 5.41%; Memory, community and territory 4.29%\nCard: https://dakleyer.github.io/perspective-beyond/concepts/human-intelligence-debt-measurement-unit/\n\nHuman Intelligence Debt → Trabajo compensatorio evitable (ACW) · documenta el concepto. \n\n## Trabajo compensatorio evitable (ACW)\nPeople move, repair or reconcile information to compensate for a remediable gap.\nTags: Learning and capability transmission 2.51%; Authority, permissions and delegation 2.07%; Human capability and intelligence debt 30.14%; Cartography and ecosystem signals 1.01%; Use cases and applications 1.39%; Minimum control and sufficiency 1.78%; Decisions and responsibility 5.97%; Research and technical documentation 4.37%; Economics, costs and liquidity 6.55%; Business and management 13.82%; Standards and interoperability 2.22%; Evidence, provenance and attribution 9.81%; Experimentation, falsification and counterexamples 11.06%; Memory, community and territory 0.90%; Change of perspective 1.85%; Transformation and operational continuity 4.55%\nCard: https://dakleyer.github.io/perspective-beyond/concepts/avoidable-compensatory-work/\n\nHuman Intelligence Debt → Contrafactual de carga humana · documenta el concepto. \n\n## Contrafactual de carga humana\nCompare compensatory human work with a technically admissible alternative.\nTags: Learning and capability transmission 3.53%; Authority, permissions and delegation 1.22%; Human capability and intelligence debt 16.72%; Cartography and ecosystem signals 0.83%; Use cases and applications 1.95%; Minimum control and sufficiency 3.76%; Decisions and responsibility 5.99%; Research and technical documentation 6.60%; Economics, costs and liquidity 8.86%; Business and management 21.53%; Evidence, provenance and attribution 9.84%; Experimentation, falsification and counterexamples 5.78%; Memory, community and territory 1.39%; Transformation and operational continuity 12.00%\nCard: https://dakleyer.github.io/perspective-beyond/concepts/human-workload-counterfactual/\n\nHuman Intelligence Debt → Measuring Human Intelligence Debt · documented use. The task-level protocol operationalizes the earlier role-based framework; its time ratios should not be compared with operator ratios without an explicit conversion model.\n\n## Measuring Human Intelligence Debt\nThis document moves the series from concept to measurement. It extends Human Intelligence Debt (Paper 1), The Harvester Multiplication Problem (Paper 2), The Human Intelligence Debt Dilemma (Paper 3) and Architectural Entropy (Paper 4). Where the prior papers defined the phenomenon, its mechanism, its incentive structure and its irreversibility, this one proposes how to verify it. It is a methods proposal and preregistered experimental programme : it specifies constructs, instruments, metrics and study designs, and it states in advance the conditions under which the framework would be wrong. It does not report an empirical Human Intelligence Debt (HID) value; no such value should be published before the instrument-validation gate (Study 0) is passed. Public figures cited below are drawn from third-party sources as of early 2026, are flagged as vendor benchmarks where applicable, and are intended to establish environment and direction, not to prove the debt.\n\nA Three-Layer Measurement Architecture, an Instrument-Validation Gate and Five Studies for Verifying the Debt, the Recovery Coefficient ρ, and the Oversight Threshold\n\nThis paper builds on four field notes in the series. Where they defined the phenomenon, this one proposes how to verify it; readers new to the framework are encouraged to read them first.\nTags: Learning and capability transmission 5.41%; Human capability and intelligence debt 35.13%; Decisions and responsibility 5.41%; Economics, costs and liquidity 13.51%; Business and management 5.40%; Evidence, provenance and attribution 10.81%; Experimentation, falsification and counterexamples 16.22%; Memory, community and territory 8.11%\nCard: https://dakleyer.github.io/perspective-beyond/sources/measuring-human-intelligence-debt-t1400/\nSource document: https://tegrity.ai/meassuring-human-intelligence-debt/\n\nAnnex 01K — Human Capacity / Human Intelligence Debt → Human Intelligence Debt · desarrolla una aplicación arquitectónica. El concepto de deuda explica el trabajo compensatorio. El anexo lo conecta con una vía de escalada con restricciones de competencia y tiempo.\nRelationship source: https://github.com/dakleyer/structural-awareness-contributions/blob/11fbac15d6f2b790d459ab507633b2293e302709/research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md\n\n## Annex 01K — Human Capacity / Human Intelligence Debt\nLa capacidad humana en tiempo de decisión pregunta si una persona autorizada puede intervenir a tiempo con información suficiente. La deuda de inteligencia humana pregunta cuánto juicio consume una arquitectura al trasladar a personas trabajo compensatorio. Las dos preguntas necesitan observaciones y unidades diferentes.\nTags: Learning and capability transmission 9.52%; Authority, permissions and delegation 2.38%; Human capability and intelligence debt 38.10%; Minimum control and sufficiency 9.52%; Decisions and responsibility 19.05%; Research and technical documentation 11.91%; Economics, costs and liquidity 2.38%; Business and management 2.38%; Memory, community and territory 4.76%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/GH037.html\nSource document: https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md\n\n"
 }

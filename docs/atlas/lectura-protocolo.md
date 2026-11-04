@@ -1,11 +1,11 @@
-# Lectura pública completa del Atlas
+# Complete public reading of the Atlas
 
-La entrada web es https://integralmanagement.ch/atlas-reader/ . Incluye la guía del asistente, los índices, el texto de cada ficha y concepto, sus relaciones en ambos sentidos, las fuentes y las perspectivas por etiquetas. El visitante puede dar esa única URL a su asistente. La configuración de la URL se conserva en la propia guía.
+The web entry is https://integralmanagement.ch/atlas-reader/ . It includes the assistant guide, indexes, the text of every card and concept, their relationships in both directions, sources and perspectives by tag. The visitor can give that single URL to their assistant. The URL configuration is retained in the guide itself.
 
-El HTML se sirve completo: el lector recibe contenido y enlaces antes de ejecutar JavaScript. Cada ficha también publica lectura.txt y registro.json. El inventario relaciona cada identificador con sus URLs de HTML, texto y datos. sitemap.xml permite descubrir las páginas; el llms.txt de la raíz publica la entrada de lectura. La proyección utiliza los registros del grafo sin crear o eliminar fichas ni relaciones.
+The HTML is served in full: the reader receives content and links before executing JavaScript. Each card also publishes lectura.txt and registro.json. The inventory associates each identifier with its HTML, text and data URLs. sitemap.xml allows the pages to be discovered; the root llms.txt publishes the reading entry. The projection uses the graph records without creating or deleting cards or relationships.
 
-Generar: `python scripts/build_atlas_public_reader.py`. Comprobar vigencia: `python scripts/build_atlas_public_reader.py --check`. Comprobar enlaces: `python scripts/check_atlas_public_reader.py`.
+Generate: `python scripts/build_atlas_public_reader.py`. Check currency: `python scripts/build_atlas_public_reader.py --check`. Check links: `python scripts/check_atlas_public_reader.py`.
 
-El repositorio conserva el grafo y las versiones. La entrega HTML es una proyección del mismo contenido para personas y asistentes. Las interfaces visuales existentes mantienen su función y diseño; esta ruta añade lectura pública y descubrimiento del corpus completo.
+The repository retains the graph and versions. The HTML delivery is a projection of the same content for people and assistants. Existing visual interfaces retain their function and design; this route adds public reading and discovery of the complete corpus.
 
-El lector del dominio institucional sirve las páginas en su propio dominio y conserva una copia de cada recurso público con verificación SHA-256. La fuente corresponde a un commit concreto del repositorio. El visitante y su asistente recorren las fichas y relaciones sin acceder al repositorio. Cada respuesta pública enlaza la guía mediante Link: describedby. Los registros de fichas y el grafo conservan sus campos originales.
+The institutional-domain reader serves the pages on its own domain and retains a copy of every public resource with SHA-256 verification. The source corresponds to a specific repository commit. The visitor and their assistant explore the cards and relationships without accessing the repository. Every public response links the guide through Link: describedby. Card records and the graph retain their original fields.

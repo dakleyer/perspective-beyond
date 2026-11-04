@@ -1,27 +1,27 @@
-# El Atlas como complemento de navegación web
+# The Atlas as a web navigation companion
 
-En esta fase, el Atlas complementa la navegación y la comprensión de las webs. Cada página es un punto de entrada a sus fichas, conceptos, casos y fuentes; conserva la URL de origen y permite profundizar, relacionar ideas y volver al texto original. La prueba compara estos recorridos dirigidos con la navegación web convencional mediante tokens consumidos, pertinencia de las fuentes y comprensión del corpus.
+At this stage, the Atlas complements navigation and understanding of the websites. Each page is an entry point to its cards, concepts, cases and sources; it retains the source URL and allows readers to go deeper, relate ideas and return to the original text. The test compares these directed reading paths with conventional web navigation through tokens consumed, source relevance and corpus understanding.
 
-## Un mismo contenido, varias formas de entrar
+## The same content, several ways in
 
-Los mapas de artículo, notas metodológicas, notas de campo y artículos relacionados conservan sus componentes y sus contenidos. La entrada contextual añade un recorrido desde la página que se está leyendo. El catálogo, las fichas, conceptos, relaciones y asociaciones existentes mantienen sus identificadores y contenidos.
+Article maps, methodological notes, field notes and related articles retain their components and content. The contextual entry adds a reading path from the page being read. The catalogue, cards, concepts, relationships and existing associations retain their identifiers and content.
 
-El registro de páginas enlaza URL pública, título, clúster y fichas ya registradas. Una página nueva puede entrar por su propia URL y contexto, mientras se prepara su correspondencia editorial. Así cada página preparada tiene una entrada sin inventar fichas ni sustituir mapas anteriores.
+The page registry links the public URL, title, cluster and cards already registered. A new page can enter through its own URL and context while its editorial correspondence is prepared. Each prepared page thus has an entry without inventing cards or replacing earlier maps.
 
-## Contexto de la entrada
+## Entry context
 
-- `page` (o `desde` en el lector WordPress): URL pública de la página original, sin datos de previsualización.
-- `posicionamiento`: identificador existente o documento de origen.
-- `fichas`: identificadores ya vinculados con esa página.
-- `cluster`: perspectiva inicial; Mobility conserva su contexto dentro de JubAp.eu.
-- Alcance, etiquetas, pesos, rol y propósito: se conservan cuando ya han sido elegidos.
+- `page` (or `desde` in the WordPress reader): public URL of the original page, without preview data.
+- `posicionamiento`: existing identifier or source document.
+- `fichas`: identifiers already linked to that page.
+- `cluster`: initial perspective; Mobility retains its context within JubAp.eu.
+- Scope, tags, weights, role and purpose: retained when already selected.
 
-El asistente empieza por la intención del visitante, selecciona las lecturas pertinentes y explica cómo se relacionan. El enlace al original acompaña el recorrido. La lectura completa de un argumento o la comprobación de una cita se hace en su fuente.
+The assistant starts with the visitor's intention, selects relevant readings and explains how they relate. The link to the original accompanies the reading path. A complete argument or a quotation is read or checked at its source.
 
-## Prueba de navegación y comprensión
+## Navigation and understanding test
 
-Compara la misma pregunta y las mismas obligaciones de respuesta en dos recorridos: navegación web convencional y navegación asistida por el Atlas. Registra tokens de transporte, tokens de lectura seleccionada, tokens de sesión, fuentes recuperadas, pertinencia de los vecinos y comprensión del argumento. Conserva la página inicial y el presupuesto para comparar recorridos equivalentes.
+Compare the same question and answer requirements in two paths: conventional web navigation and Atlas-assisted navigation. Record transport tokens, selected-reading tokens, session tokens, retrieved sources, neighbour relevance and argument understanding. Retain the initial page and budget to compare equivalent paths.
 
-La hipótesis de trabajo es que una selección de fichas y relaciones permite comprender y explorar corpus largos con menos lectura dispersa. Los resultados de cada prueba se registran con su configuración y sus fuentes.
+The working hypothesis is that a selection of cards and relationships enables long corpora to be understood and explored with less scattered reading. Each test's results are recorded with its configuration and sources.
 
-[Entrada de lectura](https://tegrity.ai/atlas-reader/) · [Registro de páginas](https://tegrity.ai/wp-content/uploads/2026/11/atlas-web-registry-a93affec7592.txt) · [Instrucciones para asistentes](https://tegrity.ai/wp-content/uploads/2026/11/atlas-web-entry-2884295fa843.txt)
+[Reader entry](https://tegrity.ai/atlas-reader/) · [Page registry](https://tegrity.ai/wp-content/uploads/2026/11/atlas-web-registry-a93affec7592.txt) · [Assistant instructions](https://tegrity.ai/wp-content/uploads/2026/11/atlas-web-entry-2884295fa843.txt)

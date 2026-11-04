@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Misión, cooperación y frutos indirectos",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-mission",
-  "documentId": null,
   "sourceIds": [
     "D-160",
     "D-161",
@@ -21,9 +20,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Misión, cooperación y frutos indirectos\nDistinguir intención, tarea inmediata, efectos indirectos y libertad de cooperación a distintas escalas.\nEtiquetas: Aprendizaje y transmisión de capacidades 8.33%; Decisiones y responsabilidad 25.00%; Estándares e interoperabilidad 16.67%; Geopolítica y fronteras 25.00%; Memoria, comunidad y territorio 10.72%; Transformación y continuidad operativa 14.28%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-mission\n\n",
-  "readingSource": null,
-  "tokens": 122,
+  "context": "## Misión, cooperación y frutos indirectos\nDistinguir intención, tarea inmediata, efectos indirectos y libertad de cooperación a distintas escalas.\nTags: Learning and capability transmission 8.33%; Decisions and responsibility 25.00%; Standards and interoperability 16.67%; Geopolitics and borders 25.00%; Memory, community and territory 10.72%; Transformation and operational continuity 14.28%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-mission\n\n",
+  "tokens": 111,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -31,10 +29,11 @@
       "to": "D-160",
       "title": "La fecundidad de una misión puede aparecer lejos de su resultado inmediato",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 30,
-      "fichaTokens": 363,
+      "fichaTokens": 355,
       "tagWeights": {
         "aprendizaje": 0.3333,
         "estandares": 0.6667
@@ -50,12 +49,13 @@
       "to": "D-161",
       "title": "De la interdependencia padecida a una cooperación elegida",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 327,
+      "fichaTokens": 324,
       "tagWeights": {
-        "decision": 1.0
+        "decision": 1
       },
       "clusters": [
         "dialogos"
@@ -68,12 +68,13 @@
       "to": "D-210",
       "title": "La autenticidad quema; la hipocresía conserva",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 413,
+      "fichaTokens": 411,
       "tagWeights": {
-        "geopolitica": 1.0
+        "geopolitica": 1
       },
       "clusters": [
         "dialogos"
@@ -86,10 +87,11 @@
       "to": "D-273",
       "title": "Varias vidas profesionales pueden sostener un mismo propósito",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 415,
+      "fichaTokens": 410,
       "tagWeights": {
         "memoria-territorio": 0.4286,
         "transformacion": 0.5714
@@ -105,10 +107,11 @@
       "to": "dg-community",
       "title": "Comunidades y territorio",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "puede fructificar a través de",
       "reading": "Consecuencias nacen de otros actores y tiempos.",
       "relationTokens": 32,
-      "fichaTokens": 187,
+      "fichaTokens": 171,
       "tagWeights": {
         "aprendizaje": 0.0473,
         "autoridad": 0.0323,
@@ -135,10 +138,11 @@
       "to": "dg-account",
       "title": "Responsabilidad y reparación",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "necesita distinguirse de",
       "reading": "Un efecto posterior no prueba intención o mérito exclusivo.",
       "relationTokens": 29,
-      "fichaTokens": 122,
+      "fichaTokens": 112,
       "tagWeights": {
         "aprendizaje": 0.0834,
         "autoridad": 0.2098,
@@ -159,10 +163,11 @@
       "to": "dg-commitment",
       "title": "Garantías, deudas y compromisos",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "interroga",
       "reading": "Cooperar libremente requiere poder elegir obligaciones.",
       "relationTokens": 30,
-      "fichaTokens": 131,
+      "fichaTokens": 122,
       "tagWeights": {
         "aprendizaje": 0.1786,
         "compromisos": 0.05,
@@ -183,10 +188,11 @@
       "to": "dg-inner",
       "title": "Atención y sentido",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "dialoga con",
       "reading": "La finalidad de una acción contiene una dimensión humana.",
       "relationTokens": 27,
-      "fichaTokens": 191,
+      "fichaTokens": 172,
       "tagWeights": {
         "aprendizaje": 0.4331,
         "autoridad": 0.0368,
@@ -214,10 +220,11 @@
       "to": "dg-imperial_contradiction",
       "title": "Poder, innovación y agotamiento de sentido",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "contrapone autenticidad y conservación",
       "reading": "Sostener un propósito exige aceptar sus costes y contradicciones.",
       "relationTokens": 39,
-      "fichaTokens": 117,
+      "fichaTokens": 111,
       "tagWeights": {
         "autoridad": 0.25,
         "economia": 0.0834,
@@ -235,10 +242,11 @@
       "to": "dg-federated_custody",
       "title": "Custodias distribuidas y memoria viva",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación de ampliación v0.9",
       "reading": "La colaboración tiene que servir a fines concretos.",
       "relationTokens": 37,
-      "fichaTokens": 128,
+      "fichaTokens": 120,
       "tagWeights": {
         "autoridad": 0.1487,
         "capacidad-humana": 0.0711,
@@ -258,10 +266,11 @@
       "to": "dg-fulfillment_boundary",
       "title": "Maximizar frente a cumplir un propósito",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación de ampliación v0.11",
       "reading": "Reconocer la finalidad real.",
       "relationTokens": 33,
-      "fichaTokens": 88,
+      "fichaTokens": 82,
       "tagWeights": {
         "aprendizaje": 0.3334,
         "decision": 0.3333,

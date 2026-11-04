@@ -1,56 +1,56 @@
-# Instancias de Perspective Beyond
+# Perspective Beyond instances
 
-[Ver las entradas y sus QR](https://dakleyer.github.io/perspective-beyond/atlas/i/) · [Registro de instancias](https://dakleyer.github.io/perspective-beyond/atlas/i/instancias.json) · [Atlas central](https://dakleyer.github.io/perspective-beyond/atlas/)
+[View entries and their QR codes](https://dakleyer.github.io/perspective-beyond/atlas/i/) · [Instance register](https://dakleyer.github.io/perspective-beyond/atlas/i/instancias.json) · [Central Atlas](https://dakleyer.github.io/perspective-beyond/atlas/)
 
-Una instancia es una configuración inicial del Atlas. Define la versión, el clúster, el alcance, el rol, el propósito, las etiquetas y sus pesos. Puede señalar una ficha de partida. El catálogo, las fuentes y las relaciones se consultan en el Atlas central.
+An instance is an initial Atlas configuration. It defines the version, cluster, scope, role, purpose, tags and their weights. It may specify a starting card. The catalogue, sources and relationships are consulted in the central Atlas.
 
-## Qué enlace colocar en cada web
+## Which link to place on each website
 
-- Usa la URL de una instancia versionada si quieres ofrecer una selección lista para abrir. La página incluye un QR, el texto para el asistente y el enlace para ajustar la sesión en el Atlas.
-- Usa el enlace de texto de la instancia cuando quieras compartir una sola URL directamente con un asistente. La selección está escrita en el archivo. Para lectores web se ofrece el mismo texto en GitHub Raw.
-- Usa un enlace con `desde=ID` si una página propone su propia ficha de partida. El ID tiene que pertenecer al alcance y cumplir el filtro temático de la sesión. La ficha orienta la lectura cuando es pertinente a la pregunta.
+- Use the URL of a versioned instance to offer a selection ready to open. The page includes a QR code, the text for the assistant and a link to adjust the session in the Atlas.
+- Use the instance's text link to share a single URL directly with an assistant. The selection is written into the file. The same text is offered on GitHub Raw for web readers.
+- Use a link with `desde=ID` when a page proposes its own starting card. The ID must belong to the scope and meet the session's thematic filter. The card guides the reading when it is relevant to the question.
 
-Ejemplo de un enlace y un QR para una página de Integral Management.
+Example of a link and QR code for an Integral Management page.
 
 ```html
 <a href="https://dakleyer.github.io/perspective-beyond/atlas/i/imsv/v1/">
-  Conecta tu asistente a Nueva Perspectiva
+  Connect your assistant to Nueva Perspectiva
 </a>
 <a href="https://dakleyer.github.io/perspective-beyond/atlas/i/imsv/v1/">
   <img src="https://dakleyer.github.io/perspective-beyond/atlas/i/imsv/v1/qr.png"
        width="144" height="144" loading="lazy"
-       alt="Código QR para conectar tu asistente a Nueva Perspectiva">
+       alt="QR code to connect your assistant to Nueva Perspectiva">
 </a>
 ```
 
-Ejemplo de una selección para una página concreta. `E1628` corresponde a *The JUBAP Framework*.
+Example of a selection for a specific page. `E1628` corresponds to *The JUBAP Framework*.
 
-[Abrir la configuración de esa ficha](https://dakleyer.github.io/perspective-beyond/atlas/?site=eu&modo=closed&config=1&rol=consultor&lectura=ideas&enfoque=personalizado&peso=tema%3Aperspectiva%3A60&peso=tema%3Adecision%3A40&desde=E1628#asistente)
+[Open that card's configuration](https://dakleyer.github.io/perspective-beyond/atlas/?site=eu&modo=closed&config=1&rol=consultor&lectura=ideas&enfoque=personalizado&peso=tema%3Aperspectiva%3A60&peso=tema%3Adecision%3A40&desde=E1628#asistente)
 
-## Versionar y generar
+## Version and generate
 
-Edita [definiciones.json](definiciones.json) para dar de alta otra instancia o versión. Un cambio de configuración de una instancia publicada se añade como una versión nueva. Las webs pueden adoptar la nueva URL a su ritmo. Un QR anterior sigue apuntando a su versión.
+Edit [definiciones.json](definiciones.json) to register another instance or version. A configuration change to a published instance is added as a new version. Websites can adopt the new URL at their own pace. An earlier QR code continues to point to its version.
 
-Desde la raíz del repositorio, con Python 3.10 o posterior.
+From the repository root, with Python 3.10 or later.
 
 ```sh
 python -m pip install "qrcode[pil]==8.2"
 python docs/atlas/i/build_instances.py
 ```
 
-El generador usa los catálogos públicos de la misma edición. Comprueba que la ficha y las etiquetas elegidas correspondan al alcance y que un puente poroso salga del clúster indicado. Produce `instancias.json`, una página por versión, su `entrada.txt` y su `qr.png`.
+The generator uses the public catalogues from the same edition. It checks that the selected card and tags match the scope and that a porous bridge leaves the specified cluster. It produces `instancias.json`, one page per version, its `entrada.txt` and its `qr.png`.
 
-Para crear un QR de una configuración particular, copia el enlace del selector del Atlas. Conserva el texto alternativo y un enlace normal junto al QR.
+To create a QR code for a particular configuration, copy the link from the Atlas selector. Retain the alternative text and a normal link next to the QR code.
 
 ```sh
 python docs/atlas/i/build_instances.py --qr "https://dakleyer.github.io/perspective-beyond/atlas/?site=eu&modo=closed&desde=E1628#asistente" --output-qr jubap-framework.png
 ```
 
-## Comprobaciones al publicar
+## Publication checks
 
-1. Decodifica el QR y comprueba que la URL incluya la versión esperada.
-2. Abre el texto en GitHub Raw. Comprueba clúster, alcance, rol, etiquetas y ficha de partida.
-3. Abre la configuración en el Atlas y copia la URL para el asistente. Comprueba que incluya los pesos y la ficha mientras esta sea elegible.
-4. Cambia a un clúster que deje fuera la ficha. La interfaz debe señalarlo y la URL copiada debe quedar sin `desde`.
+1. Decode the QR code and check that the URL includes the expected version.
+2. Open the text on GitHub Raw. Check the cluster, scope, role, tags and starting card.
+3. Open the configuration in the Atlas and copy the URL for the assistant. Check that it includes the weights and the card while that card remains eligible.
+4. Switch to a cluster that excludes the card. The interface must indicate this, and the copied URL must no longer contain `desde`.
 
-[Comprobación de las instancias](VALIDACION.md) · [Pruebas de conversación con asistentes](../perfiles/VALIDACION.md)
+[Instance checks](VALIDACION.md) · [Conversation tests with assistants](../perfiles/VALIDACION.md)

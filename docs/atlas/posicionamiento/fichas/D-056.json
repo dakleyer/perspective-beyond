@@ -12,9 +12,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Del límite matemático al cambio de contexto\nINTERLOCUTOR (pregunta editorial nueva) — También has intentado relacionar la derivabilidad, la dinámica de los fluidos y los cambios de contexto en sistemas discretos. ¿Qué lugar ocupa esa intuición?\nRECUPERACIÓN DE CONVERSACIÓN (síntesis editorial) — En un diálogo sobre Navier–Stokes y sistemas de información, Iván preguntó si una ruptura de suavidad podía ayudar a pensar discontinuidades, dependencia causal o pérdida de información en un sistema que evoluciona. La comparación entre fluidos, aprendizaje automático y organizaciones es una vía de exploración conceptual. No basta que dos fenómenos se parezcan para que exista un isomorfismo matemático, ni se deduce de ahí una solución a un problema abierto de física. Precisamente por eso interesa conservar la pregunta junto a sus límites: muestra cómo nace una hipótesis y qué trabajo riguroso le queda por delante.\nINTERLOCUTOR (pregunta editorial nueva) — ¿Cómo se convierte esa inquietud en una práctica de arquitectura y de investigación?\nLECTURA EDITORIAL — En la línea más reciente de Structural Awareness, Regime Awareness y Ecosystem Awareness, la cuestión cambia de escala sin abandonar el método: un control puede funcionar para aquello que observa y, aun así, no bastar para la decisión que una organización debe tomar. Los trabajos R01–R05 y los casos de prueba ensayan maneras de describir equivalencias condicionadas, observaciones suficientes, indeterminación y cambios de contexto. La línea de pensamiento va del infinito y los límites de representación a preguntas operativas: qué conocemos, qué hemos dejado fuera y qué decisión es legítimo sostener con esa información. Hay propuestas matemáticas, experimentos y resultados de distinta madurez; su valor para esta biografía está en hacer visible una búsqueda disciplinada, abierta incluso a resultados negativos.\nEtiquetas: Cambios de régimen y alerta temprana 45.45%; Matemáticas 54.55%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-056\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20(pregunta%20editorial%20nueva)%20%E2%80%94%20Tambi%C3%A9n%20has%20intentado%20relacionar%20la%20derivabilidad\n\n",
-  "readingSource": null,
-  "tokens": 510,
+  "context": "## Del límite matemático al cambio de contexto\nINTERLOCUTOR (pregunta editorial nueva) — También has intentado relacionar la derivabilidad, la dinámica de los fluidos y los cambios de contexto en sistemas discretos. ¿Qué lugar ocupa esa intuición?\nRECUPERACIÓN DE CONVERSACIÓN (síntesis editorial) — En un diálogo sobre Navier–Stokes y sistemas de información, Iván preguntó si una ruptura de suavidad podía ayudar a pensar discontinuidades, dependencia causal o pérdida de información en un sistema que evoluciona. La comparación entre fluidos, aprendizaje automático y organizaciones es una vía de exploración conceptual. No basta que dos fenómenos se parezcan para que exista un isomorfismo matemático, ni se deduce de ahí una solución a un problema abierto de física. Precisamente por eso interesa conservar la pregunta junto a sus límites: muestra cómo nace una hipótesis y qué trabajo riguroso le queda por delante.\nINTERLOCUTOR (pregunta editorial nueva) — ¿Cómo se convierte esa inquietud en una práctica de arquitectura y de investigación?\nLECTURA EDITORIAL — En la línea más reciente de Structural Awareness, Regime Awareness y Ecosystem Awareness, la cuestión cambia de escala sin abandonar el método: un control puede funcionar para aquello que observa y, aun así, no bastar para la decisión que una organización debe tomar. Los trabajos R01–R05 y los casos de prueba ensayan maneras de describir equivalencias condicionadas, observaciones suficientes, indeterminación y cambios de contexto. La línea de pensamiento va del infinito y los límites de representación a preguntas operativas: qué conocemos, qué hemos dejado fuera y qué decisión es legítimo sostener con esa información. Hay propuestas matemáticas, experimentos y resultados de distinta madurez; su valor para esta biografía está en hacer visible una búsqueda disciplinada, abierta incluso a resultados negativos.\nTags: Regime changes and early warning 45.45%; Mathematics 54.55%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-056\nSource document: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20(pregunta%20editorial%20nueva)%20%E2%80%94%20Tambi%C3%A9n%20has%20intentado%20relacionar%20la%20derivabilidad\n\n",
+  "tokens": 505,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "dg-observe",
       "title": "Mirar lo que falta",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 189,
+      "fichaTokens": 170,
       "tagWeights": {
         "aprendizaje": 0.0835,
         "cambio-regimen": 0.054,
@@ -52,10 +52,11 @@
       "to": "dg-math",
       "title": "Pensamiento matemático",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 20,
-      "fichaTokens": 177,
+      "fichaTokens": 159,
       "tagWeights": {
         "aprendizaje": 0.1144,
         "autoridad": 0.0109,
@@ -81,10 +82,11 @@
       "to": "dg-structure",
       "title": "Conciencia estructural",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 20,
-      "fichaTokens": 256,
+      "fichaTokens": 226,
       "tagWeights": {
         "aprendizaje": 0.158,
         "autoridad": 0.0636,
@@ -117,12 +119,13 @@
       "to": "D-054",
       "title": "Matemáticas: preguntar antes de elegir escuela",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura comparada",
       "reading": "La pregunta matemática por el límite puede orientar el examen de un cambio de contexto.",
       "relationTokens": 39,
-      "fichaTokens": 422,
+      "fichaTokens": 419,
       "tagWeights": {
-        "matematicas": 1.0
+        "matematicas": 1
       },
       "clusters": [
         "dialogos"
@@ -135,12 +138,13 @@
       "to": "D-059",
       "title": "La experiencia que nunca se escribió",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Mirar lo que falta».",
       "relationTokens": 31,
-      "fichaTokens": 368,
+      "fichaTokens": 364,
       "tagWeights": {
-        "capacidad-humana": 1.0
+        "capacidad-humana": 1
       },
       "clusters": [
         "dialogos"
@@ -153,10 +157,11 @@
       "to": "D-031",
       "title": "Auditorías, certificación y hábitos reales",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Conciencia estructural».",
       "relationTokens": 33,
-      "fichaTokens": 443,
+      "fichaTokens": 436,
       "tagWeights": {
         "aprendizaje": 0.3334,
         "empresa": 0.3333,
@@ -173,10 +178,11 @@
       "to": "D-060",
       "title": "Digitalizar sin borrar lo invisible",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Conciencia estructural».",
       "relationTokens": 30,
-      "fichaTokens": 461,
+      "fichaTokens": 457,
       "tagWeights": {
         "capacidad-humana": 0.3333,
         "empresa": 0.6667
@@ -192,10 +198,11 @@
       "to": "D-055",
       "title": "El infinito, la máquina y sus límites",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Pensamiento matemático».",
       "relationTokens": 32,
-      "fichaTokens": 541,
+      "fichaTokens": 535,
       "tagWeights": {
         "aprendizaje": 0.5,
         "matematicas": 0.5
@@ -211,10 +218,11 @@
       "to": "D-052",
       "title": "xSeil: mostrar alternativas, no una orden",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Pensamiento matemático».",
       "relationTokens": 34,
-      "fichaTokens": 546,
+      "fichaTokens": 539,
       "tagWeights": {
         "casos": 0.1429,
         "decision": 0.1429,
@@ -232,12 +240,13 @@
       "to": "D-218",
       "title": "La piedra que nunca entró al ordenador también fue tratada",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La piedra que nunca entró al ordenador también fue tratada» con «Del límite matemático al cambio de contexto». Permite contrastar Conciencia estructural.",
       "relationTokens": 65,
-      "fichaTokens": 416,
+      "fichaTokens": 412,
       "tagWeights": {
-        "integridad-ia": 1.0
+        "integridad-ia": 1
       },
       "clusters": [
         "dialogos"
@@ -250,10 +259,11 @@
       "to": "D-234",
       "title": "La victoria de ayer puede ser el martillo que te haga perder mañana",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La victoria de ayer puede ser el martillo que te haga perder mañana» con «Del límite matemático al cambio de contexto».",
       "relationTokens": 60,
-      "fichaTokens": 396,
+      "fichaTokens": 391,
       "tagWeights": {
         "integridad-ia": 0.5,
         "memoria-territorio": 0.5
@@ -269,12 +279,13 @@
       "to": "D-216",
       "title": "El instante que una cosa del mundo se convierte en dato",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Mirar lo que falta, Pensamiento matemático, Conciencia estructural desde las situaciones que describe cada texto.",
       "relationTokens": 55,
-      "fichaTokens": 425,
+      "fichaTokens": 422,
       "tagWeights": {
-        "matematicas": 1.0
+        "matematicas": 1
       },
       "clusters": [
         "dialogos"
@@ -287,10 +298,11 @@
       "to": "D-029",
       "title": "Once departamentos y una visión incompleta",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Mirar lo que falta, Conciencia estructural desde las situaciones que describe cada texto.",
       "relationTokens": 46,
-      "fichaTokens": 444,
+      "fichaTokens": 442,
       "tagWeights": {
         "empresa": 0.5,
         "perspectiva": 0.5

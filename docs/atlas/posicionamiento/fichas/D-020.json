@@ -14,9 +14,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## De la videoconferencia a GEPLAN\nINTERLOCUTOR — ¿Cómo pasaste de instalar videoconferencias a proponer el diseño de un sistema logístico?\nIVÁN —\nFue en ese contexto que la empresa concesionaria del transporte, TETSA, me contrató inicialmente para una tarea puntual: implementar un sistema de videoconferencias entre bases operativas. Pero al entregar ese producto, me animé a proponer algo más ambicioso al propietario: “Si TETSA tuviera un sistema logístico propio, capaz de adaptarse —o incluso predecir— la producción de cada pozo en tiempo real podría tener una ventaja competitiva única que le permitiría ganar contratos por muchos años”.\nArnoldo, un empresario sensato, aceptó el reto. Y con el tiempo no solo lo intentó: confió plenamente en mí. Analizamos y descartamos soluciones comerciales que no se adaptaban a la realidad del terreno, y optamos por desarrollar desde cero un prototipo funcional. Ese prototipo evolucionó hasta convertirse en el núcleo digital de toda la operación logística de PEMEX. Lo llamamos sencillamente GEPLAN: Sistema de GEstión y PLANificación.\nINTERLOCUTOR — Desmontemos el sistema por capas: ¿qué hacía GEPLAN y con qué tecnologías?\nIVÁN —\nGEPLAN tenía varias capas. Por un lado, era un sistema logístico que permitía planificar rutas en territorios sin mapas fiables, integrando tecnologías como Omnitracs para el rastreo satelital, y generando estimaciones de carga y tiempo por pozo y por trayecto. Pero además, funcionaba como una plataforma de comunicaciones, gestión de órdenes de trabajo y monitoreo de eventos en tiempo real: inicio de carga, descarga, trayecto, incidencias.. Estos módulos funcionaban sobre un proto- ERP que también debimos realizar, esto es, un sistema empresarial completo con funciones de almacén, compras, finanzas, recursos humanos y administración. También desarrollamos un sistema de mantenimiento (CMMS) para gestionar la flota de vehículos, anticipando fallos y planificando reparaciones.\nTodo esto se construyó inicialmente en Delphi, luego migrado parcialmente a .NET, y operaba sobre bases de datos como MySQL y PostgreSQL con los desafíos típicos de escalabilidad que podáis imaginar. Fue el primer software que diseñe y a la vez el más completo. Pero el mayor desafío no fue técnico. Fue humano.\nLos usuarios del sistema no tenían cultura digital previa. Así que diseñamos interfaces ultraintuitivas, con principios de usabilidad que yo había aprendido en Nokia pero con botones claros, enormes y en colores con estilo Apple - California. \nA eso se sumaba la diversidad operativa y cultural: múltiples departamentos, formas de trabajo y estructuras de poder que exigían una adaptación constante, como si cada área tuviera su propio idioma organizacional. La presión institucional y humana era altísima. Los resultados que arrojaba el sistema no eran cifras abstractas: definían pagos, bonos de centenares de trabajadores, y la viabilidad operativa de muchos contratistas. Cada número mal interpretado podía generar una crisis. La tensión diaria era máxima.\nEtiquetas: Aprendizaje y transmisión de capacidades 18.18%; Empresa y gestión 18.18%; Movilidad e infraestructura 45.46%; Transformación y continuidad operativa 18.18%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-020\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20%C2%BFC%C3%B3mo%20pasaste%20de%20instalar%20videoconferencias%20a%20proponer%20el%20dise%C3%B1o\n\n",
-  "readingSource": null,
-  "tokens": 802,
+  "context": "## De la videoconferencia a GEPLAN\nINTERLOCUTOR — ¿Cómo pasaste de instalar videoconferencias a proponer el diseño de un sistema logístico?\nIVÁN —\nFue en ese contexto que la empresa concesionaria del transporte, TETSA, me contrató inicialmente para una tarea puntual: implementar un sistema de videoconferencias entre bases operativas. Pero al entregar ese producto, me animé a proponer algo más ambicioso al propietario: “Si TETSA tuviera un sistema logístico propio, capaz de adaptarse —o incluso predecir— la producción de cada pozo en tiempo real podría tener una ventaja competitiva única que le permitiría ganar contratos por muchos años”.\nArnoldo, un empresario sensato, aceptó el reto. Y con el tiempo no solo lo intentó: confió plenamente en mí. Analizamos y descartamos soluciones comerciales que no se adaptaban a la realidad del terreno, y optamos por desarrollar desde cero un prototipo funcional. Ese prototipo evolucionó hasta convertirse en el núcleo digital de toda la operación logística de PEMEX. Lo llamamos sencillamente GEPLAN: Sistema de GEstión y PLANificación.\nINTERLOCUTOR — Desmontemos el sistema por capas: ¿qué hacía GEPLAN y con qué tecnologías?\nIVÁN —\nGEPLAN tenía varias capas. Por un lado, era un sistema logístico que permitía planificar rutas en territorios sin mapas fiables, integrando tecnologías como Omnitracs para el rastreo satelital, y generando estimaciones de carga y tiempo por pozo y por trayecto. Pero además, funcionaba como una plataforma de comunicaciones, gestión de órdenes de trabajo y monitoreo de eventos en tiempo real: inicio de carga, descarga, trayecto, incidencias.. Estos módulos funcionaban sobre un proto- ERP que también debimos realizar, esto es, un sistema empresarial completo con funciones de almacén, compras, finanzas, recursos humanos y administración. También desarrollamos un sistema de mantenimiento (CMMS) para gestionar la flota de vehículos, anticipando fallos y planificando reparaciones.\nTodo esto se construyó inicialmente en Delphi, luego migrado parcialmente a .NET, y operaba sobre bases de datos como MySQL y PostgreSQL con los desafíos típicos de escalabilidad que podáis imaginar. Fue el primer software que diseñe y a la vez el más completo. Pero el mayor desafío no fue técnico. Fue humano.\nLos usuarios del sistema no tenían cultura digital previa. Así que diseñamos interfaces ultraintuitivas, con principios de usabilidad que yo había aprendido en Nokia pero con botones claros, enormes y en colores con estilo Apple - California. \nA eso se sumaba la diversidad operativa y cultural: múltiples departamentos, formas de trabajo y estructuras de poder que exigían una adaptación constante, como si cada área tuviera su propio idioma organizacional. La presión institucional y humana era altísima. Los resultados que arrojaba el sistema no eran cifras abstractas: definían pagos, bonos de centenares de trabajadores, y la viabilidad operativa de muchos contratistas. Cada número mal interpretado podía generar una crisis. La tensión diaria era máxima.\nTags: Learning and capability transmission 18.18%; Business and management 18.18%; Mobility and infrastructure 45.46%; Transformation and operational continuity 18.18%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-020\nSource document: https://totonacapan.com/?page_id=413#:~:text=INTERLOCUTOR%20%E2%80%94%20%C2%BFC%C3%B3mo%20pasaste%20de%20instalar%20videoconferencias%20a%20proponer%20el%20dise%C3%B1o\n\n",
+  "tokens": 794,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -24,10 +23,11 @@
       "to": "dg-infra",
       "title": "Infraestructura habilitadora",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 170,
+      "fichaTokens": 152,
       "tagWeights": {
         "aprendizaje": 0.0675,
         "autoridad": 0.0125,
@@ -53,10 +53,11 @@
       "to": "dg-operations",
       "title": "Operación real",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 19,
-      "fichaTokens": 217,
+      "fichaTokens": 191,
       "tagWeights": {
         "aprendizaje": 0.059,
         "autoridad": 0.1375,
@@ -86,10 +87,11 @@
       "to": "dg-transform",
       "title": "Transformación organizativa",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 20,
-      "fichaTokens": 233,
+      "fichaTokens": 208,
       "tagWeights": {
         "aprendizaje": 0.2509,
         "autoridad": 0.0093,
@@ -121,10 +123,11 @@
       "to": "D-010",
       "title": "La responsabilidad que casi nadie ve",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Infraestructura habilitadora».",
       "relationTokens": 31,
-      "fichaTokens": 310,
+      "fichaTokens": 304,
       "tagWeights": {
         "capacidad-humana": 0.2222,
         "decision": 0.5556,
@@ -141,12 +144,13 @@
       "to": "D-028",
       "title": "Tres centros de control, una operación",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Infraestructura habilitadora».",
       "relationTokens": 32,
-      "fichaTokens": 430,
+      "fichaTokens": 427,
       "tagWeights": {
-        "movilidad": 1.0
+        "movilidad": 1
       },
       "clusters": [
         "dialogos"
@@ -159,10 +163,11 @@
       "to": "D-019",
       "title": "Chicontepec: entender antes de automatizar",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Operación real».",
       "relationTokens": 33,
-      "fichaTokens": 461,
+      "fichaTokens": 457,
       "tagWeights": {
         "empresa": 0.5,
         "transformacion": 0.5
@@ -178,10 +183,11 @@
       "to": "D-023",
       "title": "La operación aprende desde dentro",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Operación real».",
       "relationTokens": 28,
-      "fichaTokens": 513,
+      "fichaTokens": 508,
       "tagWeights": {
         "capacidad-humana": 0.3333,
         "economia": 0.6667
@@ -197,10 +203,11 @@
       "to": "D-015",
       "title": "Una experiencia que sobrevivió al fracaso",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Transformación organizativa».",
       "relationTokens": 31,
-      "fichaTokens": 594,
+      "fichaTokens": 587,
       "tagWeights": {
         "aprendizaje": 0.25,
         "empresa": 0.25,
@@ -218,10 +225,11 @@
       "to": "D-024",
       "title": "De software a transformación organizativa",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Transformación organizativa».",
       "relationTokens": 30,
-      "fichaTokens": 570,
+      "fichaTokens": 563,
       "tagWeights": {
         "aprendizaje": 0.3334,
         "empresa": 0.3333,
@@ -238,12 +246,13 @@
       "to": "D-007",
       "title": "Un centro de investigación que debía funcionar",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Infraestructura habilitadora, Operación real desde las situaciones que describe cada texto.",
       "relationTokens": 45,
-      "fichaTokens": 380,
+      "fichaTokens": 377,
       "tagWeights": {
-        "movilidad": 1.0
+        "movilidad": 1
       },
       "clusters": [
         "dialogos"
@@ -256,10 +265,11 @@
       "to": "D-149",
       "title": "La tecnología podía funcionar, pero la organización aún no quería cambiar",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Infraestructura habilitadora, Transformación organizativa desde las situaciones que describe cada texto.",
       "relationTokens": 51,
-      "fichaTokens": 343,
+      "fichaTokens": 335,
       "tagWeights": {
         "aprendizaje": 0.1429,
         "empresa": 0.4286,
@@ -278,10 +288,11 @@
       "to": "D-043",
       "title": "Transformar empresas mientras siguen operando",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Operación real, Transformación organizativa desde las situaciones que describe cada texto.",
       "relationTokens": 44,
-      "fichaTokens": 923,
+      "fichaTokens": 916,
       "tagWeights": {
         "aprendizaje": 0.1539,
         "empresa": 0.6923,

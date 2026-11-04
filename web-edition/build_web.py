@@ -80,23 +80,23 @@ html_paths=[]
 def page(path,title,body,lead=''):
     rel=path.strip('/')+'/index.html' if path!='/' else'index.html'
     canon=ORIGIN+path
-    text='<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+h(title)+' · Perspective Beyond</title><meta name="description" content="'+h(lead or 'Atlas de pensamiento: textos, conceptos, fuentes y relaciones navegables.')+'"><link rel="canonical" href="'+h(canon)+'"><link rel="stylesheet" href="/atlas-web.css"></head><body><main><header><p class="kicker">Perspective Beyond · Atlas completo en la web</p><h1>'+h(title)+'</h1>'+('<p class="lead">'+h(lead)+'</p>'if lead else'')+'<nav class="actions">'+a('/','Inicio')+a('/entrada/','Entrada para asistentes')+a('/fichas/','Fichas')+a('/conceptos/','Conceptos')+a('/relaciones/','Relaciones')+a('/clusters/','Clústeres')+a('/archivos/','Todos los archivos')+'</nav></header><section class="body">'+body+'</section><footer><p>'+a('/edicion/','Edición, integridad y procedencia')+' · '+a('/llms.txt','Guía en texto')+' · '+a('/perspective-beyond/atlas/','Atlas interactivo')+'</p><p class="meta">Repositorio canónico: '+a('https://github.com/dakleyer/perspective-beyond/tree/'+REVISION,'Perspective Beyond · '+REVISION[:7])+'. Esta edición permite recorrer los textos y relaciones desde páginas HTML, sin cuenta ni JavaScript.</p></footer></main></body></html>\n'
+    text='<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+h(title)+' · Perspective Beyond</title><meta name="description" content="'+h(lead or 'Thought Atlas: navigable texts, concepts, sources and relationships.')+'"><link rel="canonical" href="'+h(canon)+'"><link rel="stylesheet" href="/atlas-web.css"></head><body><main><header><p class="kicker">Perspective Beyond · Complete Atlas on the web</p><h1>'+h(title)+'</h1>'+('<p class="lead">'+h(lead)+'</p>'if lead else'')+'<nav class="actions">'+a('/','Home')+a('/entrada/','Assistant entry')+a('/fichas/','Cards')+a('/conceptos/','Concepts')+a('/relaciones/','Relationships')+a('/clusters/','Clusters')+a('/archivos/','All files')+'</nav></header><section class="body">'+body+'</section><footer><p>'+a('/edicion/','Edition, integrity and provenance')+' · '+a('/llms.txt','Text guide')+' · '+a('/perspective-beyond/atlas/','Interactive Atlas')+'</p><p class="meta">Canonical repository: '+a('https://github.com/dakleyer/perspective-beyond/tree/'+REVISION,'Perspective Beyond · '+REVISION[:7])+'. This edition lets readers explore texts and relationships through HTML pages, without an account or JavaScript.</p></footer></main></body></html>\n'
     write(rel,text);html_paths.append('/'+rel)
 def list_page(path,title,items,render,lead='',size=60):
     total=max(1,math.ceil(len(items)/size))
     def url(i):
         return path if i==0 else path+'pagina-'+str(i+1)+'/'
     for p in range(total):
-        pages='<nav class="pager" aria-label="Páginas">'+''.join(a(url(i),str(i+1))for i in range(total))+'</nav>'if total>1 else''
-        body='<p class="meta">'+str(len(items))+' elementos · página '+str(p+1)+' de '+str(total)+'</p>'+pages+'<ul class="entries">'+''.join('<li>'+render(x)+'</li>'for x in items[p*size:(p+1)*size])+'</ul>'+pages
+        pages='<nav class="pager" aria-label="Pages">'+''.join(a(url(i),str(i+1))for i in range(total))+'</nav>'if total>1 else''
+        body='<p class="meta">'+str(len(items))+' items · page '+str(p+1)+' of '+str(total)+'</p>'+pages+'<ul class="entries">'+''.join('<li>'+render(x)+'</li>'for x in items[p*size:(p+1)*size])+'</ul>'+pages
         page(url(p),title,body,lead)
 def node_card(n):
-    return '<h2>'+a(node_path(n),n['title'])+'</h2><p class="meta">'+h('Concepto'if n['type']=='concepto'else'Ficha')+' · '+h(' / '.join(graph['clusters'][c]for c in n['clusters']))+'</p>'+paras((n.get('summary')or n.get('reading')or'')[:420])
+    return '<h2>'+a(node_path(n),n['title'])+'</h2><p class="meta">'+h('Concept'if n['type']=='concepto'else'Card')+' · '+h(' / '.join(graph['clusters'][c]for c in n['clusters']))+'</p>'+paras((n.get('summary')or n.get('reading')or'')[:420])
 ordered=sorted(nodes.values(),key=lambda n:n['title'].casefold())
 fichas=[n for n in ordered if n['type']=='ficha']
 concepts=[n for n in ordered if n['type']=='concepto']
-list_page('/fichas/','Fichas y fuentes',fichas,node_card,'Cada ficha reúne su pensamiento, procedencia y relaciones con el resto del Atlas.')
-list_page('/conceptos/','Conceptos',concepts,node_card,'Las ideas del corpus, enlazadas con sus textos y casos.')
+list_page('/fichas/','Cards and sources',fichas,node_card,'Each card brings together its thought, provenance and relationships with the rest of the Atlas.')
+list_page('/conceptos/','Concepts',concepts,node_card,'The corpus\'s ideas, linked to their texts and cases.')
 all_relations=edges+navigation
 adj=defaultdict(list)
 relation_where={}
@@ -106,71 +106,71 @@ for i,e in enumerate(all_relations):
     relation_where[e[0]]=path+'#'+anchor
     adj[e[1]].append(e);adj[e[2]].append(e)
 def relation_card(e):
-    return '<div id="'+h(relation_where[e[0]].split('#')[1])+'"><h2>'+a(node_path(nodes[e[1]]),nodes[e[1]]['title'])+' → '+a(node_path(nodes[e[2]]),nodes[e[2]]['title'])+'</h2><p><strong>'+h(e[3])+'</strong></p>'+paras(e[4])+('<p class="meta">Procedencia: '+a(original_url(e[5]),e[5])+'</p>'if e[5]and e[5].startswith(('http://','https://'))else'')+'<p class="meta">'+h(e[0])+'</p></div>'
-list_page('/relaciones/','Relaciones del Atlas',all_relations,relation_card,'Cada conexión conserva su dirección, significado y procedencia. Los enlaces de navegación se identifican por separado.',size=60)
+    return '<div id="'+h(relation_where[e[0]].split('#')[1])+'"><h2>'+a(node_path(nodes[e[1]]),nodes[e[1]]['title'])+' → '+a(node_path(nodes[e[2]]),nodes[e[2]]['title'])+'</h2><p><strong>'+h(e[3])+'</strong></p>'+paras(e[4])+('<p class="meta">Provenance: '+a(original_url(e[5]),e[5])+'</p>'if e[5]and e[5].startswith(('http://','https://'))else'')+'<p class="meta">'+h(e[0])+'</p></div>'
+list_page('/relaciones/','Atlas relationships',all_relations,relation_card,'Each connection retains its direction, meaning and provenance. Navigation links are identified separately.',size=60)
 for n in ordered:
     path=node_path(n)
     primary=n.get('reading')or n.get('summary')or''
-    body='<p class="meta">'+h('Concepto'if n['type']=='concepto'else'Ficha')+' · '+h(n['id'])+'</p><div class="tags">'+''.join(a('/clusters/'+c+'/',graph['clusters'][c])for c in n['clusters'])+'</div><section class="reading">'+paras(primary)+'</section>'
-    body+='<h2>Composición y perspectivas</h2><div class="tags">'+''.join(a('/etiquetas/'+tag+'/',graph['topics'][tag]+' '+format(weight*100,'.2f')+' %')for tag,weight in sorted(n['tagWeights'].items(),key=lambda x:-x[1]))+'</div>'
+    body='<p class="meta">'+h('Concept'if n['type']=='concepto'else'Card')+' · '+h(n['id'])+'</p><div class="tags">'+''.join(a('/clusters/'+c+'/',graph['clusters'][c])for c in n['clusters'])+'</div><section class="reading">'+paras(primary)+'</section>'
+    body+='<h2>Composition and perspectives</h2><div class="tags">'+''.join(a('/etiquetas/'+tag+'/',graph['topics'][tag]+' '+format(weight*100,'.2f')+' %')for tag,weight in sorted(n['tagWeights'].items(),key=lambda x:-x[1]))+'</div>'
     if n.get('readingSource'):
-        source=n['readingSource'];body+='<p class="meta">Pasaje: '+h(source['section'])+' · lectura registrada '+h(source['observed'])+' · '+a(original_url(source['url']),'Fuente del pasaje')+'</p>'
+        source=n['readingSource'];body+='<p class="meta">Passage: '+h(source['section'])+' · reading recorded '+h(source['observed'])+' · '+a(original_url(source['url']),'Passage source')+'</p>'
     refs=[]
-    if n.get('documentId')in docs:refs.append(a(doc_path(docs[n['documentId']]),'Documento de origen y sus fichas'))
-    if n.get('original'):refs.append(a(original_url(n['original']),'Publicación de origen'))
-    if n.get('commitUrl'):refs.append(a(n['commitUrl'],'Revisión de investigación'))
-    refs.append(a('/perspective-beyond/atlas/posicionamiento/fichas/'+n['id']+'.json','Registro de datos'))
-    refs.append(a(path+'lectura.txt','Leer esta ficha en texto UTF-8'))
+    if n.get('documentId')in docs:refs.append(a(doc_path(docs[n['documentId']]),'Source document and its cards'))
+    if n.get('original'):refs.append(a(original_url(n['original']),'Source publication'))
+    if n.get('commitUrl'):refs.append(a(n['commitUrl'],'Research revision'))
+    refs.append(a('/perspective-beyond/atlas/posicionamiento/fichas/'+n['id']+'.json','Data record'))
+    refs.append(a(path+'lectura.txt','Read this card as UTF-8 text'))
     body+='<p class="actions">'+''.join(refs)+'</p>'
     relations=list({e[0]:e for e in adj[n['id']]}.values())
     pages=max(1,math.ceil(len(relations)/45))
     def npage(i):
         return path if i==0 else path+'relaciones-'+str(i+1)+'/'
     for i in range(pages):
-        nav='<nav class="pager" aria-label="Relaciones de esta ficha">'+''.join(a(npage(j),'Relaciones '+str(j+1))for j in range(pages))+'</nav>'if pages>1 else''
-        part=body if i==0 else'<p>'+a(path,'Volver al pensamiento y las fuentes de esta ficha')+'</p>'
-        part+='<h2>Relaciones de esta pieza</h2><p>'+str(len(relations))+' conexiones en el Atlas.</p>'+nav+'<ul class="entries">'
+        nav='<nav class="pager" aria-label="This card\'s relationships">'+''.join(a(npage(j),'Relationships '+str(j+1))for j in range(pages))+'</nav>'if pages>1 else''
+        part=body if i==0 else'<p>'+a(path,'Return to this card\'s thought and sources')+'</p>'
+        part+='<h2>Relationships of this piece</h2><p>'+str(len(relations))+' connections in the Atlas.</p>'+nav+'<ul class="entries">'
         for e in relations[i*45:(i+1)*45]:
             other=nodes[e[2]if e[1]==n['id']else e[1]]
-            part+='<li><h3>'+('→ 'if e[1]==n['id']else'← ')+a(node_path(other),other['title'])+'</h3><p><strong>'+h(e[3])+'</strong></p>'+paras(e[4])+'<p class="meta">'+a(relation_where[e[0]],'Leer esta relación en el conjunto del Atlas')+'</p></li>'
+            part+='<li><h3>'+('→ 'if e[1]==n['id']else'← ')+a(node_path(other),other['title'])+'</h3><p><strong>'+h(e[3])+'</strong></p>'+paras(e[4])+'<p class="meta">'+a(relation_where[e[0]],'Read this relationship in the complete Atlas')+'</p></li>'
         part+='</ul>'+nav
         page(npage(i),n['title'],part)
-    plain='# '+n['title']+'\n\n'+primary+'\n\nFicha web: '+ORIGIN+path+'\n\nRELACIONES\n'+''.join(nodes[e[1]]['title']+' → '+nodes[e[2]]['title']+'\n'+e[3]+'. '+e[4]+'\n'+ORIGIN+relation_where[e[0]]+'\n\n'for e in relations)
+    plain='# '+n['title']+'\n\n'+primary+'\n\nWeb card: '+ORIGIN+path+'\n\nRELATIONSHIPS\n'+''.join(nodes[e[1]]['title']+' → '+nodes[e[2]]['title']+'\n'+e[3]+'. '+e[4]+'\n'+ORIGIN+relation_where[e[0]]+'\n\n'for e in relations)
     write(path.strip('/')+'/lectura.txt',plain)
     # Text is available beside every HTML ficha without changing the source record.
 doc_items=sorted(docs.values(),key=lambda d:d['title'].casefold())
 for d in doc_items:
-    body='<p>'+a(original_url(d['url']),'Publicación de origen')+'</p><h2>Fichas de este documento</h2><ul class="entries">'+''.join('<li>'+node_card(nodes[k])+'</li>'for k in d['fichas'])+'</ul>'
+    body='<p>'+a(original_url(d['url']),'Source publication')+'</p><h2>Cards from this document</h2><ul class="entries">'+''.join('<li>'+node_card(nodes[k])+'</li>'for k in d['fichas'])+'</ul>'
     page(doc_path(d),d['title'],body)
-list_page('/documentos/','Documentos de origen',doc_items,lambda d:'<h2>'+a(doc_path(d),d['title'])+'</h2><p>'+str(len(d['fichas']))+' fichas de lectura.</p>')
+list_page('/documentos/','Source documents',doc_items,lambda d:'<h2>'+a(doc_path(d),d['title'])+'</h2><p>'+str(len(d['fichas']))+' reading cards.</p>')
 for cluster,label in graph['clusters'].items():
     items=[n for n in ordered if cluster in n['clusters']]
-    list_page('/clusters/'+cluster+'/',label,items,node_card,'Un recorrido de la misma constelación, con relaciones hacia sus otros clústeres.')
-page('/clusters/','Clústeres de la constelación','<div class="grid">'+''.join('<section class="card"><h2>'+a('/clusters/'+c+'/',label)+'</h2><p>'+str(sum(c in n['clusters']for n in ordered))+' fichas y conceptos.</p></section>'for c,label in graph['clusters'].items())+'</div>')
+    list_page('/clusters/'+cluster+'/',label,items,node_card,'A reading path through the same constellation, with relationships to its other clusters.')
+page('/clusters/','Constellation clusters','<div class="grid">'+''.join('<section class="card"><h2>'+a('/clusters/'+c+'/',label)+'</h2><p>'+str(sum(c in n['clusters']for n in ordered))+' cards and concepts.</p></section>'for c,label in graph['clusters'].items())+'</div>')
 for tag,label in graph['topics'].items():
     items=sorted((n for n in ordered if n['tagWeights'].get(tag,0)>0),key=lambda n:-n['tagWeights'][tag])
-    list_page('/etiquetas/'+tag+'/',label,items,lambda n:node_card(n)+'<p class="meta">Peso en esta ficha: '+format(n['tagWeights'][tag]*100,'.2f')+' %</p>')
-page('/etiquetas/','Etiquetas y perspectivas','<div class="tags">'+''.join(a('/etiquetas/'+t+'/',label)for t,label in graph['topics'].items())+'</div>')
+    list_page('/etiquetas/'+tag+'/',label,items,lambda n:node_card(n)+'<p class="meta">Weight in this card: '+format(n['tagWeights'][tag]*100,'.2f')+' %</p>')
+page('/etiquetas/','Tags and perspectives','<div class="tags">'+''.join(a('/etiquetas/'+t+'/',label)for t,label in graph['topics'].items())+'</div>')
 def archive_card(record):
     path=record['webPath']
     return '<h2>'+a(path,record['canonicalPath'].removeprefix('docs/'))+'</h2><p class="meta">'+format(record['bytes'],',')+' bytes · SHA-256 '+record['sha256']+'</p>'
-list_page('/archivos/','Todos los archivos del Atlas',manifest,archive_card,'Los '+format(len(manifest),',').replace(',','.')+' archivos de la edición canónica están disponibles desde este servidor, con su contenido original.',size=80)
-entry_text='''ATLAS COMPLETO · ENTRADA PARA ASISTENTES
+list_page('/archivos/','All Atlas files',manifest,archive_card,'The '+format(len(manifest),',').replace(',','.')+' files from the canonical edition are available from this server, with their original content.',size=80)
+entry_text='''COMPLETE ATLAS · ASSISTANT ENTRY
 
-Esta web contiene la edición completa del Atlas de Perspective Beyond. Puedes recorrerla mediante HTML, sin iniciar sesión, sin ejecutar JavaScript y sin abrir GitHub.
-Empieza por la pregunta del usuario y elige el clúster o las etiquetas pertinentes. Conserva la configuración de alcance y el formato que te haya solicitado.
-Cada ficha contiene su texto de lectura, composición, procedencia y relaciones. Sigue las conexiones explicadas para comprender el mecanismo. Las páginas de relaciones permiten leer el conjunto en ambos sentidos.
-Usa los nombres legibles en tu respuesta y enlaza las páginas web de las fichas. Conserva la secuencia temporal de los originales; al desarrollar una aplicación nueva, preséntala como una elaboración sobre el pensamiento de origen.
-Si el usuario pide una web, un documento, audio o vídeo, utiliza este pensamiento como contenido y tus herramientas para darle ese formato.
-'''+ '\nRECORRIDOS\n'+'\n'.join(label+': '+ORIGIN+path for label,path in [('Clústeres','/clusters/'),('Etiquetas','/etiquetas/'),('Fichas','/fichas/'),('Conceptos','/conceptos/'),('Relaciones','/relaciones/'),('Documentos','/documentos/'),('Todos los archivos','/archivos/'),('Fuentes autocontenidas','/perspective-beyond/atlas/asistentes/')])+'\n\nLa edición de origen y las huellas de los archivos están en '+ORIGIN+'/edicion/ . El repositorio de GitHub conserva la fuente canónica; la lectura del Atlas puede completarse en esta web.\n'
+This website contains the complete Perspective Beyond Atlas edition. You can navigate it through HTML without signing in, running JavaScript or opening GitHub.
+Start with the user's question and choose the relevant cluster or tags. Retain the scope configuration and requested format.
+Each card contains its reading text, composition, provenance and relationships. Follow the explained connections to understand the mechanism. Relationship pages allow the whole collection to be read in both directions.
+Use readable names in your answer and link the cards' web pages. Retain the originals' temporal sequence; when developing a new application, present it as a development of the source thought.
+If the user requests a website, document, audio or video, use this thought as content and your tools to give it that format.
+'''+ '\nREADING PATHS\n'+'\n'.join(label+': '+ORIGIN+path for label,path in [('Clusters','/clusters/'),('Tags','/etiquetas/'),('Cards','/fichas/'),('Concepts','/conceptos/'),('Relationships','/relaciones/'),('Documents','/documentos/'),('All files','/archivos/'),('Self-contained sources','/perspective-beyond/atlas/asistentes/')])+'\n\nThe source edition and file hashes are at '+ORIGIN+'/edicion/ . The GitHub repository retains the canonical source; Atlas reading can be completed on this website.\n'
 write('entrada.txt',entry_text)
-page('/entrada/','Entrada para asistentes',paras(entry_text)+'<h2>Entradas por clúster</h2><ul>'+''.join('<li>'+a('/clusters/'+c+'/',label)+'</li>'for c,label in graph['clusters'].items())+'</ul><p>'+a('/entrada.txt','Abrir estas instrucciones como texto UTF-8')+'</p>','Una sola entrada web para recorrer los textos y las relaciones del Atlas completo.')
-page('/','Una constelación de pensamiento, abierta en la web','<div class="facts"><strong>'+format(len(fichas),",").replace(",",".")+' fichas</strong><strong>'+str(len(concepts))+' conceptos</strong><strong>'+format(len(edges),",").replace(",",".")+' relaciones</strong><strong>'+str(sum(n["clusters"]==["dialogos"]for n in fichas))+' diálogos</strong></div><p>Explora el pensamiento desde sus textos, casos y conexiones. Esta edición reúne los archivos completos del Atlas y una red de páginas HTML para recorrerlo como persona o con tu asistente.</p><div class="actions"><a class="button" href="/entrada/">Conecta tu asistente</a><a class="button secondary" href="/clusters/">Explorar los clústeres</a>'+a('/perspective-beyond/atlas/','Abrir el mapa interactivo')+'</div><h2>Elige una perspectiva</h2><div class="grid">'+''.join('<section class="card"><h2>'+a('/clusters/'+c+'/',label)+'</h2><p>'+str(sum(c in n['clusters']for n in ordered))+' piezas conectadas con el corpus.</p></section>'for c,label in graph['clusters'].items())+'</div><section class="card"><h2>El Atlas completo, pieza a pieza</h2><p>'+a('/fichas/','Leer las fichas')+' · '+a('/conceptos/','Comprender los conceptos')+' · '+a('/relaciones/','Seguir las relaciones')+' · '+a('/etiquetas/','Cruzar perspectivas')+'</p><p>'+a('/documentos/','Documentos de origen')+' · '+a('/archivos/','Todos los archivos publicados')+' · '+a('/perspective-beyond/atlas/asistentes/','Fuentes autocontenidas para crear con tu asistente')+'</p></section>','Una web completa para personas y asistentes. El mismo corpus, navegable mediante textos, conceptos y relaciones.')
+page('/entrada/','Assistant entry',paras(entry_text)+'<h2>Entries by cluster</h2><ul>'+''.join('<li>'+a('/clusters/'+c+'/',label)+'</li>'for c,label in graph['clusters'].items())+'</ul><p>'+a('/entrada.txt','Open these instructions as UTF-8 text')+'</p>','One web entry for navigating the complete Atlas\'s texts and relationships.')
+page('/','A constellation of thought, open on the web','<div class="facts"><strong>'+format(len(fichas),",").replace(",",".")+' cards</strong><strong>'+str(len(concepts))+' concepts</strong><strong>'+format(len(edges),",").replace(",",".")+' relationships</strong><strong>'+str(sum(n["clusters"]==["dialogos"]for n in fichas))+' dialogues</strong></div><p>Explore the thought through its texts, cases and connections. This edition brings together the complete Atlas files and a network of HTML pages to explore as a person or with your assistant.</p><div class="actions"><a class="button" href="/entrada/">Connect your assistant</a><a class="button secondary" href="/clusters/">Explore the clusters</a>'+a('/perspective-beyond/atlas/','Open the interactive map')+'</div><h2>Choose a perspective</h2><div class="grid">'+''.join('<section class="card"><h2>'+a('/clusters/'+c+'/',label)+'</h2><p>'+str(sum(c in n['clusters']for n in ordered))+' pieces connected with the corpus.</p></section>'for c,label in graph['clusters'].items())+'</div><section class="card"><h2>The complete Atlas, piece by piece</h2><p>'+a('/fichas/','Read the cards')+' · '+a('/conceptos/','Understand the concepts')+' · '+a('/relaciones/','Follow the relationships')+' · '+a('/etiquetas/','Cross perspectives')+'</p><p>'+a('/documentos/','Source documents')+' · '+a('/archivos/','All published files')+' · '+a('/perspective-beyond/atlas/asistentes/','Self-contained sources for creating with your assistant')+'</p></section>','A complete website for people and assistants. The same corpus, navigable through texts, concepts and relationships.')
 edition={'canonicalRepository':'https://github.com/dakleyer/perspective-beyond','canonicalRevision':REVISION,'canonicalEdition':graph['edition'],'publicOrigin':ORIGIN,'canonicalFiles':len(manifest),'canonicalBytes':sum(m['bytes']for m in manifest),'fichas':len(fichas),'concepts':len(concepts),'relations':len(edges),'navigationLinks':len(navigation),'documents':len(docs),'dialogues':sum(n['clusters']==['dialogos']for n in fichas),'allCanonicalFilesIdentical':True}
 write('edicion/archivos.json',json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
 write('edicion/edicion.json',json.dumps(edition,ensure_ascii=False,indent=2)+'\n')
-page('/edicion/','Edición y procedencia','<p>Esta publicación reproduce los '+str(len(manifest))+' archivos de la edición canónica, con sus bytes originales. La capa HTML de lectura reúne las fichas y relaciones del mismo grafo.</p><p>'+a('https://github.com/dakleyer/perspective-beyond/tree/'+REVISION,'Revisión canónica '+REVISION)+'</p><p>'+a('/edicion/edicion.json','Metadatos de edición')+' · '+a('/edicion/archivos.json','Inventario y SHA-256 de todos los archivos')+'</p><p>'+str(edition['canonicalBytes'])+' bytes de archivos canónicos · '+str(len(nodes))+' piezas · '+str(len(edges))+' relaciones del grafo · '+str(len(navigation))+' enlaces de navegación.</p>')
-write('llms.txt','# Perspective Beyond · Atlas completo\n\n> Textos, conceptos y relaciones disponibles en HTML público. No requieren GitHub, inicio de sesión ni JavaScript.\n\n'+entry_text)
+page('/edicion/','Edition and provenance','<p>This publication reproduces the '+str(len(manifest))+' files of the canonical edition, with their original bytes. The HTML reading layer brings together the cards and relationships of the same graph.</p><p>'+a('https://github.com/dakleyer/perspective-beyond/tree/'+REVISION,'Canonical revision '+REVISION)+'</p><p>'+a('/edicion/edicion.json','Edition metadata')+' · '+a('/edicion/archivos.json','Inventory and SHA-256 of all files')+'</p><p>'+str(edition['canonicalBytes'])+' bytes of canonical files · '+str(len(nodes))+' pieces · '+str(len(edges))+' graph relationships · '+str(len(navigation))+' navigation links.</p>')
+write('llms.txt','# Perspective Beyond · Complete Atlas\n\n> Texts, concepts and relationships available in public HTML. They do not require GitHub, sign-in or JavaScript.\n\n'+entry_text)
 all_html=sorted(set(html_paths+['/'+m['webPath'].lstrip('/')for m in manifest if m['webPath'].endswith('.html')]))
 # HTML sitemap entries use their directly served file paths.
 sitemaps=[]
@@ -180,7 +180,7 @@ for start in range(0,len(all_html),1000):
     write(name,content);sitemaps.append('/'+name)
 write('sitemap.xml','<?xml version="1.0" encoding="UTF-8"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<sitemap><loc>'+h(ORIGIN+p)+'</loc></sitemap>'for p in sitemaps)+'</sitemapindex>')
 write('robots.txt','User-agent: *\nAllow: /\n\nSitemap: '+ORIGIN+'/sitemap.xml\n')
-write('404.html','<!doctype html><html lang="es"><meta charset="utf-8"><title>Recorrer el Atlas</title><h1>Recorrer el Atlas</h1><p>'+a('/entrada/','Abrir la entrada de lectura del Atlas')+'</p></html>')
+write('404.html','<!doctype html><html lang="en"><meta charset="utf-8"><title>Explore the Atlas</title><h1>Explore the Atlas</h1><p>'+a('/entrada/','Open the Atlas reading entry')+'</p></html>')
 from orientation import build as build_orientation
 build_orientation(ROOT)
 print(json.dumps(edition|{'newHTMLPages':len(html_paths),'totalFiles':sum(p.is_file()for p in OUT.rglob('*'))},ensure_ascii=False,indent=2))

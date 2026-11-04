@@ -12,9 +12,8 @@
   "clusters": [
     "imsv"
   ],
-  "context": "## El manifiesto, leído en diálogo\nLa lectura distingue deseo, acción, consecuencia y satisfacción. Una nueva idea merece examen racional, observaciones y contraste, para saber si cambió la situación o solo la manera de describirla.\nEtiquetas: Decisiones y responsabilidad 50.00%; Cambio de perspectiva 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-lectura-manifiesto\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/leer-el-manifiesto/\n\n",
-  "readingSource": null,
-  "tokens": 118,
+  "context": "## El manifiesto, leído en diálogo\nLa lectura distingue deseo, acción, consecuencia y satisfacción. Una nueva idea merece examen racional, observaciones y contraste, para saber si cambió la situación o solo la manera de describirla.\nTags: Decisions and responsibility 50.00%; Change of perspective 50.00%\nCard: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-lectura-manifiesto\nSource document: https://integralmanagement.ch/nueva-perspectiva/leer-el-manifiesto/\n\n",
+  "tokens": 115,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,12 +21,13 @@
       "to": "np-microempresas",
       "title": "Microempresarios: mirar el negocio desde otra silla",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "contraste",
       "reading": "La comparación entre papeles permite examinar la diferencia entre una idea nueva y una decisión comprobable.",
       "relationTokens": 42,
-      "fichaTokens": 119,
+      "fichaTokens": 117,
       "tagWeights": {
-        "empresa": 1.0
+        "empresa": 1
       },
       "clusters": [
         "imsv"
@@ -40,10 +40,11 @@
       "to": "np-jump-up",
       "title": "Del cambio de perspectiva al plan JUMP UP",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "desarrollo",
       "reading": "El examen racional de una nueva mirada encuentra una expresión práctica en el diseño de la intervención.",
       "relationTokens": 38,
-      "fichaTokens": 120,
+      "fichaTokens": 116,
       "tagWeights": {
         "perspectiva": 0.3846,
         "transformacion": 0.6154

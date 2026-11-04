@@ -13,9 +13,8 @@
   "clusters": [
     "imsv"
   ],
-  "context": "## Acción Integral: muchas prácticas, una pregunta compartida\nEl capítulo conecta formación, gobierno de procesos, integración técnica y trabajo organizativo. Casos distintos permiten comparar qué se aprende al relacionar conocimientos que estaban repartidos entre personas, sistemas y áreas.\nEtiquetas: Aprendizaje y transmisión de capacidades 33.34%; Empresa y gestión 33.33%; Transformación y continuidad operativa 33.33%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-accion\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/accion-integral/\n\n",
-  "readingSource": null,
-  "tokens": 129,
+  "context": "## Acción Integral: muchas prácticas, una pregunta compartida\nEl capítulo conecta formación, gobierno de procesos, integración técnica y trabajo organizativo. Casos distintos permiten comparar qué se aprende al relacionar conocimientos que estaban repartidos entre personas, sistemas y áreas.\nTags: Learning and capability transmission 33.34%; Business and management 33.33%; Transformation and operational continuity 33.33%\nCard: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-accion\nSource document: https://integralmanagement.ch/nueva-perspectiva/accion-integral/\n\n",
+  "tokens": 122,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,10 +22,11 @@
       "to": "np-aicm",
       "title": "AICM y Crea Camino: transformar desde la experiencia",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "síntesis",
       "reading": "La acción de quienes conocen el trabajo se sitúa junto a otras prácticas de integración.",
       "relationTokens": 44,
-      "fichaTokens": 124,
+      "fichaTokens": 118,
       "tagWeights": {
         "aprendizaje": 0.4444,
         "movilidad": 0.5556
@@ -42,10 +42,11 @@
       "to": "np-aprendizajes",
       "title": "¿Qué enseñaron estas experiencias?",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "síntesis",
       "reading": "Se extraen criterios observables de intervención y se conservan las diferencias entre los casos.",
       "relationTokens": 41,
-      "fichaTokens": 116,
+      "fichaTokens": 112,
       "tagWeights": {
         "perspectiva": 0.5,
         "representacion": 0.5
@@ -61,10 +62,11 @@
       "to": "np-accion-metodo",
       "title": "Acción Integral: la capacidad de actuar entre personas y sistemas",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "ampliación",
       "reading": "El ensayo desarrolla el paso entre aprendizaje, responsabilidades y acción sostenida.",
       "relationTokens": 41,
-      "fichaTokens": 140,
+      "fichaTokens": 132,
       "tagWeights": {
         "aprendizaje": 0.2222,
         "decision": 0.5556,

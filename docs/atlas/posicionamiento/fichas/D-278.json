@@ -12,9 +12,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Rechazar una entrada también es tomar una decisión\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — Si una máquina rechaza una entrada, ¿ha evitado decidir o acaba de decidir algo sobre ella?\nREFLEXIÓN DEL DIÁLOGO (voz original solo en citas, resto elaboración editorial) — En el diálogo del «meta oráculo», Iván no acepta que la etiqueta «entrada inválida» se use como salida mágica del problema. Pregunta qué diferencia hay entre que una máquina no procese un dato, que no devuelva respuesta y que lo rechace expresamente. Su corrección es directa: «if it's refused, it's a decision». La frase no cierra la discusión; la abre en el nivel que suele darse por supuesto.\n\nDistingue dos operaciones que la arquitectura coloca a veces en la misma pieza: comprobar que un dato pertenece al universo admitido por una especificación y, una vez admitido, decidir la propiedad buscada. Si ambas funciones están dentro de la misma máquina, la etiqueta «no válido» ya es un resultado y puede requerir sus propias reglas, excepciones y pruebas. Si están en máquinas distintas, surge la pregunta por la validez del criterio de la primera.\n\nEsto no demuestra que todo validador sea indecidible; numerosos dominios y formatos tienen predicados de pertenencia efectivamente decidibles. La pregunta interesante aparece cuando la frontera práctica es incompleta, cambia con el contexto o delega juicio a personas. La distinción entre rechazo, no terminación y respuesta negativa tiene consecuencias operativas distintas; confundirlas puede producir seguridad aparente.\nEtiquetas: Decisiones y responsabilidad 71.43%; Matemáticas 28.57%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-278\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-278.html\n\n",
-  "readingSource": null,
-  "tokens": 404,
+  "context": "## Rechazar una entrada también es tomar una decisión\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — Si una máquina rechaza una entrada, ¿ha evitado decidir o acaba de decidir algo sobre ella?\nREFLEXIÓN DEL DIÁLOGO (voz original solo en citas, resto elaboración editorial) — En el diálogo del «meta oráculo», Iván no acepta que la etiqueta «entrada inválida» se use como salida mágica del problema. Pregunta qué diferencia hay entre que una máquina no procese un dato, que no devuelva respuesta y que lo rechace expresamente. Su corrección es directa: «if it's refused, it's a decision». La frase no cierra la discusión; la abre en el nivel que suele darse por supuesto.\n\nDistingue dos operaciones que la arquitectura coloca a veces en la misma pieza: comprobar que un dato pertenece al universo admitido por una especificación y, una vez admitido, decidir la propiedad buscada. Si ambas funciones están dentro de la misma máquina, la etiqueta «no válido» ya es un resultado y puede requerir sus propias reglas, excepciones y pruebas. Si están en máquinas distintas, surge la pregunta por la validez del criterio de la primera.\n\nEsto no demuestra que todo validador sea indecidible; numerosos dominios y formatos tienen predicados de pertenencia efectivamente decidibles. La pregunta interesante aparece cuando la frontera práctica es incompleta, cambia con el contexto o delega juicio a personas. La distinción entre rechazo, no terminación y respuesta negativa tiene consecuencias operativas distintas; confundirlas puede producir seguridad aparente.\nTags: Decisions and responsibility 71.43%; Mathematics 28.57%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-278\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-278.html\n\n",
+  "tokens": 400,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "dg-math",
       "title": "Pensamiento matemático",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 177,
+      "fichaTokens": 159,
       "tagWeights": {
         "aprendizaje": 0.1144,
         "autoridad": 0.0109,
@@ -51,10 +51,11 @@
       "to": "dg-formalization_event",
       "title": "La frontera entre mundo y registro",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 137,
+      "fichaTokens": 127,
       "tagWeights": {
         "aprendizaje": 0.2131,
         "decision": 0.1339,
@@ -74,10 +75,11 @@
       "to": "dg-meta_discrimination",
       "title": "Carga de validar sistemas y sus entradas",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 137,
+      "fichaTokens": 126,
       "tagWeights": {
         "autoridad": 0.2083,
         "decision": 0.1607,
@@ -98,10 +100,11 @@
       "to": "dg-validity_boundary",
       "title": "Límite entre entrada, pertenencia y respuesta",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 87,
+      "fichaTokens": 82,
       "tagWeights": {
         "autoridad": 0.3333,
         "decision": 0.2381,
@@ -118,12 +121,13 @@
       "to": "D-094",
       "title": "Gödel, máquinas de Turing y la pregunta de qué queda fuera",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Rechazar una entrada también es tomar una decisión» con «Gödel, máquinas de Turing y la pregunta de qué queda fuera». Permite contrastar Pensamiento matemático.",
       "relationTokens": 73,
-      "fichaTokens": 338,
+      "fichaTokens": 335,
       "tagWeights": {
-        "matematicas": 1.0
+        "matematicas": 1
       },
       "clusters": [
         "dialogos"
@@ -136,12 +140,13 @@
       "to": "D-116",
       "title": "Un control puede aprobar y el sistema seguir fallando",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Rechazar una entrada también es tomar una decisión» con «Un control puede aprobar y el sistema seguir fallando».",
       "relationTokens": 56,
-      "fichaTokens": 299,
+      "fichaTokens": 294,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"
@@ -154,12 +159,13 @@
       "to": "D-216",
       "title": "El instante que una cosa del mundo se convierte en dato",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Rechazar una entrada también es tomar una decisión» con «El instante que una cosa del mundo se convierte en dato». Permite contrastar Pensamiento matemático, La frontera entre mundo y registro.",
       "relationTokens": 74,
-      "fichaTokens": 425,
+      "fichaTokens": 422,
       "tagWeights": {
-        "matematicas": 1.0
+        "matematicas": 1
       },
       "clusters": [
         "dialogos"
@@ -172,10 +178,11 @@
       "to": "D-217",
       "title": "Un JSON correcto puede describir una vaca que no estaba allí",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Rechazar una entrada también es tomar una decisión» con «Un JSON correcto puede describir una vaca que no estaba allí». Permite contrastar Pensamiento matemático, La frontera entre mundo y registro.",
       "relationTokens": 78,
-      "fichaTokens": 438,
+      "fichaTokens": 434,
       "tagWeights": {
         "decision": 0.5,
         "matematicas": 0.5
@@ -191,10 +198,11 @@
       "to": "D-219",
       "title": "Perder información no es lo mismo que no poder decidir",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Rechazar una entrada también es tomar una decisión» con «Perder información no es lo mismo que no poder decidir». Permite contrastar Pensamiento matemático, La frontera entre mundo y registro.",
       "relationTokens": 74,
-      "fichaTokens": 482,
+      "fichaTokens": 475,
       "tagWeights": {
         "aprendizaje": 0.3125,
         "decision": 0.125,
@@ -212,10 +220,11 @@
       "to": "D-243",
       "title": "El supervisor humano no es barato porque solo revise dos casillas",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Rechazar una entrada también es tomar una decisión» con «El supervisor humano no es barato porque solo revise dos casillas». Permite contrastar Pensamiento matemático, Carga de validar sistemas y sus entradas.",
       "relationTokens": 78,
-      "fichaTokens": 442,
+      "fichaTokens": 437,
       "tagWeights": {
         "autoridad": 0.25,
         "documentacion": 0.5,
@@ -232,12 +241,13 @@
       "to": "D-266",
       "title": "¿Y si el punto de partida fuera lo no definible?",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Rechazar una entrada también es tomar una decisión» con «¿Y si el punto de partida fuera lo no definible?». Permite contrastar Pensamiento matemático, La frontera entre mundo y registro.",
       "relationTokens": 78,
-      "fichaTokens": 406,
+      "fichaTokens": 403,
       "tagWeights": {
-        "matematicas": 1.0
+        "matematicas": 1
       },
       "clusters": [
         "dialogos"
@@ -250,12 +260,13 @@
       "to": "D-279",
       "title": "Una entrada fuera del dominio puede producir una salida aparentemente útil",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una entrada fuera del dominio puede producir una salida aparentemente útil» con «Rechazar una entrada también es tomar una decisión». Permite contrastar Límite entre entrada, pertenencia y respuesta, Pensamiento matemático, La frontera entre mundo y registro.",
       "relationTokens": 85,
-      "fichaTokens": 377,
+      "fichaTokens": 374,
       "tagWeights": {
-        "matematicas": 1.0
+        "matematicas": 1
       },
       "clusters": [
         "dialogos"
@@ -268,10 +279,11 @@
       "to": "D-280",
       "title": "El investigador también ocupa el lugar del oráculo",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El investigador también ocupa el lugar del oráculo» con «Rechazar una entrada también es tomar una decisión». Permite contrastar Carga de validar sistemas y sus entradas, Pensamiento matemático.",
       "relationTokens": 72,
-      "fichaTokens": 411,
+      "fichaTokens": 406,
       "tagWeights": {
         "experimentacion": 0.7143,
         "matematicas": 0.2857
@@ -287,12 +299,13 @@
       "to": "D-244",
       "title": "Una contradicción puede contagiar máquinas antes de que nadie vea el desastre",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Carga de validar sistemas y sus entradas, La frontera entre mundo y registro desde las situaciones que describe cada texto.",
       "relationTokens": 60,
-      "fichaTokens": 430,
+      "fichaTokens": 426,
       "tagWeights": {
-        "transformacion": 1.0
+        "transformacion": 1
       },
       "clusters": [
         "dialogos"
@@ -305,10 +318,11 @@
       "to": "D-293",
       "title": "El cómputo masivo intenta comprar volumen donde falta estructura",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Carga de validar sistemas y sus entradas, Pensamiento matemático desde las situaciones que describe cada texto.",
       "relationTokens": 57,
-      "fichaTokens": 390,
+      "fichaTokens": 384,
       "tagWeights": {
         "decision": 0.25,
         "matematicas": 0.25,
@@ -325,10 +339,11 @@
       "to": "GH010",
       "title": "Structural Awareness — Meta-Existence, Evaluability and Context-Restriction Calculus",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "puente de lectura",
       "reading": "El rechazo de una entrada desplaza la pregunta a la pertenencia al dominio. El cálculo de restricción contextual permite estudiar esa distinción en una formulación matemática específica.",
       "relationTokens": 66,
-      "fichaTokens": 202,
+      "fichaTokens": 194,
       "tagWeights": {
         "cambio-regimen": 0.2,
         "documentacion": 0.2,

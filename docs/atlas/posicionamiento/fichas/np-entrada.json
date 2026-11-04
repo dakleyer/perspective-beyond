@@ -12,9 +12,8 @@
   "clusters": [
     "imsv"
   ],
-  "context": "## Del manifiesto a la práctica\nIdentificar qué relaciones quedan fuera de la atención cuando un problema persiste pese a que conocemos sus componentes. La serie sigue esa pregunta por el manifiesto, la formación y los casos.\nEtiquetas: Aprendizaje y transmisión de capacidades 80.00%; Cambio de perspectiva 20.00%\nFicha: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-entrada\nDocumento de origen: https://integralmanagement.ch/nueva-perspectiva/\n\n",
-  "readingSource": null,
-  "tokens": 108,
+  "context": "## Del manifiesto a la práctica\nIdentificar qué relaciones quedan fuera de la atención cuando un problema persiste pese a que conocemos sus componentes. La serie sigue esa pregunta por el manifiesto, la formación y los casos.\nTags: Learning and capability transmission 80.00%; Change of perspective 20.00%\nCard: https://dakleyer.github.io/perspective-beyond/constelacion/#ficha-entrada\nSource document: https://integralmanagement.ch/nueva-perspectiva/\n\n",
+  "tokens": 103,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,12 +21,13 @@
       "to": "np-manifiesto",
       "title": "El manifiesto original de Nueva Perspectiva",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "fundamento",
       "reading": "La formulación original desarrolla el papel de las relaciones entre los elementos del sistema mental.",
       "relationTokens": 36,
-      "fichaTokens": 105,
+      "fichaTokens": 103,
       "tagWeights": {
-        "perspectiva": 1.0
+        "perspectiva": 1
       },
       "clusters": [
         "imsv"
@@ -40,10 +40,11 @@
       "to": "np-archivo",
       "title": "Conservar el conocimiento y seguir conversando",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relectura",
       "reading": "El índice permite volver al punto de partida desde la evidencia acumulada.",
       "relationTokens": 34,
-      "fichaTokens": 132,
+      "fichaTokens": 126,
       "tagWeights": {
         "documentacion": 0.3334,
         "evidencia": 0.3333,
@@ -60,10 +61,11 @@
       "to": "S14",
       "title": "The Integral Management Society",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura enlazada desde el documento",
       "reading": "Desde «The Integral Management Society», el enlace «Explorar Nueva Perspectiva: del manifiesto a la práctica  →» abre «Del manifiesto a la práctica».",
-      "relationTokens": 66,
-      "fichaTokens": 380,
+      "relationTokens": 64,
+      "fichaTokens": 371,
       "tagWeights": {
         "empresa": 0.2,
         "autoridad": 0.2,

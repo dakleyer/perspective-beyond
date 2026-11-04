@@ -3,19 +3,17 @@
   "type": "concepto",
   "title": "La respuesta ya pronunciada pero no escuchada",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-unheard_evidence",
-  "documentId": null,
   "sourceIds": [
     "D-271"
   ],
   "tagWeights": {
-    "decision": 1.0
+    "decision": 1
   },
   "clusters": [
     "dialogos"
   ],
-  "context": "## La respuesta ya pronunciada pero no escuchada\nUna hipótesis puede circular en la organización y permanecer desatendida por sus roles, tensiones y prioridades.\nEtiquetas: Decisiones y responsabilidad 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-unheard_evidence\n\n",
-  "readingSource": null,
-  "tokens": 71,
+  "context": "## La respuesta ya pronunciada pero no escuchada\nUna hipótesis puede circular en la organización y permanecer desatendida por sus roles, tensiones y prioridades.\nTags: Decisions and responsibility 100.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-unheard_evidence\n\n",
+  "tokens": 69,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,12 +21,13 @@
       "to": "D-271",
       "title": "La solución pudo decirse muchas veces y seguir siendo inaudible",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 30,
-      "fichaTokens": 379,
+      "fichaTokens": 376,
       "tagWeights": {
-        "decision": 1.0
+        "decision": 1
       },
       "clusters": [
         "dialogos"
@@ -41,10 +40,11 @@
       "to": "dg-operations",
       "title": "Operación real",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.11",
       "reading": "La operación pudo advertir el problema.",
       "relationTokens": 31,
-      "fichaTokens": 217,
+      "fichaTokens": 191,
       "tagWeights": {
         "aprendizaje": 0.059,
         "autoridad": 0.1375,
@@ -74,10 +74,11 @@
       "to": "dg-observe",
       "title": "Mirar lo que falta",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.11",
       "reading": "Buscar evidencia en la escucha.",
       "relationTokens": 31,
-      "fichaTokens": 189,
+      "fichaTokens": 170,
       "tagWeights": {
         "aprendizaje": 0.0835,
         "cambio-regimen": 0.054,
@@ -104,10 +105,11 @@
       "to": "dg-epistemic_silence",
       "title": "Exclusión por omisión de interlocución",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.11",
       "reading": "Las ideas pueden quedar sin interlocutor.",
       "relationTokens": 36,
-      "fichaTokens": 98,
+      "fichaTokens": 91,
       "tagWeights": {
         "autoridad": 0.5,
         "evidencia": 0.1111,
@@ -124,10 +126,11 @@
       "to": "dg-trust",
       "title": "Confianza y equipos",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.11",
       "reading": "Poder proponer sin temor.",
       "relationTokens": 30,
-      "fichaTokens": 216,
+      "fichaTokens": 194,
       "tagWeights": {
         "aprendizaje": 0.1145,
         "autoridad": 0.0227,
@@ -157,10 +160,11 @@
       "to": "dg-evidence_recognition",
       "title": "Valor del trabajo y pruebas de capacidad",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.11",
       "reading": "Contrastar antes de elevar la propuesta.",
       "relationTokens": 35,
-      "fichaTokens": 126,
+      "fichaTokens": 113,
       "tagWeights": {
         "aprendizaje": 0.2,
         "autoridad": 0.1,

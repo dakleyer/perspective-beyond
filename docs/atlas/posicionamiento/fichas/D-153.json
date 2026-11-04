@@ -13,9 +13,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## El control ceremonial se parece a un sistema de control\nINTERLOCUTOR (pregunta editorial) — ¿Cómo puede una organización aprobar más procedimientos y saber menos sobre su operación?\nREFLEXIÓN DEL ESCRITO (síntesis editorial) — Al crecer, muchas organizaciones añaden Compras, Calidad, Seguridad, Finanzas y aprobaciones justificadas en principio; pero si no conservan el identificador y la cadena causal de cada obra, la trazabilidad se fragmenta. Ingeniería dice que pidió cemento, Compras que recibió tarde la solicitud, Finanzas que pagó la factura y el dueño solo ve el gasto agregado. Todos demuestran haber cumplido su parte y nadie reconstruye por qué se paró la obra. Iván lo llama «control ceremonial». La multinacional puede preferir al proveedor con departamentos simétricos porque cada área encuentra su espejo documental, aunque el proveedor integrado trabaje mejor y cueste menos. El control deja de medir una operación y comienza a acreditar su propia existencia. La pregunta de arquitectura es incómoda: ¿qué evidencia atraviesa de extremo a extremo la necesidad, la decisión, el pago y el resultado?\nEtiquetas: Autoridad, permisos y delegación 25.00%; Decisiones y responsabilidad 25.00%; Empresa y gestión 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-153\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-153.html\n\n",
-  "readingSource": null,
-  "tokens": 317,
+  "context": "## El control ceremonial se parece a un sistema de control\nINTERLOCUTOR (pregunta editorial) — ¿Cómo puede una organización aprobar más procedimientos y saber menos sobre su operación?\nREFLEXIÓN DEL ESCRITO (síntesis editorial) — Al crecer, muchas organizaciones añaden Compras, Calidad, Seguridad, Finanzas y aprobaciones justificadas en principio; pero si no conservan el identificador y la cadena causal de cada obra, la trazabilidad se fragmenta. Ingeniería dice que pidió cemento, Compras que recibió tarde la solicitud, Finanzas que pagó la factura y el dueño solo ve el gasto agregado. Todos demuestran haber cumplido su parte y nadie reconstruye por qué se paró la obra. Iván lo llama «control ceremonial». La multinacional puede preferir al proveedor con departamentos simétricos porque cada área encuentra su espejo documental, aunque el proveedor integrado trabaje mejor y cueste menos. El control deja de medir una operación y comienza a acreditar su propia existencia. La pregunta de arquitectura es incómoda: ¿qué evidencia atraviesa de extremo a extremo la necesidad, la decisión, el pago y el resultado?\nTags: Authority, permissions and delegation 25.00%; Decisions and responsibility 25.00%; Business and management 50.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-153\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-153.html\n\n",
+  "tokens": 312,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,10 +22,11 @@
       "to": "dg-structure",
       "title": "Conciencia estructural",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 256,
+      "fichaTokens": 226,
       "tagWeights": {
         "aprendizaje": 0.158,
         "autoridad": 0.0636,
@@ -59,10 +59,11 @@
       "to": "dg-governance",
       "title": "Gobernanza y legitimidad",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 273,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.0321,
         "autoridad": 0.4057,
@@ -96,10 +97,11 @@
       "to": "dg-measure",
       "title": "Medir decisiones y consecuencias",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 23,
-      "fichaTokens": 213,
+      "fichaTokens": 192,
       "tagWeights": {
         "aprendizaje": 0.0552,
         "autoridad": 0.0761,
@@ -128,10 +130,11 @@
       "to": "D-169",
       "title": "Una ley tiene principios; un expediente exige requisitos",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una ley tiene principios; un expediente exige requisitos» con «El control ceremonial se parece a un sistema de control». Permite contrastar Gobernanza y legitimidad.",
       "relationTokens": 64,
-      "fichaTokens": 344,
+      "fichaTokens": 337,
       "tagWeights": {
         "autoridad": 0.3429,
         "estandares": 0.4571,
@@ -148,10 +151,11 @@
       "to": "D-170",
       "title": "O como, o lleno formatos",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «O como, o lleno formatos» con «El control ceremonial se parece a un sistema de control».",
       "relationTokens": 48,
-      "fichaTokens": 335,
+      "fichaTokens": 331,
       "tagWeights": {
         "autoridad": 0.85,
         "legitimidad": 0.15
@@ -167,10 +171,11 @@
       "to": "D-171",
       "title": "El débil falla requisitos; el poder falla principios",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El débil falla requisitos; el poder falla principios» con «El control ceremonial se parece a un sistema de control». Permite contrastar Gobernanza y legitimidad.",
       "relationTokens": 66,
-      "fichaTokens": 368,
+      "fichaTokens": 363,
       "tagWeights": {
         "autoridad": 0.5625,
         "decision": 0.1875,
@@ -187,10 +192,11 @@
       "to": "D-180",
       "title": "La encajonadora no obedece a una teoría de gestión",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La encajonadora no obedece a una teoría de gestión» con «El control ceremonial se parece a un sistema de control».",
       "relationTokens": 64,
-      "fichaTokens": 352,
+      "fichaTokens": 345,
       "tagWeights": {
         "aprendizaje": 0.2,
         "empresa": 0.6,
@@ -207,10 +213,11 @@
       "to": "D-223",
       "title": "Dices «cloud» y acabas comprando cloud",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Dices «cloud» y acabas comprando cloud» con «El control ceremonial se parece a un sistema de control».",
       "relationTokens": 58,
-      "fichaTokens": 451,
+      "fichaTokens": 444,
       "tagWeights": {
         "aprendizaje": 0.25,
         "empresa": 0.25,
@@ -228,10 +235,11 @@
       "to": "D-224",
       "title": "Compraron control y consiguieron exactamente lo contrario",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Compraron control y consiguieron exactamente lo contrario» con «El control ceremonial se parece a un sistema de control». Permite contrastar Gobernanza y legitimidad.",
       "relationTokens": 64,
-      "fichaTokens": 427,
+      "fichaTokens": 420,
       "tagWeights": {
         "autoridad": 0.3333,
         "evidencia": 0.6667
@@ -247,10 +255,11 @@
       "to": "D-235",
       "title": "El mejor informe puede salvar el puesto y perder la operación",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El mejor informe puede salvar el puesto y perder la operación» con «El control ceremonial se parece a un sistema de control». Permite contrastar Gobernanza y legitimidad, Medir decisiones y consecuencias.",
       "relationTokens": 74,
-      "fichaTokens": 450,
+      "fichaTokens": 442,
       "tagWeights": {
         "autoridad": 0.3334,
         "decision": 0.3333,
@@ -267,10 +276,11 @@
       "to": "D-237",
       "title": "Obedecer todas las reglas puede hacer imposible el resultado",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Obedecer todas las reglas puede hacer imposible el resultado» con «El control ceremonial se parece a un sistema de control».",
       "relationTokens": 58,
-      "fichaTokens": 438,
+      "fichaTokens": 430,
       "tagWeights": {
         "autoridad": 0.2125,
         "compromisos": 0.15,
@@ -288,12 +298,13 @@
       "to": "D-245",
       "title": "Llamarlo «AI firewall» no te concede saber qué está filtrando",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Llamarlo «AI firewall» no te concede saber qué está filtrando» con «El control ceremonial se parece a un sistema de control». Permite contrastar Gobernanza y legitimidad, Conciencia estructural.",
       "relationTokens": 81,
-      "fichaTokens": 430,
+      "fichaTokens": 426,
       "tagWeights": {
-        "autoridad": 1.0
+        "autoridad": 1
       },
       "clusters": [
         "dialogos"
@@ -306,12 +317,13 @@
       "to": "D-271",
       "title": "La solución pudo decirse muchas veces y seguir siendo inaudible",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La solución pudo decirse muchas veces y seguir siendo inaudible» con «El control ceremonial se parece a un sistema de control».",
       "relationTokens": 62,
-      "fichaTokens": 379,
+      "fichaTokens": 376,
       "tagWeights": {
-        "decision": 1.0
+        "decision": 1
       },
       "clusters": [
         "dialogos"
@@ -324,10 +336,11 @@
       "to": "D-152",
       "title": "Un papel compartido puede controlar más que diez firmas",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Medir decisiones y consecuencias, Gobernanza y legitimidad desde las situaciones que describe cada texto.",
       "relationTokens": 52,
-      "fichaTokens": 297,
+      "fichaTokens": 292,
       "tagWeights": {
         "autoridad": 0.2857,
         "decision": 0.7143
@@ -343,10 +356,11 @@
       "to": "D-178",
       "title": "En la parábola hay un señor perfecto; en la vida no",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Medir decisiones y consecuencias, Gobernanza y legitimidad desde las situaciones que describe cada texto.",
       "relationTokens": 55,
-      "fichaTokens": 339,
+      "fichaTokens": 334,
       "tagWeights": {
         "autoridad": 0.5,
         "decision": 0.5
@@ -362,10 +376,11 @@
       "to": "D-189",
       "title": "De la Iglesia a la IA: quién administra la interfaz con un sistema inmenso",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Conciencia estructural, Gobernanza y legitimidad desde las situaciones que describe cada texto.",
       "relationTokens": 57,
-      "fichaTokens": 410,
+      "fichaTokens": 403,
       "tagWeights": {
         "autoridad": 0.375,
         "estandares": 0.625
@@ -381,10 +396,11 @@
       "to": "D-233",
       "title": "Una capacidad zombi sigue en el organigrama, no en la realidad",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Conciencia estructural, Gobernanza y legitimidad desde las situaciones que describe cada texto.",
       "relationTokens": 56,
-      "fichaTokens": 413,
+      "fichaTokens": 408,
       "tagWeights": {
         "autoridad": 0.5,
         "memoria-territorio": 0.5

@@ -27,8 +27,10 @@
     "aliases": [
       "https://jubap.net/"
     ],
-    "header": "# Posicionamiento · JubAp.Net\nDocumento de origen: https://jubap.net/\n\n",
-    "headerTokens": 19,
+    "header": "# Positioning · JubAp.Net\nSource document: https://jubap.net/\n\n",
+    "headerTokens": 17,
+    "headerEn": "# Positioning · JubAp.Net\nSource document: https://jubap.net/\n\n",
+    "headerTokensEn": 17,
     "type": "documento",
     "focus": "N2",
     "seeds": [
@@ -37,11 +39,11 @@
   },
   "budget": {
     "limit": 1000,
-    "used": 907,
-    "remaining": 93,
-    "nextBlock": 244,
+    "used": 868,
+    "remaining": 132,
+    "nextBlock": 235,
     "encoding": "o200k_base",
-    "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
+    "accounting": "Sum of independently encoded blocks: document header, card and incoming relationship. The budget applies to selected reading content."
   },
   "reachable": 40,
   "selected": 4,
@@ -75,7 +77,7 @@
       "type": "documento",
       "url": "https://jubap.net/",
       "original": "https://jubap.net/",
-      "summary": "Documento desde el que se abre este posicionamiento.",
+      "summary": "Document from which this positioning opens.",
       "tags": [],
       "tagWeights": {},
       "clusters": [
@@ -113,7 +115,7 @@
         "navegacion": 0.05,
         "transformacion": 0.25
       },
-      "contextTokens": 126,
+      "contextTokens": 120,
       "distance": 1,
       "parent": "doc-4b88133cc260c8d3a0-entrada",
       "routeEdge": null,
@@ -150,8 +152,9 @@
         "navegacion": 0.05,
         "transformacion": 0.25
       },
-      "contextTokens": 102,
+      "contextTokens": 97,
       "positionHeaderTokens": 42,
+      "positionHeaderTokensEn": 39,
       "distance": 2,
       "parent": "N2",
       "routeEdge": "apoyo:N2:G33",
@@ -194,7 +197,7 @@
         "sourceSha256": "c54594c384cf5c0ddd28c46b4ea56010119f5f54802f73a568caf723b441dd8c"
       },
       "readingSummary": "The JubAp.Net model keeps architecture, engineering, deployment and stabilisation inside one accountable intervention unit, reducing the handoffs that usually produce coordination collapse.",
-      "contextTokens": 288,
+      "contextTokens": 276,
       "distance": 2,
       "parent": "N2",
       "routeEdge": "navigation:position-nav-N2-N1295",
@@ -235,7 +238,7 @@
         "sourceSha256": "6c4874b98dae5df5761ac0d5e5c55e7517fccf023ed0ec35f0fa375a0b684b7f"
       },
       "readingSummary": "GEPLAN, airport transformation, xSeil and Phylons belong to different operating worlds.",
-      "contextTokens": 224,
+      "contextTokens": 214,
       "distance": 2,
       "parent": "N2",
       "routeEdge": "navigation:position-nav-N2-N2086",
@@ -247,8 +250,8 @@
       "id": "contiene:doc-4b88133cc260c8d3a0-entrada:N2",
       "from": "doc-4b88133cc260c8d3a0-entrada",
       "to": "N2",
-      "kind": "ficha del documento",
-      "reading": "Esta pieza abre la lectura desde su documento de origen.",
+      "kind": "document card",
+      "reading": "This piece opens the reading from its source document.",
       "route": true
     },
     {
@@ -309,7 +312,7 @@
         "navegacion": 0.05,
         "transformacion": 0.25
       },
-      "contextTokens": 126,
+      "contextTokens": 120,
       "distance": 1,
       "parent": "doc-4b88133cc260c8d3a0-entrada",
       "routeEdge": null,
@@ -346,8 +349,9 @@
         "navegacion": 0.05,
         "transformacion": 0.25
       },
-      "contextTokens": 102,
+      "contextTokens": 97,
       "positionHeaderTokens": 42,
+      "positionHeaderTokensEn": 39,
       "distance": 2,
       "parent": "N2",
       "routeEdge": "apoyo:N2:G33",
@@ -390,7 +394,7 @@
         "sourceSha256": "c54594c384cf5c0ddd28c46b4ea56010119f5f54802f73a568caf723b441dd8c"
       },
       "readingSummary": "The JubAp.Net model keeps architecture, engineering, deployment and stabilisation inside one accountable intervention unit, reducing the handoffs that usually produce coordination collapse.",
-      "contextTokens": 288,
+      "contextTokens": 276,
       "distance": 2,
       "parent": "N2",
       "routeEdge": "navigation:position-nav-N2-N1295",
@@ -431,12 +435,12 @@
         "sourceSha256": "6c4874b98dae5df5761ac0d5e5c55e7517fccf023ed0ec35f0fa375a0b684b7f"
       },
       "readingSummary": "GEPLAN, airport transformation, xSeil and Phylons belong to different operating worlds.",
-      "contextTokens": 224,
+      "contextTokens": 214,
       "distance": 2,
       "parent": "N2",
       "routeEdge": "navigation:position-nav-N2-N2086",
       "affinity": 1
     }
   ],
-  "reading": "# Posicionamiento · JubAp.Net\nDocumento de origen: https://jubap.net/\n\n## JubAp.Net\nJubAp.Net is an engineering and operations unit with roots in the Barcelona Nokia R&D environment, built around critical systems and applied across different technology waves and industrial contexts.\nEtiquetas: Capacidad humana y deuda de inteligencia 35.00%; Investigación y documentación técnica 10.00%; Empresa y gestión 25.00%; Índices, contacto y políticas 5.00%; Transformación y continuidad operativa 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-net-n2/\nDocumento de origen: https://jubap.net/\n\nJubAp.Net → JUBAP (ecosistema de intervención) · documenta el concepto. \n\n## JUBAP (ecosistema de intervención)\nThe JubAp units contribute complementary field and architectural practices across regions.\nEtiquetas: Capacidad humana y deuda de inteligencia 35.00%; Investigación y documentación técnica 10.00%; Empresa y gestión 25.00%; Índices, contacto y políticas 5.00%; Transformación y continuidad operativa 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/jubap-intervention-ecosystem/\n\nJubAp.Net → JubAp.Net Tiger Team Model · lectura enlazada desde el documento. Desde «JubAp.Net», el enlace «Tiger Team operating model» abre «JubAp.Net Tiger Team Model».\nFuente de la relación: https://jubap.net/\n\n## JubAp.Net Tiger Team Model\nThe JubAp.Net model keeps architecture, engineering, deployment and stabilisation inside one accountable intervention unit, reducing the handoffs that usually produce coordination collapse.\n\nLarge transformations rarely fail because organisations lack people, frameworks or budget.\n\nWhen a programme reaches a certain scale — thousands of systems, multiple business units, legacy layers, vendors, cultures, geographies, regulatory constraints and operational dependencies — the usual answer is to add more structure: more project managers, more coordinators, more governance layers, more reporting chains, more workstreams, more ceremonies and more intermediaries.\n\nThe larger the transformation becomes, the more the programme starts managing itself instead of transforming the operation. Coordination becomes the main cost. Context is diluted. Decisions slow down. Accountability fragments. The distance between operational reality and strategic planning increases until the programme can no longer see the system it was created to transform.\nEtiquetas: Autoridad, permisos y delegación 9.53%; Decisiones y responsabilidad 23.81%; Evidencia, procedencia y atribución 9.52%; Experimentación, falsación y contraejemplos 9.52%; Transformación y continuidad operativa 47.62%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/jubap-net-tiger-team-model-n1295/\nDocumento de origen: https://jubap.net/jupap-net-tiger-team-model/\n\nJubAp.Net → From Frontier Engineering to Ecosystem Awareness — Twenty Years of Architectural Continuity · lectura enlazada desde el documento. Desde «JubAp.Net», el enlace «architectural-continuity account» abre «From Frontier Engineering to Ecosystem Awareness — Twenty Years of Architectural Continuity».\nFuente de la relación: https://jubap.net/\n\n## From Frontier Engineering to Ecosystem Awareness — Twenty Years of Architectural Continuity\nGEPLAN, airport transformation, xSeil and Phylons belong to different operating worlds. Their common thread is a practical architectural problem: a decision depends on information, resources, relationships and assumptions that can change while the system is running. Twenty years of work across those environments gave that problem concrete form. Current research makes its recurring structure explicit and reusable.\n\nHistorical projects supply engineering evidence. Research develops models and interfaces from that experience; pre-standardization work exposes those proposals to wider technical discussion.\nEtiquetas: Cartografía y señales de ecosistema 22.73%; Evidencia, procedencia y atribución 22.73%; Movilidad e infraestructura 22.72%; Transformación y continuidad operativa 31.82%\nFicha: https://dakleyer.github.io/perspective-beyond/sources/from-frontier-engineering-to-ecosystem-awareness-twenty-years-of-architectural-n2086/\nDocumento de origen: https://jubap.net/frontier-engineering-ecosystem-awareness-architectural-continuity/\n\n"
+  "reading": "# Positioning · JubAp.Net\nSource document: https://jubap.net/\n\n## JubAp.Net\nJubAp.Net is an engineering and operations unit with roots in the Barcelona Nokia R&D environment, built around critical systems and applied across different technology waves and industrial contexts.\nTags: Human capability and intelligence debt 35.00%; Research and technical documentation 10.00%; Business and management 25.00%; Indexes, contact and policies 5.00%; Transformation and operational continuity 25.00%\nCard: https://dakleyer.github.io/perspective-beyond/sources/jubap-net-n2/\nSource document: https://jubap.net/\n\nJubAp.Net → JUBAP (ecosistema de intervención) · documenta el concepto. \n\n## JUBAP (ecosistema de intervención)\nThe JubAp units contribute complementary field and architectural practices across regions.\nTags: Human capability and intelligence debt 35.00%; Research and technical documentation 10.00%; Business and management 25.00%; Indexes, contact and policies 5.00%; Transformation and operational continuity 25.00%\nCard: https://dakleyer.github.io/perspective-beyond/concepts/jubap-intervention-ecosystem/\n\nJubAp.Net → JubAp.Net Tiger Team Model · lectura enlazada desde el documento. Desde «JubAp.Net», el enlace «Tiger Team operating model» abre «JubAp.Net Tiger Team Model».\nRelationship source: https://jubap.net/\n\n## JubAp.Net Tiger Team Model\nThe JubAp.Net model keeps architecture, engineering, deployment and stabilisation inside one accountable intervention unit, reducing the handoffs that usually produce coordination collapse.\n\nLarge transformations rarely fail because organisations lack people, frameworks or budget.\n\nWhen a programme reaches a certain scale — thousands of systems, multiple business units, legacy layers, vendors, cultures, geographies, regulatory constraints and operational dependencies — the usual answer is to add more structure: more project managers, more coordinators, more governance layers, more reporting chains, more workstreams, more ceremonies and more intermediaries.\n\nThe larger the transformation becomes, the more the programme starts managing itself instead of transforming the operation. Coordination becomes the main cost. Context is diluted. Decisions slow down. Accountability fragments. The distance between operational reality and strategic planning increases until the programme can no longer see the system it was created to transform.\nTags: Authority, permissions and delegation 9.53%; Decisions and responsibility 23.81%; Evidence, provenance and attribution 9.52%; Experimentation, falsification and counterexamples 9.52%; Transformation and operational continuity 47.62%\nCard: https://dakleyer.github.io/perspective-beyond/sources/jubap-net-tiger-team-model-n1295/\nSource document: https://jubap.net/jupap-net-tiger-team-model/\n\nJubAp.Net → From Frontier Engineering to Ecosystem Awareness — Twenty Years of Architectural Continuity · lectura enlazada desde el documento. Desde «JubAp.Net», el enlace «architectural-continuity account» abre «From Frontier Engineering to Ecosystem Awareness — Twenty Years of Architectural Continuity».\nRelationship source: https://jubap.net/\n\n## From Frontier Engineering to Ecosystem Awareness — Twenty Years of Architectural Continuity\nGEPLAN, airport transformation, xSeil and Phylons belong to different operating worlds. Their common thread is a practical architectural problem: a decision depends on information, resources, relationships and assumptions that can change while the system is running. Twenty years of work across those environments gave that problem concrete form. Current research makes its recurring structure explicit and reusable.\n\nHistorical projects supply engineering evidence. Research develops models and interfaces from that experience; pre-standardization work exposes those proposals to wider technical discussion.\nTags: Cartography and ecosystem signals 22.73%; Evidence, provenance and attribution 22.73%; Mobility and infrastructure 22.72%; Transformation and operational continuity 31.82%\nCard: https://dakleyer.github.io/perspective-beyond/sources/from-frontier-engineering-to-ecosystem-awareness-twenty-years-of-architectural-n2086/\nSource document: https://jubap.net/frontier-engineering-ecosystem-awareness-architectural-continuity/\n\n"
 }

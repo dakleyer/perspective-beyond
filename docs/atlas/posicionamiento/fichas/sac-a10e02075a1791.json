@@ -15,9 +15,8 @@
   "clusters": [
     "research"
   ],
-  "context": "## Revisión cruzada con el oráculo R01 — README.md\nContenido de la fuente: Instrucción y alcance · Evidencia y relaciones — R01-X10 · Conversación y decisión.\nEtiquetas: Decisiones y responsabilidad 21.05%; Investigación y documentación técnica 26.32%; Evidencia, procedencia y atribución 21.05%; Experimentación, falsación y contraejemplos 26.32%; Transformación y continuidad operativa 5.26%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-a10e02075a1791.html\nDocumento de origen: https://github.com/dakleyer/structural-awareness-contributions/blob/fa2c411c810950fb94924caae38938c52dfd5014/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/README_VNext.md\n\n",
-  "readingSource": null,
-  "tokens": 204,
+  "context": "## Revisión cruzada con el oráculo R01 — README.md\nContenido de la fuente: Instrucción y alcance · Evidencia y relaciones — R01-X10 · Conversación y decisión.\nTags: Decisions and responsibility 21.05%; Research and technical documentation 26.32%; Evidence, provenance and attribution 21.05%; Experimentation, falsification and counterexamples 26.32%; Transformation and operational continuity 5.26%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-a10e02075a1791.html\nSource document: https://github.com/dakleyer/structural-awareness-contributions/blob/fa2c411c810950fb94924caae38938c52dfd5014/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/README_VNext.md\n\n",
+  "tokens": 194,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -25,10 +24,11 @@
       "to": "sac-d651356ec58c92",
       "title": "Corpus Document Control — DC-GH-01",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «14.13 Disposition of every existing review candidate» con el rótulo «existing review».",
-      "relationTokens": 103,
-      "fichaTokens": 161,
+      "relationTokens": 101,
+      "fichaTokens": 155,
       "tagWeights": {
         "autoridad": 0.2353,
         "documentacion": 0.5294,
@@ -45,10 +45,11 @@
       "to": "sac-d880e648029a1e",
       "title": "Continuación del plan — lectura del README y fundamentos",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Los 46 expedientes y sus enlaces» con el rótulo «README_VNext.md».",
-      "relationTokens": 118,
-      "fichaTokens": 173,
+      "relationTokens": 116,
+      "fichaTokens": 168,
       "tagWeights": {
         "cartografia": 0.1111,
         "decision": 0.1111,
@@ -65,12 +66,13 @@
       "to": "sac-fe7f2e516aab4b",
       "title": "DC-GH-01 v1.0 — Document-control conformance audit",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Corpus action and VNext-promotion plan reception — 25 October 2026» con el rótulo «ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/README_VNext.md».",
-      "relationTokens": 159,
-      "fichaTokens": 145,
+      "relationTokens": 157,
+      "fichaTokens": 143,
       "tagWeights": {
-        "documentacion": 1.0
+        "documentacion": 1
       },
       "clusters": [
         "research"
@@ -83,10 +85,11 @@
       "to": "sac-087bbc064c2db1",
       "title": "DDS Stage A — VNext",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Second-pass candidate95 — case namespaces in DDS» con el rótulo «research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/README_VNext.md».",
-      "relationTokens": 148,
-      "fichaTokens": 218,
+      "relationTokens": 146,
+      "fichaTokens": 209,
       "tagWeights": {
         "documentacion": 0.25,
         "evidencia": 0.25,
@@ -104,10 +107,11 @@
       "to": "sac-ae5cfdf16d6d42",
       "title": "Preserved non-canonical working inputs",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Archivo completo de enlaces del corte» con el rótulo «Revisión cruzada con el oráculo R01 — README.md».",
-      "relationTokens": 127,
-      "fichaTokens": 175,
+      "relationTokens": 125,
+      "fichaTokens": 169,
       "tagWeights": {
         "decision": 0.3334,
         "documentacion": 0.3333,
@@ -124,10 +128,11 @@
       "to": "sac-48278af622a66e",
       "title": "Acceso a la revisión",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura con el rótulo «Única VNext».",
-      "relationTokens": 117,
-      "fichaTokens": 165,
+      "relationTokens": 115,
+      "fichaTokens": 161,
       "tagWeights": {
         "documentacion": 0.6667,
         "experimentacion": 0.3333
@@ -143,12 +148,13 @@
       "to": "sac-ec187e0b18f90d",
       "title": "Partial experiments and feasibility diagnostics",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Revisión cruzada con el oráculo R01 — README.md» con el rótulo «documento original».",
-      "relationTokens": 129,
-      "fichaTokens": 140,
+      "relationTokens": 127,
+      "fichaTokens": 136,
       "tagWeights": {
-        "experimentacion": 1.0
+        "experimentacion": 1
       },
       "clusters": [
         "research"
@@ -161,10 +167,11 @@
       "to": "sac-129b34f5d3c52c",
       "title": "Plan de trabajo — revisión para personas",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Revisión cruzada con el oráculo R01 — README.md» con el rótulo «Método».",
-      "relationTokens": 130,
-      "fichaTokens": 175,
+      "relationTokens": 128,
+      "fichaTokens": 168,
       "tagWeights": {
         "cartografia": 0.0625,
         "documentacion": 0.6875,
@@ -181,10 +188,11 @@
       "to": "sac-77f35d7aa816fc",
       "title": "Oráculo / harness R01 C02 — VNext de auditoría",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Instrucción y alcance» con el rótulo «VNext del oráculo R01».",
-      "relationTokens": 134,
-      "fichaTokens": 202,
+      "relationTokens": 132,
+      "fichaTokens": 195,
       "tagWeights": {
         "documentacion": 0.2353,
         "evidencia": 0.0588,
@@ -201,10 +209,11 @@
       "to": "sac-a6c3384f7ddf1c",
       "title": "Primera preparación de la quinta pasada — trabajos externos y piezas aprovechables",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Quinta pasada — investigación externa, diferencial y reutilización» con el rótulo «mapa externo preparatorio».",
-      "relationTokens": 137,
-      "fichaTokens": 174,
+      "relationTokens": 135,
+      "fichaTokens": 168,
       "tagWeights": {
         "decision": 0.1111,
         "documentacion": 0.4445,
@@ -221,10 +230,11 @@
       "to": "sac-d880e648029a1e",
       "title": "Continuación del plan — lectura del README y fundamentos",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Revisión a fondo de los planes de cambio — 6 octubre 2026» con el rótulo «Visión conjunta y tandas en EP README VNext».",
-      "relationTokens": 145,
-      "fichaTokens": 173,
+      "relationTokens": 143,
+      "fichaTokens": 168,
       "tagWeights": {
         "cartografia": 0.1111,
         "decision": 0.1111,
@@ -241,10 +251,11 @@
       "to": "sac-77f35d7aa816fc",
       "title": "Oráculo / harness R01 C02 — VNext de auditoría",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "referencia de la fuente",
       "reading": "La fuente enlaza esta lectura en «Relaciones cruzadas examinadas y consecuencias» con el rótulo «Primer R01 / VNext».",
-      "relationTokens": 132,
-      "fichaTokens": 202,
+      "relationTokens": 130,
+      "fichaTokens": 195,
       "tagWeights": {
         "documentacion": 0.2353,
         "evidencia": 0.0588,

@@ -1,13 +1,13 @@
 {
   "schema": "perspective-beyond/assistant-source-v1",
-  "revision": "2d9cbf5b120f4280cb8a9d22e01ede3925e7325e",
-  "edition": "2026-11-04-mantenimiento-mapa-1",
-  "graphSha256": "8733a98ca9844a1b5f85096f6b68c910bda9d1aed95e0192c359522a1a641ece",
+  "revision": "38082886300beecc7f74c83b261c39bf7915073e",
+  "edition": "2026-11-04-institutional-entry-1",
+  "graphSha256": "f29d7b1eedeb88387238d2abda347f810d2179c5fdbead47c3ef48507ab20ca5",
   "examples": [
     {
       "slug": "arquitectura-y-lenguajes",
-      "title": "Pensar entre lenguajes y oficios",
-      "description": "La arquitectura como capacidad para reconocer estructuras y construir traducciones que sirven para operar.",
+      "title": "Thinking between languages and trades",
+      "description": "Architecture as the capability to recognise structures and build translations that serve operations.",
       "point": "D-285",
       "weights": [
         [
@@ -22,8 +22,8 @@
       "role": "embajador",
       "purpose": "paraphrase",
       "format": "conversacion",
-      "instruction": "Explica el pensamiento documentado de Iván Abril con su vocabulario arquitectónico y un ejemplo de traducción entre dos oficios.",
-      "configuration": "posicionamiento=D-285&tokens=2000&max=60&red=ideas&sentido=ambas&modo=federated&rol=embajador&lectura=paraphrase&enfoque=personalizado&instruccion=Explica+el+pensamiento+documentado+de+Iv%C3%A1n+Abril+con+su+vocabulario+arquitect%C3%B3nico+y+un+ejemplo+de+traducci%C3%B3n+entre+dos+oficios.&peso=tema%3Aempresa%3A50&peso=tema%3Amatematicas%3A50",
+      "instruction": "Explain Iván Abril's documented thought using his architectural vocabulary and an example of translation between two trades.",
+      "configuration": "posicionamiento=D-285&tokens=2000&max=60&red=ideas&sentido=ambas&modo=federated&rol=embajador&lectura=paraphrase&enfoque=personalizado&instruccion=Explain+Iv%C3%A1n+Abril%27s+documented+thought+using+his+architectural+vocabulary+and+an+example+of+translation+between+two+trades.&peso=tema%3Aempresa%3A50&peso=tema%3Amatematicas%3A50",
       "text": "ejemplos/arquitectura-y-lenguajes.txt",
       "html": "ejemplos/arquitectura-y-lenguajes.html",
       "selected": [
@@ -38,21 +38,21 @@
         "apoyo:D-285:dg-structure",
         "apoyo:D-029:dg-structure"
       ],
-      "bytes": 10940,
-      "sha256": "7edbef025d715cba3d125b9fa038ceb17fac775953ef9596ece1b516ded9463c",
+      "bytes": 11178,
+      "sha256": "f132903e1013ef24f0e5f624e4639c64b7b3634ddb1931bcc939bf5363f0fd10",
       "readingBudget": {
         "limit": 2000,
-        "used": 1721,
-        "remaining": 279,
-        "nextBlock": 364,
+        "used": 1671,
+        "remaining": 329,
+        "nextBlock": 361,
         "encoding": "o200k_base",
-        "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
+        "accounting": "Sum of independently encoded blocks: document header, card and incoming relationship. The budget applies to selected reading content."
       }
     },
     {
       "slug": "conocimiento-tacito",
-      "title": "Conservar la capacidad que hace funcionar las cosas",
-      "description": "Conocimiento tácito, juicio de campo y transmisión de capacidades en los Tiger Teams.",
+      "title": "Preserving the capability that makes things work",
+      "description": "Tacit knowledge, field judgement and capability transmission in Tiger Teams.",
       "point": "N1287",
       "weights": [
         [
@@ -67,8 +67,8 @@
       "role": "consultor",
       "purpose": "ideas",
       "format": "web",
-      "instruction": "Explica cómo conservar el juicio de las personas al rediseñar una organización; muestra el mecanismo y su aplicación práctica.",
-      "configuration": "posicionamiento=N1287&tokens=2000&max=60&red=ideas&sentido=ambas&modo=federated&rol=consultor&lectura=ideas&enfoque=personalizado&instruccion=Explica+c%C3%B3mo+conservar+el+juicio+de+las+personas+al+redise%C3%B1ar+una+organizaci%C3%B3n%3B+muestra+el+mecanismo+y+su+aplicaci%C3%B3n+pr%C3%A1ctica.&peso=tema%3Acapacidad-humana%3A70&peso=tema%3Aempresa%3A30",
+      "instruction": "Explain how to preserve people's judgement when redesigning an organisation; show the mechanism and its practical application.",
+      "configuration": "posicionamiento=N1287&tokens=2000&max=60&red=ideas&sentido=ambas&modo=federated&rol=consultor&lectura=ideas&enfoque=personalizado&instruccion=Explain+how+to+preserve+people%27s+judgement+when+redesigning+an+organisation%3B+show+the+mechanism+and+its+practical+application.&peso=tema%3Acapacidad-humana%3A70&peso=tema%3Aempresa%3A30",
       "text": "ejemplos/conocimiento-tacito.txt",
       "html": "ejemplos/conocimiento-tacito.html",
       "selected": [
@@ -90,21 +90,21 @@
         "apoyo:GH037:C39",
         "concepto:F002"
       ],
-      "bytes": 13059,
-      "sha256": "b0d56fbe75b55803e467509c9fd58661081aed41a318dbf5b653e75718b8cc1a",
+      "bytes": 13272,
+      "sha256": "b3ea174c11e77fa38875a9940f2c61c4b10b6bd70d40667cb38bc9f462b33ad1",
       "readingBudget": {
         "limit": 2000,
-        "used": 1886,
-        "remaining": 114,
-        "nextBlock": 405,
+        "used": 1772,
+        "remaining": 228,
+        "nextBlock": 399,
         "encoding": "o200k_base",
-        "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
+        "accounting": "Sum of independently encoded blocks: document header, card and incoming relationship. The budget applies to selected reading content."
       }
     },
     {
       "slug": "integridad-estructural",
-      "title": "Observar la estructura que sostiene una decisión",
-      "description": "Conciencia estructural y relaciones entre integridad, representación y sistemas adaptativos.",
+      "title": "Observing the structure supporting a decision",
+      "description": "Structural awareness and relationships between integrity, representation and adaptive systems.",
       "point": "T1499",
       "weights": [
         [
@@ -119,8 +119,8 @@
       "role": "investigador",
       "purpose": "explore",
       "format": "audio",
-      "instruction": "Prepara una explicación hablada de las ideas y de las relaciones documentadas en esta selección.",
-      "configuration": "posicionamiento=T1499&tokens=2000&max=60&red=ideas&sentido=ambas&modo=federated&rol=investigador&lectura=explore&enfoque=personalizado&instruccion=Prepara+una+explicaci%C3%B3n+hablada+de+las+ideas+y+de+las+relaciones+documentadas+en+esta+selecci%C3%B3n.&peso=tema%3Aevidencia%3A50&peso=tema%3Arepresentacion%3A50",
+      "instruction": "Prepare a spoken explanation of the ideas and relationships documented in this selection.",
+      "configuration": "posicionamiento=T1499&tokens=2000&max=60&red=ideas&sentido=ambas&modo=federated&rol=investigador&lectura=explore&enfoque=personalizado&instruccion=Prepare+a+spoken+explanation+of+the+ideas+and+relationships+documented+in+this+selection.&peso=tema%3Aevidencia%3A50&peso=tema%3Arepresentacion%3A50",
       "text": "ejemplos/integridad-estructural.txt",
       "html": "ejemplos/integridad-estructural.html",
       "selected": [
@@ -154,21 +154,21 @@
         "concepto:B538",
         "concepto:B544"
       ],
-      "bytes": 13575,
-      "sha256": "b866f1783e07205533364ddae6fd18eed6bf8fc1b37fe7b11ecdff83aaa1e925",
+      "bytes": 13668,
+      "sha256": "5b93b7547458883b9b2672af20ef8807032ba61ba114e695cea4a1da4da9bec7",
       "readingBudget": {
         "limit": 2000,
-        "used": 1783,
-        "remaining": 217,
-        "nextBlock": 490,
+        "used": 1682,
+        "remaining": 318,
+        "nextBlock": 477,
         "encoding": "o200k_base",
-        "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
+        "accounting": "Sum of independently encoded blocks: document header, card and incoming relationship. The budget applies to selected reading content."
       }
     },
     {
       "slug": "valor-y-ejecucion",
-      "title": "De una intención empresarial a una capacidad operativa",
-      "description": "Creación de valor, coordinación entre actores y ejecución en el entorno americano.",
+      "title": "From business intention to operational capability",
+      "description": "Value creation, coordination between actors and execution in the American environment.",
       "point": "U2",
       "weights": [
         [
@@ -183,32 +183,33 @@
       "role": "consultor",
       "purpose": "ideas",
       "format": "video",
-      "instruction": "Explica cómo se convierte una intención de negocio en ejecución coordinada y capacidad que permanece.",
-      "configuration": "posicionamiento=U2&tokens=2000&max=60&red=ideas&sentido=ambas&modo=federated&rol=consultor&lectura=ideas&enfoque=personalizado&instruccion=Explica+c%C3%B3mo+se+convierte+una+intenci%C3%B3n+de+negocio+en+ejecuci%C3%B3n+coordinada+y+capacidad+que+permanece.&peso=tema%3Aempresa%3A60&peso=tema%3Atransformacion%3A40",
+      "instruction": "Explain how a business intention becomes coordinated execution and lasting capability.",
+      "configuration": "posicionamiento=U2&tokens=2000&max=60&red=ideas&sentido=ambas&modo=federated&rol=consultor&lectura=ideas&enfoque=personalizado&instruccion=Explain+how+a+business+intention+becomes+coordinated+execution+and+lasting+capability.&peso=tema%3Aempresa%3A60&peso=tema%3Atransformacion%3A40",
       "text": "ejemplos/valor-y-ejecucion.txt",
       "html": "ejemplos/valor-y-ejecucion.html",
       "selected": [
         "U2",
+        "imsv-entidades",
         "E2",
         "U1312",
-        "U1322",
-        "U1325"
+        "U1322"
       ],
       "relations": [
+        "documento:imsv-institutional-link-08",
         "navigation:position-nav-E2-U2",
         "navigation:position-nav-U2-U1312",
         "navigation:position-nav-U2-U1322",
-        "navigation:position-nav-U2-U1325"
+        "documento:imsv-institutional-link-06"
       ],
-      "bytes": 13879,
-      "sha256": "9d81b7009efe83d969e70dfee7484e44f7e32715265accccb63632ca32e027b9",
+      "bytes": 12536,
+      "sha256": "824edb0cd26e426697e94908a3529ab1fcf90e7126c7d326106a8c1bf1792781",
       "readingBudget": {
         "limit": 2000,
-        "used": 1938,
-        "remaining": 62,
-        "nextBlock": 175,
+        "used": 1556,
+        "remaining": 444,
+        "nextBlock": 560,
         "encoding": "o200k_base",
-        "accounting": "Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado."
+        "accounting": "Sum of independently encoded blocks: document header, card and incoming relationship. The budget applies to selected reading content."
       }
     }
   ]

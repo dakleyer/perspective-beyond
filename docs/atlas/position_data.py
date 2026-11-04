@@ -90,7 +90,7 @@ def enrich_catalog(base,catalog):
     if not dest or dest in seen:continue
     if byid[dest]['title'].lower() in {'legal notice','privacy policy','contact','contact us'}:continue
     seen.add(dest)
-    links.append({'id':'position-nav-'+sid+'-'+dest,'from':sid,'to':dest,'kind':'lectura enlazada desde el documento',
+    links.append({'id':'position-nav-'+sid+'-'+dest,'from':sid,'to':dest,'kind':'reading linked from the document',
       'reading':'Desde «'+source['title']+'», el enlace «'+label[:160]+'» abre «'+byid[dest]['title']+'».',
       'evidence':url,'href':absolute})
     if len(seen)>=8:break
@@ -127,7 +127,7 @@ def enrich_catalog(base,catalog):
  catalog['source_tag_weights']=compositions
  catalog['tag_weight_overrides']={sid:normalize_weights(profile) for sid,profile in overrides.items()}
  catalog['tag_weight_method']={'schema':'perspective-beyond/tag-composition-v1','unit':'proportion','sum':1,
-  'method':'Perfil editorial de lectura. Las composiciones automáticas ponderan señales en título (4), resumen (3), conceptos vinculados (1) y extracto público cuando está disponible (2), con una base positiva por etiqueta previa. Los perfiles editoriales explícitos prevalecen. Redondeo a 10000 unidades.',
+  'method':'Editorial reading profile. Automatic compositions weight signals in the title (4), summary (3), linked concepts (1) and public extract when available (2), with a positive base for each previous tag. Explicit editorial profiles take precedence. Rounding to 10000 units.',
   'editorial_overrides':list(overrides),'editable':True}
  catalog['positioning']={'schema':'perspective-beyond/positioning-v1','url':'posicionamiento/',
   'defaultTokens':2000,'defaultSources':LANDINGS,
@@ -137,12 +137,12 @@ def enrich_catalog(base,catalog):
 
 def node_block(node,topics):
  tags='; '.join(topics[k]+' '+format(v*100,'.2f')+'%' for k,v in sorted(node['tagWeights'].items()))
- return '## '+node['title']+'\n'+node.get('reading',node['summary'])+'\nEtiquetas: '+tags+'\nFicha: '+node['url']+'\n'+(
-  'Documento de origen: '+node['original']+'\n' if node.get('original') else '')+'\n'
+ return '## '+node['title']+'\n'+node.get('reading',node['summary'])+'\nTags: '+tags+'\nCard: '+node['url']+'\n'+(
+  'Source document: '+node['original']+'\n' if node.get('original') else '')+'\n'
 
 def edge_block(edge,nodes):
  return nodes[edge[1]]['title']+' → '+nodes[edge[2]]['title']+' · '+edge[3]+'. '+edge[4]+(
-  '\nFuente de la relación: '+edge[5] if edge[5] else '')+'\n\n'
+  '\nRelationship source: '+edge[5] if edge[5] else '')+'\n\n'
 
 def enrich_graph(graph,catalog):
  sys.path.insert(0,str(ROOT/'tokenizer_bot'))
@@ -179,16 +179,16 @@ def enrich_graph(graph,catalog):
    node['readingSource']={k:record[k] for k in ['url','section','observed','sourceSha256']}
    node['readingSummary']=re.split(r'(?<=[.!?])\s+',record['text'])[0]
   node['contextTokens']=len(enc.encode(node_block(node,graph['topics'])))
-  if node['type']=='concepto':node['positionHeaderTokens']=len(enc.encode('# Posicionamiento · '+node['title']+'\nConcepto de entrada: '+node['url']+'\n\n'))
+  if node['type']=='concepto':node['positionHeaderTokens']=len(enc.encode('# Positioning · '+node['title']+'\nEntry concept: '+node['url']+'\n\n'))
  for document in docs.values():
   document['fichas'].sort();document['aliases']=sorted(set(document['aliases']))
   if len(document['fichas'])>5 and 'totonacapan.com' in document['url']:
    document['title']='Biografía de Iván Abril Palma · Instituto del Totonacapan'
-  document['header']='# Posicionamiento · '+document['title']+'\nDocumento de origen: '+document['url']+'\n\n'
+  document['header']='# Positioning · '+document['title']+'\nSource document: '+document['url']+'\n\n'
   document['headerTokens']=len(enc.encode(document['header']))
- atlas_doc={'id':'doc-atlas','title':'Atlas global · Perspective Beyond','url':ATLAS,'fichas':[],
+ atlas_doc={'id':'doc-atlas','title':'Global Atlas · Perspective Beyond','url':ATLAS,'fichas':[],
   'entrySources':list(dict.fromkeys(LANDINGS.values())),'aliases':[],
-  'header':'# Posicionamiento · Atlas global · Perspective Beyond\nDocumento de origen: '+ATLAS+'\n\n'}
+  'header':'# Positioning · Global Atlas · Perspective Beyond\nSource document: '+ATLAS+'\n\n'}
  atlas_doc['headerTokens']=len(enc.encode(atlas_doc['header']))
  docs['doc-atlas']=atlas_doc
  for sid,groups in catalog.get('positioning',{}).get('overviewSources',{}).items():
@@ -202,6 +202,6 @@ def enrich_graph(graph,catalog):
  graph['entryRoutes']=catalog['text_entries']
  graph['sessionProfiles']=catalog['session_profiles']
  graph['tokenization']={'encoding':'o200k_base','library':'tiktoken','version':tiktoken.__version__,
-  'accounting':'Suma de bloques codificados de forma independiente: cabecera del documento, ficha y relación de llegada. El presupuesto se aplica al contenido de lectura seleccionado.',
+  'accounting':'Sum of independently encoded blocks: document header, card and incoming relationship. The budget applies to selected reading content.',
   'reference':'https://github.com/openai/tiktoken','nodeFormat':'positioning-node-v1','edgeFormat':'positioning-edge-v1'}
  return graph

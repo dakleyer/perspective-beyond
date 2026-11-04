@@ -14,7 +14,7 @@ function integer(params, name, min, max) {
   const raw=params.get(name)??String(DEFAULTS[name]);
   const value=Number(raw);
   if(!/^\d+$/.test(raw)||!Number.isInteger(value)||value<min||value>max)
-    throw Error(`${name} debe estar entre ${min} y ${max}.`);
+    throw Error(`${name} must be between ${min} y ${max}.`);
   return value;
 }
 

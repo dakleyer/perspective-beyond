@@ -13,9 +13,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Una ley tiene principios; un expediente exige requisitos\nINTERLOCUTOR (pregunta editorial, no pronunciada necesariamente) — ¿Puede una administración cumplir el procedimiento y frustrar la finalidad por la que se creó?\nREFLEXIÓN DEL DIÁLOGO (reconstrucción editorial cotejada con el escrito) — En «Jugar a las civilizaciones», Iván no se limita a quejarse de burocracia. Distingue dos planos que deberían relacionarse, pero no siempre coinciden: principios que justifican la norma —equidad, eficiencia, justicia, seguridad— y requisitos operativos mediante los que una institución intenta aplicarlos y demostrarlo. El ejemplo es una compra pública con tres ofertas formalmente comparadas mientras el decisor conoce una cuarta alternativa potencialmente mejor. Haber documentado el trámite no demuestra que se haya honrado la finalidad. A la inversa, actuar eficazmente puede resultar difícil cuando cumplir cada requisito formal consume las capacidades necesarias para producir el resultado. El análisis no certifica irregularidades en un procedimiento concreto ni invita a ignorar la ley: propone evaluar dos evidencias distintas, conformidad con requisitos y consecución de principios. La arquitectura normativa fracasa cuando el indicador de cumplimiento desplaza por completo el propósito que debía servir.\nEtiquetas: Autoridad, permisos y delegación 34.29%; Estándares e interoperabilidad 45.71%; Legitimidad y principios 20.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-169\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-169.html\n\n",
-  "readingSource": null,
-  "tokens": 344,
+  "context": "## Una ley tiene principios; un expediente exige requisitos\nINTERLOCUTOR (pregunta editorial, no pronunciada necesariamente) — ¿Puede una administración cumplir el procedimiento y frustrar la finalidad por la que se creó?\nREFLEXIÓN DEL DIÁLOGO (reconstrucción editorial cotejada con el escrito) — En «Jugar a las civilizaciones», Iván no se limita a quejarse de burocracia. Distingue dos planos que deberían relacionarse, pero no siempre coinciden: principios que justifican la norma —equidad, eficiencia, justicia, seguridad— y requisitos operativos mediante los que una institución intenta aplicarlos y demostrarlo. El ejemplo es una compra pública con tres ofertas formalmente comparadas mientras el decisor conoce una cuarta alternativa potencialmente mejor. Haber documentado el trámite no demuestra que se haya honrado la finalidad. A la inversa, actuar eficazmente puede resultar difícil cuando cumplir cada requisito formal consume las capacidades necesarias para producir el resultado. El análisis no certifica irregularidades en un procedimiento concreto ni invita a ignorar la ley: propone evaluar dos evidencias distintas, conformidad con requisitos y consecución de principios. La arquitectura normativa fracasa cuando el indicador de cumplimiento desplaza por completo el propósito que debía servir.\nTags: Authority, permissions and delegation 34.29%; Standards and interoperability 45.71%; Legitimacy and principles 20.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-169\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-169.html\n\n",
+  "tokens": 337,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,10 +22,11 @@
       "to": "dg-operations",
       "title": "Operación real",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 20,
-      "fichaTokens": 217,
+      "fichaTokens": 191,
       "tagWeights": {
         "aprendizaje": 0.059,
         "autoridad": 0.1375,
@@ -56,10 +56,11 @@
       "to": "dg-governance",
       "title": "Gobernanza y legitimidad",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 273,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.0321,
         "autoridad": 0.4057,
@@ -93,10 +94,11 @@
       "to": "dg-legitimacy_gap",
       "title": "Principios, requisitos y deuda de legitimidad",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 26,
-      "fichaTokens": 154,
+      "fichaTokens": 140,
       "tagWeights": {
         "aprendizaje": 0.0625,
         "autoridad": 0.5241,
@@ -118,12 +120,13 @@
       "to": "D-116",
       "title": "Un control puede aprobar y el sistema seguir fallando",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una ley tiene principios; un expediente exige requisitos» con «Un control puede aprobar y el sistema seguir fallando».",
       "relationTokens": 54,
-      "fichaTokens": 299,
+      "fichaTokens": 294,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"
@@ -136,10 +139,11 @@
       "to": "D-118",
       "title": "Publicar no demuestra que alguien recibió ni actuó",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una ley tiene principios; un expediente exige requisitos» con «Publicar no demuestra que alguien recibió ni actuó». Permite contrastar Gobernanza y legitimidad.",
       "relationTokens": 64,
-      "fichaTokens": 263,
+      "fichaTokens": 258,
       "tagWeights": {
         "autoridad": 0.5,
         "decision": 0.5
@@ -155,10 +159,11 @@
       "to": "D-153",
       "title": "El control ceremonial se parece a un sistema de control",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una ley tiene principios; un expediente exige requisitos» con «El control ceremonial se parece a un sistema de control». Permite contrastar Gobernanza y legitimidad.",
       "relationTokens": 64,
-      "fichaTokens": 317,
+      "fichaTokens": 312,
       "tagWeights": {
         "autoridad": 0.25,
         "decision": 0.25,
@@ -175,10 +180,11 @@
       "to": "D-224",
       "title": "Compraron control y consiguieron exactamente lo contrario",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Compraron control y consiguieron exactamente lo contrario» con «Una ley tiene principios; un expediente exige requisitos». Permite contrastar Gobernanza y legitimidad, Operación real.",
       "relationTokens": 66,
-      "fichaTokens": 427,
+      "fichaTokens": 420,
       "tagWeights": {
         "autoridad": 0.3333,
         "evidencia": 0.6667
@@ -194,10 +200,11 @@
       "to": "D-231",
       "title": "Entregó una investigación; el profesor ni siquiera la leyó",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Entregó una investigación; el profesor ni siquiera la leyó» con «Una ley tiene principios; un expediente exige requisitos». Permite contrastar Principios, requisitos y deuda de legitimidad.",
       "relationTokens": 74,
-      "fichaTokens": 419,
+      "fichaTokens": 412,
       "tagWeights": {
         "aprendizaje": 0.5,
         "autoridad": 0.5
@@ -213,10 +220,11 @@
       "to": "D-235",
       "title": "El mejor informe puede salvar el puesto y perder la operación",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El mejor informe puede salvar el puesto y perder la operación» con «Una ley tiene principios; un expediente exige requisitos». Permite contrastar Gobernanza y legitimidad.",
       "relationTokens": 66,
-      "fichaTokens": 450,
+      "fichaTokens": 442,
       "tagWeights": {
         "autoridad": 0.3334,
         "decision": 0.3333,
@@ -233,10 +241,11 @@
       "to": "D-237",
       "title": "Obedecer todas las reglas puede hacer imposible el resultado",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Obedecer todas las reglas puede hacer imposible el resultado» con «Una ley tiene principios; un expediente exige requisitos». Permite contrastar Principios, requisitos y deuda de legitimidad, Operación real.",
       "relationTokens": 74,
-      "fichaTokens": 438,
+      "fichaTokens": 430,
       "tagWeights": {
         "autoridad": 0.2125,
         "compromisos": 0.15,
@@ -254,12 +263,13 @@
       "to": "D-289",
       "title": "El Estado puede leerse como un videojuego con muchos bugs",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El Estado puede leerse como un videojuego con muchos bugs» con «Una ley tiene principios; un expediente exige requisitos». Permite contrastar Gobernanza y legitimidad, Principios, requisitos y deuda de legitimidad.",
       "relationTokens": 78,
-      "fichaTokens": 371,
+      "fichaTokens": 367,
       "tagWeights": {
-        "autoridad": 1.0
+        "autoridad": 1
       },
       "clusters": [
         "dialogos"
@@ -272,10 +282,11 @@
       "to": "D-296",
       "title": "Una ética institucional también puede ser impugnada desde fuera",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una ética institucional también puede ser impugnada desde fuera» con «Una ley tiene principios; un expediente exige requisitos». Permite contrastar Gobernanza y legitimidad, Principios, requisitos y deuda de legitimidad.",
       "relationTokens": 76,
-      "fichaTokens": 389,
+      "fichaTokens": 384,
       "tagWeights": {
         "autoridad": 0.35,
         "decision": 0.35,
@@ -292,10 +303,11 @@
       "to": "D-170",
       "title": "O como, o lleno formatos",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Principios, requisitos y deuda de legitimidad, Operación real desde las situaciones que describe cada texto.",
       "relationTokens": 49,
-      "fichaTokens": 335,
+      "fichaTokens": 331,
       "tagWeights": {
         "autoridad": 0.85,
         "legitimidad": 0.15
@@ -311,10 +323,11 @@
       "to": "D-172",
       "title": "Un problema filosófico se convierte en una respuesta administrativa",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Principios, requisitos y deuda de legitimidad, Gobernanza y legitimidad desde las situaciones que describe cada texto.",
       "relationTokens": 56,
-      "fichaTokens": 331,
+      "fichaTokens": 324,
       "tagWeights": {
         "autoridad": 0.375,
         "estandares": 0.625
@@ -330,10 +343,11 @@
       "to": "D-171",
       "title": "El débil falla requisitos; el poder falla principios",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Principios, requisitos y deuda de legitimidad, Gobernanza y legitimidad desde las situaciones que describe cada texto.",
       "relationTokens": 55,
-      "fichaTokens": 368,
+      "fichaTokens": 363,
       "tagWeights": {
         "autoridad": 0.5625,
         "decision": 0.1875,

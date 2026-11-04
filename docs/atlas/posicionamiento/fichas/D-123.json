@@ -12,9 +12,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Cuando el presente y la identidad viven en tiempos distintos\nINTERLOCUTOR (pregunta editorial) — ¿Podemos estar físicamente en el presente y actuar desde una obligación que quedó anclada en el pasado o en un futuro imaginado?\nREFLEXIÓN DEL ESCRITO (síntesis editorial) — La distinción original no es solo nostalgia frente a presente. Iván llama «perspectiva» a una relación temporal síncrona entre los elementos del yo y del no-yo; reserva «posicionamiento» para el caso asíncrono, cuando parte de aquello con lo que uno se identifica permanece anclado en otro momento. La madre pide algo ahora, pero la persona sigue habitando mentalmente una tarea futura, un agravio pasado o una sensación corporal no elaborada. Puede no haberla verbalizado ni tenerla en el foco de atención; eso no impide que condicione la relación con el entorno. La formulación parte de hipótesis sobre el flujo del campo de consciencia, la clasificación pasado-presente-futuro y la interdependencia yo/no-yo. Iván no presenta el desajuste temporal como diagnóstico clínico: lo utiliza para explicar por qué dos personas en un mismo lugar pueden operar desde temporalidades distintas.\nEtiquetas: Aprendizaje y transmisión de capacidades 50.00%; Cambio de perspectiva 50.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-123\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-123.html\n\n",
-  "readingSource": null,
-  "tokens": 334,
+  "context": "## Cuando el presente y la identidad viven en tiempos distintos\nINTERLOCUTOR (pregunta editorial) — ¿Podemos estar físicamente en el presente y actuar desde una obligación que quedó anclada en el pasado o en un futuro imaginado?\nREFLEXIÓN DEL ESCRITO (síntesis editorial) — La distinción original no es solo nostalgia frente a presente. Iván llama «perspectiva» a una relación temporal síncrona entre los elementos del yo y del no-yo; reserva «posicionamiento» para el caso asíncrono, cuando parte de aquello con lo que uno se identifica permanece anclado en otro momento. La madre pide algo ahora, pero la persona sigue habitando mentalmente una tarea futura, un agravio pasado o una sensación corporal no elaborada. Puede no haberla verbalizado ni tenerla en el foco de atención; eso no impide que condicione la relación con el entorno. La formulación parte de hipótesis sobre el flujo del campo de consciencia, la clasificación pasado-presente-futuro y la interdependencia yo/no-yo. Iván no presenta el desajuste temporal como diagnóstico clínico: lo utiliza para explicar por qué dos personas en un mismo lugar pueden operar desde temporalidades distintas.\nTags: Learning and capability transmission 50.00%; Change of perspective 50.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-123\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-123.html\n\n",
+  "tokens": 329,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "dg-perspective",
       "title": "Nueva Perspectiva",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 190,
+      "fichaTokens": 173,
       "tagWeights": {
         "aprendizaje": 0.117,
         "cambio-regimen": 0.019,
@@ -52,10 +52,11 @@
       "to": "dg-inner",
       "title": "Atención y sentido",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 191,
+      "fichaTokens": 172,
       "tagWeights": {
         "aprendizaje": 0.4331,
         "autoridad": 0.0368,
@@ -83,10 +84,11 @@
       "to": "dg-identity",
       "title": "Identidad, roles y posicionamiento",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 25,
-      "fichaTokens": 234,
+      "fichaTokens": 211,
       "tagWeights": {
         "aprendizaje": 0.2833,
         "autoridad": 0.0459,
@@ -116,10 +118,11 @@
       "to": "D-163",
       "title": "La conciencia de morir y el impulso de seguir",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «La conciencia de morir y el impulso de seguir» con «Cuando el presente y la identidad viven en tiempos distintos». Permite contrastar Identidad, roles y posicionamiento, Atención y sentido.",
       "relationTokens": 70,
-      "fichaTokens": 361,
+      "fichaTokens": 353,
       "tagWeights": {
         "aprendizaje": 0.25,
         "decision": 0.25,
@@ -136,10 +139,11 @@
       "to": "D-122",
       "title": "El yo como aquello que intentamos preservar",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Identidad, roles y posicionamiento, Nueva Perspectiva, Atención y sentido desde las situaciones que describe cada texto.",
       "relationTokens": 55,
-      "fichaTokens": 318,
+      "fichaTokens": 313,
       "tagWeights": {
         "aprendizaje": 0.5,
         "perspectiva": 0.5
@@ -155,12 +159,13 @@
       "to": "D-147",
       "title": "El infierno epistemológico de vivir en lo normal",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Identidad, roles y posicionamiento, Nueva Perspectiva desde las situaciones que describe cada texto.",
       "relationTokens": 53,
-      "fichaTokens": 295,
+      "fichaTokens": 293,
       "tagWeights": {
-        "perspectiva": 1.0
+        "perspectiva": 1
       },
       "clusters": [
         "dialogos"
@@ -173,10 +178,11 @@
       "to": "D-124",
       "title": "El bloqueo de un proceso no señala automáticamente a un culpable",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Identidad, roles y posicionamiento, Nueva Perspectiva desde las situaciones que describe cada texto.",
       "relationTokens": 55,
-      "fichaTokens": 338,
+      "fichaTokens": 331,
       "tagWeights": {
         "aprendizaje": 0.1667,
         "control-minimo": 0.3333,

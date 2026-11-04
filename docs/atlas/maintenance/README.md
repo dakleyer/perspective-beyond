@@ -1,6 +1,6 @@
 # Preserving the Atlas
 
-The graph is the shared substrate. A page map, a tag weighting or a reading budget is a view of that substrate. Editing the view must preserve its fichas, concepts, relationships, full source texts and provenance.
+The graph is the shared substrate. A page map, a tag weighting or a reading budget is a view of that substrate. Editing the view must preserve its cards, concepts, relationships, full source texts and provenance.
 
 The historical comparison dated 4 November 2026 inspects six graph editions, eleven catalogue editions and five editions of the original corpus data. It finds no missing stable IDs, no missing relationships, no dangling endpoints and no deleted Atlas data files. The 298 published dialogue bodies are present in their individual text entries. All 1,359 source payload files remain byte-identical; ten generated assistant reading bundles have been regenerated as the product evolved.
 

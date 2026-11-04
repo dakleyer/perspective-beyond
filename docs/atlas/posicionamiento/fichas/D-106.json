@@ -12,9 +12,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## La migración como pulso de la sociedad\nINTERLOCUTOR (pregunta editorial) — ¿Qué ve en la migración alguien que ha tenido que recomenzar en distintos países?\nLECTURA DEL DIÁLOGO (síntesis editorial) — En mayo de 2025 Iván trabajó la imagen de la migración como «pulso vivo de la sociedad». La metáfora permite mirar más allá de las categorías administrativas: cada desplazamiento combina redes, capacidades, pérdidas, reglas y oportunidades cuya distribución no es igual para todos. No basta describir al migrante como héroe emprendedor, ni únicamente como víctima; las situaciones personales y los derechos importan tanto como las estadísticas laborales. El encuentro entre sociedades puede producir innovación y recombinación de conocimientos, pero también explotación, separación familiar y desarraigo. Dentro del atlas, la ficha une las experiencias personales de movilidad con la mirada de arquitectura de sistemas: ¿qué estructuras ayudan a que una persona conserve capacidad de elegir al cruzar una frontera?\nEtiquetas: Geopolítica y fronteras 40.00%; Memoria, comunidad y territorio 60.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-106\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-106.html\n\n",
-  "readingSource": null,
-  "tokens": 283,
+  "context": "## La migración como pulso de la sociedad\nINTERLOCUTOR (pregunta editorial) — ¿Qué ve en la migración alguien que ha tenido que recomenzar en distintos países?\nLECTURA DEL DIÁLOGO (síntesis editorial) — En mayo de 2025 Iván trabajó la imagen de la migración como «pulso vivo de la sociedad». La metáfora permite mirar más allá de las categorías administrativas: cada desplazamiento combina redes, capacidades, pérdidas, reglas y oportunidades cuya distribución no es igual para todos. No basta describir al migrante como héroe emprendedor, ni únicamente como víctima; las situaciones personales y los derechos importan tanto como las estadísticas laborales. El encuentro entre sociedades puede producir innovación y recombinación de conocimientos, pero también explotación, separación familiar y desarraigo. Dentro del atlas, la ficha une las experiencias personales de movilidad con la mirada de arquitectura de sistemas: ¿qué estructuras ayudan a que una persona conserve capacidad de elegir al cruzar una frontera?\nTags: Geopolitics and borders 40.00%; Memory, community and territory 60.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-106\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-106.html\n\n",
+  "tokens": 280,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -22,10 +21,11 @@
       "to": "dg-geopolitics",
       "title": "Geopolítica vivida",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 138,
+      "fichaTokens": 125,
       "tagWeights": {
         "aprendizaje": 0.0333,
         "casos": 0.0133,
@@ -47,10 +47,11 @@
       "to": "dg-community",
       "title": "Comunidades y territorio",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 187,
+      "fichaTokens": 171,
       "tagWeights": {
         "aprendizaje": 0.0473,
         "autoridad": 0.0323,
@@ -77,10 +78,11 @@
       "to": "dg-encounters",
       "title": "Encuentros significativos",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 173,
+      "fichaTokens": 157,
       "tagWeights": {
         "aprendizaje": 0.0926,
         "autoridad": 0.016,
@@ -106,10 +108,11 @@
       "to": "D-209",
       "title": "El imperio fabrica la tecnología que después le da miedo",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El imperio fabrica la tecnología que después le da miedo» con «La migración como pulso de la sociedad». Permite contrastar Geopolítica vivida.",
       "relationTokens": 66,
-      "fichaTokens": 443,
+      "fichaTokens": 439,
       "tagWeights": {
         "geopolitica": 0.5,
         "integridad-ia": 0.5
@@ -125,12 +128,13 @@
       "to": "D-215",
       "title": "Un oficio visible puede parecer más real que una libertad internacional",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Un oficio visible puede parecer más real que una libertad internacional» con «La migración como pulso de la sociedad».",
       "relationTokens": 56,
-      "fichaTokens": 396,
+      "fichaTokens": 391,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"
@@ -143,10 +147,11 @@
       "to": "D-290",
       "title": "Tener un DNI no agota lo que significa ser de un país",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Tener un DNI no agota lo que significa ser de un país» con «La migración como pulso de la sociedad».",
       "relationTokens": 62,
-      "fichaTokens": 381,
+      "fichaTokens": 379,
       "tagWeights": {
         "documentacion": 0.7778,
         "geopolitica": 0.2222
@@ -162,12 +167,13 @@
       "to": "D-108",
       "title": "Esperanto y las comunidades que se eligen",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Encuentros significativos, Comunidades y territorio desde las situaciones que describe cada texto.",
       "relationTokens": 48,
-      "fichaTokens": 252,
+      "fichaTokens": 249,
       "tagWeights": {
-        "memoria-territorio": 1.0
+        "memoria-territorio": 1
       },
       "clusters": [
         "dialogos"
@@ -180,10 +186,11 @@
       "to": "D-259",
       "title": "La modernización de un territorio puede avanzar en olas que se deshacen",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Geopolítica vivida, Comunidades y territorio desde las situaciones que describe cada texto.",
       "relationTokens": 56,
-      "fichaTokens": 431,
+      "fichaTokens": 426,
       "tagWeights": {
         "geopolitica": 0.1667,
         "memoria-territorio": 0.6666,

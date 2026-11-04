@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Sentido compartido pero no poseído",
   "url": "https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-distributed_meaning",
-  "documentId": null,
   "sourceIds": [
     "D-255",
     "D-256",
@@ -25,9 +24,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## Sentido compartido pero no poseído\nEl significado de una empresa, una marca o una institución también vive en las interpretaciones y acuerdos de terceros.\nEtiquetas: Aprendizaje y transmisión de capacidades 5.00%; Autoridad, permisos y delegación 9.23%; Decisiones y responsabilidad 5.00%; Empresa y gestión 25.00%; Evidencia, procedencia y atribución 5.00%; Geopolítica y fronteras 20.00%; Memoria, comunidad y territorio 10.77%; Cambio de perspectiva 15.00%; Transformación y continuidad operativa 5.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-distributed_meaning\n\n",
-  "readingSource": null,
-  "tokens": 156,
+  "context": "## Sentido compartido pero no poseído\nEl significado de una empresa, una marca o una institución también vive en las interpretaciones y acuerdos de terceros.\nTags: Learning and capability transmission 5.00%; Authority, permissions and delegation 9.23%; Decisions and responsibility 5.00%; Business and management 25.00%; Evidence, provenance and attribution 5.00%; Geopolitics and borders 20.00%; Memory, community and territory 10.77%; Change of perspective 15.00%; Transformation and operational continuity 5.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#concepto-distributed_meaning\n\n",
+  "tokens": 143,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -35,10 +33,11 @@
       "to": "D-255",
       "title": "Ser dueño del negocio no te hace dueño de la idea que otros tienen de él",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 32,
-      "fichaTokens": 420,
+      "fichaTokens": 417,
       "tagWeights": {
         "decision": 0.25,
         "empresa": 0.5,
@@ -55,10 +54,11 @@
       "to": "D-256",
       "title": "Diez minutos mirando desde el lugar de otro pueden descubrir lo que la dirección no ve",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 33,
-      "fichaTokens": 418,
+      "fichaTokens": 411,
       "tagWeights": {
         "aprendizaje": 0.25,
         "empresa": 0.25,
@@ -76,10 +76,11 @@
       "to": "D-263",
       "title": "La legitimidad cultural no entra en el inventario de activos que se venden",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 31,
-      "fichaTokens": 384,
+      "fichaTokens": 379,
       "tagWeights": {
         "autoridad": 0.4615,
         "memoria-territorio": 0.5385
@@ -95,10 +96,11 @@
       "to": "D-267",
       "title": "Una constelación de pensamiento contiene clusters conectados, no departamentos cerrados",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 31,
-      "fichaTokens": 405,
+      "fichaTokens": 400,
       "tagWeights": {
         "empresa": 0.5,
         "evidencia": 0.25,
@@ -115,12 +117,13 @@
       "to": "D-298",
       "title": "El fuego puede ser compartido como concepto sin tener una palabra común",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 29,
-      "fichaTokens": 358,
+      "fichaTokens": 356,
       "tagWeights": {
-        "geopolitica": 1.0
+        "geopolitica": 1
       },
       "clusters": [
         "dialogos"
@@ -133,10 +136,11 @@
       "to": "dg-trust",
       "title": "Confianza y equipos",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.10",
       "reading": "La expectativa de otros crea y limita confianza.",
       "relationTokens": 32,
-      "fichaTokens": 216,
+      "fichaTokens": 194,
       "tagWeights": {
         "aprendizaje": 0.1145,
         "autoridad": 0.0227,
@@ -166,10 +170,11 @@
       "to": "dg-perspective",
       "title": "Nueva Perspectiva",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.10",
       "reading": "Los actores organizan imágenes diferentes del mismo negocio.",
       "relationTokens": 33,
-      "fichaTokens": 190,
+      "fichaTokens": 173,
       "tagWeights": {
         "aprendizaje": 0.117,
         "cambio-regimen": 0.019,
@@ -196,10 +201,11 @@
       "to": "dg-community",
       "title": "Comunidades y territorio",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.10",
       "reading": "El significado patrimonial exige participación y autorización.",
       "relationTokens": 32,
-      "fichaTokens": 187,
+      "fichaTokens": 171,
       "tagWeights": {
         "aprendizaje": 0.0473,
         "autoridad": 0.0323,
@@ -226,10 +232,11 @@
       "to": "dg-federated_custody",
       "title": "Custodias distribuidas y memoria viva",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "relación de ampliación v0.10",
       "reading": "La custodia no equivale a apropiación cultural.",
       "relationTokens": 38,
-      "fichaTokens": 128,
+      "fichaTokens": 120,
       "tagWeights": {
         "autoridad": 0.1487,
         "capacidad-humana": 0.0711,
@@ -249,10 +256,11 @@
       "to": "dg-transformation_speech",
       "title": "Transmitir una idea que cambia al interlocutor",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación de ampliación v0.11",
       "reading": "El significado también depende del lector.",
       "relationTokens": 35,
-      "fichaTokens": 73,
+      "fichaTokens": 71,
       "tagWeights": {
         "decision": 0.2222,
         "perspectiva": 0.7778
@@ -268,12 +276,13 @@
       "to": "dg-concept_translation",
       "title": "Fenómeno, concepto y palabra",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "relación transversal propuesta v0.12",
       "reading": "Un mismo hecho puede recibir categorías distintas.",
       "relationTokens": 33,
-      "fichaTokens": 65,
+      "fichaTokens": 64,
       "tagWeights": {
-        "geopolitica": 1.0
+        "geopolitica": 1
       },
       "clusters": [
         "dialogos"

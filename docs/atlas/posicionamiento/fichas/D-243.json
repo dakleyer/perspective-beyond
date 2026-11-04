@@ -13,9 +13,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## El supervisor humano no es barato porque solo revise dos casillas\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Por qué una verificación de entrada aparentemente simple puede esconder una tarea de discriminación enorme?\nREFLEXIÓN DEL DIÁLOGO (voz atribuida mediante documento o contexto, distinta de transcripción literal salvo citas señaladas) — En la conversación original Iván insiste: «be very sure, be very sharp, and be very deep». No está pidiendo otra lista de controles. Plantea la figura del *meta-discriminador*: quien decide qué entradas, circunstancias o configuraciones quedan admitidas antes de que operen las máquinas M0, M1, M2… A primera vista, el humano solo debería comprobar unas pocas características abstractas. Pero justamente por ser abstractas pueden encubrir los comportamientos y excepciones de multitud de sistemas internos.\n\nIván quiere probar una proposición fuerte: que el supervisor necesitaría una capacidad de discriminación y una sabiduría al menos comparables con los procesos que supervisa. Lo dice como un límite posible del crecimiento de la IA y como una carga cognitiva que las presentaciones de gobernanza suelen minimizar. No quiere una metáfora: pregunta «how you can measure it» y pide una prueba.\n\nAquí es crucial conservar también la dificultad. La respuesta del asistente en el archivo llamó «teorema» a esa intuición demasiado pronto. No hay en esa transcripción una demostración general de la desigualdad de potencia computacional: una comprobación acotada puede ser más sencilla que la tarea supervisada, según las hipótesis. El diálogo digno de conservar es la pregunta original y su demanda de rigor, no una prueba inventada para complacer al autor.\nEtiquetas: Autoridad, permisos y delegación 25.00%; Investigación y documentación técnica 50.00%; Matemáticas 25.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-243\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-243.html\n\n",
-  "readingSource": null,
-  "tokens": 442,
+  "context": "## El supervisor humano no es barato porque solo revise dos casillas\nINTERLOCUTOR (pregunta editorial, no necesariamente pronunciada) — ¿Por qué una verificación de entrada aparentemente simple puede esconder una tarea de discriminación enorme?\nREFLEXIÓN DEL DIÁLOGO (voz atribuida mediante documento o contexto, distinta de transcripción literal salvo citas señaladas) — En la conversación original Iván insiste: «be very sure, be very sharp, and be very deep». No está pidiendo otra lista de controles. Plantea la figura del *meta-discriminador*: quien decide qué entradas, circunstancias o configuraciones quedan admitidas antes de que operen las máquinas M0, M1, M2… A primera vista, el humano solo debería comprobar unas pocas características abstractas. Pero justamente por ser abstractas pueden encubrir los comportamientos y excepciones de multitud de sistemas internos.\n\nIván quiere probar una proposición fuerte: que el supervisor necesitaría una capacidad de discriminación y una sabiduría al menos comparables con los procesos que supervisa. Lo dice como un límite posible del crecimiento de la IA y como una carga cognitiva que las presentaciones de gobernanza suelen minimizar. No quiere una metáfora: pregunta «how you can measure it» y pide una prueba.\n\nAquí es crucial conservar también la dificultad. La respuesta del asistente en el archivo llamó «teorema» a esa intuición demasiado pronto. No hay en esa transcripción una demostración general de la desigualdad de potencia computacional: una comprobación acotada puede ser más sencilla que la tarea supervisada, según las hipótesis. El diálogo digno de conservar es la pregunta original y su demanda de rigor, no una prueba inventada para complacer al autor.\nTags: Authority, permissions and delegation 25.00%; Research and technical documentation 50.00%; Mathematics 25.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-243\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-243.html\n\n",
+  "tokens": 437,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -23,10 +22,11 @@
       "to": "dg-math",
       "title": "Pensamiento matemático",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 177,
+      "fichaTokens": 159,
       "tagWeights": {
         "aprendizaje": 0.1144,
         "autoridad": 0.0109,
@@ -52,10 +52,11 @@
       "to": "dg-doubt",
       "title": "Duda, pruebas y conocimiento corregible",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 268,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.2345,
         "autoridad": 0.0562,
@@ -89,10 +90,11 @@
       "to": "dg-governance",
       "title": "Gobernanza y legitimidad",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 25,
-      "fichaTokens": 273,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.0321,
         "autoridad": 0.4057,
@@ -126,10 +128,11 @@
       "to": "dg-meta_discrimination",
       "title": "Carga de validar sistemas y sus entradas",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 28,
-      "fichaTokens": 137,
+      "fichaTokens": 126,
       "tagWeights": {
         "autoridad": 0.2083,
         "decision": 0.1607,
@@ -150,12 +153,13 @@
       "to": "D-094",
       "title": "Gödel, máquinas de Turing y la pregunta de qué queda fuera",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El supervisor humano no es barato porque solo revise dos casillas» con «Gödel, máquinas de Turing y la pregunta de qué queda fuera». Permite contrastar Pensamiento matemático, Duda, pruebas y conocimiento corregible.",
       "relationTokens": 86,
-      "fichaTokens": 338,
+      "fichaTokens": 335,
       "tagWeights": {
-        "matematicas": 1.0
+        "matematicas": 1
       },
       "clusters": [
         "dialogos"
@@ -168,10 +172,11 @@
       "to": "D-100",
       "title": "¿Cuánto cuesta saber lo suficiente para decidir?",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El supervisor humano no es barato porque solo revise dos casillas» con «¿Cuánto cuesta saber lo suficiente para decidir?». Permite contrastar Duda, pruebas y conocimiento corregible.",
       "relationTokens": 73,
-      "fichaTokens": 311,
+      "fichaTokens": 305,
       "tagWeights": {
         "casos": 0.1818,
         "control-minimo": 0.4546,
@@ -189,10 +194,11 @@
       "to": "D-112",
       "title": "La IA no es el maestro que juzga el oficio",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El supervisor humano no es barato porque solo revise dos casillas» con «La IA no es el maestro que juzga el oficio».",
       "relationTokens": 62,
-      "fichaTokens": 350,
+      "fichaTokens": 339,
       "tagWeights": {
         "aprendizaje": 0.1429,
         "autoridad": 0.2857,
@@ -211,12 +217,13 @@
       "to": "D-116",
       "title": "Un control puede aprobar y el sistema seguir fallando",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El supervisor humano no es barato porque solo revise dos casillas» con «Un control puede aprobar y el sistema seguir fallando». Permite contrastar Duda, pruebas y conocimiento corregible.",
       "relationTokens": 73,
-      "fichaTokens": 299,
+      "fichaTokens": 294,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"
@@ -229,12 +236,13 @@
       "to": "D-117",
       "title": "Una arquitectura que no puede declararse cerrada",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El supervisor humano no es barato porque solo revise dos casillas» con «Una arquitectura que no puede declararse cerrada». Permite contrastar Pensamiento matemático, Duda, pruebas y conocimiento corregible.",
       "relationTokens": 76,
-      "fichaTokens": 249,
+      "fichaTokens": 246,
       "tagWeights": {
-        "matematicas": 1.0
+        "matematicas": 1
       },
       "clusters": [
         "dialogos"
@@ -247,10 +255,11 @@
       "to": "D-278",
       "title": "Rechazar una entrada también es tomar una decisión",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Rechazar una entrada también es tomar una decisión» con «El supervisor humano no es barato porque solo revise dos casillas». Permite contrastar Pensamiento matemático, Carga de validar sistemas y sus entradas.",
       "relationTokens": 78,
-      "fichaTokens": 404,
+      "fichaTokens": 400,
       "tagWeights": {
         "decision": 0.7143,
         "matematicas": 0.2857
@@ -266,12 +275,13 @@
       "to": "D-279",
       "title": "Una entrada fuera del dominio puede producir una salida aparentemente útil",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una entrada fuera del dominio puede producir una salida aparentemente útil» con «El supervisor humano no es barato porque solo revise dos casillas». Permite contrastar Pensamiento matemático.",
       "relationTokens": 71,
-      "fichaTokens": 377,
+      "fichaTokens": 374,
       "tagWeights": {
-        "matematicas": 1.0
+        "matematicas": 1
       },
       "clusters": [
         "dialogos"
@@ -284,10 +294,11 @@
       "to": "D-280",
       "title": "El investigador también ocupa el lugar del oráculo",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El investigador también ocupa el lugar del oráculo» con «El supervisor humano no es barato porque solo revise dos casillas». Permite contrastar Carga de validar sistemas y sus entradas, Duda, pruebas y conocimiento corregible, Pensamiento matemático.",
       "relationTokens": 85,
-      "fichaTokens": 411,
+      "fichaTokens": 406,
       "tagWeights": {
         "experimentacion": 0.7143,
         "matematicas": 0.2857
@@ -303,12 +314,13 @@
       "to": "D-245",
       "title": "Llamarlo «AI firewall» no te concede saber qué está filtrando",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Carga de validar sistemas y sus entradas, Gobernanza y legitimidad desde las situaciones que describe cada texto.",
       "relationTokens": 62,
-      "fichaTokens": 430,
+      "fichaTokens": 426,
       "tagWeights": {
-        "autoridad": 1.0
+        "autoridad": 1
       },
       "clusters": [
         "dialogos"
@@ -321,10 +333,11 @@
       "to": "D-217",
       "title": "Un JSON correcto puede describir una vaca que no estaba allí",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura comparada de mecanismos",
       "reading": "La validación del registro y la discriminación de sus entradas plantean tareas distintas. Su lectura conjunta sitúa el trabajo humano necesario para reconocer si la representación conserva lo que la decisión exige distinguir.",
-      "relationTokens": 100,
-      "fichaTokens": 438,
+      "relationTokens": 98,
+      "fichaTokens": 434,
       "tagWeights": {
         "decision": 0.5,
         "matematicas": 0.5
@@ -340,10 +353,11 @@
       "to": "T1400",
       "title": "Measuring Human Intelligence Debt",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura comparada entre clústeres",
       "reading": "La pregunta por el coste de supervisar se encuentra con un protocolo que distingue supervisión necesaria, creación de información y trabajo compensatorio evitable, para estudiar qué esfuerzo cambia con una intervención.",
-      "relationTokens": 93,
-      "fichaTokens": 409,
+      "relationTokens": 91,
+      "fichaTokens": 394,
       "tagWeights": {
         "aprendizaje": 0.0541,
         "capacidad-humana": 0.3513,

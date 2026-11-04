@@ -6,14 +6,13 @@
   "documentId": "doc-184d45c2a2b25ad46f",
   "sourceIds": [],
   "tagWeights": {
-    "perspectiva": 1.0
+    "perspectiva": 1
   },
   "clusters": [
     "dialogos"
   ],
-  "context": "## 2015: no solo cómo se llama, sino para qué quieres saberlo\nINTERLOCUTOR (pregunta editorial, no pronunciada necesariamente) — ¿Puede una respuesta ser útil sin inventar el dato que el interlocutor no nos ha dado?\nREFLEXIÓN DEL DIÁLOGO (reconstrucción editorial cotejada con el escrito) — En agosto de 2015, al presentar por correo una propuesta de lógica alternativa para IA, Iván toma una objeción del investigador Alexander Gelbukh: si pregunto el nombre de una chica que no conozco, ningún método puede adivinarlo. Iván no intenta adivinar. Escribe dos salidas posibles: «Se llame como se llame, sigue siendo la misma chica» y «¿Para qué necesitas o qué quieres de esa persona?». Lo importante para él no era transformar una pregunta factual en sermón, sino detectar que quizás falta definir el objeto de la conversación; incluso admite que el usuario puede justificar por qué el nombre sí es lo esencial. Propone generar conclusiones válidas o preguntas pertinentes a partir de un argumento conversacional, sin una memoria que contenga los hechos omitidos. Esta era una propiedad que deseaba demostrar, no una IA que ya la ejecutara. Vista desde el mapa de diálogos actual, la pieza revela continuidad histórica: abrir otra pregunta cuando la respuesta literal no alcanzaría la intención, pero devolver siempre al lector la formulación original.\nEtiquetas: Cambio de perspectiva 100.00%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-184\nDocumento de origen: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-184.html\n\n",
-  "readingSource": null,
-  "tokens": 361,
+  "context": "## 2015: no solo cómo se llama, sino para qué quieres saberlo\nINTERLOCUTOR (pregunta editorial, no pronunciada necesariamente) — ¿Puede una respuesta ser útil sin inventar el dato que el interlocutor no nos ha dado?\nREFLEXIÓN DEL DIÁLOGO (reconstrucción editorial cotejada con el escrito) — En agosto de 2015, al presentar por correo una propuesta de lógica alternativa para IA, Iván toma una objeción del investigador Alexander Gelbukh: si pregunto el nombre de una chica que no conozco, ningún método puede adivinarlo. Iván no intenta adivinar. Escribe dos salidas posibles: «Se llame como se llame, sigue siendo la misma chica» y «¿Para qué necesitas o qué quieres de esa persona?». Lo importante para él no era transformar una pregunta factual en sermón, sino detectar que quizás falta definir el objeto de la conversación; incluso admite que el usuario puede justificar por qué el nombre sí es lo esencial. Propone generar conclusiones válidas o preguntas pertinentes a partir de un argumento conversacional, sin una memoria que contenga los hechos omitidos. Esta era una propiedad que deseaba demostrar, no una IA que ya la ejecutara. Vista desde el mapa de diálogos actual, la pieza revela continuidad histórica: abrir otra pregunta cuando la respuesta literal no alcanzaría la intención, pero devolver siempre al lector la formulación original.\nTags: Change of perspective 100.00%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-184\nSource document: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/textos/d-184.html\n\n",
+  "tokens": 359,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -21,10 +20,11 @@
       "to": "dg-perspective",
       "title": "Nueva Perspectiva",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 27,
-      "fichaTokens": 190,
+      "fichaTokens": 173,
       "tagWeights": {
         "aprendizaje": 0.117,
         "cambio-regimen": 0.019,
@@ -51,10 +51,11 @@
       "to": "dg-doubt",
       "title": "Duda, pruebas y conocimiento corregible",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 31,
-      "fichaTokens": 268,
+      "fichaTokens": 243,
       "tagWeights": {
         "aprendizaje": 0.2345,
         "autoridad": 0.0562,
@@ -88,10 +89,11 @@
       "to": "dg-dialogue_logic",
       "title": "Diálogo pertinente y lógica propuesta",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 29,
-      "fichaTokens": 93,
+      "fichaTokens": 88,
       "tagWeights": {
         "aprendizaje": 0.3334,
         "decision": 0.3333,
@@ -108,10 +110,11 @@
       "to": "D-067",
       "title": "Nueva Perspectiva: cambiar el punto de observación",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «2015: no solo cómo se llama, sino para qué quieres saberlo» con «Nueva Perspectiva: cambiar el punto de observación». Permite contrastar Nueva Perspectiva.",
       "relationTokens": 77,
-      "fichaTokens": 583,
+      "fichaTokens": 581,
       "tagWeights": {
         "empresa": 0.2353,
         "perspectiva": 0.7647
@@ -127,12 +130,13 @@
       "to": "D-093",
       "title": "Cuando la IA produce una respuesta y parece cerrar el mundo",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «2015: no solo cómo se llama, sino para qué quieres saberlo» con «Cuando la IA produce una respuesta y parece cerrar el mundo». Permite contrastar Duda, pruebas y conocimiento corregible.",
       "relationTokens": 81,
-      "fichaTokens": 321,
+      "fichaTokens": 316,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"
@@ -145,12 +149,13 @@
       "to": "D-158",
       "title": "La inteligencia artificial como membrana entre personas",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «2015: no solo cómo se llama, sino para qué quieres saberlo» con «La inteligencia artificial como membrana entre personas».",
       "relationTokens": 62,
-      "fichaTokens": 316,
+      "fichaTokens": 313,
       "tagWeights": {
-        "decision": 1.0
+        "decision": 1
       },
       "clusters": [
         "dialogos"
@@ -163,10 +168,11 @@
       "to": "D-081",
       "title": "Conservar una línea de pensamiento sin imponerla",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «2015: no solo cómo se llama, sino para qué quieres saberlo» con «Conservar una línea de pensamiento sin imponerla». Permite contrastar Nueva Perspectiva.",
       "relationTokens": 73,
-      "fichaTokens": 671,
+      "fichaTokens": 667,
       "tagWeights": {
         "perspectiva": 0.5,
         "transformacion": 0.5
@@ -182,12 +188,13 @@
       "to": "D-185",
       "title": "2015: una idea ambiciosa necesita una prueba que otro pueda repetir",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Diálogo pertinente y lógica propuesta, Duda, pruebas y conocimiento corregible desde las situaciones que describe cada texto.",
       "relationTokens": 67,
-      "fichaTokens": 345,
+      "fichaTokens": 342,
       "tagWeights": {
-        "decision": 1.0
+        "decision": 1
       },
       "clusters": [
         "dialogos"
@@ -200,12 +207,13 @@
       "to": "D-220",
       "title": "Si un diálogo nunca cede nada, quizá es un sermón",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Diálogo pertinente y lógica propuesta, Duda, pruebas y conocimiento corregible desde las situaciones que describe cada texto.",
       "relationTokens": 64,
-      "fichaTokens": 419,
+      "fichaTokens": 414,
       "tagWeights": {
-        "aprendizaje": 1.0
+        "aprendizaje": 1
       },
       "clusters": [
         "dialogos"
@@ -218,10 +226,11 @@
       "to": "D-274",
       "title": "Estáncate, pero no te quedes estancado",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Nueva Perspectiva, Duda, pruebas y conocimiento corregible desde las situaciones que describe cada texto.",
       "relationTokens": 61,
-      "fichaTokens": 409,
+      "fichaTokens": 404,
       "tagWeights": {
         "aprendizaje": 0.5,
         "perspectiva": 0.5

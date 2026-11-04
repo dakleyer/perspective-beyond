@@ -3,7 +3,6 @@
   "type": "concepto",
   "title": "Validez histórica y validez al uso",
   "url": "https://dakleyer.github.io/perspective-beyond/concepts/historical-and-at-use-validity/",
-  "documentId": null,
   "sourceIds": [
     "GH066",
     "N1835",
@@ -21,9 +20,8 @@
     "net",
     "research"
   ],
-  "context": "## Validez histórica y validez al uso\nA rule can be valid for interpreting a past event and inadequate for a current decision.\nEtiquetas: Investigación y documentación técnica 23.80%; Economía, costes y liquidez 9.33%; Evidencia, procedencia y atribución 26.77%; Experimentación, falsación y contraejemplos 9.33%; Matemáticas 2.56%; Mundo abierto e indeterminación 28.21%\nFicha: https://dakleyer.github.io/perspective-beyond/concepts/historical-and-at-use-validity/\n\n",
-  "readingSource": null,
-  "tokens": 120,
+  "context": "## Validez histórica y validez al uso\nA rule can be valid for interpreting a past event and inadequate for a current decision.\nTags: Research and technical documentation 23.80%; Economics, costs and liquidity 9.33%; Evidence, provenance and attribution 26.77%; Experimentation, falsification and counterexamples 9.33%; Mathematics 2.56%; Open world and indeterminacy 28.21%\nCard: https://dakleyer.github.io/perspective-beyond/concepts/historical-and-at-use-validity/\n\n",
+  "tokens": 112,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -31,10 +29,11 @@
       "to": "GH066",
       "title": "Dual-time, provenance-bound certificate contract — SA-O2/O5 → EA review",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 32,
-      "fichaTokens": 180,
+      "fichaTokens": 175,
       "tagWeights": {
         "documentacion": 0.3571,
         "evidencia": 0.6429
@@ -50,10 +49,11 @@
       "to": "N1835",
       "title": "Phylons relabeling cascades",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 24,
-      "fichaTokens": 592,
+      "fichaTokens": 584,
       "tagWeights": {
         "documentacion": 0.28,
         "economia": 0.28,
@@ -71,10 +71,11 @@
       "to": "GH015",
       "title": "Structural Awareness — Operational Residual and Online Context Plasticity",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 27,
-      "fichaTokens": 176,
+      "fichaTokens": 173,
       "tagWeights": {
         "documentacion": 0.0769,
         "matematicas": 0.0769,
@@ -91,10 +92,11 @@
       "to": "C11",
       "title": "Tiempo del hecho y del conocimiento",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "candidate transfer",
       "reading": "A later rule may support historical reinterpretation while being expired or unauthorized for a new action; event time and current-use validity must be checked separately.",
       "relationTokens": 48,
-      "fichaTokens": 181,
+      "fichaTokens": 165,
       "tagWeights": {
         "agentes": 0.0397,
         "casos": 0.0465,
@@ -124,10 +126,11 @@
       "to": "C115",
       "title": "Registro previo a admisión y promoción posterior",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "documented use",
       "reading": "The dual-time contract makes a later implementation obligation explicit: historical reinterpretation and current permission to rely on a certificate must be evaluated separately.",
       "relationTokens": 48,
-      "fichaTokens": 172,
+      "fichaTokens": 158,
       "tagWeights": {
         "agentes": 0.0476,
         "control-minimo": 0.0095,

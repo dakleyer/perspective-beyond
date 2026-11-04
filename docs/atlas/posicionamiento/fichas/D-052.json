@@ -14,9 +14,8 @@
   "clusters": [
     "dialogos"
   ],
-  "context": "## xSeil: mostrar alternativas, no una orden\nEntre los proyectos industriales y el trabajo posterior de arquitectura empresarial hubo otra experiencia que merece su propia conversación: diseñar un sistema que pudiera proponer alternativas sin ocultar a las personas las decisiones que tenían que tomar.\n\nINTERLOCUTOR (pregunta editorial nueva) — Después de GEPLAN, ¿qué problema diferente encontraste al trabajar con la movilidad turística de la Riviera Maya?\n\nLECTURA DOCUMENTAL — La reconstrucción técnica de xSeil sitúa el desarrollo para Experiencias Xcaret/Xtours en 2016–2017. El desafío partía de una particularidad comercial: las reservas de transporte ya contenían compromisos de recogida y llegada, mientras que la demanda final, la disponibilidad de vehículos y las condiciones de operación seguían cambiando. Había grupos de pasajeros que no podían dividirse arbitrariamente, vehículos de capacidades distintas, reglas de transbordo, tiempos, varios destinos y restricciones de servicio. Optimizar una ruta aislada no resolvía la operación completa.\n\nINTERLOCUTOR (pregunta editorial nueva) — ¿Qué hacía diferente la manera de calcular? ¿Por qué presentar escenarios en vez de declarar que existía una única solución «mejor»?\n\nLECTURA DOCUMENTAL — La propuesta funcional de junio de 2016 ya contemplaba alternativas de planificación y la presentación de tres escenarios. El anexo técnico de febrero de 2017 documentó parámetros, indicadores y escenarios distintos. La plataforma preparaba combinaciones de rutas viables, mantenía una biblioteca reutilizable, las valoraba de acuerdo con prioridades operativas y continuaba asignando recursos después de que una persona eligiera el marco de decisión. No era simplemente una pantalla que explicaba un resultado calculado: la elección del escenario orientaba el cálculo posterior.\n\nHabía compromisos reales entre criterios. Reducir vehículos podía elevar la ocupación pero prolongar trayectos; favorecer viajes directos podía consumir capacidad necesaria para otros servicios; cumplir una hora de llegada no eliminaba por sí solo la congestión en destino. La comparación de escenarios hacía visibles esas tensiones.\nEtiquetas: Casos de uso y aplicaciones 14.29%; Decisiones y responsabilidad 14.29%; Matemáticas 14.28%; Movilidad e infraestructura 57.14%\nFicha: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-052\nDocumento de origen: https://totonacapan.com/?page_id=413#:~:text=Entre%20los%20proyectos%20industriales%20y%20el%20trabajo%20posterior%20de%20arquitectura\n\n",
-  "readingSource": null,
-  "tokens": 546,
+  "context": "## xSeil: mostrar alternativas, no una orden\nEntre los proyectos industriales y el trabajo posterior de arquitectura empresarial hubo otra experiencia que merece su propia conversación: diseñar un sistema que pudiera proponer alternativas sin ocultar a las personas las decisiones que tenían que tomar.\n\nINTERLOCUTOR (pregunta editorial nueva) — Después de GEPLAN, ¿qué problema diferente encontraste al trabajar con la movilidad turística de la Riviera Maya?\n\nLECTURA DOCUMENTAL — La reconstrucción técnica de xSeil sitúa el desarrollo para Experiencias Xcaret/Xtours en 2016–2017. El desafío partía de una particularidad comercial: las reservas de transporte ya contenían compromisos de recogida y llegada, mientras que la demanda final, la disponibilidad de vehículos y las condiciones de operación seguían cambiando. Había grupos de pasajeros que no podían dividirse arbitrariamente, vehículos de capacidades distintas, reglas de transbordo, tiempos, varios destinos y restricciones de servicio. Optimizar una ruta aislada no resolvía la operación completa.\n\nINTERLOCUTOR (pregunta editorial nueva) — ¿Qué hacía diferente la manera de calcular? ¿Por qué presentar escenarios en vez de declarar que existía una única solución «mejor»?\n\nLECTURA DOCUMENTAL — La propuesta funcional de junio de 2016 ya contemplaba alternativas de planificación y la presentación de tres escenarios. El anexo técnico de febrero de 2017 documentó parámetros, indicadores y escenarios distintos. La plataforma preparaba combinaciones de rutas viables, mantenía una biblioteca reutilizable, las valoraba de acuerdo con prioridades operativas y continuaba asignando recursos después de que una persona eligiera el marco de decisión. No era simplemente una pantalla que explicaba un resultado calculado: la elección del escenario orientaba el cálculo posterior.\n\nHabía compromisos reales entre criterios. Reducir vehículos podía elevar la ocupación pero prolongar trayectos; favorecer viajes directos podía consumir capacidad necesaria para otros servicios; cumplir una hora de llegada no eliminaba por sí solo la congestión en destino. La comparación de escenarios hacía visibles esas tensiones.\nTags: Use cases and applications 14.29%; Decisions and responsibility 14.29%; Mathematics 14.28%; Mobility and infrastructure 57.14%\nCard: https://dakleyer.github.io/perspective-beyond/atlas/dialogos/#ficha-d-052\nSource document: https://totonacapan.com/?page_id=413#:~:text=Entre%20los%20proyectos%20industriales%20y%20el%20trabajo%20posterior%20de%20arquitectura\n\n",
+  "tokens": 539,
   "encoding": "o200k_base",
   "relations": [
     {
@@ -24,10 +23,11 @@
       "to": "dg-math",
       "title": "Pensamiento matemático",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 177,
+      "fichaTokens": 159,
       "tagWeights": {
         "aprendizaje": 0.1144,
         "autoridad": 0.0109,
@@ -53,10 +53,11 @@
       "to": "dg-decision",
       "title": "Decisiones entre escenarios",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 22,
-      "fichaTokens": 180,
+      "fichaTokens": 162,
       "tagWeights": {
         "aprendizaje": 0.0474,
         "autoridad": 0.0059,
@@ -83,10 +84,11 @@
       "to": "dg-operations",
       "title": "Operación real",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "documenta el concepto",
       "reading": "",
       "relationTokens": 21,
-      "fichaTokens": 217,
+      "fichaTokens": 191,
       "tagWeights": {
         "aprendizaje": 0.059,
         "autoridad": 0.1375,
@@ -116,10 +118,11 @@
       "to": "D-053",
       "title": "La responsabilidad humana en la optimización",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura comparada",
       "reading": "Mostrar escenarios hace visible dónde permanece la responsabilidad por la decisión.",
       "relationTokens": 35,
-      "fichaTokens": 492,
+      "fichaTokens": 486,
       "tagWeights": {
         "casos": 0.125,
         "decision": 0.625,
@@ -136,10 +139,11 @@
       "to": "D-050",
       "title": "Cuando lo útil no se convierte en empresa",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Decisiones entre escenarios».",
       "relationTokens": 34,
-      "fichaTokens": 763,
+      "fichaTokens": 757,
       "tagWeights": {
         "casos": 0.1429,
         "decision": 0.3571,
@@ -157,10 +161,11 @@
       "to": "D-047",
       "title": "Movilidad, cítricos y soluciones prácticas",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Operación real».",
       "relationTokens": 34,
-      "fichaTokens": 503,
+      "fichaTokens": 497,
       "tagWeights": {
         "casos": 0.2222,
         "decision": 0.2222,
@@ -177,12 +182,13 @@
       "to": "D-007",
       "title": "Un centro de investigación que debía funcionar",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Operación real».",
       "relationTokens": 32,
-      "fichaTokens": 380,
+      "fichaTokens": 377,
       "tagWeights": {
-        "movilidad": 1.0
+        "movilidad": 1
       },
       "clusters": [
         "dialogos"
@@ -195,12 +201,13 @@
       "to": "D-054",
       "title": "Matemáticas: preguntar antes de elegir escuela",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Pensamiento matemático».",
       "relationTokens": 34,
-      "fichaTokens": 422,
+      "fichaTokens": 419,
       "tagWeights": {
-        "matematicas": 1.0
+        "matematicas": 1
       },
       "clusters": [
         "dialogos"
@@ -213,10 +220,11 @@
       "to": "D-056",
       "title": "Del límite matemático al cambio de contexto",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por concepto",
       "reading": "Comparten el tema «Pensamiento matemático».",
       "relationTokens": 34,
-      "fichaTokens": 510,
+      "fichaTokens": 505,
       "tagWeights": {
         "cambio-regimen": 0.4545,
         "matematicas": 0.5455
@@ -232,10 +240,11 @@
       "to": "D-110",
       "title": "El valor de elegir entre escenarios casi eficientes",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «El valor de elegir entre escenarios casi eficientes» con «xSeil: mostrar alternativas, no una orden». Permite contrastar Decisiones entre escenarios, Pensamiento matemático.",
       "relationTokens": 66,
-      "fichaTokens": 350,
+      "fichaTokens": 344,
       "tagWeights": {
         "casos": 0.5455,
         "decision": 0.2727,
@@ -252,10 +261,11 @@
       "to": "D-176",
       "title": "Responsabilidad sin posibilidad de ganar produce selección regresiva",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Responsabilidad sin posibilidad de ganar produce selección regresiva» con «xSeil: mostrar alternativas, no una orden».",
       "relationTokens": 56,
-      "fichaTokens": 346,
+      "fichaTokens": 342,
       "tagWeights": {
         "decision": 0.75,
         "economia": 0.25
@@ -271,10 +281,11 @@
       "to": "D-182",
       "title": "Una promesa de movilidad empieza a existir cuando tiene horarios",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "conexión de la edición",
       "reading": "La lectura enlaza «Una promesa de movilidad empieza a existir cuando tiene horarios» con «xSeil: mostrar alternativas, no una orden». Permite contrastar Decisiones entre escenarios.",
       "relationTokens": 67,
-      "fichaTokens": 372,
+      "fichaTokens": 365,
       "tagWeights": {
         "casos": 0.16,
         "compromisos": 0.2,
@@ -292,10 +303,11 @@
       "to": "D-097",
       "title": "Tres observaciones que no caben en una decisión",
       "direction": "saliente",
+      "directionLabel": "outgoing",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Pensamiento matemático desde las situaciones que describe cada texto.",
       "relationTokens": 50,
-      "fichaTokens": 298,
+      "fichaTokens": 292,
       "tagWeights": {
         "casos": 0.2,
         "decision": 0.6,
@@ -312,10 +324,11 @@
       "to": "D-096",
       "title": "Ventanas semánticas: pronosticar sin cerrar la incertidumbre",
       "direction": "entrante",
+      "directionLabel": "incoming",
       "kind": "lectura por conceptos compartidos",
       "reading": "Ambas reflexiones permiten comparar Decisiones entre escenarios, Pensamiento matemático desde las situaciones que describe cada texto.",
       "relationTokens": 54,
-      "fichaTokens": 322,
+      "fichaTokens": 316,
       "tagWeights": {
         "casos": 0.3334,
         "decision": 0.3333,
