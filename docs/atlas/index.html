@@ -27,7 +27,7 @@ input,select,textarea{max-width:100%;border:1px solid #938b7c;background:white;c
 .focus-row input{width:100%}.focus-target{width:min(100%,31rem)}
 @media(max-width:33rem){.focus-row{grid-template-columns:minmax(0,1fr) 5rem auto}.focus-row button{grid-column:1/-1;justify-self:start}}
 </style>
-<script src="global.js?v=radio-1" defer></script>
+<script src="global.js?v=agentes-1" defer></script>
 </head>
 <body><main>
 <header>
@@ -49,7 +49,7 @@ input,select,textarea{max-width:100%;border:1px solid #938b7c;background:white;c
 <section id="asistente" class="panel" aria-labelledby="assistant-title">
 <p class="label">Asistente de pensamiento</p><h2 id="assistant-title">Conecta tu asistente al Atlas</h2>
 <p>Pega una sola URL en tu asistente. La entrada general le permite preguntarte cómo quieres trabajar. La URL configurada lleva tus elecciones y puedes añadir la pregunta en el mismo mensaje.</p>
-<p><a href="entrada.txt">Abrir la entrada general en texto</a> · <a href="guide.html">Guía para asistentes</a> · <a href="atlas-portable.txt" download>Descargar el catálogo portable</a></p>
+<p><a href="entrada.txt">Abrir la entrada general en texto</a> · <a href="https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/entrada.txt">Texto en GitHub</a> · <a href="guide.html">Guía y perfiles de ejemplo</a> · <a href="atlas-portable.txt" download>Descargar el catálogo portable</a></p>
 <form id="setup" hidden>
 <div class="grid">
 <div><label for="origin">Clúster de origen</label><select id="origin"></select></div>
@@ -78,7 +78,7 @@ input,select,textarea{max-width:100%;border:1px solid #938b7c;background:white;c
 </div>
 <p class="hint" id="focus-preview" role="status"></p>
 </details>
-<div class="actions"><button type="button" id="copy-url">Copiar URL para mi asistente</button><a id="entry-url" href="entrada.txt">Abrir URL de esta selección</a></div>
+<div class="actions"><button type="button" id="copy-url">Copiar URL para mi asistente</button><a id="entry-url" href="entrada.txt">Abrir URL de esta selección</a><a id="entry-mirror" href="https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/entrada.txt">Abrir esta selección en GitHub</a></div>
 <div class="actions"><a id="web-entry" href="#asistente">Abrir esta configuración web</a><button type="button" class="secondary" id="copy-config">Copiar enlace a esta configuración web</button><button type="button" class="secondary" id="copy">Copiar instrucciones</button><button type="button" class="secondary" id="download">Descargar lectura en Markdown</button></div>
 <label for="prompt">Instrucciones para pegar en tu asistente</label><textarea id="prompt" readonly></textarea>
 <p id="status" class="hint" role="status"></p>

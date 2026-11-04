@@ -1,0 +1,906 @@
+{
+  "schema": "perspective-beyond/radius-v1",
+  "dataset": {
+    "edition": "2026-11-04",
+    "canonicalSha256": "5e37a308dc5d57011d4884dc95dcc7b26223f1c383ad9c3a8bf2367e15a7fb49",
+    "catalogSha256": "18e15e80412d41987785c6957a3a85c16f94cd9e2e01f987434219ab3feaf33b"
+  },
+  "request": {
+    "centro": "T1499",
+    "radio": 2,
+    "max": 16,
+    "red": "ideas",
+    "sentido": "ambas",
+    "solo": false,
+    "pesos": [
+      {
+        "tag": "empresa",
+        "value": 0.3,
+        "normalized": 0.37499999999999994
+      },
+      {
+        "tag": "matematicas",
+        "value": 0.5,
+        "normalized": 0.625
+      }
+    ]
+  },
+  "center": "T1499",
+  "reachable": 294,
+  "shown": 16,
+  "omitted": 278,
+  "layers": [
+    {
+      "distance": 0,
+      "reachable": 1,
+      "shown": 1,
+      "omitted": 0
+    },
+    {
+      "distance": 1,
+      "reachable": 24,
+      "shown": 8,
+      "omitted": 16
+    },
+    {
+      "distance": 2,
+      "reachable": 269,
+      "shown": 7,
+      "omitted": 262
+    }
+  ],
+  "nodes": [
+    {
+      "id": "T1499",
+      "type": "ficha",
+      "title": "Structural Awareness",
+      "url": "https://dakleyer.github.io/perspective-beyond/sources/structural-awareness-t1499/",
+      "original": "https://tegrity.ai/structural-awareness-program/",
+      "aliases": [],
+      "clusters": [
+        "tegrity"
+      ],
+      "tags": [
+        "documentacion",
+        "evidencia"
+      ],
+      "summary": "",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "distance": 0,
+      "parent": null,
+      "routeEdge": null,
+      "affinity": 0,
+      "priority": 0.25
+    },
+    {
+      "id": "G01",
+      "type": "concepto",
+      "title": "Structural Awareness",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/structural-awareness/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "research",
+        "tegrity"
+      ],
+      "tags": [
+        "matematicas",
+        "evidencia",
+        "cambio-regimen",
+        "cartografia",
+        "documentacion"
+      ],
+      "summary": "The research programme examines what can be known, decided and controlled under partial representations.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "distance": 1,
+      "parent": "T1499",
+      "routeEdge": "apoyo:T1499:G01",
+      "affinity": 0.625,
+      "priority": 0.359375
+    },
+    {
+      "id": "G20",
+      "type": "concepto",
+      "title": "Escalera de evidencia y madurez",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/evidence-and-maturity-ladder/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "research",
+        "tegrity"
+      ],
+      "tags": [
+        "matematicas",
+        "evidencia",
+        "documentacion"
+      ],
+      "summary": "Separate description, proposal, demonstration, test and independent validation.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "distance": 1,
+      "parent": "T1499",
+      "routeEdge": "apoyo:T1499:G20",
+      "affinity": 0.625,
+      "priority": 0.359375
+    },
+    {
+      "id": "GH001",
+      "type": "ficha",
+      "title": "Structural Awareness Programme",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/GH001.html",
+      "original": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/README.md",
+      "aliases": [
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/3b4bd71d7f013b6c461d6fc75331008998d65bfb/README.md"
+      ],
+      "clusters": [
+        "research"
+      ],
+      "tags": [
+        "cambio-regimen",
+        "capacidad-humana",
+        "cartografia",
+        "economia",
+        "evidencia",
+        "matematicas"
+      ],
+      "summary": "Contenido de la fuente: Mathematical and functional plausibility — current reading route · Start here — Ecosystem Positioning · 1. Mathematical Contributions.",
+      "commit": "3b4bd71d7f013b6c461d6fc75331008998d65bfb",
+      "sourcePath": "README.md",
+      "commitUrl": "https://github.com/dakleyer/structural-awareness-contributions/commit/3b4bd71d7f013b6c461d6fc75331008998d65bfb",
+      "distance": 1,
+      "parent": "T1499",
+      "routeEdge": "documento:sac-rel-49f2404e9f9d04",
+      "affinity": 0.625,
+      "priority": 0.359375
+    },
+    {
+      "id": "GH028",
+      "type": "ficha",
+      "title": "Ecosystem Awareness — Integrated Foundational Theory of Bounded Uncertainty and Ecosystem Change",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/GH028.html",
+      "original": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md",
+      "aliases": [
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/135d8ff8b2d953270426f5cda0e77402ed0f81e7/research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.4.part01.md",
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/135d8ff8b2d953270426f5cda0e77402ed0f81e7/research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.4.part03.md",
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/3b79f1466a82ef0466476f12d1c4e15ce0aaee72/research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.4.part02.md",
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/5cfedcef6421241c9220c4e88af20dc110a202ac/research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.4.part05.md",
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/8dd58e4b30be03f8748a2bc34094d356a4400deb/research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.4.part04.md",
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/dd15eec297004e63a5bd90e3d1246f00f2f8001c/research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md"
+      ],
+      "clusters": [
+        "research"
+      ],
+      "tags": [
+        "cartografia",
+        "documentacion",
+        "economia",
+        "experimentacion",
+        "matematicas",
+        "mundo-abierto"
+      ],
+      "summary": "Contenido de la fuente: 1. Foundational problem: two related, non-identical origins · 1.0 Current research-hypothesis extension: causal priority and computational economy (adopted 24 October 2026) · 1.1 Residual indeterminacy and the epistemic posture.",
+      "commit": "dd15eec297004e63a5bd90e3d1246f00f2f8001c",
+      "sourcePath": "research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md",
+      "commitUrl": "https://github.com/dakleyer/structural-awareness-contributions/commit/dd15eec297004e63a5bd90e3d1246f00f2f8001c",
+      "distance": 1,
+      "parent": "T1499",
+      "routeEdge": "documento:G028",
+      "affinity": 0.625,
+      "priority": 0.359375
+    },
+    {
+      "id": "G32",
+      "type": "concepto",
+      "title": "IMSV",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/the-integral-management-society/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "imsv",
+        "tegrity"
+      ],
+      "tags": [
+        "empresa",
+        "evidencia",
+        "documentacion"
+      ],
+      "summary": "The society provides a context for stewardship, knowledge preservation and technical exchange.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "distance": 1,
+      "parent": "T1499",
+      "routeEdge": "apoyo:T1499:G32",
+      "affinity": 0.37499999999999994,
+      "priority": 0.265625
+    },
+    {
+      "id": "GH002",
+      "type": "ficha",
+      "title": "Structural Awareness Programme",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/GH002.html",
+      "original": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/README_PROGRAMME_SYNTHESIS_2026-09-22.md",
+      "aliases": [
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/03f1ef400c6de41f6ad5015a097a5703f1d3ba1f/README_PROGRAMME_SYNTHESIS_2026-09-22.md"
+      ],
+      "clusters": [
+        "research"
+      ],
+      "tags": [
+        "cambio-regimen",
+        "capacidad-humana",
+        "cartografia",
+        "economia",
+        "empresa",
+        "evidencia"
+      ],
+      "summary": "Contenido de la fuente: The core idea: the map and the flow · Four disciplines explain why structural awareness is lost · 1. The Cost of Clarity — information economics.",
+      "commit": "03f1ef400c6de41f6ad5015a097a5703f1d3ba1f",
+      "sourcePath": "README_PROGRAMME_SYNTHESIS_2026-09-22.md",
+      "commitUrl": "https://github.com/dakleyer/structural-awareness-contributions/commit/03f1ef400c6de41f6ad5015a097a5703f1d3ba1f",
+      "distance": 1,
+      "parent": "T1499",
+      "routeEdge": "documento:sac-rel-ea75c5c1b29eee",
+      "affinity": 0.37499999999999994,
+      "priority": 0.265625
+    },
+    {
+      "id": "GH037",
+      "type": "ficha",
+      "title": "Annex 01K — Human Capacity / Human Intelligence Debt",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/GH037.html",
+      "original": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md",
+      "aliases": [
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/11fbac15d6f2b790d459ab507633b2293e302709/research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md"
+      ],
+      "clusters": [
+        "research"
+      ],
+      "tags": [
+        "aprendizaje",
+        "autoridad",
+        "capacidad-humana",
+        "control-minimo",
+        "decision",
+        "documentacion",
+        "economia",
+        "empresa",
+        "memoria-territorio"
+      ],
+      "summary": "La capacidad humana en tiempo de decisión pregunta si una persona autorizada puede intervenir a tiempo con información suficiente. La deuda de inteligencia humana pregunta cuánto juicio consume una arquitectura al trasladar a personas trabajo compensatorio. Las dos preguntas necesitan observaciones y unidades diferentes.",
+      "commit": "11fbac15d6f2b790d459ab507633b2293e302709",
+      "sourcePath": "research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md",
+      "commitUrl": "https://github.com/dakleyer/structural-awareness-contributions/commit/11fbac15d6f2b790d459ab507633b2293e302709",
+      "distance": 1,
+      "parent": "T1499",
+      "routeEdge": "documento:sac-rel-b73ec6c2296756",
+      "affinity": 0.37499999999999994,
+      "priority": 0.265625
+    },
+    {
+      "id": "C50",
+      "type": "concepto",
+      "title": "Estado de una afirmación",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/claim-status/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "eu",
+        "latinoempresa",
+        "mobility",
+        "net",
+        "research",
+        "tegrity",
+        "us"
+      ],
+      "tags": [
+        "evidencia"
+      ],
+      "summary": "Distinguish case description, reconstruction, design, hypothesis, test and independent validation.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "distance": 1,
+      "parent": "T1499",
+      "routeEdge": "apoyo:T1499:C50",
+      "affinity": 0,
+      "priority": 0.125
+    },
+    {
+      "id": "G43",
+      "type": "concepto",
+      "title": "Cyber Napoleon",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/cyber-napoleon/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "research"
+      ],
+      "tags": [
+        "matematicas",
+        "empresa",
+        "evidencia",
+        "autoridad",
+        "control-minimo",
+        "cambio-regimen",
+        "agentes",
+        "cartografia",
+        "movilidad",
+        "estandares",
+        "transformacion",
+        "casos",
+        "documentacion"
+      ],
+      "summary": "A stress scenario probes the limits of concentrated system control and decision authority.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "distance": 2,
+      "parent": "G20",
+      "routeEdge": "concepto:B592",
+      "affinity": 1,
+      "priority": 0.3333333333333333
+    },
+    {
+      "id": "G44",
+      "type": "concepto",
+      "title": "Quiet Four Thousand",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/quiet-four-thousand/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "research"
+      ],
+      "tags": [
+        "matematicas",
+        "empresa",
+        "evidencia",
+        "autoridad",
+        "control-minimo",
+        "cambio-regimen",
+        "agentes",
+        "cartografia",
+        "movilidad",
+        "estandares",
+        "transformacion",
+        "casos",
+        "documentacion"
+      ],
+      "summary": "A named corpus scenario examines change and capability under conditions that can be hard to see from aggregate records.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "distance": 2,
+      "parent": "C50",
+      "routeEdge": "concepto:B597",
+      "affinity": 1,
+      "priority": 0.3333333333333333
+    },
+    {
+      "id": "G46",
+      "type": "concepto",
+      "title": "The Author Pays for His Own Work",
+      "url": "https://dakleyer.github.io/perspective-beyond/concepts/the-author-pays-for-his-own-work/",
+      "original": null,
+      "aliases": [],
+      "clusters": [
+        "research"
+      ],
+      "tags": [
+        "matematicas",
+        "empresa",
+        "evidencia",
+        "autoridad",
+        "control-minimo",
+        "cambio-regimen",
+        "agentes",
+        "cartografia",
+        "movilidad",
+        "estandares",
+        "transformacion",
+        "casos",
+        "documentacion"
+      ],
+      "summary": "A scenario examines contribution, costs and recognition falling on different actors.",
+      "commit": null,
+      "sourcePath": null,
+      "commitUrl": null,
+      "distance": 2,
+      "parent": "C50",
+      "routeEdge": "concepto:B606",
+      "affinity": 1,
+      "priority": 0.3333333333333333
+    },
+    {
+      "id": "GH017",
+      "type": "ficha",
+      "title": "Ecosystem Positioning",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/GH017.html",
+      "original": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/architectural-contributions/ecosystem-positioning/README.md",
+      "aliases": [
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/413208033cd6b92c9982adc3cfff0fa5161a3995/architectural-contributions/ecosystem-positioning/README.md"
+      ],
+      "clusters": [
+        "research"
+      ],
+      "tags": [
+        "agentes",
+        "autoridad",
+        "cambio-regimen",
+        "cartografia",
+        "casos",
+        "control-minimo",
+        "documentacion",
+        "empresa",
+        "estandares",
+        "evidencia",
+        "matematicas",
+        "movilidad",
+        "transformacion"
+      ],
+      "summary": "Contenido de la fuente: Agentic Architecture for staying situated as the ecosystem changes · Mathematical and functional plausibility · Hypothesis and traceability — start here.",
+      "commit": "413208033cd6b92c9982adc3cfff0fa5161a3995",
+      "sourcePath": "architectural-contributions/ecosystem-positioning/README.md",
+      "commitUrl": "https://github.com/dakleyer/structural-awareness-contributions/commit/413208033cd6b92c9982adc3cfff0fa5161a3995",
+      "distance": 2,
+      "parent": "G01",
+      "routeEdge": "apoyo:GH017:G01",
+      "affinity": 1,
+      "priority": 0.3333333333333333
+    },
+    {
+      "id": "GH039",
+      "type": "ficha",
+      "title": "01K-A01 — Human Capacity / HID Component Verification Record v0.1",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/GH039.html",
+      "original": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_VERIFICATION_v0.1.md",
+      "aliases": [
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/6a657e99a3f6f1074bb062d49bcb8c1625c89442/research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_VERIFICATION_v0.1.md"
+      ],
+      "clusters": [
+        "research"
+      ],
+      "tags": [
+        "autoridad",
+        "capacidad-humana",
+        "decision",
+        "documentacion",
+        "empresa",
+        "evidencia",
+        "experimentacion",
+        "matematicas"
+      ],
+      "summary": "La revisión contrasta los estados de disponibilidad humana del componente con su especificación y con las interfaces que lo consumen. Para escalar una decisión importan la competencia, el permiso y el tiempo restante. La deuda de inteligencia humana se observa con una medida separada.",
+      "commit": "6a657e99a3f6f1074bb062d49bcb8c1625c89442",
+      "sourcePath": "research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_VERIFICATION_v0.1.md",
+      "commitUrl": "https://github.com/dakleyer/structural-awareness-contributions/commit/6a657e99a3f6f1074bb062d49bcb8c1625c89442",
+      "distance": 2,
+      "parent": "GH037",
+      "routeEdge": "documento:sac-rel-0baca1f3cda883",
+      "affinity": 1,
+      "priority": 0.3333333333333333
+    },
+    {
+      "id": "sac-49d857749f6c32",
+      "type": "ficha",
+      "title": "02B — Foundational Syntax Closure & P1–P6 Normal-Form Proof — v0.1",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-49d857749f6c32.html",
+      "original": "https://github.com/dakleyer/structural-awareness-contributions/blob/135d8ff8b2d953270426f5cda0e77402ed0f81e7/research/ecosystem-awareness/baseline/02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md",
+      "aliases": [],
+      "clusters": [
+        "research"
+      ],
+      "tags": [
+        "empresa",
+        "matematicas"
+      ],
+      "summary": "Contenido de la fuente: 1. What is being proved · 2. Declared foundational grammar · 2.1 Epistemic position.",
+      "commit": "135d8ff8b2d953270426f5cda0e77402ed0f81e7",
+      "sourcePath": "research/ecosystem-awareness/baseline/02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md",
+      "commitUrl": "https://github.com/dakleyer/structural-awareness-contributions/commit/135d8ff8b2d953270426f5cda0e77402ed0f81e7",
+      "distance": 2,
+      "parent": "GH001",
+      "routeEdge": "documento:sac-rel-aa18686ad3c56b",
+      "affinity": 1,
+      "priority": 0.3333333333333333
+    },
+    {
+      "id": "sac-f2c11eac138e89",
+      "type": "ficha",
+      "title": "ACC — Núcleo técnico del modelo económico abierto (v0.1)",
+      "url": "https://dakleyer.github.io/perspective-beyond/atlas/github/fichas/sac-f2c11eac138e89.html",
+      "original": "https://github.com/dakleyer/structural-awareness-contributions/blob/beeb3f6ea45f7c816a09c683b16b883bffb3318f/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/ECONOMIC_MODEL_TECHNICAL_CORE_v0.1.md",
+      "aliases": [],
+      "clusters": [
+        "research"
+      ],
+      "tags": [
+        "aprendizaje",
+        "capacidad-humana",
+        "control-minimo",
+        "economia",
+        "empresa",
+        "matematicas"
+      ],
+      "summary": "El modelo distingue crecimiento observado y distancia a una configuración mejor que ya sería realizable con los recursos disponibles. La distancia puede aumentar aunque la producción crezca. Las comparaciones propuestas separan especialización útil, coordinación, fricción informativa y capacidad de reajuste.",
+      "commit": "beeb3f6ea45f7c816a09c683b16b883bffb3318f",
+      "sourcePath": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/ECONOMIC_MODEL_TECHNICAL_CORE_v0.1.md",
+      "commitUrl": "https://github.com/dakleyer/structural-awareness-contributions/commit/beeb3f6ea45f7c816a09c683b16b883bffb3318f",
+      "distance": 2,
+      "parent": "GH037",
+      "routeEdge": "documento:sac-rel-9f67b30301ccb8",
+      "affinity": 1,
+      "priority": 0.3333333333333333
+    }
+  ],
+  "edges": [
+    {
+      "id": "apoyo:GH001:C50",
+      "from": "GH001",
+      "to": "C50",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "layer": "apoyo",
+      "condition": "",
+      "route": false
+    },
+    {
+      "id": "apoyo:GH039:C50",
+      "from": "GH039",
+      "to": "C50",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "layer": "apoyo",
+      "condition": "",
+      "route": false
+    },
+    {
+      "id": "apoyo:T1499:C50",
+      "from": "T1499",
+      "to": "C50",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "layer": "apoyo",
+      "condition": "",
+      "route": true
+    },
+    {
+      "id": "apoyo:GH002:C50",
+      "from": "GH002",
+      "to": "C50",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "layer": "apoyo",
+      "condition": "",
+      "route": false
+    },
+    {
+      "id": "apoyo:T1499:G01",
+      "from": "T1499",
+      "to": "G01",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "layer": "apoyo",
+      "condition": "",
+      "route": true
+    },
+    {
+      "id": "apoyo:GH001:G01",
+      "from": "GH001",
+      "to": "G01",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "layer": "apoyo",
+      "condition": "",
+      "route": false
+    },
+    {
+      "id": "apoyo:GH017:G01",
+      "from": "GH017",
+      "to": "G01",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "layer": "apoyo",
+      "condition": "",
+      "route": true
+    },
+    {
+      "id": "apoyo:T1499:G20",
+      "from": "T1499",
+      "to": "G20",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "layer": "apoyo",
+      "condition": "",
+      "route": true
+    },
+    {
+      "id": "apoyo:T1499:G32",
+      "from": "T1499",
+      "to": "G32",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "layer": "apoyo",
+      "condition": "",
+      "route": true
+    },
+    {
+      "id": "apoyo:GH017:G43",
+      "from": "GH017",
+      "to": "G43",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "layer": "apoyo",
+      "condition": "",
+      "route": false
+    },
+    {
+      "id": "apoyo:GH017:G44",
+      "from": "GH017",
+      "to": "G44",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "layer": "apoyo",
+      "condition": "",
+      "route": false
+    },
+    {
+      "id": "apoyo:GH017:G46",
+      "from": "GH017",
+      "to": "G46",
+      "kind": "documenta el concepto",
+      "reading": "",
+      "evidence": null,
+      "layer": "apoyo",
+      "condition": "",
+      "route": false
+    },
+    {
+      "id": "documento:G028",
+      "from": "GH028",
+      "to": "T1499",
+      "kind": "documented use",
+      "reading": "The integrated Foundation separates bounded representation from loss of qualification as conditions change; the two problems interact without being identical.",
+      "evidence": null,
+      "layer": "documento",
+      "condition": "Es una formulación del corpus y sus hipótesis, no aceptación científica externa.",
+      "route": true
+    },
+    {
+      "id": "documento:sac-rel-0e109af41b0f70",
+      "from": "GH001",
+      "to": "GH017",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Start here — Ecosystem Positioning» con el rótulo «Ecosystem Positioning».",
+      "evidence": "https://github.com/dakleyer/structural-awareness-contributions/blob/3b4bd71d7f013b6c461d6fc75331008998d65bfb/README.md",
+      "layer": "documento",
+      "condition": "",
+      "route": false
+    },
+    {
+      "id": "documento:sac-rel-cc3683232eeb71",
+      "from": "GH001",
+      "to": "GH002",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Start here — Ecosystem Positioning» con el rótulo «22 September synthesis, preserved verbatim».",
+      "evidence": "https://github.com/dakleyer/structural-awareness-contributions/blob/3b4bd71d7f013b6c461d6fc75331008998d65bfb/README.md",
+      "layer": "documento",
+      "condition": "",
+      "route": false
+    },
+    {
+      "id": "documento:sac-rel-49f2404e9f9d04",
+      "from": "GH001",
+      "to": "T1499",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Why these series belong together» con el rótulo «Structural Awareness at Tegrity.AI».",
+      "evidence": "https://github.com/dakleyer/structural-awareness-contributions/blob/3b4bd71d7f013b6c461d6fc75331008998d65bfb/README.md",
+      "layer": "documento",
+      "condition": "",
+      "route": true
+    },
+    {
+      "id": "documento:sac-rel-aa18686ad3c56b",
+      "from": "GH001",
+      "to": "sac-49d857749f6c32",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Where should I go?» con el rótulo «Foundation syntax closure».",
+      "evidence": "https://github.com/dakleyer/structural-awareness-contributions/blob/3b4bd71d7f013b6c461d6fc75331008998d65bfb/README.md",
+      "layer": "documento",
+      "condition": "",
+      "route": true
+    },
+    {
+      "id": "documento:sac-rel-5c74f1e47e1d0f",
+      "from": "GH002",
+      "to": "GH001",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura con el rótulo «README.md».",
+      "evidence": "https://github.com/dakleyer/structural-awareness-contributions/blob/03f1ef400c6de41f6ad5015a097a5703f1d3ba1f/README_PROGRAMME_SYNTHESIS_2026-09-22.md",
+      "layer": "documento",
+      "condition": "",
+      "route": false
+    },
+    {
+      "id": "documento:sac-rel-ea75c5c1b29eee",
+      "from": "GH002",
+      "to": "T1499",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Where to go next» con el rótulo «Structural Awareness synthesis».",
+      "evidence": "https://github.com/dakleyer/structural-awareness-contributions/blob/03f1ef400c6de41f6ad5015a097a5703f1d3ba1f/README_PROGRAMME_SYNTHESIS_2026-09-22.md",
+      "layer": "documento",
+      "condition": "",
+      "route": true
+    },
+    {
+      "id": "documento:sac-rel-bb3d7153ce88c8",
+      "from": "GH017",
+      "to": "GH001",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Agentic Architecture for staying situated as the ecosystem changes» con el rótulo «Structural Awareness Programme».",
+      "evidence": "https://github.com/dakleyer/structural-awareness-contributions/blob/413208033cd6b92c9982adc3cfff0fa5161a3995/architectural-contributions/ecosystem-positioning/README.md",
+      "layer": "documento",
+      "condition": "",
+      "route": false
+    },
+    {
+      "id": "documento:sac-rel-771a57f70714aa",
+      "from": "GH017",
+      "to": "GH028",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Common-cause hypotheses and foundation-to-principle traceability» con el rótulo «foundations».",
+      "evidence": "https://github.com/dakleyer/structural-awareness-contributions/blob/413208033cd6b92c9982adc3cfff0fa5161a3995/architectural-contributions/ecosystem-positioning/README.md",
+      "layer": "documento",
+      "condition": "",
+      "route": false
+    },
+    {
+      "id": "documento:sac-rel-b8ca3239210f62",
+      "from": "GH017",
+      "to": "sac-49d857749f6c32",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «2. Principles — the compact operational invariants» con el rótulo «02B — Foundation syntax closure».",
+      "evidence": "https://github.com/dakleyer/structural-awareness-contributions/blob/413208033cd6b92c9982adc3cfff0fa5161a3995/architectural-contributions/ecosystem-positioning/README.md",
+      "layer": "documento",
+      "condition": "",
+      "route": false
+    },
+    {
+      "id": "documento:sac-rel-6dd7fd11383e11",
+      "from": "GH017",
+      "to": "GH037",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Additive Human Capacity / Human Intelligence Debt extension» con el rótulo «01K — Human Capacity / Human Intelligence Debt».",
+      "evidence": "https://github.com/dakleyer/structural-awareness-contributions/blob/413208033cd6b92c9982adc3cfff0fa5161a3995/architectural-contributions/ecosystem-positioning/README.md",
+      "layer": "documento",
+      "condition": "",
+      "route": false
+    },
+    {
+      "id": "documento:sac-rel-9f67b30301ccb8",
+      "from": "sac-f2c11eac138e89",
+      "to": "GH037",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «7. Human Intelligence Debt y generación/preservación de capacidades» con el rótulo «Annex 01K».",
+      "evidence": "https://github.com/dakleyer/structural-awareness-contributions/blob/beeb3f6ea45f7c816a09c683b16b883bffb3318f/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/ECONOMIC_MODEL_TECHNICAL_CORE_v0.1.md",
+      "layer": "documento",
+      "condition": "",
+      "route": true
+    },
+    {
+      "id": "documento:sac-rel-0baca1f3cda883",
+      "from": "GH039",
+      "to": "GH037",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «1. Source reconciliation performed» con el rótulo «01K — Human Capacity / Human Intelligence Debt».",
+      "evidence": "https://github.com/dakleyer/structural-awareness-contributions/blob/6a657e99a3f6f1074bb062d49bcb8c1625c89442/research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_VERIFICATION_v0.1.md",
+      "layer": "documento",
+      "condition": "",
+      "route": true
+    },
+    {
+      "id": "documento:sac-rel-a3246e2bbe8ea5",
+      "from": "GH037",
+      "to": "sac-f2c11eac138e89",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Annex 01K — Human Capacity / Human Intelligence Debt» con el rótulo «ACC's auxiliary economic research model».",
+      "evidence": "https://github.com/dakleyer/structural-awareness-contributions/blob/11fbac15d6f2b790d459ab507633b2293e302709/research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md",
+      "layer": "documento",
+      "condition": "",
+      "route": false
+    },
+    {
+      "id": "documento:sac-rel-b73ec6c2296756",
+      "from": "GH037",
+      "to": "T1499",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «Annex B — Cross-series bridge map» con el rótulo «Structural Awareness synthesis».",
+      "evidence": "https://github.com/dakleyer/structural-awareness-contributions/blob/11fbac15d6f2b790d459ab507633b2293e302709/research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md",
+      "layer": "documento",
+      "condition": "",
+      "route": true
+    },
+    {
+      "id": "documento:sac-rel-259a49d3d25005",
+      "from": "sac-49d857749f6c32",
+      "to": "GH028",
+      "kind": "referencia de la fuente",
+      "reading": "La fuente enlaza esta lectura en «02B — Foundational Syntax Closure & P1–P6 Normal-Form Proof — v0.1» con el rótulo «01 — Integrated Foundational Theory».",
+      "evidence": "https://github.com/dakleyer/structural-awareness-contributions/blob/135d8ff8b2d953270426f5cda0e77402ed0f81e7/research/ecosystem-awareness/baseline/02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md",
+      "layer": "documento",
+      "condition": "",
+      "route": false
+    },
+    {
+      "id": "concepto:B467",
+      "from": "G20",
+      "to": "C50",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "evidence": null,
+      "layer": "concepto",
+      "condition": "",
+      "route": false
+    },
+    {
+      "id": "concepto:B538",
+      "from": "G32",
+      "to": "G20",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "evidence": null,
+      "layer": "concepto",
+      "condition": "",
+      "route": false
+    },
+    {
+      "id": "concepto:B592",
+      "from": "G43",
+      "to": "G20",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "evidence": null,
+      "layer": "concepto",
+      "condition": "",
+      "route": true
+    },
+    {
+      "id": "concepto:B597",
+      "from": "G44",
+      "to": "C50",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "evidence": null,
+      "layer": "concepto",
+      "condition": "",
+      "route": true
+    },
+    {
+      "id": "concepto:B606",
+      "from": "G46",
+      "to": "C50",
+      "kind": "conceptual bridge",
+      "reading": "",
+      "evidence": null,
+      "layer": "concepto",
+      "condition": "",
+      "route": true
+    }
+  ]
+}

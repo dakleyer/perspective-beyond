@@ -2,6 +2,7 @@
 const get = id => document.getElementById(id);
 const modeLabels = {closed:'Cerrado',porous:'Poroso',federated:'Federado'};
 const pageRoot = new URL('./',location.href);
+const rawRoot = 'https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/';
 const readURL = key => new URL('lectura/'+key+'.html',pageRoot).href;
 const radiusURL = (id,red='documentos') => new URL('mapa/?'+new URLSearchParams({centro:id,red}),pageRoot).href;
 const norm = t => t.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
@@ -263,13 +264,13 @@ async function start() {
     if(customText)url.searchParams.set('instruccion',customText);
     return url.href;
   }
-  function textEntry(f=weighting()) {
+  function textEntry(f=weighting(),root=pageRoot) {
     const entries=delta.text_entries;
     const selected=entries.clusters[origin.value];
     const path=origin.value==='all'?entries.global
       :mode.value==='porous'?selected.porous[bridge.value]:selected[mode.value];
     if(!path) throw Error('No plain-text entry for the selected scope');
-    return setConfiguration(new URL(path,pageRoot),f);
+    return setConfiguration(new URL(path,root),f);
   }
   function webEntry(f=weighting()) {
     const url=new URL('./#asistente',pageRoot);
@@ -307,6 +308,7 @@ async function start() {
     get('scope').textContent=s.active.map(k=>clusters[k][0]).join(' · ')+' · '+scoped.sources.length+' fichas y fuentes';
     get('role-help').textContent=roles[role.value][1];
     get('entry-url').href=textEntry(f);
+    get('entry-mirror').href=textEntry(f,rawRoot);
     get('web-entry').href=webEntry(f);
     get('prompt').value=instructions(s,f);
     get('status').textContent='';

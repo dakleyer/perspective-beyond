@@ -52,6 +52,8 @@ En el visualizador, calcula el mapa y pulsa **Copiar código para insertar**, o 
 
 La página anfitriona puede compartir la URL, el HTML de inserción o el JSON resultante. El mapa se vuelve a calcular con el grafo publicado cuando se abre. Los anillos muestran los saltos, y el panel de lectura permite abrir cada ficha y su fuente.
 
+El [ejemplo calculado en JSON](https://raw.githubusercontent.com/dakleyer/perspective-beyond/main/docs/atlas/mapa/ejemplos/structural-awareness.json) permite comprobar la misma selección con un lector de texto. Para otro mapa, descarga su JSON desde el visualizador o usa la CLI.
+
 ## Actualizar el grafo
 
 Después de actualizar `docs/data/atlas.json` y `docs/atlas/global-catalog.json`, ejecuta:
