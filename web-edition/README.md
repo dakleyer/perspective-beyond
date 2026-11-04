@@ -31,3 +31,5 @@ python check_web.py
 dist/edicion/archivos.json conserva el tamaño y SHA-256 de cada archivo canónico. La verificación comprueba las páginas de todas las fichas, los enlaces y anclas internos y las huellas de los archivos reproducidos. El proceso genera una publicación web; no crea respaldos del proyecto.
 
 [Metadatos de la publicación](publication.json).
+
+El archivo vacio de control de GitHub Pages conserva su contenido y se sirve mediante la ruta de texto indicada en el inventario de archivos.

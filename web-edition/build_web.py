@@ -41,7 +41,11 @@ for path,meta in tree.items():
     data=blob(path)
     destination='perspective-beyond/'+path.removeprefix('docs/')
     write(destination,data)
-    manifest.append({'canonicalPath':path,'webPath':'/'+destination,'bytes':len(data),'sha256':sha256(data).hexdigest()})
+    public_path='/'+destination
+    if path=='docs/.nojekyll':
+        write('archivos-especiales/nojekyll.txt',data)
+        public_path='/archivos-especiales/nojekyll.txt'
+    manifest.append({'canonicalPath':path,'webPath':public_path,'bytes':len(data),'sha256':sha256(data).hexdigest()})
 pipe.stdin.close();pipe.stdout.close();pipe.wait()
 graph=json.loads((OUT/'perspective-beyond/atlas/mapa/grafo.json').read_bytes())
 nodes={n['id']:n for n in graph['nodes']}
