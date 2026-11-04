@@ -145,7 +145,7 @@ def configure(config, catalog, routes, sources):
         "mapa": ATLAS + "mapa/?" + urlencode({"centro": center, "red": "ideas"}) if center else None,
         "rolNombre": role_label, "rolRegla": role_rule, "proposito": purpose_label, "propositoRegla": purpose_rule,
         "modoNombre": MODES[mode], "enfoqueNombre": focus_label, "puenteNombre": bridge["title"] if bridge else None,
-        "fuente": {"id": center, "titulo": source["title"], "original": source["url"],
+        "fuente": {"id": center, "titulo": source["title"], "original": note.get("provenance", {}).get("url") or source["url"],
                    "ficha": urljoin(ATLAS, note.get("url") or "../sources/" + source["slug"] + "/")} if source else None,
     }
 

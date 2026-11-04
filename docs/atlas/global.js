@@ -40,10 +40,25 @@ async function start() {
   const cross = edges.filter(e=>membership[e.from]!==membership[e.to]);
   const outgoing = key => cross.filter(e=>membership[e.from]===key);
   const sourcePage = r => new URL(delta.editorial_cards[r.id]?.url || '../sources/'+r.slug+'/',pageRoot).href;
+  const examinedOriginal = r => delta.editorial_cards[r.id]?.provenance?.url || r.url;
   const conceptPage = c => new URL(c.url||'../concepts/'+c.slug+'/',pageRoot).href;
   const counts = Object.fromEntries(keys.map(k=>[k,records.filter(r=>membership[r.id]===k).length]));
   const params = new URLSearchParams(location.search);
   const contextId = params.get('desde');
+  const siteParam = params.get('site');
+  const modeParam = params.get('modo');
+  const bridgeParam = params.get('puente');
+  const explicitSetup = params.get('config')==='1'||contextId!==null;
+  if(explicitSetup&&(
+    (siteParam!==null&&siteParam!=='all'&&!Object.hasOwn(clusters,siteParam))||
+    (modeParam!==null&&(!Object.hasOwn(modeLabels,modeParam)||
+      ((siteParam===null||siteParam==='all')&&modeParam!=='federated')))||
+    (modeParam==='porous'&&!Object.hasOwn(delta.text_entries.clusters[siteParam]?.porous??{},bridgeParam))
+  )) {
+    get('metrics').replaceChildren('Esta configuración tiene un clúster, alcance o puente inválido. ',
+      link(new URL('./#asistente',pageRoot),'Abrir el selector para corregirla'));
+    return;
+  }
   const defaultSite = Object.hasOwn(clusters,params.get('site')) ? params.get('site') : 'all';
   const origin = get('origin'), mode = get('mode'), bridge = get('bridge'), purpose = get('purpose');
   const role = get('role'), custom = get('custom-role');
@@ -56,6 +71,7 @@ async function start() {
   onlyTopics.checked = params.get('solo')==='1';
   let focusItems = new Map(), focusScope = '', restoreFocus = true;
   if (profiles.includes(params.get('enfoque'))) profile.value = params.get('enfoque');
+  if(onlyTopics.checked)profile.value='personalizado';
   query.value = params.get('buscar') || '';
 
   for (const select of [origin,filter]) {
@@ -257,7 +273,7 @@ async function start() {
     const customText=custom.value.trim();
     return 'Abre la entrada de Perspective Beyond: '+textEntry(f,pageRoot,start)+'\nOrigen: '+originLabel+' · Modo: '+modeLabels[mode.value]+'. '+
       rules+bridgeText+'\nRol: '+roleLabel+'. '+roleRule+'\nPropósito: '+purposeLabel+'. '+purposeRule+'\n'+focusInstruction(f)+
-      (start?'\nPunto de partida ['+start.id+']: '+start.title+'. Ficha: '+sourcePage(start)+'. Original: '+start.url+
+      (start?'\nPunto de partida ['+start.id+']: '+start.title+'. Ficha: '+sourcePage(start)+'. Original: '+examinedOriginal(start)+
         '. Usa esta fuente si es pertinente a la pregunta.':'')+
       (customText?'\nInstrucción del lector: '+customText:'')+
       '\nAplica esta configuración. Separa el original, la relación editorial y tu interpretación. '+
@@ -312,31 +328,45 @@ async function start() {
     const f=weighting();
     const scoped=filteredSession(s,f);
     const start=startingRecord(s,f);
+    const invalidFilter=onlyTopics.checked&&!f.strict;
     get('focus-editor').hidden=profile.value!=='personalizado';
-    onlyTopics.disabled=!f.topicKeys?.length;
+    onlyTopics.disabled=!f.topicKeys?.length&&!onlyTopics.checked;
     const rendered=new Map(f.items.map(item=>[item.key,percent(item.tenths)]));
     for(const row of focusRows.children)row.querySelector('.focus-percent').textContent=rendered.get(row.dataset.key)||'0 %';
-    get('focus-preview').textContent=profile.value==='personalizado'&&!f.items.length
+    get('focus-preview').textContent=invalidFilter
+      ?'Añade un peso positivo para una etiqueta temática de este alcance o desactiva la selección exclusiva.'
+      :profile.value==='personalizado'&&!f.items.length
       ?'Añade un peso positivo para personalizar la lectura. Ahora se reparte de forma pareja.' : focusInstruction(f);
     get('bridge-field').hidden=mode.value!=='porous';
-    get('scope').textContent=s.active.map(k=>clusters[k][0]).join(' · ')+' · '+scoped.sources.length+' fichas y fuentes';
+    get('scope').textContent=s.active.map(k=>clusters[k][0]).join(' · ')+
+      (invalidFilter?' · falta una etiqueta temática válida':' · '+scoped.sources.length+' fichas y fuentes');
     get('role-help').textContent=roles[role.value][1];
     get('starting-point').replaceChildren();
     get('starting-point').hidden=!contextId;
-    if(start) {
+    if(contextId&&invalidFilter) {
+      get('starting-point').textContent='El punto de partida se comprobará al completar la selección.';
+    } else if(start) {
       get('starting-point').append('Punto de partida · ',link(sourcePage(start),start.title),
         ' · ',link(radiusURL(start.id,'ideas'),'Mapa de la ficha'));
     } else if(contextId) {
       get('starting-point').textContent='La ficha de partida queda fuera de esta selección.';
     }
+    for(const id of ['copy-url','copy-config','copy','download'])get(id).disabled=invalidFilter;
+    for(const id of ['entry-url','entry-mirror','web-entry'])get(id).hidden=invalidFilter;
+    get('prompt').value='';
+    get('status').textContent='';
+    if(invalidFilter)return;
     get('entry-url').href=textEntry(f,pageRoot,start);
     get('entry-mirror').href=textEntry(f,rawRoot,start);
     get('web-entry').href=webEntry(f,start);
     get('prompt').value=instructions(s,f,start);
-    get('status').textContent='';
   }
   origin.addEventListener('change',chooseOrigin);
-  for(const field of [mode,bridge,purpose,profile,onlyTopics]) field.addEventListener('change',render);
+  for(const field of [mode,bridge,purpose,onlyTopics]) field.addEventListener('change',render);
+  profile.addEventListener('change',()=>{
+    if(profile.value!=='personalizado')onlyTopics.checked=false;
+    render();
+  });
   role.addEventListener('change',()=>{
     if(role.value==='personalizado')get('role-options').open=true;
     render();

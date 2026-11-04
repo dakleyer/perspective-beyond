@@ -53,4 +53,4 @@ python docs/atlas/i/build_instances.py --qr "https://dakleyer.github.io/perspect
 3. Abre la configuración en el Atlas y copia la URL para el asistente. Comprueba que incluya los pesos y la ficha mientras esta sea elegible.
 4. Cambia a un clúster que deje fuera la ficha. La interfaz debe señalarlo y la URL copiada debe quedar sin `desde`.
 
-[Pruebas de conversación con asistentes](../perfiles/VALIDACION.md)
+[Comprobación de las instancias](VALIDACION.md) · [Pruebas de conversación con asistentes](../perfiles/VALIDACION.md)
