@@ -43,6 +43,11 @@ function sync(){
   if(item?.tagName==='DETAILS')item.open=true;
 }
 query.addEventListener('input',sync);
-window.addEventListener('hashchange',sync);
+window.addEventListener('hashchange',()=>{
+  const target=document.getElementById(location.hash.slice(1));
+  const wasHidden=target?.hidden;
+  sync();
+  if(wasHidden) target.scrollIntoView();
+});
 sync();
 </script></body></html>
