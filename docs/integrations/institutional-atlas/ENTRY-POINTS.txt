@@ -1,0 +1,21 @@
+PERSPECTIVE BEYOND — INSTITUTIONAL VISUAL ENTRIES
+
+The same Atlas, entered from Integral Management and the Instituto del Totonacapan.
+Every published page has a contextual visual entrance, explained relationships, a path back to its source, a link to the central Atlas and an assistant entry.
+
+58 pages: https://integralmanagement.ch/
+105 pages and posts: https://totonacapan.com/
+
+Open the map at the end of the page. Select a concept or reading to see its contribution and relationship. The network includes relationships among neighbours. On a narrow screen, the same choices appear as readable buttons. The assistant section provides a public text entry and a question to copy.
+
+The plugin is scoped to these two domains. Its content filter and footer fallback render one entry per public page without writing post bodies. REST responses keep their source content. The public registries are contextual views into the existing Atlas; canonical fichas, concepts and relations keep their IDs and contents. The other four websites' maps and their loaders are unchanged.
+
+Public assistant entries:
+https://integralmanagement.ch/wp-content/plugins/perspective-beyond-institutional-atlas/assistant.txt
+https://totonacapan.com/wordpress/wp-content/plugins/perspective-beyond-institutional-atlas/assistant.txt
+
+Their URL configuration retains cluster, scope, source page and existing ficha IDs. WordPress page_id/p source identifiers remain in the original URL. The same shared Atlas protocol supplies modes, tag weights, orientation, sources and relationships.
+
+Coverage: 163 page views across 18 reading profiles; 136 distinct neighbour selections. Pages added later receive a source-context entry automatically. Specific selections can be regenerated from the updated source inventory and the unchanged Atlas graph.
+
+Installation: install and activate this small WordPress module in the two intended sites. Deactivation removes only this integration; no post-body or database migration is required. The earlier test module is inactive.
