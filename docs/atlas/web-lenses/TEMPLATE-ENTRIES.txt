@@ -1,1 +1,7 @@
-Four custom templates (JubAp.Net and JubAp.us home and case-study pages) load the same Mind Atlas page windows through their pre-existing web-atlas-entry scripts. The bridge supplies the normal page context where those templates omit WordPress display hooks. Existing map styles, article bodies, methodological notes, field notes and Related blocks remain in place. All other pages use the small WordPress module.
+CUSTOM-TEMPLATE ENTRIES
+
+Four existing page templates (the JubAp.Net and JubAp.us home pages and case timelines) render outside the usual WordPress content and footer hooks.
+
+The optional template-bridge.php display plugin adds the same page context and shared module immediately before the closing body tag. It is restricted to those four paths. Its presence guard prevents duplicate entries. It changes no stored article, theme or map design.
+
+The original NET and US Atlas entry loaders also include a guarded central-module fallback. Native page context takes precedence.
