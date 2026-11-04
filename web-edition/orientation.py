@@ -8,6 +8,7 @@ import json,math,re,textwrap
 
 HERE=Path(__file__).resolve().parent
 PUBLIC_ENTRY='https://tegrity.ai/atlas-orientation/'
+DIRECT_READER='https://tegrity.ai/atlas-reader/'
 CONFIG_RULE='Conserva el objetivo, punto de entrada, modo, etiquetas, pesos y alcance ya indicados por el usuario o por su URL. En un modo cerrado, ofrece solamente fichas del clúster permitido. No vuelvas a pedir una selección ya resuelta.'
 AREAS=[
 {'id':'perspectiva','title':'Cambiar la pregunta','question':'¿Qué estamos dejando fuera al formular el problema?','description':'Marcos de observación, representaciones, límites del conocimiento y traducción entre dominios.','tags':['perspectiva','representacion','mundo-abierto','cartografia'],'seeds':['D-285','E1731','T1499']},
@@ -76,7 +77,7 @@ def build(root=HERE,own_origin='https://tegrity.ai',uploads='https://tegrity.ai/
          'clusters':dict(Counter(c for k in members for c in nodes[k]['clusters']))})
     summary={'schema':'perspective-beyond/orientation-v1','sourceGraphSha256':before,'edition':graph['edition'],
       'purpose':'Entender el corpus y elegir un posicionamiento antes de configurar el asistente.',
-      'publicEntry':PUBLIC_ENTRY,'configurationRule':CONFIG_RULE,
+      'publicEntry':PUBLIC_ENTRY,'directReader':DIRECT_READER,'configurationRule':CONFIG_RULE,
       'flow':['Comprender el mapa superior','Formular la pregunta del visitante','Elegir un área y dos o tres fichas','Ajustar perspectiva, alcance y tokens','Abrir la lectura y revisar el posicionamiento'],
       'distinction':{'areas':'Qué pregunta o mecanismo quieres explorar.','clusters':'En qué contexto institucional, de práctica o de investigación aparece.','fichas':'Qué textos y casos sostienen esa lectura.','posicionamiento':'El documento o ficha concreto desde el que se empieza a recorrer.'},
       'counts':{'fichas':sum(n['type']=='ficha'for n in nodes.values()),'concepts':sum(n['type']=='concepto'for n in nodes.values()),'relations':len(graph['edges']),'clusters':len(graph['clusters']),'tags':len(graph['topics'])},
@@ -126,7 +127,7 @@ def build(root=HERE,own_origin='https://tegrity.ai',uploads='https://tegrity.ai/
     lines=['ATLAS · ORIENTACIÓN ANTES DEL POSICIONAMIENTO','',
     'El corpus conecta pensamiento arquitectónico, investigación, intervención empresarial y experiencia humana. Sus fichas forman una red de relaciones documentadas. Primero entiende el mapa superior; después acuerda una entrada concreta con el visitante.',
     'No empieces pidiendo un clúster a quien todavía no conoce el corpus. Pregunta qué quiere comprender, resolver o crear. Propón dos o tres fichas y explica el mecanismo que las hace pertinentes. Un área expresa una pregunta; un clúster expresa un contexto. El posicionamiento es el documento o ficha elegido.',
-    '',CONFIG_RULE,'Entrada en dominio propio: '+PUBLIC_ENTRY,'','MAPA DE ÁREAS']
+    '',CONFIG_RULE,'Entrada en dominio propio: '+PUBLIC_ENTRY,'Lectura directa de todos los clústeres, fichas y relaciones: '+DIRECT_READER,'','MAPA DE ÁREAS']
     for a in areas:
         lines+=['',a['title']+' — '+a['question'],a['description'],'Temas: '+', '.join(graph['topics'][t]for t in a['tags'])+'.',
         'Entradas: '+'; '.join(s+' · '+nodes[s]['title']for s in a['seeds'][:3]),'Ampliar: '+summary_origin(root)+'/orientacion/'+a['id']+'/']
@@ -144,9 +145,9 @@ def build(root=HERE,own_origin='https://tegrity.ai',uploads='https://tegrity.ai/
 
 def integrate_entry(root):
     out=root/'dist'
-    note='Antes de elegir un posicionamiento, lee el mapa superior: '+PUBLIC_ENTRY+' . Allí están las grandes preguntas del corpus, sus puentes y las fichas para empezar. Si el visitante todavía no conoce el Atlas, parte de su intención y ofrece dos o tres entradas concretas. '+CONFIG_RULE
+    note='Lectura directa del Atlas en dominio propio: '+DIRECT_READER+' . Ofrece todos los clústeres, fichas, conceptos y relaciones mediante archivos de texto de Tegrity.AI. Si este alojamiento devuelve 403 o no se puede abrir, continúa allí conservando la URL y configuración del visitante. Antes de elegir un posicionamiento, lee el mapa superior: '+PUBLIC_ENTRY+' . Allí están las grandes preguntas del corpus, sus puentes y las fichas para empezar. Si el visitante todavía no conoce el Atlas, parte de su intención y ofrece dos o tres entradas concretas. '+CONFIG_RULE
     marker='<!-- atlas-orientation:start -->'
-    block=marker+'<section class="reading"><p class="kicker">Primero orientarse</p><h2>'+link(PUBLIC_ENTRY,'Comprender el Atlas antes de elegir dónde entrar')+'</h2><p>Un mapa de las grandes preguntas, sus conexiones y las fichas desde las que empezar.</p><p>'+link('/orientacion/','Explorar las áreas y sus puentes')+'</p></section><!-- atlas-orientation:end -->'
+    block=marker+'<section class="reading"><p class="kicker">Lectura directa en Tegrity.AI</p><h2>'+link(DIRECT_READER,'Conecta tu asistente al Atlas completo')+'</h2><p>Todos los clústeres, fichas y relaciones en archivos de texto públicos del dominio propio.</p><p>'+link(PUBLIC_ENTRY,'Comprender el Atlas antes de elegir dónde entrar')+' · '+link('/orientacion/','Explorar las áreas y sus puentes')+'</p></section><!-- atlas-orientation:end -->'
     for name in ['index.html','entrada/index.html']:
         path=out/name;html=path.read_text(encoding='utf8')
         if marker in html:html=re.sub(r'<!-- atlas-orientation:start -->.*?<!-- atlas-orientation:end -->',lambda m:block,html,flags=re.S)

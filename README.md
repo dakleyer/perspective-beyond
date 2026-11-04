@@ -1,5 +1,7 @@
 # Perspective Beyond
 
+[Conecta tu asistente al Atlas · lectura directa](https://tegrity.ai/atlas-reader/)
+
 [Open the interactive atlas](https://dakleyer.github.io/perspective-beyond/) · [Read the guide](https://dakleyer.github.io/perspective-beyond/guide/) · [Browse the sources](https://dakleyer.github.io/perspective-beyond/sources/)
 
 Perspective Beyond connects the concepts, research, interventions and field cases that inform an architectural approach to action under incomplete evidence. Start with the guide or enter through a concept, case or source. Each relationship has a type, and its source or operating conditions appear where recorded.

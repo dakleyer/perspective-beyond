@@ -41,3 +41,11 @@ El archivo vacio de control de GitHub Pages conserva su contenido y se sirve med
 Siete áreas agrupan los temas existentes; 36 puentes dirigidos resumen sus relaciones registradas. Las 1.566 fichas y conceptos mantienen su identidad y pueden participar en varias áreas. Once rutas por pregunta proponen dos o tres entradas concretas antes de pedir clúster, pesos y alcance a un visitante nuevo. Las configuraciones ya fijadas por el lector o su URL se conservan.
 
 `orientation.py` genera esta capa al terminar `build_web.py`. `check_orientation.py` comprueba cobertura, correspondencias, relaciones, diversidad de entradas y continuidad de la configuración. El modelo completo conserva la pertenencia de cada pieza y los identificadores de las relaciones agrupadas. El grafo original permanece intacto.
+
+## Lectura directa en Tegrity.AI
+
+[Entrada estable](https://tegrity.ai/atlas-reader/) · [Fuente de texto](https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-entrada.txt)
+
+Esta edición permite recorrer las 1.566 piezas y 11.832 relaciones originales sin depender de la entrega del dominio chatgpt.site. Diez índices de clúster, paginación, localizador y archivos de fichas y relaciones están servidos como texto público en el dominio propio. Conserva los 46 enlaces de navegación, 1.212 documentos y los campos de cada registro. El inventario publica los enlaces y SHA-256 de los 127 archivos.
+
+Tras generar la edición web, ejecuta `python build_direct_reader.py` y `python build_direct_reader_page.py`. Los archivos de lectura producidos se publican en el origen declarado por el generador; comprueba las URLs y sus huellas tras la publicación. No cambies fichas ni relaciones para adaptar el transporte.

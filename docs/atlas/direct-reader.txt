@@ -1,0 +1,181 @@
+# Perspective Beyond · Lectura directa del Atlas
+
+Texto público para personas y asistentes. Cada registro conserva sus identificadores y enlaces.
+
+```json
+{
+  "schema": "atlas/direct-entry-v1",
+  "entry": "https://tegrity.ai/atlas-reader/",
+  "purpose": "Atlas íntegro de fichas, conceptos y relaciones, servido como texto en Tegrity.AI. No requiere el dominio chatgpt.site ni GitHub para recorrer el grafo.",
+  "configurationRule": "Conserva punto de entrada, modo, pesos, etiquetas, alcance y propósito de la URL del visitante. Si no están elegidos, lee la orientación, pregunta qué quiere comprender, resolver o crear y ofrece dos o tres entradas pertinentes. En modo cerrado consulta contenido del clúster permitido; en poroso sigue el puente elegido; en federado sigue las relaciones registradas.",
+  "graphSha256": "8733a98ca9844a1b5f85096f6b68c910bda9d1aed95e0192c359522a1a641ece",
+  "edition": "2026-11-04-mantenimiento-mapa-1",
+  "parameters": {
+    "cluster": "ID de clúster de la lista; varios separados por coma.",
+    "alcance": "cerrado, poroso o federado. Poroso requiere puente elegido.",
+    "posicionamiento": "ID de ficha, documento o URL de origen.",
+    "rol": "lector, embajador, consultor, investigador o personalizado.",
+    "lectura": "paraphrase, explore, ideas, locate o quote.",
+    "enfoque": "parejo, transversal o personalizado.",
+    "peso": "Parámetro repetible etiqueta:peso. Conserva los pesos del lector.",
+    "tokens": "Presupuesto de lectura solicitado.",
+    "instruccion": "Instrucciones del lector para esta sesión."
+  },
+  "scopeRule": "Una selección previa prevalece. En una URL parcial pregunta solo por lo que falta. Sin selección, orienta desde la pregunta. Los enlaces de un archivo no amplían el alcance acordado.",
+  "counts": {
+    "fichas": 1294,
+    "concepts": 272,
+    "relations": 11832,
+    "navigation": 46,
+    "documents": 1212
+  },
+  "orientation": "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-orientacion.txt",
+  "clusters": [
+    {
+      "id": "eu",
+      "title": "JubAp.eu",
+      "url": "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-cluster-eu.txt",
+      "count": 113
+    },
+    {
+      "id": "net",
+      "title": "JubAp.Net",
+      "url": "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-cluster-net.txt",
+      "count": 149
+    },
+    {
+      "id": "us",
+      "title": "JubAp.us",
+      "url": "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-cluster-us.txt",
+      "count": 95
+    },
+    {
+      "id": "tegrity",
+      "title": "Tegrity.AI",
+      "url": "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-cluster-tegrity.txt",
+      "count": 183
+    },
+    {
+      "id": "imsv",
+      "title": "Integral Management",
+      "url": "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-cluster-imsv.txt",
+      "count": 19
+    },
+    {
+      "id": "totonacapan",
+      "title": "Instituto del Totonacapan",
+      "url": "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-cluster-totonacapan.txt",
+      "count": 7
+    },
+    {
+      "id": "mobility",
+      "title": "Logistics and Mobility",
+      "url": "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-cluster-mobility.txt",
+      "count": 32
+    },
+    {
+      "id": "latinoempresa",
+      "title": "LatinoEmpresa",
+      "url": "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-cluster-latinoempresa.txt",
+      "count": 57
+    },
+    {
+      "id": "research",
+      "title": "Investigación y estándares",
+      "url": "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-cluster-research.txt",
+      "count": 888
+    },
+    {
+      "id": "dialogos",
+      "title": "Diálogos",
+      "url": "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-cluster-dialogos.txt",
+      "count": 391
+    }
+  ],
+  "lookup": {
+    "url": "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-localizador.txt",
+    "instruction": "Busca el ID de la ficha o relación. Abre su archivo y localiza el registro por su ID. Los enlaces connections llevan a las fichas vecinas y a la relación completa."
+  },
+  "documents": "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-documentos.txt",
+  "navigation": "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-navegacion.txt",
+  "nodeParts": [
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-fichas-001.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-fichas-002.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-fichas-003.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-fichas-004.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-fichas-005.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-fichas-006.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-fichas-007.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-fichas-008.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-fichas-009.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-fichas-010.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-fichas-011.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-fichas-012.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-fichas-013.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-fichas-014.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-fichas-015.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-fichas-016.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-fichas-017.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-fichas-018.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-fichas-019.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-fichas-020.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-fichas-021.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-fichas-022.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-fichas-023.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-fichas-024.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-fichas-025.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-fichas-026.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-fichas-027.txt"
+  ],
+  "edgeParts": [
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-001.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-002.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-003.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-004.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-005.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-006.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-007.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-008.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-009.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-010.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-011.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-012.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-013.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-014.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-015.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-016.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-017.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-018.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-019.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-020.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-021.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-022.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-023.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-024.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-025.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-026.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-027.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-028.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-029.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-030.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-031.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-032.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-033.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-034.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-035.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-036.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-037.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-038.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-039.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-040.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-041.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-042.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-043.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-044.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-045.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-046.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-047.txt",
+    "https://tegrity.ai/wp-content/uploads/2026/11/atlas-8733a98c-relaciones-048.txt"
+  ]
+}
+```
