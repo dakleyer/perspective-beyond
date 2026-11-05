@@ -194,3 +194,7 @@ python methodology/verify_source_review.py methodology/examples/source-review-cy
 The checker exercises identity preservation, recorded enrichment, source resolution, explicit node-to-item hooks, endpoint integrity, relationship explanations and the separation of level 1 edges from situated walk assessments. Its eight negative cases remove an earlier node, alter an earlier predicate, erase a rationale, break a source reference, place a global A/B/C/D label on an edge, remove a node-to-item hook, redirect that hook to a node, and remove the item's source hook. Apply this structural check after the semantic source comparison described above.
 
 The example serializes endpoint IDs as `from` and `to`. An adapter can also read `source` and `target` with the same meaning and checks for conflicting aliases. The conceptual predicate and its direction remain explicit in either encoding.
+
+## Seven-judge review of situated epistemic paths
+
+[Seven-judge review protocol](seven-judge-epistemic-review.md) defines isolated judgments across three fresh-context passes, source-based adjudication and tightly located node amendments. It applies after conceptual relationships exist, with ABCD assessed for an origin, question, capability and complete path prefix.
