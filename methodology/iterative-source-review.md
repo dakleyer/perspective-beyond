@@ -144,6 +144,23 @@ A cycle closes when the selected source units have recorded dispositions, accept
 
 The next cycle can start from the remaining queue, a changed source, an unexpected relationship or a question raised by a newly developed card. Source review and relation discovery therefore reinforce each other: a new relationship can expose a missing distinction, and a newly distinguished node can make a previously vague relationship precise.
 
+## 10 Node-first incremental loop
+
+The unit of progress is one reviewed idea and its neighbourhood. Return to the source items repeatedly, including mathematical arguments, operating implementations and dialogues. Ask whether each useful distinction already has a sufficiently developed card.
+
+For each candidate idea:
+
+1. Locate the item, source revision and passage that supports it.
+2. Search the current nodes, read the closest cards and decide whether the idea is covered, needs enrichment or warrants a distinct node.
+3. Reuse or develop that card, with its explicit node-to-item hook, self-contained explanation and source voice.
+4. Search its relationships with the rest of the graph. Examine both endpoints and write the particular predicate, direction, reason and relevant chronology for each accepted relationship.
+5. Validate and integrate the card and its reviewed relationships as an additive increment. Record covered candidates and rejected relationships as decisions too.
+6. Use the new neighbours and remaining questions to select the next idea for source comparison.
+
+An existing node still participates in the relationship review; finding its card does not end the inquiry. A source that is already well represented can yield new relationships without yielding a new node. Mathematical conditions, organizational mechanisms and a dialogue's reflective interpretation retain their different roles when connected.
+
+Assess sufficiency through the recorded source comparisons and remaining questions. Node counts alone do not establish conceptual coverage. Preserve earlier identities, explanations, hooks and relationships; record a deliberate enrichment against its prior version when an explanation genuinely needs development.
+
 ## Planned: item freshness and review cadence
 
 **Status: documented requirement for future implementation.**
