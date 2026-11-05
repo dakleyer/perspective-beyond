@@ -141,6 +141,8 @@ ABCD observations are sealed before the factor panel receives its adopted ABCD i
 
 A separate process diary records what actually happened: inputs read, access or identity problems, observed effort, points that required interpretation, useful information and proposed improvements to the method. It references the sealed judgment records rather than rewriting them.
 
+The [5 November experiment diary](https://github.com/dakleyer/perspective-beyond/blob/main/methodology/experiments/seven-judge-diary-2026-11-05.md) records the actual first-batch observations, bounded exchange, citation correction and continuation checkpoint.
+
 Judges make short process observations **after sealing**. The diary distinguishes a verbatim comment, an integrator's summary and a measured metric. It never invents dialogue, time measurements or agreement. Only an actual bounded reconciliation exchange is recorded as a conversation.
 
 The diary is not part of a fresh judge's input packet. An operational repair can be recorded and made available neutrally when necessary; interpretive observations remain outside blind input. A method change takes a versioned decision with its reason. The amount of disagreement, difficulty or agreement alone does not decide a node's meaning.
