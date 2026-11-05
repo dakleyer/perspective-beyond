@@ -1,6 +1,6 @@
 # Seven-judge Atlas review — experiment diary
 
-Updated: 2026-11-05T08:08:31.034946+00:00
+Updated: 2026-11-05T08:25:38.369918+00:00
 
 This is a process record for the [seven-judge method](../seven-judge-epistemic-review.md).
 It is kept outside the independent reviewers' input packet.
@@ -9,7 +9,7 @@ It is kept outside the independent reviewers' input packet.
 
 The first batch examines 41 direct forward relationship occurrences under 19 declared positions.
 Seven criteria are reviewed in three fresh-context passes: 21 runs and 861 expected judgments.
-At this update, 18 sealed files and 738 judgments have been received.
+At this update, 21 sealed files and 861 judgments have been received.
 These are file/coverage counts, not a measure of semantic correctness or completed later paths.
 
 ## Integrator observations
@@ -56,6 +56,12 @@ amendment with an exact difference and preservation check.
 ## Actual post-seal reviewer comments
 
 These are faithful English process summaries of individual final responses, not inter-judge conversations.
+
+J6, pass 3: explicit positions and located originals helped distinguish characterized comparisons from empirical extensions. A compact endpoint view with duplicate provenance collapsed would improve review efficiency.
+
+J7, pass 3: explicit positions and located originals helped separate characterized comparisons from transfers still exploratory. A compact original-passage index per occurrence would reduce repeated metadata.
+
+J5, pass 3: exact positions and pinned sources helped distinguish an assessable reserve from an analogy without a defined correspondence. A source-by-source reading plan with merged ranges could reduce truncated retrievals.
 
 J3, pass 3: explicit positions and the complete original document helped distinguish characterized mechanisms from incomplete analogies. A semantic reading view without duplicated metadata could reduce effort while retaining the complete records.
 
