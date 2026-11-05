@@ -9,11 +9,23 @@ from pathlib import Path
 def fingerprint(record):
     return hashlib.sha256(json.dumps(record,ensure_ascii=False,sort_keys=True).encode()).hexdigest()
 
+def resolve_pointer(bundle,pointer):
+    obj=bundle
+    for key in pointer.split('/')[1:]:
+        key=key.replace('~1','/').replace('~0','~')
+        obj=obj[int(key)] if isinstance(obj,list) else obj[key]
+    return obj
+
 def validate(bundle):
     errors=[];nodes=bundle['nodes'];edges=bundle['relations'];items=bundle['items'];base=bundle['baseline']
     ni={n['id']:n for n in nodes};ei={e['id']:e for e in edges};ii={i['id'] for i in items}
     if len(ni)!=len(nodes):errors.append('duplicate node ID')
     if len(ei)!=len(edges):errors.append('duplicate edge ID')
+    if len(ii)!=len(items):errors.append('duplicate item ID')
+    for item in items:
+        hook=item.get('hook',{})
+        if not hook.get('uri') or not hook.get('locator') or not (hook.get('revision') or hook.get('observed_state')):
+            errors.append('unlocated item hook '+item['id'])
     for nid in base['node_ids']:
         if nid not in ni:errors.append('missing prior node '+nid)
     for eid in base['relation_ids']:
@@ -30,6 +42,20 @@ def validate(bundle):
         if n.get('record_type')!='node' or not n.get('description','').strip():errors.append('invalid node '+n['id'])
         if not n.get('item_refs') or any(r['item_id'] not in ii or not r.get('locator') for r in n.get('item_refs',[])):
             errors.append('unlocated node source '+n['id'])
+        for ref in n.get('item_refs',[]):
+            try:
+                hook=ref['hook']
+                item=resolve_pointer(bundle,hook['locator']['json_pointer'])
+                selected=hook['source_selection']
+                if hook['binding']!='atlas-item-reference-v0.1' or hook['uri']!='source-review-cycle.json':
+                    raise ValueError('invalid binding')
+                if hook['item_id']!=ref['item_id'] or item['id']!=ref['item_id'] or item.get('record_type')!='item':
+                    raise ValueError('item identity mismatch')
+                expected_uri=ref.get('source_uri') or ref.get('uri') or item['hook']['uri']
+                if selected['uri']!=expected_uri or selected['locator']!=(ref.get('locator') or {'kind':'whole_item'}):
+                    raise ValueError('source selection mismatch')
+            except (KeyError,ValueError,IndexError,TypeError):
+                errors.append('unresolved node-to-item hook '+n['id'])
     for e in edges:
         a=e.get('from',e.get('source'));b=e.get('to',e.get('target'))
         if a not in ni or b not in ni:errors.append('unresolved edge endpoint '+e['id'])
@@ -52,6 +78,9 @@ def self_test(bundle):
     run('missing relationship reason',lambda b:b['relations'][-1].__setitem__('reason',''))
     run('unresolved source',lambda b:b['nodes'][-1]['item_refs'][0].__setitem__('item_id','missing-item'))
     run('global epistemic label',lambda b:b['relations'][-1].__setitem__('abcd','A'))
+    run('missing node-to-item hook',lambda b:b['nodes'][-1]['item_refs'][0].pop('hook'))
+    run('hook points to a node instead of an item',lambda b:b['nodes'][-1]['item_refs'][0]['hook']['locator'].__setitem__('json_pointer','/nodes/0'))
+    run('missing item source hook',lambda b:b['items'][0].pop('hook'))
     return cases
 
 if __name__=='__main__':
