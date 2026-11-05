@@ -4,9 +4,13 @@
   "items": [
     {
       "id": "EXAMPLE-ITEM-METAEX",
+      "record_type": "item",
       "kind": "public repository document",
       "hook": {
         "uri": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/structural-awareness/SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md",
+        "locator": {
+          "kind": "whole_item"
+        },
         "revision": "51fc686f45b6ef10c53b69f4c26d0e381b007ff8"
       }
     }
@@ -20,11 +24,11 @@
       "EXAMPLE-PRIOR"
     ],
     "node_hashes": {
-      "EXAMPLE-SOURCE": "60605d3e640affa589244889358471f6b73df3eb90e682f0fca1b05b3dfcf6e6",
-      "EXAMPLE-SEARCH": "c6f3722e2966230c61d153f35134da2e6e416883de13ca55c672bb464fd92574"
+      "EXAMPLE-SOURCE": "79fa812e62096a9647630fddd271b816d3feb122a265ac0595073d4885a10c3e",
+      "EXAMPLE-SEARCH": "6df07768b21bada3a2e62d5cf81f45ee1e2c97a9adb54a95c77cb1bb5511b7e0"
     },
     "relation_hashes": {
-      "EXAMPLE-PRIOR": "f56fbc016e950077685b5aab0b898d2d27418c898631919814ab05362b9b6ed0"
+      "EXAMPLE-PRIOR": "3231a10ab591259e0fb2ba2949c0e525f1d2ed6d099a7e5cd1002209878ae6f3"
     }
   },
   "nodes": [
@@ -38,7 +42,20 @@
           "item_id": "EXAMPLE-ITEM-METAEX",
           "role": "source_of_explanation",
           "source_uri": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/structural-awareness/SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md",
-          "locator": "sections 4–6"
+          "locator": "sections 4–6",
+          "hook": {
+            "binding": "atlas-item-reference-v0.1",
+            "item_id": "EXAMPLE-ITEM-METAEX",
+            "uri": "source-review-cycle.json",
+            "locator": {
+              "json_pointer": "/items/0"
+            },
+            "source_selection": {
+              "uri": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/structural-awareness/SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md",
+              "locator": "sections 4–6",
+              "revision": "51fc686f45b6ef10c53b69f4c26d0e381b007ff8"
+            }
+          }
         }
       ],
       "version": "1",
@@ -55,7 +72,20 @@
           "item_id": "EXAMPLE-ITEM-METAEX",
           "role": "source_of_explanation",
           "source_uri": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/structural-awareness/SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md",
-          "locator": "section 6"
+          "locator": "section 6",
+          "hook": {
+            "binding": "atlas-item-reference-v0.1",
+            "item_id": "EXAMPLE-ITEM-METAEX",
+            "uri": "source-review-cycle.json",
+            "locator": {
+              "json_pointer": "/items/0"
+            },
+            "source_selection": {
+              "uri": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/structural-awareness/SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md",
+              "locator": "section 6",
+              "revision": "51fc686f45b6ef10c53b69f4c26d0e381b007ff8"
+            }
+          }
         }
       ],
       "version": "1",
@@ -72,7 +102,20 @@
           "item_id": "EXAMPLE-ITEM-METAEX",
           "role": "source_of_explanation",
           "source_uri": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/structural-awareness/SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md",
-          "locator": "section 6, SA-E3"
+          "locator": "section 6, SA-E3",
+          "hook": {
+            "binding": "atlas-item-reference-v0.1",
+            "item_id": "EXAMPLE-ITEM-METAEX",
+            "uri": "source-review-cycle.json",
+            "locator": {
+              "json_pointer": "/items/0"
+            },
+            "source_selection": {
+              "uri": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/structural-awareness/SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md",
+              "locator": "section 6, SA-E3",
+              "revision": "51fc686f45b6ef10c53b69f4c26d0e381b007ff8"
+            }
+          }
         }
       ],
       "version": "1",
@@ -89,7 +132,20 @@
           "item_id": "EXAMPLE-ITEM-METAEX",
           "role": "source_of_explanation",
           "source_uri": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/structural-awareness/SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md",
-          "locator": "section 6, finite-work corollary"
+          "locator": "section 6, finite-work corollary",
+          "hook": {
+            "binding": "atlas-item-reference-v0.1",
+            "item_id": "EXAMPLE-ITEM-METAEX",
+            "uri": "source-review-cycle.json",
+            "locator": {
+              "json_pointer": "/items/0"
+            },
+            "source_selection": {
+              "uri": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/structural-awareness/SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md",
+              "locator": "section 6, finite-work corollary",
+              "revision": "51fc686f45b6ef10c53b69f4c26d0e381b007ff8"
+            }
+          }
         }
       ],
       "version": "1",
@@ -111,7 +167,20 @@
           "item_id": "EXAMPLE-ITEM-METAEX",
           "role": "source_of_explanation",
           "source_uri": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/structural-awareness/SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md",
-          "locator": "sections 4 and 6"
+          "locator": "sections 4 and 6",
+          "hook": {
+            "binding": "atlas-item-reference-v0.1",
+            "item_id": "EXAMPLE-ITEM-METAEX",
+            "uri": "source-review-cycle.json",
+            "locator": {
+              "json_pointer": "/items/0"
+            },
+            "source_selection": {
+              "uri": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/structural-awareness/SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md",
+              "locator": "sections 4 and 6",
+              "revision": "51fc686f45b6ef10c53b69f4c26d0e381b007ff8"
+            }
+          }
         }
       ],
       "version": "1",
@@ -131,7 +200,20 @@
           "item_id": "EXAMPLE-ITEM-METAEX",
           "role": "source_of_explanation",
           "source_uri": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/structural-awareness/SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md",
-          "locator": "sections 4 and 6"
+          "locator": "sections 4 and 6",
+          "hook": {
+            "binding": "atlas-item-reference-v0.1",
+            "item_id": "EXAMPLE-ITEM-METAEX",
+            "uri": "source-review-cycle.json",
+            "locator": {
+              "json_pointer": "/items/0"
+            },
+            "source_selection": {
+              "uri": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/structural-awareness/SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md",
+              "locator": "sections 4 and 6",
+              "revision": "51fc686f45b6ef10c53b69f4c26d0e381b007ff8"
+            }
+          }
         }
       ],
       "version": "1",
@@ -151,7 +233,20 @@
           "item_id": "EXAMPLE-ITEM-METAEX",
           "role": "source_of_explanation",
           "source_uri": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/structural-awareness/SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md",
-          "locator": "sections 4 and 6"
+          "locator": "sections 4 and 6",
+          "hook": {
+            "binding": "atlas-item-reference-v0.1",
+            "item_id": "EXAMPLE-ITEM-METAEX",
+            "uri": "source-review-cycle.json",
+            "locator": {
+              "json_pointer": "/items/0"
+            },
+            "source_selection": {
+              "uri": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/structural-awareness/SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md",
+              "locator": "sections 4 and 6",
+              "revision": "51fc686f45b6ef10c53b69f4c26d0e381b007ff8"
+            }
+          }
         }
       ],
       "version": "1",
