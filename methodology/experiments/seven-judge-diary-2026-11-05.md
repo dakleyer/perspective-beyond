@@ -1,6 +1,6 @@
 # Seven-judge Atlas review — experiment diary
 
-Updated: 2026-11-05T09:24:54.515806+00:00
+Updated: 2026-11-05T10:29:15.792841+00:00
 
 This is a process record for the [seven-judge method](../seven-judge-epistemic-review.md).
 It is kept outside the independent reviewers' input packet.
@@ -49,9 +49,9 @@ does not measure inference cost.
 
 ## Next recorded checkpoint
 
-All three independent passes are sealed. Compare reasons and sources, retain unresolved alternatives,
-then begin the separate factor review from its adopted ABCD inputs. Apply only a source-needed local
-amendment with an exact difference and preservation check.
+Complete source-based consolidation of this initial departure batch and register the later-prefix queue.
+The independent panels do not establish completed traversal of the whole graph. Each supported A/B/C
+prefix continues toward its own D boundary; each actual cut keeps its distinct recorded cause.
 
 ## Actual post-seal reviewer comments
 
@@ -84,13 +84,14 @@ This was one actual post-seal exchange, not a simulated conversation or a genera
 ## Reading-packet improvement
 
 Several independent post-seal comments suggested reducing repeated metadata and improving source
-navigation. A neutral index now groups existing selectors from 37 endpoint cards into 22 source/revision
-groups and merges adjacent line ranges while retaining the original selectors. It contains no source
-text, verdict or new source assertion. It is a navigation aid for the next panel.
+navigation. The neutral index initially covered endpoint selectors. It now groups existing selectors
+from 37 endpoint cards and the original relationship-support references into
+31 source/revision groups. Adjacent line ranges are merged while all original
+selectors remain. The index contains no source text, verdict or new source assertion.
 
 ## Separate factor-panel checkpoint
 
-The factor packet contains 33 adopted A/B occurrences; seven C occurrences and one unresolved relation are excluded without factor exploration. The planned panel has 21 fresh runs and 693 judgments. Received at this update: 9 runs and 297 judgments. ABCD remains fixed; no factor is assigned from a letter alone.
+The factor packet contains 33 adopted A/B occurrences; seven C occurrences and one unresolved relation are excluded without factor exploration. The planned panel has 21 fresh runs and 693 judgments. Received at this update: 21 runs and 693 judgments. ABCD remains fixed; no factor is assigned from a letter alone.
 Factor J1, pass 1: section headings made public passages findable when reader-generated line numbers differed from the registered display lines.
 
 Factor J2, pass 1: separating mathematical comparisons from specified conditional procedures required the most judgment. The neutral source index helped consolidate reading. Explicit UTF-8 handling was needed for accented Windows paths; corrected retrieval matched the registered local-source hashes.
@@ -104,3 +105,38 @@ Factor J5, pass 1: original selectors helped distinguish availability from proce
 Factor J6, pass 1: the WordPress route confirmed original revisions after web-reader failures; recording that route would avoid repeated retrieval attempts.
 
 Factor J7, pass 1: the same retention source supplied different functions under different origin questions. Exact positioning prevented automatic factor reuse.
+
+Factor J3, pass 2: original conditions and sequences helped separate input preservation from processing. The reviewer suggested indexing the original passages supporting relationships as well as endpoint cards.
+
+Factor J5, pass 2: the reviewer suggested explicitly identifying the primary objective of an occurrence before delimiting collateral effects. This remains a future method suggestion, outside the current blind input.
+
+Factor J1, pass 3: some B links supply input prerequisites. The reviewer preserved their meaning through abstention instead of calling them F2 when F1 was outside the profile.
+
+## A citation-binding defect and its separate correction
+
+Post-seal source comparison found a serialization error in one factor run. A shared loop binding
+attached the catalogue identity to original-paper selectors. This affected 119
+citation sites across 33 occurrence records; one catalogue citation was correctly bound. The original
+source-read inventory retained the intended originals. Structural coverage validation had passed,
+which demonstrates why identifier membership and a matching record count do not validate a citation.
+
+The sealed file remains byte-identical. A separate citation-only erratum maps every affected JSON
+pointer to its original item, revision and passage, tied to the pre-seal source-read entry. Roles,
+reasons, alternatives and passage selectors are unchanged. It is not another independent vote.
+
+A second reviewer checked every correction against the sealed record, registered hooks and original source locations. The human reader displays the erratum with the affected judgments.
+
+## Consolidated first-batch checkpoint
+
+The ABCD panel sealed 21 runs with 861 judgments; the factor panel sealed 21 runs with 693 judgments
+on 33 adopted A/B occurrences. All 42 contexts were isolated during elicitation. Consolidation reads
+reasons and original passages, retaining minority alternatives rather than adopting a majority.
+
+The first ABCD batch adopts 13 A, 20 B and 7 C occurrences; one predicate/direction question remains
+open. No first-B terminal has been imposed and no complete-to-D path is claimed by this initial batch.
+The next-prefix register contains 329 candidates, 40 cycle cuts and one pending assessment. The other
+14,622 initial relationships also remain outside this first 41-occurrence panel.
+
+Factor consolidation records 33 positioned readings. Factors remain a separate overlay;
+the source cards, original items, Level 1 relationships and sealed ABCD records remain unchanged.
+The accepted local card clarification above is still a proposal, not an applied edit.
