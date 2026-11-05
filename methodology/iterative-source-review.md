@@ -144,6 +144,18 @@ A cycle closes when the selected source units have recorded dispositions, accept
 
 The next cycle can start from the remaining queue, a changed source, an unexpected relationship or a question raised by a newly developed card. Source review and relation discovery therefore reinforce each other: a new relationship can expose a missing distinction, and a newly distinguished node can make a previously vague relationship precise.
 
+## Planned: item freshness and review cadence
+
+**Status: documented requirement for future implementation.**
+
+Every item should carry a freshness policy explaining how often its source and Atlas representation need to be reviewed. The cadence should reflect the source's type, rate of change and significance to the concepts it supports.
+
+When this requirement is implemented, record the last verification date and source revision, the recommended review interval and its rationale, and the next review point. Also identify changes that justify an earlier review, such as a new source revision, a corrected claim or a moved source.
+
+Distinguish a fixed historical source from a continuously updated page: an older publication can remain accurately represented, while a live source may require frequent checks. Review source accessibility and fidelity of the linked node explanations separately.
+
+For now, this is a planning note only. No item fields, review schedules, automatic checks or freshness mechanisms are introduced.
+
 ## A source-grounded example
 
 The [meta-existence and evaluability calculus](https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/structural-awareness/SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md), section 6, considers a search over a set S and a subset T. A qualified proof that the target property is false on S outside T preserves the existential answer when searching only T. Its finite-work comparison additionally prices certificate verification.
