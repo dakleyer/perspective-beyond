@@ -63,6 +63,14 @@ Matching letters alone do not establish substantive agreement. Different letters
 
 An adopted role needs a source-supported explanation that satisfies its recognition criteria. A reasoned objection about mathematical validity, source identity, direction or position remains open until the specific evidence resolves it. A majority cannot turn missing evidence into an observed result.
 
+### Evidence binding and citation-only errata
+
+Structural validation checks coverage, identifier types, permitted factors and sealed fingerprints. A separate source audit checks that each item ID, URI, revision and passage selector identify the same original. Membership in the item register alone does not validate that binding. A line selector from a mathematical paper cannot be attached to a catalogue simply because the catalogue is a registered item.
+
+If a sealed record contains a citation serialization error, preserve it byte-for-byte. A separate erratum identifies the exact JSON pointer, original binding, corrected binding and the pre-seal source-read entry supporting the correction. Another reviewer checks every mapping. Unsupported mappings remain unresolved. A correction to a citation does not become a new vote or silently change a role, reason, alternative or reading claim.
+
+The human reader displays the defect and its erratum together. Consolidation uses verified original passages and retains the defective references as provenance records. A correction cannot retroactively claim that an unread source was read.
+
 ## 5. Controlled convergence without a debating crowd
 
 Independent judgments come first. Only after they are sealed may the integrator identify two or more judges who independently noticed the same missing distinction.
