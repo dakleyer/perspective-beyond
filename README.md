@@ -66,3 +66,9 @@ The web edition reproduces every public Atlas file and adds linked HTML pages fo
 In this phase, the Atlas complements website navigation and understanding. Each page is an entry point to its cards, concepts, cases and sources; it retains the source URL and allows readers to go deeper, connect ideas and return to the original text. The test compares these guided journeys with conventional web navigation through tokens consumed, source relevance and understanding of the corpus.
 
 [Contract, integration and test protocol](docs/atlas/web-navigation.md).
+
+## Iterative source review and node discovery
+
+[Read the source-review method](methodology/iterative-source-review.md) · [Run the implementation example](methodology/examples/source-review-cycle.json)
+
+Return to identified source revisions, compare their arguments with existing cards, enrich incomplete explanations and develop missing nodes and specific relationships. The method records covered ideas, new facets, source decisions and preservation checks for each incremental cycle.
