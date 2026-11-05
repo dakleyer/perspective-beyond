@@ -1,6 +1,6 @@
 # Seven-judge Atlas review — experiment diary
 
-Updated: 2026-11-05T08:30:27.570809+00:00
+Updated: 2026-11-05T09:24:54.515806+00:00
 
 This is a process record for the [seven-judge method](../seven-judge-epistemic-review.md).
 It is kept outside the independent reviewers' input packet.
@@ -87,3 +87,20 @@ Several independent post-seal comments suggested reducing repeated metadata and 
 navigation. A neutral index now groups existing selectors from 37 endpoint cards into 22 source/revision
 groups and merges adjacent line ranges while retaining the original selectors. It contains no source
 text, verdict or new source assertion. It is a navigation aid for the next panel.
+
+## Separate factor-panel checkpoint
+
+The factor packet contains 33 adopted A/B occurrences; seven C occurrences and one unresolved relation are excluded without factor exploration. The planned panel has 21 fresh runs and 693 judgments. Received at this update: 9 runs and 297 judgments. ABCD remains fixed; no factor is assigned from a letter alone.
+Factor J1, pass 1: section headings made public passages findable when reader-generated line numbers differed from the registered display lines.
+
+Factor J2, pass 1: separating mathematical comparisons from specified conditional procedures required the most judgment. The neutral source index helped consolidate reading. Explicit UTF-8 handling was needed for accented Windows paths; corrected retrieval matched the registered local-source hashes.
+
+Factor J3, pass 1: original anchors helped distinguish available evidence from effective processing. Explicit actor and use-state information would support future review.
+
+Factor J4, pass 1: descendant-paragraph numbering supported checking Word content including tables; explicit Unicode handling resolved console substitutions.
+
+Factor J5, pass 1: original selectors helped distinguish availability from processing in retention links. Presenting each complete endpoint once would reduce duplicated metadata and reading load.
+
+Factor J6, pass 1: the WordPress route confirmed original revisions after web-reader failures; recording that route would avoid repeated retrieval attempts.
+
+Factor J7, pass 1: the same retention source supplied different functions under different origin questions. Exact positioning prevented automatic factor reuse.
