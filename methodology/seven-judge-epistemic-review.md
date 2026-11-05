@@ -15,7 +15,9 @@ The meanings remain those of [00M v0.8, section 1](https://github.com/dakleyer/s
 
 The [Atlas traversal procedure, section 4](https://github.com/dakleyer/structural-awareness-contributions/blob/atlas/phase-2-epistemic-distance-20261104/research/structural-awareness/atlas-phase-2/PROCEDIMIENTO_LENGUAJE_Y_RECORRIDOS_v0.2.md) governs continuity, relevance and direction. An irrelevant step is cut for lack of relevance. A judgment with insufficient grounds remains open for review. Consecutive C steps are possible. Tags help identify descriptions and source conditions; they do not determine ABCD by themselves.
 
-A stopping profile is stated separately from the meanings of A/B/C/D. The stored procedure continues through A/B/C and terminates a branch at D. A requested first-B boundary would need its own identified profile. Classifying a step can proceed before selecting a stopping profile, but completion claims must name the profile actually used.
+The confirmed stopping rule follows the canonical procedure: continue through A/B/C and terminate that branch at D. Iván explicitly corrected an earlier first-B transcription. B is not a traversal terminal. Irrelevance, cycles, unavailable judgments, budget limits and end-of-graph keep their own recorded causes; they are not renamed D.
+
+The separate, restricted Jumps & Falls review does not change that rule. Its current pilot evaluates F1–F4 only on already qualified A/B occurrences. C remains available for ABCD continuation toward D, while its F reading stays outside this experiment's scope.
 
 ## 2. Seven criteria, shared responsibility
 
@@ -104,3 +106,33 @@ Coverage is reported by origin and positioned path occurrence, judge and pass. D
 For every declared batch, report expected and received judgments, omitted occurrences, source-read scope, agreement and disagreement, accepted or rejected amendments, actual path terminals and the remaining queue. Initial departure registration, semantic assessment and completed traversal are different completed activities.
 
 The process remains incremental: a new source distinction can improve a card, create a useful relationship or change a later situated qualification. Earlier nodes, edges and reviewed positions remain part of the record.
+
+## 9. A separate seven-judge reading for Jumps & Falls
+
+The same seven criteria and three fresh-context passes can examine the functional reading after ABCD has been qualified. Each factor belongs to a positioned occurrence, never to the Level 1 edge or node globally. Each assigned factor has its own source-based reason. Multiple factors and an explicit abstention are possible.
+
+The general source procedure defines F1 as input and cost of usable clarity, F2 as processing and proportional means, F3 as output/objective/value, and F4 as collateral effects. F4 is transverse to the input–processing–output chain. These are Jumps & Falls factors, not similarly named factors in other research architectures.
+
+Iván's **restricted experimental profile of 5 November 2026** has the following eligibility:
+
+| ABCD occurrence | Factors eligible for examination | Treatment |
+| --- | --- | --- |
+| A | JF.F1, JF.F2, JF.F3 | Examine actual input, processing and output functions where the declared activity supports that reading. |
+| B | JF.F2, JF.F3, JF.F4 | F4 is the predominant expected reading; F2 or F3 can also be justified by the actual function. No factor follows automatically from B. |
+| C | None in this profile | Record `excluded_by_scope`; continue the ABCD analysis without exploring a JF factor here. |
+| D | None in this profile | Record `excluded_by_scope` and stop this ABCD branch at its genuine D boundary. |
+| Unresolved ABCD | None yet | Preserve the unresolved assessment; do not use a factor to decide its ABCD role. |
+
+Under this bounded profile F1 is examined on A, and F4 only on B. This is a local experimental scope, not a redefinition of the general factor meanings: the earlier source procedure permits wider factor/component combinations. Its examples and history remain identifiable. Later expansion requires a named profile revision.
+
+Reviewers distinguish `not_applicable` (the declared activity does not support the transformation lens), `review_pending` (eligible but insufficiently supported), and `excluded_by_scope` (C/D or unresolved ABCD in this profile). A mathematical or documentary card does not acquire a business process by being read with the factor vocabulary.
+
+ABCD observations are sealed before the factor panel receives its adopted ABCD inputs. Factor judges do not read peer factor verdicts. Their criteria respectively challenge source fidelity, formal conditions, operating mechanism, whole-path fit, factor alternatives, explanation/tag precision, and distortion. Comparison remains source-based, without majority adoption or forced F4 assignment.
+
+## 10. Experiment diary without conditioning the judgments
+
+A separate process diary records what actually happened: inputs read, access or identity problems, observed effort, points that required interpretation, useful information and proposed improvements to the method. It references the sealed judgment records rather than rewriting them.
+
+Judges make short process observations **after sealing**. The diary distinguishes a verbatim comment, an integrator's summary and a measured metric. It never invents dialogue, time measurements or agreement. Only an actual bounded reconciliation exchange is recorded as a conversation.
+
+The diary is not part of a fresh judge's input packet. An operational repair can be recorded and made available neutrally when necessary; interpretive observations remain outside blind input. A method change takes a versioned decision with its reason. The amount of disagreement, difficulty or agreement alone does not decide a node's meaning.
