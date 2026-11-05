@@ -69,6 +69,16 @@ Use the existing dictionary keys with their declared types. Typical useful prope
 
 Every source reference states its role and a locator. A paper may supply a definition, an earlier case may supply an operating example, and a later paper may supply an analytical comparison. Those roles belong to the relevant claims in the card.
 
+### Explicit node-to-item hooks
+
+Every node's `item_refs` entry includes an explicit resolution hook to the registered item card. The item card owns the original-source hook. The resulting path is **node → item card → source**, with the node reference also preserving the particular source selection used for its explanation.
+
+The reference hook records the existing `item_id`, the item-card file URI and an exact JSON pointer to that card. Its `source_selection` keeps the original passage locator and the recorded revision or observation state. A reference that selects the entire item uses `{"kind":"whole_item"}`; adding the hook does not invent a paragraph or a more precise source claim. The role, source URI, revision and locator already recorded in `item_refs` remain intact.
+
+This is a resolved representation of `trace:item_refs`. It introduces no new conceptual node, relationship or taxonomy key. Existing IDs and source hooks continue to identify the same objects. Loaders can expose `resolve_item_ref(node_id, reference_index)`, and human readers provide an **Open item card** link beside each source reference.
+
+Validate the complete path: the reference resolves to its named item, the item resolves to its inventory record, and the selected URI and locator match the recorded source reference. Check local source targets where available. Report remote retrieval separately from identity resolution.
+
 Keep existing IDs. A newly separated facet receives a new stable ID and a relationship to the earlier card. An enriched card retains its prior wording or revision through the established record history. Additions preserve earlier item, node and edge identities.
 
 ## 6 Search for relationships after the node is understood
@@ -152,6 +162,6 @@ Run the [standard-library checker](verify_source_review.py) from the repository 
 python methodology/verify_source_review.py methodology/examples/source-review-cycle.json --self-test
 ```
 
-The checker exercises identity preservation, recorded enrichment, source resolution, endpoint integrity, relationship explanations and the separation of level 1 edges from situated walk assessments. Its five negative cases remove an earlier node, alter an earlier predicate, erase a rationale, break a source reference and place a global A/B/C/D label on an edge. Apply this structural check after the semantic source comparison described above.
+The checker exercises identity preservation, recorded enrichment, source resolution, explicit node-to-item hooks, endpoint integrity, relationship explanations and the separation of level 1 edges from situated walk assessments. Its eight negative cases remove an earlier node, alter an earlier predicate, erase a rationale, break a source reference, place a global A/B/C/D label on an edge, remove a node-to-item hook, redirect that hook to a node, and remove the item's source hook. Apply this structural check after the semantic source comparison described above.
 
 The example serializes endpoint IDs as `from` and `to`. An adapter can also read `source` and `target` with the same meaning and checks for conflicting aliases. The conceptual predicate and its direction remain explicit in either encoding.
