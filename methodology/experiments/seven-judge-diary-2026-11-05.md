@@ -1,6 +1,6 @@
 # Seven-judge Atlas review — experiment diary
 
-Updated: 2026-11-05T08:25:38.369918+00:00
+Updated: 2026-11-05T08:30:27.570809+00:00
 
 This is a process record for the [seven-judge method](../seven-judge-epistemic-review.md).
 It is kept outside the independent reviewers' input packet.
@@ -49,7 +49,7 @@ does not measure inference cost.
 
 ## Next recorded checkpoint
 
-Complete the three independent passes, compare reasons and sources, retain unresolved alternatives,
+All three independent passes are sealed. Compare reasons and sources, retain unresolved alternatives,
 then begin the separate factor review from its adopted ABCD inputs. Apply only a source-needed local
 amendment with an exact difference and preservation check.
 
@@ -70,3 +70,20 @@ J4, pass 3: explicit questions and original counterexamples helped separate char
 J1, pass 3: the declared positions and source-voice distinctions helped separate documentary results from applications still to be undertaken. A more compact reading view could hide identical repeated fields while retaining every source locator.
 
 J2, pass 3: distinguishing a documentary construction from an operational application required care. Declared positions and exact source locators helped. A useful further check is to distinguish record counts from the operational entities represented when examining a termination argument.
+
+## One actual bounded reconciliation
+
+After all 21 independent files were sealed, two reviewers independently identified the same missing
+source distinction. The integrator offered one short explanatory addition while preserving the retained
+abstract. One reviewer accepted it; the other accepted it with a local wording correction expressing
+a required check rather than an action already performed. Both retained the relevant ABCD judgment.
+The original sealed files were unchanged. The clarification is accepted but has not been applied to a node.
+
+This was one actual post-seal exchange, not a simulated conversation or a general negotiating round.
+
+## Reading-packet improvement
+
+Several independent post-seal comments suggested reducing repeated metadata and improving source
+navigation. A neutral index now groups existing selectors from 37 endpoint cards into 22 source/revision
+groups and merges adjacent line ranges while retaining the original selectors. It contains no source
+text, verdict or new source assertion. It is a navigation aid for the next panel.
