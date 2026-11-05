@@ -1,6 +1,6 @@
 # Seven-judge Atlas review — experiment diary
 
-Updated: 2026-11-05T07:01:42.385663+00:00
+Updated: 2026-11-05T08:08:31.034946+00:00
 
 This is a process record for the [seven-judge method](../seven-judge-epistemic-review.md).
 It is kept outside the independent reviewers' input packet.
@@ -9,7 +9,7 @@ It is kept outside the independent reviewers' input packet.
 
 The first batch examines 41 direct forward relationship occurrences under 19 declared positions.
 Seven criteria are reviewed in three fresh-context passes: 21 runs and 861 expected judgments.
-At this update, 14 sealed files and 574 judgments have been received.
+At this update, 18 sealed files and 738 judgments have been received.
 These are file/coverage counts, not a measure of semantic correctness or completed later paths.
 
 ## Integrator observations
@@ -52,3 +52,15 @@ does not measure inference cost.
 Complete the three independent passes, compare reasons and sources, retain unresolved alternatives,
 then begin the separate factor review from its adopted ABCD inputs. Apply only a source-needed local
 amendment with an exact difference and preservation check.
+
+## Actual post-seal reviewer comments
+
+These are faithful English process summaries of individual final responses, not inter-judge conversations.
+
+J3, pass 3: explicit positions and the complete original document helped distinguish characterized mechanisms from incomplete analogies. A semantic reading view without duplicated metadata could reduce effort while retaining the complete records.
+
+J4, pass 3: explicit questions and original counterexamples helped separate characterized support from exploratory analogy. A compact index of original passages, without prior verdicts, would improve the input packet.
+
+J1, pass 3: the declared positions and source-voice distinctions helped separate documentary results from applications still to be undertaken. A more compact reading view could hide identical repeated fields while retaining every source locator.
+
+J2, pass 3: distinguishing a documentary construction from an operational application required care. Declared positions and exact source locators helped. A useful further check is to distinguish record counts from the operational entities represented when examining a termination argument.
