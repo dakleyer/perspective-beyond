@@ -118,12 +118,12 @@ Iván's **restricted experimental profile of 5 November 2026** has the following
 | ABCD occurrence | Factors eligible for examination | Treatment |
 | --- | --- | --- |
 | A | JF.F1, JF.F2, JF.F3 | Examine actual input, processing and output functions where the declared activity supports that reading. |
-| B | JF.F2, JF.F3, JF.F4 | F4 is the predominant expected reading; F2 or F3 can also be justified by the actual function. No factor follows automatically from B. |
+| B | JF.F2, JF.F3, JF.F4 | This is the region in which F4 is examined; F2 or F3 can also be justified by the actual function. No factor follows automatically from B. |
 | C | None in this profile | Record `excluded_by_scope`; continue the ABCD analysis without exploring a JF factor here. |
 | D | None in this profile | Record `excluded_by_scope` and stop this ABCD branch at its genuine D boundary. |
 | Unresolved ABCD | None yet | Preserve the unresolved assessment; do not use a factor to decide its ABCD role. |
 
-Under this bounded profile F1 is examined on A, and F4 only on B. This is a local experimental scope, not a redefinition of the general factor meanings: the earlier source procedure permits wider factor/component combinations. Its examples and history remain identifiable. Later expansion requires a named profile revision.
+Under this bounded profile F1 is examined on A, and F4 only on B. The requested predominance concerns where the factors operate; it supplies no quota or statistical prior saying that most B occurrences must be F4. This is a local experimental scope, not a redefinition of the general factor meanings: the earlier source procedure permits wider factor/component combinations. Its examples and history remain identifiable. Later expansion requires a named profile revision.
 
 Reviewers distinguish `not_applicable` (the declared activity does not support the transformation lens), `review_pending` (eligible but insufficiently supported), and `excluded_by_scope` (C/D or unresolved ABCD in this profile). A mathematical or documentary card does not acquire a business process by being read with the factor vocabulary.
 
