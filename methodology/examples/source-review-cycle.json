@@ -1,0 +1,183 @@
+{
+  "schema": "perspective-beyond/source-review-implementation-example-v0.1",
+  "example_role": "Implementation fixture with illustrative IDs and source-grounded content; these IDs do not claim to be a production inventory.",
+  "items": [
+    {
+      "id": "EXAMPLE-ITEM-METAEX",
+      "kind": "public repository document",
+      "hook": {
+        "uri": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/structural-awareness/SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md",
+        "revision": "51fc686f45b6ef10c53b69f4c26d0e381b007ff8"
+      }
+    }
+  ],
+  "baseline": {
+    "node_ids": [
+      "EXAMPLE-SOURCE",
+      "EXAMPLE-SEARCH"
+    ],
+    "relation_ids": [
+      "EXAMPLE-PRIOR"
+    ],
+    "node_hashes": {
+      "EXAMPLE-SOURCE": "60605d3e640affa589244889358471f6b73df3eb90e682f0fca1b05b3dfcf6e6",
+      "EXAMPLE-SEARCH": "c6f3722e2966230c61d153f35134da2e6e416883de13ca55c672bb464fd92574"
+    },
+    "relation_hashes": {
+      "EXAMPLE-PRIOR": "f56fbc016e950077685b5aab0b898d2d27418c898631919814ab05362b9b6ed0"
+    }
+  },
+  "nodes": [
+    {
+      "id": "EXAMPLE-SOURCE",
+      "record_type": "node",
+      "label": "Meta-existence and evaluability calculus",
+      "description": "The source distinguishes qualified existence-guided exploration from exclusion-guided restriction of a target search.",
+      "item_refs": [
+        {
+          "item_id": "EXAMPLE-ITEM-METAEX",
+          "role": "source_of_explanation",
+          "source_uri": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/structural-awareness/SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md",
+          "locator": "sections 4–6"
+        }
+      ],
+      "version": "1",
+      "evidence_status": "public_source_reading",
+      "etiquetas": []
+    },
+    {
+      "id": "EXAMPLE-SEARCH",
+      "record_type": "node",
+      "label": "A task-scoped search",
+      "description": "The existential question asks whether some member of the specified candidate region satisfies the target predicate.",
+      "item_refs": [
+        {
+          "item_id": "EXAMPLE-ITEM-METAEX",
+          "role": "source_of_explanation",
+          "source_uri": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/structural-awareness/SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md",
+          "locator": "section 6"
+        }
+      ],
+      "version": "1",
+      "evidence_status": "public_source_reading",
+      "etiquetas": []
+    },
+    {
+      "id": "EXAMPLE-PRUNING",
+      "record_type": "node",
+      "label": "Certified task-preserving restriction",
+      "description": "If a qualified proof excludes the target property throughout S outside T, searching T preserves the existential answer over S. The proof is scoped to this target and region.",
+      "item_refs": [
+        {
+          "item_id": "EXAMPLE-ITEM-METAEX",
+          "role": "source_of_explanation",
+          "source_uri": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/structural-awareness/SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md",
+          "locator": "section 6, SA-E3"
+        }
+      ],
+      "version": "1",
+      "evidence_status": "public_source_reading",
+      "etiquetas": []
+    },
+    {
+      "id": "EXAMPLE-COST",
+      "record_type": "node",
+      "label": "The priced finite-work comparison",
+      "description": "For N original candidates, n remaining candidates and certificate verification cost v in common test units, the specified restricted exhaustive route costs at most v+n. It improves that baseline when v+n<N.",
+      "item_refs": [
+        {
+          "item_id": "EXAMPLE-ITEM-METAEX",
+          "role": "source_of_explanation",
+          "source_uri": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/structural-awareness/SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md",
+          "locator": "section 6, finite-work corollary"
+        }
+      ],
+      "version": "1",
+      "evidence_status": "public_source_reading",
+      "etiquetas": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "EXAMPLE-PRIOR",
+      "record_type": "edge",
+      "from": "EXAMPLE-SOURCE",
+      "to": "EXAMPLE-SEARCH",
+      "predicate": "examines",
+      "reason": "The source formulates the target search before comparing exploration and restriction routes.",
+      "semantic_direction": "directed",
+      "item_refs": [
+        {
+          "item_id": "EXAMPLE-ITEM-METAEX",
+          "role": "source_of_explanation",
+          "source_uri": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/structural-awareness/SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md",
+          "locator": "sections 4 and 6"
+        }
+      ],
+      "version": "1",
+      "evidence_status": "source_grounded_comparison",
+      "etiquetas": []
+    },
+    {
+      "id": "EXAMPLE-RESTRICT",
+      "record_type": "edge",
+      "from": "EXAMPLE-SEARCH",
+      "to": "EXAMPLE-PRUNING",
+      "predicate": "admits a certified task-preserving restriction",
+      "reason": "The excluded region is proved unable to contain a target witness, so the smaller search retains the answer.",
+      "semantic_direction": "directed",
+      "item_refs": [
+        {
+          "item_id": "EXAMPLE-ITEM-METAEX",
+          "role": "source_of_explanation",
+          "source_uri": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/structural-awareness/SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md",
+          "locator": "sections 4 and 6"
+        }
+      ],
+      "version": "1",
+      "evidence_status": "source_grounded_comparison",
+      "etiquetas": []
+    },
+    {
+      "id": "EXAMPLE-PRICE",
+      "record_type": "edge",
+      "from": "EXAMPLE-PRUNING",
+      "to": "EXAMPLE-COST",
+      "predicate": "has a separate verification-cost condition",
+      "reason": "The equivalence preserves the target answer; the finite-work inequality prices the restricted route against its named exhaustive baseline.",
+      "semantic_direction": "directed",
+      "item_refs": [
+        {
+          "item_id": "EXAMPLE-ITEM-METAEX",
+          "role": "source_of_explanation",
+          "source_uri": "https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/structural-awareness/SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md",
+          "locator": "sections 4 and 6"
+        }
+      ],
+      "version": "1",
+      "evidence_status": "source_grounded_comparison",
+      "etiquetas": []
+    }
+  ],
+  "enrichments": [],
+  "decisions": [
+    {
+      "source_locator": "section 6, SA-E3",
+      "question": "Which restriction preserves the target search answer?",
+      "disposition": "add_node",
+      "output_node_ids": [
+        "EXAMPLE-PRUNING"
+      ],
+      "reason": "The general search card does not yet explain the certified exclusion condition."
+    },
+    {
+      "source_locator": "section 6, finite-work corollary",
+      "question": "When is that restricted exhaustive route cheaper?",
+      "disposition": "add_node",
+      "output_node_ids": [
+        "EXAMPLE-COST"
+      ],
+      "reason": "Correct restriction and a lower total work account are different questions."
+    }
+  ]
+}
